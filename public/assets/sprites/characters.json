@@ -1,0 +1,23 @@
+{
+  "frameWidth": 16,
+  "frameHeight": 16,
+  "columns": 9,
+  "dirs": [
+    "down",
+    "up",
+    "left"
+  ],
+  "framesPerDir": 3,
+  "characters": [
+    "player",
+    "linh",
+    "tuan",
+    "sarah",
+    "dave",
+    "emma",
+    "raj",
+    "kenji",
+    "mike",
+    "robert"
+  ]
+}
