@@ -1,6 +1,7 @@
 import type { EmailOtpType } from "@supabase/supabase-js";
 import { NextResponse } from "next/server";
 import { createClient } from "@/lib/supabase/server";
+import { safeAuthNext } from "@/lib/auth/redirect";
 
 /** token_hash verification (email change / confirmation links from custom templates). */
 export async function GET(req: Request) {
@@ -10,7 +11,13 @@ export async function GET(req: Request) {
   if (token_hash && type) {
     const supabase = await createClient();
     const { error } = await supabase.auth.verifyOtp({ token_hash, type });
-    if (!error) return NextResponse.redirect(new URL("/", url.origin));
+    if (!error) {
+      const next = safeAuthNext(
+        url.searchParams.get("next"),
+        type === "recovery" ? "/account/password" : "/",
+      );
+      return NextResponse.redirect(new URL(next, url.origin));
+    }
   }
   return NextResponse.redirect(new URL("/login?error=link", url.origin));
 }

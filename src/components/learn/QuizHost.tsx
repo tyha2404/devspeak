@@ -1,6 +1,7 @@
 "use client";
 
 import { useCallback, useEffect, useRef, useState } from "react";
+import { LoadingState } from "@/components/app/LoadingState";
 import { api, ApiError } from "@/lib/client/api";
 import type { AnswerResult, DeliveryView, QuizResponse, SessionDone } from "@/lib/contracts/quiz";
 import { sfx } from "@/lib/client/sfx";
@@ -124,7 +125,7 @@ export function QuizHost({
   }, [result, next]);
 
   if (error) return <p className="text-bad">{error}</p>;
-  if (!delivery) return <p>Đang tải câu hỏi…</p>;
+  if (!delivery) return <LoadingState compact />;
 
   const props = {
     disabled: busy || !!result,

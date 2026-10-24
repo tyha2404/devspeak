@@ -4,6 +4,7 @@ import { Volume2 } from "lucide-react";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { btn } from "@/components/app/ui";
+import { LoadingState } from "@/components/app/LoadingState";
 import { QuizHost } from "@/components/learn/QuizHost";
 import { api } from "@/lib/client/api";
 import { speak } from "@/lib/client/tts";
@@ -73,7 +74,7 @@ export function ReviewClient() {
     if (queue && index >= queue.cards.length && done > 0) void useMe.getState().load();
   }, [queue, index, done]);
 
-  if (!queue) return <p className="text-muted">Đang tải…</p>;
+  if (!queue) return <LoadingState />;
   if (!queue.cards.length || index >= queue.cards.length) {
     return (
       <div className="border-line bg-surface rounded-2xl border p-6">

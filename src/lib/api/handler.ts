@@ -31,6 +31,7 @@ export const fail = (code: ApiErrorCode, message: string, status: number) =>
 interface Ctx {
   userId: string;
   isGuest: boolean;
+  email: string | null;
   supabase: Awaited<ReturnType<typeof createClient>>;
 }
 
@@ -77,6 +78,7 @@ export function withUser<S extends z.ZodType | undefined = undefined>(
         {
           userId: claims.sub,
           isGuest: claims.is_anonymous === true,
+          email: typeof claims.email === "string" && claims.email ? claims.email : null,
           supabase,
           input: input as S extends z.ZodType ? z.infer<S> : undefined,
         },

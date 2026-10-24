@@ -1,7 +1,6 @@
 "use client";
 
 import Link from "next/link";
-import { useEffect } from "react";
 import { GrowthTree } from "@/components/app/GrowthTree";
 import { TrackCard } from "@/components/app/TrackCard";
 import { btn } from "@/components/app/ui";
@@ -10,9 +9,6 @@ import { useMe } from "@/stores/meStore";
 /** Front page of the study tracks: next grammar lesson, the growth tree, and both tracks. */
 export function TracksHome() {
   const home = useMe((s) => s.home);
-  useEffect(() => {
-    void useMe.getState().load();
-  }, []);
   if (!home) return null;
   const grammar = home.tracks.find((t) => t.track === "grammar");
   const vocab = home.tracks.find((t) => t.track === "vocab");

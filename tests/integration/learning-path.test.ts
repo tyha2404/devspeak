@@ -168,6 +168,11 @@ describe("guest merge", () => {
     expect(r).toMatchObject({ merged: true, cards: 10 });
     expect(await xpOf(owner)).toBe(80);
     expect(await stateOf(owner, "t01-l2")).toBe("available");
+    const { count: answers } = await admin
+      .from("user_answers")
+      .select("id", { count: "exact", head: true })
+      .eq("user_id", owner);
+    expect(answers).toBe(16);
     const { data: gone } = await admin.auth.admin.getUserById(guestId);
     expect(gone.user).toBeNull();
   });

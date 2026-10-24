@@ -4,6 +4,7 @@ import { Check, Lock, Star, X } from "lucide-react";
 import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { btn } from "@/components/app/ui";
+import { LoadingState } from "@/components/app/LoadingState";
 import { api } from "@/lib/client/api";
 import type { GlossEntry } from "@/lib/contracts/learn";
 import type { PathLesson, PathStage, PathUnit } from "@/lib/contracts/learn";
@@ -46,7 +47,7 @@ export function TrackClient({ track }: { track: StudyTrack }) {
       .catch(() => setStage(null));
   }, [track]);
 
-  if (stage === undefined) return <p className="text-muted">Đang tải…</p>;
+  if (stage === undefined) return <LoadingState />;
   if (!stage) return <p className="text-muted">Lộ trình này chưa có nội dung.</p>;
   const unit = stage.units.find((u) => u.id === unitId) ?? stage.units[0];
 
@@ -350,7 +351,9 @@ function TopicHeader({ unit }: { unit: PathUnit }) {
           </button>
         </div>
         {!words ? (
-          <p className="text-muted p-5">Đang tải…</p>
+          <div className="p-5">
+            <LoadingState compact />
+          </div>
         ) : (
           <ol className="divide-line divide-y">
             {words.map((w, i) => (

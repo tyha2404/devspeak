@@ -3,6 +3,7 @@
 import { Check, X } from "lucide-react";
 import { useCallback, useEffect, useRef, useState } from "react";
 import { btn } from "@/components/app/ui";
+import { LoadingState } from "@/components/app/LoadingState";
 import { api, ApiError } from "@/lib/client/api";
 import { sfx } from "@/lib/client/sfx";
 import type { AnswerResult, DeliveryView, QuizResponse, SessionDone } from "@/lib/contracts/quiz";
@@ -193,7 +194,7 @@ export function TrackQuiz({
   }, [result, next, view, submit]);
 
   if (error) return <p className="text-bad">{error}</p>;
-  if (!delivery || !view) return <p className="text-muted">Đang tải câu hỏi…</p>;
+  if (!delivery || !view) return <LoadingState compact />;
 
   const limit = (delivery.timeLimitSec ?? 20) * 1000;
   const secs = left === null ? null : Math.min(limit / 1000, Math.ceil(left / 1000));

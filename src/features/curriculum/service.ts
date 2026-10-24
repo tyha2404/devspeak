@@ -126,7 +126,12 @@ function describeNext(stages: PathStage[], next: NextStep | null): NextUp | null
   };
 }
 
-export async function home(db: SupabaseClient, userId: string, isGuest: boolean): Promise<Home> {
+export async function home(
+  db: SupabaseClient,
+  userId: string,
+  isGuest: boolean,
+  email: string | null = null,
+): Promise<Home> {
   const { data: p, error } = await db
     .from("profiles")
     .select(
@@ -182,6 +187,7 @@ export async function home(db: SupabaseClient, userId: string, isGuest: boolean)
     me: {
       displayName: p.display_name,
       isGuest,
+      email,
       xpTotal: p.xp_total,
       streak: alive ? p.streak_current : 0,
       streakFreezes: p.streak_freezes,

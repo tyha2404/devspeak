@@ -6,11 +6,15 @@ Everything below needs accounts this repo can't create for you. Order matters.
 
 1. Create a project (Pro plan for PITR backups at launch).
 2. `pnpm exec supabase link --project-ref <ref>` then `pnpm exec supabase db push` (all migrations in `supabase/migrations`).
-3. Auth → Providers: enable **Anonymous sign-ins**, **Email (magic link)**, **Google** (OAuth client from Google Cloud,
-   redirect `https://<ref>.supabase.co/auth/v1/callback`). Enable **manual identity linking**.
+3. Auth → Providers: enable **Anonymous sign-ins** and **Email (password, signup confirmation and password recovery)**.
+   Guest progress is merged into the registered account after authentication.
 4. Auth → URL configuration: Site URL = production URL; redirect URLs = `https://<domain>/auth/callback`.
 5. Auth → SMTP: custom SMTP (e.g. Resend). The built-in mailer is rate-limited and not for production.
    Use Vietnamese email templates (subject "Đăng nhập DevQuest English").
+   Keep the default confirmation URL for the PKCE `/auth/callback` flow. Custom templates using
+   `token_hash` must target `/auth/confirm?token_hash={{ .TokenHash }}&type=signup` (or `recovery`).
+   Recovery links without `next` open `/account/password`; other types open `/`.
+   Apply the signup display-name and guest-history migrations before enabling the new login UI.
 6. Auth → Captcha: Cloudflare Turnstile (secret here, site key in `NEXT_PUBLIC_TURNSTILE_SITE_KEY`).
 7. Seed content: `pnpm seed:all` with production `NEXT_PUBLIC_SUPABASE_URL`/`SUPABASE_SECRET_KEY` in the environment.
 8. Grant yourself admin: sign in once, then `pnpm grant-role you@example.com admin`.

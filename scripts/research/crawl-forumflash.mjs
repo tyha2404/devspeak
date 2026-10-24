@@ -1,0 +1,227 @@
+import assert from "node:assert/strict";
+import { createHash } from "node:crypto";
+import { mkdir, readFile, writeFile } from "node:fs/promises";
+import { resolve } from "node:path";
+import ts from "typescript";
+
+// Read public curriculum metadata without evaluating or executing third-party JavaScript.
+// Usage: node scripts/research/crawl-forumflash.mjs [html-file bundle-file]
+const siteUrl = "https://www.forumflashstudy.com/";
+const outputDir = resolve("data/research/forumflash-study");
+async function download(url) {
+  const response = await fetch(url, { signal: AbortSignal.timeout(30000) });
+  if (!response.ok) throw new Error(`Download failed: ${response.status} ${url}`);
+  return response.text();
+}
+const html = process.argv[2] ? await readFile(process.argv[2], "utf8") : await download(siteUrl);
+const scriptPath = html.match(/<script[^>]+src="([^"]*\/app\/page-[^"]+\.js[^"]*)"/u)?.[1];
+assert(scriptPath, "The public page script could not be located");
+const scriptUrl = new URL(scriptPath.replaceAll("&amp;", "&"), siteUrl).href;
+const bundle = process.argv[3]
+  ? await readFile(process.argv[3], "utf8")
+  : await download(scriptUrl);
+const source = ts.createSourceFile(
+  "public-page.js",
+  bundle,
+  ts.ScriptTarget.Latest,
+  true,
+  ts.ScriptKind.JS,
+);
+const arrays = [];
+function visit(node) {
+  if (
+    ts.isVariableDeclaration(node) &&
+    node.initializer &&
+    ts.isArrayLiteralExpression(node.initializer)
+  ) {
+    arrays.push({ name: node.name.getText(source), node: node.initializer });
+  }
+  ts.forEachChild(node, visit);
+}
+visit(source);
+
+function properties(node) {
+  assert(ts.isObjectLiteralExpression(node), "Expected a static object");
+  return Object.fromEntries(
+    node.properties
+      .filter(ts.isPropertyAssignment)
+      .map((property) => [property.name.getText(source), property.initializer]),
+  );
+}
+function literal(node) {
+  assert(
+    node && (ts.isStringLiteral(node) || ts.isNumericLiteral(node)),
+    "Expected a string or numeric literal",
+  );
+  return ts.isNumericLiteral(node) ? Number(node.text) : node.text;
+}
+function matches(array, keys) {
+  const first = array.node.elements[0];
+  if (!first || !ts.isObjectLiteralExpression(first)) return false;
+  const fields = properties(first);
+  return keys.every((key) => fields[key]);
+}
+function uniqueArray(keys) {
+  const candidates = arrays.filter((array) => matches(array, keys));
+  assert.equal(candidates.length, 1, `Ambiguous or missing data: ${keys.join(", ")}`);
+  return candidates[0].node;
+}
+
+const grammarStages = uniqueArray(["cefr", "units", "subtitle"]);
+const vocabularyTopics = uniqueArray(["eyebrow", "items", "accent"]);
+const lessonSizes = arrays
+  .filter(({ node }) => node.elements.length === 10 && node.elements.every(ts.isNumericLiteral))
+  .map(({ node }) => node.elements.map(literal))
+  .filter((sizes) => sizes.reduce((total, size) => total + size, 0) === 200);
+assert.equal(lessonSizes.length, 1, "Cannot identify the ten published vocabulary lesson sizes");
+const sizes = lessonSizes[0];
+const rows = [];
+const grammar = grammarStages.elements.map((stage, stageIndex) => {
+  const fields = properties(stage);
+  const id = literal(fields.id);
+  const units = fields.units;
+  assert(
+    ts.isCallExpression(units) &&
+      units.arguments.length === 1 &&
+      ts.isIdentifier(units.arguments[0]),
+    "Grammar units are no longer a static array reference",
+  );
+  const candidates = arrays.filter(
+    ({ name, node }) =>
+      name === units.arguments[0].text &&
+      node.elements[0] &&
+      ts.isObjectLiteralExpression(node.elements[0]) &&
+      properties(node.elements[0]).titleVi,
+  );
+  assert.equal(candidates.length, 1, `Missing lesson array for ${id}`);
+  const lessons = candidates[0].node.elements.map((lesson, lessonIndex) => {
+    const fields = properties(lesson);
+    const item = {
+      order: lessonIndex + 1,
+      id: literal(fields.id),
+      title: literal(fields.title),
+      titleVi: literal(fields.titleVi),
+      category: literal(fields.group),
+    };
+    assert(item.id.startsWith(`${id}-`), `Unexpected level for ${item.id}`);
+    rows.push({
+      track: "grammar",
+      groupId: id,
+      groupTitle: literal(properties(stage).cefr),
+      groupOrder: stageIndex + 1,
+      ...item,
+      sourceUrl: siteUrl,
+    });
+    return item;
+  });
+  return {
+    order: stageIndex + 1,
+    id,
+    cefr: literal(fields.cefr),
+    title: literal(fields.title),
+    subtitle: literal(fields.subtitle),
+    lessonCount: lessons.length,
+    lessons,
+  };
+});
+
+const vocabulary = vocabularyTopics.elements.map((topic, topicIndex) => {
+  const fields = properties(topic);
+  const id = literal(fields.id);
+  assert(ts.isArrayLiteralExpression(fields.items), `Missing item list for ${id}`);
+  const wordCount = fields.items.elements.length;
+  assert.equal(wordCount, 200, `Unexpected topic size: ${id}`);
+  const lessons = sizes.map((wordCount, lessonIndex) => {
+    // These labels and topic:number identifiers are generated by the public page UI.
+    const item = {
+      order: lessonIndex + 1,
+      id: `${id}:${lessonIndex + 1}`,
+      title: `Bài từ vựng ${String(lessonIndex + 1).padStart(2, "0")}`,
+      wordCount,
+    };
+    rows.push({
+      track: "vocabulary",
+      groupId: id,
+      groupTitle: literal(fields.title),
+      groupOrder: topicIndex + 1,
+      ...item,
+      sourceUrl: siteUrl,
+    });
+    return item;
+  });
+  return {
+    order: topicIndex + 1,
+    id,
+    title: literal(fields.title),
+    eyebrow: literal(fields.eyebrow),
+    wordCount,
+    lessonCount: lessons.length,
+    lessons,
+  };
+});
+
+const totals = {
+  grammarLevels: grammar.length,
+  grammarLessons: grammar.reduce((sum, level) => sum + level.lessonCount, 0),
+  vocabularyTopics: vocabulary.length,
+  vocabularyLessons: vocabulary.reduce((sum, topic) => sum + topic.lessonCount, 0),
+  vocabularyItems: vocabulary.reduce((sum, topic) => sum + topic.wordCount, 0),
+};
+assert.deepEqual(
+  totals,
+  {
+    grammarLevels: 6,
+    grammarLessons: 101,
+    vocabularyTopics: 25,
+    vocabularyLessons: 250,
+    vocabularyItems: 5000,
+  },
+  "Extracted totals differ from the site's published curriculum",
+);
+assert.equal(
+  new Set(rows.map((row) => `${row.track}:${row.id}`)).size,
+  351,
+  "Duplicate lesson identifiers",
+);
+
+const metadata = {
+  sourceUrl: siteUrl,
+  fetchedAt: new Date().toISOString(),
+  sourceScriptUrl: scriptUrl,
+  sourceScriptSha256: createHash("sha256").update(bundle).digest("hex"),
+  method:
+    "Static AST extraction from the publicly linked page asset; third-party code is not executed.",
+  scope:
+    "Complete published roadmap outline and lesson ordering. Lesson bodies, examples, vocabulary entries, quizzes and answer keys are excluded.",
+  browserInteractionVerified: false,
+  notes: [
+    "No connected interactive browser was available in this session. Public homepage text was also checked using web browsing.",
+    "The website advertises guest access to the first lesson only; no account access was used or verified.",
+    "The site uses UI navigation on its root page. Individual lesson URLs are not invented.",
+    "Vocabulary lesson labels and word counts follow the page's published ten-lesson grouping, not an assumed 20 words per lesson.",
+    "Order is the published display order; prerequisite rules are not inferred.",
+  ],
+};
+const result = { ...metadata, totals, grammar, vocabulary };
+const columns = [
+  "track",
+  "groupId",
+  "groupTitle",
+  "groupOrder",
+  "order",
+  "id",
+  "title",
+  "titleVi",
+  "category",
+  "wordCount",
+  "sourceUrl",
+];
+const cell = (value) => `"${String(value ?? "").replaceAll('"', '""')}"`;
+const csv = [
+  columns.map(cell).join(","),
+  ...rows.map((row) => columns.map((key) => cell(row[key])).join(",")),
+].join("\r\n");
+await mkdir(outputDir, { recursive: true });
+await writeFile(resolve(outputDir, "roadmaps.json"), JSON.stringify(result, null, 2) + "\n");
+await writeFile(resolve(outputDir, "lessons.csv"), "\ufeff" + csv + "\r\n");
+console.log(JSON.stringify({ outputDir, totals, csvRows: rows.length }, null, 2));

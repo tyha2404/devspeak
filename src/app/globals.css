@@ -94,11 +94,6 @@ h3 {
   letter-spacing: -0.02em;
 }
 
-[data-reduced-motion="1"] * {
-  animation-duration: 0.01ms !important;
-  transition-duration: 0.01ms !important;
-}
-
 body {
   background: var(--paper);
   color: var(--ink);
@@ -127,6 +122,53 @@ body {
   .dq-pulse {
     animation: none;
   }
+}
+
+/* Keep feedback in place: opacity changes never move an active click target. */
+@keyframes dq-enter {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
+@keyframes dq-spin {
+  to {
+    transform: rotate(360deg);
+  }
+}
+@keyframes dq-skeleton {
+  50% {
+    opacity: 0.45;
+  }
+}
+.dq-enter {
+  animation: dq-enter 160ms ease-out;
+}
+.dq-spin {
+  animation: dq-spin 900ms linear infinite;
+}
+.dq-skeleton {
+  background: var(--line);
+  animation: dq-skeleton 1.8s ease-in-out infinite;
+}
+
+@media (prefers-reduced-motion: reduce) {
+  *,
+  *::before,
+  *::after {
+    animation: none !important;
+    transition: none !important;
+    scroll-behavior: auto !important;
+  }
+}
+[data-reduced-motion="1"] *,
+[data-reduced-motion="1"] *::before,
+[data-reduced-motion="1"] *::after {
+  animation: none !important;
+  transition: none !important;
+  scroll-behavior: auto !important;
 }
 
 /* Lesson focus notes (Markdown). */

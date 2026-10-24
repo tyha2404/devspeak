@@ -1,0 +1,2544 @@
+{
+  "sourceUrl": "https://www.forumflashstudy.com/",
+  "fetchedAt": "2026-10-24T16:43:22.159Z",
+  "sourceScriptUrl": "https://www.forumflashstudy.com/_next/static/chunks/app/page-62ed9ddb138e9fdb.js?dpl=dpl_EejKSbeYMXzQ6tpQSrtcNJ41ymmc",
+  "sourceScriptSha256": "17e5df9a2eaaeff6c6ac29d1eb5c9c794b5bdb025129a8d4adc67d43b7aed08d",
+  "method": "Static AST extraction from the publicly linked page asset; third-party code is not executed.",
+  "scope": "Complete published roadmap outline and lesson ordering. Lesson bodies, examples, vocabulary entries, quizzes and answer keys are excluded.",
+  "browserInteractionVerified": false,
+  "notes": [
+    "No connected interactive browser was available in this session. Public homepage text was also checked using web browsing.",
+    "The website advertises guest access to the first lesson only; no account access was used or verified.",
+    "The site uses UI navigation on its root page. Individual lesson URLs are not invented.",
+    "Vocabulary lesson labels and word counts follow the page's published ten-lesson grouping, not an assumed 20 words per lesson.",
+    "Order is the published display order; prerequisite rules are not inferred."
+  ],
+  "totals": {
+    "grammarLevels": 6,
+    "grammarLessons": 101,
+    "vocabularyTopics": 25,
+    "vocabularyLessons": 250,
+    "vocabularyItems": 5000
+  },
+  "grammar": [
+    {
+      "order": 1,
+      "id": "a1",
+      "cefr": "A1",
+      "title": "Trình độ căn bản",
+      "subtitle": "Nền tảng câu tiếng Anh",
+      "lessonCount": 19,
+      "lessons": [
+        {
+          "order": 1,
+          "id": "a1-be-pronouns",
+          "title": "To be & subject pronouns",
+          "titleVi": "Động từ to be và đại từ nhân xưng làm chủ ngữ",
+          "category": "Từ loại"
+        },
+        {
+          "order": 2,
+          "id": "a1-object-pronouns",
+          "title": "Object pronouns",
+          "titleVi": "Đại từ nhân xưng làm tân ngữ",
+          "category": "Từ loại"
+        },
+        {
+          "order": 3,
+          "id": "a1-nouns",
+          "title": "Nouns & plurals",
+          "titleVi": "Danh từ và dạng số nhiều",
+          "category": "Từ loại"
+        },
+        {
+          "order": 4,
+          "id": "a1-countability",
+          "title": "Countable & uncountable nouns",
+          "titleVi": "Danh từ đếm được và danh từ không đếm được",
+          "category": "Từ loại"
+        },
+        {
+          "order": 5,
+          "id": "a1-possessives",
+          "title": "Possessives",
+          "titleVi": "Tính từ sở hữu, đại từ sở hữu và sở hữu cách",
+          "category": "Từ loại"
+        },
+        {
+          "order": 6,
+          "id": "a1-demonstratives",
+          "title": "This, that, these, those",
+          "titleVi": "Từ chỉ định",
+          "category": "Từ loại"
+        },
+        {
+          "order": 7,
+          "id": "a1-articles",
+          "title": "A, an & the",
+          "titleVi": "Mạo từ không xác định và mạo từ xác định",
+          "category": "Mạo từ"
+        },
+        {
+          "order": 8,
+          "id": "a1-quantifiers",
+          "title": "Some, any, much & many",
+          "titleVi": "Lượng từ cơ bản",
+          "category": "Lượng từ"
+        },
+        {
+          "order": 9,
+          "id": "a1-adjectives",
+          "title": "Adjectives & adverbs",
+          "titleVi": "Tính từ và trạng từ chỉ cách thức",
+          "category": "Từ loại"
+        },
+        {
+          "order": 10,
+          "id": "a1-frequency",
+          "title": "Adverbs of frequency",
+          "titleVi": "Trạng từ chỉ tần suất",
+          "category": "Từ loại"
+        },
+        {
+          "order": 11,
+          "id": "a1-prepositions",
+          "title": "Prepositions of time & place",
+          "titleVi": "Giới từ chỉ thời gian và nơi chốn",
+          "category": "Giới từ"
+        },
+        {
+          "order": 12,
+          "id": "a1-present-simple",
+          "title": "Present simple",
+          "titleVi": "Thì hiện tại đơn",
+          "category": "Thì"
+        },
+        {
+          "order": 13,
+          "id": "a1-likes",
+          "title": "Like, love & hate + V-ing",
+          "titleVi": "Diễn đạt sở thích với danh động từ",
+          "category": "Dạng thức động từ"
+        },
+        {
+          "order": 14,
+          "id": "a1-present-continuous",
+          "title": "Present continuous",
+          "titleVi": "Thì hiện tại tiếp diễn",
+          "category": "Thì"
+        },
+        {
+          "order": 15,
+          "id": "a1-word-order",
+          "title": "Basic word order",
+          "titleVi": "Trật tự từ trong câu cơ bản",
+          "category": "Cấu trúc câu"
+        },
+        {
+          "order": 16,
+          "id": "a1-questions",
+          "title": "Negatives & questions",
+          "titleVi": "Câu phủ định và câu nghi vấn với trợ động từ do",
+          "category": "Cấu trúc câu"
+        },
+        {
+          "order": 17,
+          "id": "a1-wh-questions",
+          "title": "Wh- questions",
+          "titleVi": "Câu hỏi với từ hỏi",
+          "category": "Cấu trúc câu"
+        },
+        {
+          "order": 18,
+          "id": "a1-there-is",
+          "title": "There is / There are",
+          "titleVi": "Cấu trúc there is và there are",
+          "category": "Cấu trúc câu"
+        },
+        {
+          "order": 19,
+          "id": "a1-can-imperatives",
+          "title": "Can, could & imperatives",
+          "titleVi": "Động từ khuyết thiếu can, could và câu mệnh lệnh",
+          "category": "Động từ khuyết thiếu"
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "id": "a2",
+      "cefr": "A2",
+      "title": "Trình độ sơ cấp",
+      "subtitle": "Các cấu trúc thông dụng",
+      "lessonCount": 16,
+      "lessons": [
+        {
+          "order": 1,
+          "id": "a2-reflexive",
+          "title": "Reflexive pronouns",
+          "titleVi": "Đại từ phản thân",
+          "category": "Từ loại"
+        },
+        {
+          "order": 2,
+          "id": "a2-past-simple",
+          "title": "Past simple",
+          "titleVi": "Thì quá khứ đơn",
+          "category": "Thì"
+        },
+        {
+          "order": 3,
+          "id": "a2-was-were",
+          "title": "Was, were & past questions",
+          "titleVi": "Động từ to be ở quá khứ và câu hỏi quá khứ",
+          "category": "Thì"
+        },
+        {
+          "order": 4,
+          "id": "a2-prepositions-movement",
+          "title": "Prepositions of movement",
+          "titleVi": "Giới từ chỉ hướng chuyển động",
+          "category": "Giới từ"
+        },
+        {
+          "order": 5,
+          "id": "a2-future",
+          "title": "Will & be going to",
+          "titleVi": "Tương lai với will và be going to",
+          "category": "Thì"
+        },
+        {
+          "order": 6,
+          "id": "a2-present-perfect",
+          "title": "Present perfect: experience",
+          "titleVi": "Thì hiện tại hoàn thành chỉ trải nghiệm",
+          "category": "Thì"
+        },
+        {
+          "order": 7,
+          "id": "a2-obligation",
+          "title": "Must, have to & should",
+          "titleVi": "Động từ khuyết thiếu chỉ nghĩa vụ và lời khuyên",
+          "category": "Động từ khuyết thiếu"
+        },
+        {
+          "order": 8,
+          "id": "a2-ed-ing-adjectives",
+          "title": "-ed and -ing adjectives",
+          "titleVi": "Tính từ đuôi -ed và tính từ đuôi -ing",
+          "category": "Từ loại"
+        },
+        {
+          "order": 9,
+          "id": "a2-adjective-order",
+          "title": "Adjective order",
+          "titleVi": "Trật tự của nhiều tính từ trước danh từ",
+          "category": "Từ loại"
+        },
+        {
+          "order": 10,
+          "id": "a2-comparatives",
+          "title": "Comparatives",
+          "titleVi": "So sánh hơn",
+          "category": "So sánh"
+        },
+        {
+          "order": 11,
+          "id": "a2-superlatives",
+          "title": "Superlatives",
+          "titleVi": "So sánh nhất",
+          "category": "So sánh"
+        },
+        {
+          "order": 12,
+          "id": "a2-too-enough",
+          "title": "Too & enough",
+          "titleVi": "Cấu trúc too và enough",
+          "category": "Cấu trúc câu"
+        },
+        {
+          "order": 13,
+          "id": "a2-so-such",
+          "title": "So & such",
+          "titleVi": "Cấu trúc nhấn mạnh mức độ với so và such",
+          "category": "Cấu trúc câu"
+        },
+        {
+          "order": 14,
+          "id": "a2-linkers",
+          "title": "And, but, or, so & because",
+          "titleVi": "Liên từ kết hợp và liên từ chỉ nguyên nhân",
+          "category": "Liên từ"
+        },
+        {
+          "order": 15,
+          "id": "a2-indefinite-pronouns",
+          "title": "Indefinite pronouns",
+          "titleVi": "Đại từ phiếm chỉ",
+          "category": "Từ loại"
+        },
+        {
+          "order": 16,
+          "id": "a2-quantifiers",
+          "title": "A little, a few & a lot of",
+          "titleVi": "Lượng từ chỉ mức độ nhiều và ít",
+          "category": "Lượng từ"
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "id": "b1",
+      "cefr": "B1",
+      "title": "Trình độ trung cấp",
+      "subtitle": "Mở rộng và liên kết câu",
+      "lessonCount": 21,
+      "lessons": [
+        {
+          "order": 1,
+          "id": "b1-determiners",
+          "title": "Both, either, neither & all of",
+          "titleVi": "Từ hạn định chỉ nhóm và lựa chọn",
+          "category": "Lượng từ"
+        },
+        {
+          "order": 2,
+          "id": "b1-past-continuous",
+          "title": "Past continuous",
+          "titleVi": "Thì quá khứ tiếp diễn",
+          "category": "Thì"
+        },
+        {
+          "order": 3,
+          "id": "b1-perfect-vs-past",
+          "title": "Present perfect vs past simple",
+          "titleVi": "Phân biệt hiện tại hoàn thành và quá khứ đơn",
+          "category": "Thì"
+        },
+        {
+          "order": 4,
+          "id": "b1-perfect-markers",
+          "title": "For, since, just, already & yet",
+          "titleVi": "Các trạng từ và giới từ đi với hiện tại hoàn thành",
+          "category": "Thì"
+        },
+        {
+          "order": 5,
+          "id": "b1-perfect-continuous",
+          "title": "Present perfect continuous",
+          "titleVi": "Thì hiện tại hoàn thành tiếp diễn",
+          "category": "Thì"
+        },
+        {
+          "order": 6,
+          "id": "b1-past-perfect",
+          "title": "Past perfect",
+          "titleVi": "Thì quá khứ hoàn thành",
+          "category": "Thì"
+        },
+        {
+          "order": 7,
+          "id": "b1-future-continuous",
+          "title": "Future continuous",
+          "titleVi": "Thì tương lai tiếp diễn",
+          "category": "Thì"
+        },
+        {
+          "order": 8,
+          "id": "b1-time-clauses",
+          "title": "Future time clauses",
+          "titleVi": "Mệnh đề chỉ thời gian trong tương lai",
+          "category": "Mệnh đề"
+        },
+        {
+          "order": 9,
+          "id": "b1-used-to",
+          "title": "Used to, would & be used to",
+          "titleVi": "Thói quen trong quá khứ và trạng thái đã quen",
+          "category": "Thói quen"
+        },
+        {
+          "order": 10,
+          "id": "b1-gerund-infinitive",
+          "title": "Gerunds & infinitives",
+          "titleVi": "Danh động từ và động từ nguyên mẫu có to",
+          "category": "Dạng thức động từ"
+        },
+        {
+          "order": 11,
+          "id": "b1-ability-permission",
+          "title": "Be able to & be allowed to",
+          "titleVi": "Diễn đạt khả năng và sự cho phép ở mọi thì",
+          "category": "Động từ khuyết thiếu"
+        },
+        {
+          "order": 12,
+          "id": "b1-deduction",
+          "title": "Modals of deduction",
+          "titleVi": "Động từ khuyết thiếu chỉ mức độ suy đoán",
+          "category": "Động từ khuyết thiếu"
+        },
+        {
+          "order": 13,
+          "id": "b1-advice",
+          "title": "Ought to, had better & need",
+          "titleVi": "Các cấu trúc khuyên bảo và nhắc nhở",
+          "category": "Động từ khuyết thiếu"
+        },
+        {
+          "order": 14,
+          "id": "b1-purpose-clauses",
+          "title": "Clauses of purpose",
+          "titleVi": "Mệnh đề và cụm chỉ mục đích",
+          "category": "Mệnh đề"
+        },
+        {
+          "order": 15,
+          "id": "b1-conditionals",
+          "title": "Zero & first conditionals",
+          "titleVi": "Câu điều kiện loại 0 và loại 1",
+          "category": "Mệnh đề"
+        },
+        {
+          "order": 16,
+          "id": "b1-second-conditional",
+          "title": "Second conditional",
+          "titleVi": "Câu điều kiện loại 2",
+          "category": "Mệnh đề"
+        },
+        {
+          "order": 17,
+          "id": "b1-passive",
+          "title": "Passive voice",
+          "titleVi": "Câu bị động",
+          "category": "Bị động"
+        },
+        {
+          "order": 18,
+          "id": "b1-noun-clauses",
+          "title": "That- and wh- noun clauses",
+          "titleVi": "Mệnh đề danh ngữ",
+          "category": "Mệnh đề"
+        },
+        {
+          "order": 19,
+          "id": "b1-relative",
+          "title": "Defining relative clauses",
+          "titleVi": "Mệnh đề quan hệ xác định",
+          "category": "Mệnh đề"
+        },
+        {
+          "order": 20,
+          "id": "b1-relative-prepositions",
+          "title": "Relative clauses with prepositions",
+          "titleVi": "Mệnh đề quan hệ có giới từ",
+          "category": "Mệnh đề"
+        },
+        {
+          "order": 21,
+          "id": "b1-agreement-tags",
+          "title": "Agreement & tag questions",
+          "titleVi": "Sự hòa hợp chủ ngữ với động từ và câu hỏi đuôi",
+          "category": "Cấu trúc bổ trợ"
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "id": "b2",
+      "cefr": "B2",
+      "title": "Trình độ trung cao cấp",
+      "subtitle": "Mệnh đề và sắc thái",
+      "lessonCount": 16,
+      "lessons": [
+        {
+          "order": 1,
+          "id": "b2-articles-advanced",
+          "title": "Articles: generic & zero article",
+          "titleVi": "Mạo từ nâng cao và trường hợp không dùng mạo từ",
+          "category": "Mạo từ"
+        },
+        {
+          "order": 2,
+          "id": "b2-verb-patterns",
+          "title": "Verb patterns: meaning change",
+          "titleVi": "Những động từ đổi nghĩa theo dạng thức đi sau",
+          "category": "Dạng thức động từ"
+        },
+        {
+          "order": 3,
+          "id": "b2-third-conditional",
+          "title": "Third conditional",
+          "titleVi": "Câu điều kiện loại 3",
+          "category": "Mệnh đề"
+        },
+        {
+          "order": 4,
+          "id": "b2-condition-linkers",
+          "title": "Unless, as long as & in case",
+          "titleVi": "Các liên từ chỉ điều kiện khác ngoài if",
+          "category": "Mệnh đề"
+        },
+        {
+          "order": 5,
+          "id": "b2-concession",
+          "title": "Clauses of concession",
+          "titleVi": "Mệnh đề nhượng bộ",
+          "category": "Mệnh đề"
+        },
+        {
+          "order": 6,
+          "id": "b2-wishes",
+          "title": "Wish & if only",
+          "titleVi": "Cấu trúc diễn tả ước muốn và tiếc nuối",
+          "category": "Mệnh đề"
+        },
+        {
+          "order": 7,
+          "id": "b2-causative",
+          "title": "Have / get something done",
+          "titleVi": "Cấu trúc nhờ hoặc thuê người khác làm",
+          "category": "Bị động"
+        },
+        {
+          "order": 8,
+          "id": "b2-passive-advanced",
+          "title": "Advanced passive forms",
+          "titleVi": "Bị động với hai tân ngữ và dạng thức động từ",
+          "category": "Bị động"
+        },
+        {
+          "order": 9,
+          "id": "b2-reported",
+          "title": "Reported statements",
+          "titleVi": "Câu tường thuật dạng câu kể",
+          "category": "Tường thuật"
+        },
+        {
+          "order": 10,
+          "id": "b2-reported-questions",
+          "title": "Reported questions & commands",
+          "titleVi": "Tường thuật câu hỏi và câu mệnh lệnh",
+          "category": "Tường thuật"
+        },
+        {
+          "order": 11,
+          "id": "b2-reporting-verbs",
+          "title": "Reporting verbs",
+          "titleVi": "Các động từ tường thuật và mẫu câu đi kèm",
+          "category": "Tường thuật"
+        },
+        {
+          "order": 12,
+          "id": "b2-relative-advanced",
+          "title": "Non-defining relative clauses",
+          "titleVi": "Mệnh đề quan hệ không xác định",
+          "category": "Mệnh đề"
+        },
+        {
+          "order": 13,
+          "id": "b2-emphasis-do",
+          "title": "Emphasis with auxiliary do",
+          "titleVi": "Nhấn mạnh bằng trợ động từ do",
+          "category": "Nhấn mạnh"
+        },
+        {
+          "order": 14,
+          "id": "b2-whatever",
+          "title": "Whatever, however & no matter",
+          "titleVi": "Mệnh đề nhượng bộ không xác định",
+          "category": "Mệnh đề"
+        },
+        {
+          "order": 15,
+          "id": "b2-comparisons",
+          "title": "Double & multiple comparisons",
+          "titleVi": "So sánh kép và so sánh gấp nhiều lần",
+          "category": "So sánh"
+        },
+        {
+          "order": 16,
+          "id": "b2-phrasal-prepositions",
+          "title": "Phrasal verbs & dependent prepositions",
+          "titleVi": "Cụm động từ và giới từ đi kèm cố định",
+          "category": "Cấu trúc bổ trợ"
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "id": "c1",
+      "cefr": "C1",
+      "title": "Trình độ cao cấp",
+      "subtitle": "Diễn đạt học thuật",
+      "lessonCount": 21,
+      "lessons": [
+        {
+          "order": 1,
+          "id": "c1-past-perfect-continuous",
+          "title": "Past perfect continuous",
+          "titleVi": "Thì quá khứ hoàn thành tiếp diễn",
+          "category": "Thì nâng cao"
+        },
+        {
+          "order": 2,
+          "id": "c1-future-perfect",
+          "title": "Future perfect",
+          "titleVi": "Thì tương lai hoàn thành",
+          "category": "Thì nâng cao"
+        },
+        {
+          "order": 3,
+          "id": "c1-future-perfect-continuous",
+          "title": "Future perfect continuous",
+          "titleVi": "Thì tương lai hoàn thành tiếp diễn",
+          "category": "Thì nâng cao"
+        },
+        {
+          "order": 4,
+          "id": "c1-modal-perfect",
+          "title": "Past modals",
+          "titleVi": "Động từ khuyết thiếu kết hợp dạng hoàn thành",
+          "category": "Động từ khuyết thiếu"
+        },
+        {
+          "order": 5,
+          "id": "c1-mixed-conditionals",
+          "title": "Mixed conditionals",
+          "titleVi": "Câu điều kiện hỗn hợp",
+          "category": "Điều kiện"
+        },
+        {
+          "order": 6,
+          "id": "c1-condition-alternatives",
+          "title": "Alternatives to if",
+          "titleVi": "Các cách diễn đạt điều kiện thay cho if",
+          "category": "Điều kiện"
+        },
+        {
+          "order": 7,
+          "id": "c1-verb-complementation",
+          "title": "Verb complementation patterns",
+          "titleVi": "Mẫu bổ ngữ của động từ",
+          "category": "Dạng thức động từ"
+        },
+        {
+          "order": 8,
+          "id": "c1-relative-reduction",
+          "title": "Reduced relative clauses",
+          "titleVi": "Rút gọn mệnh đề quan hệ",
+          "category": "Rút gọn mệnh đề"
+        },
+        {
+          "order": 9,
+          "id": "c1-participle-clauses",
+          "title": "Participle clauses",
+          "titleVi": "Mệnh đề phân từ",
+          "category": "Rút gọn mệnh đề"
+        },
+        {
+          "order": 10,
+          "id": "c1-negative-inversion",
+          "title": "Negative inversion",
+          "titleVi": "Đảo ngữ với trạng từ phủ định",
+          "category": "Nhấn mạnh"
+        },
+        {
+          "order": 11,
+          "id": "c1-correlative-inversion",
+          "title": "Hardly, no sooner & not only",
+          "titleVi": "Đảo ngữ với cặp liên từ tương ứng",
+          "category": "Nhấn mạnh"
+        },
+        {
+          "order": 12,
+          "id": "c1-conditional-inversion",
+          "title": "Conditional inversion",
+          "titleVi": "Đảo ngữ trong câu điều kiện",
+          "category": "Nhấn mạnh"
+        },
+        {
+          "order": 13,
+          "id": "c1-cleft",
+          "title": "Cleft sentences",
+          "titleVi": "Câu chẻ",
+          "category": "Nhấn mạnh"
+        },
+        {
+          "order": 14,
+          "id": "c1-subjunctive",
+          "title": "Subjunctive mood",
+          "titleVi": "Thức giả định",
+          "category": "Giả định cách"
+        },
+        {
+          "order": 15,
+          "id": "c1-high-time",
+          "title": "It's time & would rather",
+          "titleVi": "Cấu trúc giả định với it's time và would rather",
+          "category": "Giả định cách"
+        },
+        {
+          "order": 16,
+          "id": "c1-advanced-passive",
+          "title": "Impersonal & perception passives",
+          "titleVi": "Bị động vô nhân xưng và bị động tri giác",
+          "category": "Bị động"
+        },
+        {
+          "order": 17,
+          "id": "c1-complex-noun-phrase",
+          "title": "Complex noun phrases",
+          "titleVi": "Danh ngữ phức",
+          "category": "Ngữ pháp học thuật"
+        },
+        {
+          "order": 18,
+          "id": "c1-nominalisation",
+          "title": "Nominalisation",
+          "titleVi": "Danh hoá",
+          "category": "Ngữ pháp học thuật"
+        },
+        {
+          "order": 19,
+          "id": "c1-ellipsis",
+          "title": "Ellipsis & substitution",
+          "titleVi": "Phép lược và phép thế",
+          "category": "Liên kết văn bản"
+        },
+        {
+          "order": 20,
+          "id": "c1-punctuation",
+          "title": "Punctuation in complex sentences",
+          "titleVi": "Dấu câu trong câu phức",
+          "category": "Ngữ pháp học thuật"
+        },
+        {
+          "order": 21,
+          "id": "c1-linkers",
+          "title": "Advanced linkers",
+          "titleVi": "Từ nối và trạng ngữ liên kết nâng cao",
+          "category": "Liên kết văn bản"
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "id": "c2",
+      "cefr": "C2",
+      "title": "Trình độ thành thạo",
+      "subtitle": "Phối hợp cấu trúc",
+      "lessonCount": 8,
+      "lessons": [
+        {
+          "order": 1,
+          "id": "c2-tense-stance",
+          "title": "Tense & stance control",
+          "titleVi": "Thì và lập trường của người viết",
+          "category": "Tinh chỉnh"
+        },
+        {
+          "order": 2,
+          "id": "c2-register",
+          "title": "Register & formality control",
+          "titleVi": "Điều chỉnh văn phong và mức trang trọng",
+          "category": "Tinh chỉnh"
+        },
+        {
+          "order": 3,
+          "id": "c2-information-flow",
+          "title": "Information flow",
+          "titleVi": "Mạch thông tin trong câu và đoạn",
+          "category": "Tinh chỉnh"
+        },
+        {
+          "order": 4,
+          "id": "c2-cohesion",
+          "title": "Cohesion across paragraphs",
+          "titleVi": "Liên kết xuyên đoạn",
+          "category": "Tinh chỉnh"
+        },
+        {
+          "order": 5,
+          "id": "c2-qualification",
+          "title": "Precision & qualification",
+          "titleVi": "Diễn đạt dè dặt và giới hạn phạm vi nhận định",
+          "category": "Tinh chỉnh"
+        },
+        {
+          "order": 6,
+          "id": "c2-parallelism",
+          "title": "Parallelism & coordination",
+          "titleVi": "Cấu trúc song song và phép đồng đẳng",
+          "category": "Tinh chỉnh"
+        },
+        {
+          "order": 7,
+          "id": "c2-synthesis",
+          "title": "Academic synthesis",
+          "titleVi": "Tổng hợp nhiều nguồn trong một câu",
+          "category": "Tinh chỉnh"
+        },
+        {
+          "order": 8,
+          "id": "c2-rhetorical",
+          "title": "Argumentative structures",
+          "titleVi": "Cấu trúc lập luận trong văn học thuật",
+          "category": "Tinh chỉnh"
+        }
+      ]
+    }
+  ],
+  "vocabulary": [
+    {
+      "order": 1,
+      "id": "education",
+      "title": "Education & Learning",
+      "eyebrow": "IELTS TOPIC 01",
+      "wordCount": 200,
+      "lessonCount": 10,
+      "lessons": [
+        {
+          "order": 1,
+          "id": "education:1",
+          "title": "Bài từ vựng 01",
+          "wordCount": 10
+        },
+        {
+          "order": 2,
+          "id": "education:2",
+          "title": "Bài từ vựng 02",
+          "wordCount": 12
+        },
+        {
+          "order": 3,
+          "id": "education:3",
+          "title": "Bài từ vựng 03",
+          "wordCount": 14
+        },
+        {
+          "order": 4,
+          "id": "education:4",
+          "title": "Bài từ vựng 04",
+          "wordCount": 16
+        },
+        {
+          "order": 5,
+          "id": "education:5",
+          "title": "Bài từ vựng 05",
+          "wordCount": 18
+        },
+        {
+          "order": 6,
+          "id": "education:6",
+          "title": "Bài từ vựng 06",
+          "wordCount": 20
+        },
+        {
+          "order": 7,
+          "id": "education:7",
+          "title": "Bài từ vựng 07",
+          "wordCount": 22
+        },
+        {
+          "order": 8,
+          "id": "education:8",
+          "title": "Bài từ vựng 08",
+          "wordCount": 24
+        },
+        {
+          "order": 9,
+          "id": "education:9",
+          "title": "Bài từ vựng 09",
+          "wordCount": 28
+        },
+        {
+          "order": 10,
+          "id": "education:10",
+          "title": "Bài từ vựng 10",
+          "wordCount": 36
+        }
+      ]
+    },
+    {
+      "order": 2,
+      "id": "environment",
+      "title": "Environment & Climate",
+      "eyebrow": "IELTS TOPIC 02",
+      "wordCount": 200,
+      "lessonCount": 10,
+      "lessons": [
+        {
+          "order": 1,
+          "id": "environment:1",
+          "title": "Bài từ vựng 01",
+          "wordCount": 10
+        },
+        {
+          "order": 2,
+          "id": "environment:2",
+          "title": "Bài từ vựng 02",
+          "wordCount": 12
+        },
+        {
+          "order": 3,
+          "id": "environment:3",
+          "title": "Bài từ vựng 03",
+          "wordCount": 14
+        },
+        {
+          "order": 4,
+          "id": "environment:4",
+          "title": "Bài từ vựng 04",
+          "wordCount": 16
+        },
+        {
+          "order": 5,
+          "id": "environment:5",
+          "title": "Bài từ vựng 05",
+          "wordCount": 18
+        },
+        {
+          "order": 6,
+          "id": "environment:6",
+          "title": "Bài từ vựng 06",
+          "wordCount": 20
+        },
+        {
+          "order": 7,
+          "id": "environment:7",
+          "title": "Bài từ vựng 07",
+          "wordCount": 22
+        },
+        {
+          "order": 8,
+          "id": "environment:8",
+          "title": "Bài từ vựng 08",
+          "wordCount": 24
+        },
+        {
+          "order": 9,
+          "id": "environment:9",
+          "title": "Bài từ vựng 09",
+          "wordCount": 28
+        },
+        {
+          "order": 10,
+          "id": "environment:10",
+          "title": "Bài từ vựng 10",
+          "wordCount": 36
+        }
+      ]
+    },
+    {
+      "order": 3,
+      "id": "technology",
+      "title": "Technology & Digital Life",
+      "eyebrow": "IELTS TOPIC 03",
+      "wordCount": 200,
+      "lessonCount": 10,
+      "lessons": [
+        {
+          "order": 1,
+          "id": "technology:1",
+          "title": "Bài từ vựng 01",
+          "wordCount": 10
+        },
+        {
+          "order": 2,
+          "id": "technology:2",
+          "title": "Bài từ vựng 02",
+          "wordCount": 12
+        },
+        {
+          "order": 3,
+          "id": "technology:3",
+          "title": "Bài từ vựng 03",
+          "wordCount": 14
+        },
+        {
+          "order": 4,
+          "id": "technology:4",
+          "title": "Bài từ vựng 04",
+          "wordCount": 16
+        },
+        {
+          "order": 5,
+          "id": "technology:5",
+          "title": "Bài từ vựng 05",
+          "wordCount": 18
+        },
+        {
+          "order": 6,
+          "id": "technology:6",
+          "title": "Bài từ vựng 06",
+          "wordCount": 20
+        },
+        {
+          "order": 7,
+          "id": "technology:7",
+          "title": "Bài từ vựng 07",
+          "wordCount": 22
+        },
+        {
+          "order": 8,
+          "id": "technology:8",
+          "title": "Bài từ vựng 08",
+          "wordCount": 24
+        },
+        {
+          "order": 9,
+          "id": "technology:9",
+          "title": "Bài từ vựng 09",
+          "wordCount": 28
+        },
+        {
+          "order": 10,
+          "id": "technology:10",
+          "title": "Bài từ vựng 10",
+          "wordCount": 36
+        }
+      ]
+    },
+    {
+      "order": 4,
+      "id": "health",
+      "title": "Health & Well-being",
+      "eyebrow": "IELTS TOPIC 04",
+      "wordCount": 200,
+      "lessonCount": 10,
+      "lessons": [
+        {
+          "order": 1,
+          "id": "health:1",
+          "title": "Bài từ vựng 01",
+          "wordCount": 10
+        },
+        {
+          "order": 2,
+          "id": "health:2",
+          "title": "Bài từ vựng 02",
+          "wordCount": 12
+        },
+        {
+          "order": 3,
+          "id": "health:3",
+          "title": "Bài từ vựng 03",
+          "wordCount": 14
+        },
+        {
+          "order": 4,
+          "id": "health:4",
+          "title": "Bài từ vựng 04",
+          "wordCount": 16
+        },
+        {
+          "order": 5,
+          "id": "health:5",
+          "title": "Bài từ vựng 05",
+          "wordCount": 18
+        },
+        {
+          "order": 6,
+          "id": "health:6",
+          "title": "Bài từ vựng 06",
+          "wordCount": 20
+        },
+        {
+          "order": 7,
+          "id": "health:7",
+          "title": "Bài từ vựng 07",
+          "wordCount": 22
+        },
+        {
+          "order": 8,
+          "id": "health:8",
+          "title": "Bài từ vựng 08",
+          "wordCount": 24
+        },
+        {
+          "order": 9,
+          "id": "health:9",
+          "title": "Bài từ vựng 09",
+          "wordCount": 28
+        },
+        {
+          "order": 10,
+          "id": "health:10",
+          "title": "Bài từ vựng 10",
+          "wordCount": 36
+        }
+      ]
+    },
+    {
+      "order": 5,
+      "id": "work",
+      "title": "Work & Employment",
+      "eyebrow": "IELTS TOPIC 05",
+      "wordCount": 200,
+      "lessonCount": 10,
+      "lessons": [
+        {
+          "order": 1,
+          "id": "work:1",
+          "title": "Bài từ vựng 01",
+          "wordCount": 10
+        },
+        {
+          "order": 2,
+          "id": "work:2",
+          "title": "Bài từ vựng 02",
+          "wordCount": 12
+        },
+        {
+          "order": 3,
+          "id": "work:3",
+          "title": "Bài từ vựng 03",
+          "wordCount": 14
+        },
+        {
+          "order": 4,
+          "id": "work:4",
+          "title": "Bài từ vựng 04",
+          "wordCount": 16
+        },
+        {
+          "order": 5,
+          "id": "work:5",
+          "title": "Bài từ vựng 05",
+          "wordCount": 18
+        },
+        {
+          "order": 6,
+          "id": "work:6",
+          "title": "Bài từ vựng 06",
+          "wordCount": 20
+        },
+        {
+          "order": 7,
+          "id": "work:7",
+          "title": "Bài từ vựng 07",
+          "wordCount": 22
+        },
+        {
+          "order": 8,
+          "id": "work:8",
+          "title": "Bài từ vựng 08",
+          "wordCount": 24
+        },
+        {
+          "order": 9,
+          "id": "work:9",
+          "title": "Bài từ vựng 09",
+          "wordCount": 28
+        },
+        {
+          "order": 10,
+          "id": "work:10",
+          "title": "Bài từ vựng 10",
+          "wordCount": 36
+        }
+      ]
+    },
+    {
+      "order": 6,
+      "id": "economy",
+      "title": "Economy & Consumerism",
+      "eyebrow": "IELTS TOPIC 06",
+      "wordCount": 200,
+      "lessonCount": 10,
+      "lessons": [
+        {
+          "order": 1,
+          "id": "economy:1",
+          "title": "Bài từ vựng 01",
+          "wordCount": 10
+        },
+        {
+          "order": 2,
+          "id": "economy:2",
+          "title": "Bài từ vựng 02",
+          "wordCount": 12
+        },
+        {
+          "order": 3,
+          "id": "economy:3",
+          "title": "Bài từ vựng 03",
+          "wordCount": 14
+        },
+        {
+          "order": 4,
+          "id": "economy:4",
+          "title": "Bài từ vựng 04",
+          "wordCount": 16
+        },
+        {
+          "order": 5,
+          "id": "economy:5",
+          "title": "Bài từ vựng 05",
+          "wordCount": 18
+        },
+        {
+          "order": 6,
+          "id": "economy:6",
+          "title": "Bài từ vựng 06",
+          "wordCount": 20
+        },
+        {
+          "order": 7,
+          "id": "economy:7",
+          "title": "Bài từ vựng 07",
+          "wordCount": 22
+        },
+        {
+          "order": 8,
+          "id": "economy:8",
+          "title": "Bài từ vựng 08",
+          "wordCount": 24
+        },
+        {
+          "order": 9,
+          "id": "economy:9",
+          "title": "Bài từ vựng 09",
+          "wordCount": 28
+        },
+        {
+          "order": 10,
+          "id": "economy:10",
+          "title": "Bài từ vựng 10",
+          "wordCount": 36
+        }
+      ]
+    },
+    {
+      "order": 7,
+      "id": "cities",
+      "title": "Cities & Urban Life",
+      "eyebrow": "IELTS TOPIC 07",
+      "wordCount": 200,
+      "lessonCount": 10,
+      "lessons": [
+        {
+          "order": 1,
+          "id": "cities:1",
+          "title": "Bài từ vựng 01",
+          "wordCount": 10
+        },
+        {
+          "order": 2,
+          "id": "cities:2",
+          "title": "Bài từ vựng 02",
+          "wordCount": 12
+        },
+        {
+          "order": 3,
+          "id": "cities:3",
+          "title": "Bài từ vựng 03",
+          "wordCount": 14
+        },
+        {
+          "order": 4,
+          "id": "cities:4",
+          "title": "Bài từ vựng 04",
+          "wordCount": 16
+        },
+        {
+          "order": 5,
+          "id": "cities:5",
+          "title": "Bài từ vựng 05",
+          "wordCount": 18
+        },
+        {
+          "order": 6,
+          "id": "cities:6",
+          "title": "Bài từ vựng 06",
+          "wordCount": 20
+        },
+        {
+          "order": 7,
+          "id": "cities:7",
+          "title": "Bài từ vựng 07",
+          "wordCount": 22
+        },
+        {
+          "order": 8,
+          "id": "cities:8",
+          "title": "Bài từ vựng 08",
+          "wordCount": 24
+        },
+        {
+          "order": 9,
+          "id": "cities:9",
+          "title": "Bài từ vựng 09",
+          "wordCount": 28
+        },
+        {
+          "order": 10,
+          "id": "cities:10",
+          "title": "Bài từ vựng 10",
+          "wordCount": 36
+        }
+      ]
+    },
+    {
+      "order": 8,
+      "id": "transport",
+      "title": "Transport & Mobility",
+      "eyebrow": "IELTS TOPIC 08",
+      "wordCount": 200,
+      "lessonCount": 10,
+      "lessons": [
+        {
+          "order": 1,
+          "id": "transport:1",
+          "title": "Bài từ vựng 01",
+          "wordCount": 10
+        },
+        {
+          "order": 2,
+          "id": "transport:2",
+          "title": "Bài từ vựng 02",
+          "wordCount": 12
+        },
+        {
+          "order": 3,
+          "id": "transport:3",
+          "title": "Bài từ vựng 03",
+          "wordCount": 14
+        },
+        {
+          "order": 4,
+          "id": "transport:4",
+          "title": "Bài từ vựng 04",
+          "wordCount": 16
+        },
+        {
+          "order": 5,
+          "id": "transport:5",
+          "title": "Bài từ vựng 05",
+          "wordCount": 18
+        },
+        {
+          "order": 6,
+          "id": "transport:6",
+          "title": "Bài từ vựng 06",
+          "wordCount": 20
+        },
+        {
+          "order": 7,
+          "id": "transport:7",
+          "title": "Bài từ vựng 07",
+          "wordCount": 22
+        },
+        {
+          "order": 8,
+          "id": "transport:8",
+          "title": "Bài từ vựng 08",
+          "wordCount": 24
+        },
+        {
+          "order": 9,
+          "id": "transport:9",
+          "title": "Bài từ vựng 09",
+          "wordCount": 28
+        },
+        {
+          "order": 10,
+          "id": "transport:10",
+          "title": "Bài từ vựng 10",
+          "wordCount": 36
+        }
+      ]
+    },
+    {
+      "order": 9,
+      "id": "crime",
+      "title": "Crime & Justice",
+      "eyebrow": "IELTS TOPIC 09",
+      "wordCount": 200,
+      "lessonCount": 10,
+      "lessons": [
+        {
+          "order": 1,
+          "id": "crime:1",
+          "title": "Bài từ vựng 01",
+          "wordCount": 10
+        },
+        {
+          "order": 2,
+          "id": "crime:2",
+          "title": "Bài từ vựng 02",
+          "wordCount": 12
+        },
+        {
+          "order": 3,
+          "id": "crime:3",
+          "title": "Bài từ vựng 03",
+          "wordCount": 14
+        },
+        {
+          "order": 4,
+          "id": "crime:4",
+          "title": "Bài từ vựng 04",
+          "wordCount": 16
+        },
+        {
+          "order": 5,
+          "id": "crime:5",
+          "title": "Bài từ vựng 05",
+          "wordCount": 18
+        },
+        {
+          "order": 6,
+          "id": "crime:6",
+          "title": "Bài từ vựng 06",
+          "wordCount": 20
+        },
+        {
+          "order": 7,
+          "id": "crime:7",
+          "title": "Bài từ vựng 07",
+          "wordCount": 22
+        },
+        {
+          "order": 8,
+          "id": "crime:8",
+          "title": "Bài từ vựng 08",
+          "wordCount": 24
+        },
+        {
+          "order": 9,
+          "id": "crime:9",
+          "title": "Bài từ vựng 09",
+          "wordCount": 28
+        },
+        {
+          "order": 10,
+          "id": "crime:10",
+          "title": "Bài từ vựng 10",
+          "wordCount": 36
+        }
+      ]
+    },
+    {
+      "order": 10,
+      "id": "government",
+      "title": "Government & Policy",
+      "eyebrow": "IELTS TOPIC 10",
+      "wordCount": 200,
+      "lessonCount": 10,
+      "lessons": [
+        {
+          "order": 1,
+          "id": "government:1",
+          "title": "Bài từ vựng 01",
+          "wordCount": 10
+        },
+        {
+          "order": 2,
+          "id": "government:2",
+          "title": "Bài từ vựng 02",
+          "wordCount": 12
+        },
+        {
+          "order": 3,
+          "id": "government:3",
+          "title": "Bài từ vựng 03",
+          "wordCount": 14
+        },
+        {
+          "order": 4,
+          "id": "government:4",
+          "title": "Bài từ vựng 04",
+          "wordCount": 16
+        },
+        {
+          "order": 5,
+          "id": "government:5",
+          "title": "Bài từ vựng 05",
+          "wordCount": 18
+        },
+        {
+          "order": 6,
+          "id": "government:6",
+          "title": "Bài từ vựng 06",
+          "wordCount": 20
+        },
+        {
+          "order": 7,
+          "id": "government:7",
+          "title": "Bài từ vựng 07",
+          "wordCount": 22
+        },
+        {
+          "order": 8,
+          "id": "government:8",
+          "title": "Bài từ vựng 08",
+          "wordCount": 24
+        },
+        {
+          "order": 9,
+          "id": "government:9",
+          "title": "Bài từ vựng 09",
+          "wordCount": 28
+        },
+        {
+          "order": 10,
+          "id": "government:10",
+          "title": "Bài từ vựng 10",
+          "wordCount": 36
+        }
+      ]
+    },
+    {
+      "order": 11,
+      "id": "media",
+      "title": "Media & Advertising",
+      "eyebrow": "IELTS TOPIC 11",
+      "wordCount": 200,
+      "lessonCount": 10,
+      "lessons": [
+        {
+          "order": 1,
+          "id": "media:1",
+          "title": "Bài từ vựng 01",
+          "wordCount": 10
+        },
+        {
+          "order": 2,
+          "id": "media:2",
+          "title": "Bài từ vựng 02",
+          "wordCount": 12
+        },
+        {
+          "order": 3,
+          "id": "media:3",
+          "title": "Bài từ vựng 03",
+          "wordCount": 14
+        },
+        {
+          "order": 4,
+          "id": "media:4",
+          "title": "Bài từ vựng 04",
+          "wordCount": 16
+        },
+        {
+          "order": 5,
+          "id": "media:5",
+          "title": "Bài từ vựng 05",
+          "wordCount": 18
+        },
+        {
+          "order": 6,
+          "id": "media:6",
+          "title": "Bài từ vựng 06",
+          "wordCount": 20
+        },
+        {
+          "order": 7,
+          "id": "media:7",
+          "title": "Bài từ vựng 07",
+          "wordCount": 22
+        },
+        {
+          "order": 8,
+          "id": "media:8",
+          "title": "Bài từ vựng 08",
+          "wordCount": 24
+        },
+        {
+          "order": 9,
+          "id": "media:9",
+          "title": "Bài từ vựng 09",
+          "wordCount": 28
+        },
+        {
+          "order": 10,
+          "id": "media:10",
+          "title": "Bài từ vựng 10",
+          "wordCount": 36
+        }
+      ]
+    },
+    {
+      "order": 12,
+      "id": "culture",
+      "title": "Culture & Heritage",
+      "eyebrow": "IELTS TOPIC 12",
+      "wordCount": 200,
+      "lessonCount": 10,
+      "lessons": [
+        {
+          "order": 1,
+          "id": "culture:1",
+          "title": "Bài từ vựng 01",
+          "wordCount": 10
+        },
+        {
+          "order": 2,
+          "id": "culture:2",
+          "title": "Bài từ vựng 02",
+          "wordCount": 12
+        },
+        {
+          "order": 3,
+          "id": "culture:3",
+          "title": "Bài từ vựng 03",
+          "wordCount": 14
+        },
+        {
+          "order": 4,
+          "id": "culture:4",
+          "title": "Bài từ vựng 04",
+          "wordCount": 16
+        },
+        {
+          "order": 5,
+          "id": "culture:5",
+          "title": "Bài từ vựng 05",
+          "wordCount": 18
+        },
+        {
+          "order": 6,
+          "id": "culture:6",
+          "title": "Bài từ vựng 06",
+          "wordCount": 20
+        },
+        {
+          "order": 7,
+          "id": "culture:7",
+          "title": "Bài từ vựng 07",
+          "wordCount": 22
+        },
+        {
+          "order": 8,
+          "id": "culture:8",
+          "title": "Bài từ vựng 08",
+          "wordCount": 24
+        },
+        {
+          "order": 9,
+          "id": "culture:9",
+          "title": "Bài từ vựng 09",
+          "wordCount": 28
+        },
+        {
+          "order": 10,
+          "id": "culture:10",
+          "title": "Bài từ vựng 10",
+          "wordCount": 36
+        }
+      ]
+    },
+    {
+      "order": 13,
+      "id": "globalisation",
+      "title": "Globalisation & Trade",
+      "eyebrow": "IELTS TOPIC 13",
+      "wordCount": 200,
+      "lessonCount": 10,
+      "lessons": [
+        {
+          "order": 1,
+          "id": "globalisation:1",
+          "title": "Bài từ vựng 01",
+          "wordCount": 10
+        },
+        {
+          "order": 2,
+          "id": "globalisation:2",
+          "title": "Bài từ vựng 02",
+          "wordCount": 12
+        },
+        {
+          "order": 3,
+          "id": "globalisation:3",
+          "title": "Bài từ vựng 03",
+          "wordCount": 14
+        },
+        {
+          "order": 4,
+          "id": "globalisation:4",
+          "title": "Bài từ vựng 04",
+          "wordCount": 16
+        },
+        {
+          "order": 5,
+          "id": "globalisation:5",
+          "title": "Bài từ vựng 05",
+          "wordCount": 18
+        },
+        {
+          "order": 6,
+          "id": "globalisation:6",
+          "title": "Bài từ vựng 06",
+          "wordCount": 20
+        },
+        {
+          "order": 7,
+          "id": "globalisation:7",
+          "title": "Bài từ vựng 07",
+          "wordCount": 22
+        },
+        {
+          "order": 8,
+          "id": "globalisation:8",
+          "title": "Bài từ vựng 08",
+          "wordCount": 24
+        },
+        {
+          "order": 9,
+          "id": "globalisation:9",
+          "title": "Bài từ vựng 09",
+          "wordCount": 28
+        },
+        {
+          "order": 10,
+          "id": "globalisation:10",
+          "title": "Bài từ vựng 10",
+          "wordCount": 36
+        }
+      ]
+    },
+    {
+      "order": 14,
+      "id": "science",
+      "title": "Science & Research",
+      "eyebrow": "IELTS TOPIC 14",
+      "wordCount": 200,
+      "lessonCount": 10,
+      "lessons": [
+        {
+          "order": 1,
+          "id": "science:1",
+          "title": "Bài từ vựng 01",
+          "wordCount": 10
+        },
+        {
+          "order": 2,
+          "id": "science:2",
+          "title": "Bài từ vựng 02",
+          "wordCount": 12
+        },
+        {
+          "order": 3,
+          "id": "science:3",
+          "title": "Bài từ vựng 03",
+          "wordCount": 14
+        },
+        {
+          "order": 4,
+          "id": "science:4",
+          "title": "Bài từ vựng 04",
+          "wordCount": 16
+        },
+        {
+          "order": 5,
+          "id": "science:5",
+          "title": "Bài từ vựng 05",
+          "wordCount": 18
+        },
+        {
+          "order": 6,
+          "id": "science:6",
+          "title": "Bài từ vựng 06",
+          "wordCount": 20
+        },
+        {
+          "order": 7,
+          "id": "science:7",
+          "title": "Bài từ vựng 07",
+          "wordCount": 22
+        },
+        {
+          "order": 8,
+          "id": "science:8",
+          "title": "Bài từ vựng 08",
+          "wordCount": 24
+        },
+        {
+          "order": 9,
+          "id": "science:9",
+          "title": "Bài từ vựng 09",
+          "wordCount": 28
+        },
+        {
+          "order": 10,
+          "id": "science:10",
+          "title": "Bài từ vựng 10",
+          "wordCount": 36
+        }
+      ]
+    },
+    {
+      "order": 15,
+      "id": "family",
+      "title": "Family & Children",
+      "eyebrow": "IELTS TOPIC 15",
+      "wordCount": 200,
+      "lessonCount": 10,
+      "lessons": [
+        {
+          "order": 1,
+          "id": "family:1",
+          "title": "Bài từ vựng 01",
+          "wordCount": 10
+        },
+        {
+          "order": 2,
+          "id": "family:2",
+          "title": "Bài từ vựng 02",
+          "wordCount": 12
+        },
+        {
+          "order": 3,
+          "id": "family:3",
+          "title": "Bài từ vựng 03",
+          "wordCount": 14
+        },
+        {
+          "order": 4,
+          "id": "family:4",
+          "title": "Bài từ vựng 04",
+          "wordCount": 16
+        },
+        {
+          "order": 5,
+          "id": "family:5",
+          "title": "Bài từ vựng 05",
+          "wordCount": 18
+        },
+        {
+          "order": 6,
+          "id": "family:6",
+          "title": "Bài từ vựng 06",
+          "wordCount": 20
+        },
+        {
+          "order": 7,
+          "id": "family:7",
+          "title": "Bài từ vựng 07",
+          "wordCount": 22
+        },
+        {
+          "order": 8,
+          "id": "family:8",
+          "title": "Bài từ vựng 08",
+          "wordCount": 24
+        },
+        {
+          "order": 9,
+          "id": "family:9",
+          "title": "Bài từ vựng 09",
+          "wordCount": 28
+        },
+        {
+          "order": 10,
+          "id": "family:10",
+          "title": "Bài từ vựng 10",
+          "wordCount": 36
+        }
+      ]
+    },
+    {
+      "order": 16,
+      "id": "food",
+      "title": "Food & Agriculture",
+      "eyebrow": "IELTS TOPIC 16",
+      "wordCount": 200,
+      "lessonCount": 10,
+      "lessons": [
+        {
+          "order": 1,
+          "id": "food:1",
+          "title": "Bài từ vựng 01",
+          "wordCount": 10
+        },
+        {
+          "order": 2,
+          "id": "food:2",
+          "title": "Bài từ vựng 02",
+          "wordCount": 12
+        },
+        {
+          "order": 3,
+          "id": "food:3",
+          "title": "Bài từ vựng 03",
+          "wordCount": 14
+        },
+        {
+          "order": 4,
+          "id": "food:4",
+          "title": "Bài từ vựng 04",
+          "wordCount": 16
+        },
+        {
+          "order": 5,
+          "id": "food:5",
+          "title": "Bài từ vựng 05",
+          "wordCount": 18
+        },
+        {
+          "order": 6,
+          "id": "food:6",
+          "title": "Bài từ vựng 06",
+          "wordCount": 20
+        },
+        {
+          "order": 7,
+          "id": "food:7",
+          "title": "Bài từ vựng 07",
+          "wordCount": 22
+        },
+        {
+          "order": 8,
+          "id": "food:8",
+          "title": "Bài từ vựng 08",
+          "wordCount": 24
+        },
+        {
+          "order": 9,
+          "id": "food:9",
+          "title": "Bài từ vựng 09",
+          "wordCount": 28
+        },
+        {
+          "order": 10,
+          "id": "food:10",
+          "title": "Bài từ vựng 10",
+          "wordCount": 36
+        }
+      ]
+    },
+    {
+      "order": 17,
+      "id": "tourism",
+      "title": "Tourism & Travel",
+      "eyebrow": "IELTS TOPIC 17",
+      "wordCount": 200,
+      "lessonCount": 10,
+      "lessons": [
+        {
+          "order": 1,
+          "id": "tourism:1",
+          "title": "Bài từ vựng 01",
+          "wordCount": 10
+        },
+        {
+          "order": 2,
+          "id": "tourism:2",
+          "title": "Bài từ vựng 02",
+          "wordCount": 12
+        },
+        {
+          "order": 3,
+          "id": "tourism:3",
+          "title": "Bài từ vựng 03",
+          "wordCount": 14
+        },
+        {
+          "order": 4,
+          "id": "tourism:4",
+          "title": "Bài từ vựng 04",
+          "wordCount": 16
+        },
+        {
+          "order": 5,
+          "id": "tourism:5",
+          "title": "Bài từ vựng 05",
+          "wordCount": 18
+        },
+        {
+          "order": 6,
+          "id": "tourism:6",
+          "title": "Bài từ vựng 06",
+          "wordCount": 20
+        },
+        {
+          "order": 7,
+          "id": "tourism:7",
+          "title": "Bài từ vựng 07",
+          "wordCount": 22
+        },
+        {
+          "order": 8,
+          "id": "tourism:8",
+          "title": "Bài từ vựng 08",
+          "wordCount": 24
+        },
+        {
+          "order": 9,
+          "id": "tourism:9",
+          "title": "Bài từ vựng 09",
+          "wordCount": 28
+        },
+        {
+          "order": 10,
+          "id": "tourism:10",
+          "title": "Bài từ vựng 10",
+          "wordCount": 36
+        }
+      ]
+    },
+    {
+      "order": 18,
+      "id": "housing",
+      "title": "Housing & Communities",
+      "eyebrow": "IELTS TOPIC 18",
+      "wordCount": 200,
+      "lessonCount": 10,
+      "lessons": [
+        {
+          "order": 1,
+          "id": "housing:1",
+          "title": "Bài từ vựng 01",
+          "wordCount": 10
+        },
+        {
+          "order": 2,
+          "id": "housing:2",
+          "title": "Bài từ vựng 02",
+          "wordCount": 12
+        },
+        {
+          "order": 3,
+          "id": "housing:3",
+          "title": "Bài từ vựng 03",
+          "wordCount": 14
+        },
+        {
+          "order": 4,
+          "id": "housing:4",
+          "title": "Bài từ vựng 04",
+          "wordCount": 16
+        },
+        {
+          "order": 5,
+          "id": "housing:5",
+          "title": "Bài từ vựng 05",
+          "wordCount": 18
+        },
+        {
+          "order": 6,
+          "id": "housing:6",
+          "title": "Bài từ vựng 06",
+          "wordCount": 20
+        },
+        {
+          "order": 7,
+          "id": "housing:7",
+          "title": "Bài từ vựng 07",
+          "wordCount": 22
+        },
+        {
+          "order": 8,
+          "id": "housing:8",
+          "title": "Bài từ vựng 08",
+          "wordCount": 24
+        },
+        {
+          "order": 9,
+          "id": "housing:9",
+          "title": "Bài từ vựng 09",
+          "wordCount": 28
+        },
+        {
+          "order": 10,
+          "id": "housing:10",
+          "title": "Bài từ vựng 10",
+          "wordCount": 36
+        }
+      ]
+    },
+    {
+      "order": 19,
+      "id": "energy",
+      "title": "Energy & Resources",
+      "eyebrow": "IELTS TOPIC 19",
+      "wordCount": 200,
+      "lessonCount": 10,
+      "lessons": [
+        {
+          "order": 1,
+          "id": "energy:1",
+          "title": "Bài từ vựng 01",
+          "wordCount": 10
+        },
+        {
+          "order": 2,
+          "id": "energy:2",
+          "title": "Bài từ vựng 02",
+          "wordCount": 12
+        },
+        {
+          "order": 3,
+          "id": "energy:3",
+          "title": "Bài từ vựng 03",
+          "wordCount": 14
+        },
+        {
+          "order": 4,
+          "id": "energy:4",
+          "title": "Bài từ vựng 04",
+          "wordCount": 16
+        },
+        {
+          "order": 5,
+          "id": "energy:5",
+          "title": "Bài từ vựng 05",
+          "wordCount": 18
+        },
+        {
+          "order": 6,
+          "id": "energy:6",
+          "title": "Bài từ vựng 06",
+          "wordCount": 20
+        },
+        {
+          "order": 7,
+          "id": "energy:7",
+          "title": "Bài từ vựng 07",
+          "wordCount": 22
+        },
+        {
+          "order": 8,
+          "id": "energy:8",
+          "title": "Bài từ vựng 08",
+          "wordCount": 24
+        },
+        {
+          "order": 9,
+          "id": "energy:9",
+          "title": "Bài từ vựng 09",
+          "wordCount": 28
+        },
+        {
+          "order": 10,
+          "id": "energy:10",
+          "title": "Bài từ vựng 10",
+          "wordCount": 36
+        }
+      ]
+    },
+    {
+      "order": 20,
+      "id": "equality",
+      "title": "Equality & Social Change",
+      "eyebrow": "IELTS TOPIC 20",
+      "wordCount": 200,
+      "lessonCount": 10,
+      "lessons": [
+        {
+          "order": 1,
+          "id": "equality:1",
+          "title": "Bài từ vựng 01",
+          "wordCount": 10
+        },
+        {
+          "order": 2,
+          "id": "equality:2",
+          "title": "Bài từ vựng 02",
+          "wordCount": 12
+        },
+        {
+          "order": 3,
+          "id": "equality:3",
+          "title": "Bài từ vựng 03",
+          "wordCount": 14
+        },
+        {
+          "order": 4,
+          "id": "equality:4",
+          "title": "Bài từ vựng 04",
+          "wordCount": 16
+        },
+        {
+          "order": 5,
+          "id": "equality:5",
+          "title": "Bài từ vựng 05",
+          "wordCount": 18
+        },
+        {
+          "order": 6,
+          "id": "equality:6",
+          "title": "Bài từ vựng 06",
+          "wordCount": 20
+        },
+        {
+          "order": 7,
+          "id": "equality:7",
+          "title": "Bài từ vựng 07",
+          "wordCount": 22
+        },
+        {
+          "order": 8,
+          "id": "equality:8",
+          "title": "Bài từ vựng 08",
+          "wordCount": 24
+        },
+        {
+          "order": 9,
+          "id": "equality:9",
+          "title": "Bài từ vựng 09",
+          "wordCount": 28
+        },
+        {
+          "order": 10,
+          "id": "equality:10",
+          "title": "Bài từ vựng 10",
+          "wordCount": 36
+        }
+      ]
+    },
+    {
+      "order": 21,
+      "id": "communication",
+      "title": "Language & Communication",
+      "eyebrow": "IELTS TOPIC 21",
+      "wordCount": 200,
+      "lessonCount": 10,
+      "lessons": [
+        {
+          "order": 1,
+          "id": "communication:1",
+          "title": "Bài từ vựng 01",
+          "wordCount": 10
+        },
+        {
+          "order": 2,
+          "id": "communication:2",
+          "title": "Bài từ vựng 02",
+          "wordCount": 12
+        },
+        {
+          "order": 3,
+          "id": "communication:3",
+          "title": "Bài từ vựng 03",
+          "wordCount": 14
+        },
+        {
+          "order": 4,
+          "id": "communication:4",
+          "title": "Bài từ vựng 04",
+          "wordCount": 16
+        },
+        {
+          "order": 5,
+          "id": "communication:5",
+          "title": "Bài từ vựng 05",
+          "wordCount": 18
+        },
+        {
+          "order": 6,
+          "id": "communication:6",
+          "title": "Bài từ vựng 06",
+          "wordCount": 20
+        },
+        {
+          "order": 7,
+          "id": "communication:7",
+          "title": "Bài từ vựng 07",
+          "wordCount": 22
+        },
+        {
+          "order": 8,
+          "id": "communication:8",
+          "title": "Bài từ vựng 08",
+          "wordCount": 24
+        },
+        {
+          "order": 9,
+          "id": "communication:9",
+          "title": "Bài từ vựng 09",
+          "wordCount": 28
+        },
+        {
+          "order": 10,
+          "id": "communication:10",
+          "title": "Bài từ vựng 10",
+          "wordCount": 36
+        }
+      ]
+    },
+    {
+      "order": 22,
+      "id": "population",
+      "title": "Population & Migration",
+      "eyebrow": "IELTS TOPIC 22",
+      "wordCount": 200,
+      "lessonCount": 10,
+      "lessons": [
+        {
+          "order": 1,
+          "id": "population:1",
+          "title": "Bài từ vựng 01",
+          "wordCount": 10
+        },
+        {
+          "order": 2,
+          "id": "population:2",
+          "title": "Bài từ vựng 02",
+          "wordCount": 12
+        },
+        {
+          "order": 3,
+          "id": "population:3",
+          "title": "Bài từ vựng 03",
+          "wordCount": 14
+        },
+        {
+          "order": 4,
+          "id": "population:4",
+          "title": "Bài từ vựng 04",
+          "wordCount": 16
+        },
+        {
+          "order": 5,
+          "id": "population:5",
+          "title": "Bài từ vựng 05",
+          "wordCount": 18
+        },
+        {
+          "order": 6,
+          "id": "population:6",
+          "title": "Bài từ vựng 06",
+          "wordCount": 20
+        },
+        {
+          "order": 7,
+          "id": "population:7",
+          "title": "Bài từ vựng 07",
+          "wordCount": 22
+        },
+        {
+          "order": 8,
+          "id": "population:8",
+          "title": "Bài từ vựng 08",
+          "wordCount": 24
+        },
+        {
+          "order": 9,
+          "id": "population:9",
+          "title": "Bài từ vựng 09",
+          "wordCount": 28
+        },
+        {
+          "order": 10,
+          "id": "population:10",
+          "title": "Bài từ vựng 10",
+          "wordCount": 36
+        }
+      ]
+    },
+    {
+      "order": 23,
+      "id": "active-life",
+      "title": "Sport & Active Lifestyles",
+      "eyebrow": "IELTS TOPIC 23",
+      "wordCount": 200,
+      "lessonCount": 10,
+      "lessons": [
+        {
+          "order": 1,
+          "id": "active-life:1",
+          "title": "Bài từ vựng 01",
+          "wordCount": 10
+        },
+        {
+          "order": 2,
+          "id": "active-life:2",
+          "title": "Bài từ vựng 02",
+          "wordCount": 12
+        },
+        {
+          "order": 3,
+          "id": "active-life:3",
+          "title": "Bài từ vựng 03",
+          "wordCount": 14
+        },
+        {
+          "order": 4,
+          "id": "active-life:4",
+          "title": "Bài từ vựng 04",
+          "wordCount": 16
+        },
+        {
+          "order": 5,
+          "id": "active-life:5",
+          "title": "Bài từ vựng 05",
+          "wordCount": 18
+        },
+        {
+          "order": 6,
+          "id": "active-life:6",
+          "title": "Bài từ vựng 06",
+          "wordCount": 20
+        },
+        {
+          "order": 7,
+          "id": "active-life:7",
+          "title": "Bài từ vựng 07",
+          "wordCount": 22
+        },
+        {
+          "order": 8,
+          "id": "active-life:8",
+          "title": "Bài từ vựng 08",
+          "wordCount": 24
+        },
+        {
+          "order": 9,
+          "id": "active-life:9",
+          "title": "Bài từ vựng 09",
+          "wordCount": 28
+        },
+        {
+          "order": 10,
+          "id": "active-life:10",
+          "title": "Bài từ vựng 10",
+          "wordCount": 36
+        }
+      ]
+    },
+    {
+      "order": 24,
+      "id": "oceans",
+      "title": "Oceans & Water",
+      "eyebrow": "IELTS TOPIC 24",
+      "wordCount": 200,
+      "lessonCount": 10,
+      "lessons": [
+        {
+          "order": 1,
+          "id": "oceans:1",
+          "title": "Bài từ vựng 01",
+          "wordCount": 10
+        },
+        {
+          "order": 2,
+          "id": "oceans:2",
+          "title": "Bài từ vựng 02",
+          "wordCount": 12
+        },
+        {
+          "order": 3,
+          "id": "oceans:3",
+          "title": "Bài từ vựng 03",
+          "wordCount": 14
+        },
+        {
+          "order": 4,
+          "id": "oceans:4",
+          "title": "Bài từ vựng 04",
+          "wordCount": 16
+        },
+        {
+          "order": 5,
+          "id": "oceans:5",
+          "title": "Bài từ vựng 05",
+          "wordCount": 18
+        },
+        {
+          "order": 6,
+          "id": "oceans:6",
+          "title": "Bài từ vựng 06",
+          "wordCount": 20
+        },
+        {
+          "order": 7,
+          "id": "oceans:7",
+          "title": "Bài từ vựng 07",
+          "wordCount": 22
+        },
+        {
+          "order": 8,
+          "id": "oceans:8",
+          "title": "Bài từ vựng 08",
+          "wordCount": 24
+        },
+        {
+          "order": 9,
+          "id": "oceans:9",
+          "title": "Bài từ vựng 09",
+          "wordCount": 28
+        },
+        {
+          "order": 10,
+          "id": "oceans:10",
+          "title": "Bài từ vựng 10",
+          "wordCount": 36
+        }
+      ]
+    },
+    {
+      "order": 25,
+      "id": "personal-finance",
+      "title": "Personal Finance & Household Life",
+      "eyebrow": "IELTS TOPIC 25",
+      "wordCount": 200,
+      "lessonCount": 10,
+      "lessons": [
+        {
+          "order": 1,
+          "id": "personal-finance:1",
+          "title": "Bài từ vựng 01",
+          "wordCount": 10
+        },
+        {
+          "order": 2,
+          "id": "personal-finance:2",
+          "title": "Bài từ vựng 02",
+          "wordCount": 12
+        },
+        {
+          "order": 3,
+          "id": "personal-finance:3",
+          "title": "Bài từ vựng 03",
+          "wordCount": 14
+        },
+        {
+          "order": 4,
+          "id": "personal-finance:4",
+          "title": "Bài từ vựng 04",
+          "wordCount": 16
+        },
+        {
+          "order": 5,
+          "id": "personal-finance:5",
+          "title": "Bài từ vựng 05",
+          "wordCount": 18
+        },
+        {
+          "order": 6,
+          "id": "personal-finance:6",
+          "title": "Bài từ vựng 06",
+          "wordCount": 20
+        },
+        {
+          "order": 7,
+          "id": "personal-finance:7",
+          "title": "Bài từ vựng 07",
+          "wordCount": 22
+        },
+        {
+          "order": 8,
+          "id": "personal-finance:8",
+          "title": "Bài từ vựng 08",
+          "wordCount": 24
+        },
+        {
+          "order": 9,
+          "id": "personal-finance:9",
+          "title": "Bài từ vựng 09",
+          "wordCount": 28
+        },
+        {
+          "order": 10,
+          "id": "personal-finance:10",
+          "title": "Bài từ vựng 10",
+          "wordCount": 36
+        }
+      ]
+    }
+  ]
+}

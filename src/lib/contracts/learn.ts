@@ -17,6 +17,8 @@ export type {
 export interface Me {
   displayName: string | null;
   isGuest: boolean;
+  /** Null for guests. */
+  email: string | null;
   xpTotal: number;
   streak: number;
   streakFreezes: number;

@@ -3,6 +3,7 @@
 import { Volume2 } from "lucide-react";
 import { useEffect, useMemo, useState } from "react";
 import { btn } from "@/components/app/ui";
+import { LoadingState } from "@/components/app/LoadingState";
 import { api } from "@/lib/client/api";
 import { speak } from "@/lib/client/tts";
 
@@ -42,13 +43,12 @@ export function WordsClient() {
     );
   }, [cards, q]);
   const due = cards?.filter((c) => new Date(c.due) <= new Date()).length ?? 0;
+  if (!cards) return <LoadingState />;
 
   return (
     <div>
       <h1 className="text-[1.75rem] font-bold">Sổ tay từ vựng</h1>
-      <p className="text-muted mt-1">
-        {cards ? `${cards.length} từ · ${due} từ cần ôn hôm nay` : "Đang tải…"}
-      </p>
+      <p className="text-muted mt-1">{`${cards.length} từ · ${due} từ cần ôn hôm nay`}</p>
       <input
         value={q}
         onChange={(e) => setQ(e.target.value)}

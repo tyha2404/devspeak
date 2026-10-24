@@ -1,6 +1,6 @@
 begin;
 create extension if not exists pgtap with schema extensions;
-select plan(13);
+select plan(14);
 
 -- Two users; the auth trigger creates their profiles.
 insert into auth.users (id, email) values
@@ -11,6 +11,11 @@ select is(
   (select count(*)::int from public.profiles where id in
     ('00000000-0000-0000-0000-0000000000a1', '00000000-0000-0000-0000-0000000000b2')),
   2, 'profiles created by auth trigger');
+
+insert into auth.users (id, email, raw_user_meta_data) values
+  ('00000000-0000-0000-0000-0000000000c9', 'c9@test.dev', '{"display_name": "  Minh  "}');
+select is((select display_name from public.profiles where id = '00000000-0000-0000-0000-0000000000c9'),
+  'Minh', 'the sign-up display name lands on the profile');
 
 -- ----- as user A -----
 set local role authenticated;

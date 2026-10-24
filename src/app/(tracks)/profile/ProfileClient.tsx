@@ -5,6 +5,8 @@ import { useEffect, useState } from "react";
 import { SettingsForm } from "@/components/app/SettingsForm";
 import { btn } from "@/components/app/ui";
 import { api } from "@/lib/client/api";
+import { signOut } from "@/lib/client/auth";
+import type { PathStage } from "@/lib/contracts/learn";
 import { createClient } from "@/lib/supabase/browser";
 import { useMe } from "@/stores/meStore";
 import { growthStage } from "@/components/app/GrowthTree";
@@ -113,10 +115,12 @@ export function ProfileClient() {
   const saveName = async () => {
     const db = createClient();
     const { data } = await db.auth.getUser();
-    await db
+    const { error } = await db
       .from("profiles")
       .update({ display_name: name.trim().slice(0, 32) || null })
       .eq("id", data.user!.id);
+    if (error) return toast("Không lưu được tên hiển thị");
+    await useMe.getState().load();
     toast("Đã lưu tên hiển thị");
   };
 
@@ -139,10 +143,22 @@ export function ProfileClient() {
         <h1 className="text-[1.75rem] font-bold">
           {me.displayName ?? (me.isGuest ? "Khách" : "Hồ sơ")}
         </h1>
+        {me.email && <p className="text-muted mt-1">{me.email}</p>}
         {me.isGuest && (
-          <p className="text-muted mt-1">
-            Bạn đang học với tư cách khách. Liên kết tài khoản để không mất tiến trình.
-          </p>
+          <div className="bg-merged-soft mt-3 rounded-2xl p-4">
+            <p>
+              Bạn đang học với tư cách khách: tiến độ chỉ lưu trên thiết bị này. Tạo tài khoản để
+              giữ tiến độ và học trên mọi thiết bị.
+            </p>
+            <div className="mt-3 flex flex-wrap gap-2">
+              <Link href="/login?mode=signup&next=/profile" className={btn.primary}>
+                Tạo tài khoản
+              </Link>
+              <Link href="/login?next=/profile" className={btn.secondary}>
+                Đăng nhập
+              </Link>
+            </div>
+          </div>
         )}
       </header>
 
@@ -185,6 +201,8 @@ export function ProfileClient() {
           </p>
         </section>
       )}
+
+      <ProgressDetail />
 
       <section aria-labelledby="activity">
         <h2 id="activity" className="mb-3 text-xl font-bold">
@@ -235,7 +253,7 @@ export function ProfileClient() {
           <input
             value={name}
             onChange={(e) => setName(e.target.value)}
-            placeholder="Tên hiển thị trên chứng nhận"
+            placeholder="Tên hiển thị"
             aria-label="Tên hiển thị"
             maxLength={32}
             className="border-line bg-surface min-w-0 flex-1 rounded-lg border px-3 py-2"
@@ -244,20 +262,20 @@ export function ProfileClient() {
             Lưu tên
           </button>
         </div>
-        {me.isGuest ? (
-          <Link href="/login?next=/profile" className={btn.primary}>
-            Liên kết email hoặc Google
-          </Link>
-        ) : (
-          <button
-            onClick={async () => {
-              await createClient().auth.signOut();
-              location.href = "/";
-            }}
-            className={btn.secondary}
-          >
-            Đăng xuất
-          </button>
+        {!me.isGuest && (
+          <div className="flex flex-wrap gap-2">
+            <Link href="/account/password" className={btn.secondary}>
+              Đổi mật khẩu
+            </Link>
+            <button
+              onClick={() =>
+                void signOut().catch(() => toast("Không đăng xuất được. Hãy thử lại."))
+              }
+              className={btn.secondary}
+            >
+              Đăng xuất
+            </button>
+          </div>
         )}
         <p>
           <a href="/api/account/export" className="text-muted text-sm underline">
@@ -291,5 +309,55 @@ export function ProfileClient() {
         </details>
       </section>
     </div>
+  );
+}
+
+/** Per level / topic: lessons done, stars, and whether the level was skipped by a test-out. */
+function ProgressDetail() {
+  const [stages, setStages] = useState<PathStage[] | null>(null);
+  useEffect(() => {
+    api
+      .get<{ stages: PathStage[] }>("/api/path")
+      .then((p) => setStages(p.stages))
+      .catch(() => setStages([]));
+  }, []);
+  if (!stages) return null;
+  return (
+    <section aria-labelledby="progress" className="space-y-4">
+      <h2 id="progress" className="text-xl font-bold">
+        Tiến độ chi tiết
+      </h2>
+      {stages.map((s) => (
+        <div key={s.id} className="border-line bg-surface overflow-hidden rounded-2xl border">
+          <p className="bg-paper px-4 py-2 font-semibold">{s.title.vi}</p>
+          <ul className="divide-line divide-y">
+            {s.units
+              .filter((u) => u.state !== "coming_soon")
+              .map((u) => {
+                const done = u.lessons.filter((l) => l.state === "completed").length;
+                return (
+                  <li key={u.id} className="flex items-center gap-3 px-4 py-2.5 text-sm">
+                    <span className="bg-paper w-12 shrink-0 rounded-md py-0.5 text-center font-mono font-bold">
+                      {u.code}
+                    </span>
+                    <span className="min-w-0 flex-1 truncate">{u.title.vi}</span>
+                    {u.completedVia === "test_out" && (
+                      <span className="bg-merged-soft rounded-full px-2 py-0.5 text-xs">
+                        Vượt cấp
+                      </span>
+                    )}
+                    <span className="text-muted tabular-nums">
+                      {done}/{u.lessons.length} bài
+                    </span>
+                    <span className="text-gold w-16 text-right tabular-nums">
+                      ★ {u.stars}/{u.maxStars}
+                    </span>
+                  </li>
+                );
+              })}
+          </ul>
+        </div>
+      ))}
+    </section>
   );
 }
