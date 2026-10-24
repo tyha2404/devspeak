@@ -106,41 +106,36 @@ async function viewNode(db: SupabaseClient, userId: string, d: DialogueRow, run:
   return stripNode(run.current_node, node, { sessionId });
 }
 
-/** Start (or resume) the next dialogue for an NPC: first not completed, otherwise the latest. */
-export async function startDialogue(
+const RUN_COLUMNS =
+  "id, user_id, dialogue_id, dialogue_version, current_node, path, quiz_session_id, completed_at";
+
+/** Start a run of one dialogue (a lesson's conversation), or resume `resumeRunId` if still open. */
+export async function startDialogueRun(
   db: SupabaseClient,
   userId: string,
-  npcId: string,
-  level: number,
+  dialogueId: string,
+  resumeRunId?: string,
 ): Promise<DialogueStep> {
-  const { data: list, error } = await db
+  const { data: dData, error } = await db
     .from("dialogues")
     .select("id, slug, npc_id, title_en, title_vi, version, graph, xp_reward, unlock_level")
-    .eq("npc_id", npcId)
+    .eq("id", dialogueId)
     .eq("status", "published")
-    .lte("unlock_level", level)
-    .order("sort_order");
+    .maybeSingle();
   if (error) throw error;
-  const dialogues = (list ?? []) as DialogueRow[];
-  if (!dialogues.length) throw new DialogueError("NOT_FOUND", "Nothing to talk about yet");
+  if (!dData) throw new DialogueError("NOT_FOUND", "Conversation not found");
+  const d = dData as DialogueRow;
 
-  const { data: runs } = await db
-    .from("dialogue_runs")
-    .select(
-      "id, user_id, dialogue_id, dialogue_version, current_node, path, quiz_session_id, completed_at",
-    )
-    .eq("user_id", userId)
-    .in(
-      "dialogue_id",
-      dialogues.map((d) => d.id),
-    )
-    .order("started_at", { ascending: false });
-  const done = new Set((runs ?? []).filter((r) => r.completed_at).map((r) => r.dialogue_id));
-  const d = dialogues.find((x) => !done.has(x.id)) ?? dialogues[dialogues.length - 1]!;
-
-  let run = (runs ?? []).find(
-    (r) => r.dialogue_id === d.id && !r.completed_at && r.dialogue_version === d.version,
-  ) as RunRow | undefined;
+  let run: RunRow | undefined;
+  if (resumeRunId) {
+    const { data } = await db
+      .from("dialogue_runs")
+      .select(RUN_COLUMNS)
+      .eq("id", resumeRunId)
+      .maybeSingle();
+    const r = data as RunRow | null;
+    if (r && r.user_id === userId && r.dialogue_version === d.version) run = r;
+  }
   if (!run) {
     const { data, error: insErr } = await db
       .from("dialogue_runs")
@@ -150,9 +145,7 @@ export async function startDialogue(
         dialogue_version: d.version,
         current_node: d.graph.entry,
       })
-      .select(
-        "id, user_id, dialogue_id, dialogue_version, current_node, path, quiz_session_id, completed_at",
-      )
+      .select(RUN_COLUMNS)
       .single();
     if (insErr) throw insErr;
     run = data as RunRow;
@@ -162,7 +155,7 @@ export async function startDialogue(
     title: { en: d.title_en, vi: d.title_vi },
     node: await viewNode(db, userId, d, run),
     glossary: await glossary(db, graphSenses(d.graph)),
-    done: false,
+    done: !!run.completed_at,
   };
 }
 
@@ -175,9 +168,7 @@ export async function advanceDialogue(
 ): Promise<DialogueStep> {
   const { data: runData } = await db
     .from("dialogue_runs")
-    .select(
-      "id, user_id, dialogue_id, dialogue_version, current_node, path, quiz_session_id, completed_at",
-    )
+    .select(RUN_COLUMNS)
     .eq("id", runId)
     .maybeSingle();
   const run = runData as RunRow | null;
@@ -245,34 +236,12 @@ export async function advanceDialogue(
     quiz_session_id: null,
   };
 
+  // The lesson that contains this conversation pays the XP; the run only records completion.
   let rewards: DialogueStep["rewards"];
   if (nextNode.type === "end") {
     learned.push(...(await applyEffects(db, userId, nextNode.effects)));
     update.completed_at = new Date().toISOString();
-    const { data: award } = await db.rpc("svc_award_xp", {
-      p_user: userId,
-      p_amount: d.xp_reward,
-      p_reason: "dialogue_complete",
-      p_key: `dialogue:${d.id}:v${d.version}`,
-      p_ref_type: "dialogue",
-      p_ref_id: d.slug,
-      p_coins: 5,
-    });
-    const a = award as {
-      duplicate: boolean;
-      xp_total: number;
-      level: number;
-      leveled_up?: boolean;
-      coins?: number;
-    };
-    rewards = {
-      xp: a.duplicate ? 0 : d.xp_reward,
-      leveledUp: !!a.leveled_up,
-      level: a.level,
-      xpTotal: a.xp_total,
-      coins: a.coins ?? 0,
-      wordsLearned: learned,
-    };
+    rewards = { wordsLearned: learned };
   }
   const { error: upErr } = await db.from("dialogue_runs").update(update).eq("id", run.id);
   if (upErr) throw upErr;

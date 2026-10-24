@@ -37,10 +37,10 @@ export type AnswerResult =
       explanation: { vi: string | null; en: string | null };
       totals: {
         xpTotal: number;
-        level: number;
-        leveledUp: boolean;
-        coins: number;
         streak: number;
+        todayXp: number;
+        dailyGoal: number;
+        goalMetNow: boolean;
       } | null;
       session: { answered: number; correct: number; total: number; done: boolean } | null;
     };

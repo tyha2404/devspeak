@@ -1,15 +1,75 @@
 @import "tailwindcss";
 
+/* Cool, quiet base; amber is the one action colour, violet marks merged (finished) work. */
 :root {
-  --background: #1b1b28;
-  --foreground: #f4f1de;
+  --paper: #f3f5f8;
+  --surface: #ffffff;
+  --ink: #172033;
+  --muted: #5a6478;
+  --line: #d9dfe8;
+  --amber: #e48a1f;
+  --amber-soft: #fdf0dd;
+  --merged: #6e56cf;
+  --merged-soft: #eeeafb;
+  --ok: #1f8a5b;
+  --ok-soft: #e3f4ec;
+  --bad: #c93c3c;
+  --bad-soft: #fbe9e9;
   --dq-font-base: 18px; /* must match settingsStore default "m" to avoid a layout shift */
+  color-scheme: light;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root:not([data-theme="light"]) {
+    --paper: #10151f;
+    --surface: #182031;
+    --ink: #e8ecf3;
+    --muted: #98a2b5;
+    --line: #283248;
+    --amber: #f0a045;
+    --amber-soft: #3a2a15;
+    --merged: #9c88f0;
+    --merged-soft: #2a2546;
+    --ok: #3dbb84;
+    --ok-soft: #173327;
+    --bad: #e26464;
+    --bad-soft: #3a1c1f;
+    color-scheme: dark;
+  }
+}
+:root[data-theme="dark"] {
+  --paper: #10151f;
+  --surface: #182031;
+  --ink: #e8ecf3;
+  --muted: #98a2b5;
+  --line: #283248;
+  --amber: #f0a045;
+  --amber-soft: #3a2a15;
+  --merged: #9c88f0;
+  --merged-soft: #2a2546;
+  --ok: #3dbb84;
+  --ok-soft: #173327;
+  --bad: #e26464;
+  --bad-soft: #3a1c1f;
+  color-scheme: dark;
 }
 
 @theme inline {
-  --color-background: var(--background);
-  --color-foreground: var(--foreground);
+  --color-paper: var(--paper);
+  --color-surface: var(--surface);
+  --color-ink: var(--ink);
+  --color-muted: var(--muted);
+  --color-line: var(--line);
+  --color-amber: var(--amber);
+  --color-amber-soft: var(--amber-soft);
+  --color-merged: var(--merged);
+  --color-merged-soft: var(--merged-soft);
+  --color-ok: var(--ok);
+  --color-ok-soft: var(--ok-soft);
+  --color-bad: var(--bad);
+  --color-bad-soft: var(--bad-soft);
   --font-sans: var(--font-be-vietnam);
+  --font-mono: var(--font-mono-code);
 }
 
 html {
@@ -22,75 +82,82 @@ html {
 }
 
 body {
-  background: var(--background);
-  color: var(--foreground);
+  background: var(--paper);
+  color: var(--ink);
   font-family: var(--font-be-vietnam), system-ui, sans-serif;
-  overscroll-behavior: none;
 }
 
-/* ---- Game UI kit: pixel "IDE window" look shared by HUD, panels and dialogue ---- */
-:root {
-  --dq-ink: #1b1b28;
-  --dq-paper: #fbf8ef;
-  --dq-edge: #2b2d42;
-  --dq-accent: #f2a65a;
-  --dq-hud: rgb(20 21 31 / 0.88);
+:focus-visible {
+  outline: 2px solid var(--amber);
+  outline-offset: 2px;
 }
 
-.dq-window {
-  background: var(--dq-paper);
-  color: var(--dq-ink);
-  border: 3px solid var(--dq-edge);
-  border-radius: 6px;
-  box-shadow:
-    inset 0 0 0 2px #fff,
-    6px 6px 0 rgb(0 0 0 / 0.35);
-  overflow: hidden;
+/* The one ambient motion: the current commit on the path breathes. */
+@keyframes dq-pulse {
+  0%,
+  100% {
+    box-shadow: 0 0 0 0 color-mix(in srgb, var(--amber) 45%, transparent);
+  }
+  50% {
+    box-shadow: 0 0 0 7px color-mix(in srgb, var(--amber) 0%, transparent);
+  }
+}
+.dq-pulse {
+  animation: dq-pulse 2.4s ease-in-out infinite;
+}
+@media (prefers-reduced-motion: reduce) {
+  .dq-pulse {
+    animation: none;
+  }
 }
 
-.dq-titlebar {
-  display: flex;
-  align-items: center;
-  gap: 0.5rem;
-  background: var(--dq-edge);
-  color: #f4f1de;
-  padding: 0.4rem 0.6rem 0.4rem 0.75rem;
-  font-size: 0.8rem;
+/* Lesson focus notes (Markdown). */
+.dq-prose {
+  line-height: 1.65;
+  max-width: 68ch;
+}
+.dq-prose p,
+.dq-prose ul,
+.dq-prose ol,
+.dq-prose table {
+  margin: 0.75rem 0;
+}
+.dq-prose ul {
+  list-style: disc;
+  padding-left: 1.25rem;
+}
+.dq-prose ol {
+  list-style: decimal;
+  padding-left: 1.25rem;
+}
+.dq-prose strong {
   font-weight: 700;
-  letter-spacing: 0.02em;
 }
-.dq-titlebar::before {
-  content: "";
-  flex: none;
-  width: 8px;
-  height: 8px;
-  border-radius: 2px;
-  background: var(--dq-accent);
-  box-shadow:
-    12px 0 0 #7bc47f,
-    24px 0 0 #6fa8dc;
-  margin-right: 28px;
+.dq-prose em {
+  font-style: italic;
+  color: var(--ink);
 }
-
-.dq-hud {
-  background: var(--dq-hud);
-  color: #f4f1de;
-  border: 2px solid #3a3d5c;
-  border-radius: 6px;
-  box-shadow: 3px 3px 0 rgb(0 0 0 / 0.4);
-  backdrop-filter: blur(4px);
-}
-
-.dq-key {
-  display: inline-grid;
-  place-items: center;
-  min-width: 1.5em;
-  height: 1.5em;
-  padding: 0 0.3em;
+.dq-prose code {
+  font-family: var(--font-mono-code), ui-monospace, monospace;
+  font-size: 0.9em;
+  background: var(--paper);
+  border: 1px solid var(--line);
   border-radius: 4px;
-  background: #f4f1de;
-  color: var(--dq-ink);
-  font-weight: 800;
-  font-size: 0.75em;
-  box-shadow: 0 2px 0 #9a9486;
+  padding: 0 0.25rem;
+}
+.dq-prose table {
+  border-collapse: collapse;
+  width: 100%;
+  font-size: 0.92rem;
+}
+.dq-prose th,
+.dq-prose td {
+  border-bottom: 1px solid var(--line);
+  padding: 0.4rem 0.6rem 0.4rem 0;
+  text-align: left;
+  vertical-align: top;
+}
+.dq-prose th {
+  color: var(--muted);
+  font-weight: 600;
 }

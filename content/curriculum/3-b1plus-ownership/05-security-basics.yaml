@@ -1,0 +1,14 @@
+slug: security-basics
+stage: b1plus-ownership
+sort: 5
+code: K8
+kind: knowledge
+cefr: B1
+character: kenji
+status: draft
+title: { en: "Security basics", vi: "Security cơ bản" }
+summary_vi: "Authentication/authorization, vulnerability, injection, secret, patch — cảnh báo và khuyến nghị bảo mật."
+can_do:
+  - "Giải thích một lỗ hổng phổ biến"
+  - "Phân biệt authentication và authorization"
+lessons: []

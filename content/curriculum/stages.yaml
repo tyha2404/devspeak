@@ -1,0 +1,26 @@
+# The learning path: 4 stages (CEFR bands). Units live in content/curriculum/<n>-<stage>/*.yaml.
+- slug: a2-foundation
+  sort: 1
+  cefr: A2
+  title: { en: "Foundation", vi: "Nền tảng" }
+  tagline_vi: "Tuần đầu đi làm"
+  description_vi: "Giới thiệu bản thân, nhờ giúp đỡ, daily standup, báo lỗi đơn giản, git và những khái niệm lập trình cơ bản bằng tiếng Anh."
+- slug: b1-teamwork
+  sort: 2
+  cefr: B1
+  title: { en: "Teamwork", vi: "Làm việc trong team" }
+  tagline_vi: "Làm việc trôi chảy trong một team quốc tế"
+  description_vi: "Sprint planning, bug report đầy đủ, code review, commit/PR, họp online, email công việc; HTTP/REST, database và testing."
+- slug: b1plus-ownership
+  sort: 3
+  cefr: B1
+  title: { en: "Ownership", vi: "Tự chủ & review" }
+  tagline_vi: "Tự tin góp ý, xử lý sự cố, thảo luận kỹ thuật"
+  description_vi: "Góp ý code review lịch sự, on-call và sự cố, trade-off và design doc, postmortem, pair programming, mentoring; DevOps, security, thuật toán."
+- slug: b2-leadership
+  sort: 4
+  cefr: B2
+  title: { en: "Leadership", vi: "Khách hàng & tầm ảnh hưởng" }
+  tagline_vi: "Làm việc với khách hàng, thuyết trình, phỏng vấn"
+  description_vi: "Requirement, đàm phán scope, demo, tech talk, phỏng vấn xin việc, performance review; system design, kiến trúc, AI/ML."
+  checkpoint: { size: 15, pass_pct: 70 }

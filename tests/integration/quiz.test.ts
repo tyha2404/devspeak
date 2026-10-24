@@ -1,5 +1,5 @@
 import { describe, expect, it } from "vitest";
-import { advanceDialogue, startDialogue } from "@/features/dialogue/service";
+import { advanceDialogue, startDialogueRun } from "@/features/dialogue/service";
 import {
   createSession,
   nextDelivery,
@@ -24,7 +24,7 @@ async function correctChoice(deliveryId: string) {
 
 async function deliverOne(userId: string, slug: string) {
   const ids = await questionIdsBySlug(admin, [slug]);
-  const s = await createSession(admin, userId, { kind: "npc", questionIds: ids });
+  const s = await createSession(admin, userId, { kind: "practice", questionIds: ids });
   const d = await nextDelivery(admin, userId, s.id);
   if ("done" in d) throw new Error("unexpected done");
   return { session: s, delivery: d };
@@ -65,7 +65,7 @@ describe("quiz flow", () => {
     });
   });
 
-  it("awards 10 XP once and rejects a double submit", async () => {
+  it("pays practice XP once and rejects a double submit", async () => {
     const user = await newUser();
     const { delivery } = await deliverOne(user, "sarah-standup-meaning");
     const right = await correctChoice(delivery.deliveryId);
@@ -74,17 +74,12 @@ describe("quiz flow", () => {
       kind: "choice",
       optionId: right,
     });
-    expect(r).toMatchObject({ final: true, correct: true, xp: 10 });
+    expect(r).toMatchObject({ final: true, correct: true, xp: 5 });
     await expect(
       submitAnswer(admin, user, delivery.deliveryId, { kind: "choice", optionId: right }),
     ).rejects.toBeInstanceOf(QuizError);
-    const { data: p } = await admin
-      .from("profiles")
-      .select("xp_total, coins")
-      .eq("id", user)
-      .single();
-    // 10 for the answer + 30..50 completion bonus for the one-question session.
-    expect(p!.xp_total).toBeGreaterThanOrEqual(40);
+    const { data: p } = await admin.from("profiles").select("xp_total").eq("id", user).single();
+    expect(p!.xp_total).toBe(5);
   });
 
   it("pays nothing for answers faster than a human can read", async () => {
@@ -111,9 +106,14 @@ describe("quiz flow", () => {
 });
 
 describe("dialogue flow", () => {
-  it("walks Linh's welcome end to end, learns words and pays XP once", async () => {
+  it("walks Linh's welcome end to end and learns its words", async () => {
     const user = await newUser();
-    let step = await startDialogue(admin, user, "linh", 1);
+    const { data: d } = await admin
+      .from("dialogues")
+      .select("id")
+      .eq("slug", "linh-welcome")
+      .single();
+    let step = await startDialogueRun(admin, user, d!.id);
     expect(step.node).toMatchObject({ type: "line" });
     expect(Object.keys(step.glossary)).toContain("onboarding-n");
 
@@ -146,11 +146,9 @@ describe("dialogue flow", () => {
     expect(step.node.type).toBe("line");
     step = await advanceDialogue(admin, user, step.runId); // done → end
     expect(step.done).toBe(true);
-    expect(step.rewards?.xp).toBe(20);
     expect(step.rewards?.wordsLearned.sort()).toEqual(["colleague-n", "onboarding-n"]);
-
-    // Replaying pays no dialogue XP again.
-    const replay = await startDialogue(admin, user, "linh", 1);
-    expect(replay.title.en).toBe("Asking for a day off");
+    // Conversations pay nothing themselves; the lesson around them does.
+    const { data: p } = await admin.from("profiles").select("xp_total").eq("id", user).single();
+    expect(p!.xp_total).toBe(0);
   });
 });

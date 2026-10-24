@@ -17,13 +17,14 @@ export class QuizError extends Error {
   }
 }
 
-export type SessionKind = "npc" | "daily" | "practice" | "review_verify" | "placement" | "boss";
+export type SessionKind =
+  "npc" | "practice" | "review_verify" | "placement" | "lesson" | "checkpoint" | "test_out";
 
-/** Create a quiz session over explicit question ids (dialogue quiz nodes, bosses) or picked ones. */
+/** Create a quiz session over explicit question ids (lessons, dialogue quiz nodes, exams). */
 export async function createSession(
   db: SupabaseClient,
   userId: string,
-  opts: { kind: SessionKind; npcId?: string; questionIds: string[] },
+  opts: { kind: SessionKind; npcId?: string; ref?: string; questionIds: string[] },
 ) {
   if (!opts.questionIds.length) throw new QuizError("EMPTY", "No questions available");
   const { data, error } = await db
@@ -32,6 +33,7 @@ export async function createSession(
       user_id: userId,
       kind: opts.kind,
       npc_id: opts.npcId ?? null,
+      ref: opts.ref ?? null,
       question_ids: opts.questionIds,
       planned_count: opts.questionIds.length,
     })
@@ -52,17 +54,24 @@ export async function questionIdsBySlug(db: SupabaseClient, slugs: string[]) {
   return slugs.map((s) => bySlug.get(s)).filter((id): id is string => !!id);
 }
 
-/** Pick `size` published questions for practice, preferring ones not answered correctly lately. */
+/**
+ * Pick `size` published questions for free practice (from one unit's lessons, or the units the
+ * learner has opened), preferring ones not answered correctly lately.
+ */
 export async function pickPracticeQuestions(
   db: SupabaseClient,
   userId: string,
-  npcId: string | undefined,
+  unitIds: number[],
   size: number,
 ) {
-  let q = db.from("questions").select("id").eq("status", "published").limit(200);
-  if (npcId) q = q.eq("npc_id", npcId);
-  const { data: pool, error } = await q;
+  const { data: rows, error } = await db
+    .from("lesson_questions")
+    .select("question_id, lessons!inner(unit_id), questions!inner(status)")
+    .in("lessons.unit_id", unitIds)
+    .eq("questions.status", "published")
+    .limit(500);
   if (error) throw error;
+  const pool = [...new Set((rows ?? []).map((r) => r.question_id as string))].map((id) => ({ id }));
   const { data: recent } = await db
     .from("user_answers")
     .select("question_id")
@@ -252,10 +261,10 @@ export async function submitAnswer(
     xp: number;
     award: {
       xp_total: number;
-      level: number;
-      leveled_up: boolean;
-      coins: number;
       streak: number;
+      day_xp: number;
+      daily_goal: number;
+      goal_met_now: boolean;
     } | null;
     session: { answered: number; correct: number; total: number; done: boolean } | null;
   };
@@ -279,10 +288,10 @@ export async function submitAnswer(
     totals: r.award
       ? {
           xpTotal: r.award.xp_total,
-          level: r.award.level,
-          leveledUp: r.award.leveled_up,
-          coins: r.award.coins,
           streak: r.award.streak,
+          todayXp: r.award.day_xp,
+          dailyGoal: r.award.daily_goal,
+          goalMetNow: r.award.goal_met_now,
         }
       : null,
     session: r.session,

@@ -299,7 +299,6 @@ export async function endChat(db: SupabaseClient, userId: string, sessionId: str
         p_amount: xp,
         p_reason: "chat_session",
         p_key: `chat:${sessionId}`,
-        p_coins: 5,
       });
     }
   }

@@ -5,7 +5,7 @@ const steps = [
   "scripts/seed/00-download.mts",
   "scripts/seed/10-vocab.mts",
   "scripts/seed/20-tatoeba.mts",
-  "scripts/seed-curated.mts",
+  "scripts/seed-content.mts",
 ];
 for (const s of steps) {
   console.log(`\n▶ ${s}`);

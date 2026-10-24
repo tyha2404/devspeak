@@ -1,0 +1,18 @@
+slug: job-interviews
+stage: b2-leadership
+sort: 7
+code: S23
+kind: situation
+cefr: B2
+character: robert
+status: draft
+title: { en: "Job interviews", vi: "Phỏng vấn xin việc" }
+summary_vi: "Tự giới thiệu, câu hỏi hành vi theo STAR, technical interview (think aloud), hỏi lại nhà tuyển dụng."
+can_do:
+  - "Trả lời câu hỏi hành vi theo cấu trúc STAR"
+  - "Suy nghĩ thành lời khi làm bài technical"
+lessons:
+  - slug: s23-practice
+    kind: practice
+    title: { en: "Practice", vi: "Luyện tập" }
+    questions: ["robert-reply-interview", "linh-fix-experience"]

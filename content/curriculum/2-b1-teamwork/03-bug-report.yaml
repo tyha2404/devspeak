@@ -1,0 +1,60 @@
+slug: bug-report
+stage: b1-teamwork
+sort: 3
+code: S8
+kind: situation
+cefr: B1
+character: emma
+status: published
+title: { en: "A complete bug report", vi: "Bug report đầy đủ" }
+summary_vi: 'Repro steps, severity/priority, môi trường, và xác nhận đã sửa — kể cả khi "works on my machine".'
+can_do:
+  - "Viết repro steps theo trình tự rõ ràng"
+  - "Thảo luận severity và priority với QA"
+lessons:
+  - slug: s8-words
+    kind: vocab
+    title: { en: "Key words", vi: "Từ vựng" }
+    senses: [reproduce-v, steps-to-reproduce-n, severity-n, edge-case-n]
+    questions: [emma-order-reproduce, x-fill-edge-case, emma-fill-steps]
+  - slug: s8-severity
+    kind: dialogue
+    title: { en: "How serious is it?", vi: "Lỗi này nghiêm trọng cỡ nào?" }
+    dialogue: emma-severity
+  - slug: s8-focus
+    kind: focus
+    title: { en: "Steps to reproduce", vi: "Viết các bước tái hiện" }
+    body_vi: |
+      Repro steps là **danh sách câu mệnh lệnh** có thứ tự, đủ để người khác làm lại y hệt:
+
+      1. ***Log in** as a free user.*
+      2. ***Go to** Settings → Billing.*
+      3. ***Click** "Upgrade" twice quickly.*
+
+      Sau đó: **Expected / Actual / Environment** (*Chrome 129, macOS, staging*).
+      Nối trình tự khi nói: *First…, then…, after that…, finally…*.
+      Khi không tái hiện được: *I **can't reproduce** it on my machine — could you share the steps and your browser version?*
+    examples:
+      - {
+          en: "It only happens on Safari, and only if the cart has more than 20 items.",
+          vi: "Chỉ xảy ra trên Safari, và chỉ khi giỏ có hơn 20 món.",
+        }
+    questions: [emma-order-steps, x-fix-steps]
+  - slug: s8-practice
+    kind: practice
+    title: { en: "Practice", vi: "Luyện tập" }
+    questions: [emma-reply-severity, emma-reply-repro, emma-fill-actual]
+  - slug: s8-task
+    kind: task
+    mode: write
+    title: { en: "Write a full bug report", vi: "Nhiệm vụ: viết bug report đầy đủ" }
+    context:
+      - {
+          speaker: "Notes",
+          text: "Coupon code 'SALE10' applied twice → total becomes negative. Happens on staging, Chrome. Customers could get free orders.",
+        }
+    prompt:
+      en: "Turn the notes into a Jira bug report: a title, steps to reproduce, expected, actual, and suggested severity."
+      vi: "Biến ghi chú thành bug report trên Jira: tiêu đề, các bước tái hiện, expected, actual và mức severity đề xuất."
+    keywords: [steps, expected, actual, severity]
+    model_answer: "Title: Coupon can be applied twice, making the order total negative.\nSteps: 1. Add any item to the cart. 2. Apply the code SALE10. 3. Apply SALE10 again.\nExpected: the second attempt shows \"Coupon already applied\".\nActual: the discount is applied twice and the total becomes negative.\nEnvironment: staging, Chrome.\nSeverity: critical — customers could place free orders."

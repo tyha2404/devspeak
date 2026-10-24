@@ -1,0 +1,67 @@
+slug: review-feedback
+stage: b1-teamwork
+sort: 5
+code: S9
+kind: situation
+cefr: B1
+character: raj
+status: published
+title: { en: "Receiving code review feedback", vi: "Nhận & trả lời feedback code review" }
+summary_vi: "Cảm ơn, đồng ý hoặc hỏi lại, và báo những gì bạn đã sửa trong PR."
+can_do:
+  - "Trả lời comment review: đồng ý, làm rõ hoặc giải thích lựa chọn của mình"
+  - "Báo lại những gì đã thay đổi bằng thì hiện tại hoàn thành"
+lessons:
+  - slug: s9-words
+    kind: vocab
+    title: { en: "Key words", vi: "Từ vựng" }
+    senses: [review-v, feedback-n, lgtm-phr, address-feedback-phr, approve-v, naming-n]
+    questions: [tuan-fill-review, tuan-fill-feedback, raj-fill-approve]
+  - slug: s9-tuan-review
+    kind: dialogue
+    title: { en: "Code review feedback", vi: "Feedback từ Tuấn" }
+    dialogue: tuan-code-review
+  - slug: s9-focus
+    kind: focus
+    title: { en: "Thank · Agree/Clarify · Done", vi: "Cảm ơn · Đồng ý/Hỏi lại · Đã sửa" }
+    body_vi: |
+      Trả lời một comment review thường gồm:
+
+      - **Đồng ý:** *Good catch, thanks!* · *Makes sense — I'll change it.*
+      - **Hỏi lại:** *Do you mean we should move this into a hook?* · *Could you clarify what you mean by "too coupled"?*
+      - **Giải thích lựa chọn:** *I kept it inline because it's only used once, but happy to extract it.*
+      - **Báo đã sửa** bằng **hiện tại hoàn thành:** *I've renamed the variable and added a test.* · *Done in 3f2a1c.*
+
+      Không phản ứng phòng thủ — comment là về **code**, không phải về **bạn**.
+    examples:
+      - {
+          en: "Thanks for the review! I've addressed all comments except the last one — I think we should handle that in a separate PR.",
+          vi: "Cảm ơn đã review! Mình đã xử lý hết comment trừ cái cuối — mình nghĩ nên làm ở PR riêng.",
+        }
+    questions: [tuan-order-review, tuan-fill-naming, raj-order-suggest]
+  - slug: s9-raj-review
+    kind: dialogue
+    title: { en: "Replying to Raj's comments", vi: "Trả lời comment của Raj" }
+    dialogue: raj-pr-review
+  - slug: s9-listening
+    kind: listening
+    title: { en: "Listen", vi: "Nghe" }
+    questions: [tuan-listen-review]
+  - slug: s9-practice
+    kind: practice
+    title: { en: "Practice", vi: "Luyện tập" }
+    questions: [tuan-reply-lgtm, tuan-lgtm-meaning, raj-fill-suggest]
+  - slug: s9-task
+    kind: task
+    mode: write
+    title: { en: "Reply to a review comment", vi: "Nhiệm vụ: trả lời comment review" }
+    context:
+      - {
+          speaker: "Raj (comment on UserService.ts)",
+          text: "This function does three things: validation, saving and sending the email. Could we split it up?",
+        }
+    prompt:
+      en: "Reply to Raj's comment: thank him, agree or clarify, and say what you've changed."
+      vi: "Trả lời comment của Raj: cảm ơn, đồng ý hoặc hỏi lại, và nói bạn đã sửa gì."
+    keywords: [thanks, "I've", split]
+    model_answer: "Good point, thanks! I've split it into validateUser, saveUser and sendWelcomeEmail, and added a unit test for the validation. Let me know if this looks better."

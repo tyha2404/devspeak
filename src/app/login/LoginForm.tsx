@@ -101,7 +101,7 @@ export function LoginForm({ next }: { next: string }) {
           {message}
         </p>
       )}
-      <a href="/play" className="block text-center text-sm underline">
+      <a href="/learn" className="block text-center text-sm underline">
         Chơi tiếp với tư cách khách
       </a>
     </div>

@@ -1,0 +1,27 @@
+slug: incidents-on-call
+stage: b1plus-ownership
+sort: 3
+code: S14
+kind: situation
+cefr: B1
+character: kenji
+status: draft
+title: { en: "Incidents & on-call", vi: "Sự cố & on-call" }
+summary_vi: "Báo sự cố, cập nhật tình hình định kỳ, escalate và bàn giao ca trực."
+can_do:
+  - "Viết status update khi có sự cố"
+  - "Escalate đúng người, đúng lúc"
+lessons:
+  - slug: s14-words
+    kind: vocab
+    title: { en: "Key words", vi: "Từ vựng" }
+    senses: ["outage-n", "on-call-adj", "latency-n"]
+    questions: ["kenji-outage-meaning", "kenji-latency-meaning"]
+  - slug: s14-incident
+    kind: dialogue
+    title: { en: "Incident war room", vi: "Phòng xử lý sự cố" }
+    dialogue: "kenji-incident"
+  - slug: s14-practice
+    kind: practice
+    title: { en: "Practice", vi: "Luyện tập" }
+    questions: ["kenji-order-status", "kenji-fix-oncall", "kenji-fill-rolled-back"]

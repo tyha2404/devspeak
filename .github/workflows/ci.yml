@@ -42,7 +42,7 @@ jobs:
             | sed -n 's/^PUBLISHABLE_KEY=/NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY=/p; s/^SECRET_KEY=/SUPABASE_SECRET_KEY=/p' \
             | tr -d '"' >> "$GITHUB_ENV"
       - run: pnpm db:test
-      - run: pnpm seed:curated
+      - run: pnpm seed:content
       - run: pnpm test:integration
       - name: Generated DB types are up to date
         run: |

@@ -19,6 +19,8 @@ export type ApiErrorCode =
   | "LOCKED"
   | "BAD_CHOICE"
   | "QUIZ_NOT_FINISHED"
+  | "DIALOGUE_NOT_FINISHED"
+  | "TASK_NOT_GRADED"
   | "QUOTA_EXCEEDED"
   | "AI_UNAVAILABLE";
 

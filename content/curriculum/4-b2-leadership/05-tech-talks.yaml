@@ -1,0 +1,27 @@
+slug: tech-talks
+stage: b2-leadership
+sort: 5
+code: S22
+kind: situation
+cefr: B2
+character: robert
+status: draft
+title: { en: "Tech talks & presentations", vi: "Tech talk & thuyết trình" }
+summary_vi: "Signposting, cấu trúc bài nói, kết luận và trả lời câu hỏi từ khán giả."
+can_do:
+  - "Mở đầu và kết thúc bài nói với signposting"
+  - "Trả lời câu hỏi khó từ khán giả"
+lessons:
+  - slug: s22-words
+    kind: vocab
+    title: { en: "Key words", vi: "Từ vựng" }
+    senses: ["to-sum-up-phr", "key-takeaway-n", "handle-v"]
+    questions: ["robert-takeaway-meaning", "robert-fill-handle"]
+  - slug: s22-talk
+    kind: dialogue
+    title: { en: "Your first tech talk", vi: "Tech talk đầu tiên" }
+    dialogue: "robert-tech-talk"
+  - slug: s22-qa
+    kind: dialogue
+    title: { en: "Handling a tough question", vi: "Xử lý câu hỏi khó" }
+    dialogue: "lucas-qa"

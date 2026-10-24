@@ -1,0 +1,14 @@
+slug: career-growth
+stage: b2-leadership
+sort: 9
+code: S24
+kind: situation
+cefr: B2
+character: linh
+status: draft
+title: { en: "Performance reviews & career", vi: "Performance review & sự nghiệp" }
+summary_vi: "Tự đánh giá, xin feedback, nói về mục tiêu, đàm phán lương, nghỉ việc."
+can_do:
+  - "Tự đánh giá thành tích có số liệu"
+  - "Xin feedback và nói về mục tiêu nghề nghiệp"
+lessons: []

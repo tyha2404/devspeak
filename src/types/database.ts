@@ -37,6 +37,26 @@ export type Database = {
                   Relationships: [
                     
                   ]
+                },"certificates": {
+                  Row: {
+                    "id": string,"issued_at": string,"score_pct": number,"stage_id": number,"user_id": string
+                  }
+                  ComputedFields: never
+                  Insert: {
+                    "id"?: string,"issued_at"?: string,"score_pct": number,"stage_id": number,"user_id": string
+                  }
+                  Update: {
+                    "id"?: string,"issued_at"?: string,"score_pct"?: number,"stage_id"?: number,"user_id"?: string
+                  }
+                  Relationships: [
+                    {
+      foreignKeyName: "certificates_stage_id_fkey"
+      columns: ["stage_id"]
+isOneToOne: false
+      referencedRelation: "stages"
+      referencedColumns: ["id"]
+    }
+                  ]
                 },"chat_messages": {
                   Row: {
                     "content": string,"created_at": string,"feedback": Json | null,"flagged": boolean,"id": number,"role": string,"session_id": string,"stop_reason": string | null,"user_id": string
@@ -67,20 +87,6 @@ isOneToOne: false
                   }
                   Update: {
                     "break_attempts"?: number,"cost_usd_micros"?: number,"ended_at"?: string | null,"goal_progress"?: number,"id"?: string,"input_tokens"?: number,"model"?: string,"npc_id"?: string,"output_tokens"?: number,"prompt_version"?: string,"scenario_id"?: string,"started_at"?: string,"status"?: string,"summary"?: string | null,"turn_count"?: number,"user_id"?: string
-                  }
-                  Relationships: [
-                    
-                  ]
-                },"coin_events": {
-                  Row: {
-                    "amount": number,"created_at": string,"id": number,"idempotency_key": string,"reason": string,"user_id": string
-                  }
-                  ComputedFields: never
-                  Insert: {
-                    "amount": number,"created_at"?: string,"id"?: number,"idempotency_key": string,"reason": string,"user_id": string
-                  }
-                  Update: {
-                    "amount"?: number,"created_at"?: string,"id"?: number,"idempotency_key"?: string,"reason"?: string,"user_id"?: string
                   }
                   Relationships: [
                     
@@ -219,19 +225,89 @@ isOneToOne: false
                   Relationships: [
                     
                   ]
-                },"level_thresholds": {
+                },"lesson_questions": {
                   Row: {
-                    "level": number,"xp_required": number
+                    "lesson_id": number,"question_id": string,"sort": number
                   }
                   ComputedFields: never
                   Insert: {
-                    "level": number,"xp_required": number
+                    "lesson_id": number,"question_id": string,"sort"?: number
                   }
                   Update: {
-                    "level"?: number,"xp_required"?: number
+                    "lesson_id"?: number,"question_id"?: string,"sort"?: number
                   }
                   Relationships: [
-                    
+                    {
+      foreignKeyName: "lesson_questions_lesson_id_fkey"
+      columns: ["lesson_id"]
+isOneToOne: false
+      referencedRelation: "lessons"
+      referencedColumns: ["id"]
+    },{
+      foreignKeyName: "lesson_questions_question_id_fkey"
+      columns: ["question_id"]
+isOneToOne: false
+      referencedRelation: "questions"
+      referencedColumns: ["id"]
+    }
+                  ]
+                },"lesson_runs": {
+                  Row: {
+                    "dialogue_run_id": string | null,"finished_at": string | null,"id": string,"lesson_id": number,"quiz_session_id": string | null,"result": Json | null,"started_at": string,"task_feedback": Json | null,"task_score": number | null,"user_id": string
+                  }
+                  ComputedFields: never
+                  Insert: {
+                    "dialogue_run_id"?: string | null,"finished_at"?: string | null,"id"?: string,"lesson_id": number,"quiz_session_id"?: string | null,"result"?: Json | null,"started_at"?: string,"task_feedback"?: Json | null,"task_score"?: number | null,"user_id": string
+                  }
+                  Update: {
+                    "dialogue_run_id"?: string | null,"finished_at"?: string | null,"id"?: string,"lesson_id"?: number,"quiz_session_id"?: string | null,"result"?: Json | null,"started_at"?: string,"task_feedback"?: Json | null,"task_score"?: number | null,"user_id"?: string
+                  }
+                  Relationships: [
+                    {
+      foreignKeyName: "lesson_runs_dialogue_run_id_fkey"
+      columns: ["dialogue_run_id"]
+isOneToOne: false
+      referencedRelation: "dialogue_runs"
+      referencedColumns: ["id"]
+    },{
+      foreignKeyName: "lesson_runs_lesson_id_fkey"
+      columns: ["lesson_id"]
+isOneToOne: false
+      referencedRelation: "lessons"
+      referencedColumns: ["id"]
+    },{
+      foreignKeyName: "lesson_runs_quiz_session_id_fkey"
+      columns: ["quiz_session_id"]
+isOneToOne: false
+      referencedRelation: "quiz_sessions"
+      referencedColumns: ["id"]
+    }
+                  ]
+                },"lessons": {
+                  Row: {
+                    "body": NonNullable<Json>,"dialogue_id": string | null,"est_minutes": number,"id": number,"kind": Database["public"]['Enums']["lesson_kind"],"pass_pct": number,"private": NonNullable<Json>,"question_count": number,"slug": string,"sort": number,"title_en": string,"title_vi": string,"unit_id": number,"xp": number
+                  }
+                  ComputedFields: never
+                  Insert: {
+                    "body"?: NonNullable<Json>,"dialogue_id"?: string | null,"est_minutes": number,"id"?: number,"kind": Database["public"]['Enums']["lesson_kind"],"pass_pct"?: number,"private"?: NonNullable<Json>,"question_count"?: number,"slug": string,"sort": number,"title_en": string,"title_vi": string,"unit_id": number,"xp": number
+                  }
+                  Update: {
+                    "body"?: NonNullable<Json>,"dialogue_id"?: string | null,"est_minutes"?: number,"id"?: number,"kind"?: Database["public"]['Enums']["lesson_kind"],"pass_pct"?: number,"private"?: NonNullable<Json>,"question_count"?: number,"slug"?: string,"sort"?: number,"title_en"?: string,"title_vi"?: string,"unit_id"?: number,"xp"?: number
+                  }
+                  Relationships: [
+                    {
+      foreignKeyName: "lessons_dialogue_id_fkey"
+      columns: ["dialogue_id"]
+isOneToOne: false
+      referencedRelation: "dialogues"
+      referencedColumns: ["id"]
+    },{
+      foreignKeyName: "lessons_unit_id_fkey"
+      columns: ["unit_id"]
+isOneToOne: false
+      referencedRelation: "units"
+      referencedColumns: ["id"]
+    }
                   ]
                 },"lexemes": {
                   Row: {
@@ -253,6 +329,20 @@ isOneToOne: false
       referencedColumns: ["id"]
     }
                   ]
+                },"mistakes": {
+                  Row: {
+                    "explanation_vi": string,"id": number,"kind": string,"right": string,"say": string | null,"slug": string,"tags": (string)[],"wrong": string | null
+                  }
+                  ComputedFields: never
+                  Insert: {
+                    "explanation_vi": string,"id"?: number,"kind": string,"right": string,"say"?: string | null,"slug": string,"tags"?: (string)[],"wrong"?: string | null
+                  }
+                  Update: {
+                    "explanation_vi"?: string,"id"?: number,"kind"?: string,"right"?: string,"say"?: string | null,"slug"?: string,"tags"?: (string)[],"wrong"?: string | null
+                  }
+                  Relationships: [
+                    
+                  ]
                 },"moderation_actions": {
                   Row: {
                     "action": string,"actor_id": string | null,"created_at": string,"diff": Json | null,"entity": string,"entity_id": string,"id": number,"reason": string | null
@@ -269,17 +359,23 @@ isOneToOne: false
                   ]
                 },"profiles": {
                   Row: {
-                    "avatar_key": string,"coins": number,"created_at": string,"display_name": string | null,"id": string,"leaderboard_opt_out": boolean,"level": number,"onboarded_at": string | null,"placement_level": Database["public"]['Enums']["cefr_level"] | null,"position": NonNullable<Json>,"rank": Database["public"]['Enums']["career_rank"],"streak_current": number,"streak_freezes": number,"streak_last_date": string | null,"streak_longest": number,"target_level": Database["public"]['Enums']["cefr_level"],"timezone": string,"ui_locale": string,"updated_at": string,"xp_total": number
+                    "created_at": string,"current_unit_id": number | null,"daily_goal_xp": number,"display_name": string | null,"goal_reason": string | null,"id": string,"onboarded_at": string | null,"placement_level": Database["public"]['Enums']["cefr_level"] | null,"streak_current": number,"streak_freezes": number,"streak_last_date": string | null,"streak_longest": number,"target_level": Database["public"]['Enums']["cefr_level"],"timezone": string,"ui_locale": string,"updated_at": string,"xp_total": number
                   }
                   ComputedFields: never
                   Insert: {
-                    "avatar_key"?: string,"coins"?: number,"created_at"?: string,"display_name"?: string | null,"id": string,"leaderboard_opt_out"?: boolean,"level"?: number,"onboarded_at"?: string | null,"placement_level"?: Database["public"]['Enums']["cefr_level"] | null,"position"?: NonNullable<Json>,"rank"?: Database["public"]['Enums']["career_rank"],"streak_current"?: number,"streak_freezes"?: number,"streak_last_date"?: string | null,"streak_longest"?: number,"target_level"?: Database["public"]['Enums']["cefr_level"],"timezone"?: string,"ui_locale"?: string,"updated_at"?: string,"xp_total"?: number
+                    "created_at"?: string,"current_unit_id"?: number | null,"daily_goal_xp"?: number,"display_name"?: string | null,"goal_reason"?: string | null,"id": string,"onboarded_at"?: string | null,"placement_level"?: Database["public"]['Enums']["cefr_level"] | null,"streak_current"?: number,"streak_freezes"?: number,"streak_last_date"?: string | null,"streak_longest"?: number,"target_level"?: Database["public"]['Enums']["cefr_level"],"timezone"?: string,"ui_locale"?: string,"updated_at"?: string,"xp_total"?: number
                   }
                   Update: {
-                    "avatar_key"?: string,"coins"?: number,"created_at"?: string,"display_name"?: string | null,"id"?: string,"leaderboard_opt_out"?: boolean,"level"?: number,"onboarded_at"?: string | null,"placement_level"?: Database["public"]['Enums']["cefr_level"] | null,"position"?: NonNullable<Json>,"rank"?: Database["public"]['Enums']["career_rank"],"streak_current"?: number,"streak_freezes"?: number,"streak_last_date"?: string | null,"streak_longest"?: number,"target_level"?: Database["public"]['Enums']["cefr_level"],"timezone"?: string,"ui_locale"?: string,"updated_at"?: string,"xp_total"?: number
+                    "created_at"?: string,"current_unit_id"?: number | null,"daily_goal_xp"?: number,"display_name"?: string | null,"goal_reason"?: string | null,"id"?: string,"onboarded_at"?: string | null,"placement_level"?: Database["public"]['Enums']["cefr_level"] | null,"streak_current"?: number,"streak_freezes"?: number,"streak_last_date"?: string | null,"streak_longest"?: number,"target_level"?: Database["public"]['Enums']["cefr_level"],"timezone"?: string,"ui_locale"?: string,"updated_at"?: string,"xp_total"?: number
                   }
                   Relationships: [
-                    
+                    {
+      foreignKeyName: "profiles_current_unit_id_fkey"
+      columns: ["current_unit_id"]
+isOneToOne: false
+      referencedRelation: "units"
+      referencedColumns: ["id"]
+    }
                   ]
                 },"question_deliveries": {
                   Row: {
@@ -381,14 +477,14 @@ isOneToOne: false
                   ]
                 },"quiz_sessions": {
                   Row: {
-                    "answered_count": number,"correct_count": number,"finished_at": string | null,"id": string,"kind": string,"npc_id": string | null,"planned_count": number,"question_ids": (string)[],"started_at": string,"user_id": string
+                    "answered_count": number,"correct_count": number,"finished_at": string | null,"id": string,"kind": string,"npc_id": string | null,"planned_count": number,"question_ids": (string)[],"ref": string | null,"started_at": string,"user_id": string
                   }
                   ComputedFields: never
                   Insert: {
-                    "answered_count"?: number,"correct_count"?: number,"finished_at"?: string | null,"id"?: string,"kind": string,"npc_id"?: string | null,"planned_count": number,"question_ids": (string)[],"started_at"?: string,"user_id": string
+                    "answered_count"?: number,"correct_count"?: number,"finished_at"?: string | null,"id"?: string,"kind": string,"npc_id"?: string | null,"planned_count": number,"question_ids": (string)[],"ref"?: string | null,"started_at"?: string,"user_id": string
                   }
                   Update: {
-                    "answered_count"?: number,"correct_count"?: number,"finished_at"?: string | null,"id"?: string,"kind"?: string,"npc_id"?: string | null,"planned_count"?: number,"question_ids"?: (string)[],"started_at"?: string,"user_id"?: string
+                    "answered_count"?: number,"correct_count"?: number,"finished_at"?: string | null,"id"?: string,"kind"?: string,"npc_id"?: string | null,"planned_count"?: number,"question_ids"?: (string)[],"ref"?: string | null,"started_at"?: string,"user_id"?: string
                   }
                   Relationships: [
                     
@@ -453,6 +549,26 @@ isOneToOne: false
       referencedColumns: ["id"]
     }
                   ]
+                },"situations": {
+                  Row: {
+                    "category": string,"cefr": Database["public"]['Enums']["cefr_level"],"context_vi": string,"id": number,"mistakes": (string)[],"phrases": NonNullable<Json>,"roleplay": Json | null,"slug": string,"sort": number,"title_en": string,"title_vi": string,"unit_id": number | null
+                  }
+                  ComputedFields: never
+                  Insert: {
+                    "category": string,"cefr": Database["public"]['Enums']["cefr_level"],"context_vi": string,"id"?: number,"mistakes"?: (string)[],"phrases": NonNullable<Json>,"roleplay"?: Json | null,"slug": string,"sort"?: number,"title_en": string,"title_vi": string,"unit_id"?: number | null
+                  }
+                  Update: {
+                    "category"?: string,"cefr"?: Database["public"]['Enums']["cefr_level"],"context_vi"?: string,"id"?: number,"mistakes"?: (string)[],"phrases"?: NonNullable<Json>,"roleplay"?: Json | null,"slug"?: string,"sort"?: number,"title_en"?: string,"title_vi"?: string,"unit_id"?: number | null
+                  }
+                  Relationships: [
+                    {
+      foreignKeyName: "situations_unit_id_fkey"
+      columns: ["unit_id"]
+isOneToOne: false
+      referencedRelation: "units"
+      referencedColumns: ["id"]
+    }
+                  ]
                 },"sources": {
                   Row: {
                     "attribution_text": string,"commercial_ok": boolean,"id": number,"license_spdx": string,"license_url": string | null,"name": string,"notes": string | null,"retrieved_at": string | null,"sha256": string | null,"share_alike": boolean,"slug": string,"url": string | null,"version": string | null
@@ -467,19 +583,39 @@ isOneToOne: false
                   Relationships: [
                     
                   ]
-                },"user_achievements": {
+                },"stages": {
                   Row: {
-                    "achievement_id": string,"unlocked_at": string,"user_id": string
+                    "cefr": Database["public"]['Enums']["cefr_level"],"checkpoint_pass_pct": number,"checkpoint_size": number,"description_vi": string,"id": number,"slug": string,"sort": number,"tagline_vi": string,"title_en": string,"title_vi": string
                   }
                   ComputedFields: never
                   Insert: {
-                    "achievement_id": string,"unlocked_at"?: string,"user_id": string
+                    "cefr": Database["public"]['Enums']["cefr_level"],"checkpoint_pass_pct"?: number,"checkpoint_size"?: number,"description_vi": string,"id"?: number,"slug": string,"sort": number,"tagline_vi": string,"title_en": string,"title_vi": string
                   }
                   Update: {
-                    "achievement_id"?: string,"unlocked_at"?: string,"user_id"?: string
+                    "cefr"?: Database["public"]['Enums']["cefr_level"],"checkpoint_pass_pct"?: number,"checkpoint_size"?: number,"description_vi"?: string,"id"?: number,"slug"?: string,"sort"?: number,"tagline_vi"?: string,"title_en"?: string,"title_vi"?: string
                   }
                   Relationships: [
                     
+                  ]
+                },"units": {
+                  Row: {
+                    "can_do": NonNullable<Json>,"cefr": Database["public"]['Enums']["cefr_level"],"character": string,"code": string,"id": number,"kind": Database["public"]['Enums']["unit_kind"],"roleplay": Json | null,"slug": string,"sort": number,"stage_id": number,"status": Database["public"]['Enums']["content_status"],"summary_vi": string,"title_en": string,"title_vi": string
+                  }
+                  ComputedFields: never
+                  Insert: {
+                    "can_do"?: NonNullable<Json>,"cefr": Database["public"]['Enums']["cefr_level"],"character": string,"code": string,"id"?: number,"kind": Database["public"]['Enums']["unit_kind"],"roleplay"?: Json | null,"slug": string,"sort": number,"stage_id": number,"status"?: Database["public"]['Enums']["content_status"],"summary_vi": string,"title_en": string,"title_vi": string
+                  }
+                  Update: {
+                    "can_do"?: NonNullable<Json>,"cefr"?: Database["public"]['Enums']["cefr_level"],"character"?: string,"code"?: string,"id"?: number,"kind"?: Database["public"]['Enums']["unit_kind"],"roleplay"?: Json | null,"slug"?: string,"sort"?: number,"stage_id"?: number,"status"?: Database["public"]['Enums']["content_status"],"summary_vi"?: string,"title_en"?: string,"title_vi"?: string
+                  }
+                  Relationships: [
+                    {
+      foreignKeyName: "units_stage_id_fkey"
+      columns: ["stage_id"]
+isOneToOne: false
+      referencedRelation: "stages"
+      referencedColumns: ["id"]
+    }
                   ]
                 },"user_answers": {
                   Row: {
@@ -533,53 +669,25 @@ isOneToOne: false
       referencedColumns: ["id"]
     }
                   ]
-                },"user_cosmetics": {
+                },"user_lesson_progress": {
                   Row: {
-                    "bought_at": string,"equipped": boolean,"item_id": string,"user_id": string
+                    "attempts": number,"best_pct": number,"completed_at": string | null,"last_at": string,"lesson_id": number,"stars": number,"user_id": string
                   }
                   ComputedFields: never
                   Insert: {
-                    "bought_at"?: string,"equipped"?: boolean,"item_id": string,"user_id": string
+                    "attempts"?: number,"best_pct"?: number,"completed_at"?: string | null,"last_at"?: string,"lesson_id": number,"stars"?: number,"user_id": string
                   }
                   Update: {
-                    "bought_at"?: string,"equipped"?: boolean,"item_id"?: string,"user_id"?: string
-                  }
-                  Relationships: [
-                    
-                  ]
-                },"user_daily_words": {
-                  Row: {
-                    "day": string,"learned_at": string | null,"sense_id": number,"slot": number,"user_id": string
-                  }
-                  ComputedFields: never
-                  Insert: {
-                    "day": string,"learned_at"?: string | null,"sense_id": number,"slot": number,"user_id": string
-                  }
-                  Update: {
-                    "day"?: string,"learned_at"?: string | null,"sense_id"?: number,"slot"?: number,"user_id"?: string
+                    "attempts"?: number,"best_pct"?: number,"completed_at"?: string | null,"last_at"?: string,"lesson_id"?: number,"stars"?: number,"user_id"?: string
                   }
                   Relationships: [
                     {
-      foreignKeyName: "user_daily_words_sense_id_fkey"
-      columns: ["sense_id"]
+      foreignKeyName: "user_lesson_progress_lesson_id_fkey"
+      columns: ["lesson_id"]
 isOneToOne: false
-      referencedRelation: "senses"
+      referencedRelation: "lessons"
       referencedColumns: ["id"]
     }
-                  ]
-                },"user_quests": {
-                  Row: {
-                    "claimed_at": string | null,"completed_at": string | null,"goal": number,"kind": string,"period_key": string,"progress": number,"quest_key": string,"reward_coins": number,"reward_xp": number,"user_id": string
-                  }
-                  ComputedFields: never
-                  Insert: {
-                    "claimed_at"?: string | null,"completed_at"?: string | null,"goal": number,"kind": string,"period_key": string,"progress"?: number,"quest_key": string,"reward_coins"?: number,"reward_xp"?: number,"user_id": string
-                  }
-                  Update: {
-                    "claimed_at"?: string | null,"completed_at"?: string | null,"goal"?: number,"kind"?: string,"period_key"?: string,"progress"?: number,"quest_key"?: string,"reward_coins"?: number,"reward_xp"?: number,"user_id"?: string
-                  }
-                  Relationships: [
-                    
                   ]
                 },"user_roles": {
                   Row: {
@@ -595,23 +703,23 @@ isOneToOne: false
                   Relationships: [
                     
                   ]
-                },"user_word_skips": {
+                },"user_unit_progress": {
                   Row: {
-                    "sense_id": number,"skipped_at": string,"user_id": string
+                    "completed_at": string,"unit_id": number,"user_id": string,"via": string
                   }
                   ComputedFields: never
                   Insert: {
-                    "sense_id": number,"skipped_at"?: string,"user_id": string
+                    "completed_at"?: string,"unit_id": number,"user_id": string,"via": string
                   }
                   Update: {
-                    "sense_id"?: number,"skipped_at"?: string,"user_id"?: string
+                    "completed_at"?: string,"unit_id"?: number,"user_id"?: string,"via"?: string
                   }
                   Relationships: [
                     {
-      foreignKeyName: "user_word_skips_sense_id_fkey"
-      columns: ["sense_id"]
+      foreignKeyName: "user_unit_progress_unit_id_fkey"
+      columns: ["unit_id"]
 isOneToOne: false
-      referencedRelation: "senses"
+      referencedRelation: "units"
       referencedColumns: ["id"]
     }
                   ]
@@ -663,9 +771,9 @@ isOneToOne: false
                 }
           }
           Functions: {
-            "get_leaderboard":
-{ Args: { "p_limit"?: number,"p_period"?: string }; Returns: {
-              "avatar_key": string,"display_name": string,"is_me": boolean,"rank": number,"xp": number
+            "get_certificate":
+{ Args: { "p_id": string }; Returns: {
+              "cefr": Database["public"]['Enums']["cefr_level"],"display_name": string,"id": string,"issued_at": string,"score_pct": number,"stage_slug": string,"stage_sort": number,"stage_title_en": string,"stage_title_vi": string
             }[]
                            },
 "has_role":
@@ -678,35 +786,16 @@ isOneToOne: false
 { Args: Record<PropertyKey, never>; Returns: number
                            },
 "svc_award_xp":
-{ Args: { "p_amount": number,"p_coins"?: number,"p_key": string,"p_metadata"?: Json,"p_reason": Database["public"]['Enums']["xp_reason"],"p_ref_id"?: string,"p_ref_type"?: string,"p_user": string }; Returns: Json
+{ Args: { "p_amount": number,"p_key": string,"p_metadata"?: Json,"p_reason": Database["public"]['Enums']["xp_reason"],"p_ref_id"?: string,"p_ref_type"?: string,"p_user": string }; Returns: Json
                            },
-"svc_bump_quest":
-{ Args: { "p_amount"?: number,"p_key": string,"p_user": string }; Returns: {
-              "claimed_at": string | null,
-"completed_at": string | null,
-"goal": number,
-"kind": string,
-"period_key": string,
-"progress": number,
-"quest_key": string,
-"reward_coins": number,
-"reward_xp": number,
-"user_id": string
-            }[]
-                          SetofOptions: {
-        from: "*"
-        to: "user_quests"
-        isOneToOne: false
-        isSetofReturn: true
-      } },
 "svc_bump_report":
 { Args: { "p_question": string }; Returns: undefined
                            },
 "svc_chat_turn":
 { Args: { "p_day": string,"p_user": string }; Returns: undefined
                            },
-"svc_claim_quest":
-{ Args: { "p_key": string,"p_period": string,"p_user": string }; Returns: Json
+"svc_complete_lesson":
+{ Args: { "p_run": string,"p_user": string }; Returns: Json
                            },
 "svc_housekeeping":
 { Args: Record<PropertyKey, never>; Returns: Json
@@ -714,8 +803,11 @@ isOneToOne: false
 "svc_merge_guest":
 { Args: { "p_from": string,"p_to": string }; Returns: Json
                            },
-"svc_promote":
-{ Args: { "p_to": Database["public"]['Enums']["career_rank"],"p_user": string }; Returns: Database["public"]['Enums']["career_rank"]
+"svc_pass_checkpoint":
+{ Args: { "p_session": string,"p_user": string }; Returns: Json
+                           },
+"svc_place_user":
+{ Args: { "p_cefr": Database["public"]['Enums']["cefr_level"],"p_unit": number,"p_user": string }; Returns: undefined
                            },
 "svc_purge_chat_logs":
 { Args: Record<PropertyKey, never>; Returns: number
@@ -726,15 +818,12 @@ isOneToOne: false
 "svc_record_attempt":
 { Args: { "p_delivery": string,"p_is_correct": boolean,"p_max_attempts"?: number,"p_response": Json,"p_user": string }; Returns: Json
                            },
-"svc_save_position":
-{ Args: { "p_position": Json,"p_user": string }; Returns: undefined
-                           },
-"svc_spend_coins":
-{ Args: { "p_amount": number,"p_key": string,"p_reason": string,"p_user": string }; Returns: number
+"svc_test_out_unit":
+{ Args: { "p_session": string,"p_user": string }; Returns: Json
                            }
           }
           Enums: {
-            "app_role": "editor"|"admin","career_rank": "intern"|"junior"|"mid"|"senior"|"techlead","cefr_level": "A1"|"A2"|"B1"|"B2"|"C1","content_origin": "dataset"|"ai"|"human","content_status": "draft"|"auto_checked"|"in_review"|"published"|"rejected"|"retired","question_type": "mcq_meaning"|"fill_blank"|"sentence_order"|"error_correction"|"reply_choice"|"listening","srs_state": "new"|"learning"|"review"|"relearning","xp_reason": "quiz_correct"|"daily_learn"|"daily_complete"|"review"|"dialogue_complete"|"minigame_complete"|"chat_session"|"quest_reward"|"achievement_reward"|"boss_pass"|"streak_bonus"|"admin_adjust"|"merge"
+            "app_role": "editor"|"admin","cefr_level": "A1"|"A2"|"B1"|"B2"|"C1","content_origin": "dataset"|"ai"|"human","content_status": "draft"|"auto_checked"|"in_review"|"published"|"rejected"|"retired","lesson_kind": "vocab"|"dialogue"|"focus"|"practice"|"reading"|"listening"|"mistakes"|"task","question_type": "mcq_meaning"|"fill_blank"|"sentence_order"|"error_correction"|"reply_choice"|"listening","srs_state": "new"|"learning"|"review"|"relearning","unit_kind": "situation"|"knowledge","xp_reason": "quiz_correct"|"daily_learn"|"daily_complete"|"review"|"dialogue_complete"|"minigame_complete"|"chat_session"|"quest_reward"|"achievement_reward"|"boss_pass"|"streak_bonus"|"admin_adjust"|"merge"|"lesson_complete"|"checkpoint_pass"
           }
           CompositeTypes: {
             [_ in never]: never
@@ -854,7 +943,7 @@ export const Constants = {
           }
         },"public": {
           Enums: {
-            "app_role": ["editor", "admin"],"career_rank": ["intern", "junior", "mid", "senior", "techlead"],"cefr_level": ["A1", "A2", "B1", "B2", "C1"],"content_origin": ["dataset", "ai", "human"],"content_status": ["draft", "auto_checked", "in_review", "published", "rejected", "retired"],"question_type": ["mcq_meaning", "fill_blank", "sentence_order", "error_correction", "reply_choice", "listening"],"srs_state": ["new", "learning", "review", "relearning"],"xp_reason": ["quiz_correct", "daily_learn", "daily_complete", "review", "dialogue_complete", "minigame_complete", "chat_session", "quest_reward", "achievement_reward", "boss_pass", "streak_bonus", "admin_adjust", "merge"]
+            "app_role": ["editor", "admin"],"cefr_level": ["A1", "A2", "B1", "B2", "C1"],"content_origin": ["dataset", "ai", "human"],"content_status": ["draft", "auto_checked", "in_review", "published", "rejected", "retired"],"lesson_kind": ["vocab", "dialogue", "focus", "practice", "reading", "listening", "mistakes", "task"],"question_type": ["mcq_meaning", "fill_blank", "sentence_order", "error_correction", "reply_choice", "listening"],"srs_state": ["new", "learning", "review", "relearning"],"unit_kind": ["situation", "knowledge"],"xp_reason": ["quiz_correct", "daily_learn", "daily_complete", "review", "dialogue_complete", "minigame_complete", "chat_session", "quest_reward", "achievement_reward", "boss_pass", "streak_bonus", "admin_adjust", "merge", "lesson_complete", "checkpoint_pass"]
           }
         }
 } as const

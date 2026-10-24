@@ -2,9 +2,11 @@ import { create } from "zustand";
 import { createJSONStorage, persist } from "zustand/middleware";
 
 export type TranslationMode = "always" | "tap" | "never";
+export type Theme = "system" | "light" | "dark";
 
 interface Settings {
   translation: TranslationMode;
+  theme: Theme;
   typewriterCps: 40 | 80 | 0; // 0 = instant
   ttsRate: number;
   fontScale: "s" | "m" | "l" | "xl";
@@ -34,6 +36,7 @@ export const useSettings = create<Settings>()(
   persist(
     (set) => ({
       translation: "always",
+      theme: "system",
       typewriterCps: 40,
       ttsRate: 0.9,
       fontScale: "m",

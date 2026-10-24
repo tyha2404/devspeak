@@ -1,41 +1,42 @@
 {
   "landing": {
-    "kicker": "DevQuest English",
-    "title": "Tiếng Anh cho lập trình viên, học bằng cách đi làm trong game.",
-    "subtitle": "Standup với Scrum Master, review code với Tech Lead, báo bug với QA. Mỗi ngày 5 từ vựng IT, ôn tập đúng lúc sắp quên.",
-    "play": "Chơi ngay",
+    "title": "Tiếng Anh cho lập trình viên, có lộ trình rõ ràng từ A2 đến B2.",
+    "subtitle": "Standup, code review, bug report, email, phỏng vấn, và cách giải thích kiến thức kỹ thuật bằng tiếng Anh. Mỗi ngày khoảng 15 phút, học theo từng unit có mục tiêu cụ thể.",
+    "start": "Bắt đầu học",
+    "seePath": "Xem lộ trình",
+    "free": "Miễn phí. Không cần tài khoản để bắt đầu.",
     "login": "Đăng nhập",
-    "features": {
-      "npc": {
-        "title": "Đồng nghiệp NPC",
-        "body": "9 nhân vật quốc tế: HR, mentor, Scrum Master, QA, Tech Lead, SRE, khách hàng — mỗi người dạy một kỹ năng công việc."
+    "pathTitle": "4 chặng, 36 unit",
+    "pathBody": "Mỗi chặng xen kẽ tình huống công việc và kiến thức kỹ thuật bằng tiếng Anh, kết thúc bằng một bài checkpoint và chứng nhận.",
+    "comingSoon": "sắp ra mắt",
+    "how": {
+      "title": "Một unit gồm những gì",
+      "words": {
+        "title": "Từ vựng & mẫu câu",
+        "body": "Từ IT có phát âm, nghĩa tiếng Việt và ví dụ thật; mẫu câu giải thích ngắn bằng tiếng Việt."
       },
-      "daily": {
-        "title": "5 từ IT mỗi ngày",
-        "body": "Từ vựng thực tế (commit, blocker, rollback…), có nghĩa tiếng Việt, phát âm và ví dụ."
+      "talk": {
+        "title": "Hội thoại với đồng nghiệp",
+        "body": "Linh, Tuấn, Sarah, Raj… mỗi người dẫn một tình huống. Bạn chọn câu trả lời và được góp ý về cách nói."
       },
-      "srs": {
-        "title": "Ôn tập thông minh",
-        "body": "Thuật toán FSRS nhắc đúng lúc bạn sắp quên, có bài kiểm tra xác minh."
+      "task": {
+        "title": "Nhiệm vụ thực tế",
+        "body": "Viết tin nhắn Slack, bug report, PR description hoặc nói standup. AI chấm và đưa bản mẫu tốt hơn."
       },
-      "career": {
-        "title": "Thăng tiến sự nghiệp",
-        "body": "Từ Intern lên Tech Lead qua các buổi phỏng vấn thăng chức với CTO."
+      "review": {
+        "title": "Ôn tập đúng lúc",
+        "body": "Từ đã học quay lại ngay trước khi bạn quên (FSRS), luôn có câu kiểm tra thật."
       }
     },
     "footer": {
-      "credits": "Nguồn dữ liệu & đồ họa",
+      "credits": "Nguồn dữ liệu",
       "privacy": "Quyền riêng tư",
       "terms": "Điều khoản"
     }
   },
-  "hud": {
-    "notebook": "Sổ tay",
-    "quests": "Sprint ticket",
-    "settings": "Cài đặt",
-    "review": "Ôn tập",
-    "profile": "Hồ sơ",
-    "people": "Mọi người ở đây"
-  },
-  "locale": { "label": "Ngôn ngữ", "vi": "Tiếng Việt", "en": "English" }
+  "locale": {
+    "label": "Ngôn ngữ",
+    "vi": "Tiếng Việt",
+    "en": "English"
+  }
 }

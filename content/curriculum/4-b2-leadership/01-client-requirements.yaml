@@ -1,0 +1,23 @@
+slug: client-requirements
+stage: b2-leadership
+sort: 1
+code: S19
+kind: situation
+cefr: B2
+character: mike
+status: draft
+title: { en: "Gathering requirements", vi: "Lấy & làm rõ requirement" }
+summary_vi: "Đặt câu hỏi mở, xác nhận lại yêu cầu mơ hồ, ghi nhận phạm vi."
+can_do:
+  - "Làm rõ một yêu cầu mơ hồ bằng câu hỏi mở"
+  - "Tóm tắt lại yêu cầu để xác nhận"
+lessons:
+  - slug: s19-words
+    kind: vocab
+    title: { en: "Key words", vi: "Từ vựng" }
+    senses: ["requirement-n", "clarify-v", "feasible-adj"]
+    questions: ["mike-fill-clarify"]
+  - slug: s19-requirements
+    kind: dialogue
+    title: { en: "Requirements call", vi: "Cuộc gọi lấy requirement" }
+    dialogue: "mike-requirements"

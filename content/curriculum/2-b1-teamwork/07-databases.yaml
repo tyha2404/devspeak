@@ -1,0 +1,18 @@
+slug: databases
+stage: b1-teamwork
+sort: 7
+code: K5
+kind: knowledge
+cefr: B1
+character: raj
+status: draft
+title: { en: "Databases & SQL", vi: "Database & SQL" }
+summary_vi: "Table, query, index, join, transaction, migration — giải thích một truy vấn và vấn đề hiệu năng."
+can_do:
+  - "Giải thích một câu SQL đơn giản bằng tiếng Anh"
+  - "Nói về index, migration và transaction"
+lessons:
+  - slug: k5-say
+    kind: mistakes
+    title: { en: "Say it right", vi: "Phát âm thuật ngữ" }
+    mistakes: [say-sql, say-data, say-queue]

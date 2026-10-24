@@ -1,0 +1,63 @@
+slug: git-everyday
+stage: a2-foundation
+sort: 5
+code: K3
+kind: knowledge
+cefr: A2
+character: tuan
+status: published
+title: { en: "Git every day", vi: "Git hằng ngày" }
+summary_vi: "Nói và hiểu các thao tác git: clone, branch, commit, push, pull, merge conflict, pull request."
+can_do:
+  - "Mô tả quy trình git của mình bằng các động từ đúng"
+  - "Giải thích ngắn khi gặp merge conflict"
+lessons:
+  - slug: k3-words
+    kind: vocab
+    title: { en: "Git words", vi: "Từ vựng git" }
+    senses: [commit-v, push-v, pull-v, branch-n, merge-conflict-n, pull-request-n]
+    questions: [tuan-commit-meaning, tuan-push-meaning, tuan-branch-meaning]
+  - slug: k3-first-pr
+    kind: dialogue
+    title: { en: "Your first pull request", vi: "Pull request đầu tiên" }
+    dialogue: tuan-first-pr
+  - slug: k3-focus
+    kind: focus
+    title: { en: "Git verbs & instructions", vi: "Động từ git & câu mệnh lệnh" }
+    body_vi: |
+      Trong tiếng Anh, dev dùng **chính lệnh git làm động từ**:
+
+      - *I **pulled** the latest changes.* · *Did you **push** your branch?* · *Let me **rebase** on main.*
+      - **commit** vừa là động từ (*commit the changes*) vừa là danh từ (*a commit*).
+      - **merge conflict** = xung đột khi gộp: *I got a merge conflict in `app.ts`.*
+
+      Hướng dẫn người khác thì dùng **câu mệnh lệnh** (động từ nguyên mẫu đứng đầu):
+      *Always **pull** before you **push**.* · ***Create** a new branch for each ticket.*
+    examples:
+      - {
+          en: "Create a branch, commit your changes, push it and open a pull request.",
+          vi: "Tạo branch, commit, push rồi mở pull request.",
+        }
+      - {
+          en: "I resolved the merge conflict and pushed again.",
+          vi: "Mình đã xử lý conflict và push lại.",
+        }
+    questions:
+      [tuan-order-branch, tuan-fill-pull, tuan-fill-commit, tuan-fill-conflict, x-fill-branch]
+  - slug: k3-listening
+    kind: listening
+    title: { en: "Listen", vi: "Nghe" }
+    questions: [tuan-listen-pull]
+  - slug: k3-practice
+    kind: practice
+    title: { en: "Practice", vi: "Luyện tập" }
+    questions: [tuan-reply-conflict, x-pr-meaning, x-order-pr]
+  - slug: k3-task
+    kind: task
+    mode: write
+    title: { en: "Explain your git flow", vi: "Nhiệm vụ: mô tả quy trình git" }
+    prompt:
+      en: "A new intern asks how you ship a small fix. Explain your git steps in 3–4 short sentences."
+      vi: "Một bạn intern hỏi bạn đưa một bản sửa nhỏ lên như thế nào. Giải thích các bước git trong 3–4 câu ngắn."
+    keywords: [branch, commit, push, pull request]
+    model_answer: "First, I pull the latest main and create a new branch. Then I make the fix and commit it with a clear message. After that, I push the branch and open a pull request. When someone approves it, I merge it."

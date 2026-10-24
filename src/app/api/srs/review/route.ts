@@ -1,6 +1,5 @@
 import { z } from "zod";
 import { fail, ok, withUser } from "@/lib/api/handler";
-import { recordEvent } from "@/features/quests/progression";
 import { submitReview } from "@/features/srs/service";
 import { createAdminClient } from "@/lib/supabase/admin";
 
@@ -18,9 +17,6 @@ export const POST = withUser(
     const db = createAdminClient();
     const r = await submitReview(db, userId, input);
     if (!r) return fail("NOT_FOUND", "Card not found", 404);
-    const progress = r.duplicate
-      ? { quests: [], achievements: [] }
-      : await recordEvent(db, userId, [{ type: "review_done" }, { type: "xp", amount: r.xp }]);
-    return ok({ ...r, progress });
+    return ok(r);
   },
 );

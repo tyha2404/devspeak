@@ -12,7 +12,7 @@ export default async function LoginPage({
   searchParams: Promise<{ next?: string }>;
 }) {
   const { next } = await searchParams;
-  const safeNext = next?.startsWith("/") && !next.startsWith("//") ? next : "/play";
+  const safeNext = next?.startsWith("/") && !next.startsWith("//") ? next : "/learn";
   return (
     <main className="mx-auto flex min-h-dvh max-w-sm flex-col justify-center gap-6 px-4">
       <h1 className="text-2xl font-bold">Đăng nhập DevQuest</h1>

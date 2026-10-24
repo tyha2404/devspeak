@@ -1,0 +1,50 @@
+slug: time-off
+stage: a2-foundation
+sort: 8
+code: S5
+kind: situation
+cefr: A2
+character: linh
+status: published
+title: { en: "Days off, sick days & running late", vi: "Xin nghỉ, báo ốm, báo đi muộn" }
+summary_vi: "Báo cho team khi bạn nghỉ, ốm, đến muộn hoặc mất mạng — ngắn, rõ và lịch sự."
+can_do:
+  - "Xin nghỉ phép và báo ốm bằng tin nhắn ngắn, lịch sự"
+  - "Báo đi muộn kèm thời gian dự kiến"
+lessons:
+  - slug: s5-words
+    kind: vocab
+    title: { en: "Key words", vi: "Từ vựng" }
+    senses: [day-off-n, probation-n, busy-adj]
+    questions: [x-day-off-meaning, x-fill-probation, x-busy-meaning]
+  - slug: s5-day-off
+    kind: dialogue
+    title: { en: "Asking for a day off", vi: "Xin nghỉ một ngày" }
+    dialogue: linh-day-off
+  - slug: s5-focus
+    kind: focus
+    title: { en: "Polite requests & notices", vi: "Xin phép & thông báo lịch sự" }
+    body_vi: |
+      **Xin phép (trước):** *Could I take Friday off?* · *Would it be OK if I worked from home tomorrow?*
+
+      **Thông báo (ngay hôm đó):** dùng **I'm going to / I'll** + thời gian cụ thể:
+      - *I'm not feeling well today, so I'll take a sick day.*
+      - *I'm running about 15 minutes late — my bus broke down.*
+      - *My internet is down. I'll be back online in 30 minutes.*
+
+      Luôn kèm **ảnh hưởng tới công việc**: *I'll move the 10am sync to the afternoon.* / *Lan can cover the release.*
+    examples:
+      - {
+          en: "Hi Sarah, I'm sick today and will be offline. I'll update the ticket tomorrow morning.",
+          vi: "Chào Sarah, hôm nay em ốm nên sẽ offline. Sáng mai em cập nhật ticket.",
+        }
+    questions: [sarah-reply-late]
+  - slug: s5-task
+    kind: task
+    mode: write
+    title: { en: "Tell your team you're sick", vi: "Nhiệm vụ: báo ốm" }
+    prompt:
+      en: "You woke up with a fever. Write a short message in #team: you're sick, you'll be offline, and what happens with your work."
+      vi: "Bạn bị sốt. Viết tin nhắn ngắn trong #team: bạn ốm, sẽ offline, và công việc của bạn sẽ xử lý thế nào."
+    keywords: [sick, today, offline, tomorrow]
+    model_answer: "Hi team, I'm not feeling well today, so I'll take a sick day and be offline. My PR for the search page is ready for review, and I'll pick up the comments tomorrow. Sorry for the short notice!"

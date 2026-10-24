@@ -53,11 +53,6 @@ export interface DialogueStep {
   };
   done: boolean;
   rewards?: {
-    xp: number;
-    leveledUp: boolean;
-    level: number;
-    xpTotal: number;
-    coins: number;
     wordsLearned: string[];
   };
 }

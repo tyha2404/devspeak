@@ -1,0 +1,14 @@
+slug: architecture-patterns
+stage: b2-leadership
+sort: 6
+code: K11
+kind: knowledge
+cefr: B2
+character: raj
+status: draft
+title: { en: "Architecture & patterns", vi: "Kiến trúc & pattern" }
+summary_vi: "Monolith/microservices, event-driven, design patterns, SOLID — lập luận và phản biện."
+can_do:
+  - "So sánh monolith và microservices"
+  - "Giải thích một design pattern"
+lessons: []

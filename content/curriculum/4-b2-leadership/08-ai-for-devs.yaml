@@ -1,0 +1,14 @@
+slug: ai-for-devs
+stage: b2-leadership
+sort: 8
+code: K12
+kind: knowledge
+cefr: B2
+character: robert
+status: draft
+title: { en: "AI/ML & LLMs for developers", vi: "AI/ML & LLM cho dev" }
+summary_vi: "Model, training/inference, prompt, embedding, hallucination — giải thích khái niệm mới."
+can_do:
+  - "Giải thích LLM và embedding cho đồng nghiệp"
+  - "Nói về giới hạn của AI (hallucination)"
+lessons: []

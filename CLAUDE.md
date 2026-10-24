@@ -1,11 +1,12 @@
 # DevQuest English
 
-English-learning game for Vietnamese developers (CEFR A2–B2): a 2D pixel top-down office where the
-player talks to NPCs. Full plan: `/Users/tyha/.claude/plans/jaunty-churning-beacon.md`.
+English-learning app for Vietnamese developers (CEFR A2–B2) with a clear path: 4 stages → 36 units
+(workplace situations + technical knowledge in English) → lessons. Full plan:
+`/Users/tyha/.claude/plans/jaunty-churning-beacon.md`. The old pixel-art game lives at git tag `game-v1`.
 
 ## Stack
 
-Next.js 15 (App Router) · TypeScript strict · Tailwind 4 · Phaser 3 · Supabase (Postgres/Auth/RLS) ·
+Next.js 15 (App Router) · TypeScript strict · Tailwind 4 · Supabase (Postgres/Auth/RLS) ·
 zustand · zod 4 · Vitest · Playwright. Package manager: pnpm (`corepack pnpm@10 …` if pnpm is not on PATH).
 
 ## Commands
@@ -13,24 +14,25 @@ zustand · zod 4 · Vitest · Playwright. Package manager: pnpm (`corepack pnpm@
 - `pnpm dev` / `pnpm build` / `pnpm start`
 - `pnpm lint`, `pnpm typecheck`, `pnpm format`, `pnpm test` (unit), `pnpm e2e` (needs a build)
 - `pnpm db:start` (Docker), `pnpm db:reset`, `pnpm db:test` (pgTAP), `pnpm db:types`
-- `pnpm test:integration` (services against local Supabase), `pnpm assets`, `pnpm maps`
+- `pnpm test:integration` (services against local Supabase), `pnpm assets` (character portraits)
 
-## Game assets & maps
+## Learning path
 
-- Art sources: `art/vendor/` (Kenney CC0 sheets) and `art/pixel/` (our own pixel art as string
-  templates: characters are one template + palette per NPC). `pnpm assets` builds extruded tilesets and
-  the character sheet into `public/assets/` (generated files are committed; CI checks they are fresh).
-- Maps are TypeScript specs in `art/maps/*.ts` (ASCII grid + prefab placements + objects).
-  `pnpm maps` compiles them to Tiled JSON in `public/assets/maps/` and validates door targets, spawns,
-  NPC ids and collision. Preview a whole map as PNG: `pnpm tsx scripts/preview-maps.ts <dir>`.
-- New maps: add the spec to `art/maps/index.ts` and mark it `built` in `src/game/data/maps.ts`.
-- E2E uses `?e2e=1` hooks (`window.__dq.teleport`) and builds into `.next-e2e` so a running
-  `next dev` can't clobber it.
+- Authoring: `content/curriculum/stages.yaml` + one YAML per unit in `content/curriculum/<n>-<stage>/`
+  (zod: `src/features/curriculum/schema.ts`). Lessons reference questions/senses/dialogues/mistakes by slug;
+  `pnpm seed:content` validates every reference and upserts stages → units → lessons → `lesson_questions`.
+- Pure path logic (unlock order, next step, stars, placement) is `src/features/curriculum/path.ts`; server flows
+  (start/complete lesson, task grading, test-out, checkpoint, placement) are `src/features/curriculum/service.ts`.
+- A lesson only completes through `private.complete_lesson`, which grades the `lesson_runs` evidence (finished quiz
+  session, completed dialogue run, graded task). Answers inside lessons pay no XP; the lesson does, once (replays 30%/day).
+- UI: `src/app/(app)` (sidebar/bottom-nav shell), `src/app/(focus)` (lesson player, exams, onboarding).
+  Design tokens live in `src/app/globals.css` (light/dark); amber = primary action, violet = completed.
+- Character portraits: `art/pixel/characters.ts` → `pnpm assets` → `public/assets/sprites/characters.png`.
 
 ## Content & AI
 
 - Hand-written content: `content/curated/{vocab,questions,dialogues}/*.yaml` (zod schemas in
-  `src/features/content/curated.ts`). `pnpm seed:curated` upserts it (new question version only when content changes).
+  `src/features/content/curated.ts`). `pnpm seed:content` upserts it (new question version only when content changes).
 - Open datasets: `pnpm seed:all` (NGSL, CEFR-J, Tatoeba; `pnpm seed:kaikki <file>` for Vietnamese Wiktionary drafts).
 - AI generation: `src/features/ai/pipeline.ts` (Batch API → validators → blind-solve + rubric QA → human review in
   `/admin/moderation`). `LLM_FAKE` must be exactly `0` for real Claude calls; anything else uses `FakeLlm`.
@@ -38,17 +40,15 @@ zustand · zod 4 · Vitest · Playwright. Package manager: pnpm (`corepack pnpm@
 
 ## Rules that matter
 
-- **Server decides every score.** XP, level, streak, SRS, quests are written only through
+- **Server decides every score.** XP, streak, SRS, lesson and unit progress are written only through
   `private.*` functions called with the service role (`public.svc_*` wrappers). Clients never write
   to progress tables; RLS + column grants enforce it and `supabase/tests/*.test.sql` proves it.
 - **Answer keys never reach the client** before the learner answers (no answers in bundles or `/public`).
 - XP ledger `xp_events` is append-only and idempotent on `(user_id, idempotency_key)`.
-- `src/game/**` is Phaser only: no Supabase/Anthropic imports (ESLint enforces). React and Phaser talk
-  through the typed `EventBus` (`src/game/events.ts`), which must stay free of Phaser imports so React
-  can import it during SSR. Phaser itself is loaded via `next/dynamic` with `ssr: false`.
-- Lock game input while an overlay is open (`input:lock` / `input:unlock`): the scene disables key
-  capture (otherwise Space can't be typed) and resets keys on unlock.
+- UI code (`src/components`, `src/stores`) never imports server modules or `@/features/*` (ESLint enforces);
+  shared types go through `src/lib/contracts/*`.
+- Keyboard shortcuts in lessons (Enter/Space/1–4) must ignore keys typed into inputs and textareas.
 - "Today" is the ICT date (`Asia/Ho_Chi_Minh`); keep `src/lib/time.ts` and `private.local_date` in sync.
-- `src/game/config/progression.ts` mirrors `public.level_thresholds`; change both together.
+- Streaks count days on which `daily_activity.xp` reaches the learner's `daily_goal_xp`.
 - New migrations go in `supabase/migrations/`; add pgTAP tests for every new RLS policy or grant.
 - Content sources must be open-license and recorded in `public.sources`; never use EVP/Oxford/Cambridge data.

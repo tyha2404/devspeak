@@ -1,37 +1,42 @@
 {
   "landing": {
-    "kicker": "DevQuest English",
-    "title": "Workplace English for developers, learned by going to work in a game.",
-    "subtitle": "Standups with the Scrum Master, code reviews with the Tech Lead, bug reports with QA. Five IT words a day, reviewed right before you forget.",
-    "play": "Play now",
+    "title": "English for developers, with a clear path from A2 to B2.",
+    "subtitle": "Standups, code reviews, bug reports, emails, interviews, and explaining technical ideas in English. About 15 minutes a day, one focused unit at a time.",
+    "start": "Start learning",
+    "seePath": "See the path",
+    "free": "Free. No account needed to start.",
     "login": "Sign in",
-    "features": {
-      "npc": {
-        "title": "NPC colleagues",
-        "body": "Nine international characters — HR, mentor, Scrum Master, QA, Tech Lead, SRE, client — each teaches a work skill."
+    "pathTitle": "4 stages, 36 units",
+    "pathBody": "Each stage mixes workplace situations with technical knowledge in English and ends with a checkpoint and a certificate.",
+    "comingSoon": "coming soon",
+    "how": {
+      "title": "What's in a unit",
+      "words": {
+        "title": "Words & patterns",
+        "body": "IT vocabulary with pronunciation, Vietnamese meanings and real examples; patterns explained briefly in Vietnamese."
       },
-      "daily": {
-        "title": "5 IT words a day",
-        "body": "Real vocabulary (commit, blocker, rollback…) with Vietnamese meanings, audio and examples."
+      "talk": {
+        "title": "Talk to colleagues",
+        "body": "Linh, Tuấn, Sarah, Raj… each leads a situation. Pick your reply and get feedback on how it sounds."
       },
-      "srs": {
-        "title": "Smart review",
-        "body": "FSRS spaced repetition reminds you right before you forget, with verification checks."
+      "task": {
+        "title": "Real tasks",
+        "body": "Write a Slack message, a bug report or a PR description, or say your standup. AI grades it and shows a better version."
       },
-      "career": {
-        "title": "Career progression",
-        "body": "Climb from Intern to Tech Lead through promotion interviews with the CTO."
+      "review": {
+        "title": "Review at the right time",
+        "body": "Words come back just before you'd forget them (FSRS), always with a real check."
       }
     },
-    "footer": { "credits": "Data & art credits", "privacy": "Privacy", "terms": "Terms" }
+    "footer": {
+      "credits": "Data sources",
+      "privacy": "Privacy",
+      "terms": "Terms"
+    }
   },
-  "hud": {
-    "notebook": "Notebook",
-    "quests": "Sprint tickets",
-    "settings": "Settings",
-    "review": "Review",
-    "profile": "Profile",
-    "people": "People here"
-  },
-  "locale": { "label": "Language", "vi": "Tiếng Việt", "en": "English" }
+  "locale": {
+    "label": "Language",
+    "vi": "Tiếng Việt",
+    "en": "English"
+  }
 }

@@ -1,0 +1,27 @@
+slug: design-tradeoffs
+stage: b1plus-ownership
+sort: 6
+code: S15
+kind: situation
+cefr: B2
+character: raj
+status: draft
+title: { en: "Proposing solutions & trade-offs", vi: "Đề xuất giải pháp & trade-off" }
+summary_vi: "So sánh phương án, nêu ưu nhược điểm, viết design doc/RFC ngắn."
+can_do:
+  - "So sánh hai phương án kỹ thuật với ưu và nhược điểm"
+  - "Viết phần đề xuất của một design doc"
+lessons:
+  - slug: s15-words
+    kind: vocab
+    title: { en: "Key words", vi: "Từ vựng" }
+    senses: ["trade-off-n", "scalable-adj", "bottleneck-n"]
+    questions: ["raj-trade-off-meaning", "raj-scalable-meaning"]
+  - slug: s15-architecture
+    kind: dialogue
+    title: { en: "Where is the bottleneck?", vi: "Nút thắt ở đâu?" }
+    dialogue: "raj-architecture"
+  - slug: s15-practice
+    kind: practice
+    title: { en: "Practice", vi: "Luyện tập" }
+    questions: ["raj-fix-trade-off", "raj-listen-review"]

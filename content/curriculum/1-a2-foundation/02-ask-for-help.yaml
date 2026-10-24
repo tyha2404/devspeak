@@ -1,0 +1,71 @@
+slug: ask-for-help
+stage: a2-foundation
+sort: 2
+code: S2
+kind: situation
+cefr: A2
+character: tuan
+status: published
+title: { en: "Ask for help on Slack", vi: "Nhờ giúp đỡ & hỏi khi bị stuck" }
+summary_vi: "Hỏi đúng cách khi bị kẹt: nêu bối cảnh, đã thử gì, và câu hỏi cụ thể."
+can_do:
+  - "Viết tin nhắn nhờ giúp có đủ bối cảnh, việc đã thử và câu hỏi cụ thể"
+  - "Dùng Can/Could you…? để nhờ vả lịch sự"
+lessons:
+  - slug: s2-words
+    kind: vocab
+    title: { en: "Key words", vi: "Từ vựng" }
+    senses: [ask-for-help-phr, stuck-adj, take-a-look-phr, bug-n, fix-v]
+    questions: [tuan-stuck-meaning, tuan-fill-take-a-look, tuan-fill-bug]
+  - slug: s2-focus
+    kind: focus
+    title: { en: "Asking a good question", vi: "Hỏi sao cho người khác dễ giúp" }
+    body_vi: |
+      Một câu hỏi tốt trên Slack có **3 phần**:
+
+      1. **Bối cảnh:** *I'm working on the login API and I'm stuck on a CORS error.*
+      2. **Đã thử gì:** *I've tried adding the header and restarting the server.* (**I've tried** + V-ing/danh từ)
+      3. **Câu hỏi cụ thể:** *Could you take a look when you have a moment?*
+
+      **Can you…?** thân mật, **Could you…?** lịch sự hơn. Thêm *when you have a moment* / *no rush* để không tạo áp lực.
+      Gửi kèm log hoặc ảnh chụp màn hình thay vì chỉ viết *"It doesn't work."*
+    examples:
+      - {
+          en: "Quick question: the build fails on CI but passes locally. I've tried clearing the cache. Any ideas?",
+          vi: "Hỏi nhanh: build lỗi trên CI nhưng chạy local được. Mình đã thử xóa cache. Có ai biết không?",
+        }
+      - {
+          en: "Could you take a look at my PR when you have a moment? No rush.",
+          vi: "Anh xem giúp PR của em lúc rảnh nhé, không gấp.",
+        }
+    questions: [tuan-order-help, tuan-order-stuck, x-fill-stuck, tuan-fix-slack-1, tuan-fix-slack-2]
+  - slug: s2-practice
+    kind: practice
+    title: { en: "Practice", vi: "Luyện tập" }
+    questions: [tuan-reply-stuck, x-reply-help, x-crash-meaning]
+  - slug: s2-mistakes
+    kind: mistakes
+    title: { en: "Common mistakes", vi: "Lỗi hay gặp" }
+    mistakes: [explain-me, question-need-to-ask, code-not-work, please-kindly]
+  - slug: s2-task
+    kind: task
+    mode: write
+    title: { en: "Ask Tuấn for help", vi: "Nhiệm vụ: nhờ Tuấn giúp" }
+    context:
+      - {
+          speaker: "Terminal",
+          text: "Error: Cannot find module 'dotenv' — npm run dev exited with code 1",
+        }
+    prompt:
+      en: "Your app won't start because of the error above. Write a Slack message to Tuấn: what you're doing, what you've tried, and what you need."
+      vi: "App không chạy vì lỗi trên. Viết tin nhắn cho Tuấn: bạn đang làm gì, đã thử gì, cần giúp gì."
+    keywords: ["I'm", tried, error, "could you", look]
+    model_answer: 'Hi Tuấn, I''m setting up the project locally and npm run dev fails with "Cannot find module ''dotenv''". I''ve tried deleting node_modules and running npm install again, but it still fails. Could you take a look when you have a moment?'
+roleplay:
+  goal:
+    {
+      en: "Explain to Tuấn what you're stuck on and what you've tried, then thank him.",
+      vi: "Giải thích cho Tuấn bạn đang kẹt ở đâu, đã thử gì, rồi cảm ơn.",
+    }
+  opener: "Hey, I saw your message. What's going on?"
+  target_words: [stuck, tried, take a look]

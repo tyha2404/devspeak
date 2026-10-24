@@ -1,0 +1,68 @@
+slug: sprint-planning
+stage: b1-teamwork
+sort: 1
+code: S7
+kind: situation
+cefr: B1
+character: sarah
+status: published
+title: { en: "Sprint planning & estimates", vi: "Sprint planning & ước lượng" }
+summary_vi: "Ước lượng công việc, nói về mức độ chắc chắn và rủi ro, sắp xếp ưu tiên trong sprint."
+can_do:
+  - "Đưa ra ước lượng kèm mức độ chắc chắn (will / should / might)"
+  - "Nêu rủi ro và đề xuất ưu tiên trong buổi planning"
+lessons:
+  - slug: s7-words
+    kind: vocab
+    title: { en: "Key words", vi: "Từ vựng" }
+    senses: [sprint-n, estimate-v, deadline-n, on-track-phr, priority-n]
+    questions: [sarah-sprint-meaning, sarah-deadline-meaning, sarah-priority-meaning]
+  - slug: s7-planning
+    kind: dialogue
+    title: { en: "Sprint planning", vi: "Họp sprint planning" }
+    dialogue: sarah-sprint-planning
+  - slug: s7-focus
+    kind: focus
+    title: { en: "How sure are you?", vi: "Nói mức độ chắc chắn" }
+    body_vi: |
+      Khi ước lượng, hãy cho team biết bạn **chắc đến đâu**:
+
+      | Mức độ | Mẫu câu |
+      |---|---|
+      | Rất chắc | *It **will** take two days.* |
+      | Khá chắc | *It **should** be done by Thursday.* · *It'll **probably** take three points.* |
+      | Chưa chắc | *It **might** take longer if the API changes.* · *I'm **not sure yet** — I need to check the legacy code.* |
+
+      Luôn kèm **giả định/rủi ro**: *…**as long as** the design is final.* · *The main **risk** is the payment integration.*
+    examples:
+      - {
+          en: "I'd say five points. It should be done by Friday, but it might slip if we need a new endpoint.",
+          vi: "Mình đoán 5 điểm. Thứ Sáu chắc xong, nhưng có thể trễ nếu cần endpoint mới.",
+        }
+    questions: [sarah-fill-estimate, sarah-fill-deadline, sarah-order-track]
+  - slug: s7-listening
+    kind: listening
+    title: { en: "Listen", vi: "Nghe" }
+    questions: [sarah-listen-sprint]
+  - slug: s7-practice
+    kind: practice
+    title: { en: "Practice", vi: "Luyện tập" }
+    questions: [x-order-priority, x-fill-priority, sarah-reply-estimate]
+  - slug: s7-mistakes
+    kind: mistakes
+    title: { en: "Common mistakes", vi: "Lỗi hay gặp" }
+    mistakes: [i-will-try]
+  - slug: s7-task
+    kind: task
+    mode: write
+    title: { en: "Give an estimate", vi: "Nhiệm vụ: đưa ra ước lượng" }
+    context:
+      - {
+          speaker: "Sarah",
+          text: "How long do you think the CSV export feature will take? We'd love to ship it this sprint.",
+        }
+    prompt:
+      en: "Reply to Sarah with an estimate, how sure you are, and one risk."
+      vi: "Trả lời Sarah: ước lượng, mức độ chắc chắn và một rủi ro."
+    keywords: [should, might, risk, days]
+    model_answer: "I think it'll take about three days. It should fit in this sprint, but it might take longer if we need to export more than 10,000 rows, because we'd have to do it in the background. The main risk is performance."

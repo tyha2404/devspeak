@@ -1,0 +1,27 @@
+slug: scope-and-deadlines
+stage: b2-leadership
+sort: 2
+code: S20
+kind: situation
+cefr: B2
+character: mike
+status: draft
+title: { en: "Scope, deadlines & saying no", vi: "Đàm phán scope & deadline" }
+summary_vi: "Báo trễ, từ chối lịch sự, đề xuất phương án thay thế khi scope phình to."
+can_do:
+  - "Từ chối yêu cầu ngoài phạm vi một cách lịch sự"
+  - "Đề xuất phương án thay thế"
+lessons:
+  - slug: s20-words
+    kind: vocab
+    title: { en: "Key words", vi: "Từ vựng" }
+    senses: ["scope-creep-n", "out-of-scope-phr", "feasible-adj"]
+    questions: ["mike-scope-creep-meaning", "mike-fill-out-of-scope"]
+  - slug: s20-scope
+    kind: dialogue
+    title: { en: "Pushing back on scope creep", vi: "Từ chối scope creep" }
+    dialogue: "mike-scope"
+  - slug: s20-practice
+    kind: practice
+    title: { en: "Practice", vi: "Luyện tập" }
+    questions: ["mike-reply-squeeze", "mike-fix-feasible"]

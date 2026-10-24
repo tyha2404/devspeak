@@ -1,0 +1,23 @@
+slug: demos
+stage: b2-leadership
+sort: 4
+code: S21
+kind: situation
+cefr: B2
+character: mike
+status: draft
+title: { en: "Demos for non-technical people", vi: "Demo & giải thích cho người không chuyên" }
+summary_vi: "Dẫn dắt demo, ví von để đơn giản hóa, xử lý câu hỏi và phàn nàn."
+can_do:
+  - "Giải thích một tính năng kỹ thuật cho người không chuyên"
+  - "Xử lý câu hỏi khó trong demo"
+lessons:
+  - slug: s21-words
+    kind: vocab
+    title: { en: "Key words", vi: "Từ vựng" }
+    senses: ["walk-through-phr"]
+    questions: ["robert-walk-through-meaning"]
+  - slug: s21-practice
+    kind: practice
+    title: { en: "Practice", vi: "Luyện tập" }
+    questions: ["mike-listen-demo"]

@@ -5,10 +5,15 @@ import { useSettings } from "@/stores/settingsStore";
 
 const FONT_PX = { s: 16, m: 18, l: 20, xl: 24 };
 
-/** Applies accessibility settings to the document (font size, reduced motion). */
+/** Applies display settings to the document (theme, font size, reduced motion). */
 export function SettingsEffect() {
   const fontScale = useSettings((s) => s.fontScale);
   const reduced = useSettings((s) => s.reducedMotion);
+  const theme = useSettings((s) => s.theme);
+  useEffect(() => {
+    if (theme === "system") delete document.documentElement.dataset.theme;
+    else document.documentElement.dataset.theme = theme;
+  }, [theme]);
   useEffect(() => {
     document.documentElement.style.setProperty("--dq-font-base", `${FONT_PX[fontScale]}px`);
   }, [fontScale]);

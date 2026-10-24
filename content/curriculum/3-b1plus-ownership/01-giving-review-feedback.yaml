@@ -1,0 +1,23 @@
+slug: giving-review-feedback
+stage: b1plus-ownership
+sort: 1
+code: S13
+kind: situation
+cefr: B1
+character: raj
+status: draft
+title: { en: "Giving polite review feedback", vi: "Góp ý code review lịch sự" }
+summary_vi: "Góp ý mà không làm người khác phật lòng: nit, gợi ý, hedging, bất đồng có xây dựng."
+can_do:
+  - "Viết comment review lịch sự bằng hedging (Would you mind…, I wonder if…)"
+  - "Bày tỏ bất đồng có lý lẽ"
+lessons:
+  - slug: s13-words
+    kind: vocab
+    title: { en: "Key words", vi: "Từ vựng" }
+    senses: ["nit-n", "suggest-v", "approve-v"]
+    questions: ["raj-nit-meaning", "raj-fill-suggest"]
+  - slug: s13-practice
+    kind: practice
+    title: { en: "Practice", vi: "Luyện tập" }
+    questions: ["raj-reply-nit", "raj-reply-disagree", "raj-order-suggest"]

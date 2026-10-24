@@ -1,0 +1,23 @@
+slug: devops-cicd
+stage: b1plus-ownership
+sort: 2
+code: K7
+kind: knowledge
+cefr: B1
+character: kenji
+status: draft
+title: { en: "Cloud, DevOps & CI/CD", vi: "Cloud, DevOps & CI/CD" }
+summary_vi: "Container, pipeline, deploy, rollback, monitoring, log — mô tả quy trình đưa code lên production."
+can_do:
+  - "Mô tả pipeline CI/CD của team"
+  - "Giải thích deploy và rollback"
+lessons:
+  - slug: k7-words
+    kind: vocab
+    title: { en: "DevOps words", vi: "Từ vựng DevOps" }
+    senses: ["deploy-v", "roll-back-phr", "hotfix-n", "log-n", "monitor-v"]
+    questions: ["x-deploy-meaning", "kenji-rollback-meaning", "x-fill-deploy"]
+  - slug: k7-practice
+    kind: practice
+    title: { en: "Practice", vi: "Luyện tập" }
+    questions: ["x-order-deploy", "x-listen-deploy", "kenji-dictation-rollback"]

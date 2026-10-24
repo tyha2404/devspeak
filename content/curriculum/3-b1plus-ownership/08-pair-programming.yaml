@@ -1,0 +1,14 @@
+slug: pair-programming
+stage: b1plus-ownership
+sort: 8
+code: S17
+kind: situation
+cefr: B1
+character: tuan
+status: draft
+title: { en: "Pair programming", vi: "Pair programming & giải thích code" }
+summary_vi: "Điều hướng khi code chung, suy nghĩ thành lời, giải thích code cho đồng nghiệp."
+can_do:
+  - "Hướng dẫn người khác thao tác trong code"
+  - "Giải thích một đoạn code đang làm gì"
+lessons: []

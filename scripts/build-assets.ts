@@ -1,7 +1,6 @@
 /**
- * Builds game textures into public/assets:
- *   tilesets/{rpg,indoor,office}.png  — 16px tiles re-packed with 1px extrusion (margin 1, spacing 2)
- *   sprites/characters.png + .json    — 16x16 frames, one row per character
+ * Builds the character sheet into public/assets (the avatars of the colleagues who guide units):
+ *   sprites/characters.png + .json — 16x16 frames, one row per character
  *
  * Usage: pnpm assets
  */
@@ -16,8 +15,6 @@ import {
   OUTLINE,
   characterFrame,
 } from "../art/pixel/characters";
-import { OFFICE_PALETTE, OFFICE_TILE_ORDER, officeTilePixels } from "../art/pixel/officeTiles";
-import { TILESETS } from "../src/game/data/tilesets";
 
 const ROOT = path.resolve(import.meta.dirname, "..");
 const OUT = path.join(ROOT, "public/assets");
@@ -65,77 +62,11 @@ function paint(png: PNG, ox: number, oy: number, rows: string[], palette: Record
 }
 
 /** Re-pack a tile grid with each tile surrounded by a 1px copy of its own edge pixels. */
-function extrude(tiles: PNG[], columns: number) {
-  const rows = Math.ceil(tiles.length / columns);
-  const out = blank(columns * (TILE + 2) + 0, rows * (TILE + 2));
-  tiles.forEach((tile, i) => {
-    const bx = (i % columns) * (TILE + 2) + 1;
-    const by = Math.floor(i / columns) * (TILE + 2) + 1;
-    for (let y = -1; y <= TILE; y++) {
-      for (let x = -1; x <= TILE; x++) {
-        const sx = Math.min(TILE - 1, Math.max(0, x));
-        const sy = Math.min(TILE - 1, Math.max(0, y));
-        setPx(out, bx + x, by + y, getPx(tile, sx, sy));
-      }
-    }
-  });
-  return out;
-}
-
-function sliceSheet(file: string, margin: number, spacing: number) {
-  const src = PNG.sync.read(fs.readFileSync(file));
-  const columns = Math.floor((src.width - 2 * margin + spacing) / (TILE + spacing));
-  const rows = Math.floor((src.height - 2 * margin + spacing) / (TILE + spacing));
-  const tiles: PNG[] = [];
-  for (let r = 0; r < rows; r++) {
-    for (let c = 0; c < columns; c++) {
-      const t = blank(TILE, TILE);
-      PNG.bitblt(
-        src,
-        t,
-        margin + c * (TILE + spacing),
-        margin + r * (TILE + spacing),
-        TILE,
-        TILE,
-        0,
-        0,
-      );
-      tiles.push(t);
-    }
-  }
-  return { tiles, columns };
-}
-
 function write(rel: string, png: PNG) {
   const file = path.join(OUT, rel);
   fs.mkdirSync(path.dirname(file), { recursive: true });
   fs.writeFileSync(file, PNG.sync.write(png));
   console.log(`wrote ${path.relative(ROOT, file)} (${png.width}x${png.height})`);
-}
-
-// ----- Kenney tilesets -----
-for (const ts of TILESETS.filter((t) => t.source)) {
-  const { tiles, columns } = sliceSheet(path.join(ROOT, ts.source!), 0, 1);
-  if (columns !== ts.columns || tiles.length !== ts.tileCount) {
-    throw new Error(
-      `${ts.key}: expected ${ts.columns} cols / ${ts.tileCount} tiles, got ${columns} / ${tiles.length}`,
-    );
-  }
-  write(`tilesets/${ts.key}.png`, extrude(tiles, columns));
-}
-
-// ----- office tileset (our own art) -----
-{
-  const ts = TILESETS.find((t) => t.key === "office")!;
-  const tiles = OFFICE_TILE_ORDER.map((name) => {
-    const t = blank(TILE, TILE);
-    paint(t, 0, 0, officeTilePixels(name), OFFICE_PALETTE);
-    return t;
-  });
-  if (tiles.length > ts.tileCount)
-    throw new Error("office tileset grew: bump tileCount in tilesets.ts");
-  while (tiles.length < ts.tileCount) tiles.push(blank(TILE, TILE));
-  write("tilesets/office.png", extrude(tiles, ts.columns));
 }
 
 // ----- characters -----
