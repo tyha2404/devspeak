@@ -8,13 +8,11 @@ const OWN_TABLES = [
   "user_cards",
   "review_logs",
   "user_answers",
-  "dialogue_runs",
+  "lesson_runs",
+  "quiz_sessions",
   "user_lesson_progress",
   "user_unit_progress",
-  "certificates",
   "question_reports",
-  "chat_sessions",
-  "chat_messages",
 ] as const;
 
 /** Everything we store about a learner (data-subject access request, PDPD). */

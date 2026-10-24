@@ -264,8 +264,6 @@ for (const u of curriculum.units) {
           code: u.code,
           kind: u.kind,
           cefr: u.cefr,
-          // Required by the table; the study tracks have no guide characters.
-          character: "none",
           title_en: u.title.en,
           title_vi: u.title.vi,
           summary_vi: u.summary_vi,

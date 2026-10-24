@@ -27,8 +27,8 @@ select throws_ok(
   '42501', null, 'user cannot update xp_total');
 
 select throws_ok(
-  $$ update public.profiles set current_unit_id = 36 where id = auth.uid() $$,
-  '42501', null, 'user cannot jump ahead on the path');
+  $$ update public.profiles set streak_longest = 365 where id = auth.uid() $$,
+  '42501', null, 'user cannot edit their streak record');
 
 select throws_ok(
   $$ insert into public.xp_events (user_id, amount, reason, idempotency_key, local_date)
