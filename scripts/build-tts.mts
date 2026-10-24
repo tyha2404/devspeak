@@ -1,6 +1,6 @@
 /**
- * Pre-generates speech for every line the game speaks (NPC lines, listening/dictation/meeting items, words,
- * examples) into public/audio/<key>.m4a + manifest.json. Incremental: existing files are kept.
+ * Pre-generates speech for every word and example sentence (plus any listening items) into
+ * public/audio/<key>.m4a + manifest.json. Incremental: existing files are kept.
  *
  * Provider: macOS `say` + `afconvert` (local/dev). Apple's system voices are licensed for personal use, so for a
  * public launch set TTS_PROVIDER to a commercially licensed service and regenerate (see docs/LAUNCH.md).
@@ -11,7 +11,6 @@ import { spawnSync } from "node:child_process";
 import fs from "node:fs";
 import os from "node:os";
 import path from "node:path";
-import { NPCS } from "../src/game/data/npcs";
 import { stripMarkup } from "../src/lib/markup";
 import { ttsKey } from "../src/lib/ttsKey";
 import { loadCurated } from "./lib/curated";
@@ -28,7 +27,7 @@ const VOICE: Record<string, string> = {
 if ((process.env.TTS_PROVIDER ?? "say") !== "say")
   throw new Error(`TTS provider ${process.env.TTS_PROVIDER} not configured`);
 if (process.platform !== "darwin") {
-  console.log("skip: the `say` provider needs macOS; the game falls back to Web Speech");
+  console.log("skip: the `say` provider needs macOS; the app falls back to Web Speech");
   process.exit(0);
 }
 
@@ -47,10 +46,6 @@ for (const q of c.questions) {
   if (q.type !== "listening") continue;
   if (q.script) for (const l of q.script) add(l.voice, l.text);
   else add(q.voice, q.tts);
-}
-for (const d of c.dialogues) {
-  const voice = NPCS[d.npc]?.voice.lang ?? "en-US";
-  for (const n of Object.values(d.nodes)) if (n.type === "line") add(voice, n.en);
 }
 
 fs.mkdirSync(OUT, { recursive: true });

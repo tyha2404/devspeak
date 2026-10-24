@@ -6,8 +6,8 @@ import { TracksHeader } from "@/components/app/TracksHeader";
 import { useMe } from "@/stores/meStore";
 
 /**
- * The grammar & vocabulary area ("/" and below): a top bar instead of the app sidebar, ForumFlash-style.
- * Visitors start straight away as guests; the career onboarding (goal, placement) lives under /career.
+ * The app shell ("/" and below): the ForumFlash-style top bar with the account menu.
+ * Visitors start straight away as guests; there is no onboarding.
  */
 export default function TracksLayout({ children }: { children: ReactNode }) {
   const home = useMe((s) => s.home);

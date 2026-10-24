@@ -4,7 +4,7 @@ import { Toasts } from "@/components/app/Toasts";
 
 export const metadata: Metadata = { robots: { index: false } };
 
-/** Distraction-free screens (lessons, exams, onboarding): no navigation chrome. */
+/** Distraction-free screens (lessons, test-outs): no navigation chrome. */
 export default function FocusLayout({ children }: { children: ReactNode }) {
   return (
     <>

@@ -18,7 +18,6 @@
     "db:types": "supabase gen types typescript --local > src/types/database.ts",
     "prepare": "husky",
     "e2e": "NEXT_DIST_DIR=.next-e2e next build && playwright test",
-    "assets": "tsx scripts/build-assets.ts",
     "seed:content": "node --env-file-if-exists=.env.local --import tsx scripts/seed-content.mts",
     "test:integration": "vitest run --config vitest.integration.config.ts",
     "grant-role": "node --env-file-if-exists=.env.local --import tsx scripts/grant-role.mts",
@@ -27,7 +26,6 @@
     "seed:tatoeba": "node --env-file-if-exists=.env.local --import tsx scripts/seed/20-tatoeba.mts",
     "seed:kaikki": "node --env-file-if-exists=.env.local --import tsx scripts/seed/30-kaikki-vi.mts",
     "seed:all": "node --env-file-if-exists=.env.local --import tsx scripts/seed/run-all.mts",
-    "eval:chat": "node --env-file-if-exists=.env.local --import tsx evals/run-npc-chat.mts",
     "tts": "node --import tsx scripts/build-tts.mts"
   },
   "dependencies": {

@@ -1,5 +1,3 @@
-import type { DialogueStep } from "@/lib/contracts/dialogue";
-
 export class ApiError extends Error {
   constructor(
     readonly code: string,
@@ -39,8 +37,3 @@ export const api = {
   patch: <T>(url: string, body?: unknown) => call<T>("PATCH", url, body ?? {}),
   del: <T>(url: string, body?: unknown) => call<T>("DELETE", url, body ?? {}),
 };
-
-export const advanceDialogue = (runId: string, choiceId?: string, text?: string) =>
-  api.post<DialogueStep>("/api/dialogues/advance", { runId, choiceId, text });
-export const addToNotebook = (slug: string) =>
-  api.post<{ added: boolean }>("/api/notebook", { slug });

@@ -5,7 +5,7 @@ import Link from "next/link";
 import { useEffect, useRef, useState } from "react";
 import { btn } from "@/components/app/ui";
 import { api } from "@/lib/client/api";
-import type { GlossEntry } from "@/lib/contracts/dialogue";
+import type { GlossEntry } from "@/lib/contracts/learn";
 import type { PathLesson, PathStage, PathUnit } from "@/lib/contracts/learn";
 
 type StudyTrack = "grammar" | "vocab";
@@ -187,7 +187,7 @@ export function TrackClient({ track }: { track: StudyTrack }) {
                   </p>
                 </div>
                 <Link
-                  href={`/exam/test-out/${unit.id}?from=grammar`}
+                  href={`/test-out/${unit.id}`}
                   className="bg-surface text-ink rounded-xl px-4 py-2.5 font-semibold"
                 >
                   {unit.completedVia === "test_out" ? "Làm lại bài →" : "Làm bài vượt cấp →"}

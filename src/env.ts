@@ -13,13 +13,8 @@ const serverSchema = z.object({
   ANTHROPIC_API_KEY: z.string().optional(),
   ANTHROPIC_MODEL_GEN: z.string().default("claude-sonnet-5-5"),
   ANTHROPIC_MODEL_QA: z.string().default("claude-haiku-5-5"),
-  ANTHROPIC_MODEL_CHAT: z.string().default("claude-haiku-5-5"),
   CRON_SECRET: z.string().min(16).optional(),
   AI_DAILY_BUDGET_USD: z.coerce.number().positive().default(15),
-  FEATURE_CHAT_ENABLED: z
-    .enum(["true", "false"])
-    .default("false")
-    .transform((v) => v === "true"),
   APP_TIMEZONE: z.string().default("Asia/Ho_Chi_Minh"),
 });
 

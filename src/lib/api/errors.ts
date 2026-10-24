@@ -1,6 +1,5 @@
 import "server-only";
 import { LearnError } from "@/features/curriculum/service";
-import { DialogueError } from "@/features/dialogue/service";
 import { QuizError } from "@/features/quiz/service";
 import { fail } from "./handler";
 
@@ -20,7 +19,7 @@ const STATUS: Record<string, number> = {
 
 /** Map domain errors to API responses; rethrow anything unexpected. */
 export function domainError(err: unknown) {
-  if (err instanceof QuizError || err instanceof DialogueError || err instanceof LearnError) {
+  if (err instanceof QuizError || err instanceof LearnError) {
     return fail(err.code, err.message, STATUS[err.code] ?? 400);
   }
   throw err;

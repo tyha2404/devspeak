@@ -1,6 +1,6 @@
 import { fail, ok, withUser } from "@/lib/api/handler";
 import { domainError } from "@/lib/api/errors";
-import { glossary } from "@/features/dialogue/service";
+import { glossary } from "@/features/content/glossary";
 import { createAdminClient } from "@/lib/supabase/admin";
 
 /** GET /api/tracks/words?unitId=7 — every word of a vocabulary topic, in lesson order. */

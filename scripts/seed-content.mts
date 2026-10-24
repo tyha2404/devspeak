@@ -1,9 +1,8 @@
 /**
- * Upserts hand-written content (content/curated/**, content/curriculum/**, content/mistakes,
- * content/situations) into Postgres. Idempotent:
+ * Upserts hand-written content (content/curated/**, content/curriculum/**) into Postgres, plus the
+ * generated track tests. Idempotent:
  *   - senses/examples upsert by slug
  *   - a question gets a new version only when its content hash changes
- *   - a dialogue's version bumps only when its graph changes
  *   - stages/units/lessons upsert by slug; a lesson's question list is replaced each run
  *
  * Usage: pnpm seed:content   (reads .env.local for the service-role key)
@@ -11,7 +10,7 @@
 import { createHash } from "node:crypto";
 import { createClient } from "@supabase/supabase-js";
 import { toQuestionRow } from "../src/features/content/toQuestionRow";
-import { DEFAULT_MINUTES, DEFAULT_XP, type LessonSpec } from "../src/features/curriculum/schema";
+import { DEFAULT_MINUTES } from "../src/features/curriculum/schema";
 import { loadCurated, validateCurated } from "./lib/curated";
 import { expandTrackLessons, loadCurriculum, validateCurriculum } from "./lib/curriculum";
 
@@ -210,38 +209,6 @@ console.log(
   `questions: ${curated.questions.length} (${generatedQuestions} generated, ${newVersions} new versions)`,
 );
 
-// ----- dialogues -----
-for (const d of curated.dialogues) {
-  const graph = { entry: d.entry, nodes: d.nodes };
-  const existing = must(
-    await db.from("dialogues").select("id, version, graph").eq("slug", d.slug).maybeSingle(),
-    `dialogue ${d.slug}`,
-  ) as { id: string; version: number; graph: unknown } | null;
-  const changed = !existing || JSON.stringify(existing.graph) !== JSON.stringify(graph);
-  must(
-    await db.from("dialogues").upsert(
-      {
-        slug: d.slug,
-        npc_id: d.npc,
-        title_en: d.title_en,
-        title_vi: d.title_vi,
-        cefr: d.cefr,
-        version: existing ? existing.version + (changed ? 1 : 0) : 1,
-        graph,
-        unlock_level: d.unlock_level,
-        sort_order: d.sort,
-        xp_reward: d.xp,
-        status: "published",
-        origin: "human",
-        source_id: source.id,
-      },
-      { onConflict: "slug" },
-    ),
-    `dialogue ${d.slug}`,
-  );
-}
-console.log(`dialogues: ${curated.dialogues.length}`);
-
 // ----- learning path -----
 
 const stageIds = new Map<string, number>();
@@ -259,8 +226,6 @@ for (const s of curriculum.stages) {
           title_vi: s.title.vi,
           tagline_vi: s.tagline_vi,
           description_vi: s.description_vi,
-          checkpoint_size: s.checkpoint.size,
-          checkpoint_pass_pct: s.checkpoint.pass_pct,
         },
         { onConflict: "slug" },
       )
@@ -271,14 +236,6 @@ for (const s of curriculum.stages) {
   stageIds.set(s.slug, row.id);
 }
 
-const dialogueIds = new Map(
-  (
-    must(await db.from("dialogues").select("id, slug"), "dialogue ids") as {
-      id: string;
-      slug: string;
-    }[]
-  ).map((d) => [d.slug, d.id]),
-);
 // PostgREST returns at most 1000 rows per request, so page through the bank.
 const questionIds = new Map<string, string>();
 for (let from = 0; ; from += 1000) {
@@ -294,7 +251,6 @@ for (let from = 0; ; from += 1000) {
   if (page.length < 1000) break;
 }
 
-const unitIds = new Map<string, number>();
 let lessonCount = 0;
 for (const u of curriculum.units) {
   const unit = must(
@@ -308,12 +264,12 @@ for (const u of curriculum.units) {
           code: u.code,
           kind: u.kind,
           cefr: u.cefr,
-          character: u.character,
+          // Required by the table; the study tracks have no guide characters.
+          character: "none",
           title_en: u.title.en,
           title_vi: u.title.vi,
           summary_vi: u.summary_vi,
           can_do: u.can_do,
-          roleplay: u.roleplay ?? null,
           status: u.status,
         },
         { onConflict: "slug" },
@@ -322,7 +278,6 @@ for (const u of curriculum.units) {
       .single(),
     `unit ${u.slug}`,
   ) as { id: number };
-  unitIds.set(u.slug, unit.id);
 
   // Lessons removed from the YAML disappear (with their progress) — fine before launch.
   const keep = u.lessons.map((l) => l.slug);
@@ -343,7 +298,7 @@ for (const u of curriculum.units) {
       .eq("id", l.id);
 
   for (const [i, l] of u.lessons.entries()) {
-    const { body, priv } = lessonContent(l);
+    const body = l.kind === "vocab" ? { senses: l.senses } : { grammar: l.grammar };
     const row = must(
       await db
         .from("lessons")
@@ -356,12 +311,11 @@ for (const u of curriculum.units) {
             title_en: l.title.en,
             title_vi: l.title.vi,
             est_minutes: l.est_minutes ?? DEFAULT_MINUTES[l.kind],
-            xp: l.xp ?? DEFAULT_XP[l.kind],
-            pass_pct: l.pass_pct,
-            question_count: l.count ?? l.questions.length,
+            // Best-pass XP (3 stars); every track test passes at 80%.
+            xp: 80,
+            pass_pct: 80,
+            question_count: l.questions.length,
             body,
-            private: priv,
-            dialogue_id: l.kind === "dialogue" ? dialogueIds.get(l.dialogue)! : null,
           },
           { onConflict: "slug" },
         )
@@ -388,71 +342,3 @@ console.log(
   `path: ${curriculum.stages.length} stages, ${curriculum.units.length} units ` +
     `(${curriculum.units.filter((u) => u.status === "published").length} published), ${lessonCount} lessons`,
 );
-
-for (const m of curriculum.mistakes) {
-  must(
-    await db.from("mistakes").upsert(
-      {
-        slug: m.slug,
-        kind: m.kind,
-        wrong: m.wrong ?? null,
-        right: m.right,
-        say: m.say ?? null,
-        explanation_vi: m.explanation_vi,
-        tags: m.tags,
-      },
-      { onConflict: "slug" },
-    ),
-    `mistake ${m.slug}`,
-  );
-}
-for (const [i, s] of curriculum.situations.entries()) {
-  must(
-    await db.from("situations").upsert(
-      {
-        slug: s.slug,
-        category: s.category,
-        cefr: s.cefr,
-        title_en: s.title.en,
-        title_vi: s.title.vi,
-        context_vi: s.context_vi,
-        phrases: s.phrases,
-        mistakes: s.mistakes,
-        unit_id: s.unit ? unitIds.get(s.unit)! : null,
-        roleplay: s.roleplay ?? null,
-        sort: i,
-      },
-      { onConflict: "slug" },
-    ),
-    `situation ${s.slug}`,
-  );
-}
-console.log(`mistakes: ${curriculum.mistakes.length}, situations: ${curriculum.situations.length}`);
-
-/** Public lesson content goes to `body`; what must stay server-side (model answers) to `private`. */
-function lessonContent(l: LessonSpec): {
-  body: Record<string, unknown>;
-  priv: Record<string, unknown>;
-} {
-  switch (l.kind) {
-    case "vocab":
-      return { body: { senses: l.senses }, priv: {} };
-    case "dialogue":
-      return { body: { dialogue: l.dialogue }, priv: {} };
-    case "focus":
-      return { body: { markdown: l.body_vi, examples: l.examples }, priv: {} };
-    case "grammar":
-      return { body: { grammar: l.grammar }, priv: {} };
-    case "reading":
-      return { body: { passage: l.passage }, priv: {} };
-    case "mistakes":
-      return { body: { mistakes: l.mistakes }, priv: {} };
-    case "task":
-      return {
-        body: { mode: l.mode, context: l.context, prompt: l.prompt },
-        priv: { keywords: l.keywords, model_answer: l.model_answer },
-      };
-    default:
-      return { body: {}, priv: {} };
-  }
-}

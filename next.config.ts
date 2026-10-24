@@ -12,15 +12,15 @@ const nextConfig: NextConfig = {
   distDir: process.env.NEXT_DIST_DIR ?? ".next",
   // Render metadata in <head> for every client (not streamed), so crawlers and audits always see it.
   htmlLimitedBots: /.*/,
-  // Old URLs from before the grammar & vocabulary home became "/" and the career path moved to /career.
+  // Old URLs: the former /tracks area is now the site root, and the career path was removed.
   async redirects() {
     return [
       { source: "/tracks", destination: "/", permanent: true },
       { source: "/tracks/:track(grammar|vocab)", destination: "/:track", permanent: true },
-      { source: "/learn", destination: "/career", permanent: true },
-      { source: "/path/:rest*", destination: "/career/path/:rest*", permanent: true },
-      { source: "/practice", destination: "/career/practice", permanent: true },
-      { source: "/topics", destination: "/career/topics", permanent: true },
+      { source: "/exam/test-out/:id", destination: "/test-out/:id", permanent: true },
+      ...["/learn", "/career/:rest*", "/path/:rest*", "/practice", "/topics", "/onboarding"].map(
+        (source) => ({ source, destination: "/", permanent: true }),
+      ),
     ];
   },
   async headers() {

@@ -7,6 +7,5 @@ describe("curated content", () => {
     expect(validateCurated(c)).toEqual([]);
     expect(c.senses.length).toBeGreaterThanOrEqual(50);
     expect(c.questions.length).toBeGreaterThanOrEqual(100);
-    expect(c.dialogues.length).toBeGreaterThanOrEqual(10);
   });
 });

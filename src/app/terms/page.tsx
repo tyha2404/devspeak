@@ -15,10 +15,6 @@ export default function Terms() {
           sai sót — hãy dùng nút “Báo câu hỏi sai”.
         </li>
         <li>
-          Không dùng chat NPC để tạo nội dung vi phạm pháp luật, quấy rối, hoặc cố vượt qua giới hạn
-          của hệ thống.
-        </li>
-        <li>
           Không gian lận điểm số (bot, script tự động). Tài khoản vi phạm có thể bị đặt lại tiến
           trình.
         </li>

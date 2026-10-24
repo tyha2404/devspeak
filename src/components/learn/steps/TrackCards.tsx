@@ -3,7 +3,7 @@
 import { RotateCcw, Check, Volume2 } from "lucide-react";
 import { useCallback, useEffect, useState } from "react";
 import { speak } from "@/lib/client/tts";
-import type { GlossEntry } from "@/lib/contracts/dialogue";
+import type { GlossEntry } from "@/lib/contracts/learn";
 import { useSettings } from "@/stores/settingsStore";
 
 /** Time allowed for studying a word set before the test starts anyway. */

@@ -1,6 +1,6 @@
 "use client";
 
-import { useSettings, type Theme, type TranslationMode } from "@/stores/settingsStore";
+import { useSettings, type Theme } from "@/stores/settingsStore";
 
 const row = "flex items-center justify-between gap-4 px-4 py-3";
 const select = "rounded-md border border-line bg-surface px-2 py-1.5";
@@ -20,30 +20,6 @@ export function SettingsForm() {
           <option value="system">Theo hệ thống</option>
           <option value="light">Sáng</option>
           <option value="dark">Tối</option>
-        </select>
-      </label>
-      <label className={row}>
-        Dịch tiếng Việt trong hội thoại
-        <select
-          value={s.translation}
-          onChange={(e) => s.set({ translation: e.target.value as TranslationMode })}
-          className={select}
-        >
-          <option value="always">Luôn hiện</option>
-          <option value="tap">Chạm để xem</option>
-          <option value="never">Không hiện</option>
-        </select>
-      </label>
-      <label className={row}>
-        Tốc độ hiện chữ
-        <select
-          value={s.typewriterCps}
-          onChange={(e) => s.set({ typewriterCps: Number(e.target.value) as 0 | 40 | 80 })}
-          className={select}
-        >
-          <option value={40}>Bình thường</option>
-          <option value={80}>Nhanh</option>
-          <option value={0}>Hiện ngay</option>
         </select>
       </label>
       <label className={row}>

@@ -1,6 +1,4 @@
-import { z } from "zod";
 import { fail, ok, withUser } from "@/lib/api/handler";
-import { createAdminClient } from "@/lib/supabase/admin";
 
 export const GET = withUser({}, async ({ userId, supabase }) => {
   const { data, error } = await supabase
@@ -33,22 +31,3 @@ export const GET = withUser({}, async ({ userId, supabase }) => {
     }),
   );
 });
-
-export const POST = withUser(
-  { input: z.object({ slug: z.string().regex(/^[a-z0-9-]+$/) }) },
-  async ({ userId, supabase, input }) => {
-    const { data: sense } = await supabase
-      .from("senses")
-      .select("id")
-      .eq("slug", input.slug)
-      .maybeSingle();
-    if (!sense) return fail("NOT_FOUND", "Unknown word", 404);
-    const { data, error } = await createAdminClient().rpc("svc_add_card", {
-      p_user: userId,
-      p_sense: sense.id,
-      p_via: "notebook",
-    });
-    if (error) return fail("INTERNAL", "Could not save", 500);
-    return ok({ added: !!data });
-  },
-);

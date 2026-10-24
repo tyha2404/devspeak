@@ -1,8 +1,8 @@
 # DevQuest English
 
-Lộ trình tiếng Anh cho lập trình viên Việt Nam, A2 → B2: 4 chặng, 36 unit (tình huống công việc + kiến thức kỹ thuật
-bằng tiếng Anh). Mỗi unit gồm từ vựng, hội thoại với đồng nghiệp, mẫu câu, luyện tập, lỗi hay gặp và một nhiệm vụ thực
-tế do AI chấm. Ôn tập theo FSRS, mục tiêu ngày + streak, checkpoint cuối chặng có chứng nhận.
+Học tiếng Anh theo hai lộ trình: ngữ pháp theo bậc CEFR (A1 → C2) và từ vựng theo 25 chủ đề. Mỗi bài gồm phần học
+(năm màn kiến thức hoặc thẻ lật) và bài kiểm tra 16 câu có giới hạn thời gian; qua bài từ 80%, có sao và XP. Bậc ngữ
+pháp mở lần lượt hoặc qua bài vượt cấp. Từ đã học được ôn theo FSRS; streak tính theo ngày có làm bài.
 
 ## Chạy local
 
@@ -10,11 +10,11 @@ tế do AI chấm. Ôn tập theo FSRS, mục tiêu ngày + streak, checkpoint c
 corepack pnpm@10 install
 corepack pnpm@10 db:start          # cần Docker
 cp .env.example .env.local         # điền key in ra từ db:start
-corepack pnpm@10 seed:all          # tải dataset mở (NGSL, CEFR-J, Tatoeba) + nội dung & lộ trình tự viết
-corepack pnpm@10 dev               # http://localhost:3000 (ngữ pháp & từ vựng), /career (lộ trình công việc)
+corepack pnpm@10 seed:all          # tải dataset mở (NGSL, CEFR-J, Tatoeba) + nội dung tự viết
+corepack pnpm@10 dev               # http://localhost:3000
 ```
 
-Mặc định `LLM_FAKE=1`: sinh nội dung và chat NPC chạy bằng LLM giả lập, không gọi API. Bật Claude thật: `LLM_FAKE=0`
+Mặc định `LLM_FAKE=1`: pipeline sinh nội dung chạy bằng LLM giả lập, không gọi API. Bật Claude thật: `LLM_FAKE=0`
 và `ANTHROPIC_API_KEY`. Admin: đăng nhập rồi `pnpm grant-role <email> admin`, vào `/admin`.
 
 ## Kiểm tra
@@ -23,14 +23,13 @@ và `ANTHROPIC_API_KEY`. Admin: đăng nhập rồi `pnpm grant-role <email> adm
 
 ## Nội dung
 
-- Lộ trình: `content/curriculum/stages.yaml` và `content/curriculum/<n>-<stage>/*.yaml` (mỗi file một unit).
-  Unit `status: draft` hiện là "Sắp ra mắt" và bị bỏ qua khi mở khóa tuần tự.
-- Câu hỏi, từ vựng, hội thoại: `content/curated/**`; lỗi hay gặp: `content/mistakes/`; thư viện tình huống: `content/situations/`.
-- `pnpm seed:content` nạp tất cả (idempotent) và kiểm tra mọi tham chiếu.
+- Lộ trình: `content/curriculum/stages.yaml`; ngữ pháp `content/curriculum/5-grammar/*.yaml` (mỗi file một bậc),
+  từ vựng `content/curriculum/6-vocab/*.yaml` (mỗi file một chủ đề). Unit `status: draft` hiện là "Sắp ra mắt".
+- Câu hỏi ngữ pháp viết tay và từ vựng: `content/curated/{questions,vocab}/*.yaml`.
+- `pnpm seed:content` kiểm tra mọi tham chiếu, sinh bài kiểm tra 16 câu cho từng bài và nạp tất cả (idempotent).
 
 Bản game pixel-art cũ được giữ ở git tag `game-v1`.
 
 ## Tài liệu
 
-- Kế hoạch: `/Users/tyha/.claude/plans/jaunty-churning-beacon.md`
 - Triển khai: `docs/DEPLOY.md` · Ra mắt: `docs/LAUNCH.md`

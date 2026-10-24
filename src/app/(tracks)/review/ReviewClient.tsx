@@ -7,7 +7,7 @@ import { btn } from "@/components/app/ui";
 import { QuizHost } from "@/components/learn/QuizHost";
 import { api } from "@/lib/client/api";
 import { speak } from "@/lib/client/tts";
-import type { GlossEntry } from "@/lib/contracts/dialogue";
+import type { GlossEntry } from "@/lib/contracts/learn";
 import { useMe } from "@/stores/meStore";
 
 interface Queue {

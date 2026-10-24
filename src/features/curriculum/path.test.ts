@@ -1,37 +1,32 @@
 import { describe, expect, it } from "vitest";
 import {
   buildPath,
-  placementUnit,
   starsFor,
   trackNext,
-  type Track,
   type LearnerProgress,
   type LessonRow,
   type StageRow,
+  type Track,
   type UnitRow,
 } from "./path";
 
-const stage = (id: number, sort: number, track: Track = "career"): StageRow => ({
+const stage = (id: number, sort: number, track: Track): StageRow => ({
   id,
   slug: `s${id}`,
   sort,
   track,
-  cefr: "A2",
+  cefr: "A1",
   title_en: "S",
   title_vi: "S",
   tagline_vi: "",
-  checkpoint_size: 12,
-  checkpoint_pass_pct: 70,
 });
 const unit = (id: number, stageId: number, sort: number, status = "published"): UnitRow => ({
   id,
   stage_id: stageId,
   slug: `u${id}`,
   sort,
-  code: `S${id}`,
-  kind: "situation",
-  cefr: "A2",
-  character: "linh",
+  code: `A${sort}`,
+  cefr: "A1",
   title_en: "U",
   title_vi: "U",
   summary_vi: "",
@@ -43,127 +38,77 @@ const lesson = (id: number, unitId: number, sort: number): LessonRow => ({
   unit_id: unitId,
   slug: `l${id}`,
   sort,
-  kind: "practice",
+  kind: "grammar",
   title_en: "L",
   title_vi: "L",
-  est_minutes: 5,
-  xp: 10,
+  est_minutes: 10,
+  xp: 80,
 });
+const empty = (): LearnerProgress => ({ lessons: new Map(), units: new Map() });
 
-const STAGES = [stage(2, 2), stage(1, 1)];
-// Stage 1: u1 (l11, l12), u2 draft, u3 (l31). Stage 2: u4 (l41).
-const UNITS = [unit(3, 1, 3), unit(1, 1, 1), unit(2, 1, 2, "draft"), unit(4, 2, 1)];
-const LESSONS = [lesson(12, 1, 2), lesson(11, 1, 1), lesson(31, 3, 1), lesson(41, 4, 1)];
-const empty = (): LearnerProgress => ({
-  lessons: new Map(),
-  units: new Map(),
-  certificates: new Map(),
-});
+// Grammar stage 1: levels u1 (l11, l12) → u2 (l21, l22) → u3 draft → u4 (l41).
+// Vocab stage 2: topics u5 (l51), u6 (l61).
+const STAGES = [stage(2, 20, "vocab"), stage(1, 10, "grammar")];
+const UNITS = [
+  unit(2, 1, 2),
+  unit(1, 1, 1),
+  unit(3, 1, 3, "draft"),
+  unit(4, 1, 4),
+  unit(5, 2, 1),
+  unit(6, 2, 2),
+];
+const LESSONS = [
+  lesson(12, 1, 2),
+  lesson(11, 1, 1),
+  lesson(21, 2, 1),
+  lesson(22, 2, 2),
+  lesson(41, 4, 1),
+  lesson(51, 5, 1),
+  lesson(61, 6, 1),
+];
 
 describe("buildPath", () => {
-  it("opens only the first lesson of the first unit for a new learner", () => {
-    const { stages, next } = buildPath(STAGES, UNITS, LESSONS, empty());
-    expect(stages.map((s) => s.id)).toEqual([1, 2]);
-    const [u1, u2, u3] = stages[0]!.units;
-    expect([u1!.state, u2!.state, u3!.state]).toEqual(["available", "coming_soon", "locked"]);
-    expect(u1!.lessons.map((l) => l.state)).toEqual(["available", "locked"]);
-    expect(next).toEqual({ type: "lesson", stageId: 1, unitId: 1, lessonId: 11 });
+  it("opens only the first grammar lesson and every vocabulary topic for a new learner", () => {
+    const [grammar, vocab] = buildPath(STAGES, UNITS, LESSONS, empty());
+    expect(grammar!.units.map((u) => u.state)).toEqual([
+      "available",
+      "locked",
+      "coming_soon",
+      "locked",
+    ]);
+    expect(grammar!.units[0]!.lessons.map((l) => l.state)).toEqual(["available", "locked"]);
+    expect(vocab!.units.map((u) => u.state)).toEqual(["available", "available"]);
+    expect(trackNext(grammar!)).toEqual({ stageId: 1, unitId: 1, lessonId: 11 });
   });
 
-  it("unlocks lessons in order and skips draft units", () => {
+  it("unlocks lessons in order and the next level once a level is done", () => {
     const p = empty();
     p.lessons.set(11, { stars: 2, completed: true });
-    let r = buildPath(STAGES, UNITS, LESSONS, p);
-    expect(r.stages[0]!.units[0]!.state).toBe("in_progress");
-    expect(r.next?.lessonId).toBe(12);
+    let [grammar] = buildPath(STAGES, UNITS, LESSONS, p);
+    expect(grammar!.units[0]!.state).toBe("in_progress");
+    expect(trackNext(grammar!)?.lessonId).toBe(12);
 
     p.lessons.set(12, { stars: 3, completed: true });
     p.units.set(1, "lessons");
-    r = buildPath(STAGES, UNITS, LESSONS, p);
-    expect(r.stages[0]!.units[0]!.stars).toBe(5);
-    expect(r.stages[0]!.units[2]!.state).toBe("available"); // u3, past the draft u2
-    expect(r.next?.lessonId).toBe(31);
+    [grammar] = buildPath(STAGES, UNITS, LESSONS, p);
+    expect(grammar!.units[0]!.stars).toBe(5);
+    expect(grammar!.units[1]!.state).toBe("available");
+    expect(grammar!.units[1]!.lessons.map((l) => l.state)).toEqual(["available", "locked"]);
   });
 
-  it("offers the checkpoint only when a fully published stage is done", () => {
+  it("a test-out opens the skipped level for replay and every lesson of the next level", () => {
     const p = empty();
-    p.units.set(1, "lessons");
-    p.units.set(3, "test_out");
-    const r = buildPath(STAGES, UNITS, LESSONS, p);
-    // Stage 1 still has a draft unit, so its checkpoint is not ready yet.
-    expect(r.stages[0]!.checkpoint.state).toBe("coming_soon");
-    expect(r.stages[0]!.progress).toEqual({ done: 2, total: 2 });
-    expect(r.stages[1]!.units[0]!.state).toBe("available");
-
-    const published = UNITS.map((u) => ({ ...u, status: "published" }));
-    p.units.set(2, "lessons");
-    const r2 = buildPath(STAGES, published, LESSONS, p);
-    expect(r2.stages[0]!.checkpoint.state).toBe("available");
-    // Next stays on the open lesson before offering the checkpoint of a later stage.
-    expect(r2.next).toEqual({ type: "checkpoint", stageId: 1, unitId: null, lessonId: null });
-  });
-
-  it("treats a completed unit's lessons as open for replay", () => {
-    const p = empty();
-    p.units.set(1, "placement");
-    const r = buildPath(STAGES, UNITS, LESSONS, p);
-    expect(r.stages[0]!.units[0]!.lessons.map((l) => l.state)).toEqual(["available", "available"]);
-    expect(r.stages[0]!.units[0]!.completedVia).toBe("placement");
-  });
-});
-
-describe("study tracks", () => {
-  // Grammar stage 9 (levels u91 → u92) and vocab stage 8 (topics u81, u82) next to the career path.
-  const stages = [...STAGES, stage(9, 10, "grammar"), stage(8, 20, "vocab")];
-  const units = [...UNITS, unit(91, 9, 1), unit(92, 9, 2), unit(81, 8, 1), unit(82, 8, 2)];
-  const lessons = [
-    ...LESSONS,
-    lesson(911, 91, 1),
-    lesson(912, 91, 2),
-    lesson(921, 92, 1),
-    lesson(811, 81, 1),
-    lesson(821, 82, 1),
-  ];
-
-  it("keeps the career next step and chain separate from the tracks", () => {
-    const { stages: s, next } = buildPath(stages, units, lessons, empty());
-    expect(next).toEqual({ type: "lesson", stageId: 1, unitId: 1, lessonId: 11 });
-    const grammar = s.find((x) => x.id === 9)!;
-    expect(grammar.units.map((u) => u.state)).toEqual(["available", "locked"]);
-    expect(grammar.checkpoint.state).toBe("none");
-    expect(trackNext(grammar)).toEqual({ type: "lesson", stageId: 9, unitId: 91, lessonId: 911 });
-  });
-
-  it("opens every vocabulary topic and the next grammar level after a test-out", () => {
-    const p = empty();
-    p.units.set(91, "test_out");
-    const { stages: s } = buildPath(stages, units, lessons, p);
-    expect(s.find((x) => x.id === 8)!.units.map((u) => u.state)).toEqual([
-      "available",
-      "available",
-    ]);
-    const grammar = s.find((x) => x.id === 9)!;
-    expect(grammar.units[1]!.state).toBe("available");
-    // Both lessons of the skipped level replay, and every lesson of the next level is open.
-    expect(grammar.units[0]!.lessons.map((l) => l.state)).toEqual(["available", "available"]);
-    const units2 = [...units, unit(93, 9, 3)];
-    const lessons2 = [...lessons, lesson(922, 92, 2), lesson(931, 93, 1), lesson(932, 93, 2)];
-    const r2 = buildPath(stages, units2, lessons2, p).stages.find((x) => x.id === 9)!;
-    expect(r2.units[1]!.lessons.map((l) => l.state)).toEqual(["available", "available"]);
-    expect(r2.units[2]!.state).toBe("locked");
-    expect(placementUnit(s, "B2")?.id).toBe(4); // tracks are never placement targets
+    p.units.set(1, "test_out");
+    const [grammar] = buildPath(STAGES, UNITS, LESSONS, p);
+    expect(grammar!.units[0]!.lessons.map((l) => l.state)).toEqual(["available", "available"]);
+    expect(grammar!.units[1]!.lessons.map((l) => l.state)).toEqual(["available", "available"]);
+    // Draft levels are skipped: the level after u2 is still locked until u2 is done.
+    expect(grammar!.units[3]!.state).toBe("locked");
   });
 });
 
 describe("helpers", () => {
   it("scores stars like the database", () => {
-    expect([starsFor(59), starsFor(60), starsFor(75), starsFor(90)]).toEqual([0, 1, 2, 3]);
-  });
-
-  it("places learners at the first published unit of their band", () => {
-    const { stages } = buildPath(STAGES, UNITS, LESSONS, empty());
-    expect(placementUnit(stages, "A2")?.id).toBe(1);
-    expect(placementUnit(stages, "B1")?.id).toBe(4);
-    expect(placementUnit(stages, "B2")?.id).toBe(4); // no stage 3 yet → closest earlier stage
+    expect([starsFor(79), starsFor(80), starsFor(90), starsFor(100)]).toEqual([0, 1, 2, 3]);
   });
 });

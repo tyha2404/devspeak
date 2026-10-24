@@ -1,6 +1,6 @@
 import "server-only";
 import type { SupabaseClient } from "@supabase/supabase-js";
-import { glossary } from "@/features/dialogue/service";
+import { glossary } from "@/features/content/glossary";
 import { createSession } from "@/features/quiz/service";
 import {
   previewIntervals,

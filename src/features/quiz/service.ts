@@ -17,19 +17,18 @@ export class QuizError extends Error {
   }
 }
 
-export type SessionKind =
-  "npc" | "practice" | "review_verify" | "placement" | "lesson" | "checkpoint" | "test_out";
+/** Lesson tests, level test-outs and the quick check behind a verified SRS review. */
+export type SessionKind = "lesson" | "test_out" | "review_verify";
 
 /** Network slack before a late answer counts as a timeout. */
 const TIME_GRACE_MS = 3000;
 
-/** Create a quiz session over explicit question ids (lessons, dialogue quiz nodes, exams). */
+/** Create a quiz session over explicit question ids. */
 export async function createSession(
   db: SupabaseClient,
   userId: string,
   opts: {
     kind: SessionKind;
-    npcId?: string;
     ref?: string;
     questionIds: string[];
     /** Exam mode (study tracks): one answer per question, each against the clock. */
@@ -42,7 +41,6 @@ export async function createSession(
     .insert({
       user_id: userId,
       kind: opts.kind,
-      npc_id: opts.npcId ?? null,
       ref: opts.ref ?? null,
       question_ids: opts.questionIds,
       planned_count: opts.questionIds.length,
@@ -64,39 +62,6 @@ export async function questionIdsBySlug(db: SupabaseClient, slugs: string[]) {
   if (error) throw error;
   const bySlug = new Map((data ?? []).map((q) => [q.slug as string, q.id as string]));
   return slugs.map((s) => bySlug.get(s)).filter((id): id is string => !!id);
-}
-
-/**
- * Pick `size` published questions for free practice (from one unit's lessons, or the units the
- * learner has opened), preferring ones not answered correctly lately.
- */
-export async function pickPracticeQuestions(
-  db: SupabaseClient,
-  userId: string,
-  unitIds: number[],
-  size: number,
-) {
-  const { data: rows, error } = await db
-    .from("lesson_questions")
-    .select("question_id, lessons!inner(unit_id), questions!inner(status)")
-    .in("lessons.unit_id", unitIds)
-    .eq("questions.status", "published")
-    .limit(500);
-  if (error) throw error;
-  const pool = [...new Set((rows ?? []).map((r) => r.question_id as string))].map((id) => ({ id }));
-  const { data: recent } = await db
-    .from("user_answers")
-    .select("question_id")
-    .eq("user_id", userId)
-    .eq("is_correct", true)
-    .gt("created_at", new Date(Date.now() - 14 * 86_400_000).toISOString());
-  const seen = new Set((recent ?? []).map((r) => r.question_id as string));
-  const ids = (pool ?? []).map((p) => p.id as string);
-  const shuffled = ids.sort(() => Math.random() - 0.5);
-  return [
-    ...shuffled.filter((id) => !seen.has(id)),
-    ...shuffled.filter((id) => seen.has(id)),
-  ].slice(0, size);
 }
 
 export interface DeliveryView {

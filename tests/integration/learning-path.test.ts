@@ -1,16 +1,13 @@
 import { createClient } from "@supabase/supabase-js";
 import { beforeAll, describe, expect, it } from "vitest";
 import { mergeGuest } from "@/features/account/service";
+import { findLesson, findUnit } from "@/features/curriculum/path";
 import {
   completeLesson,
-  finishPlacement,
   finishTestOut,
-  gradeTask,
   home,
   loadPath,
-  startCheckpoint,
   startLesson,
-  startPlacement,
   startTestOut,
 } from "@/features/curriculum/service";
 import { reviewQueue, submitReview } from "@/features/srs/service";
@@ -27,144 +24,86 @@ const unitId = async (slug: string) =>
 const xpOf = async (user: string) =>
   (await admin.from("profiles").select("xp_total").eq("id", user).single()).data!
     .xp_total as number;
-
-/** Mark lessons done directly (fixtures for later steps; the real flow is tested separately). */
-async function markDone(user: string, slugs: string[]) {
-  for (const slug of slugs)
-    await admin.from("user_lesson_progress").insert({
-      user_id: user,
-      lesson_id: await lessonId(slug),
-      stars: 3,
-      best_pct: 100,
-      attempts: 1,
-      completed_at: new Date().toISOString(),
-    });
-}
+const stateOf = async (user: string, slug: string) =>
+  findLesson(await loadPath(admin, user), await lessonId(slug))!.lesson.state;
 
 describe("lessons", () => {
-  it("opens only the first lesson for a new learner", async () => {
+  it("opens the first grammar lesson and every vocabulary topic for a new learner", async () => {
     const user = await newUser();
-    const path = await loadPath(admin, user);
-    expect(path.next).toMatchObject({ type: "lesson", lessonId: await lessonId("s1-words") });
-    await expect(startLesson(admin, user, await lessonId("s1-welcome"))).rejects.toMatchObject({
-      code: "LOCKED",
-    });
+    expect(await stateOf(user, "g-a1-be")).toBe("available");
+    expect(await stateOf(user, "g-a1-present-simple")).toBe("locked");
+    expect(await stateOf(user, "t02-l1")).toBe("available");
+    await expect(
+      startLesson(admin, user, await lessonId("g-a1-present-simple")),
+    ).rejects.toMatchObject({ code: "LOCKED" });
+    const h = await home(admin, user, false);
+    expect(h.tracks.map((t) => t.next?.lesson.id)).toEqual(
+      expect.arrayContaining([await lessonId("g-a1-be"), await lessonId("t01-l1")]),
+    );
   });
 
-  it("vocab lesson: adds cards, grades the quiz, pays XP once and opens the next lesson", async () => {
+  it("vocab lesson: adds cards, runs a strict 16-question test and pays by stars on every pass", async () => {
     const user = await newUser();
-    const start = await startLesson(admin, user, await lessonId("s1-words"));
-    expect(start.sessionId).toBeTruthy();
-    // Starting again resumes the same run instead of creating a new quiz.
-    expect((await startLesson(admin, user, await lessonId("s1-words"))).runId).toBe(start.runId);
+    const start = await startLesson(admin, user, await lessonId("t01-l1"));
+    // Starting again resumes the same run instead of creating a new test.
+    expect((await startLesson(admin, user, await lessonId("t01-l1"))).runId).toBe(start.runId);
+    const { data: session } = await admin
+      .from("quiz_sessions")
+      .select("planned_count, max_attempts, time_limited")
+      .eq("id", start.sessionId!)
+      .single();
+    expect(session).toEqual({ planned_count: 16, max_attempts: 1, time_limited: true });
     const { count: cards } = await admin
       .from("user_cards")
       .select("sense_id", { count: "exact", head: true })
       .eq("user_id", user);
-    expect(cards).toBe(4);
+    expect(cards).toBe(10);
 
-    await expect(completeLesson(admin, user, start.runId)).rejects.toMatchObject({
-      code: "QUIZ_NOT_FINISHED",
-    });
-    await answerSession(user, start.sessionId!, () => true);
+    // 15/16 = 94% → 2 stars, 35 + 15 × 2 = 65 XP; the next lesson opens.
+    await answerSession(user, start.sessionId!, (i) => i !== 0);
     const r = await completeLesson(admin, user, start.runId);
-    expect(r).toMatchObject({ passed: true, stars: 3, xp: 15, first: true, unitCompleted: false });
-    expect(r.next?.lesson?.id).toBe(await lessonId("s1-welcome"));
-    await completeLesson(admin, user, start.runId);
-    // Answers inside lessons pay nothing; only the completion does, once.
-    expect(await xpOf(user)).toBe(15);
-  });
+    expect(r).toMatchObject({ passed: true, stars: 2, xp: 65, correct: 15, total: 16 });
+    expect(r.next?.lesson.id).toBe(await lessonId("t01-l2"));
+    expect(await stateOf(user, "t01-l2")).toBe("available");
 
-  it("a failed attempt records no progress", async () => {
-    const user = await newUser();
-    const start = await startLesson(admin, user, await lessonId("s1-words"));
-    await answerSession(user, start.sessionId!, () => false);
-    const r = await completeLesson(admin, user, start.runId);
-    expect(r).toMatchObject({ passed: false, stars: 0, xp: 0 });
-    expect((await loadPath(admin, user)).next?.lessonId).toBe(await lessonId("s1-words"));
-  });
+    // A perfect replay pays again in full.
+    const again = await startLesson(admin, user, await lessonId("t01-l1"));
+    await answerSession(user, again.sessionId!, () => true);
+    expect(await completeLesson(admin, user, again.runId)).toMatchObject({ stars: 3, xp: 80 });
+    expect(await xpOf(user)).toBe(145);
+  }, 90_000);
 
-  it("a dialogue lesson needs the conversation finished", async () => {
+  it("a failed test pays nothing and keeps the next lesson locked", async () => {
     const user = await newUser();
-    await markDone(user, ["s1-words"]);
-    const start = await startLesson(admin, user, await lessonId("s1-welcome"));
-    expect(start.dialogue?.node.type).toBe("line");
-    await expect(completeLesson(admin, user, start.runId)).rejects.toMatchObject({
-      code: "DIALOGUE_NOT_FINISHED",
-    });
-    await admin
-      .from("dialogue_runs")
-      .update({ completed_at: new Date().toISOString() })
-      .eq("id", start.dialogue!.runId);
-    expect(await completeLesson(admin, user, start.runId)).toMatchObject({ passed: true, xp: 15 });
-  });
-
-  it("a task is graded, then completing it finishes the unit and moves to the next", async () => {
-    const user = await newUser();
-    await markDone(user, ["s1-words", "s1-welcome", "s1-focus", "s1-practice", "s1-mistakes"]);
-    const start = await startLesson(admin, user, await lessonId("s1-task"));
-    await expect(completeLesson(admin, user, start.runId)).rejects.toMatchObject({
-      code: "TASK_NOT_GRADED",
-    });
-    const g = await gradeTask(
-      admin,
-      user,
-      start.runId,
-      "Hi everyone! I'm Nam, a backend developer. I work with Go and I'm on the payments team. Looking forward to working with you, thanks!",
-    );
-    expect(g.score).toBeGreaterThanOrEqual(2);
-    expect(g.modelAnswer).toContain("Looking forward");
-    const r = await completeLesson(admin, user, start.runId);
-    expect(r).toMatchObject({ passed: true, xp: 30, unitCompleted: true });
-    expect(r.next?.unit?.code).toBe("S2");
-    expect((await home(admin, user, false)).next?.lesson?.id).toBe(await lessonId("s2-words"));
+    const start = await startLesson(admin, user, await lessonId("g-a1-be"));
+    await answerSession(user, start.sessionId!, (i) => i % 2 === 0);
+    expect(await completeLesson(admin, user, start.runId)).toMatchObject({ passed: false, xp: 0 });
+    expect(await stateOf(user, "g-a1-present-simple")).toBe("locked");
   });
 });
 
-describe("exams", () => {
-  it("testing out completes a unit without lesson XP", async () => {
+describe("level test-out", () => {
+  it("80% opens every lesson of the level and the next one, and pays 120 XP", async () => {
     const user = await newUser();
-    const exam = await startTestOut(admin, user, await unitId("introduce-yourself"));
-    expect(exam.total).toBe(8);
+    const a1 = await unitId("grammar-a1");
+    const exam = await startTestOut(admin, user, a1);
+    expect(exam.total).toBe(16);
     await answerSession(user, exam.sessionId, () => true);
-    const r = await finishTestOut(admin, user, exam.sessionId);
-    expect(r).toMatchObject({ passed: true, pct: 100 });
-    expect(r.next?.unit?.code).toBe("S2");
-    expect(await xpOf(user)).toBe(0);
-    // Units further down the path can't be tested out yet.
-    await expect(startTestOut(admin, user, await unitId("work-email"))).rejects.toMatchObject({
-      code: "LOCKED",
+    expect(await finishTestOut(admin, user, exam.sessionId)).toMatchObject({
+      passed: true,
+      xp: 120,
     });
-  });
-
-  it("does not offer a checkpoint while the stage still has units to finish", async () => {
-    const user = await newUser();
-    const { data: stage } = await admin
-      .from("stages")
-      .select("id")
-      .eq("slug", "a2-foundation")
-      .single();
-    await expect(startCheckpoint(admin, user, stage!.id)).rejects.toMatchObject({ code: "LOCKED" });
-  });
-
-  it("placement puts a strong learner at the furthest published stage, once", async () => {
-    const user = await newUser();
-    const p = await startPlacement(admin, user);
-    await answerSession(user, p.sessionId, () => true);
-    const r = await finishPlacement(admin, user, p.sessionId);
-    expect(r.band).toBe("B2");
-    expect(r.unit.code).toBe("S7"); // stage 3 has no published units yet → start of stage 2
-    const h = await home(admin, user, false);
-    expect(h.next?.unit?.code).toBe("S7");
-    expect(h.me.placementDone).toBe(true);
-    await expect(startPlacement(admin, user)).rejects.toMatchObject({ code: "ALREADY_DONE" });
+    const path = await loadPath(admin, user);
+    const a2 = findUnit(path, await unitId("grammar-a2"))!.unit;
+    expect(a2.lessons.every((l) => l.state === "available")).toBe(true);
+    expect(await stateOf(user, "g-a1-prepositions")).toBe("available");
   });
 });
 
 describe("SRS review", () => {
   it("pays XP only for a verified, due review and is idempotent", async () => {
     const user = await newUser();
-    await startLesson(admin, user, await lessonId("s1-words"));
+    await startLesson(admin, user, await lessonId("t01-l1"));
     // Keep one card due, push the rest into the future.
     const { data: cards } = await admin.from("user_cards").select("sense_id").eq("user_id", user);
     const future = new Date(Date.now() + 7 * 86_400_000).toISOString();
@@ -184,9 +123,7 @@ describe("SRS review", () => {
     expect(r1).toMatchObject({ xp: 0, verified: null });
     expect(
       await submitReview(admin, user, { clientReviewId: id1, slug: card.slug, rating: 3 }),
-    ).toMatchObject({
-      duplicate: true,
-    });
+    ).toMatchObject({ duplicate: true });
     expect(await xpOf(user)).toBe(0);
 
     // A verified review on a due card earns 3 XP.
@@ -222,15 +159,15 @@ describe("guest merge", () => {
     );
     const { data: guest } = await anon.auth.signInAnonymously();
     const guestId = guest.user!.id;
-    const start = await startLesson(admin, guestId, await lessonId("s1-words"));
+    const start = await startLesson(admin, guestId, await lessonId("t01-l1"));
     await answerSession(guestId, start.sessionId!, () => true);
     await completeLesson(admin, guestId, start.runId);
 
     const owner = await newUser();
     const r = await mergeGuest(admin, owner, guest.session!.access_token);
-    expect(r).toMatchObject({ merged: true, cards: 4 });
-    expect(await xpOf(owner)).toBe(15);
-    expect((await loadPath(admin, owner)).next?.lessonId).toBe(await lessonId("s1-welcome"));
+    expect(r).toMatchObject({ merged: true, cards: 10 });
+    expect(await xpOf(owner)).toBe(80);
+    expect(await stateOf(owner, "t01-l2")).toBe("available");
     const { data: gone } = await admin.auth.admin.getUserById(guestId);
     expect(gone.user).toBeNull();
   });

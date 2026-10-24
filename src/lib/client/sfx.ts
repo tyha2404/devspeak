@@ -23,7 +23,6 @@ function tone(freq: number, ms: number, type: OscillatorType = "square", gain = 
 }
 
 export const sfx = {
-  blip: (pitch = 1) => tone(520 * pitch, 30, "square", 0.025),
   correct: () => {
     tone(660, 90, "triangle");
     setTimeout(() => tone(990, 140, "triangle"), 90);

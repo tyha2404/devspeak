@@ -12,7 +12,7 @@ const NAV = [
     href: "/grammar",
     label: "Lộ trình",
     active: (p: string) =>
-      p === "/grammar" || p === "/vocab" || p.startsWith("/lesson") || p.startsWith("/exam"),
+      p === "/grammar" || p === "/vocab" || p.startsWith("/lesson") || p.startsWith("/test-out"),
   },
 ];
 
@@ -87,9 +87,6 @@ export function TracksHeader() {
               </Link>
               <Link href="/review" className="hover:bg-paper rounded-lg px-2 py-1.5 font-medium">
                 Ôn tập từ đã học →
-              </Link>
-              <Link href="/career" className="hover:bg-paper rounded-lg px-2 py-1.5 font-medium">
-                Lộ trình tiếng Anh công việc →
               </Link>
             </div>
           </div>

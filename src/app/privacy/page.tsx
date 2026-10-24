@@ -19,12 +19,8 @@ export default function Privacy() {
           chơi ẩn danh không cần email.
         </li>
         <li>
-          Tiến trình học: XP, cấp độ, từ trong sổ tay, câu trả lời, lịch ôn tập, nhiệm vụ, thành
-          tựu, vị trí trong game.
-        </li>
-        <li>
-          Tin nhắn chat với NPC (AI): lưu 30 ngày để chống lạm dụng và cải thiện chất lượng, sau đó
-          tự động xóa.
+          Tiến trình học: XP, streak, kết quả từng bài và bài vượt cấp, câu trả lời, từ trong sổ tay
+          và lịch ôn tập.
         </li>
         <li>Dữ liệu kỹ thuật: nhật ký lỗi, thống kê sử dụng ẩn danh (nếu bật).</li>
       </ul>

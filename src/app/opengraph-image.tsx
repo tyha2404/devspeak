@@ -1,6 +1,6 @@
 import { ImageResponse } from "next/og";
 
-export const alt = "DevQuest English — Tiếng Anh cho lập trình viên";
+export const alt = "DevQuest English — Ngữ pháp và từ vựng theo lộ trình";
 export const size = { width: 1200, height: 630 };
 export const contentType = "image/png";
 
@@ -14,16 +14,16 @@ export default function OgImage() {
         flexDirection: "column",
         justifyContent: "center",
         padding: 80,
-        background: "#1b1b28",
-        color: "#f4f1de",
+        background: "#003838",
+        color: "#f7f4ed",
       }}
     >
-      <div style={{ fontSize: 32, color: "#f2a65a", letterSpacing: 6 }}>DEVQUEST ENGLISH</div>
+      <div style={{ fontSize: 32, color: "#27c4b5", letterSpacing: 6 }}>DEVQUEST ENGLISH</div>
       <div style={{ fontSize: 72, fontWeight: 700, marginTop: 24, lineHeight: 1.1 }}>
-        Workplace English for developers
+        Học theo từng chặng, nhớ theo từng bài.
       </div>
-      <div style={{ fontSize: 36, marginTop: 24, color: "#c9c6b5" }}>
-        Standup · Code review · Bug report · Interviews
+      <div style={{ fontSize: 36, marginTop: 24, color: "#cde7e3" }}>
+        Ngữ pháp A1 → C2 · Từ vựng theo chủ đề · Bài kiểm tra 16 câu
       </div>
     </div>,
     size,

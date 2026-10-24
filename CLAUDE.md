@@ -1,8 +1,9 @@
 # DevQuest English
 
-English-learning app for Vietnamese developers (CEFR A2–B2) with a clear path: 4 stages → 36 units
-(workplace situations + technical knowledge in English) → lessons. Full plan:
-`/Users/tyha/.claude/plans/jaunty-churning-beacon.md`. The old pixel-art game lives at git tag `game-v1`.
+English-learning app for Vietnamese learners, modelled on ForumFlash: two study tracks — grammar by CEFR
+level (A1 → C2) and vocabulary by topic (25 topics) — where every lesson is a study phase plus a timed
+16-question test. The old pixel-art game lives at git tag `game-v1`; the former workplace ("career") path
+was removed from the code (its tables and rows are still in the database, unused).
 
 ## Stack
 
@@ -14,42 +15,39 @@ zustand · zod 4 · Vitest · Playwright. Package manager: pnpm (`corepack pnpm@
 - `pnpm dev` / `pnpm build` / `pnpm start`
 - `pnpm lint`, `pnpm typecheck`, `pnpm format`, `pnpm test` (unit), `pnpm e2e` (needs a build)
 - `pnpm db:start` (Docker), `pnpm db:reset`, `pnpm db:test` (pgTAP), `pnpm db:types`
-- `pnpm test:integration` (services against local Supabase), `pnpm assets` (character portraits)
+- `pnpm test:integration` (services against local Supabase), `pnpm seed:content`, `pnpm tts`
 
-## Learning path
+## Tracks
 
-- Authoring: `content/curriculum/stages.yaml` + one YAML per unit in `content/curriculum/<n>-<stage>/`
-  (zod: `src/features/curriculum/schema.ts`). Lessons reference questions/senses/dialogues/mistakes by slug;
-  `pnpm seed:content` validates every reference and upserts stages → units → lessons → `lesson_questions`.
-- Stages have a `track`: `career` (the main path; placement, checkpoints, `current_unit_id`) or the standalone
-  study tracks `grammar` (units = CEFR levels in `5-grammar/`, lessons of kind `grammar` = five study screens +
-  test, level test-out 80%) and `vocab` (units = topics in `6-vocab/`, all open).
-- Track tests follow ForumFlash rules: `seed:content` generates them (`src/features/curriculum/autoquiz.ts`:
-  16 vocab questions per word set, translation items from grammar examples); sessions are `strict` (1 attempt,
-  20s choice / 30s typed, enforced server-side in `submitAnswer`; options listed alphabetically); pass 80%,
-  3★ = 100%, 2★ ≥ 90%; a passed level test-out opens every lesson of the next level. Grammar runs A1 → C2.
-- Pure path logic (unlock order, next step, stars, placement) is `src/features/curriculum/path.ts`; server flows
-  (start/complete lesson, task grading, test-out, checkpoint, placement) are `src/features/curriculum/service.ts`.
-- A lesson only completes through `private.complete_lesson`, which grades the `lesson_runs` evidence (finished quiz
-  session, completed dialogue run, graded task). Answers inside lessons pay no XP; the lesson does: career lessons once (replays 30%/day), study-track
-  lessons on every pass (35 + 15 × stars) and track level test-outs 120 XP per pass.
-- Routes: `src/app/(tracks)` = the main app with the ForumFlash top bar (`TracksHeader`): `/` home, `/grammar`,
-  `/vocab`, `/review`, `/words`, `/profile`; guests start without onboarding. `src/app/(app)/career/*` = the
-  workplace path with the sidebar/bottom-nav shell (`/career`, `/career/path`, `/career/practice`,
-  `/career/topics`; onboarding + placement live here). `src/app/(focus)` = lesson player, exams, onboarding.
-  Old URLs (`/tracks`, `/learn`, `/path`, `/practice`, `/topics`) redirect in `next.config.ts`.
-  Design tokens live in `src/app/globals.css` (light/dark), ForumFlash palette: `amber` token = deep green
-  primary action (`text-on-amber` on it), `merged` = mint (completed), `gold` = stars; Cal Sans headings, Alexandria body.
-- Character portraits: `art/pixel/characters.ts` → `pnpm assets` → `public/assets/sprites/characters.png`.
+- Authoring: `content/curriculum/stages.yaml` (one stage per track) + one YAML per unit in
+  `content/curriculum/5-grammar/` (units = CEFR levels, lessons of kind `grammar` = five study screens) and
+  `content/curriculum/6-vocab/` (units = topics, lessons of kind `vocab` = word sets of 10 → 36 senses).
+  zod: `src/features/curriculum/schema.ts`. `pnpm seed:content` validates every reference and upserts
+  stages → units → lessons → `lesson_questions`.
+- Tests are generated at seed time (`src/features/curriculum/autoquiz.ts`): 16 vocab questions per word set,
+  and the authored grammar items plus translation items built from the lesson's examples (wrong options swap
+  confusable words — write examples so that no single swap yields another correct sentence).
+- Rules (ForumFlash): sessions are `strict` — 1 attempt, 20s per choice / 30s per typed answer, enforced
+  server-side in `submitAnswer`, options listed alphabetically; pass 80%, 3★ = 100%, 2★ ≥ 90%;
+  XP = 35 + 15 × stars on every pass; a level test-out (16 questions, 80%) pays 120 XP per pass and opens
+  every lesson of the next level. Grammar levels unlock in order; vocabulary topics are all open.
+- Pure roadmap logic is `src/features/curriculum/path.ts`; server flows (roadmap, home, start/complete lesson,
+  test-out) are `src/features/curriculum/service.ts`. A lesson only completes through `private.complete_lesson`,
+  which grades the run's finished quiz session.
+- Routes: `src/app/(tracks)` = the app with the top bar (`TracksHeader`): `/` home, `/grammar`, `/vocab`,
+  `/review`, `/words`, `/profile`; guests start straight away. `src/app/(focus)` = `/lesson/[id]` and
+  `/test-out/[id]`. Old URLs redirect in `next.config.ts`.
+- Design tokens live in `src/app/globals.css` (light/dark), ForumFlash palette: `amber` token = deep green
+  primary action (`text-on-amber` on it), `merged` = mint (completed), `gold` = stars; Cal Sans headings,
+  Alexandria body.
 
 ## Content & AI
 
-- Hand-written content: `content/curated/{vocab,questions,dialogues}/*.yaml` (zod schemas in
+- Hand-written content: `content/curated/{vocab,questions}/*.yaml` (zod schemas in
   `src/features/content/curated.ts`). `pnpm seed:content` upserts it (new question version only when content changes).
 - Open datasets: `pnpm seed:all` (NGSL, CEFR-J, Tatoeba; `pnpm seed:kaikki <file>` for Vietnamese Wiktionary drafts).
 - AI generation: `src/features/ai/pipeline.ts` (Batch API → validators → blind-solve + rubric QA → human review in
   `/admin/moderation`). `LLM_FAKE` must be exactly `0` for real Claude calls; anything else uses `FakeLlm`.
-- NPC chat: `src/features/npc-chat` (quotas, budget kill switch, circuit breaker). Eval: `pnpm eval:chat` (real API).
 
 ## Rules that matter
 
@@ -62,7 +60,7 @@ zustand · zod 4 · Vitest · Playwright. Package manager: pnpm (`corepack pnpm@
   shared types go through `src/lib/contracts/*`.
 - Keyboard shortcuts in lessons (Enter/Space/1–4) must ignore keys typed into inputs and textareas.
 - "Today" is the ICT date (`Asia/Ho_Chi_Minh`); keep `src/lib/time.ts` and `private.local_date` in sync.
-- Streaks count days on which `daily_activity.xp` reaches the learner's `daily_goal_xp`, or on which a study-track
-  test was finished (`private.touch_streak`).
+- Streaks count days on which a track test was finished (`private.touch_streak`) or `daily_activity.xp`
+  reaches the learner's `daily_goal_xp`.
 - New migrations go in `supabase/migrations/`; add pgTAP tests for every new RLS policy or grant.
 - Content sources must be open-license and recorded in `public.sources`; never use EVP/Oxford/Cambridge data.

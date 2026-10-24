@@ -1,18 +1,13 @@
 import { create } from "zustand";
 import { createJSONStorage, persist } from "zustand/middleware";
 
-export type TranslationMode = "always" | "tap" | "never";
 export type Theme = "system" | "light" | "dark";
 
 interface Settings {
-  translation: TranslationMode;
   theme: Theme;
-  typewriterCps: 40 | 80 | 0; // 0 = instant
   ttsRate: number;
   fontScale: "s" | "m" | "l" | "xl";
   reducedMotion: boolean;
-  readableFont: boolean;
-  musicVolume: number;
   sfxVolume: number;
   set: (patch: Partial<Omit<Settings, "set">>) => void;
 }
@@ -35,14 +30,10 @@ const safeStorage = () => {
 export const useSettings = create<Settings>()(
   persist(
     (set) => ({
-      translation: "always",
       theme: "system",
-      typewriterCps: 40,
       ttsRate: 0.9,
       fontScale: "m",
       reducedMotion: false,
-      readableFont: true,
-      musicVolume: 0.5,
       sfxVolume: 0.7,
       set: (patch) => set(patch),
     }),

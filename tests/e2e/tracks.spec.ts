@@ -156,3 +156,18 @@ test("grammar test-out: 80% opens the whole next level and pays 120 XP", async (
   await expect(page.getByRole("button", { name: /Past simple/ })).toBeEnabled();
   await expect(page.getByRole("button", { name: /Comparatives/ })).toBeEnabled();
 });
+
+test("old URLs redirect to the new routes", async ({ page }) => {
+  for (const [from, to] of [
+    ["/tracks", "/"],
+    ["/tracks/grammar", "/grammar"],
+    ["/exam/test-out/1", "/test-out/1"],
+    ["/learn", "/"],
+    ["/career/path", "/"],
+    ["/onboarding", "/"],
+  ]) {
+    const res = await page.request.get(from!, { maxRedirects: 0 });
+    expect(res.status()).toBe(308);
+    expect(new URL(res.headers().location!, "http://x").pathname).toBe(to);
+  }
+});

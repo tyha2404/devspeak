@@ -2,8 +2,7 @@ import fs from "node:fs";
 import path from "node:path";
 import { parse } from "yaml";
 import { z } from "zod";
-import { DialogueSpec, QuestionSpec, SenseSpec } from "../../src/features/content/curated";
-import { graphSenses } from "../../src/features/dialogue/engine";
+import { QuestionSpec, SenseSpec } from "../../src/features/content/curated";
 import { senseSlugs } from "../../src/lib/markup";
 
 const ROOT = path.resolve(import.meta.dirname, "../..");
@@ -28,8 +27,7 @@ function readAll<T>(sub: string, schema: z.ZodType<T>): T[] {
 export function loadCurated() {
   const senses = readAll("vocab", SenseSpec);
   const questions = readAll("questions", QuestionSpec);
-  const dialogues = readAll("dialogues", DialogueSpec);
-  return { senses, questions, dialogues };
+  return { senses, questions };
 }
 
 /** Cross-reference checks: every slug referenced anywhere must exist. */
@@ -47,28 +45,14 @@ export function validateCurated(c: ReturnType<typeof loadCurated>): string[] {
     "question",
     c.questions.map((q) => q.slug),
   );
-  dupes(
-    "dialogue",
-    c.dialogues.map((d) => d.slug),
-  );
 
   const senseSet = new Set(c.senses.map((s) => s.slug));
-  const questionSet = new Set(c.questions.map((q) => q.slug));
   for (const q of c.questions) {
     for (const s of q.senses)
       if (!senseSet.has(s)) errors.push(`question ${q.slug}: unknown sense ${s}`);
     if (q.type === "mcq_meaning")
       for (const s of senseSlugs(q.stem))
         if (!senseSet.has(s)) errors.push(`question ${q.slug}: markup sense ${s}`);
-  }
-  for (const d of c.dialogues) {
-    for (const s of graphSenses(d))
-      if (!senseSet.has(s)) errors.push(`dialogue ${d.slug}: unknown sense ${s}`);
-    for (const n of Object.values(d.nodes)) {
-      if (n.type !== "quiz") continue;
-      for (const q of n.questions)
-        if (!questionSet.has(q)) errors.push(`dialogue ${d.slug}: unknown question ${q}`);
-    }
   }
   return errors;
 }

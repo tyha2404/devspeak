@@ -1,5 +1,4 @@
 import { describe, expect, it } from "vitest";
-import { advanceDialogue, startDialogueRun } from "@/features/dialogue/service";
 import {
   createSession,
   nextDelivery,
@@ -24,7 +23,7 @@ async function correctChoice(deliveryId: string) {
 
 async function deliverOne(userId: string, slug: string) {
   const ids = await questionIdsBySlug(admin, [slug]);
-  const s = await createSession(admin, userId, { kind: "practice", questionIds: ids });
+  const s = await createSession(admin, userId, { kind: "lesson", questionIds: ids });
   const d = await nextDelivery(admin, userId, s.id);
   if ("done" in d) throw new Error("unexpected done");
   return { session: s, delivery: d };
@@ -33,7 +32,7 @@ async function deliverOne(userId: string, slug: string) {
 describe("quiz flow", () => {
   it("re-serves the same pending delivery and never includes the key", async () => {
     const user = await newUser();
-    const { session, delivery } = await deliverOne(user, "sarah-blocker-meaning");
+    const { session, delivery } = await deliverOne(user, "g-a1-be-1");
     const again = await nextDelivery(admin, user, session.id);
     expect("deliveryId" in again && again.deliveryId).toBe(delivery.deliveryId);
     expect(JSON.stringify(delivery.prompt)).not.toMatch(/answer|correct/);
@@ -41,7 +40,7 @@ describe("quiz flow", () => {
 
   it("hints on the first miss, reveals on the second, and pays no XP", async () => {
     const user = await newUser();
-    const { delivery } = await deliverOne(user, "sarah-blocker-meaning");
+    const { delivery } = await deliverOne(user, "g-a1-be-1");
     const right = await correctChoice(delivery.deliveryId);
     const wrong = (delivery.prompt as Extract<ClientPrompt, { type: "mcq_meaning" }>).options.find(
       (o) => o.id !== right,
@@ -65,90 +64,45 @@ describe("quiz flow", () => {
     });
   });
 
-  it("pays practice XP once and rejects a double submit", async () => {
+  it("pays no XP per answer (the lesson pays) and rejects a double submit", async () => {
     const user = await newUser();
-    const { delivery } = await deliverOne(user, "sarah-standup-meaning");
+    const { delivery } = await deliverOne(user, "g-a1-be-2");
     const right = await correctChoice(delivery.deliveryId);
     await humanPause();
     const r = await submitAnswer(admin, user, delivery.deliveryId, {
       kind: "choice",
       optionId: right,
     });
-    expect(r).toMatchObject({ final: true, correct: true, xp: 5 });
+    expect(r).toMatchObject({ final: true, correct: true, xp: 0 });
     await expect(
       submitAnswer(admin, user, delivery.deliveryId, { kind: "choice", optionId: right }),
     ).rejects.toBeInstanceOf(QuizError);
     const { data: p } = await admin.from("profiles").select("xp_total").eq("id", user).single();
-    expect(p!.xp_total).toBe(5);
+    expect(p!.xp_total).toBe(0);
   });
 
-  it("pays nothing for answers faster than a human can read", async () => {
+  it("strict sessions give one attempt and a deadline per question", async () => {
     const user = await newUser();
-    const { delivery } = await deliverOne(user, "sarah-sprint-meaning");
-    const right = await correctChoice(delivery.deliveryId);
-    const r = await submitAnswer(admin, user, delivery.deliveryId, {
-      kind: "choice",
-      optionId: right,
-    });
-    expect(r).toMatchObject({ correct: true, xp: 0 });
+    const ids = await questionIdsBySlug(admin, ["g-a1-be-1"]);
+    const s = await createSession(admin, user, { kind: "lesson", questionIds: ids, strict: true });
+    const d = await nextDelivery(admin, user, s.id);
+    if ("done" in d) throw new Error("unexpected done");
+    expect(d.timeLimitSec).toBe(20);
+    expect(Date.parse(d.deadline!) - Date.now()).toBeGreaterThan(15_000);
+    await humanPause();
+    // A wrong first answer is final: no hint, no second try.
+    const r = await submitAnswer(admin, user, d.deliveryId, { kind: "timeout" });
+    expect(r).toMatchObject({ final: true, correct: false });
   });
 
   it("does not let one user answer another user's question", async () => {
     const owner = await newUser();
     const thief = await newUser();
-    const { delivery } = await deliverOne(owner, "sarah-deadline-meaning");
+    const { delivery } = await deliverOne(owner, "g-a1-be-5");
     await expect(
       submitAnswer(admin, thief, delivery.deliveryId, { kind: "choice", optionId: "x" }),
     ).rejects.toMatchObject({
       code: "NOT_FOUND",
     });
-  });
-});
-
-describe("dialogue flow", () => {
-  it("walks Linh's welcome end to end and learns its words", async () => {
-    const user = await newUser();
-    const { data: d } = await admin
-      .from("dialogues")
-      .select("id")
-      .eq("slug", "linh-welcome")
-      .single();
-    let step = await startDialogueRun(admin, user, d!.id);
-    expect(step.node).toMatchObject({ type: "line" });
-    expect(Object.keys(step.glossary)).toContain("onboarding-n");
-
-    step = await advanceDialogue(admin, user, step.runId); // hello → choice
-    expect(step.node.type).toBe("choice");
-    const poor = await advanceDialogue(admin, user, step.runId, "b");
-    expect(poor.feedback?.quality).toBe("poor");
-    step = await advanceDialogue(admin, user, step.runId, "a"); // best → thanks
-    expect(step.feedback?.quality).toBe("best");
-    step = await advanceDialogue(admin, user, step.runId); // thanks → quiz
-    if (step.node.type !== "quiz") throw new Error("expected quiz");
-    await expect(advanceDialogue(admin, user, step.runId)).rejects.toMatchObject({
-      code: "QUIZ_NOT_FINISHED",
-    });
-
-    const sessionId = step.node.sessionId;
-    for (;;) {
-      const d = await nextDelivery(admin, user, sessionId);
-      if ("done" in d) break;
-      await humanPause();
-      const prompt = d.prompt;
-      if (prompt.type === "fill_blank" || prompt.type === "mcq_meaning") {
-        await submitAnswer(admin, user, d.deliveryId, {
-          kind: "choice",
-          optionId: await correctChoice(d.deliveryId),
-        });
-      } else throw new Error(`unexpected ${prompt.type}`);
-    }
-    step = await advanceDialogue(admin, user, step.runId); // quiz → done (passed)
-    expect(step.node.type).toBe("line");
-    step = await advanceDialogue(admin, user, step.runId); // done → end
-    expect(step.done).toBe(true);
-    expect(step.rewards?.wordsLearned.sort()).toEqual(["colleague-n", "onboarding-n"]);
-    // Conversations pay nothing themselves; the lesson around them does.
-    const { data: p } = await admin.from("profiles").select("xp_total").eq("id", user).single();
-    expect(p!.xp_total).toBe(0);
   });
 });

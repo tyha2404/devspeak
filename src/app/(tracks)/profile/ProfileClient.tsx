@@ -1,6 +1,5 @@
 "use client";
 
-import { Award } from "lucide-react";
 import Link from "next/link";
 import { useEffect, useState } from "react";
 import { SettingsForm } from "@/components/app/SettingsForm";
@@ -61,17 +60,9 @@ function ActivityGraph({
   );
 }
 
-interface Cert {
-  id: string;
-  score_pct: number;
-  issued_at: string;
-  stages: { title_vi: string; cefr: string };
-}
-
 export function ProfileClient() {
   const home = useMe((s) => s.home);
   const [days, setDays] = useState<{ local_date: string; xp: number }[]>([]);
-  const [certs, setCerts] = useState<Cert[]>([]);
   const [extra, setExtra] = useState<{
     longest: number;
     words: number;
@@ -96,17 +87,12 @@ export function ProfileClient() {
         db.from("user_answers").select("id", { count: "exact", head: true }),
         db.from("user_answers").select("id", { count: "exact", head: true }).eq("is_correct", true),
       ]);
-      const { data: c } = await db
-        .from("certificates")
-        .select("id, score_pct, issued_at, stages(title_vi, cefr)")
-        .order("issued_at");
       setName(p?.display_name ?? "");
       setExtra({
         longest: p?.streak_longest ?? 0,
         words: count ?? 0,
         accuracy: answered ? Math.round((100 * (right ?? 0)) / answered) : null,
       });
-      setCerts((c ?? []) as unknown as Cert[]);
     })();
   }, []);
 
@@ -139,7 +125,10 @@ export function ProfileClient() {
     { label: "Streak hiện tại", value: `${me.streak} ngày` },
     { label: "Streak dài nhất", value: `${extra?.longest ?? "–"} ngày` },
     { label: "Từ trong sổ tay", value: extra?.words ?? "–" },
-    { label: "Unit đã xong", value: `${home.overall.done}/${home.overall.total}` },
+    {
+      label: "Bài đã hoàn thành",
+      value: home.tracks.reduce((n, t) => n + t.lessons.done, 0),
+    },
     { label: "Độ chính xác", value: extra?.accuracy == null ? "–" : `${extra.accuracy}%` },
   ];
   const tree = growthStage(home.growth.xp, home.growth.max);
@@ -229,34 +218,6 @@ export function ProfileClient() {
             </button>
           ))}
         </div>
-      </section>
-
-      <section aria-labelledby="certs">
-        <h2 id="certs" className="text-xl font-bold">
-          Chứng nhận
-        </h2>
-        {certs.length ? (
-          <ul className="mt-3 space-y-2">
-            {certs.map((c) => (
-              <li key={c.id}>
-                <Link
-                  href={`/certificate/${c.id}`}
-                  className="border-line bg-surface hover:border-merged flex items-center gap-3 rounded-xl border p-3"
-                >
-                  <Award className="text-merged" aria-hidden />
-                  <span className="font-semibold">
-                    {c.stages.title_vi} · {c.stages.cefr}
-                  </span>
-                  <span className="text-muted ml-auto text-sm">{c.score_pct}%</span>
-                </Link>
-              </li>
-            ))}
-          </ul>
-        ) : (
-          <p className="text-muted mt-2">
-            Hoàn thành bài checkpoint cuối mỗi chặng để nhận chứng nhận.
-          </p>
-        )}
       </section>
 
       <section aria-labelledby="settings">
