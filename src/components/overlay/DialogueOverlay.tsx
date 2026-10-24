@@ -10,7 +10,9 @@ import { useGlossary } from "@/stores/glossaryStore";
 import { useProfileStore } from "@/stores/profileStore";
 import { useSettings } from "@/stores/settingsStore";
 import { useUiStore } from "@/stores/uiStore";
+import { Portrait } from "./BossScene";
 import { ChatPanel } from "./ChatPanel";
+import { Panel } from "./panels/Panel";
 import { QuizHost } from "./QuizHost";
 import { RichText } from "./RichText";
 import { FreeWrite, Speak } from "./WriteSpeak";
@@ -114,168 +116,186 @@ export function DialogueOverlay({ npcId, onClose }: { npcId: string; onClose: ()
     ) : null;
 
   return (
-    <div
-      role="dialog"
-      aria-label={npc ? `${npc.name} · ${npc.role.en}` : npcId}
-      className="pointer-events-auto fixed inset-x-2 bottom-2 mx-auto max-h-[85dvh] max-w-2xl overflow-y-auto rounded-lg border-4 border-[#5c5c7a] bg-[#f4f1de] p-4 text-[#1b1b28] shadow-xl sm:inset-x-4 sm:bottom-4"
-    >
-      <div className="mb-2 flex items-center justify-between">
-        <p className="text-sm font-bold">
-          {npc?.name} · {npc?.role.en}
-          {step && <span className="ml-2 font-normal text-[#5c5c7a]">— {step.title.vi}</span>}
-        </p>
-        <button onClick={onClose} aria-label="Đóng (Esc)" className="px-2 text-lg">
-          ✕
-        </button>
-      </div>
-
-      {chatAvailable && !chatting && (node?.type === "end" || error) && (
-        <button
-          onClick={() => setChatting(true)}
-          className="mb-3 rounded bg-[#4a154b] px-3 py-1.5 text-sm text-white"
-        >
-          💬 Trò chuyện tự do với {npc?.name.split(" ")[0]} (AI)
-        </button>
-      )}
-      {chatting && (
-        <ChatPanel npcId={npcId} npcName={npc?.name.split(" ")[0] ?? npcId} onExit={onClose} />
-      )}
-      {chatting ? null : (
+    <Panel
+      placement="bottom"
+      onClose={onClose}
+      label={npc ? `${npc.name} · ${npc.role.en}` : npcId}
+      title={
         <>
-          {error && <p className="text-[#c62828]">{error}</p>}
-          {!step && !error && <p>…</p>}
-
-          {step?.feedback && (
-            <div
-              className={`mb-3 rounded border-2 px-3 py-2 text-sm ${QUALITY[step.feedback.quality].cls}`}
-              role="status"
-            >
-              <span className="font-bold">{QUALITY[step.feedback.quality].label}</span>{" "}
-              {step.feedback.vi}
-              {step.feedback.fixes?.map((f, i) => (
-                <span key={i} className="block">
-                  <s>{f.original}</s> → <b>{f.corrected}</b>
-                </span>
-              ))}
-              {step.feedback.better && (
-                <span className="mt-1 block italic">💡 {step.feedback.better}</span>
-              )}
-            </div>
-          )}
-
-          {node?.type === "freewrite" && (
-            <div className="space-y-2">
-              {node.context.map((c, i) => (
-                <p key={i} className="rounded bg-white px-3 py-2">
-                  <b>{c.speaker}:</b> {c.text}
-                </p>
-              ))}
-              <p className="font-semibold">
-                <RichText text={node.taskEn} />
-              </p>
-              <p className="text-sm text-[#5c5c7a]">{node.taskVi}</p>
-              <FreeWrite busy={busy} onSubmit={(t) => void go(undefined, t)} />
-            </div>
-          )}
-
-          {node?.type === "speak" && (
-            <div className="space-y-2">
-              <p className="text-lg font-semibold">
-                <RichText text={node.promptEn} />
-              </p>
-              <p className="text-sm text-[#5c5c7a]">{node.promptVi}</p>
-              <Speak phrases={node.phrases} busy={busy} onSubmit={(t) => void go(undefined, t)} />
-            </div>
-          )}
-
-          {node?.type === "line" && (
-            <div>
-              <p className="text-lg leading-relaxed" aria-live="polite">
-                <RichText text={node.en} typewriter={typing} onDone={() => setTyping(false)} />
-              </p>
-              {!typing && vi(node.vi)}
-              <div className="mt-3 flex items-center gap-2">
-                <button
-                  onClick={() => (typing ? setTyping(false) : go())}
-                  disabled={busy}
-                  className="rounded bg-[#1b1b28] px-4 py-1.5 text-sm text-white"
-                >
-                  {typing ? "Bỏ qua" : "Tiếp tục (Enter)"}
-                </button>
-                <button
-                  onClick={() =>
-                    speak(stripMarkup(node.en), {
-                      lang: npc?.voice.lang,
-                      rate,
-                      pitch: npc?.voice.pitch,
-                    })
-                  }
-                  aria-label="Nghe câu này"
-                  className="rounded bg-white px-2 py-1"
-                >
-                  🔊
-                </button>
-              </div>
-            </div>
-          )}
-
-          {node?.type === "choice" && (
-            <div>
-              {node.promptEn && (
-                <p className="text-lg">
-                  <RichText text={node.promptEn} />
-                </p>
-              )}
-              {node.promptVi && translation !== "never" && (
-                <p className="text-sm text-[#5c5c7a]">{node.promptVi}</p>
-              )}
-              <div className="mt-3 grid gap-2">
-                {node.choices.map((c, i) => (
-                  <button
-                    key={c.id}
-                    disabled={busy}
-                    onClick={() => go(c.id)}
-                    className="rounded-md border-2 border-[#c5cad6] bg-white px-3 py-2 text-left hover:border-[#2667cc]"
-                  >
-                    <span className="mr-2 text-xs text-[#5c5c7a]">{i + 1}</span>
-                    <RichText text={c.en} />
-                  </button>
-                ))}
-              </div>
-            </div>
-          )}
-
-          {node?.type === "quiz" && (
-            <div>
-              {node.introEn && <p className="mb-2 font-semibold">{node.introEn}</p>}
-              <p className="mb-2 text-xs text-[#5c5c7a]">
-                Cần đúng {node.passAt}/{node.total} câu
-              </p>
-              <QuizHost key={node.sessionId} sessionId={node.sessionId} onDone={() => void go()} />
-            </div>
-          )}
-
-          {node?.type === "end" && step?.done && (
-            <div className="text-center" role="status">
-              <p className="text-2xl">🎉</p>
-              <p className="font-bold">Hoàn thành: {step.title.vi}</p>
-              {step.rewards && (
-                <p className="mt-1">
-                  {step.rewards.xp > 0 ? `+${step.rewards.xp} XP` : "Đã nhận XP trước đó"}
-                  {step.rewards.wordsLearned.length > 0 &&
-                    ` · 📒 ${step.rewards.wordsLearned.length} từ mới vào sổ tay`}
-                </p>
-              )}
-              <button
-                onClick={onClose}
-                className="mt-3 rounded bg-[#1b1b28] px-4 py-1.5 text-sm text-white"
-              >
-                Đóng (Enter)
-              </button>
-            </div>
-          )}
+          {npc?.name ?? npcId}
+          <span className="ml-2 font-normal text-[#f4f1de]/60">{npc?.role.en}</span>
         </>
-      )}
-    </div>
+      }
+    >
+      <div className="flex gap-3 sm:gap-4">
+        <div className="hidden flex-none sm:block">
+          <div className="grid h-20 w-20 place-items-center rounded border-2 border-[#2b2d42] bg-[#e8e2cf]">
+            <Portrait id={npcId} size={64} />
+          </div>
+          {step && (
+            <p className="mt-1 w-20 text-center text-[10px] leading-tight text-[#5c5c7a]">
+              {step.title.vi}
+            </p>
+          )}
+        </div>
+        <div className="min-w-0 flex-1">
+          {chatAvailable && !chatting && (node?.type === "end" || error) && (
+            <button
+              onClick={() => setChatting(true)}
+              className="mb-3 rounded bg-[#4a154b] px-3 py-1.5 text-sm text-white"
+            >
+              💬 Trò chuyện tự do với {npc?.name.split(" ")[0]} (AI)
+            </button>
+          )}
+          {chatting && (
+            <ChatPanel npcId={npcId} npcName={npc?.name.split(" ")[0] ?? npcId} onExit={onClose} />
+          )}
+          {chatting ? null : (
+            <>
+              {error && <p className="text-[#c62828]">{error}</p>}
+              {!step && !error && <p>…</p>}
+
+              {step?.feedback && (
+                <div
+                  className={`mb-3 rounded border-2 px-3 py-2 text-sm ${QUALITY[step.feedback.quality].cls}`}
+                  role="status"
+                >
+                  <span className="font-bold">{QUALITY[step.feedback.quality].label}</span>{" "}
+                  {step.feedback.vi}
+                  {step.feedback.fixes?.map((f, i) => (
+                    <span key={i} className="block">
+                      <s>{f.original}</s> → <b>{f.corrected}</b>
+                    </span>
+                  ))}
+                  {step.feedback.better && (
+                    <span className="mt-1 block italic">💡 {step.feedback.better}</span>
+                  )}
+                </div>
+              )}
+
+              {node?.type === "freewrite" && (
+                <div className="space-y-2">
+                  {node.context.map((c, i) => (
+                    <p key={i} className="rounded bg-white px-3 py-2">
+                      <b>{c.speaker}:</b> {c.text}
+                    </p>
+                  ))}
+                  <p className="font-semibold">
+                    <RichText text={node.taskEn} />
+                  </p>
+                  <p className="text-sm text-[#5c5c7a]">{node.taskVi}</p>
+                  <FreeWrite busy={busy} onSubmit={(t) => void go(undefined, t)} />
+                </div>
+              )}
+
+              {node?.type === "speak" && (
+                <div className="space-y-2">
+                  <p className="text-lg font-semibold">
+                    <RichText text={node.promptEn} />
+                  </p>
+                  <p className="text-sm text-[#5c5c7a]">{node.promptVi}</p>
+                  <Speak
+                    phrases={node.phrases}
+                    busy={busy}
+                    onSubmit={(t) => void go(undefined, t)}
+                  />
+                </div>
+              )}
+
+              {node?.type === "line" && (
+                <div>
+                  <p className="text-lg leading-relaxed" aria-live="polite">
+                    <RichText text={node.en} typewriter={typing} onDone={() => setTyping(false)} />
+                  </p>
+                  {!typing && vi(node.vi)}
+                  <div className="mt-3 flex items-center gap-2">
+                    <button
+                      onClick={() => (typing ? setTyping(false) : go())}
+                      disabled={busy}
+                      className="rounded bg-[#1b1b28] px-4 py-1.5 text-sm text-white"
+                    >
+                      {typing ? "Bỏ qua" : "Tiếp tục (Enter)"}
+                    </button>
+                    <button
+                      onClick={() =>
+                        speak(stripMarkup(node.en), {
+                          lang: npc?.voice.lang,
+                          rate,
+                          pitch: npc?.voice.pitch,
+                        })
+                      }
+                      aria-label="Nghe câu này"
+                      className="rounded bg-white px-2 py-1"
+                    >
+                      🔊
+                    </button>
+                  </div>
+                </div>
+              )}
+
+              {node?.type === "choice" && (
+                <div>
+                  {node.promptEn && (
+                    <p className="text-lg">
+                      <RichText text={node.promptEn} />
+                    </p>
+                  )}
+                  {node.promptVi && translation !== "never" && (
+                    <p className="text-sm text-[#5c5c7a]">{node.promptVi}</p>
+                  )}
+                  <div className="mt-3 grid gap-2">
+                    {node.choices.map((c, i) => (
+                      <button
+                        key={c.id}
+                        disabled={busy}
+                        onClick={() => go(c.id)}
+                        className="rounded-md border-2 border-[#c5cad6] bg-white px-3 py-2 text-left hover:border-[#2667cc]"
+                      >
+                        <span className="mr-2 text-xs text-[#5c5c7a]">{i + 1}</span>
+                        <RichText text={c.en} />
+                      </button>
+                    ))}
+                  </div>
+                </div>
+              )}
+
+              {node?.type === "quiz" && (
+                <div>
+                  {node.introEn && <p className="mb-2 font-semibold">{node.introEn}</p>}
+                  <p className="mb-2 text-xs text-[#5c5c7a]">
+                    Cần đúng {node.passAt}/{node.total} câu
+                  </p>
+                  <QuizHost
+                    key={node.sessionId}
+                    sessionId={node.sessionId}
+                    onDone={() => void go()}
+                  />
+                </div>
+              )}
+
+              {node?.type === "end" && step?.done && (
+                <div className="text-center" role="status">
+                  <p className="text-2xl">🎉</p>
+                  <p className="font-bold">Hoàn thành: {step.title.vi}</p>
+                  {step.rewards && (
+                    <p className="mt-1">
+                      {step.rewards.xp > 0 ? `+${step.rewards.xp} XP` : "Đã nhận XP trước đó"}
+                      {step.rewards.wordsLearned.length > 0 &&
+                        ` · 📒 ${step.rewards.wordsLearned.length} từ mới vào sổ tay`}
+                    </p>
+                  )}
+                  <button
+                    onClick={onClose}
+                    className="mt-3 rounded bg-[#1b1b28] px-4 py-1.5 text-sm text-white"
+                  >
+                    Đóng (Enter)
+                  </button>
+                </div>
+              )}
+            </>
+          )}
+        </div>
+      </div>
+    </Panel>
   );
 }

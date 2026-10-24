@@ -1,5 +1,7 @@
 "use client";
 
+import { Panel } from "./panels/Panel";
+
 const OBJECT_TEXT: Record<string, { en: string; vi: string }> = {
   whiteboard: {
     en: "Word of the Day arrives in the next update.",
@@ -29,17 +31,9 @@ export function ObjectPanel({
 }) {
   const line = OBJECT_TEXT[kind] ?? { en: "Nothing here yet.", vi: "Chưa có gì ở đây." };
   return (
-    <div
-      role="dialog"
-      aria-label={label}
-      className="pointer-events-auto fixed inset-x-4 bottom-4 mx-auto max-w-2xl rounded-lg border-4 border-[#5c5c7a] bg-[#f4f1de] p-4 text-[#1b1b28] shadow-xl"
-    >
-      <p className="mb-1 text-sm font-bold">{label}</p>
+    <Panel title={label} placement="bottom" onClose={onClose}>
       <p className="text-lg">{line.en}</p>
       <p className="mt-1 text-sm text-[#5c5c7a]">{line.vi}</p>
-      <button onClick={onClose} className="mt-3 rounded bg-[#1b1b28] px-3 py-1 text-sm text-white">
-        Đóng (Esc)
-      </button>
-    </div>
+    </Panel>
   );
 }

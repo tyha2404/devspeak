@@ -21,8 +21,8 @@ test("the elevator shows locked floors, and a Mid can visit the client", async (
   context,
 }) => {
   await enterGame(page);
-  // Elevator doors are wall-mounted at tiles (34..35, 2) in the office.
-  await teleport(page, 34, 3, "up");
+  // Elevator doors are wall-mounted at tiles (24..25, 2) in the office.
+  await teleport(page, 24, 3, "up");
   await expect(page.getByText("[E] Elevator")).toBeVisible();
   await page.keyboard.press("e");
   const lift = page.getByRole("dialog", { name: /Thang máy/ });
@@ -49,7 +49,7 @@ test("the elevator shows locked floors, and a Mid can visit the client", async (
   await page.waitForFunction(
     () => (window as unknown as { __dq?: { mapKey: string } }).__dq?.mapKey === "office-floor",
   );
-  await teleport(page, 34, 3, "up");
+  await teleport(page, 24, 3, "up");
   await expect(page.getByText("[E] Elevator")).toBeVisible();
   await page.keyboard.press("e");
   await page
@@ -113,7 +113,7 @@ test("Junior → Mid promotion runs the architecture-review boss scene", async (
     () => (window as unknown as { __dq?: { mapKey: string } }).__dq?.mapKey === "office-floor",
   );
   // HR room: west door, then the interview desk (tiles 5..7, 5..6).
-  await teleport(page, 2, 12, "left");
+  await teleport(page, 2, 9, "left");
   await page.keyboard.down("ArrowLeft");
   await page.waitForFunction(
     () => (window as unknown as { __dq: { mapKey: string } }).__dq.mapKey === "hr-room",

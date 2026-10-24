@@ -6,7 +6,7 @@ import { RUN_SPEED, WALK_SPEED, Player } from "../entities/Player";
 import { Npc } from "../entities/Npc";
 import { EventBus } from "../EventBus";
 import type { Facing, InteractableKind, MapKey } from "../events";
-import { inputBridge } from "../inputBridge";
+import { inputBridge, typingInField } from "../inputBridge";
 import { findPath, ictClock, inWindow } from "../systems/pathfind";
 import { REGISTRY_START, type GameStartData } from "../startData";
 
@@ -87,6 +87,7 @@ export class WorldScene extends Phaser.Scene {
 
   init(data: WorldData) {
     this.deskDecor = [];
+    this.unlockTimer = null;
     this.mapKey = data.mapKey;
     this.start = this.registry.get(REGISTRY_START) as GameStartData;
     this.npcs = [];
@@ -238,20 +239,27 @@ export class WorldScene extends Phaser.Scene {
 
     // ----- input -----
     const kb = this.input.keyboard!;
-    this.keys = kb.addKeys({
-      up: "UP",
-      down: "DOWN",
-      left: "LEFT",
-      right: "RIGHT",
-      w: "W",
-      a: "A",
-      s: "S",
-      d: "D",
-      shift: "SHIFT",
-    }) as typeof this.keys;
+    // No capture for letter keys: capturing calls preventDefault, which would swallow W/A/S/D/E typed
+    // into text fields. Only arrows and Space are captured (to stop the page from scrolling).
+    this.keys = kb.addKeys(
+      {
+        up: "UP",
+        down: "DOWN",
+        left: "LEFT",
+        right: "RIGHT",
+        w: "W",
+        a: "A",
+        s: "S",
+        d: "D",
+        shift: "SHIFT",
+      },
+      false,
+    ) as typeof this.keys;
+    kb.addCapture("UP,DOWN,LEFT,RIGHT,SPACE");
     // Keydown events rather than JustDown polling: a tap whose down and up land in the same
     // frame would otherwise be lost.
-    for (const key of ["E", "SPACE", "ENTER"]) kb.on(`keydown-${key}`, () => this.interact());
+    for (const key of ["E", "SPACE", "ENTER"])
+      kb.on(`keydown-${key}`, () => !typingInField() && this.interact());
 
     // ----- tap / click to move -----
     this.path = [];
@@ -324,6 +332,9 @@ export class WorldScene extends Phaser.Scene {
         t.kind === "object" ? [{ objectId: t.objectId, kind: t.objectKind, label: t.label }] : [],
       ),
     });
+    // An overlay may already be open (e.g. the welcome/placement panel opens before the game boots,
+    // or a map change happens under an open panel): honour it.
+    if (inputBridge.locked) this.lockInput();
     if (this.start.e2e) this.exposeTestHooks();
     EventBus.emit("game:ready");
   }
@@ -332,7 +343,7 @@ export class WorldScene extends Phaser.Scene {
     for (const npc of this.npcs) npc.tick(time);
     if (this.inputLocked || this.transitioning) return;
 
-    let v = this.readInputVector();
+    let v = typingInField() ? { x: 0, y: 0 } : this.readInputVector();
     if (v.x !== 0 || v.y !== 0) this.path = [];
     else if (this.path.length) v = this.followPath();
     const running =
@@ -443,7 +454,12 @@ export class WorldScene extends Phaser.Scene {
     });
   }
 
+  private unlockTimer: Phaser.Time.TimerEvent | null = null;
+
   private lockInput() {
+    // A pending unlock from a just-closed overlay must not reopen input under the new one.
+    this.unlockTimer?.remove();
+    this.unlockTimer = null;
     this.inputLocked = true;
     this.player.halt();
     const kb = this.input.keyboard!;
@@ -463,8 +479,9 @@ export class WorldScene extends Phaser.Scene {
     this.talkingTo?.stopTalking();
     this.talkingTo = null;
     // Short cooldown so the key that closed the overlay doesn't immediately re-open it.
-    this.time.delayedCall(250, () => {
-      this.inputLocked = false;
+    this.unlockTimer = this.time.delayedCall(250, () => {
+      this.unlockTimer = null;
+      if (!inputBridge.locked) this.inputLocked = false;
     });
   }
 
@@ -506,8 +523,8 @@ export class WorldScene extends Phaser.Scene {
 
   private applyZoom() {
     const { width, height } = this.scale.gameSize;
-    // Integer zoom keeps pixels crisp; the short side always shows >= 12 tiles.
-    const zoom = Phaser.Math.Clamp(Math.floor(Math.min(width, height) / 192), 2, 6);
+    // Integer zoom keeps pixels crisp; the short side shows >= 18 tiles so the room reads at a glance.
+    const zoom = Phaser.Math.Clamp(Math.floor(Math.min(width, height) / 288), 2, 4);
     const cam = this.cameras.main;
     cam.setZoom(zoom);
     // Rooms smaller than the viewport are centred instead of pinned to the top-left.

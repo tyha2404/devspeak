@@ -11,7 +11,7 @@ test("a full conversation with Linh: words, choices, quiz, XP and notebook", asy
   test.skip(info.project.name === "mobile", "covered on desktop; mobile shares the same overlay");
   await enterGame(page);
   // Walk into HR via the west door, then stand next to Linh (9,6) facing left.
-  await teleport(page, 2, 12, "left");
+  await teleport(page, 2, 9, "left");
   await page.keyboard.down("ArrowLeft");
   await page.waitForFunction(
     () => (window as unknown as { __dq: { mapKey: string } }).__dq.mapKey === "hr-room",

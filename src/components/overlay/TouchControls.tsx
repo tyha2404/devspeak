@@ -79,7 +79,7 @@ export function TouchControls() {
         aria-label={actionLabel ?? "Action"}
         disabled={!actionLabel}
         onClick={() => EventBus.emit("player:interact")}
-        className="pointer-events-auto fixed right-6 bottom-8 grid h-16 w-16 place-items-center rounded-full bg-[#f2a65a] text-xs font-bold text-[#1b1b28] shadow-lg disabled:opacity-40"
+        className="pointer-events-auto fixed right-6 bottom-8 grid h-16 w-16 place-items-center rounded-xl border-2 border-[#2b2d42] bg-[#f2a65a] text-xs font-bold text-[#1b1b28] shadow-[3px_3px_0_rgb(0_0_0/0.4)] active:translate-y-0.5 disabled:opacity-40"
         style={{ marginBottom: "env(safe-area-inset-bottom)" }}
       >
         {actionLabel ? actionLabel.split(" ")[0] : "•"}

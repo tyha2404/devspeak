@@ -2,6 +2,7 @@
 
 import { useEffect } from "react";
 import { EventBus } from "@/game/EventBus";
+import { inputBridge } from "@/game/inputBridge";
 import { useGlossary } from "@/stores/glossaryStore";
 import { useUiStore } from "@/stores/uiStore";
 import { DialogueOverlay } from "./DialogueOverlay";
@@ -36,6 +37,7 @@ export function OverlayHost() {
 
   useEffect(() => {
     if (!overlay) return;
+    inputBridge.locked = true;
     EventBus.emit("input:lock", { reason: overlay.kind === "dialogue" ? "dialogue" : "menu" });
     const onKey = (e: KeyboardEvent) => {
       if (e.key !== "Escape") return;
@@ -46,6 +48,7 @@ export function OverlayHost() {
     window.addEventListener("keydown", onKey);
     return () => {
       window.removeEventListener("keydown", onKey);
+      inputBridge.locked = false;
       EventBus.emit("input:unlock");
     };
   }, [overlay, close]);

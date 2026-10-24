@@ -42,8 +42,8 @@ test("landing links to the game", async ({ page }) => {
 
 test("talk to an NPC; the dialogue locks movement until closed", async ({ page, isMobile }) => {
   await enterOffice(page);
-  // Tuấn stands at tile (13,9); stand just below him facing up.
-  await teleport(page, 13, 10, "up");
+  // Tuấn stands at tile (11,9); stand just below him facing up.
+  await teleport(page, 11, 10, "up");
   await expect(actionHint(page, /Talk to Tuấn/, isMobile)).toBeVisible();
   await interact(page, /Talk to Tuấn/, isMobile);
   const dialog = page.getByRole("dialog");
@@ -64,8 +64,8 @@ test("talk to an NPC; the dialogue locks movement until closed", async ({ page, 
 test("doors move between rooms and the position survives a reload", async ({ page }) => {
   await enterOffice(page);
   await page.screenshot({ path: test.info().outputPath("office.png") });
-  // West door to HR is at tiles (0,12..13).
-  await teleport(page, 2, 12, "left");
+  // West door to HR is at tiles (0,9..10).
+  await teleport(page, 2, 9, "left");
   await page.keyboard.down("ArrowLeft");
   await page.waitForFunction(() => (window as unknown as { __dq: Dq }).__dq.mapKey === "hr-room");
   await page.keyboard.up("ArrowLeft");
@@ -85,8 +85,8 @@ test("doors move between rooms and the position survives a reload", async ({ pag
 
 test("locked doors explain what they need", async ({ page, isMobile }) => {
   await enterOffice(page);
-  // Server room door (rank: Junior) is at tiles (19..20, 25).
-  await teleport(page, 19, 24, "down");
+  // Server room door (rank: Junior) is at tiles (14..15, 19).
+  await teleport(page, 14, 18, "down");
   await expect(actionHint(page, /Locked · cần Junior/, isMobile)).toBeVisible();
   await interact(page, /Locked · cần Junior/, isMobile);
   await expect(page.getByText(/Phòng server: cần cấp Junior/)).toBeVisible();

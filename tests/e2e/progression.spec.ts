@@ -20,7 +20,7 @@ test("word of the day → notebook → verified review with FSRS rating", async 
   await page.keyboard.press("Escape");
 
   // Sprint board shows today's tickets, with "learn words" progressing.
-  await teleport(page, 8, 3, "up");
+  await teleport(page, 7, 3, "up");
   await expect(page.getByText("[E] Sprint Board")).toBeVisible();
   await page.keyboard.press("e");
   const board = page.getByRole("dialog", { name: /Sprint Board/ });

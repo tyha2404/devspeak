@@ -137,7 +137,8 @@ export default function GameClient() {
         !boot.profile.placementDone &&
         boot.profile.xpTotal < 100 &&
         !dismissed &&
-        !flags.e2e
+        // E2E skips the welcome panel unless a test asks for it with ?placement.
+        (!flags.e2e || params.has("placement"))
       ) {
         useUiStore.getState().openOverlay({ kind: "panel", panel: "placement" });
       }
