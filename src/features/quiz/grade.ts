@@ -87,3 +87,8 @@ export function revealAnswer(answer: StoredAnswer, optionMap: Record<string, str
       };
   }
 }
+
+/** Seconds a timed session allows per question: typed answers get longer than choices. */
+export function timeLimitSec(prompt: StoredPrompt) {
+  return prompt.type === "fill_blank" && !prompt.options?.length ? 30 : 20;
+}

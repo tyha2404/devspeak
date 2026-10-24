@@ -48,5 +48,7 @@ export const QuizResponse = z.discriminatedUnion("kind", [
   z.object({ kind: z.literal("text"), text: z.string().trim().min(1).max(80) }),
   z.object({ kind: z.literal("order"), tokenIds: z.array(z.string().max(16)).min(1).max(20) }),
   z.object({ kind: z.literal("fix"), tokenId: z.string().max(16), optionId: z.string().max(16) }),
+  /** A timed question ran out: recorded as wrong. */
+  z.object({ kind: z.literal("timeout") }),
 ]);
 export type QuizResponse = z.infer<typeof QuizResponse>;

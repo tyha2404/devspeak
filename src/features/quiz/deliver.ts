@@ -43,10 +43,17 @@ export function buildClientPrompt(
   prompt: StoredPrompt,
   rng: Rng = Math.random,
   makeId: () => string = opaqueId,
+  /** Exam mode lists choices alphabetically instead of shuffling them. */
+  alphabetical = false,
 ) {
   const optionMap: Record<string, string> = {};
   const rename = (list: Option[], doShuffle: boolean) => {
-    const out = (doShuffle ? shuffle(list, rng) : list).map((o) => {
+    const ordered = !doShuffle
+      ? list
+      : alphabetical
+        ? [...list].sort((a, b) => a.text.localeCompare(b.text, "vi"))
+        : shuffle(list, rng);
+    const out = ordered.map((o) => {
       const id = makeId();
       optionMap[id] = o.id;
       return { id, text: o.text };

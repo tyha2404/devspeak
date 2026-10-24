@@ -1,5 +1,6 @@
 "use client";
 
+import Link from "next/link";
 import { useEffect, useState } from "react";
 import { publicEnv } from "@/env";
 import { createClient } from "@/lib/supabase/browser";
@@ -101,9 +102,9 @@ export function LoginForm({ next }: { next: string }) {
           {message}
         </p>
       )}
-      <a href="/learn" className="block text-center text-sm underline">
-        Chơi tiếp với tư cách khách
-      </a>
+      <Link href="/" className="block text-center text-sm underline">
+        Học tiếp với tư cách khách
+      </Link>
     </div>
   );
 }

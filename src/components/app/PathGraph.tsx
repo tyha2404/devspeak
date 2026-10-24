@@ -117,7 +117,7 @@ function UnitCommit({ unit, current }: { unit: PathUnit; current: boolean }) {
           </span>
           {unit.stars > 0 && (
             <span className="inline-flex items-center gap-1">
-              <Star size={13} className="fill-amber text-amber" aria-hidden />
+              <Star size={13} className="fill-gold text-gold" aria-hidden />
               {unit.stars}/{unit.maxStars}
             </span>
           )}
@@ -134,7 +134,7 @@ function UnitCommit({ unit, current }: { unit: PathUnit; current: boolean }) {
       <Rail dashed={unit.state === "coming_soon"} />
       <Node unit={unit} current={current} />
       {open ? (
-        <Link href={`/path/${unit.slug}`} className="block rounded-xl">
+        <Link href={`/career/path/${unit.slug}`} className="block rounded-xl">
           {body}
         </Link>
       ) : (

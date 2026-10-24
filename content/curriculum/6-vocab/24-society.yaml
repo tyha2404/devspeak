@@ -1,0 +1,14 @@
+slug: topic-society
+stage: vocab
+sort: 24
+code: T24
+kind: topic
+cefr: B2
+character: linh
+status: draft
+title: { en: "Society & Social Issues", vi: "Xã hội & các vấn đề xã hội" }
+summary_vi: "Từ vựng về bình đẳng, nghèo đói, già hoá dân số, tình nguyện và các thay đổi trong xã hội."
+can_do:
+  - "Nêu ý kiến về một vấn đề xã hội đang được quan tâm"
+  - "Hiểu các bài viết về dân số, bình đẳng và cộng đồng"
+lessons: []

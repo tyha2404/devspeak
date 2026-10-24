@@ -1,7 +1,4 @@
 import type { NextConfig } from "next";
-import createNextIntlPlugin from "next-intl/plugin";
-
-const withNextIntl = createNextIntlPlugin("./src/i18n/request.ts");
 
 const securityHeaders = [
   { key: "X-Content-Type-Options", value: "nosniff" },
@@ -15,6 +12,17 @@ const nextConfig: NextConfig = {
   distDir: process.env.NEXT_DIST_DIR ?? ".next",
   // Render metadata in <head> for every client (not streamed), so crawlers and audits always see it.
   htmlLimitedBots: /.*/,
+  // Old URLs from before the grammar & vocabulary home became "/" and the career path moved to /career.
+  async redirects() {
+    return [
+      { source: "/tracks", destination: "/", permanent: true },
+      { source: "/tracks/:track(grammar|vocab)", destination: "/:track", permanent: true },
+      { source: "/learn", destination: "/career", permanent: true },
+      { source: "/path/:rest*", destination: "/career/path/:rest*", permanent: true },
+      { source: "/practice", destination: "/career/practice", permanent: true },
+      { source: "/topics", destination: "/career/topics", permanent: true },
+    ];
+  },
   async headers() {
     return [
       { source: "/:path*", headers: securityHeaders },
@@ -29,4 +37,4 @@ const nextConfig: NextConfig = {
   },
 };
 
-export default withNextIntl(nextConfig);
+export default nextConfig;

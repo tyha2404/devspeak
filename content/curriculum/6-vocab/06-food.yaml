@@ -1,0 +1,14 @@
+slug: topic-food
+stage: vocab
+sort: 6
+code: T06
+kind: topic
+cefr: A2
+character: linh
+status: draft
+title: { en: "Food & Cooking", vi: "Ẩm thực & nấu ăn" }
+summary_vi: "Từ vựng về món ăn, nguyên liệu, cách nấu, gọi món ở nhà hàng và thói quen ăn uống."
+can_do:
+  - "Gọi món, hỏi về nguyên liệu và nói món mình thích"
+  - "Mô tả cách nấu một món ăn đơn giản"
+lessons: []

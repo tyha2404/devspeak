@@ -48,7 +48,7 @@ export function Onboarding() {
       .getState()
       .load()
       .then((h) => {
-        if (h?.me.onboarded && h.me.placementDone) router.replace("/learn");
+        if (h?.me.onboarded && h.me.placementDone) router.replace("/career");
       });
   }, [router]);
 
@@ -62,7 +62,7 @@ export function Onboarding() {
       await save();
       await api.post("/api/placement/skip");
       await useMe.getState().load();
-      router.replace("/learn");
+      router.replace("/career");
     } catch (e) {
       setError(e instanceof ApiError ? e.message : "Có lỗi, thử lại nhé");
       setBusy(false);
@@ -200,7 +200,7 @@ export function Onboarding() {
           <p className="border-line bg-surface mt-4 rounded-xl border p-4 font-semibold">
             {placed.unit.title.vi}
           </p>
-          <button onClick={() => router.replace("/learn")} className={`${btn.primary} mt-6`}>
+          <button onClick={() => router.replace("/career")} className={`${btn.primary} mt-6`}>
             Vào học
           </button>
         </section>

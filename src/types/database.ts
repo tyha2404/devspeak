@@ -477,14 +477,14 @@ isOneToOne: false
                   ]
                 },"quiz_sessions": {
                   Row: {
-                    "answered_count": number,"correct_count": number,"finished_at": string | null,"id": string,"kind": string,"npc_id": string | null,"planned_count": number,"question_ids": (string)[],"ref": string | null,"started_at": string,"user_id": string
+                    "answered_count": number,"correct_count": number,"finished_at": string | null,"id": string,"kind": string,"max_attempts": number,"npc_id": string | null,"planned_count": number,"question_ids": (string)[],"ref": string | null,"started_at": string,"time_limited": boolean,"user_id": string
                   }
                   ComputedFields: never
                   Insert: {
-                    "answered_count"?: number,"correct_count"?: number,"finished_at"?: string | null,"id"?: string,"kind": string,"npc_id"?: string | null,"planned_count": number,"question_ids": (string)[],"ref"?: string | null,"started_at"?: string,"user_id": string
+                    "answered_count"?: number,"correct_count"?: number,"finished_at"?: string | null,"id"?: string,"kind": string,"max_attempts"?: number,"npc_id"?: string | null,"planned_count": number,"question_ids": (string)[],"ref"?: string | null,"started_at"?: string,"time_limited"?: boolean,"user_id": string
                   }
                   Update: {
-                    "answered_count"?: number,"correct_count"?: number,"finished_at"?: string | null,"id"?: string,"kind"?: string,"npc_id"?: string | null,"planned_count"?: number,"question_ids"?: (string)[],"ref"?: string | null,"started_at"?: string,"user_id"?: string
+                    "answered_count"?: number,"correct_count"?: number,"finished_at"?: string | null,"id"?: string,"kind"?: string,"max_attempts"?: number,"npc_id"?: string | null,"planned_count"?: number,"question_ids"?: (string)[],"ref"?: string | null,"started_at"?: string,"time_limited"?: boolean,"user_id"?: string
                   }
                   Relationships: [
                     
@@ -585,14 +585,14 @@ isOneToOne: false
                   ]
                 },"stages": {
                   Row: {
-                    "cefr": Database["public"]['Enums']["cefr_level"],"checkpoint_pass_pct": number,"checkpoint_size": number,"description_vi": string,"id": number,"slug": string,"sort": number,"tagline_vi": string,"title_en": string,"title_vi": string
+                    "cefr": Database["public"]['Enums']["cefr_level"],"checkpoint_pass_pct": number,"checkpoint_size": number,"description_vi": string,"id": number,"slug": string,"sort": number,"tagline_vi": string,"title_en": string,"title_vi": string,"track": Database["public"]['Enums']["study_track"]
                   }
                   ComputedFields: never
                   Insert: {
-                    "cefr": Database["public"]['Enums']["cefr_level"],"checkpoint_pass_pct"?: number,"checkpoint_size"?: number,"description_vi": string,"id"?: number,"slug": string,"sort": number,"tagline_vi": string,"title_en": string,"title_vi": string
+                    "cefr": Database["public"]['Enums']["cefr_level"],"checkpoint_pass_pct"?: number,"checkpoint_size"?: number,"description_vi": string,"id"?: number,"slug": string,"sort": number,"tagline_vi": string,"title_en": string,"title_vi": string,"track"?: Database["public"]['Enums']["study_track"]
                   }
                   Update: {
-                    "cefr"?: Database["public"]['Enums']["cefr_level"],"checkpoint_pass_pct"?: number,"checkpoint_size"?: number,"description_vi"?: string,"id"?: number,"slug"?: string,"sort"?: number,"tagline_vi"?: string,"title_en"?: string,"title_vi"?: string
+                    "cefr"?: Database["public"]['Enums']["cefr_level"],"checkpoint_pass_pct"?: number,"checkpoint_size"?: number,"description_vi"?: string,"id"?: number,"slug"?: string,"sort"?: number,"tagline_vi"?: string,"title_en"?: string,"title_vi"?: string,"track"?: Database["public"]['Enums']["study_track"]
                   }
                   Relationships: [
                     
@@ -671,14 +671,14 @@ isOneToOne: false
                   ]
                 },"user_lesson_progress": {
                   Row: {
-                    "attempts": number,"best_pct": number,"completed_at": string | null,"last_at": string,"lesson_id": number,"stars": number,"user_id": string
+                    "attempts": number,"best_pct": number,"completed_at": string | null,"last_at": string,"last_correct": number | null,"last_pct": number | null,"last_total": number | null,"lesson_id": number,"stars": number,"user_id": string
                   }
                   ComputedFields: never
                   Insert: {
-                    "attempts"?: number,"best_pct"?: number,"completed_at"?: string | null,"last_at"?: string,"lesson_id": number,"stars"?: number,"user_id": string
+                    "attempts"?: number,"best_pct"?: number,"completed_at"?: string | null,"last_at"?: string,"last_correct"?: number | null,"last_pct"?: number | null,"last_total"?: number | null,"lesson_id": number,"stars"?: number,"user_id": string
                   }
                   Update: {
-                    "attempts"?: number,"best_pct"?: number,"completed_at"?: string | null,"last_at"?: string,"lesson_id"?: number,"stars"?: number,"user_id"?: string
+                    "attempts"?: number,"best_pct"?: number,"completed_at"?: string | null,"last_at"?: string,"last_correct"?: number | null,"last_pct"?: number | null,"last_total"?: number | null,"lesson_id"?: number,"stars"?: number,"user_id"?: string
                   }
                   Relationships: [
                     {
@@ -823,7 +823,7 @@ isOneToOne: false
                            }
           }
           Enums: {
-            "app_role": "editor"|"admin","cefr_level": "A1"|"A2"|"B1"|"B2"|"C1","content_origin": "dataset"|"ai"|"human","content_status": "draft"|"auto_checked"|"in_review"|"published"|"rejected"|"retired","lesson_kind": "vocab"|"dialogue"|"focus"|"practice"|"reading"|"listening"|"mistakes"|"task","question_type": "mcq_meaning"|"fill_blank"|"sentence_order"|"error_correction"|"reply_choice"|"listening","srs_state": "new"|"learning"|"review"|"relearning","unit_kind": "situation"|"knowledge","xp_reason": "quiz_correct"|"daily_learn"|"daily_complete"|"review"|"dialogue_complete"|"minigame_complete"|"chat_session"|"quest_reward"|"achievement_reward"|"boss_pass"|"streak_bonus"|"admin_adjust"|"merge"|"lesson_complete"|"checkpoint_pass"
+            "app_role": "editor"|"admin","cefr_level": "A1"|"A2"|"B1"|"B2"|"C1"|"C2","content_origin": "dataset"|"ai"|"human","content_status": "draft"|"auto_checked"|"in_review"|"published"|"rejected"|"retired","lesson_kind": "vocab"|"dialogue"|"focus"|"practice"|"reading"|"listening"|"mistakes"|"task"|"grammar","question_type": "mcq_meaning"|"fill_blank"|"sentence_order"|"error_correction"|"reply_choice"|"listening","srs_state": "new"|"learning"|"review"|"relearning","study_track": "career"|"grammar"|"vocab","unit_kind": "situation"|"knowledge"|"grammar"|"topic","xp_reason": "quiz_correct"|"daily_learn"|"daily_complete"|"review"|"dialogue_complete"|"minigame_complete"|"chat_session"|"quest_reward"|"achievement_reward"|"boss_pass"|"streak_bonus"|"admin_adjust"|"merge"|"lesson_complete"|"checkpoint_pass"
           }
           CompositeTypes: {
             [_ in never]: never
@@ -943,7 +943,7 @@ export const Constants = {
           }
         },"public": {
           Enums: {
-            "app_role": ["editor", "admin"],"cefr_level": ["A1", "A2", "B1", "B2", "C1"],"content_origin": ["dataset", "ai", "human"],"content_status": ["draft", "auto_checked", "in_review", "published", "rejected", "retired"],"lesson_kind": ["vocab", "dialogue", "focus", "practice", "reading", "listening", "mistakes", "task"],"question_type": ["mcq_meaning", "fill_blank", "sentence_order", "error_correction", "reply_choice", "listening"],"srs_state": ["new", "learning", "review", "relearning"],"unit_kind": ["situation", "knowledge"],"xp_reason": ["quiz_correct", "daily_learn", "daily_complete", "review", "dialogue_complete", "minigame_complete", "chat_session", "quest_reward", "achievement_reward", "boss_pass", "streak_bonus", "admin_adjust", "merge", "lesson_complete", "checkpoint_pass"]
+            "app_role": ["editor", "admin"],"cefr_level": ["A1", "A2", "B1", "B2", "C1", "C2"],"content_origin": ["dataset", "ai", "human"],"content_status": ["draft", "auto_checked", "in_review", "published", "rejected", "retired"],"lesson_kind": ["vocab", "dialogue", "focus", "practice", "reading", "listening", "mistakes", "task", "grammar"],"question_type": ["mcq_meaning", "fill_blank", "sentence_order", "error_correction", "reply_choice", "listening"],"srs_state": ["new", "learning", "review", "relearning"],"study_track": ["career", "grammar", "vocab"],"unit_kind": ["situation", "knowledge", "grammar", "topic"],"xp_reason": ["quiz_correct", "daily_learn", "daily_complete", "review", "dialogue_complete", "minigame_complete", "chat_session", "quest_reward", "achievement_reward", "boss_pass", "streak_bonus", "admin_adjust", "merge", "lesson_complete", "checkpoint_pass"]
           }
         }
 } as const

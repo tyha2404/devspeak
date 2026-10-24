@@ -8,7 +8,9 @@ export default function robots(): MetadataRoute.Robots {
       userAgent: "*",
       allow: "/",
       disallow: [
-        "/learn",
+        "/career",
+        "/grammar",
+        "/vocab",
         "/lesson",
         "/exam",
         "/onboarding",

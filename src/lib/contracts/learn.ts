@@ -1,12 +1,17 @@
 // Client-facing shapes for the learning path (home, path, lessons). No answer keys here.
+import type { GrammarBody } from "@/features/curriculum/schema";
 import type { DialogueStep, GlossEntry } from "./dialogue";
 
+export type { GrammarBody } from "@/features/curriculum/schema";
+
 export type {
+  LessonHistory,
   LessonState,
   NextStep,
   PathLesson,
   PathStage,
   PathUnit,
+  Track,
   UnitState,
 } from "@/features/curriculum/path";
 
@@ -32,12 +37,27 @@ export interface NextUp {
   total: number | null;
 }
 
+/** A standalone study track (grammar by level, vocabulary by topic) as shown on Home. */
+export interface TrackSummary {
+  track: "grammar" | "vocab";
+  stageId: number;
+  title: { en: string; vi: string };
+  tagline: string;
+  /** Units (levels / topics), including those still coming soon. */
+  units: number;
+  lessons: { done: number; total: number };
+  next: NextUp | null;
+}
+
 export interface Home {
   me: Me;
   next: NextUp | null;
   srsDue: number;
-  /** Published units completed / published units, across the whole path. */
+  /** Published career units completed / published career units. */
   overall: { done: number; total: number };
+  tracks: TrackSummary[];
+  /** XP towards the growth tree: the learner's total against all first-completion lesson XP. */
+  growth: { xp: number; max: number };
 }
 
 export interface MistakeItem {
@@ -51,6 +71,7 @@ export interface MistakeItem {
 
 export type LessonContent =
   | { kind: "vocab"; words: GlossEntry[] }
+  | { kind: "grammar"; grammar: GrammarBody }
   | { kind: "dialogue" }
   | { kind: "focus"; markdown: string; examples: { en: string; vi?: string }[] }
   | {
@@ -75,10 +96,12 @@ export interface LessonView {
   minutes: number;
   xp: number;
   questionCount: number;
+  /** Score needed to pass the lesson's test. */
+  passPct: number;
   stars: number;
   completed: boolean;
   unit: { id: number; code: string; title: { en: string; vi: string }; character: string };
-  stage: { id: number; title: { en: string; vi: string } };
+  stage: { id: number; title: { en: string; vi: string }; track: "career" | "grammar" | "vocab" };
   /** 1-based position in the unit and the unit's lesson count. */
   index: number;
   total: number;
@@ -107,6 +130,9 @@ export interface LessonResult {
   xp: number;
   first: boolean;
   unitCompleted: boolean;
+  /** Test score as counts (null for lessons without a quiz). */
+  correct: number | null;
+  total: number | null;
   totals: {
     xpTotal: number;
     streak: number;
@@ -126,6 +152,9 @@ export interface ExamStart {
 export interface ExamResult {
   passed: boolean;
   pct: number;
+  xp?: number;
+  correct?: number;
+  total?: number;
   certificateId?: string | null;
   next: NextUp | null;
 }

@@ -1,0 +1,1347 @@
+# Grammar track A2 tests. Original items; answers stay server-side.
+- {
+    slug: g-a2-past-simple-1,
+    type: fill_blank,
+    cefr: A2,
+    topic: grammar,
+    skin: slack,
+    sentence: "I ___ the release notes yesterday afternoon.",
+    options: [write, wrote, writed, written],
+    answer: 1,
+    explanation_vi: "Có yesterday → quá khứ đơn. Write bất quy tắc: wrote.",
+  }
+- {
+    slug: g-a2-past-simple-2,
+    type: fill_blank,
+    cefr: A2,
+    topic: grammar,
+    skin: jira,
+    sentence: "The nightly job ___ at 2 a.m. and nobody noticed.",
+    options: [stop, stoped, stopped, was stop],
+    answer: 2,
+    explanation_vi: "Stop: phụ âm – nguyên âm – phụ âm nên gấp đôi p rồi thêm -ed: stopped.",
+  }
+- {
+    slug: g-a2-past-simple-3,
+    type: fill_blank,
+    cefr: A2,
+    topic: grammar,
+    skin: slack,
+    sentence: "Sorry, I ___ see your message until this morning.",
+    options: [don't, wasn't, didn't, not],
+    answer: 2,
+    explanation_vi: "Phủ định quá khứ với động từ thường: didn't + nguyên mẫu (see).",
+  }
+- {
+    slug: g-a2-past-simple-4,
+    type: fill_blank,
+    cefr: A2,
+    topic: grammar,
+    skin: slack,
+    sentence: "The workshop last week ___ really useful.",
+    options: [is, were, was, did],
+    answer: 2,
+    explanation_vi: "The workshop số ít, chuyện tuần trước → was.",
+  }
+- {
+    slug: g-a2-past-simple-5,
+    type: fill_blank,
+    cefr: A2,
+    topic: grammar,
+    skin: slack,
+    sentence: "We ___ (go) to a team-building trip in Vung Tau last month.",
+    accepted: [went],
+    explanation_vi: "Last month → quá khứ đơn; go bất quy tắc thành went.",
+  }
+- {
+    slug: g-a2-past-simple-6,
+    type: fill_blank,
+    cefr: A2,
+    topic: grammar,
+    skin: pr,
+    sentence: "___ you run the tests before you merged this?",
+    accepted: [Did, did],
+    explanation_vi: "Câu hỏi quá khứ với động từ thường: Did + S + nguyên mẫu (run).",
+  }
+- {
+    slug: g-a2-past-simple-7,
+    type: mcq_meaning,
+    cefr: A2,
+    topic: grammar,
+    stem: "Chọn câu đúng.",
+    question: "Câu nào đúng ngữ pháp?",
+    options:
+      [
+        "She didn't came to the meeting.",
+        "She didn't come to the meeting.",
+        "She not came to the meeting.",
+        "She doesn't came to the meeting.",
+      ],
+    answer: 1,
+    explanation_vi: "Didn't đã mang nghĩa quá khứ nên động từ chính về nguyên mẫu: come.",
+  }
+- {
+    slug: g-a2-past-simple-8,
+    type: mcq_meaning,
+    cefr: A2,
+    topic: grammar,
+    stem: "Kể lại sự cố.",
+    question: "“Hôm qua server bị sập lúc 3 giờ chiều” là…",
+    options:
+      [
+        "The server was crash at 3 p.m. yesterday.",
+        "The server crashes at 3 p.m. yesterday.",
+        "The server crashed at 3 p.m. yesterday.",
+        "The server has crashed at 3 p.m. yesterday.",
+      ],
+    answer: 2,
+    explanation_vi: "Có mốc quá khứ (yesterday, 3 p.m.) → quá khứ đơn crashed. Không ghép was với động từ thường, không dùng hiện tại hoàn thành với mốc thời gian cụ thể.",
+  }
+- {
+    slug: g-a2-comparatives-1,
+    type: fill_blank,
+    cefr: A2,
+    topic: grammar,
+    skin: slack,
+    sentence: "The new build is much ___ than the old one.",
+    options: [fast, faster, more fast, fastest],
+    answer: 1,
+    explanation_vi: "Fast một âm tiết, có than → faster.",
+  }
+- {
+    slug: g-a2-comparatives-2,
+    type: fill_blank,
+    cefr: A2,
+    topic: grammar,
+    skin: slack,
+    sentence: "Managed hosting is ___ than running our own servers.",
+    options: [expensiver, more expensive, most expensive, the more expensive],
+    answer: 1,
+    explanation_vi: "Expensive nhiều âm tiết → more expensive + than.",
+  }
+- {
+    slug: g-a2-comparatives-3,
+    type: fill_blank,
+    cefr: A2,
+    topic: grammar,
+    skin: jira,
+    sentence: "This is ___ bug we have seen this quarter.",
+    options: [worse, the worse, the worst, the most bad],
+    answer: 2,
+    explanation_vi: "So sánh nhất của bad là the worst.",
+  }
+- {
+    slug: g-a2-comparatives-4,
+    type: fill_blank,
+    cefr: A2,
+    topic: grammar,
+    skin: slack,
+    sentence: "Your solution is simpler ___ mine.",
+    options: [that, then, than, as],
+    answer: 2,
+    explanation_vi: "So sánh hơn luôn đi với than (khác với then = sau đó).",
+  }
+- {
+    slug: g-a2-comparatives-5,
+    type: fill_blank,
+    cefr: A2,
+    topic: grammar,
+    skin: slack,
+    sentence: "Tailwind is ___ (easy) to learn than I expected.",
+    accepted: [easier],
+    explanation_vi: "Easy tận cùng -y → đổi thành easier.",
+  }
+- {
+    slug: g-a2-comparatives-6,
+    type: fill_blank,
+    cefr: A2,
+    topic: grammar,
+    skin: email,
+    sentence: "Thao is the ___ (good) mentor in our team.",
+    accepted: [best],
+    explanation_vi: "Có the và cả nhóm → so sánh nhất; good bất quy tắc: best.",
+  }
+- {
+    slug: g-a2-comparatives-7,
+    type: mcq_meaning,
+    cefr: A2,
+    topic: grammar,
+    stem: "Chọn câu đúng.",
+    question: "Câu nào đúng ngữ pháp?",
+    options:
+      [
+        "Rust is more safer than C.",
+        "Rust is safer than C.",
+        "Rust is safest than C.",
+        "Rust is more safe that C.",
+      ],
+    answer: 1,
+    explanation_vi: "Safe ngắn → safer + than. Không dùng more cùng với -er.",
+  }
+- {
+    slug: g-a2-comparatives-8,
+    type: mcq_meaning,
+    cefr: A2,
+    topic: grammar,
+    stem: "Chọn câu đúng.",
+    question: "“Đây là màn hình quan trọng nhất của ứng dụng” là…",
+    options:
+      [
+        "This is the most important screen in the app.",
+        "This is the importantest screen in the app.",
+        "This is more important screen in the app.",
+        "This is most important screen of the app.",
+      ],
+    answer: 0,
+    explanation_vi: "Important dài → the most important; so sánh nhất cần the.",
+  }
+- slug: g-a2-future-plans-1
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: slack
+  sentence: "I can't join the call at 3. I ___ the dentist then."
+  options: [see, am seeing, saw, sees]
+  answer: 1
+  explanation_vi: "Lịch hẹn đã chốt ở tương lai → hiện tại tiếp diễn: am seeing."
+- slug: g-a2-future-plans-2
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: jira
+  sentence: "We ___ going to migrate to Postgres next quarter."
+  options: [is, are, am, be]
+  answer: 1
+  explanation_vi: "We → are + going to + V."
+- slug: g-a2-future-plans-3
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: slack
+  sentence: "Look at the memory graph. The server ___ run out of RAM soon."
+  options: [is going to, going to, goes to, is go to]
+  answer: 0
+  explanation_vi: "Dự đoán dựa trên dấu hiệu đang thấy → is going to + V; không được bỏ be."
+- slug: g-a2-future-plans-4
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: email
+  sentence: "At the demo, Lan is going to ___ the new checkout flow."
+  options: [present, presents, presenting, presented]
+  answer: 0
+  explanation_vi: "Sau going to luôn là động từ nguyên mẫu: present."
+- slug: g-a2-future-plans-5
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: slack
+  sentence: "I ___ (fly) to Hanoi on Monday morning. The ticket is already booked."
+  accepted: ["am flying", "'m flying"]
+  explanation_vi: "Vé đã đặt, lịch đã chốt → hiện tại tiếp diễn: am flying."
+- slug: g-a2-future-plans-6
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: pr
+  sentence: "We ___ (not / use) Redux in the new app. We decided that last week."
+  accepted:
+    [
+      "are not going to use",
+      "aren't going to use",
+      "'re not going to use",
+      "are not using",
+      "aren't using",
+      "'re not using",
+    ]
+  explanation_vi: "Quyết định đã có từ trước → be going to (hoặc hiện tại tiếp diễn): aren't going to use."
+- slug: g-a2-future-plans-7
+  type: mcq_meaning
+  cefr: A2
+  topic: grammar
+  stem: "Chọn câu đúng."
+  question: "Câu nào đúng ngữ pháp?"
+  options:
+    [
+      "He going to buy a new laptop.",
+      "He is going to buy a new laptop.",
+      "He is going to buys a new laptop.",
+      "He is go to buy a new laptop.",
+    ]
+  answer: 1
+  explanation_vi: "Cần đủ be (is) + going to + V nguyên mẫu (buy)."
+- slug: g-a2-future-plans-8
+  type: mcq_meaning
+  cefr: A2
+  topic: grammar
+  stem: "Nói về lịch hẹn."
+  question: "“Thứ Năm này mình ăn tối với khách (đã đặt bàn rồi)” là…"
+  options:
+    [
+      "I have dinner with the client this Thursday.",
+      "I'm having dinner with the client this Thursday.",
+      "I'm have dinner with the client this Thursday.",
+      "I having dinner with the client this Thursday.",
+    ]
+  answer: 1
+  explanation_vi: "Lịch hẹn đã chốt → am + V-ing (I'm having). Không bỏ be, không ghép am với nguyên mẫu."
+- slug: g-a2-quantifiers-1
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: email
+  sentence: "We don't have ___ budget for new laptops this year."
+  options: [many, much, a few, few]
+  answer: 1
+  explanation_vi: "Budget không đếm được, câu phủ định → much."
+- slug: g-a2-quantifiers-2
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: jira
+  sentence: "How ___ servers are running in production right now?"
+  options: [much, many, lot, little]
+  answer: 1
+  explanation_vi: "Servers đếm được số nhiều → How many."
+- slug: g-a2-quantifiers-3
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: slack
+  sentence: "There ___ a lot of useful information in this doc."
+  options: [are, is, be, have]
+  answer: 1
+  explanation_vi: "Information không đếm được → động từ số ít is."
+- slug: g-a2-quantifiers-4
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: slack
+  sentence: "I only need ___ help with the setup. It won't take long."
+  options: [a few, many, a little, few]
+  answer: 2
+  explanation_vi: "Help không đếm được → a little (một chút)."
+- slug: g-a2-quantifiers-5
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: slack
+  sentence: "How ___ (much/many) coffee do you drink a day?"
+  accepted: [much]
+  explanation_vi: "Coffee (đồ uống nói chung) không đếm được → How much."
+- slug: g-a2-quantifiers-6
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: pr
+  sentence: "Can I ask you a ___ (vài) questions about the API?"
+  accepted: [few, couple]
+  explanation_vi: "Questions đếm được → a few (vài)."
+- slug: g-a2-quantifiers-7
+  type: mcq_meaning
+  cefr: A2
+  topic: grammar
+  stem: "Chọn câu đúng."
+  question: "Câu nào đúng ngữ pháp?"
+  options:
+    [
+      "We received many feedbacks from users.",
+      "We received a lot of feedback from users.",
+      "We received much feedbacks from users.",
+      "We received a lot of feedbacks from users.",
+    ]
+  answer: 1
+  explanation_vi: "Feedback không đếm được nên không thêm -s; câu khẳng định dùng a lot of."
+- slug: g-a2-quantifiers-8
+  type: mcq_meaning
+  cefr: A2
+  topic: grammar
+  stem: "Chọn câu đúng."
+  question: "“Hôm nay không có nhiều cuộc họp” là…"
+  options:
+    [
+      "There isn't much meetings today.",
+      "There aren't many meetings today.",
+      "There aren't much meetings today.",
+      "There isn't many meeting today.",
+    ]
+  answer: 1
+  explanation_vi: "Meetings đếm được số nhiều → aren't many."
+- slug: g-a2-adverbs-manner-1
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: vscode
+  sentence: "Please read the instructions ___ before you install the SDK."
+  options: [careful, carefully, care, more careful]
+  answer: 1
+  explanation_vi: "Mô tả cách đọc (động từ) → trạng từ carefully."
+- slug: g-a2-adverbs-manner-2
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: slack
+  sentence: "Our new intern learns very ___."
+  options: [quick, quickly, quickness, quicker than]
+  answer: 1
+  explanation_vi: "Mô tả cách học → trạng từ quickly."
+- slug: g-a2-adverbs-manner-3
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: slack
+  sentence: "Great job! You presented the demo really ___."
+  options: [good, well, nice, better]
+  answer: 1
+  explanation_vi: "Good là tính từ; mô tả cách thuyết trình cần trạng từ well."
+- slug: g-a2-adverbs-manner-4
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: slack
+  sentence: "Your idea sounds ___. Let's try it."
+  options: [great, greatly, well, goodly]
+  answer: 0
+  explanation_vi: "Sound (nghe có vẻ) + tính từ: sounds great."
+- slug: g-a2-adverbs-manner-5
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: jira
+  sentence: "The server responds ___ (slow) when the cache is empty."
+  accepted: [slowly]
+  explanation_vi: "Mô tả cách server phản hồi → trạng từ slowly."
+- slug: g-a2-adverbs-manner-6
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: pr
+  sentence: "We can ___ (easy) fix this with a small config change."
+  accepted: [easily]
+  explanation_vi: "Easy → easily (đổi y thành i rồi thêm -ly)."
+- slug: g-a2-adverbs-manner-7
+  type: mcq_meaning
+  cefr: A2
+  topic: grammar
+  stem: "Chọn câu đúng."
+  question: "Câu nào đúng ngữ pháp?"
+  options:
+    [
+      "She finished quickly the report.",
+      "She finished the report quick.",
+      "She finished the report quickly.",
+      "She quick finished the report.",
+    ]
+  answer: 2
+  explanation_vi: "Trạng từ quickly đứng sau tân ngữ; không chen giữa động từ và tân ngữ."
+- slug: g-a2-adverbs-manner-8
+  type: mcq_meaning
+  cefr: A2
+  topic: grammar
+  stem: "Chọn câu đúng."
+  question: "“Đội mình làm việc rất chăm chỉ” là…"
+  options:
+    [
+      "Our team works very hardly.",
+      "Our team works very hard.",
+      "Our team works very hardworking.",
+      "Our team work very hard.",
+    ]
+  answer: 1
+  explanation_vi: "Hard vừa là tính từ vừa là trạng từ; hardly nghĩa là “hầu như không”. Our team số ít → works."
+- slug: g-a2-must-have-to-1
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: slack
+  sentence: "You ___ share your password with anyone. It's against company rules."
+  options: [don't have to, mustn't, has to, must to]
+  answer: 1
+  explanation_vi: "Trái quy định = cấm → mustn't."
+- slug: g-a2-must-have-to-2
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: email
+  sentence: "Monday is a public holiday, so we ___ go to work."
+  options: [mustn't, don't have to, must, have to]
+  answer: 1
+  explanation_vi: "Ngày nghỉ lễ: không bắt buộc đi làm → don't have to (không phải bị cấm)."
+- slug: g-a2-must-have-to-3
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: jira
+  sentence: "Hoa ___ to finish the report before Friday."
+  options: [have, has, must, is]
+  answer: 1
+  explanation_vi: "Hoa = she → has to + V."
+- slug: g-a2-must-have-to-4
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: slack
+  sentence: "The server crashed, so we ___ restart it at midnight last night."
+  options: [must, have to, had to, has to]
+  answer: 2
+  explanation_vi: "Last night → quá khứ; must không có quá khứ, dùng had to."
+- slug: g-a2-must-have-to-5
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: pr
+  sentence: "___ we have to update the docs too?"
+  accepted: [Do, do]
+  explanation_vi: "Câu hỏi với have to: Do + S + have to + V."
+- slug: g-a2-must-have-to-6
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: slack
+  sentence: "I ___ (have to) work late yesterday, so I missed the party."
+  accepted: ["had to"]
+  explanation_vi: "Yesterday → quá khứ của have to là had to."
+- slug: g-a2-must-have-to-7
+  type: mcq_meaning
+  cefr: A2
+  topic: grammar
+  stem: "Chọn câu đúng."
+  question: "Câu nào đúng ngữ pháp?"
+  options:
+    [
+      "You must to sign the contract.",
+      "You must sign the contract.",
+      "You must signing the contract.",
+      "You musts sign the contract.",
+    ]
+  answer: 1
+  explanation_vi: "Must + V nguyên mẫu, không có to, không thêm -s."
+- slug: g-a2-must-have-to-8
+  type: mcq_meaning
+  cefr: A2
+  topic: grammar
+  stem: "Chọn câu đúng."
+  question: "“Bạn không cần mang laptop, công ty có sẵn cho bạn rồi” là…"
+  options:
+    [
+      "You mustn't bring your laptop. The company has one for you.",
+      "You don't have to bring your laptop. The company has one for you.",
+      "You must bring your laptop. The company has one for you.",
+      "You doesn't have to bring your laptop. The company has one for you.",
+    ]
+  answer: 1
+  explanation_vi: "Không cần = don't have to. Mustn't nghĩa là cấm, không hợp ngữ cảnh."
+- slug: g-a2-present-continuous-1
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: slack
+  sentence: "Can I call you back? I ___ lunch right now."
+  options: [have, has, am having, having]
+  answer: 2
+  explanation_vi: "Right now → việc đang diễn ra: am having."
+- slug: g-a2-present-continuous-2
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: jira
+  sentence: "Our standup ___ at 9:15 every morning."
+  options: [is starting, starts, start, starting]
+  answer: 1
+  explanation_vi: "Every morning → lịch lặp lại, hiện tại đơn; our standup số ít → starts."
+- slug: g-a2-present-continuous-3
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: slack
+  sentence: "Shh! The manager ___ to the client on the phone."
+  options: [talks, is talking, talk, are talking]
+  answer: 1
+  explanation_vi: "Shh! cho thấy việc đang diễn ra lúc nói; the manager số ít → is talking."
+- slug: g-a2-present-continuous-4
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: pr
+  sentence: "I ___ what you mean, but I don't agree."
+  options: [am understanding, understand, understands, understanding]
+  answer: 1
+  explanation_vi: "Understand là động từ trạng thái → hiện tại đơn: I understand."
+- slug: g-a2-present-continuous-5
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: jira
+  sentence: "This week Huy ___ (work) on the payment bug, not on the new feature."
+  accepted: ["is working"]
+  explanation_vi: "This week → việc tạm thời: is working."
+- slug: g-a2-present-continuous-6
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: slack
+  sentence: "___ she usually take the bus to work?"
+  accepted: [Does, does]
+  explanation_vi: "Usually → thói quen, hiện tại đơn; she → Does + she + take."
+- slug: g-a2-present-continuous-7
+  type: mcq_meaning
+  cefr: A2
+  topic: grammar
+  stem: "Chọn câu đúng."
+  question: "Câu nào đúng ngữ pháp?"
+  options:
+    [
+      "I am needing a new laptop.",
+      "I need a new laptop.",
+      "I needing a new laptop.",
+      "I needs a new laptop.",
+    ]
+  answer: 1
+  explanation_vi: "Need là động từ trạng thái, không dùng -ing; I → need."
+- slug: g-a2-present-continuous-8
+  type: mcq_meaning
+  cefr: A2
+  topic: grammar
+  stem: "Chọn câu đúng."
+  question: "“Tuần này tụi mình đang làm việc từ xa” là…"
+  options:
+    [
+      "We are work remotely this week.",
+      "We are working remotely this week.",
+      "We working remotely this week.",
+      "We is working remotely this week.",
+    ]
+  answer: 1
+  explanation_vi: "Việc tạm thời (this week) → are + V-ing: are working."
+- slug: g-a2-past-continuous-1
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: slack
+  sentence: "At 8 p.m. yesterday, I ___ my slides for the demo."
+  options: [am preparing, was preparing, were preparing, prepare]
+  answer: 1
+  explanation_vi: "Đang làm gì tại một mốc quá khứ → quá khứ tiếp diễn; I → was preparing."
+- slug: g-a2-past-continuous-2
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: jira
+  sentence: "While they ___ the database, the website was offline."
+  options: [was migrating, were migrating, migrating, are migrating]
+  answer: 1
+  explanation_vi: "While + việc kéo dài; they → were migrating."
+- slug: g-a2-past-continuous-3
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: slack
+  sentence: "We were having a meeting when the fire alarm ___."
+  options: [rang, ringing, rings, was ring]
+  answer: 0
+  explanation_vi: "Việc ngắn chen ngang sau when → quá khứ đơn: rang."
+- slug: g-a2-past-continuous-4
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: slack
+  sentence: "___ you sleeping when I called last night?"
+  options: [Was, Were, Did, Are]
+  answer: 1
+  explanation_vi: "Câu hỏi quá khứ tiếp diễn: Were + you + V-ing."
+- slug: g-a2-past-continuous-5
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: slack
+  sentence: "Sorry, I didn't hear the question. I ___ (not / listen)."
+  accepted: ["wasn't listening", "was not listening"]
+  explanation_vi: "Lúc đó đang không nghe → wasn't listening."
+- slug: g-a2-past-continuous-6
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: email
+  sentence: "What ___ Minh doing at 3 p.m. yesterday?"
+  accepted: [was]
+  explanation_vi: "Minh số ít, mốc quá khứ → What was Minh doing?"
+- slug: g-a2-past-continuous-7
+  type: mcq_meaning
+  cefr: A2
+  topic: grammar
+  stem: "Chọn câu đúng."
+  question: "Câu nào đúng ngữ pháp?"
+  options:
+    [
+      "While I was walking home, it started to rain.",
+      "While I walked home, it was start to rain.",
+      "While I was walk home, it started to rain.",
+      "While I were walking home, it started to rain.",
+    ]
+  answer: 0
+  explanation_vi: "While + was + V-ing (việc dài); việc chen ngang dùng quá khứ đơn started."
+- slug: g-a2-past-continuous-8
+  type: mcq_meaning
+  cefr: A2
+  topic: grammar
+  stem: "Kể lại sự cố."
+  question: "“Lúc mất mạng, mình đang upload file” là…"
+  options:
+    [
+      "When the internet went down, I uploaded the file.",
+      "When the internet went down, I was uploading the file.",
+      "When the internet was going down, I uploading the file.",
+      "While the internet went down, I were uploading the file.",
+    ]
+  answer: 1
+  explanation_vi: "Việc đang dở (was uploading) bị việc ngắn chen ngang (went down). “I uploaded” nghĩa là mất mạng rồi mới upload."
+- slug: g-a2-superlatives-1
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: slack
+  sentence: "Hoang is ___ person in our office."
+  options: [the funniest, funnier, funniest, the funnyest]
+  answer: 0
+  explanation_vi: "Funny → the funniest (y → -iest) và cần the."
+- slug: g-a2-superlatives-2
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: jira
+  sentence: "This is one of the ___ problems on our list."
+  options: [biggest, bigger, most big, big]
+  answer: 0
+  explanation_vi: "One of the + so sánh nhất: big → biggest (gấp đôi g)."
+- slug: g-a2-superlatives-3
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: slack
+  sentence: "Of all the tools we tested, Figma was ___ to learn."
+  options: [the easier, the easiest, the most easy, more easy]
+  answer: 1
+  explanation_vi: "So sánh trong cả nhóm (of all the tools) → the easiest."
+- slug: g-a2-superlatives-4
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: slack
+  sentence: "Sunday is the ___ busy day for our support team."
+  options: [least, less, little, lest]
+  answer: 0
+  explanation_vi: "The least + tính từ = ít… nhất."
+- slug: g-a2-superlatives-5
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: slack
+  sentence: "This is the ___ (good) coffee shop near our office."
+  accepted: [best]
+  explanation_vi: "Good bất quy tắc: the best."
+- slug: g-a2-superlatives-6
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: email
+  sentence: "Winter in Hanoi is cold, and January is the ___ (cold) month."
+  accepted: [coldest]
+  explanation_vi: "Cold một âm tiết → the coldest."
+- slug: g-a2-superlatives-7
+  type: mcq_meaning
+  cefr: A2
+  topic: grammar
+  stem: "Chọn câu đúng."
+  question: "Câu nào đúng ngữ pháp?"
+  options:
+    [
+      "She is one of the best designer in the company.",
+      "She is one of the best designers in the company.",
+      "She is one of the better designers in the company.",
+      "She is one of best designers in the company.",
+    ]
+  answer: 1
+  explanation_vi: "One of the + so sánh nhất + danh từ số nhiều: one of the best designers."
+- slug: g-a2-superlatives-8
+  type: mcq_meaning
+  cefr: A2
+  topic: grammar
+  stem: "Chọn câu đúng."
+  question: "“Đây là chiếc laptop nhẹ nhất mà cửa hàng có” là…"
+  options:
+    [
+      "This is the lighter laptop the shop has.",
+      "This is the most light laptop the shop has.",
+      "This is the lightest laptop the shop has.",
+      "This is lightest laptop the shop has.",
+    ]
+  answer: 2
+  explanation_vi: "Light một âm tiết → the lightest; không dùng most với tính từ ngắn."
+- slug: g-a2-too-enough-1
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: pr
+  sentence: "The font is ___ small. I can't read it."
+  options: [too, enough, very enough, to]
+  answer: 0
+  explanation_vi: "Quá nhỏ đến mức không đọc được → too small."
+- slug: g-a2-too-enough-2
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: slack
+  sentence: "Is the meeting room ___ for the whole team?"
+  options: [enough big, big enough, too big enough, big too]
+  answer: 1
+  explanation_vi: "Enough đứng sau tính từ: big enough."
+- slug: g-a2-too-enough-3
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: email
+  sentence: "Good news: we have ___ budget for two more servers."
+  options: [enough, too, too many, so]
+  answer: 0
+  explanation_vi: "Enough đứng trước danh từ: enough budget."
+- slug: g-a2-too-enough-4
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: slack
+  sentence: "There are ___ tabs open in my browser, so it's really slow."
+  options: [too much, too many, enough many, many enough]
+  answer: 1
+  explanation_vi: "Tabs đếm được → too many."
+- slug: g-a2-too-enough-5
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: email
+  sentence: "He isn't old ___ to sign the contract."
+  accepted: [enough]
+  explanation_vi: "Not + tính từ + enough + to V = chưa đủ… để…"
+- slug: g-a2-too-enough-6
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: slack
+  sentence: "It's ___ late to call the client now. Let's email instead."
+  accepted: [too]
+  explanation_vi: "Quá muộn nên không gọi được → too late."
+- slug: g-a2-too-enough-7
+  type: mcq_meaning
+  cefr: A2
+  topic: grammar
+  stem: "Chọn câu đúng."
+  question: "Câu nào đúng ngữ pháp?"
+  options:
+    [
+      "She is enough experienced to lead the team.",
+      "She is experienced enough to lead the team.",
+      "She is too experienced enough to lead the team.",
+      "She is experienced enough for lead the team.",
+    ]
+  answer: 1
+  explanation_vi: "Tính từ + enough + to V: experienced enough to lead."
+- slug: g-a2-too-enough-8
+  type: mcq_meaning
+  cefr: A2
+  topic: grammar
+  stem: "Chọn câu đúng."
+  question: "“Cái vali này nặng quá, không mang lên máy bay được” là…"
+  options:
+    [
+      "This suitcase is too heavy to take on the plane.",
+      "This suitcase is heavy enough to take on the plane.",
+      "This suitcase is enough heavy to take on the plane.",
+      "This suitcase is too heavy for take on the plane.",
+    ]
+  answer: 0
+  explanation_vi: "Quá… nên không… → too + adj + to V."
+- slug: g-a2-should-1
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: slack
+  sentence: "You look stressed. You ___ take a day off."
+  options: [should, shouldn't, should to, shoulds]
+  answer: 0
+  explanation_vi: "Khuyên nên nghỉ → should + V nguyên mẫu."
+- slug: g-a2-should-2
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: email
+  sentence: "You ___ share your password with anyone."
+  options: [should, shouldn't, should not to, don't should]
+  answer: 1
+  explanation_vi: "Không nên chia sẻ mật khẩu → shouldn't + V."
+- slug: g-a2-should-3
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: slack
+  sentence: "___ I wear a suit to the interview?"
+  options: [Should, Shoulds, Does, Am]
+  answer: 0
+  explanation_vi: "Xin lời khuyên: Should + I + V…?"
+- slug: g-a2-should-4
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: pr
+  sentence: "I think you should ___ the docs first."
+  options: [read, to read, reading, reads]
+  answer: 0
+  explanation_vi: "Sau should là động từ nguyên mẫu: read."
+- slug: g-a2-should-5
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: slack
+  sentence: "It's raining hard. You ___ (should / not) ride your motorbike now."
+  accepted: ["shouldn't", "should not"]
+  explanation_vi: "Lời khuyên không nên → shouldn't."
+- slug: g-a2-should-6
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: slack
+  sentence: "I have a headache. — You ___ go home and rest. (nên)"
+  accepted: [should, "ought to"]
+  explanation_vi: "“Nên” → should + V nguyên mẫu."
+- slug: g-a2-should-7
+  type: mcq_meaning
+  cefr: A2
+  topic: grammar
+  stem: "Chọn câu đúng."
+  question: "Câu nào đúng ngữ pháp?"
+  options:
+    [
+      "She should calls her manager.",
+      "She should call her manager.",
+      "She shoulds call her manager.",
+      "She should to call her manager.",
+    ]
+  answer: 1
+  explanation_vi: "Should + V nguyên mẫu; không thêm -s, không có to."
+- slug: g-a2-should-8
+  type: mcq_meaning
+  cefr: A2
+  topic: grammar
+  stem: "Chọn câu đúng."
+  question: "“Bạn không nên làm việc đến khuya mỗi ngày” là…"
+  options:
+    [
+      "You shouldn't work late every day.",
+      "You mustn't work late every day.",
+      "You don't should work late every day.",
+      "You shouldn't to work late every day.",
+    ]
+  answer: 0
+  explanation_vi: "Không nên (lời khuyên) = shouldn't; mustn't là cấm."
+- slug: g-a2-will-1
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: slack
+  sentence: "It's cold in here. — Oh, I ___ close the window."
+  options: [will, am, going to, do]
+  answer: 0
+  explanation_vi: "Vừa quyết định ngay lúc nói → I will (I'll) close."
+- slug: g-a2-will-2
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: slack
+  sentence: "Don't call after 11 p.m. — I ___ be asleep by then."
+  options: [will, am, does, wills]
+  answer: 0
+  explanation_vi: "Dự đoán về tương lai → will be."
+- slug: g-a2-will-3
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: email
+  sentence: "I'm sure our customers ___ love this feature."
+  options: [will, are, wills, will to]
+  answer: 0
+  explanation_vi: "I'm sure + will: dự đoán; sau will là V nguyên mẫu."
+- slug: g-a2-will-4
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: slack
+  sentence: "I promise I ___ tell anyone your password."
+  options: [won't, don't will, willn't, am not]
+  answer: 0
+  explanation_vi: "Hứa không làm → won't + V."
+- slug: g-a2-will-5
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: slack
+  sentence: "There's no milk in the fridge. — Oh, I ___ (buy) some on my way home."
+  accepted: ["will buy", "'ll buy"]
+  explanation_vi: "Vừa biết hết sữa và quyết định ngay → will buy."
+- slug: g-a2-will-6
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: slack
+  sentence: "___ you help me move this desk, please?"
+  accepted: [Will, will, Can, can, Could, could, Would, would]
+  explanation_vi: "Nhờ vả: Will you…? (Can/Could/Would you…? cũng được)."
+- slug: g-a2-will-7
+  type: mcq_meaning
+  cefr: A2
+  topic: grammar
+  stem: "Chọn câu đúng."
+  question: "Câu nào đúng ngữ pháp?"
+  options:
+    [
+      "I think it will be sunny tomorrow.",
+      "I think it will sunny tomorrow.",
+      "I think it wills be sunny tomorrow.",
+      "I think it will to be sunny tomorrow.",
+    ]
+  answer: 0
+  explanation_vi: "Will + be + tính từ; will không thêm -s, không có to."
+- slug: g-a2-will-8
+  type: mcq_meaning
+  cefr: A2
+  topic: grammar
+  stem: "Chuông cửa reo."
+  question: "Bạn muốn nói “Để mình ra mở”:"
+  options: ["I open it.", "I'll get it.", "I'm going to opening it.", "I will to get it."]
+  answer: 1
+  explanation_vi: "Quyết định ngay lúc nói → I'll get it."
+- slug: g-a2-frequency-1
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: slack
+  sentence: "Minh ___ to work by bus."
+  options: [usually goes, goes usually, usually go, is usually go]
+  answer: 0
+  explanation_vi: "Trạng từ đứng trước động từ thường; Minh → goes."
+- slug: g-a2-frequency-2
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: slack
+  sentence: "The office ___ empty on Saturdays."
+  options: [always is, is always, always, are always]
+  answer: 1
+  explanation_vi: "Với be, trạng từ đứng sau: is always."
+- slug: g-a2-frequency-3
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: slack
+  sentence: "I ___ eat breakfast; I just drink coffee."
+  options: [never, always, usually, often]
+  answer: 0
+  explanation_vi: "Chỉ uống cà phê → không bao giờ ăn sáng: never."
+- slug: g-a2-frequency-4
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: slack
+  sentence: "___ do you update your phone?"
+  options: [How often, How long, How much, How many]
+  answer: 0
+  explanation_vi: "Hỏi tần suất → How often."
+- slug: g-a2-frequency-5
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: jira
+  sentence: "We have a retro ___ two weeks, on Friday afternoon."
+  accepted: [every]
+  explanation_vi: "Every + khoảng thời gian: every two weeks = hai tuần một lần."
+- slug: g-a2-frequency-6
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: slack
+  sentence: "I go to the dentist ___ a year, in January and July."
+  accepted: [twice, "two times"]
+  explanation_vi: "Hai lần một năm → twice a year."
+- slug: g-a2-frequency-7
+  type: mcq_meaning
+  cefr: A2
+  topic: grammar
+  stem: "Chọn câu đúng."
+  question: "Câu nào đúng ngữ pháp?"
+  options:
+    [
+      "He is often busy on Mondays.",
+      "He often is busy on Mondays.",
+      "He busy often on Mondays.",
+      "He often busy on Mondays.",
+    ]
+  answer: 0
+  explanation_vi: "Với be, trạng từ đứng sau: is often busy."
+- slug: g-a2-frequency-8
+  type: mcq_meaning
+  cefr: A2
+  topic: grammar
+  stem: "Chọn câu đúng."
+  question: "“Mình hiếm khi làm việc vào cuối tuần” là…"
+  options:
+    [
+      "I rarely work at weekends.",
+      "Rarely I work at weekends.",
+      "I always work at weekends.",
+      "I rarely works at weekends.",
+    ]
+  answer: 0
+  explanation_vi: "Rarely = hiếm khi, đứng trước động từ thường; I → work."
+- slug: g-a2-wh-questions-1
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: slack
+  sentence: "Who ___ the coffee machine last? It's broken again."
+  options: [used, did used, does used, using]
+  answer: 0
+  explanation_vi: "Who là chủ ngữ → động từ chia quá khứ bình thường: used."
+- slug: g-a2-wh-questions-2
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: slack
+  sentence: "What ___ you say to the client yesterday?"
+  options: [did, does, are, was]
+  answer: 0
+  explanation_vi: "Hỏi tân ngữ, quá khứ → What did you say?"
+- slug: g-a2-wh-questions-3
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: slack
+  sentence: "___ phone is ringing? Is it yours?"
+  options: [Whose, Who's, Who, Whom]
+  answer: 0
+  explanation_vi: "Hỏi của ai + danh từ → Whose phone."
+- slug: g-a2-wh-questions-4
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: jira
+  sentence: "What ___ to the database last night?"
+  options: [happened, did happen, does happen, happen]
+  answer: 0
+  explanation_vi: "What là chủ ngữ → happened, không dùng did."
+- slug: g-a2-wh-questions-5
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: slack
+  sentence: "___ did you buy that keyboard? — In Akihabara, Tokyo."
+  accepted: [Where, where]
+  explanation_vi: "Câu trả lời là nơi chốn → Where."
+- slug: g-a2-wh-questions-6
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: pr
+  sentence: "___ wrote this function? — Phong did."
+  accepted: [Who, who]
+  explanation_vi: "Hỏi người làm (chủ ngữ) → Who wrote…?"
+- slug: g-a2-wh-questions-7
+  type: mcq_meaning
+  cefr: A2
+  topic: grammar
+  stem: "Chọn câu đúng."
+  question: "Câu nào đúng ngữ pháp?"
+  options:
+    [
+      "Who you called this morning?",
+      "Who called you this morning?",
+      "Who calls you this morning?",
+      "Who did called you this morning?",
+    ]
+  answer: 1
+  explanation_vi: "Who là chủ ngữ → Who called you…? (quá khứ vì this morning đã qua)."
+- slug: g-a2-wh-questions-8
+  type: mcq_meaning
+  cefr: A2
+  topic: grammar
+  stem: "Chọn câu đúng."
+  question: "“Bạn đang đợi ai vậy?” là…"
+  options:
+    [
+      "Who are you waiting for?",
+      "Who is waiting for you?",
+      "Who you are waiting for?",
+      "Who do you waiting for?",
+    ]
+  answer: 0
+  explanation_vi: "You là chủ ngữ, who là tân ngữ → Who are you waiting for? “Who is waiting for you?” nghĩa là ai đang đợi bạn."
+- slug: g-a2-like-ing-want-to-1
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: slack
+  sentence: "I really enjoy ___ new frameworks."
+  options: [learning, to learn, learn, learned]
+  answer: 0
+  explanation_vi: "Enjoy chỉ đi với V-ing: enjoy learning."
+- slug: g-a2-like-ing-want-to-2
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: jira
+  sentence: "We need ___ the bug before the demo."
+  options: [fix, to fix, fixing, fixed]
+  answer: 1
+  explanation_vi: "Need + to V: need to fix."
+- slug: g-a2-like-ing-want-to-3
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: slack
+  sentence: "Would you like ___ a drink after work?"
+  options: [having, to have, have, had]
+  answer: 1
+  explanation_vi: "Would like + to V: would you like to have…?"
+- slug: g-a2-like-ing-want-to-4
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: slack
+  sentence: "My manager hates ___ late to meetings."
+  options: [being, be, to being, is]
+  answer: 0
+  explanation_vi: "Hate + V-ing: hates being late."
+- slug: g-a2-like-ing-want-to-5
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: slack
+  sentence: "I want ___ (try) the new coffee shop."
+  accepted: ["to try"]
+  explanation_vi: "Want + to V: want to try."
+- slug: g-a2-like-ing-want-to-6
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: slack
+  sentence: "Do you like ___ (cook)?"
+  accepted: [cooking, "to cook"]
+  explanation_vi: "Like + V-ing (like + to V cũng đúng): cooking."
+- slug: g-a2-like-ing-want-to-7
+  type: mcq_meaning
+  cefr: A2
+  topic: grammar
+  stem: "Chọn câu đúng."
+  question: "Câu nào đúng ngữ pháp?"
+  options:
+    [
+      "I want learning Japanese.",
+      "I want to learn Japanese.",
+      "I want learn Japanese.",
+      "I want to learning Japanese.",
+    ]
+  answer: 1
+  explanation_vi: "Want + to + V nguyên mẫu."
+- slug: g-a2-like-ing-want-to-8
+  type: mcq_meaning
+  cefr: A2
+  topic: grammar
+  stem: "Chọn câu đúng."
+  question: "“Mình rất thích đọc sách vào buổi tối” là…"
+  options:
+    [
+      "I love reading books in the evening.",
+      "I love read books in the evening.",
+      "I'd like reading books in the evening.",
+      "I want reading books in the evening.",
+    ]
+  answer: 0
+  explanation_vi: "Sở thích chung → love + V-ing. Would like và want phải đi với to V."
+- slug: g-a2-some-any-compounds-1
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: slack
+  sentence: "Is there ___ to eat in the fridge? I'm hungry."
+  options: [anything, anywhere, anyone, everywhere]
+  answer: 0
+  explanation_vi: "Câu hỏi về vật → anything."
+- slug: g-a2-some-any-compounds-2
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: jira
+  sentence: "I'm sorry, but ___ can fix this bug today. Everyone is busy."
+  options: [nobody, anybody, somebody, everybody]
+  answer: 0
+  explanation_vi: "Mọi người đều bận → không ai: nobody (động từ khẳng định can)."
+- slug: g-a2-some-any-compounds-3
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: slack
+  sentence: "It's too noisy here. Let's find ___ quiet to talk."
+  options: [somewhere, nowhere, something, someone]
+  answer: 0
+  explanation_vi: "Nơi chốn, câu khẳng định → somewhere (+ tính từ quiet)."
+- slug: g-a2-some-any-compounds-4
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: slack
+  sentence: "___ is here except Minh. He's still on his way."
+  options: [Everyone, Anyone, Nobody, Someone]
+  answer: 0
+  explanation_vi: "Tất cả mọi người trừ Minh → Everyone (chia số ít is)."
+- slug: g-a2-some-any-compounds-5
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: pr
+  sentence: "I didn't change ___! The script failed by itself."
+  accepted: [anything]
+  explanation_vi: "Đã có didn't → anything, không dùng nothing."
+- slug: g-a2-some-any-compounds-6
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: slack
+  sentence: "There is ___ in the meeting room. Everyone went home."
+  accepted: [nobody, "no one", "no-one"]
+  explanation_vi: "Không có ai → nobody / no one (động từ is khẳng định)."
+- slug: g-a2-some-any-compounds-7
+  type: mcq_meaning
+  cefr: A2
+  topic: grammar
+  stem: "Chọn câu đúng."
+  question: "Câu nào đúng ngữ pháp?"
+  options:
+    [
+      "I don't know nothing about it.",
+      "I don't know anything about it.",
+      "I don't anything know about it.",
+      "I know anything about it.",
+    ]
+  answer: 1
+  explanation_vi: "Phủ định với don't → anything; không phủ định hai lần."
+- slug: g-a2-some-any-compounds-8
+  type: mcq_meaning
+  cefr: A2
+  topic: grammar
+  stem: "Chọn câu đúng."
+  question: "“Mọi người đều thích ý tưởng mới” là…"
+  options:
+    [
+      "Everyone likes the new idea.",
+      "Everyone like the new idea.",
+      "Everyone are liking the new idea.",
+      "All everyone likes the new idea.",
+    ]
+  answer: 0
+  explanation_vi: "Everyone chia số ít: likes."

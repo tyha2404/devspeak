@@ -13,7 +13,7 @@ import { createClient } from "@supabase/supabase-js";
 import { toQuestionRow } from "../src/features/content/toQuestionRow";
 import { DEFAULT_MINUTES, DEFAULT_XP, type LessonSpec } from "../src/features/curriculum/schema";
 import { loadCurated, validateCurated } from "./lib/curated";
-import { loadCurriculum, validateCurriculum } from "./lib/curriculum";
+import { expandTrackLessons, loadCurriculum, validateCurriculum } from "./lib/curriculum";
 
 const url = process.env.NEXT_PUBLIC_SUPABASE_URL;
 const key = process.env.SUPABASE_SECRET_KEY;
@@ -26,6 +26,14 @@ const must = <T,>(r: { data: T | null; error: { message: string } | null }, what
 };
 
 const curated = loadCurated();
+const curriculum = loadCurriculum();
+const pathErrors = validateCurriculum(curriculum, curated);
+if (pathErrors.length) {
+  console.error(pathErrors.map((e) => `  ✗ ${e}`).join("\n"));
+  process.exit(1);
+}
+// Track tests are generated from lesson content and seeded with the curated bank.
+const generatedQuestions = expandTrackLessons(curriculum, curated);
 const errors = validateCurated(curated);
 if (errors.length) {
   console.error(errors.map((e) => `  ✗ ${e}`).join("\n"));
@@ -198,7 +206,9 @@ for (const q of curated.questions) {
   );
   newVersions++;
 }
-console.log(`questions: ${curated.questions.length} (${newVersions} new versions)`);
+console.log(
+  `questions: ${curated.questions.length} (${generatedQuestions} generated, ${newVersions} new versions)`,
+);
 
 // ----- dialogues -----
 for (const d of curated.dialogues) {
@@ -233,12 +243,6 @@ for (const d of curated.dialogues) {
 console.log(`dialogues: ${curated.dialogues.length}`);
 
 // ----- learning path -----
-const curriculum = loadCurriculum();
-const pathErrors = validateCurriculum(curriculum, curated);
-if (pathErrors.length) {
-  console.error(pathErrors.map((e) => `  ✗ ${e}`).join("\n"));
-  process.exit(1);
-}
 
 const stageIds = new Map<string, number>();
 for (const s of curriculum.stages) {
@@ -249,6 +253,7 @@ for (const s of curriculum.stages) {
         {
           slug: s.slug,
           sort: s.sort,
+          track: s.track,
           cefr: s.cefr,
           title_en: s.title.en,
           title_vi: s.title.vi,
@@ -274,14 +279,20 @@ const dialogueIds = new Map(
     }[]
   ).map((d) => [d.slug, d.id]),
 );
-const questionIds = new Map(
-  (
-    must(await db.from("questions").select("id, slug").limit(10000), "question ids") as {
-      id: string;
-      slug: string;
-    }[]
-  ).map((q) => [q.slug, q.id]),
-);
+// PostgREST returns at most 1000 rows per request, so page through the bank.
+const questionIds = new Map<string, string>();
+for (let from = 0; ; from += 1000) {
+  const page = must(
+    await db
+      .from("questions")
+      .select("id, slug")
+      .order("id")
+      .range(from, from + 999),
+    "question ids",
+  ) as { id: string; slug: string }[];
+  for (const q of page) questionIds.set(q.slug, q.id);
+  if (page.length < 1000) break;
+}
 
 const unitIds = new Map<string, number>();
 let lessonCount = 0;
@@ -430,6 +441,8 @@ function lessonContent(l: LessonSpec): {
       return { body: { dialogue: l.dialogue }, priv: {} };
     case "focus":
       return { body: { markdown: l.body_vi, examples: l.examples }, priv: {} };
+    case "grammar":
+      return { body: { grammar: l.grammar }, priv: {} };
     case "reading":
       return { body: { passage: l.passage }, priv: {} };
     case "mistakes":

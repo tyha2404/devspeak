@@ -23,9 +23,17 @@ export const CharacterId = z.enum([
 ]);
 export type CharacterId = z.infer<typeof CharacterId>;
 
+/**
+ * `career` is the main workplace path (one chain across its stages, placement, checkpoints).
+ * `grammar` and `vocab` are standalone study tracks: one stage each, units = CEFR levels / topics.
+ */
+export const Track = z.enum(["career", "grammar", "vocab"]);
+export type Track = z.infer<typeof Track>;
+
 export const StageSpec = z.object({
   slug: Slug,
   sort: z.number().int().min(1),
+  track: Track.default("career"),
   cefr: Cefr,
   title: L10n,
   tagline_vi: z.string(),
@@ -53,8 +61,59 @@ const LessonBase = z.object({
 
 const Example = z.object({ en: z.string(), vi: z.string().optional() });
 
+/**
+ * A grammar point taught in five study screens before its test: overview, functions, structure,
+ * annotated examples, contrast + self-correction. Everything here is public teaching material.
+ */
+export const GrammarBody = z.object({
+  title_vi: z.string(),
+  group: z.string(),
+  overview: z.object({
+    focus: z.string(),
+    formulas: z.array(z.string()).min(1).max(4),
+    hook: z.string(),
+  }),
+  functions: z
+    .array(
+      z.object({ title: z.string(), explain: z.string(), examples: z.array(z.string()).min(1) }),
+    )
+    .min(2)
+    .max(6),
+  structure: z.object({
+    forms: z
+      .array(z.object({ label: z.string(), pattern: z.string(), example: z.string() }))
+      .min(2)
+      .max(6),
+    steps: z
+      .array(z.object({ title: z.string(), explain: z.string(), example: z.string() }))
+      .min(2)
+      .max(5),
+  }),
+  examples: z
+    .array(z.object({ tag: z.string(), en: z.string(), vi: z.string(), note: z.string() }))
+    .min(3)
+    .max(8),
+  contrast: z.object({
+    title: z.string(),
+    rows: z
+      .array(z.object({ label: z.string(), note: z.string(), example: z.string() }))
+      .min(2)
+      .max(6),
+    fixes: z
+      .array(z.object({ wrong: z.string(), right: z.string(), why: z.string() }))
+      .min(2)
+      .max(5),
+  }),
+});
+export type GrammarBody = z.infer<typeof GrammarBody>;
+
 export const LessonSpec = z.discriminatedUnion("kind", [
-  LessonBase.extend({ kind: z.literal("vocab"), senses: z.array(Slug).min(1).max(12) }),
+  LessonBase.extend({ kind: z.literal("vocab"), senses: z.array(Slug).min(1).max(36) }),
+  LessonBase.extend({
+    kind: z.literal("grammar"),
+    grammar: GrammarBody,
+    pass_pct: z.number().int().min(0).max(100).default(80),
+  }),
   LessonBase.extend({ kind: z.literal("dialogue"), dialogue: Slug }),
   LessonBase.extend({
     kind: z.literal("focus"),
@@ -90,6 +149,7 @@ export type LessonKind = LessonSpec["kind"];
 
 export const DEFAULT_MINUTES: Record<LessonKind, number> = {
   vocab: 6,
+  grammar: 12,
   dialogue: 6,
   focus: 7,
   practice: 8,
@@ -100,6 +160,7 @@ export const DEFAULT_MINUTES: Record<LessonKind, number> = {
 };
 export const DEFAULT_XP: Record<LessonKind, number> = {
   vocab: 15,
+  grammar: 25,
   dialogue: 15,
   focus: 15,
   practice: 20,
@@ -120,9 +181,9 @@ export const UnitSpec = z
     slug: Slug,
     stage: Slug,
     sort: z.number().int().min(1),
-    /** Path label shown to learners, e.g. "S3" or "K1". */
-    code: z.string().regex(/^[SK]\d{1,2}$/),
-    kind: z.enum(["situation", "knowledge"]),
+    /** Path label: "S3"/"K1" on the career path, the CEFR level ("A1") for grammar, "T01" for topics. */
+    code: z.string().regex(/^([SK]\d{1,2}|[ABC][12]|T\d{2})$/),
+    kind: z.enum(["situation", "knowledge", "grammar", "topic"]),
     cefr: Cefr,
     character: CharacterId,
     title: L10n,
@@ -134,7 +195,14 @@ export const UnitSpec = z
     roleplay: RoleplaySpec.optional(),
   })
   .superRefine((u, ctx) => {
-    if (u.code.startsWith("S") !== (u.kind === "situation"))
+    const codeKind = /^S/.test(u.code)
+      ? "situation"
+      : /^K/.test(u.code)
+        ? "knowledge"
+        : /^T/.test(u.code)
+          ? "topic"
+          : "grammar";
+    if (codeKind !== u.kind)
       ctx.addIssue({ code: "custom", message: `${u.slug}: code ${u.code} does not match kind` });
     if (u.status === "published" && u.lessons.length < 2)
       ctx.addIssue({ code: "custom", message: `${u.slug}: a published unit needs ≥2 lessons` });

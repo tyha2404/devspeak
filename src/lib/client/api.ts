@@ -1,4 +1,4 @@
-import type { DialogueStep, GlossEntry } from "@/lib/contracts/dialogue";
+import type { DialogueStep } from "@/lib/contracts/dialogue";
 
 export class ApiError extends Error {
   constructor(
@@ -42,9 +42,5 @@ export const api = {
 
 export const advanceDialogue = (runId: string, choiceId?: string, text?: string) =>
   api.post<DialogueStep>("/api/dialogues/advance", { runId, choiceId, text });
-export const fetchGlossary = (slugs: string[]) =>
-  api.get<Record<string, GlossEntry>>(
-    `/api/glossary?slugs=${slugs.map(encodeURIComponent).join(",")}`,
-  );
 export const addToNotebook = (slug: string) =>
   api.post<{ added: boolean }>("/api/notebook", { slug });

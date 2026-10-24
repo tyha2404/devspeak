@@ -1,0 +1,14 @@
+slug: topic-nature
+stage: vocab
+sort: 23
+code: T23
+kind: topic
+cefr: B1
+character: linh
+status: draft
+title: { en: "Nature & Animals", vi: "Thiên nhiên & động vật" }
+summary_vi: "Từ vựng về cảnh quan, thời tiết, cây cối, động vật hoang dã và thú cưng."
+can_do:
+  - "Mô tả cảnh thiên nhiên và thời tiết ở một nơi"
+  - "Nói về động vật, thú cưng và việc bảo vệ chúng"
+lessons: []

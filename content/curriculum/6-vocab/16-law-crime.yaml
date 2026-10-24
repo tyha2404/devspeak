@@ -1,0 +1,14 @@
+slug: topic-law-crime
+stage: vocab
+sort: 16
+code: T16
+kind: topic
+cefr: B2
+character: linh
+status: draft
+title: { en: "Law & Crime", vi: "Pháp luật & tội phạm" }
+summary_vi: "Từ vựng về luật lệ, vi phạm, toà án, quyền lợi và an ninh trong đời sống."
+can_do:
+  - "Hiểu tin tức cơ bản về các vụ án và xét xử"
+  - "Nói về quyền lợi, nghĩa vụ và quy định thường gặp"
+lessons: []

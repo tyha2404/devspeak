@@ -1,0 +1,285 @@
+slug: topic-workplace
+stage: vocab
+sort: 1
+code: T01
+kind: topic
+cefr: B1
+character: linh
+status: published
+title: { en: "Work & Workplace", vi: "Công việc & nơi làm việc" }
+summary_vi: "Từ và cụm từ về công việc hằng ngày, hạn chót, làm từ xa, thăng chức, hợp đồng và nghỉ việc."
+can_do:
+  - "Nói về khối lượng việc, hạn chót và cách làm việc hằng ngày"
+  - "Hiểu các từ về tuyển dụng, đánh giá, lương thưởng và nghỉ việc"
+lessons:
+  - slug: t01-l1
+    kind: vocab
+    title: { en: "Set 1: Everyday work", vi: "Bộ 1: Công việc hằng ngày" }
+    senses:
+      [
+        meet-a-deadline-phr,
+        work-remotely-phr,
+        commute-v,
+        workload-n,
+        overtime-n,
+        take-on-phr,
+        report-to-phr,
+        hand-over-phr,
+        flexible-hours-n,
+        set-up-a-meeting-phr,
+      ]
+    questions: []
+  - slug: t01-l2
+    kind: vocab
+    title: { en: "Set 2: Career & HR", vi: "Bộ 2: Sự nghiệp & nhân sự" }
+    senses:
+      [
+        promotion-n,
+        pay-raise-n,
+        resign-v,
+        notice-period-n,
+        performance-review-n,
+        contract-n,
+        benefits-n,
+        apply-for-phr,
+        hire-v,
+        career-path-n,
+        job-interview-n,
+        salary-n,
+      ]
+    questions: []
+  - slug: t01-l3
+    kind: vocab
+    title: { en: "Set 3: Getting things done", vi: "Bộ 3: Làm việc hiệu quả" }
+    senses:
+      [
+        delegate-v,
+        prioritize-v,
+        multitask-v,
+        collaborate-v,
+        brainstorm-v,
+        team-player-n,
+        to-do-list-n,
+        carry-out-phr,
+        fall-behind-phr,
+        chair-a-meeting-phr,
+        productive-adj,
+        punctual-adj,
+        job-description-n,
+        get-the-hang-of-phr,
+      ]
+    questions: []
+  - slug: t01-l4
+    kind: vocab
+    title: { en: "Set 4: Meetings & discussion", vi: "Bộ 4: Họp & thảo luận" }
+    senses:
+      [
+        reschedule-v,
+        postpone-v,
+        call-off-phr,
+        bring-up-phr,
+        go-over-phr,
+        minutes-n,
+        attendee-n,
+        run-over-phr,
+        reach-an-agreement-phr,
+        make-a-point-phr,
+        interrupt-v,
+        get-back-to-phr,
+        point-out-phr,
+        show-of-hands-n,
+        agree-to-disagree-phr,
+        conference-call-n,
+      ]
+    questions: []
+  - slug: t01-l5
+    kind: vocab
+    title: { en: "Set 5: Projects & deadlines", vi: "Bộ 5: Dự án & tiến độ" }
+    senses:
+      [
+        milestone-n,
+        timeline-n,
+        kick-off-n,
+        stakeholder-n,
+        deliverable-n,
+        behind-schedule-phr,
+        ahead-of-schedule-phr,
+        extend-a-deadline-phr,
+        budget-n,
+        allocate-v,
+        phase-n,
+        launch-v,
+        wrap-up-phr,
+        set-a-goal-phr,
+        keep-track-of-phr,
+        risk-n,
+        contingency-plan-n,
+        last-minute-adj,
+      ]
+    questions: []
+  - slug: t01-l6
+    kind: vocab
+    title: { en: "Set 6: Management & leadership", vi: "Bộ 6: Quản lý & lãnh đạo" }
+    senses:
+      [
+        supervise-v,
+        oversee-v,
+        motivate-v,
+        micromanage-v,
+        empower-v,
+        lead-by-example-phr,
+        make-a-decision-phr,
+        take-responsibility-phr,
+        accountable-adj,
+        authority-n,
+        strategy-n,
+        vision-n,
+        morale-n,
+        give-credit-phr,
+        step-up-phr,
+        step-down-phr,
+        approachable-adj,
+        one-on-one-n,
+        line-manager-n,
+        recognition-n,
+      ]
+    questions: []
+  - slug: t01-l7
+    kind: vocab
+    title: { en: "Set 7: Hiring & HR", vi: "Bộ 7: Tuyển dụng & nhân sự" }
+    senses:
+      [
+        recruit-v,
+        candidate-n,
+        shortlist-v,
+        cv-n,
+        cover-letter-n,
+        work-experience-n,
+        job-offer-n,
+        turn-down-phr,
+        negotiate-v,
+        full-time-adj,
+        part-time-adj,
+        intern-n,
+        employee-n,
+        employer-n,
+        lay-off-phr,
+        fire-v,
+        annual-leave-n,
+        maternity-leave-n,
+        bonus-n,
+        human-resources-n,
+        qualification-n,
+        freelancer-n,
+      ]
+    questions: []
+  - slug: t01-l8
+    kind: vocab
+    title: { en: "Set 8: Office life & equipment", vi: "Bộ 8: Đời sống văn phòng & thiết bị" }
+    senses:
+      [
+        open-plan-office-n,
+        cubicle-n,
+        meeting-room-n,
+        printer-n,
+        photocopy-v,
+        stapler-n,
+        whiteboard-n,
+        projector-n,
+        headset-n,
+        id-badge-n,
+        reception-n,
+        pantry-n,
+        lunch-break-n,
+        small-talk-n,
+        dress-code-n,
+        hot-desking-n,
+        office-supplies-n,
+        book-a-room-phr,
+        clock-in-phr,
+        shift-n,
+        filing-cabinet-n,
+        workstation-n,
+        ergonomic-adj,
+        team-building-n,
+      ]
+    questions: []
+  - slug: t01-l9
+    kind: vocab
+    title: { en: "Set 9: Business emails & reports", vi: "Bộ 9: Email công việc & báo cáo" }
+    senses:
+      [
+        cc-v,
+        forward-v,
+        reply-all-v,
+        out-of-office-n,
+        subject-line-n,
+        please-find-attached-phr,
+        look-forward-to-phr,
+        kind-regards-phr,
+        get-in-touch-phr,
+        reach-out-workplace-phr,
+        touch-base-phr,
+        confirm-v,
+        acknowledge-v,
+        inquiry-n,
+        draft-n,
+        proofread-v,
+        recipient-n,
+        heads-up-n,
+        loop-in-phr,
+        on-behalf-of-phr,
+        at-your-earliest-convenience-phr,
+        quarterly-report-n,
+        highlight-v,
+        findings-n,
+        recommendation-n,
+        bullet-point-n,
+        appendix-n,
+        submit-v,
+      ]
+    questions: []
+  - slug: t01-l10
+    kind: vocab
+    title:
+      { en: "Set 10: Career growth & soft skills", vi: "Bộ 10: Phát triển sự nghiệp & kỹ năng mềm" }
+    senses:
+      [
+        soft-skills-n,
+        skill-set-n,
+        time-management-n,
+        problem-solving-n,
+        critical-thinking-n,
+        adaptable-adj,
+        proactive-adj,
+        reliable-adj,
+        attention-to-detail-n,
+        go-the-extra-mile-phr,
+        take-the-initiative-phr,
+        comfort-zone-n,
+        learning-curve-n,
+        upskill-workplace-v,
+        climb-the-career-ladder-phr,
+        switch-careers-phr,
+        networking-n,
+        portfolio-n,
+        certification-n,
+        constructive-criticism-n,
+        self-motivated-adj,
+        work-ethic-n,
+        strengths-n,
+        weaknesses-n,
+        achievement-n,
+        long-term-goal-n,
+        work-under-pressure-phr,
+        meet-expectations-phr,
+        stand-out-phr,
+        build-rapport-phr,
+        keep-up-with-workplace-phr,
+        pick-up-a-skill-phr,
+        get-ahead-phr,
+        transferable-skills-n,
+        resilient-adj,
+        assertive-adj,
+      ]
+    questions: []

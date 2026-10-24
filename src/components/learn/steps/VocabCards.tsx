@@ -28,7 +28,8 @@ export function VocabCards({
 
   useEffect(() => {
     const onKey = (e: KeyboardEvent) => {
-      if ((e.target as HTMLElement)?.tagName === "INPUT") return;
+      const tag = (e.target as HTMLElement)?.tagName;
+      if (tag === "INPUT" || tag === "TEXTAREA") return;
       if (e.key === " " || e.key === "Enter") {
         e.preventDefault();
         if (!revealed) setRevealed(true);
@@ -36,6 +37,10 @@ export function VocabCards({
           setI(i + 1);
           setRevealed(false);
         } else onDone();
+      }
+      if (e.key === "ArrowRight" && revealed && i < words.length - 1) {
+        setI(i + 1);
+        setRevealed(false);
       }
       if (e.key === "ArrowLeft" && i > 0) {
         setI(i - 1);

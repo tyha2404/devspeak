@@ -1,0 +1,14 @@
+slug: grammar-c1
+stage: grammar
+sort: 5
+code: C1
+kind: grammar
+cefr: C1
+character: linh
+status: draft
+title: { en: "Grammar C1", vi: "Ngữ pháp C1" }
+summary_vi: "Đảo ngữ, câu chẻ, điều kiện hỗn hợp và cách rào đón để lập luận thuyết phục, tinh tế như người bản ngữ."
+can_do:
+  - "Nhấn mạnh và cân chỉnh giọng điệu khi đề xuất, phản biện trong thảo luận kỹ thuật"
+  - "Viết email, tài liệu thiết kế với cấu trúc câu đa dạng và chính xác"
+lessons: []

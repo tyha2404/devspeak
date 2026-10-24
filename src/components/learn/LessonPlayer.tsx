@@ -9,6 +9,7 @@ import { sfx } from "@/lib/client/sfx";
 import type { LessonResult, LessonStart, LessonView } from "@/lib/contracts/learn";
 import { useMe } from "@/stores/meStore";
 import { QuizHost } from "./QuizHost";
+import { TrackLesson } from "./TrackLesson";
 import { WordPopover } from "./WordPopover";
 import { DialogueStep } from "./steps/DialogueStep";
 import { FocusNote } from "./steps/FocusNote";
@@ -76,12 +77,14 @@ export function LessonPlayer({ lessonId }: { lessonId: number }) {
     return (
       <Shell>
         <p className="text-bad">{error}</p>
-        <Link href="/learn" className={`${btn.secondary} mt-4`}>
+        <Link href="/career" className={`${btn.secondary} mt-4`}>
           Về trang Học
         </Link>
       </Shell>
     );
   if (!view || !run) return <Shell>{<p className="text-muted">Đang mở bài học…</p>}</Shell>;
+  // Grammar points and word sets have their own ForumFlash-style player.
+  if (view.stage.track !== "career") return <TrackLesson view={view} run={run} />;
 
   const progress = phase === "content" ? 0.2 : phase === "quiz" ? 0.6 : 1;
   const c = view.content;
@@ -90,7 +93,7 @@ export function LessonPlayer({ lessonId }: { lessonId: number }) {
     <div className="min-h-dvh">
       <header className="border-line bg-paper/95 sticky top-0 z-10 border-b backdrop-blur">
         <div className="mx-auto flex max-w-2xl items-center gap-4 px-4 py-3">
-          <Link href="/learn" aria-label="Thoát bài học" className={btn.ghost}>
+          <Link href="/career" aria-label="Thoát bài học" className={btn.ghost}>
             <X size={22} aria-hidden />
           </Link>
           <div
@@ -211,7 +214,7 @@ function ResultScreen({ view, result }: { view: LessonView; result: LessonResult
       ? `/lesson/${next.lesson.id}`
       : next?.type === "checkpoint"
         ? `/exam/checkpoint/${next.stage.id}`
-        : "/learn";
+        : "/career";
   return (
     <div role="status">
       {result.passed ? (
@@ -221,7 +224,7 @@ function ResultScreen({ view, result }: { view: LessonView; result: LessonResult
               <Star
                 key={n}
                 size={36}
-                className={n <= result.stars ? "fill-amber text-amber" : "text-line"}
+                className={n <= result.stars ? "fill-gold text-gold" : "text-line"}
                 aria-hidden
               />
             ))}
@@ -250,8 +253,8 @@ function ResultScreen({ view, result }: { view: LessonView; result: LessonResult
         <>
           <h1 className="text-[1.75rem] font-bold">Chưa qua bài này</h1>
           <p className="text-muted mt-2">
-            Bạn đúng {result.pct}%, cần 60% để qua. Các câu sai đã được đưa vào phần ôn tập. Làm lại
-            ngay nhé.
+            Bạn đúng {result.pct}%, cần {view.passPct}% để qua. Các câu sai đã được đưa vào phần ôn
+            tập. Làm lại ngay nhé.
           </p>
         </>
       )}
@@ -270,7 +273,7 @@ function ResultScreen({ view, result }: { view: LessonView; result: LessonResult
             Làm lại
           </button>
         )}
-        <Link href="/path" className={btn.secondary}>
+        <Link href="/career/path" className={btn.secondary}>
           Xem lộ trình
         </Link>
       </div>

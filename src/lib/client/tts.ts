@@ -25,9 +25,6 @@ if (typeof window !== "undefined") {
     });
 }
 
-export const ttsAvailable = () =>
-  typeof window !== "undefined" && ("speechSynthesis" in window || !!manifest?.size);
-
 /** Stop whatever is playing (audio element or Web Speech). */
 function stopMedia() {
   current?.pause();
@@ -94,8 +91,4 @@ export async function speakScript(lines: { voice: string; text: string }[], rate
   };
   next(0);
   return true;
-}
-
-export function stopSpeaking() {
-  stopAll();
 }

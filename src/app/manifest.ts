@@ -5,7 +5,7 @@ export default function manifest(): MetadataRoute.Manifest {
     name: "DevQuest English",
     short_name: "DevQuest",
     description: "Lộ trình tiếng Anh cho lập trình viên, A2 → B2.",
-    start_url: "/learn",
+    start_url: "/",
     display: "standalone",
     background_color: "#f3f5f8",
     theme_color: "#f3f5f8",

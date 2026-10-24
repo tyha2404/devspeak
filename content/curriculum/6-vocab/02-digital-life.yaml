@@ -1,0 +1,285 @@
+slug: topic-digital-life
+stage: vocab
+sort: 2
+code: T02
+kind: topic
+cefr: B1
+character: linh
+status: published
+title: { en: "Technology & Digital Life", vi: "Công nghệ & đời sống số" }
+summary_vi: "Từ vựng về thiết bị, tài khoản, bảo mật và thói quen trên mạng: sao lưu, xác thực hai lớp, thông báo, lừa đảo."
+can_do:
+  - "Nói về cách dùng thiết bị, tài khoản và bảo mật cơ bản"
+  - "Mô tả thói quen online như lướt mạng, xem trực tuyến, cai thiết bị số"
+lessons:
+  - slug: t02-l1
+    kind: vocab
+    title: { en: "Set 1: Devices & accounts", vi: "Bộ 1: Thiết bị & tài khoản" }
+    senses:
+      [
+        back-up-phr,
+        log-in-phr,
+        sign-up-phr,
+        password-manager-n,
+        two-factor-authentication-n,
+        install-v,
+        download-v,
+        storage-n,
+        charge-v,
+        unsubscribe-v,
+      ]
+    questions: []
+  - slug: t02-l2
+    kind: vocab
+    title: { en: "Set 2: Online life", vi: "Bộ 2: Đời sống trên mạng" }
+    senses:
+      [
+        screen-time-n,
+        notification-n,
+        scroll-through-phr,
+        go-viral-phr,
+        privacy-n,
+        scam-n,
+        phishing-n,
+        digital-detox-n,
+        stream-v,
+        subscription-n,
+        upload-v,
+        update-v,
+      ]
+    questions: []
+  - slug: t02-l3
+    kind: vocab
+    title: { en: "Set 3: Apps, web & safety", vi: "Bộ 3: Ứng dụng, web & an toàn" }
+    senses:
+      [
+        sync-v,
+        hotspot-n,
+        browser-n,
+        search-engine-n,
+        bookmark-v,
+        screenshot-n,
+        attachment-n,
+        spam-n,
+        malware-n,
+        data-breach-n,
+        user-friendly-adj,
+        troubleshoot-v,
+        restart-v,
+        offline-adj,
+      ]
+    questions: []
+  - slug: t02-l4
+    kind: vocab
+    title: { en: "Set 4: Hardware & devices", vi: "Bộ 4: Phần cứng & thiết bị" }
+    senses:
+      [
+        device-n,
+        gadget-n,
+        touchscreen-n,
+        battery-life-n,
+        power-bank-n,
+        wireless-adj,
+        plug-in-phr,
+        unplug-v,
+        switch-off-phr,
+        upgrade-v,
+        portable-adj,
+        headphones-n,
+        webcam-n,
+        smartwatch-n,
+        hard-drive-n,
+        cable-n,
+      ]
+    questions: []
+  - slug: t02-l5
+    kind: vocab
+    title: { en: "Set 5: The internet & networks", vi: "Bộ 5: Internet & mạng" }
+    senses:
+      [
+        connection-n,
+        broadband-n,
+        wi-fi-n,
+        router-n,
+        network-n,
+        bandwidth-n,
+        signal-n,
+        mobile-data-n,
+        go-online-phr,
+        website-n,
+        link-n,
+        click-on-phr,
+        type-in-phr,
+        the-cloud-n,
+        load-v,
+        buffer-v,
+        lag-n,
+        cut-out-phr,
+      ]
+    questions: []
+  - slug: t02-l6
+    kind: vocab
+    title: { en: "Set 6: Social media", vi: "Bộ 6: Mạng xã hội" }
+    senses:
+      [
+        social-media-n,
+        post-v,
+        share-v,
+        leave-a-comment-phr,
+        like-v,
+        follower-n,
+        profile-n,
+        username-n,
+        hashtag-n,
+        tag-v,
+        influencer-n,
+        content-creator-n,
+        feed-n,
+        trending-adj,
+        selfie-n,
+        caption-n,
+        direct-message-n,
+        unfollow-v,
+        block-v,
+        troll-n,
+      ]
+    questions: []
+  - slug: t02-l7
+    kind: vocab
+    title: { en: "Set 7: Online shopping & payments", vi: "Bộ 7: Mua sắm & thanh toán online" }
+    senses:
+      [
+        e-commerce-n,
+        shopping-cart-n,
+        check-out-phr,
+        place-an-order-phr,
+        tracking-number-n,
+        promo-code-n,
+        flash-sale-n,
+        free-shipping-n,
+        cash-on-delivery-n,
+        e-wallet-n,
+        qr-code-n,
+        scan-v,
+        contactless-adj,
+        online-banking-n,
+        bank-transfer-n,
+        one-time-password-n,
+        card-details-n,
+        top-up-phr,
+        customer-review-n,
+        wishlist-n,
+        unboxing-n,
+        buy-now-pay-later-n,
+      ]
+    questions: []
+  - slug: t02-l8
+    kind: vocab
+    title: { en: "Set 8: Cybersecurity & privacy", vi: "Bộ 8: An ninh mạng & quyền riêng tư" }
+    senses:
+      [
+        hack-v,
+        computer-virus-n,
+        antivirus-n,
+        firewall-n,
+        encrypt-v,
+        strong-password-n,
+        personal-data-n,
+        identity-theft-n,
+        cookie-n,
+        privacy-policy-n,
+        terms-and-conditions-n,
+        permission-n,
+        track-v,
+        vpn-n,
+        ransomware-n,
+        suspicious-adj,
+        verify-v,
+        log-out-phr,
+        fingerprint-n,
+        facial-recognition-n,
+        cyberbullying-n,
+        digital-footprint-n,
+        anonymous-adj,
+        opt-out-phr,
+      ]
+    questions: []
+  - slug: t02-l9
+    kind: vocab
+    title: { en: "Set 9: AI & automation", vi: "Bộ 9: AI & tự động hoá" }
+    senses:
+      [
+        artificial-intelligence-n,
+        chatbot-n,
+        algorithm-n,
+        machine-learning-n,
+        automate-v,
+        robot-n,
+        voice-assistant-n,
+        prompt-n,
+        generate-v,
+        smart-home-n,
+        self-driving-car-n,
+        virtual-reality-n,
+        augmented-reality-n,
+        wearable-n,
+        big-data-n,
+        deepfake-n,
+        recommendation-digital-life-n,
+        personalized-adj,
+        machine-translation-n,
+        accurate-adj,
+        bias-n,
+        replace-v,
+        take-over-phr,
+        cutting-edge-adj,
+        breakthrough-n,
+        innovation-n,
+        drone-n,
+        speech-recognition-n,
+      ]
+    questions: []
+  - slug: t02-l10
+    kind: vocab
+    title:
+      { en: "Set 10: Tech in society & the future", vi: "Bộ 10: Công nghệ, xã hội & tương lai" }
+    senses:
+      [
+        digital-divide-n,
+        tech-savvy-adj,
+        digital-literacy-n,
+        digital-native-n,
+        early-adopter-n,
+        obsolete-adj,
+        up-to-date-adj,
+        keep-up-with-digital-life-phr,
+        online-course-n,
+        e-book-n,
+        video-call-n,
+        digital-nomad-n,
+        gig-economy-n,
+        ride-hailing-app-n,
+        cashless-adj,
+        cryptocurrency-n,
+        addictive-adj,
+        fomo-n,
+        attention-span-n,
+        doomscroll-v,
+        information-overload-n,
+        parental-controls-n,
+        digital-wellbeing-n,
+        disconnect-v,
+        online-community-n,
+        crowdfunding-n,
+        online-dating-n,
+        e-waste-n,
+        surveillance-n,
+        rely-on-phr,
+        embrace-v,
+        transform-v,
+        revolutionize-v,
+        upskill-digital-life-v,
+        technophobe-n,
+        tech-giant-n,
+      ]
+    questions: []

@@ -1,0 +1,2288 @@
+slug: grammar-a2
+stage: grammar
+sort: 2
+code: A2
+kind: grammar
+cefr: A2
+character: linh
+status: published
+title: { en: "Grammar A2", vi: "Ngữ pháp A2" }
+summary_vi: "Kể lại việc đã qua và việc đang làm dở, phân biệt việc đang diễn ra với thói quen, so sánh và chọn phương án tốt nhất, nói về dự định, dự đoán, lời khuyên và quy định, đặt câu hỏi, nói về tần suất, số lượng và sở thích."
+can_do:
+  - "Kể lại việc đã xảy ra và việc đang làm dở khi bị cắt ngang"
+  - "Nói việc đang làm, thói quen và mức độ thường xuyên; hỏi đáp bằng câu hỏi Wh-"
+  - "So sánh, chọn phương án tốt nhất; nói cái gì quá mức hay chưa đủ, số lượng bao nhiêu"
+  - "Nói dự định, dự đoán, sở thích; đưa lời khuyên, đề nghị giúp và nêu quy định"
+lessons:
+  - slug: g-a2-past-simple
+    kind: grammar
+    title: { en: "Past simple", vi: "Thì quá khứ đơn" }
+    questions:
+      [
+        g-a2-past-simple-1,
+        g-a2-past-simple-2,
+        g-a2-past-simple-3,
+        g-a2-past-simple-4,
+        g-a2-past-simple-5,
+        g-a2-past-simple-6,
+        g-a2-past-simple-7,
+        g-a2-past-simple-8,
+      ]
+    grammar:
+      title_vi: "Thì quá khứ đơn"
+      group: "Thì động từ"
+      overview:
+        focus: "Quá khứ đơn kể một việc đã xong tại một thời điểm trong quá khứ (yesterday, last week, in 2023, two hours ago). Tiếng Việt chỉ thêm “đã/hôm qua”, còn tiếng Anh đổi chính động từ: thêm -ed hoặc dùng dạng bất quy tắc, và dùng did/didn't cho phủ định, câu hỏi."
+        formulas:
+          - "S + V-ed / V2 (bất quy tắc)"
+          - "S + didn't + V (nguyên mẫu)"
+          - "Did + S + V (nguyên mẫu)…?"
+        hook: "We fixed the bug and shipped the patch last night."
+      functions:
+        - title: "Việc đã xong ở thời điểm xác định"
+          explain: "Thường có mốc thời gian: yesterday, last Friday, at 10 a.m., ago."
+          examples: ["I sent the invoice yesterday.", "The server went down two hours ago."]
+        - title: "Chuỗi sự việc nối tiếp"
+          explain: "Kể lần lượt các bước đã xảy ra, ví dụ khi viết báo cáo sự cố."
+          examples: ["We rolled back, cleared the cache and restarted the pods."]
+        - title: "Hỏi và kể về trải nghiệm đã qua"
+          explain: "Hỏi cuối tuần, chuyến công tác, buổi phỏng vấn đã diễn ra thế nào."
+          examples: ["How did the interview go?", "Did you enjoy the conference?"]
+        - title: "Be ở quá khứ: was/were"
+          explain: "Be có riêng hai dạng was/were và không cần did."
+          examples: ["The demo was great.", "Were you at the office on Monday?"]
+      structure:
+        forms:
+          - { label: "Có quy tắc", pattern: "V + -ed", example: "work → worked · fix → fixed" }
+          - {
+              label: "Bất quy tắc",
+              pattern: "học thuộc dạng V2",
+              example: "go → went · write → wrote · send → sent",
+            }
+          - { label: "Phủ định", pattern: "S + didn't + V", example: "The script didn't run." }
+          - { label: "Nghi vấn", pattern: "Did + S + V…?", example: "Did you push your changes?" }
+          - {
+              label: "Be",
+              pattern: "I/he/she/it was · you/we/they were",
+              example: "They weren't ready.",
+            }
+        steps:
+          - title: "Có mốc quá khứ không?"
+            explain: "Nếu có yesterday, last…, ago hoặc ngữ cảnh rõ là chuyện đã xong, dùng quá khứ đơn."
+            example: "Last sprint we closed 30 tickets."
+          - title: "Quy tắc hay bất quy tắc?"
+            explain: "Có quy tắc: -ed (e → -d; phụ âm + y → -ied; stop → stopped). Bất quy tắc: dùng cột V2."
+            example: "try → tried · plan → planned · buy → bought"
+          - title: "Phủ định, câu hỏi: did gánh thì quá khứ"
+            explain: "Đã có did/didn't thì động từ chính về nguyên mẫu. Mọi chủ ngữ đều dùng did."
+            example: "Did she call? — No, she didn't call. (không phải called)"
+      examples:
+        - {
+            tag: "Có quy tắc",
+            en: "I updated the README this morning.",
+            vi: "Sáng nay mình đã cập nhật README.",
+            note: "Update kết thúc bằng e nên chỉ thêm -d.",
+          }
+        - {
+            tag: "Bất quy tắc",
+            en: "Phong wrote the migration and Mai tested it.",
+            vi: "Phong viết migration, còn Mai test nó.",
+            note: "Write → wrote (bất quy tắc); test → tested (có quy tắc).",
+          }
+        - {
+            tag: "Sự cố",
+            en: "The deploy failed because someone forgot a semicolon.",
+            vi: "Deploy lỗi vì có người quên dấu chấm phẩy.",
+            note: "Forget → forgot, bất quy tắc.",
+          }
+        - {
+            tag: "Phủ định",
+            en: "We didn't have time to finish the slides.",
+            vi: "Tụi mình không kịp làm xong slide.",
+            note: "Sau didn't dùng have, không dùng had.",
+          }
+        - {
+            tag: "Câu hỏi",
+            en: "Did you get my message?",
+            vi: "Bạn nhận được tin nhắn của mình chưa?",
+            note: "Did + you + get (nguyên mẫu).",
+          }
+        - {
+            tag: "Was/were",
+            en: "The tickets were cheap, but the flight was late.",
+            vi: "Vé thì rẻ nhưng chuyến bay bị trễ.",
+            note: "Tickets số nhiều → were; flight số ít → was.",
+          }
+        - {
+            tag: "Ago",
+            en: "She joined the company three months ago.",
+            vi: "Chị ấy vào công ty ba tháng trước.",
+            note: "Ago đứng sau khoảng thời gian.",
+          }
+        - tag: "Câu hỏi Wh-"
+          en: "What time did the meeting start yesterday?"
+          vi: "Hôm qua cuộc họp bắt đầu lúc mấy giờ?"
+          note: "What time + did + S + V nguyên mẫu (start, không phải started)."
+      contrast:
+        title: "Hiện tại đơn và quá khứ đơn"
+        rows:
+          - {
+              label: "Hiện tại đơn",
+              note: "thói quen, sự thật hiện nay",
+              example: "I usually take the bus.",
+            }
+          - {
+              label: "Quá khứ đơn",
+              note: "việc đã xong ở mốc quá khứ",
+              example: "Yesterday I took a Grab.",
+            }
+          - { label: "doesn't / don't", note: "phủ định hiện tại", example: "He doesn't drive." }
+          - {
+              label: "didn't",
+              note: "phủ định quá khứ, mọi chủ ngữ",
+              example: "He didn't drive yesterday.",
+            }
+        fixes:
+          - {
+              wrong: "Yesterday I go to the office.",
+              right: "Yesterday I went to the office.",
+              why: "Có yesterday nên động từ phải ở quá khứ; go → went.",
+            }
+          - {
+              wrong: "I didn't went to the meeting.",
+              right: "I didn't go to the meeting.",
+              why: "Didn't đã mang thì quá khứ, động từ chính về nguyên mẫu.",
+            }
+          - {
+              wrong: "Did you sent the file?",
+              right: "Did you send the file?",
+              why: "Sau did dùng động từ nguyên mẫu.",
+            }
+          - {
+              wrong: "The API was crashed last night.",
+              right: "The API crashed last night.",
+              why: "Crash là động từ thường; không ghép was với V-ed để kể việc đã xảy ra.",
+            }
+  - slug: g-a2-comparatives
+    kind: grammar
+    title: { en: "Comparatives & superlatives", vi: "So sánh hơn và so sánh nhất" }
+    questions:
+      [
+        g-a2-comparatives-1,
+        g-a2-comparatives-2,
+        g-a2-comparatives-3,
+        g-a2-comparatives-4,
+        g-a2-comparatives-5,
+        g-a2-comparatives-6,
+        g-a2-comparatives-7,
+        g-a2-comparatives-8,
+      ]
+    grammar:
+      title_vi: "So sánh hơn và so sánh nhất"
+      group: "Tính từ"
+      overview:
+        focus: "So sánh hơn đặt hai thứ cạnh nhau (A nhanh hơn B); so sánh nhất chọn ra một thứ đứng đầu trong cả nhóm. Tính từ ngắn thêm -er/-est, tính từ dài dùng more/most. Tiếng Việt chỉ thêm “hơn/nhất”, nên người học hay dùng cả hai cách cùng lúc (more faster)."
+        formulas:
+          - "A + be + adj-er / more adj + than + B"
+          - "the + adj-est / the most adj (+ in/of …)"
+        hook: "Vite is faster than Webpack for our project."
+      functions:
+        - title: "So sánh hai lựa chọn"
+          explain: "Dùng than để nối với vật được so sánh."
+          examples:
+            [
+              "Postgres is more reliable than our old database.",
+              "This laptop is lighter than mine.",
+            ]
+        - title: "Chọn cái đứng đầu"
+          explain: "So sánh nhất luôn có the; thường kèm in + nơi/nhóm hoặc of + số lượng."
+          examples:
+            ["This is the slowest query in the app.", "Friday is the busiest day of the week."]
+        - title: "Tăng giảm mức độ so sánh"
+          explain: "Thêm much, a lot, a bit trước dạng so sánh hơn."
+          examples: ["The new UI is much cleaner.", "It's a bit more expensive."]
+        - title: "Dạng bất quy tắc thường gặp"
+          explain: "good, bad, far có dạng riêng, phải học thuộc."
+          examples: ["Your fix is better than mine.", "That was the worst outage this year."]
+      structure:
+        forms:
+          - {
+              label: "1 âm tiết",
+              pattern: "adj + -er / the adj + -est",
+              example: "fast → faster → the fastest",
+            }
+          - {
+              label: "Tận cùng -y",
+              pattern: "y → -ier / -iest",
+              example: "easy → easier → the easiest",
+            }
+          - {
+              label: "2+ âm tiết",
+              pattern: "more / the most + adj",
+              example: "stable → more stable → the most stable",
+            }
+          - {
+              label: "Bất quy tắc",
+              pattern: "good/better/best · bad/worse/worst · far/further/furthest",
+              example: "This is the best option.",
+            }
+        steps:
+          - title: "Đếm âm tiết của tính từ"
+            explain: "Một âm tiết (và hai âm tiết tận cùng -y) → -er/-est. Còn lại → more/most."
+            example: "cheap → cheaper · modern → more modern"
+          - title: "Chú ý chính tả"
+            explain: "Phụ âm – nguyên âm – phụ âm thì gấp đôi phụ âm cuối; tận cùng e chỉ thêm -r/-st."
+            example: "big → bigger · large → larger"
+          - title: "Không dùng hai dạng cùng lúc"
+            explain: "Hoặc -er, hoặc more; không bao giờ more + -er."
+            example: "faster (không phải more faster)"
+      examples:
+        - {
+            tag: "So sánh hơn",
+            en: "The staging server is slower than production.",
+            vi: "Server staging chậm hơn production.",
+            note: "Slow một âm tiết → slower + than.",
+          }
+        - {
+            tag: "More",
+            en: "Option B is more flexible, but it is harder to set up.",
+            vi: "Phương án B linh hoạt hơn nhưng khó cài đặt hơn.",
+            note: "Flexible dài → more; hard ngắn → harder.",
+          }
+        - {
+            tag: "So sánh nhất",
+            en: "Hanoi has the largest team in the company.",
+            vi: "Hà Nội có đội lớn nhất công ty.",
+            note: "The + largest + in + nhóm.",
+          }
+        - {
+            tag: "Bất quy tắc",
+            en: "The second version was worse than the first.",
+            vi: "Bản thứ hai còn tệ hơn bản đầu.",
+            note: "Bad → worse → the worst.",
+          }
+        - {
+            tag: "Mức độ",
+            en: "Bun is much faster at installing packages.",
+            vi: "Bun cài package nhanh hơn nhiều.",
+            note: "Much nhấn mạnh mức chênh lệch lớn.",
+          }
+        - {
+            tag: "Tận cùng -y",
+            en: "This is the easiest way to reproduce the bug.",
+            vi: "Đây là cách dễ nhất để tái hiện lỗi.",
+            note: "Easy → easiest, đổi y thành i.",
+          }
+        - tag: "Gấp đôi phụ âm"
+          en: "Our new office is bigger than the old one."
+          vi: "Văn phòng mới của tụi mình to hơn văn phòng cũ."
+          note: "Big → bigger: gấp đôi g rồi thêm -er."
+        - tag: "Better"
+          en: "Your English is better than you think."
+          vi: "Tiếng Anh của bạn tốt hơn bạn nghĩ đấy."
+          note: "Good → better; không nói more good."
+      contrast:
+        title: "Ba mức so sánh"
+        rows:
+          - { label: "Nguyên dạng", note: "chỉ mô tả, không so sánh", example: "The app is fast." }
+          - {
+              label: "So sánh hơn",
+              note: "hai thứ, dùng than",
+              example: "The app is faster than the website.",
+            }
+          - {
+              label: "So sánh nhất",
+              note: "đứng đầu cả nhóm, dùng the",
+              example: "It is the fastest app we have.",
+            }
+        fixes:
+          - {
+              wrong: "This API is more faster than the old one.",
+              right: "This API is faster than the old one.",
+              why: "Fast ngắn chỉ thêm -er; không thêm more.",
+            }
+          - {
+              wrong: "Kotlin is more easy than Java.",
+              right: "Kotlin is easier than Java.",
+              why: "Easy tận cùng -y dùng easier.",
+            }
+          - {
+              wrong: "It is the most good solution.",
+              right: "It is the best solution.",
+              why: "Good bất quy tắc: better, best.",
+            }
+          - {
+              wrong: "My laptop is cheaper that yours.",
+              right: "My laptop is cheaper than yours.",
+              why: "So sánh hơn đi với than, không phải that.",
+            }
+  - slug: g-a2-future-plans
+    kind: grammar
+    title:
+      {
+        en: "Plans: present continuous & going to",
+        vi: "Kế hoạch: hiện tại tiếp diễn và be going to",
+      }
+    questions:
+      [
+        g-a2-future-plans-1,
+        g-a2-future-plans-2,
+        g-a2-future-plans-3,
+        g-a2-future-plans-4,
+        g-a2-future-plans-5,
+        g-a2-future-plans-6,
+        g-a2-future-plans-7,
+        g-a2-future-plans-8,
+      ]
+    grammar:
+      title_vi: "Nói về kế hoạch: hiện tại tiếp diễn và be going to"
+      group: "Thì động từ"
+      overview:
+        focus: "Khi nói về tương lai gần, tiếng Anh hay dùng hai cấu trúc. Hiện tại tiếp diễn (am/is/are + V-ing) kèm mốc tương lai cho việc đã sắp xếp xong: có giờ, có người, có lịch. Be going to + V cho dự định đã quyết từ trước, hoặc dự đoán dựa vào dấu hiệu đang thấy. Tiếng Việt chỉ thêm “sẽ/định/sắp”, nên người học hay quên be hoặc quên to."
+        formulas:
+          - "S + am/is/are + V-ing + mốc tương lai"
+          - "S + am/is/are + going to + V (nguyên mẫu)"
+          - "S + am/is/are + not + going to + V"
+        hook: "I'm meeting the client on Friday, and I'm going to show them the new dashboard."
+      functions:
+        - title: "Lịch đã chốt"
+          explain: "Đã hẹn giờ, đặt vé, có trong calendar → hiện tại tiếp diễn kèm mốc thời gian tương lai."
+          examples: ["We're having a retro at 4 p.m.", "She's flying to Da Nang tomorrow."]
+        - title: "Dự định đã quyết từ trước"
+          explain: "Đã nghĩ và quyết rồi, dù chưa có lịch cụ thể → be going to."
+          examples:
+            ["I'm going to learn Docker this year.", "We're going to rewrite the login page."]
+        - title: "Dự đoán có dấu hiệu"
+          explain: "Nhìn thấy bằng chứng ngay lúc nói → be going to."
+          examples: ["Look at all those errors. The build is going to fail."]
+        - title: "Hỏi về kế hoạch"
+          explain: "Đảo am/is/are lên trước chủ ngữ."
+          examples: ["What are you doing this weekend?", "Are you going to join the workshop?"]
+      structure:
+        forms:
+          - {
+              label: "Lịch đã chốt",
+              pattern: "S + am/is/are + V-ing + thời gian",
+              example: "I'm working from home on Monday.",
+            }
+          - {
+              label: "Dự định",
+              pattern: "S + am/is/are + going to + V",
+              example: "They're going to hire two testers.",
+            }
+          - {
+              label: "Phủ định",
+              pattern: "S + am/is/are + not + V-ing / going to + V",
+              example: "I'm not going to work late tonight.",
+            }
+          - {
+              label: "Nghi vấn",
+              pattern: "Am/Is/Are + S + V-ing / going to + V…?",
+              example: "Is Minh coming to the party?",
+            }
+        steps:
+          - title: "Đã có lịch cụ thể chưa?"
+            explain: "Có giờ, có người, đã đặt chỗ → hiện tại tiếp diễn. Mới là ý định → going to."
+            example: "I'm seeing the dentist at 9. / I'm going to find a new dentist."
+          - title: "Đừng quên be"
+            explain: "Cả hai cấu trúc đều cần am/is/are hợp với chủ ngữ."
+            example: "He is going to call you. (không phải He going to call you.)"
+          - title: "Sau going to là nguyên mẫu"
+            explain: "Going to + V nguyên mẫu, không thêm -s, -ed hay -ing."
+            example: "She's going to send it. (không phải going to sends)"
+      examples:
+        - tag: "Lịch hẹn"
+          en: "I'm meeting the new designer at ten tomorrow."
+          vi: "Mười giờ sáng mai mình gặp bạn designer mới."
+          note: "Đã hẹn giờ → hiện tại tiếp diễn + mốc tương lai."
+        - tag: "Đã đặt vé"
+          en: "We're flying to Singapore next Tuesday."
+          vi: "Thứ Ba tuần sau tụi mình bay sang Singapore."
+          note: "Vé đã đặt, lịch đã chốt → are flying."
+        - tag: "Dự định"
+          en: "I'm going to learn TypeScript this summer."
+          vi: "Mùa hè này mình định học TypeScript."
+          note: "“Định” = ý định đã có → going to + V."
+        - tag: "Phủ định"
+          en: "She isn't going to work overtime this week."
+          vi: "Tuần này chị ấy không định làm thêm giờ."
+          note: "Isn't going to + V nguyên mẫu."
+        - tag: "Hỏi kế hoạch"
+          en: "What are you doing this Saturday evening?"
+          vi: "Tối thứ Bảy này bạn có kế hoạch gì không?"
+          note: "Hỏi lịch của ai đó → What are you doing + mốc tương lai?"
+        - tag: "Dấu hiệu"
+          en: "The tests are really slow. They're going to take an hour."
+          vi: "Test chạy chậm quá. Chắc sẽ mất cả tiếng."
+          note: "Dự đoán dựa trên dấu hiệu đang thấy → going to."
+        - tag: "Câu hỏi"
+          en: "Are you going to fix this bug today?"
+          vi: "Hôm nay bạn có định sửa lỗi này không?"
+          note: "Are + you + going to + V."
+        - tag: "Lịch đã chốt"
+          en: "Our manager is taking us out for lunch this Friday."
+          vi: "Thứ Sáu này sếp dẫn tụi mình đi ăn trưa."
+          note: "Kế hoạch đã chốt → is taking + mốc tương lai."
+      contrast:
+        title: "Lịch đã chốt, dự định và việc đang làm"
+        rows:
+          - {
+              label: "Hiện tại tiếp diễn (bây giờ)",
+              note: "đang làm ngay lúc nói",
+              example: "I'm writing the report now.",
+            }
+          - {
+              label: "Hiện tại tiếp diễn (tương lai)",
+              note: "đã sắp xếp, có mốc tương lai",
+              example: "I'm visiting the client on Monday.",
+            }
+          - {
+              label: "Be going to",
+              note: "ý định, dự đoán có dấu hiệu",
+              example: "I'm going to visit more clients this year.",
+            }
+          - {
+              label: "Hiện tại đơn",
+              note: "thời gian biểu cố định",
+              example: "The train leaves at 8:15.",
+            }
+        fixes:
+          - {
+              wrong: "I going to call him later.",
+              right: "I'm going to call him later.",
+              why: "Thiếu be: I + am + going to.",
+            }
+          - {
+              wrong: "She's going to sends the file.",
+              right: "She's going to send the file.",
+              why: "Sau going to dùng động từ nguyên mẫu.",
+            }
+          - {
+              wrong: "I meet the client tomorrow at 3.",
+              right: "I'm meeting the client tomorrow at 3.",
+              why: "Lịch hẹn cá nhân đã chốt dùng hiện tại tiếp diễn.",
+            }
+          - {
+              wrong: "Are you go to the party tonight?",
+              right: "Are you going to the party tonight?",
+              why: "Hỏi kế hoạch cần V-ing sau are.",
+            }
+  - slug: g-a2-quantifiers
+    kind: grammar
+    title: { en: "much, many, a lot of", vi: "Lượng từ much, many, a lot of" }
+    questions:
+      [
+        g-a2-quantifiers-1,
+        g-a2-quantifiers-2,
+        g-a2-quantifiers-3,
+        g-a2-quantifiers-4,
+        g-a2-quantifiers-5,
+        g-a2-quantifiers-6,
+        g-a2-quantifiers-7,
+        g-a2-quantifiers-8,
+      ]
+    grammar:
+      title_vi: "Lượng từ much, many, a lot of, a few, a little"
+      group: "Lượng từ"
+      overview:
+        focus: "Tiếng Anh chia danh từ thành hai loại: đếm được (bug, meeting, user) và không đếm được (time, money, information, feedback, advice). Many đi với danh từ đếm được số nhiều, much đi với danh từ không đếm được, còn a lot of dùng được cho cả hai. Tiếng Việt chỉ nói “nhiều”, nên đây là chỗ rất hay nhầm."
+        formulas:
+          - "many / a few + danh từ đếm được số nhiều"
+          - "much / a little + danh từ không đếm được"
+          - "a lot of + cả hai loại"
+          - "How many…? · How much…?"
+        hook: "We don't have much time, but we have a lot of tickets."
+      functions:
+        - title: "Đếm được hay không đếm được"
+          explain: "Đếm được: có số nhiều, đứng sau số (two bugs). Không đếm được: không thêm -s, không đứng sau a/one (information, advice, software, equipment)."
+          examples: ["three meetings", "some useful information"]
+        - title: "Câu khẳng định: thường dùng a lot of"
+          explain: "Trong câu khẳng định hằng ngày, a lot of tự nhiên hơn much/many."
+          examples: ["We have a lot of users in Vietnam.", "She drinks a lot of coffee."]
+        - title: "Câu phủ định, câu hỏi: much/many"
+          explain: "Not much, not many, How much, How many là cách nói rất tự nhiên."
+          examples: ["There isn't much traffic today.", "How many people are coming?"]
+        - title: "Một ít: a few / a little"
+          explain: "A few cho danh từ đếm được, a little cho danh từ không đếm được."
+          examples: ["I have a few questions.", "I need a little help."]
+      structure:
+        forms:
+          - {
+              label: "Đếm được",
+              pattern: "many / a lot of / a few + N số nhiều",
+              example: "many bugs · a few users",
+            }
+          - {
+              label: "Không đếm được",
+              pattern: "much / a lot of / a little + N",
+              example: "much memory · a little time",
+            }
+          - {
+              label: "Hỏi số lượng",
+              pattern: "How many + N số nhiều? · How much + N?",
+              example: "How much RAM does it need?",
+            }
+          - {
+              label: "Phủ định",
+              pattern: "not … many / much",
+              example: "We don't have many testers.",
+            }
+        steps:
+          - title: "Xác định loại danh từ"
+            explain: "Thử đặt số đằng trước: two bugs được → đếm được; two informations không được → không đếm được."
+            example: "two bugs ✓ · two feedbacks ✗"
+          - title: "Chọn lượng từ"
+            explain: "Đếm được → many/a few; không đếm được → much/a little; không chắc trong câu khẳng định → a lot of."
+            example: "a lot of bugs · a lot of feedback"
+          - title: "Hòa hợp động từ"
+            explain: "Danh từ không đếm được đi với động từ số ít."
+            example: "There is a lot of information. (không phải there are)"
+      examples:
+        - tag: "Many"
+          en: "We don't have many testers."
+          vi: "Tụi mình không có nhiều tester."
+          note: "Testers đếm được, câu phủ định → many."
+        - tag: "Much"
+          en: "I don't have much time today."
+          vi: "Hôm nay mình không có nhiều thời gian."
+          note: "Time không đếm được → much."
+        - tag: "A lot of"
+          en: "Our app gets a lot of traffic at lunchtime."
+          vi: "Giờ trưa app của tụi mình có rất nhiều lượt truy cập."
+          note: "Câu khẳng định → a lot of; traffic không đếm được."
+        - tag: "How many"
+          en: "How many bugs did you find yesterday?"
+          vi: "Hôm qua bạn tìm được bao nhiêu lỗi?"
+          note: "Bugs đếm được → How many."
+        - tag: "How much"
+          en: "How much memory is this service using?"
+          vi: "Service này đang dùng bao nhiêu bộ nhớ?"
+          note: "Memory không đếm được → How much."
+        - tag: "A few"
+          en: "A few users reported the same bug."
+          vi: "Một vài người dùng đã báo cùng một lỗi."
+          note: "Users đếm được → a few."
+        - tag: "A little"
+          en: "I need a little advice on my CV."
+          vi: "Mình cần một chút lời khuyên về CV."
+          note: "Advice không đếm được → a little, không thêm -s."
+        - tag: "Information"
+          en: "There is a lot of information here."
+          vi: "Ở đây có rất nhiều thông tin."
+          note: "Information không đếm được: không -s, động từ số ít is."
+      contrast:
+        title: "Đếm được và không đếm được"
+        rows:
+          - { label: "many", note: "danh từ đếm được số nhiều", example: "many requests" }
+          - { label: "much", note: "danh từ không đếm được", example: "much feedback" }
+          - {
+              label: "a lot of",
+              note: "cả hai, hay dùng trong câu khẳng định",
+              example: "a lot of requests · a lot of feedback",
+            }
+          - {
+              label: "a few / a little",
+              note: "một vài / một chút",
+              example: "a few files · a little space",
+            }
+        fixes:
+          - {
+              wrong: "I don't have many time.",
+              right: "I don't have much time.",
+              why: "Time không đếm được → much.",
+            }
+          - {
+              wrong: "We got a lot of feedbacks.",
+              right: "We got a lot of feedback.",
+              why: "Feedback không đếm được, không thêm -s.",
+            }
+          - {
+              wrong: "How much users do we have?",
+              right: "How many users do we have?",
+              why: "Users đếm được → How many.",
+            }
+          - {
+              wrong: "There are a lot of information here.",
+              right: "There is a lot of information here.",
+              why: "Danh từ không đếm được đi với is.",
+            }
+  - slug: g-a2-adverbs-manner
+    kind: grammar
+    title: { en: "Adverbs of manner", vi: "Trạng từ chỉ cách thức" }
+    questions:
+      [
+        g-a2-adverbs-manner-1,
+        g-a2-adverbs-manner-2,
+        g-a2-adverbs-manner-3,
+        g-a2-adverbs-manner-4,
+        g-a2-adverbs-manner-5,
+        g-a2-adverbs-manner-6,
+        g-a2-adverbs-manner-7,
+        g-a2-adverbs-manner-8,
+      ]
+    grammar:
+      title_vi: "Trạng từ chỉ cách thức (quickly, carefully, well)"
+      group: "Từ loại"
+      overview:
+        focus: "Tính từ mô tả danh từ (a quick fix), còn trạng từ chỉ cách thức mô tả hành động được làm như thế nào (fix it quickly). Đa số trạng từ = tính từ + -ly. Tiếng Việt dùng cùng một từ cho cả hai (“bản sửa nhanh”, “sửa nhanh”), nên người học hay viết “work careful” thay vì “work carefully”."
+        formulas:
+          - "S + V + (O) + adv"
+          - "adj + -ly → adv (quick → quickly)"
+          - "be / look / sound / seem + adj (không dùng adv)"
+        hook: "Please read the error message carefully."
+      functions:
+        - title: "Mô tả cách làm một hành động"
+          explain: "Trạng từ thường đứng sau động từ, hoặc sau tân ngữ nếu có."
+          examples: ["She speaks English fluently.", "He closed the ticket quickly."]
+        - title: "Dạng bất quy tắc"
+          explain: "Good → well; fast, hard, late, early giữ nguyên hình thức."
+          examples: ["You did well.", "The app runs fast.", "We worked hard."]
+        - title: "Sau be, look, sound, seem, feel dùng tính từ"
+          explain: "Những động từ này mô tả trạng thái của chủ ngữ, không mô tả hành động."
+          examples: ["The new design looks great.", "You sound tired."]
+        - title: "Lời đề nghị rõ ràng, lịch sự"
+          explain: "Trạng từ giúp yêu cầu cụ thể hơn: carefully, slowly, clearly."
+          examples: ["Could you speak more slowly, please?"]
+      structure:
+        forms:
+          - { label: "-ly", pattern: "adj + -ly", example: "quick → quickly · clear → clearly" }
+          - { label: "Phụ âm + y", pattern: "y → -ily", example: "easy → easily · happy → happily" }
+          - {
+              label: "Tận cùng -le",
+              pattern: "bỏ e, thêm y",
+              example: "simple → simply · gentle → gently",
+            }
+          - {
+              label: "Bất quy tắc",
+              pattern: "good → well · fast, hard, late, early không đổi",
+              example: "He codes well.",
+            }
+          - {
+              label: "Vị trí",
+              pattern: "V + O + adv",
+              example: "She explained the problem clearly.",
+            }
+        steps:
+          - title: "Đang mô tả cái gì?"
+            explain: "Mô tả người/vật (danh từ) → tính từ. Mô tả cách làm (động từ) → trạng từ."
+            example: "a careful tester / she tests carefully"
+          - title: "Có phải động từ chỉ trạng thái không?"
+            explain: "Sau be, look, seem, sound, feel, smell, taste dùng tính từ."
+            example: "The plan sounds good. (không phải sounds well)"
+          - title: "Đặt đúng chỗ"
+            explain: "Không chen trạng từ vào giữa động từ và tân ngữ."
+            example: "He fixed the bug quickly. (không phải fixed quickly the bug)"
+      examples:
+        - tag: "-ly"
+          en: "Please check the numbers carefully."
+          vi: "Bạn kiểm tra kỹ các con số nhé."
+          note: "Mô tả cách kiểm tra → carefully."
+        - tag: "Fluently"
+          en: "Linh speaks English fluently."
+          vi: "Linh nói tiếng Anh trôi chảy."
+          note: "Mô tả cách nói → fluently, đứng sau tân ngữ English."
+        - tag: "Well"
+          en: "You handled the client meeting really well."
+          vi: "Bạn xử lý buổi họp với khách rất tốt."
+          note: "Good là tính từ; trạng từ của nó là well."
+        - tag: "Fast"
+          en: "This new laptop runs very fast."
+          vi: "Laptop mới này chạy rất nhanh."
+          note: "Fast vừa là tính từ vừa là trạng từ; không có fastly."
+        - tag: "Hard"
+          en: "The team worked hard to meet the deadline."
+          vi: "Cả team đã làm việc chăm chỉ để kịp hạn."
+          note: "Hard là trạng từ; hardly lại có nghĩa khác (hầu như không)."
+        - tag: "-ily"
+          en: "The new version installs easily on Windows."
+          vi: "Bản mới cài đặt dễ dàng trên Windows."
+          note: "Easy → easily (đổi y thành i); mô tả cách cài đặt."
+        - tag: "Sau look"
+          en: "The new dashboard looks clean."
+          vi: "Dashboard mới trông gọn gàng."
+          note: "Look (trông có vẻ) + tính từ clean, không dùng cleanly."
+        - tag: "Vị trí"
+          en: "She explained the architecture clearly."
+          vi: "Chị ấy giải thích kiến trúc hệ thống rõ ràng."
+          note: "Trạng từ đứng sau tân ngữ the architecture."
+      contrast:
+        title: "Tính từ hay trạng từ"
+        rows:
+          - { label: "Tính từ", note: "mô tả danh từ", example: "She is a careful developer." }
+          - { label: "Trạng từ", note: "mô tả động từ", example: "She codes carefully." }
+          - {
+              label: "Sau be / look / sound",
+              note: "dùng tính từ",
+              example: "That sounds perfect.",
+            }
+          - {
+              label: "hard / hardly",
+              note: "chăm chỉ / hầu như không",
+              example: "I worked hard, so I hardly slept.",
+            }
+        fixes:
+          - {
+              wrong: "He speaks English very good.",
+              right: "He speaks English very well.",
+              why: "Mô tả cách nói → trạng từ well.",
+            }
+          - {
+              wrong: "Please drive careful.",
+              right: "Please drive carefully.",
+              why: "Mô tả hành động lái xe → carefully.",
+            }
+          - {
+              wrong: "She finished quickly the task.",
+              right: "She finished the task quickly.",
+              why: "Không chen trạng từ giữa động từ và tân ngữ.",
+            }
+          - {
+              wrong: "The pizza smells nicely.",
+              right: "The pizza smells nice.",
+              why: "Smell (có mùi) + tính từ.",
+            }
+  - slug: g-a2-must-have-to
+    kind: grammar
+    title: { en: "must & have to", vi: "Must và have to" }
+    questions:
+      [
+        g-a2-must-have-to-1,
+        g-a2-must-have-to-2,
+        g-a2-must-have-to-3,
+        g-a2-must-have-to-4,
+        g-a2-must-have-to-5,
+        g-a2-must-have-to-6,
+        g-a2-must-have-to-7,
+        g-a2-must-have-to-8,
+      ]
+    grammar:
+      title_vi: "Must, have to, mustn't và don't have to"
+      group: "Động từ khuyết thiếu"
+      overview:
+        focus: "Must và have to đều nghĩa là “phải”. Must thường thể hiện ý của người nói (tự thấy cần) hoặc nội quy viết thành văn; have to là bắt buộc do hoàn cảnh, luật lệ, người khác đặt ra. Ở dạng phủ định nghĩa khác hẳn nhau: mustn't = cấm, không được làm; don't have to = không cần, không bắt buộc."
+        formulas:
+          - "S + must + V (nguyên mẫu)"
+          - "S + have to / has to + V"
+          - "mustn't + V = cấm · don't/doesn't have to + V = không cần"
+          - "Quá khứ: S + had to + V"
+        hook: "You don't have to come to the office, but you mustn't miss the stand-up."
+      functions:
+        - title: "Bắt buộc do quy định, hoàn cảnh"
+          explain: "Have to rất phổ biến khi nói chuyện hằng ngày."
+          examples: ["I have to wear a badge at work.", "She has to leave early on Fridays."]
+        - title: "Người nói tự thấy cần, hoặc nội quy"
+          explain: "Must mang tính cá nhân, khẩn thiết; cũng hay gặp trong văn bản quy định."
+          examples: ["I must call my mom tonight.", "Passwords must contain 12 characters."]
+        - title: "Cấm: mustn't"
+          explain: "Không được làm; làm là vi phạm."
+          examples: ["You mustn't share your password."]
+        - title: "Không cần: don't have to"
+          explain: "Muốn thì làm, nhưng không bắt buộc."
+          examples: ["You don't have to reply today."]
+        - title: "Quá khứ và câu hỏi"
+          explain: "Must không có dạng quá khứ, dùng had to. Câu hỏi thường dùng Do/Does … have to?"
+          examples: ["I had to work late yesterday.", "Do we have to write tests for this?"]
+      structure:
+        forms:
+          - {
+              label: "Must",
+              pattern: "S + must + V",
+              example: "We must renew the SSL certificate.",
+            }
+          - {
+              label: "Have to",
+              pattern: "I/you/we/they have to · he/she/it has to + V",
+              example: "He has to approve every PR.",
+            }
+          - { label: "Cấm", pattern: "S + mustn't + V", example: "You mustn't push to main." }
+          - {
+              label: "Không cần",
+              pattern: "S + don't/doesn't have to + V",
+              example: "She doesn't have to work on Saturday.",
+            }
+          - {
+              label: "Quá khứ",
+              pattern: "S + had to + V",
+              example: "We had to restart the server.",
+            }
+          - {
+              label: "Câu hỏi",
+              pattern: "Do/Does + S + have to + V…?",
+              example: "Does he have to sign the NDA?",
+            }
+        steps:
+          - title: "Bắt buộc, cấm hay không cần?"
+            explain: "Phải làm → must/have to. Không được làm → mustn't. Không cần làm → don't have to."
+            example: "You mustn't be late. / You don't have to come early."
+          - title: "Have hay has"
+            explain: "He/she/it → has to. Phủ định và câu hỏi dùng do/does, have giữ nguyên."
+            example: "He has to… / He doesn't have to… (không phải doesn't has to)"
+          - title: "Sau must không có to"
+            explain: "Must + V nguyên mẫu; chỉ have to mới có to."
+            example: "I must go. (không phải must to go)"
+      examples:
+        - tag: "Have to"
+          en: "I have to wear a badge at work now."
+          vi: "Giờ đi làm mình phải đeo thẻ."
+          note: "Quy định của công ty → have to."
+        - tag: "Has to"
+          en: "Minh has to approve every pull request now."
+          vi: "Giờ thì Minh phải duyệt mọi pull request."
+          note: "Minh = he → has to."
+        - tag: "Must"
+          en: "I must remember to renew my visa."
+          vi: "Mình phải nhớ gia hạn visa."
+          note: "Người nói tự nhắc mình → must + V."
+        - tag: "Mustn't"
+          en: "You mustn't commit passwords to Git."
+          vi: "Bạn không được commit mật khẩu lên Git."
+          note: "Mustn't = cấm."
+        - tag: "Don't have to"
+          en: "You don't have to join the call if you're busy."
+          vi: "Nếu bận thì bạn không cần vào cuộc gọi."
+          note: "Don't have to = không cần, khác với cấm."
+        - tag: "Had to"
+          en: "We had to roll back the release last night."
+          vi: "Tối qua tụi mình phải rollback bản release."
+          note: "Must không có quá khứ, dùng had to."
+        - tag: "Câu hỏi"
+          en: "Do I have to fill in a timesheet from now on?"
+          vi: "Từ giờ mình có phải điền timesheet không?"
+          note: "Câu hỏi: Do + S + have to + V."
+        - tag: "Doesn't have to"
+          en: "She doesn't have to come to the office on Fridays."
+          vi: "Thứ Sáu chị ấy không cần lên văn phòng."
+          note: "Doesn't have to, không phải doesn't has to."
+      contrast:
+        title: "mustn't và don't have to"
+        rows:
+          - {
+              label: "must / have to",
+              note: "phải, bắt buộc",
+              example: "You have to log your hours.",
+            }
+          - {
+              label: "mustn't",
+              note: "cấm, không được",
+              example: "You mustn't share customer data.",
+            }
+          - {
+              label: "don't have to",
+              note: "không cần, tùy bạn",
+              example: "You don't have to wear a suit.",
+            }
+          - { label: "had to", note: "đã phải (quá khứ)", example: "I had to stay late on Monday." }
+        fixes:
+          - {
+              wrong: "You must to finish it today.",
+              right: "You must finish it today.",
+              why: "Sau must không có to.",
+            }
+          - {
+              wrong: "He have to work tomorrow.",
+              right: "He has to work tomorrow.",
+              why: "He → has to.",
+            }
+          - {
+              wrong: "She doesn't has to come.",
+              right: "She doesn't have to come.",
+              why: "Sau doesn't, have giữ nguyên.",
+            }
+          - {
+              wrong: "Yesterday I must work late.",
+              right: "Yesterday I had to work late.",
+              why: "Quá khứ của must/have to là had to.",
+            }
+  - slug: g-a2-present-continuous
+    kind: grammar
+    title: { en: "Present continuous vs. present simple", vi: "Hiện tại tiếp diễn và hiện tại đơn" }
+    questions:
+      [
+        g-a2-present-continuous-1,
+        g-a2-present-continuous-2,
+        g-a2-present-continuous-3,
+        g-a2-present-continuous-4,
+        g-a2-present-continuous-5,
+        g-a2-present-continuous-6,
+        g-a2-present-continuous-7,
+        g-a2-present-continuous-8,
+      ]
+    grammar:
+      title_vi: "Hiện tại tiếp diễn và hiện tại đơn"
+      group: "Thì động từ"
+      overview:
+        focus: "Hiện tại tiếp diễn (am/is/are + V-ing) nói việc đang diễn ra lúc này hoặc chỉ tạm thời trong giai đoạn này. Hiện tại đơn nói thói quen, lịch lặp lại và sự thật lâu dài. Tiếng Việt chỉ thêm “đang” hay “thường”, còn tiếng Anh đổi cả hình thức động từ, nên cần nhìn kỹ tín hiệu thời gian."
+        formulas:
+          - "S + am/is/are + V-ing (đang diễn ra, tạm thời)"
+          - "S + V / V-s (thói quen, sự thật)"
+          - "Động từ trạng thái (know, want, need, like, understand) thường không thêm -ing"
+        hook: "I usually work from home, but today I'm working at a café."
+      functions:
+        - title: "Việc đang diễn ra ngay lúc nói"
+          explain: "Hay đi với now, right now, at the moment, hoặc câu mệnh lệnh như Look!, Listen!"
+          examples: ["I'm fixing a bug right now.", "Listen! Someone is knocking."]
+        - title: "Tình huống tạm thời"
+          explain: "Việc chỉ đúng trong giai đoạn này: this week, this month, these days."
+          examples: ["We're using a new ticket system this month."]
+        - title: "Thói quen và lịch lặp lại: hiện tại đơn"
+          explain: "Đi với usually, often, every day, on Mondays… Ngôi thứ ba số ít thêm -s/-es."
+          examples: ["The nightly build runs at 2 a.m.", "He takes the bus every day."]
+        - title: "Động từ trạng thái"
+          explain: "Các động từ chỉ suy nghĩ, cảm xúc, sở hữu (know, understand, want, need, like, believe) thường chỉ dùng hiện tại đơn, kể cả khi nói về lúc này."
+          examples: ["I don't understand this error.", "She needs a new laptop."]
+      structure:
+        forms:
+          - {
+              label: "Khẳng định",
+              pattern: "S + am/is/are + V-ing",
+              example: "She is testing the app.",
+            }
+          - {
+              label: "Phủ định",
+              pattern: "S + am not / isn't / aren't + V-ing",
+              example: "The tests aren't running.",
+            }
+          - {
+              label: "Nghi vấn",
+              pattern: "Am/Is/Are + S + V-ing…?",
+              example: "Are you using the printer?",
+            }
+          - {
+              label: "Chính tả -ing",
+              pattern: "bỏ e câm · gấp đôi phụ âm cuối",
+              example: "make → making · run → running · lie → lying",
+            }
+          - {
+              label: "Hiện tại đơn",
+              pattern: "S + V / V-s · don't/doesn't + V",
+              example: "He doesn't drink coffee.",
+            }
+        steps:
+          - title: "Đang xảy ra hay lặp lại?"
+            explain: "Đang xảy ra hoặc chỉ tạm thời → tiếp diễn. Lặp lại, lịch cố định, sự thật → hiện tại đơn."
+            example: "I'm reading a book about Go. (dạo này) · I read the news every morning. (thói quen)"
+          - title: "Nhìn tín hiệu thời gian"
+            explain: "now, right now, at the moment, today, this week → tiếp diễn; usually, always, every…, on Fridays → hiện tại đơn."
+            example: "Today she's working late. She usually leaves at six."
+          - title: "Kiểm tra động từ trạng thái"
+            explain: "Nếu là know, want, need, like, understand, mean… thì giữ hiện tại đơn."
+            example: "I know the answer. (không nói I'm knowing)"
+      examples:
+        - tag: "Đang diễn ra"
+          en: "I'm fixing a bug right now, so I can't talk."
+          vi: "Mình đang sửa bug nên giờ chưa nói chuyện được."
+          note: "Right now → hiện tại tiếp diễn: I'm fixing."
+        - tag: "Câu hỏi"
+          en: "Who is using the staging server?"
+          vi: "Ai đang dùng server staging vậy?"
+          note: "Who làm chủ ngữ → Who + is + V-ing."
+        - tag: "Lịch lặp lại"
+          en: "The nightly build runs at 2 a.m. every day."
+          vi: "Bản build hằng đêm chạy lúc 2 giờ sáng mỗi ngày."
+          note: "Every day → hiện tại đơn; the build số ít nên runs."
+        - tag: "Phủ định"
+          en: "The tests aren't running because the CI server is down."
+          vi: "Test đang không chạy vì server CI bị sập."
+          note: "Tests số nhiều → aren't running; server số ít → is."
+        - tag: "Lúc này"
+          en: "Mai is presenting the demo, so please keep quiet."
+          vi: "Mai đang trình bày demo nên mọi người giữ trật tự nhé."
+          note: "Việc đang diễn ra ngay lúc nói: is presenting."
+        - tag: "Động từ trạng thái"
+          en: "I don't understand this error message."
+          vi: "Mình không hiểu thông báo lỗi này."
+          note: "Understand là động từ trạng thái: không nói I'm not understanding."
+        - tag: "Tạm thời"
+          en: "We're using a new ticket system this month."
+          vi: "Tháng này tụi mình đang dùng hệ thống ticket mới."
+          note: "This month → việc tạm thời, dùng tiếp diễn."
+        - tag: "Đối chiếu"
+          en: "He normally drinks tea, but today he's drinking coffee."
+          vi: "Bình thường anh ấy uống trà, nhưng hôm nay lại đang uống cà phê."
+          note: "Normally → hiện tại đơn (drinks); today → tiếp diễn (he's drinking)."
+      contrast:
+        title: "Hiện tại tiếp diễn và hiện tại đơn"
+        rows:
+          - {
+              label: "am/is/are + V-ing",
+              note: "đang diễn ra lúc nói",
+              example: "She's talking to a client.",
+            }
+          - {
+              label: "this week / these days",
+              note: "tạm thời",
+              example: "I'm sleeping badly these days.",
+            }
+          - {
+              label: "V / V-s",
+              note: "thói quen, lịch cố định",
+              example: "She talks to clients every day.",
+            }
+          - {
+              label: "know, want, need…",
+              note: "động từ trạng thái, không -ing",
+              example: "I need more time.",
+            }
+        fixes:
+          - {
+              wrong: "I am knowing the answer.",
+              right: "I know the answer.",
+              why: "Know là động từ trạng thái, không dùng dạng -ing.",
+            }
+          - {
+              wrong: "He working on the API now.",
+              right: "He is working on the API now.",
+              why: "Tiếp diễn cần be (is) trước V-ing.",
+            }
+          - {
+              wrong: "She is go to the gym every day.",
+              right: "She goes to the gym every day.",
+              why: "Every day là thói quen → hiện tại đơn, she → goes.",
+            }
+          - {
+              wrong: "I'm work on it now.",
+              right: "I'm working on it now.",
+              why: "Sau am/is/are phải là V-ing.",
+            }
+  - slug: g-a2-past-continuous
+    kind: grammar
+    title: { en: "Past continuous", vi: "Thì quá khứ tiếp diễn" }
+    questions:
+      [
+        g-a2-past-continuous-1,
+        g-a2-past-continuous-2,
+        g-a2-past-continuous-3,
+        g-a2-past-continuous-4,
+        g-a2-past-continuous-5,
+        g-a2-past-continuous-6,
+        g-a2-past-continuous-7,
+        g-a2-past-continuous-8,
+      ]
+    grammar:
+      title_vi: "Thì quá khứ tiếp diễn; when và while"
+      group: "Thì động từ"
+      overview:
+        focus: "Quá khứ tiếp diễn (was/were + V-ing) tả một việc đang diễn ra tại một thời điểm trong quá khứ, thường làm “nền” cho một việc ngắn chen ngang ở quá khứ đơn. Tiếng Việt nói “đang… thì…”; tiếng Anh dùng when trước việc chen ngang và while trước việc kéo dài."
+        formulas:
+          - "S + was/were + V-ing"
+          - "S + was/were + V-ing + when + S + V2 (việc chen ngang)"
+          - "While + S + was/were + V-ing, S + V2"
+        hook: "I was pushing my code when the Wi-Fi died."
+      functions:
+        - title: "Đang làm gì tại một thời điểm trong quá khứ"
+          explain: "Hay đi với at 9 p.m. yesterday, at that time, all morning."
+          examples: ["At 10 p.m. last night, they were still fixing the bug."]
+        - title: "Việc dài bị việc ngắn chen ngang"
+          explain: "Việc dài dùng quá khứ tiếp diễn, việc ngắn dùng quá khứ đơn. When đứng trước việc ngắn."
+          examples: ["I was reviewing a pull request when the power went out."]
+        - title: "Hai việc diễn ra song song"
+          explain: "While nối hai việc cùng kéo dài; cả hai vế đều dùng quá khứ tiếp diễn."
+          examples: ["While Nam was writing the docs, Hoa was designing the icons."]
+        - title: "Tả khung cảnh khi kể chuyện"
+          explain: "Mở đầu câu chuyện bằng bối cảnh: trời đang mưa, mọi người đang chờ…"
+          examples: ["It was raining hard when I left the office."]
+      structure:
+        forms:
+          - {
+              label: "Khẳng định",
+              pattern: "I/he/she/it was · you/we/they were + V-ing",
+              example: "We were testing the app.",
+            }
+          - {
+              label: "Phủ định",
+              pattern: "S + wasn't / weren't + V-ing",
+              example: "She wasn't listening.",
+            }
+          - { label: "Nghi vấn", pattern: "Was/Were + S + V-ing…?", example: "Were you sleeping?" }
+          - {
+              label: "Câu hỏi Wh-",
+              pattern: "Wh- + was/were + S + V-ing…?",
+              example: "What were you doing at 8?",
+            }
+        steps:
+          - title: "Việc nào dài, việc nào ngắn?"
+            explain: "Việc đang diễn ra (nền) → was/were + V-ing. Việc xảy ra đột ngột → quá khứ đơn."
+            example: "We were having lunch (nền) when the alarm rang (chen ngang)."
+          - title: "Chọn when hay while"
+            explain: "When + việc ngắn (quá khứ đơn). While + việc dài (quá khứ tiếp diễn)."
+            example: "While I was cooking, the phone rang. · I was cooking when the phone rang."
+          - title: "Chia was/were theo chủ ngữ"
+            explain: "I, he, she, it, danh từ số ít → was; you, we, they, danh từ số nhiều → were."
+            example: "The users were waiting. The manager was waiting too."
+      examples:
+        - tag: "Bị chen ngang"
+          en: "I was reviewing a pull request when the power went out."
+          vi: "Mình đang review pull request thì bị cúp điện."
+          note: "Việc dài: was reviewing; việc chen ngang: went out (quá khứ đơn)."
+        - tag: "While"
+          en: "While we were testing the app, the client called."
+          vi: "Trong lúc tụi mình đang test app thì khách hàng gọi tới."
+          note: "While + việc kéo dài (were testing); we → were."
+        - tag: "Mốc giờ"
+          en: "At 10 p.m. last night, they were still fixing the payment bug."
+          vi: "Lúc 10 giờ tối qua, họ vẫn đang sửa bug thanh toán."
+          note: "Đang làm gì tại một mốc quá khứ → were fixing."
+        - tag: "Phủ định"
+          en: "She wasn't listening, so she missed the question."
+          vi: "Lúc đó chị ấy không để ý nghe nên bỏ lỡ câu hỏi."
+          note: "Wasn't + V-ing; kết quả dùng quá khứ đơn (missed)."
+        - tag: "Câu hỏi"
+          en: "What were you doing when the server crashed?"
+          vi: "Lúc server sập thì bạn đang làm gì?"
+          note: "What + were + you + doing; việc chen ngang crashed ở quá khứ đơn."
+        - tag: "Song song"
+          en: "While Nam was writing the docs, Hoa was designing the icons."
+          vi: "Trong khi Nam viết tài liệu thì Hoa thiết kế icon."
+          note: "Hai việc cùng kéo dài: cả hai vế đều dùng was + V-ing."
+        - tag: "Bối cảnh"
+          en: "It was raining hard when I left the office."
+          vi: "Lúc mình rời văn phòng thì trời đang mưa to."
+          note: "Khung cảnh: was raining; việc ngắn: left."
+        - tag: "Số nhiều"
+          en: "The users were waiting, so we restarted the server quickly."
+          vi: "Người dùng đang chờ nên tụi mình khởi động lại server thật nhanh."
+          note: "The users số nhiều → were waiting."
+      contrast:
+        title: "Quá khứ tiếp diễn và quá khứ đơn"
+        rows:
+          - {
+              label: "was/were + V-ing",
+              note: "việc đang dở dang, làm nền",
+              example: "I was writing an email…",
+            }
+          - { label: "V2 / V-ed", note: "việc ngắn, đã xong", example: "…when my boss called." }
+          - { label: "when", note: "thường đứng trước việc ngắn", example: "when the build failed" }
+          - { label: "while", note: "đứng trước việc kéo dài", example: "while we were deploying" }
+        fixes:
+          - {
+              wrong: "I was work at 9 p.m.",
+              right: "I was working at 9 p.m.",
+              why: "Quá khứ tiếp diễn: was + V-ing.",
+            }
+          - {
+              wrong: "They was waiting for us.",
+              right: "They were waiting for us.",
+              why: "They → were.",
+            }
+          - {
+              wrong: "I was sleeping while the server crashed.",
+              right: "I was sleeping when the server crashed.",
+              why: "Server sập là việc ngắn, đột ngột → dùng when, không dùng while.",
+            }
+          - {
+              wrong: "When the call dropped, I talking to Minh.",
+              right: "When the call dropped, I was talking to Minh.",
+              why: "Thiếu was trước V-ing.",
+            }
+  - slug: g-a2-superlatives
+    kind: grammar
+    title: { en: "Superlatives", vi: "So sánh nhất" }
+    questions:
+      [
+        g-a2-superlatives-1,
+        g-a2-superlatives-2,
+        g-a2-superlatives-3,
+        g-a2-superlatives-4,
+        g-a2-superlatives-5,
+        g-a2-superlatives-6,
+        g-a2-superlatives-7,
+        g-a2-superlatives-8,
+      ]
+    grammar:
+      title_vi: "So sánh nhất: the -est, the most, one of the…"
+      group: "Tính từ"
+      overview:
+        focus: "So sánh nhất chọn ra một thứ đứng đầu (hoặc đứng cuối) trong cả nhóm. Tính từ ngắn: the + adj-est; tính từ dài: the most + adj; ít nhất: the least + adj. Bài này đi sâu hơn: dạng bất quy tắc, cấu trúc one of the + so sánh nhất + danh từ số nhiều, và cách nói phạm vi với in/of."
+        formulas:
+          - "the + adj-est / the most + adj (+ in + nơi/nhóm · of + khoảng thời gian/số lượng)"
+          - "one of the + adj-est / most adj + danh từ số nhiều"
+          - "the least + adj (ít… nhất)"
+        hook: "This is one of the hardest bugs we have on the board."
+      functions:
+        - title: "Đứng đầu trong một nhóm"
+          explain: "Luôn có the (hoặc tính từ sở hữu như our, my thay cho the)."
+          examples:
+            ["Option B is the easiest of the three.", "Linh is our most experienced tester."]
+        - title: "Một trong những…"
+          explain: "One of the + so sánh nhất + danh từ số nhiều; động từ chia theo one (số ít)."
+          examples: ["Hanoi is one of the oldest cities in Vietnam."]
+        - title: "Ít… nhất"
+          explain: "The least + tính từ, dùng được cho cả tính từ ngắn lẫn dài."
+          examples: ["This is the least useful feature of the whole app."]
+        - title: "Hỏi cái nhất"
+          explain: "Which/What + is + the + so sánh nhất…?"
+          examples: ["Which is the fastest way to get to the airport?"]
+      structure:
+        forms:
+          - {
+              label: "Tính từ ngắn",
+              pattern: "the + adj-est",
+              example: "fast → the fastest · big → the biggest",
+            }
+          - {
+              label: "Tận cùng -y",
+              pattern: "y → -iest",
+              example: "easy → the easiest · busy → the busiest",
+            }
+          - {
+              label: "Tính từ dài",
+              pattern: "the most + adj",
+              example: "the most expensive · the most popular",
+            }
+          - {
+              label: "Bất quy tắc",
+              pattern: "good · bad · far",
+              example: "the best · the worst · the farthest",
+            }
+          - { label: "Ít nhất", pattern: "the least + adj", example: "the least useful" }
+        steps:
+          - title: "Đếm âm tiết"
+            explain: "Một âm tiết (và hai âm tiết tận cùng -y) → -est. Từ hai âm tiết trở lên còn lại → the most."
+            example: "cheap → the cheapest · careful → the most careful"
+          - title: "Thêm the hoặc tính từ sở hữu"
+            explain: "So sánh nhất gần như luôn có the; nếu đã có my/our/their thì bỏ the."
+            example: "our biggest client (không nói our the biggest client)"
+          - title: "Chọn in hay of"
+            explain: "In + nơi chốn, tổ chức (in Vietnam, in the world). Of + khoảng thời gian hoặc một nhóm đếm được (of the year, of the three)."
+            example: "the busiest month of the year · the tallest building in Saigon"
+      examples:
+        - tag: "Tận cùng -y"
+          en: "December is the busiest month of the year for our shop."
+          vi: "Tháng Mười Hai là tháng bận nhất trong năm của cửa hàng tụi mình."
+          note: "Busy → the busiest; khoảng thời gian dùng of the year."
+        - tag: "Tính từ dài"
+          en: "This is the most expensive plan, but its support is the best."
+          vi: "Đây là gói đắt nhất, nhưng hỗ trợ của nó tốt nhất."
+          note: "Expensive dài → the most expensive; good → the best."
+        - tag: "One of the…"
+          en: "Hanoi is one of the oldest cities in Vietnam."
+          vi: "Hà Nội là một trong những thành phố lâu đời nhất ở Việt Nam."
+          note: "One of the + oldest + cities (số nhiều); nơi chốn dùng in."
+        - tag: "Tính từ sở hữu"
+          en: "Linh is our most experienced tester."
+          vi: "Linh là tester giàu kinh nghiệm nhất của tụi mình."
+          note: "Our thay cho the: our most experienced."
+        - tag: "Bất quy tắc"
+          en: "That was the worst meeting of the month."
+          vi: "Đó là cuộc họp tệ nhất trong tháng."
+          note: "Bad → worse → the worst."
+        - tag: "Câu hỏi"
+          en: "Which is the fastest way to get to the airport?"
+          vi: "Cách nào nhanh nhất để ra sân bay?"
+          note: "Which + is + the fastest…?"
+        - tag: "The least"
+          en: "This is the least useful feature of the whole app."
+          vi: "Đây là tính năng ít hữu ích nhất trong cả app."
+          note: "The least + tính từ = ít… nhất."
+        - tag: "Trong một nhóm"
+          en: "Option B is the easiest of the three."
+          vi: "Phương án B là dễ nhất trong ba phương án."
+          note: "Nhóm đếm được (the three) → of."
+      contrast:
+        title: "So sánh hơn và so sánh nhất"
+        rows:
+          - {
+              label: "adj-er / more adj + than",
+              note: "so sánh hai thứ",
+              example: "Plan A is cheaper than Plan B.",
+            }
+          - {
+              label: "the adj-est / the most adj",
+              note: "đứng đầu cả nhóm",
+              example: "Plan A is the cheapest of all.",
+            }
+          - {
+              label: "one of the + adj-est + N số nhiều",
+              note: "một trong những… nhất",
+              example: "one of the cheapest plans",
+            }
+          - { label: "the least + adj", note: "ít… nhất", example: "the least expensive option" }
+        fixes:
+          - {
+              wrong: "It is the most fastest laptop.",
+              right: "It is the fastest laptop.",
+              why: "Không dùng cả most và -est cùng lúc.",
+            }
+          - {
+              wrong: "She is the better developer of the four.",
+              right: "She is the best developer of the four.",
+              why: "Từ ba người trở lên → so sánh nhất (the best).",
+            }
+          - {
+              wrong: "This is one of the biggest problem.",
+              right: "This is one of the biggest problems.",
+              why: "Sau one of the… danh từ phải ở số nhiều.",
+            }
+          - {
+              wrong: "This is the goodest option.",
+              right: "This is the best option.",
+              why: "Good bất quy tắc: better → the best.",
+            }
+  - slug: g-a2-too-enough
+    kind: grammar
+    title: { en: "too & enough", vi: "Too và enough" }
+    questions:
+      [
+        g-a2-too-enough-1,
+        g-a2-too-enough-2,
+        g-a2-too-enough-3,
+        g-a2-too-enough-4,
+        g-a2-too-enough-5,
+        g-a2-too-enough-6,
+        g-a2-too-enough-7,
+        g-a2-too-enough-8,
+      ]
+    grammar:
+      title_vi: "Too và enough: quá… / đủ…"
+      group: "Cấu trúc câu"
+      overview:
+        focus: "Too nghĩa là “quá mức” (thường mang ý tiêu cực: quá chậm nên không dùng được), enough nghĩa là “đủ”. Điểm dễ sai nhất là vị trí: too đứng trước tính từ, còn enough đứng sau tính từ/trạng từ nhưng đứng trước danh từ. Cả hai có thể nối thêm for + người hoặc to + V."
+        formulas:
+          - "too + adj/adv (+ for sb) (+ to V)"
+          - "adj/adv + enough (+ for sb) (+ to V)"
+          - "enough + danh từ (+ to V)"
+          - "too many + N đếm được · too much + N không đếm được"
+        hook: "This laptop is too slow, and we don't have enough budget for a new one."
+      functions:
+        - title: "Quá mức, không làm được"
+          explain: "Too + tính từ + to V: vì quá… nên không thể…"
+          examples:
+            ["This laptop is too slow to run Docker.", "The coffee is too hot to drink right now."]
+        - title: "Đủ hay chưa đủ"
+          explain: "Tính từ + enough; phủ định not + tính từ + enough = chưa đủ."
+          examples: ["The room isn't big enough for twenty people."]
+        - title: "Đủ số lượng"
+          explain: "Enough đứng trước danh từ, cả đếm được lẫn không đếm được."
+          examples: ["We don't have enough time to test everything.", "Do we have enough chairs?"]
+        - title: "Quá nhiều"
+          explain: "Too many + danh từ đếm được số nhiều; too much + danh từ không đếm được."
+          examples: ["There are too many meetings on Mondays.", "I drink too much coffee."]
+      structure:
+        forms:
+          - { label: "Too + tính từ", pattern: "too + adj (+ to V)", example: "too small to read" }
+          - {
+              label: "Tính từ + enough",
+              pattern: "adj + enough (+ to V)",
+              example: "fast enough to use",
+            }
+          - {
+              label: "Enough + danh từ",
+              pattern: "enough + N",
+              example: "enough money · enough testers",
+            }
+          - {
+              label: "Thêm người",
+              pattern: "… for + người (+ to V)",
+              example: "too difficult for a new intern",
+            }
+          - {
+              label: "Trạng từ",
+              pattern: "too + adv · adv + enough",
+              example: "too quickly · clearly enough",
+            }
+        steps:
+          - title: "Muốn nói “quá” hay “đủ”?"
+            explain: "Quá mức, gây vấn đề → too. Vừa đủ hoặc chưa đủ → enough / not… enough."
+            example: "It's too expensive. · It isn't cheap enough."
+          - title: "Đặt enough đúng chỗ"
+            explain: "Sau tính từ/trạng từ (good enough), trước danh từ (enough time)."
+            example: "Is the API fast enough? · We don't have enough servers."
+          - title: "Nối thêm hành động"
+            explain: "Dùng to + V nguyên mẫu, không dùng for + V."
+            example: "The box is too heavy to carry."
+      examples:
+        - tag: "Too + to V"
+          en: "This laptop is too slow to run Docker."
+          vi: "Cái laptop này chậm quá, không chạy nổi Docker."
+          note: "Too slow to run = chậm đến mức không chạy được."
+        - tag: "Not… enough"
+          en: "The room isn't big enough for twenty people."
+          vi: "Phòng này không đủ rộng cho hai mươi người."
+          note: "Enough đứng sau tính từ: big enough."
+        - tag: "Enough + danh từ"
+          en: "We don't have enough time to test everything."
+          vi: "Tụi mình không có đủ thời gian để test hết mọi thứ."
+          note: "Enough đứng trước danh từ: enough time."
+        - tag: "Too + tính từ"
+          en: "The coffee is too hot to drink right now."
+          vi: "Cà phê nóng quá, giờ chưa uống được."
+          note: "Too hot to drink: quá nóng nên chưa uống được."
+        - tag: "Câu hỏi"
+          en: "Is your English good enough for the interview?"
+          vi: "Tiếng Anh của bạn đủ tốt cho buổi phỏng vấn chưa?"
+          note: "Good enough for + danh từ."
+        - tag: "Too many"
+          en: "There are too many meetings on Mondays."
+          vi: "Thứ Hai có quá nhiều cuộc họp."
+          note: "Meetings đếm được → too many."
+        - tag: "Too… for"
+          en: "This task is too difficult for a new intern."
+          vi: "Việc này quá khó với một bạn thực tập mới."
+          note: "Too + tính từ + for + người."
+        - tag: "Trạng từ + enough"
+          en: "She speaks clearly enough for everyone to understand."
+          vi: "Chị ấy nói đủ rõ để mọi người đều hiểu."
+          note: "Enough đứng sau trạng từ: clearly enough."
+      contrast:
+        title: "too, enough và very"
+        rows:
+          - {
+              label: "very + adj",
+              note: "rất, chỉ mức độ",
+              example: "The task is very hard, but I can do it.",
+            }
+          - {
+              label: "too + adj",
+              note: "quá mức, có vấn đề",
+              example: "The task is too hard for me.",
+            }
+          - { label: "adj + enough", note: "đủ", example: "I'm strong enough to carry it." }
+          - { label: "enough + N", note: "đủ số lượng", example: "We have enough testers." }
+        fixes:
+          - {
+              wrong: "The API isn't enough fast.",
+              right: "The API isn't fast enough.",
+              why: "Enough đứng sau tính từ.",
+            }
+          - {
+              wrong: "It's too much expensive.",
+              right: "It's too expensive.",
+              why: "Trước tính từ chỉ dùng too, không thêm much.",
+            }
+          - {
+              wrong: "The box is too heavy for carry.",
+              right: "The box is too heavy to carry.",
+              why: "Nối hành động bằng to + V, không dùng for + V.",
+            }
+          - {
+              wrong: "There are too much meetings.",
+              right: "There are too many meetings.",
+              why: "Meetings đếm được → too many.",
+            }
+  - slug: g-a2-should
+    kind: grammar
+    title: { en: "should for advice", vi: "Should – đưa ra lời khuyên" }
+    questions:
+      [
+        g-a2-should-1,
+        g-a2-should-2,
+        g-a2-should-3,
+        g-a2-should-4,
+        g-a2-should-5,
+        g-a2-should-6,
+        g-a2-should-7,
+        g-a2-should-8,
+      ]
+    grammar:
+      title_vi: "Should / shouldn't – nên và không nên"
+      group: "Động từ khuyết thiếu"
+      overview:
+        focus: "Should nghĩa là “nên”: đưa lời khuyên, gợi ý việc đúng đắn. Shouldn't là “không nên”. Giống mọi động từ khuyết thiếu, should không đổi theo chủ ngữ, không có to phía sau, và tự đứng đầu câu hỏi (không cần do). Should nhẹ hơn must/have to: người nghe vẫn có quyền chọn."
+        formulas:
+          - "S + should / shouldn't + V (nguyên mẫu)"
+          - "Should + S + V…?  ·  Wh- + should + S + V…?"
+          - "I think you should… · I don't think you should…"
+        hook: "You should take a break. You've been coding for five hours."
+      functions:
+        - title: "Khuyên ai đó"
+          explain: "Thường mở đầu bằng I think để lời khuyên mềm hơn."
+          examples:
+            ["You should take a break; you look tired.", "I think we should add more tests."]
+        - title: "Khuyên không nên"
+          explain: "Shouldn't + V. Khi mở đầu bằng I think, tiếng Anh thích phủ định ở think: I don't think you should…"
+          examples:
+            ["You shouldn't push directly to main.", "I don't think you should buy that laptop."]
+        - title: "Xin lời khuyên"
+          explain: "Should I…? / What should I…? để hỏi ý kiến người khác."
+          examples:
+            [
+              "Should I email the client or call him?",
+              "What should we do about the slow login page?",
+            ]
+      structure:
+        forms:
+          - {
+              label: "Khẳng định",
+              pattern: "S + should + V",
+              example: "She should talk to her manager.",
+            }
+          - {
+              label: "Phủ định",
+              pattern: "S + shouldn't + V",
+              example: "You shouldn't skip lunch.",
+            }
+          - { label: "Nghi vấn", pattern: "Should + S + V…?", example: "Should I restart it?" }
+          - {
+              label: "Câu hỏi Wh-",
+              pattern: "Wh- + should + S + V…?",
+              example: "Where should we meet?",
+            }
+        steps:
+          - title: "Không thêm -s, không thêm to"
+            explain: "Mọi chủ ngữ đều dùng should; động từ sau đó ở nguyên mẫu."
+            example: "He should call the client. (không phải shoulds, should to, should calls)"
+          - title: "Câu hỏi: đảo should lên trước"
+            explain: "Không dùng do/does với should."
+            example: "Should I update the docs? (không nói Do I should…?)"
+          - title: "Phân biệt với must"
+            explain: "Must/have to = bắt buộc; should = nên, khuyên. Mustn't = cấm; shouldn't = không nên."
+            example: "You must wear a badge. · You should wear comfortable shoes."
+      examples:
+        - tag: "Khuyên"
+          en: "You should take a break; you look tired."
+          vi: "Bạn nên nghỉ một chút, trông bạn mệt lắm."
+          note: "Should + take (nguyên mẫu)."
+        - tag: "Không nên"
+          en: "You shouldn't push directly to main."
+          vi: "Bạn không nên push thẳng lên main."
+          note: "Shouldn't = không nên (lời khuyên), nhẹ hơn mustn't (cấm)."
+        - tag: "Xin ý kiến"
+          en: "Should I email the client or call him?"
+          vi: "Mình nên email cho khách hay gọi cho anh ấy?"
+          note: "Should đứng đầu câu hỏi, không cần do."
+        - tag: "I think…"
+          en: "I think we should add more tests before the release."
+          vi: "Mình nghĩ tụi mình nên viết thêm test trước khi release."
+          note: "I think + S + should làm lời khuyên mềm hơn."
+        - tag: "I don't think…"
+          en: "I don't think you should buy that laptop."
+          vi: "Mình nghĩ bạn không nên mua cái laptop đó."
+          note: "Tiếng Anh tự nhiên hơn khi phủ định ở think: I don't think you should."
+        - tag: "Câu hỏi Wh-"
+          en: "What should we do about the slow login page?"
+          vi: "Tụi mình nên làm gì với trang đăng nhập bị chậm?"
+          note: "What + should + we + do."
+        - tag: "Ngôi thứ ba"
+          en: "She should talk to her manager about it."
+          vi: "Chị ấy nên nói chuyện với quản lý của mình về việc đó."
+          note: "She should talk: không thêm -s cho should hay talk."
+        - tag: "Lời khuyên sức khỏe"
+          en: "You should drink more water when you work late."
+          vi: "Khi làm khuya bạn nên uống nhiều nước hơn."
+          note: "Should + drink; more water = nhiều nước hơn."
+      contrast:
+        title: "should, must và have to"
+        rows:
+          - { label: "should", note: "nên, lời khuyên", example: "You should back up your files." }
+          - { label: "shouldn't", note: "không nên", example: "You shouldn't stay up so late." }
+          - {
+              label: "must / have to",
+              note: "bắt buộc",
+              example: "You must change your password every 90 days.",
+            }
+          - { label: "mustn't", note: "cấm", example: "You mustn't share your token." }
+        fixes:
+          - {
+              wrong: "You should to rest.",
+              right: "You should rest.",
+              why: "Sau should không có to.",
+            }
+          - {
+              wrong: "He shoulds call the client.",
+              right: "He should call the client.",
+              why: "Should không thêm -s.",
+            }
+          - {
+              wrong: "You should sleeping more.",
+              right: "You should sleep more.",
+              why: "Sau should là động từ nguyên mẫu.",
+            }
+          - {
+              wrong: "Do I should restart it?",
+              right: "Should I restart it?",
+              why: "Câu hỏi đảo should lên đầu, không dùng do.",
+            }
+  - slug: g-a2-will
+    kind: grammar
+    title: { en: "will", vi: "Will – dự đoán, đề nghị, quyết định tức thì" }
+    questions:
+      [
+        g-a2-will-1,
+        g-a2-will-2,
+        g-a2-will-3,
+        g-a2-will-4,
+        g-a2-will-5,
+        g-a2-will-6,
+        g-a2-will-7,
+        g-a2-will-8,
+      ]
+    grammar:
+      title_vi: "Will: dự đoán, đề nghị giúp, hứa và quyết định ngay lúc nói"
+      group: "Thì động từ"
+      overview:
+        focus: "Will (viết tắt 'll, phủ định won't) dùng cho tương lai khi ta dự đoán, khi vừa quyết định ngay lúc nói, khi đề nghị giúp hoặc hứa hẹn. Nếu kế hoạch đã có từ trước thì dùng be going to hoặc hiện tại tiếp diễn (bài Future plans). Sau will luôn là động từ nguyên mẫu, mọi chủ ngữ như nhau."
+        formulas:
+          - "S + will ('ll) + V"
+          - "S + won't + V"
+          - "Will + S + V…?"
+        hook: "The phone's ringing — I'll get it!"
+      functions:
+        - title: "Dự đoán"
+          explain: "Thường đi với I think, I'm sure, probably, maybe."
+          examples:
+            [
+              "I think it will rain this afternoon.",
+              "People will probably use phones more than laptops in the future.",
+            ]
+        - title: "Quyết định ngay lúc nói"
+          explain: "Chưa có kế hoạch trước, vừa nghĩ ra thì nói ngay."
+          examples:
+            ["The phone is ringing. I'll get it.", "I'm hungry. I think I'll order some pizza."]
+        - title: "Đề nghị giúp và hứa"
+          explain: "I'll + V để nhận làm giúp; I won't… để hứa không làm."
+          examples: ["Don't worry, I'll help you with the report.", "We won't forget your help."]
+        - title: "Nhờ vả"
+          explain: "Will you…? là lời nhờ thân mật; Could you…? lịch sự hơn."
+          examples: ["Will you send me the link, please?"]
+      structure:
+        forms:
+          - { label: "Khẳng định", pattern: "S + will / 'll + V", example: "I'll call you later." }
+          - {
+              label: "Phủ định",
+              pattern: "S + won't (will not) + V",
+              example: "It won't take long.",
+            }
+          - { label: "Nghi vấn", pattern: "Will + S + V…?", example: "Will the update be ready?" }
+          - {
+              label: "Kèm dự đoán",
+              pattern: "I think / I'm sure / probably + will",
+              example: "She'll probably be late.",
+            }
+        steps:
+          - title: "Kế hoạch có sẵn hay vừa quyết định?"
+            explain: "Đã lên kế hoạch → be going to. Vừa quyết định, đề nghị, hứa → will."
+            example: "I'm going to visit Da Lat next month. (đã định) · OK, I'll come with you! (vừa quyết)"
+          - title: "Giữ động từ nguyên mẫu"
+            explain: "Will + V: không thêm to, không thêm -s, không -ing."
+            example: "She will come. (không phải will comes, will to come)"
+          - title: "Vị trí của probably"
+            explain: "Khẳng định: will probably + V. Phủ định: probably won't + V."
+            example: "He'll probably agree. · He probably won't agree."
+      examples:
+        - tag: "Dự đoán"
+          en: "I think it will rain this afternoon."
+          vi: "Mình nghĩ chiều nay trời sẽ mưa."
+          note: "I think + will: dự đoán."
+        - tag: "Quyết định tức thì"
+          en: "The phone is ringing. I'll get it."
+          vi: "Điện thoại đang reo. Để mình nghe."
+          note: "Vừa quyết định ngay lúc nói → I'll."
+        - tag: "Đề nghị giúp"
+          en: "Don't worry, I'll help you with the report."
+          vi: "Đừng lo, mình sẽ giúp bạn làm báo cáo."
+          note: "I'll + help: nhận giúp."
+        - tag: "Won't"
+          en: "The new version won't be ready until Friday."
+          vi: "Phải tới thứ Sáu bản mới mới xong."
+          note: "Won't be ready until Friday = trước thứ Sáu chưa xong."
+        - tag: "Nhờ vả"
+          en: "Will you send me the link, please?"
+          vi: "Bạn gửi link cho mình nhé?"
+          note: "Will you + V…? là lời nhờ thân mật."
+        - tag: "Vừa nghĩ ra"
+          en: "I'm hungry. I think I'll order some pizza."
+          vi: "Mình đói rồi. Chắc mình sẽ gọi pizza."
+          note: "I think I'll… = vừa quyết định."
+        - tag: "Dự đoán dài hạn"
+          en: "People will probably use phones more than laptops in the future."
+          vi: "Trong tương lai, có lẽ người ta sẽ dùng điện thoại nhiều hơn laptop."
+          note: "Will probably + V."
+        - tag: "Hứa"
+          en: "We won't forget your help."
+          vi: "Tụi mình sẽ không quên sự giúp đỡ của bạn."
+          note: "Won't + V để hứa."
+      contrast:
+        title: "will và be going to"
+        rows:
+          - {
+              label: "will",
+              note: "vừa quyết định lúc nói",
+              example: "We're out of milk? I'll buy some.",
+            }
+          - {
+              label: "be going to",
+              note: "kế hoạch đã có từ trước",
+              example: "I'm going to buy a new phone next week.",
+            }
+          - {
+              label: "will",
+              note: "dự đoán theo ý kiến",
+              example: "I think the client will like it.",
+            }
+          - {
+              label: "be going to",
+              note: "dự đoán có bằng chứng trước mắt",
+              example: "Look at those clouds. It's going to rain.",
+            }
+        fixes:
+          - {
+              wrong: "I will to call you.",
+              right: "I will call you.",
+              why: "Sau will không có to.",
+            }
+          - {
+              wrong: "She wills come tomorrow.",
+              right: "She will come tomorrow.",
+              why: "Will không thêm -s.",
+            }
+          - {
+              wrong: "I will helping you.",
+              right: "I will help you.",
+              why: "Sau will là động từ nguyên mẫu.",
+            }
+          - {
+              wrong: "I don't will be late.",
+              right: "I won't be late.",
+              why: "Phủ định của will là won't (will not).",
+            }
+  - slug: g-a2-frequency
+    kind: grammar
+    title: { en: "Adverbs of frequency", vi: "Trạng từ chỉ tần suất" }
+    questions:
+      [
+        g-a2-frequency-1,
+        g-a2-frequency-2,
+        g-a2-frequency-3,
+        g-a2-frequency-4,
+        g-a2-frequency-5,
+        g-a2-frequency-6,
+        g-a2-frequency-7,
+        g-a2-frequency-8,
+      ]
+    grammar:
+      title_vi: "Trạng từ chỉ tần suất và câu hỏi How often"
+      group: "Từ loại"
+      overview:
+        focus: "Always, usually, often, sometimes, rarely, never cho biết một việc xảy ra thường xuyên đến đâu. Vị trí là điểm hay sai: đứng trước động từ thường nhưng đứng sau be. Các cụm như every day, once a week, twice a month thì đặt ở cuối câu. Hỏi tần suất bằng How often…?"
+        formulas:
+          - "S + adverb + V (thường)"
+          - "S + be + adverb"
+          - "S + trợ động từ (don't/doesn't, can…) + adverb + V"
+          - "How often + do/does + S + V…? — once/twice/three times + a day/week/month"
+        hook: "I always check the logs, but I rarely read the docs."
+      functions:
+        - title: "Mức độ thường xuyên"
+          explain: "always (100%) → usually → often → sometimes → rarely → never (0%)."
+          examples:
+            ["I always check my email before standup.", "Our app rarely crashes these days."]
+        - title: "Vị trí với be và động từ thường"
+          explain: "Sau am/is/are/was/were; trước động từ thường."
+          examples: ["She is never late for meetings.", "We usually deploy on Thursdays."]
+        - title: "Với phủ định và trợ động từ"
+          explain: "Trạng từ đứng sau don't/doesn't/can't và trước động từ chính."
+          examples: ["He doesn't often work late."]
+        - title: "Hỏi và trả lời tần suất"
+          explain: "How often…? Trả lời bằng every…, once a…, twice a…, three times a…"
+          examples: ["How often does the backup run?", "The cleaner comes twice a week."]
+      structure:
+        forms:
+          - {
+              label: "Động từ thường",
+              pattern: "S + adverb + V",
+              example: "I usually walk to work.",
+            }
+          - { label: "Be", pattern: "S + be + adverb", example: "The office is always quiet." }
+          - {
+              label: "Trợ động từ",
+              pattern: "S + aux + adverb + V",
+              example: "I don't usually eat breakfast.",
+            }
+          - {
+              label: "Câu hỏi",
+              pattern: "Do/Does/Be + S + adverb…?",
+              example: "Do you often work late?",
+            }
+          - {
+              label: "Cụm tần suất",
+              pattern: "… + every / once a / twice a … (cuối câu)",
+              example: "We meet once a week.",
+            }
+        steps:
+          - title: "Động từ chính là be hay động từ thường?"
+            explain: "Be → trạng từ đứng sau. Động từ thường → trạng từ đứng trước."
+            example: "He is often busy. · He often works late."
+          - title: "Có trợ động từ không?"
+            explain: "Nếu có don't, doesn't, can, will… thì kẹp trạng từ giữa trợ động từ và động từ chính."
+            example: "She doesn't usually drive."
+          - title: "Never đã là phủ định"
+            explain: "Không ghép never với not/don't."
+            example: "I never drink coffee. (không nói I don't never drink…)"
+      examples:
+        - tag: "Always"
+          en: "I always check my email before standup."
+          vi: "Mình luôn kiểm tra email trước buổi standup."
+          note: "Always đứng trước động từ thường check."
+        - tag: "Sau be"
+          en: "She is never late for meetings."
+          vi: "Chị ấy không bao giờ đi họp trễ."
+          note: "Never đứng sau be (is)."
+        - tag: "Usually"
+          en: "We usually deploy on Thursdays."
+          vi: "Tụi mình thường deploy vào thứ Năm."
+          note: "Usually trước deploy; on + thứ."
+        - tag: "Phủ định"
+          en: "He doesn't often work late."
+          vi: "Anh ấy không hay làm khuya."
+          note: "Doesn't + often + work."
+        - tag: "How often"
+          en: "How often is the bus late?"
+          vi: "Bao lâu thì xe buýt lại trễ một lần?"
+          note: "How often + be + S + tính từ."
+        - tag: "Twice a week"
+          en: "The cleaner comes twice a week."
+          vi: "Cô dọn dẹp đến hai lần một tuần."
+          note: "Cụm tần suất đứng cuối câu."
+        - tag: "Sometimes"
+          en: "I sometimes forget to save my files."
+          vi: "Thỉnh thoảng mình quên lưu file."
+          note: "Sometimes đứng trước động từ (hoặc đầu câu)."
+        - tag: "Rarely"
+          en: "Our app rarely crashes these days."
+          vi: "Dạo này app của tụi mình hiếm khi bị crash."
+          note: "Rarely = hiếm khi, mang nghĩa gần phủ định."
+      contrast:
+        title: "Vị trí trạng từ tần suất"
+        rows:
+          - {
+              label: "trước V thường",
+              note: "always, usually, often…",
+              example: "I often work from home.",
+            }
+          - { label: "sau be", note: "am/is/are/was/were", example: "I am often tired on Fridays." }
+          - { label: "giữa aux và V", note: "don't, can't, will…", example: "I can't always come." }
+          - {
+              label: "cuối câu",
+              note: "every day, once a week…",
+              example: "I run three times a week.",
+            }
+        fixes:
+          - {
+              wrong: "I go often to the gym.",
+              right: "I often go to the gym.",
+              why: "Trạng từ tần suất đứng trước động từ thường.",
+            }
+          - {
+              wrong: "She always is late.",
+              right: "She is always late.",
+              why: "Với be, trạng từ đứng sau.",
+            }
+          - {
+              wrong: "How often you go to the gym?",
+              right: "How often do you go to the gym?",
+              why: "Câu hỏi How often vẫn cần do/does.",
+            }
+          - {
+              wrong: "We deploy every days.",
+              right: "We deploy every day.",
+              why: "Sau every là danh từ số ít.",
+            }
+  - slug: g-a2-wh-questions
+    kind: grammar
+    title: { en: "Wh- questions", vi: "Câu hỏi Wh-" }
+    questions:
+      [
+        g-a2-wh-questions-1,
+        g-a2-wh-questions-2,
+        g-a2-wh-questions-3,
+        g-a2-wh-questions-4,
+        g-a2-wh-questions-5,
+        g-a2-wh-questions-6,
+        g-a2-wh-questions-7,
+        g-a2-wh-questions-8,
+      ]
+    grammar:
+      title_vi: "Câu hỏi Wh-: hỏi chủ ngữ và hỏi tân ngữ"
+      group: "Cấu trúc câu"
+      overview:
+        focus: "Câu hỏi Wh- (what, who, where, when, why, which, whose, how…) thường theo khuôn Wh- + trợ động từ + chủ ngữ + động từ. Nhưng khi who/what chính là chủ ngữ (Ai đã làm? Cái gì đã xảy ra?) thì không dùng do/does/did, động từ chia như câu khẳng định. Tiếng Việt để từ hỏi ở cuối (“bạn mời ai?”), còn tiếng Anh luôn đưa lên đầu."
+        formulas:
+          - "Wh- + do/does/did + S + V…? (hỏi tân ngữ, thông tin)"
+          - "Wh- + be + S…?"
+          - "Who/What + V (chia thì)…? (hỏi chủ ngữ)"
+        hook: "Who broke the build? — And who did you ask to fix it?"
+      functions:
+        - title: "Hỏi thông tin chung"
+          explain: "Where, when, why, how + trợ động từ + chủ ngữ."
+          examples: ["Why are the tests failing?", "How long does the build take?"]
+        - title: "Hỏi chủ ngữ: ai/cái gì làm?"
+          explain: "Who/What đứng ở vị trí chủ ngữ, không có do/did; động từ chia bình thường."
+          examples: ["Who broke the build?", "What happened to the server last night?"]
+        - title: "Hỏi tân ngữ: làm gì/ai?"
+          explain: "Người hỏi đã biết chủ ngữ; cần trợ động từ."
+          examples: ["Who did you invite to the meeting?"]
+        - title: "Which và whose"
+          explain: "Which khi chọn trong số ít lựa chọn; whose hỏi của ai."
+          examples: ["Which laptop did you choose?", "Whose bag is this?"]
+      structure:
+        forms:
+          - {
+              label: "Với be",
+              pattern: "Wh- + am/is/are/was/were + S…?",
+              example: "Where is the meeting?",
+            }
+          - {
+              label: "Động từ thường",
+              pattern: "Wh- + do/does/did + S + V…?",
+              example: "What did you say?",
+            }
+          - { label: "Hỏi chủ ngữ", pattern: "Who/What + V-s / V2…?", example: "Who wants coffee?" }
+          - {
+              label: "Which/Whose + N",
+              pattern: "Which/Whose + N + aux + S + V…?",
+              example: "Which team do you work with?",
+            }
+          - {
+              label: "How + adj/adv",
+              pattern: "How long / How often / How much…",
+              example: "How much does it cost?",
+            }
+        steps:
+          - title: "Từ hỏi là chủ ngữ hay tân ngữ?"
+            explain: "Câu trả lời thay vào chỗ chủ ngữ (Phong broke it) → hỏi chủ ngữ, không do/did. Thay vào chỗ tân ngữ (I invited Lan) → cần do/did."
+            example: "Who called you? (Lan called me) · Who did you call? (I called Lan)"
+          - title: "Đảo trợ động từ"
+            explain: "Câu hỏi tân ngữ: trợ động từ đứng trước chủ ngữ, động từ chính về nguyên mẫu."
+            example: "Where did you buy it? (không nói Where you bought it?)"
+          - title: "Giới từ thường ở cuối"
+            explain: "Trong văn nói, giới từ đi kèm động từ đứng cuối câu hỏi."
+            example: "Who are you waiting for? · What are you working on?"
+      examples:
+        - tag: "Với be"
+          en: "Why are the tests failing?"
+          vi: "Sao test đang bị lỗi vậy?"
+          note: "Why + are + the tests + failing."
+        - tag: "Hỏi chủ ngữ"
+          en: "Who broke the build?"
+          vi: "Ai làm hỏng bản build vậy?"
+          note: "Who là chủ ngữ → broke, không dùng did."
+        - tag: "Hỏi tân ngữ"
+          en: "Who did you invite to the meeting?"
+          vi: "Bạn đã mời ai vào cuộc họp?"
+          note: "You là chủ ngữ, who là tân ngữ → cần did."
+        - tag: "What happened"
+          en: "What happened to the server last night?"
+          vi: "Tối qua server bị gì vậy?"
+          note: "What là chủ ngữ → happened, không nói did happen."
+        - tag: "Which"
+          en: "Which laptop did you choose?"
+          vi: "Bạn đã chọn chiếc laptop nào?"
+          note: "Which + danh từ + did + you + V nguyên mẫu."
+        - tag: "Whose"
+          en: "Whose bag is this?"
+          vi: "Cái túi này của ai?"
+          note: "Whose + danh từ + is + this."
+        - tag: "How long"
+          en: "How long does the build take?"
+          vi: "Bản build thường mất bao lâu?"
+          note: "How long + does + the build + take."
+        - tag: "Hỏi chủ ngữ (-s)"
+          en: "Who knows the admin password?"
+          vi: "Ai biết mật khẩu admin?"
+          note: "Who làm chủ ngữ số ít → knows."
+      contrast:
+        title: "Hỏi chủ ngữ và hỏi tân ngữ"
+        rows:
+          - { label: "Who + V2?", note: "hỏi ai làm (chủ ngữ)", example: "Who called Minh?" }
+          - {
+              label: "Who + did + S + V?",
+              note: "hỏi làm với ai (tân ngữ)",
+              example: "Who did Minh call?",
+            }
+          - { label: "What + V2?", note: "cái gì xảy ra", example: "What happened?" }
+          - { label: "What + did + S + V?", note: "ai đó làm gì", example: "What did you do?" }
+        fixes:
+          - {
+              wrong: "Who did break the build?",
+              right: "Who broke the build?",
+              why: "Who là chủ ngữ nên không dùng did.",
+            }
+          - {
+              wrong: "What did happen yesterday?",
+              right: "What happened yesterday?",
+              why: "What là chủ ngữ của happen.",
+            }
+          - {
+              wrong: "Who know the password?",
+              right: "Who knows the password?",
+              why: "Who làm chủ ngữ, chia như ngôi thứ ba số ít.",
+            }
+          - {
+              wrong: "Where you are going?",
+              right: "Where are you going?",
+              why: "Câu hỏi: đảo be lên trước chủ ngữ.",
+            }
+  - slug: g-a2-like-ing-want-to
+    kind: grammar
+    title: { en: "like + -ing, want + to", vi: "Like + V-ing và want + to V" }
+    questions:
+      [
+        g-a2-like-ing-want-to-1,
+        g-a2-like-ing-want-to-2,
+        g-a2-like-ing-want-to-3,
+        g-a2-like-ing-want-to-4,
+        g-a2-like-ing-want-to-5,
+        g-a2-like-ing-want-to-6,
+        g-a2-like-ing-want-to-7,
+        g-a2-like-ing-want-to-8,
+      ]
+    grammar:
+      title_vi: "Like/love/hate/enjoy + V-ing; want/need/would like + to V"
+      group: "Dạng thức động từ"
+      overview:
+        focus: "Khi một động từ đứng sau động từ khác, tiếng Anh bắt chọn dạng: V-ing hoặc to V. Các động từ chỉ sở thích (like, love, hate, enjoy) thường đi với V-ing khi nói về việc mình thích nói chung. Các động từ chỉ mong muốn, nhu cầu (want, need, would like, hope, decide) đi với to V. Tiếng Việt không đổi gì (“thích đọc”, “muốn đọc”), nên phải học theo cặp."
+        formulas:
+          - "like / love / hate / enjoy + V-ing"
+          - "want / need / hope / decide + to V"
+          - "would like ('d like) + to V (lịch sự)"
+        hook: "I love working here, but I want to learn a new stack."
+      functions:
+        - title: "Nói về sở thích chung"
+          explain: "Like/love/hate + V-ing (like/love/hate + to V cũng được). Riêng enjoy chỉ đi với V-ing."
+          examples: ["I love working with this team.", "They enjoy playing football after work."]
+        - title: "Nói điều mình muốn, cần"
+          explain: "Want/need + to V cho mong muốn, nhu cầu cụ thể."
+          examples: ["We want to finish this sprint early.", "I need to buy a new charger."]
+        - title: "Mời và yêu cầu lịch sự"
+          explain: "Would like + to V lịch sự hơn want; Would you like to…? dùng để mời."
+          examples: ["Would you like to join us for lunch?", "I'd like to book a table for four."]
+      structure:
+        forms:
+          - {
+              label: "Sở thích",
+              pattern: "like/love/hate/enjoy + V-ing",
+              example: "She hates writing documentation.",
+            }
+          - { label: "Mong muốn", pattern: "want/need + to V", example: "He wants to learn Go." }
+          - {
+              label: "Lịch sự",
+              pattern: "would like + to V",
+              example: "I'd like to ask a question.",
+            }
+          - {
+              label: "Mời",
+              pattern: "Would you like + to V…?",
+              example: "Would you like to try it?",
+            }
+          - {
+              label: "Phủ định",
+              pattern: "don't/doesn't + like + V-ing · want + to V",
+              example: "He doesn't like waking up early.",
+            }
+        steps:
+          - title: "Thích hay muốn?"
+            explain: "Thích (nói chung, thói quen) → V-ing. Muốn, cần (một việc cụ thể) → to V."
+            example: "I like cooking. · I want to cook tonight."
+          - title: "Phân biệt like và would like"
+            explain: "Like = thích nói chung. Would like = muốn (lịch sự), luôn + to V."
+            example: "I like flying. · I'd like to fly to Da Nang next week."
+          - title: "Enjoy chỉ + V-ing"
+            explain: "Không nói enjoy to V."
+            example: "We enjoyed working with you."
+      examples:
+        - tag: "Love + V-ing"
+          en: "I love working with this team."
+          vi: "Mình rất thích làm việc với team này."
+          note: "Love + working."
+        - tag: "Hate + V-ing"
+          en: "She hates writing documentation."
+          vi: "Chị ấy ghét viết tài liệu."
+          note: "Hate + writing (hate to write cũng đúng)."
+        - tag: "Want + to V"
+          en: "We want to finish this sprint early."
+          vi: "Tụi mình muốn hoàn thành sprint này sớm."
+          note: "Want + to finish."
+        - tag: "Need + to V"
+          en: "I need to buy a new charger."
+          vi: "Mình cần mua cục sạc mới."
+          note: "Need + to buy."
+        - tag: "Lời mời"
+          en: "Would you like to join us for lunch?"
+          vi: "Bạn có muốn đi ăn trưa với tụi mình không?"
+          note: "Would you like + to join: lời mời lịch sự."
+        - tag: "Phủ định"
+          en: "He doesn't like waking up early."
+          vi: "Anh ấy không thích dậy sớm."
+          note: "Doesn't like + waking."
+        - tag: "Would like"
+          en: "I'd like to book a table for four."
+          vi: "Mình muốn đặt một bàn cho bốn người."
+          note: "I'd like = I would like, luôn + to V."
+        - tag: "Enjoy + V-ing"
+          en: "They enjoy playing football after work."
+          vi: "Họ thích đá bóng sau giờ làm."
+          note: "Enjoy chỉ đi với V-ing."
+      contrast:
+        title: "V-ing hay to V?"
+        rows:
+          - { label: "enjoy + V-ing", note: "chỉ V-ing", example: "I enjoy hiking." }
+          - {
+              label: "like / love / hate + V-ing",
+              note: "sở thích chung (to V cũng được)",
+              example: "I like reading on the bus.",
+            }
+          - {
+              label: "want / need + to V",
+              note: "mong muốn, nhu cầu",
+              example: "I need to call my mum.",
+            }
+          - {
+              label: "would like + to V",
+              note: "muốn (lịch sự), lời mời",
+              example: "Would you like to come?",
+            }
+        fixes:
+          - { wrong: "I want going home.", right: "I want to go home.", why: "Want + to V." }
+          - {
+              wrong: "She enjoys to cook.",
+              right: "She enjoys cooking.",
+              why: "Enjoy chỉ đi với V-ing.",
+            }
+          - {
+              wrong: "I would like have a coffee.",
+              right: "I would like to have a coffee.",
+              why: "Would like + to V.",
+            }
+          - {
+              wrong: "He wants learn Go.",
+              right: "He wants to learn Go.",
+              why: "Thiếu to sau want.",
+            }
+  - slug: g-a2-some-any-compounds
+    kind: grammar
+    title:
+      { en: "something, anything, nothing…", vi: "Đại từ bất định something, anything, nothing…" }
+    questions:
+      [
+        g-a2-some-any-compounds-1,
+        g-a2-some-any-compounds-2,
+        g-a2-some-any-compounds-3,
+        g-a2-some-any-compounds-4,
+        g-a2-some-any-compounds-5,
+        g-a2-some-any-compounds-6,
+        g-a2-some-any-compounds-7,
+        g-a2-some-any-compounds-8,
+      ]
+    grammar:
+      title_vi: "Đại từ bất định: some-, any-, no-, every- + thing/one/body/where"
+      group: "Từ loại"
+      overview:
+        focus: "Ghép some/any/no/every với -thing (vật), -one/-body (người), -where (nơi) để nói “cái gì đó, ai đó, không ai, mọi nơi…”. Some- dùng trong câu khẳng định, lời mời và lời nhờ; any- dùng trong câu phủ định và câu hỏi; no- tự mang nghĩa phủ định nên không đi cùng not. Tất cả đều chia động từ số ít."
+        formulas:
+          - "some- (khẳng định, lời mời) · any- (phủ định, câu hỏi) · no- (= not any-) · every- (tất cả)"
+          - "+ thing (vật) · one/body (người) · where (nơi)"
+          - "đại từ bất định + tính từ / else: something new, someone else"
+        hook: "Nobody knows anything about this bug, but someone wrote it."
+      functions:
+        - title: "Câu khẳng định: some-"
+          explain: "Nói về một người/vật/nơi không xác định."
+          examples: ["Someone wants to talk to you.", "Let's go somewhere quiet."]
+        - title: "Phủ định và câu hỏi: any-"
+          explain: "Sau not hoặc trong câu hỏi thường dùng anything/anyone/anywhere."
+          examples: ["I didn't hear anything.", "I can't find my charger anywhere."]
+        - title: "No- thay cho not any-"
+          explain: "Nobody, nothing, nowhere đã là phủ định; động từ để ở dạng khẳng định."
+          examples: ["Nobody knows the answer.", "There's nothing wrong with your code."]
+        - title: "Every-: tất cả, nhưng chia số ít"
+          explain: "Everyone, everything đi với is/has/V-s."
+          examples: ["Everyone is here, so let's start."]
+        - title: "Lời mời, lời nhờ: some-"
+          explain: "Khi mời hoặc đề nghị, dù là câu hỏi vẫn hay dùng some-."
+          examples: ["Would you like something to drink?"]
+      structure:
+        forms:
+          - {
+              label: "Vật",
+              pattern: "something · anything · nothing · everything",
+              example: "Everything is ready.",
+            }
+          - {
+              label: "Người",
+              pattern: "someone/somebody · anyone/anybody · no one/nobody · everyone/everybody",
+              example: "Is anyone free?",
+            }
+          - {
+              label: "Nơi",
+              pattern: "somewhere · anywhere · nowhere · everywhere",
+              example: "I looked everywhere.",
+            }
+          - {
+              label: "Kèm tính từ",
+              pattern: "đại từ + adj",
+              example: "something new · nothing wrong",
+            }
+          - { label: "Kèm else", pattern: "đại từ + else", example: "Ask someone else." }
+        steps:
+          - title: "Câu khẳng định, phủ định hay câu hỏi?"
+            explain: "Khẳng định → some-; phủ định với not → any-; câu hỏi → any- (trừ lời mời, lời nhờ → some-)."
+            example: "I need something. · I don't need anything. · Do you need anything?"
+          - title: "Không phủ định hai lần"
+            explain: "Đã có no- thì không thêm not; đã có not thì dùng any-."
+            example: "I know nothing. = I don't know anything."
+          - title: "Chia động từ số ít"
+            explain: "Mọi đại từ bất định đều là số ít."
+            example: "Everybody likes the new office."
+      examples:
+        - tag: "Someone"
+          en: "Someone wants to talk to you."
+          vi: "Có người muốn nói chuyện với bạn."
+          note: "Câu khẳng định → someone; chia wants."
+        - tag: "Anything"
+          en: "I didn't hear anything."
+          vi: "Mình không nghe thấy gì cả."
+          note: "Đã có didn't → anything, không dùng nothing."
+        - tag: "Câu hỏi"
+          en: "Is there anything I can do to help?"
+          vi: "Có việc gì mình giúp được không?"
+          note: "Câu hỏi → anything."
+        - tag: "Nobody"
+          en: "Nobody knows the answer."
+          vi: "Không ai biết câu trả lời."
+          note: "Nobody đã phủ định, động từ khẳng định và số ít: knows."
+        - tag: "Everyone"
+          en: "Everyone is here, so let's start."
+          vi: "Mọi người có mặt đủ rồi, mình bắt đầu thôi."
+          note: "Everyone chia số ít: is."
+        - tag: "Nothing + tính từ"
+          en: "There's nothing wrong with your code."
+          vi: "Code của bạn không có gì sai cả."
+          note: "Tính từ đứng sau: nothing wrong."
+        - tag: "Lời mời"
+          en: "Would you like something to drink?"
+          vi: "Bạn có muốn uống gì không?"
+          note: "Lời mời dùng something dù là câu hỏi."
+        - tag: "Anywhere"
+          en: "I can't find my charger anywhere."
+          vi: "Mình tìm khắp nơi mà không thấy cục sạc đâu."
+          note: "Can't → anywhere."
+      contrast:
+        title: "some-, any-, no-, every-"
+        rows:
+          - {
+              label: "some-",
+              note: "khẳng định, lời mời, lời nhờ",
+              example: "I saw someone in the lobby.",
+            }
+          - { label: "any-", note: "phủ định, câu hỏi", example: "I didn't see anyone." }
+          - { label: "no-", note: "= not any-, động từ khẳng định", example: "I saw nobody." }
+          - { label: "every-", note: "tất cả, chia số ít", example: "Everyone was there." }
+        fixes:
+          - {
+              wrong: "I don't know nobody here.",
+              right: "I don't know anybody here.",
+              why: "Đã có don't thì dùng any-, không phủ định hai lần.",
+            }
+          - {
+              wrong: "Everybody are ready.",
+              right: "Everybody is ready.",
+              why: "Everybody chia số ít.",
+            }
+          - {
+              wrong: "Nobody know the answer.",
+              right: "Nobody knows the answer.",
+              why: "Nobody là số ít → knows.",
+            }
+          - {
+              wrong: "I want to eat new something.",
+              right: "I want to eat something new.",
+              why: "Tính từ đứng sau đại từ bất định.",
+            }

@@ -2,7 +2,7 @@ import { describe, expect, it } from "vitest";
 import { QuestionSpec } from "@/features/content/curated";
 import { toQuestionRow } from "@/features/content/toQuestionRow";
 import { buildClientPrompt } from "./deliver";
-import { grade, revealAnswer } from "./grade";
+import { grade, revealAnswer, timeLimitSec } from "./grade";
 
 const row = (q: unknown) => toQuestionRow(QuestionSpec.parse(q));
 const base = { cefr: "A2", topic: "git", explanation_vi: "…" };
@@ -160,5 +160,40 @@ describe("dictation with pre-generated audio", () => {
     expect(client).toMatchObject({ type: "listening", dictation: true, tts: "" });
     expect(JSON.stringify(client)).not.toContain("rolled back");
     expect((client as { audio?: string }).audio).toMatch(/^\/audio\/[0-9a-f]{16}\.m4a$/);
+  });
+});
+
+describe("timed sessions", () => {
+  const typed = toQuestionRow(
+    QuestionSpec.parse({
+      slug: "t-typed",
+      type: "fill_blank",
+      cefr: "A1",
+      topic: "grammar",
+      sentence: "I ___ ready.",
+      accepted: ["am"],
+      explanation_vi: "x",
+    }),
+  );
+  const choice = toQuestionRow(
+    QuestionSpec.parse({
+      slug: "t-choice",
+      type: "fill_blank",
+      cefr: "A1",
+      topic: "grammar",
+      sentence: "I ___ ready.",
+      options: ["am", "is", "are"],
+      answer: 0,
+      explanation_vi: "x",
+    }),
+  );
+
+  it("gives typed answers 30s and choices 20s", () => {
+    expect(timeLimitSec(typed.prompt)).toBe(30);
+    expect(timeLimitSec(choice.prompt)).toBe(20);
+  });
+
+  it("grades a timeout as wrong", () => {
+    expect(grade(typed.prompt, typed.answer, { kind: "timeout" }, {})).toBe(false);
   });
 });

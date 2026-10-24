@@ -1,11 +1,16 @@
 // Pure learning-path logic: which units and lessons are open, done or locked, and what's next.
-// Units unlock in order (stage sort, then unit sort), skipping drafts ("coming soon"); lessons
+// Career units unlock in order (stage sort, then unit sort), skipping drafts ("coming soon"); lessons
 // inside an open unit unlock one after another. Checkpoints open once a stage's units are done.
+// Study tracks are separate: grammar levels unlock one after another inside their stage (or by
+// test-out), vocabulary topics are all open; neither has a checkpoint or feeds the career "next".
+
+export type Track = "career" | "grammar" | "vocab";
 
 export interface StageRow {
   id: number;
   slug: string;
   sort: number;
+  track: Track;
   cefr: string;
   title_en: string;
   title_vi: string;
@@ -19,7 +24,7 @@ export interface UnitRow {
   slug: string;
   sort: number;
   code: string;
-  kind: "situation" | "knowledge";
+  kind: "situation" | "knowledge" | "grammar" | "topic";
   cefr: string;
   character: string;
   title_en: string;
@@ -38,9 +43,22 @@ export interface LessonRow {
   title_vi: string;
   est_minutes: number;
   xp: number;
+  question_count?: number;
+  /** Grammar point category ("Thì", "Từ loại"…) and a word set's size, for the lesson list. */
+  group?: string | null;
+  senses?: string[] | null;
+}
+/** The latest and best result of a lesson (shown on the lesson card). */
+export interface LessonHistory {
+  attempts: number;
+  bestPct: number;
+  lastPct: number | null;
+  lastCorrect: number | null;
+  lastTotal: number | null;
+  lastAt: string;
 }
 export interface LearnerProgress {
-  lessons: Map<number, { stars: number; completed: boolean }>;
+  lessons: Map<number, { stars: number; completed: boolean; history?: LessonHistory }>;
   units: Map<number, "lessons" | "test_out" | "placement">;
   certificates: Map<number, { id: string; score: number }>;
 }
@@ -57,6 +75,10 @@ export interface PathLesson {
   xp: number;
   state: LessonState;
   stars: number;
+  questionCount: number;
+  history: LessonHistory | null;
+  group: string | null;
+  words: number;
 }
 export interface PathUnit {
   id: number;
@@ -78,12 +100,13 @@ export interface PathUnit {
 export interface PathStage {
   id: number;
   slug: string;
+  track: Track;
   cefr: string;
   title: { en: string; vi: string };
   tagline: string;
   units: PathUnit[];
   checkpoint: {
-    state: "locked" | "available" | "passed" | "coming_soon";
+    state: "locked" | "available" | "passed" | "coming_soon" | "none";
     size: number;
     passPct: number;
     certificateId: string | null;
@@ -114,10 +137,18 @@ export function buildPath(
     (a, b) => stageSort.get(a.stage_id)! - stageSort.get(b.stage_id)! || a.sort - b.sort,
   );
 
-  // Walk published units in order: each opens when the previous one is done.
-  let previousDone = true;
+  // Walk published units in order: each opens when the previous one is done. Career units form
+  // one chain across stages; each study-track stage starts its own chain (vocab: everything open).
+  const trackOf = new Map(orderedStages.map((s) => [s.id, s.track]));
+  const chainDone = new Map<string, boolean>();
+  const chainVia = new Map<string, string | null>();
   const unitViews = new Map<number, PathUnit>();
   for (const u of ordered) {
+    const track = trackOf.get(u.stage_id) ?? "career";
+    const chain = track === "career" ? "career" : `stage:${u.stage_id}`;
+    const previousDone = track === "vocab" || (chainDone.get(chain) ?? true);
+    // A study-track test-out opens every lesson of the level after it, not just the first.
+    const allOpen = track !== "career" && chainVia.get(chain) === "test_out";
     const rows = byUnit.get(u.id) ?? [];
     const via = progress.units.get(u.id) ?? null;
     let state: UnitState;
@@ -126,7 +157,10 @@ export function buildPath(
     else if (!previousDone) state = "locked";
     else
       state = rows.some((l) => progress.lessons.get(l.id)?.completed) ? "in_progress" : "available";
-    if (u.status === "published") previousDone = state === "completed";
+    if (u.status === "published") {
+      chainDone.set(chain, state === "completed");
+      chainVia.set(chain, via);
+    }
 
     let prevLessonDone = true;
     const lessonViews = rows.map((l): PathLesson => {
@@ -134,7 +168,7 @@ export function buildPath(
       const done = !!p?.completed;
       const open =
         state === "completed" ||
-        ((state === "available" || state === "in_progress") && prevLessonDone);
+        ((state === "available" || state === "in_progress") && (prevLessonDone || allOpen));
       prevLessonDone = done;
       return {
         id: l.id,
@@ -145,6 +179,10 @@ export function buildPath(
         xp: l.xp,
         state: done ? "completed" : open ? "available" : "locked",
         stars: p?.stars ?? 0,
+        questionCount: l.question_count ?? 0,
+        history: p?.history ?? null,
+        group: l.group ?? null,
+        words: l.senses?.length ?? 0,
       };
     });
     unitViews.set(u.id, {
@@ -179,14 +217,18 @@ export function buildPath(
       title: { en: s.title_en, vi: s.title_vi },
       tagline: s.tagline_vi,
       units: su,
+      track: s.track,
       checkpoint: {
-        state: cert
-          ? "passed"
-          : comingSoon
-            ? "coming_soon"
-            : done === published.length
-              ? "available"
-              : "locked",
+        state:
+          s.track !== "career"
+            ? "none"
+            : cert
+              ? "passed"
+              : comingSoon
+                ? "coming_soon"
+                : done === published.length
+                  ? "available"
+                  : "locked",
         size: s.checkpoint_size,
         passPct: s.checkpoint_pass_pct,
         certificateId: cert?.id ?? null,
@@ -198,9 +240,10 @@ export function buildPath(
   return { stages: stageViews, next: nextStep(stageViews) };
 }
 
-/** The first open lesson along the path, or an open checkpoint once a stage's units are done. */
+/** The first open lesson along the career path, or an open checkpoint once a stage's units are done. */
 export function nextStep(stages: PathStage[]): NextStep | null {
   for (const s of stages) {
+    if (s.track !== "career") continue;
     for (const u of s.units) {
       if (u.state !== "available" && u.state !== "in_progress") continue;
       const l = u.lessons.find((x) => x.state === "available");
@@ -208,6 +251,16 @@ export function nextStep(stages: PathStage[]): NextStep | null {
     }
     if (s.checkpoint.state === "available")
       return { type: "checkpoint", stageId: s.id, unitId: null, lessonId: null };
+  }
+  return null;
+}
+
+/** The first open lesson in a study-track stage (first unfinished level / topic). */
+export function trackNext(stage: PathStage): NextStep | null {
+  for (const u of stage.units) {
+    if (u.state !== "available" && u.state !== "in_progress") continue;
+    const l = u.lessons.find((x) => x.state === "available");
+    if (l) return { type: "lesson", stageId: stage.id, unitId: u.id, lessonId: l.id };
   }
   return null;
 }
@@ -236,7 +289,10 @@ export const starsFor = (pct: number, passPct = 60) =>
 /** Placement band → where to start: the first published unit of the target stage (or the closest earlier one). */
 export function placementUnit(stages: PathStage[], cefr: "A2" | "B1" | "B2") {
   const targetSort = cefr === "B2" ? 3 : cefr === "B1" ? 2 : 1;
-  const candidates = stages.slice(0, targetSort).reverse();
+  const candidates = stages
+    .filter((s) => s.track === "career")
+    .slice(0, targetSort)
+    .reverse();
   for (const s of candidates) {
     const u = s.units.find((x) => x.state !== "coming_soon");
     if (u) return u;

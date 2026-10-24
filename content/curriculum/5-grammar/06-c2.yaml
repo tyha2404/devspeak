@@ -1,0 +1,14 @@
+slug: grammar-c2
+stage: grammar
+sort: 6
+code: C2
+kind: grammar
+cefr: C2
+character: linh
+status: draft
+title: { en: "Grammar C2", vi: "Ngữ pháp C2" }
+summary_vi: "Sắc thái tinh tế nhất của ngữ pháp: thức giả định (I suggest that he be…), danh từ hoá, tỉnh lược, đảo ngữ trang trọng và các cấu trúc nhấn mạnh hiếm gặp, để viết và nói chính xác ở mức gần như bản ngữ."
+can_do:
+  - "Viết văn bản trang trọng (đề xuất, chính sách, RFC) với câu chặt chẽ và giọng điệu chuẩn xác"
+  - "Phân biệt và dùng đúng sắc thái nhỏ giữa các cấu trúc gần nghĩa khi thương lượng, phản biện"
+lessons: []

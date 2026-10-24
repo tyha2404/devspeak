@@ -1,0 +1,2624 @@
+# Vocabulary by topic: Technology & Digital Life (unit T02). Original content.
+# Set 1: devices & accounts
+- {
+    slug: back-up-phr,
+    lemma: back up,
+    pos: phrasal_verb,
+    kind: phrasal,
+    cefr: B1,
+    topic: digital-life,
+    ipa: /bæk ˈʌp/,
+    def: "To make an extra copy of your files so you do not lose them.",
+    vi: "sao lưu",
+    forms: [backs up, backed up, backing up, backup],
+    note: '"back up" (2 từ) là động từ; "backup" (1 từ) là danh từ.',
+    examples:
+      [
+        {
+          en: "I back up my photos to the cloud every week.",
+          vi: "Mỗi tuần mình sao lưu ảnh lên cloud.",
+        },
+      ],
+  }
+- {
+    slug: log-in-phr,
+    lemma: log in,
+    pos: phrasal_verb,
+    kind: phrasal,
+    cefr: A2,
+    topic: digital-life,
+    ipa: /lɒɡ ˈɪn/,
+    def: "To enter your name and password to start using an app or website.",
+    vi: "đăng nhập",
+    forms: [logs in, logged in, logging in, log into, login],
+    note: "Ngược nghĩa: log out (đăng xuất).",
+    examples:
+      [
+        {
+          en: "I can't log in because I forgot my password.",
+          vi: "Mình không đăng nhập được vì quên mật khẩu.",
+        },
+      ],
+  }
+- {
+    slug: sign-up-phr,
+    lemma: sign up,
+    pos: phrasal_verb,
+    kind: phrasal,
+    cefr: A2,
+    topic: digital-life,
+    ipa: /saɪn ˈʌp/,
+    def: "To create a new account or join a service.",
+    vi: "đăng ký (tài khoản)",
+    forms: [signs up, signed up, signing up, sign-up],
+    examples:
+      [
+        {
+          en: "You can sign up with your email or your phone number.",
+          vi: "Bạn có thể đăng ký bằng email hoặc số điện thoại.",
+        },
+      ],
+  }
+- {
+    slug: password-manager-n,
+    lemma: password manager,
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: digital-life,
+    it: true,
+    ipa: /ˈpɑːswɜːd ˌmænɪdʒə/,
+    def: "An app that safely stores all your passwords in one place.",
+    vi: "trình quản lý mật khẩu",
+    forms: [password managers],
+    examples:
+      [
+        {
+          en: "A password manager lets you use a different password for every site.",
+          vi: "Trình quản lý mật khẩu giúp bạn dùng mật khẩu khác nhau cho mỗi trang.",
+        },
+      ],
+  }
+- {
+    slug: two-factor-authentication-n,
+    lemma: two-factor authentication,
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: digital-life,
+    it: true,
+    ipa: /ˌtuː ˈfæktə ɔːˌθentɪˈkeɪʃn/,
+    def: "A way to log in that needs your password and a second check, such as a code on your phone.",
+    vi: "xác thực hai lớp",
+    forms: [2FA, two-step verification],
+    examples:
+      [
+        {
+          en: "Turn on two-factor authentication for your bank account.",
+          vi: "Hãy bật xác thực hai lớp cho tài khoản ngân hàng của bạn.",
+        },
+      ],
+  }
+- {
+    slug: install-v,
+    lemma: install,
+    pos: verb,
+    cefr: A2,
+    topic: digital-life,
+    ipa: /ɪnˈstɔːl/,
+    def: "To put a program or app on a computer or phone so you can use it.",
+    vi: "cài đặt",
+    forms: [installs, installed, installing, installation, uninstall],
+    examples:
+      [
+        {
+          en: "Install the latest version before the meeting.",
+          vi: "Cài bản mới nhất trước buổi họp nhé.",
+        },
+      ],
+  }
+- {
+    slug: download-v,
+    lemma: download,
+    pos: verb,
+    cefr: A2,
+    topic: digital-life,
+    ipa: /ˌdaʊnˈləʊd/,
+    def: "To copy a file from the internet to your device.",
+    vi: "tải xuống",
+    forms: [downloads, downloaded, downloading, upload],
+    examples:
+      [
+        {
+          en: "The video is too big to download on mobile data.",
+          vi: "Video quá nặng để tải bằng 4G.",
+        },
+      ],
+  }
+- {
+    slug: storage-n,
+    lemma: storage,
+    pos: noun,
+    cefr: B1,
+    topic: digital-life,
+    ipa: /ˈstɔːrɪdʒ/,
+    def: "The space on a device or online service where you keep files.",
+    vi: "dung lượng lưu trữ",
+    note: 'Hay gặp: "run out of storage" (hết dung lượng).',
+    examples:
+      [
+        {
+          en: "My phone has run out of storage again.",
+          vi: "Điện thoại mình lại hết dung lượng rồi.",
+        },
+      ],
+  }
+- {
+    slug: charge-v,
+    lemma: charge,
+    pos: verb,
+    cefr: A2,
+    topic: digital-life,
+    ipa: /tʃɑːdʒ/,
+    def: "To put electricity into a battery, for example a phone battery.",
+    vi: "sạc (pin)",
+    forms: [charges, charged, charging, charger],
+    examples:
+      [
+        {
+          en: "Can I charge my laptop here? The battery is almost dead.",
+          vi: "Mình sạc laptop ở đây được không? Pin sắp hết rồi.",
+        },
+      ],
+  }
+- {
+    slug: unsubscribe-v,
+    lemma: unsubscribe,
+    pos: verb,
+    cefr: B1,
+    topic: digital-life,
+    ipa: /ˌʌnsəbˈskraɪb/,
+    def: "To stop getting emails or messages from a service, or to stop following a channel.",
+    vi: "huỷ đăng ký (nhận tin)",
+    forms: [unsubscribes, unsubscribed, unsubscribing, subscribe],
+    examples:
+      [
+        {
+          en: "I unsubscribed from all those shopping newsletters.",
+          vi: "Mình đã huỷ đăng ký hết mấy bản tin mua sắm đó.",
+        },
+      ],
+  }
+# Set 2: online life
+- {
+    slug: screen-time-n,
+    lemma: screen time,
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: digital-life,
+    ipa: /ˈskriːn taɪm/,
+    def: "The amount of time you spend looking at a phone, computer or TV.",
+    vi: "thời gian dùng màn hình",
+    examples:
+      [
+        {
+          en: "My screen time was nine hours yesterday, not counting work.",
+          vi: "Hôm qua thời gian dùng màn hình của mình là chín tiếng, chưa tính giờ làm.",
+        },
+      ],
+  }
+- {
+    slug: notification-n,
+    lemma: notification,
+    pos: noun,
+    cefr: B1,
+    topic: digital-life,
+    ipa: /ˌnəʊtɪfɪˈkeɪʃn/,
+    def: "A short message from an app that tells you something new has happened.",
+    vi: "thông báo",
+    forms: [notifications, notify],
+    examples:
+      [
+        {
+          en: "I turn off notifications when I need to focus.",
+          vi: "Mình tắt thông báo khi cần tập trung.",
+        },
+      ],
+  }
+- {
+    slug: scroll-through-phr,
+    lemma: scroll through,
+    pos: phrasal_verb,
+    kind: phrasal,
+    cefr: B1,
+    topic: digital-life,
+    ipa: /skrəʊl θruː/,
+    def: "To move quickly down a page or feed on a screen.",
+    vi: "lướt (màn hình, bảng tin)",
+    forms: [scrolls through, scrolled through, scrolling through, scroll],
+    examples:
+      [
+        {
+          en: "I scrolled through my feed for an hour instead of sleeping.",
+          vi: "Mình lướt bảng tin cả tiếng thay vì đi ngủ.",
+        },
+      ],
+  }
+- {
+    slug: go-viral-phr,
+    lemma: go viral,
+    pos: phrase,
+    kind: collocation,
+    cefr: B2,
+    topic: digital-life,
+    ipa: /ɡəʊ ˈvaɪrəl/,
+    def: "To spread very quickly online because many people share it.",
+    vi: "lan truyền chóng mặt, nổi rần rần trên mạng",
+    forms: [goes viral, went viral, gone viral, going viral],
+    examples:
+      [
+        {
+          en: "Her post about bad code reviews went viral overnight.",
+          vi: "Bài đăng của cô ấy về review code tệ nổi rần rần chỉ sau một đêm.",
+        },
+      ],
+  }
+- {
+    slug: privacy-n,
+    lemma: privacy,
+    pos: noun,
+    cefr: B1,
+    topic: digital-life,
+    ipa: /ˈprɪvəsi/,
+    def: "The right to keep your personal information and life to yourself.",
+    vi: "quyền riêng tư",
+    forms: [private],
+    examples:
+      [
+        {
+          en: "Check the privacy settings before you share your location.",
+          vi: "Kiểm tra cài đặt quyền riêng tư trước khi chia sẻ vị trí.",
+        },
+      ],
+  }
+- {
+    slug: scam-n,
+    lemma: scam,
+    pos: noun,
+    cefr: B1,
+    topic: digital-life,
+    ipa: /skæm/,
+    def: "A dishonest trick to take someone's money.",
+    vi: "trò lừa đảo",
+    forms: [scams, scammer, scammed],
+    examples:
+      [
+        {
+          en: "That free gift message is a scam. Don't click the link.",
+          vi: "Tin nhắn tặng quà miễn phí đó là lừa đảo. Đừng bấm link.",
+        },
+      ],
+  }
+- {
+    slug: phishing-n,
+    lemma: phishing,
+    pos: noun,
+    cefr: B2,
+    topic: digital-life,
+    it: true,
+    ipa: /ˈfɪʃɪŋ/,
+    def: "Fake emails or messages that try to make you give away passwords or bank details.",
+    vi: "lừa đảo giả mạo (để lấy thông tin)",
+    keep_en: true,
+    forms: [phishing email, phishing attack],
+    examples:
+      [
+        {
+          en: "IT sent a warning about a phishing email that looks like it is from HR.",
+          vi: "IT gửi cảnh báo về một email phishing giả danh phòng nhân sự.",
+        },
+      ],
+  }
+- {
+    slug: digital-detox-n,
+    lemma: digital detox,
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: digital-life,
+    ipa: /ˌdɪdʒɪtl ˈdiːtɒks/,
+    def: "A period when you choose not to use phones, computers or social media.",
+    vi: "thời gian cai thiết bị số",
+    examples:
+      [
+        {
+          en: "I'm doing a digital detox this weekend: no phone, no laptop.",
+          vi: "Cuối tuần này mình cai thiết bị số: không điện thoại, không laptop.",
+        },
+      ],
+  }
+- {
+    slug: stream-v,
+    lemma: stream,
+    pos: verb,
+    cefr: B1,
+    topic: digital-life,
+    ipa: /striːm/,
+    def: "To watch or listen to something online without saving the whole file first.",
+    vi: "xem/nghe trực tuyến, phát trực tiếp",
+    forms: [streams, streamed, streaming, livestream],
+    examples:
+      [
+        {
+          en: "We streamed the conference talks on the big screen.",
+          vi: "Bọn mình chiếu trực tuyến các bài nói ở hội thảo lên màn hình lớn.",
+        },
+      ],
+  }
+- {
+    slug: subscription-n,
+    lemma: subscription,
+    pos: noun,
+    cefr: B1,
+    topic: digital-life,
+    ipa: /səbˈskrɪpʃn/,
+    def: "Money you pay regularly to keep using a service.",
+    vi: "gói thuê bao, gói đăng ký trả phí",
+    forms: [subscriptions, subscribe],
+    examples:
+      [
+        {
+          en: "I cancelled two subscriptions that I never use.",
+          vi: "Mình đã huỷ hai gói trả phí mà mình không bao giờ dùng.",
+        },
+      ],
+  }
+# Set 2 (additions): online life
+- slug: upload-v
+  lemma: upload
+  pos: verb
+  cefr: B1
+  topic: digital-life
+  it: true
+  ipa: "/ʌpˈləʊd/"
+  def: "To send a file from your device to a website or server."
+  vi: "tải lên"
+  forms: [uploads, uploaded, uploading]
+  examples:
+    - en: "She uploaded the photos from the trip to her album."
+      vi: "Cô ấy đã tải ảnh chuyến đi lên album."
+- slug: update-v
+  lemma: update
+  pos: verb
+  cefr: B1
+  topic: digital-life
+  it: true
+  ipa: "/ʌpˈdeɪt/"
+  def: "To install a newer version of an app or system."
+  vi: "cập nhật (phần mềm)"
+  forms: [updates, updated, updating, update]
+  examples:
+    - en: "My phone wants to update every night at two a.m."
+      vi: "Điện thoại mình đêm nào cũng đòi cập nhật lúc hai giờ sáng."
+# Set 3: apps, web & safety
+- slug: sync-v
+  lemma: sync
+  pos: verb
+  cefr: B1
+  topic: digital-life
+  it: true
+  ipa: "/sɪŋk/"
+  def: "To make the same data appear on two or more devices."
+  vi: "đồng bộ (dữ liệu)"
+  forms: [syncs, synced, syncing, synchronize]
+  examples:
+    - en: "My notes sync between my laptop and my phone."
+      vi: "Ghi chú của mình được đồng bộ giữa laptop và điện thoại."
+- slug: hotspot-n
+  lemma: hotspot
+  pos: noun
+  cefr: B1
+  topic: digital-life
+  it: true
+  ipa: "/ˈhɒtspɒt/"
+  def: "A place or a phone that shares an internet connection with other devices."
+  vi: "điểm phát wifi"
+  forms: [hotspots]
+  examples:
+    - en: "The café Wi-Fi was down, so I used my phone as a hotspot."
+      vi: "Wifi quán cà phê bị hỏng nên mình phát wifi từ điện thoại."
+- slug: browser-n
+  lemma: browser
+  pos: noun
+  cefr: A2
+  topic: digital-life
+  it: true
+  ipa: "/ˈbraʊzə/"
+  def: "A program you use to open and look at websites."
+  vi: "trình duyệt"
+  forms: [browsers, web browser]
+  examples:
+    - en: "Try clearing the cache or using a different browser."
+      vi: "Thử xoá bộ nhớ đệm hoặc dùng trình duyệt khác xem."
+- slug: search-engine-n
+  lemma: search engine
+  pos: noun
+  kind: collocation
+  cefr: B1
+  topic: digital-life
+  it: true
+  ipa: "/ˈsɜːtʃ ˌendʒɪn/"
+  def: "A website that finds pages on the internet for the words you type."
+  vi: "công cụ tìm kiếm"
+  forms: [search engines]
+  examples:
+    - en: "Most people never look past the first page of a search engine."
+      vi: "Phần lớn mọi người không bao giờ xem quá trang đầu của công cụ tìm kiếm."
+- slug: bookmark-v
+  lemma: bookmark
+  pos: verb
+  cefr: B1
+  topic: digital-life
+  it: true
+  ipa: "/ˈbʊkmɑːk/"
+  def: "To save a link to a web page so you can find it again easily."
+  vi: "đánh dấu trang, lưu trang"
+  forms: [bookmarks, bookmarked, bookmarking, bookmark]
+  examples:
+    - en: "I bookmarked the docs page so I don't have to search for it again."
+      vi: "Mình đã lưu trang tài liệu để khỏi phải tìm lại."
+- slug: screenshot-n
+  lemma: screenshot
+  pos: noun
+  cefr: A2
+  topic: digital-life
+  it: true
+  ipa: "/ˈskriːnʃɒt/"
+  def: "A picture of what is on your screen at one moment."
+  vi: "ảnh chụp màn hình"
+  forms: [screenshots]
+  examples:
+    - en: "Can you send me a screenshot of the error message?"
+      vi: "Bạn gửi mình ảnh chụp màn hình thông báo lỗi được không?"
+- slug: attachment-n
+  lemma: attachment
+  pos: noun
+  cefr: B1
+  topic: digital-life
+  ipa: "/əˈtætʃmənt/"
+  def: "A file that you send together with an email or message."
+  vi: "tệp đính kèm"
+  forms: [attachments, attach, attached]
+  examples:
+    - en: "Don't open an attachment from someone you don't know."
+      vi: "Đừng mở tệp đính kèm từ người lạ."
+- slug: spam-n
+  lemma: spam
+  pos: noun
+  cefr: B1
+  topic: digital-life
+  ipa: "/spæm/"
+  def: "Unwanted messages, usually ads, sent to many people."
+  vi: "thư rác, tin nhắn rác"
+  forms: [spam folder]
+  examples:
+    - en: "Check your spam folder if you don't see the code."
+      vi: "Nếu không thấy mã thì bạn kiểm tra thư mục thư rác nhé."
+- slug: malware-n
+  lemma: malware
+  pos: noun
+  cefr: B2
+  topic: digital-life
+  it: true
+  ipa: "/ˈmælweə/"
+  def: "Software made to damage a computer or steal information."
+  vi: "phần mềm độc hại"
+  examples:
+    - en: "That free movie app was full of malware."
+      vi: "Cái ứng dụng xem phim miễn phí đó đầy phần mềm độc hại."
+- slug: data-breach-n
+  lemma: data breach
+  pos: noun
+  kind: collocation
+  cefr: B2
+  topic: digital-life
+  it: true
+  ipa: "/ˈdeɪtə ˌbriːtʃ/"
+  def: "An event in which private information is stolen or made public by mistake."
+  vi: "vụ rò rỉ dữ liệu"
+  forms: [data breaches]
+  examples:
+    - en: "After the data breach, every user had to change their password."
+      vi: "Sau vụ rò rỉ dữ liệu, mọi người dùng đều phải đổi mật khẩu."
+- slug: user-friendly-adj
+  lemma: user-friendly
+  pos: adjective
+  cefr: B1
+  topic: digital-life
+  ipa: "/ˌjuːzə ˈfrendli/"
+  def: "Easy for people to learn and use."
+  vi: "dễ sử dụng, thân thiện với người dùng"
+  examples:
+    - en: "My parents like this banking app because it is very user-friendly."
+      vi: "Bố mẹ mình thích ứng dụng ngân hàng này vì nó rất dễ dùng."
+- slug: troubleshoot-v
+  lemma: troubleshoot
+  pos: verb
+  cefr: B2
+  topic: digital-life
+  it: true
+  ipa: "/ˈtrʌblʃuːt/"
+  def: "To find out why something is not working and fix it."
+  vi: "khắc phục sự cố, dò lỗi"
+  forms: [troubleshoots, troubleshot, troubleshooting]
+  examples:
+    - en: "I spent an hour troubleshooting the printer for my mum."
+      vi: "Mình mất một tiếng dò lỗi máy in cho mẹ."
+- slug: restart-v
+  lemma: restart
+  pos: verb
+  cefr: A2
+  topic: digital-life
+  it: true
+  ipa: "/ˌriːˈstɑːt/"
+  def: "To turn a device or program off and on again."
+  vi: "khởi động lại"
+  forms: [restarts, restarted, restarting, reboot]
+  examples:
+    - en: "Have you tried to restart the router?"
+      vi: "Bạn đã thử khởi động lại router chưa?"
+- slug: offline-adj
+  lemma: offline
+  pos: adjective
+  cefr: B1
+  topic: digital-life
+  it: true
+  ipa: "/ˌɒfˈlaɪn/"
+  def: "Not connected to the internet."
+  vi: "ngoại tuyến, không có mạng"
+  forms: [go offline, went offline]
+  examples:
+    - en: "You can read the maps offline, even on the plane."
+      vi: "Bạn có thể xem bản đồ khi không có mạng, kể cả trên máy bay."
+# Set 4: hardware & devices
+- slug: device-n
+  lemma: device
+  pos: noun
+  cefr: B1
+  topic: digital-life
+  ipa: "/dɪˈvaɪs/"
+  def: "A machine or tool such as a phone, tablet or laptop."
+  vi: "thiết bị"
+  forms: [devices]
+  examples:
+    - en: "You can watch the course on any device: phone, tablet or laptop."
+      vi: "Bạn có thể xem khoá học trên bất kỳ thiết bị nào: điện thoại, máy tính bảng hay laptop."
+- slug: gadget-n
+  lemma: gadget
+  pos: noun
+  cefr: B1
+  topic: digital-life
+  ipa: "/ˈɡædʒɪt/"
+  def: "A small, clever machine or tool, often a new electronic one."
+  vi: "đồ công nghệ, món đồ điện tử nhỏ"
+  forms: [gadgets]
+  examples:
+    - en: "My brother buys every new gadget as soon as it comes out."
+      vi: "Anh mình mua mọi món đồ công nghệ mới ngay khi nó ra mắt."
+- slug: touchscreen-n
+  lemma: touchscreen
+  pos: noun
+  cefr: B1
+  topic: digital-life
+  ipa: "/ˈtʌtʃskriːn/"
+  def: "A screen that you control by touching it with your finger."
+  vi: "màn hình cảm ứng"
+  forms: [touchscreens, touch screen]
+  examples:
+    - en: "The touchscreen doesn't work when my hands are wet."
+      vi: "Màn hình cảm ứng không nhạy khi tay mình bị ướt."
+- slug: battery-life-n
+  lemma: battery life
+  pos: noun
+  kind: collocation
+  cefr: B1
+  topic: digital-life
+  ipa: "/ˈbætəri laɪf/"
+  def: "How long a device can work before you need to charge it again."
+  vi: "thời lượng pin"
+  examples:
+    - en: "This laptop has amazing battery life: about fifteen hours."
+      vi: "Laptop này có thời lượng pin tuyệt vời: khoảng mười lăm tiếng."
+- slug: power-bank-n
+  lemma: power bank
+  pos: noun
+  kind: collocation
+  cefr: B1
+  topic: digital-life
+  ipa: "/ˈpaʊə bæŋk/"
+  def: "A small battery you carry with you to charge your phone when you are out."
+  vi: "sạc dự phòng"
+  forms: [power banks]
+  examples:
+    - en: "I always keep a power bank in my bag on long trips."
+      vi: "Mình luôn để một cục sạc dự phòng trong túi khi đi xa."
+- slug: wireless-adj
+  lemma: wireless
+  pos: adjective
+  cefr: B1
+  topic: digital-life
+  ipa: "/ˈwaɪələs/"
+  def: "Working without a cable, using radio signals instead."
+  vi: "không dây"
+  examples:
+    - en: "I bought a wireless mouse so my desk looks less messy."
+      vi: "Mình mua chuột không dây để bàn làm việc đỡ bừa bộn."
+- slug: plug-in-phr
+  lemma: plug in
+  pos: phrasal_verb
+  kind: phrasal
+  cefr: B1
+  topic: digital-life
+  ipa: "/plʌɡ ˈɪn/"
+  def: "To connect a machine to the electricity or to another device with a cable."
+  vi: "cắm (điện, dây cáp)"
+  forms: [plugs in, plugged in, plugging in, plug it in]
+  note: 'Tân ngữ là đại từ thì đặt giữa: "plug it in".'
+  examples:
+    - en: "Is the monitor plugged in? The screen is completely black."
+      vi: "Màn hình đã cắm điện chưa? Nó đen thui luôn."
+- slug: unplug-v
+  lemma: unplug
+  pos: verb
+  cefr: B1
+  topic: digital-life
+  ipa: "/ʌnˈplʌɡ/"
+  def: "To remove a plug or cable from the electricity or from a device."
+  vi: "rút phích cắm, rút dây"
+  forms: [unplugs, unplugged, unplugging]
+  examples:
+    - en: "Unplug the charger when you are not using it."
+      vi: "Rút cục sạc ra khi bạn không dùng."
+- slug: switch-off-phr
+  lemma: switch off
+  pos: phrasal_verb
+  kind: phrasal
+  cefr: A2
+  topic: digital-life
+  ipa: "/swɪtʃ ˈɒf/"
+  def: "To stop a machine or light from working by pressing a button."
+  vi: "tắt (máy, đèn)"
+  forms: [switches off, switched off, switching off, switch it off, switch on]
+  note: 'Ngược nghĩa: "switch on". Giống "turn off".'
+  examples:
+    - en: "Please switch off your phones during the exam."
+      vi: "Vui lòng tắt điện thoại trong giờ thi."
+- slug: upgrade-v
+  lemma: upgrade
+  pos: verb
+  cefr: B1
+  topic: digital-life
+  ipa: "/ʌpˈɡreɪd/"
+  def: "To change to a newer, better or more powerful machine or plan."
+  vi: "nâng cấp"
+  forms: [upgrades, upgraded, upgrading, upgrade]
+  examples:
+    - en: "I upgraded my phone because the old one was so slow."
+      vi: "Mình đã nâng cấp điện thoại vì cái cũ chậm quá."
+- slug: portable-adj
+  lemma: portable
+  pos: adjective
+  cefr: B1
+  topic: digital-life
+  ipa: "/ˈpɔːtəbl/"
+  def: "Light and small enough to carry around easily."
+  vi: "di động, xách tay được"
+  examples:
+    - en: "A portable speaker is perfect for picnics."
+      vi: "Một chiếc loa di động là lựa chọn hoàn hảo cho buổi dã ngoại."
+- slug: headphones-n
+  lemma: headphones
+  pos: noun
+  cefr: A2
+  topic: digital-life
+  ipa: "/ˈhedfəʊnz/"
+  def: "A device you wear over or in your ears to listen to sound privately."
+  vi: "tai nghe"
+  forms: [headphone, earphones, earbuds]
+  examples:
+    - en: "I put on my headphones when the office gets noisy."
+      vi: "Mình đeo tai nghe khi văn phòng ồn ào."
+- slug: webcam-n
+  lemma: webcam
+  pos: noun
+  cefr: B1
+  topic: digital-life
+  ipa: "/ˈwebkæm/"
+  def: "A small camera on or connected to a computer, used for video calls."
+  vi: "webcam, camera máy tính"
+  forms: [webcams]
+  examples:
+    - en: "My webcam isn't working, so I'll join with audio only."
+      vi: "Webcam của mình bị hỏng nên mình vào họp chỉ bằng âm thanh."
+- slug: smartwatch-n
+  lemma: smartwatch
+  pos: noun
+  cefr: B1
+  topic: digital-life
+  ipa: "/ˈsmɑːtwɒtʃ/"
+  def: "A watch that works like a small computer, showing messages and counting your steps."
+  vi: "đồng hồ thông minh"
+  forms: [smartwatches, smart watch]
+  examples:
+    - en: "My smartwatch tells me to stand up every hour."
+      vi: "Đồng hồ thông minh nhắc mình đứng dậy mỗi tiếng."
+- slug: hard-drive-n
+  lemma: hard drive
+  pos: noun
+  kind: collocation
+  cefr: B1
+  topic: digital-life
+  ipa: "/ˈhɑːd draɪv/"
+  def: "The part of a computer, or a separate box, that stores files and programs."
+  vi: "ổ cứng"
+  forms: [hard drives, external hard drive, hard disk]
+  examples:
+    - en: "I keep old photos on an external hard drive."
+      vi: "Mình lưu ảnh cũ trong một ổ cứng gắn ngoài."
+- slug: cable-n
+  lemma: cable
+  pos: noun
+  cefr: B1
+  topic: digital-life
+  ipa: "/ˈkeɪbl/"
+  def: "A plastic-covered wire that connects devices or carries electricity."
+  vi: "dây cáp"
+  forms: [cables]
+  examples:
+    - en: "Do you have a cable that fits this phone? Mine is at home."
+      vi: "Bạn có dây cáp vừa điện thoại này không? Dây của mình để ở nhà rồi."
+# Set 5: the internet & networks
+- slug: connection-n
+  lemma: connection
+  pos: noun
+  cefr: B1
+  topic: digital-life
+  ipa: "/kəˈnekʃn/"
+  def: "A link to the internet or a network that lets your device send and get data."
+  vi: "kết nối (mạng)"
+  forms: [connections, connect, connected]
+  examples:
+    - en: "Sorry, my connection is bad. Can you say that again?"
+      vi: "Xin lỗi, kết nối của mình kém. Bạn nói lại được không?"
+- slug: broadband-n
+  lemma: broadband
+  pos: noun
+  cefr: B2
+  topic: digital-life
+  ipa: "/ˈbrɔːdbænd/"
+  def: "A fast internet service at home or in an office, usually through a cable."
+  vi: "internet băng rộng (mạng cố định tốc độ cao)"
+  examples:
+    - en: "We finally got fibre broadband in our apartment."
+      vi: "Cuối cùng căn hộ của bọn mình cũng có internet cáp quang."
+- slug: wi-fi-n
+  lemma: Wi-Fi
+  pos: noun
+  cefr: A2
+  topic: digital-life
+  ipa: "/ˈwaɪ faɪ/"
+  def: "A way of connecting to the internet without wires."
+  vi: "mạng wifi"
+  keep_en: true
+  forms: [wifi, WiFi, Wi-Fi password]
+  examples:
+    - en: "What's the Wi-Fi password here?"
+      vi: "Mật khẩu wifi ở đây là gì vậy?"
+- slug: router-n
+  lemma: router
+  pos: noun
+  cefr: B1
+  topic: digital-life
+  ipa: "/ˈruːtə/"
+  def: "A small box that sends the internet connection to the devices in a home or office."
+  vi: "bộ định tuyến, cục phát wifi (modem)"
+  forms: [routers]
+  examples:
+    - en: "The router is in the living room, so the signal is weak in my bedroom."
+      vi: "Cục phát wifi đặt ở phòng khách nên sóng trong phòng ngủ của mình yếu."
+- slug: network-n
+  lemma: network
+  pos: noun
+  cefr: B1
+  topic: digital-life
+  ipa: "/ˈnetwɜːk/"
+  def: "A group of computers or devices that are connected so they can share data."
+  vi: "mạng (máy tính, viễn thông)"
+  forms: [networks, mobile network]
+  examples:
+    - en: "You can only open this file on the office network."
+      vi: "Bạn chỉ mở được tệp này khi dùng mạng của văn phòng."
+- slug: bandwidth-n
+  lemma: bandwidth
+  pos: noun
+  cefr: B2
+  topic: digital-life
+  ipa: "/ˈbændwɪdθ/"
+  def: "How much data an internet connection can carry at one time."
+  vi: "băng thông"
+  note: 'Nghĩa bóng (thân mật): "I don''t have the bandwidth" = mình không còn sức/thời gian.'
+  examples:
+    - en: "Four people streaming videos at once uses a lot of bandwidth."
+      vi: "Bốn người cùng xem video một lúc sẽ tốn rất nhiều băng thông."
+- slug: signal-n
+  lemma: signal
+  pos: noun
+  cefr: B1
+  topic: digital-life
+  ipa: "/ˈsɪɡnəl/"
+  def: "The radio waves that let a phone connect to the network."
+  vi: "sóng (điện thoại, wifi)"
+  forms: [signals, no signal]
+  examples:
+    - en: "There's no signal in the lift, so I'll call you back."
+      vi: "Trong thang máy không có sóng, mình gọi lại sau nhé."
+- slug: mobile-data-n
+  lemma: mobile data
+  pos: noun
+  kind: collocation
+  cefr: B1
+  topic: digital-life
+  ipa: "/ˌməʊbaɪl ˈdeɪtə/"
+  def: "Internet on your phone that comes from your phone company, not from Wi-Fi."
+  vi: "dữ liệu di động (3G/4G)"
+  examples:
+    - en: "I used all my mobile data watching videos on the bus."
+      vi: "Mình xài hết dữ liệu di động vì xem video trên xe buýt."
+- slug: go-online-phr
+  lemma: go online
+  pos: phrase
+  kind: collocation
+  cefr: A2
+  topic: digital-life
+  ipa: "/ɡəʊ ˌɒnˈlaɪn/"
+  def: "To connect to the internet, or to start using it."
+  vi: "lên mạng, vào mạng"
+  forms: [goes online, went online, gone online, going online, be online]
+  examples:
+    - en: "My grandma went online for the first time last year."
+      vi: "Bà mình lần đầu tiên lên mạng vào năm ngoái."
+- slug: website-n
+  lemma: website
+  pos: noun
+  cefr: A2
+  topic: digital-life
+  ipa: "/ˈwebsaɪt/"
+  def: "A group of pages on the internet that belong to one person or company."
+  vi: "trang web"
+  forms: [websites, site]
+  examples:
+    - en: "You can book a table on the restaurant's website."
+      vi: "Bạn có thể đặt bàn trên trang web của nhà hàng."
+- slug: link-n
+  lemma: link
+  pos: noun
+  cefr: A2
+  topic: digital-life
+  ipa: "/lɪŋk/"
+  def: "Words or an address that take you to another page when you click them."
+  vi: "đường link, liên kết"
+  forms: [links, link to]
+  examples:
+    - en: "I'll send you the link to the meeting in the chat."
+      vi: "Mình sẽ gửi bạn đường link cuộc họp trong khung chat."
+- slug: click-on-phr
+  lemma: click on
+  pos: phrasal_verb
+  kind: phrasal
+  cefr: A2
+  topic: digital-life
+  ipa: "/klɪk ɒn/"
+  def: "To press a button on the mouse or tap the screen to choose something."
+  vi: "bấm vào, nhấp vào"
+  forms: [clicks on, clicked on, clicking on, click]
+  examples:
+    - en: "Click on the blue button at the bottom of the page."
+      vi: "Bấm vào nút màu xanh ở cuối trang."
+- slug: type-in-phr
+  lemma: type in
+  pos: phrasal_verb
+  kind: phrasal
+  cefr: B1
+  topic: digital-life
+  ipa: "/taɪp ˈɪn/"
+  def: "To write words or numbers into a box on a screen using a keyboard."
+  vi: "gõ vào, nhập vào (ô trống)"
+  forms: [types in, typed in, typing in, type it in]
+  examples:
+    - en: "Type in the code we just sent to your phone."
+      vi: "Hãy nhập mã mà chúng tôi vừa gửi tới điện thoại của bạn."
+- slug: the-cloud-n
+  lemma: the cloud
+  pos: noun
+  kind: collocation
+  cefr: B1
+  topic: digital-life
+  ipa: "/ðə ˈklaʊd/"
+  def: "Computers on the internet where you can keep files and use them from any device."
+  vi: "đám mây (lưu trữ trực tuyến)"
+  forms: [cloud, cloud storage, in the cloud]
+  examples:
+    - en: "All my documents are in the cloud, so I can work from anywhere."
+      vi: "Tài liệu của mình đều nằm trên đám mây nên mình làm việc ở đâu cũng được."
+- slug: load-v
+  lemma: load
+  pos: verb
+  cefr: B1
+  topic: digital-life
+  ipa: "/ləʊd/"
+  def: "To appear on the screen, or to make a page or app appear and be ready."
+  vi: "tải (trang, ứng dụng hiện lên)"
+  forms: [loads, loaded, loading]
+  examples:
+    - en: "The page is still loading. The Wi-Fi here is really slow."
+      vi: "Trang vẫn đang tải. Wifi ở đây chậm thật."
+- slug: buffer-v
+  lemma: buffer
+  pos: verb
+  cefr: B2
+  topic: digital-life
+  ipa: "/ˈbʌfə/"
+  def: "When a video stops for a moment because it is still getting data."
+  vi: "(video) bị đứng để tải, quay vòng vòng"
+  forms: [buffers, buffered, buffering]
+  examples:
+    - en: "The film kept buffering, so we gave up and read a book."
+      vi: "Phim cứ đứng hình quay vòng vòng nên bọn mình bỏ cuộc và đọc sách."
+- slug: lag-n
+  lemma: lag
+  pos: noun
+  cefr: B2
+  topic: digital-life
+  ipa: "/læɡ/"
+  def: "A short delay between when you do something and when it happens on screen."
+  vi: "độ trễ, hiện tượng giật lag"
+  forms: [lags, lagged, lagging, laggy]
+  examples:
+    - en: "There's a lot of lag in this online game tonight."
+      vi: "Tối nay trò chơi trực tuyến này giật lag quá."
+- slug: cut-out-phr
+  lemma: cut out
+  pos: phrasal_verb
+  kind: phrasal
+  cefr: B2
+  topic: digital-life
+  ipa: "/kʌt ˈaʊt/"
+  def: "When the sound or connection in a call suddenly stops for a short time."
+  vi: "(tiếng, cuộc gọi) bị mất, bị ngắt quãng"
+  forms: [cuts out, cutting out]
+  examples:
+    - en: "You're cutting out. I only heard half of that."
+      vi: "Tiếng của bạn bị ngắt quãng. Mình chỉ nghe được một nửa."
+# Set 6: social media
+- slug: social-media-n
+  lemma: social media
+  pos: noun
+  kind: collocation
+  cefr: B1
+  topic: digital-life
+  ipa: "/ˌsəʊʃl ˈmiːdiə/"
+  def: "Websites and apps where people share posts, photos and messages with others."
+  vi: "mạng xã hội"
+  examples:
+    - en: "I try not to check social media before breakfast."
+      vi: "Mình cố không lướt mạng xã hội trước bữa sáng."
+- slug: post-v
+  lemma: post
+  pos: verb
+  cefr: B1
+  topic: digital-life
+  ipa: "/pəʊst/"
+  def: "To put a message, photo or video online so other people can see it."
+  vi: "đăng (bài, ảnh lên mạng)"
+  forms: [posts, posted, posting, post]
+  examples:
+    - en: "She posted a photo of her new desk setup."
+      vi: "Cô ấy đã đăng ảnh góc làm việc mới của mình."
+- slug: share-v
+  lemma: share
+  pos: verb
+  cefr: A2
+  topic: digital-life
+  ipa: "/ʃeə/"
+  def: "To send someone else's post or a link to your friends or followers."
+  vi: "chia sẻ (bài viết, đường link)"
+  forms: [shares, shared, sharing]
+  examples:
+    - en: "Please share this post if you know anyone who is looking for a job."
+      vi: "Hãy chia sẻ bài này nếu bạn biết ai đang tìm việc nhé."
+- slug: leave-a-comment-phr
+  lemma: leave a comment
+  pos: phrase
+  kind: collocation
+  cefr: B1
+  topic: digital-life
+  ipa: "/liːv ə ˈkɒment/"
+  def: "To write a short reply under a post or video."
+  vi: "để lại bình luận"
+  forms: [leaves a comment, left a comment, leaving a comment, comment]
+  examples:
+    - en: "Leave a comment and tell us what you think."
+      vi: "Hãy để lại bình luận và cho chúng tôi biết bạn nghĩ gì."
+- slug: like-v
+  lemma: like
+  pos: verb
+  cefr: A2
+  topic: digital-life
+  ipa: "/laɪk/"
+  def: "To press a button to show that you enjoy a post, photo or video."
+  vi: "thả tim, bấm thích"
+  forms: [likes, liked, liking]
+  examples:
+    - en: "Over a thousand people liked her video in one hour."
+      vi: "Hơn một nghìn người đã bấm thích video của cô ấy chỉ trong một giờ."
+- slug: follower-n
+  lemma: follower
+  pos: noun
+  cefr: B1
+  topic: digital-life
+  ipa: "/ˈfɒləʊə/"
+  def: "A person who chooses to see someone's posts on social media."
+  vi: "người theo dõi"
+  forms: [followers, follow]
+  examples:
+    - en: "His cooking channel now has fifty thousand followers."
+      vi: "Kênh nấu ăn của anh ấy giờ có năm mươi nghìn người theo dõi."
+- slug: profile-n
+  lemma: profile
+  pos: noun
+  cefr: B1
+  topic: digital-life
+  ipa: "/ˈprəʊfaɪl/"
+  def: "The page on a website or app that shows your photo and information about you."
+  vi: "trang cá nhân, hồ sơ"
+  forms: [profiles, profile picture]
+  examples:
+    - en: "Recruiters always look at your profile before they call you."
+      vi: "Nhà tuyển dụng luôn xem trang cá nhân của bạn trước khi gọi."
+- slug: username-n
+  lemma: username
+  pos: noun
+  cefr: A2
+  topic: digital-life
+  ipa: "/ˈjuːzəneɪm/"
+  def: "The name you choose to use on a website or app."
+  vi: "tên người dùng"
+  forms: [usernames, user name]
+  examples:
+    - en: "That username is already taken. Try adding some numbers."
+      vi: "Tên người dùng đó có người dùng rồi. Thử thêm vài con số xem."
+- slug: hashtag-n
+  lemma: hashtag
+  pos: noun
+  cefr: B1
+  topic: digital-life
+  ipa: "/ˈhæʃtæɡ/"
+  def: "A word with the # sign in front of it, used to group posts about one topic."
+  vi: "thẻ bắt đầu bằng dấu #"
+  keep_en: true
+  forms: [hashtags]
+  examples:
+    - en: "Use the event hashtag so everyone can find your photos."
+      vi: "Hãy dùng hashtag của sự kiện để mọi người tìm thấy ảnh của bạn."
+- slug: tag-v
+  lemma: tag
+  pos: verb
+  cefr: B1
+  topic: digital-life
+  ipa: "/tæɡ/"
+  def: "To add someone's name to a photo or post so that it links to them."
+  vi: "gắn thẻ (ai đó)"
+  forms: [tags, tagged, tagging]
+  examples:
+    - en: "Please don't tag me in that photo. My eyes are closed!"
+      vi: "Đừng gắn thẻ mình vào ảnh đó nhé. Mình nhắm mắt mất rồi!"
+- slug: influencer-n
+  lemma: influencer
+  pos: noun
+  cefr: B2
+  topic: digital-life
+  ipa: "/ˈɪnfluənsə/"
+  def: "A person with many followers who is paid to talk about products online."
+  vi: "người có sức ảnh hưởng (trên mạng)"
+  forms: [influencers]
+  examples:
+    - en: "The brand paid an influencer to review its new phone."
+      vi: "Hãng đó trả tiền cho một người có sức ảnh hưởng để đánh giá điện thoại mới."
+- slug: content-creator-n
+  lemma: content creator
+  pos: noun
+  kind: collocation
+  cefr: B2
+  topic: digital-life
+  ipa: "/ˈkɒntent kriˌeɪtə/"
+  def: "A person who makes videos, posts or podcasts for people to watch or read online."
+  vi: "nhà sáng tạo nội dung"
+  forms: [content creators, create content]
+  examples:
+    - en: "She left her office job to become a full-time content creator."
+      vi: "Cô ấy bỏ việc văn phòng để làm nhà sáng tạo nội dung toàn thời gian."
+- slug: feed-n
+  lemma: feed
+  pos: noun
+  cefr: B2
+  topic: digital-life
+  ipa: "/fiːd/"
+  def: "The list of new posts that an app shows you when you open it."
+  vi: "bảng tin"
+  forms: [feeds, news feed]
+  examples:
+    - en: "My feed is full of wedding photos this month."
+      vi: "Tháng này bảng tin của mình toàn ảnh cưới."
+- slug: trending-adj
+  lemma: trending
+  pos: adjective
+  cefr: B2
+  topic: digital-life
+  ipa: "/ˈtrendɪŋ/"
+  def: "Very popular and talked about by many people online right now."
+  vi: "đang thịnh hành, đang hot"
+  forms: [trend, trends, be trending]
+  examples:
+    - en: "That song is trending everywhere this week."
+      vi: "Bài hát đó tuần này đang hot khắp nơi."
+- slug: selfie-n
+  lemma: selfie
+  pos: noun
+  cefr: A2
+  topic: digital-life
+  ipa: "/ˈselfi/"
+  def: "A photo you take of yourself, usually with a phone."
+  vi: "ảnh tự chụp"
+  forms: [selfies, take a selfie]
+  examples:
+    - en: "We took a selfie in front of the office on our last day."
+      vi: "Bọn mình chụp một kiểu ảnh tự sướng trước văn phòng vào ngày cuối."
+- slug: caption-n
+  lemma: caption
+  pos: noun
+  cefr: B2
+  topic: digital-life
+  ipa: "/ˈkæpʃn/"
+  def: "The short text that goes with a photo or video."
+  vi: "chú thích (ảnh, video), dòng trạng thái kèm ảnh"
+  forms: [captions]
+  examples:
+    - en: "I spent longer writing the caption than taking the photo."
+      vi: "Mình mất nhiều thời gian viết chú thích hơn là chụp ảnh."
+- slug: direct-message-n
+  lemma: direct message
+  pos: noun
+  kind: collocation
+  cefr: B1
+  topic: digital-life
+  ipa: "/dəˌrekt ˈmesɪdʒ/"
+  def: "A private message sent to one person on social media."
+  vi: "tin nhắn riêng (inbox)"
+  forms: [direct messages, DM, DMs]
+  examples:
+    - en: "Send me a direct message and I'll give you the details."
+      vi: "Nhắn tin riêng cho mình, mình sẽ gửi chi tiết."
+- slug: unfollow-v
+  lemma: unfollow
+  pos: verb
+  cefr: B1
+  topic: digital-life
+  ipa: "/ʌnˈfɒləʊ/"
+  def: "To stop seeing someone's posts on social media."
+  vi: "bỏ theo dõi, huỷ theo dõi"
+  forms: [unfollows, unfollowed, unfollowing]
+  examples:
+    - en: "I unfollowed accounts that only make me feel bad."
+      vi: "Mình đã bỏ theo dõi những tài khoản chỉ khiến mình thấy tệ."
+- slug: block-v
+  lemma: block
+  pos: verb
+  cefr: B1
+  topic: digital-life
+  ipa: "/blɒk/"
+  def: "To stop a person from contacting you or seeing your page online."
+  vi: "chặn (ai đó trên mạng)"
+  forms: [blocks, blocked, blocking]
+  examples:
+    - en: "If a stranger keeps messaging you, just block them."
+      vi: "Nếu người lạ cứ nhắn tin cho bạn thì cứ chặn họ."
+- slug: troll-n
+  lemma: troll
+  pos: noun
+  cefr: B2
+  topic: digital-life
+  ipa: "/trəʊl/"
+  def: "A person who writes rude or silly comments online to make people angry."
+  vi: "kẻ chuyên gây sự, khiêu khích trên mạng"
+  forms: [trolls, trolling]
+  examples:
+    - en: "Don't reply to trolls. That's exactly what they want."
+      vi: "Đừng trả lời mấy kẻ khiêu khích trên mạng. Đó chính là điều họ muốn."
+# Set 7: online shopping & payments
+- slug: e-commerce-n
+  lemma: e-commerce
+  pos: noun
+  cefr: B2
+  topic: digital-life
+  ipa: "/ˈiː ˌkɒmɜːs/"
+  def: "The business of buying and selling things on the internet."
+  vi: "thương mại điện tử"
+  forms: [ecommerce, e-commerce site, e-commerce platform]
+  examples:
+    - en: "E-commerce has grown very fast in Vietnam since 2020."
+      vi: "Thương mại điện tử ở Việt Nam phát triển rất nhanh từ năm 2020."
+- slug: shopping-cart-n
+  lemma: shopping cart
+  pos: noun
+  kind: collocation
+  cefr: B1
+  topic: digital-life
+  ipa: "/ˈʃɒpɪŋ kɑːt/"
+  def: "The place on a shopping website where you keep the things you want to buy."
+  vi: "giỏ hàng"
+  forms: [shopping carts, cart, shopping basket, add to cart]
+  examples:
+    - en: "I have ten things in my shopping cart, but I can't afford them all."
+      vi: "Giỏ hàng của mình có mười món nhưng mình không đủ tiền mua hết."
+- slug: check-out-phr
+  lemma: check out
+  pos: phrasal_verb
+  kind: phrasal
+  cefr: B1
+  topic: digital-life
+  ipa: "/tʃek ˈaʊt/"
+  def: "To finish shopping online by giving your address and paying."
+  vi: "tiến hành thanh toán (đơn hàng)"
+  forms: [checks out, checked out, checking out, checkout]
+  note: '"check out" (2 từ) là động từ; "checkout" (1 từ) là danh từ.'
+  examples:
+    - en: "Log in before you check out so you can collect points."
+      vi: "Đăng nhập trước khi thanh toán để bạn được tích điểm."
+- slug: place-an-order-phr
+  lemma: place an order
+  pos: phrase
+  kind: collocation
+  cefr: B1
+  topic: digital-life
+  ipa: "/pleɪs ən ˈɔːdə/"
+  def: "To officially ask a shop to send you something you are buying."
+  vi: "đặt hàng"
+  forms: [places an order, placed an order, placing an order]
+  examples:
+    - en: "I placed an order on Monday and it arrived the next day."
+      vi: "Mình đặt hàng hôm thứ Hai và hôm sau hàng đã tới."
+- slug: tracking-number-n
+  lemma: tracking number
+  pos: noun
+  kind: collocation
+  cefr: B2
+  topic: digital-life
+  ipa: "/ˈtrækɪŋ ˌnʌmbə/"
+  def: "A number that lets you follow where your package is on its way to you."
+  vi: "mã vận đơn"
+  forms: [tracking numbers, track an order]
+  examples:
+    - en: "Use the tracking number to see where your package is."
+      vi: "Dùng mã vận đơn để xem gói hàng của bạn đang ở đâu."
+- slug: promo-code-n
+  lemma: promo code
+  pos: noun
+  kind: collocation
+  cefr: B1
+  topic: digital-life
+  ipa: "/ˈprəʊməʊ kəʊd/"
+  def: "A short code you type in when paying to get a lower price."
+  vi: "mã giảm giá"
+  forms: [promo codes, discount code, voucher code]
+  examples:
+    - en: "Enter the promo code at checkout to get ten percent off."
+      vi: "Nhập mã giảm giá khi thanh toán để được giảm mười phần trăm."
+- slug: flash-sale-n
+  lemma: flash sale
+  pos: noun
+  kind: collocation
+  cefr: B2
+  topic: digital-life
+  ipa: "/ˈflæʃ seɪl/"
+  def: "A sale with very low prices that only lasts a short time."
+  vi: "đợt giảm giá chớp nhoáng (flash sale)"
+  forms: [flash sales]
+  examples:
+    - en: "The flash sale starts at midnight and ends at two."
+      vi: "Đợt flash sale bắt đầu lúc nửa đêm và kết thúc lúc hai giờ."
+- slug: free-shipping-n
+  lemma: free shipping
+  pos: noun
+  kind: collocation
+  cefr: B1
+  topic: digital-life
+  ipa: "/ˌfriː ˈʃɪpɪŋ/"
+  def: "When the shop does not charge you to send your order."
+  vi: "miễn phí vận chuyển"
+  forms: [free delivery]
+  examples:
+    - en: "If you spend over 300,000 dong, you get free shipping."
+      vi: "Nếu mua trên 300.000 đồng, bạn được miễn phí vận chuyển."
+- slug: cash-on-delivery-n
+  lemma: cash on delivery
+  pos: noun
+  kind: collocation
+  cefr: B2
+  topic: digital-life
+  ipa: "/ˌkæʃ ɒn dɪˈlɪvəri/"
+  def: "A way of paying where you give the money to the driver when the package arrives."
+  vi: "giao hàng thu tiền (COD)"
+  forms: [COD]
+  examples:
+    - en: "My mum still prefers cash on delivery because she doesn't trust online payments."
+      vi: "Mẹ mình vẫn thích nhận hàng rồi trả tiền vì mẹ không tin thanh toán online."
+- slug: e-wallet-n
+  lemma: e-wallet
+  pos: noun
+  cefr: B2
+  topic: digital-life
+  ipa: "/ˈiː ˌwɒlɪt/"
+  def: "An app on your phone that keeps money so you can pay without cash or a card."
+  vi: "ví điện tử"
+  forms: [e-wallets, digital wallet]
+  examples:
+    - en: "You can pay for the taxi with your e-wallet."
+      vi: "Bạn có thể trả tiền taxi bằng ví điện tử."
+- slug: qr-code-n
+  lemma: QR code
+  pos: noun
+  kind: collocation
+  cefr: B1
+  topic: digital-life
+  ipa: "/ˌkjuː ˈɑː kəʊd/"
+  def: "A square pattern of black and white dots that a phone camera can read."
+  vi: "mã QR"
+  forms: [QR codes]
+  examples:
+    - en: "Most street food stalls here have a QR code for payment."
+      vi: "Phần lớn hàng quán vỉa hè ở đây đều có mã QR để thanh toán."
+- slug: scan-v
+  lemma: scan
+  pos: verb
+  cefr: B1
+  topic: digital-life
+  ipa: "/skæn/"
+  def: "To use a phone camera or a machine to read a code or copy a document."
+  vi: "quét (mã)"
+  forms: [scans, scanned, scanning, scanner]
+  examples:
+    - en: "Just scan this code with your banking app."
+      vi: "Bạn chỉ cần quét mã này bằng ứng dụng ngân hàng."
+- slug: contactless-adj
+  lemma: contactless
+  pos: adjective
+  cefr: B2
+  topic: digital-life
+  ipa: "/ˈkɒntæktləs/"
+  def: "Paid by holding a card or phone near a machine, without putting the card in."
+  vi: "không chạm (thanh toán)"
+  forms: [contactless payment, tap to pay]
+  examples:
+    - en: "Contactless payment is quick: just hold your card near the reader."
+      vi: "Thanh toán không chạm rất nhanh: chỉ cần đưa thẻ lại gần máy đọc."
+- slug: online-banking-n
+  lemma: online banking
+  pos: noun
+  kind: collocation
+  cefr: B1
+  topic: digital-life
+  ipa: "/ˌɒnlaɪn ˈbæŋkɪŋ/"
+  def: "Using a bank's website or app to check your money and make payments."
+  vi: "ngân hàng trực tuyến"
+  forms: [mobile banking, internet banking]
+  examples:
+    - en: "With online banking, I haven't been to a bank branch for years."
+      vi: "Nhờ ngân hàng trực tuyến, đã nhiều năm rồi mình không phải ra chi nhánh."
+- slug: bank-transfer-n
+  lemma: bank transfer
+  pos: noun
+  kind: collocation
+  cefr: B1
+  topic: digital-life
+  ipa: "/ˈbæŋk ˌtrænsfɜː/"
+  def: "Sending money directly from one bank account to another."
+  vi: "chuyển khoản"
+  forms: [bank transfers, transfer money]
+  examples:
+    - en: "Can I pay by bank transfer instead of cash?"
+      vi: "Mình chuyển khoản thay vì trả tiền mặt được không?"
+- slug: one-time-password-n
+  lemma: one-time password
+  pos: noun
+  kind: collocation
+  cefr: B2
+  topic: digital-life
+  ipa: "/ˌwʌn taɪm ˈpɑːswɜːd/"
+  def: "A code that works only once and for a few minutes, often sent by text message."
+  vi: "mã xác thực một lần (OTP)"
+  forms: [one-time passwords, OTP]
+  note: "Tuyệt đối không đọc mã OTP cho người khác, kể cả người tự xưng là nhân viên ngân hàng."
+  examples:
+    - en: "The bank will never ask you for your one-time password."
+      vi: "Ngân hàng sẽ không bao giờ hỏi bạn mã OTP."
+- slug: card-details-n
+  lemma: card details
+  pos: noun
+  kind: collocation
+  cefr: B1
+  topic: digital-life
+  ipa: "/ˈkɑːd ˌdiːteɪlz/"
+  def: "The number, name and other information on a bank card, used to pay online."
+  vi: "thông tin thẻ (ngân hàng)"
+  examples:
+    - en: "Only enter your card details on websites you trust."
+      vi: "Chỉ nhập thông tin thẻ trên những trang web bạn tin tưởng."
+- slug: top-up-phr
+  lemma: top up
+  pos: phrasal_verb
+  kind: phrasal
+  cefr: B1
+  topic: digital-life
+  ipa: "/tɒp ˈʌp/"
+  def: "To add more money to a phone, card or e-wallet."
+  vi: "nạp tiền (vào thẻ, ví, điện thoại)"
+  forms: [tops up, topped up, topping up, top-up]
+  examples:
+    - en: "I need to top up my phone before I can call you."
+      vi: "Mình cần nạp tiền điện thoại trước rồi mới gọi bạn được."
+- slug: customer-review-n
+  lemma: customer review
+  pos: noun
+  kind: collocation
+  cefr: B1
+  topic: digital-life
+  ipa: "/ˌkʌstəmə rɪˈvjuː/"
+  def: "A short opinion that a buyer writes about a product or shop."
+  vi: "đánh giá của khách hàng"
+  forms: [customer reviews, review]
+  examples:
+    - en: "I always read the customer reviews before I buy anything online."
+      vi: "Mình luôn đọc đánh giá của khách hàng trước khi mua gì trên mạng."
+- slug: wishlist-n
+  lemma: wishlist
+  pos: noun
+  cefr: B1
+  topic: digital-life
+  ipa: "/ˈwɪʃlɪst/"
+  def: "A list on a shopping site of things you want to buy later."
+  vi: "danh sách yêu thích (muốn mua)"
+  forms: [wishlists, wish list]
+  examples:
+    - en: "Put it on your wishlist and wait for a sale."
+      vi: "Cứ cho nó vào danh sách yêu thích rồi đợi giảm giá."
+- slug: unboxing-n
+  lemma: unboxing
+  pos: noun
+  cefr: B2
+  topic: digital-life
+  ipa: "/ʌnˈbɒksɪŋ/"
+  def: "Opening a new product for the first time, often filmed and shared online."
+  vi: "việc đập hộp, mở hộp sản phẩm mới"
+  forms: [unboxing video, unbox]
+  examples:
+    - en: "He makes unboxing videos of every new phone."
+      vi: "Anh ấy làm video đập hộp mọi mẫu điện thoại mới."
+- slug: buy-now-pay-later-n
+  lemma: buy now, pay later
+  pos: noun
+  kind: phrase
+  cefr: C1
+  topic: digital-life
+  ipa: "/ˌbaɪ ˈnaʊ peɪ ˈleɪtə/"
+  def: "A way of shopping where you get the item now and pay for it in parts later."
+  vi: "mua trước trả sau"
+  forms: [BNPL, buy now pay later]
+  examples:
+    - en: "Buy now, pay later apps make it easy to spend more than you have."
+      vi: "Các ứng dụng mua trước trả sau khiến người ta dễ tiêu quá số tiền mình có."
+# Set 8: cybersecurity & privacy
+- slug: hack-v
+  lemma: hack
+  pos: verb
+  cefr: B2
+  topic: digital-life
+  ipa: "/hæk/"
+  def: "To get into someone's computer or account without permission."
+  vi: "tấn công, xâm nhập trái phép (tài khoản, máy tính)"
+  forms: [hacks, hacked, hacking, hacker, get hacked]
+  examples:
+    - en: "My cousin's account got hacked and sent strange links to everyone."
+      vi: "Tài khoản của em họ mình bị hack và gửi link lạ cho mọi người."
+- slug: computer-virus-n
+  lemma: computer virus
+  pos: noun
+  kind: collocation
+  cefr: B1
+  topic: digital-life
+  ipa: "/kəmˈpjuːtə ˌvaɪrəs/"
+  def: "A harmful program that copies itself and spreads from computer to computer."
+  vi: "virus máy tính"
+  forms: [computer viruses, virus, viruses]
+  examples:
+    - en: "The USB stick from the conference had a computer virus on it."
+      vi: "Chiếc USB nhận ở hội thảo bị nhiễm virus máy tính."
+- slug: antivirus-n
+  lemma: antivirus
+  pos: noun
+  cefr: B2
+  topic: digital-life
+  ipa: "/ˈæntiˌvaɪrəs/"
+  def: "Software that finds and removes harmful programs from your computer."
+  vi: "phần mềm diệt virus"
+  forms: [antivirus software, anti-virus]
+  examples:
+    - en: "Run the antivirus before you open files from that drive."
+      vi: "Hãy chạy phần mềm diệt virus trước khi mở tệp từ ổ đó."
+- slug: firewall-n
+  lemma: firewall
+  pos: noun
+  cefr: B2
+  topic: digital-life
+  ipa: "/ˈfaɪəwɔːl/"
+  def: "A system that stops dangerous traffic from the internet reaching a computer or network."
+  vi: "tường lửa"
+  forms: [firewalls]
+  examples:
+    - en: "The company firewall blocks most gaming websites."
+      vi: "Tường lửa của công ty chặn hầu hết các trang web chơi game."
+- slug: encrypt-v
+  lemma: encrypt
+  pos: verb
+  cefr: C1
+  topic: digital-life
+  ipa: "/ɪnˈkrɪpt/"
+  def: "To change information into a secret code so only the right people can read it."
+  vi: "mã hoá"
+  forms: [encrypts, encrypted, encrypting, encryption]
+  examples:
+    - en: "This chat app encrypts every message you send."
+      vi: "Ứng dụng chat này mã hoá mọi tin nhắn bạn gửi."
+- slug: strong-password-n
+  lemma: strong password
+  pos: noun
+  kind: collocation
+  cefr: B1
+  topic: digital-life
+  ipa: "/ˌstrɒŋ ˈpɑːswɜːd/"
+  def: "A long password with letters, numbers and symbols that is hard to guess."
+  vi: "mật khẩu mạnh"
+  forms: [strong passwords, weak password]
+  examples:
+    - en: "A strong password should be at least twelve characters long."
+      vi: "Một mật khẩu mạnh nên dài ít nhất mười hai ký tự."
+- slug: personal-data-n
+  lemma: personal data
+  pos: noun
+  kind: collocation
+  cefr: B2
+  topic: digital-life
+  ipa: "/ˌpɜːsənl ˈdeɪtə/"
+  def: "Information about you, such as your name, address, phone number or ID."
+  vi: "dữ liệu cá nhân"
+  forms: [personal information]
+  examples:
+    - en: "Why does a flashlight app need my personal data?"
+      vi: "Tại sao một ứng dụng đèn pin lại cần dữ liệu cá nhân của mình?"
+- slug: identity-theft-n
+  lemma: identity theft
+  pos: noun
+  kind: collocation
+  cefr: C1
+  topic: digital-life
+  ipa: "/aɪˈdentəti θeft/"
+  def: "A crime where someone uses your personal details to pretend to be you."
+  vi: "đánh cắp danh tính"
+  examples:
+    - en: "After the identity theft, someone opened a loan in her name."
+      vi: "Sau vụ đánh cắp danh tính, có người đã đứng tên cô ấy để vay tiền."
+- slug: cookie-n
+  lemma: cookie
+  pos: noun
+  cefr: B2
+  topic: digital-life
+  ipa: "/ˈkʊki/"
+  def: "A small file a website saves on your device to remember you and what you do."
+  vi: "cookie (tệp ghi nhớ của trang web)"
+  keep_en: true
+  forms: [cookies, accept cookies]
+  examples:
+    - en: "I always reject cookies that are not necessary."
+      vi: "Mình luôn từ chối những cookie không cần thiết."
+- slug: privacy-policy-n
+  lemma: privacy policy
+  pos: noun
+  kind: collocation
+  cefr: B2
+  topic: digital-life
+  ipa: "/ˈprɪvəsi ˌpɒləsi/"
+  def: "A document that explains how a company collects and uses your information."
+  vi: "chính sách bảo mật"
+  forms: [privacy policies]
+  examples:
+    - en: "Nobody reads the privacy policy, but maybe we should."
+      vi: "Chẳng ai đọc chính sách bảo mật cả, nhưng có lẽ chúng ta nên đọc."
+- slug: terms-and-conditions-n
+  lemma: terms and conditions
+  pos: noun
+  kind: collocation
+  cefr: B2
+  topic: digital-life
+  ipa: "/ˌtɜːmz ən kənˈdɪʃnz/"
+  def: "The rules you must agree to before you use a service."
+  vi: "điều khoản sử dụng"
+  forms: [terms of service, T&Cs]
+  examples:
+    - en: "Tick the box to show that you accept the terms and conditions."
+      vi: "Đánh dấu vào ô để xác nhận bạn đồng ý với điều khoản sử dụng."
+- slug: permission-n
+  lemma: permission
+  pos: noun
+  cefr: B1
+  topic: digital-life
+  ipa: "/pəˈmɪʃn/"
+  def: "Access that you allow an app to have, for example to your camera or contacts."
+  vi: "quyền truy cập (của ứng dụng)"
+  forms: [permissions, allow access]
+  examples:
+    - en: "This game asks for permission to read my contacts. No way!"
+      vi: "Trò chơi này xin quyền truy cập danh bạ của mình. Không đời nào!"
+- slug: track-v
+  lemma: track
+  pos: verb
+  cefr: B2
+  topic: digital-life
+  ipa: "/træk/"
+  def: "To follow and record where someone goes or what they do online."
+  vi: "theo dõi, thu thập dấu vết (người dùng)"
+  forms: [tracks, tracked, tracking, tracker]
+  examples:
+    - en: "Many apps track your location even when you're not using them."
+      vi: "Nhiều ứng dụng theo dõi vị trí của bạn ngay cả khi bạn không dùng chúng."
+- slug: vpn-n
+  lemma: VPN
+  pos: noun
+  cefr: B2
+  topic: digital-life
+  ipa: "/ˌviː piː ˈen/"
+  def: "A service that hides your internet activity by sending it through a private, secure connection."
+  vi: "mạng riêng ảo"
+  keep_en: true
+  forms: [VPNs, virtual private network]
+  examples:
+    - en: "Use the company VPN when you work from a café."
+      vi: "Hãy dùng VPN của công ty khi bạn làm việc ở quán cà phê."
+- slug: ransomware-n
+  lemma: ransomware
+  pos: noun
+  cefr: C1
+  topic: digital-life
+  ipa: "/ˈrænsəmweə/"
+  def: "Harmful software that locks your files until you pay money to the attackers."
+  vi: "mã độc tống tiền"
+  examples:
+    - en: "The hospital's computers were frozen by ransomware for two days."
+      vi: "Máy tính của bệnh viện bị mã độc tống tiền khoá suốt hai ngày."
+- slug: suspicious-adj
+  lemma: suspicious
+  pos: adjective
+  cefr: B2
+  topic: digital-life
+  ipa: "/səˈspɪʃəs/"
+  def: "Seeming strange or dishonest, so you think something may be wrong."
+  vi: "đáng ngờ, khả nghi"
+  forms: [suspiciously, suspicion]
+  examples:
+    - en: "Report any suspicious emails to the IT team."
+      vi: "Hãy báo cho đội IT mọi email đáng ngờ."
+- slug: verify-v
+  lemma: verify
+  pos: verb
+  cefr: B2
+  topic: digital-life
+  ipa: "/ˈverɪfaɪ/"
+  def: "To check or prove that something, such as your identity or email, is real."
+  vi: "xác minh"
+  forms: [verifies, verified, verifying, verification]
+  examples:
+    - en: "Click the link in the email to verify your account."
+      vi: "Bấm vào đường link trong email để xác minh tài khoản của bạn."
+- slug: log-out-phr
+  lemma: log out
+  pos: phrasal_verb
+  kind: phrasal
+  cefr: A2
+  topic: digital-life
+  ipa: "/lɒɡ ˈaʊt/"
+  def: "To stop using an account on an app or website so others cannot use it."
+  vi: "đăng xuất"
+  forms: [logs out, logged out, logging out, log out of, sign out]
+  examples:
+    - en: "Always log out when you use a shared computer."
+      vi: "Luôn đăng xuất khi bạn dùng máy tính dùng chung."
+- slug: fingerprint-n
+  lemma: fingerprint
+  pos: noun
+  cefr: B1
+  topic: digital-life
+  ipa: "/ˈfɪŋɡəprɪnt/"
+  def: "The pattern of lines on the end of your finger, which a phone can use to unlock."
+  vi: "vân tay"
+  forms: [fingerprints, fingerprint scanner]
+  examples:
+    - en: "I unlock my phone with my fingerprint."
+      vi: "Mình mở khoá điện thoại bằng vân tay."
+- slug: facial-recognition-n
+  lemma: facial recognition
+  pos: noun
+  kind: collocation
+  cefr: C1
+  topic: digital-life
+  ipa: "/ˌfeɪʃl ˌrekəɡˈnɪʃn/"
+  def: "Technology that identifies a person by looking at their face."
+  vi: "nhận diện khuôn mặt"
+  forms: [face recognition, face ID]
+  examples:
+    - en: "The new office gate uses facial recognition instead of cards."
+      vi: "Cổng văn phòng mới dùng nhận diện khuôn mặt thay cho thẻ."
+- slug: cyberbullying-n
+  lemma: cyberbullying
+  pos: noun
+  cefr: B2
+  topic: digital-life
+  ipa: "/ˈsaɪbəbʊliɪŋ/"
+  def: "Using messages or posts online to hurt or frighten someone again and again."
+  vi: "bắt nạt trên mạng"
+  forms: [cyberbully, cyber bullying]
+  examples:
+    - en: "The school has a new plan to stop cyberbullying."
+      vi: "Nhà trường có kế hoạch mới để ngăn chặn bắt nạt trên mạng."
+- slug: digital-footprint-n
+  lemma: digital footprint
+  pos: noun
+  kind: collocation
+  cefr: C1
+  topic: digital-life
+  ipa: "/ˌdɪdʒɪtl ˈfʊtprɪnt/"
+  def: "All the information about you that stays online because of what you have done there."
+  vi: "dấu chân số (dấu vết để lại trên mạng)"
+  forms: [digital footprints]
+  examples:
+    - en: "Think about your digital footprint before you post that joke."
+      vi: "Hãy nghĩ đến dấu chân số của bạn trước khi đăng câu đùa đó."
+- slug: anonymous-adj
+  lemma: anonymous
+  pos: adjective
+  cefr: B2
+  topic: digital-life
+  ipa: "/əˈnɒnɪməs/"
+  def: "Done or written by someone whose name is not known or not shown."
+  vi: "ẩn danh"
+  forms: [anonymously, anonymity]
+  examples:
+    - en: "The survey is anonymous, so please be honest."
+      vi: "Khảo sát này là ẩn danh nên mọi người cứ trả lời thật lòng."
+- slug: opt-out-phr
+  lemma: opt out
+  pos: phrasal_verb
+  kind: phrasal
+  cefr: C1
+  topic: digital-life
+  ipa: "/ɒpt ˈaʊt/"
+  def: "To choose not to take part in something, such as having your data collected."
+  vi: "chọn không tham gia, từ chối (nhận, chia sẻ)"
+  forms: [opts out, opted out, opting out, opt out of, opt in]
+  examples:
+    - en: "You can opt out of marketing emails in your settings."
+      vi: "Bạn có thể chọn không nhận email quảng cáo trong phần cài đặt."
+# Set 9: AI & automation
+- slug: artificial-intelligence-n
+  lemma: artificial intelligence
+  pos: noun
+  kind: collocation
+  cefr: B2
+  topic: digital-life
+  ipa: "/ˌɑːtɪfɪʃl ɪnˈtelɪdʒəns/"
+  def: "Computer systems that can do things that usually need human thinking."
+  vi: "trí tuệ nhân tạo"
+  forms: [AI]
+  examples:
+    - en: "Artificial intelligence can now write emails, draw pictures and answer questions."
+      vi: "Trí tuệ nhân tạo giờ có thể viết email, vẽ tranh và trả lời câu hỏi."
+- slug: chatbot-n
+  lemma: chatbot
+  pos: noun
+  cefr: B2
+  topic: digital-life
+  ipa: "/ˈtʃætbɒt/"
+  def: "A computer program that you can have a written or spoken conversation with."
+  vi: "chatbot (trợ lý trò chuyện tự động)"
+  keep_en: true
+  forms: [chatbots]
+  examples:
+    - en: "The bank's chatbot answered my question in seconds."
+      vi: "Chatbot của ngân hàng trả lời câu hỏi của mình chỉ trong vài giây."
+- slug: algorithm-n
+  lemma: algorithm
+  pos: noun
+  cefr: B2
+  topic: digital-life
+  ipa: "/ˈælɡərɪðəm/"
+  def: "A set of rules a computer follows, for example to decide which posts you see."
+  vi: "thuật toán"
+  forms: [algorithms]
+  examples:
+    - en: "The algorithm keeps showing me cat videos because I watched one."
+      vi: "Thuật toán cứ đề xuất video mèo cho mình vì mình lỡ xem một cái."
+- slug: machine-learning-n
+  lemma: machine learning
+  pos: noun
+  kind: collocation
+  cefr: C1
+  topic: digital-life
+  ipa: "/məˈʃiːn ˌlɜːnɪŋ/"
+  def: "A type of AI in which computers learn from lots of examples instead of fixed rules."
+  vi: "học máy"
+  examples:
+    - en: "The app uses machine learning to guess which songs you will like."
+      vi: "Ứng dụng dùng học máy để đoán bạn sẽ thích bài hát nào."
+- slug: automate-v
+  lemma: automate
+  pos: verb
+  cefr: B2
+  topic: digital-life
+  ipa: "/ˈɔːtəmeɪt/"
+  def: "To make a machine or computer do a job so people do not have to."
+  vi: "tự động hoá"
+  forms: [automates, automated, automating, automation, automatic]
+  examples:
+    - en: "We automated the monthly report, so it now takes two minutes."
+      vi: "Bọn mình đã tự động hoá báo cáo hằng tháng, giờ chỉ mất hai phút."
+- slug: robot-n
+  lemma: robot
+  pos: noun
+  cefr: A2
+  topic: digital-life
+  ipa: "/ˈrəʊbɒt/"
+  def: "A machine that can move and do some jobs by itself."
+  vi: "rô-bốt"
+  forms: [robots, robotic, robot vacuum]
+  examples:
+    - en: "A small robot cleans our floor while we are at work."
+      vi: "Một chú rô-bốt nhỏ lau sàn nhà trong lúc bọn mình đi làm."
+- slug: voice-assistant-n
+  lemma: voice assistant
+  pos: noun
+  kind: collocation
+  cefr: B2
+  topic: digital-life
+  ipa: "/ˈvɔɪs əˌsɪstənt/"
+  def: "A program on a phone or speaker that does things when you speak to it."
+  vi: "trợ lý giọng nói"
+  forms: [voice assistants, virtual assistant]
+  examples:
+    - en: "I ask my voice assistant to set a timer when I'm cooking."
+      vi: "Mình nhờ trợ lý giọng nói hẹn giờ khi nấu ăn."
+- slug: prompt-n
+  lemma: prompt
+  pos: noun
+  cefr: B2
+  topic: digital-life
+  ipa: "/prɒmpt/"
+  def: "The question or instruction you type to tell an AI tool what you want."
+  vi: "câu lệnh (cho AI)"
+  forms: [prompts, write a prompt]
+  examples:
+    - en: "A clear prompt usually gives you a much better answer."
+      vi: "Một câu lệnh rõ ràng thường cho ra câu trả lời tốt hơn nhiều."
+- slug: generate-v
+  lemma: generate
+  pos: verb
+  cefr: B2
+  topic: digital-life
+  ipa: "/ˈdʒenəreɪt/"
+  def: "To produce or create something, such as text or a picture, automatically."
+  vi: "tạo ra (tự động)"
+  forms: [generates, generated, generating, AI-generated]
+  examples:
+    - en: "This picture was generated by AI in five seconds."
+      vi: "Bức ảnh này được AI tạo ra chỉ trong năm giây."
+- slug: smart-home-n
+  lemma: smart home
+  pos: noun
+  kind: collocation
+  cefr: B2
+  topic: digital-life
+  ipa: "/ˌsmɑːt ˈhəʊm/"
+  def: "A home where lights, locks and machines can be controlled with a phone or voice."
+  vi: "nhà thông minh"
+  forms: [smart homes, smart devices]
+  examples:
+    - en: "In a smart home, you can turn on the air conditioner before you get back."
+      vi: "Trong nhà thông minh, bạn có thể bật điều hoà trước khi về tới nhà."
+- slug: self-driving-car-n
+  lemma: self-driving car
+  pos: noun
+  kind: collocation
+  cefr: B2
+  topic: digital-life
+  ipa: "/ˌself ˈdraɪvɪŋ ˈkɑː/"
+  def: "A car that can drive itself without a person controlling it."
+  vi: "xe tự lái"
+  forms: [self-driving cars, driverless car]
+  examples:
+    - en: "Would you feel safe in a self-driving car in Hanoi traffic?"
+      vi: "Bạn có thấy an toàn khi ngồi xe tự lái giữa giao thông Hà Nội không?"
+- slug: virtual-reality-n
+  lemma: virtual reality
+  pos: noun
+  kind: collocation
+  cefr: B2
+  topic: digital-life
+  ipa: "/ˌvɜːtʃuəl riˈæləti/"
+  def: "A computer world that seems real, which you see through a special headset."
+  vi: "thực tế ảo"
+  forms: [VR, VR headset]
+  examples:
+    - en: "Pilots train with virtual reality before they fly a real plane."
+      vi: "Phi công luyện tập bằng thực tế ảo trước khi lái máy bay thật."
+- slug: augmented-reality-n
+  lemma: augmented reality
+  pos: noun
+  kind: collocation
+  cefr: C1
+  topic: digital-life
+  ipa: "/ɔːɡˌmentɪd riˈæləti/"
+  def: "Technology that adds computer images on top of the real world you see through a camera."
+  vi: "thực tế tăng cường"
+  forms: [AR]
+  examples:
+    - en: "With augmented reality, you can see how a sofa looks in your room before you buy it."
+      vi: "Nhờ thực tế tăng cường, bạn có thể xem chiếc sofa trông thế nào trong phòng trước khi mua."
+- slug: wearable-n
+  lemma: wearable
+  pos: noun
+  cefr: C1
+  topic: digital-life
+  ipa: "/ˈweərəbl/"
+  def: "A small electronic device you wear on your body, such as a fitness band."
+  vi: "thiết bị đeo thông minh"
+  forms: [wearables, wearable tech, wearable technology]
+  examples:
+    - en: "Wearables can count your steps and check your sleep."
+      vi: "Thiết bị đeo thông minh có thể đếm bước chân và theo dõi giấc ngủ."
+- slug: big-data-n
+  lemma: big data
+  pos: noun
+  kind: collocation
+  cefr: C1
+  topic: digital-life
+  ipa: "/ˌbɪɡ ˈdeɪtə/"
+  def: "Very large amounts of information that computers study to find patterns."
+  vi: "dữ liệu lớn"
+  examples:
+    - en: "Shops use big data to decide what to put on sale."
+      vi: "Các cửa hàng dùng dữ liệu lớn để quyết định mặt hàng nào sẽ giảm giá."
+- slug: deepfake-n
+  lemma: deepfake
+  pos: noun
+  cefr: C1
+  topic: digital-life
+  ipa: "/ˈdiːpfeɪk/"
+  def: "A fake video or recording made by AI that makes someone seem to say or do something."
+  vi: "video/âm thanh giả mạo bằng AI"
+  keep_en: true
+  forms: [deepfakes]
+  examples:
+    - en: "Scammers used a deepfake of the director's voice to ask for money."
+      vi: "Bọn lừa đảo dùng deepfake giọng giám đốc để đòi chuyển tiền."
+- slug: recommendation-digital-life-n
+  lemma: recommendation
+  pos: noun
+  cefr: B2
+  topic: digital-life
+  ipa: "/ˌrekəmenˈdeɪʃn/"
+  def: "A suggestion from an app about what you might want to watch, read or buy."
+  vi: "gợi ý, đề xuất"
+  forms: [recommendations, recommend, recommended]
+  examples:
+    - en: "The film recommendations on this app are always spot on."
+      vi: "Phim gợi ý trên ứng dụng này lúc nào cũng trúng gu."
+- slug: personalized-adj
+  lemma: personalized
+  pos: adjective
+  cefr: B2
+  topic: digital-life
+  ipa: "/ˈpɜːsənəlaɪzd/"
+  def: "Made or changed to fit one particular person."
+  vi: "cá nhân hoá"
+  forms: [personalised, personalize, personalization]
+  examples:
+    - en: "The app gives you a personalized study plan."
+      vi: "Ứng dụng đưa cho bạn một lộ trình học được cá nhân hoá."
+- slug: machine-translation-n
+  lemma: machine translation
+  pos: noun
+  kind: collocation
+  cefr: C1
+  topic: digital-life
+  ipa: "/məˈʃiːn trænzˌleɪʃn/"
+  def: "Translation from one language to another done by a computer."
+  vi: "dịch máy"
+  examples:
+    - en: "Machine translation is useful, but it still makes funny mistakes."
+      vi: "Dịch máy rất hữu ích nhưng vẫn mắc những lỗi buồn cười."
+- slug: accurate-adj
+  lemma: accurate
+  pos: adjective
+  cefr: B2
+  topic: digital-life
+  ipa: "/ˈækjərət/"
+  def: "Correct and exact, with no mistakes."
+  vi: "chính xác"
+  forms: [accuracy, accurately, inaccurate]
+  examples:
+    - en: "The AI answer sounded sure, but it wasn't accurate."
+      vi: "Câu trả lời của AI nghe rất chắc chắn nhưng lại không chính xác."
+- slug: bias-n
+  lemma: bias
+  pos: noun
+  cefr: C1
+  topic: digital-life
+  ipa: "/ˈbaɪəs/"
+  def: "Unfair treatment of some groups of people, for example by a computer system."
+  vi: "sự thiên lệch, định kiến"
+  forms: [biased, biases]
+  examples:
+    - en: "The hiring tool had a bias against older applicants."
+      vi: "Công cụ tuyển dụng đó có định kiến với ứng viên lớn tuổi."
+- slug: replace-v
+  lemma: replace
+  pos: verb
+  cefr: B1
+  topic: digital-life
+  ipa: "/rɪˈpleɪs/"
+  def: "To take the place of someone or something."
+  vi: "thay thế"
+  forms: [replaces, replaced, replacing, replacement]
+  examples:
+    - en: "Will AI replace translators, or just help them work faster?"
+      vi: "AI sẽ thay thế người dịch, hay chỉ giúp họ làm nhanh hơn?"
+- slug: take-over-phr
+  lemma: take over
+  pos: phrasal_verb
+  kind: phrasal
+  cefr: B2
+  topic: digital-life
+  ipa: "/teɪk ˈəʊvə/"
+  def: "To start doing a job that someone else did before, or to get control of something."
+  vi: "đảm nhận thay, giành quyền kiểm soát"
+  forms: [takes over, took over, taken over, taking over, takeover]
+  examples:
+    - en: "Machines have taken over many boring jobs in factories."
+      vi: "Máy móc đã đảm nhận thay nhiều công việc nhàm chán trong nhà máy."
+- slug: cutting-edge-adj
+  lemma: cutting-edge
+  pos: adjective
+  cefr: C1
+  topic: digital-life
+  ipa: "/ˌkʌtɪŋ ˈedʒ/"
+  def: "The newest and most advanced."
+  vi: "tiên tiến nhất, tân tiến"
+  forms: [cutting edge, state-of-the-art]
+  examples:
+    - en: "The lab is full of cutting-edge equipment."
+      vi: "Phòng thí nghiệm đầy thiết bị tiên tiến nhất."
+- slug: breakthrough-n
+  lemma: breakthrough
+  pos: noun
+  cefr: B2
+  topic: digital-life
+  ipa: "/ˈbreɪkθruː/"
+  def: "An important new discovery or success after a lot of work."
+  vi: "bước đột phá"
+  forms: [breakthroughs]
+  examples:
+    - en: "Cheap solar batteries could be the next big breakthrough."
+      vi: "Pin năng lượng mặt trời giá rẻ có thể là bước đột phá lớn tiếp theo."
+- slug: innovation-n
+  lemma: innovation
+  pos: noun
+  cefr: B2
+  topic: digital-life
+  ipa: "/ˌɪnəˈveɪʃn/"
+  def: "A new idea, method or product, or the act of creating new things."
+  vi: "sự đổi mới, sáng tạo"
+  forms: [innovations, innovative, innovate]
+  examples:
+    - en: "The company spends a lot of money on innovation."
+      vi: "Công ty chi rất nhiều tiền cho đổi mới sáng tạo."
+- slug: drone-n
+  lemma: drone
+  pos: noun
+  cefr: B2
+  topic: digital-life
+  ipa: "/drəʊn/"
+  def: "A small flying machine without a pilot, controlled from the ground."
+  vi: "máy bay không người lái (flycam)"
+  forms: [drones]
+  examples:
+    - en: "They filmed the wedding with a drone."
+      vi: "Họ quay đám cưới bằng flycam."
+- slug: speech-recognition-n
+  lemma: speech recognition
+  pos: noun
+  kind: collocation
+  cefr: C1
+  topic: digital-life
+  ipa: "/ˈspiːtʃ ˌrekəɡnɪʃn/"
+  def: "Technology that understands spoken words and changes them into text or commands."
+  vi: "nhận dạng giọng nói"
+  forms: [voice recognition, speech-to-text]
+  examples:
+    - en: "Speech recognition is much better at Vietnamese accents now."
+      vi: "Công nghệ nhận dạng giọng nói giờ đã nghe giọng Việt tốt hơn nhiều."
+# Set 10: tech in society & the future
+- slug: digital-divide-n
+  lemma: digital divide
+  pos: noun
+  kind: collocation
+  cefr: C1
+  topic: digital-life
+  ipa: "/ˌdɪdʒɪtl dɪˈvaɪd/"
+  def: "The gap between people who have good access to technology and people who do not."
+  vi: "khoảng cách số"
+  examples:
+    - en: "Cheap phones have helped to close the digital divide in rural areas."
+      vi: "Điện thoại giá rẻ đã góp phần thu hẹp khoảng cách số ở vùng nông thôn."
+- slug: tech-savvy-adj
+  lemma: tech-savvy
+  pos: adjective
+  cefr: B2
+  topic: digital-life
+  ipa: "/ˈtek ˌsævi/"
+  def: "Good at understanding and using new technology."
+  vi: "rành công nghệ"
+  forms: [tech savvy]
+  examples:
+    - en: "My dad isn't very tech-savvy, so I set up his new phone."
+      vi: "Bố mình không rành công nghệ lắm nên mình cài đặt điện thoại mới cho bố."
+- slug: digital-literacy-n
+  lemma: digital literacy
+  pos: noun
+  kind: collocation
+  cefr: C1
+  topic: digital-life
+  ipa: "/ˌdɪdʒɪtl ˈlɪtərəsi/"
+  def: "The skills you need to use technology well and judge what you find online."
+  vi: "năng lực số, kỹ năng sử dụng công nghệ"
+  examples:
+    - en: "Schools should teach digital literacy as early as primary level."
+      vi: "Trường học nên dạy kỹ năng số ngay từ bậc tiểu học."
+- slug: digital-native-n
+  lemma: digital native
+  pos: noun
+  kind: collocation
+  cefr: C1
+  topic: digital-life
+  ipa: "/ˌdɪdʒɪtl ˈneɪtɪv/"
+  def: "A person who grew up with the internet and smartphones."
+  vi: "người sinh ra trong thời đại số"
+  forms: [digital natives]
+  examples:
+    - en: "My niece is a real digital native: she could use a tablet at two."
+      vi: "Cháu gái mình đúng là thế hệ sinh ra trong thời đại số: hai tuổi đã biết dùng máy tính bảng."
+- slug: early-adopter-n
+  lemma: early adopter
+  pos: noun
+  kind: collocation
+  cefr: C1
+  topic: digital-life
+  ipa: "/ˌɜːli əˈdɒptə/"
+  def: "A person who starts using a new product or technology before most other people."
+  vi: "người dùng tiên phong"
+  forms: [early adopters]
+  examples:
+    - en: "As an early adopter, he had an electric car before anyone on our street."
+      vi: "Là người dùng tiên phong, anh ấy có xe điện trước cả con phố."
+- slug: obsolete-adj
+  lemma: obsolete
+  pos: adjective
+  cefr: C1
+  topic: digital-life
+  ipa: "/ˈɒbsəliːt/"
+  def: "No longer used because something newer and better exists."
+  vi: "lỗi thời, bị đào thải"
+  forms: [become obsolete]
+  examples:
+    - en: "CDs became almost obsolete when music streaming arrived."
+      vi: "Đĩa CD gần như bị đào thải khi nghe nhạc trực tuyến xuất hiện."
+- slug: up-to-date-adj
+  lemma: up to date
+  pos: adjective
+  kind: phrase
+  cefr: B1
+  topic: digital-life
+  ipa: "/ˌʌp tə ˈdeɪt/"
+  def: "Modern, or having the newest information or version."
+  vi: "mới nhất, cập nhật"
+  forms: [up-to-date, keep up to date, out of date]
+  examples:
+    - en: "Keep your apps up to date to stay safe."
+      vi: "Hãy giữ các ứng dụng luôn ở bản mới nhất để an toàn."
+- slug: keep-up-with-digital-life-phr
+  lemma: keep up with
+  pos: phrasal_verb
+  kind: phrasal
+  cefr: B2
+  topic: digital-life
+  ipa: "/kiːp ˈʌp wɪð/"
+  def: "To learn about or change as fast as something new is happening."
+  vi: "theo kịp"
+  forms: [keeps up with, kept up with, keeping up with]
+  examples:
+    - en: "It's hard to keep up with all the new AI tools."
+      vi: "Thật khó để theo kịp tất cả công cụ AI mới."
+- slug: online-course-n
+  lemma: online course
+  pos: noun
+  kind: collocation
+  cefr: B1
+  topic: digital-life
+  ipa: "/ˌɒnlaɪn ˈkɔːs/"
+  def: "A set of lessons that you study on the internet."
+  vi: "khoá học trực tuyến"
+  forms: [online courses, e-learning]
+  examples:
+    - en: "I learned basic design from a free online course."
+      vi: "Mình học thiết kế cơ bản từ một khoá học trực tuyến miễn phí."
+- slug: e-book-n
+  lemma: e-book
+  pos: noun
+  cefr: B1
+  topic: digital-life
+  ipa: "/ˈiː bʊk/"
+  def: "A book that you read on a screen."
+  vi: "sách điện tử"
+  forms: [e-books, ebook, e-reader]
+  examples:
+    - en: "I carry about two hundred e-books on my phone."
+      vi: "Mình mang theo khoảng hai trăm cuốn sách điện tử trong điện thoại."
+- slug: video-call-n
+  lemma: video call
+  pos: noun
+  kind: collocation
+  cefr: A2
+  topic: digital-life
+  ipa: "/ˈvɪdiəʊ kɔːl/"
+  def: "A phone or internet call where you can see the other person."
+  vi: "cuộc gọi video"
+  forms: [video calls, video chat]
+  examples:
+    - en: "We have a video call with my grandparents every Sunday."
+      vi: "Chủ nhật nào nhà mình cũng gọi video cho ông bà."
+- slug: digital-nomad-n
+  lemma: digital nomad
+  pos: noun
+  kind: collocation
+  cefr: C1
+  topic: digital-life
+  ipa: "/ˌdɪdʒɪtl ˈnəʊmæd/"
+  def: "A person who works online while travelling and living in different places."
+  vi: "người du mục số (vừa làm online vừa du lịch)"
+  forms: [digital nomads]
+  examples:
+    - en: "Da Nang is popular with digital nomads because of the beach and fast internet."
+      vi: "Đà Nẵng được dân du mục số ưa chuộng nhờ có biển và internet nhanh."
+- slug: gig-economy-n
+  lemma: gig economy
+  pos: noun
+  kind: collocation
+  cefr: C1
+  topic: digital-life
+  ipa: "/ˈɡɪɡ iˌkɒnəmi/"
+  def: "A way of working where people do short jobs through apps instead of having a fixed job."
+  vi: "nền kinh tế việc làm tự do (theo từng đầu việc)"
+  examples:
+    - en: "Delivery drivers are a big part of the gig economy."
+      vi: "Tài xế giao hàng là một phần lớn của nền kinh tế việc làm tự do."
+- slug: ride-hailing-app-n
+  lemma: ride-hailing app
+  pos: noun
+  kind: collocation
+  cefr: B2
+  topic: digital-life
+  ipa: "/ˈraɪd ˌheɪlɪŋ æp/"
+  def: "An app you use to call a car or motorbike to take you somewhere."
+  vi: "ứng dụng gọi xe"
+  forms: [ride-hailing apps, ride-hailing]
+  examples:
+    - en: "I booked a bike on a ride-hailing app because it was raining."
+      vi: "Mình đặt xe ôm qua ứng dụng gọi xe vì trời mưa."
+- slug: cashless-adj
+  lemma: cashless
+  pos: adjective
+  cefr: B2
+  topic: digital-life
+  ipa: "/ˈkæʃləs/"
+  def: "Using cards, phones or apps to pay, not notes and coins."
+  vi: "không dùng tiền mặt"
+  forms: [cashless payment, cashless society]
+  examples:
+    - en: "Some cafés here are completely cashless now."
+      vi: "Một số quán cà phê ở đây giờ hoàn toàn không nhận tiền mặt."
+- slug: cryptocurrency-n
+  lemma: cryptocurrency
+  pos: noun
+  cefr: C1
+  topic: digital-life
+  ipa: "/ˈkrɪptəʊˌkʌrənsi/"
+  def: "Digital money that is not controlled by a bank or government."
+  vi: "tiền mã hoá, tiền điện tử"
+  forms: [cryptocurrencies, crypto]
+  examples:
+    - en: "He lost half his savings when the cryptocurrency crashed."
+      vi: "Anh ấy mất nửa số tiền tiết kiệm khi đồng tiền mã hoá đó lao dốc."
+- slug: addictive-adj
+  lemma: addictive
+  pos: adjective
+  cefr: B2
+  topic: digital-life
+  ipa: "/əˈdɪktɪv/"
+  def: "So enjoyable or attractive that it is hard to stop doing or using it."
+  vi: "gây nghiện"
+  forms: [addicted, addiction, addicted to]
+  examples:
+    - en: "Short videos are designed to be addictive."
+      vi: "Video ngắn được thiết kế để gây nghiện."
+- slug: fomo-n
+  lemma: FOMO
+  pos: noun
+  cefr: B2
+  topic: digital-life
+  ipa: "/ˈfəʊməʊ/"
+  def: "Fear of missing out: worry that others are having fun or news without you."
+  vi: "hội chứng sợ bỏ lỡ"
+  keep_en: true
+  forms: [fear of missing out]
+  examples:
+    - en: "FOMO makes me check my phone even on holiday."
+      vi: "Hội chứng sợ bỏ lỡ khiến mình kiểm tra điện thoại kể cả khi đi nghỉ."
+- slug: attention-span-n
+  lemma: attention span
+  pos: noun
+  kind: collocation
+  cefr: C1
+  topic: digital-life
+  ipa: "/əˈtenʃn spæn/"
+  def: "How long you can focus on one thing before you lose interest."
+  vi: "khả năng tập trung (trong một khoảng thời gian)"
+  forms: [attention spans]
+  examples:
+    - en: "My attention span is so short that I can't finish a long article."
+      vi: "Khả năng tập trung của mình kém đến mức không đọc hết nổi một bài báo dài."
+- slug: doomscroll-v
+  lemma: doomscroll
+  pos: verb
+  cefr: C1
+  topic: digital-life
+  ipa: "/ˈduːmskrəʊl/"
+  def: "To keep reading bad news online for a long time, even though it makes you feel worse."
+  vi: "lướt tin xấu không ngừng"
+  forms: [doomscrolls, doomscrolled, doomscrolling]
+  examples:
+    - en: "I doomscrolled until 2 a.m. and felt awful the next day."
+      vi: "Mình lướt tin xấu tới hai giờ sáng và hôm sau thấy tệ kinh khủng."
+- slug: information-overload-n
+  lemma: information overload
+  pos: noun
+  kind: collocation
+  cefr: C1
+  topic: digital-life
+  ipa: "/ˌɪnfəˈmeɪʃn ˌəʊvələʊd/"
+  def: "Having so much information that you cannot think clearly or decide."
+  vi: "quá tải thông tin"
+  examples:
+    - en: "Fifty open tabs is a clear sign of information overload."
+      vi: "Năm mươi tab đang mở là dấu hiệu rõ ràng của quá tải thông tin."
+- slug: parental-controls-n
+  lemma: parental controls
+  pos: noun
+  kind: collocation
+  cefr: B2
+  topic: digital-life
+  ipa: "/pəˌrentl kənˈtrəʊlz/"
+  def: "Settings that let parents limit what children can see or do on a device."
+  vi: "chế độ kiểm soát của phụ huynh"
+  forms: [parental control]
+  examples:
+    - en: "We turned on parental controls on the kids' tablet."
+      vi: "Bọn mình đã bật chế độ kiểm soát của phụ huynh trên máy tính bảng của tụi nhỏ."
+- slug: digital-wellbeing-n
+  lemma: digital wellbeing
+  pos: noun
+  kind: collocation
+  cefr: C1
+  topic: digital-life
+  ipa: "/ˌdɪdʒɪtl ˈwelbiːɪŋ/"
+  def: "Having a healthy relationship with technology so it does not harm your mind or body."
+  vi: "sức khoẻ số, cân bằng khi dùng công nghệ"
+  forms: [digital well-being]
+  examples:
+    - en: "The new phone has digital wellbeing tools that limit app time."
+      vi: "Điện thoại mới có công cụ sức khoẻ số giúp giới hạn thời gian dùng ứng dụng."
+- slug: disconnect-v
+  lemma: disconnect
+  pos: verb
+  cefr: B2
+  topic: digital-life
+  ipa: "/ˌdɪskəˈnekt/"
+  def: "To stop being connected to the internet, or to take a break from work and screens."
+  vi: "ngắt kết nối"
+  forms: [disconnects, disconnected, disconnecting]
+  examples:
+    - en: "On holiday, I try to disconnect completely from work chats."
+      vi: "Khi đi nghỉ, mình cố ngắt kết nối hoàn toàn khỏi các nhóm chat công việc."
+- slug: online-community-n
+  lemma: online community
+  pos: noun
+  kind: collocation
+  cefr: B2
+  topic: digital-life
+  ipa: "/ˌɒnlaɪn kəˈmjuːnəti/"
+  def: "A group of people who share an interest and talk to each other on the internet."
+  vi: "cộng đồng mạng (nhóm cùng sở thích)"
+  forms: [online communities]
+  examples:
+    - en: "I found a friendly online community for people learning English."
+      vi: "Mình tìm được một cộng đồng trực tuyến thân thiện cho người học tiếng Anh."
+- slug: crowdfunding-n
+  lemma: crowdfunding
+  pos: noun
+  cefr: C1
+  topic: digital-life
+  ipa: "/ˈkraʊdfʌndɪŋ/"
+  def: "Getting money for a project by asking many people online to give small amounts."
+  vi: "gây quỹ cộng đồng"
+  forms: [crowdfund, crowdfunded]
+  examples:
+    - en: "They paid for the game through crowdfunding."
+      vi: "Họ có tiền làm trò chơi nhờ gây quỹ cộng đồng."
+- slug: online-dating-n
+  lemma: online dating
+  pos: noun
+  kind: collocation
+  cefr: B2
+  topic: digital-life
+  ipa: "/ˌɒnlaɪn ˈdeɪtɪŋ/"
+  def: "Meeting people for romantic relationships through websites or apps."
+  vi: "hẹn hò trực tuyến"
+  forms: [dating app, dating apps]
+  examples:
+    - en: "My sister met her husband through online dating."
+      vi: "Chị mình quen chồng qua hẹn hò trực tuyến."
+- slug: e-waste-n
+  lemma: e-waste
+  pos: noun
+  cefr: C1
+  topic: digital-life
+  ipa: "/ˈiː weɪst/"
+  def: "Old phones, computers and other electronic things that people throw away."
+  vi: "rác thải điện tử"
+  forms: [electronic waste]
+  examples:
+    - en: "Recycling old phones helps to reduce e-waste."
+      vi: "Tái chế điện thoại cũ giúp giảm rác thải điện tử."
+- slug: surveillance-n
+  lemma: surveillance
+  pos: noun
+  cefr: C1
+  topic: digital-life
+  ipa: "/səˈveɪləns/"
+  def: "Watching people closely, often with cameras or by collecting their data."
+  vi: "sự giám sát"
+  forms: [surveillance camera, under surveillance]
+  examples:
+    - en: "Some people worry that smart cameras will lead to more surveillance."
+      vi: "Một số người lo ngại camera thông minh sẽ dẫn tới giám sát nhiều hơn."
+- slug: rely-on-phr
+  lemma: rely on
+  pos: phrasal_verb
+  kind: phrasal
+  cefr: B2
+  topic: digital-life
+  ipa: "/rɪˈlaɪ ɒn/"
+  def: "To need something or someone and trust that it will work or help you."
+  vi: "phụ thuộc vào, dựa vào"
+  forms: [relies on, relied on, relying on]
+  examples:
+    - en: "We rely on our phones for almost everything now."
+      vi: "Giờ chúng ta dựa vào điện thoại cho gần như mọi việc."
+- slug: embrace-v
+  lemma: embrace
+  pos: verb
+  cefr: C1
+  topic: digital-life
+  ipa: "/ɪmˈbreɪs/"
+  def: "To accept a new idea or change with enthusiasm."
+  vi: "đón nhận (cái mới)"
+  forms: [embraces, embraced, embracing]
+  examples:
+    - en: "Older staff were slow to embrace the new system, but now they love it."
+      vi: "Nhân viên lớn tuổi lúc đầu chậm đón nhận hệ thống mới, nhưng giờ họ rất thích."
+- slug: transform-v
+  lemma: transform
+  pos: verb
+  cefr: B2
+  topic: digital-life
+  ipa: "/trænsˈfɔːm/"
+  def: "To change something completely, usually in a good way."
+  vi: "biến đổi hoàn toàn, chuyển đổi"
+  forms: [transforms, transformed, transforming, transformation, digital transformation]
+  examples:
+    - en: "Smartphones have transformed the way we shop and travel."
+      vi: "Điện thoại thông minh đã thay đổi hoàn toàn cách chúng ta mua sắm và đi lại."
+- slug: revolutionize-v
+  lemma: revolutionize
+  pos: verb
+  cefr: C1
+  topic: digital-life
+  ipa: "/ˌrevəˈluːʃənaɪz/"
+  def: "To change a whole area of life or business in a very big way."
+  vi: "tạo ra cuộc cách mạng (trong lĩnh vực nào đó)"
+  forms: [revolutionizes, revolutionized, revolutionizing, revolutionise, revolution]
+  examples:
+    - en: "The internet revolutionized the way people learn languages."
+      vi: "Internet đã tạo ra cuộc cách mạng trong cách mọi người học ngoại ngữ."
+- slug: upskill-digital-life-v
+  lemma: upskill
+  pos: verb
+  cefr: C1
+  topic: digital-life
+  ipa: "/ˈʌpskɪl/"
+  def: "To learn new skills, especially so you can keep doing your job as it changes."
+  vi: "nâng cao kỹ năng"
+  forms: [upskills, upskilled, upskilling, reskill]
+  examples:
+    - en: "The company pays for staff to upskill in data and AI."
+      vi: "Công ty trả tiền để nhân viên nâng cao kỹ năng về dữ liệu và AI."
+- slug: technophobe-n
+  lemma: technophobe
+  pos: noun
+  cefr: C1
+  topic: digital-life
+  ipa: "/ˈteknəfəʊb/"
+  def: "A person who does not like or is afraid of using new technology."
+  vi: "người ngại/sợ công nghệ"
+  forms: [technophobes, technophobia]
+  examples:
+    - en: "I used to be a technophobe, but now I pay for everything by phone."
+      vi: "Mình từng là người sợ công nghệ, nhưng giờ mình trả mọi thứ bằng điện thoại."
+- slug: tech-giant-n
+  lemma: tech giant
+  pos: noun
+  kind: collocation
+  cefr: B2
+  topic: digital-life
+  ipa: "/ˈtek ˌdʒaɪənt/"
+  def: "A very large and powerful technology company."
+  vi: "gã khổng lồ công nghệ"
+  forms: [tech giants, big tech]
+  examples:
+    - en: "A few tech giants control most of the data in the world."
+      vi: "Một vài gã khổng lồ công nghệ nắm giữ phần lớn dữ liệu trên thế giới."

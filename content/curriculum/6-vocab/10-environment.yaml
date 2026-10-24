@@ -1,0 +1,14 @@
+slug: topic-environment
+stage: vocab
+sort: 10
+code: T10
+kind: topic
+cefr: B2
+character: linh
+status: draft
+title: { en: "Environment & Climate", vi: "Môi trường & khí hậu" }
+summary_vi: "Từ vựng về ô nhiễm, biến đổi khí hậu, rác thải, tái chế và lối sống xanh."
+can_do:
+  - "Nói về các vấn đề môi trường ở thành phố mình"
+  - "Đề xuất cách giảm rác thải và sống bền vững hơn"
+lessons: []

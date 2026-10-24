@@ -11,6 +11,8 @@ export interface DeliveryView {
   prompt: ClientPrompt;
   hasHint: boolean;
   expiresAt: string;
+  deadline: string | null;
+  timeLimitSec: number | null;
 }
 
 export interface SessionDone {

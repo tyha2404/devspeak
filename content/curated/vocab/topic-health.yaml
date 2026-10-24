@@ -1,0 +1,2591 @@
+# Vocabulary by topic: Health & Well-being (unit T03). Original content.
+# Set 1: body & daily habits
+- {
+    slug: headache-n,
+    lemma: headache,
+    pos: noun,
+    cefr: A2,
+    topic: health,
+    ipa: /ˈhedeɪk/,
+    def: "A pain in your head.",
+    vi: "cơn đau đầu",
+    forms: [headaches],
+    note: 'Nói "I have a headache", không nói "I am headache".',
+    examples:
+      [
+        {
+          en: "I have a headache after staring at logs all morning.",
+          vi: "Mình bị đau đầu sau cả buổi sáng nhìn log.",
+        },
+      ],
+  }
+- {
+    slug: back-pain-n,
+    lemma: back pain,
+    pos: noun,
+    kind: collocation,
+    cefr: A2,
+    topic: health,
+    ipa: /ˈbæk peɪn/,
+    def: "Pain in your back, often from sitting badly for a long time.",
+    vi: "đau lưng",
+    examples:
+      [
+        {
+          en: "A better chair really helped my back pain.",
+          vi: "Một cái ghế tốt hơn thật sự đỡ đau lưng cho mình.",
+        },
+      ],
+  }
+- {
+    slug: eye-strain-n,
+    lemma: eye strain,
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: health,
+    ipa: /ˈaɪ streɪn/,
+    def: "Tired, sore eyes, for example after looking at a screen for too long.",
+    vi: "mỏi mắt",
+    forms: [eyestrain],
+    examples:
+      [
+        {
+          en: "Dark mode helps a little with eye strain at night.",
+          vi: "Chế độ tối giúp đỡ mỏi mắt một chút vào ban đêm.",
+        },
+      ],
+  }
+- {
+    slug: get-enough-sleep-phr,
+    lemma: get enough sleep,
+    pos: phrase,
+    kind: collocation,
+    cefr: A2,
+    topic: health,
+    ipa: /ɡet ɪˈnʌf sliːp/,
+    def: "To sleep as many hours as your body needs.",
+    vi: "ngủ đủ giấc",
+    forms: [gets enough sleep, got enough sleep, getting enough sleep],
+    examples:
+      [
+        {
+          en: "I make fewer bugs when I get enough sleep.",
+          vi: "Mình ít tạo bug hơn khi ngủ đủ giấc.",
+        },
+      ],
+  }
+- {
+    slug: stay-hydrated-phr,
+    lemma: stay hydrated,
+    pos: phrase,
+    kind: collocation,
+    cefr: B1,
+    topic: health,
+    ipa: /steɪ haɪˈdreɪtɪd/,
+    def: "To drink enough water during the day.",
+    vi: "uống đủ nước",
+    forms: [stays hydrated, stayed hydrated, staying hydrated],
+    examples:
+      [
+        {
+          en: "Keep a bottle on your desk to stay hydrated.",
+          vi: "Để một chai nước trên bàn để uống đủ nước nhé.",
+        },
+      ],
+  }
+- {
+    slug: work-out-phr,
+    lemma: work out,
+    pos: phrasal_verb,
+    kind: phrasal,
+    cefr: A2,
+    topic: health,
+    ipa: /wɜːk ˈaʊt/,
+    def: "To do physical exercise to stay fit and strong.",
+    vi: "tập thể dục, tập gym",
+    forms: [works out, worked out, working out, workout],
+    examples:
+      [
+        {
+          en: "I work out at the gym three times a week after work.",
+          vi: "Mình tập gym ba buổi một tuần sau giờ làm.",
+        },
+      ],
+  }
+- {
+    slug: take-a-break-phr,
+    lemma: take a break,
+    pos: phrase,
+    kind: collocation,
+    cefr: A2,
+    topic: health,
+    ipa: /teɪk ə ˈbreɪk/,
+    def: "To stop working or doing something for a short time to rest.",
+    vi: "nghỉ giải lao",
+    forms: [takes a break, took a break, taking a break],
+    examples:
+      [
+        {
+          en: "Let's take a break and come back to this bug in ten minutes.",
+          vi: "Nghỉ giải lao chút rồi mười phút nữa quay lại con bug này nhé.",
+        },
+      ],
+  }
+- {
+    slug: posture-n,
+    lemma: posture,
+    pos: noun,
+    cefr: B1,
+    topic: health,
+    ipa: /ˈpɒstʃə/,
+    def: "The way you hold your body when you sit or stand.",
+    vi: "tư thế (ngồi, đứng)",
+    examples:
+      [
+        {
+          en: "Raise your monitor to improve your posture.",
+          vi: "Kê màn hình cao lên để cải thiện tư thế ngồi.",
+        },
+      ],
+  }
+- {
+    slug: sick-leave-n,
+    lemma: sick leave,
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: health,
+    ipa: /ˈsɪk liːv/,
+    def: "Time away from work, usually still paid, because you are ill.",
+    vi: "nghỉ ốm",
+    forms: [on sick leave, sick day],
+    examples:
+      [
+        {
+          en: "Minh is on sick leave today, so his standup update is in Slack.",
+          vi: "Hôm nay Minh nghỉ ốm nên cập nhật standup của bạn ấy ở trên Slack.",
+        },
+      ],
+  }
+- {
+    slug: catch-a-cold-phr,
+    lemma: catch a cold,
+    pos: phrase,
+    kind: collocation,
+    cefr: A2,
+    topic: health,
+    ipa: /kætʃ ə ˈkəʊld/,
+    def: "To become ill with a cold, with a runny nose and sore throat.",
+    vi: "bị cảm lạnh",
+    forms: [catches a cold, caught a cold, catching a cold],
+    examples:
+      [
+        {
+          en: "I caught a cold from the air conditioner in the office.",
+          vi: "Mình bị cảm lạnh vì điều hoà ở văn phòng.",
+        },
+      ],
+  }
+# Set 2: stress & well-being
+- {
+    slug: burnout-n,
+    lemma: burnout,
+    pos: noun,
+    cefr: B2,
+    topic: health,
+    ipa: /ˈbɜːnaʊt/,
+    def: "Feeling completely tired and unable to work because of too much stress for a long time.",
+    vi: "tình trạng kiệt sức (vì công việc)",
+    keep_en: true,
+    forms: [burned out, burnt out],
+    examples:
+      [
+        {
+          en: "After three months of overtime, half the team had burnout.",
+          vi: "Sau ba tháng tăng ca, nửa team bị burnout.",
+        },
+      ],
+  }
+- {
+    slug: stressed-adj,
+    lemma: stressed,
+    pos: adjective,
+    cefr: A2,
+    topic: health,
+    ipa: /strest/,
+    def: "Worried and nervous because you have too much to deal with.",
+    vi: "căng thẳng",
+    forms: [stress, stressful, stressed out],
+    note: '"stressed" = người cảm thấy; "stressful" = việc gây căng thẳng.',
+    examples:
+      [
+        {
+          en: "I feel stressed before every big release.",
+          vi: "Mình thấy căng thẳng trước mỗi đợt release lớn.",
+        },
+      ],
+  }
+- {
+    slug: work-life-balance-n,
+    lemma: work-life balance,
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: health,
+    ipa: /ˌwɜːk ˈlaɪf ˌbæləns/,
+    def: "A healthy mix of time for your job and time for your family, rest and hobbies.",
+    vi: "cân bằng giữa công việc và cuộc sống",
+    examples:
+      [
+        {
+          en: "Good work-life balance means not reading Slack at midnight.",
+          vi: "Cân bằng công việc và cuộc sống là không đọc Slack lúc nửa đêm.",
+        },
+      ],
+  }
+- {
+    slug: exhausted-adj,
+    lemma: exhausted,
+    pos: adjective,
+    cefr: B1,
+    topic: health,
+    ipa: /ɪɡˈzɔːstɪd/,
+    def: "Extremely tired.",
+    vi: "kiệt sức, mệt rã rời",
+    forms: [exhausting, exhaustion],
+    examples:
+      [
+        {
+          en: "I was exhausted after the all-night incident call.",
+          vi: "Mình mệt rã rời sau cuộc gọi xử lý sự cố suốt đêm.",
+        },
+      ],
+  }
+- {
+    slug: recover-v,
+    lemma: recover,
+    pos: verb,
+    cefr: B1,
+    topic: health,
+    ipa: /rɪˈkʌvə/,
+    def: "To become healthy again after being ill or tired.",
+    vi: "hồi phục",
+    forms: [recovers, recovered, recovering, recovery],
+    examples:
+      [
+        {
+          en: "Take a few days off to recover properly.",
+          vi: "Nghỉ vài ngày để hồi phục hẳn nhé.",
+        },
+      ],
+  }
+- {
+    slug: wind-down-phr,
+    lemma: wind down,
+    pos: phrasal_verb,
+    kind: phrasal,
+    cefr: B2,
+    topic: health,
+    ipa: /waɪnd ˈdaʊn/,
+    def: "To relax slowly after a busy or stressful time.",
+    vi: "thư giãn dần, xả hơi",
+    forms: [winds down, wound down, winding down],
+    note: 'Ở đây "wind" đọc là /waɪnd/, không phải /wɪnd/ (gió).',
+    examples:
+      [
+        {
+          en: "I read a book to wind down before bed.",
+          vi: "Mình đọc sách để thư giãn trước khi ngủ.",
+        },
+      ],
+  }
+- {
+    slug: mental-health-n,
+    lemma: mental health,
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: health,
+    ipa: /ˌmentl ˈhelθ/,
+    def: "The health of your mind and feelings.",
+    vi: "sức khoẻ tinh thần",
+    examples:
+      [
+        {
+          en: "Our company gives one extra day off a quarter for mental health.",
+          vi: "Công ty mình cho thêm một ngày nghỉ mỗi quý để chăm sóc sức khoẻ tinh thần.",
+        },
+      ],
+  }
+- {
+    slug: cut-down-on-phr,
+    lemma: cut down on,
+    pos: phrasal_verb,
+    kind: phrasal,
+    cefr: B1,
+    topic: health,
+    ipa: /kʌt ˈdaʊn ɒn/,
+    def: "To eat, drink or use less of something.",
+    vi: "cắt giảm, bớt (dùng)",
+    forms: [cuts down on, cutting down on],
+    examples:
+      [
+        {
+          en: "I'm trying to cut down on coffee after 3 p.m.",
+          vi: "Mình đang cố bớt uống cà phê sau 3 giờ chiều.",
+        },
+      ],
+  }
+- {
+    slug: check-up-n,
+    lemma: check-up,
+    pos: noun,
+    cefr: B1,
+    topic: health,
+    ipa: /ˈtʃek ʌp/,
+    def: "A visit to a doctor to make sure you are healthy.",
+    vi: "buổi khám sức khoẻ tổng quát",
+    forms: [check-ups, checkup, health check],
+    examples:
+      [
+        {
+          en: "The company pays for a check-up every year.",
+          vi: "Công ty trả tiền khám sức khoẻ mỗi năm.",
+        },
+      ],
+  }
+- {
+    slug: balanced-diet-n,
+    lemma: balanced diet,
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: health,
+    ipa: /ˌbælənst ˈdaɪət/,
+    def: "Eating the right amounts of different kinds of healthy food.",
+    vi: "chế độ ăn cân bằng",
+    examples:
+      [
+        {
+          en: "Instant noodles every night is not a balanced diet.",
+          vi: "Tối nào cũng ăn mì gói thì không phải chế độ ăn cân bằng.",
+        },
+      ],
+  }
+# Set 2 (additions): stress & well-being
+- slug: anxious-adj
+  lemma: anxious
+  pos: adjective
+  cefr: B1
+  topic: health
+  ipa: "/ˈæŋkʃəs/"
+  def: "Worried and nervous about something that might happen."
+  vi: "lo âu, bồn chồn"
+  forms: [anxiety, anxiously]
+  examples:
+    - en: "I always feel anxious the night before a big release."
+      vi: "Mình lúc nào cũng thấy bồn chồn vào đêm trước một đợt phát hành lớn."
+- slug: self-care-n
+  lemma: self-care
+  pos: noun
+  cefr: B2
+  topic: health
+  ipa: "/ˌself ˈkeə/"
+  def: "Things you do to keep your body and mind healthy and calm."
+  vi: "việc tự chăm sóc bản thân"
+  examples:
+    - en: "For me, self-care means a long walk and no phone on Sundays."
+      vi: "Với mình, tự chăm sóc bản thân là đi bộ thật lâu và không dùng điện thoại vào Chủ nhật."
+# Set 3: at the doctor's
+- slug: symptom-n
+  lemma: symptom
+  pos: noun
+  cefr: B1
+  topic: health
+  ipa: "/ˈsɪmptəm/"
+  def: "A sign in your body that shows you may be ill."
+  vi: "triệu chứng"
+  forms: [symptoms]
+  examples:
+    - en: "The doctor asked me when the symptoms started."
+      vi: "Bác sĩ hỏi mình các triệu chứng bắt đầu từ khi nào."
+- slug: fever-n
+  lemma: fever
+  pos: noun
+  cefr: A2
+  topic: health
+  ipa: "/ˈfiːvə/"
+  def: "A body temperature that is higher than normal because you are ill."
+  vi: "sốt"
+  forms: [fevers, have a fever]
+  examples:
+    - en: "My son has a fever, so I will work from home today."
+      vi: "Con trai mình bị sốt nên hôm nay mình làm ở nhà."
+- slug: cough-n
+  lemma: cough
+  pos: noun
+  cefr: A2
+  topic: health
+  ipa: "/kɒf/"
+  def: "The act or sound of pushing air out of your throat suddenly when you are ill."
+  vi: "ho, cơn ho"
+  forms: [coughs, coughing, coughed]
+  examples:
+    - en: "I still have a bad cough after the flu."
+      vi: "Khỏi cúm rồi mà mình vẫn còn ho nhiều."
+- slug: sore-throat-n
+  lemma: sore throat
+  pos: noun
+  kind: collocation
+  cefr: A2
+  topic: health
+  ipa: "/ˌsɔː ˈθrəʊt/"
+  def: "A painful feeling in your throat, often when you have a cold."
+  vi: "đau họng"
+  examples:
+    - en: "I have a sore throat, so I will stay muted in the call."
+      vi: "Mình bị đau họng nên sẽ tắt mic trong cuộc gọi."
+- slug: prescription-n
+  lemma: prescription
+  pos: noun
+  cefr: B1
+  topic: health
+  ipa: "/prɪˈskrɪpʃn/"
+  def: "A doctor's written note that says which medicine you should get."
+  vi: "đơn thuốc"
+  forms: [prescriptions, prescribe, prescribed]
+  examples:
+    - en: "You need a prescription to buy these antibiotics."
+      vi: "Bạn cần đơn thuốc mới mua được loại kháng sinh này."
+- slug: painkiller-n
+  lemma: painkiller
+  pos: noun
+  cefr: B1
+  topic: health
+  ipa: "/ˈpeɪnkɪlə/"
+  def: "A medicine that makes pain less strong."
+  vi: "thuốc giảm đau"
+  forms: [painkillers]
+  examples:
+    - en: "I took a painkiller for my headache and went back to work."
+      vi: "Mình uống một viên thuốc giảm đau cho đỡ nhức đầu rồi làm tiếp."
+- slug: allergy-n
+  lemma: allergy
+  pos: noun
+  cefr: B1
+  topic: health
+  ipa: "/ˈælədʒi/"
+  def: "A bad reaction of your body to a food, plant or other thing."
+  vi: "dị ứng"
+  forms: [allergies, allergic, allergic to]
+  examples:
+    - en: "Please tell the restaurant about your peanut allergy."
+      vi: "Bạn nhớ báo nhà hàng là bạn dị ứng đậu phộng nhé."
+- slug: appointment-n
+  lemma: appointment
+  pos: noun
+  cefr: A2
+  topic: health
+  ipa: "/əˈpɔɪntmənt/"
+  def: "A fixed time to meet someone, for example a doctor or dentist."
+  vi: "cuộc hẹn (khám bệnh)"
+  forms: [appointments, make an appointment]
+  examples:
+    - en: "I have a dentist appointment at four, so I'll leave early."
+      vi: "Bốn giờ mình có hẹn nha sĩ nên mình về sớm."
+- slug: pharmacy-n
+  lemma: pharmacy
+  pos: noun
+  cefr: A2
+  topic: health
+  ipa: "/ˈfɑːməsi/"
+  def: "A shop where you can buy medicine."
+  vi: "hiệu thuốc, nhà thuốc"
+  forms: [pharmacies, pharmacist]
+  examples:
+    - en: "There is a pharmacy next to the office building."
+      vi: "Có một nhà thuốc ngay cạnh toà văn phòng."
+- slug: injury-n
+  lemma: injury
+  pos: noun
+  cefr: B1
+  topic: health
+  ipa: "/ˈɪndʒəri/"
+  def: "Damage to your body, for example from an accident or sport."
+  vi: "chấn thương, vết thương"
+  forms: [injuries, injured, injure]
+  examples:
+    - en: "He got a knee injury playing football with the team."
+      vi: "Anh ấy bị chấn thương đầu gối khi đá bóng với cả nhóm."
+- slug: dizzy-adj
+  lemma: dizzy
+  pos: adjective
+  cefr: B1
+  topic: health
+  ipa: "/ˈdɪzi/"
+  def: "Feeling that everything is turning around you and you might fall."
+  vi: "chóng mặt"
+  forms: [dizziness]
+  examples:
+    - en: "I felt dizzy after staring at the screen all day without eating."
+      vi: "Mình thấy chóng mặt sau cả ngày nhìn màn hình mà không ăn gì."
+- slug: under-the-weather-phr
+  lemma: under the weather
+  pos: phrase
+  kind: phrase
+  cefr: B2
+  topic: health
+  ipa: "/ˌʌndə ðə ˈweðə/"
+  def: "Feeling a little ill or tired (informal)."
+  vi: "hơi mệt, không khoẻ lắm"
+  forms: [feel under the weather, feeling under the weather]
+  examples:
+    - en: "I'm a bit under the weather today, so I'll skip the team dinner."
+      vi: "Hôm nay mình hơi không khoẻ nên sẽ không đi ăn tối với nhóm."
+- slug: side-effect-n
+  lemma: side effect
+  pos: noun
+  kind: collocation
+  cefr: B1
+  topic: health
+  ipa: "/ˈsaɪd ɪˌfekt/"
+  def: "An extra, often bad, effect that a medicine has on your body."
+  vi: "tác dụng phụ"
+  forms: [side effects]
+  examples:
+    - en: "One side effect of this medicine is feeling sleepy."
+      vi: "Một tác dụng phụ của thuốc này là gây buồn ngủ."
+- slug: health-insurance-n
+  lemma: health insurance
+  pos: noun
+  kind: collocation
+  cefr: B1
+  topic: health
+  ipa: "/ˈhelθ ɪnˌʃʊərəns/"
+  def: "An arrangement where a company pays some or all of your medical costs."
+  vi: "bảo hiểm y tế, bảo hiểm sức khoẻ"
+  examples:
+    - en: "The new job comes with private health insurance for the whole family."
+      vi: "Công việc mới có bảo hiểm sức khoẻ tư nhân cho cả gia đình."
+# Set 4: illnesses & symptoms
+- slug: runny-nose-n
+  lemma: runny nose
+  pos: noun
+  kind: collocation
+  cefr: A2
+  topic: health
+  ipa: "/ˌrʌni ˈnəʊz/"
+  def: "A nose that keeps producing liquid, usually because of a cold."
+  vi: "sổ mũi, chảy nước mũi"
+  forms: [runny noses]
+  examples:
+    - en: "I've had a runny nose since the air conditioner broke."
+      vi: "Mình bị sổ mũi từ hôm máy lạnh hỏng."
+- slug: blocked-nose-n
+  lemma: blocked nose
+  pos: noun
+  kind: collocation
+  cefr: B1
+  topic: health
+  ipa: "/ˌblɒkt ˈnəʊz/"
+  def: "A nose that is so full that you cannot breathe through it easily."
+  vi: "nghẹt mũi"
+  forms: [stuffy nose, blocked noses]
+  examples:
+    - en: "With a blocked nose, I sound strange on video calls."
+      vi: "Bị nghẹt mũi nên giọng mình nghe lạ khi gọi video."
+- slug: sneeze-v
+  lemma: sneeze
+  pos: verb
+  cefr: B1
+  topic: health
+  ipa: "/sniːz/"
+  def: "To suddenly push air out of your nose and mouth in a way you cannot stop."
+  vi: "hắt hơi"
+  forms: [sneezes, sneezed, sneezing]
+  examples:
+    - en: "Dust in the server room always makes me sneeze."
+      vi: "Bụi trong phòng máy chủ lúc nào cũng làm mình hắt hơi."
+- slug: flu-n
+  lemma: flu
+  pos: noun
+  cefr: A2
+  topic: health
+  ipa: "/fluː/"
+  def: "A common illness like a bad cold, with fever, aches and tiredness."
+  vi: "bệnh cúm"
+  forms: [the flu, influenza]
+  note: 'Thường nói "have the flu" hoặc "get the flu".'
+  examples:
+    - en: "Half the team has the flu, so we moved the demo to next week."
+      vi: "Nửa nhóm bị cúm nên tụi mình dời buổi demo sang tuần sau."
+- slug: stomachache-n
+  lemma: stomachache
+  pos: noun
+  cefr: A2
+  topic: health
+  ipa: "/ˈstʌmək eɪk/"
+  def: "A pain in your stomach."
+  vi: "đau bụng"
+  forms: [stomach ache, stomachaches]
+  examples:
+    - en: "I got a stomachache after that spicy lunch."
+      vi: "Mình bị đau bụng sau bữa trưa cay đó."
+- slug: rash-n
+  lemma: rash
+  pos: noun
+  cefr: B1
+  topic: health
+  ipa: "/ræʃ/"
+  def: "An area of red spots on your skin, often from an allergy or illness."
+  vi: "phát ban, nổi mẩn"
+  forms: [rashes]
+  examples:
+    - en: "The new soap gave me a rash on my hands."
+      vi: "Xà phòng mới làm tay mình nổi mẩn."
+- slug: swollen-adj
+  lemma: swollen
+  pos: adjective
+  cefr: B1
+  topic: health
+  ipa: "/ˈswəʊlən/"
+  def: "Bigger than usual because of an injury or illness."
+  vi: "sưng, sưng phồng"
+  examples:
+    - en: "My ankle is still swollen from the football game."
+      vi: "Mắt cá chân mình vẫn còn sưng sau trận bóng."
+- slug: itchy-adj
+  lemma: itchy
+  pos: adjective
+  cefr: B1
+  topic: health
+  ipa: "/ˈɪtʃi/"
+  def: "Making you want to scratch your skin."
+  vi: "ngứa"
+  forms: [itchier, itchiest]
+  examples:
+    - en: "My eyes get red and itchy in spring."
+      vi: "Mắt mình bị đỏ và ngứa vào mùa xuân."
+- slug: nauseous-adj
+  lemma: nauseous
+  pos: adjective
+  cefr: B2
+  topic: health
+  ipa: "/ˈnɔːziəs/"
+  def: "Feeling that you might be sick and bring food up from your stomach."
+  vi: "buồn nôn"
+  forms: [nauseated]
+  examples:
+    - en: "I felt nauseous on the bus, so I closed my laptop."
+      vi: "Mình thấy buồn nôn trên xe buýt nên gập laptop lại."
+- slug: throw-up-phr
+  lemma: throw up
+  pos: phrasal_verb
+  kind: phrasal
+  cefr: B1
+  topic: health
+  ipa: "/ˌθrəʊ ˈʌp/"
+  def: "To bring food from your stomach out through your mouth (informal)."
+  vi: "nôn, ói"
+  forms: [throws up, threw up, thrown up, throwing up]
+  examples:
+    - en: "He threw up twice last night, so he's staying home."
+      vi: "Tối qua anh ấy ói hai lần nên hôm nay ở nhà."
+- slug: diarrhoea-n
+  lemma: diarrhoea
+  pos: noun
+  cefr: B2
+  topic: health
+  ipa: "/ˌdaɪəˈrɪə/"
+  def: "An illness in which waste from your body is watery and comes out often."
+  vi: "tiêu chảy"
+  forms: [diarrhea]
+  examples:
+    - en: "Street food on the trip gave me diarrhoea for two days."
+      vi: "Đồ ăn đường phố trong chuyến đi làm mình bị tiêu chảy hai ngày."
+- slug: shiver-v
+  lemma: shiver
+  pos: verb
+  cefr: B1
+  topic: health
+  ipa: "/ˈʃɪvə/"
+  def: "To shake slightly because you are cold, ill or afraid."
+  vi: "run, rùng mình"
+  forms: [shivers, shivered, shivering]
+  examples:
+    - en: "I was shivering under two blankets, so I knew the fever was back."
+      vi: "Mình run cầm cập dưới hai lớp chăn nên biết là sốt lại rồi."
+- slug: high-blood-pressure-n
+  lemma: high blood pressure
+  pos: noun
+  kind: collocation
+  cefr: B1
+  topic: health
+  ipa: "/ˌhaɪ ˈblʌd ˌpreʃə/"
+  def: "A condition in which your blood pushes too hard through your body, which can harm your heart."
+  vi: "huyết áp cao, cao huyết áp"
+  examples:
+    - en: "Too much salt and stress can lead to high blood pressure."
+      vi: "Ăn quá mặn và căng thẳng có thể dẫn đến cao huyết áp."
+- slug: infection-n
+  lemma: infection
+  pos: noun
+  cefr: B1
+  topic: health
+  ipa: "/ɪnˈfekʃn/"
+  def: "An illness caused by bacteria or a virus getting into your body."
+  vi: "nhiễm trùng, sự nhiễm khuẩn"
+  forms: [infections]
+  examples:
+    - en: "The doctor said it was an ear infection, not just a cold."
+      vi: "Bác sĩ bảo đó là viêm tai do nhiễm trùng, không chỉ là cảm lạnh."
+- slug: come-down-with-phr
+  lemma: come down with
+  pos: phrasal_verb
+  kind: phrasal
+  cefr: B2
+  topic: health
+  ipa: "/ˌkʌm ˈdaʊn wɪð/"
+  def: "To start to have an illness, usually not a serious one."
+  vi: "bắt đầu bị (ốm, bệnh)"
+  forms: [comes down with, came down with, coming down with]
+  examples:
+    - en: "I think I'm coming down with something, so I'll work from home."
+      vi: "Mình nghĩ mình sắp ốm rồi nên sẽ làm ở nhà."
+- slug: run-a-temperature-phr
+  lemma: run a temperature
+  pos: phrase
+  kind: collocation
+  cefr: B2
+  topic: health
+  ipa: "/ˌrʌn ə ˈtemprətʃə/"
+  def: "To have a body temperature that is higher than normal."
+  vi: "bị sốt nhẹ, nóng người"
+  forms: [runs a temperature, ran a temperature, running a temperature, have a temperature]
+  examples:
+    - en: "My son is running a temperature, so I need to leave early."
+      vi: "Con trai mình đang bị sốt nên mình cần về sớm."
+# Set 5: treatment & medicine
+- slug: treatment-n
+  lemma: treatment
+  pos: noun
+  cefr: B1
+  topic: health
+  ipa: "/ˈtriːtmənt/"
+  def: "Medical care or a method used to make a sick or injured person better."
+  vi: "sự điều trị, cách chữa trị"
+  forms: [treatments]
+  examples:
+    - en: "The treatment takes three weeks, but I can keep working."
+      vi: "Đợt điều trị kéo dài ba tuần nhưng mình vẫn đi làm được."
+- slug: cure-v
+  lemma: cure
+  pos: verb
+  cefr: B1
+  topic: health
+  ipa: "/kjʊə/"
+  def: "To make an illness go away completely."
+  vi: "chữa khỏi"
+  forms: [cures, cured, curing]
+  examples:
+    - en: "Coffee won't cure a cold, but it helps me get through standup."
+      vi: "Cà phê không chữa khỏi cảm lạnh nhưng giúp mình qua buổi standup."
+- slug: medication-n
+  lemma: medication
+  pos: noun
+  cefr: B1
+  topic: health
+  ipa: "/ˌmedɪˈkeɪʃn/"
+  def: "A medicine or drug that you take for an illness, often regularly."
+  vi: "thuốc (đang dùng để điều trị)"
+  forms: [medications]
+  examples:
+    - en: "Are you taking any medication at the moment?"
+      vi: "Hiện tại bạn có đang dùng thuốc gì không?"
+- slug: tablet-n
+  lemma: tablet
+  pos: noun
+  cefr: A2
+  topic: health
+  ipa: "/ˈtæblət/"
+  def: "A small, hard piece of medicine that you swallow."
+  vi: "viên thuốc"
+  forms: [tablets]
+  examples:
+    - en: "Take two tablets after dinner with a glass of water."
+      vi: "Uống hai viên sau bữa tối với một cốc nước."
+- slug: dose-n
+  lemma: dose
+  pos: noun
+  cefr: B2
+  topic: health
+  ipa: "/dəʊs/"
+  def: "The amount of a medicine that you take at one time."
+  vi: "liều lượng, liều thuốc"
+  forms: [doses]
+  examples:
+    - en: "Don't take a double dose if you forget one."
+      vi: "Đừng uống gấp đôi liều nếu bạn lỡ quên một lần."
+- slug: antibiotic-n
+  lemma: antibiotic
+  pos: noun
+  cefr: B2
+  topic: health
+  ipa: "/ˌæntibaɪˈɒtɪk/"
+  def: "A medicine that kills bacteria and treats infections."
+  vi: "thuốc kháng sinh"
+  forms: [antibiotics]
+  note: "Kháng sinh không có tác dụng với virus như cảm cúm thông thường."
+  examples:
+    - en: "Finish all the antibiotics, even if you feel better."
+      vi: "Hãy uống hết thuốc kháng sinh, kể cả khi bạn thấy đỡ hơn."
+- slug: injection-n
+  lemma: injection
+  pos: noun
+  cefr: B1
+  topic: health
+  ipa: "/ɪnˈdʒekʃn/"
+  def: "Medicine put into your body through a needle."
+  vi: "mũi tiêm, sự tiêm"
+  forms: [injections]
+  examples:
+    - en: "The nurse gave me an injection, and it didn't hurt at all."
+      vi: "Y tá tiêm cho mình một mũi, chẳng đau chút nào."
+- slug: bandage-n
+  lemma: bandage
+  pos: noun
+  cefr: B1
+  topic: health
+  ipa: "/ˈbændɪdʒ/"
+  def: "A long strip of cloth that you wrap around a wound or injury."
+  vi: "băng gạc, băng quấn"
+  forms: [bandages]
+  examples:
+    - en: "She typed slowly with a bandage around her wrist."
+      vi: "Cô ấy gõ phím chậm vì cổ tay quấn băng."
+- slug: ointment-n
+  lemma: ointment
+  pos: noun
+  cefr: B2
+  topic: health
+  ipa: "/ˈɔɪntmənt/"
+  def: "A soft, oily medicine that you rub on your skin."
+  vi: "thuốc mỡ, thuốc bôi"
+  forms: [ointments]
+  examples:
+    - en: "Put this ointment on the rash twice a day."
+      vi: "Bôi thuốc mỡ này lên chỗ nổi mẩn hai lần mỗi ngày."
+- slug: take-medicine-phr
+  lemma: take medicine
+  pos: phrase
+  kind: collocation
+  cefr: A2
+  topic: health
+  ipa: "/ˌteɪk ˈmedsn/"
+  def: "To swallow or use medicine. In English you 'take' medicine, not 'drink' it."
+  vi: "uống thuốc"
+  forms: [takes medicine, took medicine, taking medicine, take my medicine, take your medicine]
+  note: 'Người Việt hay nói nhầm "drink medicine"; tiếng Anh dùng "take".'
+  examples:
+    - en: "I set a phone reminder to take my medicine at noon."
+      vi: "Mình đặt nhắc nhở trên điện thoại để uống thuốc lúc trưa."
+- slug: over-the-counter-adj
+  lemma: over-the-counter
+  pos: adjective
+  kind: phrase
+  cefr: B2
+  topic: health
+  ipa: "/ˌəʊvə ðə ˈkaʊntə/"
+  def: "Medicine that you can buy without a doctor's prescription."
+  vi: "(thuốc) không kê đơn"
+  forms: [over the counter, OTC]
+  examples:
+    - en: "You can get this over-the-counter cough syrup at any pharmacy."
+      vi: "Bạn có thể mua siro ho không kê đơn này ở bất kỳ hiệu thuốc nào."
+- slug: get-over-phr
+  lemma: get over
+  pos: phrasal_verb
+  kind: phrasal
+  cefr: B1
+  topic: health
+  ipa: "/ˌɡet ˈəʊvə/"
+  def: "To become healthy again after an illness."
+  vi: "khỏi (bệnh), vượt qua (cơn ốm)"
+  forms: [gets over, got over, gotten over, getting over]
+  examples:
+    - en: "It took me a week to get over the flu."
+      vi: "Mình mất một tuần mới khỏi cúm."
+- slug: heal-v
+  lemma: heal
+  pos: verb
+  cefr: B1
+  topic: health
+  ipa: "/hiːl/"
+  def: "(Of a wound or broken bone) to become healthy again."
+  vi: "lành (vết thương)"
+  forms: [heals, healed, healing]
+  examples:
+    - en: "The cut on my finger healed in a few days."
+      vi: "Vết đứt trên ngón tay mình lành sau vài ngày."
+- slug: recovery-n
+  lemma: recovery
+  pos: noun
+  cefr: B2
+  topic: health
+  ipa: "/rɪˈkʌvəri/"
+  def: "The process of becoming healthy again after an illness or injury."
+  vi: "quá trình hồi phục"
+  forms: [recoveries]
+  examples:
+    - en: "We all wish you a quick recovery, and don't worry about the sprint."
+      vi: "Cả nhóm chúc bạn mau hồi phục, đừng lo chuyện sprint nhé."
+- slug: physiotherapy-n
+  lemma: physiotherapy
+  pos: noun
+  cefr: B2
+  topic: health
+  ipa: "/ˌfɪziəʊˈθerəpi/"
+  def: "Treatment for injuries using exercise, massage and movement."
+  vi: "vật lý trị liệu"
+  forms: [physio, physical therapy]
+  examples:
+    - en: "After months of physiotherapy, my shoulder finally stopped hurting."
+      vi: "Sau mấy tháng vật lý trị liệu, vai mình cuối cùng cũng hết đau."
+- slug: home-remedy-n
+  lemma: home remedy
+  pos: noun
+  kind: collocation
+  cefr: B2
+  topic: health
+  ipa: "/ˌhəʊm ˈremədi/"
+  def: "A simple, traditional treatment you make at home, not a medicine from a doctor."
+  vi: "mẹo chữa bệnh dân gian, bài thuốc tại nhà"
+  forms: [home remedies]
+  examples:
+    - en: "My grandmother's home remedy for a sore throat is ginger and honey."
+      vi: "Bài thuốc chữa đau họng của bà mình là gừng với mật ong."
+- slug: relieve-v
+  lemma: relieve
+  pos: verb
+  cefr: B2
+  topic: health
+  ipa: "/rɪˈliːv/"
+  def: "To make pain or a bad feeling less strong."
+  vi: "làm giảm, làm dịu (cơn đau)"
+  forms: [relieves, relieved, relieving]
+  examples:
+    - en: "Stretching every hour relieves the pain in my neck."
+      vi: "Giãn cơ mỗi giờ làm dịu cơn đau cổ của mình."
+- slug: prescribe-v
+  lemma: prescribe
+  pos: verb
+  cefr: B2
+  topic: health
+  ipa: "/prɪˈskraɪb/"
+  def: "(Of a doctor) to say what medicine or treatment a person should have."
+  vi: "kê đơn"
+  forms: [prescribes, prescribed, prescribing]
+  examples:
+    - en: "The doctor prescribed eye drops for my dry eyes."
+      vi: "Bác sĩ kê thuốc nhỏ mắt cho chứng khô mắt của mình."
+# Set 6: fitness & exercise
+- slug: warm-up-phr
+  lemma: warm up
+  pos: phrasal_verb
+  kind: phrasal
+  cefr: B1
+  topic: health
+  ipa: "/ˌwɔːm ˈʌp/"
+  def: "To do gentle exercise to prepare your body before harder exercise."
+  vi: "khởi động (trước khi tập)"
+  forms: [warms up, warmed up, warming up, warm-up]
+  examples:
+    - en: "Always warm up for five minutes before you run."
+      vi: "Luôn khởi động năm phút trước khi chạy."
+- slug: stretch-v
+  lemma: stretch
+  pos: verb
+  cefr: B1
+  topic: health
+  ipa: "/stretʃ/"
+  def: "To make your arms, legs or body as long as possible to loosen your muscles."
+  vi: "giãn cơ, vươn người"
+  forms: [stretches, stretched, stretching]
+  examples:
+    - en: "I stand up and stretch every time my build is running."
+      vi: "Mỗi lần chờ build chạy là mình đứng dậy giãn cơ."
+- slug: jog-v
+  lemma: jog
+  pos: verb
+  cefr: A2
+  topic: health
+  ipa: "/dʒɒɡ/"
+  def: "To run slowly and steadily for exercise."
+  vi: "chạy bộ chậm"
+  forms: [jogs, jogged, jogging]
+  examples:
+    - en: "We go jogging around the lake before work."
+      vi: "Tụi mình chạy bộ quanh hồ trước giờ làm."
+- slug: gym-membership-n
+  lemma: gym membership
+  pos: noun
+  kind: collocation
+  cefr: B1
+  topic: health
+  ipa: "/ˈdʒɪm ˌmembəʃɪp/"
+  def: "Paying to be allowed to use a gym, usually every month or year."
+  vi: "thẻ tập gym, gói hội viên phòng tập"
+  forms: [gym memberships]
+  examples:
+    - en: "The company pays for a gym membership if you go at least eight times a month."
+      vi: "Công ty trả tiền thẻ tập gym nếu bạn đi ít nhất tám lần mỗi tháng."
+- slug: muscle-n
+  lemma: muscle
+  pos: noun
+  cefr: B1
+  topic: health
+  ipa: "/ˈmʌsl/"
+  def: "One of the parts inside your body that tighten and relax to make you move."
+  vi: "cơ bắp"
+  forms: [muscles]
+  examples:
+    - en: "Sitting all day makes the muscles in your back weak."
+      vi: "Ngồi cả ngày làm cơ lưng yếu đi."
+- slug: sore-adj
+  lemma: sore
+  pos: adjective
+  cefr: B1
+  topic: health
+  ipa: "/sɔː/"
+  def: "Painful, especially after too much exercise or use."
+  vi: "ê ẩm, nhức mỏi"
+  forms: [sorer, sorest]
+  examples:
+    - en: "My legs are so sore after yesterday's class that I took the lift."
+      vi: "Chân mình ê ẩm sau buổi tập hôm qua đến mức phải đi thang máy."
+- slug: in-shape-phr
+  lemma: in shape
+  pos: phrase
+  kind: phrase
+  cefr: B1
+  topic: health
+  ipa: "/ɪn ˈʃeɪp/"
+  def: "Physically fit and healthy. The opposite is 'out of shape'."
+  vi: "có thể lực tốt, cân đối"
+  forms: [in good shape, get in shape, stay in shape]
+  examples:
+    - en: "I want to get in shape before the company trip to Sa Pa."
+      vi: "Mình muốn lấy lại thể lực trước chuyến đi Sa Pa của công ty."
+- slug: out-of-breath-phr
+  lemma: out of breath
+  pos: phrase
+  kind: phrase
+  cefr: B1
+  topic: health
+  ipa: "/ˌaʊt əv ˈbreθ/"
+  def: "Breathing quickly and with difficulty, for example after running."
+  vi: "hụt hơi, thở không ra hơi"
+  examples:
+    - en: "I was out of breath after climbing to the fifth floor."
+      vi: "Leo lên tầng năm là mình thở không ra hơi."
+- slug: push-up-n
+  lemma: push-up
+  pos: noun
+  cefr: B1
+  topic: health
+  ipa: "/ˈpʊʃ ʌp/"
+  def: "An exercise where you lie facing the floor and push your body up with your arms."
+  vi: "động tác chống đẩy"
+  forms: [push-ups, press-up, press-ups]
+  examples:
+    - en: "Our team challenge is twenty push-ups after every merged PR."
+      vi: "Thử thách của nhóm là hai mươi cái chống đẩy sau mỗi PR được merge."
+- slug: burn-calories-phr
+  lemma: burn calories
+  pos: phrase
+  kind: collocation
+  cefr: B1
+  topic: health
+  ipa: "/ˌbɜːn ˈkæləriz/"
+  def: "To use the energy from food by being active."
+  vi: "đốt calo"
+  forms: [burns calories, burned calories, burnt calories, burning calories]
+  examples:
+    - en: "Cycling to work helps me burn calories without going to the gym."
+      vi: "Đạp xe đi làm giúp mình đốt calo mà không cần tới phòng tập."
+- slug: sedentary-adj
+  lemma: sedentary
+  pos: adjective
+  cefr: C1
+  topic: health
+  ipa: "/ˈsedntri/"
+  def: "Involving a lot of sitting and very little physical activity."
+  vi: "ít vận động"
+  examples:
+    - en: "Developers often have a sedentary lifestyle, so short walks matter."
+      vi: "Lập trình viên thường có lối sống ít vận động nên những lần đi bộ ngắn rất quan trọng."
+- slug: fitness-tracker-n
+  lemma: fitness tracker
+  pos: noun
+  kind: collocation
+  cefr: B1
+  topic: health
+  ipa: "/ˈfɪtnəs ˌtrækə/"
+  def: "A small device, often worn on the wrist, that counts your steps, heart rate and sleep."
+  vi: "vòng đeo theo dõi sức khoẻ"
+  forms: [fitness trackers]
+  examples:
+    - en: "My fitness tracker says I only walked 900 steps today."
+      vi: "Vòng theo dõi sức khoẻ báo hôm nay mình chỉ đi được 900 bước."
+- slug: stamina-n
+  lemma: stamina
+  pos: noun
+  cefr: B2
+  topic: health
+  ipa: "/ˈstæmɪnə/"
+  def: "The physical or mental strength to keep doing something for a long time."
+  vi: "sức bền"
+  examples:
+    - en: "Swimming three times a week has really built up my stamina."
+      vi: "Bơi ba buổi một tuần thật sự đã tăng sức bền cho mình."
+- slug: personal-trainer-n
+  lemma: personal trainer
+  pos: noun
+  kind: collocation
+  cefr: B1
+  topic: health
+  ipa: "/ˌpɜːsənl ˈtreɪnə/"
+  def: "A person whose job is to plan exercise for one client and help them do it."
+  vi: "huấn luyện viên cá nhân (PT)"
+  forms: [personal trainers, PT]
+  examples:
+    - en: "My personal trainer changed my plan because of my back pain."
+      vi: "Huấn luyện viên cá nhân đã đổi giáo án vì mình bị đau lưng."
+- slug: lift-weights-phr
+  lemma: lift weights
+  pos: phrase
+  kind: collocation
+  cefr: B1
+  topic: health
+  ipa: "/ˌlɪft ˈweɪts/"
+  def: "To exercise by picking up heavy objects to make your muscles stronger."
+  vi: "nâng tạ, tập tạ"
+  forms: [lifts weights, lifted weights, lifting weights]
+  examples:
+    - en: "She lifts weights at lunch and still makes the 1 p.m. meeting."
+      vi: "Cô ấy tập tạ giờ trưa mà vẫn kịp họp lúc 1 giờ."
+- slug: pull-a-muscle-phr
+  lemma: pull a muscle
+  pos: phrase
+  kind: collocation
+  cefr: B2
+  topic: health
+  ipa: "/ˌpʊl ə ˈmʌsl/"
+  def: "To hurt a muscle by stretching it too much."
+  vi: "bị căng cơ, chấn thương cơ"
+  forms: [pulls a muscle, pulled a muscle, pulling a muscle, pulled muscle]
+  examples:
+    - en: "I pulled a muscle in my leg because I didn't warm up."
+      vi: "Mình bị căng cơ chân vì không khởi động."
+- slug: cardio-n
+  lemma: cardio
+  pos: noun
+  cefr: B2
+  topic: health
+  ipa: "/ˈkɑːdiəʊ/"
+  def: "Exercise such as running or cycling that makes your heart beat faster."
+  vi: "bài tập tim mạch (cardio)"
+  examples:
+    - en: "I do thirty minutes of cardio and then some light stretching."
+      vi: "Mình tập cardio ba mươi phút rồi giãn cơ nhẹ."
+- slug: flexibility-n
+  lemma: flexibility
+  pos: noun
+  cefr: B2
+  topic: health
+  ipa: "/ˌfleksəˈbɪləti/"
+  def: "The ability of your body to bend and move easily."
+  vi: "độ dẻo dai, sự linh hoạt (cơ thể)"
+  examples:
+    - en: "Yoga has improved my flexibility a lot."
+      vi: "Yoga đã cải thiện độ dẻo dai của mình rất nhiều."
+- slug: sweat-v
+  lemma: sweat
+  pos: verb
+  cefr: B1
+  topic: health
+  ipa: "/swet/"
+  def: "To produce liquid on your skin when you are hot, nervous or exercising."
+  vi: "đổ mồ hôi"
+  forms: [sweats, sweated, sweating]
+  examples:
+    - en: "I was sweating so much that I had to change my shirt before the call."
+      vi: "Mình đổ mồ hôi nhiều tới mức phải thay áo trước cuộc gọi."
+- slug: take-the-stairs-phr
+  lemma: take the stairs
+  pos: phrase
+  kind: collocation
+  cefr: A2
+  topic: health
+  ipa: "/ˌteɪk ðə ˈsteəz/"
+  def: "To walk up or down the stairs instead of using the lift."
+  vi: "đi thang bộ"
+  forms: [takes the stairs, took the stairs, taking the stairs]
+  examples:
+    - en: "I take the stairs to the eighth floor every morning."
+      vi: "Sáng nào mình cũng đi thang bộ lên tầng tám."
+# Set 7: diet & nutrition
+- slug: nutrition-n
+  lemma: nutrition
+  pos: noun
+  cefr: B2
+  topic: health
+  ipa: "/njuˈtrɪʃn/"
+  def: "The food that you eat and how it affects your health and growth."
+  vi: "dinh dưỡng"
+  examples:
+    - en: "Good nutrition helps you focus during long coding sessions."
+      vi: "Dinh dưỡng tốt giúp bạn tập trung trong những buổi code dài."
+- slug: nutritious-adj
+  lemma: nutritious
+  pos: adjective
+  cefr: B2
+  topic: health
+  ipa: "/njuˈtrɪʃəs/"
+  def: "(Of food) containing a lot of things your body needs to be healthy."
+  vi: "bổ dưỡng, giàu dinh dưỡng"
+  examples:
+    - en: "Pho is cheap, quick and quite nutritious."
+      vi: "Phở rẻ, nhanh mà cũng khá bổ dưỡng."
+- slug: protein-n
+  lemma: protein
+  pos: noun
+  cefr: B1
+  topic: health
+  ipa: "/ˈprəʊtiːn/"
+  def: "A substance in foods like meat, eggs and beans that your body needs to grow and repair itself."
+  vi: "chất đạm, protein"
+  examples:
+    - en: "Eggs are an easy source of protein for breakfast."
+      vi: "Trứng là nguồn đạm dễ có cho bữa sáng."
+- slug: vitamin-n
+  lemma: vitamin
+  pos: noun
+  cefr: B1
+  topic: health
+  ipa: "/ˈvɪtəmɪn/"
+  def: "A natural substance in food that your body needs in small amounts to stay healthy."
+  vi: "vitamin, sinh tố"
+  forms: [vitamins]
+  examples:
+    - en: "Working indoors all day, many of us don't get enough vitamin D."
+      vi: "Làm việc trong nhà cả ngày, nhiều người trong chúng ta không đủ vitamin D."
+- slug: fibre-n
+  lemma: fibre
+  pos: noun
+  cefr: B2
+  topic: health
+  ipa: "/ˈfaɪbə/"
+  def: "The part of fruit, vegetables and grains that helps food move through your body."
+  vi: "chất xơ"
+  forms: [fiber]
+  examples:
+    - en: "Brown rice has more fibre than white rice."
+      vi: "Gạo lứt có nhiều chất xơ hơn gạo trắng."
+- slug: carbohydrate-n
+  lemma: carbohydrate
+  pos: noun
+  cefr: B2
+  topic: health
+  ipa: "/ˌkɑːbəʊˈhaɪdreɪt/"
+  def: "A substance in foods like rice, bread and pasta that gives your body energy."
+  vi: "tinh bột, carbohydrate"
+  forms: [carbohydrates, carbs, carb]
+  examples:
+    - en: "A big plate of carbohydrates at lunch makes me sleepy all afternoon."
+      vi: "Một đĩa đầy tinh bột buổi trưa làm mình buồn ngủ cả chiều."
+- slug: processed-food-n
+  lemma: processed food
+  pos: noun
+  kind: collocation
+  cefr: B2
+  topic: health
+  ipa: "/ˌprəʊsest ˈfuːd/"
+  def: "Food changed in a factory, often with added salt, sugar or chemicals."
+  vi: "thực phẩm chế biến sẵn"
+  forms: [processed foods]
+  examples:
+    - en: "I'm trying to eat less processed food like instant noodles and sausages."
+      vi: "Mình đang cố ăn ít đồ chế biến sẵn như mì gói và xúc xích."
+- slug: portion-size-n
+  lemma: portion size
+  pos: noun
+  kind: collocation
+  cefr: B2
+  topic: health
+  ipa: "/ˈpɔːʃn saɪz/"
+  def: "How much food is served to one person at one time."
+  vi: "khẩu phần, lượng thức ăn mỗi suất"
+  forms: [portion sizes, portion, portions]
+  examples:
+    - en: "The canteen reduced the portion size of rice and added more vegetables."
+      vi: "Căng tin giảm khẩu phần cơm và thêm nhiều rau hơn."
+- slug: skip-a-meal-phr
+  lemma: skip a meal
+  pos: phrase
+  kind: collocation
+  cefr: B1
+  topic: health
+  ipa: "/ˌskɪp ə ˈmiːl/"
+  def: "To not eat a meal that you would usually eat."
+  vi: "bỏ bữa"
+  forms: [skips a meal, skipped a meal, skipping a meal, skip meals, skip breakfast, skipped lunch]
+  examples:
+    - en: "Don't skip meals during release week; you'll make more mistakes."
+      vi: "Đừng bỏ bữa trong tuần release, bạn sẽ mắc lỗi nhiều hơn."
+- slug: sugary-drink-n
+  lemma: sugary drink
+  pos: noun
+  kind: collocation
+  cefr: B1
+  topic: health
+  ipa: "/ˌʃʊɡəri ˈdrɪŋk/"
+  def: "A drink that contains a lot of sugar, such as soda or sweet milk tea."
+  vi: "đồ uống nhiều đường"
+  forms: [sugary drinks]
+  examples:
+    - en: "I replaced my afternoon sugary drink with green tea."
+      vi: "Mình thay ly nước ngọt buổi chiều bằng trà xanh."
+- slug: low-fat-adj
+  lemma: low-fat
+  pos: adjective
+  kind: collocation
+  cefr: B1
+  topic: health
+  ipa: "/ˌləʊ ˈfæt/"
+  def: "Containing only a small amount of fat."
+  vi: "ít béo, ít chất béo"
+  forms: [low fat]
+  examples:
+    - en: "Low-fat yoghurt is not always healthy because it can have extra sugar."
+      vi: "Sữa chua ít béo không phải lúc nào cũng lành mạnh vì có thể thêm đường."
+- slug: go-on-a-diet-phr
+  lemma: go on a diet
+  pos: phrase
+  kind: collocation
+  cefr: B1
+  topic: health
+  ipa: "/ˌɡəʊ ɒn ə ˈdaɪət/"
+  def: "To start eating less or only certain foods, usually to lose weight."
+  vi: "ăn kiêng"
+  forms: [goes on a diet, went on a diet, going on a diet, gone on a diet, be on a diet]
+  examples:
+    - en: "I went on a diet before the wedding but gave up after a week."
+      vi: "Mình ăn kiêng trước đám cưới nhưng bỏ cuộc sau một tuần."
+- slug: lose-weight-phr
+  lemma: lose weight
+  pos: phrase
+  kind: collocation
+  cefr: A2
+  topic: health
+  ipa: "/ˌluːz ˈweɪt/"
+  def: "To become lighter and thinner."
+  vi: "giảm cân"
+  forms: [loses weight, lost weight, losing weight]
+  examples:
+    - en: "He lost weight by walking to the office every day."
+      vi: "Anh ấy giảm cân nhờ đi bộ đến văn phòng mỗi ngày."
+- slug: put-on-weight-phr
+  lemma: put on weight
+  pos: phrasal_verb
+  kind: phrasal
+  cefr: B1
+  topic: health
+  ipa: "/ˌpʊt ɒn ˈweɪt/"
+  def: "To become heavier and fatter."
+  vi: "tăng cân, lên cân"
+  forms: [puts on weight, putting on weight]
+  examples:
+    - en: "I put on weight during lockdown because I was snacking all day."
+      vi: "Mình lên cân hồi giãn cách vì ăn vặt cả ngày."
+- slug: overeat-v
+  lemma: overeat
+  pos: verb
+  cefr: B2
+  topic: health
+  ipa: "/ˌəʊvərˈiːt/"
+  def: "To eat more food than your body needs."
+  vi: "ăn quá nhiều, ăn quá no"
+  forms: [overeats, overate, overeaten, overeating]
+  examples:
+    - en: "It's easy to overeat at a buffet team dinner."
+      vi: "Đi ăn buffet với nhóm rất dễ ăn quá no."
+- slug: whole-grain-adj
+  lemma: whole grain
+  pos: adjective
+  kind: collocation
+  cefr: B2
+  topic: health
+  ipa: "/ˌhəʊl ˈɡreɪn/"
+  def: "Made from the complete seed of a plant, so it keeps more fibre and vitamins."
+  vi: "nguyên cám, ngũ cốc nguyên hạt"
+  forms: [whole-grain, wholegrain, whole grains, wholemeal]
+  examples:
+    - en: "I switched to whole grain bread for breakfast."
+      vi: "Mình chuyển sang ăn bánh mì nguyên cám vào bữa sáng."
+- slug: food-poisoning-n
+  lemma: food poisoning
+  pos: noun
+  kind: collocation
+  cefr: B1
+  topic: health
+  ipa: "/ˈfuːd ˌpɔɪzənɪŋ/"
+  def: "An illness caused by eating food that has bacteria in it."
+  vi: "ngộ độc thực phẩm"
+  examples:
+    - en: "Three people got food poisoning from the seafood at the party."
+      vi: "Ba người bị ngộ độc thực phẩm vì hải sản ở bữa tiệc."
+- slug: calorie-intake-n
+  lemma: calorie intake
+  pos: noun
+  kind: collocation
+  cefr: C1
+  topic: health
+  ipa: "/ˈkæləri ˌɪnteɪk/"
+  def: "The total amount of energy you get from food and drink in a day."
+  vi: "lượng calo nạp vào"
+  examples:
+    - en: "My app tracks my daily calorie intake, but I often forget to log snacks."
+      vi: "Ứng dụng theo dõi lượng calo mình nạp mỗi ngày, nhưng mình hay quên ghi đồ ăn vặt."
+- slug: cut-out-health-phr
+  lemma: cut out
+  pos: phrasal_verb
+  kind: phrasal
+  cefr: B2
+  topic: health
+  ipa: "/ˌkʌt ˈaʊt/"
+  def: "To stop eating or drinking something completely."
+  vi: "bỏ hẳn, kiêng hẳn (món gì)"
+  forms: [cuts out, cutting out]
+  note: 'Khác "cut down on" (ăn/uống ít đi): "cut out" là bỏ hoàn toàn.'
+  examples:
+    - en: "My doctor told me to cut out sugar completely for a month."
+      vi: "Bác sĩ bảo mình bỏ hẳn đường trong một tháng."
+- slug: deficiency-n
+  lemma: deficiency
+  pos: noun
+  cefr: C1
+  topic: health
+  ipa: "/dɪˈfɪʃnsi/"
+  def: "A lack of something your body needs, such as a vitamin or mineral."
+  vi: "sự thiếu hụt (chất)"
+  forms: [deficiencies]
+  examples:
+    - en: "Her tiredness was caused by an iron deficiency."
+      vi: "Cô ấy mệt mỏi là do thiếu sắt."
+- slug: supplement-n
+  lemma: supplement
+  pos: noun
+  cefr: B2
+  topic: health
+  ipa: "/ˈsʌplɪmənt/"
+  def: "A pill or drink you take to add vitamins or other things to your diet."
+  vi: "thực phẩm bổ sung, thực phẩm chức năng"
+  forms: [supplements, dietary supplement]
+  examples:
+    - en: "Ask a doctor before you buy expensive supplements online."
+      vi: "Hãy hỏi bác sĩ trước khi mua thực phẩm chức năng đắt tiền trên mạng."
+- slug: in-moderation-phr
+  lemma: in moderation
+  pos: phrase
+  kind: phrase
+  cefr: C1
+  topic: health
+  ipa: "/ɪn ˌmɒdəˈreɪʃn/"
+  def: "In reasonable amounts, not too much."
+  vi: "có chừng mực, điều độ"
+  examples:
+    - en: "Coffee is fine in moderation, but six cups a day is too many."
+      vi: "Cà phê uống điều độ thì không sao, nhưng sáu cốc một ngày là quá nhiều."
+# Set 8: mental health
+- slug: depression-n
+  lemma: depression
+  pos: noun
+  cefr: B2
+  topic: health
+  ipa: "/dɪˈpreʃn/"
+  def: "A medical condition in which you feel very sad and hopeless for a long time."
+  vi: "bệnh trầm cảm"
+  examples:
+    - en: "Depression is an illness, not a sign that someone is lazy."
+      vi: "Trầm cảm là một căn bệnh, không phải dấu hiệu của sự lười biếng."
+- slug: therapy-n
+  lemma: therapy
+  pos: noun
+  cefr: B2
+  topic: health
+  ipa: "/ˈθerəpi/"
+  def: "Treatment for mental or emotional problems by talking with a trained person."
+  vi: "liệu pháp tâm lý, trị liệu"
+  forms: [therapies, go to therapy, in therapy]
+  examples:
+    - en: "Going to therapy helped me understand why I can't say no at work."
+      vi: "Đi trị liệu giúp mình hiểu vì sao mình không thể từ chối ở chỗ làm."
+- slug: therapist-n
+  lemma: therapist
+  pos: noun
+  cefr: B2
+  topic: health
+  ipa: "/ˈθerəpɪst/"
+  def: "A person trained to help people with mental or emotional problems."
+  vi: "nhà trị liệu tâm lý"
+  forms: [therapists]
+  examples:
+    - en: "My therapist suggested writing down three good things every evening."
+      vi: "Nhà trị liệu gợi ý mình viết ra ba điều tốt mỗi tối."
+- slug: counselling-n
+  lemma: counselling
+  pos: noun
+  cefr: B2
+  topic: health
+  ipa: "/ˈkaʊnsəlɪŋ/"
+  def: "Professional advice and support for personal or emotional problems."
+  vi: "dịch vụ tư vấn tâm lý"
+  forms: [counseling]
+  examples:
+    - en: "Our company offers free counselling sessions for all staff."
+      vi: "Công ty mình có các buổi tư vấn tâm lý miễn phí cho mọi nhân viên."
+- slug: panic-attack-n
+  lemma: panic attack
+  pos: noun
+  kind: collocation
+  cefr: B2
+  topic: health
+  ipa: "/ˈpænɪk əˌtæk/"
+  def: "A sudden, strong feeling of fear, with a fast heartbeat and difficulty breathing."
+  vi: "cơn hoảng loạn"
+  forms: [panic attacks]
+  examples:
+    - en: "She had a panic attack before her first conference talk."
+      vi: "Cô ấy lên cơn hoảng loạn trước bài nói đầu tiên ở hội thảo."
+- slug: insomnia-n
+  lemma: insomnia
+  pos: noun
+  cefr: B2
+  topic: health
+  ipa: "/ɪnˈsɒmniə/"
+  def: "A problem in which you cannot sleep well for a long time."
+  vi: "chứng mất ngủ"
+  examples:
+    - en: "Checking Slack in bed made my insomnia worse."
+      vi: "Xem Slack trên giường khiến chứng mất ngủ của mình tệ hơn."
+- slug: overwhelmed-adj
+  lemma: overwhelmed
+  pos: adjective
+  cefr: B2
+  topic: health
+  ipa: "/ˌəʊvəˈwelmd/"
+  def: "Feeling that there is too much to deal with and you cannot manage."
+  vi: "quá tải, choáng ngợp"
+  examples:
+    - en: "I felt overwhelmed with three projects and a newborn baby."
+      vi: "Mình thấy quá tải với ba dự án và một em bé mới sinh."
+- slug: cope-with-phr
+  lemma: cope with
+  pos: phrasal_verb
+  kind: phrasal
+  cefr: B2
+  topic: health
+  ipa: "/ˈkəʊp wɪð/"
+  def: "To deal successfully with a difficult situation or feeling."
+  vi: "đương đầu với, đối phó với"
+  forms: [copes with, coped with, coping with]
+  examples:
+    - en: "Everyone copes with stress differently; I go for a long walk."
+      vi: "Mỗi người đối phó với căng thẳng một kiểu; mình thì đi bộ thật lâu."
+- slug: mood-swings-n
+  lemma: mood swings
+  pos: noun
+  kind: collocation
+  cefr: B2
+  topic: health
+  ipa: "/ˈmuːd swɪŋz/"
+  def: "Sudden changes from feeling happy to feeling sad or angry."
+  vi: "tâm trạng thất thường"
+  forms: [mood swing]
+  examples:
+    - en: "Lack of sleep gives me terrible mood swings."
+      vi: "Thiếu ngủ làm tâm trạng mình thất thường kinh khủng."
+- slug: mindfulness-n
+  lemma: mindfulness
+  pos: noun
+  cefr: C1
+  topic: health
+  ipa: "/ˈmaɪndflnəs/"
+  def: "The practice of paying calm attention to what you feel and think right now."
+  vi: "chánh niệm"
+  examples:
+    - en: "Ten minutes of mindfulness before work keeps me calmer."
+      vi: "Mười phút chánh niệm trước giờ làm giúp mình bình tĩnh hơn."
+- slug: meditate-v
+  lemma: meditate
+  pos: verb
+  cefr: B2
+  topic: health
+  ipa: "/ˈmedɪteɪt/"
+  def: "To sit quietly and focus your mind, often on your breathing, to relax."
+  vi: "thiền"
+  forms: [meditates, meditated, meditating]
+  examples:
+    - en: "I meditate for five minutes after lunch instead of scrolling."
+      vi: "Mình ngồi thiền năm phút sau bữa trưa thay vì lướt điện thoại."
+- slug: open-up-phr
+  lemma: open up
+  pos: phrasal_verb
+  kind: phrasal
+  cefr: B2
+  topic: health
+  ipa: "/ˌəʊpən ˈʌp/"
+  def: "To start talking honestly about your feelings."
+  vi: "mở lòng, tâm sự"
+  forms: [opens up, opened up, opening up]
+  examples:
+    - en: "It took him months to open up about his burnout."
+      vi: "Anh ấy mất mấy tháng mới mở lòng kể về chuyện kiệt sức."
+- slug: reach-out-phr
+  lemma: reach out
+  pos: phrasal_verb
+  kind: phrasal
+  cefr: B2
+  topic: health
+  ipa: "/ˌriːtʃ ˈaʊt/"
+  def: "To contact someone to ask for or offer help."
+  vi: "chủ động liên hệ, tìm đến (để nhờ giúp đỡ)"
+  forms: [reaches out, reached out, reaching out]
+  examples:
+    - en: "If you're struggling, please reach out to HR or a friend."
+      vi: "Nếu bạn đang gặp khó khăn, hãy tìm đến HR hoặc một người bạn."
+- slug: support-network-n
+  lemma: support network
+  pos: noun
+  kind: collocation
+  cefr: C1
+  topic: health
+  ipa: "/səˈpɔːt ˌnetwɜːk/"
+  def: "The family, friends and others you can depend on for help."
+  vi: "mạng lưới người hỗ trợ (gia đình, bạn bè)"
+  forms: [support networks]
+  examples:
+    - en: "Moving to a new city, I had to build a support network from zero."
+      vi: "Chuyển đến thành phố mới, mình phải gây dựng chỗ dựa từ con số không."
+- slug: stigma-n
+  lemma: stigma
+  pos: noun
+  cefr: C1
+  topic: health
+  ipa: "/ˈstɪɡmə/"
+  def: "Strong negative feelings in society about a thing, which make people ashamed of it."
+  vi: "sự kỳ thị, định kiến"
+  examples:
+    - en: "There is still a stigma around asking for mental health days."
+      vi: "Vẫn còn định kiến về việc xin nghỉ để chăm sóc sức khoẻ tinh thần."
+- slug: resilience-n
+  lemma: resilience
+  pos: noun
+  cefr: C1
+  topic: health
+  ipa: "/rɪˈzɪliəns/"
+  def: "The ability to feel better and keep going after something difficult happens."
+  vi: "khả năng phục hồi, sự kiên cường"
+  examples:
+    - en: "Good sleep and good friends build resilience."
+      vi: "Ngủ ngon và có bạn tốt giúp ta kiên cường hơn."
+- slug: take-a-toll-phr
+  lemma: take a toll
+  pos: phrase
+  kind: phrase
+  cefr: C1
+  topic: health
+  ipa: "/ˌteɪk ə ˈtəʊl/"
+  def: "To have a bad effect on someone's health or feelings over time."
+  vi: "gây tổn hại dần dần"
+  forms: [takes a toll, took a toll, taking a toll, taken a toll, take its toll]
+  examples:
+    - en: "Months of night shifts took a toll on his health."
+      vi: "Nhiều tháng làm ca đêm đã bào mòn sức khoẻ của anh ấy."
+- slug: breakdown-n
+  lemma: breakdown
+  pos: noun
+  cefr: B2
+  topic: health
+  ipa: "/ˈbreɪkdaʊn/"
+  def: "A time when someone becomes so mentally ill or stressed that they cannot live normally."
+  vi: "suy sụp tinh thần"
+  forms: [breakdowns, nervous breakdown, mental breakdown]
+  examples:
+    - en: "She worked eighty-hour weeks until she had a breakdown."
+      vi: "Cô ấy làm tám mươi tiếng mỗi tuần cho tới khi suy sụp tinh thần."
+- slug: sleep-deprived-adj
+  lemma: sleep-deprived
+  pos: adjective
+  cefr: C1
+  topic: health
+  ipa: "/ˈsliːp dɪˌpraɪvd/"
+  def: "Very tired because you have not had enough sleep for some time."
+  vi: "thiếu ngủ trầm trọng"
+  forms: [sleep deprived]
+  examples:
+    - en: "Sleep-deprived engineers ship more bugs."
+      vi: "Kỹ sư thiếu ngủ thì đẩy lên nhiều bug hơn."
+- slug: irritable-adj
+  lemma: irritable
+  pos: adjective
+  cefr: B2
+  topic: health
+  ipa: "/ˈɪrɪtəbl/"
+  def: "Getting annoyed easily."
+  vi: "dễ cáu gắt"
+  examples:
+    - en: "I get irritable when I skip lunch, so please don't book meetings at noon."
+      vi: "Mình dễ cáu khi bỏ bữa trưa nên đừng đặt lịch họp lúc 12 giờ nhé."
+- slug: loneliness-n
+  lemma: loneliness
+  pos: noun
+  cefr: B2
+  topic: health
+  ipa: "/ˈləʊnlinəs/"
+  def: "The sad feeling of being alone or having no one to talk to."
+  vi: "sự cô đơn"
+  examples:
+    - en: "Remote work can bring loneliness if you never see your team."
+      vi: "Làm từ xa có thể mang lại cảm giác cô đơn nếu bạn không bao giờ gặp nhóm."
+- slug: talk-through-phr
+  lemma: talk through
+  pos: phrasal_verb
+  kind: phrasal
+  cefr: B2
+  topic: health
+  ipa: "/ˌtɔːk ˈθruː/"
+  def: "To discuss a problem or feeling with someone in detail so you understand it better."
+  vi: "trò chuyện kỹ cho rõ (về một vấn đề)"
+  forms: [talks through, talked through, talking through, talk things through, talk it through]
+  examples:
+    - en: "Let's talk it through over coffee; you don't have to decide today."
+      vi: "Mình ngồi cà phê nói chuyện cho rõ nhé, hôm nay bạn chưa phải quyết đâu."
+- slug: well-being-n
+  lemma: well-being
+  pos: noun
+  cefr: B2
+  topic: health
+  ipa: "/ˈwel biːɪŋ/"
+  def: "The state of being healthy, comfortable and happy."
+  vi: "sự khoẻ mạnh, an vui (thể chất và tinh thần)"
+  forms: [wellbeing]
+  examples:
+    - en: "The new policy puts employee well-being before overtime."
+      vi: "Chính sách mới đặt sức khoẻ và hạnh phúc của nhân viên lên trên việc làm thêm giờ."
+- slug: bounce-back-phr
+  lemma: bounce back
+  pos: phrasal_verb
+  kind: phrasal
+  cefr: B2
+  topic: health
+  ipa: "/ˌbaʊns ˈbæk/"
+  def: "To become healthy, happy or successful again after a difficult time."
+  vi: "lấy lại phong độ, vực dậy"
+  forms: [bounces back, bounced back, bouncing back]
+  examples:
+    - en: "After a quiet holiday, she bounced back full of energy."
+      vi: "Sau một kỳ nghỉ yên tĩnh, cô ấy đã vực dậy, tràn đầy năng lượng."
+# Set 9: hospitals & healthcare
+- slug: ambulance-n
+  lemma: ambulance
+  pos: noun
+  cefr: A2
+  topic: health
+  ipa: "/ˈæmbjələns/"
+  def: "A vehicle that takes sick or injured people to hospital quickly."
+  vi: "xe cứu thương"
+  forms: [ambulances]
+  examples:
+    - en: "Someone fainted in the lobby, so we called an ambulance."
+      vi: "Có người ngất ở sảnh nên tụi mình gọi xe cứu thương."
+- slug: emergency-room-n
+  lemma: emergency room
+  pos: noun
+  kind: collocation
+  cefr: B1
+  topic: health
+  ipa: "/ɪˈmɜːdʒənsi ruːm/"
+  def: "The part of a hospital where people who need urgent treatment go. Also called A&E in British English."
+  vi: "phòng cấp cứu"
+  forms: [emergency rooms, ER, A&E]
+  examples:
+    - en: "We waited four hours in the emergency room after his bike accident."
+      vi: "Tụi mình đợi bốn tiếng ở phòng cấp cứu sau vụ tai nạn xe đạp của anh ấy."
+- slug: ward-n
+  lemma: ward
+  pos: noun
+  cefr: B2
+  topic: health
+  ipa: "/wɔːd/"
+  def: "A large room in a hospital with beds for patients who need the same kind of care."
+  vi: "khu điều trị, phòng bệnh (nhiều giường)"
+  forms: [wards]
+  examples:
+    - en: "My father is on the heart ward on the third floor."
+      vi: "Bố mình nằm ở khoa tim mạch trên tầng ba."
+- slug: nurse-n
+  lemma: nurse
+  pos: noun
+  cefr: A2
+  topic: health
+  ipa: "/nɜːs/"
+  def: "A person trained to care for sick or injured people, usually in a hospital."
+  vi: "y tá, điều dưỡng"
+  forms: [nurses]
+  examples:
+    - en: "The nurse checked my blood pressure before the doctor came in."
+      vi: "Y tá đo huyết áp cho mình trước khi bác sĩ vào."
+- slug: patient-n
+  lemma: patient
+  pos: noun
+  cefr: B1
+  topic: health
+  ipa: "/ˈpeɪʃnt/"
+  def: "A person who is receiving medical care."
+  vi: "bệnh nhân"
+  forms: [patients]
+  note: '"patient" (tính từ) còn có nghĩa là "kiên nhẫn".'
+  examples:
+    - en: "Our app lets patients book a time slot without calling the clinic."
+      vi: "Ứng dụng của tụi mình cho phép bệnh nhân đặt giờ khám mà không cần gọi tới phòng khám."
+- slug: surgeon-n
+  lemma: surgeon
+  pos: noun
+  cefr: B2
+  topic: health
+  ipa: "/ˈsɜːdʒən/"
+  def: "A doctor who does operations on people's bodies."
+  vi: "bác sĩ phẫu thuật"
+  forms: [surgeons]
+  examples:
+    - en: "The surgeon said the operation went well."
+      vi: "Bác sĩ phẫu thuật nói ca mổ diễn ra tốt."
+- slug: surgery-n
+  lemma: surgery
+  pos: noun
+  cefr: B2
+  topic: health
+  ipa: "/ˈsɜːdʒəri/"
+  def: "Medical treatment in which a doctor cuts into the body to repair or remove something."
+  vi: "ca phẫu thuật, việc mổ"
+  forms: [surgeries, have surgery]
+  examples:
+    - en: "She needs knee surgery, so she'll be away for a month."
+      vi: "Cô ấy cần mổ đầu gối nên sẽ nghỉ một tháng."
+- slug: clinic-n
+  lemma: clinic
+  pos: noun
+  cefr: B1
+  topic: health
+  ipa: "/ˈklɪnɪk/"
+  def: "A place, smaller than a hospital, where people go to see a doctor."
+  vi: "phòng khám"
+  forms: [clinics]
+  examples:
+    - en: "There's a small clinic near the office that's open on Sundays."
+      vi: "Gần văn phòng có một phòng khám nhỏ mở cửa cả Chủ nhật."
+- slug: specialist-n
+  lemma: specialist
+  pos: noun
+  cefr: B2
+  topic: health
+  ipa: "/ˈspeʃəlɪst/"
+  def: "A doctor who knows a lot about one part of the body or one kind of illness."
+  vi: "bác sĩ chuyên khoa"
+  forms: [specialists]
+  examples:
+    - en: "My GP sent me to an eye specialist because of the headaches."
+      vi: "Bác sĩ đa khoa chuyển mình sang bác sĩ chuyên khoa mắt vì những cơn đau đầu."
+- slug: general-practitioner-n
+  lemma: general practitioner
+  pos: noun
+  kind: collocation
+  cefr: B2
+  topic: health
+  ipa: "/ˌdʒenrəl prækˈtɪʃənə/"
+  def: "A doctor who treats common illnesses and sends people to specialists if needed."
+  vi: "bác sĩ đa khoa, bác sĩ gia đình"
+  forms: [general practitioners, GP, GPs]
+  examples:
+    - en: "In the UK, you usually see a general practitioner first."
+      vi: "Ở Anh, bạn thường gặp bác sĩ đa khoa trước."
+- slug: see-a-doctor-phr
+  lemma: see a doctor
+  pos: phrase
+  kind: collocation
+  cefr: A2
+  topic: health
+  ipa: "/ˌsiː ə ˈdɒktə/"
+  def: "To visit a doctor and get advice or treatment."
+  vi: "đi khám bác sĩ"
+  forms: [sees a doctor, saw a doctor, seeing a doctor, seen a doctor, see the doctor]
+  examples:
+    - en: "If the pain doesn't stop, you should see a doctor."
+      vi: "Nếu cơn đau không dứt thì bạn nên đi khám bác sĩ."
+- slug: diagnose-v
+  lemma: diagnose
+  pos: verb
+  cefr: B2
+  topic: health
+  ipa: "/ˈdaɪəɡnəʊz/"
+  def: "To find out what illness a person has by examining them."
+  vi: "chẩn đoán"
+  forms: [diagnoses, diagnosed, diagnosing]
+  examples:
+    - en: "He was diagnosed with diabetes at twenty-eight."
+      vi: "Anh ấy được chẩn đoán mắc tiểu đường năm hai mươi tám tuổi."
+- slug: diagnosis-n
+  lemma: diagnosis
+  pos: noun
+  cefr: C1
+  topic: health
+  ipa: "/ˌdaɪəɡˈnəʊsɪs/"
+  def: "A doctor's statement about what illness a person has."
+  vi: "kết quả chẩn đoán"
+  forms: [diagnoses]
+  examples:
+    - en: "Get a second opinion if you're not sure about the diagnosis."
+      vi: "Hãy hỏi thêm ý kiến bác sĩ khác nếu bạn không chắc về kết quả chẩn đoán."
+- slug: x-ray-n
+  lemma: X-ray
+  pos: noun
+  cefr: B1
+  topic: health
+  ipa: "/ˈeks reɪ/"
+  def: "A photo of the inside of your body, used to check bones and organs."
+  vi: "phim chụp X-quang"
+  forms: [X-rays, x-ray, x-rays]
+  examples:
+    - en: "The X-ray showed that my wrist wasn't broken."
+      vi: "Phim X-quang cho thấy cổ tay mình không bị gãy."
+- slug: blood-test-n
+  lemma: blood test
+  pos: noun
+  kind: collocation
+  cefr: B1
+  topic: health
+  ipa: "/ˈblʌd test/"
+  def: "A check of a small amount of your blood to find health problems."
+  vi: "xét nghiệm máu"
+  forms: [blood tests]
+  examples:
+    - en: "Don't eat anything before your blood test tomorrow morning."
+      vi: "Đừng ăn gì trước khi xét nghiệm máu sáng mai."
+- slug: scan-n
+  lemma: scan
+  pos: noun
+  cefr: B2
+  topic: health
+  ipa: "/skæn/"
+  def: "A medical test in which a machine makes a picture of the inside of your body."
+  vi: "lần chụp chiếu (siêu âm, CT, MRI)"
+  forms: [scans, MRI scan, CT scan]
+  examples:
+    - en: "The doctor wants a scan of my back to see what's wrong."
+      vi: "Bác sĩ muốn chụp lưng để xem có vấn đề gì."
+- slug: be-admitted-phr
+  lemma: be admitted to hospital
+  pos: phrase
+  kind: collocation
+  cefr: B2
+  topic: health
+  ipa: "/bi ədˈmɪtɪd tə ˈhɒspɪtl/"
+  def: "To be taken into a hospital and stay there for treatment."
+  vi: "nhập viện"
+  forms:
+    [
+      was admitted to hospital,
+      were admitted to hospital,
+      been admitted to hospital,
+      admitted to hospital,
+      admitted to the hospital,
+    ]
+  examples:
+    - en: "My grandmother was admitted to hospital last night with chest pain."
+      vi: "Bà mình nhập viện tối qua vì đau ngực."
+- slug: discharge-v
+  lemma: discharge
+  pos: verb
+  cefr: C1
+  topic: health
+  ipa: "/dɪsˈtʃɑːdʒ/"
+  def: "To officially let a patient leave hospital."
+  vi: "cho xuất viện"
+  forms: [discharges, discharged, discharging]
+  examples:
+    - en: "If the tests are fine, they'll discharge him on Friday."
+      vi: "Nếu xét nghiệm ổn, họ sẽ cho anh ấy xuất viện vào thứ Sáu."
+- slug: waiting-room-n
+  lemma: waiting room
+  pos: noun
+  kind: collocation
+  cefr: A2
+  topic: health
+  ipa: "/ˈweɪtɪŋ ruːm/"
+  def: "A room where people sit until they can see the doctor."
+  vi: "phòng chờ"
+  forms: [waiting rooms]
+  examples:
+    - en: "I answered emails in the waiting room while I waited for my number."
+      vi: "Mình trả lời email trong phòng chờ trong lúc đợi tới số."
+- slug: medical-record-n
+  lemma: medical record
+  pos: noun
+  kind: collocation
+  cefr: B2
+  topic: health
+  ipa: "/ˌmedɪkl ˈrekɔːd/"
+  def: "Official information about a person's health, illnesses and treatment."
+  vi: "hồ sơ bệnh án"
+  forms: [medical records]
+  examples:
+    - en: "Medical records must be encrypted because they are very private."
+      vi: "Hồ sơ bệnh án phải được mã hoá vì đó là thông tin rất riêng tư."
+- slug: referral-n
+  lemma: referral
+  pos: noun
+  cefr: C1
+  topic: health
+  ipa: "/rɪˈfɜːrəl/"
+  def: "Sending a patient to a specialist or another hospital, or the letter that does this."
+  vi: "giấy chuyển tuyến, sự chuyển viện"
+  forms: [referrals]
+  examples:
+    - en: "You need a referral from your GP to see the specialist for free."
+      vi: "Bạn cần giấy chuyển tuyến của bác sĩ đa khoa để khám chuyên khoa miễn phí."
+- slug: intensive-care-n
+  lemma: intensive care
+  pos: noun
+  kind: collocation
+  cefr: C1
+  topic: health
+  ipa: "/ɪnˌtensɪv ˈkeə/"
+  def: "The part of a hospital for people who are very seriously ill and need care all the time."
+  vi: "khoa hồi sức tích cực (ICU)"
+  forms: [ICU, intensive care unit]
+  examples:
+    - en: "After the crash, he spent two days in intensive care."
+      vi: "Sau tai nạn, anh ấy nằm hồi sức tích cực hai ngày."
+- slug: first-aid-n
+  lemma: first aid
+  pos: noun
+  kind: collocation
+  cefr: B1
+  topic: health
+  ipa: "/ˌfɜːst ˈeɪd/"
+  def: "Simple help given to an injured or ill person before a doctor arrives."
+  vi: "sơ cứu"
+  forms: [first-aid, first aid kit]
+  examples:
+    - en: "Two people on every floor have done a first aid course."
+      vi: "Mỗi tầng có hai người đã học khoá sơ cứu."
+- slug: stitches-n
+  lemma: stitches
+  pos: noun
+  cefr: B2
+  topic: health
+  ipa: "/ˈstɪtʃɪz/"
+  def: "Short pieces of thread that a doctor uses to close a cut in the skin."
+  vi: "mũi khâu (vết thương)"
+  forms: [stitch]
+  examples:
+    - en: "I cut my hand on a broken glass and needed five stitches."
+      vi: "Mình bị mảnh cốc vỡ cứa tay và phải khâu năm mũi."
+- slug: outpatient-n
+  lemma: outpatient
+  pos: noun
+  cefr: C1
+  topic: health
+  ipa: "/ˈaʊtpeɪʃnt/"
+  def: "A patient who goes to hospital for treatment but does not stay the night."
+  vi: "bệnh nhân ngoại trú"
+  forms: [outpatients]
+  examples:
+    - en: "It's a small operation, so you'll be treated as an outpatient."
+      vi: "Đây là ca mổ nhỏ nên bạn sẽ được điều trị ngoại trú."
+- slug: medical-bill-n
+  lemma: medical bill
+  pos: noun
+  kind: collocation
+  cefr: B1
+  topic: health
+  ipa: "/ˌmedɪkl ˈbɪl/"
+  def: "A document showing how much you must pay for medical care."
+  vi: "hoá đơn viện phí"
+  forms: [medical bills]
+  examples:
+    - en: "Keep your medical bills so the insurance company can pay you back."
+      vi: "Hãy giữ hoá đơn viện phí để công ty bảo hiểm hoàn tiền cho bạn."
+- slug: consultation-n
+  lemma: consultation
+  pos: noun
+  cefr: B2
+  topic: health
+  ipa: "/ˌkɒnslˈteɪʃn/"
+  def: "A meeting with a doctor to talk about your health problem."
+  vi: "buổi khám tư vấn"
+  forms: [consultations, online consultation]
+  examples:
+    - en: "I booked a video consultation so I didn't have to leave the office."
+      vi: "Mình đặt một buổi khám tư vấn qua video để khỏi phải rời văn phòng."
+- slug: visiting-hours-n
+  lemma: visiting hours
+  pos: noun
+  kind: collocation
+  cefr: B1
+  topic: health
+  ipa: "/ˈvɪzɪtɪŋ ˌaʊəz/"
+  def: "The times when friends and family may visit patients in hospital."
+  vi: "giờ thăm bệnh"
+  examples:
+    - en: "Visiting hours end at eight, so I'll go straight after work."
+      vi: "Giờ thăm bệnh kết thúc lúc tám giờ nên mình sẽ đi ngay sau giờ làm."
+# Set 10: public health & lifestyle
+- slug: vaccine-n
+  lemma: vaccine
+  pos: noun
+  cefr: B2
+  topic: health
+  ipa: "/ˈvæksiːn/"
+  def: "A substance put into the body to protect it from a disease."
+  vi: "vắc-xin"
+  forms: [vaccines]
+  examples:
+    - en: "The flu vaccine is free for staff this year."
+      vi: "Năm nay nhân viên được tiêm vắc-xin cúm miễn phí."
+- slug: get-vaccinated-phr
+  lemma: get vaccinated
+  pos: phrase
+  kind: collocation
+  cefr: B2
+  topic: health
+  ipa: "/ˌɡet ˈvæksɪneɪtɪd/"
+  def: "To receive a vaccine, usually by injection."
+  vi: "đi tiêm phòng, được tiêm chủng"
+  forms: [gets vaccinated, got vaccinated, getting vaccinated, gotten vaccinated, be vaccinated]
+  examples:
+    - en: "I got vaccinated against hepatitis before my trip."
+      vi: "Mình đã tiêm phòng viêm gan trước chuyến đi."
+- slug: epidemic-n
+  lemma: epidemic
+  pos: noun
+  cefr: C1
+  topic: health
+  ipa: "/ˌepɪˈdemɪk/"
+  def: "A disease that spreads to a large number of people in one area at the same time."
+  vi: "dịch bệnh (lan rộng)"
+  forms: [epidemics]
+  examples:
+    - en: "The dengue epidemic filled the city's hospitals last summer."
+      vi: "Dịch sốt xuất huyết làm kín các bệnh viện thành phố hồi hè năm ngoái."
+- slug: outbreak-n
+  lemma: outbreak
+  pos: noun
+  cefr: B2
+  topic: health
+  ipa: "/ˈaʊtbreɪk/"
+  def: "A sudden start of a disease in a place."
+  vi: "đợt bùng phát (dịch)"
+  forms: [outbreaks]
+  examples:
+    - en: "After an outbreak of flu in the office, we switched to remote work for a week."
+      vi: "Sau đợt bùng phát cúm ở văn phòng, tụi mình chuyển sang làm từ xa một tuần."
+- slug: contagious-adj
+  lemma: contagious
+  pos: adjective
+  cefr: B2
+  topic: health
+  ipa: "/kənˈteɪdʒəs/"
+  def: "(Of a disease) able to pass from one person to another."
+  vi: "dễ lây, truyền nhiễm"
+  examples:
+    - en: "Stay home if you're still contagious."
+      vi: "Hãy ở nhà nếu bạn vẫn còn khả năng lây bệnh."
+- slug: spread-germs-phr
+  lemma: spread germs
+  pos: phrase
+  kind: collocation
+  cefr: B1
+  topic: health
+  ipa: "/ˌspred ˈdʒɜːmz/"
+  def: "To pass very small living things that cause illness from one person or place to another."
+  vi: "lây lan vi trùng"
+  forms: [spreads germs, spreading germs]
+  examples:
+    - en: "Shared keyboards can spread germs, so clean them often."
+      vi: "Bàn phím dùng chung có thể lây vi trùng nên hãy lau thường xuyên."
+- slug: hygiene-n
+  lemma: hygiene
+  pos: noun
+  cefr: B2
+  topic: health
+  ipa: "/ˈhaɪdʒiːn/"
+  def: "Keeping yourself and the things around you clean to stop disease."
+  vi: "vệ sinh (cá nhân, an toàn)"
+  examples:
+    - en: "Good hygiene in the office kitchen keeps everyone healthy."
+      vi: "Giữ vệ sinh tốt ở bếp văn phòng giúp mọi người khoẻ mạnh."
+- slug: wash-your-hands-phr
+  lemma: wash your hands
+  pos: phrase
+  kind: collocation
+  cefr: A2
+  topic: health
+  ipa: "/ˌwɒʃ jə ˈhændz/"
+  def: "To clean your hands with soap and water."
+  vi: "rửa tay"
+  forms: [wash my hands, washed my hands, washing your hands, wash hands]
+  examples:
+    - en: "Always wash your hands before you eat at your desk."
+      vi: "Luôn rửa tay trước khi ăn ở bàn làm việc."
+- slug: face-mask-n
+  lemma: face mask
+  pos: noun
+  kind: collocation
+  cefr: B1
+  topic: health
+  ipa: "/ˈfeɪs mɑːsk/"
+  def: "A covering for your nose and mouth that protects you from germs or dirty air."
+  vi: "khẩu trang"
+  forms: [face masks, mask, masks]
+  examples:
+    - en: "I wear a face mask on my motorbike because of the traffic fumes."
+      vi: "Mình đeo khẩu trang khi đi xe máy vì khói xe."
+- slug: quarantine-n
+  lemma: quarantine
+  pos: noun
+  cefr: C1
+  topic: health
+  ipa: "/ˈkwɒrəntiːn/"
+  def: "A period when a person who may have a disease is kept away from others."
+  vi: "sự cách ly"
+  examples:
+    - en: "He worked from a hotel room during his two weeks of quarantine."
+      vi: "Anh ấy làm việc trong phòng khách sạn suốt hai tuần cách ly."
+- slug: immune-system-n
+  lemma: immune system
+  pos: noun
+  kind: collocation
+  cefr: B2
+  topic: health
+  ipa: "/ɪˈmjuːn ˌsɪstəm/"
+  def: "The parts of your body that fight infections and diseases."
+  vi: "hệ miễn dịch"
+  forms: [immune systems]
+  examples:
+    - en: "Stress and poor sleep weaken your immune system."
+      vi: "Căng thẳng và ngủ kém làm suy yếu hệ miễn dịch."
+- slug: life-expectancy-n
+  lemma: life expectancy
+  pos: noun
+  kind: collocation
+  cefr: C1
+  topic: health
+  ipa: "/ˈlaɪf ɪkˌspektənsi/"
+  def: "The number of years that a person is likely to live."
+  vi: "tuổi thọ trung bình"
+  examples:
+    - en: "Life expectancy in Vietnam has risen a lot since the 1990s."
+      vi: "Tuổi thọ trung bình ở Việt Nam đã tăng nhiều kể từ thập niên 1990."
+- slug: obesity-n
+  lemma: obesity
+  pos: noun
+  cefr: C1
+  topic: health
+  ipa: "/əʊˈbiːsəti/"
+  def: "The condition of being so overweight that it is dangerous for your health."
+  vi: "bệnh béo phì"
+  examples:
+    - en: "Child obesity is rising in big cities."
+      vi: "Béo phì ở trẻ em đang tăng tại các thành phố lớn."
+- slug: diabetes-n
+  lemma: diabetes
+  pos: noun
+  cefr: B2
+  topic: health
+  ipa: "/ˌdaɪəˈbiːtiːz/"
+  def: "A disease in which the body cannot control the amount of sugar in the blood."
+  vi: "bệnh tiểu đường"
+  examples:
+    - en: "My uncle has diabetes, so he checks his blood sugar every morning."
+      vi: "Chú mình bị tiểu đường nên sáng nào cũng đo đường huyết."
+- slug: heart-disease-n
+  lemma: heart disease
+  pos: noun
+  kind: collocation
+  cefr: B1
+  topic: health
+  ipa: "/ˈhɑːt dɪˌziːz/"
+  def: "Illness of the heart, often caused by poor diet, smoking or lack of exercise."
+  vi: "bệnh tim"
+  examples:
+    - en: "Regular exercise lowers your risk of heart disease."
+      vi: "Tập thể dục đều đặn làm giảm nguy cơ mắc bệnh tim."
+- slug: cancer-n
+  lemma: cancer
+  pos: noun
+  cefr: B1
+  topic: health
+  ipa: "/ˈkænsə/"
+  def: "A serious disease in which cells in the body grow in an uncontrolled way."
+  vi: "bệnh ung thư"
+  forms: [cancers]
+  examples:
+    - en: "Smoking is the main cause of lung cancer."
+      vi: "Hút thuốc là nguyên nhân chính gây ung thư phổi."
+- slug: quit-smoking-phr
+  lemma: quit smoking
+  pos: phrase
+  kind: collocation
+  cefr: B1
+  topic: health
+  ipa: "/ˌkwɪt ˈsməʊkɪŋ/"
+  def: "To stop smoking cigarettes for good."
+  vi: "bỏ thuốc lá"
+  forms: [quits smoking, quitting smoking]
+  examples:
+    - en: "He quit smoking when his daughter was born."
+      vi: "Anh ấy bỏ thuốc lá khi con gái chào đời."
+- slug: secondhand-smoke-n
+  lemma: secondhand smoke
+  pos: noun
+  kind: collocation
+  cefr: C1
+  topic: health
+  ipa: "/ˌsekəndhænd ˈsməʊk/"
+  def: "Smoke from other people's cigarettes that you breathe in."
+  vi: "khói thuốc thụ động"
+  forms: [second-hand smoke]
+  examples:
+    - en: "The café banned smoking inside to protect staff from secondhand smoke."
+      vi: "Quán cà phê cấm hút thuốc trong nhà để bảo vệ nhân viên khỏi khói thuốc thụ động."
+- slug: hangover-n
+  lemma: hangover
+  pos: noun
+  cefr: B2
+  topic: health
+  ipa: "/ˈhæŋəʊvə/"
+  def: "Headache and sick feeling the day after drinking too much alcohol."
+  vi: "cảm giác mệt sau khi say rượu"
+  forms: [hangovers]
+  examples:
+    - en: "Half the team had a hangover after the year-end party."
+      vi: "Nửa nhóm mệt rã rời vì say sau tiệc tất niên."
+- slug: healthy-lifestyle-n
+  lemma: healthy lifestyle
+  pos: noun
+  kind: collocation
+  cefr: B1
+  topic: health
+  ipa: "/ˌhelθi ˈlaɪfstaɪl/"
+  def: "A way of living with good food, enough exercise and sleep, and no harmful habits."
+  vi: "lối sống lành mạnh"
+  forms: [healthy lifestyles]
+  examples:
+    - en: "A healthy lifestyle is hard when you work night shifts."
+      vi: "Giữ lối sống lành mạnh thật khó khi bạn làm ca đêm."
+- slug: prevention-n
+  lemma: prevention
+  pos: noun
+  cefr: B2
+  topic: health
+  ipa: "/prɪˈvenʃn/"
+  def: "Actions taken to stop something bad, such as a disease, from happening."
+  vi: "sự phòng ngừa"
+  examples:
+    - en: "Prevention is cheaper than treatment."
+      vi: "Phòng bệnh rẻ hơn chữa bệnh."
+- slug: prevent-v
+  lemma: prevent
+  pos: verb
+  cefr: B1
+  topic: health
+  ipa: "/prɪˈvent/"
+  def: "To stop something from happening."
+  vi: "ngăn chặn, ngăn ngừa"
+  forms: [prevents, prevented, preventing]
+  examples:
+    - en: "A good chair and screen height can prevent back problems."
+      vi: "Ghế tốt và màn hình đúng độ cao có thể ngăn ngừa các vấn đề về lưng."
+- slug: risk-factor-n
+  lemma: risk factor
+  pos: noun
+  kind: collocation
+  cefr: C1
+  topic: health
+  ipa: "/ˈrɪsk ˌfæktə/"
+  def: "Something that makes it more likely that you will get a disease."
+  vi: "yếu tố nguy cơ"
+  forms: [risk factors]
+  examples:
+    - en: "Sitting for long hours is a risk factor for many diseases."
+      vi: "Ngồi nhiều giờ liền là yếu tố nguy cơ của nhiều bệnh."
+- slug: screening-n
+  lemma: screening
+  pos: noun
+  cefr: C1
+  topic: health
+  ipa: "/ˈskriːnɪŋ/"
+  def: "Testing people to find a disease early, before they feel ill."
+  vi: "sự tầm soát (bệnh)"
+  forms: [screenings, cancer screening]
+  examples:
+    - en: "The yearly check-up now includes free cancer screening."
+      vi: "Đợt khám sức khoẻ hằng năm giờ có thêm tầm soát ung thư miễn phí."
+- slug: chronic-adj
+  lemma: chronic
+  pos: adjective
+  cefr: C1
+  topic: health
+  ipa: "/ˈkrɒnɪk/"
+  def: "(Of an illness or pain) lasting for a long time or coming back again and again."
+  vi: "mãn tính"
+  examples:
+    - en: "She has chronic back pain from years of bad posture."
+      vi: "Cô ấy bị đau lưng mãn tính do nhiều năm ngồi sai tư thế."
+- slug: elderly-adj
+  lemma: elderly
+  pos: adjective
+  cefr: B2
+  topic: health
+  ipa: "/ˈeldəli/"
+  def: "Old; a polite word for people who are old."
+  vi: "cao tuổi, lớn tuổi"
+  forms: [the elderly]
+  examples:
+    - en: "Elderly people are more at risk during heatwaves."
+      vi: "Người cao tuổi gặp nhiều rủi ro hơn trong các đợt nắng nóng."
+- slug: disability-n
+  lemma: disability
+  pos: noun
+  cefr: B2
+  topic: health
+  ipa: "/ˌdɪsəˈbɪləti/"
+  def: "A physical or mental condition that makes some activities difficult for a person."
+  vi: "khuyết tật"
+  forms: [disabilities]
+  examples:
+    - en: "Our website should work for users with a visual disability."
+      vi: "Trang web của tụi mình phải dùng được cho người khiếm thị."
+- slug: wheelchair-n
+  lemma: wheelchair
+  pos: noun
+  cefr: B1
+  topic: health
+  ipa: "/ˈwiːltʃeə/"
+  def: "A chair with wheels for people who cannot walk."
+  vi: "xe lăn"
+  forms: [wheelchairs]
+  examples:
+    - en: "The new office has ramps for wheelchair users."
+      vi: "Văn phòng mới có lối dốc cho người đi xe lăn."
+- slug: pregnant-adj
+  lemma: pregnant
+  pos: adjective
+  cefr: B1
+  topic: health
+  ipa: "/ˈpreɡnənt/"
+  def: "Having a baby growing inside your body."
+  vi: "mang thai, có bầu"
+  examples:
+    - en: "She's six months pregnant, so she's working from home on Fridays."
+      vi: "Chị ấy mang thai sáu tháng nên làm ở nhà vào các thứ Sáu."
+- slug: give-birth-phr
+  lemma: give birth
+  pos: phrase
+  kind: collocation
+  cefr: B2
+  topic: health
+  ipa: "/ˌɡɪv ˈbɜːθ/"
+  def: "To produce a baby from your body."
+  vi: "sinh con"
+  forms: [gives birth, gave birth, given birth, giving birth]
+  examples:
+    - en: "My sister gave birth to a healthy boy last night."
+      vi: "Chị mình đã sinh một bé trai khoẻ mạnh tối qua."
+- slug: organ-donor-n
+  lemma: organ donor
+  pos: noun
+  kind: collocation
+  cefr: C1
+  topic: health
+  ipa: "/ˈɔːɡən ˌdəʊnə/"
+  def: "A person who agrees to give parts of their body, such as a kidney, to someone who needs them."
+  vi: "người hiến tạng"
+  forms: [organ donors]
+  examples:
+    - en: "He registered as an organ donor after his friend's transplant."
+      vi: "Anh ấy đăng ký hiến tạng sau ca ghép tạng của người bạn."
+- slug: donate-blood-phr
+  lemma: donate blood
+  pos: phrase
+  kind: collocation
+  cefr: B1
+  topic: health
+  ipa: "/dəʊˌneɪt ˈblʌd/"
+  def: "To give some of your blood so it can be used for other people."
+  vi: "hiến máu"
+  forms: [donates blood, donated blood, donating blood]
+  examples:
+    - en: "Twenty of us donated blood at the company event."
+      vi: "Hai mươi người trong công ty đã hiến máu tại sự kiện."
+- slug: heatstroke-n
+  lemma: heatstroke
+  pos: noun
+  cefr: B2
+  topic: health
+  ipa: "/ˈhiːtstrəʊk/"
+  def: "A dangerous illness caused by being in very hot weather for too long."
+  vi: "say nắng, sốc nhiệt"
+  forms: [heat stroke]
+  examples:
+    - en: "Drink plenty of water to avoid heatstroke at the outdoor team-building."
+      vi: "Hãy uống nhiều nước để tránh sốc nhiệt trong buổi team-building ngoài trời."
+- slug: dehydrated-adj
+  lemma: dehydrated
+  pos: adjective
+  cefr: B2
+  topic: health
+  ipa: "/ˌdiːhaɪˈdreɪtɪd/"
+  def: "Ill or weak because your body does not have enough water."
+  vi: "mất nước, thiếu nước (cơ thể)"
+  examples:
+    - en: "I get headaches when I'm dehydrated, so I keep a bottle on my desk."
+      vi: "Mình bị đau đầu khi thiếu nước nên luôn để một chai nước trên bàn."
+- slug: sunscreen-n
+  lemma: sunscreen
+  pos: noun
+  cefr: B1
+  topic: health
+  ipa: "/ˈsʌnskriːn/"
+  def: "A cream that protects your skin from the sun."
+  vi: "kem chống nắng"
+  forms: [sun cream]
+  examples:
+    - en: "Put on sunscreen before you ride your motorbike at noon."
+      vi: "Hãy thoa kem chống nắng trước khi đi xe máy lúc trưa."
+- slug: public-health-n
+  lemma: public health
+  pos: noun
+  kind: collocation
+  cefr: C1
+  topic: health
+  ipa: "/ˌpʌblɪk ˈhelθ/"
+  def: "The health of all the people in a country or area, and the work of protecting it."
+  vi: "sức khoẻ cộng đồng, y tế công cộng"
+  examples:
+    - en: "Clean water is one of the biggest public health wins of the last century."
+      vi: "Nước sạch là một trong những thành tựu y tế công cộng lớn nhất thế kỷ trước."

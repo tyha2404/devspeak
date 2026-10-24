@@ -24,3 +24,19 @@
   tagline_vi: "Làm việc với khách hàng, thuyết trình, phỏng vấn"
   description_vi: "Requirement, đàm phán scope, demo, tech talk, phỏng vấn xin việc, performance review; system design, kiến trúc, AI/ML."
   checkpoint: { size: 15, pass_pct: 70 }
+# Standalone study tracks (ForumFlash-style): units are CEFR levels / topics, lessons are grammar
+# points / word sets. Each grammar level can be skipped with its test-out (80%).
+- slug: grammar
+  sort: 10
+  track: grammar
+  cefr: A1
+  title: { en: "Grammar by CEFR level", vi: "Ngữ pháp theo bậc CEFR" }
+  tagline_vi: "Từ cấu trúc câu cơ bản đến cách diễn đạt nâng cao"
+  description_vi: "Mỗi bậc gồm các chủ điểm ngữ pháp xếp theo thứ tự. Mỗi bài có phần học năm màn và một bài kiểm tra; làm bài vượt cấp để bỏ qua bậc bạn đã vững."
+- slug: vocab
+  sort: 20
+  track: vocab
+  cefr: A2
+  title: { en: "Vocabulary by topic", vi: "Từ vựng theo chủ đề" }
+  tagline_vi: "Thẻ lật, phát âm và bài kiểm tra cho từng nhóm từ"
+  description_vi: "Từ, cụm từ và collocation chia theo chủ đề. Mỗi bài gồm một bộ thẻ để học và một bài kiểm tra; từ đã học tự vào sổ ôn tập."

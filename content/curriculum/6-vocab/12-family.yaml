@@ -1,0 +1,14 @@
+slug: topic-family
+stage: vocab
+sort: 12
+code: T12
+kind: topic
+cefr: A2
+character: linh
+status: draft
+title: { en: "Family & Relationships", vi: "Gia đình & các mối quan hệ" }
+summary_vi: "Từ vựng về người thân, hẹn hò, kết hôn, nuôi dạy con và quan hệ bạn bè."
+can_do:
+  - "Giới thiệu gia đình và các mối quan hệ của mình"
+  - "Nói về sự kiện gia đình như cưới hỏi, sinh con, chuyển nhà"
+lessons: []

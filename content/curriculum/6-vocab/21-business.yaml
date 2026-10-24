@@ -1,0 +1,14 @@
+slug: topic-business
+stage: vocab
+sort: 21
+code: T21
+kind: topic
+cefr: B2
+character: linh
+status: draft
+title: { en: "Business & Economy", vi: "Kinh doanh & kinh tế" }
+summary_vi: "Từ vựng về khởi nghiệp, thị trường, doanh thu, lạm phát, đầu tư và cạnh tranh."
+can_do:
+  - "Mô tả mô hình kinh doanh và thị trường của một công ty"
+  - "Hiểu tin tức kinh tế cơ bản như lạm phát, tăng trưởng"
+lessons: []

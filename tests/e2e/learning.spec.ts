@@ -5,10 +5,8 @@ test.beforeEach(async ({ context }) => {
   await context.clearCookies();
 });
 
-test("landing → onboarding → today's first lesson", async ({ page }) => {
-  await page.goto("/");
-  await expect(page.getByRole("heading", { level: 1 })).toContainText("lộ trình");
-  await page.getByRole("link", { name: "Bắt đầu học" }).first().click();
+test("career path: onboarding → today's first lesson", async ({ page }) => {
+  await page.goto("/career");
   await page.waitForURL("**/onboarding");
   await expect(page.getByRole("heading", { name: "Bạn học tiếng Anh để làm gì?" })).toBeVisible();
   await page.getByRole("button", { name: /Chuẩn bị phỏng vấn/ }).click();
@@ -16,12 +14,25 @@ test("landing → onboarding → today's first lesson", async ({ page }) => {
   await page.getByRole("button", { name: /Nghiêm túc/ }).click();
   await page.getByRole("button", { name: "Tiếp tục" }).click();
   await page.getByRole("button", { name: /Học từ đầu/ }).click();
-  await page.waitForURL("**/learn");
+  await page.waitForURL("**/career");
   await expect(
     page.getByRole("heading", { name: "Giới thiệu bản thân & onboarding" }),
   ).toBeVisible();
   await expect(page.getByText("0/30 XP").filter({ visible: true }).first()).toBeVisible();
   await page.screenshot({ path: test.info().outputPath("home.png"), fullPage: true });
+});
+
+test("old URLs redirect to the new routes", async ({ page }) => {
+  for (const [from, to] of [
+    ["/tracks", "/"],
+    ["/tracks/grammar", "/grammar"],
+    ["/learn", "/career"],
+    ["/path", "/career/path"],
+  ]) {
+    const res = await page.request.get(from!, { maxRedirects: 0 });
+    expect(res.status()).toBe(308);
+    expect(new URL(res.headers().location!, "http://x").pathname).toBe(to);
+  }
 });
 
 test("a vocabulary lesson: words, quick check, stars, and the next lesson opens", async ({
@@ -45,7 +56,7 @@ test("a vocabulary lesson: words, quick check, stars, and the next lesson opens"
   await expect(page.getByText("Linh", { exact: true })).toBeVisible();
 
   // Progress lives on the server: the unit page shows it after a reload.
-  await page.goto("/path/introduce-yourself");
+  await page.goto("/career/path/introduce-yourself");
   await expect(page.getByLabel("3/3 sao")).toBeVisible();
   await expect(page.getByRole("link", { name: "Học tiếp" })).toHaveAttribute(
     "href",
@@ -101,7 +112,7 @@ test("words learned in a lesson come back in review", async ({ page, context }) 
 
 test("the path shows every stage, with drafts marked coming soon", async ({ page }) => {
   await startAsGuest(page);
-  await page.goto("/path");
+  await page.goto("/career/path");
   await expect(page.getByRole("heading", { name: /Chặng 1 · Nền tảng/ })).toBeVisible();
   await expect(page.getByRole("heading", { name: /Chặng 4/ })).toBeVisible();
   await expect(page.getByText("Sắp ra mắt").first()).toBeVisible();
@@ -112,8 +123,12 @@ test("phones get a bottom tab bar", async ({ page, isMobile }) => {
   test.skip(!isMobile, "mobile layout");
   await startAsGuest(page);
   const nav = page.getByRole("navigation", { name: "Chính" }).last();
+  await nav.getByRole("link", { name: "Tình huống" }).click();
+  await expect(page).toHaveURL(/\/career\/practice/);
   await nav.getByRole("link", { name: "Ôn tập" }).click();
   await expect(page).toHaveURL(/\/review/);
-  await nav.getByRole("link", { name: "Hồ sơ" }).click();
+  // Review and profile belong to the grammar & vocabulary area: top bar with an account menu.
+  await page.locator("summary").click();
+  await page.getByRole("link", { name: "Trang cá nhân →" }).click();
   await expect(page.getByRole("heading", { name: "Mục tiêu hằng ngày" })).toBeVisible();
 });

@@ -1,0 +1,14 @@
+slug: topic-science
+stage: vocab
+sort: 11
+code: T11
+kind: topic
+cefr: B2
+character: linh
+status: draft
+title: { en: "Science & Research", vi: "Khoa học & nghiên cứu" }
+summary_vi: "Từ vựng về thí nghiệm, dữ liệu, giả thuyết, kết quả nghiên cứu và phát minh."
+can_do:
+  - "Mô tả một thí nghiệm hay nghiên cứu bằng từ ngữ đơn giản"
+  - "Hiểu cách trình bày giả thuyết, bằng chứng và kết luận"
+lessons: []

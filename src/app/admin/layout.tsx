@@ -15,7 +15,7 @@ export default async function AdminLayout({ children }: { children: ReactNode })
         <Link href="/admin/reports">Báo cáo lỗi</Link>
         <Link href="/admin/senses">Duyệt nghĩa VN</Link>
         <Link href="/admin/usage">Chi phí AI</Link>
-        <Link href="/learn" className="ml-auto">
+        <Link href="/" className="ml-auto">
           ← Vào game
         </Link>
       </nav>

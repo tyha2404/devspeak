@@ -1,0 +1,2640 @@
+# Vocabulary by topic: Work & Workplace (unit T01). Original content.
+# Set 1: everyday work
+- {
+    slug: meet-a-deadline-phr,
+    lemma: meet a deadline,
+    pos: phrase,
+    kind: collocation,
+    cefr: B1,
+    topic: workplace,
+    ipa: /miːt ə ˈdedlaɪn/,
+    def: "To finish a piece of work by the time it is due.",
+    vi: "kịp hạn chót, hoàn thành đúng hạn",
+    forms:
+      [
+        meet the deadline,
+        meets a deadline,
+        met the deadline,
+        meeting the deadline,
+        miss a deadline,
+      ],
+    note: "Ngược nghĩa: miss a deadline (trễ hạn).",
+    examples:
+      [
+        {
+          en: "We worked late to meet the deadline for the demo.",
+          vi: "Bọn mình làm muộn để kịp hạn chót cho buổi demo.",
+        },
+      ],
+  }
+- {
+    slug: work-remotely-phr,
+    lemma: work remotely,
+    pos: phrase,
+    kind: collocation,
+    cefr: B1,
+    topic: workplace,
+    ipa: /wɜːk rɪˈməʊtli/,
+    def: "To do your job from home or another place, not from the office.",
+    vi: "làm việc từ xa",
+    forms: [works remotely, worked remotely, working remotely, remote work],
+    examples:
+      [
+        {
+          en: "I work remotely on Mondays and Fridays.",
+          vi: "Mình làm việc từ xa vào thứ Hai và thứ Sáu.",
+        },
+      ],
+  }
+- {
+    slug: commute-v,
+    lemma: commute,
+    pos: verb,
+    cefr: B1,
+    topic: workplace,
+    ipa: /kəˈmjuːt/,
+    def: "To travel regularly between your home and your workplace.",
+    vi: "đi lại (giữa nhà và chỗ làm)",
+    forms: [commutes, commuted, commuting, commute],
+    examples:
+      [
+        {
+          en: "She commutes by motorbike for forty minutes every day.",
+          vi: "Cô ấy đi xe máy bốn mươi phút mỗi ngày để đến chỗ làm.",
+        },
+      ],
+  }
+- {
+    slug: workload-n,
+    lemma: workload,
+    pos: noun,
+    cefr: B1,
+    topic: workplace,
+    ipa: /ˈwɜːkləʊd/,
+    def: "The amount of work a person or team has to do.",
+    vi: "khối lượng công việc",
+    forms: [workloads],
+    examples:
+      [
+        {
+          en: "My workload is heavy this sprint, so I can't take new tickets.",
+          vi: "Sprint này khối lượng việc của mình nặng nên mình không nhận thêm ticket được.",
+        },
+      ],
+  }
+- {
+    slug: overtime-n,
+    lemma: overtime,
+    pos: noun,
+    cefr: B1,
+    topic: workplace,
+    ipa: /ˈəʊvətaɪm/,
+    def: "Time you work after your normal working hours.",
+    vi: "giờ làm thêm, tăng ca",
+    note: 'Thường đi với "work overtime", "do overtime".',
+    examples:
+      [
+        {
+          en: "Nobody wants to work overtime before the holiday.",
+          vi: "Không ai muốn tăng ca trước kỳ nghỉ.",
+        },
+      ],
+  }
+- {
+    slug: take-on-phr,
+    lemma: take on,
+    pos: phrasal_verb,
+    kind: phrasal,
+    cefr: B1,
+    topic: workplace,
+    ipa: /teɪk ˈɒn/,
+    def: "To accept a job or a responsibility.",
+    vi: "nhận (thêm) việc, đảm nhận",
+    forms: [takes on, took on, taken on, taking on],
+    examples:
+      [
+        {
+          en: "I can take on the login bug if nobody else has time.",
+          vi: "Mình có thể nhận bug đăng nhập nếu không ai rảnh.",
+        },
+      ],
+  }
+- {
+    slug: report-to-phr,
+    lemma: report to,
+    pos: phrasal_verb,
+    kind: phrasal,
+    cefr: B1,
+    topic: workplace,
+    ipa: /rɪˈpɔːt tə/,
+    def: "To have someone as your manager at work.",
+    vi: "làm việc dưới quyền (ai), báo cáo cho (ai)",
+    forms: [reports to, reported to, reporting to],
+    examples:
+      [
+        {
+          en: "In this team, all developers report to the engineering manager.",
+          vi: "Ở team này, tất cả developer đều báo cáo cho engineering manager.",
+        },
+      ],
+  }
+- {
+    slug: hand-over-phr,
+    lemma: hand over,
+    pos: phrasal_verb,
+    kind: phrasal,
+    cefr: B1,
+    topic: workplace,
+    ipa: /hænd ˈəʊvə/,
+    def: "To give your work or responsibility to another person.",
+    vi: "bàn giao",
+    forms: [hands over, handed over, handing over, handover],
+    examples:
+      [
+        {
+          en: "Before my leave, I'll hand over the release tasks to Nam.",
+          vi: "Trước khi nghỉ phép, mình sẽ bàn giao việc release cho Nam.",
+        },
+      ],
+  }
+- {
+    slug: flexible-hours-n,
+    lemma: flexible hours,
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: workplace,
+    ipa: /ˌfleksəbl ˈaʊəz/,
+    def: "A system where you can choose when you start and finish work.",
+    vi: "giờ làm linh hoạt",
+    forms: [flexible working hours, flexitime],
+    examples:
+      [
+        {
+          en: "Our company offers flexible hours, so I start at ten.",
+          vi: "Công ty mình có giờ làm linh hoạt nên mình bắt đầu lúc mười giờ.",
+        },
+      ],
+  }
+- {
+    slug: set-up-a-meeting-phr,
+    lemma: set up a meeting,
+    pos: phrase,
+    kind: collocation,
+    cefr: B1,
+    topic: workplace,
+    ipa: /set ʌp ə ˈmiːtɪŋ/,
+    def: "To arrange a time for people to meet.",
+    vi: "sắp xếp, đặt lịch một cuộc họp",
+    forms: [sets up a meeting, set up a call, setting up a meeting],
+    examples:
+      [
+        {
+          en: "Can you set up a meeting with the design team for Thursday?",
+          vi: "Bạn đặt lịch họp với team design vào thứ Năm được không?",
+        },
+      ],
+  }
+# Set 2: career & HR
+- {
+    slug: promotion-n,
+    lemma: promotion,
+    pos: noun,
+    cefr: B1,
+    topic: workplace,
+    ipa: /prəˈməʊʃn/,
+    def: "A move to a higher position at work.",
+    vi: "sự thăng chức",
+    forms: [promotions, promote, promoted, get promoted],
+    examples:
+      [
+        {
+          en: "He got a promotion to senior developer last month.",
+          vi: "Tháng trước anh ấy được thăng chức lên senior developer.",
+        },
+      ],
+  }
+- {
+    slug: pay-raise-n,
+    lemma: pay raise,
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: workplace,
+    ipa: /ˈpeɪ reɪz/,
+    def: "An increase in the money you are paid for your job.",
+    vi: "sự tăng lương",
+    forms: [pay raises, raise, pay rise],
+    note: 'Anh-Anh hay nói "pay rise", Anh-Mỹ nói "raise".',
+    examples:
+      [
+        {
+          en: "I asked my manager for a pay raise after the review.",
+          vi: "Mình xin sếp tăng lương sau buổi đánh giá.",
+        },
+      ],
+  }
+- {
+    slug: resign-v,
+    lemma: resign,
+    pos: verb,
+    cefr: B1,
+    topic: workplace,
+    ipa: /rɪˈzaɪn/,
+    def: "To officially tell your company that you are leaving your job.",
+    vi: "xin nghỉ việc, từ chức",
+    forms: [resigns, resigned, resigning, resignation],
+    examples:
+      [
+        {
+          en: "She resigned because she wanted to start her own company.",
+          vi: "Cô ấy nghỉ việc vì muốn tự mở công ty.",
+        },
+      ],
+  }
+- {
+    slug: notice-period-n,
+    lemma: notice period,
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: workplace,
+    ipa: /ˈnəʊtɪs ˌpɪəriəd/,
+    def: "The time you must keep working after you say you will leave a job.",
+    vi: "thời gian báo trước (khi nghỉ việc)",
+    forms: [notice periods, give notice],
+    examples:
+      [
+        {
+          en: "My notice period is thirty days, so my last day is in May.",
+          vi: "Mình phải báo trước ba mươi ngày nên ngày làm cuối là tháng Năm.",
+        },
+      ],
+  }
+- {
+    slug: performance-review-n,
+    lemma: performance review,
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: workplace,
+    ipa: /pəˈfɔːməns rɪˌvjuː/,
+    def: "A meeting where your manager talks about how well you have worked.",
+    vi: "buổi đánh giá hiệu suất",
+    forms: [performance reviews],
+    examples:
+      [
+        {
+          en: "We have performance reviews twice a year.",
+          vi: "Công ty mình đánh giá hiệu suất hai lần một năm.",
+        },
+      ],
+  }
+- {
+    slug: contract-n,
+    lemma: contract,
+    pos: noun,
+    cefr: B1,
+    topic: workplace,
+    ipa: /ˈkɒntrækt/,
+    def: "A legal agreement, for example between you and your employer.",
+    vi: "hợp đồng",
+    forms: [contracts],
+    examples:
+      [
+        {
+          en: "Please read the contract carefully before you sign it.",
+          vi: "Hãy đọc kỹ hợp đồng trước khi ký nhé.",
+        },
+      ],
+  }
+- {
+    slug: benefits-n,
+    lemma: benefits,
+    pos: noun,
+    cefr: B1,
+    topic: workplace,
+    ipa: /ˈbenɪfɪts/,
+    def: "Extra things a company gives workers besides their salary, like health insurance.",
+    vi: "phúc lợi",
+    forms: [benefit],
+    examples:
+      [
+        {
+          en: "The salary is fine, and the benefits include a yearly health check.",
+          vi: "Lương ổn, và phúc lợi có cả khám sức khoẻ hằng năm.",
+        },
+      ],
+  }
+- {
+    slug: apply-for-phr,
+    lemma: apply for,
+    pos: phrasal_verb,
+    kind: phrasal,
+    cefr: B1,
+    topic: workplace,
+    ipa: /əˈplaɪ fə/,
+    def: "To officially ask for a job, usually by sending a CV or form.",
+    vi: "ứng tuyển, nộp đơn xin (việc)",
+    forms: [applies for, applied for, applying for, application],
+    examples:
+      [
+        {
+          en: "I applied for a backend role at a fintech startup.",
+          vi: "Mình đã ứng tuyển vị trí backend ở một startup fintech.",
+        },
+      ],
+  }
+- {
+    slug: hire-v,
+    lemma: hire,
+    pos: verb,
+    cefr: B1,
+    topic: workplace,
+    ipa: /ˈhaɪə/,
+    def: "To give someone a job in your company.",
+    vi: "tuyển (người), thuê",
+    forms: [hires, hired, hiring],
+    examples:
+      [
+        {
+          en: "We are hiring two QA engineers this quarter.",
+          vi: "Quý này bọn mình đang tuyển hai kỹ sư QA.",
+        },
+      ],
+  }
+- {
+    slug: career-path-n,
+    lemma: career path,
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: workplace,
+    ipa: /kəˈrɪə pɑːθ/,
+    def: "The series of jobs you plan to have as you grow in your work life.",
+    vi: "lộ trình sự nghiệp",
+    forms: [career paths],
+    examples:
+      [
+        {
+          en: "Do you want a management career path or a technical one?",
+          vi: "Bạn muốn đi theo lộ trình quản lý hay lộ trình kỹ thuật?",
+        },
+      ],
+  }
+# Set 2 (additions): career & HR
+- slug: job-interview-n
+  lemma: job interview
+  pos: noun
+  kind: collocation
+  cefr: A2
+  topic: workplace
+  ipa: "/ˈdʒɒb ˌɪntəvjuː/"
+  def: "A formal meeting where a company asks you questions to decide whether to give you a job."
+  vi: "buổi phỏng vấn xin việc"
+  forms: [job interviews]
+  examples:
+    - en: "I have a job interview with a fintech company on Thursday."
+      vi: "Thứ Năm mình có buổi phỏng vấn xin việc với một công ty fintech."
+- slug: salary-n
+  lemma: salary
+  pos: noun
+  cefr: A2
+  topic: workplace
+  ipa: "/ˈsæləri/"
+  def: "The fixed amount of money you are paid for your job, usually every month."
+  vi: "lương (cố định hằng tháng)"
+  forms: [salaries]
+  examples:
+    - en: "The salary is good, but the commute is very long."
+      vi: "Lương thì tốt nhưng đường đi làm rất xa."
+# Set 3: getting things done
+- slug: delegate-v
+  lemma: delegate
+  pos: verb
+  cefr: B2
+  topic: workplace
+  ipa: "/ˈdelɪɡeɪt/"
+  def: "To give part of your work or responsibility to another person."
+  vi: "giao việc, uỷ quyền (cho người khác)"
+  forms: [delegates, delegated, delegating, delegation]
+  examples:
+    - en: "A good lead knows when to delegate small tasks to the team."
+      vi: "Một trưởng nhóm giỏi biết khi nào nên giao việc nhỏ cho cả nhóm."
+- slug: prioritize-v
+  lemma: prioritize
+  pos: verb
+  cefr: B1
+  topic: workplace
+  ipa: "/praɪˈɒrətaɪz/"
+  def: "To decide which things are most important and do them first."
+  vi: "ưu tiên, sắp xếp thứ tự ưu tiên"
+  forms: [prioritizes, prioritized, prioritizing, prioritise]
+  examples:
+    - en: "We need to prioritize the payment bug over the new design."
+      vi: "Mình cần ưu tiên lỗi thanh toán trước thiết kế mới."
+- slug: multitask-v
+  lemma: multitask
+  pos: verb
+  cefr: B2
+  topic: workplace
+  ipa: "/ˌmʌltiˈtɑːsk/"
+  def: "To do several things at the same time."
+  vi: "làm nhiều việc cùng lúc"
+  forms: [multitasks, multitasked, multitasking]
+  examples:
+    - en: "I try not to multitask during code reviews because I miss details."
+      vi: "Mình cố không làm nhiều việc cùng lúc khi review code vì dễ bỏ sót chi tiết."
+- slug: collaborate-v
+  lemma: collaborate
+  pos: verb
+  cefr: B2
+  topic: workplace
+  ipa: "/kəˈlæbəreɪt/"
+  def: "To work together with other people to make or achieve something."
+  vi: "hợp tác, cộng tác"
+  forms: [collaborates, collaborated, collaborating, collaboration]
+  examples:
+    - en: "Our team collaborates closely with the designers in Da Nang."
+      vi: "Nhóm mình cộng tác chặt chẽ với các bạn thiết kế ở Đà Nẵng."
+- slug: brainstorm-v
+  lemma: brainstorm
+  pos: verb
+  cefr: B2
+  topic: workplace
+  ipa: "/ˈbreɪnstɔːm/"
+  def: "To share many ideas quickly in a group, before choosing the best ones."
+  vi: "động não, cùng nghĩ ý tưởng"
+  forms: [brainstorms, brainstormed, brainstorming]
+  examples:
+    - en: "Let's brainstorm names for the new feature before lunch."
+      vi: "Mình cùng nghĩ tên cho tính năng mới trước giờ ăn trưa nhé."
+- slug: team-player-n
+  lemma: team player
+  pos: noun
+  kind: collocation
+  cefr: B1
+  topic: workplace
+  ipa: "/ˈtiːm ˌpleɪə/"
+  def: "A person who works well with others and helps the group succeed."
+  vi: "người có tinh thần đồng đội"
+  forms: [team players]
+  examples:
+    - en: "Minh is a real team player; he always helps new members."
+      vi: "Minh rất có tinh thần đồng đội, lúc nào cũng giúp thành viên mới."
+- slug: to-do-list-n
+  lemma: to-do list
+  pos: noun
+  kind: collocation
+  cefr: A2
+  topic: workplace
+  ipa: "/təˈduː ˌlɪst/"
+  def: "A list of the things you need to do."
+  vi: "danh sách việc cần làm"
+  forms: [to-do lists]
+  examples:
+    - en: "I write a to-do list every morning before I open Slack."
+      vi: "Sáng nào mình cũng viết danh sách việc cần làm trước khi mở Slack."
+- slug: carry-out-phr
+  lemma: carry out
+  pos: phrasal_verb
+  kind: phrasal
+  cefr: B1
+  topic: workplace
+  ipa: "/ˌkæri ˈaʊt/"
+  def: "To do a planned task, test or piece of work."
+  vi: "tiến hành, thực hiện"
+  forms: [carries out, carried out, carrying out]
+  examples:
+    - en: "The QA team will carry out the tests next week."
+      vi: "Nhóm QA sẽ tiến hành kiểm thử vào tuần sau."
+- slug: fall-behind-phr
+  lemma: fall behind
+  pos: phrasal_verb
+  kind: phrasal
+  cefr: B1
+  topic: workplace
+  ipa: "/ˌfɔːl bɪˈhaɪnd/"
+  def: "To not do work as fast as planned, so you are late."
+  vi: "bị chậm tiến độ, tụt lại"
+  forms: [falls behind, fell behind, falling behind, fallen behind]
+  examples:
+    - en: "We fell behind because two people were sick last sprint."
+      vi: "Bọn mình bị chậm tiến độ vì sprint trước có hai người ốm."
+- slug: chair-a-meeting-phr
+  lemma: chair a meeting
+  pos: phrase
+  kind: collocation
+  cefr: B2
+  topic: workplace
+  ipa: "/ˌtʃeər ə ˈmiːtɪŋ/"
+  def: "To lead a meeting and control how the discussion goes."
+  vi: "chủ trì cuộc họp"
+  forms: [chairs a meeting, chaired the meeting, chairing the meeting, chair the meeting]
+  examples:
+    - en: "Lan will chair the meeting while the manager is away."
+      vi: "Lan sẽ chủ trì cuộc họp khi quản lý đi vắng."
+- slug: productive-adj
+  lemma: productive
+  pos: adjective
+  cefr: B1
+  topic: workplace
+  ipa: "/prəˈdʌktɪv/"
+  def: "Getting a lot of useful work done."
+  vi: "làm việc hiệu quả, năng suất"
+  forms: [productivity, more productive]
+  examples:
+    - en: "I am more productive in the morning than after lunch."
+      vi: "Buổi sáng mình làm việc năng suất hơn sau bữa trưa."
+- slug: punctual-adj
+  lemma: punctual
+  pos: adjective
+  cefr: B2
+  topic: workplace
+  ipa: "/ˈpʌŋktʃuəl/"
+  def: "Arriving or doing something at the agreed time, not late."
+  vi: "đúng giờ"
+  forms: [punctually]
+  examples:
+    - en: "Please be punctual; the client call starts at nine sharp."
+      vi: "Mọi người nhớ đúng giờ nhé, cuộc gọi với khách bắt đầu lúc đúng chín giờ."
+- slug: job-description-n
+  lemma: job description
+  pos: noun
+  kind: collocation
+  cefr: B1
+  topic: workplace
+  ipa: "/ˈdʒɒb dɪˌskrɪpʃn/"
+  def: "A written list of the duties and skills that a job needs."
+  vi: "bản mô tả công việc"
+  forms: [job descriptions, JD]
+  examples:
+    - en: "The job description asks for three years of React experience."
+      vi: "Bản mô tả công việc yêu cầu ba năm kinh nghiệm React."
+- slug: get-the-hang-of-phr
+  lemma: get the hang of
+  pos: phrase
+  kind: phrase
+  cefr: B2
+  topic: workplace
+  ipa: "/ˌɡet ðə ˈhæŋ əv/"
+  def: "To slowly learn how to do something well."
+  vi: "dần quen tay, nắm được cách làm"
+  forms: [gets the hang of, got the hang of, getting the hang of]
+  examples:
+    - en: "It took me a month to get the hang of the new deploy process."
+      vi: "Mình mất một tháng mới quen tay với quy trình deploy mới."
+# Set 4: meetings & discussion
+- slug: reschedule-v
+  lemma: reschedule
+  pos: verb
+  cefr: B1
+  topic: workplace
+  ipa: "/ˌriːˈʃedjuːl/"
+  def: "To change the time or date of a planned event."
+  vi: "dời lịch, đổi giờ (sang thời điểm khác)"
+  forms: [reschedules, rescheduled, rescheduling]
+  examples:
+    - en: "Can we reschedule our call to Wednesday afternoon?"
+      vi: "Mình dời cuộc gọi sang chiều thứ Tư được không?"
+- slug: postpone-v
+  lemma: postpone
+  pos: verb
+  cefr: B1
+  topic: workplace
+  ipa: "/pəˈspəʊn/"
+  def: "To move an event to a later time."
+  vi: "hoãn lại"
+  forms: [postpones, postponed, postponing]
+  examples:
+    - en: "The demo was postponed because the server was down."
+      vi: "Buổi demo bị hoãn vì server bị sập."
+- slug: call-off-phr
+  lemma: call off
+  pos: phrasal_verb
+  kind: phrasal
+  cefr: B2
+  topic: workplace
+  ipa: "/ˌkɔːl ˈɒf/"
+  def: "To decide that a planned event will not happen."
+  vi: "huỷ bỏ (sự kiện đã lên kế hoạch)"
+  forms: [calls off, called off, calling off]
+  examples:
+    - en: "They called off the workshop because only three people signed up."
+      vi: "Họ huỷ buổi workshop vì chỉ có ba người đăng ký."
+- slug: bring-up-phr
+  lemma: bring up
+  pos: phrasal_verb
+  kind: phrasal
+  cefr: B2
+  topic: workplace
+  ipa: "/ˌbrɪŋ ˈʌp/"
+  def: "To start talking about a subject in a discussion."
+  vi: "nêu ra, đề cập (một vấn đề)"
+  forms: [brings up, brought up, bringing up]
+  examples:
+    - en: "I'll bring up the testing problem at tomorrow's meeting."
+      vi: "Mình sẽ nêu vấn đề kiểm thử trong cuộc họp ngày mai."
+- slug: go-over-phr
+  lemma: go over
+  pos: phrasal_verb
+  kind: phrasal
+  cefr: B1
+  topic: workplace
+  ipa: "/ˌɡəʊ ˈəʊvə/"
+  def: "To look at or explain something again carefully."
+  vi: "xem lại, rà lại"
+  forms: [goes over, went over, gone over, going over]
+  examples:
+    - en: "Let's go over the plan one more time before the client arrives."
+      vi: "Mình rà lại kế hoạch một lần nữa trước khi khách đến nhé."
+- slug: minutes-n
+  lemma: minutes
+  pos: noun
+  cefr: B2
+  topic: workplace
+  ipa: "/ˈmɪnɪts/"
+  def: "A written record of what people said and decided in a meeting."
+  vi: "biên bản cuộc họp"
+  forms: [meeting minutes, take minutes, took the minutes]
+  note: 'Cụm hay dùng: "take (the) minutes" = ghi biên bản.'
+  examples:
+    - en: "Hoa will take the minutes and send them to everyone."
+      vi: "Hoa sẽ ghi biên bản và gửi cho mọi người."
+- slug: attendee-n
+  lemma: attendee
+  pos: noun
+  cefr: B2
+  topic: workplace
+  ipa: "/əˌtenˈdiː/"
+  def: "A person who goes to a meeting or event."
+  vi: "người tham dự"
+  forms: [attendees, attend, attended]
+  examples:
+    - en: "Each attendee will get the slides after the session."
+      vi: "Mỗi người tham dự sẽ nhận được slide sau buổi họp."
+- slug: run-over-phr
+  lemma: run over
+  pos: phrasal_verb
+  kind: phrasal
+  cefr: B2
+  topic: workplace
+  ipa: "/ˌrʌn ˈəʊvə/"
+  def: "To continue for longer than the planned time."
+  vi: "kéo dài quá giờ"
+  forms: [runs over, ran over, running over]
+  examples:
+    - en: "Sorry, the last meeting ran over, so I'm a bit late."
+      vi: "Xin lỗi, cuộc họp trước kéo dài quá giờ nên mình đến hơi muộn."
+- slug: reach-an-agreement-phr
+  lemma: reach an agreement
+  pos: phrase
+  kind: collocation
+  cefr: B2
+  topic: workplace
+  ipa: "/ˌriːtʃ ən əˈɡriːmənt/"
+  def: "To finally agree about something after discussing it."
+  vi: "đạt được thoả thuận"
+  forms: [reached an agreement, reaching an agreement, reaches an agreement]
+  examples:
+    - en: "After two hours, we reached an agreement on the new API design."
+      vi: "Sau hai tiếng, bọn mình đã đạt được thoả thuận về thiết kế API mới."
+- slug: make-a-point-phr
+  lemma: make a point
+  pos: phrase
+  kind: collocation
+  cefr: B2
+  topic: workplace
+  ipa: "/ˌmeɪk ə ˈpɔɪnt/"
+  def: "To say an idea or opinion clearly in a discussion."
+  vi: "đưa ra ý kiến, nêu luận điểm"
+  forms: [made a point, making a point, makes a point, made a good point]
+  examples:
+    - en: "Tuan made a good point about the cost of the cloud servers."
+      vi: "Tuấn đã nêu một ý hay về chi phí server cloud."
+- slug: interrupt-v
+  lemma: interrupt
+  pos: verb
+  cefr: B1
+  topic: workplace
+  ipa: "/ˌɪntəˈrʌpt/"
+  def: "To stop someone while they are speaking or working."
+  vi: "ngắt lời, làm gián đoạn"
+  forms: [interrupts, interrupted, interrupting, interruption]
+  examples:
+    - en: "Sorry to interrupt, but the client is on the line."
+      vi: "Xin lỗi vì ngắt lời, nhưng khách hàng đang chờ máy."
+- slug: get-back-to-phr
+  lemma: get back to
+  pos: phrasal_verb
+  kind: phrasal
+  cefr: B1
+  topic: workplace
+  ipa: "/ˌɡet ˈbæk tə/"
+  def: "To contact someone later, usually to give an answer."
+  vi: "phản hồi lại (ai) sau"
+  forms: [gets back to, got back to, getting back to]
+  examples:
+    - en: "I don't know yet, but I'll get back to you by Friday."
+      vi: "Mình chưa biết, nhưng mình sẽ phản hồi bạn trước thứ Sáu."
+- slug: point-out-phr
+  lemma: point out
+  pos: phrasal_verb
+  kind: phrasal
+  cefr: B1
+  topic: workplace
+  ipa: "/ˌpɔɪnt ˈaʊt/"
+  def: "To tell someone about a fact or problem they may not have noticed."
+  vi: "chỉ ra, lưu ý"
+  forms: [points out, pointed out, pointing out]
+  examples:
+    - en: "The tester pointed out that the button doesn't work on mobile."
+      vi: "Bạn tester chỉ ra rằng nút đó không hoạt động trên điện thoại."
+- slug: show-of-hands-n
+  lemma: show of hands
+  pos: noun
+  kind: collocation
+  cefr: B2
+  topic: workplace
+  ipa: "/ˌʃəʊ əv ˈhændz/"
+  def: "A quick vote where people raise a hand to agree."
+  vi: "biểu quyết bằng giơ tay"
+  examples:
+    - en: "Let's decide by a show of hands: who wants the team lunch on Friday?"
+      vi: "Mình biểu quyết giơ tay nhé: ai muốn ăn trưa cả team vào thứ Sáu?"
+- slug: agree-to-disagree-phr
+  lemma: agree to disagree
+  pos: phrase
+  kind: phrase
+  cefr: B2
+  topic: workplace
+  ipa: "/əˌɡriː tə ˌdɪsəˈɡriː/"
+  def: "To accept that two people have different opinions and stop arguing."
+  vi: "chấp nhận bất đồng quan điểm"
+  forms: [agreed to disagree, agreeing to disagree]
+  examples:
+    - en: "We couldn't choose between tabs and spaces, so we agreed to disagree."
+      vi: "Bọn mình không chọn được giữa tab và dấu cách nên đành chấp nhận khác quan điểm."
+- slug: conference-call-n
+  lemma: conference call
+  pos: noun
+  kind: collocation
+  cefr: B1
+  topic: workplace
+  ipa: "/ˈkɒnfərəns ˌkɔːl/"
+  def: "A phone or video call with three or more people in different places."
+  vi: "cuộc gọi hội nghị (nhiều người)"
+  forms: [conference calls]
+  examples:
+    - en: "We have a conference call with the Tokyo and Hanoi offices at four."
+      vi: "Bốn giờ bọn mình có cuộc gọi hội nghị với văn phòng Tokyo và Hà Nội."
+# Set 5: projects & deadlines
+- slug: milestone-n
+  lemma: milestone
+  pos: noun
+  cefr: B2
+  topic: workplace
+  ipa: "/ˈmaɪlstəʊn/"
+  def: "An important point or stage in a project."
+  vi: "cột mốc (của dự án)"
+  forms: [milestones]
+  examples:
+    - en: "The first milestone is a working login page by the end of May."
+      vi: "Cột mốc đầu tiên là trang đăng nhập chạy được vào cuối tháng Năm."
+- slug: timeline-n
+  lemma: timeline
+  pos: noun
+  cefr: B2
+  topic: workplace
+  ipa: "/ˈtaɪmlaɪn/"
+  def: "A plan that shows when each part of a project will happen."
+  vi: "mốc thời gian, lịch trình dự án"
+  forms: [timelines]
+  examples:
+    - en: "The timeline looks tight, but we can do it if nobody is sick."
+      vi: "Lịch trình khá gấp, nhưng nếu không ai ốm thì bọn mình làm kịp."
+- slug: kick-off-n
+  lemma: kick-off
+  pos: noun
+  cefr: B2
+  topic: workplace
+  ipa: "/ˈkɪk ɒf/"
+  def: "The start of a project, often a first meeting where people plan the work."
+  vi: "buổi khởi động (dự án)"
+  forms: [kick-offs, kickoff, kick-off meeting, kick off]
+  examples:
+    - en: "The project kick-off is on Monday with the whole team and the client."
+      vi: "Buổi khởi động dự án diễn ra vào thứ Hai với cả team và khách hàng."
+- slug: stakeholder-n
+  lemma: stakeholder
+  pos: noun
+  cefr: C1
+  topic: workplace
+  ipa: "/ˈsteɪkhəʊldə/"
+  def: "A person or group who cares about a project and is affected by its result."
+  vi: "bên liên quan"
+  forms: [stakeholders]
+  examples:
+    - en: "We should show the prototype to the main stakeholders first."
+      vi: "Mình nên cho các bên liên quan chính xem bản prototype trước."
+- slug: deliverable-n
+  lemma: deliverable
+  pos: noun
+  cefr: C1
+  topic: workplace
+  ipa: "/dɪˈlɪvərəbl/"
+  def: "A finished piece of work that you must give to a client or manager."
+  vi: "sản phẩm bàn giao (theo cam kết)"
+  forms: [deliverables]
+  examples:
+    - en: "The main deliverable for this month is the admin dashboard."
+      vi: "Sản phẩm bàn giao chính tháng này là trang quản trị."
+- slug: behind-schedule-phr
+  lemma: behind schedule
+  pos: phrase
+  kind: collocation
+  cefr: B2
+  topic: workplace
+  ipa: "/bɪˌhaɪnd ˈʃedjuːl/"
+  def: "Later than planned."
+  vi: "chậm so với kế hoạch"
+  forms: [running behind schedule]
+  examples:
+    - en: "The mobile app is two weeks behind schedule."
+      vi: "Ứng dụng di động đang chậm hai tuần so với kế hoạch."
+- slug: ahead-of-schedule-phr
+  lemma: ahead of schedule
+  pos: phrase
+  kind: collocation
+  cefr: B2
+  topic: workplace
+  ipa: "/əˌhed əv ˈʃedjuːl/"
+  def: "Earlier than planned."
+  vi: "sớm hơn kế hoạch"
+  examples:
+    - en: "Good news: the database migration finished ahead of schedule."
+      vi: "Tin vui: việc chuyển đổi cơ sở dữ liệu xong sớm hơn kế hoạch."
+- slug: extend-a-deadline-phr
+  lemma: extend a deadline
+  pos: phrase
+  kind: collocation
+  cefr: B2
+  topic: workplace
+  ipa: "/ɪkˌstend ə ˈdedlaɪn/"
+  def: "To give more time to finish a piece of work."
+  vi: "gia hạn hạn chót"
+  forms: [extend the deadline, extended the deadline, extending the deadline, deadline extension]
+  examples:
+    - en: "The client agreed to extend the deadline by one week."
+      vi: "Khách hàng đồng ý gia hạn hạn chót thêm một tuần."
+- slug: budget-n
+  lemma: budget
+  pos: noun
+  cefr: B1
+  topic: workplace
+  ipa: "/ˈbʌdʒɪt/"
+  def: "The amount of money you plan to spend on something."
+  vi: "ngân sách"
+  forms: [budgets, over budget, on budget]
+  examples:
+    - en: "We can't buy new laptops; the budget for this year is already used."
+      vi: "Mình không mua laptop mới được, ngân sách năm nay đã dùng hết rồi."
+- slug: allocate-v
+  lemma: allocate
+  pos: verb
+  cefr: C1
+  topic: workplace
+  ipa: "/ˈæləkeɪt/"
+  def: "To give an amount of time, money or people for a particular purpose."
+  vi: "phân bổ"
+  forms: [allocates, allocated, allocating, allocation]
+  examples:
+    - en: "We allocated two developers to the payment project."
+      vi: "Bọn mình đã phân bổ hai developer cho dự án thanh toán."
+- slug: phase-n
+  lemma: phase
+  pos: noun
+  cefr: B2
+  topic: workplace
+  ipa: "/feɪz/"
+  def: "One stage in a process or project."
+  vi: "giai đoạn"
+  forms: [phases]
+  examples:
+    - en: "In the first phase, we only build the search feature."
+      vi: "Trong giai đoạn đầu, bọn mình chỉ làm tính năng tìm kiếm."
+- slug: launch-v
+  lemma: launch
+  pos: verb
+  cefr: B2
+  topic: workplace
+  ipa: "/lɔːntʃ/"
+  def: "To make a new product or service available to the public."
+  vi: "ra mắt (sản phẩm)"
+  forms: [launches, launched, launching, launch]
+  examples:
+    - en: "We plan to launch the new app before Tet."
+      vi: "Bọn mình định ra mắt ứng dụng mới trước Tết."
+- slug: wrap-up-phr
+  lemma: wrap up
+  pos: phrasal_verb
+  kind: phrasal
+  cefr: B2
+  topic: workplace
+  ipa: "/ˌræp ˈʌp/"
+  def: "To finish a task, meeting or project."
+  vi: "kết thúc, hoàn tất"
+  forms: [wraps up, wrapped up, wrapping up]
+  examples:
+    - en: "Let's wrap up this sprint and start planning the next one."
+      vi: "Mình kết thúc sprint này rồi bắt đầu lên kế hoạch cho sprint sau nhé."
+- slug: set-a-goal-phr
+  lemma: set a goal
+  pos: phrase
+  kind: collocation
+  cefr: B1
+  topic: workplace
+  ipa: "/ˌset ə ˈɡəʊl/"
+  def: "To decide on something you want to achieve."
+  vi: "đặt mục tiêu"
+  forms: [set goals, sets a goal, setting goals, set clear goals]
+  examples:
+    - en: "This quarter we set a goal of cutting page load time in half."
+      vi: "Quý này bọn mình đặt mục tiêu giảm một nửa thời gian tải trang."
+- slug: keep-track-of-phr
+  lemma: keep track of
+  pos: phrase
+  kind: phrase
+  cefr: B2
+  topic: workplace
+  ipa: "/ˌkiːp ˈtræk əv/"
+  def: "To keep checking and recording what is happening with something."
+  vi: "theo dõi (sát)"
+  forms: [keeps track of, kept track of, keeping track of]
+  examples:
+    - en: "We use a Kanban board to keep track of every task."
+      vi: "Bọn mình dùng bảng Kanban để theo dõi từng đầu việc."
+- slug: risk-n
+  lemma: risk
+  pos: noun
+  cefr: B1
+  topic: workplace
+  ipa: "/rɪsk/"
+  def: "The chance that something bad may happen."
+  vi: "rủi ro"
+  forms: [risks, risky]
+  examples:
+    - en: "The biggest risk is that the payment partner changes its API."
+      vi: "Rủi ro lớn nhất là đối tác thanh toán thay đổi API."
+- slug: contingency-plan-n
+  lemma: contingency plan
+  pos: noun
+  kind: collocation
+  cefr: C1
+  topic: workplace
+  ipa: "/kənˈtɪndʒənsi ˌplæn/"
+  def: "A plan you will use if your main plan fails or something goes wrong."
+  vi: "kế hoạch dự phòng"
+  forms: [contingency plans, backup plan, plan B]
+  examples:
+    - en: "If the vendor is late, our contingency plan is to build the feature ourselves."
+      vi: "Nếu nhà cung cấp trễ, kế hoạch dự phòng của mình là tự làm tính năng đó."
+- slug: last-minute-adj
+  lemma: last-minute
+  pos: adjective
+  kind: collocation
+  cefr: B2
+  topic: workplace
+  ipa: "/ˌlɑːst ˈmɪnɪt/"
+  def: "Done or happening very close to the time something must be finished."
+  vi: "vào phút chót"
+  forms: [at the last minute]
+  examples:
+    - en: "Please avoid last-minute changes on release day."
+      vi: "Mọi người tránh sửa vào phút chót trong ngày release nhé."
+# Set 6: management & leadership
+- slug: supervise-v
+  lemma: supervise
+  pos: verb
+  cefr: B2
+  topic: workplace
+  ipa: "/ˈsuːpəvaɪz/"
+  def: "To watch people while they work to make sure they do it correctly."
+  vi: "giám sát, kèm (người làm việc)"
+  forms: [supervises, supervised, supervising, supervisor]
+  examples:
+    - en: "A senior engineer supervises the interns during their first month."
+      vi: "Một kỹ sư senior kèm các bạn thực tập trong tháng đầu tiên."
+- slug: oversee-v
+  lemma: oversee
+  pos: verb
+  cefr: C1
+  topic: workplace
+  ipa: "/ˌəʊvəˈsiː/"
+  def: "To be in charge of a big piece of work and check that it goes well."
+  vi: "phụ trách tổng thể, chỉ đạo chung"
+  forms: [oversees, oversaw, overseen, overseeing]
+  examples:
+    - en: "Ms Thu oversees all projects in the Ho Chi Minh City office."
+      vi: "Chị Thu phụ trách chung mọi dự án ở văn phòng TP.HCM."
+- slug: motivate-v
+  lemma: motivate
+  pos: verb
+  cefr: B2
+  topic: workplace
+  ipa: "/ˈməʊtɪveɪt/"
+  def: "To make someone want to work hard or do something."
+  vi: "tạo động lực"
+  forms: [motivates, motivated, motivating, motivation]
+  examples:
+    - en: "Clear goals motivate the team more than long meetings."
+      vi: "Mục tiêu rõ ràng tạo động lực cho team hơn là họp dài."
+- slug: micromanage-v
+  lemma: micromanage
+  pos: verb
+  cefr: C1
+  topic: workplace
+  ipa: "/ˈmaɪkrəʊˌmænɪdʒ/"
+  def: "To control every small detail of other people's work, often too much."
+  vi: "quản lý quá chi li, soi từng chút"
+  forms: [micromanages, micromanaged, micromanaging, micromanagement, micromanager]
+  examples:
+    - en: "Good leads don't micromanage; they trust people to do their job."
+      vi: "Trưởng nhóm giỏi không soi từng chút, họ tin mọi người làm tốt việc của mình."
+- slug: empower-v
+  lemma: empower
+  pos: verb
+  cefr: C1
+  topic: workplace
+  ipa: "/ɪmˈpaʊə/"
+  def: "To give people the freedom and confidence to make their own decisions."
+  vi: "trao quyền"
+  forms: [empowers, empowered, empowering]
+  examples:
+    - en: "Our CTO empowers each team to choose its own tools."
+      vi: "CTO của mình trao quyền cho mỗi team tự chọn công cụ."
+- slug: lead-by-example-phr
+  lemma: lead by example
+  pos: phrase
+  kind: phrase
+  cefr: B2
+  topic: workplace
+  ipa: "/ˌliːd baɪ ɪɡˈzɑːmpl/"
+  def: "To show others how to behave by doing it yourself first."
+  vi: "làm gương, dẫn dắt bằng hành động"
+  forms: [leads by example, led by example, leading by example]
+  examples:
+    - en: "She leads by example and always writes tests for her code."
+      vi: "Chị ấy làm gương, lúc nào cũng viết test cho code của mình."
+- slug: make-a-decision-phr
+  lemma: make a decision
+  pos: phrase
+  kind: collocation
+  cefr: A2
+  topic: workplace
+  ipa: "/ˌmeɪk ə dɪˈsɪʒn/"
+  def: "To choose what to do after thinking about it."
+  vi: "đưa ra quyết định"
+  forms: [made a decision, making a decision, makes a decision, make decisions]
+  examples:
+    - en: "We need to make a decision about the framework this week."
+      vi: "Tuần này mình cần đưa ra quyết định về framework."
+- slug: take-responsibility-phr
+  lemma: take responsibility
+  pos: phrase
+  kind: collocation
+  cefr: B2
+  topic: workplace
+  ipa: "/ˌteɪk rɪˌspɒnsəˈbɪləti/"
+  def: "To accept that something is your duty or your fault."
+  vi: "nhận trách nhiệm"
+  forms: [took responsibility, taking responsibility, takes responsibility]
+  examples:
+    - en: "The manager took responsibility for the late release."
+      vi: "Quản lý đã nhận trách nhiệm về việc release trễ."
+- slug: accountable-adj
+  lemma: accountable
+  pos: adjective
+  cefr: C1
+  topic: workplace
+  ipa: "/əˈkaʊntəbl/"
+  def: "Expected to explain your actions and accept the results."
+  vi: "chịu trách nhiệm giải trình"
+  forms: [accountability, hold someone accountable]
+  examples:
+    - en: "Each team is accountable for the uptime of its own services."
+      vi: "Mỗi team phải chịu trách nhiệm về thời gian hoạt động của dịch vụ mình."
+- slug: authority-n
+  lemma: authority
+  pos: noun
+  cefr: B2
+  topic: workplace
+  ipa: "/ɔːˈθɒrəti/"
+  def: "The power or right to make decisions and tell people what to do."
+  vi: "thẩm quyền, quyền hạn"
+  examples:
+    - en: "Only the product owner has the authority to change the scope."
+      vi: "Chỉ product owner mới có thẩm quyền thay đổi phạm vi."
+- slug: strategy-n
+  lemma: strategy
+  pos: noun
+  cefr: B2
+  topic: workplace
+  ipa: "/ˈstrætədʒi/"
+  def: "A long plan for how to reach a big goal."
+  vi: "chiến lược"
+  forms: [strategies, strategic]
+  examples:
+    - en: "Our strategy for next year is to grow in the Japanese market."
+      vi: "Chiến lược năm sau của bọn mình là mở rộng ở thị trường Nhật."
+- slug: vision-n
+  lemma: vision
+  pos: noun
+  cefr: B2
+  topic: workplace
+  ipa: "/ˈvɪʒn/"
+  def: "A clear idea of what a company or team wants to become in the future."
+  vi: "tầm nhìn"
+  forms: [visions, company vision]
+  examples:
+    - en: "The founder shared her vision for the product at the town hall."
+      vi: "Nhà sáng lập chia sẻ tầm nhìn về sản phẩm trong buổi họp toàn công ty."
+- slug: morale-n
+  lemma: morale
+  pos: noun
+  cefr: C1
+  topic: workplace
+  ipa: "/məˈrɑːl/"
+  def: "How confident and happy a group of people feel about their work."
+  vi: "tinh thần (làm việc) của tập thể"
+  forms: [team morale, low morale, high morale]
+  examples:
+    - en: "Team morale went up after the successful launch."
+      vi: "Tinh thần cả team lên cao sau lần ra mắt thành công."
+- slug: give-credit-phr
+  lemma: give credit
+  pos: phrase
+  kind: collocation
+  cefr: B2
+  topic: workplace
+  ipa: "/ˌɡɪv ˈkredɪt/"
+  def: "To say publicly that someone did good work."
+  vi: "ghi nhận công sức (của ai)"
+  forms: [gave credit, giving credit, gives credit, give someone credit]
+  examples:
+    - en: "In the demo, he gave credit to the junior who fixed the bug."
+      vi: "Trong buổi demo, anh ấy ghi nhận công của bạn junior đã sửa lỗi."
+- slug: step-up-phr
+  lemma: step up
+  pos: phrasal_verb
+  kind: phrasal
+  cefr: B2
+  topic: workplace
+  ipa: "/ˌstep ˈʌp/"
+  def: "To take more responsibility when someone is needed."
+  vi: "đứng ra gánh vác, xung phong"
+  forms: [steps up, stepped up, stepping up]
+  examples:
+    - en: "When our lead was ill, Khoa stepped up and ran the sprint."
+      vi: "Khi trưởng nhóm ốm, Khoa đã đứng ra điều hành sprint."
+- slug: step-down-phr
+  lemma: step down
+  pos: phrasal_verb
+  kind: phrasal
+  cefr: B2
+  topic: workplace
+  ipa: "/ˌstep ˈdaʊn/"
+  def: "To leave an important job or position, often by choice."
+  vi: "rời chức vụ, thôi giữ chức"
+  forms: [steps down, stepped down, stepping down]
+  examples:
+    - en: "The CEO will step down at the end of the year."
+      vi: "Giám đốc điều hành sẽ rời chức vụ vào cuối năm."
+- slug: approachable-adj
+  lemma: approachable
+  pos: adjective
+  cefr: B2
+  topic: workplace
+  ipa: "/əˈprəʊtʃəbl/"
+  def: "Friendly and easy to talk to."
+  vi: "dễ gần, dễ trao đổi"
+  examples:
+    - en: "My manager is very approachable, so I ask her questions often."
+      vi: "Sếp mình rất dễ gần nên mình hay hỏi chị ấy."
+- slug: one-on-one-n
+  lemma: one-on-one
+  pos: noun
+  cefr: B2
+  topic: workplace
+  ipa: "/ˌwʌn ɒn ˈwʌn/"
+  def: "A regular private meeting between a manager and one team member."
+  vi: "buổi trao đổi riêng (sếp với nhân viên)"
+  forms: [one-on-ones, one-to-one]
+  examples:
+    - en: "In our weekly one-on-one, we talk about my goals and problems."
+      vi: "Trong buổi trao đổi riêng hằng tuần, bọn mình nói về mục tiêu và khó khăn của mình."
+- slug: line-manager-n
+  lemma: line manager
+  pos: noun
+  kind: collocation
+  cefr: B2
+  topic: workplace
+  ipa: "/ˈlaɪn ˌmænɪdʒə/"
+  def: "The person who is directly in charge of you at work."
+  vi: "quản lý trực tiếp"
+  forms: [line managers, direct manager]
+  examples:
+    - en: "Ask your line manager before you book your holiday."
+      vi: "Hãy hỏi quản lý trực tiếp trước khi đặt lịch nghỉ."
+- slug: recognition-n
+  lemma: recognition
+  pos: noun
+  cefr: B2
+  topic: workplace
+  ipa: "/ˌrekəɡˈnɪʃn/"
+  def: "Praise or thanks for something good that someone has done."
+  vi: "sự công nhận, khen thưởng"
+  forms: [recognize, recognized]
+  examples:
+    - en: "People stay longer when their work gets recognition."
+      vi: "Mọi người gắn bó lâu hơn khi công sức được công nhận."
+# Set 7: hiring & HR
+- slug: recruit-v
+  lemma: recruit
+  pos: verb
+  cefr: B2
+  topic: workplace
+  ipa: "/rɪˈkruːt/"
+  def: "To find new people to join a company or team."
+  vi: "tuyển dụng, chiêu mộ"
+  forms: [recruits, recruited, recruiting, recruitment, recruiter]
+  examples:
+    - en: "It is hard to recruit good DevOps engineers right now."
+      vi: "Hiện giờ rất khó tuyển được kỹ sư DevOps giỏi."
+- slug: candidate-n
+  lemma: candidate
+  pos: noun
+  cefr: B2
+  topic: workplace
+  ipa: "/ˈkændɪdət/"
+  def: "A person who is trying to get a job."
+  vi: "ứng viên"
+  forms: [candidates]
+  examples:
+    - en: "We interviewed five candidates for the frontend role."
+      vi: "Bọn mình đã phỏng vấn năm ứng viên cho vị trí frontend."
+- slug: shortlist-v
+  lemma: shortlist
+  pos: verb
+  cefr: C1
+  topic: workplace
+  ipa: "/ˈʃɔːtlɪst/"
+  def: "To choose a small group of the best people from all who applied."
+  vi: "chọn vào vòng trong, lọc danh sách rút gọn"
+  forms: [shortlists, shortlisted, shortlisting, shortlist]
+  examples:
+    - en: "HR shortlisted eight people out of two hundred applications."
+      vi: "Phòng nhân sự đã chọn tám người vào vòng trong từ hai trăm hồ sơ."
+- slug: cv-n
+  lemma: CV
+  pos: noun
+  cefr: B1
+  topic: workplace
+  ipa: "/ˌsiː ˈviː/"
+  def: "A document that lists your education, skills and past jobs."
+  vi: "sơ yếu lý lịch, CV"
+  forms: [CVs, résumé, resume]
+  note: 'Anh-Mỹ thường nói "résumé".'
+  examples:
+    - en: "Keep your CV short and put your best projects first."
+      vi: "Hãy để CV ngắn gọn và đưa các dự án tốt nhất lên đầu."
+- slug: cover-letter-n
+  lemma: cover letter
+  pos: noun
+  kind: collocation
+  cefr: B2
+  topic: workplace
+  ipa: "/ˈkʌvə ˌletə/"
+  def: "A short letter you send with your CV to explain why you want the job."
+  vi: "thư xin việc (gửi kèm CV)"
+  forms: [cover letters, covering letter]
+  examples:
+    - en: "In my cover letter, I explained why I want to work in fintech."
+      vi: "Trong thư xin việc, mình giải thích vì sao muốn làm trong ngành fintech."
+- slug: work-experience-n
+  lemma: work experience
+  pos: noun
+  kind: collocation
+  cefr: B1
+  topic: workplace
+  ipa: "/ˈwɜːk ɪkˌspɪəriəns/"
+  def: "The jobs you have done before and what you learned from them."
+  vi: "kinh nghiệm làm việc"
+  forms: [experience]
+  examples:
+    - en: "The role needs at least two years of work experience."
+      vi: "Vị trí này cần ít nhất hai năm kinh nghiệm làm việc."
+- slug: job-offer-n
+  lemma: job offer
+  pos: noun
+  kind: collocation
+  cefr: B1
+  topic: workplace
+  ipa: "/ˈdʒɒb ˌɒfə/"
+  def: "When a company formally says it wants to give you a job."
+  vi: "lời mời làm việc, offer"
+  forms: [job offers, offer, get an offer]
+  examples:
+    - en: "I got a job offer from a startup in Da Nang yesterday."
+      vi: "Hôm qua mình nhận được lời mời làm việc từ một startup ở Đà Nẵng."
+- slug: turn-down-phr
+  lemma: turn down
+  pos: phrasal_verb
+  kind: phrasal
+  cefr: B2
+  topic: workplace
+  ipa: "/ˌtɜːn ˈdaʊn/"
+  def: "To say no to an offer or request."
+  vi: "từ chối (lời đề nghị)"
+  forms: [turns down, turned down, turning down]
+  examples:
+    - en: "She turned down the offer because the salary was too low."
+      vi: "Cô ấy từ chối lời mời vì lương quá thấp."
+- slug: negotiate-v
+  lemma: negotiate
+  pos: verb
+  cefr: B2
+  topic: workplace
+  ipa: "/nɪˈɡəʊʃieɪt/"
+  def: "To discuss something to reach an agreement, for example about pay."
+  vi: "đàm phán, thương lượng"
+  forms: [negotiates, negotiated, negotiating, negotiation]
+  examples:
+    - en: "Don't be afraid to negotiate your salary before you sign."
+      vi: "Đừng ngại thương lượng lương trước khi ký."
+- slug: full-time-adj
+  lemma: full-time
+  pos: adjective
+  cefr: A2
+  topic: workplace
+  ipa: "/ˌfʊl ˈtaɪm/"
+  def: "Working the whole of a normal working week."
+  vi: "toàn thời gian"
+  forms: [full time]
+  examples:
+    - en: "After the internship, he got a full-time job at the same company."
+      vi: "Sau kỳ thực tập, anh ấy được nhận làm toàn thời gian ở chính công ty đó."
+- slug: part-time-adj
+  lemma: part-time
+  pos: adjective
+  cefr: A2
+  topic: workplace
+  ipa: "/ˌpɑːt ˈtaɪm/"
+  def: "Working only some of the hours of a normal working week."
+  vi: "bán thời gian"
+  forms: [part time]
+  examples:
+    - en: "I had a part-time job as a tester while I was at university."
+      vi: "Hồi đại học mình làm tester bán thời gian."
+- slug: intern-n
+  lemma: intern
+  pos: noun
+  cefr: B1
+  topic: workplace
+  ipa: "/ˈɪntɜːn/"
+  def: "A student or new graduate who works for a short time to get experience."
+  vi: "thực tập sinh"
+  forms: [interns, internship, internships]
+  examples:
+    - en: "Our team takes two interns every summer."
+      vi: "Mỗi mùa hè team mình nhận hai thực tập sinh."
+- slug: employee-n
+  lemma: employee
+  pos: noun
+  cefr: B1
+  topic: workplace
+  ipa: "/ɪmˈplɔɪiː/"
+  def: "A person who is paid to work for a company or person."
+  vi: "nhân viên, người lao động"
+  forms: [employees, staff]
+  examples:
+    - en: "The company has about three hundred employees in Vietnam."
+      vi: "Công ty có khoảng ba trăm nhân viên ở Việt Nam."
+- slug: employer-n
+  lemma: employer
+  pos: noun
+  cefr: B1
+  topic: workplace
+  ipa: "/ɪmˈplɔɪə/"
+  def: "A company or person that pays people to work for them."
+  vi: "người sử dụng lao động, nhà tuyển dụng"
+  forms: [employers]
+  examples:
+    - en: "My employer pays for my English classes."
+      vi: "Công ty nơi mình làm trả tiền học tiếng Anh cho mình."
+- slug: lay-off-phr
+  lemma: lay off
+  pos: phrasal_verb
+  kind: phrasal
+  cefr: B2
+  topic: workplace
+  ipa: "/ˌleɪ ˈɒf/"
+  def: "To end people's jobs because there is not enough work or money."
+  vi: "cắt giảm nhân sự, cho nghỉ việc hàng loạt"
+  forms: [lays off, laid off, laying off, layoff, layoffs]
+  examples:
+    - en: "The startup laid off twenty people when the funding ran out."
+      vi: "Startup đó đã cắt giảm hai mươi người khi hết vốn."
+- slug: fire-v
+  lemma: fire
+  pos: verb
+  cefr: B1
+  topic: workplace
+  ipa: "/ˈfaɪə/"
+  def: "To make someone leave their job, often because they did something wrong."
+  vi: "sa thải, đuổi việc"
+  forms: [fires, fired, firing, get fired]
+  examples:
+    - en: "He was fired for sharing the company's code online."
+      vi: "Anh ta bị đuổi việc vì chia sẻ code của công ty lên mạng."
+- slug: annual-leave-n
+  lemma: annual leave
+  pos: noun
+  kind: collocation
+  cefr: B2
+  topic: workplace
+  ipa: "/ˌænjuəl ˈliːv/"
+  def: "The number of paid days off you can take each year."
+  vi: "phép năm"
+  forms: [paid leave, leave]
+  examples:
+    - en: "I have twelve days of annual leave, and I want to use five at Tet."
+      vi: "Mình có mười hai ngày phép năm và muốn dùng năm ngày vào dịp Tết."
+- slug: maternity-leave-n
+  lemma: maternity leave
+  pos: noun
+  kind: collocation
+  cefr: B2
+  topic: workplace
+  ipa: "/məˈtɜːnəti ˌliːv/"
+  def: "Time off work that a woman takes before and after having a baby."
+  vi: "nghỉ thai sản"
+  forms: [paternity leave, parental leave]
+  note: '"paternity leave" = nghỉ phép dành cho bố khi vợ sinh con.'
+  examples:
+    - en: "Mai is on maternity leave until March."
+      vi: "Mai đang nghỉ thai sản đến tháng Ba."
+- slug: bonus-n
+  lemma: bonus
+  pos: noun
+  cefr: B1
+  topic: workplace
+  ipa: "/ˈbəʊnəs/"
+  def: "Extra money you get from your company, for example for good work."
+  vi: "tiền thưởng"
+  forms: [bonuses, Tet bonus, year-end bonus]
+  examples:
+    - en: "Everyone got a bonus because the project made a profit."
+      vi: "Ai cũng được thưởng vì dự án có lãi."
+- slug: human-resources-n
+  lemma: human resources
+  pos: noun
+  kind: collocation
+  cefr: B2
+  topic: workplace
+  ipa: "/ˌhjuːmən rɪˈzɔːsɪz/"
+  def: "The department that deals with hiring, pay and the needs of workers."
+  vi: "phòng nhân sự"
+  forms: [HR, HR department]
+  examples:
+    - en: "Please send your signed contract to human resources."
+      vi: "Bạn gửi hợp đồng đã ký cho phòng nhân sự nhé."
+- slug: qualification-n
+  lemma: qualification
+  pos: noun
+  cefr: B2
+  topic: workplace
+  ipa: "/ˌkwɒlɪfɪˈkeɪʃn/"
+  def: "A degree or certificate that shows you have the skills for a job."
+  vi: "bằng cấp, trình độ chuyên môn"
+  forms: [qualifications, qualified]
+  examples:
+    - en: "You don't need special qualifications; your GitHub projects are enough."
+      vi: "Bạn không cần bằng cấp đặc biệt, các dự án trên GitHub là đủ rồi."
+- slug: freelancer-n
+  lemma: freelancer
+  pos: noun
+  cefr: B2
+  topic: workplace
+  ipa: "/ˈfriːlɑːnsə/"
+  def: "A person who works for different clients and is not a full employee of one company."
+  vi: "người làm tự do, freelancer"
+  forms: [freelancers, freelance, freelancing]
+  examples:
+    - en: "We hired a freelancer to design the new logo."
+      vi: "Bọn mình thuê một bạn làm tự do để thiết kế logo mới."
+# Set 8: office life & equipment
+- slug: open-plan-office-n
+  lemma: open-plan office
+  pos: noun
+  kind: collocation
+  cefr: B2
+  topic: workplace
+  ipa: "/ˌəʊpən plæn ˈɒfɪs/"
+  def: "A large office with no walls between desks, where many people work together."
+  vi: "văn phòng mở (không vách ngăn)"
+  forms: [open-plan offices, open office]
+  examples:
+    - en: "Our open-plan office is noisy, so I wear headphones."
+      vi: "Văn phòng mở của bọn mình ồn nên mình hay đeo tai nghe."
+- slug: cubicle-n
+  lemma: cubicle
+  pos: noun
+  cefr: B2
+  topic: workplace
+  ipa: "/ˈkjuːbɪkl/"
+  def: "A small work space with low walls around a desk."
+  vi: "ô làm việc có vách ngăn"
+  forms: [cubicles]
+  examples:
+    - en: "In my old company, everyone sat in a grey cubicle."
+      vi: "Ở công ty cũ, ai cũng ngồi trong một ô làm việc màu xám."
+- slug: meeting-room-n
+  lemma: meeting room
+  pos: noun
+  kind: collocation
+  cefr: A2
+  topic: workplace
+  ipa: "/ˈmiːtɪŋ ˌruːm/"
+  def: "A room in an office used for meetings."
+  vi: "phòng họp"
+  forms: [meeting rooms, conference room]
+  examples:
+    - en: "The big meeting room on the fifth floor has a new screen."
+      vi: "Phòng họp lớn ở tầng năm có màn hình mới."
+- slug: printer-n
+  lemma: printer
+  pos: noun
+  cefr: A2
+  topic: workplace
+  ipa: "/ˈprɪntə/"
+  def: "A machine that puts text or pictures from a computer onto paper."
+  vi: "máy in"
+  forms: [printers, print, printed]
+  examples:
+    - en: "The printer is out of paper again."
+      vi: "Máy in lại hết giấy rồi."
+- slug: photocopy-v
+  lemma: photocopy
+  pos: verb
+  cefr: B1
+  topic: workplace
+  ipa: "/ˈfəʊtəʊkɒpi/"
+  def: "To make a paper copy of a document with a machine."
+  vi: "photo, sao chụp (tài liệu)"
+  forms: [photocopies, photocopied, photocopying, photocopier]
+  examples:
+    - en: "Could you photocopy my ID card for the HR file?"
+      vi: "Bạn photo giúp mình căn cước để nộp hồ sơ nhân sự được không?"
+- slug: stapler-n
+  lemma: stapler
+  pos: noun
+  cefr: B1
+  topic: workplace
+  ipa: "/ˈsteɪplə/"
+  def: "A small tool that joins pieces of paper with a thin piece of metal."
+  vi: "cái dập ghim"
+  forms: [staplers, staple, stapled]
+  examples:
+    - en: "Is there a stapler near the printer?"
+      vi: "Gần máy in có cái dập ghim nào không?"
+- slug: whiteboard-n
+  lemma: whiteboard
+  pos: noun
+  cefr: A2
+  topic: workplace
+  ipa: "/ˈwaɪtbɔːd/"
+  def: "A white board that you write on with special pens."
+  vi: "bảng trắng"
+  forms: [whiteboards]
+  examples:
+    - en: "He drew the system design on the whiteboard."
+      vi: "Anh ấy vẽ thiết kế hệ thống lên bảng trắng."
+- slug: projector-n
+  lemma: projector
+  pos: noun
+  cefr: B1
+  topic: workplace
+  ipa: "/prəˈdʒektə/"
+  def: "A machine that shows pictures or slides on a wall or screen."
+  vi: "máy chiếu"
+  forms: [projectors]
+  examples:
+    - en: "My laptop won't connect to the projector."
+      vi: "Laptop của mình không kết nối được với máy chiếu."
+- slug: headset-n
+  lemma: headset
+  pos: noun
+  cefr: B1
+  topic: workplace
+  ipa: "/ˈhedset/"
+  def: "Headphones with a small microphone, used for calls."
+  vi: "tai nghe có mic"
+  forms: [headsets]
+  examples:
+    - en: "Please use a headset in online meetings so there's no echo."
+      vi: "Họp online nhớ dùng tai nghe có mic để không bị vọng tiếng nhé."
+- slug: id-badge-n
+  lemma: ID badge
+  pos: noun
+  kind: collocation
+  cefr: B1
+  topic: workplace
+  ipa: "/ˌaɪ ˈdiː ˌbædʒ/"
+  def: "A card with your name and photo that lets you enter the building."
+  vi: "thẻ nhân viên"
+  forms: [ID badges, badge, access card]
+  examples:
+    - en: "I forgot my ID badge, so security had to let me in."
+      vi: "Mình quên thẻ nhân viên nên bảo vệ phải mở cửa cho vào."
+- slug: reception-n
+  lemma: reception
+  pos: noun
+  cefr: A2
+  topic: workplace
+  ipa: "/rɪˈsepʃn/"
+  def: "The place near the entrance of an office where visitors are welcomed."
+  vi: "quầy lễ tân"
+  forms: [receptionist, reception desk]
+  examples:
+    - en: "Your visitor is waiting at reception."
+      vi: "Khách của bạn đang đợi ở quầy lễ tân."
+- slug: pantry-n
+  lemma: pantry
+  pos: noun
+  cefr: B2
+  topic: workplace
+  ipa: "/ˈpæntri/"
+  def: "A small kitchen area in an office where people make drinks and snacks."
+  vi: "khu bếp nhỏ, pantry (ở văn phòng)"
+  forms: [pantries, kitchen, break room]
+  examples:
+    - en: "There's free coffee and fruit in the pantry."
+      vi: "Trong khu pantry có cà phê và trái cây miễn phí."
+- slug: lunch-break-n
+  lemma: lunch break
+  pos: noun
+  kind: collocation
+  cefr: A2
+  topic: workplace
+  ipa: "/ˈlʌntʃ ˌbreɪk/"
+  def: "The time in the middle of the day when you stop work to eat."
+  vi: "giờ nghỉ trưa"
+  forms: [lunch breaks, lunchtime]
+  examples:
+    - en: "Many people take a short nap during the lunch break."
+      vi: "Nhiều người chợp mắt một chút trong giờ nghỉ trưa."
+- slug: small-talk-n
+  lemma: small talk
+  pos: noun
+  kind: collocation
+  cefr: B2
+  topic: workplace
+  ipa: "/ˈsmɔːl ˌtɔːk/"
+  def: "Polite, light conversation about things like the weather or the weekend."
+  vi: "chuyện phiếm, nói chuyện xã giao"
+  forms: [make small talk]
+  examples:
+    - en: "Before the call starts, we usually make small talk about the weekend."
+      vi: "Trước khi bắt đầu cuộc gọi, bọn mình thường nói chuyện xã giao về cuối tuần."
+- slug: dress-code-n
+  lemma: dress code
+  pos: noun
+  kind: collocation
+  cefr: B2
+  topic: workplace
+  ipa: "/ˈdres ˌkəʊd/"
+  def: "Rules about what clothes people should wear at work or at an event."
+  vi: "quy định trang phục"
+  forms: [dress codes, smart casual]
+  examples:
+    - en: "There is no dress code here, but wear a shirt when you meet clients."
+      vi: "Ở đây không có quy định trang phục, nhưng gặp khách thì nên mặc sơ mi."
+- slug: hot-desking-n
+  lemma: hot-desking
+  pos: noun
+  cefr: C1
+  topic: workplace
+  ipa: "/ˈhɒt ˌdeskɪŋ/"
+  def: "A system where workers do not have their own desk and use any free one."
+  vi: "ngồi chỗ tự do (không có bàn cố định)"
+  forms: [hot desk, hot desks]
+  examples:
+    - en: "Since we started hot-desking, I keep my things in a locker."
+      vi: "Từ khi chuyển sang ngồi chỗ tự do, mình cất đồ trong tủ khoá."
+- slug: office-supplies-n
+  lemma: office supplies
+  pos: noun
+  kind: collocation
+  cefr: B1
+  topic: workplace
+  ipa: "/ˈɒfɪs səˌplaɪz/"
+  def: "Things used in an office, such as pens, paper and sticky notes."
+  vi: "văn phòng phẩm"
+  forms: [stationery]
+  examples:
+    - en: "Ask the admin team if you need office supplies like notebooks."
+      vi: "Cần văn phòng phẩm như sổ ghi chép thì hỏi bộ phận hành chính nhé."
+- slug: book-a-room-phr
+  lemma: book a room
+  pos: phrase
+  kind: collocation
+  cefr: A2
+  topic: workplace
+  ipa: "/ˌbʊk ə ˈruːm/"
+  def: "To reserve a room for a meeting at a certain time."
+  vi: "đặt phòng (họp)"
+  forms: [booked a room, booking a room, book the room, booked the room]
+  examples:
+    - en: "I booked a room for the retro from two to three."
+      vi: "Mình đã đặt phòng cho buổi retro từ hai đến ba giờ."
+- slug: clock-in-phr
+  lemma: clock in
+  pos: phrasal_verb
+  kind: phrasal
+  cefr: B2
+  topic: workplace
+  ipa: "/ˌklɒk ˈɪn/"
+  def: "To record the time you arrive at work, often with a card or app."
+  vi: "chấm công (lúc vào làm)"
+  forms: [clocks in, clocked in, clocking in, clock out, clocked out]
+  note: 'Ngược lại: "clock out" = chấm công lúc về.'
+  examples:
+    - en: "Remember to clock in with the app when you arrive."
+      vi: "Đến nơi nhớ chấm công bằng ứng dụng nhé."
+- slug: shift-n
+  lemma: shift
+  pos: noun
+  cefr: B1
+  topic: workplace
+  ipa: "/ʃɪft/"
+  def: "A fixed period of work, for example during the day or at night."
+  vi: "ca làm việc"
+  forms: [shifts, night shift, day shift]
+  examples:
+    - en: "The support team works in three shifts, so someone is always online."
+      vi: "Nhóm hỗ trợ làm ba ca nên lúc nào cũng có người trực."
+- slug: filing-cabinet-n
+  lemma: filing cabinet
+  pos: noun
+  kind: collocation
+  cefr: B2
+  topic: workplace
+  ipa: "/ˈfaɪlɪŋ ˌkæbɪnət/"
+  def: "A piece of office furniture with drawers for keeping documents."
+  vi: "tủ đựng hồ sơ"
+  forms: [filing cabinets]
+  examples:
+    - en: "The old contracts are in the filing cabinet next to HR."
+      vi: "Các hợp đồng cũ nằm trong tủ hồ sơ cạnh phòng nhân sự."
+- slug: workstation-n
+  lemma: workstation
+  pos: noun
+  cefr: B2
+  topic: workplace
+  ipa: "/ˈwɜːksteɪʃn/"
+  def: "The desk, chair and computer where one person works."
+  vi: "chỗ làm việc, bàn làm việc (kèm máy tính)"
+  forms: [workstations]
+  examples:
+    - en: "Each workstation has two monitors and a standing desk."
+      vi: "Mỗi chỗ làm việc có hai màn hình và một bàn đứng."
+- slug: ergonomic-adj
+  lemma: ergonomic
+  pos: adjective
+  cefr: C1
+  topic: workplace
+  ipa: "/ˌɜːɡəˈnɒmɪk/"
+  def: "Designed to be comfortable and safe for your body when you work."
+  vi: "công thái học, thiết kế thân thiện với cơ thể"
+  forms: [ergonomics, ergonomically]
+  examples:
+    - en: "The company bought ergonomic chairs for everyone."
+      vi: "Công ty mua ghế công thái học cho tất cả mọi người."
+- slug: team-building-n
+  lemma: team building
+  pos: noun
+  kind: collocation
+  cefr: B2
+  topic: workplace
+  ipa: "/ˈtiːm ˌbɪldɪŋ/"
+  def: "Activities that help people in a team know and trust each other."
+  vi: "hoạt động gắn kết đội nhóm"
+  forms: [team-building, team-building trip]
+  examples:
+    - en: "Our team building trip to Vung Tau is next month."
+      vi: "Chuyến team building đi Vũng Tàu của bọn mình vào tháng sau."
+# Set 9: business emails & reports
+- slug: cc-v
+  lemma: cc
+  pos: verb
+  cefr: B1
+  topic: workplace
+  ipa: "/ˌsiː ˈsiː/"
+  def: "To send a copy of an email to someone who is not the main person you are writing to."
+  vi: "cc, gửi kèm bản sao (email)"
+  forms: [cc's, cc'd, cc'ing, CC, bcc]
+  examples:
+    - en: "Please cc your manager when you reply to the client."
+      vi: "Khi trả lời khách nhớ cc quản lý nhé."
+- slug: forward-v
+  lemma: forward
+  pos: verb
+  cefr: B1
+  topic: workplace
+  ipa: "/ˈfɔːwəd/"
+  def: "To send an email or message you received to another person."
+  vi: "chuyển tiếp (email, tin nhắn)"
+  forms: [forwards, forwarded, forwarding, fwd]
+  examples:
+    - en: "I'll forward you the invoice from the supplier."
+      vi: "Mình sẽ chuyển tiếp cho bạn hoá đơn của nhà cung cấp."
+- slug: reply-all-v
+  lemma: reply all
+  pos: verb
+  kind: collocation
+  cefr: B1
+  topic: workplace
+  ipa: "/rɪˌplaɪ ˈɔːl/"
+  def: "To answer an email and send your answer to everyone who got it."
+  vi: "trả lời tất cả (người nhận)"
+  forms: [replied all, replying all, replies all, reply-all]
+  examples:
+    - en: "Please don't reply all just to say thanks."
+      vi: "Làm ơn đừng bấm trả lời tất cả chỉ để nói cảm ơn."
+- slug: out-of-office-n
+  lemma: out-of-office
+  pos: noun
+  kind: collocation
+  cefr: B2
+  topic: workplace
+  ipa: "/ˌaʊt əv ˈɒfɪs/"
+  def: "An automatic email reply that says you are away from work."
+  vi: "thư trả lời tự động khi vắng mặt"
+  forms: [out of office, OOO, out-of-office reply]
+  examples:
+    - en: "Before your holiday, set an out-of-office reply with a backup contact."
+      vi: "Trước kỳ nghỉ, hãy đặt thư trả lời tự động kèm người liên hệ thay."
+- slug: subject-line-n
+  lemma: subject line
+  pos: noun
+  kind: collocation
+  cefr: B1
+  topic: workplace
+  ipa: "/ˈsʌbdʒɪkt ˌlaɪn/"
+  def: "The short title of an email that tells what it is about."
+  vi: "dòng tiêu đề (email)"
+  forms: [subject lines, subject]
+  examples:
+    - en: "Write a clear subject line, like 'Invoice for June – action needed'."
+      vi: "Hãy viết dòng tiêu đề rõ ràng, kiểu 'Hoá đơn tháng Sáu – cần xử lý'."
+- slug: please-find-attached-phr
+  lemma: please find attached
+  pos: phrase
+  kind: phrase
+  cefr: B2
+  topic: workplace
+  ipa: "/ˌpliːz ˌfaɪnd əˈtætʃt/"
+  def: "A formal email phrase that tells the reader a file is included."
+  vi: "xin gửi kèm theo đây"
+  forms: [please find attached, attached is, I've attached]
+  examples:
+    - en: "Please find attached the test report for version 2.1."
+      vi: "Xin gửi kèm theo đây báo cáo kiểm thử cho phiên bản 2.1."
+- slug: look-forward-to-phr
+  lemma: look forward to
+  pos: phrasal_verb
+  kind: phrasal
+  cefr: B1
+  topic: workplace
+  ipa: "/ˌlʊk ˈfɔːwəd tə/"
+  def: "To feel happy about something that will happen; often used to end an email."
+  vi: "mong chờ, mong nhận được"
+  forms: [looking forward to, looks forward to, looked forward to]
+  note: 'Sau "to" là danh từ hoặc V-ing: "I look forward to hearing from you."'
+  examples:
+    - en: "I look forward to hearing from you soon."
+      vi: "Mong sớm nhận được phản hồi từ anh/chị."
+- slug: kind-regards-phr
+  lemma: kind regards
+  pos: phrase
+  kind: phrase
+  cefr: B1
+  topic: workplace
+  ipa: "/ˌkaɪnd rɪˈɡɑːdz/"
+  def: "A polite way to end an email before your name."
+  vi: "trân trọng (lời chào cuối thư)"
+  forms: [best regards, regards, Kind regards]
+  examples:
+    - en: "Kind regards, Linh – Product Team"
+      vi: "Trân trọng, Linh – Nhóm Sản phẩm"
+- slug: get-in-touch-phr
+  lemma: get in touch
+  pos: phrase
+  kind: phrase
+  cefr: B1
+  topic: workplace
+  ipa: "/ˌɡet ɪn ˈtʌtʃ/"
+  def: "To contact someone by email, phone or message."
+  vi: "liên lạc, liên hệ"
+  forms: [got in touch, getting in touch, gets in touch, be in touch]
+  examples:
+    - en: "If you have any questions, please get in touch with me."
+      vi: "Nếu có câu hỏi gì, anh/chị cứ liên hệ với tôi."
+- slug: reach-out-workplace-phr
+  lemma: reach out
+  pos: phrasal_verb
+  kind: phrasal
+  cefr: B2
+  topic: workplace
+  ipa: "/ˌriːtʃ ˈaʊt/"
+  def: "To contact someone, often to offer or ask for help."
+  vi: "chủ động liên hệ, ngỏ lời"
+  forms: [reaches out, reached out, reaching out, reach out to]
+  examples:
+    - en: "Feel free to reach out to me on Slack if you get stuck."
+      vi: "Nếu bị vướng, cứ chủ động nhắn mình trên Slack nhé."
+- slug: touch-base-phr
+  lemma: touch base
+  pos: phrase
+  kind: phrase
+  cefr: C1
+  topic: workplace
+  ipa: "/ˌtʌtʃ ˈbeɪs/"
+  def: "To talk briefly with someone to check how things are going."
+  vi: "trao đổi nhanh để nắm tình hình"
+  forms: [touched base, touching base, touch base with]
+  examples:
+    - en: "Let's touch base on Friday to see if the bug is fixed."
+      vi: "Thứ Sáu mình trao đổi nhanh xem bug đã sửa xong chưa nhé."
+- slug: confirm-v
+  lemma: confirm
+  pos: verb
+  cefr: B1
+  topic: workplace
+  ipa: "/kənˈfɜːm/"
+  def: "To say that something is true or that a plan will definitely happen."
+  vi: "xác nhận"
+  forms: [confirms, confirmed, confirming, confirmation]
+  examples:
+    - en: "Could you confirm the meeting time by email?"
+      vi: "Anh/chị xác nhận giờ họp qua email giúp tôi được không?"
+- slug: acknowledge-v
+  lemma: acknowledge
+  pos: verb
+  cefr: C1
+  topic: workplace
+  ipa: "/əkˈnɒlɪdʒ/"
+  def: "To tell someone that you have received their message or understood a problem."
+  vi: "báo đã nhận, thừa nhận"
+  forms: [acknowledges, acknowledged, acknowledging, acknowledgement]
+  examples:
+    - en: "The vendor acknowledged our email but hasn't answered yet."
+      vi: "Bên cung cấp đã báo nhận email nhưng chưa trả lời."
+- slug: inquiry-n
+  lemma: inquiry
+  pos: noun
+  cefr: B2
+  topic: workplace
+  ipa: "/ɪnˈkwaɪəri/"
+  def: "A question you ask to get information, often from a company."
+  vi: "yêu cầu thông tin, thắc mắc"
+  forms: [inquiries, enquiry, enquiries, inquire]
+  examples:
+    - en: "Thank you for your inquiry about our API pricing."
+      vi: "Cảm ơn anh/chị đã hỏi về bảng giá API của chúng tôi."
+- slug: draft-n
+  lemma: draft
+  pos: noun
+  cefr: B2
+  topic: workplace
+  ipa: "/drɑːft/"
+  def: "A first version of a document or email that is not finished yet."
+  vi: "bản nháp"
+  forms: [drafts, first draft, draft version]
+  examples:
+    - en: "I sent you the first draft of the proposal; please add comments."
+      vi: "Mình đã gửi bạn bản nháp đầu tiên của đề xuất, bạn góp ý nhé."
+- slug: proofread-v
+  lemma: proofread
+  pos: verb
+  cefr: C1
+  topic: workplace
+  ipa: "/ˈpruːfriːd/"
+  def: "To read a text carefully to find and correct mistakes."
+  vi: "đọc soát lỗi"
+  forms: [proofreads, proofreading]
+  examples:
+    - en: "Can you proofread my email before I send it to the CEO?"
+      vi: "Bạn đọc soát lỗi email giúp mình trước khi gửi cho CEO được không?"
+- slug: recipient-n
+  lemma: recipient
+  pos: noun
+  cefr: C1
+  topic: workplace
+  ipa: "/rɪˈsɪpiənt/"
+  def: "A person who receives something, such as an email."
+  vi: "người nhận"
+  forms: [recipients]
+  examples:
+    - en: "Check the recipient list before you send the salary file."
+      vi: "Kiểm tra danh sách người nhận trước khi gửi file lương nhé."
+- slug: heads-up-n
+  lemma: heads-up
+  pos: noun
+  cefr: B2
+  topic: workplace
+  ipa: "/ˈhedz ʌp/"
+  def: "A short early warning about something that will happen."
+  vi: "thông báo trước, báo sớm"
+  forms: [heads up, give someone a heads-up]
+  examples:
+    - en: "Just a heads-up: the office will be closed on Friday."
+      vi: "Báo trước nhé: thứ Sáu văn phòng đóng cửa."
+- slug: loop-in-phr
+  lemma: loop in
+  pos: phrasal_verb
+  kind: phrasal
+  cefr: C1
+  topic: workplace
+  ipa: "/ˌluːp ˈɪn/"
+  def: "To include someone in a conversation or email so they know what is happening."
+  vi: "kéo (ai) vào cuộc trao đổi để nắm thông tin"
+  forms: [loops in, looped in, looping in, keep in the loop]
+  examples:
+    - en: "I've looped in Duc from the security team."
+      vi: "Mình đã kéo anh Đức bên team bảo mật vào cuộc trao đổi."
+- slug: on-behalf-of-phr
+  lemma: on behalf of
+  pos: phrase
+  kind: phrase
+  cefr: B2
+  topic: workplace
+  ipa: "/ɒn bɪˈhɑːf əv/"
+  def: "Instead of someone, or as their representative."
+  vi: "thay mặt cho"
+  examples:
+    - en: "I'm writing on behalf of the whole engineering team."
+      vi: "Tôi viết thư này thay mặt cho toàn bộ đội kỹ thuật."
+- slug: at-your-earliest-convenience-phr
+  lemma: at your earliest convenience
+  pos: phrase
+  kind: phrase
+  cefr: C1
+  topic: workplace
+  ipa: "/ət jɔːr ˌɜːliɪst kənˈviːniəns/"
+  def: "A formal way to say 'as soon as you can'."
+  vi: "sớm nhất khi anh/chị có thể"
+  forms: [as soon as possible, ASAP]
+  examples:
+    - en: "Please sign the contract at your earliest convenience."
+      vi: "Mong anh/chị ký hợp đồng sớm nhất có thể."
+- slug: quarterly-report-n
+  lemma: quarterly report
+  pos: noun
+  kind: collocation
+  cefr: B2
+  topic: workplace
+  ipa: "/ˌkwɔːtəli rɪˈpɔːt/"
+  def: "A report about the results of a company or team every three months."
+  vi: "báo cáo quý"
+  forms: [quarterly reports, quarterly]
+  examples:
+    - en: "The quarterly report shows that users grew by thirty percent."
+      vi: "Báo cáo quý cho thấy số người dùng tăng ba mươi phần trăm."
+- slug: highlight-v
+  lemma: highlight
+  pos: verb
+  cefr: B2
+  topic: workplace
+  ipa: "/ˈhaɪlaɪt/"
+  def: "To make people notice the most important part of something."
+  vi: "làm nổi bật, nhấn mạnh"
+  forms: [highlights, highlighted, highlighting]
+  examples:
+    - en: "In the report, I highlighted the three biggest problems."
+      vi: "Trong báo cáo, mình nhấn mạnh ba vấn đề lớn nhất."
+- slug: findings-n
+  lemma: findings
+  pos: noun
+  cefr: C1
+  topic: workplace
+  ipa: "/ˈfaɪndɪŋz/"
+  def: "The information you discover after studying or testing something."
+  vi: "kết quả tìm hiểu, phát hiện"
+  forms: [finding]
+  examples:
+    - en: "The UX team will present their findings from the user tests."
+      vi: "Nhóm UX sẽ trình bày các phát hiện từ đợt thử nghiệm người dùng."
+- slug: recommendation-n
+  lemma: recommendation
+  pos: noun
+  cefr: B2
+  topic: workplace
+  ipa: "/ˌrekəmenˈdeɪʃn/"
+  def: "Advice about what someone should do."
+  vi: "khuyến nghị, lời đề xuất"
+  forms: [recommendations, recommend, recommended]
+  examples:
+    - en: "Our main recommendation is to move the images to a CDN."
+      vi: "Khuyến nghị chính của bọn mình là chuyển ảnh sang CDN."
+- slug: bullet-point-n
+  lemma: bullet point
+  pos: noun
+  kind: collocation
+  cefr: B2
+  topic: workplace
+  ipa: "/ˈbʊlɪt ˌpɔɪnt/"
+  def: "A short line in a list that starts with a small dot."
+  vi: "gạch đầu dòng"
+  forms: [bullet points, bullets]
+  examples:
+    - en: "Put the next steps in bullet points so they're easy to read."
+      vi: "Hãy ghi các bước tiếp theo bằng gạch đầu dòng cho dễ đọc."
+- slug: appendix-n
+  lemma: appendix
+  pos: noun
+  cefr: C1
+  topic: workplace
+  ipa: "/əˈpendɪks/"
+  def: "An extra section at the end of a document with more details."
+  vi: "phụ lục"
+  forms: [appendices, appendixes]
+  examples:
+    - en: "You can find the full test data in the appendix."
+      vi: "Dữ liệu kiểm thử đầy đủ nằm ở phần phụ lục."
+- slug: submit-v
+  lemma: submit
+  pos: verb
+  cefr: B2
+  topic: workplace
+  ipa: "/səbˈmɪt/"
+  def: "To formally give a document or piece of work to someone so they can check it."
+  vi: "nộp (tài liệu, báo cáo)"
+  forms: [submits, submitted, submitting, submission]
+  examples:
+    - en: "Please submit your expense report by the 25th."
+      vi: "Mọi người nộp báo cáo chi phí trước ngày 25 nhé."
+# Set 10: career growth & soft skills
+- slug: soft-skills-n
+  lemma: soft skills
+  pos: noun
+  kind: collocation
+  cefr: B2
+  topic: workplace
+  ipa: "/ˈsɒft ˌskɪlz/"
+  def: "Personal skills like communication and teamwork, not technical knowledge."
+  vi: "kỹ năng mềm"
+  forms: [soft skill]
+  examples:
+    - en: "Good soft skills help you explain technical ideas to clients."
+      vi: "Kỹ năng mềm tốt giúp bạn giải thích ý tưởng kỹ thuật cho khách hàng."
+- slug: skill-set-n
+  lemma: skill set
+  pos: noun
+  kind: collocation
+  cefr: C1
+  topic: workplace
+  ipa: "/ˈskɪl ˌset/"
+  def: "All the skills and abilities that one person has."
+  vi: "bộ kỹ năng"
+  forms: [skill sets, skillset]
+  examples:
+    - en: "Her skill set includes Go, Kubernetes and team leadership."
+      vi: "Bộ kỹ năng của chị ấy gồm Go, Kubernetes và dẫn dắt nhóm."
+- slug: time-management-n
+  lemma: time management
+  pos: noun
+  kind: collocation
+  cefr: B2
+  topic: workplace
+  ipa: "/ˈtaɪm ˌmænɪdʒmənt/"
+  def: "The ability to plan and use your time well."
+  vi: "quản lý thời gian"
+  forms: [manage your time]
+  examples:
+    - en: "Time management is hard when you have meetings all day."
+      vi: "Quản lý thời gian rất khó khi bạn phải họp cả ngày."
+- slug: problem-solving-n
+  lemma: problem-solving
+  pos: noun
+  cefr: B2
+  topic: workplace
+  ipa: "/ˈprɒbləm ˌsɒlvɪŋ/"
+  def: "The process or skill of finding answers to difficult problems."
+  vi: "giải quyết vấn đề"
+  forms: [problem solving, solve problems, problem-solver]
+  examples:
+    - en: "This interview tests your problem-solving, not just your coding."
+      vi: "Buổi phỏng vấn này kiểm tra khả năng giải quyết vấn đề, không chỉ code."
+- slug: critical-thinking-n
+  lemma: critical thinking
+  pos: noun
+  kind: collocation
+  cefr: C1
+  topic: workplace
+  ipa: "/ˌkrɪtɪkl ˈθɪŋkɪŋ/"
+  def: "Thinking carefully about facts and ideas before you decide or believe something."
+  vi: "tư duy phản biện"
+  forms: [think critically]
+  examples:
+    - en: "Critical thinking helps you notice when the requirements don't make sense."
+      vi: "Tư duy phản biện giúp bạn nhận ra khi yêu cầu không hợp lý."
+- slug: adaptable-adj
+  lemma: adaptable
+  pos: adjective
+  cefr: B2
+  topic: workplace
+  ipa: "/əˈdæptəbl/"
+  def: "Able to change easily when the situation changes."
+  vi: "dễ thích nghi"
+  forms: [adapt, adapted, adaptability]
+  examples:
+    - en: "Startups need adaptable people because plans change every week."
+      vi: "Startup cần người dễ thích nghi vì kế hoạch thay đổi hằng tuần."
+- slug: proactive-adj
+  lemma: proactive
+  pos: adjective
+  cefr: C1
+  topic: workplace
+  ipa: "/ˌprəʊˈæktɪv/"
+  def: "Acting early to prevent problems instead of waiting for them to happen."
+  vi: "chủ động (phòng trước vấn đề)"
+  forms: [proactively]
+  examples:
+    - en: "Be proactive and tell the client about the risk before it becomes a problem."
+      vi: "Hãy chủ động báo khách về rủi ro trước khi nó thành vấn đề."
+- slug: reliable-adj
+  lemma: reliable
+  pos: adjective
+  cefr: B1
+  topic: workplace
+  ipa: "/rɪˈlaɪəbl/"
+  def: "Able to be trusted to do what is expected."
+  vi: "đáng tin cậy"
+  forms: [reliability, reliably]
+  examples:
+    - en: "Phuong is very reliable; if she says Friday, it's done by Friday."
+      vi: "Phương rất đáng tin cậy, đã hứa thứ Sáu là thứ Sáu xong."
+- slug: attention-to-detail-n
+  lemma: attention to detail
+  pos: noun
+  kind: collocation
+  cefr: B2
+  topic: workplace
+  ipa: "/əˌtenʃn tə ˈdiːteɪl/"
+  def: "Care in noticing and checking small things."
+  vi: "sự tỉ mỉ, chú ý tiểu tiết"
+  examples:
+    - en: "QA work needs great attention to detail."
+      vi: "Công việc QA đòi hỏi sự tỉ mỉ rất cao."
+- slug: go-the-extra-mile-phr
+  lemma: go the extra mile
+  pos: phrase
+  kind: phrase
+  cefr: C1
+  topic: workplace
+  ipa: "/ˌɡəʊ ði ˌekstrə ˈmaɪl/"
+  def: "To do more than people expect from you."
+  vi: "nỗ lực vượt mức mong đợi"
+  forms: [went the extra mile, going the extra mile, goes the extra mile]
+  examples:
+    - en: "He went the extra mile and wrote a guide for new users."
+      vi: "Anh ấy làm hơn cả mong đợi và viết luôn hướng dẫn cho người dùng mới."
+- slug: take-the-initiative-phr
+  lemma: take the initiative
+  pos: phrase
+  kind: collocation
+  cefr: C1
+  topic: workplace
+  ipa: "/ˌteɪk ði ɪˈnɪʃətɪv/"
+  def: "To be the first to act or start something without being asked."
+  vi: "tự khởi xướng, đi đầu làm"
+  forms: [took the initiative, taking the initiative, takes the initiative]
+  examples:
+    - en: "Nobody asked her, but she took the initiative and fixed the build script."
+      vi: "Không ai nhờ, nhưng cô ấy tự đứng ra sửa script build."
+- slug: comfort-zone-n
+  lemma: comfort zone
+  pos: noun
+  kind: collocation
+  cefr: B2
+  topic: workplace
+  ipa: "/ˈkʌmfət ˌzəʊn/"
+  def: "A situation where you feel safe because you know it well."
+  vi: "vùng an toàn"
+  forms: [comfort zones, out of your comfort zone]
+  examples:
+    - en: "Giving a talk in English took me out of my comfort zone."
+      vi: "Thuyết trình bằng tiếng Anh đã kéo mình ra khỏi vùng an toàn."
+- slug: learning-curve-n
+  lemma: learning curve
+  pos: noun
+  kind: collocation
+  cefr: C1
+  topic: workplace
+  ipa: "/ˈlɜːnɪŋ ˌkɜːv/"
+  def: "How fast or slowly someone can learn something new."
+  vi: "mức độ khó khi bắt đầu học (cái mới)"
+  forms: [learning curves, steep learning curve]
+  examples:
+    - en: "Rust has a steep learning curve, but it's worth it."
+      vi: "Rust khá khó học lúc đầu, nhưng rất đáng công."
+- slug: upskill-workplace-v
+  lemma: upskill
+  pos: verb
+  cefr: C1
+  topic: workplace
+  ipa: "/ˈʌpskɪl/"
+  def: "To learn new skills, or to teach workers new skills, for a job."
+  vi: "nâng cao kỹ năng"
+  forms: [upskills, upskilled, upskilling]
+  examples:
+    - en: "The company pays for courses to upskill its testers in automation."
+      vi: "Công ty trả tiền khoá học để nâng cao kỹ năng tự động hoá cho tester."
+- slug: climb-the-career-ladder-phr
+  lemma: climb the career ladder
+  pos: phrase
+  kind: phrase
+  cefr: C1
+  topic: workplace
+  ipa: "/ˌklaɪm ðə kəˈrɪə ˌlædə/"
+  def: "To move up to higher and better jobs over time."
+  vi: "thăng tiến trên nấc thang sự nghiệp"
+  forms: [climbing the career ladder, climbed the career ladder, climbs the career ladder]
+  examples:
+    - en: "Not everyone wants to climb the career ladder; some prefer to stay hands-on."
+      vi: "Không phải ai cũng muốn leo nấc thang sự nghiệp, có người thích làm kỹ thuật trực tiếp."
+- slug: switch-careers-phr
+  lemma: switch careers
+  pos: phrase
+  kind: collocation
+  cefr: B2
+  topic: workplace
+  ipa: "/ˌswɪtʃ kəˈrɪəz/"
+  def: "To leave one type of work and start a different one."
+  vi: "chuyển ngành, đổi nghề"
+  forms: [switched careers, switching careers, switches careers, career change]
+  examples:
+    - en: "Hung switched careers from banking to software at thirty."
+      vi: "Hùng chuyển từ ngân hàng sang ngành phần mềm năm ba mươi tuổi."
+- slug: networking-n
+  lemma: networking
+  pos: noun
+  cefr: B2
+  topic: workplace
+  ipa: "/ˈnetwɜːkɪŋ/"
+  def: "Meeting people in your field who may help your career."
+  vi: "xây dựng mối quan hệ (nghề nghiệp)"
+  forms: [network, networked]
+  examples:
+    - en: "Tech meetups are great for networking with other developers."
+      vi: "Các buổi meetup công nghệ rất hợp để làm quen, kết nối với các developer khác."
+- slug: portfolio-n
+  lemma: portfolio
+  pos: noun
+  cefr: B2
+  topic: workplace
+  ipa: "/pɔːtˈfəʊliəʊ/"
+  def: "A collection of your best work that you show to employers or clients."
+  vi: "hồ sơ năng lực, portfolio"
+  forms: [portfolios]
+  examples:
+    - en: "Add your side projects to your portfolio."
+      vi: "Hãy thêm các dự án cá nhân vào portfolio của bạn."
+- slug: certification-n
+  lemma: certification
+  pos: noun
+  cefr: B2
+  topic: workplace
+  ipa: "/ˌsɜːtɪfɪˈkeɪʃn/"
+  def: "An official document that shows you passed an exam or course."
+  vi: "chứng chỉ"
+  forms: [certifications, certificate, certified]
+  examples:
+    - en: "He got an AWS certification last year."
+      vi: "Năm ngoái anh ấy lấy được chứng chỉ AWS."
+- slug: constructive-criticism-n
+  lemma: constructive criticism
+  pos: noun
+  kind: collocation
+  cefr: C1
+  topic: workplace
+  ipa: "/kənˌstrʌktɪv ˈkrɪtɪsɪzəm/"
+  def: "Comments about what is wrong that are meant to help you improve."
+  vi: "góp ý mang tính xây dựng"
+  examples:
+    - en: "I welcome constructive criticism on my code."
+      vi: "Mình luôn sẵn lòng đón nhận góp ý mang tính xây dựng về code của mình."
+- slug: self-motivated-adj
+  lemma: self-motivated
+  pos: adjective
+  cefr: C1
+  topic: workplace
+  ipa: "/ˌself ˈməʊtɪveɪtɪd/"
+  def: "Able to work hard without other people pushing you."
+  vi: "tự giác, có động lực tự thân"
+  forms: [self-motivation]
+  examples:
+    - en: "Remote jobs need self-motivated people."
+      vi: "Công việc từ xa cần những người tự giác."
+- slug: work-ethic-n
+  lemma: work ethic
+  pos: noun
+  kind: collocation
+  cefr: C1
+  topic: workplace
+  ipa: "/ˈwɜːk ˌeθɪk/"
+  def: "A belief that working hard and doing your job well is important."
+  vi: "đạo đức nghề nghiệp, tinh thần làm việc"
+  forms: [strong work ethic]
+  examples:
+    - en: "She has a strong work ethic and never leaves a task half done."
+      vi: "Cô ấy có tinh thần làm việc nghiêm túc, chẳng bao giờ bỏ dở việc."
+- slug: strengths-n
+  lemma: strengths
+  pos: noun
+  cefr: B1
+  topic: workplace
+  ipa: "/streŋθs/"
+  def: "The things that you are good at."
+  vi: "điểm mạnh"
+  forms: [strength]
+  examples:
+    - en: "In the interview, they asked about my strengths."
+      vi: "Trong buổi phỏng vấn, họ hỏi về điểm mạnh của mình."
+- slug: weaknesses-n
+  lemma: weaknesses
+  pos: noun
+  cefr: B1
+  topic: workplace
+  ipa: "/ˈwiːknəsɪz/"
+  def: "The things that you are not good at and need to improve."
+  vi: "điểm yếu"
+  forms: [weakness]
+  examples:
+    - en: "One of my weaknesses is public speaking, so I'm practising."
+      vi: "Một điểm yếu của mình là nói trước đám đông nên mình đang luyện tập."
+- slug: achievement-n
+  lemma: achievement
+  pos: noun
+  cefr: B1
+  topic: workplace
+  ipa: "/əˈtʃiːvmənt/"
+  def: "Something good that you did after a lot of effort."
+  vi: "thành tích, thành tựu"
+  forms: [achievements, achieve, achieved]
+  examples:
+    - en: "List your achievements on your CV, not just your duties."
+      vi: "Hãy liệt kê thành tích trong CV chứ không chỉ nhiệm vụ."
+- slug: long-term-goal-n
+  lemma: long-term goal
+  pos: noun
+  kind: collocation
+  cefr: B2
+  topic: workplace
+  ipa: "/ˌlɒŋ tɜːm ˈɡəʊl/"
+  def: "Something you want to achieve far in the future."
+  vi: "mục tiêu dài hạn"
+  forms: [long-term goals, short-term goal]
+  examples:
+    - en: "My long-term goal is to become a solution architect."
+      vi: "Mục tiêu dài hạn của mình là trở thành kiến trúc sư giải pháp."
+- slug: work-under-pressure-phr
+  lemma: work under pressure
+  pos: phrase
+  kind: collocation
+  cefr: B2
+  topic: workplace
+  ipa: "/ˌwɜːk ˌʌndə ˈpreʃə/"
+  def: "To do your job well even when there is little time or a lot of stress."
+  vi: "làm việc dưới áp lực"
+  forms: [working under pressure, worked under pressure, works under pressure]
+  examples:
+    - en: "On-call engineers must be able to work under pressure."
+      vi: "Kỹ sư trực sự cố phải làm việc được dưới áp lực."
+- slug: meet-expectations-phr
+  lemma: meet expectations
+  pos: phrase
+  kind: collocation
+  cefr: B2
+  topic: workplace
+  ipa: "/ˌmiːt ˌekspekˈteɪʃnz/"
+  def: "To be as good as people hoped or wanted."
+  vi: "đáp ứng kỳ vọng"
+  forms: [met expectations, meets expectations, meeting expectations, exceed expectations]
+  examples:
+    - en: "His work meets expectations, but he could take on more."
+      vi: "Công việc của anh ấy đạt kỳ vọng, nhưng có thể nhận thêm việc."
+- slug: stand-out-phr
+  lemma: stand out
+  pos: phrasal_verb
+  kind: phrasal
+  cefr: B2
+  topic: workplace
+  ipa: "/ˌstænd ˈaʊt/"
+  def: "To be easy to notice because you are better or different."
+  vi: "nổi bật, gây chú ý"
+  forms: [stands out, stood out, standing out]
+  examples:
+    - en: "A good open-source project helps your CV stand out."
+      vi: "Một dự án mã nguồn mở tốt giúp CV của bạn nổi bật."
+- slug: build-rapport-phr
+  lemma: build rapport
+  pos: phrase
+  kind: collocation
+  cefr: C1
+  topic: workplace
+  ipa: "/ˌbɪld ræˈpɔː/"
+  def: "To create a friendly, trusting relationship with someone."
+  vi: "tạo thiện cảm, xây dựng sự gắn kết"
+  forms: [built rapport, building rapport, builds rapport]
+  examples:
+    - en: "Small talk at the start of a call helps build rapport with clients."
+      vi: "Nói chuyện xã giao đầu cuộc gọi giúp tạo thiện cảm với khách hàng."
+- slug: keep-up-with-workplace-phr
+  lemma: keep up with
+  pos: phrasal_verb
+  kind: phrasal
+  cefr: B2
+  topic: workplace
+  ipa: "/ˌkiːp ˈʌp wɪð/"
+  def: "To learn about new things so you do not fall out of date."
+  vi: "theo kịp, cập nhật (cái mới)"
+  forms: [keeps up with, kept up with, keeping up with]
+  examples:
+    - en: "I read tech blogs to keep up with new frameworks."
+      vi: "Mình đọc blog công nghệ để cập nhật các framework mới."
+- slug: pick-up-a-skill-phr
+  lemma: pick up
+  pos: phrasal_verb
+  kind: phrasal
+  cefr: B2
+  topic: workplace
+  ipa: "/ˌpɪk ˈʌp/"
+  def: "To learn a skill or language without much formal study."
+  vi: "học lỏm, học được (kỹ năng) một cách tự nhiên"
+  forms: [picks up, picked up, picking up]
+  examples:
+    - en: "I picked up some Japanese while working with the Osaka team."
+      vi: "Mình học được ít tiếng Nhật khi làm với team Osaka."
+- slug: get-ahead-phr
+  lemma: get ahead
+  pos: phrasal_verb
+  kind: phrasal
+  cefr: B2
+  topic: workplace
+  ipa: "/ˌɡet əˈhed/"
+  def: "To be successful and do better than others in your work."
+  vi: "vươn lên, tiến xa (trong sự nghiệp)"
+  forms: [gets ahead, got ahead, getting ahead]
+  examples:
+    - en: "In this industry, good English really helps you get ahead."
+      vi: "Trong ngành này, tiếng Anh tốt thật sự giúp bạn tiến xa."
+- slug: transferable-skills-n
+  lemma: transferable skills
+  pos: noun
+  kind: collocation
+  cefr: C1
+  topic: workplace
+  ipa: "/trænsˌfɜːrəbl ˈskɪlz/"
+  def: "Skills from one job that are also useful in a different job."
+  vi: "kỹ năng chuyển đổi được (dùng được ở nhiều nghề)"
+  forms: [transferable skill]
+  examples:
+    - en: "Teaching gave me transferable skills like explaining things clearly."
+      vi: "Nghề dạy học cho mình những kỹ năng dùng được ở nghề khác, như giải thích rõ ràng."
+- slug: resilient-adj
+  lemma: resilient
+  pos: adjective
+  cefr: C1
+  topic: workplace
+  ipa: "/rɪˈzɪliənt/"
+  def: "Able to feel better and keep going quickly after something bad happens."
+  vi: "kiên cường, mau phục hồi tinh thần"
+  forms: [resilience]
+  examples:
+    - en: "You need to be resilient when your startup idea fails."
+      vi: "Bạn cần kiên cường khi ý tưởng startup thất bại."
+- slug: assertive-adj
+  lemma: assertive
+  pos: adjective
+  cefr: C1
+  topic: workplace
+  ipa: "/əˈsɜːtɪv/"
+  def: "Saying what you think or want clearly and confidently, but politely."
+  vi: "quyết đoán, dám nói thẳng (một cách lịch sự)"
+  forms: [assertiveness, assertively]
+  examples:
+    - en: "Be assertive and say no when the scope keeps growing."
+      vi: "Hãy quyết đoán nói không khi phạm vi công việc cứ phình ra."

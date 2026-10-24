@@ -14,6 +14,7 @@ import type {
   MistakeItem,
   NextUp,
   TaskResult,
+  TrackSummary,
 } from "@/lib/contracts/learn";
 import { localDate } from "@/lib/time";
 import {
@@ -21,6 +22,7 @@ import {
   findLesson,
   findUnit,
   placementUnit,
+  trackNext,
   type LearnerProgress,
   type LessonRow,
   type PathStage,
@@ -45,6 +47,14 @@ export class LearnError extends Error {
 }
 
 const TEST_OUT_SIZE = 8;
+/** Study tracks test like ForumFlash: 16 questions, and a passed level test-out pays 120 XP. */
+const TRACK_TEST_OUT_SIZE = 16;
+const TEST_OUT_XP = 120;
+
+/** Shuffle within ForumFlash's difficulty bands (questions 1–5, 6–10, 11+), keeping band order. */
+function shuffleBands(ids: string[]) {
+  return [ids.slice(0, 5), ids.slice(5, 10), ids.slice(10)].flatMap(shuffle);
+}
 /** An unfinished run younger than this is resumed instead of starting a new one. */
 const RESUME_MS = 2 * 3600_000;
 
@@ -57,22 +67,45 @@ export async function loadPath(db: SupabaseClient, userId: string) {
     db
       .from("stages")
       .select(
-        "id, slug, sort, cefr, title_en, title_vi, tagline_vi, checkpoint_size, checkpoint_pass_pct",
+        "id, slug, sort, track, cefr, title_en, title_vi, tagline_vi, checkpoint_size, checkpoint_pass_pct",
       ),
     db
       .from("units")
       .select(
         "id, stage_id, slug, sort, code, kind, cefr, character, title_en, title_vi, summary_vi, can_do, status",
       ),
-    db.from("lessons").select("id, unit_id, slug, sort, kind, title_en, title_vi, est_minutes, xp"),
-    db.from("user_lesson_progress").select("lesson_id, stars, completed_at").eq("user_id", userId),
+    db
+      .from("lessons")
+      .select(
+        "id, unit_id, slug, sort, kind, title_en, title_vi, est_minutes, xp, question_count, group:body->grammar->>group, senses:body->senses",
+      ),
+    db
+      .from("user_lesson_progress")
+      .select(
+        "lesson_id, stars, completed_at, attempts, best_pct, last_pct, last_correct, last_total, last_at",
+      )
+      .eq("user_id", userId),
     db.from("user_unit_progress").select("unit_id, via").eq("user_id", userId),
     db.from("certificates").select("id, stage_id, score_pct").eq("user_id", userId),
   ]);
   for (const r of [stages, units, lessons, lp, up, certs]) if (r.error) throw r.error;
   const progress: LearnerProgress = {
     lessons: new Map(
-      (lp.data ?? []).map((p) => [p.lesson_id, { stars: p.stars, completed: !!p.completed_at }]),
+      (lp.data ?? []).map((p) => [
+        p.lesson_id,
+        {
+          stars: p.stars,
+          completed: !!p.completed_at,
+          history: {
+            attempts: p.attempts,
+            bestPct: p.best_pct,
+            lastPct: p.last_pct,
+            lastCorrect: p.last_correct,
+            lastTotal: p.last_total,
+            lastAt: p.last_at,
+          },
+        },
+      ]),
     ),
     units: new Map((up.data ?? []).map((u) => [u.unit_id, u.via])),
     certificates: new Map(
@@ -141,7 +174,34 @@ export async function home(db: SupabaseClient, userId: string, isGuest: boolean)
   const last = p.streak_last_date as string | null;
   const alive =
     last === today || last === yesterday || (last === twoDaysAgo && p.streak_freezes > 0);
-  const units = path.stages.flatMap((s) => s.units).filter((u) => u.state !== "coming_soon");
+  const units = path.stages
+    .filter((s) => s.track === "career")
+    .flatMap((s) => s.units)
+    .filter((u) => u.state !== "coming_soon");
+  const tracks = path.stages
+    .filter((s) => s.track !== "career")
+    .map((s): TrackSummary => {
+      const lessons = s.units.filter((u) => u.state !== "coming_soon").flatMap((u) => u.lessons);
+      return {
+        track: s.track as TrackSummary["track"],
+        stageId: s.id,
+        title: s.title,
+        tagline: s.tagline,
+        units: s.units.length,
+        lessons: {
+          done: lessons.filter((l) => l.state === "completed").length,
+          total: lessons.length,
+        },
+        next: describeNext(path.stages, trackNext(s)),
+      };
+    });
+  const published = path.stages
+    .flatMap((s) => s.units.map((u) => ({ track: s.track, u })))
+    .filter(({ u }) => u.state !== "coming_soon");
+  // Every lesson's first-pass XP, plus each grammar level's test-out bonus.
+  const maxXp =
+    published.flatMap(({ u }) => u.lessons).reduce((n, l) => n + l.xp, 0) +
+    published.filter(({ track }) => track === "grammar").length * TEST_OUT_XP;
   return {
     me: {
       displayName: p.display_name,
@@ -157,11 +217,24 @@ export async function home(db: SupabaseClient, userId: string, isGuest: boolean)
     next: describeNext(path.stages, path.next),
     srsDue: due ?? 0,
     overall: { done: units.filter((u) => u.state === "completed").length, total: units.length },
+    tracks,
+    growth: { xp: p.xp_total, max: maxXp },
   };
 }
 
-export async function nextUp(db: SupabaseClient, userId: string) {
+/** What to do next: along the career path, or within the study track of the given lesson/unit. */
+export async function nextUp(
+  db: SupabaseClient,
+  userId: string,
+  from: { lessonId?: number; unitId?: number } = {},
+) {
   const path = await loadPath(db, userId);
+  const stage = from.lessonId
+    ? findLesson(path.stages, from.lessonId)?.stage
+    : from.unitId
+      ? findUnit(path.stages, from.unitId)?.stage
+      : undefined;
+  if (stage && stage.track !== "career") return describeNext(path.stages, trackNext(stage));
   return describeNext(path.stages, path.next);
 }
 
@@ -184,7 +257,7 @@ export async function lessonView(
   const { stage, unit, lesson } = await openLesson(db, userId, lessonId);
   const { data: row, error } = await db
     .from("lessons")
-    .select("kind, body, question_count")
+    .select("kind, body, question_count, pass_pct")
     .eq("id", lessonId)
     .single();
   if (error) throw error;
@@ -197,6 +270,9 @@ export async function lessonView(
       content = { kind: "vocab", words: slugs.map((s) => g[s]).filter((w) => !!w) };
       break;
     }
+    case "grammar":
+      content = { kind: "grammar", grammar: body.grammar as never };
+      break;
     case "focus":
       content = {
         kind: "focus",
@@ -249,10 +325,11 @@ export async function lessonView(
     minutes: lesson.minutes,
     xp: lesson.xp,
     questionCount: row.question_count,
+    passPct: row.pass_pct,
     stars: lesson.stars,
     completed: lesson.state === "completed",
     unit: { id: unit.id, code: unit.code, title: unit.title, character: unit.character },
-    stage: { id: stage.id, title: stage.title },
+    stage: { id: stage.id, title: stage.title, track: stage.track },
     index: unit.lessons.findIndex((l) => l.id === lesson.id) + 1,
     total: unit.lessons.length,
     content,
@@ -265,7 +342,8 @@ export async function startLesson(
   userId: string,
   lessonId: number,
 ): Promise<LessonStart> {
-  await openLesson(db, userId, lessonId);
+  const { stage } = await openLesson(db, userId, lessonId);
+  const track = stage.track !== "career";
   const { data: l, error } = await db
     .from("lessons")
     .select("id, kind, body, question_count, dialogue_id")
@@ -303,12 +381,17 @@ export async function startLesson(
       .order("sort");
     if (qErr) throw qErr;
     const ids = (qs ?? []).map((q) => q.question_id as string);
-    const picked = ids.length > l.question_count ? shuffle(ids).slice(0, l.question_count) : ids;
+    const picked = track
+      ? shuffleBands(ids)
+      : ids.length > l.question_count
+        ? shuffle(ids).slice(0, l.question_count)
+        : ids;
     if (!picked.length) throw new LearnError("EMPTY", "This lesson has no questions yet");
     const s = await createSession(db, userId, {
       kind: "lesson",
       ref: `lesson:${lessonId}`,
       questionIds: picked,
+      strict: track,
     });
     sessionId = s.id;
   }
@@ -386,6 +469,12 @@ export async function completeLesson(
   userId: string,
   runId: string,
 ): Promise<LessonResult> {
+  const { data: run } = await db
+    .from("lesson_runs")
+    .select("lesson_id")
+    .eq("id", runId)
+    .eq("user_id", userId)
+    .maybeSingle();
   const { data, error } = await db.rpc("svc_complete_lesson", { p_user: userId, p_run: runId });
   if (error) {
     if (error.code === "P0002") throw new LearnError("NOT_FOUND", "Lesson run not found");
@@ -404,6 +493,8 @@ export async function completeLesson(
     xp: number;
     first: boolean;
     unit_completed: boolean;
+    correct: number | null;
+    total: number | null;
     award: {
       xp_total: number;
       streak: number;
@@ -419,6 +510,8 @@ export async function completeLesson(
     xp: r.xp,
     first: r.first,
     unitCompleted: r.unit_completed,
+    correct: r.correct,
+    total: r.total,
     totals: r.award
       ? {
           xpTotal: r.award.xp_total,
@@ -428,7 +521,7 @@ export async function completeLesson(
           goalMetNow: r.award.goal_met_now,
         }
       : null,
-    next: await nextUp(db, userId),
+    next: await nextUp(db, userId, { lessonId: run?.lesson_id }),
   };
 }
 
@@ -469,15 +562,22 @@ export async function startTestOut(
   const path = await loadPath(db, userId);
   const found = findUnit(path.stages, unitId);
   if (!found) throw new LearnError("NOT_FOUND", "Unit not found");
-  if (found.unit.state === "completed") throw new LearnError("ALREADY_DONE", "Unit already done");
-  if (found.unit.state !== "available" && found.unit.state !== "in_progress")
+  const track = found.stage.track !== "career";
+  // A study-track level test can be retaken after passing (it pays again), as on ForumFlash.
+  if (found.unit.state === "completed" && !track)
+    throw new LearnError("ALREADY_DONE", "Unit already done");
+  if (found.unit.state === "locked" || found.unit.state === "coming_soon")
     throw new LearnError("LOCKED", "This unit is not open yet");
-  const ids = mixedSample(await unitQuestionPool(db, [unitId]), TEST_OUT_SIZE);
+  const ids = mixedSample(
+    await unitQuestionPool(db, [unitId]),
+    track ? TRACK_TEST_OUT_SIZE : TEST_OUT_SIZE,
+  );
   if (ids.length < 4) throw new LearnError("EMPTY", "Not enough questions to test out yet");
   const s = await createSession(db, userId, {
     kind: "test_out",
     ref: `unit:${unitId}`,
     questionIds: ids,
+    strict: track,
   });
   return { sessionId: s.id, total: s.planned_count, passPct: 80 };
 }
@@ -488,7 +588,14 @@ export async function finishTestOut(
   sessionId: string,
 ): Promise<ExamResult> {
   const r = await examRpc(db, "svc_test_out_unit", userId, sessionId);
-  return { passed: r.passed, pct: r.pct, next: await nextUp(db, userId) };
+  return {
+    passed: r.passed,
+    pct: r.pct,
+    xp: r.xp ?? 0,
+    correct: r.correct,
+    total: r.total,
+    next: await nextUp(db, userId, { unitId: r.unit_id }),
+  };
 }
 
 export async function startCheckpoint(
@@ -537,7 +644,15 @@ async function examRpc(db: SupabaseClient, fn: string, userId: string, sessionId
       throw new LearnError("QUIZ_NOT_FINISHED", "Finish all questions first");
     throw error;
   }
-  return data as { passed: boolean; pct: number; certificate_id?: string | null };
+  return data as {
+    passed: boolean;
+    pct: number;
+    unit_id?: number;
+    xp?: number;
+    correct?: number;
+    total?: number;
+    certificate_id?: string | null;
+  };
 }
 
 // ----- placement (once, at onboarding) -----

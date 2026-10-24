@@ -1,7 +1,7 @@
 import "server-only";
 import type { SupabaseClient } from "@supabase/supabase-js";
 import { buildClientPrompt, type ClientPrompt } from "./deliver";
-import { grade, revealAnswer } from "./grade";
+import { grade, revealAnswer, timeLimitSec } from "./grade";
 import type { QuizResponse, StoredAnswer, StoredPrompt } from "./types";
 
 const DELIVERY_TTL_MS = 10 * 60_000;
@@ -20,11 +20,21 @@ export class QuizError extends Error {
 export type SessionKind =
   "npc" | "practice" | "review_verify" | "placement" | "lesson" | "checkpoint" | "test_out";
 
+/** Network slack before a late answer counts as a timeout. */
+const TIME_GRACE_MS = 3000;
+
 /** Create a quiz session over explicit question ids (lessons, dialogue quiz nodes, exams). */
 export async function createSession(
   db: SupabaseClient,
   userId: string,
-  opts: { kind: SessionKind; npcId?: string; ref?: string; questionIds: string[] },
+  opts: {
+    kind: SessionKind;
+    npcId?: string;
+    ref?: string;
+    questionIds: string[];
+    /** Exam mode (study tracks): one answer per question, each against the clock. */
+    strict?: boolean;
+  },
 ) {
   if (!opts.questionIds.length) throw new QuizError("EMPTY", "No questions available");
   const { data, error } = await db
@@ -36,6 +46,8 @@ export async function createSession(
       ref: opts.ref ?? null,
       question_ids: opts.questionIds,
       planned_count: opts.questionIds.length,
+      max_attempts: opts.strict ? 1 : 2,
+      time_limited: !!opts.strict,
     })
     .select("id, planned_count")
     .single();
@@ -95,6 +107,9 @@ export interface DeliveryView {
   prompt: ClientPrompt;
   hasHint: boolean;
   expiresAt: string;
+  /** Timed sessions: when this question times out. */
+  deadline: string | null;
+  timeLimitSec: number | null;
 }
 
 /** Next question of a session. Re-requesting returns the same pending delivery (no reshuffle). */
@@ -105,7 +120,9 @@ export async function nextDelivery(
 ): Promise<DeliveryView | { done: true; answered: number; correct: number; total: number }> {
   const { data: session, error } = await db
     .from("quiz_sessions")
-    .select("id, question_ids, planned_count, answered_count, correct_count, finished_at")
+    .select(
+      "id, question_ids, planned_count, answered_count, correct_count, finished_at, time_limited",
+    )
     .eq("id", sessionId)
     .eq("user_id", userId)
     .maybeSingle();
@@ -122,7 +139,9 @@ export async function nextDelivery(
 
   const { data: pending } = await db
     .from("question_deliveries")
-    .select("id, question_id, client_prompt, expires_at, question_versions(hint_vi, prompt)")
+    .select(
+      "id, question_id, client_prompt, expires_at, served_at, question_versions(hint_vi, prompt)",
+    )
     .eq("session_id", sessionId)
     .is("answered_at", null)
     .gt("expires_at", new Date().toISOString())
@@ -142,6 +161,7 @@ export async function nextDelivery(
       prompt: pending.client_prompt as ClientPrompt,
       hasHint: !!v.hint_vi,
       expiresAt: pending.expires_at,
+      ...timing(session.time_limited, v.prompt, pending.served_at),
     };
   }
 
@@ -178,7 +198,12 @@ export async function nextDelivery(
     prompt: StoredPrompt;
     hint_vi: string | null;
   };
-  const { client, optionMap } = buildClientPrompt(version.prompt);
+  const { client, optionMap } = buildClientPrompt(
+    version.prompt,
+    undefined,
+    undefined,
+    session.time_limited,
+  );
   const expiresAt = new Date(Date.now() + DELIVERY_TTL_MS).toISOString();
   const { data: d, error: dErr } = await db
     .from("question_deliveries")
@@ -191,7 +216,7 @@ export async function nextDelivery(
       client_prompt: client,
       expires_at: expiresAt,
     })
-    .select("id")
+    .select("id, served_at")
     .single();
   if (dErr) throw dErr;
   return {
@@ -202,14 +227,21 @@ export async function nextDelivery(
     prompt: client,
     hasHint: !!version.hint_vi,
     expiresAt,
+    ...timing(session.time_limited, version.prompt, d.served_at),
   };
+}
+
+function timing(timed: boolean, prompt: StoredPrompt, servedAt: string) {
+  if (!timed) return { deadline: null, timeLimitSec: null };
+  const sec = timeLimitSec(prompt);
+  return { deadline: new Date(Date.parse(servedAt) + sec * 1000).toISOString(), timeLimitSec: sec };
 }
 
 async function loadDelivery(db: SupabaseClient, userId: string, deliveryId: string) {
   const { data, error } = await db
     .from("question_deliveries")
     .select(
-      "id, user_id, option_map, answered_at, attempts, question_versions(prompt, answer, hint_vi, explanation_vi, explanation_en)",
+      "id, user_id, option_map, answered_at, attempts, served_at, quiz_sessions(max_attempts, time_limited), question_versions(prompt, answer, hint_vi, explanation_vi, explanation_en)",
     )
     .eq("id", deliveryId)
     .maybeSingle();
@@ -220,6 +252,8 @@ async function loadDelivery(db: SupabaseClient, userId: string, deliveryId: stri
     option_map: Record<string, string>;
     answered_at: string | null;
     attempts: number;
+    served_at: string;
+    quiz_sessions: { max_attempts: number; time_limited: boolean } | null;
     question_versions: {
       prompt: StoredPrompt;
       answer: StoredAnswer;
@@ -239,13 +273,19 @@ export async function submitAnswer(
   const d = await loadDelivery(db, userId, deliveryId);
   if (d.answered_at) throw new QuizError("ALREADY_ANSWERED", "Already answered");
   const v = d.question_versions;
-  const correct = grade(v.prompt, v.answer, response, d.option_map);
+  const s = d.quiz_sessions;
+  // A timed question answered after its deadline counts as wrong, whatever was sent.
+  const late =
+    !!s?.time_limited &&
+    Date.now() > Date.parse(d.served_at) + timeLimitSec(v.prompt) * 1000 + TIME_GRACE_MS;
+  const correct = !late && grade(v.prompt, v.answer, response, d.option_map);
 
   const { data, error } = await db.rpc("svc_record_attempt", {
     p_delivery: deliveryId,
     p_user: userId,
     p_response: response,
     p_is_correct: correct,
+    p_max_attempts: s?.max_attempts ?? 2,
   });
   if (error) {
     if (error.hint === "ALREADY_ANSWERED")

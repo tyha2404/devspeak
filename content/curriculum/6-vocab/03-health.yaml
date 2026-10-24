@@ -1,0 +1,284 @@
+slug: topic-health
+stage: vocab
+sort: 3
+code: T03
+kind: topic
+cefr: A2
+character: linh
+status: published
+title: { en: "Health & Well-being", vi: "Sức khoẻ & cân bằng" }
+summary_vi: "Từ vựng về sức khoẻ của dân văn phòng: đau lưng, mỏi mắt, nghỉ ốm, căng thẳng, burnout và cân bằng cuộc sống."
+can_do:
+  - "Nói mình bị mệt, ốm hay đau ở đâu và xin nghỉ ốm"
+  - "Nói về căng thẳng, thói quen lành mạnh và cân bằng công việc – cuộc sống"
+lessons:
+  - slug: t03-l1
+    kind: vocab
+    title: { en: "Set 1: Body & daily habits", vi: "Bộ 1: Cơ thể & thói quen" }
+    senses:
+      [
+        headache-n,
+        back-pain-n,
+        eye-strain-n,
+        get-enough-sleep-phr,
+        stay-hydrated-phr,
+        work-out-phr,
+        take-a-break-phr,
+        posture-n,
+        sick-leave-n,
+        catch-a-cold-phr,
+      ]
+    questions: []
+  - slug: t03-l2
+    kind: vocab
+    title: { en: "Set 2: Stress & well-being", vi: "Bộ 2: Căng thẳng & cân bằng" }
+    senses:
+      [
+        burnout-n,
+        stressed-adj,
+        work-life-balance-n,
+        exhausted-adj,
+        recover-v,
+        wind-down-phr,
+        mental-health-n,
+        cut-down-on-phr,
+        check-up-n,
+        balanced-diet-n,
+        anxious-adj,
+        self-care-n,
+      ]
+    questions: []
+  - slug: t03-l3
+    kind: vocab
+    title: { en: "Set 3: At the doctor's", vi: "Bộ 3: Đi khám bệnh" }
+    senses:
+      [
+        symptom-n,
+        fever-n,
+        cough-n,
+        sore-throat-n,
+        prescription-n,
+        painkiller-n,
+        allergy-n,
+        appointment-n,
+        pharmacy-n,
+        injury-n,
+        dizzy-adj,
+        under-the-weather-phr,
+        side-effect-n,
+        health-insurance-n,
+      ]
+    questions: []
+  - slug: t03-l4
+    kind: vocab
+    title: { en: "Set 4: Illnesses & symptoms", vi: "Bộ 4: Bệnh & triệu chứng" }
+    senses:
+      [
+        runny-nose-n,
+        blocked-nose-n,
+        sneeze-v,
+        flu-n,
+        stomachache-n,
+        rash-n,
+        swollen-adj,
+        itchy-adj,
+        nauseous-adj,
+        throw-up-phr,
+        diarrhoea-n,
+        shiver-v,
+        high-blood-pressure-n,
+        infection-n,
+        come-down-with-phr,
+        run-a-temperature-phr,
+      ]
+    questions: []
+  - slug: t03-l5
+    kind: vocab
+    title: { en: "Set 5: Treatment & medicine", vi: "Bộ 5: Điều trị & thuốc men" }
+    senses:
+      [
+        treatment-n,
+        cure-v,
+        medication-n,
+        tablet-n,
+        dose-n,
+        antibiotic-n,
+        injection-n,
+        bandage-n,
+        ointment-n,
+        take-medicine-phr,
+        over-the-counter-adj,
+        get-over-phr,
+        heal-v,
+        recovery-n,
+        physiotherapy-n,
+        home-remedy-n,
+        relieve-v,
+        prescribe-v,
+      ]
+    questions: []
+  - slug: t03-l6
+    kind: vocab
+    title: { en: "Set 6: Fitness & exercise", vi: "Bộ 6: Thể lực & tập luyện" }
+    senses:
+      [
+        warm-up-phr,
+        stretch-v,
+        jog-v,
+        gym-membership-n,
+        muscle-n,
+        sore-adj,
+        in-shape-phr,
+        out-of-breath-phr,
+        push-up-n,
+        burn-calories-phr,
+        sedentary-adj,
+        fitness-tracker-n,
+        stamina-n,
+        personal-trainer-n,
+        lift-weights-phr,
+        pull-a-muscle-phr,
+        cardio-n,
+        flexibility-n,
+        sweat-v,
+        take-the-stairs-phr,
+      ]
+    questions: []
+  - slug: t03-l7
+    kind: vocab
+    title: { en: "Set 7: Diet & nutrition", vi: "Bộ 7: Ăn uống & dinh dưỡng" }
+    senses:
+      [
+        nutrition-n,
+        nutritious-adj,
+        protein-n,
+        vitamin-n,
+        fibre-n,
+        carbohydrate-n,
+        processed-food-n,
+        portion-size-n,
+        skip-a-meal-phr,
+        sugary-drink-n,
+        low-fat-adj,
+        go-on-a-diet-phr,
+        lose-weight-phr,
+        put-on-weight-phr,
+        overeat-v,
+        whole-grain-adj,
+        food-poisoning-n,
+        calorie-intake-n,
+        cut-out-health-phr,
+        deficiency-n,
+        supplement-n,
+        in-moderation-phr,
+      ]
+    questions: []
+  - slug: t03-l8
+    kind: vocab
+    title: { en: "Set 8: Mental health", vi: "Bộ 8: Sức khoẻ tinh thần" }
+    senses:
+      [
+        depression-n,
+        therapy-n,
+        therapist-n,
+        counselling-n,
+        panic-attack-n,
+        insomnia-n,
+        overwhelmed-adj,
+        cope-with-phr,
+        mood-swings-n,
+        mindfulness-n,
+        meditate-v,
+        open-up-phr,
+        reach-out-phr,
+        support-network-n,
+        stigma-n,
+        resilience-n,
+        take-a-toll-phr,
+        breakdown-n,
+        sleep-deprived-adj,
+        irritable-adj,
+        loneliness-n,
+        talk-through-phr,
+        well-being-n,
+        bounce-back-phr,
+      ]
+    questions: []
+  - slug: t03-l9
+    kind: vocab
+    title: { en: "Set 9: Hospitals & healthcare", vi: "Bộ 9: Bệnh viện & dịch vụ y tế" }
+    senses:
+      [
+        ambulance-n,
+        emergency-room-n,
+        ward-n,
+        nurse-n,
+        patient-n,
+        surgeon-n,
+        surgery-n,
+        clinic-n,
+        specialist-n,
+        general-practitioner-n,
+        see-a-doctor-phr,
+        diagnose-v,
+        diagnosis-n,
+        x-ray-n,
+        blood-test-n,
+        scan-n,
+        be-admitted-phr,
+        discharge-v,
+        waiting-room-n,
+        medical-record-n,
+        referral-n,
+        intensive-care-n,
+        first-aid-n,
+        stitches-n,
+        outpatient-n,
+        medical-bill-n,
+        consultation-n,
+        visiting-hours-n,
+      ]
+    questions: []
+  - slug: t03-l10
+    kind: vocab
+    title: { en: "Set 10: Public health & lifestyle", vi: "Bộ 10: Y tế cộng đồng & lối sống" }
+    senses:
+      [
+        vaccine-n,
+        get-vaccinated-phr,
+        epidemic-n,
+        outbreak-n,
+        contagious-adj,
+        spread-germs-phr,
+        hygiene-n,
+        wash-your-hands-phr,
+        face-mask-n,
+        quarantine-n,
+        immune-system-n,
+        life-expectancy-n,
+        obesity-n,
+        diabetes-n,
+        heart-disease-n,
+        cancer-n,
+        quit-smoking-phr,
+        secondhand-smoke-n,
+        hangover-n,
+        healthy-lifestyle-n,
+        prevention-n,
+        prevent-v,
+        risk-factor-n,
+        screening-n,
+        chronic-adj,
+        elderly-adj,
+        disability-n,
+        wheelchair-n,
+        pregnant-adj,
+        give-birth-phr,
+        organ-donor-n,
+        donate-blood-phr,
+        heatstroke-n,
+        dehydrated-adj,
+        sunscreen-n,
+        public-health-n,
+      ]
+    questions: []

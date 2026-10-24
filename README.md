@@ -11,7 +11,7 @@ corepack pnpm@10 install
 corepack pnpm@10 db:start          # cần Docker
 cp .env.example .env.local         # điền key in ra từ db:start
 corepack pnpm@10 seed:all          # tải dataset mở (NGSL, CEFR-J, Tatoeba) + nội dung & lộ trình tự viết
-corepack pnpm@10 dev               # http://localhost:3000 → /learn
+corepack pnpm@10 dev               # http://localhost:3000 (ngữ pháp & từ vựng), /career (lộ trình công việc)
 ```
 
 Mặc định `LLM_FAKE=1`: sinh nội dung và chat NPC chạy bằng LLM giả lập, không gọi API. Bật Claude thật: `LLM_FAKE=0`

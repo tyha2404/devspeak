@@ -11,14 +11,14 @@
 - [ ] Privacy policy and terms reviewed by counsel (PDPD, Decree 13/2023 + 2025 law); replace the placeholder contact email.
 - [ ] Load test on staging: `k6 run tests/load/k6.js` — p95 answer < 250 ms, error rate < 0.5%.
 - [ ] Real-device check: 60 fps desktop, ≥ 30 fps mid-range Android (e.g. Galaxy A54); touch controls.
-- [ ] Lighthouse on the landing page ≥ 90 (performance, SEO, accessibility).
+- [ ] Lighthouse on the home page (`/`) ≥ 90 (performance, SEO, accessibility).
 
 ## Launch day
 
 - [ ] Supabase PITR backups on; keys rotated from any used in testing.
 - [ ] Rate limits verified in production (answer 30/min, chat 6/min, quotas).
 - [ ] `AI_DAILY_BUDGET_USD` set; cost alert watched for the first week.
-- [ ] Sentry and PostHog keys set; funnel: landing → play → first answer → day-2 return.
+- [ ] Sentry and PostHog keys set; funnel: home → first lesson → first answer → day-2 return.
 - [ ] No open P0 bugs for one week of beta.
 
 ## Known limitations (tracked)

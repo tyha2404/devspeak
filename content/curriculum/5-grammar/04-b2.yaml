@@ -1,0 +1,2111 @@
+slug: grammar-b2
+stage: grammar
+sort: 4
+code: B2
+kind: grammar
+cefr: B2
+character: linh
+status: published
+title: { en: "Grammar B2", vi: "Ngữ pháp B2" }
+summary_vi: "Thì tương lai và quá khứ nâng cao, điều kiện loại 3, suy đoán và hối tiếc về quá khứ (must have, should have), bị động tường thuật và nhờ người khác làm (have something done), động từ tường thuật, mệnh đề quan hệ không xác định, mệnh đề phân từ, và các liên từ chỉ tương phản, mục đích để viết báo cáo và thảo luận chuyên nghiệp."
+can_do:
+  - "Viết báo cáo sự cố, tài liệu kỹ thuật với bị động tường thuật, mệnh đề quan hệ không xác định và mệnh đề phân từ"
+  - "Thuật lại ý kiến trong cuộc họp bằng động từ tường thuật và suy luận về nguyên nhân của việc đã xảy ra"
+  - "Nói về điều lẽ ra đã khác, điều mình hối tiếc và kế hoạch, dự đoán ở các mốc tương lai"
+  - "Nối ý mạch lạc bằng liên từ chỉ tương phản và mục đích"
+lessons:
+  - slug: g-b2-future-continuous
+    kind: grammar
+    title: { en: "Future continuous", vi: "Tương lai tiếp diễn" }
+    questions:
+      [
+        g-b2-future-continuous-1,
+        g-b2-future-continuous-2,
+        g-b2-future-continuous-3,
+        g-b2-future-continuous-4,
+        g-b2-future-continuous-5,
+        g-b2-future-continuous-6,
+        g-b2-future-continuous-7,
+        g-b2-future-continuous-8,
+      ]
+    grammar:
+      title_vi: "Thì tương lai tiếp diễn (will be + V-ing)"
+      group: "Thì động từ"
+      overview:
+        focus: "Will be + V-ing diễn tả một việc đang diễn ra tại một thời điểm cụ thể trong tương lai: “giờ này ngày mai mình đang…”. Nó cũng là cách hỏi lịch sự về kế hoạch của người khác (Will you be using…?) mà không nghe như đang nhờ vả hay ép buộc."
+        formulas:
+          - "S + will be + V-ing"
+          - "S + won't be + V-ing · Will + S + be + V-ing…?"
+          - "Mốc tương lai: this time tomorrow, at 3 pm tomorrow, next week…"
+        hook: "This time tomorrow, I'll be presenting to the board."
+      functions:
+        - title: "Đang diễn ra tại một mốc tương lai"
+          explain: "Hình dung mình đang ở giữa hành động vào lúc đó."
+          examples: ["At 9 am tomorrow, I'll be flying to Da Nang."]
+        - title: "Việc sẽ xảy ra theo lịch, như chuyện đương nhiên"
+          explain: "Không phải quyết định mới, chỉ là chuyện sẽ diễn ra theo thường lệ."
+          examples: ["I'll be seeing Minh at the stand-up, so I can tell him."]
+        - title: "Hỏi lịch sự về kế hoạch"
+          explain: "Will you be + V-ing…? nhẹ nhàng hơn Will you…? vì chỉ hỏi kế hoạch, chưa nhờ gì."
+          examples: ["Will you be using the meeting room this afternoon?"]
+      structure:
+        forms:
+          - {
+              label: "Khẳng định",
+              pattern: "S + will be + V-ing",
+              example: "We'll be testing the new build.",
+            }
+          - {
+              label: "Phủ định",
+              pattern: "S + won't be + V-ing",
+              example: "I won't be working on Friday.",
+            }
+          - {
+              label: "Nghi vấn",
+              pattern: "Will + S + be + V-ing…?",
+              example: "Will you be joining us for lunch?",
+            }
+        steps:
+          - title: "Có mốc thời gian tương lai cụ thể không?"
+            explain: "This time tomorrow, at 10 tonight, all weekend… cho biết hành động đang dở dang lúc đó."
+            example: "All weekend, the team will be migrating the database."
+          - title: "Giữ đủ ba phần: will + be + V-ing"
+            explain: "Không bỏ be, không dùng V nguyên mẫu sau be."
+            example: "I'll be waiting. (không phải I'll waiting / I'll be wait)"
+          - title: "Không dùng với động từ trạng thái"
+            explain: "Know, believe, own, need… dùng will + V."
+            example: "I'll know the result tomorrow."
+      examples:
+        - tag: "Mốc tương lai"
+          en: "At 10 tomorrow morning, I'll be presenting the demo to the client."
+          vi: "10 giờ sáng mai mình sẽ đang demo cho khách."
+          note: "Hành động đang diễn ra đúng lúc 10 giờ sáng mai."
+        - tag: "Đang bận"
+          en: "Don't call me at 3 pm. I'll be interviewing a candidate."
+          vi: "Đừng gọi mình lúc 3 giờ chiều nhé, lúc đó mình đang phỏng vấn ứng viên."
+          note: "Giải thích vì sao lúc đó không rảnh."
+        - tag: "Hỏi lịch sự"
+          en: "Will you be using the meeting room this afternoon?"
+          vi: "Chiều nay bạn có định dùng phòng họp không?"
+          note: "Hỏi kế hoạch một cách nhẹ nhàng, chưa nhờ gì."
+        - tag: "Hình dung"
+          en: "This time next week, we'll be relaxing in Da Lat."
+          vi: "Giờ này tuần sau tụi mình đang nghỉ ngơi ở Đà Lạt rồi."
+          note: "This time next week + will be V-ing."
+        - tag: "Kéo dài"
+          en: "The team will be working on the migration all weekend."
+          vi: "Cả team sẽ làm vụ migration suốt cuối tuần."
+          note: "All weekend: việc kéo dài suốt khoảng thời gian tương lai."
+        - tag: "Phủ định"
+          en: "I won't be joining the call because I'll be driving."
+          vi: "Mình sẽ không vào cuộc gọi được vì lúc đó mình đang lái xe."
+          note: "Won't be + V-ing; lý do cũng là việc đang diễn ra lúc đó."
+        - tag: "Trước khi nhờ"
+          en: "Will you be seeing Minh later? Could you give him this charger?"
+          vi: "Lát nữa bạn có gặp Minh không? Đưa giúp anh ấy cái sạc này nhé."
+          note: "Hỏi kế hoạch trước, rồi mới nhờ."
+        - tag: "Chờ sẵn"
+          en: "When you land, I'll be waiting outside with a sign."
+          vi: "Lúc bạn hạ cánh thì mình đã đứng đợi sẵn bên ngoài với tấm biển tên rồi."
+          note: "Việc chờ đã bắt đầu trước và đang diễn ra khi bạn hạ cánh."
+      contrast:
+        title: "Will + V hay will be + V-ing"
+        rows:
+          - {
+              label: "will + V",
+              note: "quyết định ngay lúc nói, lời hứa, dự đoán chung",
+              example: "I'll send it now.",
+            }
+          - {
+              label: "will be + V-ing",
+              note: "đang diễn ra tại một mốc tương lai",
+              example: "At noon, I'll be sending the newsletter.",
+            }
+          - {
+              label: "be going to / hiện tại tiếp diễn",
+              note: "kế hoạch đã sắp xếp",
+              example: "I'm meeting the client on Monday.",
+            }
+        fixes:
+          - {
+              wrong: "I will working late tonight.",
+              right: "I will be working late tonight.",
+              why: "Thiếu be: will + be + V-ing.",
+            }
+          - {
+              wrong: "Will you be use the projector?",
+              right: "Will you be using the projector?",
+              why: "Sau be phải là V-ing.",
+            }
+          - {
+              wrong: "I'll be knowing the result tomorrow.",
+              right: "I'll know the result tomorrow.",
+              why: "Know là động từ trạng thái, không dùng dạng tiếp diễn.",
+            }
+  - slug: g-b2-future-perfect
+    kind: grammar
+    title: { en: "Future perfect", vi: "Tương lai hoàn thành" }
+    questions:
+      [
+        g-b2-future-perfect-1,
+        g-b2-future-perfect-2,
+        g-b2-future-perfect-3,
+        g-b2-future-perfect-4,
+        g-b2-future-perfect-5,
+        g-b2-future-perfect-6,
+        g-b2-future-perfect-7,
+        g-b2-future-perfect-8,
+      ]
+    grammar:
+      title_vi: "Thì tương lai hoàn thành (will have + V3)"
+      group: "Thì động từ"
+      overview:
+        focus: "Will have + V3 nói rằng một việc sẽ xong trước (hoặc đúng vào) một mốc trong tương lai. Câu gần như luôn có by + mốc (by Friday, by the time…). Rất hay dùng khi cam kết tiến độ: “trước thứ Sáu sẽ xong”."
+        formulas:
+          - "S + will have + V3"
+          - "S + won't have + V3 · Will + S + have + V3…?"
+          - "By + mốc tương lai / By the time + S + V (hiện tại đơn)"
+        hook: "By Friday, we'll have fixed all the critical bugs."
+      functions:
+        - title: "Xong trước một mốc tương lai"
+          explain: "Nhấn vào kết quả đã hoàn tất khi tới mốc đó."
+          examples: ["By the end of the sprint, we'll have shipped the new checkout."]
+        - title: "Tròn bao lâu tính đến một mốc tương lai"
+          explain: "Will have + V3 + for + khoảng thời gian."
+          examples: ["In May, I'll have worked here for five years."]
+        - title: "Dự đoán điều chắc đã xảy ra"
+          explain: "Khi tới nơi, đến lúc đó thì việc kia chắc đã xong rồi."
+          examples: ["The meeting will have started by the time we get there."]
+      structure:
+        forms:
+          - {
+              label: "Khẳng định",
+              pattern: "S + will have + V3",
+              example: "They'll have finished by noon.",
+            }
+          - {
+              label: "Phủ định",
+              pattern: "S + won't have + V3",
+              example: "I won't have read it by then.",
+            }
+          - {
+              label: "Nghi vấn",
+              pattern: "Will + S + have + V3…?",
+              example: "Will you have finished by six?",
+            }
+        steps:
+          - title: "Tìm mốc tương lai"
+            explain: "By Friday, by the end of…, by the time + mệnh đề, in two weeks…"
+            example: "By the time you read this, I'll have left."
+          - title: "Have luôn giữ nguyên"
+            explain: "Sau will không bao giờ dùng has hay had."
+            example: "She will have finished. (không phải will has)"
+          - title: "Mệnh đề by the time dùng hiện tại đơn"
+            explain: "Giống mệnh đề if, when: không dùng will trong mệnh đề thời gian."
+            example: "By the time you arrive, we'll have eaten."
+      examples:
+        - tag: "Cam kết"
+          en: "By Friday, we'll have fixed all the critical bugs."
+          vi: "Trước thứ Sáu, tụi mình sẽ sửa xong hết các bug nghiêm trọng."
+          note: "By + mốc: xong trước thứ Sáu."
+        - tag: "Tròn thời gian"
+          en: "By the end of this year, she will have worked here for ten years."
+          vi: "Đến cuối năm nay, chị ấy sẽ làm ở đây tròn mười năm."
+          note: "Will have + V3 + for + khoảng thời gian."
+        - tag: "Phủ định"
+          en: "I won't have finished the report by 5 pm."
+          vi: "Đến 5 giờ chiều mình vẫn chưa viết xong báo cáo đâu."
+          note: "Won't have + V3: tới mốc đó vẫn chưa xong."
+        - tag: "Hỏi tiến độ"
+          en: "Will you have read the spec before the meeting?"
+          vi: "Trước buổi họp bạn sẽ đọc xong spec chứ?"
+          note: "Will + S + have + V3…?"
+        - tag: "Dự đoán"
+          en: "The meeting will have started by the time we get there."
+          vi: "Lúc tụi mình tới nơi thì chắc cuộc họp đã bắt đầu rồi."
+          note: "By the time + hiện tại đơn (get)."
+        - tag: "Mục tiêu"
+          en: "By next June, I'll have saved enough money for a new laptop."
+          vi: "Đến tháng Sáu năm sau, mình sẽ dành dụm đủ tiền mua laptop mới."
+          note: "Kết quả hoàn tất trước tháng Sáu năm sau."
+        - tag: "By the time"
+          en: "By the time you wake up, the backup will have finished."
+          vi: "Lúc bạn thức dậy thì bản backup đã chạy xong rồi."
+          note: "Mệnh đề by the time dùng wake (hiện tại đơn), không dùng will."
+        - tag: "In + khoảng"
+          en: "In two weeks, they will have moved into the new office."
+          vi: "Hai tuần nữa là họ đã chuyển vào văn phòng mới xong rồi."
+          note: "In two weeks: tính từ bây giờ, hai tuần nữa."
+      contrast:
+        title: "Tương lai đơn, tiếp diễn hay hoàn thành"
+        rows:
+          - {
+              label: "will + V",
+              note: "việc xảy ra trong tương lai",
+              example: "I'll finish the report tomorrow.",
+            }
+          - {
+              label: "will be + V-ing",
+              note: "đang làm dở tại mốc tương lai",
+              example: "At 5 pm, I'll be writing the report.",
+            }
+          - {
+              label: "will have + V3",
+              note: "đã xong trước mốc tương lai",
+              example: "By 5 pm, I'll have written the report.",
+            }
+        fixes:
+          - {
+              wrong: "She will have finish it by noon.",
+              right: "She will have finished it by noon.",
+              why: "Sau have phải là V3.",
+            }
+          - {
+              wrong: "They will has moved by June.",
+              right: "They will have moved by June.",
+              why: "Sau will luôn là have, dù chủ ngữ số ít hay số nhiều.",
+            }
+          - {
+              wrong: "By the time you will arrive, we will have left.",
+              right: "By the time you arrive, we will have left.",
+              why: "Mệnh đề by the time dùng hiện tại đơn.",
+            }
+  - slug: g-b2-past-perfect-continuous
+    kind: grammar
+    title: { en: "Past perfect continuous", vi: "Quá khứ hoàn thành tiếp diễn" }
+    questions:
+      [
+        g-b2-past-perfect-continuous-1,
+        g-b2-past-perfect-continuous-2,
+        g-b2-past-perfect-continuous-3,
+        g-b2-past-perfect-continuous-4,
+        g-b2-past-perfect-continuous-5,
+        g-b2-past-perfect-continuous-6,
+        g-b2-past-perfect-continuous-7,
+        g-b2-past-perfect-continuous-8,
+      ]
+    grammar:
+      title_vi: "Thì quá khứ hoàn thành tiếp diễn (had been + V-ing)"
+      group: "Thì động từ"
+      overview:
+        focus: "Had been + V-ing nói về một việc đã kéo dài một thời gian trước một mốc trong quá khứ, thường để giải thích kết quả nhìn thấy lúc đó (mệt, ướt, chậm…). Giống hiện tại hoàn thành tiếp diễn, nhưng mốc là một lúc trong quá khứ chứ không phải bây giờ."
+        formulas:
+          - "S + had been + V-ing"
+          - "S + hadn't been + V-ing · Had + S + been + V-ing…?"
+          - "… for / since … + when / before + quá khứ đơn"
+        hook: "I'd been waiting for an hour when the client finally called."
+      functions:
+        - title: "Kéo dài trước một mốc quá khứ"
+          explain: "Thường có for/since và một mệnh đề quá khứ đơn làm mốc."
+          examples: ["We had been using the old CRM for five years before we switched."]
+        - title: "Giải thích kết quả lúc đó"
+          explain: "Thấy kết quả (mệt, đỏ mắt, đường ướt) và nói nguyên nhân là việc đã kéo dài trước đó."
+          examples: ["She was tired because she had been coding all night."]
+        - title: "Hỏi bao lâu trước một mốc"
+          explain: "How long had + S + been + V-ing + when/before…?"
+          examples: ["How long had you been working there when you got promoted?"]
+      structure:
+        forms:
+          - {
+              label: "Khẳng định",
+              pattern: "S + had been + V-ing",
+              example: "It had been raining all day.",
+            }
+          - {
+              label: "Phủ định",
+              pattern: "S + hadn't been + V-ing",
+              example: "He hadn't been sleeping well.",
+            }
+          - {
+              label: "Nghi vấn",
+              pattern: "Had + S + been + V-ing…?",
+              example: "Had they been waiting long?",
+            }
+          - { label: "Rút gọn", pattern: "I'd been · she'd been", example: "I'd been reading." }
+        steps:
+          - title: "Xác định mốc quá khứ"
+            explain: "Mốc thường là mệnh đề quá khứ đơn: when she arrived, before we switched."
+            example: "…when the client finally called."
+          - title: "Việc nào kéo dài trước mốc đó?"
+            explain: "Việc kéo dài dùng had been + V-ing; mốc dùng quá khứ đơn."
+            example: "I had been waiting for an hour when he arrived."
+          - title: "Hoàn tất hay quá trình?"
+            explain: "Nhấn kết quả xong, đếm số lượng → quá khứ hoàn thành (had + V3). Nhấn quá trình kéo dài → had been + V-ing."
+            example: "She had written three reports. / She had been writing all day."
+      examples:
+        - tag: "Chờ lâu"
+          en: "I had been waiting for an hour when the client finally called."
+          vi: "Mình đã đợi cả tiếng đồng hồ thì khách mới gọi."
+          note: "Việc chờ kéo dài trước mốc khách gọi."
+        - tag: "Giải thích"
+          en: "She was tired because she had been coding all night."
+          vi: "Chị ấy mệt vì đã code suốt cả đêm."
+          note: "Kết quả (mệt) ở quá khứ, nguyên nhân là việc kéo dài trước đó."
+        - tag: "Trước khi đổi"
+          en: "We had been using the old CRM for five years before we switched."
+          vi: "Tụi mình đã dùng CRM cũ suốt năm năm trước khi chuyển sang cái mới."
+          note: "For + khoảng thời gian, before + quá khứ đơn."
+        - tag: "Hỏi bao lâu"
+          en: "How long had you been working there when you got promoted?"
+          vi: "Bạn làm ở đó bao lâu rồi thì được thăng chức?"
+          note: "How long had + S + been + V-ing…?"
+        - tag: "Dấu hiệu"
+          en: "The server had been running slowly for days before it finally crashed."
+          vi: "Server đã chạy chậm suốt mấy ngày trước khi sập hẳn."
+          note: "Quá trình kéo dài trước mốc sập."
+        - tag: "Bằng chứng"
+          en: "His eyes were red. He had been staring at the screen all day."
+          vi: "Mắt anh ấy đỏ hoe. Anh ấy đã nhìn màn hình suốt cả ngày."
+          note: "Kết quả nhìn thấy được, nguyên nhân là việc kéo dài."
+        - tag: "Thời tiết"
+          en: "It had been raining, so the streets were wet."
+          vi: "Trời đã mưa một lúc nên đường ướt."
+          note: "Mưa đã kéo dài và vừa tạnh trước lúc đó."
+        - tag: "Phủ định"
+          en: "They hadn't been talking to each other for weeks before the retro."
+          vi: "Trước buổi retro, họ đã không nói chuyện với nhau mấy tuần liền."
+          note: "Hadn't been + V-ing."
+      contrast:
+        title: "Had + V3 hay had been + V-ing"
+        rows:
+          - {
+              label: "had + V3",
+              note: "đã xong trước mốc quá khứ, nhấn kết quả hoặc số lượng",
+              example: "She had fixed five bugs by lunch.",
+            }
+          - {
+              label: "had been + V-ing",
+              note: "kéo dài đến mốc quá khứ, nhấn quá trình",
+              example: "She had been fixing bugs all morning.",
+            }
+          - {
+              label: "have been + V-ing",
+              note: "kéo dài đến bây giờ",
+              example: "She has been fixing bugs all morning.",
+            }
+        fixes:
+          - {
+              wrong: "I have been waiting for an hour when she arrived.",
+              right: "I had been waiting for an hour when she arrived.",
+              why: "Mốc là quá khứ (when she arrived) → had been, không phải have been.",
+            }
+          - {
+              wrong: "We had been use the tool for months.",
+              right: "We had been using the tool for months.",
+              why: "Sau had been phải là V-ing.",
+            }
+          - {
+              wrong: "He had been knowing her for years.",
+              right: "He had known her for years.",
+              why: "Know là động từ trạng thái → dùng had + V3.",
+            }
+  - slug: g-b2-third-conditional
+    kind: grammar
+    title: { en: "Third conditional", vi: "Câu điều kiện loại 3" }
+    questions:
+      [
+        g-b2-third-conditional-1,
+        g-b2-third-conditional-2,
+        g-b2-third-conditional-3,
+        g-b2-third-conditional-4,
+        g-b2-third-conditional-5,
+        g-b2-third-conditional-6,
+        g-b2-third-conditional-7,
+        g-b2-third-conditional-8,
+      ]
+    grammar:
+      title_vi: "Câu điều kiện loại 3 (giả định trái với quá khứ)"
+      group: "Câu điều kiện"
+      overview:
+        focus: "Loại 3 tưởng tượng một quá khứ khác với điều đã thật sự xảy ra, và kết quả khác đi. Vì chuyện đã qua, không thể thay đổi, nên câu thường dùng để rút kinh nghiệm trong retro hoặc postmortem: “nếu tụi mình test kỹ thì đã không…”."
+        formulas:
+          - "If + S + had + V3, S + would have + V3"
+          - "could have / might have + V3 (đã có thể / có khi đã)"
+          - "Rút gọn: If I'd known = If I had known · I'd have = I would have"
+        hook: "If we had tested it properly, the bug wouldn't have reached production."
+      functions:
+        - title: "Kết quả khác nếu quá khứ khác"
+          explain: "Điều kiện và kết quả đều trái với sự thật đã xảy ra."
+          examples: ["If I had known about the traffic, I would have left earlier."]
+        - title: "Rút kinh nghiệm"
+          explain: "Nói nguyên nhân của một sự cố mà không đổ lỗi trực tiếp."
+          examples: ["If someone had asked earlier, we could have saved a lot of time."]
+        - title: "Biết ơn"
+          explain: "Nếu không có bạn thì đã có chuyện tệ xảy ra."
+          examples: ["If you hadn't reminded me, I would have missed the deadline."]
+      structure:
+        forms:
+          - {
+              label: "Khẳng định",
+              pattern: "If + S + had + V3, S + would have + V3",
+              example: "If she had asked, I would have helped.",
+            }
+          - {
+              label: "Phủ định",
+              pattern: "If + S + hadn't + V3, S + wouldn't have + V3",
+              example: "If it hadn't rained, we wouldn't have stayed in.",
+            }
+          - {
+              label: "Nghi vấn",
+              pattern: "What would + S + have + V3 + if…?",
+              example: "What would you have done if it had failed?",
+            }
+          - {
+              label: "Đảo vế",
+              pattern: "S + would have + V3 + if + S + had + V3",
+              example: "I would have called if I had known.",
+            }
+        steps:
+          - title: "Mệnh đề if: had + V3"
+            explain: "Không dùng would trong mệnh đề if."
+            example: "If I had known… (không phải If I would have known)"
+          - title: "Mệnh đề kết quả: would/could/might + have + V3"
+            explain: "Have luôn giữ nguyên, theo sau là V3."
+            example: "…I would have come."
+          - title: "Cẩn thận với 'd"
+            explain: "Sau if, 'd = had; trước have, 'd = would."
+            example: "If I'd known, I'd have come."
+      examples:
+        - tag: "Postmortem"
+          en: "If we had tested it properly, the bug wouldn't have reached production."
+          vi: "Nếu tụi mình test kỹ thì con bug đã không lọt lên production."
+          note: "Thật ra đã không test kỹ, và bug đã lọt lên."
+        - tag: "Không biết trước"
+          en: "If I had known about the traffic, I would have left earlier."
+          vi: "Nếu biết trước kẹt xe thì mình đã đi sớm hơn rồi."
+          note: "Had known / would have left."
+        - tag: "Đảo vế"
+          en: "She would have got the job if she had prepared for the interview."
+          vi: "Nếu chịu chuẩn bị cho buổi phỏng vấn thì chị ấy đã được nhận rồi."
+          note: "Vế kết quả đứng trước thì không cần dấu phẩy."
+        - tag: "Could have"
+          en: "We could have saved a lot of time if someone had asked earlier."
+          vi: "Nếu có ai hỏi sớm hơn thì tụi mình đã có thể tiết kiệm được khối thời gian."
+          note: "Could have + V3: đã có thể (nhưng không)."
+        - tag: "Cảm ơn"
+          en: "If you hadn't reminded me, I would have missed the deadline."
+          vi: "Nếu bạn không nhắc thì mình đã trễ deadline rồi."
+          note: "Hadn't + V3 trong mệnh đề if."
+        - tag: "Câu hỏi"
+          en: "What would you have done if the backup had failed?"
+          vi: "Nếu bản backup cũng hỏng thì lúc đó bạn sẽ làm gì?"
+          note: "What would + S + have + V3 + if…?"
+        - tag: "Thời tiết"
+          en: "If it hadn't rained, we would have gone to the beach."
+          vi: "Nếu trời không mưa thì tụi mình đã đi biển rồi."
+          note: "Thật ra trời đã mưa và không đi biển."
+        - tag: "Might have"
+          en: "He might have stayed if they had offered him a raise."
+          vi: "Nếu họ tăng lương cho anh ấy thì có khi anh ấy đã ở lại rồi."
+          note: "Might have + V3: có khi đã (không chắc)."
+      contrast:
+        title: "Điều kiện loại 1, 2 và 3"
+        rows:
+          - {
+              label: "Loại 1",
+              note: "có thể xảy ra trong tương lai",
+              example: "If it fails, we'll roll back.",
+            }
+          - {
+              label: "Loại 2",
+              note: "giả định trái với hiện tại",
+              example: "If I had more time, I would refactor it.",
+            }
+          - {
+              label: "Loại 3",
+              note: "giả định trái với quá khứ",
+              example: "If I had had more time, I would have refactored it.",
+            }
+        fixes:
+          - {
+              wrong: "If I would have known, I would have called.",
+              right: "If I had known, I would have called.",
+              why: "Mệnh đề if của loại 3 dùng had + V3, không dùng would.",
+            }
+          - {
+              wrong: "If we had leave earlier, we would have caught the train.",
+              right: "If we had left earlier, we would have caught the train.",
+              why: "Sau had phải là V3 (left).",
+            }
+          - {
+              wrong: "If you had told me, I will have come.",
+              right: "If you had told me, I would have come.",
+              why: "Vế kết quả của loại 3 dùng would have, không dùng will have.",
+            }
+  - slug: g-b2-modal-perfect-deduction
+    kind: grammar
+    title: { en: "must have / might have / can't have", vi: "Suy đoán về quá khứ" }
+    questions:
+      [
+        g-b2-modal-perfect-deduction-1,
+        g-b2-modal-perfect-deduction-2,
+        g-b2-modal-perfect-deduction-3,
+        g-b2-modal-perfect-deduction-4,
+        g-b2-modal-perfect-deduction-5,
+        g-b2-modal-perfect-deduction-6,
+        g-b2-modal-perfect-deduction-7,
+        g-b2-modal-perfect-deduction-8,
+      ]
+    grammar:
+      title_vi: "Suy đoán về quá khứ: must have, might have, can't have + V3"
+      group: "Động từ khuyết thiếu"
+      overview:
+        focus: "Khi không tận mắt thấy chuyện đã xảy ra nhưng có bằng chứng, ta dùng động từ khuyết thiếu + have + V3 để đoán. Must have = chắc chắn là đã; might/may/could have = có thể đã; can't/couldn't have = chắc chắn là không thể đã. Rất hay dùng khi debug: “chắc ai đó đã sửa config”."
+        formulas:
+          - "S + must have + V3 (chắc chắn đã)"
+          - "S + might / may / could have + V3 (có thể đã)"
+          - "S + can't / couldn't have + V3 (không thể nào đã)"
+        hook: "Someone must have changed the config, because it worked yesterday."
+      functions:
+        - title: "Chắc chắn đã xảy ra"
+          explain: "Có bằng chứng rõ ràng → must have + V3."
+          examples: ["The lights are off. They must have gone home."]
+        - title: "Có thể đã xảy ra"
+          explain: "Chỉ là một khả năng → might / may / could have + V3."
+          examples: ["He might have missed the bus."]
+        - title: "Chắc chắn không thể"
+          explain: "Bằng chứng cho thấy không thể → can't / couldn't have + V3. Không dùng mustn't have."
+          examples: ["She can't have seen my message. She's been offline all day."]
+        - title: "Đang diễn ra lúc đó"
+          explain: "Must / might have been + V-ing: đoán về việc đang làm trong quá khứ."
+          examples: ["They must have been working late last night."]
+      structure:
+        forms:
+          - {
+              label: "Chắc chắn",
+              pattern: "S + must have + V3",
+              example: "You must have been tired.",
+            }
+          - {
+              label: "Có thể",
+              pattern: "S + might / may / could have + V3",
+              example: "It may have been a network issue.",
+            }
+          - {
+              label: "Không thể",
+              pattern: "S + can't / couldn't have + V3",
+              example: "He can't have known.",
+            }
+          - {
+              label: "Bị động",
+              pattern: "S + modal + have been + V3",
+              example: "The file might have been deleted.",
+            }
+        steps:
+          - title: "Bạn chắc đến mức nào?"
+            explain: "Gần như chắc → must; không chắc → might/may/could; chắc là không → can't/couldn't."
+            example: "It must / might / can't have been Tuan."
+          - title: "Luôn là have + V3"
+            explain: "Have không đổi thành has hay had, theo sau là V3."
+            example: "She must have forgotten. (không phải must has forgot)"
+      examples:
+        - tag: "Chắc chắn"
+          en: "The lights are off. They must have gone home."
+          vi: "Đèn tắt hết rồi. Chắc chắn họ về nhà rồi."
+          note: "Bằng chứng rõ (đèn tắt) → must have + V3."
+        - tag: "Không thể"
+          en: "She can't have seen my message. She's been offline all day."
+          vi: "Chị ấy không thể nào đã đọc tin nhắn của mình được, chị ấy offline cả ngày mà."
+          note: "Can't have + V3: chắc chắn là không."
+        - tag: "Có thể"
+          en: "He might have missed the bus. Let's wait ten more minutes."
+          vi: "Có thể anh ấy lỡ chuyến xe buýt. Đợi thêm mười phút nữa đi."
+          note: "Might have + V3: chỉ là một khả năng."
+        - tag: "Debug"
+          en: "Someone must have changed the config, because it worked yesterday."
+          vi: "Chắc chắn ai đó đã sửa config, vì hôm qua nó vẫn chạy."
+          note: "Suy luận nguyên nhân từ bằng chứng."
+        - tag: "Không tin nổi"
+          en: "You can't have finished already! You only started ten minutes ago."
+          vi: "Không thể nào bạn làm xong rồi được! Bạn mới bắt đầu có mười phút trước mà."
+          note: "Can't have + V3 thể hiện sự ngạc nhiên, không tin."
+        - tag: "May have"
+          en: "I may have left my charger at home."
+          vi: "Có lẽ mình để quên cục sạc ở nhà rồi."
+          note: "May have + V3 gần nghĩa might have."
+        - tag: "Bị động"
+          en: "The package could have been delivered to the wrong address."
+          vi: "Có thể kiện hàng đã bị giao nhầm địa chỉ."
+          note: "Could have been + V3: khả năng ở dạng bị động."
+        - tag: "Tiếp diễn"
+          en: "They must have been working late last night. The pizza boxes are still here."
+          vi: "Chắc hẳn tối qua họ làm muộn lắm. Hộp pizza vẫn còn đây này."
+          note: "Must have been + V-ing: đoán việc đang diễn ra lúc đó."
+      contrast:
+        title: "Mức độ chắc chắn"
+        rows:
+          - {
+              label: "must have + V3",
+              note: "gần như chắc chắn đã xảy ra",
+              example: "It must have rained.",
+            }
+          - {
+              label: "might / may / could have + V3",
+              note: "có thể đã xảy ra",
+              example: "It might have rained.",
+            }
+          - {
+              label: "can't / couldn't have + V3",
+              note: "gần như chắc chắn không xảy ra",
+              example: "It can't have rained.",
+            }
+          - { label: "must + V", note: "suy đoán về hiện tại", example: "You must be tired." }
+        fixes:
+          - {
+              wrong: "He must have forgot the password.",
+              right: "He must have forgotten the password.",
+              why: "Sau have dùng V3: forget → forgotten.",
+            }
+          - {
+              wrong: "She can't has seen it.",
+              right: "She can't have seen it.",
+              why: "Sau động từ khuyết thiếu luôn là have.",
+            }
+          - {
+              wrong: "They mustn't have known.",
+              right: "They can't have known.",
+              why: "Suy đoán phủ định dùng can't/couldn't have, không dùng mustn't have.",
+            }
+  - slug: g-b2-should-have
+    kind: grammar
+    title: { en: "should have / shouldn't have", vi: "Lẽ ra nên / không nên" }
+    questions:
+      [
+        g-b2-should-have-1,
+        g-b2-should-have-2,
+        g-b2-should-have-3,
+        g-b2-should-have-4,
+        g-b2-should-have-5,
+        g-b2-should-have-6,
+        g-b2-should-have-7,
+        g-b2-should-have-8,
+      ]
+    grammar:
+      title_vi: "Should have / shouldn't have + V3 (hối tiếc, phê bình)"
+      group: "Động từ khuyết thiếu"
+      overview:
+        focus: "Should have + V3 nghĩa là “lẽ ra nên làm (nhưng đã không làm)”; shouldn't have + V3 là “lẽ ra không nên làm (nhưng đã làm)”. Dùng để tự trách, bày tỏ hối tiếc, hoặc góp ý nhẹ nhàng về việc người khác đã làm, rất phổ biến trong retro."
+        formulas:
+          - "S + should have + V3 (lẽ ra nên, nhưng đã không)"
+          - "S + shouldn't have + V3 (lẽ ra không nên, nhưng đã làm)"
+          - "Rút gọn: should've = should have"
+        hook: "I should have backed up the database before the upgrade."
+      functions:
+        - title: "Tự trách, hối tiếc"
+          explain: "Nói về điều mình đã làm sai hoặc bỏ lỡ."
+          examples: ["I shouldn't have eaten so much at lunch."]
+        - title: "Phê bình, góp ý"
+          explain: "Nói người khác lẽ ra nên làm khác. Thêm really, maybe để nhẹ nhàng hơn."
+          examples: ["You shouldn't have pushed directly to main."]
+        - title: "Rút kinh nghiệm chung"
+          explain: "Trong retro, dùng we để không đổ lỗi cho một người."
+          examples: ["We should have asked the client earlier."]
+      structure:
+        forms:
+          - {
+              label: "Khẳng định",
+              pattern: "S + should have + V3",
+              example: "You should have called.",
+            }
+          - {
+              label: "Phủ định",
+              pattern: "S + shouldn't have + V3",
+              example: "I shouldn't have said that.",
+            }
+          - {
+              label: "Nghi vấn",
+              pattern: "Should + S + have + V3…?",
+              example: "Should I have told her?",
+            }
+        steps:
+          - title: "Chuyện đã xảy ra chưa?"
+            explain: "Đã qua → should have + V3. Còn ở hiện tại/tương lai → should + V."
+            example: "You should rest. / You should have rested."
+          - title: "Dùng đúng V3"
+            explain: "Go → gone, eat → eaten, tell → told."
+            example: "I should have gone. (không phải should have went)"
+      examples:
+        - tag: "Hối tiếc"
+          en: "I should have backed up the database before the upgrade."
+          vi: "Lẽ ra mình phải backup database trước khi nâng cấp."
+          note: "Đã không backup, giờ hối tiếc."
+        - tag: "Phê bình"
+          en: "You shouldn't have pushed directly to main."
+          vi: "Lẽ ra bạn không nên push thẳng lên main."
+          note: "Đã push rồi, đó là việc sai."
+        - tag: "Retro"
+          en: "We should have asked the client earlier."
+          vi: "Lẽ ra tụi mình nên hỏi khách sớm hơn."
+          note: "Dùng we để rút kinh nghiệm chung."
+        - tag: "Lỡ lời"
+          en: "She shouldn't have said that in front of the whole team."
+          vi: "Lẽ ra chị ấy không nên nói thế trước mặt cả team."
+          note: "Shouldn't have + V3: đã nói và không nên."
+        - tag: "Trách yêu"
+          en: "You should have told me you were sick!"
+          vi: "Lẽ ra bạn phải nói với mình là bạn bị ốm chứ!"
+          note: "Should have + V3 thể hiện hơi trách."
+        - tag: "Kiểm thử"
+          en: "They should have tested it on a real phone."
+          vi: "Lẽ ra họ nên test trên điện thoại thật."
+          note: "Đã không test trên máy thật."
+        - tag: "Ăn quá no"
+          en: "I shouldn't have eaten so much at lunch."
+          vi: "Lẽ ra trưa nay mình không nên ăn nhiều như vậy."
+          note: "Eat → eaten."
+        - tag: "Câu hỏi"
+          en: "Should we have warned the users before the maintenance?"
+          vi: "Lẽ ra tụi mình có nên báo trước cho người dùng trước đợt bảo trì không?"
+          note: "Should + S + have + V3…?"
+      contrast:
+        title: "Should, should have và must have"
+        rows:
+          - {
+              label: "should + V",
+              note: "lời khuyên cho bây giờ hoặc tương lai",
+              example: "You should back up the database.",
+            }
+          - {
+              label: "should have + V3",
+              note: "lẽ ra nên (nhưng đã không) ở quá khứ",
+              example: "You should have backed it up.",
+            }
+          - {
+              label: "must have + V3",
+              note: "suy đoán chắc chắn về quá khứ, không phải hối tiếc",
+              example: "He must have backed it up.",
+            }
+        fixes:
+          - {
+              wrong: "I should have went to bed earlier.",
+              right: "I should have gone to bed earlier.",
+              why: "Sau have dùng V3: go → gone.",
+            }
+          - {
+              wrong: "You should had asked me.",
+              right: "You should have asked me.",
+              why: "Sau should luôn là have, không dùng had.",
+            }
+          - {
+              wrong: "We should to have checked it.",
+              right: "We should have checked it.",
+              why: "Should không đi với to.",
+            }
+  - slug: g-b2-causative
+    kind: grammar
+    title: { en: "have / get something done", vi: "Thể nhờ bảo (have/get sth done)" }
+    questions:
+      [
+        g-b2-causative-1,
+        g-b2-causative-2,
+        g-b2-causative-3,
+        g-b2-causative-4,
+        g-b2-causative-5,
+        g-b2-causative-6,
+        g-b2-causative-7,
+        g-b2-causative-8,
+      ]
+    grammar:
+      title_vi: "Thể nhờ bảo: have / get + tân ngữ + V3"
+      group: "Cấu trúc câu"
+      overview:
+        focus: "Have/get + vật + V3 nói rằng mình nhờ hoặc trả tiền cho người khác làm việc đó, không tự làm. Tiếng Việt chỉ nói “mình sửa laptop” dù thật ra là mang đi sửa, nên người học hay nói I repaired my laptop. Cấu trúc này cũng dùng cho chuyện xấu xảy ra với mình: had my phone stolen (bị trộm điện thoại)."
+        formulas:
+          - "S + have + O + V3"
+          - "S + get + O + V3 (thân mật hơn)"
+          - "Chia thì ở have/get: had, is having, will get…"
+        hook: "I had my laptop repaired last week."
+      functions:
+        - title: "Nhờ / thuê người khác làm"
+          explain: "Người làm không quan trọng hoặc không cần nói."
+          examples: ["We need to get the contract translated into English."]
+        - title: "Chuyện không may xảy ra với mình"
+          explain: "Have + O + V3 cho việc xấu do người khác gây ra: bị trộm, bị hủy…"
+          examples: ["He had his phone stolen last night."]
+        - title: "Lời khuyên"
+          explain: "Should get + O + V3: nên đi làm gì đó."
+          examples: ["You should get your eyes checked."]
+      structure:
+        forms:
+          - {
+              label: "Quá khứ",
+              pattern: "S + had / got + O + V3",
+              example: "She got her bike fixed.",
+            }
+          - {
+              label: "Tiếp diễn",
+              pattern: "S + am/is/are having / getting + O + V3",
+              example: "I'm having my car serviced.",
+            }
+          - {
+              label: "Hiện tại hoàn thành",
+              pattern: "S + have/has had + O + V3",
+              example: "Have you had your passport renewed?",
+            }
+          - {
+              label: "Sau modal",
+              pattern: "S + should / need to + get + O + V3",
+              example: "You need to get it checked.",
+            }
+        steps:
+          - title: "Ai làm việc đó?"
+            explain: "Tự làm → S + V + O. Người khác làm cho mình → have/get + O + V3."
+            example: "I cut my hair. / I had my hair cut."
+          - title: "Đặt tân ngữ ở giữa"
+            explain: "Thứ tự: have + vật + V3, không phải have + V3 + vật."
+            example: "I had my laptop repaired. (không phải had repaired my laptop)"
+          - title: "Chia thì ở have/get"
+            explain: "V3 giữ nguyên, chỉ have/get đổi theo thì."
+            example: "We're getting the office painted next month."
+      examples:
+        - tag: "Quá khứ"
+          en: "I had my laptop repaired last week."
+          vi: "Tuần trước mình mang laptop đi sửa."
+          note: "Người khác sửa, mình chỉ mang đi."
+        - tag: "Kế hoạch"
+          en: "We're getting the office painted next month."
+          vi: "Tháng sau tụi mình sẽ cho người sơn lại văn phòng."
+          note: "Getting + O + V3 ở thì tiếp diễn chỉ kế hoạch."
+        - tag: "Lời khuyên"
+          en: "You should get your eyes checked."
+          vi: "Bạn nên đi khám mắt đi."
+          note: "Should get + O + V3."
+        - tag: "Thói quen"
+          en: "She gets her hair cut every two months."
+          vi: "Cứ hai tháng chị ấy lại đi cắt tóc một lần."
+          note: "Cut có V3 giống nguyên mẫu."
+        - tag: "Công việc"
+          en: "We need to get the contract translated into English."
+          vi: "Tụi mình cần cho người dịch hợp đồng sang tiếng Anh."
+          note: "Need to get + O + V3."
+        - tag: "Đang làm"
+          en: "I'm having my car serviced, so I'll take a Grab today."
+          vi: "Xe mình đang được mang đi bảo dưỡng nên hôm nay mình đi Grab."
+          note: "Am having + O + V3."
+        - tag: "Vừa xong"
+          en: "I've just had my passport renewed."
+          vi: "Mình vừa đi gia hạn hộ chiếu xong."
+          note: "Have just had + O + V3 (hiện tại hoàn thành)."
+        - tag: "Chuyện xui"
+          en: "He had his phone stolen last night."
+          vi: "Tối qua anh ấy bị trộm mất điện thoại."
+          note: "Have + O + V3 cho chuyện xấu người khác gây ra."
+      contrast:
+        title: "Tự làm hay nhờ người khác làm"
+        rows:
+          - { label: "S + V + O", note: "tự mình làm", example: "I fixed my laptop." }
+          - {
+              label: "have + O + V3",
+              note: "người khác làm cho mình",
+              example: "I had my laptop fixed.",
+            }
+          - {
+              label: "get + O + V3",
+              note: "nghĩa tương tự, thân mật hơn",
+              example: "I got my laptop fixed.",
+            }
+        fixes:
+          - {
+              wrong: "I need to get my hair cutting.",
+              right: "I need to get my hair cut.",
+              why: "Sau tân ngữ dùng V3, không dùng V-ing.",
+            }
+          - {
+              wrong: "We're getting the office paint next month.",
+              right: "We're getting the office painted next month.",
+              why: "Sau tân ngữ dùng V3: painted.",
+            }
+          - {
+              wrong: "I cut my hair at a salon yesterday.",
+              right: "I had my hair cut at a salon yesterday.",
+              why: "Thợ cắt cho mình, không phải tự cắt → had + O + V3.",
+            }
+  - slug: g-b2-passive-reporting
+    kind: grammar
+    title: { en: "It is said that… / He is believed to…", vi: "Bị động tường thuật" }
+    questions:
+      [
+        g-b2-passive-reporting-1,
+        g-b2-passive-reporting-2,
+        g-b2-passive-reporting-3,
+        g-b2-passive-reporting-4,
+        g-b2-passive-reporting-5,
+        g-b2-passive-reporting-6,
+        g-b2-passive-reporting-7,
+        g-b2-passive-reporting-8,
+      ]
+    grammar:
+      title_vi: "Bị động tường thuật: It is said that… / S + is said to…"
+      group: "Câu tường thuật"
+      overview:
+        focus: "Khi muốn nói “người ta nói/tin/cho rằng…” một cách trang trọng, khách quan (trong tin tức, báo cáo), tiếng Anh dùng bị động với các động từ say, believe, think, report, know, expect. Có hai cách: It is said that + mệnh đề, hoặc đưa chủ ngữ lên đầu: S + is said + to V."
+        formulas:
+          - "It + is/was + said/believed/reported + that + mệnh đề"
+          - "S + is/are + said/believed… + to + V (cùng thời điểm)"
+          - "S + is/are + said/believed… + to have + V3 (xảy ra trước)"
+        hook: "He is said to have worked for Google before."
+      functions:
+        - title: "It + bị động + that"
+          explain: "Mở đầu bằng It, theo sau là một mệnh đề đầy đủ."
+          examples: ["It is said that the new CEO is very strict."]
+        - title: "Chủ ngữ + bị động + to V"
+          explain: "Nói về hiện tại hoặc tương lai: to V; đang diễn ra: to be V-ing."
+          examples: ["The company is believed to be planning layoffs."]
+        - title: "Chủ ngữ + bị động + to have V3"
+          explain: "Việc đã xảy ra trước thời điểm nói."
+          examples: ["The hackers are thought to have stolen two million records."]
+      structure:
+        forms:
+          - {
+              label: "It + that",
+              pattern: "It is said / believed / reported that + S + V",
+              example: "It is reported that the CEO resigned.",
+            }
+          - {
+              label: "To V",
+              pattern: "S + is said + to V",
+              example: "She is said to be very talented.",
+            }
+          - {
+              label: "To be V-ing",
+              pattern: "S + is believed + to be V-ing",
+              example: "They are believed to be hiding.",
+            }
+          - {
+              label: "To have V3",
+              pattern: "S + is thought + to have + V3",
+              example: "He is thought to have left.",
+            }
+        steps:
+          - title: "Chọn khung câu"
+            explain: "Bắt đầu bằng It → that + mệnh đề. Bắt đầu bằng người/vật → to + V."
+            example: "It is said that he is rich. / He is said to be rich."
+          - title: "Chia be theo chủ ngữ và thì"
+            explain: "Is/are cho hiện tại, was/were cho quá khứ."
+            example: "It was reported that…"
+          - title: "Việc xảy ra trước → to have + V3"
+            explain: "So sánh thời điểm của việc được nói đến với lúc người ta nói."
+            example: "The CEO is said to have resigned last month."
+      examples:
+        - tag: "It + that"
+          en: "It is said that the new CEO is very strict."
+          vi: "Người ta nói rằng CEO mới rất nghiêm khắc."
+          note: "It is said that + mệnh đề đầy đủ."
+        - tag: "To be V-ing"
+          en: "The company is believed to be planning layoffs."
+          vi: "Người ta tin rằng công ty đang lên kế hoạch cắt giảm nhân sự."
+          note: "Đang diễn ra → to be + V-ing."
+        - tag: "To have V3"
+          en: "The hackers are thought to have stolen two million records."
+          vi: "Người ta cho rằng nhóm hacker đã đánh cắp hai triệu bản ghi."
+          note: "Việc đã xảy ra trước → to have + V3."
+        - tag: "Quá khứ"
+          en: "It was reported that the outage lasted three hours."
+          vi: "Có thông tin cho biết sự cố kéo dài ba tiếng."
+          note: "It was reported that + mệnh đề quá khứ."
+        - tag: "Known"
+          en: "She is known to be an excellent negotiator."
+          vi: "Ai cũng biết chị ấy là người đàm phán rất giỏi."
+          note: "Be known to + V: được biết đến là."
+        - tag: "Expected"
+          en: "The update is expected to be released next week."
+          vi: "Bản cập nhật dự kiến sẽ được phát hành vào tuần sau."
+          note: "Be expected to + V cho tương lai."
+        - tag: "Believed"
+          en: "It is believed that the fire started in the kitchen."
+          vi: "Người ta tin rằng đám cháy bắt đầu từ trong bếp."
+          note: "Văn phong tin tức, khách quan."
+        - tag: "Nghe nói"
+          en: "He is said to have worked for Google before."
+          vi: "Nghe nói trước đây anh ấy từng làm cho Google."
+          note: "Is said to have + V3."
+      contrast:
+        title: "Hai khung câu bị động tường thuật"
+        rows:
+          - {
+              label: "It is said that…",
+              note: "It + bị động + that + mệnh đề",
+              example: "It is said that he is rich.",
+            }
+          - {
+              label: "S + is said to V",
+              note: "cùng thời điểm với lúc nói",
+              example: "He is said to be rich.",
+            }
+          - {
+              label: "S + is said to have V3",
+              note: "xảy ra trước lúc nói",
+              example: "He is said to have been rich.",
+            }
+        fixes:
+          - {
+              wrong: "She is believed to has left.",
+              right: "She is believed to have left.",
+              why: "Sau to luôn là have (nguyên mẫu).",
+            }
+          - {
+              wrong: "The CEO is said to resign last month.",
+              right: "The CEO is said to have resigned last month.",
+              why: "Việc đã xảy ra (last month) → to have + V3.",
+            }
+          - {
+              wrong: "It says that the CEO is strict.",
+              right: "It is said that the CEO is strict.",
+              why: "Cần bị động: It is said that…",
+            }
+  - slug: g-b2-reporting-verbs
+    kind: grammar
+    title: { en: "Reporting verbs", vi: "Động từ tường thuật" }
+    questions:
+      [
+        g-b2-reporting-verbs-1,
+        g-b2-reporting-verbs-2,
+        g-b2-reporting-verbs-3,
+        g-b2-reporting-verbs-4,
+        g-b2-reporting-verbs-5,
+        g-b2-reporting-verbs-6,
+        g-b2-reporting-verbs-7,
+        g-b2-reporting-verbs-8,
+      ]
+    grammar:
+      title_vi: "Động từ tường thuật: advise, suggest, deny, admit, promise"
+      group: "Câu tường thuật"
+      overview:
+        focus: "Thay vì lặp lại said, ta dùng động từ tường thuật để tóm ý định của người nói: khuyên (advise), đề xuất (suggest), phủ nhận (deny), thừa nhận (admit), hứa (promise). Khó nhất là mỗi động từ đi với một mẫu riêng: to V, O + to V, V-ing hay that + mệnh đề."
+        formulas:
+          - "promise / agree / refuse + to V"
+          - "advise / tell / remind + O + to V"
+          - "suggest / deny / admit + V-ing · suggest / admit / promise + that + mệnh đề"
+        hook: "She suggested moving the meeting to Thursday."
+      functions:
+        - title: "Khuyên: advise + O + to V"
+          explain: "Phải có người được khuyên; phủ định là not to V."
+          examples: ["The doctor advised him not to drink coffee."]
+        - title: "Đề xuất: suggest + V-ing / that"
+          explain: "Không nói suggest someone to do. Dùng V-ing hoặc that + S + V (nguyên mẫu)."
+          examples: ["I suggest that we postpone the release."]
+        - title: "Phủ nhận, thừa nhận: deny / admit + V-ing"
+          explain: "Thường nói về việc sai đã làm (hoặc bị cho là đã làm)."
+          examples: ["He denied breaking the build."]
+        - title: "Hứa: promise + to V / that"
+          explain: "Promise to V, hoặc promise that + S + would/will + V."
+          examples: ["They promised to send the invoice by Friday."]
+      structure:
+        forms:
+          - { label: "+ to V", pattern: "S + promised + to V", example: "He promised to help." }
+          - {
+              label: "+ O + to V",
+              pattern: "S + advised + O + (not) to V",
+              example: "She advised me to wait.",
+            }
+          - {
+              label: "+ V-ing",
+              pattern: "S + suggested / denied / admitted + V-ing",
+              example: "He admitted lying.",
+            }
+          - {
+              label: "+ that",
+              pattern: "S + suggested / admitted / promised + that + mệnh đề",
+              example: "She admitted that she was wrong.",
+            }
+        steps:
+          - title: "Người nói muốn làm gì?"
+            explain: "Khuyên, đề xuất, phủ nhận, thừa nhận hay hứa → chọn động từ phù hợp."
+            example: "“I didn't do it!” → He denied doing it."
+          - title: "Áp đúng mẫu của động từ"
+            explain: "Advise cần tân ngữ; suggest, deny, admit đi với V-ing; promise đi với to V."
+            example: "She suggested taking a taxi. (không phải suggested to take)"
+          - title: "Phủ định đặt not trước to V hoặc V-ing"
+            explain: "Advised me not to go; admitted not checking."
+            example: "He advised us not to sign yet."
+      examples:
+        - tag: "Advise"
+          en: "My manager advised me to take a break."
+          vi: "Quản lý khuyên mình nên nghỉ ngơi một chút."
+          note: "Advise + O + to V."
+        - tag: "Suggest"
+          en: "She suggested moving the meeting to Thursday."
+          vi: "Chị ấy đề xuất dời cuộc họp sang thứ Năm."
+          note: "Suggest + V-ing."
+        - tag: "Deny"
+          en: "He denied breaking the build."
+          vi: "Anh ấy phủ nhận việc làm hỏng bản build."
+          note: "Deny + V-ing."
+        - tag: "Admit"
+          en: "The intern admitted copying the code from Stack Overflow."
+          vi: "Bạn thực tập sinh thừa nhận đã chép đoạn code từ Stack Overflow."
+          note: "Admit + V-ing."
+        - tag: "Promise"
+          en: "They promised to send the invoice by Friday."
+          vi: "Họ hứa sẽ gửi hóa đơn trước thứ Sáu."
+          note: "Promise + to V."
+        - tag: "Advise not"
+          en: "The doctor advised him not to drink coffee."
+          vi: "Bác sĩ khuyên anh ấy không nên uống cà phê."
+          note: "Phủ định: advise + O + not to V."
+        - tag: "Suggest that"
+          en: "I suggest that we postpone the release."
+          vi: "Mình đề nghị tụi mình hoãn bản phát hành."
+          note: "Suggest that + S + V nguyên mẫu."
+        - tag: "Promise that"
+          en: "She promised that she would call back."
+          vi: "Chị ấy hứa là sẽ gọi lại."
+          note: "Promise that + S + would + V."
+      contrast:
+        title: "Mẫu đi kèm từng động từ"
+        rows:
+          - {
+              label: "+ to V",
+              note: "promise, agree, refuse, offer",
+              example: "He refused to sign.",
+            }
+          - {
+              label: "+ O + to V",
+              note: "advise, tell, warn, remind",
+              example: "She reminded me to log out.",
+            }
+          - {
+              label: "+ V-ing",
+              note: "suggest, deny, admit, recommend",
+              example: "They recommended using Postgres.",
+            }
+          - {
+              label: "+ that + mệnh đề",
+              note: "suggest, admit, promise, deny",
+              example: "He admitted that he had lied.",
+            }
+        fixes:
+          - {
+              wrong: "She suggested me to move the meeting.",
+              right: "She suggested that I should move the meeting.",
+              why: "Suggest không đi với O + to V; dùng that + mệnh đề hoặc V-ing.",
+            }
+          - {
+              wrong: "He denied to break the build.",
+              right: "He denied breaking the build.",
+              why: "Deny + V-ing.",
+            }
+          - {
+              wrong: "They promised sending the invoice.",
+              right: "They promised to send the invoice.",
+              why: "Promise + to V.",
+            }
+  - slug: g-b2-non-defining-relatives
+    kind: grammar
+    title: { en: "Non-defining relative clauses", vi: "Mệnh đề quan hệ không xác định" }
+    questions:
+      [
+        g-b2-non-defining-relatives-1,
+        g-b2-non-defining-relatives-2,
+        g-b2-non-defining-relatives-3,
+        g-b2-non-defining-relatives-4,
+        g-b2-non-defining-relatives-5,
+        g-b2-non-defining-relatives-6,
+        g-b2-non-defining-relatives-7,
+        g-b2-non-defining-relatives-8,
+      ]
+    grammar:
+      title_vi: "Mệnh đề quan hệ không xác định (có dấu phẩy)"
+      group: "Mệnh đề"
+      overview:
+        focus: "Mệnh đề quan hệ không xác định thêm thông tin phụ về một người/vật đã rõ là ai, cái gì. Bỏ nó đi câu vẫn đủ nghĩa. Nó luôn nằm giữa hai dấu phẩy, không dùng that, và không được bỏ đại từ quan hệ. Which còn có thể chỉ cả mệnh đề phía trước (điều đó…)."
+        formulas:
+          - "N, who / which / whose / where + …, + V"
+          - "Không dùng that · không bỏ who/which"
+          - "…, which + V (which = cả ý phía trước)"
+        hook: "My manager, who is from Hue, speaks four languages."
+      functions:
+        - title: "Thêm thông tin về người"
+          explain: "Who (chủ ngữ), whom (tân ngữ, trang trọng), whose (của người đó)."
+          examples: ["Mr. Nam, whom you met yesterday, is our new CTO."]
+        - title: "Thêm thông tin về vật, nơi chốn"
+          explain: "Which cho vật, where cho nơi chốn."
+          examples: ["We moved to Da Nang, where my parents live."]
+        - title: "Bình luận cả mệnh đề"
+          explain: ", which… đứng cuối câu, chỉ toàn bộ sự việc trước đó."
+          examples: ["He missed the deadline, which annoyed the client."]
+      structure:
+        forms:
+          - { label: "Người", pattern: "N, who + V…,", example: "Lan, who leads QA, approved it." }
+          - {
+              label: "Vật",
+              pattern: "N, which + V / S + V…,",
+              example: "The app, which we built in 2022, is still popular.",
+            }
+          - {
+              label: "Sở hữu",
+              pattern: "N, whose + N + V…",
+              example: "Khoa, whose team is remote, works late.",
+            }
+          - {
+              label: "Cả mệnh đề",
+              pattern: "Mệnh đề, which + V",
+              example: "The build failed, which delayed us.",
+            }
+        steps:
+          - title: "Người nghe đã biết là ai/cái gì chưa?"
+            explain: "Tên riêng, my manager, our office… đã rõ → mệnh đề chỉ là thông tin thêm → dùng dấu phẩy."
+            example: "My mother, who is a teacher, …"
+          - title: "Chọn đại từ, không dùng that"
+            explain: "Người → who/whom, vật → which, sở hữu → whose, nơi → where."
+            example: "The report, which was late, …"
+          - title: "Đặt dấu phẩy ở hai đầu"
+            explain: "Nếu mệnh đề nằm giữa câu, cần dấu phẩy cả trước và sau."
+            example: "Our office, which opened last year, is near the river."
+      examples:
+        - tag: "Who"
+          en: "My manager, who is from Hue, speaks four languages."
+          vi: "Quản lý của mình, người quê ở Huế, nói được bốn thứ tiếng."
+          note: "Đã rõ là quản lý của mình; quê ở Huế chỉ là thông tin thêm."
+        - tag: "Which"
+          en: "Our office, which opened last year, is near the river."
+          vi: "Văn phòng của tụi mình, mở cửa từ năm ngoái, nằm gần sông."
+          note: "Dấu phẩy ở cả hai đầu mệnh đề."
+        - tag: "Which + S + V"
+          en: "The new API, which we released on Monday, is much faster."
+          vi: "API mới, được tụi mình phát hành hôm thứ Hai, nhanh hơn nhiều."
+          note: "Which làm tân ngữ nhưng vẫn không được bỏ."
+        - tag: "Whose"
+          en: "I talked to Lan, whose team handles payments."
+          vi: "Mình đã nói chuyện với Lan, người có team phụ trách mảng thanh toán."
+          note: "Whose + danh từ: team của Lan."
+        - tag: "Where"
+          en: "We moved to Da Nang, where my parents live."
+          vi: "Tụi mình chuyển về Đà Nẵng, nơi bố mẹ mình đang sống."
+          note: "Where cho nơi chốn."
+        - tag: "Cả mệnh đề"
+          en: "He missed the deadline, which annoyed the client."
+          vi: "Anh ấy trễ deadline, điều này làm khách khó chịu."
+          note: "Which chỉ cả việc trễ deadline, không dùng what."
+        - tag: "Whom"
+          en: "Mr. Nam, whom you met yesterday, is our new CTO."
+          vi: "Anh Nam, người bạn gặp hôm qua, là CTO mới của tụi mình."
+          note: "Whom làm tân ngữ (you met him), văn phong trang trọng; who cũng được."
+        - tag: "Bị động"
+          en: "The report, which was due on Friday, is still not finished."
+          vi: "Bản báo cáo, vốn hạn chót là thứ Sáu, vẫn chưa xong."
+          note: "Which + was + V3/tính từ."
+      contrast:
+        title: "Xác định hay không xác định"
+        rows:
+          - {
+              label: "Xác định",
+              note: "cho biết là ai/cái nào; không có dấu phẩy; dùng được that",
+              example: "The developer who wrote this has left.",
+            }
+          - {
+              label: "Không xác định",
+              note: "thông tin thêm; có dấu phẩy; không dùng that",
+              example: "Huy, who wrote this, has left.",
+            }
+          - {
+              label: "Bỏ đại từ",
+              note: "chỉ được ở mệnh đề xác định khi đại từ làm tân ngữ",
+              example: "The tool we use is free. / Jira, which we use, is not free.",
+            }
+        fixes:
+          - {
+              wrong: "My manager, that is from Hue, speaks four languages.",
+              right: "My manager, who is from Hue, speaks four languages.",
+              why: "Mệnh đề có dấu phẩy không dùng that.",
+            }
+          - {
+              wrong: "He missed the deadline, what annoyed the client.",
+              right: "He missed the deadline, which annoyed the client.",
+              why: "Chỉ cả mệnh đề phía trước dùng which, không dùng what.",
+            }
+          - {
+              wrong: "Hanoi which is the capital is busy.",
+              right: "Hanoi, which is the capital, is busy.",
+              why: "Tên riêng đã rõ → mệnh đề không xác định, cần dấu phẩy hai đầu.",
+            }
+  - slug: g-b2-participle-clauses
+    kind: grammar
+    title: { en: "Participle clauses", vi: "Mệnh đề phân từ" }
+    questions:
+      [
+        g-b2-participle-clauses-1,
+        g-b2-participle-clauses-2,
+        g-b2-participle-clauses-3,
+        g-b2-participle-clauses-4,
+        g-b2-participle-clauses-5,
+        g-b2-participle-clauses-6,
+        g-b2-participle-clauses-7,
+        g-b2-participle-clauses-8,
+      ]
+    grammar:
+      title_vi: "Mệnh đề phân từ (V-ing, V3, Having + V3)"
+      group: "Mệnh đề"
+      overview:
+        focus: "Mệnh đề phân từ rút gọn một mệnh đề phụ (when, because, after, which…) thành V-ing, V3 hoặc having + V3, giúp câu gọn và trang trọng hơn trong văn viết. Quy tắc quan trọng nhất: chủ ngữ ngầm của phân từ phải trùng với chủ ngữ của mệnh đề chính."
+        formulas:
+          - "V-ing…, S + V (chủ động, cùng lúc hoặc lý do)"
+          - "V3…, S + V (bị động)"
+          - "Having + V3…, S + V (xong việc trước rồi mới…)"
+        hook: "Having finished the report, she went home."
+      functions:
+        - title: "Chủ động: V-ing"
+          explain: "Thay cho when/while/because + S + V khi chủ ngữ tự làm hành động."
+          examples: ["Feeling tired, I decided to log off early."]
+        - title: "Bị động: V3"
+          explain: "Chủ ngữ chịu tác động của hành động."
+          examples: ["Written in Rust, the tool is extremely fast."]
+        - title: "Xong trước: Having + V3"
+          explain: "Nhấn mạnh việc thứ nhất xong rồi mới đến việc thứ hai, hoặc kinh nghiệm có từ trước."
+          examples: ["Having worked in Japan, he understands the culture well."]
+        - title: "Rút gọn mệnh đề quan hệ"
+          explain: "N + V-ing = N + who/which + đang V; N + V3 = N + which + được V."
+          examples: ["The people waiting outside are new candidates."]
+      structure:
+        forms:
+          - {
+              label: "V-ing",
+              pattern: "V-ing + …, S + V",
+              example: "Opening the file, I saw the error.",
+            }
+          - { label: "V3", pattern: "V3 + …, S + V", example: "Built in 1990, the house is old." }
+          - {
+              label: "Having V3",
+              pattern: "Having + V3 + …, S + V",
+              example: "Having eaten, we went back to work.",
+            }
+          - {
+              label: "Phủ định",
+              pattern: "Not + V-ing…, S + V",
+              example: "Not knowing the answer, I stayed quiet.",
+            }
+        steps:
+          - title: "Kiểm tra chủ ngữ"
+            explain: "Ai làm hành động trong mệnh đề phân từ? Người/vật đó phải là chủ ngữ của mệnh đề chính."
+            example: "Walking in, I noticed… (I walked in)"
+          - title: "Chủ động hay bị động?"
+            explain: "Chủ ngữ tự làm → V-ing; chủ ngữ bị/được làm → V3."
+            example: "Writing code… / Written in Go…"
+          - title: "Cần nhấn thứ tự trước sau?"
+            explain: "Việc đầu xong hẳn rồi mới đến việc sau → Having + V3."
+            example: "Having checked the logs, we found the bug."
+      examples:
+        - tag: "V-ing"
+          en: "Walking into the office, I noticed that everyone was smiling."
+          vi: "Bước vào văn phòng, mình để ý thấy mọi người đều đang cười."
+          note: "Mình là người bước vào và cũng là người để ý."
+        - tag: "Having V3"
+          en: "Having finished the report, she went home."
+          vi: "Viết xong báo cáo, chị ấy đi về."
+          note: "Xong báo cáo rồi mới về."
+        - tag: "V3"
+          en: "Written in Rust, the tool is extremely fast."
+          vi: "Được viết bằng Rust, công cụ này cực kỳ nhanh."
+          note: "Công cụ được viết → bị động → V3."
+        - tag: "Phủ định"
+          en: "Not knowing the password, he called IT support."
+          vi: "Không biết mật khẩu, anh ấy gọi cho bộ phận IT."
+          note: "Not + V-ing = vì không…"
+        - tag: "Rút gọn"
+          en: "The people waiting outside are new candidates."
+          vi: "Những người đang đợi bên ngoài là ứng viên mới."
+          note: "Waiting outside = who are waiting outside."
+        - tag: "V3 + năm"
+          en: "Built in 1990, the building needs a lot of repairs."
+          vi: "Được xây năm 1990, tòa nhà cần sửa chữa nhiều."
+          note: "Tòa nhà được xây → V3."
+        - tag: "Lý do"
+          en: "Feeling tired, I decided to log off early."
+          vi: "Cảm thấy mệt, mình quyết định đăng xuất sớm."
+          note: "Feeling tired = because I felt tired."
+        - tag: "Kinh nghiệm"
+          en: "Having worked in Japan, he understands the culture well."
+          vi: "Vì từng làm việc ở Nhật, anh ấy hiểu rõ văn hóa ở đó."
+          note: "Having + V3: trải nghiệm có từ trước."
+      contrast:
+        title: "V-ing, V3 hay Having + V3"
+        rows:
+          - {
+              label: "V-ing",
+              note: "chủ động, cùng lúc hoặc lý do",
+              example: "Using AI, we cut costs.",
+            }
+          - { label: "V3", note: "bị động", example: "Used by millions, the app is reliable." }
+          - {
+              label: "Having + V3",
+              note: "xong trước việc chính",
+              example: "Having used it for years, I trust it.",
+            }
+        fixes:
+          - {
+              wrong: "Writing in Rust, the tool is fast.",
+              right: "Written in Rust, the tool is fast.",
+              why: "Công cụ được viết (bị động) → V3.",
+            }
+          - {
+              wrong: "Having finish the report, she left.",
+              right: "Having finished the report, she left.",
+              why: "Having + V3.",
+            }
+          - {
+              wrong: "Walking into the office, the cake surprised me.",
+              right: "Walking into the office, I was surprised by the cake.",
+              why: "Chủ ngữ của mệnh đề chính phải là người bước vào (I), không phải cái bánh.",
+            }
+  - slug: g-b2-wish-past
+    kind: grammar
+    title: { en: "I wish / If only + past perfect", vi: "Ước về quá khứ" }
+    questions:
+      [
+        g-b2-wish-past-1,
+        g-b2-wish-past-2,
+        g-b2-wish-past-3,
+        g-b2-wish-past-4,
+        g-b2-wish-past-5,
+        g-b2-wish-past-6,
+        g-b2-wish-past-7,
+        g-b2-wish-past-8,
+      ]
+    grammar:
+      title_vi: "Câu ước về quá khứ: wish / if only + quá khứ hoàn thành"
+      group: "Câu điều kiện"
+      overview:
+        focus: "Để tiếc nuối một việc đã xảy ra (hoặc không xảy ra) trong quá khứ, dùng wish / if only + had + V3. Nó giống mệnh đề if của điều kiện loại 3. If only mạnh và cảm xúc hơn wish, thường kết thúc bằng dấu chấm than."
+        formulas:
+          - "S + wish(es) + S + had + V3"
+          - "S + wish(es) + S + hadn't + V3"
+          - "If only + S + had / hadn't + V3!"
+        hook: "If only we had backed up the files!"
+      functions:
+        - title: "Tiếc vì đã không làm"
+          explain: "Wish + had + V3: ước gì đã làm."
+          examples: ["I wish I had studied harder for the exam."]
+        - title: "Tiếc vì đã làm"
+          explain: "Wish + hadn't + V3: ước gì đã không làm."
+          examples: ["She wishes she hadn't accepted the offer."]
+        - title: "If only: cảm xúc mạnh"
+          explain: "Thường đứng một mình như một câu cảm thán."
+          examples: ["If only I hadn't sent that email!"]
+      structure:
+        forms:
+          - {
+              label: "Khẳng định",
+              pattern: "S + wish + S + had + V3",
+              example: "I wish I had known.",
+            }
+          - {
+              label: "Phủ định",
+              pattern: "S + wish + S + hadn't + V3",
+              example: "I wish I hadn't said that.",
+            }
+          - {
+              label: "If only",
+              pattern: "If only + S + had + V3!",
+              example: "If only I had listened!",
+            }
+          - {
+              label: "Ngôi thứ ba",
+              pattern: "He / She + wishes + …",
+              example: "He wishes he had come.",
+            }
+        steps:
+          - title: "Tiếc về hiện tại hay quá khứ?"
+            explain: "Hiện tại → wish + quá khứ đơn (I wish I knew). Quá khứ → wish + had + V3 (I wish I had known)."
+            example: "I wish I had known about it yesterday."
+          - title: "Lùi thì một bậc"
+            explain: "Sự thật quá khứ đơn (I didn't go) → ước dùng quá khứ hoàn thành (I wish I had gone)."
+            example: "I didn't go. → I wish I had gone."
+      examples:
+        - tag: "Tiếc"
+          en: "I wish I had studied harder for the exam."
+          vi: "Ước gì mình đã học chăm hơn cho kỳ thi."
+          note: "Thật ra đã không học chăm."
+        - tag: "If only"
+          en: "If only we had backed up the files!"
+          vi: "Giá mà tụi mình đã backup mấy file đó!"
+          note: "If only + had + V3: tiếc nuối mạnh."
+        - tag: "Đã làm"
+          en: "She wishes she hadn't accepted the offer."
+          vi: "Chị ấy ước gì mình đã không nhận lời mời làm việc đó."
+          note: "Đã nhận và giờ hối hận → hadn't + V3."
+        - tag: "Người khác"
+          en: "I wish you had told me earlier."
+          vi: "Phải chi bạn nói với mình sớm hơn thì tốt."
+          note: "Ước người khác đã làm khác."
+        - tag: "Nghề nghiệp"
+          en: "He wishes he had chosen a different career."
+          vi: "Anh ấy ước gì hồi đó đã chọn một nghề khác."
+          note: "Ngôi thứ ba: wishes."
+        - tag: "Email"
+          en: "If only I hadn't sent that email!"
+          vi: "Giá mà mình đừng gửi cái email đó!"
+          note: "Đã gửi rồi → hadn't sent."
+        - tag: "Đặt phòng"
+          en: "We wish we had booked the hotel earlier."
+          vi: "Tụi mình ước đã đặt khách sạn sớm hơn."
+          note: "Đặt muộn nên giờ hết phòng hoặc giá cao."
+        - tag: "Có mặt"
+          en: "I wish I had been there to see it."
+          vi: "Ước gì lúc đó mình có mặt ở đó để xem."
+          note: "Had been: be → been."
+      contrast:
+        title: "Ước về hiện tại hay quá khứ"
+        rows:
+          - {
+              label: "wish + quá khứ đơn",
+              note: "trái với hiện tại",
+              example: "I wish I spoke Japanese.",
+            }
+          - {
+              label: "wish + had + V3",
+              note: "trái với quá khứ",
+              example: "I wish I had learned Japanese.",
+            }
+          - {
+              label: "wish + would + V",
+              note: "muốn người khác thay đổi hành vi",
+              example: "I wish he would reply faster.",
+            }
+        fixes:
+          - {
+              wrong: "If only I didn't send that email!",
+              right: "If only I hadn't sent that email!",
+              why: "Tiếc về việc đã xảy ra → hadn't + V3.",
+            }
+          - {
+              wrong: "I wish I have told her.",
+              right: "I wish I had told her.",
+              why: "Sau wish (về quá khứ) dùng had + V3.",
+            }
+          - {
+              wrong: "I wish I would have gone.",
+              right: "I wish I had gone.",
+              why: "Không dùng would have sau wish; dùng had + V3.",
+            }
+  - slug: g-b2-would-used-to
+    kind: grammar
+    title: { en: "would vs used to", vi: "Would và used to cho thói quen cũ" }
+    questions:
+      [
+        g-b2-would-used-to-1,
+        g-b2-would-used-to-2,
+        g-b2-would-used-to-3,
+        g-b2-would-used-to-4,
+        g-b2-would-used-to-5,
+        g-b2-would-used-to-6,
+        g-b2-would-used-to-7,
+        g-b2-would-used-to-8,
+      ]
+    grammar:
+      title_vi: "Would và used to: kể về thói quen trong quá khứ"
+      group: "Thì động từ"
+      overview:
+        focus: "Khi kể chuyện ngày xưa, ngoài used to + V ta còn dùng would + V cho hành động lặp đi lặp lại. Nhưng would chỉ dùng cho hành động, không dùng cho trạng thái (be, have, live, like, know); trạng thái thì chỉ dùng used to. Would thường xuất hiện sau khi câu chuyện đã có mốc quá khứ rõ ràng."
+        formulas:
+          - "S + used to + V (thói quen hoặc trạng thái cũ)"
+          - "S + would + V (chỉ hành động lặp lại trong quá khứ)"
+          - "S + didn't use to + V · Did + S + use to + V…?"
+        hook: "When I was a junior dev, I would stay late every night."
+      functions:
+        - title: "Hành động lặp lại: would hoặc used to"
+          explain: "Cả hai đều được, would mang màu sắc hoài niệm khi kể chuyện."
+          examples: ["My grandfather would tell us stories every evening."]
+        - title: "Trạng thái: chỉ used to"
+          explain: "Be, have (sở hữu), live, like, know… không dùng với would."
+          examples: ["This building used to be a factory."]
+        - title: "Phủ định và câu hỏi: dùng used to"
+          explain: "Didn't use to / Did… use to…? tự nhiên hơn wouldn't khi nói thói quen cũ."
+          examples: ["Did you use to play games when you were a kid?"]
+      structure:
+        forms:
+          - {
+              label: "Used to",
+              pattern: "S + used to + V",
+              example: "We used to work in a tiny office.",
+            }
+          - {
+              label: "Would",
+              pattern: "S + would + V (hành động)",
+              example: "We would order pizza every Friday.",
+            }
+          - {
+              label: "Phủ định",
+              pattern: "S + didn't use to + V",
+              example: "I didn't use to drink coffee.",
+            }
+          - {
+              label: "Nghi vấn",
+              pattern: "Did + S + use to + V…?",
+              example: "Did she use to live here?",
+            }
+        steps:
+          - title: "Hành động hay trạng thái?"
+            explain: "Hành động lặp lại → would hoặc used to. Trạng thái → chỉ used to."
+            example: "I used to have a beard. (không phải I would have a beard)"
+          - title: "Đã có mốc quá khứ chưa?"
+            explain: "Would thường cần bối cảnh rõ (when I was a kid, back then)."
+            example: "Back then, we would walk to school."
+          - title: "Did… use to, không phải did… used to"
+            explain: "Sau did/didn't dùng use (không có d)."
+            example: "I didn't use to like it."
+      examples:
+        - tag: "Would"
+          en: "When I was a junior dev, I would stay late every night."
+          vi: "Hồi còn là dev junior, đêm nào mình cũng ở lại muộn."
+          note: "Hành động lặp lại, có mốc quá khứ rõ ràng."
+        - tag: "Trạng thái"
+          en: "Our office used to have a ping-pong table."
+          vi: "Trước đây văn phòng tụi mình từng có một cái bàn bóng bàn."
+          note: "Have (sở hữu) là trạng thái → chỉ used to."
+        - tag: "Nơi ở"
+          en: "She used to live in Hue before she moved to Saigon."
+          vi: "Chị ấy từng sống ở Huế trước khi chuyển vào Sài Gòn."
+          note: "Live là trạng thái → used to."
+        - tag: "Hoài niệm"
+          en: "Back then, our boss would buy bubble tea for the whole team every Friday."
+          vi: "Hồi đó, thứ Sáu nào sếp cũng mua trà sữa cho cả team."
+          note: "Would + V: hành động lặp lại."
+        - tag: "Phủ định"
+          en: "I didn't use to like coffee, but now I drink three cups a day."
+          vi: "Trước đây mình không thích cà phê, nhưng giờ ngày nào cũng uống ba ly."
+          note: "Didn't use to (không có d)."
+        - tag: "Câu hỏi"
+          en: "Did you use to play games when you were a kid?"
+          vi: "Hồi nhỏ bạn có hay chơi game không?"
+          note: "Did + S + use to + V…?"
+        - tag: "Kể chuyện"
+          en: "My grandfather would tell us stories every evening."
+          vi: "Hồi đó tối nào ông mình cũng kể chuyện cho tụi mình nghe."
+          note: "Would + V cho thói quen trong ký ức."
+        - tag: "Đã thay đổi"
+          en: "This building used to be a factory."
+          vi: "Tòa nhà này trước đây từng là một nhà máy."
+          note: "Be là trạng thái → used to."
+      contrast:
+        title: "Would, used to hay quá khứ đơn"
+        rows:
+          - {
+              label: "used to + V",
+              note: "thói quen hoặc trạng thái cũ, nay không còn",
+              example: "I used to be shy.",
+            }
+          - {
+              label: "would + V",
+              note: "chỉ hành động lặp lại, khi kể chuyện",
+              example: "I would hide in meetings.",
+            }
+          - {
+              label: "quá khứ đơn",
+              note: "việc xảy ra một lần hoặc có số lần cụ thể",
+              example: "I spoke at a meetup in 2022.",
+            }
+        fixes:
+          - {
+              wrong: "I didn't used to like coffee.",
+              right: "I didn't use to like coffee.",
+              why: "Sau didn't dùng use, không thêm d.",
+            }
+          - {
+              wrong: "She use to live in Hue.",
+              right: "She used to live in Hue.",
+              why: "Câu khẳng định dùng used to.",
+            }
+          - {
+              wrong: "Our office would have a ping-pong table.",
+              right: "Our office used to have a ping-pong table.",
+              why: "Have (sở hữu) là trạng thái, không dùng would.",
+            }
+  - slug: g-b2-contrast-linkers
+    kind: grammar
+    title: { en: "although / despite / however", vi: "Liên từ chỉ sự tương phản" }
+    questions:
+      [
+        g-b2-contrast-linkers-1,
+        g-b2-contrast-linkers-2,
+        g-b2-contrast-linkers-3,
+        g-b2-contrast-linkers-4,
+        g-b2-contrast-linkers-5,
+        g-b2-contrast-linkers-6,
+        g-b2-contrast-linkers-7,
+        g-b2-contrast-linkers-8,
+      ]
+    grammar:
+      title_vi: "Although, despite, in spite of, however"
+      group: "Liên từ"
+      overview:
+        focus: "Cả bốn từ đều mang nghĩa “mặc dù / tuy nhiên”, nhưng khác nhau ở thứ đứng sau. Although / even though + mệnh đề (S + V). Despite / in spite of + danh từ hoặc V-ing. However nối hai câu riêng, thường đứng đầu câu thứ hai và có dấu phẩy. Người Việt hay nói “Despite it was…” vì dịch thẳng “mặc dù”."
+        formulas:
+          - "Although / Even though + S + V, S + V"
+          - "Despite / In spite of + N / V-ing, S + V"
+          - "S + V. However, S + V."
+        hook: "Although it was raining, we went for a run."
+      functions:
+        - title: "Although / even though + mệnh đề"
+          explain: "Even though nhấn mạnh hơn although."
+          examples: ["Even though he is very experienced, he failed the interview."]
+        - title: "Despite / in spite of + N / V-ing"
+          explain: "Muốn dùng mệnh đề thì thêm the fact that."
+          examples: ["Despite working hard, they missed the deadline."]
+        - title: "However nối hai câu"
+          explain: "Đứng đầu câu sau (có dấu phẩy) hoặc cuối câu."
+          examples: ["The plan is good. However, it is too expensive."]
+      structure:
+        forms:
+          - {
+              label: "Although",
+              pattern: "Although + S + V, S + V",
+              example: "Although I was tired, I finished it.",
+            }
+          - {
+              label: "Despite",
+              pattern: "Despite + N / V-ing, S + V",
+              example: "Despite the noise, I slept well.",
+            }
+          - {
+              label: "In spite of",
+              pattern: "In spite of + N / V-ing, S + V",
+              example: "In spite of the rain, we went out.",
+            }
+          - {
+              label: "However",
+              pattern: "S + V. However, S + V.",
+              example: "It's cheap. However, it's slow.",
+            }
+        steps:
+          - title: "Phía sau là mệnh đề hay cụm danh từ?"
+            explain: "Có S + V → although/even though. Chỉ có danh từ hoặc V-ing → despite/in spite of."
+            example: "Although it rained… / Despite the rain…"
+          - title: "Đừng quên of"
+            explain: "In spite of, không phải in spite. Despite không có of."
+            example: "In spite of the cost… / Despite the cost…"
+          - title: "However tách câu"
+            explain: "Không dùng however như although để nối trong cùng một câu bằng dấu phẩy."
+            example: "It works. However, it's slow."
+      examples:
+        - tag: "Although"
+          en: "Although it was raining, we went for a run."
+          vi: "Mặc dù trời mưa, tụi mình vẫn đi chạy bộ."
+          note: "Although + mệnh đề (it was raining)."
+        - tag: "Despite + N"
+          en: "Despite the delay, the launch was a success."
+          vi: "Dù bị chậm trễ, buổi ra mắt vẫn thành công."
+          note: "Despite + danh từ (the delay)."
+        - tag: "In spite of"
+          en: "In spite of feeling sick, she gave the presentation."
+          vi: "Dù cảm thấy không khỏe, chị ấy vẫn thuyết trình."
+          note: "In spite of + V-ing."
+        - tag: "However"
+          en: "The plan is good. However, it is too expensive."
+          vi: "Kế hoạch thì tốt. Tuy nhiên, nó quá đắt."
+          note: "However đứng đầu câu thứ hai, có dấu phẩy."
+        - tag: "Even though"
+          en: "Even though he is very experienced, he failed the interview."
+          vi: "Dù rất nhiều kinh nghiệm, anh ấy vẫn trượt phỏng vấn."
+          note: "Even though nhấn mạnh sự bất ngờ."
+        - tag: "Despite + V-ing"
+          en: "Despite working hard, they missed the deadline."
+          vi: "Dù làm việc chăm chỉ, họ vẫn trễ deadline."
+          note: "Despite + V-ing."
+        - tag: "However cuối câu"
+          en: "The app is fast. It crashes a lot, however."
+          vi: "Ứng dụng chạy nhanh. Tuy vậy, nó hay bị crash."
+          note: "However cũng có thể đứng cuối câu, sau dấu phẩy."
+        - tag: "The fact that"
+          en: "Despite the fact that it was late, the shop was still open."
+          vi: "Dù đã muộn, cửa hàng vẫn còn mở."
+          note: "Despite the fact that + mệnh đề."
+      contrast:
+        title: "Theo sau là gì"
+        rows:
+          - {
+              label: "although / even though",
+              note: "+ mệnh đề (S + V)",
+              example: "Although it was cheap, …",
+            }
+          - {
+              label: "despite / in spite of",
+              note: "+ danh từ / V-ing",
+              example: "Despite the price, …",
+            }
+          - {
+              label: "however",
+              note: "nối hai câu riêng biệt",
+              example: "It was cheap. However, …",
+            }
+        fixes:
+          - {
+              wrong: "Despite it was raining, we went out.",
+              right: "Although it was raining, we went out.",
+              why: "Theo sau là mệnh đề → although, không phải despite.",
+            }
+          - {
+              wrong: "Although the delay, the launch was a success.",
+              right: "Despite the delay, the launch was a success.",
+              why: "Theo sau là danh từ → despite.",
+            }
+          - {
+              wrong: "In spite feeling sick, she gave the talk.",
+              right: "In spite of feeling sick, she gave the talk.",
+              why: "In spite luôn đi với of.",
+            }
+  - slug: g-b2-purpose-linkers
+    kind: grammar
+    title: { en: "so that / in order to / so as to", vi: "Liên từ chỉ mục đích" }
+    questions:
+      [
+        g-b2-purpose-linkers-1,
+        g-b2-purpose-linkers-2,
+        g-b2-purpose-linkers-3,
+        g-b2-purpose-linkers-4,
+        g-b2-purpose-linkers-5,
+        g-b2-purpose-linkers-6,
+        g-b2-purpose-linkers-7,
+        g-b2-purpose-linkers-8,
+      ]
+    grammar:
+      title_vi: "So that, in order to, so as to (để mà)"
+      group: "Liên từ"
+      overview:
+        focus: "Tiếng Việt chỉ có một chữ “để”, tiếng Anh có nhiều cách. To V là đơn giản nhất. In order to / so as to + V trang trọng hơn, và phủ định là in order not to / so as not to. So that + mệnh đề (thường có can/could/will/would) dùng khi muốn nêu chủ ngữ riêng hoặc khả năng. Không dùng for + V."
+        formulas:
+          - "S + V + in order to / so as to + V"
+          - "S + V + in order not to / so as not to + V"
+          - "S + V + so that + S + can / could / will / would + V"
+        hook: "I left early so that I could catch the last bus."
+      functions:
+        - title: "In order to / so as to + V"
+          explain: "Cùng chủ ngữ với mệnh đề chính, văn phong trang trọng."
+          examples: ["We added caching in order to reduce server load."]
+        - title: "Phủ định: not đứng trước to"
+          explain: "So as not to / in order not to."
+          examples: ["She whispered so as not to wake the baby."]
+        - title: "So that + mệnh đề"
+          explain: "Dùng được khi chủ ngữ khác nhau; thường có can/could/won't/wouldn't."
+          examples: ["He spoke slowly so that everyone could understand him."]
+      structure:
+        forms:
+          - {
+              label: "In order to",
+              pattern: "… in order to + V",
+              example: "I called in order to confirm.",
+            }
+          - {
+              label: "So as to",
+              pattern: "… so as (not) to + V",
+              example: "I left early so as not to be late.",
+            }
+          - {
+              label: "So that (hiện tại)",
+              pattern: "… so that + S + can / will + V",
+              example: "Label it so that we can find it.",
+            }
+          - {
+              label: "So that (quá khứ)",
+              pattern: "… so that + S + could / would + V",
+              example: "I saved it so that I could reuse it.",
+            }
+        steps:
+          - title: "Phía sau là V hay mệnh đề?"
+            explain: "V nguyên mẫu → (in order / so as) to. Có chủ ngữ riêng → so that."
+            example: "…to save time. / …so that we can save time."
+          - title: "Chọn modal theo thì"
+            explain: "Câu chính hiện tại/tương lai → can/will; quá khứ → could/would."
+            example: "I wrote it down so that I wouldn't forget."
+          - title: "Không dùng for + V"
+            explain: "For + danh từ (for the exam), không phải for + động từ."
+            example: "I came to learn. (không phải for learn)"
+      examples:
+        - tag: "So that"
+          en: "I left early so that I could catch the last bus."
+          vi: "Mình về sớm để kịp chuyến xe buýt cuối."
+          note: "Câu chính quá khứ → so that + could."
+        - tag: "In order to"
+          en: "We added caching in order to reduce server load."
+          vi: "Tụi mình thêm cache để giảm tải cho server."
+          note: "In order to + V, văn phong kỹ thuật, trang trọng."
+        - tag: "So as not to"
+          en: "She whispered so as not to wake the baby."
+          vi: "Chị ấy nói thầm để không đánh thức em bé."
+          note: "Phủ định: so as not to + V."
+        - tag: "Nhắc nhở"
+          en: "Write it down so that you don't forget."
+          vi: "Ghi lại đi để khỏi quên."
+          note: "So that + S + don't + V cho hiện tại."
+        - tag: "Đầu câu"
+          en: "In order to apply, you need a valid passport."
+          vi: "Để nộp đơn, bạn cần có hộ chiếu còn hạn."
+          note: "In order to có thể đứng đầu câu, sau đó là dấu phẩy."
+        - tag: "Mục tiêu"
+          en: "I'm saving money so that I can buy a house."
+          vi: "Mình đang tiết kiệm tiền để có thể mua nhà."
+          note: "So that + can cho hiện tại/tương lai."
+        - tag: "Chủ ngữ khác"
+          en: "He spoke slowly so that everyone could understand him."
+          vi: "Anh ấy nói chậm để mọi người đều hiểu được."
+          note: "Chủ ngữ khác (everyone) → so that."
+        - tag: "So as to"
+          en: "We started early so as to avoid the traffic."
+          vi: "Tụi mình xuất phát sớm để tránh kẹt xe."
+          note: "So as to + V."
+      contrast:
+        title: "Các cách nói “để”"
+        rows:
+          - { label: "to V", note: "đơn giản, thông dụng nhất", example: "I came to help." }
+          - {
+              label: "in order to / so as to",
+              note: "trang trọng hơn; phủ định: in order not to",
+              example: "We restarted it in order to clear the cache.",
+            }
+          - {
+              label: "so that + mệnh đề",
+              note: "có chủ ngữ và modal riêng",
+              example: "We restarted it so that users could log in.",
+            }
+        fixes:
+          - {
+              wrong: "I left early for catch the bus.",
+              right: "I left early to catch the bus.",
+              why: "Chỉ mục đích bằng to + V, không dùng for + V.",
+            }
+          - {
+              wrong: "Write it down so that you not forget.",
+              right: "Write it down so that you don't forget.",
+              why: "So that + mệnh đề đầy đủ, phủ định cần trợ động từ (don't).",
+            }
+          - {
+              wrong: "We left early in order to we could avoid traffic.",
+              right: "We left early so that we could avoid traffic.",
+              why: "Có chủ ngữ + modal → so that; in order to chỉ đi với V.",
+            }
+  - slug: g-b2-supposed-bound
+    kind: grammar
+    title:
+      {
+        en: "be supposed to / bound to / likely to",
+        vi: "Be supposed to, be bound to, be likely to",
+      }
+    questions:
+      [
+        g-b2-supposed-bound-1,
+        g-b2-supposed-bound-2,
+        g-b2-supposed-bound-3,
+        g-b2-supposed-bound-4,
+        g-b2-supposed-bound-5,
+        g-b2-supposed-bound-6,
+        g-b2-supposed-bound-7,
+        g-b2-supposed-bound-8,
+      ]
+    grammar:
+      title_vi: "Be supposed to, be bound to, be likely to + V"
+      group: "Cấu trúc câu"
+      overview:
+        focus: "Ba cụm be + tính từ/phân từ + to V này nói về mức độ chắc chắn hoặc kỳ vọng. Be supposed to: theo quy định/kế hoạch thì phải (was supposed to: lẽ ra, nhưng không), hoặc “nghe nói”. Be bound to: chắc chắn sẽ. Be likely / unlikely to: có / khó có khả năng. Đừng quên be và to."
+        formulas:
+          - "S + be + supposed to + V (theo quy định, kỳ vọng)"
+          - "S + be + bound to + V (chắc chắn sẽ)"
+          - "S + be + likely / unlikely to + V (có / khó có khả năng)"
+        hook: "The meeting was supposed to start at 9, but it started at 9:30."
+      functions:
+        - title: "Quy định, nghĩa vụ"
+          explain: "Be supposed to: theo luật lệ hay thỏa thuận thì phải làm."
+          examples: ["You're supposed to wear your badge at all times."]
+        - title: "Lẽ ra (nhưng không)"
+          explain: "Was/were supposed to: kế hoạch đã không diễn ra."
+          examples: ["The meeting was supposed to start at 9, but it started at 9:30."]
+        - title: "Chắc chắn sẽ xảy ra"
+          explain: "Be bound to: người nói rất tự tin vào dự đoán."
+          examples: ["With so many users online, the server is bound to crash."]
+        - title: "Có khả năng"
+          explain: "Be likely / unlikely to: đánh giá xác suất, văn phong trung tính."
+          examples: ["Prices are likely to rise next year."]
+      structure:
+        forms:
+          - {
+              label: "Supposed to",
+              pattern: "S + am/is/are + (not) supposed to + V",
+              example: "We're not supposed to smoke here.",
+            }
+          - {
+              label: "Lẽ ra",
+              pattern: "S + was/were + supposed to + V",
+              example: "It was supposed to be easy.",
+            }
+          - {
+              label: "Bound to",
+              pattern: "S + be + bound to + V",
+              example: "It's bound to happen.",
+            }
+          - {
+              label: "Likely to",
+              pattern: "S + be + (un)likely to + V",
+              example: "He's unlikely to agree.",
+            }
+        steps:
+          - title: "Bạn muốn nói gì?"
+            explain: "Quy định/kế hoạch → supposed; chắc chắn → bound; có khả năng → likely."
+            example: "It's supposed to / bound to / likely to rain."
+          - title: "Giữ đủ be và to"
+            explain: "Thiếu be (It supposed to) hoặc thiếu d (suppose to) là lỗi rất phổ biến."
+            example: "It was supposed to work."
+          - title: "Sau to là V nguyên mẫu"
+            explain: "Không dùng V-ing sau to trong các cụm này."
+            example: "He's bound to be late. (không phải to being)"
+      examples:
+        - tag: "Quy định"
+          en: "You're supposed to wear your badge at all times."
+          vi: "Theo quy định, bạn phải đeo thẻ nhân viên mọi lúc."
+          note: "Be supposed to: luật lệ."
+        - tag: "Lẽ ra"
+          en: "The meeting was supposed to start at 9, but it started at 9:30."
+          vi: "Cuộc họp lẽ ra bắt đầu lúc 9 giờ, nhưng 9 rưỡi mới bắt đầu."
+          note: "Was supposed to: kế hoạch không thành."
+        - tag: "Chắc chắn"
+          en: "With so many users online, the server is bound to crash."
+          vi: "Với từng ấy người dùng online, server chắc chắn sẽ sập."
+          note: "Be bound to: dự đoán rất tự tin."
+        - tag: "Có khả năng"
+          en: "Prices are likely to rise next year."
+          vi: "Giá cả có khả năng sẽ tăng vào năm sau."
+          note: "Be likely to: xác suất cao."
+        - tag: "Không được phép"
+          en: "We're not supposed to share these files outside the company."
+          vi: "Tụi mình không được phép chia sẻ những file này ra ngoài công ty."
+          note: "Not supposed to: quy định cấm."
+        - tag: "Khó có khả năng"
+          en: "She is unlikely to accept the offer."
+          vi: "Chị ấy khó có khả năng nhận lời mời đó."
+          note: "Be unlikely to: xác suất thấp."
+        - tag: "Lúc nào cũng vậy"
+          en: "He's bound to be late. He always is."
+          vi: "Anh ấy chắc chắn sẽ đến trễ. Lúc nào cũng vậy."
+          note: "Bound to dựa trên kinh nghiệm."
+        - tag: "Nghe nói"
+          en: "This movie is supposed to be really good."
+          vi: "Nghe nói bộ phim này hay lắm."
+          note: "Be supposed to còn có nghĩa “người ta nói là”."
+      contrast:
+        title: "Mức độ chắc chắn và kỳ vọng"
+        rows:
+          - {
+              label: "be supposed to",
+              note: "theo quy định, kế hoạch hoặc lời đồn",
+              example: "The bus is supposed to come at 7.",
+            }
+          - {
+              label: "was supposed to",
+              note: "lẽ ra (nhưng đã không)",
+              example: "It was supposed to come at 7.",
+            }
+          - { label: "be bound to", note: "chắc chắn sẽ", example: "It's bound to be late." }
+          - { label: "be likely to", note: "có khả năng", example: "It's likely to be late." }
+        fixes:
+          - {
+              wrong: "The meeting supposed to start at 9.",
+              right: "The meeting was supposed to start at 9.",
+              why: "Cần động từ be: was supposed to.",
+            }
+          - {
+              wrong: "He is bound to being late.",
+              right: "He is bound to be late.",
+              why: "Sau to là V nguyên mẫu.",
+            }
+          - {
+              wrong: "Prices are likely rising next year.",
+              right: "Prices are likely to rise next year.",
+              why: "Be likely + to V.",
+            }

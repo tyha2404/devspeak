@@ -1,0 +1,14 @@
+slug: topic-education
+stage: vocab
+sort: 4
+code: T04
+kind: topic
+cefr: B1
+character: linh
+status: draft
+title: { en: "Education & Learning", vi: "Giáo dục & học tập" }
+summary_vi: "Từ vựng về trường lớp, bằng cấp, thi cử, học online và tự học suốt đời."
+can_do:
+  - "Nói về quá trình học, bằng cấp và các khoá học đã tham gia"
+  - "Hiểu các từ về thi cử, học bổng và học trực tuyến"
+lessons: []

@@ -1,0 +1,14 @@
+slug: topic-media-news
+stage: vocab
+sort: 9
+code: T09
+kind: topic
+cefr: B2
+character: linh
+status: draft
+title: { en: "Media & News", vi: "Truyền thông & tin tức" }
+summary_vi: "Từ vựng về báo chí, mạng xã hội, tin giả, quảng cáo và cách đánh giá nguồn tin."
+can_do:
+  - "Tóm tắt một bản tin và nói nguồn tin đáng tin hay không"
+  - "Bàn luận về ảnh hưởng của mạng xã hội và quảng cáo"
+lessons: []

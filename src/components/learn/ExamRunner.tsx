@@ -7,8 +7,11 @@ import { btn } from "@/components/app/ui";
 import { api, ApiError } from "@/lib/client/api";
 import { sfx } from "@/lib/client/sfx";
 import type { ExamResult, ExamStart } from "@/lib/contracts/learn";
+import { TracksHeader } from "@/components/app/TracksHeader";
 import { useMe } from "@/stores/meStore";
 import { QuizHost } from "./QuizHost";
+import { TestIntro, TrackResult, TrackStepper } from "./TrackParts";
+import { TrackQuiz } from "./TrackQuiz";
 
 const COPY = {
   "test-out": {
@@ -24,7 +27,18 @@ const COPY = {
 };
 
 /** Unit test-out and stage checkpoint: one quiz session, graded and recorded on the server. */
-export function ExamRunner({ kind, id }: { kind: "test-out" | "checkpoint"; id: number }) {
+export function ExamRunner({
+  kind,
+  id,
+  backHref = "/career/path",
+  track = false,
+}: {
+  kind: "test-out" | "checkpoint";
+  id: number;
+  backHref?: string;
+  /** A study-track level test-out: timed, one answer per question, ForumFlash layout. */
+  track?: boolean;
+}) {
   const [exam, setExam] = useState<ExamStart | null>(null);
   const [started, setStarted] = useState(false);
   const [result, setResult] = useState<ExamResult | null>(null);
@@ -60,11 +74,76 @@ export function ExamRunner({ kind, id }: { kind: "test-out" | "checkpoint"; id: 
     }
   };
 
+  if (track)
+    return (
+      <div className="min-h-dvh">
+        <TracksHeader />
+        <TrackStepper exitHref={backHref} phase={result ? 2 : started ? 1 : 0} />
+        <main className="mx-auto max-w-3xl px-4 py-6 sm:py-10">
+          {error && <p className="text-bad mb-4">{error}</p>}
+          {!started && !result && (
+            <TestIntro
+              eyebrow="Bài kiểm tra vượt cấp"
+              title="Kiểm tra kiến thức cả bậc"
+              text="Câu hỏi trộn từ mọi bài của bậc. Đạt 80% là mở toàn bộ bài của bậc này và bậc kế tiếp; các bài vẫn giữ trạng thái chưa hoàn thành cho tới khi bạn học."
+              total={16}
+              passPct={80}
+            >
+              <button onClick={start} className={btn.primary} autoFocus>
+                Làm bài kiểm tra →
+              </button>
+            </TestIntro>
+          )}
+          {started && exam && !result && (
+            <TrackQuiz
+              sessionId={exam.sessionId}
+              label="Kiểm tra vượt cấp"
+              bands
+              onDone={() => void finish()}
+            />
+          )}
+          {result && (
+            <TrackResult
+              title={result.passed ? "Bậc tiếp theo đã mở." : "Bạn đã hoàn thành bài kiểm tra."}
+              passed={result.passed}
+              pct={result.pct}
+              stars={null}
+              xp={result.xp ?? 0}
+              correct={result.correct ?? 0}
+              total={result.total ?? exam?.total ?? 0}
+              passPct={exam?.passPct ?? 80}
+              note={
+                result.passed
+                  ? "Các bài của bậc này và bậc kế tiếp đã mở. Sao chỉ được ghi nhận khi bạn hoàn thành từng bài."
+                  : undefined
+              }
+              actions={
+                result.passed ? (
+                  <Link href={backHref} className={btn.primary}>
+                    Tiếp tục lộ trình →
+                  </Link>
+                ) : (
+                  <>
+                    <button onClick={() => location.reload()} className={btn.primary}>
+                      Làm lại bài
+                    </button>
+                    <Link href={backHref} className={btn.secondary}>
+                      Trở về lộ trình
+                    </Link>
+                  </>
+                )
+              }
+            />
+          )}
+        </main>
+      </div>
+    );
+
   return (
     <div className="min-h-dvh">
       <header className="border-line border-b">
         <div className="mx-auto flex max-w-2xl items-center gap-3 px-4 py-3">
-          <Link href="/path" aria-label="Thoát" className={btn.ghost}>
+          <Link href={backHref} aria-label="Thoát" className={btn.ghost}>
             <X size={22} aria-hidden />
           </Link>
           <p className="font-semibold">{copy.title}</p>
@@ -123,7 +202,7 @@ export function ExamRunner({ kind, id }: { kind: "test-out" | "checkpoint"; id: 
                   </button>
                 )
               )}
-              <Link href="/path" className={btn.secondary}>
+              <Link href={backHref} className={btn.secondary}>
                 Xem lộ trình
               </Link>
             </div>

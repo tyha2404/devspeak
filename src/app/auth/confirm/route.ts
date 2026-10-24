@@ -10,7 +10,7 @@ export async function GET(req: Request) {
   if (token_hash && type) {
     const supabase = await createClient();
     const { error } = await supabase.auth.verifyOtp({ token_hash, type });
-    if (!error) return NextResponse.redirect(new URL("/learn", url.origin));
+    if (!error) return NextResponse.redirect(new URL("/", url.origin));
   }
   return NextResponse.redirect(new URL("/login?error=link", url.origin));
 }

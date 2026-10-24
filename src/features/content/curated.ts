@@ -3,7 +3,7 @@ import { z } from "zod";
 // Authoring formats for hand-written content in content/curated/**.yaml.
 // The seed script turns these into DB rows; AI-generated items use the same question shapes.
 
-export const Cefr = z.enum(["A1", "A2", "B1", "B2", "C1"]);
+export const Cefr = z.enum(["A1", "A2", "B1", "B2", "C1", "C2"]);
 export const NpcId = z.enum([
   "linh",
   "tuan",

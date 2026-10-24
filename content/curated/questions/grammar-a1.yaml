@@ -1,0 +1,966 @@
+# Grammar track A1 tests. Original items; answers stay server-side.
+- {
+    slug: g-a1-be-1,
+    type: fill_blank,
+    cefr: A1,
+    topic: grammar,
+    skin: slack,
+    sentence: "I ___ a frontend developer.",
+    options: [am, is, are, be],
+    answer: 0,
+    explanation_vi: "Chủ ngữ I luôn đi với am.",
+  }
+- {
+    slug: g-a1-be-2,
+    type: fill_blank,
+    cefr: A1,
+    topic: grammar,
+    skin: slack,
+    sentence: "The unit tests ___ green now.",
+    options: [am, is, are, be],
+    answer: 2,
+    explanation_vi: "The unit tests là chủ ngữ số nhiều nên dùng are.",
+  }
+- {
+    slug: g-a1-be-3,
+    type: fill_blank,
+    cefr: A1,
+    topic: grammar,
+    skin: slack,
+    sentence: "My manager ___ in a meeting.",
+    accepted: [is, "'s"],
+    explanation_vi: "My manager = she/he, ngôi thứ ba số ít → is.",
+  }
+- {
+    slug: g-a1-be-4,
+    type: mcq_meaning,
+    cefr: A1,
+    topic: grammar,
+    stem: "Chọn câu đúng.",
+    question: "Câu nào đúng ngữ pháp?",
+    options: ["She are on leave today.", "She is on leave today.", "She be on leave today."],
+    answer: 1,
+    explanation_vi: "She là ngôi thứ ba số ít nên dùng is.",
+  }
+- {
+    slug: g-a1-be-5,
+    type: mcq_meaning,
+    cefr: A1,
+    topic: grammar,
+    stem: "Chọn câu hỏi đúng.",
+    question: "Bạn muốn hỏi đồng nghiệp có rảnh không.",
+    options: ["Do you are free?", "Are you free?", "You are free?", "Is you free?"],
+    answer: 1,
+    explanation_vi: "Câu hỏi với be: đảo be lên trước chủ ngữ, không thêm do.",
+  }
+- {
+    slug: g-a1-be-6,
+    type: fill_blank,
+    cefr: A1,
+    topic: grammar,
+    skin: jira,
+    sentence: "This bug ___ not critical.",
+    accepted: [is],
+    explanation_vi: "Phủ định của be: is + not. This bug là số ít.",
+  }
+- {
+    slug: g-a1-be-7,
+    type: mcq_meaning,
+    cefr: A1,
+    topic: grammar,
+    stem: "Nói tuổi bằng tiếng Anh.",
+    question: "“Tôi 23 tuổi” là…",
+    options: ["I have 23 years old.", "I am 23 years old.", "I have 23 years."],
+    answer: 1,
+    explanation_vi: "Tiếng Anh dùng be để nói tuổi: I am 23 (years old).",
+  }
+- {
+    slug: g-a1-be-8,
+    type: fill_blank,
+    cefr: A1,
+    topic: grammar,
+    skin: slack,
+    sentence: "___ is cold in the server room.",
+    options: [It, This, There, He],
+    answer: 0,
+    explanation_vi: "Nói về thời tiết, nhiệt độ dùng chủ ngữ hình thức It.",
+  }
+- {
+    slug: g-a1-present-simple-1,
+    type: fill_blank,
+    cefr: A1,
+    topic: grammar,
+    skin: slack,
+    sentence: "Lan ___ code reviews every afternoon.",
+    options: [do, does, doing, is do],
+    answer: 1,
+    explanation_vi: "Lan = she, ngôi thứ ba số ít → does (do + es).",
+  }
+- {
+    slug: g-a1-present-simple-2,
+    type: fill_blank,
+    cefr: A1,
+    topic: grammar,
+    skin: slack,
+    sentence: "We ___ stand-up at 9:15 every day.",
+    options: [has, having, have, are have],
+    answer: 2,
+    explanation_vi: "We đi với động từ nguyên mẫu: have.",
+  }
+- {
+    slug: g-a1-present-simple-3,
+    type: fill_blank,
+    cefr: A1,
+    topic: grammar,
+    skin: jira,
+    sentence: "The login page ___ load on old phones.",
+    options: [don't, doesn't, isn't, not],
+    answer: 1,
+    explanation_vi: "The login page = it → phủ định dùng doesn't + động từ nguyên mẫu.",
+  }
+- {
+    slug: g-a1-present-simple-4,
+    type: fill_blank,
+    cefr: A1,
+    topic: grammar,
+    skin: slack,
+    sentence: "___ your developers use Jira or Linear?",
+    options: [Do, Does, Is, Are],
+    answer: 0,
+    explanation_vi: "Your developers là số nhiều (= they) → Do. Không dùng Is/Are với động từ thường use.",
+  }
+- {
+    slug: g-a1-present-simple-5,
+    type: fill_blank,
+    cefr: A1,
+    topic: grammar,
+    skin: vscode,
+    sentence: "This function ___ (return) an empty array if nothing matches.",
+    accepted: [returns],
+    explanation_vi: "This function = it → thêm -s: returns. Mô tả cách code hoạt động dùng hiện tại đơn.",
+  }
+- {
+    slug: g-a1-present-simple-6,
+    type: fill_blank,
+    cefr: A1,
+    topic: grammar,
+    skin: slack,
+    sentence: "I ___ (not / drink) coffee after 4 p.m.",
+    accepted: ["don't drink", "do not drink"],
+    explanation_vi: "I đi với don't (do not) + động từ nguyên mẫu.",
+  }
+- {
+    slug: g-a1-present-simple-7,
+    type: mcq_meaning,
+    cefr: A1,
+    topic: grammar,
+    stem: "Chọn câu đúng.",
+    question: "Câu nào đúng ngữ pháp?",
+    options:
+      [
+        "He doesn't likes long meetings.",
+        "He don't like long meetings.",
+        "He doesn't like long meetings.",
+        "He not like long meetings.",
+      ],
+    answer: 2,
+    explanation_vi: "He → doesn't, và sau doesn't động từ trở về nguyên mẫu: like.",
+  }
+- {
+    slug: g-a1-present-simple-8,
+    type: mcq_meaning,
+    cefr: A1,
+    topic: grammar,
+    stem: "Chọn câu hỏi đúng.",
+    question: "Bạn muốn hỏi chị Hà có làm việc từ xa không.",
+    options:
+      [
+        "Does Ha works remotely?",
+        "Is Ha work remotely?",
+        "Do Ha work remotely?",
+        "Does Ha work remotely?",
+      ],
+    answer: 3,
+    explanation_vi: "Ha = she → Does + chủ ngữ + động từ nguyên mẫu (work, không thêm -s).",
+  }
+- {
+    slug: g-a1-articles-1,
+    type: fill_blank,
+    cefr: A1,
+    topic: grammar,
+    skin: slack,
+    sentence: "Quick question: can I ask you ___ favour?",
+    options: [a, an, the, "-"],
+    answer: 0,
+    explanation_vi: "Favour đếm được, nhắc lần đầu, bắt đầu bằng âm phụ âm → a.",
+  }
+- {
+    slug: g-a1-articles-2,
+    type: fill_blank,
+    cefr: A1,
+    topic: grammar,
+    skin: jira,
+    sentence: "The job fails with ___ error on line 42.",
+    options: [a, an, the, "-"],
+    answer: 1,
+    explanation_vi: "Error bắt đầu bằng âm nguyên âm và được nhắc lần đầu → an.",
+  }
+- {
+    slug: g-a1-articles-3,
+    type: fill_blank,
+    cefr: A1,
+    topic: grammar,
+    skin: slack,
+    sentence: "I booked a room for the demo. ___ room is on the 5th floor.",
+    options: [A, An, The, "-"],
+    answer: 2,
+    explanation_vi: "Room đã được nhắc ở câu trước, cả hai bên biết là phòng nào → The.",
+  }
+- {
+    slug: g-a1-articles-4,
+    type: fill_blank,
+    cefr: A1,
+    topic: grammar,
+    skin: email,
+    sentence: "Each new user receives ___ welcome email.",
+    options: [an, a, the, "-"],
+    answer: 1,
+    explanation_vi: "Welcome bắt đầu bằng âm phụ âm /w/ → a. Nhớ: chọn theo âm của từ ngay sau mạo từ.",
+  }
+- {
+    slug: g-a1-articles-5,
+    type: fill_blank,
+    cefr: A1,
+    topic: grammar,
+    skin: slack,
+    sentence: "Our meeting takes about ___ hour.",
+    accepted: [an],
+    explanation_vi: "Chữ h trong hour câm, âm đầu là nguyên âm → an.",
+  }
+- {
+    slug: g-a1-articles-6,
+    type: fill_blank,
+    cefr: A1,
+    topic: grammar,
+    skin: slack,
+    sentence: "Can you share ___ link to the design file you mentioned?",
+    accepted: [the],
+    explanation_vi: "Đường link cụ thể của file đã nhắc đến → the.",
+  }
+- {
+    slug: g-a1-articles-7,
+    type: mcq_meaning,
+    cefr: A1,
+    topic: grammar,
+    stem: "Chọn câu đúng.",
+    question: "Giới thiệu nghề nghiệp của bạn.",
+    options:
+      [
+        "I am software engineer.",
+        "I am a software engineer.",
+        "I am the software engineer.",
+        "I am an software engineer.",
+      ],
+    answer: 1,
+    explanation_vi: "Nghề nghiệp số ít cần a/an; software bắt đầu bằng âm phụ âm → a.",
+  }
+- {
+    slug: g-a1-articles-8,
+    type: mcq_meaning,
+    cefr: A1,
+    topic: grammar,
+    stem: "Chọn câu đúng.",
+    question: "Câu nào đúng ngữ pháp?",
+    options:
+      [
+        "Thanks for a feedback!",
+        "Thanks for an feedback!",
+        "Thanks for the feedbacks!",
+        "Thanks for the feedback!",
+      ],
+    answer: 3,
+    explanation_vi: "Feedback không đếm được: không dùng a/an, không thêm -s. Góp ý cụ thể vừa nhận → the feedback.",
+  }
+# --- Plurals & countable/uncountable
+- {
+    slug: g-a1-plurals-1,
+    type: fill_blank,
+    cefr: A1,
+    topic: grammar,
+    skin: slack,
+    sentence: "We need two more ___ for the new interns.",
+    options: [laptop, laptops, laptopes, a laptop],
+    answer: 1,
+    explanation_vi: "Sau two, danh từ đếm được phải ở số nhiều: laptops.",
+  }
+- {
+    slug: g-a1-plurals-2,
+    type: fill_blank,
+    cefr: A1,
+    topic: grammar,
+    skin: jira,
+    sentence: "The database runs a lot of slow ___ every second.",
+    options: [query, querys, queries, queryes],
+    answer: 2,
+    explanation_vi: "Query tận cùng bằng phụ âm + y → bỏ y, thêm -ies: queries.",
+  }
+- {
+    slug: g-a1-plurals-3,
+    type: fill_blank,
+    cefr: A1,
+    topic: grammar,
+    skin: slack,
+    sentence: "Ten ___ join the call every morning.",
+    options: [people, peoples, person, a person],
+    answer: 0,
+    explanation_vi: "Số nhiều bất quy tắc của person là people.",
+  }
+- {
+    slug: g-a1-plurals-4,
+    type: fill_blank,
+    cefr: A1,
+    topic: grammar,
+    skin: email,
+    sentence: "The ___ in this document is out of date.",
+    options: [informations, information, an information, informationes],
+    answer: 1,
+    explanation_vi: "Information không đếm được: không -s, không dùng an; động từ đi kèm là is.",
+  }
+- {
+    slug: g-a1-plurals-5,
+    type: fill_blank,
+    cefr: A1,
+    topic: grammar,
+    skin: slack,
+    sentence: "My team lead has two ___ (child).",
+    accepted: [children],
+    explanation_vi: "Child có số nhiều bất quy tắc: children.",
+  }
+- {
+    slug: g-a1-plurals-6,
+    type: fill_blank,
+    cefr: A1,
+    topic: grammar,
+    skin: slack,
+    sentence: "We have three ___ (box) of old cables in the storage room.",
+    accepted: [boxes],
+    explanation_vi: "Box tận cùng bằng -x nên thêm -es: boxes.",
+  }
+- {
+    slug: g-a1-plurals-7,
+    type: mcq_meaning,
+    cefr: A1,
+    topic: grammar,
+    stem: "Chọn câu đúng.",
+    question: "Bạn muốn xin anh mentor vài lời khuyên.",
+    options:
+      [
+        "Can you give me some advices?",
+        "Can you give me an advice?",
+        "Can you give me some advice?",
+        "Can you give me advices?",
+      ],
+    answer: 2,
+    explanation_vi: "Advice không đếm được: không thêm -s, không dùng an; dùng some advice.",
+  }
+- {
+    slug: g-a1-plurals-8,
+    type: mcq_meaning,
+    cefr: A1,
+    topic: grammar,
+    stem: "Chọn câu đúng.",
+    question: "Câu nào đúng ngữ pháp?",
+    options:
+      [
+        "The software are free.",
+        "The software is free.",
+        "The softwares is free.",
+        "The softwares are free.",
+      ],
+    answer: 1,
+    explanation_vi: "Software không đếm được nên không có dạng -s và động từ chia số ít: is.",
+  }
+# --- This, that, these, those
+- {
+    slug: g-a1-this-that-1,
+    type: fill_blank,
+    cefr: A1,
+    topic: grammar,
+    skin: slack,
+    sentence: "Look at ___ errors here on my screen.",
+    options: [this, that, these, those],
+    answer: 2,
+    explanation_vi: "Errors số nhiều và ở ngay trên màn hình của mình (gần) → these.",
+  }
+- {
+    slug: g-a1-this-that-2,
+    type: fill_blank,
+    cefr: A1,
+    topic: grammar,
+    skin: slack,
+    sentence: "Can you see ___ building over there? It's our new office.",
+    options: [this, that, these, those],
+    answer: 1,
+    explanation_vi: "Building số ít, ở xa (over there) → that.",
+  }
+- {
+    slug: g-a1-this-that-3,
+    type: fill_blank,
+    cefr: A1,
+    topic: grammar,
+    skin: slack,
+    sentence: "___ is Duc, our new backend developer.",
+    options: [This, These, Those, Them],
+    answer: 0,
+    explanation_vi: "Giới thiệu một người dùng This is + tên. These/Those là số nhiều, Them không làm chủ ngữ.",
+  }
+- {
+    slug: g-a1-this-that-4,
+    type: fill_blank,
+    cefr: A1,
+    topic: grammar,
+    skin: slack,
+    sentence: "I don't like ___ chairs over there. They're too hard.",
+    options: [this, that, these, those],
+    answer: 3,
+    explanation_vi: "Chairs số nhiều, ở xa (over there) → those.",
+  }
+- {
+    slug: g-a1-this-that-5,
+    type: fill_blank,
+    cefr: A1,
+    topic: grammar,
+    skin: slack,
+    sentence: "___ are my notes from today's meeting. (gần, số nhiều)",
+    accepted: [these],
+    explanation_vi: "Thứ ở gần, số nhiều (notes) → these.",
+  }
+- {
+    slug: g-a1-this-that-6,
+    type: fill_blank,
+    cefr: A1,
+    topic: grammar,
+    skin: slack,
+    sentence: "Is ___ your phone on the table over there? (xa, số ít)",
+    accepted: [that],
+    explanation_vi: "Thứ ở xa, số ít (phone) → that.",
+  }
+- {
+    slug: g-a1-this-that-7,
+    type: mcq_meaning,
+    cefr: A1,
+    topic: grammar,
+    stem: "Chọn câu đúng.",
+    question: "Câu nào đúng ngữ pháp?",
+    options:
+      [
+        "These report is ready.",
+        "This reports are ready.",
+        "These reports are ready.",
+        "This reports is ready.",
+      ],
+    answer: 2,
+    explanation_vi: "Reports số nhiều → these + are. This chỉ đi với danh từ số ít.",
+  }
+- {
+    slug: g-a1-this-that-8,
+    type: mcq_meaning,
+    cefr: A1,
+    topic: grammar,
+    stem: "Chọn câu đúng.",
+    question: "Bạn giới thiệu đồng nghiệp mới với cả team.",
+    options:
+      [
+        "This is Phuong, our new PM.",
+        "These is Phuong, our new PM.",
+        "Those are Phuong, our new PM.",
+        "It's Phuong is our new PM.",
+      ],
+    answer: 0,
+    explanation_vi: "Giới thiệu một người: This is + tên.",
+  }
+# --- Possessives
+- {
+    slug: g-a1-possessives-1,
+    type: fill_blank,
+    cefr: A1,
+    topic: grammar,
+    skin: slack,
+    sentence: "Ms. Lan can't log in. ___ password is wrong.",
+    options: [His, Her, Its, Their],
+    answer: 1,
+    explanation_vi: "Ms. Lan là nữ → her.",
+  }
+- {
+    slug: g-a1-possessives-2,
+    type: fill_blank,
+    cefr: A1,
+    topic: grammar,
+    skin: slack,
+    sentence: "We love ___ new office. It's very bright.",
+    options: [our, their, his, its],
+    answer: 0,
+    explanation_vi: "Chủ ngữ là we → tính từ sở hữu our.",
+  }
+- {
+    slug: g-a1-possessives-3,
+    type: fill_blank,
+    cefr: A1,
+    topic: grammar,
+    skin: pr,
+    sentence: "Users like the app because ___ design is simple.",
+    options: ["it's", its, his, "its'"],
+    answer: 1,
+    explanation_vi: "Của nó (the app) → its. It's là viết tắt của it is.",
+  }
+- {
+    slug: g-a1-possessives-4,
+    type: fill_blank,
+    cefr: A1,
+    topic: grammar,
+    skin: slack,
+    sentence: "This is ___ desk. Tuan sits here every day.",
+    options: [Tuan, Tuans, "Tuan's", "Tuans'"],
+    answer: 2,
+    explanation_vi: "Tên một người + 's: Tuan's desk.",
+  }
+- {
+    slug: g-a1-possessives-5,
+    type: fill_blank,
+    cefr: A1,
+    topic: grammar,
+    skin: slack,
+    sentence: "Mr. Hung and ___ team work on the mobile app. (he)",
+    accepted: [his],
+    explanation_vi: "He → tính từ sở hữu his.",
+  }
+- {
+    slug: g-a1-possessives-6,
+    type: fill_blank,
+    cefr: A1,
+    topic: grammar,
+    skin: slack,
+    sentence: "The interns are new. ___ desks are near the window. (they)",
+    accepted: [their],
+    explanation_vi: "They → tính từ sở hữu their.",
+  }
+- {
+    slug: g-a1-possessives-7,
+    type: mcq_meaning,
+    cefr: A1,
+    topic: grammar,
+    stem: "Chọn câu đúng.",
+    question: "“Đây là laptop của chị Mai.”",
+    options:
+      [
+        "This is laptop's Mai.",
+        "This is Mai laptop.",
+        "This is Mai's laptop.",
+        "This is Mais laptop.",
+      ],
+    answer: 2,
+    explanation_vi: "Người sở hữu đứng trước, thêm 's: Mai's laptop.",
+  }
+- {
+    slug: g-a1-possessives-8,
+    type: mcq_meaning,
+    cefr: A1,
+    topic: grammar,
+    stem: "Chọn câu đúng.",
+    question: "Câu nào đúng ngữ pháp?",
+    options:
+      [
+        "The company has its own canteen.",
+        "The company has it's own canteen.",
+        "The company has it own canteen.",
+        "The company has its' own canteen.",
+      ],
+    answer: 0,
+    explanation_vi: "Sở hữu của vật/công ty là its, không có dấu nháy.",
+  }
+# --- Object pronouns
+- {
+    slug: g-a1-object-pronouns-1,
+    type: fill_blank,
+    cefr: A1,
+    topic: grammar,
+    skin: slack,
+    sentence: "Lan needs the report. Can you send it to ___?",
+    options: [she, her, hers, he],
+    answer: 1,
+    explanation_vi: "Sau giới từ to dùng tân ngữ: her.",
+  }
+- {
+    slug: g-a1-object-pronouns-2,
+    type: fill_blank,
+    cefr: A1,
+    topic: grammar,
+    skin: email,
+    sentence: "Our clients are in Hanoi. We visit ___ every month.",
+    options: [they, their, them, theirs],
+    answer: 2,
+    explanation_vi: "Họ đứng sau động từ visit → tân ngữ them.",
+  }
+- {
+    slug: g-a1-object-pronouns-3,
+    type: fill_blank,
+    cefr: A1,
+    topic: grammar,
+    skin: slack,
+    sentence: "Quick question: can you help ___ with the deploy?",
+    options: [I, my, me, mine],
+    answer: 2,
+    explanation_vi: "Sau động từ help dùng tân ngữ: me.",
+  }
+- {
+    slug: g-a1-object-pronouns-4,
+    type: fill_blank,
+    cefr: A1,
+    topic: grammar,
+    skin: slack,
+    sentence: "Mr. Long is our CTO. Do you know ___?",
+    options: [he, his, him, it],
+    answer: 2,
+    explanation_vi: "Sau động từ know dùng tân ngữ; Mr. Long là nam → him.",
+  }
+- {
+    slug: g-a1-object-pronouns-5,
+    type: fill_blank,
+    cefr: A1,
+    topic: grammar,
+    skin: slack,
+    sentence: "This message is for Hoa and ___. (I)",
+    accepted: [me],
+    explanation_vi: "Sau giới từ for dùng me, kể cả khi có thêm tên khác.",
+  }
+- {
+    slug: g-a1-object-pronouns-6,
+    type: fill_blank,
+    cefr: A1,
+    topic: grammar,
+    skin: slack,
+    sentence: "The new interns are great. I like ___ a lot. (they)",
+    accepted: [them],
+    explanation_vi: "They ở vị trí tân ngữ sau like → them.",
+  }
+- {
+    slug: g-a1-object-pronouns-7,
+    type: mcq_meaning,
+    cefr: A1,
+    topic: grammar,
+    stem: "Chọn câu đúng.",
+    question: "Bạn nhờ đồng nghiệp gọi cho mình sau buổi họp.",
+    options:
+      [
+        "Please call I after the meeting.",
+        "Please call me after the meeting.",
+        "Please call my after the meeting.",
+        "Please call mine after the meeting.",
+      ],
+    answer: 1,
+    explanation_vi: "Sau động từ call dùng tân ngữ: me.",
+  }
+- {
+    slug: g-a1-object-pronouns-8,
+    type: mcq_meaning,
+    cefr: A1,
+    topic: grammar,
+    stem: "Chọn câu đúng.",
+    question: "Câu nào đúng ngữ pháp?",
+    options:
+      [
+        "Him works on the API team.",
+        "He works on the API team with we.",
+        "He works on the API team with us.",
+        "Him works on the API team with us.",
+      ],
+    answer: 2,
+    explanation_vi: "Chủ ngữ dùng he; sau giới từ with dùng tân ngữ us.",
+  }
+# --- There is / there are
+- {
+    slug: g-a1-there-is-1,
+    type: fill_blank,
+    cefr: A1,
+    topic: grammar,
+    skin: slack,
+    sentence: "There ___ a new message for you.",
+    options: [is, are, have, has],
+    answer: 0,
+    explanation_vi: "A new message là số ít → there is.",
+  }
+- {
+    slug: g-a1-there-is-2,
+    type: fill_blank,
+    cefr: A1,
+    topic: grammar,
+    skin: slack,
+    sentence: "There ___ five people in the call.",
+    options: [is, are, has, be],
+    answer: 1,
+    explanation_vi: "Five people là số nhiều → there are.",
+  }
+- {
+    slug: g-a1-there-is-3,
+    type: fill_blank,
+    cefr: A1,
+    topic: grammar,
+    skin: slack,
+    sentence: "There ___ any milk in the office fridge.",
+    options: ["aren't", "isn't", "don't", "haven't"],
+    answer: 1,
+    explanation_vi: "Milk không đếm được → phủ định there isn't.",
+  }
+- {
+    slug: g-a1-there-is-4,
+    type: fill_blank,
+    cefr: A1,
+    topic: grammar,
+    skin: slack,
+    sentence: "___ there any questions about the plan?",
+    options: [Is, Are, Do, Have],
+    answer: 1,
+    explanation_vi: "Questions số nhiều → câu hỏi Are there…?",
+  }
+- {
+    slug: g-a1-there-is-5,
+    type: fill_blank,
+    cefr: A1,
+    topic: grammar,
+    skin: slack,
+    sentence: "There ___ two new interns on our team. (be)",
+    accepted: [are],
+    explanation_vi: "Two new interns là số nhiều → there are.",
+  }
+- {
+    slug: g-a1-there-is-6,
+    type: fill_blank,
+    cefr: A1,
+    topic: grammar,
+    skin: email,
+    sentence: "Sorry, there ___ a parking lot near our office. (be, phủ định)",
+    accepted: ["isn't", "is not"],
+    explanation_vi: "A parking lot số ít → phủ định there isn't (is not).",
+  }
+- {
+    slug: g-a1-there-is-7,
+    type: mcq_meaning,
+    cefr: A1,
+    topic: grammar,
+    stem: "Chọn câu đúng.",
+    question: "Bạn muốn nói: “Trong code có một lỗi.”",
+    options:
+      [
+        "Have a bug in the code.",
+        "There is a bug in the code.",
+        "There are a bug in the code.",
+        "There have a bug in the code.",
+      ],
+    answer: 1,
+    explanation_vi: "Nói ở đâu có một thứ (số ít) dùng there is.",
+  }
+- {
+    slug: g-a1-there-is-8,
+    type: mcq_meaning,
+    cefr: A1,
+    topic: grammar,
+    stem: "Chọn câu đúng.",
+    question: "Câu nào đúng ngữ pháp?",
+    options:
+      [
+        "There is some new informations.",
+        "There are some new information.",
+        "There is some new information.",
+        "There are some new informations.",
+      ],
+    answer: 2,
+    explanation_vi: "Information không đếm được: không -s, đi với there is.",
+  }
+# --- Can / can't
+- {
+    slug: g-a1-can-1,
+    type: fill_blank,
+    cefr: A1,
+    topic: grammar,
+    skin: slack,
+    sentence: "Sorry, I ___ join the call now. I'm on the train.",
+    options: [can, "can't", "don't", cans],
+    answer: 1,
+    explanation_vi: "Đang ở trên tàu nên không tham gia được → can't + động từ nguyên mẫu.",
+  }
+- {
+    slug: g-a1-can-2,
+    type: fill_blank,
+    cefr: A1,
+    topic: grammar,
+    skin: slack,
+    sentence: "Our new designer ___ draw really well.",
+    options: [can, cans, can to, is can],
+    answer: 0,
+    explanation_vi: "Can không đổi theo chủ ngữ và đứng ngay trước động từ nguyên mẫu.",
+  }
+- {
+    slug: g-a1-can-3,
+    type: fill_blank,
+    cefr: A1,
+    topic: grammar,
+    skin: slack,
+    sentence: "___ you share your screen, please?",
+    options: [Do, Are, Can, Does],
+    answer: 2,
+    explanation_vi: "Nhờ vả: Can you + động từ nguyên mẫu…? Không dùng do/are với share ở đây.",
+  }
+- {
+    slug: g-a1-can-4,
+    type: fill_blank,
+    cefr: A1,
+    topic: grammar,
+    skin: jira,
+    sentence: "He can ___ the bug before lunch.",
+    options: [fix, fixes, to fix, fixing],
+    answer: 0,
+    explanation_vi: "Sau can là động từ nguyên mẫu không to: fix.",
+  }
+- {
+    slug: g-a1-can-5,
+    type: fill_blank,
+    cefr: A1,
+    topic: grammar,
+    skin: slack,
+    sentence: "Sorry, I ___ find the file anywhere. (can, phủ định)",
+    accepted: ["can't", "cannot", "can not"],
+    explanation_vi: "Phủ định của can: can't (cannot).",
+  }
+- {
+    slug: g-a1-can-6,
+    type: fill_blank,
+    cefr: A1,
+    topic: grammar,
+    skin: slack,
+    sentence: "Can she work this weekend? — No, she ___.",
+    accepted: ["can't", "cannot"],
+    explanation_vi: "Trả lời ngắn phủ định: No, she can't.",
+  }
+- {
+    slug: g-a1-can-7,
+    type: mcq_meaning,
+    cefr: A1,
+    topic: grammar,
+    stem: "Chọn câu hỏi đúng.",
+    question: "Bạn nhờ đồng nghiệp giúp một việc.",
+    options:
+      ["Do you can help me?", "Can you help me?", "Can you helping me?", "Are you can help me?"],
+    answer: 1,
+    explanation_vi: "Can tự đứng đầu câu hỏi, theo sau là động từ nguyên mẫu.",
+  }
+- {
+    slug: g-a1-can-8,
+    type: mcq_meaning,
+    cefr: A1,
+    topic: grammar,
+    stem: "Chọn câu đúng.",
+    question: "Câu nào đúng ngữ pháp?",
+    options:
+      [
+        "He cans speak English.",
+        "He can speaks English.",
+        "He can to speak English.",
+        "He can speak English.",
+      ],
+    answer: 3,
+    explanation_vi: "Can không thêm -s và động từ sau can ở nguyên mẫu không to.",
+  }
+# --- In, on, at
+- {
+    slug: g-a1-prepositions-1,
+    type: fill_blank,
+    cefr: A1,
+    topic: grammar,
+    skin: slack,
+    sentence: "The sprint review is ___ 2 p.m.",
+    options: [in, on, at, to],
+    answer: 2,
+    explanation_vi: "Giờ cụ thể → at.",
+  }
+- {
+    slug: g-a1-prepositions-2,
+    type: fill_blank,
+    cefr: A1,
+    topic: grammar,
+    skin: email,
+    sentence: "We have a team party ___ December.",
+    options: [in, on, at, to],
+    answer: 0,
+    explanation_vi: "Tháng → in.",
+  }
+- {
+    slug: g-a1-prepositions-3,
+    type: fill_blank,
+    cefr: A1,
+    topic: grammar,
+    skin: slack,
+    sentence: "The meeting room is ___ the fifth floor.",
+    options: [in, on, at, to],
+    answer: 1,
+    explanation_vi: "Tầng của toà nhà → on.",
+  }
+- {
+    slug: g-a1-prepositions-4,
+    type: fill_blank,
+    cefr: A1,
+    topic: grammar,
+    skin: email,
+    sentence: "Our main office is ___ Hanoi.",
+    options: [in, on, at, to],
+    answer: 0,
+    explanation_vi: "Thành phố → in.",
+  }
+- {
+    slug: g-a1-prepositions-5,
+    type: fill_blank,
+    cefr: A1,
+    topic: grammar,
+    skin: slack,
+    sentence: "I don't work ___ Sundays.",
+    accepted: [on],
+    explanation_vi: "Thứ trong tuần → on.",
+  }
+- {
+    slug: g-a1-prepositions-6,
+    type: fill_blank,
+    cefr: A1,
+    topic: grammar,
+    skin: slack,
+    sentence: "The shuttle bus leaves ___ 7:15 every morning.",
+    accepted: [at],
+    explanation_vi: "Giờ cụ thể → at.",
+  }
+- {
+    slug: g-a1-prepositions-7,
+    type: mcq_meaning,
+    cefr: A1,
+    topic: grammar,
+    stem: "Chọn câu đúng.",
+    question: "Bạn chào đồng nghiệp trước cuối tuần.",
+    options:
+      ["See you in Friday!", "See you on Friday!", "See you at Friday!", "See you to Friday!"],
+    answer: 1,
+    explanation_vi: "Thứ trong tuần → on.",
+  }
+- {
+    slug: g-a1-prepositions-8,
+    type: mcq_meaning,
+    cefr: A1,
+    topic: grammar,
+    stem: "Chọn câu đúng.",
+    question: "Câu nào đúng ngữ pháp?",
+    options:
+      [
+        "Let's talk on next Monday.",
+        "Let's talk in next Monday.",
+        "Let's talk at next Monday.",
+        "Let's talk next Monday.",
+      ],
+    answer: 3,
+    explanation_vi: "Trước next không dùng giới từ.",
+  }

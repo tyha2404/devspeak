@@ -1,0 +1,14 @@
+slug: topic-energy
+stage: vocab
+sort: 20
+code: T20
+kind: topic
+cefr: B2
+character: linh
+status: draft
+title: { en: "Energy & Resources", vi: "Năng lượng & tài nguyên" }
+summary_vi: "Từ vựng về điện, nhiên liệu, năng lượng tái tạo, tiết kiệm năng lượng và tài nguyên thiên nhiên."
+can_do:
+  - "Nói về nguồn năng lượng và cách tiết kiệm điện"
+  - "Hiểu bài viết về năng lượng tái tạo và tài nguyên"
+lessons: []

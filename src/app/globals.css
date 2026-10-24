@@ -1,56 +1,62 @@
 @import "tailwindcss";
 
-/* Cool, quiet base; amber is the one action colour, violet marks merged (finished) work. */
+/* Deep green is the one action colour, mint marks finished work, cream is the page. */
 :root {
-  --paper: #f3f5f8;
-  --surface: #ffffff;
-  --ink: #172033;
-  --muted: #5a6478;
-  --line: #d9dfe8;
-  --amber: #e48a1f;
-  --amber-soft: #fdf0dd;
-  --merged: #6e56cf;
-  --merged-soft: #eeeafb;
-  --ok: #1f8a5b;
-  --ok-soft: #e3f4ec;
-  --bad: #c93c3c;
-  --bad-soft: #fbe9e9;
+  --paper: #f7f4ed;
+  --surface: #fffdfa;
+  --ink: #003838;
+  --muted: #667279;
+  --line: #d9e3e4;
+  --amber: #004646;
+  --amber-soft: #e6f5f3;
+  --on-amber: #ffffff;
+  --merged: #27c4b5;
+  --merged-soft: #e6f5f3;
+  --ok: #0f978d;
+  --ok-soft: #e6f5f3;
+  --bad: #ed3838;
+  --bad-soft: #ffebeb;
+  --gold: #ffcf55;
   --dq-font-base: 18px; /* must match settingsStore default "m" to avoid a layout shift */
   color-scheme: light;
 }
 
 @media (prefers-color-scheme: dark) {
   :root:not([data-theme="light"]) {
-    --paper: #10151f;
-    --surface: #182031;
-    --ink: #e8ecf3;
-    --muted: #98a2b5;
-    --line: #283248;
-    --amber: #f0a045;
-    --amber-soft: #3a2a15;
-    --merged: #9c88f0;
-    --merged-soft: #2a2546;
-    --ok: #3dbb84;
-    --ok-soft: #173327;
-    --bad: #e26464;
+    --paper: #071c1d;
+    --surface: #0d2a2b;
+    --ink: #e6f5f3;
+    --muted: #9bb1b2;
+    --line: #1d3d3e;
+    --amber: #27c4b5;
+    --amber-soft: #123b3b;
+    --on-amber: #002b2b;
+    --merged: #42d3c5;
+    --merged-soft: #123b3b;
+    --ok: #42d3c5;
+    --ok-soft: #123b3b;
+    --bad: #ff6b6b;
     --bad-soft: #3a1c1f;
+    --gold: #ffcf55;
     color-scheme: dark;
   }
 }
 :root[data-theme="dark"] {
-  --paper: #10151f;
-  --surface: #182031;
-  --ink: #e8ecf3;
-  --muted: #98a2b5;
-  --line: #283248;
-  --amber: #f0a045;
-  --amber-soft: #3a2a15;
-  --merged: #9c88f0;
-  --merged-soft: #2a2546;
-  --ok: #3dbb84;
-  --ok-soft: #173327;
-  --bad: #e26464;
+  --paper: #071c1d;
+  --surface: #0d2a2b;
+  --ink: #e6f5f3;
+  --muted: #9bb1b2;
+  --line: #1d3d3e;
+  --amber: #27c4b5;
+  --amber-soft: #123b3b;
+  --on-amber: #002b2b;
+  --merged: #42d3c5;
+  --merged-soft: #123b3b;
+  --ok: #42d3c5;
+  --ok-soft: #123b3b;
+  --bad: #ff6b6b;
   --bad-soft: #3a1c1f;
+  --gold: #ffcf55;
   color-scheme: dark;
 }
 
@@ -68,12 +74,24 @@
   --color-ok-soft: var(--ok-soft);
   --color-bad: var(--bad);
   --color-bad-soft: var(--bad-soft);
-  --font-sans: var(--font-be-vietnam);
+  --color-on-amber: var(--on-amber);
+  --color-gold: var(--gold);
+  --font-sans: var(--font-body);
+  --font-display: var(--font-heading);
   --font-mono: var(--font-mono-code);
 }
 
 html {
   font-size: var(--dq-font-base);
+}
+
+/* Cal Sans ships one (display) weight; never fake-bold it. */
+h1,
+h2,
+h3 {
+  font-family: var(--font-heading), var(--font-body), sans-serif;
+  font-synthesis-weight: none;
+  letter-spacing: -0.02em;
 }
 
 [data-reduced-motion="1"] * {

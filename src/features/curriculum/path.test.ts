@@ -3,16 +3,19 @@ import {
   buildPath,
   placementUnit,
   starsFor,
+  trackNext,
+  type Track,
   type LearnerProgress,
   type LessonRow,
   type StageRow,
   type UnitRow,
 } from "./path";
 
-const stage = (id: number, sort: number): StageRow => ({
+const stage = (id: number, sort: number, track: Track = "career"): StageRow => ({
   id,
   slug: `s${id}`,
   sort,
+  track,
   cefr: "A2",
   title_en: "S",
   title_vi: "S",
@@ -106,6 +109,49 @@ describe("buildPath", () => {
     const r = buildPath(STAGES, UNITS, LESSONS, p);
     expect(r.stages[0]!.units[0]!.lessons.map((l) => l.state)).toEqual(["available", "available"]);
     expect(r.stages[0]!.units[0]!.completedVia).toBe("placement");
+  });
+});
+
+describe("study tracks", () => {
+  // Grammar stage 9 (levels u91 → u92) and vocab stage 8 (topics u81, u82) next to the career path.
+  const stages = [...STAGES, stage(9, 10, "grammar"), stage(8, 20, "vocab")];
+  const units = [...UNITS, unit(91, 9, 1), unit(92, 9, 2), unit(81, 8, 1), unit(82, 8, 2)];
+  const lessons = [
+    ...LESSONS,
+    lesson(911, 91, 1),
+    lesson(912, 91, 2),
+    lesson(921, 92, 1),
+    lesson(811, 81, 1),
+    lesson(821, 82, 1),
+  ];
+
+  it("keeps the career next step and chain separate from the tracks", () => {
+    const { stages: s, next } = buildPath(stages, units, lessons, empty());
+    expect(next).toEqual({ type: "lesson", stageId: 1, unitId: 1, lessonId: 11 });
+    const grammar = s.find((x) => x.id === 9)!;
+    expect(grammar.units.map((u) => u.state)).toEqual(["available", "locked"]);
+    expect(grammar.checkpoint.state).toBe("none");
+    expect(trackNext(grammar)).toEqual({ type: "lesson", stageId: 9, unitId: 91, lessonId: 911 });
+  });
+
+  it("opens every vocabulary topic and the next grammar level after a test-out", () => {
+    const p = empty();
+    p.units.set(91, "test_out");
+    const { stages: s } = buildPath(stages, units, lessons, p);
+    expect(s.find((x) => x.id === 8)!.units.map((u) => u.state)).toEqual([
+      "available",
+      "available",
+    ]);
+    const grammar = s.find((x) => x.id === 9)!;
+    expect(grammar.units[1]!.state).toBe("available");
+    // Both lessons of the skipped level replay, and every lesson of the next level is open.
+    expect(grammar.units[0]!.lessons.map((l) => l.state)).toEqual(["available", "available"]);
+    const units2 = [...units, unit(93, 9, 3)];
+    const lessons2 = [...lessons, lesson(922, 92, 2), lesson(931, 93, 1), lesson(932, 93, 2)];
+    const r2 = buildPath(stages, units2, lessons2, p).stages.find((x) => x.id === 9)!;
+    expect(r2.units[1]!.lessons.map((l) => l.state)).toEqual(["available", "available"]);
+    expect(r2.units[2]!.state).toBe("locked");
+    expect(placementUnit(s, "B2")?.id).toBe(4); // tracks are never placement targets
   });
 });
 

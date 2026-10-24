@@ -1,0 +1,1265 @@
+# Grammar track B2 tests. Original items; answers stay server-side.
+# --- g-b2-future-continuous
+- slug: g-b2-future-continuous-1
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "Don't call Lan at 2 pm. She ___ a workshop then."
+  options: [will running, will be running, will be run, is run]
+  answer: 1
+  explanation_vi: "Việc đang diễn ra tại một mốc tương lai (2 pm) → will be + V-ing."
+- slug: g-b2-future-continuous-2
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "At 8 pm tonight I ___ dinner with the client, so I can't reply."
+  options: [will having, am have, will be had, will be having]
+  answer: 3
+  explanation_vi: "Lúc 8 giờ tối đang ăn tối dở → will be having. Không bỏ be, sau be là V-ing."
+- slug: g-b2-future-continuous-3
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "___ you be using the projector this afternoon?"
+  options: [Do, Are, Will, Have]
+  answer: 2
+  explanation_vi: "Câu hỏi tương lai tiếp diễn: Will + S + be + V-ing…?"
+- slug: g-b2-future-continuous-4
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: email
+  sentence: "I won't be at my desk tomorrow morning. I'll ___ a training course."
+  options: [attending, be attending, be attend, attended]
+  answer: 1
+  explanation_vi: "I'll = I will → will + be + V-ing: I'll be attending."
+- slug: g-b2-future-continuous-5
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "This time tomorrow, we ___ (fly – tương lai tiếp diễn) to Tokyo for the conference."
+  accepted: ["will be flying", "'ll be flying"]
+  explanation_vi: "This time tomorrow: đang bay vào lúc đó → will be flying."
+- slug: g-b2-future-continuous-6
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "Sorry, I ___ (not / join – tương lai tiếp diễn) the 4 pm call. I'll be on a plane."
+  accepted: ["won't be joining", "will not be joining"]
+  explanation_vi: "Phủ định của tương lai tiếp diễn: won't be + V-ing."
+- slug: g-b2-future-continuous-7
+  type: mcq_meaning
+  cefr: B2
+  topic: grammar
+  stem: "Chọn câu đúng."
+  question: "Câu nào đúng ngữ pháp?"
+  options:
+    - "At 10 am tomorrow I will presenting the roadmap."
+    - "At 10 am tomorrow I am be presenting the roadmap."
+    - "At 10 am tomorrow I will be presenting the roadmap."
+    - "At 10 am tomorrow I will be present the roadmap."
+  answer: 2
+  explanation_vi: "Đủ ba phần will + be + V-ing."
+- slug: g-b2-future-continuous-8
+  type: mcq_meaning
+  cefr: B2
+  topic: grammar
+  stem: "Hỏi lịch sự về kế hoạch."
+  question: "“Chiều nay bạn có định dùng phòng họp không?” là…"
+  options:
+    - "Will you using the meeting room this afternoon?"
+    - "Will you be using the meeting room this afternoon?"
+    - "Are you be using the meeting room this afternoon?"
+    - "Do you be using the meeting room this afternoon?"
+  answer: 1
+  explanation_vi: "Will + you + be + V-ing…? hỏi kế hoạch một cách nhẹ nhàng."
+# --- g-b2-future-perfect
+- slug: g-b2-future-perfect-1
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: jira
+  sentence: "By the end of the sprint, we ___ all the tickets in this epic."
+  options: [will have closed, will closed, have close, will be close]
+  answer: 0
+  explanation_vi: "By + mốc tương lai, việc xong trước mốc đó → will have + V3 (closed)."
+- slug: g-b2-future-perfect-2
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: email
+  sentence: "Don't worry, I ___ the slides by tomorrow morning."
+  options: [will have finish, will has finished, will have finished, would has finish]
+  answer: 2
+  explanation_vi: "Sau will luôn là have, theo sau là V3: will have finished."
+- slug: g-b2-future-perfect-3
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "___ the end of the month, the new hire will have completed onboarding."
+  options: [Until, By, Since, For]
+  answer: 1
+  explanation_vi: "By + mốc: chậm nhất là vào lúc đó. Until (cho đến khi) dùng cho việc kéo dài, không đi với will have + V3 ở đây."
+- slug: g-b2-future-perfect-4
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "By 2030, she ___ for this company for twenty years."
+  options: [has worked, will had worked, will have worked, will be work]
+  answer: 2
+  explanation_vi: "Tròn hai mươi năm tính đến một mốc tương lai (2030) → will have worked."
+- slug: g-b2-future-perfect-5
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "By the time you get here, I ___ (leave – tương lai hoàn thành) the office."
+  accepted: ["will have left", "'ll have left"]
+  explanation_vi: "Xong trước lúc bạn tới → will have + V3; leave → left."
+- slug: g-b2-future-perfect-6
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: jira
+  sentence: "We ___ (not / finish – tương lai hoàn thành) the testing by Friday, so the release will slip."
+  accepted: ["won't have finished", "will not have finished"]
+  explanation_vi: "Đến thứ Sáu vẫn chưa xong → won't have + V3."
+- slug: g-b2-future-perfect-7
+  type: mcq_meaning
+  cefr: B2
+  topic: grammar
+  stem: "Chọn câu đúng."
+  question: "Câu nào đúng ngữ pháp?"
+  options:
+    - "By next week we will moved to the new server."
+    - "By next week we will has moved to the new server."
+    - "By next week we have will moved to the new server."
+    - "By next week we will have moved to the new server."
+  answer: 3
+  explanation_vi: "Thứ tự đúng: will + have + V3."
+- slug: g-b2-future-perfect-8
+  type: mcq_meaning
+  cefr: B2
+  topic: grammar
+  stem: "Email trước chuyến công tác."
+  question: "“Lúc bạn đọc email này thì mình đã lên máy bay rồi.” là…"
+  options:
+    - "By the time you read this email, I will have boarded the plane."
+    - "By the time you will read this email, I have boarded the plane."
+    - "By the time you read this email, I will boarded the plane."
+    - "By the time you read this email, I have board the plane."
+  answer: 0
+  explanation_vi: "Mệnh đề by the time dùng hiện tại đơn (read); vế chính dùng will have + V3."
+# --- g-b2-past-perfect-continuous
+- slug: g-b2-past-perfect-continuous-1
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "When I joined the team, they ___ on the project for six months."
+  options: [have been working, had been working, had been work, are working]
+  answer: 1
+  explanation_vi: "Kéo dài sáu tháng trước một mốc quá khứ (when I joined) → had been + V-ing."
+- slug: g-b2-past-perfect-continuous-2
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: pr
+  sentence: "Her eyes were tired because she ___ code all afternoon."
+  options: [has been reviewing, had been review, had been reviewing, was review]
+  answer: 2
+  explanation_vi: "Kết quả ở quá khứ (were tired), nguyên nhân kéo dài trước đó → had been reviewing."
+- slug: g-b2-past-perfect-continuous-3
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "We had been ___ for 40 minutes when the bus finally came."
+  options: [wait, waiting, waited, waits]
+  answer: 1
+  explanation_vi: "Sau had been là V-ing: waiting."
+- slug: g-b2-past-perfect-continuous-4
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "How long ___ you been living in Da Nang before you moved to Hanoi?"
+  options: [have, had, has, did]
+  answer: 1
+  explanation_vi: "Mốc là quá khứ (before you moved) → How long had you been + V-ing?"
+- slug: g-b2-past-perfect-continuous-5
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "Tuan was exhausted. He ___ (fix – quá khứ hoàn thành tiếp diễn) production issues since 5 am."
+  accepted: ["had been fixing", "'d been fixing"]
+  explanation_vi: "Việc kéo dài từ 5 giờ sáng đến lúc anh ấy kiệt sức (quá khứ) → had been fixing."
+- slug: g-b2-past-perfect-continuous-6
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "I ___ (not / sleep – quá khứ hoàn thành tiếp diễn) well for weeks before I took a holiday."
+  accepted: ["hadn't been sleeping", "had not been sleeping"]
+  explanation_vi: "Phủ định: hadn't been + V-ing, trước mốc quá khứ (before I took a holiday)."
+- slug: g-b2-past-perfect-continuous-7
+  type: mcq_meaning
+  cefr: B2
+  topic: grammar
+  stem: "Chọn câu đúng."
+  question: "Câu nào đúng ngữ pháp?"
+  options:
+    - "She has been working there for two years when she got promoted."
+    - "She had been working there for two years when she got promoted."
+    - "She had been work there for two years when she got promoted."
+    - "She had being working there for two years when she got promoted."
+  answer: 1
+  explanation_vi: "Mốc quá khứ (when she got promoted) → had been + V-ing."
+- slug: g-b2-past-perfect-continuous-8
+  type: mcq_meaning
+  cefr: B2
+  topic: grammar
+  stem: "Kể lại buổi họp."
+  question: "“Họ đã tranh cãi suốt cả buổi trước khi quản lý bước vào.” là…"
+  options:
+    - "They have been arguing for the whole meeting before the manager came in."
+    - "They were been arguing for the whole meeting before the manager came in."
+    - "They had been arguing for the whole meeting before the manager came in."
+    - "They had argue for the whole meeting before the manager came in."
+  answer: 2
+  explanation_vi: "Việc kéo dài trước một mốc quá khứ (before the manager came in) → had been arguing."
+# --- g-b2-third-conditional
+- slug: g-b2-third-conditional-1
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: jira
+  sentence: "If we ___ the logs earlier, we would have found the problem."
+  options: [has checked, had checked, would checked, have check]
+  answer: 1
+  explanation_vi: "Mệnh đề if của loại 3: had + V3."
+- slug: g-b2-third-conditional-2
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "If she had asked for help, I ___ her."
+  options: [would helped, will have helped, had helped, would have helped]
+  answer: 3
+  explanation_vi: "Vế kết quả của loại 3: would have + V3."
+- slug: g-b2-third-conditional-3
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "I ___ have missed the train if you hadn't driven me to the station."
+  options: [would, will, had, did]
+  answer: 0
+  explanation_vi: "Would have + V3: kết quả giả định trái với quá khứ."
+- slug: g-b2-third-conditional-4
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: email
+  sentence: "If they ___ the contract, the project wouldn't have been cancelled."
+  options: [haven't changed, hadn't changed, didn't changed, hasn't changed]
+  answer: 1
+  explanation_vi: "Mệnh đề if phủ định của loại 3: hadn't + V3."
+- slug: g-b2-third-conditional-5
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "If I ___ (know – điều kiện loại 3) about the meeting, I would have joined."
+  accepted: ["had known", "'d known"]
+  explanation_vi: "Mệnh đề if: had + V3; know → known."
+- slug: g-b2-third-conditional-6
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: email
+  sentence: "We ___ (not / lose – điều kiện loại 3) the client if we had replied faster."
+  accepted: ["wouldn't have lost", "would not have lost"]
+  explanation_vi: "Vế kết quả phủ định: wouldn't have + V3; lose → lost."
+- slug: g-b2-third-conditional-7
+  type: mcq_meaning
+  cefr: B2
+  topic: grammar
+  stem: "Chọn câu đúng."
+  question: "Câu nào đúng ngữ pháp?"
+  options:
+    - "If I would have known, I would have called you."
+    - "If I had known, I would have called you."
+    - "If I had knew, I would have called you."
+    - "If I had known, I would called you."
+  answer: 1
+  explanation_vi: "If + had + V3, would have + V3. Không dùng would trong mệnh đề if."
+- slug: g-b2-third-conditional-8
+  type: mcq_meaning
+  cefr: B2
+  topic: grammar
+  stem: "Nói về điều đã không xảy ra."
+  question: "“Nếu hôm qua bạn gọi thì mình đã nghe máy rồi.” là…"
+  options:
+    - "If you called yesterday, I would answer."
+    - "If you had called yesterday, I will answer."
+    - "If you had called yesterday, I would have answered."
+    - "If you have called yesterday, I would have answered."
+  answer: 2
+  explanation_vi: "Chuyện hôm qua đã không xảy ra → loại 3: had called / would have answered."
+# --- g-b2-modal-perfect-deduction
+- slug: g-b2-modal-perfect-deduction-1
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "The door was unlocked this morning. Someone ___ forgotten to lock it."
+  options: [must have, must has, mustn't, can have]
+  answer: 0
+  explanation_vi: "Có bằng chứng rõ (cửa không khóa) → must have + V3: chắc chắn đã quên."
+- slug: g-b2-modal-perfect-deduction-2
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "He ___ have taken the laptop. He was on holiday in Japan that week."
+  options: [must, can't, should, will]
+  answer: 1
+  explanation_vi: "Anh ấy đang ở Nhật nên chắc chắn không thể → can't have + V3."
+- slug: g-b2-modal-perfect-deduction-3
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: jira
+  sentence: "I'm not sure why the build failed. Someone ___ have pushed a broken commit."
+  options: [can't, will, might, mustn't]
+  answer: 2
+  explanation_vi: "Không chắc, chỉ là một khả năng → might have + V3."
+- slug: g-b2-modal-perfect-deduction-4
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "Minh looks really tired. He must have ___ up all night."
+  options: [stay, stayed, staying, stays]
+  answer: 1
+  explanation_vi: "Must have + V3: stayed."
+- slug: g-b2-modal-perfect-deduction-5
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "The meeting room is empty. Everyone ___ (must / leave) already."
+  accepted: ["must have left", "must've left"]
+  explanation_vi: "Suy đoán chắc chắn về quá khứ: must have + V3; leave → left."
+- slug: g-b2-modal-perfect-deduction-6
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "Don't blame Hoa. She ___ (can't / delete) the file. She doesn't have access."
+  accepted: ["can't have deleted", "cannot have deleted"]
+  explanation_vi: "Chắc chắn không thể → can't have + V3."
+- slug: g-b2-modal-perfect-deduction-7
+  type: mcq_meaning
+  cefr: B2
+  topic: grammar
+  stem: "Chọn câu đúng."
+  question: "Câu nào đúng ngữ pháp?"
+  options:
+    - "She must have forgot the meeting."
+    - "She must has forgotten the meeting."
+    - "She must have forgotten the meeting."
+    - "She must forgotten the meeting."
+  answer: 2
+  explanation_vi: "Must + have + V3 (forgotten)."
+- slug: g-b2-modal-perfect-deduction-8
+  type: mcq_meaning
+  cefr: B2
+  topic: grammar
+  stem: "Suy đoán trong code review."
+  question: "“Anh ấy không thể nào đã viết đoạn code này, anh ấy chưa bao giờ dùng Python.” là…"
+  options:
+    - "He must have written this code. He has never used Python."
+    - "He can't have written this code. He has never used Python."
+    - "He can't has written this code. He has never used Python."
+    - "He mustn't have wrote this code. He has never used Python."
+  answer: 1
+  explanation_vi: "Chắc chắn không thể → can't have + V3 (written)."
+# --- g-b2-should-have
+- slug: g-b2-should-have-1
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "I'm so tired today. I ___ to bed earlier last night."
+  options: [should go, should have gone, should have went, should gone]
+  answer: 1
+  explanation_vi: "Hối tiếc về tối qua → should have + V3; go → gone."
+- slug: g-b2-should-have-2
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: jira
+  sentence: "The demo crashed. We ___ have tested it on the real device."
+  options: [can, should, are, did]
+  answer: 1
+  explanation_vi: "Lẽ ra nên test (nhưng đã không) → should have + V3."
+- slug: g-b2-should-have-3
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "You ___ have shared your password with anyone. Change it now."
+  options: [mustn't, don't, shouldn't, hasn't]
+  answer: 2
+  explanation_vi: "Đã chia sẻ và đó là sai → shouldn't have + V3."
+- slug: g-b2-should-have-4
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: email
+  sentence: "She should have ___ the manager before cancelling the meeting."
+  options: [ask, asking, asked, asks]
+  answer: 2
+  explanation_vi: "Should have + V3: asked."
+- slug: g-b2-should-have-5
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "We missed the flight. We ___ (should / leave) home earlier."
+  accepted: ["should have left", "should've left"]
+  explanation_vi: "Lẽ ra nên đi sớm hơn → should have + V3; leave → left."
+- slug: g-b2-should-have-6
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "I ___ (shouldn't / say) that to my boss. It was rude."
+  accepted: ["shouldn't have said", "should not have said"]
+  explanation_vi: "Đã nói rồi và hối tiếc → shouldn't have + V3; say → said."
+- slug: g-b2-should-have-7
+  type: mcq_meaning
+  cefr: B2
+  topic: grammar
+  stem: "Chọn câu đúng."
+  question: "Câu nào đúng ngữ pháp?"
+  options:
+    - "You should have call me."
+    - "You should had called me."
+    - "You should have called me."
+    - "You should called me."
+  answer: 2
+  explanation_vi: "Should + have + V3 (called)."
+- slug: g-b2-should-have-8
+  type: mcq_meaning
+  cefr: B2
+  topic: grammar
+  stem: "Góp ý sau sự cố."
+  question: "“Lẽ ra bạn không nên xóa nhánh đó.” là…"
+  options:
+    - "You shouldn't delete that branch."
+    - "You mustn't have deleted that branch."
+    - "You shouldn't have delete that branch."
+    - "You shouldn't have deleted that branch."
+  answer: 3
+  explanation_vi: "Việc đã làm và không nên → shouldn't have + V3. Shouldn't delete chỉ là lời khuyên cho bây giờ."
+# --- g-b2-causative
+- slug: g-b2-causative-1
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "I can't use my bike today. I'm having it ___."
+  options: [repair, repaired, repairing, to repair]
+  answer: 1
+  explanation_vi: "Have + O + V3: người khác sửa cho mình."
+- slug: g-b2-causative-2
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: jira
+  sentence: "We need to ___ the server room cleaned before the audit."
+  options: [get, make, let, do]
+  answer: 0
+  explanation_vi: "Get + O + V3: nhờ/thuê người làm. Make và let đi với V nguyên mẫu, không đi với V3."
+- slug: g-b2-causative-3
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: email
+  sentence: "She ___ her contract checked by a lawyer last week."
+  options: [has, had, have, is]
+  answer: 1
+  explanation_vi: "Last week → quá khứ: had + O + V3."
+- slug: g-b2-causative-4
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "You should get your eyes ___. You're always rubbing them."
+  options: [test, tested, testing, to test]
+  answer: 1
+  explanation_vi: "Get + O + V3: tested."
+- slug: g-b2-causative-5
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "I had my teeth ___ (clean) at the dentist yesterday."
+  accepted: ["cleaned"]
+  explanation_vi: "Have + O + V3: nha sĩ làm sạch răng cho mình → cleaned."
+- slug: g-b2-causative-6
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "We're ___ (get) the office painted next weekend, so please work from home."
+  accepted: ["getting"]
+  explanation_vi: "Kế hoạch đã sắp xếp: are getting + O + V3."
+- slug: g-b2-causative-7
+  type: mcq_meaning
+  cefr: B2
+  topic: grammar
+  stem: "Chọn câu đúng."
+  question: "Câu nào đúng ngữ pháp?"
+  options:
+    - "I had my hair cut at a salon yesterday."
+    - "I have my hair cut at a salon yesterday."
+    - "I had my hair cutting at a salon yesterday."
+    - "I had my hair to cut at a salon yesterday."
+  answer: 0
+  explanation_vi: "Yesterday → had; sau tân ngữ dùng V3 (cut)."
+- slug: g-b2-causative-8
+  type: mcq_meaning
+  cefr: B2
+  topic: grammar
+  stem: "Kể chuyện xui."
+  question: "“Tối qua anh ấy bị trộm mất ví.” là…"
+  options:
+    - "He had stolen his wallet last night."
+    - "He has his wallet stolen last night."
+    - "He had his wallet stolen last night."
+    - "He had his wallet steal last night."
+  answer: 2
+  explanation_vi: "Have + O + V3 cho chuyện xấu người khác gây ra. He had stolen his wallet nghĩa là chính anh ấy đã trộm."
+# --- g-b2-passive-reporting
+- slug: g-b2-passive-reporting-1
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: email
+  sentence: "It ___ said that the founder started the company in his garage."
+  options: [is, are, am, does]
+  answer: 0
+  explanation_vi: "It is said that + mệnh đề."
+- slug: g-b2-passive-reporting-2
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: email
+  sentence: "The suspect is believed ___ the country last night."
+  options: [to leave, to have left, leaving, to has left]
+  answer: 1
+  explanation_vi: "Việc đã xảy ra (last night) → to have + V3."
+- slug: g-b2-passive-reporting-3
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "The new phone ___ expected to sell out in days."
+  options: [are, is, be, has]
+  answer: 1
+  explanation_vi: "The new phone số ít → is expected to + V."
+- slug: g-b2-passive-reporting-4
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: email
+  sentence: "___ is reported that ten people were injured."
+  options: [There, They, It, This]
+  answer: 2
+  explanation_vi: "Khung câu cố định: It is reported that + mệnh đề."
+- slug: g-b2-passive-reporting-5
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: email
+  sentence: "The building ___ (believe) to be over 200 years old."
+  accepted: ["is believed"]
+  explanation_vi: "Chủ ngữ số ít, hiện tại → is believed to + V."
+- slug: g-b2-passive-reporting-6
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: email
+  sentence: "The CEO is said ___ (resign) last month."
+  accepted: ["to have resigned"]
+  explanation_vi: "Việc đã xảy ra (last month) trước lúc nói → to have + V3."
+- slug: g-b2-passive-reporting-7
+  type: mcq_meaning
+  cefr: B2
+  topic: grammar
+  stem: "Chọn câu đúng."
+  question: "Câu nào đúng ngữ pháp?"
+  options:
+    - "He is said to has worked at Google."
+    - "He is said to have worked at Google."
+    - "He is said that he worked at Google."
+    - "He said to have worked at Google."
+  answer: 1
+  explanation_vi: "S + is said + to have + V3. Không dùng He is said that…"
+- slug: g-b2-passive-reporting-8
+  type: mcq_meaning
+  cefr: B2
+  topic: grammar
+  stem: "Viết tin tức."
+  question: "“Người ta cho rằng công ty đang thua lỗ.” là…"
+  options:
+    - "The company thinks to be losing money."
+    - "The company is thought to losing money."
+    - "The company is thought to be losing money."
+    - "It is thought the company to be losing money."
+  answer: 2
+  explanation_vi: "Đang diễn ra → S + is thought + to be + V-ing."
+# --- g-b2-reporting-verbs
+- slug: g-b2-reporting-verbs-1
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "My mentor advised me ___ more open-source projects."
+  options: [joining, to join, join, joined]
+  answer: 1
+  explanation_vi: "Advise + O + to V."
+- slug: g-b2-reporting-verbs-2
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: jira
+  sentence: "Linh suggested ___ the deadline by a week."
+  options: [to extend, extending, extend, us extend]
+  answer: 1
+  explanation_vi: "Suggest + V-ing. Không nói suggest to V hay suggest + O + V."
+- slug: g-b2-reporting-verbs-3
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: email
+  sentence: "The contractor denied ___ the customer data."
+  options: [to leak, leak, leaked, leaking]
+  answer: 3
+  explanation_vi: "Deny + V-ing."
+- slug: g-b2-reporting-verbs-4
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: email
+  sentence: "The vendor ___ to fix the issue within 24 hours."
+  options: [promised, suggested, denied, admitted]
+  answer: 0
+  explanation_vi: "Chỉ promise đi với to V. Suggest, deny, admit đi với V-ing."
+- slug: g-b2-reporting-verbs-5
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "She admitted ___ (forget) to lock the server room."
+  accepted: ["forgetting", "having forgotten"]
+  explanation_vi: "Admit + V-ing: forgetting (hoặc having forgotten)."
+- slug: g-b2-reporting-verbs-6
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: email
+  sentence: "The lawyer advised us ___ (not / sign) the contract yet."
+  accepted: ["not to sign"]
+  explanation_vi: "Phủ định của advise + O + to V: advise + O + not to V."
+- slug: g-b2-reporting-verbs-7
+  type: mcq_meaning
+  cefr: B2
+  topic: grammar
+  stem: "Chọn câu đúng."
+  question: "Câu nào đúng ngữ pháp?"
+  options:
+    - "She suggested me to use a VPN."
+    - "She suggested using a VPN."
+    - "She suggested to use a VPN."
+    - "She suggested use a VPN."
+  answer: 1
+  explanation_vi: "Suggest + V-ing (hoặc suggest that + mệnh đề)."
+- slug: g-b2-reporting-verbs-8
+  type: mcq_meaning
+  cefr: B2
+  topic: grammar
+  stem: "Thuật lại lời nói."
+  question: "“Anh ấy thừa nhận đã làm mất chìa khóa.” là…"
+  options:
+    - "He admitted to lose the key."
+    - "He denied losing the key."
+    - "He admitted losing the key."
+    - "He promised losing the key."
+  answer: 2
+  explanation_vi: "Thừa nhận = admit + V-ing. Deny là phủ nhận."
+# --- g-b2-non-defining-relatives
+- slug: g-b2-non-defining-relatives-1
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: email
+  sentence: "Our CTO, ___ joined in 2021, will lead the project."
+  options: [who, which, that, whose]
+  answer: 0
+  explanation_vi: "Người + mệnh đề có dấu phẩy → who. Không dùng that."
+- slug: g-b2-non-defining-relatives-2
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: jira
+  sentence: "The dashboard, ___ shows real-time sales, crashed this morning."
+  options: [who, which, that, what]
+  answer: 1
+  explanation_vi: "Vật + mệnh đề có dấu phẩy → which."
+- slug: g-b2-non-defining-relatives-3
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "I'm meeting Khoa, ___ sister works for our biggest client."
+  options: [who, which, whose, that]
+  answer: 2
+  explanation_vi: "Whose + danh từ: chị gái của Khoa."
+- slug: g-b2-non-defining-relatives-4
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "We stayed in Hoi An, ___ we visited the old town."
+  options: [which, who, whose, where]
+  answer: 3
+  explanation_vi: "Nơi chốn, mệnh đề đã có chủ ngữ và tân ngữ đầy đủ → where."
+- slug: g-b2-non-defining-relatives-5
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: jira
+  sentence: "The server crashed twice, ___ caused a lot of complaints."
+  accepted: ["which"]
+  explanation_vi: "Which chỉ cả việc server sập hai lần."
+- slug: g-b2-non-defining-relatives-6
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "My colleague Thao, ___ you met at the party, is leaving the company."
+  accepted: ["who", "whom"]
+  explanation_vi: "Người, làm tân ngữ (you met her) → whom (trang trọng) hoặc who."
+- slug: g-b2-non-defining-relatives-7
+  type: mcq_meaning
+  cefr: B2
+  topic: grammar
+  stem: "Chọn câu đúng."
+  question: "Câu nào đúng ngữ pháp?"
+  options:
+    - "My laptop, that I bought last year, is already slow."
+    - "My laptop, which I bought it last year, is already slow."
+    - "My laptop which I bought last year, is already slow."
+    - "My laptop, which I bought last year, is already slow."
+  answer: 3
+  explanation_vi: "Dấu phẩy hai đầu, dùng which (không dùng that) và không lặp lại tân ngữ it."
+- slug: g-b2-non-defining-relatives-8
+  type: mcq_meaning
+  cefr: B2
+  topic: grammar
+  stem: "Bình luận về sự việc."
+  question: "“Anh ấy quên đăng xuất, điều đó thật nguy hiểm.” là…"
+  options:
+    - "He forgot to log out, what was dangerous."
+    - "He forgot to log out, which was dangerous."
+    - "He forgot to log out, that was dangerous."
+    - "He forgot to log out, who was dangerous."
+  answer: 1
+  explanation_vi: ", which chỉ cả mệnh đề phía trước."
+# --- g-b2-participle-clauses
+- slug: g-b2-participle-clauses-1
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: email
+  sentence: "___ the email again, she noticed a typo in the subject line."
+  options: [Reading, Readed, To reading, Being read]
+  answer: 0
+  explanation_vi: "Chị ấy tự đọc (chủ động, cùng lúc) → V-ing."
+- slug: g-b2-participle-clauses-2
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "___ by the noise, the baby started crying."
+  options: [Waking, Woken, Wake, Having woken]
+  answer: 1
+  explanation_vi: "Em bé bị tiếng ồn đánh thức (bị động) → V3 woken."
+- slug: g-b2-participle-clauses-3
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "___ finished his presentation, Huy sat down."
+  options: [Has, Had, Having, Have]
+  answer: 2
+  explanation_vi: "Xong việc trước rồi mới ngồi → Having + V3."
+- slug: g-b2-participle-clauses-4
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "The woman ___ next to the window is our new designer."
+  options: [sit, sitting, to sit, sits]
+  answer: 1
+  explanation_vi: "Rút gọn mệnh đề quan hệ chủ động: who is sitting → sitting."
+- slug: g-b2-participle-clauses-5
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: email
+  sentence: "___ (make) in Vietnam, these shoes are sold all over Europe."
+  accepted: ["Made"]
+  explanation_vi: "Giày được làm (bị động) → V3: made."
+- slug: g-b2-participle-clauses-6
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "___ (not / have) a car, I take the bus to work every day."
+  accepted: ["Not having"]
+  explanation_vi: "Phủ định của mệnh đề V-ing: Not + V-ing (vì không có xe)."
+- slug: g-b2-participle-clauses-7
+  type: mcq_meaning
+  cefr: B2
+  topic: grammar
+  stem: "Chọn câu đúng."
+  question: "Câu nào đúng ngữ pháp?"
+  options:
+    - "Having finished the tests, the code was merged by Minh."
+    - "Having finish the tests, Minh merged the code."
+    - "Having finished the tests, Minh merged the code."
+    - "Have finished the tests, Minh merged the code."
+  answer: 2
+  explanation_vi: "Người chạy xong test là Minh, nên Minh phải là chủ ngữ của mệnh đề chính."
+- slug: g-b2-participle-clauses-8
+  type: mcq_meaning
+  cefr: B2
+  topic: grammar
+  stem: "Giới thiệu khóa học."
+  question: "“Được thiết kế cho người mới, khóa học này rất dễ theo.” là…"
+  options:
+    - "Designing for beginners, this course is easy to follow."
+    - "Design for beginners, this course is easy to follow."
+    - "Having designed for beginners, this course is easy to follow."
+    - "Designed for beginners, this course is easy to follow."
+  answer: 3
+  explanation_vi: "Khóa học được thiết kế (bị động) → V3 designed."
+# --- g-b2-wish-past
+- slug: g-b2-wish-past-1
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: jira
+  sentence: "I wish I ___ the bug before the release, not after."
+  options: [has noticed, had noticed, have noticed, had notice]
+  answer: 1
+  explanation_vi: "Tiếc về quá khứ → wish + had + V3."
+- slug: g-b2-wish-past-2
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: email
+  sentence: "If only we ___ the client's email more carefully yesterday."
+  options: [have read, has read, had read, had reading]
+  answer: 2
+  explanation_vi: "If only + had + V3 cho việc ở quá khứ (yesterday)."
+- slug: g-b2-wish-past-3
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "She wishes she ___ taken the job in Singapore."
+  options: [had, has, have, would]
+  answer: 0
+  explanation_vi: "Wish + had + V3 (taken)."
+- slug: g-b2-wish-past-4
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "I wish I hadn't ___ so much last night."
+  options: [eat, ate, eaten, eating]
+  answer: 2
+  explanation_vi: "Hadn't + V3: eat → eaten."
+- slug: g-b2-wish-past-5
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "I wish I ___ (go) to the team dinner last night. Everyone said it was fun."
+  accepted: ["had gone", "'d gone"]
+  explanation_vi: "Tiếc vì tối qua đã không đi → wish + had + V3; go → gone."
+- slug: g-b2-wish-past-6
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: jira
+  sentence: "If only he ___ (not / delete) the old backups!"
+  accepted: ["hadn't deleted", "had not deleted"]
+  explanation_vi: "Đã xóa và giờ tiếc → If only + hadn't + V3."
+- slug: g-b2-wish-past-7
+  type: mcq_meaning
+  cefr: B2
+  topic: grammar
+  stem: "Chọn câu đúng."
+  question: "Câu nào đúng ngữ pháp?"
+  options:
+    - "I wish I have listened to your advice."
+    - "I wish I had listen to your advice."
+    - "I wish I would listened to your advice."
+    - "I wish I had listened to your advice."
+  answer: 3
+  explanation_vi: "Wish + had + V3 (listened)."
+- slug: g-b2-wish-past-8
+  type: mcq_meaning
+  cefr: B2
+  topic: grammar
+  stem: "Tiếc nuối."
+  question: "“Giá mà hồi đó mình học tiếng Anh sớm hơn.” là…"
+  options:
+    - "If only I learn English earlier."
+    - "If only I had learned English earlier."
+    - "If only I have learned English earlier."
+    - "If only I would learned English earlier."
+  answer: 1
+  explanation_vi: "Tiếc về quá khứ (hồi đó) → If only + had + V3."
+# --- g-b2-would-used-to
+- slug: g-b2-would-used-to-1
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "When we were students, we ___ study together in the library every evening."
+  options: [would, will, are, have]
+  answer: 0
+  explanation_vi: "Hành động lặp lại trong quá khứ → would + V (used to cũng được nhưng không có trong lựa chọn)."
+- slug: g-b2-would-used-to-2
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "This café ___ be a bookshop."
+  options: [would, used to, use to, was used to]
+  answer: 1
+  explanation_vi: "Be là trạng thái → chỉ dùng used to, không dùng would."
+- slug: g-b2-would-used-to-3
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "My first boss ___ have a beard, but he shaved it off."
+  options: [would, uses to, used to, is used to]
+  answer: 2
+  explanation_vi: "Have (có râu) là trạng thái → used to."
+- slug: g-b2-would-used-to-4
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "___ you use to work night shifts at your old company?"
+  options: [Do, Did, Were, Would]
+  answer: 1
+  explanation_vi: "Câu hỏi về thói quen cũ: Did + S + use to + V?"
+- slug: g-b2-would-used-to-5
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "I ___ (not / use to) eat breakfast, but now I never skip it."
+  accepted: ["didn't use to", "did not use to"]
+  explanation_vi: "Phủ định: didn't use to + V (use không có d)."
+- slug: g-b2-would-used-to-6
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "Back then, our team lead ___ (bring – thói quen trong quá khứ) donuts every Monday."
+  accepted: ["would bring", "used to bring"]
+  explanation_vi: "Hành động lặp lại trong quá khứ → would bring hoặc used to bring."
+- slug: g-b2-would-used-to-7
+  type: mcq_meaning
+  cefr: B2
+  topic: grammar
+  stem: "Chọn câu đúng."
+  question: "Câu nào đúng ngữ pháp?"
+  options:
+    - "I would have long hair when I was at school."
+    - "I used to have long hair when I was at school."
+    - "I use to have long hair when I was at school."
+    - "I was used to have long hair when I was at school."
+  answer: 1
+  explanation_vi: "Have long hair là trạng thái → used to, không dùng would."
+- slug: g-b2-would-used-to-8
+  type: mcq_meaning
+  cefr: B2
+  topic: grammar
+  stem: "Kể về trước đây."
+  question: "“Trước đây mình từng sống ở Đà Lạt.” là…"
+  options:
+    - "I would live in Da Lat."
+    - "I am used to living in Da Lat."
+    - "I use to live in Da Lat."
+    - "I used to live in Da Lat."
+  answer: 3
+  explanation_vi: "Live là trạng thái → used to. Be used to + V-ing nghĩa là đã quen với."
+# --- g-b2-contrast-linkers
+- slug: g-b2-contrast-linkers-1
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: email
+  sentence: "___ the bad weather, the flight left on time."
+  options: [Although, Despite, However, Even though]
+  answer: 1
+  explanation_vi: "Theo sau là cụm danh từ (the bad weather) → despite."
+- slug: g-b2-contrast-linkers-2
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "___ she had a cold, she joined the client meeting."
+  options: [Despite, In spite of, Although, However]
+  answer: 2
+  explanation_vi: "Theo sau là mệnh đề (she had a cold) → although."
+- slug: g-b2-contrast-linkers-3
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: pr
+  sentence: "The new laptop is powerful. ___, the battery life is poor."
+  options: [Although, Despite, However, In spite]
+  answer: 2
+  explanation_vi: "Nối hai câu riêng, đứng đầu câu sau có dấu phẩy → however."
+- slug: g-b2-contrast-linkers-4
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "In spite ___ the long hours, he enjoys his job."
+  options: [of, for, that, with]
+  answer: 0
+  explanation_vi: "In spite luôn đi với of."
+- slug: g-b2-contrast-linkers-5
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: jira
+  sentence: "___ (mặc dù) the team worked all weekend, the bug still wasn't fixed."
+  accepted: ["Although", "Even though", "Though"]
+  explanation_vi: "Theo sau là mệnh đề (the team worked…) → although / even though."
+- slug: g-b2-contrast-linkers-6
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "Despite ___ (be) late again, Tuan didn't apologise."
+  accepted: ["being"]
+  explanation_vi: "Despite + V-ing: being."
+- slug: g-b2-contrast-linkers-7
+  type: mcq_meaning
+  cefr: B2
+  topic: grammar
+  stem: "Chọn câu đúng."
+  question: "Câu nào đúng ngữ pháp?"
+  options:
+    - "Despite it was late, we kept working."
+    - "Although it was late, we kept working."
+    - "In spite it was late, we kept working."
+    - "However it was late, we kept working."
+  answer: 1
+  explanation_vi: "Mệnh đề (it was late) → although."
+- slug: g-b2-contrast-linkers-8
+  type: mcq_meaning
+  cefr: B2
+  topic: grammar
+  stem: "Báo cáo doanh số."
+  question: "“Dù giá cao, sản phẩm vẫn bán rất chạy.” là…"
+  options:
+    - "Although the high price, the product sells very well."
+    - "However the high price, the product sells very well."
+    - "In spite the high price, the product sells very well."
+    - "Despite the high price, the product sells very well."
+  answer: 3
+  explanation_vi: "Cụm danh từ (the high price) → despite (hoặc in spite of)."
+# --- g-b2-purpose-linkers
+- slug: g-b2-purpose-linkers-1
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "I set an alarm ___ I wouldn't oversleep."
+  options: [so that, in order to, so as to, for]
+  answer: 0
+  explanation_vi: "Theo sau là mệnh đề (I wouldn't oversleep) → so that."
+- slug: g-b2-purpose-linkers-2
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: pr
+  sentence: "We hash passwords ___ protect user data."
+  options: [so that, in order to, for, so]
+  answer: 1
+  explanation_vi: "Theo sau là V nguyên mẫu (protect) → in order to."
+- slug: g-b2-purpose-linkers-3
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "She took notes so as ___ forget anything important."
+  options: [don't, not, no, not to]
+  answer: 3
+  explanation_vi: "Phủ định: so as not to + V."
+- slug: g-b2-purpose-linkers-4
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "Please speak louder so that everyone at the back ___ hear you."
+  options: [can, to, in order, for]
+  answer: 0
+  explanation_vi: "So that + S + can + V."
+- slug: g-b2-purpose-linkers-5
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "I'm learning English ___ that I can work abroad."
+  accepted: ["so"]
+  explanation_vi: "So that + mệnh đề chỉ mục đích."
+- slug: g-b2-purpose-linkers-6
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: email
+  sentence: "Please arrive ten minutes early in order ___ (not / miss) the safety briefing."
+  accepted: ["not to miss"]
+  explanation_vi: "Phủ định: in order not to + V."
+- slug: g-b2-purpose-linkers-7
+  type: mcq_meaning
+  cefr: B2
+  topic: grammar
+  stem: "Chọn câu đúng."
+  question: "Câu nào đúng ngữ pháp?"
+  options:
+    - "I came early for to get a good seat."
+    - "I came early in order to get a good seat."
+    - "I came early so that get a good seat."
+    - "I came early in order getting a good seat."
+  answer: 1
+  explanation_vi: "In order to + V nguyên mẫu."
+- slug: g-b2-purpose-linkers-8
+  type: mcq_meaning
+  cefr: B2
+  topic: grammar
+  stem: "Giữ tập trung."
+  question: "“Tụi mình tắt thông báo để có thể tập trung.” là…"
+  options:
+    - "We turned off notifications so that focus."
+    - "We turned off notifications in order we could focus."
+    - "We turned off notifications so that we could focus."
+    - "We turned off notifications for focusing we could."
+  answer: 2
+  explanation_vi: "So that + S + could + V (câu chính ở quá khứ)."
+# --- g-b2-supposed-bound
+- slug: g-b2-supposed-bound-1
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "You ___ supposed to park here. It's for visitors only."
+  options: [aren't, don't, haven't, won't]
+  answer: 0
+  explanation_vi: "Be + not + supposed to: không được phép theo quy định."
+- slug: g-b2-supposed-bound-2
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "The train was ___ to arrive at 6, but it's still not here."
+  options: [suppose, supposed, supposing, supposes]
+  answer: 1
+  explanation_vi: "Was supposed to: lẽ ra (nhưng không). Luôn có -d."
+- slug: g-b2-supposed-bound-3
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "If you leave the cake on the table, the kids are ___ to eat it."
+  options: [bound, bind, binding, bounded]
+  answer: 0
+  explanation_vi: "Be bound to + V: chắc chắn sẽ."
+- slug: g-b2-supposed-bound-4
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "It's ___ to rain this afternoon, so take an umbrella."
+  options: [like, likes, likely, liking]
+  answer: 2
+  explanation_vi: "Be likely to + V: có khả năng."
+- slug: g-b2-supposed-bound-5
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: jira
+  sentence: "We ___ (be supposed to – quá khứ) submit the report yesterday, but we forgot."
+  accepted: ["were supposed to"]
+  explanation_vi: "Lẽ ra phải nộp hôm qua → were supposed to (we → were)."
+- slug: g-b2-supposed-bound-6
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "With this much traffic, we ___ (be bound to – hiện tại) be late."
+  accepted: ["are bound to", "'re bound to"]
+  explanation_vi: "Chắc chắn sẽ trễ → are bound to + V."
+- slug: g-b2-supposed-bound-7
+  type: mcq_meaning
+  cefr: B2
+  topic: grammar
+  stem: "Chọn câu đúng."
+  question: "Câu nào đúng ngữ pháp?"
+  options:
+    - "The meeting supposed to start at 9."
+    - "The meeting was supposed to start at 9."
+    - "The meeting was suppose to start at 9."
+    - "The meeting is supposing to start at 9."
+  answer: 1
+  explanation_vi: "Cần đủ be + supposed (có -d) + to V."
+- slug: g-b2-supposed-bound-8
+  type: mcq_meaning
+  cefr: B2
+  topic: grammar
+  stem: "Dự đoán lịch phát hành."
+  question: "“Bản cập nhật có khả năng sẽ ra mắt vào tháng sau.” là…"
+  options:
+    - "The update is likely launching next month."
+    - "The update likely to launch next month."
+    - "The update is like to launch next month."
+    - "The update is likely to launch next month."
+  answer: 3
+  explanation_vi: "Be likely to + V nguyên mẫu."

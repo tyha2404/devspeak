@@ -1,0 +1,14 @@
+slug: topic-housing
+stage: vocab
+sort: 8
+code: T08
+kind: topic
+cefr: B1
+character: linh
+status: draft
+title: { en: "Home & Housing", vi: "Nhà cửa & chỗ ở" }
+summary_vi: "Từ vựng về thuê nhà, hợp đồng thuê, hàng xóm, đồ đạc, sửa chữa và việc nhà."
+can_do:
+  - "Hỏi thuê nhà và nói chuyện với chủ nhà về sửa chữa"
+  - "Mô tả căn nhà, đồ đạc và việc nhà hằng ngày"
+lessons: []

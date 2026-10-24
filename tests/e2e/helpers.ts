@@ -16,14 +16,20 @@ export const admin = createClient(
   },
 );
 
-/** A brand-new guest: landing → onboarding (default goal) → "start from the beginning" → /learn. */
+/** A brand-new guest on the career path: /career → onboarding (default goal) → "start from the beginning". */
 export async function startAsGuest(page: Page) {
-  await page.goto("/learn");
+  await page.goto("/career");
   await page.waitForURL("**/onboarding");
   await page.getByRole("button", { name: "Tiếp tục" }).click();
   await page.getByRole("button", { name: "Tiếp tục" }).click();
   await page.getByRole("button", { name: /Học từ đầu/ }).click();
-  await page.waitForURL("**/learn");
+  await page.waitForURL("**/career");
+}
+
+/** A brand-new guest on the grammar & vocabulary home: no onboarding, straight in. */
+export async function startOnHome(page: Page) {
+  await page.goto("/");
+  await expect(page.getByRole("heading", { level: 1 })).toContainText("Học theo từng chặng");
 }
 
 /** The guest's user id, read from the @supabase/ssr session cookie. */

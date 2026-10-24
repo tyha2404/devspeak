@@ -1,6 +1,14 @@
 "use client";
 
-import { BookOpenText, Flame, GitBranch, MessagesSquare, RotateCcw, UserRound } from "lucide-react";
+import {
+  BookOpenText,
+  Flame,
+  GitBranch,
+  MessagesSquare,
+  RotateCcw,
+  Sprout,
+  UserRound,
+} from "lucide-react";
 import Link from "next/link";
 import { usePathname, useRouter } from "next/navigation";
 import { useEffect, type ReactNode } from "react";
@@ -8,10 +16,16 @@ import { useMe } from "@/stores/meStore";
 import { Toasts } from "./Toasts";
 
 const NAV = [
-  { href: "/learn", label: "Học", icon: GitBranch, match: ["/learn", "/path"] },
+  { href: "/career", label: "Học", icon: GitBranch, match: ["/career", "/career/path"] },
+  { href: "/", label: "Nền tảng", icon: Sprout, match: ["/"] },
   { href: "/review", label: "Ôn tập", icon: RotateCcw, match: ["/review", "/words"] },
-  { href: "/practice", label: "Tình huống", icon: MessagesSquare, match: ["/practice"] },
-  { href: "/topics", label: "Kiến thức", icon: BookOpenText, match: ["/topics"] },
+  {
+    href: "/career/practice",
+    label: "Tình huống",
+    icon: MessagesSquare,
+    match: ["/career/practice"],
+  },
+  { href: "/career/topics", label: "Kiến thức", icon: BookOpenText, match: ["/career/topics"] },
   { href: "/profile", label: "Hồ sơ", icon: UserRound, match: ["/profile", "/settings"] },
 ];
 
@@ -63,7 +77,7 @@ function DayStatus() {
           {me.todayXp}/{me.dailyGoal} XP
         </p>
         <p className="text-muted flex items-center gap-1">
-          <Flame size={14} className={me.streak > 0 ? "text-amber" : ""} aria-hidden />
+          <Flame size={14} className={me.streak > 0 ? "text-bad" : ""} aria-hidden />
           {me.streak} ngày liên tiếp
         </p>
       </div>
@@ -85,13 +99,16 @@ export function AppShell({ children }: { children: ReactNode }) {
   }, [load, router]);
 
   const active = (match: string[]) =>
-    match.some((m) => pathname === m || pathname.startsWith(`${m}/`));
+    // "/career" and "/" are section roots: they match exactly, deeper pages have their own entries.
+    match.some(
+      (m) => pathname === m || (m !== "/career" && m !== "/" && pathname.startsWith(`${m}/`)),
+    );
 
   return (
     <div className="min-h-dvh md:grid md:grid-cols-[15rem_1fr]">
       <aside className="border-line bg-surface hidden border-r md:block">
         <div className="sticky top-0 flex h-dvh flex-col px-4 py-6">
-          <Link href="/learn" className="mb-8 flex items-center gap-2 px-2 text-lg font-bold">
+          <Link href="/career" className="mb-8 flex items-center gap-2 px-2 text-lg font-bold">
             <span
               className="bg-ink text-paper grid h-8 w-8 place-items-center rounded-lg font-mono text-sm"
               aria-hidden
@@ -125,7 +142,7 @@ export function AppShell({ children }: { children: ReactNode }) {
 
       <div className="min-w-0 pb-24 md:pb-0">
         <header className="border-line bg-surface flex items-center justify-between border-b px-4 py-3 md:hidden">
-          <Link href="/learn" className="flex items-center gap-2 font-bold">
+          <Link href="/career" className="flex items-center gap-2 font-bold">
             <span
               className="bg-ink text-paper grid h-7 w-7 place-items-center rounded-md font-mono text-xs"
               aria-hidden
@@ -143,7 +160,7 @@ export function AppShell({ children }: { children: ReactNode }) {
 
       <nav
         aria-label="Chính"
-        className="border-line bg-surface fixed inset-x-0 bottom-0 z-20 grid grid-cols-5 border-t pb-[env(safe-area-inset-bottom)] md:hidden"
+        className="border-line bg-surface fixed inset-x-0 bottom-0 z-20 grid grid-cols-6 border-t pb-[env(safe-area-inset-bottom)] md:hidden"
       >
         {NAV.map(({ href, label, icon: Icon, match }) => (
           <Link

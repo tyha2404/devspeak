@@ -8,6 +8,11 @@ import {
   StageSpec,
   UnitSpec,
 } from "../../src/features/curriculum/schema";
+import {
+  grammarTestOrder,
+  grammarTranslations,
+  vocabTest,
+} from "../../src/features/curriculum/autoquiz";
 import type { loadCurated } from "./curated";
 
 const ROOT = path.resolve(import.meta.dirname, "../..");
@@ -123,7 +128,7 @@ export function validateCurriculum(
       if (l.kind === "mistakes")
         for (const m of l.mistakes)
           if (!mistakes.has(m)) errors.push(`${where}: unknown mistake ${m}`);
-      const graded = ["practice", "listening", "reading", "focus"].includes(l.kind);
+      const graded = ["practice", "listening", "reading", "focus", "grammar"].includes(l.kind);
       if (u.status === "published" && graded && l.questions.length === 0)
         errors.push(`${where}: a ${l.kind} lesson needs questions`);
     }
@@ -135,4 +140,41 @@ export function validateCurriculum(
       if (!mistakes.has(m)) errors.push(`situation ${s.slug}: unknown mistake ${m}`);
   }
   return errors;
+}
+
+/**
+ * Study-track lessons get ForumFlash-shaped tests: a vocabulary set is tested by 16 generated
+ * questions, a grammar point by its authored items plus translations built from its examples.
+ * Generated questions are appended to the curated bank (seeded like any other); every track
+ * lesson then scores 80% to pass and pays by stars.
+ */
+export function expandTrackLessons(c: Curriculum, content: ReturnType<typeof loadCurated>) {
+  const trackOf = new Map(c.stages.map((s) => [s.slug, s.track]));
+  const senses = new Map(content.senses.map((s) => [s.slug, s]));
+  let generated = 0;
+  for (const u of c.units) {
+    if ((trackOf.get(u.stage) ?? "career") === "career") continue;
+    for (const l of u.lessons) {
+      let extra: ReturnType<typeof vocabTest> = [];
+      if (l.kind === "vocab") {
+        extra = vocabTest(
+          l.slug,
+          l.senses.map((s) => senses.get(s)).filter((s) => !!s),
+        );
+        l.questions = extra.map((q) => q.slug);
+      } else if (l.kind === "grammar") {
+        extra = grammarTranslations(l.slug, u.cefr, l.grammar);
+        l.questions = grammarTestOrder(
+          l.questions,
+          extra.map((q) => q.slug),
+        );
+      }
+      content.questions.push(...extra);
+      generated += extra.length;
+      l.count = undefined;
+      l.pass_pct = 80;
+      l.xp = 80;
+    }
+  }
+  return generated;
 }
