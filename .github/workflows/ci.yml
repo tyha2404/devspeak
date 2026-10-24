@@ -12,6 +12,9 @@ jobs:
     env:
       NEXT_PUBLIC_SUPABASE_URL: http://127.0.0.1:54321
       NEXT_TELEMETRY_DISABLED: 1
+      LLM_FAKE: "1"
+      FEATURE_CHAT_ENABLED: "true"
+      CRON_SECRET: ci-cron-secret-0123456789
     steps:
       - uses: actions/checkout@v4
       - uses: pnpm/action-setup@v4
@@ -39,6 +42,8 @@ jobs:
             | sed -n 's/^PUBLISHABLE_KEY=/NEXT_PUBLIC_SUPABASE_PUBLISHABLE_KEY=/p; s/^SECRET_KEY=/SUPABASE_SECRET_KEY=/p' \
             | tr -d '"' >> "$GITHUB_ENV"
       - run: pnpm db:test
+      - run: pnpm seed:curated
+      - run: pnpm test:integration
       - name: Generated DB types are up to date
         run: |
           pnpm db:types

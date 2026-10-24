@@ -8,6 +8,10 @@ export interface NpcDef {
   unlockLevel: number;
   unlockRank?: CareerRank;
   voice: { lang: "en-US" | "en-GB" | "en-AU" | "en-IN"; pitch: number; rate: number };
+  /** Character sheet row; defaults to the NPC id. */
+  sprite?: string;
+  /** Where the NPC is during certain hours (ICT); outside these windows they use their map placement. */
+  schedule?: { map: string; from: string; to: string; tile: [number, number] }[];
 }
 
 export const NPCS: Record<string, NpcDef> = {
@@ -19,6 +23,7 @@ export const NPCS: Record<string, NpcDef> = {
     voice: { lang: "en-US", pitch: 1.1, rate: 0.9 },
   },
   tuan: {
+    schedule: [{ map: "pantry", from: "11:30", to: "13:00", tile: [6, 10] }],
     id: "tuan",
     name: "Tuấn",
     role: { en: "Senior Developer", vi: "Lập trình viên senior" },
@@ -33,6 +38,7 @@ export const NPCS: Record<string, NpcDef> = {
     voice: { lang: "en-GB", pitch: 1.1, rate: 0.95 },
   },
   dave: {
+    schedule: [{ map: "pantry", from: "11:30", to: "13:00", tile: [9, 10] }],
     id: "dave",
     name: "Dave Miller",
     role: { en: "Designer", vi: "Nhà thiết kế" },
@@ -74,7 +80,32 @@ export const NPCS: Record<string, NpcDef> = {
     id: "robert",
     name: "Robert Hayes",
     role: { en: "CTO", vi: "Giám đốc công nghệ" },
-    unlockLevel: 1,
+    unlockLevel: 21,
+    unlockRank: "senior",
     voice: { lang: "en-US", pitch: 0.85, rate: 0.9 },
+  },
+  mentee: {
+    id: "mentee",
+    name: "An",
+    role: { en: "Intern (your mentee)", vi: "Thực tập sinh bạn kèm" },
+    unlockLevel: 31,
+    unlockRank: "techlead",
+    voice: { lang: "en-US", pitch: 1.15, rate: 0.9 },
+  },
+  "attendee-a": {
+    id: "attendee-a",
+    name: "Priya",
+    role: { en: "Conference attendee", vi: "Khách dự hội thảo" },
+    unlockLevel: 21,
+    unlockRank: "senior",
+    voice: { lang: "en-IN", pitch: 1.05, rate: 0.95 },
+  },
+  "attendee-b": {
+    id: "attendee-b",
+    name: "Lucas",
+    role: { en: "Conference speaker", vi: "Diễn giả hội thảo" },
+    unlockLevel: 21,
+    unlockRank: "senior",
+    voice: { lang: "en-GB", pitch: 0.95, rate: 0.95 },
   },
 };

@@ -1,9 +1,26 @@
 import "server-only";
 import { NextResponse } from "next/server";
 import type { z } from "zod";
+import { createAdminClient } from "@/lib/supabase/admin";
 import { createClient } from "@/lib/supabase/server";
 
-export type ApiErrorCode = "UNAUTHENTICATED" | "VALIDATION" | "RATE_LIMITED" | "INTERNAL";
+export type ApiErrorCode =
+  | "UNAUTHENTICATED"
+  | "FORBIDDEN"
+  | "VALIDATION"
+  | "RATE_LIMITED"
+  | "INTERNAL"
+  | "NOT_FOUND"
+  | "ALREADY_ANSWERED"
+  | "ALREADY_DONE"
+  | "DELIVERY_EXPIRED"
+  | "TOO_MANY_OPEN"
+  | "EMPTY"
+  | "LOCKED"
+  | "BAD_CHOICE"
+  | "QUIZ_NOT_FINISHED"
+  | "QUOTA_EXCEEDED"
+  | "AI_UNAVAILABLE";
 
 export const ok = <T>(data: T, init?: ResponseInit) => NextResponse.json({ ok: true, data }, init);
 export const fail = (code: ApiErrorCode, message: string, status: number) =>
@@ -16,8 +33,14 @@ interface Ctx {
 }
 
 /** Route wrapper: authenticates the caller (guests included) and validates the JSON body. */
+export interface RateLimit {
+  bucket: string;
+  limit: number;
+  windowSec: number;
+}
+
 export function withUser<S extends z.ZodType | undefined = undefined>(
-  opts: { input?: S },
+  opts: { input?: S; rateLimit?: RateLimit | RateLimit[]; registered?: boolean },
   handler: (
     ctx: Ctx & { input: S extends z.ZodType ? z.infer<S> : undefined },
     req: Request,
@@ -29,6 +52,18 @@ export function withUser<S extends z.ZodType | undefined = undefined>(
       const { data } = await supabase.auth.getClaims();
       const claims = data?.claims;
       if (!claims?.sub) return fail("UNAUTHENTICATED", "Sign in to continue", 401);
+      if (opts.registered && claims.is_anonymous)
+        return fail("FORBIDDEN", "Link an email or Google account first", 403);
+
+      for (const rl of [opts.rateLimit ?? []].flat()) {
+        const { data: allowed } = await createAdminClient().rpc("svc_rate_limit", {
+          p_subject: claims.sub,
+          p_bucket: rl.bucket,
+          p_limit: rl.limit,
+          p_window_s: rl.windowSec,
+        });
+        if (allowed === false) return fail("RATE_LIMITED", "Slow down a little", 429);
+      }
 
       let input: unknown = undefined;
       if (opts.input) {

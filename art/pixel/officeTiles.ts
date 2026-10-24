@@ -20,6 +20,10 @@ export const OFFICE_PALETTE: Record<string, string> = {
   R: "#7a2e2e", // mat
   A: "#a8dadc", // water
   a: "#5fa8d3", // water shade
+  Y: "#f9c74f", // duck
+  n: "#f8961e", // beak / cat
+  G: "#52b788", // cactus
+  T: "#a0522d", // pot
 };
 
 const T: Record<string, string[]> = {
@@ -367,34 +371,85 @@ const T: Record<string, string[]> = {
   ],
 };
 
-// Stable tile indices inside the generated `office` tileset. Append only.
-export const OFFICE_TILE_ORDER = [
-  "monitor",
-  "laptop",
-  "rackTop",
-  "rackBottom",
-  "whiteboardL",
-  "whiteboardR",
-  "boardL",
-  "boardR",
-  "coffee",
-  "coolerTop",
-  "coolerBottom",
-  "chair",
-  "printer",
-  "screenL",
-  "screenR",
-  "elevatorL",
-  "elevatorR",
-  "mat",
-  "lock",
-] as const;
+T.duck = [
+  "................",
+  "................",
+  "................",
+  "................",
+  "................",
+  "........YYY.....",
+  ".......YYYYY....",
+  ".......YKYYYnn..",
+  ".......YYYYYn...",
+  "...YY...YYY.....",
+  "...YYYYYYYYY....",
+  "...YYYYYYYYYY...",
+  "....YYYYYYYY....",
+  ".....YYYYYY.....",
+  "................",
+  "................",
+];
+T.cat = [
+  "................",
+  "................",
+  "................",
+  "................",
+  "................",
+  "....n...n.......",
+  "....nn.nn.......",
+  "....nnnnn.......",
+  "....nKnKn.......",
+  "....nnnnn....n..",
+  "....nnnnnn..n...",
+  "...nnnnnnnnnn...",
+  "...nnnnnnnnn....",
+  "...nn.nn.nn.....",
+  "................",
+  "................",
+];
+T.cactus = [
+  "................",
+  "................",
+  "................",
+  "................",
+  ".......GG.......",
+  "....G..GG.......",
+  "....G..GG..G....",
+  "....GGGGG..G....",
+  ".......GGGGG....",
+  ".......GG.......",
+  ".....TTTTTT.....",
+  ".....TTTTTT.....",
+  "......TTTT......",
+  "......TTTT......",
+  "................",
+  "................",
+];
+T.keyboard = [
+  "................",
+  "................",
+  "................",
+  "................",
+  "................",
+  "................",
+  "................",
+  "................",
+  "..KKKKKKKKKKKK..",
+  "..KLrLyLgLcLbK..",
+  "..KLLLLLLLLLLK..",
+  "..KLLLLLLLLLLK..",
+  "..KKKKKKKKKKKK..",
+  "................",
+  "................",
+  "................",
+];
 
-export type OfficeTileName = (typeof OFFICE_TILE_ORDER)[number];
-
-export const OFFICE_TILE = Object.fromEntries(
-  OFFICE_TILE_ORDER.map((name, i) => [name, i]),
-) as Record<OfficeTileName, number>;
+export {
+  OFFICE_TILE,
+  OFFICE_TILE_ORDER,
+  type OfficeTileName,
+} from "../../src/game/data/officeTiles";
+import type { OfficeTileName } from "../../src/game/data/officeTiles";
 
 export function officeTilePixels(name: OfficeTileName): string[] {
   return T[name]!;

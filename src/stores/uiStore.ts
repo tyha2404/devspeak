@@ -4,6 +4,20 @@ import type { InteractableKind } from "@/game/events";
 export type Overlay =
   | { kind: "dialogue"; npcId: string }
   | { kind: "object"; objectId: string; objectKind: InteractableKind; label: string }
+  | { kind: "notebook" }
+  | { kind: "people" }
+  | {
+      kind: "panel";
+      panel:
+        | "daily"
+        | "quests"
+        | "shop"
+        | "achievements"
+        | "promotion"
+        | "placement"
+        | "settings"
+        | "elevator";
+    }
   | null;
 
 export interface Toast {
@@ -15,6 +29,8 @@ interface UiState {
   overlay: Overlay;
   actionLabel: string | null;
   mapName: string | null;
+  people: { npcs: { id: string; name: string }[]; objects: { objectId: string; label: string }[] };
+  setPeople: (p: UiState["people"]) => void;
   toasts: Toast[];
   openOverlay: (overlay: NonNullable<Overlay>) => void;
   closeOverlay: () => void;
@@ -29,6 +45,8 @@ export const useUiStore = create<UiState>()((set) => ({
   overlay: null,
   actionLabel: null,
   mapName: null,
+  people: { npcs: [], objects: [] },
+  setPeople: (people) => set({ people }),
   toasts: [],
   openOverlay: (overlay) => set({ overlay }),
   closeOverlay: () => set({ overlay: null }),

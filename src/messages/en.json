@@ -1,0 +1,37 @@
+{
+  "landing": {
+    "kicker": "DevQuest English",
+    "title": "Workplace English for developers, learned by going to work in a game.",
+    "subtitle": "Standups with the Scrum Master, code reviews with the Tech Lead, bug reports with QA. Five IT words a day, reviewed right before you forget.",
+    "play": "Play now",
+    "login": "Sign in",
+    "features": {
+      "npc": {
+        "title": "NPC colleagues",
+        "body": "Nine international characters — HR, mentor, Scrum Master, QA, Tech Lead, SRE, client — each teaches a work skill."
+      },
+      "daily": {
+        "title": "5 IT words a day",
+        "body": "Real vocabulary (commit, blocker, rollback…) with Vietnamese meanings, audio and examples."
+      },
+      "srs": {
+        "title": "Smart review",
+        "body": "FSRS spaced repetition reminds you right before you forget, with verification checks."
+      },
+      "career": {
+        "title": "Career progression",
+        "body": "Climb from Intern to Tech Lead through promotion interviews with the CTO."
+      }
+    },
+    "footer": { "credits": "Data & art credits", "privacy": "Privacy", "terms": "Terms" }
+  },
+  "hud": {
+    "notebook": "Notebook",
+    "quests": "Sprint tickets",
+    "settings": "Settings",
+    "review": "Review",
+    "profile": "Profile",
+    "people": "People here"
+  },
+  "locale": { "label": "Language", "vi": "Tiếng Việt", "en": "English" }
+}

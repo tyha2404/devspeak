@@ -1,0 +1,330 @@
+# Junior-rank dialogues + Sarah's speaking standup. Uses freewrite (AI-graded) and speak (mic or typed) nodes.
+- slug: sarah-speaking-standup
+  npc: sarah
+  title_en: Standup, out loud
+  title_vi: Standup bằng giọng nói
+  cefr: A2
+  sort: 3
+  xp: 30
+  entry: hi
+  nodes:
+    hi:
+      {
+        type: line,
+        en: "Today let's do standup out loud. Use the mic if you can — or just type.",
+        vi: "Hôm nay mình làm standup bằng giọng nói nhé. Dùng micro nếu được — hoặc gõ cũng được.",
+        next: talk,
+      }
+    talk:
+      type: speak
+      prompt_en: "Your update: what did you do [[yesterday|yesterday-adv]], what will you do today, any [[blockers|blocker-n]]?"
+      prompt_vi: "Cập nhật của bạn: hôm qua làm gì, hôm nay làm gì, có vướng mắc không?"
+      expected: ["yesterday", "today", "blocker"]
+      next: thanks
+    thanks:
+      {
+        type: line,
+        en: "Great, clear and short. That's exactly how a good standup sounds!",
+        vi: "Tuyệt, rõ ràng và ngắn gọn. Standup tốt là như vậy!",
+        next: end,
+      }
+    end: { type: end, effects: [{ type: learnWord, sense: in-progress-phr }] }
+
+- slug: raj-pr-review
+  npc: raj
+  title_en: Replying to review comments
+  title_vi: Trả lời comment review
+  cefr: B1
+  sort: 1
+  unlock_level: 6
+  xp: 30
+  entry: hi
+  nodes:
+    hi:
+      {
+        type: line,
+        en: "Hi, I'm Raj, tech lead. I left a few comments on your PR. One is just a [[nit|nit-n]], the other is about a [[trade-off|trade-off-n]].",
+        vi: "Chào, mình là Raj, tech lead. Mình để vài comment trên PR của bạn. Một cái chỉ là góp ý nhỏ, cái kia về một sự đánh đổi.",
+        next: write,
+      }
+    write:
+      type: freewrite
+      task_en: "Reply to Raj's comment politely: say you agree and what you'll change."
+      task_vi: "Trả lời comment của Raj một cách lịch sự: đồng ý và nói bạn sẽ sửa gì."
+      context:
+        - {
+            speaker: "Raj",
+            text: "Nit: `getData` is a vague name. Maybe `getUserOrders`? Not blocking.",
+          }
+      keywords: ["rename", "thanks"]
+      next: more
+    more:
+      {
+        type: line,
+        en: "Thanks! Second comment: adding a cache here is faster, but the data changes often. What do you think?",
+        vi: "Cảm ơn! Comment thứ hai: thêm cache ở đây nhanh hơn, nhưng dữ liệu thay đổi thường xuyên. Bạn nghĩ sao?",
+        next: ask,
+      }
+    ask:
+      type: choice
+      prompt_en: "How do you answer?"
+      prompt_vi: "Bạn trả lời thế nào?"
+      choices:
+        - {
+            id: a,
+            en: "Good point. It's a [[trade-off|trade-off-n]]; could we measure the [[latency|latency-n]] first?",
+            quality: best,
+            feedback_vi: "Nêu sự đánh đổi + đề xuất đo đạc: rất tech lead!",
+            next: quiz,
+          }
+        - {
+            id: b,
+            en: "Cache is always better.",
+            quality: poor,
+            feedback_vi: "Quá tuyệt đối — hãy cân nhắc đánh đổi.",
+            next: ask,
+          }
+        - {
+            id: c,
+            en: "I don't know, you decide.",
+            quality: ok,
+            feedback_vi: "Lịch sự nhưng nên đưa ra ý kiến của mình.",
+            next: quiz,
+          }
+    quiz:
+      {
+        type: quiz,
+        questions: [raj-nit-meaning, raj-trade-off-meaning, raj-fill-address, raj-reply-disagree],
+        passAt: 3,
+        onPass: done,
+        onFail: retry,
+      }
+    retry:
+      { type: line, en: "Let's review those once more.", vi: "Ôn lại lần nữa nhé.", next: quiz }
+    done:
+      {
+        type: line,
+        en: "Nice. Push the changes and I'll [[approve|approve-v]] it.",
+        vi: "Tốt. Push thay đổi lên rồi mình sẽ duyệt.",
+        next: end,
+      }
+    end:
+      {
+        type: end,
+        effects:
+          [
+            { type: learnWord, sense: nit-n },
+            { type: learnWord, sense: trade-off-n },
+            { type: learnWord, sense: approve-v },
+          ],
+      }
+
+- slug: raj-architecture
+  npc: raj
+  title_en: Where is the bottleneck?
+  title_vi: Điểm nghẽn ở đâu?
+  cefr: B2
+  sort: 2
+  unlock_level: 6
+  xp: 30
+  entry: hi
+  nodes:
+    hi:
+      {
+        type: line,
+        en: "The search page is slow. Is the API the [[bottleneck|bottleneck-n]], or the database?",
+        vi: "Trang tìm kiếm chậm. Điểm nghẽn là API hay database?",
+        next: ask,
+      }
+    ask:
+      type: choice
+      prompt_en: "Your profiling shows most time is spent on one SQL query."
+      prompt_vi: "Kết quả profiling cho thấy phần lớn thời gian nằm ở một câu SQL."
+      choices:
+        - {
+            id: a,
+            en: "The database is the bottleneck. I'd [[suggest|suggest-v]] adding an index to that query.",
+            quality: best,
+            feedback_vi: "Dựa trên dữ liệu + đề xuất cụ thể.",
+            next: quiz,
+          }
+        - {
+            id: b,
+            en: "Probably the API, I guess.",
+            quality: poor,
+            feedback_vi: "Đoán mò — hãy dựa vào số liệu profiling.",
+            next: ask,
+          }
+        - {
+            id: c,
+            en: "Database slow. Add index.",
+            quality: ok,
+            feedback_vi: 'Đúng ý nhưng hơi cộc. Thử "I''d suggest…"',
+            next: quiz,
+          }
+    quiz:
+      {
+        type: quiz,
+        questions:
+          [raj-bottleneck-meaning, raj-scalable-meaning, raj-fix-trade-off, raj-listen-review],
+        passAt: 3,
+        onPass: done,
+        onFail: retry,
+      }
+    retry:
+      { type: line, en: "Almost — one more round.", vi: "Gần rồi — thêm một lượt nữa.", next: quiz }
+    done:
+      {
+        type: line,
+        en: "Agreed. That should make it much more [[scalable|scalable-adj]].",
+        vi: "Đồng ý. Như vậy sẽ dễ mở rộng hơn nhiều.",
+        next: end,
+      }
+    end:
+      {
+        type: end,
+        effects:
+          [{ type: learnWord, sense: bottleneck-n }, { type: learnWord, sense: scalable-adj }],
+      }
+
+- slug: kenji-incident
+  npc: kenji
+  title_en: Incident war room
+  title_vi: Phòng chiến sự cố
+  cefr: B1
+  sort: 1
+  unlock_level: 6
+  xp: 30
+  entry: hi
+  nodes:
+    hi:
+      {
+        type: line,
+        en: "Alert! [[Latency|latency-n]] spiked at 02:14 and checkout is failing. You're [[on call|on-call-adj]] with me.",
+        vi: "Cảnh báo! Độ trễ tăng vọt lúc 02:14 và thanh toán bị lỗi. Bạn trực sự cố cùng mình.",
+        next: first,
+      }
+    first:
+      type: choice
+      prompt_en: "The errors started right after tonight's deploy. What do you do first?"
+      prompt_vi: "Lỗi bắt đầu ngay sau bản deploy tối nay. Việc đầu tiên bạn làm là gì?"
+      choices:
+        - {
+            id: a,
+            en: "[[Roll back|roll-back-phr]] the deploy, then check the [[logs|log-n]].",
+            quality: best,
+            feedback_vi: "Khôi phục dịch vụ trước, điều tra sau. Chuẩn SRE!",
+            next: update,
+          }
+        - {
+            id: b,
+            en: "Start writing a new feature.",
+            quality: poor,
+            feedback_vi: "Đang có sự cố — phải xử lý trước.",
+            next: first,
+          }
+        - {
+            id: c,
+            en: "Read all the code to find the bug.",
+            quality: ok,
+            feedback_vi: "Sẽ cần, nhưng trước hết hãy khôi phục dịch vụ (roll back).",
+            next: update,
+          }
+    update:
+      type: freewrite
+      task_en: "Post a short status update in #incidents: what happened, what you did, what's next."
+      task_vi: "Đăng cập nhật ngắn trong #incidents: chuyện gì xảy ra, bạn đã làm gì, bước tiếp theo."
+      context:
+        - { speaker: "Kenji", text: "Rollback done at 02:20. Error rate is dropping." }
+      keywords: ["rolled back", "monitoring"]
+      next: quiz
+    quiz:
+      {
+        type: quiz,
+        questions: [kenji-rollback-meaning, kenji-fill-logs, kenji-reply-status, kenji-fix-passive],
+        passAt: 3,
+        onPass: done,
+        onFail: retry,
+      }
+    retry:
+      {
+        type: line,
+        en: "Stay calm. Let's go through it again.",
+        vi: "Bình tĩnh. Làm lại lần nữa nhé.",
+        next: quiz,
+      }
+    done:
+      {
+        type: line,
+        en: "Good work. Checkout is back. Tomorrow we find the [[root cause|root-cause-n]].",
+        vi: "Làm tốt lắm. Thanh toán đã hoạt động lại. Mai mình tìm nguyên nhân gốc.",
+        next: end,
+      }
+    end:
+      {
+        type: end,
+        effects:
+          [
+            { type: learnWord, sense: roll-back-phr },
+            { type: learnWord, sense: outage-n },
+            { type: learnWord, sense: on-call-adj },
+          ],
+      }
+
+- slug: kenji-postmortem
+  npc: kenji
+  title_en: Writing the postmortem
+  title_vi: Viết postmortem
+  cefr: B2
+  sort: 2
+  unlock_level: 6
+  xp: 30
+  entry: hi
+  nodes:
+    hi:
+      {
+        type: line,
+        en: "Time for the [[postmortem|postmortem-n]]. We found the [[root cause|root-cause-n]]: a bad config value.",
+        vi: "Đến lúc viết postmortem. Mình đã tìm ra nguyên nhân gốc: một giá trị config sai.",
+        next: write,
+      }
+    write:
+      type: freewrite
+      task_en: "Write one sentence for the postmortem summary using the passive voice (was caused by…)."
+      task_vi: "Viết một câu tóm tắt cho postmortem, dùng câu bị động (was caused by…)."
+      keywords: ["was caused by", "config"]
+      next: quiz
+    quiz:
+      {
+        type: quiz,
+        questions:
+          [
+            kenji-root-cause-meaning,
+            kenji-fill-postmortem,
+            kenji-listen-incident,
+            kenji-outage-meaning,
+          ],
+        passAt: 3,
+        onPass: done,
+        onFail: retry,
+      }
+    retry:
+      {
+        type: line,
+        en: "Let's review the incident words again.",
+        vi: "Ôn lại từ vựng về sự cố nhé.",
+        next: quiz,
+      }
+    done:
+      {
+        type: line,
+        en: "Clear and blameless. That's a good postmortem.",
+        vi: "Rõ ràng và không đổ lỗi. Đó là một postmortem tốt.",
+        next: end,
+      }
+    end:
+      {
+        type: end,
+        effects:
+          [{ type: learnWord, sense: postmortem-n }, { type: learnWord, sense: root-cause-n }],
+      }

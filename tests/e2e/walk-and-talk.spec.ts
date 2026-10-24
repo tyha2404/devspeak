@@ -47,7 +47,7 @@ test("talk to an NPC; the dialogue locks movement until closed", async ({ page, 
   await expect(actionHint(page, /Talk to Tuấn/, isMobile)).toBeVisible();
   await interact(page, /Talk to Tuấn/, isMobile);
   const dialog = page.getByRole("dialog");
-  await expect(dialog).toContainText("merge conflict");
+  await expect(dialog).toContainText("pull before you push");
   await page.screenshot({ path: test.info().outputPath("dialogue.png") });
 
   const before = await page.evaluate(() => (window as unknown as { __dq: Dq }).__dq.player());
@@ -57,7 +57,7 @@ test("talk to an NPC; the dialogue locks movement until closed", async ({ page, 
   const after = await page.evaluate(() => (window as unknown as { __dq: Dq }).__dq.player());
   expect(after.x).toBe(before.x);
 
-  await page.keyboard.press("Enter");
+  await page.keyboard.press("Escape");
   await expect(dialog).toBeHidden();
 });
 

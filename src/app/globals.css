@@ -3,7 +3,7 @@
 :root {
   --background: #1b1b28;
   --foreground: #f4f1de;
-  --dq-font-base: 16px;
+  --dq-font-base: 18px; /* must match settingsStore default "m" to avoid a layout shift */
 }
 
 @theme inline {
@@ -14,6 +14,11 @@
 
 html {
   font-size: var(--dq-font-base);
+}
+
+[data-reduced-motion="1"] * {
+  animation-duration: 0.01ms !important;
+  transition-duration: 0.01ms !important;
 }
 
 body {

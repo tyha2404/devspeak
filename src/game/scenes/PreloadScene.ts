@@ -18,6 +18,12 @@ export class PreloadScene extends Phaser.Scene {
 
     for (const ts of TILESETS) this.load.image(`tiles:${ts.key}`, `/assets/tilesets/${ts.key}.png`);
     for (const key of BUILT_MAPS) this.load.tilemapTiledJSON(`map:${key}`, mapUrl(key));
+    this.load.spritesheet("office-sheet", "/assets/tilesets/office.png", {
+      frameWidth: 16,
+      frameHeight: 16,
+      margin: 1,
+      spacing: 2,
+    });
     this.load.spritesheet(CHARACTER_SHEET, "/assets/sprites/characters.png", {
       frameWidth: 16,
       frameHeight: 16,

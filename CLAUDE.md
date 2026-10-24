@@ -13,6 +13,7 @@ zustand · zod 4 · Vitest · Playwright. Package manager: pnpm (`corepack pnpm@
 - `pnpm dev` / `pnpm build` / `pnpm start`
 - `pnpm lint`, `pnpm typecheck`, `pnpm format`, `pnpm test` (unit), `pnpm e2e` (needs a build)
 - `pnpm db:start` (Docker), `pnpm db:reset`, `pnpm db:test` (pgTAP), `pnpm db:types`
+- `pnpm test:integration` (services against local Supabase), `pnpm assets`, `pnpm maps`
 
 ## Game assets & maps
 
@@ -25,6 +26,15 @@ zustand · zod 4 · Vitest · Playwright. Package manager: pnpm (`corepack pnpm@
 - New maps: add the spec to `art/maps/index.ts` and mark it `built` in `src/game/data/maps.ts`.
 - E2E uses `?e2e=1` hooks (`window.__dq.teleport`) and builds into `.next-e2e` so a running
   `next dev` can't clobber it.
+
+## Content & AI
+
+- Hand-written content: `content/curated/{vocab,questions,dialogues}/*.yaml` (zod schemas in
+  `src/features/content/curated.ts`). `pnpm seed:curated` upserts it (new question version only when content changes).
+- Open datasets: `pnpm seed:all` (NGSL, CEFR-J, Tatoeba; `pnpm seed:kaikki <file>` for Vietnamese Wiktionary drafts).
+- AI generation: `src/features/ai/pipeline.ts` (Batch API → validators → blind-solve + rubric QA → human review in
+  `/admin/moderation`). `LLM_FAKE` must be exactly `0` for real Claude calls; anything else uses `FakeLlm`.
+- NPC chat: `src/features/npc-chat` (quotas, budget kill switch, circuit breaker). Eval: `pnpm eval:chat` (real API).
 
 ## Rules that matter
 

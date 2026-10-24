@@ -1,0 +1,208 @@
+# Sarah (Scrum Master): standup, sprints, estimates.
+- slug: standup-n
+  lemma: standup
+  pos: noun
+  cefr: B1
+  topic: agile
+  it: true
+  ipa: /ˈstændʌp/
+  def: A short daily meeting where each person says what they did, will do, and any problems.
+  vi: họp standup hằng ngày
+  keep_en: true
+  forms: [standups, stand-up, daily standup]
+  examples:
+    - { en: "Our standup starts at nine.", vi: "Buổi standup của tụi mình bắt đầu lúc chín giờ." }
+- slug: blocker-n
+  lemma: blocker
+  pos: noun
+  cefr: B1
+  topic: agile
+  it: true
+  ipa: /ˈblɒkə/
+  def: A problem that stops you from continuing your work.
+  vi: vướng mắc làm bạn bị chặn
+  keep_en: true
+  forms: [blockers]
+  examples:
+    - {
+        en: "I have one blocker: I don't have access to the database.",
+        vi: "Mình có một vướng mắc: mình chưa có quyền vào database.",
+      }
+- slug: sprint-n
+  lemma: sprint
+  pos: noun
+  cefr: B1
+  topic: agile
+  it: true
+  ipa: /sprɪnt/
+  def: A fixed period of work, usually two weeks, with a planned set of tasks.
+  vi: sprint (chu kỳ làm việc ngắn)
+  keep_en: true
+  forms: [sprints]
+  examples:
+    - {
+        en: "This task is planned for the next sprint.",
+        vi: "Task này được lên kế hoạch cho sprint sau.",
+      }
+- slug: task-n
+  lemma: task
+  pos: noun
+  cefr: A2
+  topic: agile
+  ipa: /tɑːsk/
+  def: A piece of work that you need to do.
+  vi: công việc, nhiệm vụ
+  keep_en: true
+  forms: [tasks]
+  examples:
+    - { en: "I finished two tasks yesterday.", vi: "Hôm qua mình xong hai task." }
+- slug: deadline-n
+  lemma: deadline
+  pos: noun
+  cefr: B1
+  topic: agile
+  ipa: /ˈdedlaɪn/
+  def: The time or day by which something must be finished.
+  vi: hạn chót
+  keep_en: true
+  forms: [deadlines]
+  examples:
+    - { en: "The deadline is next Monday.", vi: "Hạn chót là thứ Hai tới." }
+- slug: estimate-v
+  lemma: estimate
+  pos: verb
+  cefr: B1
+  topic: agile
+  ipa: /ˈestɪmeɪt/
+  def: To guess how long something will take or how much it will cost.
+  vi: ước lượng
+  forms: [estimates, estimated, estimating]
+  examples:
+    - { en: "I estimate this will take two days.", vi: "Mình ước lượng việc này mất hai ngày." }
+- slug: on-track-phr
+  lemma: on track
+  pos: phrase
+  kind: phrase
+  cefr: B1
+  topic: agile
+  def: Making progress as planned, likely to finish on time.
+  vi: đúng tiến độ
+  examples:
+    - {
+        en: "We are on track to finish by Friday.",
+        vi: "Tụi mình đang đúng tiến độ để xong trước thứ Sáu.",
+      }
+- slug: in-progress-phr
+  lemma: in progress
+  pos: phrase
+  kind: phrase
+  cefr: A2
+  topic: agile
+  def: Started but not finished yet.
+  vi: đang làm
+  examples:
+    - { en: "The login task is still in progress.", vi: "Task đăng nhập vẫn đang làm." }
+- slug: action-item-n
+  lemma: action item
+  pos: noun
+  kind: collocation
+  cefr: B1
+  topic: meetings
+  def: A task that someone agrees to do after a meeting.
+  vi: việc cần làm sau cuộc họp
+  keep_en: true
+  forms: [action items]
+  examples:
+    - {
+        en: "Let's go through the action items before we finish.",
+        vi: "Mình điểm lại các việc cần làm trước khi kết thúc nhé.",
+      }
+- slug: agenda-n
+  lemma: agenda
+  pos: noun
+  cefr: B1
+  topic: meetings
+  ipa: /əˈdʒendə/
+  def: The list of things to discuss in a meeting.
+  vi: chương trình cuộc họp
+  examples:
+    - {
+        en: "The first item on the agenda is the release date.",
+        vi: "Mục đầu tiên trong chương trình là ngày phát hành.",
+      }
+- slug: sync-up-phr
+  lemma: sync up
+  pos: phrasal_verb
+  kind: phrasal
+  cefr: B1
+  topic: meetings
+  def: To meet briefly to share updates and agree on next steps.
+  vi: trao đổi nhanh để thống nhất
+  forms: [synced up, syncing up, syncs up]
+  examples:
+    - { en: "Can we sync up after lunch?", vi: "Mình trao đổi nhanh sau bữa trưa được không?" }
+- slug: retro-n
+  lemma: retro
+  pos: noun
+  cefr: B1
+  topic: agile
+  it: true
+  ipa: /ˈretrəʊ/
+  def: A meeting at the end of a sprint to discuss what went well and what to improve.
+  vi: buổi họp nhìn lại sprint
+  keep_en: true
+  forms: [retros, retrospective]
+  examples:
+    - {
+        en: "We talked about slow builds in the retro.",
+        vi: "Tụi mình đã nói về build chậm trong buổi retro.",
+      }
+- slug: priority-n
+  lemma: priority
+  pos: noun
+  cefr: B1
+  topic: agile
+  ipa: /praɪˈɒrəti/
+  def: Something that is more important and must be done first.
+  vi: ưu tiên
+  forms: [priorities]
+  examples:
+    - {
+        en: "Fixing the payment bug is our top priority.",
+        vi: "Sửa bug thanh toán là ưu tiên hàng đầu.",
+      }
+- slug: yesterday-adv
+  lemma: yesterday
+  pos: adverb
+  cefr: A1
+  topic: agile
+  ipa: /ˈjestədeɪ/
+  def: The day before today.
+  vi: hôm qua
+  examples:
+    - { en: "Yesterday I worked on the search page.", vi: "Hôm qua mình làm trang tìm kiếm." }
+- slug: finish-v
+  lemma: finish
+  pos: verb
+  cefr: A1
+  topic: agile
+  ipa: /ˈfɪnɪʃ/
+  def: To complete something.
+  vi: hoàn thành
+  forms: [finishes, finished, finishing]
+  examples:
+    - { en: "I finished the API yesterday.", vi: "Hôm qua mình xong API." }
+- slug: work-on-phr
+  lemma: work on
+  pos: phrasal_verb
+  kind: phrasal
+  cefr: A2
+  topic: agile
+  def: To spend time doing or improving something.
+  vi: làm (việc gì đó)
+  forms: [worked on, working on, works on]
+  examples:
+    - {
+        en: "Today I'm going to work on the login page.",
+        vi: "Hôm nay mình sẽ làm trang đăng nhập.",
+      }

@@ -49,10 +49,13 @@ const spec: MapSpec = {
     "from-hr": [2, 12],
     "from-meeting": [37, 7],
     "from-pantry": [37, 17],
+    "from-server": [19, 23],
+    "from-elevator": [34, 4],
   },
   npcs: [
     { npcId: "tuan", x: 13, y: 9, facing: "down", behavior: "idle" },
     { npcId: "emma", x: 27, y: 15, facing: "left", behavior: "wander", wanderRadius: 2 },
+    { npcId: "raj", x: 34, y: 14, facing: "left", behavior: "idle" },
   ],
   doors: [
     { x: 0, y: 12, w: 1, h: 2, targetMap: "hr-room", targetSpawn: "from-office" },
@@ -67,17 +70,9 @@ const spec: MapSpec = {
       targetSpawn: "from-office",
       requires: "rank:junior",
     },
-    {
-      x: 34,
-      y: 2,
-      w: 2,
-      h: 1,
-      targetMap: "client-office",
-      targetSpawn: "from-elevator",
-      requires: "rank:mid",
-    },
   ],
   interactables: [
+    { x: 34, y: 2, w: 2, h: 1, objectId: "elevator", kind: "elevator", label: "Elevator" },
     {
       x: 3,
       y: 2,

@@ -1,0 +1,41 @@
+{
+  "landing": {
+    "kicker": "DevQuest English",
+    "title": "Tiếng Anh cho lập trình viên, học bằng cách đi làm trong game.",
+    "subtitle": "Standup với Scrum Master, review code với Tech Lead, báo bug với QA. Mỗi ngày 5 từ vựng IT, ôn tập đúng lúc sắp quên.",
+    "play": "Chơi ngay",
+    "login": "Đăng nhập",
+    "features": {
+      "npc": {
+        "title": "Đồng nghiệp NPC",
+        "body": "9 nhân vật quốc tế: HR, mentor, Scrum Master, QA, Tech Lead, SRE, khách hàng — mỗi người dạy một kỹ năng công việc."
+      },
+      "daily": {
+        "title": "5 từ IT mỗi ngày",
+        "body": "Từ vựng thực tế (commit, blocker, rollback…), có nghĩa tiếng Việt, phát âm và ví dụ."
+      },
+      "srs": {
+        "title": "Ôn tập thông minh",
+        "body": "Thuật toán FSRS nhắc đúng lúc bạn sắp quên, có bài kiểm tra xác minh."
+      },
+      "career": {
+        "title": "Thăng tiến sự nghiệp",
+        "body": "Từ Intern lên Tech Lead qua các buổi phỏng vấn thăng chức với CTO."
+      }
+    },
+    "footer": {
+      "credits": "Nguồn dữ liệu & đồ họa",
+      "privacy": "Quyền riêng tư",
+      "terms": "Điều khoản"
+    }
+  },
+  "hud": {
+    "notebook": "Sổ tay",
+    "quests": "Sprint ticket",
+    "settings": "Cài đặt",
+    "review": "Ôn tập",
+    "profile": "Hồ sơ",
+    "people": "Mọi người ở đây"
+  },
+  "locale": { "label": "Ngôn ngữ", "vi": "Tiếng Việt", "en": "English" }
+}

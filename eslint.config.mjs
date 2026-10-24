@@ -22,6 +22,22 @@ const serverOnlyPatterns = [
   },
 ];
 
+const uiServerPatterns = [
+  {
+    group: ["@/lib/supabase/*", "@/features/*"],
+    message: "Game/UI code talks to the server through API routes only.",
+  },
+];
+const phaserPaths = [
+  { name: "phaser", message: "Phaser is client-only (loaded via next/dynamic in PhaserGame)." },
+  { name: "@/game/main", message: "Phaser is client-only." },
+  { name: "@/game/config", message: "Phaser is client-only." },
+];
+const phaserPatterns = {
+  group: ["@/game/scenes/*", "@/game/entities/*", "@/game/systems/*"],
+  message: "Phaser modules are client-only; import pure data from @/game/data instead.",
+};
+
 const eslintConfig = [
   ...compat.extends("next/core-web-vitals", "next/typescript"),
   {
@@ -37,23 +53,41 @@ const eslintConfig = [
   },
   {
     files: ["src/**/*.{ts,tsx}"],
-    ignores: ["src/app/api/**", "src/features/**", "src/lib/**"],
+    // Server-only code: route handlers, domain logic, and admin Server Components/Actions.
+    ignores: ["src/app/api/**", "src/app/admin/**", "src/features/**", "src/lib/**"],
     rules: { "no-restricted-imports": ["error", { patterns: serverOnlyPatterns }] },
   },
   {
-    files: ["src/game/**/*.{ts,tsx}", "src/components/**/*.{ts,tsx}", "src/stores/**/*.{ts,tsx}"],
+    // The game client (Phaser) talks to the server through API routes only.
+    files: ["src/game/**/*.{ts,tsx}"],
+    rules: {
+      "no-restricted-imports": [
+        "error",
+        { patterns: [...serverOnlyPatterns, ...uiServerPatterns] },
+      ],
+    },
+  },
+  {
+    // React UI: no server modules, and no Phaser (it must never reach server rendering).
+    files: ["src/components/**/*.{ts,tsx}", "src/stores/**/*.{ts,tsx}"],
+    ignores: ["src/components/game/PhaserGame.tsx"],
     rules: {
       "no-restricted-imports": [
         "error",
         {
-          patterns: [
-            ...serverOnlyPatterns,
-            {
-              group: ["@/lib/supabase/*", "@/features/*"],
-              message: "Game/UI code talks to the server through API routes only.",
-            },
-          ],
+          paths: phaserPaths,
+          patterns: [...serverOnlyPatterns, ...uiServerPatterns, phaserPatterns],
         },
+      ],
+    },
+  },
+  {
+    files: ["src/app/**/*.{ts,tsx}"],
+    ignores: ["src/app/api/**", "src/app/admin/**"],
+    rules: {
+      "no-restricted-imports": [
+        "error",
+        { paths: phaserPaths, patterns: [...serverOnlyPatterns, phaserPatterns] },
       ],
     },
   },

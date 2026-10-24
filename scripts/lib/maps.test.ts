@@ -49,13 +49,16 @@ describe("map specs", () => {
       ...office!,
       doors: [
         { x: 0, y: 12, w: 1, h: 2, targetMap: "hr-room", targetSpawn: "nope" },
-        { x: 19, y: 25, w: 2, h: 1, targetMap: "server-room", targetSpawn: "from-office" },
+        { x: 19, y: 25, w: 2, h: 1, targetMap: "client-office", targetSpawn: "from-office" },
       ],
     };
-    const errors = validateMaps(compileAll([broken, ...rest]));
+    // Leave the target map out of the compiled set so it counts as unbuilt.
+    const errors = validateMaps(
+      compileAll([broken, ...rest.filter((s) => s.key !== "client-office")]),
+    );
     expect(errors).toContain('office-floor: door to hr-room uses missing spawn "nope"');
     expect(errors).toContain(
-      "office-floor: door to unbuilt map server-room must be locked (requires)",
+      "office-floor: door to unbuilt map client-office must be locked (requires)",
     );
   });
 

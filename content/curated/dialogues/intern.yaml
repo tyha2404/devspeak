@@ -1,0 +1,765 @@
+# Intern-rank dialogues: 2 per NPC. Lines use [[surface|sense-slug]] markup for tappable words.
+- slug: linh-welcome
+  npc: linh
+  title_en: Welcome aboard
+  title_vi: Chào mừng gia nhập
+  cefr: A2
+  sort: 1
+  xp: 20
+  entry: hello
+  nodes:
+    hello:
+      {
+        type: line,
+        en: "Hi! I'm Linh from HR. Welcome to the team! Today is the first day of your [[onboarding|onboarding-n]].",
+        vi: "Chào bạn! Mình là Linh bên nhân sự. Chào mừng bạn! Hôm nay là ngày đầu tiên của quá trình hội nhập.",
+        next: ask,
+      }
+    ask:
+      type: choice
+      prompt_en: "Linh: Can you [[introduce yourself|introduce-yourself-phr]]?"
+      prompt_vi: "Bạn có thể giới thiệu bản thân không?"
+      choices:
+        - {
+            id: a,
+            en: "Sure! I'm a junior developer. I mostly work with React.",
+            vi: "Dạ! Mình là lập trình viên junior, chủ yếu làm React.",
+            quality: best,
+            feedback_vi: "Rất tốt: tên/vị trí + kỹ năng chính, ngắn gọn.",
+            next: thanks,
+          }
+        - {
+            id: b,
+            en: "Yes.",
+            quality: poor,
+            feedback_vi: "Quá ngắn — Linh muốn nghe một chút về bạn.",
+            next: ask,
+          }
+        - {
+            id: c,
+            en: "Me developer. Like code.",
+            quality: ok,
+            feedback_vi: 'Hiểu được nhưng sai ngữ pháp: "I''m a developer. I like coding."',
+            next: thanks,
+          }
+    thanks:
+      {
+        type: line,
+        en: "Nice to meet you! Your [[colleagues|colleague-n]] are friendly. Your mentor is Tuấn, he sits near the window.",
+        vi: "Rất vui được gặp bạn! Đồng nghiệp ở đây thân thiện lắm. Mentor của bạn là Tuấn, anh ấy ngồi gần cửa sổ.",
+        next: quiz,
+      }
+    quiz:
+      {
+        type: quiz,
+        intro_en: "Let's check a few words from today.",
+        intro_vi: "Cùng kiểm tra vài từ hôm nay nhé.",
+        questions: [linh-introduce-meaning, linh-onboarding-meaning, linh-fill-introduce],
+        passAt: 2,
+        onPass: done,
+        onFail: retry,
+      }
+    retry:
+      {
+        type: line,
+        en: "No problem, it's your first day! Let's try once more.",
+        vi: "Không sao, ngày đầu mà! Thử lại lần nữa nhé.",
+        next: quiz,
+      }
+    done:
+      {
+        type: line,
+        en: "Great job! Go and say hi to Tuấn.",
+        vi: "Giỏi lắm! Đi chào anh Tuấn nhé.",
+        next: end,
+      }
+    end:
+      {
+        type: end,
+        effects:
+          [{ type: learnWord, sense: onboarding-n }, { type: learnWord, sense: colleague-n }],
+      }
+
+- slug: linh-day-off
+  npc: linh
+  title_en: Asking for a day off
+  title_vi: Xin nghỉ phép
+  cefr: A2
+  sort: 2
+  xp: 20
+  entry: hi
+  nodes:
+    hi:
+      {
+        type: line,
+        en: "Hi again! How is your first week going?",
+        vi: "Chào bạn! Tuần đầu thế nào rồi?",
+        next: ask,
+      }
+    ask:
+      type: choice
+      prompt_en: "You want to take next Friday off for a family event."
+      prompt_vi: "Bạn muốn xin nghỉ thứ Sáu tới vì việc gia đình."
+      choices:
+        - {
+            id: a,
+            en: "It's going well, thanks! Could I take a [[day off|day-off-n]] next Friday? I have a family event.",
+            quality: best,
+            feedback_vi: "Lịch sự, có lý do rõ ràng.",
+            next: ok,
+          }
+        - {
+            id: b,
+            en: "I need Friday. Bye.",
+            quality: poor,
+            feedback_vi: 'Quá cộc lốc. Hãy dùng "Could I…?" và nêu lý do.',
+            next: ask,
+          }
+        - {
+            id: c,
+            en: "Can I no work Friday?",
+            quality: ok,
+            feedback_vi: 'Hiểu được nhưng nên nói "Could I take Friday off?"',
+            next: ok,
+          }
+    ok:
+      {
+        type: line,
+        en: "Of course. Just tell Sarah and update the team calendar. During [[probation|probation-n]] you still have leave days.",
+        vi: "Được chứ. Bạn báo Sarah và cập nhật lịch nhóm nhé. Trong thời gian thử việc bạn vẫn có ngày phép.",
+        next: quiz,
+      }
+    quiz:
+      {
+        type: quiz,
+        questions: [linh-fill-day-off, linh-probation-meaning, linh-reply-day-off],
+        passAt: 2,
+        onPass: done,
+        onFail: retry,
+      }
+    retry: { type: line, en: "Let's go over that again.", vi: "Mình ôn lại chút nhé.", next: quiz }
+    done:
+      {
+        type: line,
+        en: "Perfect. Enjoy your family event!",
+        vi: "Tuyệt. Chúc bạn vui với gia đình!",
+        next: end,
+      }
+    end: { type: end, effects: [{ type: learnWord, sense: day-off-n }] }
+
+- slug: tuan-first-pr
+  npc: tuan
+  title_en: Your first pull request
+  title_vi: Pull request đầu tiên
+  cefr: A2
+  sort: 1
+  xp: 25
+  entry: hi
+  nodes:
+    hi:
+      {
+        type: line,
+        en: "Hey, I'm Tuấn, your mentor. Rule number one: always [[pull|pull-v]] before you [[push|push-v]].",
+        vi: "Chào em, anh là Tuấn, mentor của em. Quy tắc số một: luôn pull trước khi push.",
+        next: why,
+      }
+    why:
+      {
+        type: line,
+        en: "Otherwise you might get a [[merge conflict|merge-conflict-n]]. Then open a [[pull request|pull-request-n]] so I can [[review|review-v]] it.",
+        vi: "Không thì em dễ bị merge conflict. Sau đó mở pull request để anh review.",
+        next: ask,
+      }
+    ask:
+      type: choice
+      prompt_en: "You finished your first task. What do you write to Tuấn?"
+      prompt_vi: "Bạn xong task đầu tiên. Bạn nhắn gì cho Tuấn?"
+      choices:
+        - {
+            id: a,
+            en: "Hi Tuấn, I opened my first PR. Could you [[take a look|take-a-look-phr]] when you have time?",
+            quality: best,
+            feedback_vi: "Rõ ràng và lịch sự.",
+            next: quiz,
+          }
+        - {
+            id: b,
+            en: "Review now.",
+            quality: poor,
+            feedback_vi: 'Như ra lệnh. Thử "Could you…?"',
+            next: ask,
+          }
+        - {
+            id: c,
+            en: "PR done. You check please.",
+            quality: ok,
+            feedback_vi: 'Hiểu được; tự nhiên hơn: "Could you check my PR, please?"',
+            next: quiz,
+          }
+    quiz:
+      {
+        type: quiz,
+        intro_en: "Quick git check!",
+        intro_vi: "Kiểm tra nhanh về git!",
+        questions: [tuan-pull-meaning, tuan-fill-push, tuan-conflict-meaning, tuan-order-pull],
+        passAt: 3,
+        onPass: done,
+        onFail: retry,
+      }
+    retry:
+      {
+        type: line,
+        en: "Almost. Git words are tricky at first — try again.",
+        vi: "Gần đúng rồi. Từ vựng git lúc đầu hơi khó, thử lại nhé.",
+        next: quiz,
+      }
+    done:
+      {
+        type: line,
+        en: "Nice! I'll review your PR after lunch.",
+        vi: "Tốt lắm! Anh sẽ review PR của em sau bữa trưa.",
+        next: end,
+      }
+    end:
+      {
+        type: end,
+        effects:
+          [
+            { type: learnWord, sense: pull-v },
+            { type: learnWord, sense: merge-conflict-n },
+            { type: learnWord, sense: pull-request-n },
+          ],
+      }
+
+- slug: tuan-code-review
+  npc: tuan
+  title_en: Code review feedback
+  title_vi: Nhận góp ý review code
+  cefr: B1
+  sort: 2
+  xp: 25
+  entry: hi
+  nodes:
+    hi:
+      {
+        type: line,
+        en: "I left some [[feedback|feedback-n]] on your PR. The logic is fine, but the [[naming|naming-n]] is a bit unclear.",
+        vi: "Anh để lại vài góp ý trên PR. Logic ổn, nhưng cách đặt tên hơi khó hiểu.",
+        next: ask,
+      }
+    ask:
+      type: choice
+      prompt_en: "How do you reply?"
+      prompt_vi: "Bạn trả lời thế nào?"
+      choices:
+        - {
+            id: a,
+            en: "Thanks for the feedback! I'll rename the variables and push again.",
+            quality: best,
+            feedback_vi: "Cảm ơn + nói rõ việc sẽ làm. Chuẩn!",
+            next: more,
+          }
+        - {
+            id: b,
+            en: "My names are fine.",
+            quality: poor,
+            feedback_vi: "Phòng thủ quá. Hãy cảm ơn góp ý trước.",
+            next: ask,
+          }
+        - {
+            id: c,
+            en: "OK.",
+            quality: ok,
+            feedback_vi: "Được, nhưng nói rõ bạn sẽ làm gì thì tốt hơn.",
+            next: more,
+          }
+    more:
+      {
+        type: line,
+        en: "Also, this function is too long. Maybe [[refactor|refactor-v]] it later. Otherwise [[LGTM|lgtm-phr]].",
+        vi: "Thêm nữa, hàm này hơi dài. Sau này em refactor nhé. Còn lại thì ổn.",
+        next: quiz,
+      }
+    quiz:
+      {
+        type: quiz,
+        questions:
+          [tuan-lgtm-meaning, tuan-refactor-meaning, tuan-fix-commit-1, tuan-reply-feedback],
+        passAt: 3,
+        onPass: done,
+        onFail: retry,
+      }
+    retry:
+      { type: line, en: "Let's look at those again.", vi: "Xem lại mấy câu đó nhé.", next: quiz }
+    done:
+      {
+        type: line,
+        en: "Great. Merge it when the checks pass.",
+        vi: "Tốt. Khi các bước kiểm tra qua thì em merge nhé.",
+        next: end,
+      }
+    end:
+      {
+        type: end,
+        effects: [{ type: learnWord, sense: feedback-n }, { type: learnWord, sense: lgtm-phr }],
+      }
+
+- slug: sarah-first-standup
+  npc: sarah
+  title_en: Your first standup
+  title_vi: Buổi standup đầu tiên
+  cefr: A2
+  sort: 1
+  xp: 25
+  entry: hi
+  nodes:
+    hi:
+      {
+        type: line,
+        en: "Morning! This is our daily [[standup|standup-n]]. Three questions: what did you do yesterday, what will you do today, and any [[blockers|blocker-n]]?",
+        vi: "Chào buổi sáng! Đây là buổi standup hằng ngày. Ba câu hỏi: hôm qua làm gì, hôm nay làm gì, và có vướng mắc gì không?",
+        next: ask,
+      }
+    ask:
+      type: choice
+      prompt_en: "Your turn. Give your update."
+      prompt_vi: "Đến lượt bạn. Hãy cập nhật."
+      choices:
+        - {
+            id: a,
+            en: "Yesterday I set up my laptop. Today I'll [[work on|work-on-phr]] my first ticket. No blockers.",
+            quality: best,
+            feedback_vi: "Đủ cả ba phần và đúng thì. Hoàn hảo!",
+            next: nice,
+          }
+        - {
+            id: b,
+            en: "I am fine, thank you, and you?",
+            quality: poor,
+            feedback_vi: "Đây không phải câu hỏi thăm sức khoẻ — hãy kể công việc.",
+            next: ask,
+          }
+        - {
+            id: c,
+            en: "Yesterday I set up laptop. Today I work on ticket.",
+            quality: ok,
+            feedback_vi: 'Đủ ý! Lưu ý mạo từ: "my laptop", "my ticket", và "I''ll work on".',
+            next: nice,
+          }
+    nice:
+      {
+        type: line,
+        en: "Thanks! Keep it short like that — about one minute each.",
+        vi: "Cảm ơn! Cứ ngắn gọn như vậy, khoảng một phút mỗi người.",
+        next: quiz,
+      }
+    quiz:
+      {
+        type: quiz,
+        intro_en: "Let's practise standup English.",
+        intro_vi: "Cùng luyện tiếng Anh standup.",
+        questions:
+          [sarah-fill-yesterday, sarah-fill-today, sarah-blocker-meaning, sarah-order-blockers],
+        passAt: 3,
+        onPass: done,
+        onFail: retry,
+      }
+    retry:
+      { type: line, en: "Close! Let's try that again.", vi: "Gần đúng! Thử lại nhé.", next: quiz }
+    done:
+      {
+        type: line,
+        en: "You're a natural. See you tomorrow at nine!",
+        vi: "Bạn làm tốt lắm. Hẹn mai 9 giờ!",
+        next: end,
+      }
+    end:
+      {
+        type: end,
+        effects: [{ type: learnWord, sense: standup-n }, { type: learnWord, sense: blocker-n }],
+      }
+
+- slug: sarah-sprint-planning
+  npc: sarah
+  title_en: Sprint planning
+  title_vi: Lên kế hoạch sprint
+  cefr: B1
+  sort: 2
+  xp: 25
+  entry: hi
+  nodes:
+    hi:
+      {
+        type: line,
+        en: "We're planning the next [[sprint|sprint-n]]. Can you [[estimate|estimate-v]] the search page task?",
+        vi: "Tụi mình đang lên kế hoạch sprint tới. Bạn ước lượng task trang tìm kiếm được không?",
+        next: ask,
+      }
+    ask:
+      type: choice
+      prompt_en: "You think it takes about two days, plus one day for tests."
+      prompt_vi: "Bạn nghĩ mất khoảng hai ngày, cộng thêm một ngày viết test."
+      choices:
+        - {
+            id: a,
+            en: "I'd estimate about three days, including one day for tests.",
+            quality: best,
+            feedback_vi: "Cụ thể và nói rõ phạm vi.",
+            next: deadline,
+          }
+        - {
+            id: b,
+            en: "Maybe one hour. Easy.",
+            quality: poor,
+            feedback_vi: "Đừng ước lượng quá lạc quan — hãy tính cả test.",
+            next: ask,
+          }
+        - {
+            id: c,
+            en: "Three days, I think.",
+            quality: ok,
+            feedback_vi: 'Ổn! Nói thêm phạm vi ("including tests") sẽ rõ hơn.',
+            next: deadline,
+          }
+    deadline:
+      {
+        type: line,
+        en: "Good. The [[deadline|deadline-n]] is next Thursday, so we're [[on track|on-track-phr]]. It's a high [[priority|priority-n]].",
+        vi: "Tốt. Hạn chót là thứ Năm tới, nên mình đang đúng tiến độ. Đây là việc ưu tiên cao.",
+        next: quiz,
+      }
+    quiz:
+      {
+        type: quiz,
+        questions:
+          [
+            sarah-estimate-meaning,
+            sarah-on-track-meaning,
+            sarah-fix-deadline,
+            sarah-reply-estimate,
+          ],
+        passAt: 3,
+        onPass: done,
+        onFail: retry,
+      }
+    retry:
+      {
+        type: line,
+        en: "Let's review those planning words.",
+        vi: "Ôn lại các từ về lập kế hoạch nhé.",
+        next: quiz,
+      }
+    done:
+      {
+        type: line,
+        en: "Great planning. I'll add it to the sprint board.",
+        vi: "Lập kế hoạch tốt lắm. Mình sẽ thêm vào sprint board.",
+        next: end,
+      }
+    end:
+      {
+        type: end,
+        effects:
+          [
+            { type: learnWord, sense: sprint-n },
+            { type: learnWord, sense: estimate-v },
+            { type: learnWord, sense: deadline-n },
+          ],
+      }
+
+- slug: dave-weekend
+  npc: dave
+  title_en: Monday small talk
+  title_vi: Chuyện phiếm sáng thứ Hai
+  cefr: A2
+  sort: 1
+  xp: 20
+  entry: hi
+  nodes:
+    hi:
+      {
+        type: line,
+        en: "G'day! How was your [[weekend|weekend-n]]? I [[binge-watched|binge-watch-v]] a whole series.",
+        vi: "Chào! Cuối tuần của bạn thế nào? Mình cày hết nguyên một bộ phim.",
+        next: ask,
+      }
+    ask:
+      type: choice
+      prompt_en: "You went to Vũng Tàu with friends."
+      prompt_vi: "Bạn đã đi Vũng Tàu với bạn bè."
+      choices:
+        - {
+            id: a,
+            en: "It was great! I went to Vũng Tàu with some friends. What did you watch?",
+            quality: best,
+            feedback_vi: "Kể ngắn + hỏi lại — small talk chuẩn.",
+            next: reply,
+          }
+        - {
+            id: b,
+            en: "Weekend good.",
+            quality: ok,
+            feedback_vi: 'Hiểu được; thử "It was good, thanks!" và hỏi lại Dave.',
+            next: reply,
+          }
+        - {
+            id: c,
+            en: "I don't want to talk.",
+            quality: poor,
+            feedback_vi: "Hơi lạnh lùng với đồng nghiệp. Thử chia sẻ một chút nhé.",
+            next: ask,
+          }
+    reply:
+      {
+        type: line,
+        en: "A crime drama, so good. Hey, want to [[grab a coffee|grab-a-coffee-phr]] after standup?",
+        vi: "Phim trinh thám, hay lắm. Này, đi uống cà phê sau standup không?",
+        next: quiz,
+      }
+    quiz:
+      {
+        type: quiz,
+        questions: [dave-weekend-meaning, dave-fill-weekend, dave-fix-weekend],
+        passAt: 2,
+        onPass: done,
+        onFail: retry,
+      }
+    retry:
+      {
+        type: line,
+        en: "No worries, mate. Have another go!",
+        vi: "Không sao. Thử lại nào!",
+        next: quiz,
+      }
+    done:
+      {
+        type: line,
+        en: "Awesome. See you at the coffee machine!",
+        vi: "Tuyệt. Gặp ở máy cà phê nhé!",
+        next: end,
+      }
+    end:
+      {
+        type: end,
+        effects:
+          [{ type: learnWord, sense: weekend-n }, { type: learnWord, sense: grab-a-coffee-phr }],
+      }
+
+- slug: dave-hobbies
+  npc: dave
+  title_en: Hobbies
+  title_vi: Sở thích
+  cefr: A2
+  sort: 2
+  xp: 20
+  entry: hi
+  nodes:
+    hi:
+      {
+        type: line,
+        en: "It's been a [[busy|busy-adj]] week! What do you do to relax? Any [[hobbies|hobby-n]]?",
+        vi: "Tuần này bận quá! Bạn làm gì để thư giãn? Có sở thích gì không?",
+        next: ask,
+      }
+    ask:
+      type: choice
+      prompt_en: "You like playing badminton."
+      prompt_vi: "Bạn thích chơi cầu lông."
+      choices:
+        - {
+            id: a,
+            en: "I really enjoy playing badminton. Do you play any sports?",
+            quality: best,
+            feedback_vi: '"enjoy + V-ing" đúng, và hỏi lại.',
+            next: reply,
+          }
+        - {
+            id: b,
+            en: "I enjoy to play badminton.",
+            quality: ok,
+            feedback_vi: 'Gần đúng: sau "enjoy" dùng V-ing → "enjoy playing".',
+            next: reply,
+          }
+        - {
+            id: c,
+            en: "Work is my hobby.",
+            quality: poor,
+            feedback_vi: "Nghe hơi gượng — kể một sở thích thật nhé.",
+            next: ask,
+          }
+    reply:
+      {
+        type: line,
+        en: "Nice! I surf on weekends. Let's [[catch up|catch-up-phr]] over lunch sometime.",
+        vi: "Hay đó! Mình lướt sóng vào cuối tuần. Hôm nào ăn trưa hàn huyên nhé.",
+        next: quiz,
+      }
+    quiz:
+      {
+        type: quiz,
+        questions: [dave-fill-hobby, dave-fix-like, dave-catch-up-meaning],
+        passAt: 2,
+        onPass: done,
+        onFail: retry,
+      }
+    retry: { type: line, en: "Give it another try!", vi: "Thử lại nào!", next: quiz }
+    done: { type: line, en: "Cheers! Good chat.", vi: "Cảm ơn! Nói chuyện vui lắm.", next: end }
+    end:
+      {
+        type: end,
+        effects: [{ type: learnWord, sense: hobby-n }, { type: learnWord, sense: catch-up-phr }],
+      }
+
+- slug: emma-bug-report
+  npc: emma
+  title_en: Reporting a bug
+  title_vi: Báo lỗi
+  cefr: B1
+  sort: 1
+  unlock_level: 3
+  xp: 25
+  entry: hi
+  nodes:
+    hi:
+      {
+        type: line,
+        en: "Hi, I'm Emma from QA. I saw your message about the checkout bug, but I can't [[reproduce|reproduce-v]] it.",
+        vi: "Chào, mình là Emma bên QA. Mình thấy tin nhắn về lỗi thanh toán nhưng không tái hiện được.",
+        next: ask,
+      }
+    ask:
+      type: choice
+      prompt_en: "What do you tell Emma?"
+      prompt_vi: "Bạn nói gì với Emma?"
+      choices:
+        - {
+            id: a,
+            en: "Sorry! [[Steps to reproduce|steps-to-reproduce-n]]: add two items, then tap Pay twice. It happens on Android.",
+            quality: best,
+            feedback_vi: "Bước cụ thể + môi trường. QA rất thích!",
+            next: more,
+          }
+        - {
+            id: b,
+            en: "It's broken. Please fix.",
+            quality: poor,
+            feedback_vi: "Thiếu thông tin — QA cần các bước tái hiện.",
+            next: ask,
+          }
+        - {
+            id: c,
+            en: "Tap Pay two times, it break.",
+            quality: ok,
+            feedback_vi: 'Có ý chính! Sửa: "it breaks" / "it crashes".',
+            next: more,
+          }
+    more:
+      {
+        type: line,
+        en: "Thanks! What's the [[expected behavior|expected-behavior-n]] and the [[actual behavior|actual-behavior-n]]? I'll write the [[ticket|ticket-n]].",
+        vi: "Cảm ơn! Kết quả mong đợi và kết quả thực tế là gì? Mình sẽ viết ticket.",
+        next: quiz,
+      }
+    quiz:
+      {
+        type: quiz,
+        questions: [emma-reproduce-meaning, emma-fill-steps, emma-fill-actual, emma-reply-repro],
+        passAt: 3,
+        onPass: done,
+        onFail: retry,
+      }
+    retry:
+      {
+        type: line,
+        en: "Bug reports need practice. Try again!",
+        vi: "Viết báo lỗi cần luyện. Thử lại nhé!",
+        next: quiz,
+      }
+    done:
+      {
+        type: line,
+        en: "Perfect bug report. I reproduced it — it [[crashes|crash-v]] every time!",
+        vi: "Báo lỗi hoàn hảo. Mình tái hiện được rồi — lần nào cũng crash!",
+        next: end,
+      }
+    end:
+      {
+        type: end,
+        effects:
+          [
+            { type: learnWord, sense: reproduce-v },
+            { type: learnWord, sense: steps-to-reproduce-n },
+          ],
+      }
+
+- slug: emma-severity
+  npc: emma
+  title_en: How serious is it?
+  title_vi: Lỗi nghiêm trọng cỡ nào?
+  cefr: B1
+  sort: 2
+  unlock_level: 3
+  xp: 25
+  entry: hi
+  nodes:
+    hi:
+      {
+        type: line,
+        en: "Users can't pay at all on iPhone. I need to set the [[severity|severity-n]].",
+        vi: "Người dùng iPhone hoàn toàn không thanh toán được. Mình cần đặt mức độ nghiêm trọng.",
+        next: ask,
+      }
+    ask:
+      type: choice
+      prompt_en: "What do you suggest?"
+      prompt_vi: "Bạn đề xuất gì?"
+      choices:
+        - {
+            id: a,
+            en: "It should be critical, because it blocks all payments.",
+            quality: best,
+            feedback_vi: "Đề xuất + lý do rõ ràng.",
+            next: edge,
+          }
+        - {
+            id: b,
+            en: "Low. Only iPhone.",
+            quality: poor,
+            feedback_vi: "Không thanh toán được là rất nghiêm trọng!",
+            next: ask,
+          }
+        - {
+            id: c,
+            en: "High, I think.",
+            quality: ok,
+            feedback_vi: "Hợp lý, nhưng hãy nêu lý do.",
+            next: edge,
+          }
+    edge:
+      {
+        type: line,
+        en: "Agreed. Also, did anyone test the [[edge case|edge-case-n]] with an empty cart?",
+        vi: "Đồng ý. Mà có ai test trường hợp biên khi giỏ hàng rỗng chưa?",
+        next: quiz,
+      }
+    quiz:
+      {
+        type: quiz,
+        questions: [emma-severity-meaning, emma-edge-case-meaning, emma-fix-crash, emma-listen-bug],
+        passAt: 3,
+        onPass: done,
+        onFail: retry,
+      }
+    retry: { type: line, en: "Let's review once more.", vi: "Ôn lại lần nữa nhé.", next: quiz }
+    done:
+      {
+        type: line,
+        en: "Great. I'll mark it critical and tag Tuấn.",
+        vi: "Tuyệt. Mình sẽ đánh dấu critical và tag anh Tuấn.",
+        next: end,
+      }
+    end:
+      {
+        type: end,
+        effects: [{ type: learnWord, sense: severity-n }, { type: learnWord, sense: edge-case-n }],
+      }

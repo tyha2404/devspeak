@@ -69,6 +69,10 @@ export class Npc extends Phaser.Physics.Arcade.Sprite {
     this.anim("idle");
   }
 
+  setMarker(visible: boolean) {
+    this.marker.setVisible(visible);
+  }
+
   startTalking(towards: { x: number; y: number }) {
     this.brain = { kind: "talking" };
     this.setVelocity(0, 0);
@@ -123,6 +127,6 @@ export class Npc extends Phaser.Physics.Arcade.Sprite {
   }
 
   private anim(action: "idle" | "walk") {
-    playCharacterAnim(this, this.def.id, action, this.facing);
+    playCharacterAnim(this, this.def.sprite ?? this.def.id, action, this.facing);
   }
 }

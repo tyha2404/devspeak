@@ -26,6 +26,7 @@ const spec: MapSpec = {
   npcs: [{ npcId: "linh", x: 9, y: 6, facing: "left", behavior: "idle" }],
   doors: [{ x: 15, y: 5, w: 1, h: 2, targetMap: "office-floor", targetSpawn: "from-hr" }],
   interactables: [
+    { x: 5, y: 5, w: 3, h: 2, objectId: "interview-desk", kind: "desk", label: "Promotion Review" },
     {
       x: 9,
       y: 2,

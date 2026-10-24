@@ -1,11 +1,13 @@
 import * as Phaser from "phaser";
 import { NPCS } from "../data/npcs";
+import { OFFICE_TILE } from "../data/officeTiles";
 import { TILESETS, TILESET_MARGIN, TILESET_SPACING, TILE_SIZE } from "../data/tilesets";
 import { RUN_SPEED, WALK_SPEED, Player } from "../entities/Player";
 import { Npc } from "../entities/Npc";
 import { EventBus } from "../EventBus";
 import type { Facing, InteractableKind, MapKey } from "../events";
 import { inputBridge } from "../inputBridge";
+import { findPath, ictClock, inWindow } from "../systems/pathfind";
 import { REGISTRY_START, type GameStartData } from "../startData";
 
 export interface WorldData {
@@ -84,6 +86,7 @@ export class WorldScene extends Phaser.Scene {
   }
 
   init(data: WorldData) {
+    this.deskDecor = [];
     this.mapKey = data.mapKey;
     this.start = this.registry.get(REGISTRY_START) as GameStartData;
     this.npcs = [];
@@ -133,21 +136,51 @@ export class WorldScene extends Phaser.Scene {
         py = data.y;
       }
     }
-    this.player = new Player(this, px, py, data.facing ?? "down");
+    this.player = new Player(this, px, py, data.facing ?? "down", this.start.avatar || "player");
     this.physics.add.collider(this.player, collision);
 
-    // ----- NPCs (only those unlocked for this learner) -----
-    for (const o of objects("NPCs")) {
-      const def = NPCS[prop(o, "npcId") ?? ""];
+    // ----- NPCs (only those unlocked for this learner, following their daily schedule) -----
+    const now = this.start.clock ? ictClock(this.start.clock) : new Date();
+    const schedulesOn = !this.start.e2e || !!this.start.clock;
+    const activeSlot = (id: string) =>
+      schedulesOn ? NPCS[id]?.schedule?.find((s) => inWindow(now, s.from, s.to)) : undefined;
+    const placements = objects("NPCs").map((o) => ({
+      id: prop(o, "npcId") ?? "",
+      x: o.x!,
+      y: o.y! + TILE_SIZE / 2,
+      facing: (prop<Facing>(o, "facing") ?? "down") as Facing,
+      behavior: prop<"idle" | "wander">(o, "behavior") ?? "idle",
+      wanderRadius: prop<number>(o, "wanderRadius"),
+    }));
+    // NPCs whose schedule brings them here right now (e.g. lunch in the pantry).
+    for (const [id, def] of Object.entries(NPCS)) {
+      const slot = activeSlot(id);
+      if (slot?.map === this.mapKey && !placements.some((p) => p.id === id)) {
+        placements.push({
+          id: def.id,
+          x: slot.tile[0] * TILE_SIZE + 8,
+          y: (slot.tile[1] + 1) * TILE_SIZE,
+          facing: "down",
+          behavior: "idle",
+          wanderRadius: undefined,
+        });
+      }
+    }
+    for (const pl of placements) {
+      const def = NPCS[pl.id];
       if (!def || def.unlockLevel > this.start.level) continue;
       if (def.unlockRank && !this.start.unlocks.includes(`rank:${def.unlockRank}`)) continue;
-      const npc = new Npc(this, def, o.x!, o.y! + TILE_SIZE / 2, {
-        facing: (prop<Facing>(o, "facing") ?? "down") as Facing,
-        behavior: prop<"idle" | "wander">(o, "behavior") ?? "idle",
-        wanderRadius: prop<number>(o, "wanderRadius"),
+      const slot = activeSlot(def.id);
+      if (slot && slot.map !== this.mapKey) continue; // away (e.g. at lunch)
+      const at = slot ? { x: slot.tile[0] * TILE_SIZE + 8, y: (slot.tile[1] + 1) * TILE_SIZE } : pl;
+      const npc = new Npc(this, def, at.x, at.y, {
+        facing: pl.facing,
+        behavior: slot ? "idle" : pl.behavior,
+        wanderRadius: pl.wanderRadius,
       });
       this.physics.add.collider(npc, collision);
       this.physics.add.collider(this.player, npc);
+      npc.setMarker(this.start.npcsWithNew.includes(def.id));
       this.npcs.push(npc);
       this.targets.push({ kind: "npc", npc, label: `Talk to ${def.name}` });
     }
@@ -188,6 +221,8 @@ export class WorldScene extends Phaser.Scene {
       });
     }
 
+    this.drawDeskItems(objects("Interactables"));
+
     this.prompt = this.add
       .text(0, 0, "E", {
         fontFamily: "monospace",
@@ -218,6 +253,23 @@ export class WorldScene extends Phaser.Scene {
     // frame would otherwise be lost.
     for (const key of ["E", "SPACE", "ENTER"]) kb.on(`keydown-${key}`, () => this.interact());
 
+    // ----- tap / click to move -----
+    this.path = [];
+    this.input.on("pointerdown", (ptr: Phaser.Input.Pointer) => {
+      if (this.inputLocked || this.transitioning) return;
+      const goal = { x: Math.floor(ptr.worldX / TILE_SIZE), y: Math.floor(ptr.worldY / TILE_SIZE) };
+      const start = {
+        x: Math.floor(this.player.x / TILE_SIZE),
+        y: Math.floor((this.player.y - 3) / TILE_SIZE),
+      };
+      const occupied = new Set(
+        this.npcs.map((n) => `${Math.floor(n.x / TILE_SIZE)},${Math.floor((n.y - 3) / TILE_SIZE)}`),
+      );
+      const solid = (x: number, y: number) =>
+        !!collision.getTileAt(x, y) || occupied.has(`${x},${y}`);
+      this.path = findPath(solid, map.width, map.height, start, goal) ?? [];
+    });
+
     // ----- camera -----
     const cam = this.cameras.main;
     cam.startFollow(this.player, true, 0.12, 0.12);
@@ -230,6 +282,26 @@ export class WorldScene extends Phaser.Scene {
       EventBus.on("input:unlock", () => this.unlockInput()),
       EventBus.on("player:interact", () => this.interact()),
       EventBus.on("map:goto", (d) => this.goTo(d)),
+      EventBus.on("player:cosmetics-changed", ({ avatar, deskItems }) => {
+        this.start.avatar = avatar;
+        this.start.deskItems = deskItems;
+        this.player.setSkin(avatar);
+        this.drawDeskItems(objects("Interactables"));
+      }),
+      EventBus.on("menu:interact", ({ kind, id }) => {
+        const t = this.targets.find((x) =>
+          kind === "npc"
+            ? x.kind === "npc" && x.npc.def.id === id
+            : x.kind === "object" && x.objectId === id,
+        );
+        if (!t || this.inputLocked) return;
+        this.target = t;
+        this.interact();
+      }),
+      EventBus.on("npc:markers", ({ npcIds }) => {
+        this.start.npcsWithNew = npcIds;
+        for (const n of this.npcs) n.setMarker(npcIds.includes(n.def.id));
+      }),
       EventBus.on("game:sleep", () => this.game.loop.sleep()),
       EventBus.on("game:wake", () => this.game.loop.wake()),
     );
@@ -246,6 +318,12 @@ export class WorldScene extends Phaser.Scene {
       y: Math.round(this.player.y),
       facing: this.player.facing,
     });
+    EventBus.emit("map:people", {
+      npcs: this.npcs.map((n) => ({ id: n.def.id, name: n.def.name })),
+      objects: this.targets.flatMap((t) =>
+        t.kind === "object" ? [{ objectId: t.objectId, kind: t.objectKind, label: t.label }] : [],
+      ),
+    });
     if (this.start.e2e) this.exposeTestHooks();
     EventBus.emit("game:ready");
   }
@@ -254,13 +332,32 @@ export class WorldScene extends Phaser.Scene {
     for (const npc of this.npcs) npc.tick(time);
     if (this.inputLocked || this.transitioning) return;
 
-    const v = this.readInputVector();
+    let v = this.readInputVector();
+    if (v.x !== 0 || v.y !== 0) this.path = [];
+    else if (this.path.length) v = this.followPath();
     const running =
       this.keys.shift.isDown || Math.hypot(inputBridge.joystick.x, inputBridge.joystick.y) > 0.9;
     this.player.move(v.x, v.y, running ? RUN_SPEED : WALK_SPEED);
 
     this.updateTarget(time);
     this.emitMovedThrottled(time);
+  }
+
+  private path: { x: number; y: number }[] = [];
+
+  /** Steer towards the next tile centre of a tap-to-move path. */
+  private followPath() {
+    const next = this.path[0]!;
+    const tx = next.x * TILE_SIZE + TILE_SIZE / 2;
+    const ty = (next.y + 1) * TILE_SIZE - 3;
+    const dx = tx - this.player.x;
+    const dy = ty - this.player.y;
+    if (Math.hypot(dx, dy) < 3) {
+      this.path.shift();
+      return { x: 0, y: 0 };
+    }
+    const len = Math.hypot(dx, dy);
+    return { x: dx / len, y: dy / len };
   }
 
   private readInputVector() {
@@ -323,13 +420,13 @@ export class WorldScene extends Phaser.Scene {
     }
   }
 
-  private goTo(to: { mapKey: MapKey; spawnId?: string }) {
+  private goTo(to: WorldData) {
     if (this.transitioning) return;
     this.transitioning = true;
     this.player.halt();
     this.cameras.main.fadeOut(250);
     this.cameras.main.once(Phaser.Cameras.Scene2D.Events.FADE_OUT_COMPLETE, () => {
-      this.scene.restart({ mapKey: to.mapKey, spawnId: to.spawnId } satisfies WorldData);
+      this.scene.restart(to);
     });
   }
 
@@ -368,6 +465,28 @@ export class WorldScene extends Phaser.Scene {
     // Short cooldown so the key that closed the overlay doesn't immediately re-open it.
     this.time.delayedCall(250, () => {
       this.inputLocked = false;
+    });
+  }
+
+  private deskDecor: Phaser.GameObjects.Image[] = [];
+
+  /** Cosmetic desk items sit on the learner's own desk (the "my-desk" interactable). */
+  private drawDeskItems(interactables: TiledObj[]) {
+    for (const d of this.deskDecor.splice(0)) d.destroy();
+    const desk = interactables.find((o) => prop(o, "objectId") === "my-desk");
+    if (!desk) return;
+    const slots = [
+      { x: desk.x! + 8, y: desk.y! + 8 },
+      { x: desk.x! + desk.width! - 8, y: desk.y! + 8 },
+      { x: desk.x! + 8, y: desk.y! + 22 },
+      { x: desk.x! + desk.width! - 8, y: desk.y! + 22 },
+    ];
+    this.start.deskItems.slice(0, slots.length).forEach((name, i) => {
+      const frame = OFFICE_TILE[name as keyof typeof OFFICE_TILE];
+      if (frame === undefined) return;
+      this.deskDecor.push(
+        this.add.image(slots[i]!.x, slots[i]!.y, "office-sheet", frame).setDepth(DEPTH.Decor + 1),
+      );
     });
   }
 

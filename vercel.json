@@ -1,0 +1,8 @@
+{
+  "regions": ["sin1"],
+  "crons": [
+    { "path": "/api/cron/content-plan", "schedule": "0 17 * * *" },
+    { "path": "/api/cron/batch-poll", "schedule": "*/15 * * * *" },
+    { "path": "/api/cron/daily", "schedule": "30 16 * * *" }
+  ]
+}

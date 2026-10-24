@@ -17,7 +17,8 @@ export type InteractableKind =
   | "coffeeMachine"
   | "noticeBoard"
   | "terminal"
-  | "demoScreen";
+  | "demoScreen"
+  | "elevator";
 export type Emote = "exclaim" | "question" | "heart" | "dots" | "happy";
 export type InputLockReason = "dialogue" | "quiz" | "menu" | "chat";
 
@@ -34,17 +35,28 @@ export interface GameToUiEvents {
   };
   "door:locked": { requires: string; targetMap: MapKey };
   "interaction:target": { label: string | null };
+  /** Everything interactable on the current map (accessible "menu mode"). */
+  "map:people": {
+    npcs: { id: string; name: string }[];
+    objects: { objectId: string; kind: InteractableKind; label: string }[];
+  };
 }
 
 export interface UiToGameEvents {
   "input:lock": { reason: InputLockReason };
   "input:unlock": void;
-  "map:goto": { mapKey: MapKey; spawnId?: string };
+  "map:goto": { mapKey: MapKey; spawnId?: string; x?: number; y?: number; facing?: Facing };
   "npc:emote": { npcId: string; emote: Emote };
   "game:sleep": void;
   "game:wake": void;
   /** Mobile action button: same as pressing E. */
   "player:interact": void;
+  "player:cosmetics-changed": { avatar: string; deskItems: string[] };
+  "npc:markers": { npcIds: string[] };
+  /** Rank or unlocks changed: rebuild the current map with fresh start data. */
+  "world:reload": void;
+  /** Menu mode: interact with something without walking to it. */
+  "menu:interact": { kind: "npc" | "object"; id: string };
 }
 
 export type AllEvents = GameToUiEvents & UiToGameEvents;
