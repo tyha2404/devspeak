@@ -4,10 +4,286 @@ sort: 23
 code: T23
 kind: topic
 cefr: B1
-status: draft
-title: { en: "Nature & Animals", vi: "Thiên nhiên & động vật" }
-summary_vi: "Từ vựng về cảnh quan, thời tiết, cây cối, động vật hoang dã và thú cưng."
+status: published
+title:
+  en: Sensor Data, Water & Environmental Systems
+  vi: Dữ liệu cảm biến, nước & hệ thống môi trường
+summary_vi: "Luyện ngôn ngữ yêu cầu sản phẩm qua một miền dữ liệu thực tế: cảm
+  biến, nước và theo dõi môi trường. Chú ý đơn vị, thiếu dữ liệu và giới hạn của
+  phép đo."
 can_do:
-  - "Mô tả cảnh thiên nhiên và thời tiết ở một nơi"
-  - "Nói về động vật, thú cưng và việc bảo vệ chúng"
-lessons: []
+  - Làm rõ ý nghĩa, đơn vị và chất lượng một nguồn dữ liệu
+  - Giải thích cảnh báo và trạng thái thiếu dữ liệu trong dashboard
+lessons:
+  - slug: t23-l1
+    kind: vocab
+    title: { en: "Set 1: Sensors & readings", vi: "Bộ 1: Cảm biến & số đo" }
+    senses:
+      [
+        sensor-n-nature,
+        reading-n-nature,
+        measure-v-nature,
+        temperature-n,
+        humidity-n,
+        pressure-n-nature,
+        transmit-v,
+        battery-n-nature,
+        wind-speed-n,
+        rainfall-n,
+      ]
+    questions: []
+  - slug: t23-l2
+    kind: vocab
+    title: { en: "Set 2: Units & measurement ranges", vi: "Bộ 2: Đơn vị & khoảng đo" }
+    senses:
+      [
+        unit-of-measurement-n,
+        degree-n,
+        millimetre-n,
+        litre-n,
+        percentage-n-nature,
+        minimum-n,
+        maximum-n,
+        range-n,
+        convert-v-nature,
+        decimal-n,
+        negative-adj,
+        round-v,
+      ]
+    questions: []
+  - slug: t23-l3
+    kind: vocab
+    title: { en: "Set 3: Time series & timestamps", vi: "Bộ 3: Chuỗi thời gian & mốc giờ" }
+    senses:
+      [
+        time-series-n,
+        utc-n,
+        interval-n,
+        daylight-saving-n,
+        record-v-nature,
+        sample-n,
+        hourly-adj,
+        average-n,
+        trend-n-nature,
+        peak-n,
+        delay-n-nature,
+        sequence-n,
+        daily-total-n,
+        ingestion-time-n,
+      ]
+    questions: []
+  - slug: t23-l4
+    kind: vocab
+    title: { en: "Set 4: Missing & stale data", vi: "Bộ 4: Dữ liệu thiếu & cũ" }
+    senses:
+      [
+        absent-adj,
+        stale-adj-nature,
+        gap-n,
+        disconnected-adj,
+        outage-n-nature,
+        zero-n,
+        null-n,
+        last-seen-n,
+        dash-n,
+        reconnect-v-nature,
+        backfill-v-nature,
+        estimate-v-nature,
+        dropout-n,
+        incomplete-adj,
+        no-data-phr,
+        resume-v,
+      ]
+    questions: []
+  - slug: t23-l5
+    kind: vocab
+    title: { en: "Set 5: Water & resource monitoring", vi: "Bộ 5: Theo dõi nước & tài nguyên" }
+    senses:
+      [
+        water-level-n,
+        flow-n-nature,
+        reservoir-n,
+        river-n,
+        pipe-n,
+        leak-n-nature,
+        pump-n,
+        tank-n,
+        water-quality-n,
+        supply-n,
+        consumption-n-nature,
+        drought-n,
+        flood-n,
+        operator-n,
+        valve-n,
+        usage-pattern-n,
+        groundwater-n,
+        seep-v,
+      ]
+    questions: []
+  - slug: t23-l6
+    kind: vocab
+    title: { en: "Set 6: Thresholds & alerts", vi: "Bộ 6: Ngưỡng & cảnh báo" }
+    senses:
+      [
+        threshold-n-nature,
+        alert-n,
+        exceed-v-nature,
+        trigger-v,
+        notify-v-nature,
+        severity-n-nature,
+        warning-level-n,
+        subscriber-n,
+        notification-channel-n,
+        hysteresis-n,
+        false-alarm-n,
+        suppress-v,
+        rule-n,
+        condition-n-nature,
+        sustained-adj,
+        rota-n,
+        cooldown-n,
+        duplicate-n-nature,
+        critical-adj,
+        fall-below-phr,
+      ]
+    questions: []
+  - slug: t23-l7
+    kind: vocab
+    title: { en: "Set 7: Maps & environmental layers", vi: "Bộ 7: Bản đồ & lớp dữ liệu môi trường" }
+    senses:
+      [
+        layer-n,
+        coverage-n-nature,
+        province-n,
+        polygon-n,
+        coordinates-n,
+        latitude-n,
+        longitude-n,
+        satellite-n,
+        resolution-n-nature,
+        overlay-v,
+        legend-n-nature,
+        scale-n,
+        zoom-in-phr,
+        terrain-n,
+        coastline-n,
+        catchment-n,
+        grid-n,
+        update-frequency-n,
+        shade-v,
+        marker-n,
+        toggle-v,
+        basemap-n,
+      ]
+    questions: []
+  - slug: t23-l8
+    kind: vocab
+    title: { en: "Set 8: Data quality & calibration", vi: "Bộ 8: Chất lượng dữ liệu & hiệu chuẩn" }
+    senses:
+      [
+        calibrate-v-nature,
+        accuracy-n,
+        precision-n,
+        drift-n,
+        noise-n,
+        outlier-n,
+        spike-n-nature,
+        faulty-adj,
+        tolerance-n,
+        inspect-v-nature,
+        reference-value-n,
+        deviation-n,
+        inconsistent-adj,
+        plausible-adj-nature,
+        clamp-v,
+        quarantine-v,
+        maintenance-n,
+        cross-check-v,
+        sensor-fault-n,
+        baseline-n-nature,
+        raw-data-n,
+        smooth-v,
+        firmware-n,
+        corrosion-n,
+      ]
+    questions: []
+  - slug: t23-l9
+    kind: vocab
+    title:
+      { en: "Set 9: Communicating environmental risk", vi: "Bộ 9: Truyền đạt rủi ro môi trường" }
+    senses:
+      [
+        storm-surge-n,
+        forecast-n-nature,
+        observation-n-nature,
+        premise-n-nature,
+        likelihood-n,
+        uncertainty-n-nature,
+        projection-n,
+        scenario-n,
+        consequence-n-nature,
+        vulnerable-adj,
+        exposure-n,
+        safeguard-n-nature,
+        evacuate-v-nature,
+        advisory-n,
+        confidence-interval-n,
+        worst-case-adj,
+        observed-adj,
+        predicted-adj,
+        heatwave-n,
+        footnote-n,
+        disclaimer-n-nature,
+        pollution-n-nature,
+        erosion-n,
+        sea-level-n,
+        extreme-weather-n,
+        communicate-v-nature,
+        overstate-v-nature,
+        local-authority-n,
+      ]
+    questions: []
+  - slug: t23-l10
+    kind: vocab
+    title:
+      { en: "Set 10: An environmental dashboard brief", vi: "Bộ 10: Đề bài dashboard môi trường" }
+    senses:
+      [
+        brief-n,
+        kickoff-n,
+        end-user-n-nature,
+        display-v,
+        widget-n,
+        panel-n,
+        chart-n-nature,
+        filter-n,
+        drill-down-v-nature,
+        aggregate-v,
+        granularity-n-nature,
+        refresh-rate-n-nature,
+        loading-state-n,
+        empty-state-n,
+        tooltip-n-nature,
+        label-n-nature,
+        colour-code-v,
+        emphasise-v,
+        accessible-adj-nature,
+        export-v-nature,
+        access-level-n,
+        viewer-n,
+        non-goal-n,
+        definition-of-done-n,
+        corner-case-n,
+        rank-v,
+        wireframe-n,
+        go-live-n-nature,
+        deadline-n-nature,
+        metric-n-nature,
+        summary-view-n,
+        historical-adj,
+        real-time-adj,
+        partial-adj-nature,
+        indicator-n-nature,
+        legibility-n,
+      ]
+    questions: []

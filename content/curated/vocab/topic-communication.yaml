@@ -1,0 +1,2335 @@
+# Developer vocabulary: Developer Conversations & Technical Negotiation. Original definitions and curated examples.
+- slug: t22-clarify-v
+  lemma: clarify
+  pos: verb
+  cefr: B1
+  topic: communication
+  ipa: /ˈklærəfaɪ/
+  def: To make something easier to understand by explaining it more.
+  vi: làm rõ
+  examples:
+    - en: Could you clarify what "sync" means in this ticket?
+      vi: Bạn làm rõ giúp "sync" trong ticket này nghĩa là gì?
+- slug: t22-confirm-v
+  lemma: confirm
+  pos: verb
+  cefr: B1
+  topic: communication
+  ipa: /kənˈfɜːm/
+  def: To say that something is true or that a plan will definitely happen.
+  vi: xác nhận
+  forms:
+    - confirms
+    - confirmed
+    - confirming
+    - confirmation
+  examples:
+    - en: Could you confirm the meeting time by email?
+      vi: Anh/chị xác nhận giờ họp qua email giúp tôi được không?
+- slug: t22-acknowledge-v
+  lemma: acknowledge
+  pos: verb
+  cefr: C1
+  topic: communication
+  ipa: /əkˈnɒlɪdʒ/
+  def: To tell someone that you have received their message or understood a problem.
+  vi: báo đã nhận, thừa nhận
+  forms:
+    - acknowledges
+    - acknowledged
+    - acknowledging
+    - acknowledgement
+  examples:
+    - en: The vendor acknowledged our email but hasn't answered yet.
+      vi: Bên cung cấp đã báo nhận email nhưng chưa trả lời.
+- slug: t22-paraphrase-v
+  lemma: paraphrase
+  pos: verb
+  cefr: C1
+  topic: communication
+  ipa: /ˈpærəfreɪz/
+  def: To write someone's idea in your own words.
+  vi: diễn đạt lại bằng lời mình
+  examples:
+    - en: Paraphrase the docs instead of copying them.
+      vi: Hãy diễn đạt lại tài liệu bằng lời mình thay vì chép.
+- slug: t22-rephrase-v
+  lemma: rephrase
+  pos: verb
+  cefr: B2
+  topic: communication
+  ipa: /ˌriːˈfreɪz/
+  def: To say something again using different words so it is clearer.
+  vi: nói lại theo cách khác
+  examples:
+    - en: Let me rephrase my question.
+      vi: Để mình hỏi lại theo cách khác nhé.
+- slug: t22-specific-adj
+  lemma: specific
+  pos: adjective
+  cefr: B1
+  topic: communication
+  ipa: /spəˈsɪfɪk/
+  def: Exact and detailed, not general.
+  vi: cụ thể
+  examples:
+    - en: A specific question gets a faster answer.
+      vi: Câu hỏi cụ thể sẽ được trả lời nhanh hơn.
+- slug: t22-vague-adj
+  lemma: vague
+  pos: adjective
+  cefr: B2
+  topic: communication
+  ipa: /veɪɡ/
+  def: Not clear or detailed enough.
+  vi: mơ hồ
+  examples:
+    - en: The ticket is vague about who owns the cleanup.
+      vi: Ticket còn mơ hồ về việc ai phụ trách dọn dẹp.
+- slug: t22-ambiguous-adj
+  lemma: ambiguous
+  pos: adjective
+  cefr: B2
+  topic: communication
+  ipa: /æmˈbɪɡjuəs/
+  def: Able to be understood in more than one way.
+  vi: mơ hồ, đa nghĩa
+  examples:
+    - en: "The word 'recent' in the ticket is ambiguous: one week or one month?"
+      vi: "Chữ 'gần đây' trong ticket hơi mơ hồ: một tuần hay một tháng?"
+- slug: t22-on-the-same-page-phr
+  lemma: on the same page
+  pos: phrase
+  kind: phrase
+  cefr: B2
+  topic: communication
+  ipa: /ɒn ðə ˌseɪm ˈpeɪdʒ/
+  def: Having the same understanding of something.
+  vi: hiểu giống nhau
+  examples:
+    - en: "Just to be on the same page: the deadline is Friday, right?"
+      vi: "Để hiểu giống nhau: hạn chót là thứ Sáu đúng không?"
+- lemma: understanding
+  pos: noun
+  vi: sự hiểu vấn đề
+  def: Knowledge of the meaning or nature of something.
+  examples:
+    - en: Let me check my understanding before we estimate the task.
+  slug: t22-understanding-n
+  topic: communication
+  cefr: B1
+- slug: t22-ask-for-phr
+  lemma: ask for
+  pos: phrase
+  kind: phrase
+  cefr: A2
+  topic: communication
+  ipa: /ˈɑːsk fə/
+  def: To say that you want someone to give you something.
+  vi: xin, yêu cầu
+  examples:
+    - en: Don't wait for the review; ask for feedback early.
+      vi: Đừng đợi đến buổi review; hãy xin góp ý sớm.
+- slug: t22-help-wanted-phr
+  lemma: help wanted
+  pos: phrase
+  kind: phrase
+  cefr: B1
+  topic: communication
+  ipa: /ˌhelp ˈwɒntɪd/
+  def: A label or notice saying that a project needs people to help.
+  vi: cần người giúp
+  examples:
+    - en: I added a 'help wanted' tag to the mobile tasks.
+      vi: Mình đã gắn nhãn 'cần người giúp' cho các việc phần mobile.
+- slug: t22-lend-a-hand-phr
+  lemma: lend a hand
+  pos: phrase
+  kind: phrase
+  cefr: B2
+  topic: communication
+  ipa: /lend ə ˈhænd/
+  def: To help someone (informal).
+  vi: giúp một tay
+  examples:
+    - en: Could you lend a hand with the database migration?
+      vi: Bạn giúp mình một tay phần migration database được không?
+- slug: t22-blocker-n
+  lemma: blocker
+  pos: noun
+  cefr: B1
+  topic: communication
+  ipa: /ˈblɒkə/
+  def: A problem that stops you from continuing your work.
+  vi: vấn đề chặn tiến độ
+  examples:
+    - en: My only blocker is access to the staging database.
+      vi: Vấn đề duy nhất chặn mình là quyền truy cập database staging.
+- lemma: stuck
+  pos: adjective
+  vi: bị vướng chưa tiến triển được
+  def: Unable to make progress.
+  examples:
+    - en: I'm stuck on the failing migration and need another pair of eyes.
+  slug: t22-stuck-adj
+  topic: communication
+  cefr: B1
+- slug: t22-troubleshoot-v
+  lemma: troubleshoot
+  pos: verb
+  cefr: B2
+  topic: communication
+  it: true
+  ipa: /ˈtrʌblʃuːt/
+  def: To find out why something is not working and fix it.
+  vi: khắc phục sự cố, dò lỗi
+  forms:
+    - troubleshoots
+    - troubleshot
+    - troubleshooting
+  examples:
+    - en: I spent an hour troubleshooting the printer for my mum.
+      vi: Mình mất một tiếng dò lỗi máy in cho mẹ.
+- slug: t22-steps-to-reproduce-n
+  lemma: steps to reproduce
+  pos: noun
+  kind: collocation
+  cefr: B2
+  topic: communication
+  ipa: /ˌsteps tə ˌriːprəˈdjuːs/
+  def: A list of actions that make a problem happen again.
+  vi: các bước tái hiện
+  examples:
+    - en: Add clear steps to reproduce, using only test accounts.
+      vi: Thêm các bước tái hiện rõ ràng, chỉ dùng tài khoản test.
+- slug: t22-expected-result-n
+  lemma: expected result
+  pos: noun
+  kind: collocation
+  cefr: B1
+  topic: communication
+  ipa: /ɪkˈspektɪd rɪˈzʌlt/
+  def: What should happen if the software works correctly.
+  vi: kết quả mong đợi
+  examples:
+    - en: "Expected result: the order appears in the list."
+      vi: "Kết quả mong đợi: đơn hàng hiện trong danh sách."
+- slug: t22-actual-result-n
+  lemma: actual result
+  pos: noun
+  kind: collocation
+  cefr: B1
+  topic: communication
+  ipa: /ˈæktʃuəl rɪˈzʌlt/
+  def: What really happens when you follow the steps.
+  vi: kết quả thực tế
+  examples:
+    - en: "Actual result: the list stays empty."
+      vi: "Kết quả thực tế: danh sách vẫn trống."
+- slug: t22-context-n
+  lemma: context
+  pos: noun
+  cefr: B1
+  topic: communication
+  ipa: /ˈkɒntekst/
+  def: The background facts that help someone understand a situation.
+  vi: ngữ cảnh, bối cảnh
+  examples:
+    - en: "Add some context: which service, which branch, which command."
+      vi: "Thêm chút ngữ cảnh: service nào, nhánh nào, lệnh nào."
+- lemma: what I tried
+  pos: phrase
+  vi: những cách tôi đã thử
+  def: A phrase introducing attempted solutions when asking for help.
+  examples:
+    - en: Here is what I tried before asking about the failed build.
+  slug: t22-what-i-tried-phr
+  topic: communication
+  cefr: B1
+  kind: phrase
+- slug: t22-reproducible-adj
+  lemma: reproducible
+  pos: adjective
+  cefr: B1
+  topic: communication
+  ipa: /ˌriːprəˈdjuːsəbl/
+  def: Able to happen again when you repeat the same steps.
+  vi: có thể tái hiện
+  examples:
+    - en: The bug is reproducible on Android but not on iOS.
+      vi: Lỗi có thể tái hiện trên Android nhưng không trên iOS.
+- slug: t22-input-n
+  lemma: input
+  pos: noun
+  cefr: A2
+  topic: communication
+  ipa: /ˈɪnpʊt/
+  def: Data that you give to a program.
+  vi: dữ liệu đầu vào
+  examples:
+    - en: "The form breaks with this input: a name with an emoji."
+      vi: "Form bị lỗi với đầu vào này: một cái tên có emoji."
+- lemma: output
+  pos: noun
+  vi: đầu ra của quá trình xử lý
+  def: Data or a result produced by a process.
+  examples:
+    - en: The output contains the validated address and its coordinates.
+  slug: t22-output-n
+  topic: communication
+  cefr: B1
+- slug: t22-parameter-n
+  lemma: parameter
+  pos: noun
+  cefr: B1
+  topic: communication
+  ipa: /pəˈræmɪtə/
+  def: A value you pass to a function or request to control what it does.
+  vi: tham số
+  examples:
+    - en: The limit parameter sets how many items come back.
+      vi: Tham số limit quy định số phần tử trả về.
+- slug: t22-return-value-n
+  lemma: return value
+  pos: noun
+  kind: collocation
+  cefr: B1
+  topic: communication
+  ipa: /rɪˈtɜːn ˌvæljuː/
+  def: The result that a function gives back after it runs.
+  vi: giá trị trả về
+  examples:
+    - en: The return value is null when no user is found.
+      vi: Giá trị trả về là null khi không tìm thấy user.
+- lemma: function
+  pos: noun
+  vi: hàm trong chương trình
+  def: A reusable block of code that performs a task.
+  examples:
+    - en: This function checks the input and returns a user ID.
+  slug: t22-function-n
+  topic: communication
+  cefr: B1
+- slug: t22-condition-n
+  lemma: condition
+  pos: noun
+  cefr: B1
+  topic: communication
+  ipa: /kənˈdɪʃn/
+  def: Something that must happen before something else can happen.
+  vi: điều kiện
+  examples:
+    - en: "We can merge on one condition: the feature flag stays off."
+      vi: "Có thể merge với một điều kiện: feature flag vẫn tắt."
+- lemma: loop
+  pos: noun
+  vi: vòng lặp
+  def: A code structure that repeats instructions.
+  examples:
+    - en: The loop processes each item in the queue.
+  slug: t22-loop-n
+  topic: communication
+  cefr: B1
+- lemma: branch
+  pos: noun
+  vi: nhánh xử lý
+  def: One of several possible paths through a program.
+  examples:
+    - en: This branch handles requests with missing credentials.
+  slug: t22-branch-n
+  topic: communication
+  cefr: B1
+- slug: t22-variable-n
+  lemma: variable
+  pos: noun
+  cefr: B2
+  topic: communication
+  ipa: /ˈveəriəbl/
+  def: In an experiment, a thing that can change and affect the result.
+  vi: biến số
+  examples:
+    - en: The only variable I changed was the pool size.
+      vi: Biến số duy nhất mình thay đổi là kích thước pool.
+- slug: t22-sequence-n
+  lemma: sequence
+  pos: noun
+  cefr: B1
+  topic: communication
+  ipa: /ˈsiːkwəns/
+  def: A series of things in a particular order.
+  vi: trình tự, chuỗi
+  examples:
+    - en: Data can arrive out of sequence, so sort it by measured time.
+      vi: Dữ liệu có thể đến không theo trình tự, nên hãy sắp xếp theo thời gian đo.
+- slug: t22-flowchart-n
+  lemma: flowchart
+  pos: noun
+  cefr: B2
+  topic: communication
+  ipa: /ˈfləʊtʃɑːt/
+  def: A drawing that shows the steps of a process with boxes and arrows.
+  vi: lưu đồ
+  examples:
+    - en: This flowchart shows how an order moves between services.
+      vi: Lưu đồ này cho thấy một đơn hàng đi qua các service thế nào.
+- slug: t22-code-snippet-n
+  lemma: code snippet
+  pos: noun
+  kind: collocation
+  cefr: B1
+  topic: communication
+  ipa: /ˈkəʊd snɪpɪt/
+  def: A short piece of code shown in a text.
+  vi: đoạn mã ngắn
+  examples:
+    - en: Add a code snippet that shows the fix.
+      vi: Thêm một đoạn mã ngắn minh hoạ bản sửa.
+- slug: t22-walkthrough-n
+  lemma: walkthrough
+  pos: noun
+  cefr: B2
+  topic: communication
+  ipa: /ˈwɔːkθruː/
+  def: A step-by-step explanation of how something works.
+  vi: buổi hướng dẫn từng bước
+  examples:
+    - en: Can you do a walkthrough of the billing code on Friday?
+      vi: Thứ Sáu anh hướng dẫn từng bước phần code billing được không?
+- slug: t22-explain-v
+  lemma: explain
+  pos: verb
+  cefr: A2
+  topic: communication
+  ipa: /ɪkˈspleɪn/
+  def: To tell someone about something so they understand it.
+  vi: giải thích
+  examples:
+    - en: Can you explain why the build failed?
+      vi: Bạn giải thích được vì sao build bị lỗi không?
+- slug: t22-pull-request-n
+  lemma: pull request
+  pos: noun
+  kind: collocation
+  cefr: B1
+  topic: communication
+  ipa: /ˈpʊl rɪkwest/
+  def: A request to add your code changes into the main project.
+  vi: yêu cầu hợp nhất mã (pull request)
+  examples:
+    - en: I opened a pull request for the login fix.
+      vi: Mình đã mở pull request cho bản sửa đăng nhập.
+- slug: t22-reviewer-n
+  lemma: reviewer
+  pos: noun
+  cefr: B1
+  topic: communication
+  ipa: /rɪˈvjuːə/
+  def: A person who checks someone else's work and gives feedback.
+  vi: người review
+  examples:
+    - en: The reviewer left three comments on the migration file.
+      vi: Người review để lại ba bình luận trong file migration.
+- slug: t22-request-changes-phr
+  lemma: request changes
+  pos: phrase
+  kind: phrase
+  cefr: B1
+  topic: communication
+  ipa: /rɪˈkwest ˈtʃeɪndʒɪz/
+  def: To ask the author to fix things before a review can pass.
+  vi: yêu cầu chỉnh sửa
+  examples:
+    - en: I requested changes because the tests don't cover the error path.
+      vi: Mình yêu cầu chỉnh sửa vì test chưa bao phủ nhánh lỗi.
+- slug: t22-nitpick-n
+  lemma: nitpick
+  pos: noun
+  cefr: B2
+  topic: communication
+  ipa: /ˈnɪtpɪk/
+  def: A comment about a very small detail that is not important.
+  vi: góp ý vụn vặt
+  examples:
+    - en: This is just a nitpick, so feel free to merge without it.
+      vi: Đây chỉ là góp ý vụn vặt, bạn cứ merge mà không cần sửa.
+- slug: t22-constructive-adj
+  lemma: constructive
+  pos: adjective
+  cefr: B2
+  topic: communication
+  ipa: /kənˈstrʌktɪv/
+  def: Helpful and meant to improve something, not only to criticise.
+  vi: mang tính xây dựng
+  examples:
+    - en: Keep review comments constructive and kind.
+      vi: Hãy giữ bình luận review mang tính xây dựng và tử tế.
+- slug: t22-suggestion-n
+  lemma: suggestion
+  pos: noun
+  cefr: B1
+  topic: communication
+  ipa: /səˈdʒestʃən/
+  def: An idea that you offer for someone to think about.
+  vi: đề xuất, gợi ý
+  examples:
+    - en: Thanks for the suggestion about naming the variables.
+      vi: Cảm ơn gợi ý về cách đặt tên biến.
+- slug: t22-rationale-n
+  lemma: rationale
+  pos: noun
+  cefr: C1
+  topic: communication
+  ipa: /ˌræʃəˈnɑːl/
+  def: The reasons behind a decision.
+  vi: lý do căn bản
+  examples:
+    - en: The rationale is that the team already knows Postgres well.
+      vi: Lý do căn bản là nhóm đã rành Postgres.
+- slug: t22-readable-adj
+  lemma: readable
+  pos: adjective
+  cefr: B1
+  topic: communication
+  ipa: /ˈriːdəbl/
+  def: Easy to read and understand.
+  vi: dễ đọc
+  examples:
+    - en: Split this function so it is more readable.
+      vi: Hãy tách hàm này ra để dễ đọc hơn.
+- slug: t22-naming-convention-n
+  lemma: naming convention
+  pos: noun
+  kind: collocation
+  cefr: B1
+  topic: communication
+  ipa: /ˈneɪmɪŋ kənˈvenʃn/
+  def: An agreed way of choosing names for files, variables or functions.
+  vi: quy ước đặt tên
+  examples:
+    - en: The naming convention is camelCase for variables and PascalCase for types.
+      vi: Quy ước đặt tên là camelCase cho biến và PascalCase cho kiểu.
+- slug: t22-refactor-v
+  lemma: refactor
+  pos: verb
+  cefr: B2
+  topic: communication
+  ipa: /riːˈfæktə/
+  def: To change the structure of code without changing what it does.
+  vi: tái cấu trúc mã
+  examples:
+    - en: I refactored the parser so it is easier to test.
+      vi: Mình đã tái cấu trúc parser để dễ test hơn.
+- slug: t22-diff-n
+  lemma: diff
+  pos: noun
+  cefr: B1
+  topic: communication
+  ipa: /dɪf/
+  def: The lines of code that were added or removed in a change.
+  vi: phần khác biệt (diff)
+  examples:
+    - en: "The diff is small: only two files changed."
+      vi: "Diff nhỏ thôi: chỉ hai tệp thay đổi."
+- slug: t22-line-break-n
+  lemma: line break
+  pos: noun
+  kind: collocation
+  cefr: B2
+  topic: communication
+  ipa: /ˈlaɪn breɪk/
+  def: The point where text ends one line and starts a new one.
+  vi: ngắt dòng
+  examples:
+    - en: Add a line break between the steps.
+      vi: Thêm ngắt dòng giữa các bước.
+- slug: t22-indentation-n
+  lemma: indentation
+  pos: noun
+  cefr: B1
+  topic: communication
+  ipa: /ˌɪndenˈteɪʃn/
+  def: Space at the start of a line of code that shows its structure.
+  vi: thụt lề
+  examples:
+    - en: The formatter fixes indentation automatically when you save.
+      vi: Trình định dạng tự sửa thụt lề khi bạn lưu file.
+- slug: t22-linter-n
+  lemma: linter
+  pos: noun
+  cefr: B1
+  topic: communication
+  ipa: /ˈlɪntə/
+  def: A tool that checks code for style problems and common mistakes.
+  vi: công cụ kiểm tra mã (linter)
+  examples:
+    - en: The linter fails the build if you leave an unused import.
+      vi: Linter sẽ làm build lỗi nếu bạn để lại import không dùng.
+- slug: t22-test-plan-n
+  lemma: test plan
+  pos: noun
+  kind: collocation
+  cefr: B1
+  topic: communication
+  ipa: /ˈtest plæn/
+  def: A description of how you checked that a change works.
+  vi: kế hoạch kiểm thử
+  examples:
+    - en: My test plan lists the three cases I tried by hand.
+      vi: Kế hoạch kiểm thử của mình liệt kê ba trường hợp mình thử bằng tay.
+- slug: t22-address-feedback-phr
+  lemma: address feedback
+  pos: phrase
+  kind: phrase
+  cefr: B2
+  topic: communication
+  ipa: /əˌdres ˈfiːdbæk/
+  def: To make changes because of comments from reviewers.
+  vi: xử lý góp ý
+  examples:
+    - en: I addressed all the feedback in the last commit.
+      vi: Mình đã xử lý hết góp ý trong commit cuối.
+- slug: t22-agree-on-pv
+  lemma: agree on
+  pos: phrasal_verb
+  kind: phrasal
+  cefr: A2
+  topic: communication
+  ipa: /əˈɡriː ɒn/
+  def: To decide something together after discussing it.
+  vi: thống nhất về
+  examples:
+    - en: We agreed on one channel for all incident updates.
+      vi: Nhóm đã thống nhất dùng một kênh cho mọi cập nhật sự cố.
+- slug: t22-disagree-v
+  lemma: disagree
+  pos: verb
+  cefr: A2
+  topic: communication
+  ipa: /ˌdɪsəˈɡriː/
+  def: To have a different opinion from someone.
+  vi: không đồng ý
+  examples:
+    - en: I disagree; caching here could show old prices.
+      vi: Mình không đồng ý; cache ở đây có thể hiện giá cũ.
+- slug: t22-concern-n
+  lemma: concern
+  pos: noun
+  cefr: B1
+  topic: communication
+  ipa: /kənˈsɜːn/
+  def: A worry about something.
+  vi: mối lo ngại
+  examples:
+    - en: My main concern is the extra load on the database.
+      vi: Mối lo ngại chính của mình là tải thêm lên cơ sở dữ liệu.
+- slug: t22-objection-n
+  lemma: objection
+  pos: noun
+  cefr: B2
+  topic: communication
+  ipa: /əbˈdʒekʃn/
+  def: A reason you give for not agreeing with a plan.
+  vi: sự phản đối
+  examples:
+    - en: Does anyone have an objection before we merge?
+      vi: Có ai phản đối trước khi merge không?
+- slug: t22-fair-point-phr
+  lemma: fair point
+  pos: phrase
+  kind: phrase
+  cefr: B1
+  topic: communication
+  ipa: /ˌfeə ˈpɔɪnt/
+  def: Something you say to accept that another person's idea is reasonable.
+  vi: ý hợp lý
+  examples:
+    - en: Fair point, I didn't think about offline users.
+      vi: Ý hợp lý đấy, mình chưa nghĩ đến người dùng ngoại tuyến.
+- slug: t22-perspective-n
+  lemma: perspective
+  pos: noun
+  cefr: B2
+  topic: communication
+  ipa: /pəˈspektɪv/
+  def: A way of seeing a problem from a certain position.
+  vi: góc nhìn
+  examples:
+    - en: Can you share the perspective of the mobile developers?
+      vi: Bạn chia sẻ góc nhìn của các lập trình viên mobile được không?
+- slug: t22-respectful-adj
+  lemma: respectful
+  pos: adjective
+  cefr: B1
+  topic: communication
+  ipa: /rɪˈspektfl/
+  def: Polite and showing that you value other people.
+  vi: tôn trọng, lịch sự
+  examples:
+    - en: Keep review comments respectful, even when you disagree.
+      vi: Hãy giữ bình luận review lịch sự kể cả khi bạn không đồng ý.
+- slug: t22-counterargument-n
+  lemma: counterargument
+  pos: noun
+  cefr: C1
+  topic: communication
+  ipa: /ˈkaʊntərˌɑːɡjumənt/
+  def: A reason that argues against another idea.
+  vi: lập luận phản bác
+  examples:
+    - en: The strongest counterargument is the cost of retraining.
+      vi: Lập luận phản bác mạnh nhất là chi phí đào tạo lại.
+- slug: t22-common-ground-n
+  lemma: common ground
+  pos: noun
+  kind: collocation
+  cefr: C1
+  topic: communication
+  ipa: /ˌkɒmən ˈɡraʊnd/
+  def: Ideas or opinions that different people share.
+  vi: điểm chung
+  examples:
+    - en: The common ground is that both of us want fewer alerts.
+      vi: Điểm chung là cả hai đều muốn ít cảnh báo hơn.
+- slug: t22-compromise-n
+  lemma: compromise
+  pos: noun
+  cefr: B2
+  topic: communication
+  ipa: /ˈkɒmprəmaɪz/
+  def: An agreement where each side accepts less than it wanted.
+  vi: sự thoả hiệp
+  examples:
+    - en: As a compromise, we'll keep the old endpoint for one more month.
+      vi: Để thoả hiệp, nhóm giữ endpoint cũ thêm một tháng.
+- slug: t22-concede-v
+  lemma: concede
+  pos: verb
+  cefr: C1
+  topic: communication
+  ipa: /kənˈsiːd/
+  def: To admit, often unwillingly, that something is true.
+  vi: thừa nhận (miễn cưỡng)
+  examples:
+    - en: We concede that the alert was too slow.
+      vi: Bọn mình thừa nhận cảnh báo đã quá chậm.
+- slug: t22-point-taken-phr
+  lemma: point taken
+  pos: phrase
+  kind: phrase
+  cefr: B2
+  topic: communication
+  ipa: /ˌpɔɪnt ˈteɪkən/
+  def: Said to show you accept someone's comment or criticism.
+  vi: mình hiểu ý bạn rồi
+  examples:
+    - en: Point taken. I'll add more detail to my tickets.
+      vi: Mình hiểu rồi. Mình sẽ ghi ticket chi tiết hơn.
+- slug: t22-agree-to-disagree-phr
+  lemma: agree to disagree
+  pos: phrase
+  kind: phrase
+  cefr: B2
+  topic: communication
+  ipa: /əˌɡriː tə ˌdɪsəˈɡriː/
+  def: To accept that two people have different opinions and stop arguing.
+  vi: chấp nhận bất đồng quan điểm
+  forms:
+    - agreed to disagree
+    - agreeing to disagree
+  examples:
+    - en: We couldn't choose between tabs and spaces, so we agreed to disagree.
+      vi: Bọn mình không chọn được giữa tab và dấu cách nên đành chấp nhận khác quan
+        điểm.
+- slug: t22-disagree-and-commit-phr
+  lemma: disagree and commit
+  pos: phrase
+  kind: phrase
+  cefr: C1
+  topic: communication
+  ipa: /ˌdɪsəˈɡriː ənd kəˈmɪt/
+  def: To support a group decision fully even if you argued against it.
+  vi: không đồng ý nhưng vẫn cam kết thực hiện
+  examples:
+    - en: I'd choose differently, but I'll disagree and commit.
+      vi: Mình sẽ chọn khác, nhưng mình vẫn cam kết làm theo quyết định chung.
+- slug: t22-tone-n
+  lemma: tone
+  pos: noun
+  cefr: B1
+  topic: communication
+  ipa: /təʊn/
+  def: The feeling that your words show, for example friendly or angry.
+  vi: giọng điệu
+  examples:
+    - en: Written comments can sound harsh, so check your tone.
+      vi: Bình luận viết có thể nghe gay gắt, nên hãy kiểm tra giọng điệu.
+- slug: t22-defensive-adj
+  lemma: defensive
+  pos: adjective
+  cefr: B2
+  topic: communication
+  ipa: /dɪˈfensɪv/
+  def: Quick to protect yourself because you feel criticised.
+  vi: phòng thủ, chống chế
+  examples:
+    - en: Try not to get defensive when someone questions your code.
+      vi: Cố đừng chống chế khi ai đó đặt câu hỏi về code của bạn.
+- slug: t22-take-something-personally-phr
+  lemma: take something personally
+  pos: phrase
+  kind: phrase
+  cefr: B2
+  topic: communication
+  ipa: /ˌteɪk ˈpɜːsənəli/
+  def: To feel hurt because you think a comment is about you as a person.
+  vi: để bụng, cho là nhắm vào mình
+  examples:
+    - en: Please don't take the review comments personally.
+      vi: Đừng để bụng các bình luận review nhé.
+- slug: t22-clear-the-air-phr
+  lemma: clear the air
+  pos: phrase
+  kind: phrase
+  cefr: C1
+  topic: communication
+  ipa: /ˌklɪə ði ˈeə(r)/
+  def: To talk openly to end bad feelings after a problem.
+  vi: nói rõ để xóa khúc mắc
+  examples:
+    - en: Can we have a quick call to clear the air?
+      vi: Mình gọi nhanh để nói rõ mọi chuyện nhé?
+- slug: t22-request-v
+  lemma: request
+  pos: verb
+  cefr: B1
+  topic: communication
+  ipa: /rɪˈkwest/
+  def: To ask for something formally, often through a form or a tool.
+  vi: yêu cầu, đề nghị
+  examples:
+    - en: Request VPN access through the IT portal.
+      vi: Hãy đề nghị cấp quyền VPN qua cổng IT.
+- slug: t22-propose-v
+  lemma: propose
+  pos: verb
+  cefr: B1
+  topic: communication
+  ipa: /prəˈpəʊz/
+  def: To suggest a plan or idea for others to consider.
+  vi: đề xuất
+  examples:
+    - en: I propose that we allow merges on Friday mornings.
+      vi: Mình đề xuất cho phép merge vào sáng thứ Sáu.
+- lemma: could you
+  pos: phrase
+  vi: bạn có thể giúp… không
+  def: A polite way to request an action.
+  examples:
+    - en: Could you review the failing test before lunch?
+  slug: t22-could-you-phr
+  topic: communication
+  cefr: B1
+  kind: phrase
+- lemma: would you mind
+  pos: phrase
+  vi: bạn có phiền giúp… không
+  def: A polite expression used before requesting an action.
+  examples:
+    - en: Would you mind checking the error handling in this function?
+  slug: t22-would-you-mind-phr
+  topic: communication
+  cefr: B1
+  kind: phrase
+- lemma: please
+  pos: adverb
+  vi: làm ơn
+  def: A word used to make a request polite.
+  examples:
+    - en: Please include a test plan in the pull request.
+  slug: t22-please-adv
+  topic: communication
+  cefr: B1
+- lemma: when you have a moment
+  pos: phrase
+  vi: khi bạn có chút thời gian
+  def: A polite phrase for a request without immediate urgency.
+  examples:
+    - en: When you have a moment, please review the API examples.
+  slug: t22-when-you-have-a-moment-phr
+  topic: communication
+  cefr: B1
+  kind: phrase
+- slug: t22-at-your-earliest-convenience-phr
+  lemma: at your earliest convenience
+  pos: phrase
+  kind: phrase
+  cefr: C1
+  topic: communication
+  ipa: /ət jɔːr ˌɜːliɪst kənˈviːniəns/
+  def: A formal way to say 'as soon as you can'.
+  vi: sớm nhất khi anh/chị có thể
+  forms:
+    - as soon as possible
+    - ASAP
+  examples:
+    - en: Please sign the contract at your earliest convenience.
+      vi: Mong anh/chị ký hợp đồng sớm nhất có thể.
+- slug: t22-by-the-way-phr
+  lemma: by the way
+  pos: phrase
+  kind: phrase
+  cefr: A2
+  topic: communication
+  ipa: /ˌbaɪ ðə ˈweɪ/
+  def: Used to add a new point or start a new topic.
+  vi: nhân tiện
+  examples:
+    - en: By the way, have you tried the new noodle place downstairs?
+      vi: Nhân tiện, bạn ăn thử quán bún mới dưới nhà chưa?
+- slug: t22-heads-up-n
+  lemma: heads-up
+  pos: noun
+  cefr: B2
+  topic: communication
+  ipa: /ˈhedz ʌp/
+  def: A short early warning about something that will happen.
+  vi: thông báo trước, báo sớm
+  forms:
+    - heads up
+    - give someone a heads-up
+  examples:
+    - en: "Just a heads-up: the office will be closed on Friday."
+      vi: "Báo trước nhé: thứ Sáu văn phòng đóng cửa."
+- slug: t22-in-advance-phr
+  lemma: in advance
+  pos: phrase
+  kind: phrase
+  cefr: B1
+  topic: communication
+  ipa: /ɪn ədˈvɑːns/
+  def: Before a particular time, so others can prepare.
+  vi: trước (thời hạn)
+  examples:
+    - en: I'll tell the team in advance when I need to leave early.
+      vi: Khi cần về sớm mình sẽ báo nhóm trước.
+- slug: t22-urgent-adj
+  lemma: urgent
+  pos: adjective
+  cefr: A2
+  topic: communication
+  ipa: /ˈɜːdʒənt/
+  def: Needing attention or action immediately.
+  vi: khẩn cấp, gấp
+  examples:
+    - en: If a request is urgent, please call me instead of sending an email.
+      vi: Nếu yêu cầu gấp, hãy gọi cho mình thay vì gửi email.
+- slug: t22-priority-n
+  lemma: priority
+  pos: noun
+  cefr: B1
+  topic: communication
+  ipa: /praɪˈɒrəti/
+  def: Something that is more important than other things and should be done first.
+  vi: ưu tiên
+  examples:
+    - en: Your first priority is to learn the release process.
+      vi: Ưu tiên đầu tiên của bạn là nắm quy trình release.
+- slug: t22-deadline-n
+  lemma: deadline
+  pos: noun
+  cefr: B1
+  topic: communication
+  ipa: /ˈdedlaɪn/
+  def: The time by which something must be finished.
+  vi: hạn chót
+  examples:
+    - en: The deadline for the audit fixes is next Friday.
+      vi: Hạn chót sửa các lỗi kiểm toán là thứ Sáu tuần sau.
+- slug: t22-available-adj
+  lemma: available
+  pos: adjective
+  cefr: A2
+  topic: communication
+  ipa: /əˈveɪləbl/
+  def: Free to talk, help or work at a particular time.
+  vi: rảnh, có mặt
+  examples:
+    - en: I'm available after lunch if you want to pair on the bug.
+      vi: Sau bữa trưa mình rảnh nếu bạn muốn cùng sửa lỗi.
+- slug: t22-availability-n
+  lemma: availability
+  pos: noun
+  cefr: B1
+  topic: communication
+  ipa: /əˌveɪləˈbɪləti/
+  def: The times when you are free to work, meet or answer.
+  vi: thời gian rảnh/có thể làm việc
+  examples:
+    - en: Please add your availability to the shared calendar.
+      vi: Bạn thêm thời gian có thể làm việc vào lịch chung nhé.
+- slug: t22-reachable-adj
+  lemma: reachable
+  pos: adjective
+  cefr: B1
+  topic: communication
+  ipa: /ˈriːtʃəbl/
+  def: Possible to contact, for example by phone or message.
+  vi: có thể liên lạc được
+  examples:
+    - en: I'm reachable by phone if production goes down.
+      vi: Nếu production sập thì có thể gọi điện cho mình.
+- slug: t22-point-of-contact-n
+  lemma: point of contact
+  pos: noun
+  kind: collocation
+  cefr: B2
+  topic: communication
+  ipa: /ˌpɔɪnt əv ˈkɒntækt/
+  def: The one person others should talk to about a subject.
+  vi: đầu mối liên hệ
+  examples:
+    - en: Lan is now the point of contact for the payment API.
+      vi: Lan giờ là đầu mối liên hệ cho API thanh toán.
+- slug: t22-follow-up-n
+  lemma: follow-up
+  pos: noun
+  cefr: B2
+  topic: communication
+  ipa: /ˈfɒləʊ ʌp/
+  def: An action done after something to continue or check it.
+  vi: việc theo dõi tiếp
+  examples:
+    - en: Create a follow-up ticket to remove the old flag.
+      vi: Hãy tạo ticket theo dõi tiếp để gỡ flag cũ.
+- slug: t22-get-back-to-pv
+  lemma: get back to
+  pos: phrasal_verb
+  kind: phrasal
+  cefr: B1
+  topic: communication
+  ipa: /ˌɡet ˈbæk tə/
+  def: To contact someone later, usually to give an answer.
+  vi: phản hồi lại (ai) sau
+  forms:
+    - gets back to
+    - got back to
+    - getting back to
+  examples:
+    - en: I don't know yet, but I'll get back to you by Friday.
+      vi: Mình chưa biết, nhưng mình sẽ phản hồi bạn trước thứ Sáu.
+- slug: t22-no-pressure-phr
+  lemma: no pressure
+  pos: phrase
+  kind: phrase
+  cefr: B1
+  topic: communication
+  ipa: /ˌnəʊ ˈpreʃə(r)/
+  def: Said to show that someone does not have to do something.
+  vi: không sao đâu, không ép
+  examples:
+    - en: No pressure, but I'm free if you want to talk.
+      vi: Không ép đâu, nhưng nếu muốn tâm sự thì mình rảnh.
+- slug: t22-trade-off-n
+  lemma: trade-off
+  pos: noun
+  cefr: B2
+  topic: communication
+  ipa: /ˈtreɪd ɒf/
+  def: A balance between two things you cannot have at the same time.
+  vi: sự đánh đổi
+  examples:
+    - en: The trade-off was speed for safety, and it was the right one.
+      vi: Sự đánh đổi là tốc độ lấy an toàn, và đó là lựa chọn đúng.
+- slug: t22-alternative-n
+  lemma: alternative
+  pos: noun
+  cefr: B2
+  topic: communication
+  ipa: /ɔːlˈtɜːnətɪv/
+  def: Another possible choice.
+  vi: phương án thay thế
+  examples:
+    - en: We considered Kafka as an alternative but chose SQS.
+      vi: Nhóm đã cân nhắc Kafka làm phương án thay thế nhưng chọn SQS.
+- slug: t22-option-n
+  lemma: option
+  pos: noun
+  cefr: A2
+  topic: communication
+  ipa: /ˈɒpʃn/
+  def: One of the things you can choose.
+  vi: lựa chọn
+  examples:
+    - en: Option B is cheaper but slower to set up.
+      vi: Lựa chọn B rẻ hơn nhưng cài đặt lâu hơn.
+- slug: t22-benefit-n
+  lemma: benefit
+  pos: noun
+  cefr: B1
+  topic: communication
+  ipa: /ˈbenɪfɪt/
+  def: A good result or advantage.
+  vi: lợi ích
+  examples:
+    - en: The main benefit is that juniors can deploy alone.
+      vi: Lợi ích chính là các bạn junior tự deploy được.
+- slug: t22-drawback-n
+  lemma: drawback
+  pos: noun
+  cefr: B2
+  topic: communication
+  ipa: /ˈdrɔːbæk/
+  def: A disadvantage or problem.
+  vi: nhược điểm
+  examples:
+    - en: The main drawback is that we lose strong typing.
+      vi: Nhược điểm chính là mất kiểu dữ liệu chặt chẽ.
+- slug: t22-constraint-n
+  lemma: constraint
+  pos: noun
+  cefr: B2
+  topic: communication
+  ipa: /kənˈstreɪnt/
+  def: Something that limits what you can do.
+  vi: ràng buộc
+  examples:
+    - en: A key constraint is that the data must stay in Vietnam.
+      vi: Một ràng buộc quan trọng là dữ liệu phải lưu ở Việt Nam.
+- slug: t22-cost-n
+  lemma: cost
+  pos: noun
+  cefr: A2
+  topic: communication
+  ipa: /kɒst/
+  def: The money, time or effort needed for something.
+  vi: chi phí
+  examples:
+    - en: The cost is about two hours of setup per team.
+      vi: Chi phí khoảng hai giờ cài đặt cho mỗi nhóm.
+- lemma: effort
+  pos: noun
+  vi: công sức cần bỏ ra
+  def: The work or energy needed to complete a task.
+  examples:
+    - en: Estimate the effort before promising a release date.
+  slug: t22-effort-n
+  topic: communication
+  cefr: B1
+- slug: t22-risk-n
+  lemma: risk
+  pos: noun
+  cefr: B1
+  topic: communication
+  ipa: /rɪsk/
+  def: The chance that something bad may happen.
+  vi: rủi ro
+  forms:
+    - risks
+    - risky
+  examples:
+    - en: The biggest risk is that the payment partner changes its API.
+      vi: Rủi ro lớn nhất là đối tác thanh toán thay đổi API.
+- slug: t22-uncertainty-n
+  lemma: uncertainty
+  pos: noun
+  cefr: B2
+  topic: communication
+  ipa: /ʌnˈsɜːtnti/
+  def: A feeling of not knowing what will happen.
+  vi: sự bất định
+  examples:
+    - en: The reorg created a lot of uncertainty in the team.
+      vi: Đợt tái cơ cấu tạo ra nhiều bất định trong nhóm.
+- slug: t22-likelihood-n
+  lemma: likelihood
+  pos: noun
+  cefr: C1
+  topic: communication
+  ipa: /ˈlaɪklihʊd/
+  def: How probable it is that something will happen.
+  vi: khả năng xảy ra
+  examples:
+    - en: Say the likelihood in words, like "likely" or "unlikely".
+      vi: Diễn đạt khả năng xảy ra bằng chữ, như "có khả năng" hay "khó xảy ra".
+- slug: t22-consequence-n
+  lemma: consequence
+  pos: noun
+  cefr: B2
+  topic: communication
+  ipa: /ˈkɒnsɪkwəns/
+  def: A result of a decision or action.
+  vi: hệ quả
+  examples:
+    - en: One consequence of this choice is a longer build time.
+      vi: Một hệ quả của lựa chọn này là thời gian build lâu hơn.
+- slug: t22-reversible-adj
+  lemma: reversible
+  pos: adjective
+  cefr: C1
+  topic: communication
+  ipa: /rɪˈvɜːsəbl/
+  def: Able to be changed back to how it was before.
+  vi: có thể đảo ngược
+  examples:
+    - en: Choosing a log format is reversible, so decide quickly.
+      vi: Chọn định dạng log có thể đảo ngược, nên hãy quyết nhanh.
+- slug: t22-short-term-adj
+  lemma: short-term
+  pos: adjective
+  cefr: B1
+  topic: communication
+  ipa: /ˌʃɔːt ˈtɜːm/
+  def: Lasting or having effects for a short time.
+  vi: ngắn hạn
+  examples:
+    - en: This is a short-term choice; we expect to replace it next year.
+      vi: Đây là lựa chọn ngắn hạn; dự kiến năm sau sẽ thay.
+- slug: t22-long-term-goal-n
+  lemma: long-term goal
+  pos: noun
+  kind: collocation
+  cefr: B2
+  topic: communication
+  ipa: /ˌlɒŋ tɜːm ˈɡəʊl/
+  def: Something you want to achieve far in the future.
+  vi: mục tiêu dài hạn
+  forms:
+    - long-term goals
+    - short-term goal
+  examples:
+    - en: My long-term goal is to become a solution architect.
+      vi: Mục tiêu dài hạn của mình là trở thành kiến trúc sư giải pháp.
+- slug: t22-pros-and-cons-n
+  lemma: pros and cons
+  pos: noun
+  kind: collocation
+  cefr: B1
+  topic: communication
+  ipa: /ˌprəʊz ən ˈkɒnz/
+  def: The good and bad points of something.
+  vi: ưu và nhược điểm
+  examples:
+    - en: List the pros and cons of each option in a table.
+      vi: Hãy liệt kê ưu nhược điểm của từng lựa chọn trong một bảng.
+- slug: t22-compare-v
+  lemma: compare
+  pos: verb
+  cefr: A2
+  topic: communication
+  ipa: /kəmˈpeə/
+  def: To look at how two things are the same or different.
+  vi: so sánh
+  examples:
+    - en: Compare the two answers and test both.
+      vi: So sánh hai câu trả lời và thử cả hai.
+- slug: t22-justify-v
+  lemma: justify
+  pos: verb
+  cefr: B2
+  topic: communication
+  ipa: /ˈdʒʌstɪfaɪ/
+  def: To give good reasons for something.
+  vi: biện minh, giải thích lý do
+  examples:
+    - en: Please justify why the test can't run in CI.
+      vi: Hãy giải thích lý do vì sao test không chạy được trong CI.
+- slug: t22-substantiate-v
+  lemma: substantiate
+  pos: verb
+  cefr: C1
+  topic: communication
+  ipa: /səbˈstænʃieɪt/
+  def: To show with facts that something is true.
+  vi: chứng minh, minh chứng
+  examples:
+    - en: Substantiate the claim with test results.
+      vi: Hãy chứng minh nhận định bằng kết quả kiểm thử.
+- slug: t22-evidence-n
+  lemma: evidence
+  pos: noun
+  cefr: B2
+  topic: communication
+  ipa: /ˈevɪdəns/
+  def: Facts or results that show something is true.
+  vi: bằng chứng
+  note: 'Không đếm được: "a piece of evidence".'
+  examples:
+    - en: Is there any evidence that this library is faster?
+      vi: Có bằng chứng nào cho thấy thư viện này nhanh hơn không?
+- slug: t22-assumption-n
+  lemma: assumption
+  pos: noun
+  cefr: B2
+  topic: communication
+  ipa: /əˈsʌmpʃn/
+  def: Something you believe is true but have not proved.
+  vi: giả định
+  examples:
+    - en: List your assumptions so others can check them.
+      vi: Liệt kê các giả định để người khác kiểm tra.
+- slug: t22-recommendation-n
+  lemma: recommendation
+  pos: noun
+  cefr: B2
+  topic: communication
+  ipa: /ˌrekəmenˈdeɪʃn/
+  def: Advice about what someone should do.
+  vi: khuyến nghị, lời đề xuất
+  forms:
+    - recommendations
+    - recommend
+    - recommended
+  examples:
+    - en: Our main recommendation is to move the images to a CDN.
+      vi: Khuyến nghị chính của bọn mình là chuyển ảnh sang CDN.
+- slug: t22-scope-n
+  lemma: scope
+  pos: noun
+  cefr: B2
+  topic: communication
+  ipa: /skəʊp/
+  def: The range of things that something covers.
+  vi: phạm vi
+  examples:
+    - en: The scope of the exception is the billing service only.
+      vi: Phạm vi ngoại lệ chỉ là dịch vụ tính tiền.
+- slug: t22-in-scope-phr
+  lemma: in scope
+  pos: phrase
+  kind: phrase
+  cefr: B2
+  topic: communication
+  ipa: /ɪn ˈskəʊp/
+  def: Included in what a review or project covers.
+  vi: nằm trong phạm vi
+  examples:
+    - en: Only the payment system is in scope for this audit.
+      vi: Chỉ hệ thống thanh toán nằm trong phạm vi đợt kiểm toán này.
+- slug: t22-out-of-scope-phr
+  lemma: out of scope
+  pos: phrase
+  kind: phrase
+  cefr: B2
+  topic: communication
+  ipa: /aʊt əv skəʊp/
+  def: Not included in the work that was agreed.
+  vi: ngoài phạm vi
+  examples:
+    - en: Dark mode is out of scope for the first version.
+      vi: Chế độ tối nằm ngoài phạm vi của phiên bản đầu.
+- slug: t22-non-goal-n
+  lemma: non-goal
+  pos: noun
+  cefr: C1
+  topic: communication
+  ipa: /ˌnɒn ˈɡəʊl/
+  def: Something a project clearly says it will not try to do.
+  vi: điều không nằm trong mục tiêu
+  examples:
+    - en: Predicting floods is a non-goal for version one.
+      vi: Dự đoán lũ không nằm trong mục tiêu của phiên bản một.
+- lemma: must-have
+  pos: noun
+  vi: yêu cầu bắt buộc phải có
+  def: Something essential for the intended result.
+  examples:
+    - en: Accessible checkout is a must-have for this release.
+  slug: t22-must-have-n
+  topic: communication
+  cefr: B1
+- lemma: nice-to-have
+  pos: noun
+  vi: tính năng có thì tốt nhưng chưa bắt buộc
+  def: Something useful but not essential.
+  examples:
+    - en: Custom themes are a nice-to-have for the first release.
+  slug: t22-nice-to-have-n
+  topic: communication
+  cefr: B1
+- lemma: defer
+  pos: verb
+  vi: hoãn sang thời điểm sau
+  def: To postpone a task or decision.
+  examples:
+    - en: We can defer the dashboard redesign until next month.
+  slug: t22-defer-v
+  topic: communication
+  cefr: B1
+- slug: t22-prioritize-v
+  lemma: prioritize
+  pos: verb
+  cefr: B1
+  topic: communication
+  ipa: /praɪˈɒrətaɪz/
+  def: To decide which things are most important and do them first.
+  vi: ưu tiên, sắp xếp thứ tự ưu tiên
+  forms:
+    - prioritizes
+    - prioritized
+    - prioritizing
+    - prioritise
+  examples:
+    - en: We need to prioritize the payment bug over the new design.
+      vi: Mình cần ưu tiên lỗi thanh toán trước thiết kế mới.
+- slug: t22-estimate-n
+  lemma: estimate
+  pos: noun
+  cefr: B1
+  topic: communication
+  ipa: /ˈestɪmət/
+  def: A number that is calculated roughly, not measured exactly.
+  vi: giá trị ước tính
+  examples:
+    - en: This figure is an estimate, not a meter reading.
+      vi: Con số này là ước tính, không phải số đo từ công tơ.
+- slug: t22-timeline-n
+  lemma: timeline
+  pos: noun
+  cefr: B2
+  topic: communication
+  ipa: /ˈtaɪmlaɪn/
+  def: A plan that shows when each part of a project will happen.
+  vi: mốc thời gian, lịch trình dự án
+  forms:
+    - timelines
+  examples:
+    - en: The timeline looks tight, but we can do it if nobody is sick.
+      vi: Lịch trình khá gấp, nhưng nếu không ai ốm thì bọn mình làm kịp.
+- slug: t22-milestone-n
+  lemma: milestone
+  pos: noun
+  cefr: B2
+  topic: communication
+  ipa: /ˈmaɪlstəʊn/
+  def: An important point or stage in a project.
+  vi: cột mốc (của dự án)
+  forms:
+    - milestones
+  examples:
+    - en: The first milestone is a working login page by the end of May.
+      vi: Cột mốc đầu tiên là trang đăng nhập chạy được vào cuối tháng Năm.
+- slug: t22-deliverable-n
+  lemma: deliverable
+  pos: noun
+  cefr: C1
+  topic: communication
+  ipa: /dɪˈlɪvərəbl/
+  def: A finished piece of work that you must give to a client or manager.
+  vi: sản phẩm bàn giao (theo cam kết)
+  forms:
+    - deliverables
+  examples:
+    - en: The main deliverable for this month is the admin dashboard.
+      vi: Sản phẩm bàn giao chính tháng này là trang quản trị.
+- slug: t22-dependency-n
+  lemma: dependency
+  pos: noun
+  cefr: C1
+  topic: communication
+  ipa: /dɪˈpendənsi/
+  def: Something that a system needs in order to work.
+  vi: phụ thuộc
+  examples:
+    - en: Write down every external dependency of the service.
+      vi: Hãy ghi lại mọi phụ thuộc bên ngoài của service.
+- slug: t22-negotiate-v
+  lemma: negotiate
+  pos: verb
+  cefr: B2
+  topic: communication
+  ipa: /nɪˈɡəʊʃieɪt/
+  def: To discuss something to reach an agreement, for example about pay.
+  vi: đàm phán, thương lượng
+  forms:
+    - negotiates
+    - negotiated
+    - negotiating
+    - negotiation
+  examples:
+    - en: Don't be afraid to negotiate your salary before you sign.
+      vi: Đừng ngại thương lượng lương trước khi ký.
+- slug: t22-extend-a-deadline-phr
+  lemma: extend a deadline
+  pos: phrase
+  kind: phrase
+  cefr: B2
+  topic: communication
+  ipa: /ɪkˌstend ə ˈdedlaɪn/
+  def: To give more time to finish a piece of work.
+  vi: gia hạn hạn chót
+  forms:
+    - extend the deadline
+    - extended the deadline
+    - extending the deadline
+    - deadline extension
+  examples:
+    - en: The client agreed to extend the deadline by one week.
+      vi: Khách hàng đồng ý gia hạn hạn chót thêm một tuần.
+- slug: t22-push-back-pv
+  lemma: push back
+  pos: phrasal_verb
+  kind: phrasal
+  cefr: B2
+  topic: communication
+  ipa: /pʊʃ ˈbæk/
+  def: To resist or argue against a request or plan.
+  vi: phản đối, đẩy lại
+  examples:
+    - en: Don't be afraid to push back if the estimate is unrealistic.
+      vi: Đừng ngại phản đối nếu ước lượng không thực tế.
+- slug: t22-capacity-n
+  lemma: capacity
+  pos: noun
+  cefr: B2
+  topic: communication
+  ipa: /kəˈpæsəti/
+  def: The amount of work a team is able to do.
+  vi: năng lực, công suất
+  examples:
+    - en: The team will have less capacity during the handover.
+      vi: Trong lúc bàn giao, nhóm sẽ có ít năng lực xử lý hơn.
+- slug: t22-workload-n
+  lemma: workload
+  pos: noun
+  cefr: B1
+  topic: communication
+  ipa: /ˈwɜːkləʊd/
+  def: The amount of work a person or team has to do.
+  vi: khối lượng công việc
+  forms:
+    - workloads
+  examples:
+    - en: My workload is heavy this sprint, so I can't take new tickets.
+      vi: Sprint này khối lượng việc của mình nặng nên mình không nhận thêm ticket
+        được.
+- slug: t22-overlap-v
+  lemma: overlap
+  pos: verb
+  cefr: B2
+  topic: communication
+  ipa: /ˌəʊvəˈlæp/
+  def: To cover some of the same area as something else.
+  vi: chồng chéo
+  examples:
+    - en: Our two roles overlap, so let's split the work clearly.
+      vi: Vai trò của hai đứa mình bị chồng chéo, nên mình chia việc rõ ra nhé.
+- slug: t22-reassign-v
+  lemma: reassign
+  pos: verb
+  cefr: B2
+  topic: communication
+  ipa: /ˌriːəˈsaɪn/
+  def: To give a task to a different person.
+  vi: giao lại
+  examples:
+    - en: I've reassigned your tickets to Lan.
+      vi: Mình đã giao lại các ticket của bạn cho Lan.
+- slug: t22-accommodate-v
+  lemma: accommodate
+  pos: verb
+  cefr: C1
+  topic: communication
+  ipa: /əˈkɒmədeɪt/
+  def: To change plans so that they suit someone's needs.
+  vi: đáp ứng, tạo điều kiện
+  examples:
+    - en: We can accommodate a later start during Ramadan.
+      vi: Tụi mình có thể tạo điều kiện bắt đầu muộn hơn trong tháng Ramadan.
+- slug: t22-arrangement-n
+  lemma: arrangement
+  pos: noun
+  cefr: B1
+  topic: communication
+  ipa: /əˈreɪndʒmənt/
+  def: A plan that people have agreed about how something will happen.
+  vi: sự sắp xếp
+  examples:
+    - en: Let's review this arrangement after one month.
+      vi: Mình xem lại cách sắp xếp này sau một tháng nhé.
+- slug: t22-commitment-n
+  lemma: commitment
+  pos: noun
+  cefr: B1
+  topic: communication
+  ipa: /kəˈmɪtmənt/
+  def: Something you have promised to do that takes your time.
+  vi: việc đã cam kết, trách nhiệm
+  examples:
+    - en: I have a family commitment on Thursday evening.
+      vi: Tối thứ Năm mình có việc gia đình.
+- slug: t22-contingency-n
+  lemma: contingency
+  pos: noun
+  cefr: C1
+  topic: communication
+  ipa: /kənˈtɪndʒənsi/
+  def: A plan for something bad that might happen.
+  vi: phương án dự phòng
+  examples:
+    - en: Our contingency is to keep Huy on call for two weeks.
+      vi: Phương án dự phòng là giữ Huy trực thêm hai tuần.
+- slug: t22-recap-v
+  lemma: recap
+  pos: verb
+  cefr: C1
+  topic: communication
+  ipa: /ˈriːkæp/
+  def: To repeat the main points of something briefly.
+  vi: tóm tắt lại
+  examples:
+    - en: "Let me recap: three owners, two risks, one deadline."
+      vi: "Để mình tóm tắt lại: ba người phụ trách, hai rủi ro, một hạn chót."
+- slug: t22-summary-n
+  lemma: summary
+  pos: noun
+  cefr: B1
+  topic: communication
+  ipa: /ˈsʌməri/
+  def: A short text that gives only the main points.
+  vi: bản tóm tắt
+  examples:
+    - en: Start your notes with a three-line summary.
+      vi: Mở đầu ghi chú bằng bản tóm tắt ba dòng.
+- slug: t22-decision-record-n
+  lemma: decision record
+  pos: noun
+  kind: collocation
+  cefr: B2
+  topic: communication
+  ipa: /dɪˈsɪʒn ˈrekɔːd/
+  def: A short document that explains a decision and why it was made.
+  vi: bản ghi quyết định
+  examples:
+    - en: Link the decision record in the README so new people find it.
+      vi: Hãy dẫn link bản ghi quyết định trong README để người mới tìm thấy.
+- slug: t22-action-item-n
+  lemma: action item
+  pos: noun
+  kind: collocation
+  cefr: B1
+  topic: communication
+  ipa: /ˈækʃn ˌaɪtəm/
+  def: A task that someone must do after a meeting.
+  vi: việc cần làm
+  examples:
+    - en: Each action item needs an owner and a due date.
+      vi: Mỗi việc cần làm cần có người phụ trách và hạn chót.
+- slug: t22-owner-n
+  lemma: owner
+  pos: noun
+  cefr: A2
+  topic: communication
+  ipa: /ˈəʊnə/
+  def: The person or team responsible for something.
+  vi: người phụ trách, chủ sở hữu
+  examples:
+    - en: Who is the owner of the search service?
+      vi: Ai là người phụ trách dịch vụ tìm kiếm?
+- slug: t22-responsible-for-phr
+  lemma: responsible for
+  pos: phrase
+  kind: phrase
+  cefr: B1
+  topic: communication
+  ipa: /rɪˈspɒnsəbl fɔː/
+  def: Having the duty to deal with something.
+  vi: chịu trách nhiệm về
+  examples:
+    - en: Our team is responsible for the login flow.
+      vi: Nhóm mình chịu trách nhiệm về luồng đăng nhập.
+- slug: t22-approver-n
+  lemma: approver
+  pos: noun
+  cefr: B2
+  topic: communication
+  ipa: /əˈpruːvə/
+  def: A person who has the right to approve something.
+  vi: người phê duyệt
+  examples:
+    - en: Add someone from the data team as an approver.
+      vi: Hãy thêm một người bên nhóm dữ liệu làm người phê duyệt.
+- slug: t22-sign-off-n
+  lemma: sign-off
+  pos: noun
+  cefr: B2
+  topic: communication
+  ipa: /ˈsaɪn ɒf/
+  def: Final permission from a responsible person before work goes ahead.
+  vi: sự chấp thuận cuối cùng
+  examples:
+    - en: We need sign-off from security before the release.
+      vi: Nhóm cần security chấp thuận cuối trước khi release.
+- slug: t22-next-step-n
+  lemma: next step
+  pos: noun
+  kind: collocation
+  cefr: B1
+  topic: communication
+  ipa: /ˌnekst ˈstep/
+  def: The thing you will do after what you have just done.
+  vi: bước tiếp theo
+  examples:
+    - en: As a next step, could we schedule a short call?
+      vi: Bước tiếp theo, mình hẹn một cuộc gọi ngắn được không?
+- slug: t22-due-date-n
+  lemma: due date
+  pos: noun
+  kind: collocation
+  cefr: B1
+  topic: communication
+  ipa: /ˈdjuː deɪt/
+  def: The last day on which you should pay.
+  vi: hạn thanh toán
+  examples:
+    - en: The due date is thirty days after the invoice date.
+      vi: Hạn thanh toán là ba mươi ngày sau ngày xuất hoá đơn.
+- slug: t22-status-n
+  lemma: status
+  pos: noun
+  cefr: B1
+  topic: communication
+  ipa: /ˈsteɪtəs/
+  def: The current state of something, for example draft or accepted.
+  vi: trạng thái
+  examples:
+    - en: The status of this record is 'proposed' until Thursday.
+      vi: Trạng thái của bản ghi này là 'đề xuất' cho đến thứ Năm.
+- slug: t22-pending-adj
+  lemma: pending
+  pos: adjective
+  cefr: B2
+  topic: communication
+  ipa: /ˈpendɪŋ/
+  def: Waiting for a decision or action.
+  vi: đang chờ xử lý
+  examples:
+    - en: The pull request is still pending review from the lead.
+      vi: Pull request vẫn đang chờ trưởng nhóm review.
+- slug: t22-accepted-adj
+  lemma: accepted
+  pos: adjective
+  cefr: B1
+  topic: communication
+  ipa: /əkˈseptɪd/
+  def: Agreed and approved by the group.
+  vi: đã được chấp nhận
+  examples:
+    - en: Once the record is accepted, we start the migration.
+      vi: Khi bản ghi được chấp nhận, nhóm bắt đầu chuyển đổi.
+- lemma: rejected
+  pos: adjective
+  vi: bị từ chối
+  def: Not accepted after review or evaluation.
+  examples:
+    - en: Mark the proposal rejected and record the reason.
+  slug: t22-rejected-adj
+  topic: communication
+  cefr: B1
+- slug: t22-supersede-v
+  lemma: supersede
+  pos: verb
+  cefr: C1
+  topic: communication
+  ipa: /ˌsuːpəˈsiːd/
+  def: To replace an older thing with a newer one.
+  vi: thay thế (cái cũ)
+  examples:
+    - en: This record supersedes the one about REST pagination.
+      vi: Bản ghi này thay thế bản ghi về phân trang REST.
+- slug: t22-document-v
+  lemma: document
+  pos: verb
+  cefr: B1
+  topic: communication
+  ipa: /ˈdɒkjument/
+  def: To write down information so it can be used later.
+  vi: ghi lại thành tài liệu
+  examples:
+    - en: Please document why we turned off retries.
+      vi: Hãy ghi lại vì sao nhóm tắt cơ chế thử lại.
+- slug: t22-minutes-n
+  lemma: minutes
+  pos: noun
+  cefr: B2
+  topic: communication
+  ipa: /ˈmɪnɪts/
+  def: A written record of what people said and decided in a meeting.
+  vi: biên bản cuộc họp
+  forms:
+    - meeting minutes
+    - take minutes
+    - took the minutes
+  note: 'Cụm hay dùng: "take (the) minutes" = ghi biên bản.'
+  examples:
+    - en: Hoa will take the minutes and send them to everyone.
+      vi: Hoa sẽ ghi biên bản và gửi cho mọi người.
+- slug: t22-circulate-v
+  lemma: circulate
+  pos: verb
+  cefr: C1
+  topic: communication
+  ipa: /ˈsɜːkjəleɪt/
+  def: To send a document to a group of people.
+  vi: gửi lan truyền, phân phát
+  examples:
+    - en: Please circulate the report before Monday.
+      vi: Vui lòng gửi báo cáo cho mọi người trước thứ Hai.
+- slug: t22-attach-v
+  lemma: attach
+  pos: verb
+  cefr: B1
+  topic: communication
+  ipa: /əˈtætʃ/
+  def: To add a file to an email or message.
+  vi: đính kèm
+  examples:
+    - en: I've attached the photos from the event.
+      vi: Mình đã đính kèm ảnh của sự kiện.
+- slug: t22-reference-n
+  lemma: reference
+  pos: noun
+  cefr: B1
+  topic: communication
+  ipa: /ˈrefrəns/
+  def: A mention of a source that gives more information.
+  vi: tài liệu tham khảo
+  examples:
+    - en: Put the references at the end of the document.
+      vi: Đặt tài liệu tham khảo ở cuối văn bản.
+- slug: t22-link-to-phr
+  lemma: link to
+  pos: phrase
+  kind: phrase
+  cefr: B1
+  topic: communication
+  ipa: /ˈlɪŋk tə/
+  def: To connect one page or item to another so people can open it.
+  vi: liên kết tới
+  examples:
+    - en: Please link to the design doc in the description.
+      vi: Hãy liên kết tới tài liệu thiết kế trong phần mô tả.
+- slug: t22-effective-from-phr
+  lemma: effective from
+  pos: phrase
+  kind: phrase
+  cefr: C1
+  topic: communication
+  ipa: /ɪˈfektɪv frəm/
+  def: Starting to be official on a certain date.
+  vi: có hiệu lực từ
+  examples:
+    - en: The new on-call rota is effective from 1 May.
+      vi: Lịch trực mới có hiệu lực từ ngày 1 tháng 5.
+- slug: t22-follow-up-email-n
+  lemma: follow-up email
+  pos: noun
+  kind: collocation
+  cefr: B1
+  topic: communication
+  ipa: /ˈfɒləʊ ʌp iːmeɪl/
+  def: A second email sent after the first to remind or update people.
+  vi: email nhắc lại
+  examples:
+    - en: Send a follow-up email one week before the deadline.
+      vi: Gửi email nhắc lại một tuần trước hạn chót.
+- slug: t22-check-in-pv
+  lemma: check in
+  pos: phrasal_verb
+  kind: phrasal
+  cefr: B1
+  topic: communication
+  ipa: /ˌtʃek ˈɪn/
+  def: To talk to someone briefly to see how they are.
+  vi: hỏi thăm
+  examples:
+    - en: I just wanted to check in. How are things going?
+      vi: Mình chỉ muốn hỏi thăm chút. Mọi chuyện thế nào rồi?
+- slug: t22-review-date-n
+  lemma: review date
+  pos: noun
+  kind: collocation
+  cefr: B1
+  topic: communication
+  ipa: /rɪˈvjuː deɪt/
+  def: A planned date to check a decision again.
+  vi: ngày xem xét lại
+  examples:
+    - en: Set a review date three months from now.
+      vi: Hãy đặt ngày xem xét lại sau ba tháng nữa.
+- lemma: confirm receipt
+  pos: phrase
+  vi: xác nhận đã nhận
+  def: To acknowledge that a message or document arrived.
+  examples:
+    - en: Please confirm receipt of the revised handover notes.
+  slug: t22-confirm-receipt-phr
+  topic: communication
+  cefr: B1
+  kind: phrase
+- slug: t22-keep-someone-posted-phr
+  lemma: keep someone posted
+  pos: phrase
+  kind: phrase
+  cefr: B2
+  topic: communication
+  ipa: /kiːp ˈsʌmwʌn ˈpəʊstɪd/
+  def: To keep telling someone the latest news.
+  vi: cập nhật thường xuyên cho ai
+  examples:
+    - en: I'll keep you posted until the fix is live.
+      vi: Mình sẽ cập nhật cho bạn đến khi bản sửa chạy thật.
+- slug: t22-hand-over-v
+  lemma: hand over
+  pos: verb
+  kind: phrasal
+  cefr: B1
+  topic: communication
+  ipa: /ˌhænd ˈəʊvə/
+  def: To give your work or duties to another person.
+  vi: bàn giao
+  examples:
+    - en: Please hand over the open tickets before you leave.
+      vi: Hãy bàn giao các ticket đang mở trước khi bạn đi.
+- slug: t22-agenda-n
+  lemma: agenda
+  pos: noun
+  cefr: B2
+  topic: communication
+  ipa: /əˈdʒendə/
+  def: A list of things that will happen or be discussed at an event.
+  vi: chương trình, lịch trình
+  examples:
+    - en: The agenda has two talks and a Q&A.
+      vi: Chương trình gồm hai bài nói và phần hỏi đáp.
+- lemma: facilitate
+  pos: verb
+  vi: điều phối cuộc trao đổi
+  def: To help a group discuss and make progress.
+  examples:
+    - en: Can you facilitate the discussion while I take notes?
+  slug: t22-facilitate-v
+  topic: communication
+  cefr: B1
+- slug: t22-chair-a-meeting-phr
+  lemma: chair a meeting
+  pos: phrase
+  kind: phrase
+  cefr: B2
+  topic: communication
+  ipa: /ˌtʃeər ə ˈmiːtɪŋ/
+  def: To lead a meeting and control how the discussion goes.
+  vi: chủ trì cuộc họp
+  forms:
+    - chairs a meeting
+    - chaired the meeting
+    - chairing the meeting
+    - chair the meeting
+  examples:
+    - en: Lan will chair the meeting while the manager is away.
+      vi: Lan sẽ chủ trì cuộc họp khi quản lý đi vắng.
+- slug: t22-attendee-n
+  lemma: attendee
+  pos: noun
+  cefr: B2
+  topic: communication
+  ipa: /əˌtenˈdiː/
+  def: A person who goes to a meeting or event.
+  vi: người tham dự
+  forms:
+    - attendees
+    - attend
+    - attended
+  examples:
+    - en: Each attendee will get the slides after the session.
+      vi: Mỗi người tham dự sẽ nhận được slide sau buổi họp.
+- slug: t22-introduce-v
+  lemma: introduce
+  pos: verb
+  cefr: A2
+  topic: communication
+  ipa: /ˌɪntrəˈdjuːs/
+  def: To tell people each other's names when they meet for the first time.
+  vi: giới thiệu
+  examples:
+    - en: Let me introduce you to Huy, our backend lead.
+      vi: Để mình giới thiệu bạn với Huy, trưởng nhóm backend.
+- slug: t22-icebreaker-n
+  lemma: icebreaker
+  pos: noun
+  cefr: B2
+  topic: communication
+  ipa: /ˈaɪsbreɪkə(r)/
+  def: A short activity or question that helps people feel relaxed together.
+  vi: câu/trò làm quen
+  examples:
+    - en: "Our icebreaker today is: what was your first computer?"
+      vi: "Câu làm quen hôm nay: máy tính đầu tiên của bạn là gì?"
+- slug: t22-bring-up-pv
+  lemma: bring up
+  pos: phrasal_verb
+  kind: phrasal
+  cefr: B2
+  topic: communication
+  ipa: /ˌbrɪŋ ˈʌp/
+  def: To start talking about a subject in a discussion.
+  vi: nêu ra, đề cập (một vấn đề)
+  forms:
+    - brings up
+    - brought up
+    - bringing up
+  examples:
+    - en: I'll bring up the testing problem at tomorrow's meeting.
+      vi: Mình sẽ nêu vấn đề kiểm thử trong cuộc họp ngày mai.
+- slug: t22-make-a-point-phr
+  lemma: make a point
+  pos: phrase
+  kind: phrase
+  cefr: B2
+  topic: communication
+  ipa: /ˌmeɪk ə ˈpɔɪnt/
+  def: To say an idea or opinion clearly in a discussion.
+  vi: đưa ra ý kiến, nêu luận điểm
+  forms:
+    - made a point
+    - making a point
+    - makes a point
+    - made a good point
+  examples:
+    - en: Tuan made a good point about the cost of the cloud servers.
+      vi: Tuấn đã nêu một ý hay về chi phí server cloud.
+- slug: t22-interrupt-v
+  lemma: interrupt
+  pos: verb
+  cefr: B1
+  topic: communication
+  ipa: /ˌɪntəˈrʌpt/
+  def: To stop someone while they are speaking or working.
+  vi: ngắt lời, làm gián đoạn
+  forms:
+    - interrupts
+    - interrupted
+    - interrupting
+    - interruption
+  examples:
+    - en: Sorry to interrupt, but the client is on the line.
+      vi: Xin lỗi vì ngắt lời, nhưng khách hàng đang chờ máy.
+- lemma: take turns
+  pos: phrase
+  vi: lần lượt thay nhau
+  def: To act one after another rather than at the same time.
+  examples:
+    - en: Let's take turns explaining the options.
+  slug: t22-take-turns-phr
+  topic: communication
+  cefr: B1
+  kind: phrase
+- lemma: clarification
+  pos: noun
+  vi: lời giải thích làm rõ
+  def: An explanation that removes confusion.
+  examples:
+    - en: Ask for clarification before estimating the task.
+  slug: t22-clarification-n
+  topic: communication
+  cefr: B1
+- slug: t22-open-question-n
+  lemma: open question
+  pos: noun
+  kind: collocation
+  cefr: B2
+  topic: communication
+  ipa: /ˌəʊpən ˈkwestʃən/
+  def: A question that has not been answered or decided yet.
+  vi: câu hỏi còn bỏ ngỏ
+  examples:
+    - en: "Open question: do we need to support IE?"
+      vi: "Câu hỏi còn bỏ ngỏ: có cần hỗ trợ IE không?"
+- lemma: leading question
+  pos: noun
+  vi: câu hỏi dẫn dắt câu trả lời
+  def: A question that suggests the answer the speaker expects.
+  examples:
+    - en: Avoid a leading question when interviewing a customer.
+  slug: t22-leading-question-n
+  topic: communication
+  cefr: B1
+  kind: collocation
+- slug: t22-brainstorm-v
+  lemma: brainstorm
+  pos: verb
+  cefr: B2
+  topic: communication
+  ipa: /ˈbreɪnstɔːm/
+  def: To share many ideas quickly in a group, before choosing the best ones.
+  vi: động não, cùng nghĩ ý tưởng
+  forms:
+    - brainstorms
+    - brainstormed
+    - brainstorming
+  examples:
+    - en: Let's brainstorm names for the new feature before lunch.
+      vi: Mình cùng nghĩ tên cho tính năng mới trước giờ ăn trưa nhé.
+- slug: t22-working-theory-n
+  lemma: working theory
+  pos: noun
+  kind: collocation
+  cefr: C1
+  topic: communication
+  ipa: /ˈwɜːkɪŋ ˈθɪəri/
+  def: The idea you are using for now to explain a problem, until you test it.
+  vi: giả thuyết tạm thời
+  examples:
+    - en: My working theory is that the cache returns old data.
+      vi: Giả thuyết tạm thời của mình là cache trả về dữ liệu cũ.
+- slug: t22-hypothesis-n
+  lemma: hypothesis
+  pos: noun
+  cefr: C1
+  topic: communication
+  ipa: /haɪˈpɒθəsɪs/
+  def: An idea that you plan to test.
+  vi: giả thuyết
+  examples:
+    - en: Our hypothesis is that smaller images won't hurt sales.
+      vi: Giả thuyết của mình là ảnh nhỏ hơn không ảnh hưởng doanh số.
+- slug: t22-experiment-n
+  lemma: experiment
+  pos: noun
+  cefr: B1
+  topic: communication
+  ipa: /ɪkˈsperɪmənt/
+  def: A test done to find out whether an idea works.
+  vi: thử nghiệm
+  examples:
+    - en: Let's run an experiment with dark mode as default.
+      vi: Mình hãy chạy thử nghiệm với chế độ tối làm mặc định.
+- slug: t22-success-criteria-n
+  lemma: success criteria
+  pos: noun
+  kind: collocation
+  cefr: B2
+  topic: communication
+  ipa: /səkˈses kraɪˈtɪəriə/
+  def: The conditions that show a change has worked.
+  vi: tiêu chí thành công
+  examples:
+    - en: The success criteria are fewer rollbacks and faster reviews.
+      vi: Tiêu chí thành công là ít rollback hơn và review nhanh hơn.
+- slug: t22-resolve-v
+  lemma: resolve
+  pos: verb
+  cefr: B2
+  topic: communication
+  ipa: /rɪˈzɒlv/
+  def: To find a solution to a problem or disagreement.
+  vi: giải quyết
+  examples:
+    - en: We resolved the issue over a coffee.
+      vi: Tụi mình giải quyết chuyện đó qua một ly cà phê.
+- slug: t22-deadlock-n
+  lemma: deadlock
+  pos: noun
+  cefr: C1
+  topic: communication
+  ipa: /ˈdedlɒk/
+  def: A situation where people cannot agree and nothing moves forward.
+  vi: bế tắc
+  examples:
+    - en: The architect broke the deadlock by choosing the simpler design.
+      vi: Kiến trúc sư phá thế bế tắc bằng cách chọn thiết kế đơn giản hơn.
+- slug: t22-escalate-v
+  lemma: escalate
+  pos: verb
+  cefr: B2
+  topic: communication
+  ipa: /ˈeskəleɪt/
+  def: To pass a problem to someone with more authority.
+  vi: chuyển lên cấp cao hơn
+  examples:
+    - en: If the vendor doesn't reply by noon, escalate it to the manager.
+      vi: Nếu nhà cung cấp không trả lời trước trưa, hãy chuyển lên quản lý.
+- slug: t22-de-escalate-v
+  lemma: de-escalate
+  pos: verb
+  cefr: C1
+  topic: communication
+  ipa: /ˌdiː ˈeskəleɪt/
+  def: To make a tense situation calmer.
+  vi: làm dịu (căng thẳng)
+  examples:
+    - en: The moderator stepped in to de-escalate the argument.
+      vi: Người điều phối can thiệp để làm dịu cuộc tranh cãi.
+- slug: t22-align-v
+  lemma: align
+  pos: verb
+  cefr: B2
+  topic: communication
+  ipa: /əˈlaɪn/
+  def: To agree and work towards the same goal.
+  vi: thống nhất, đồng bộ
+  examples:
+    - en: Let's align with the design team before the demo.
+      vi: Hãy thống nhất với nhóm thiết kế trước buổi demo.
+- slug: t22-consensus-n
+  lemma: consensus
+  pos: noun
+  cefr: C1
+  topic: communication
+  ipa: /kənˈsensəs/
+  def: General agreement among everyone in a group.
+  vi: sự đồng thuận
+  examples:
+    - en: We reached consensus on using one monorepo.
+      vi: Nhóm đã đạt đồng thuận về việc dùng một monorepo.
+- slug: t22-unanimous-adj
+  lemma: unanimous
+  pos: adjective
+  cefr: C1
+  topic: communication
+  ipa: /juˈnænɪməs/
+  def: Agreed by everyone in a group.
+  vi: nhất trí hoàn toàn
+  examples:
+    - en: "The vote was unanimous: we drop support for IE."
+      vi: "Cuộc bỏ phiếu nhất trí hoàn toàn: bỏ hỗ trợ IE."
+- slug: t22-vote-v
+  lemma: vote
+  pos: verb
+  cefr: A2
+  topic: communication
+  ipa: /vəʊt/
+  def: To show your choice, for example by raising your hand.
+  vi: bỏ phiếu
+  examples:
+    - en: Let's vote on the sprint length.
+      vi: Hãy bỏ phiếu về độ dài sprint.
+- lemma: timebox
+  pos: verb
+  vi: giới hạn thời gian cho tác vụ
+  def: To set a fixed amount of time for an activity.
+  examples:
+    - en: Timebox the investigation before deciding on the next experiment.
+  slug: t22-timebox-v
+  topic: communication
+  cefr: B1
+- lemma: parking lot
+  pos: noun
+  vi: danh sách ý để bàn sau cuộc họp
+  def: A list of topics set aside for later discussion.
+  examples:
+    - en: Put the unrelated tooling question in the parking lot.
+  slug: t22-parking-lot-n
+  topic: communication
+  cefr: B1
+  kind: collocation
+- slug: t22-run-over-pv
+  lemma: run over
+  pos: phrasal_verb
+  kind: phrasal
+  cefr: B2
+  topic: communication
+  ipa: /ˌrʌn ˈəʊvə/
+  def: To continue for longer than the planned time.
+  vi: kéo dài quá giờ
+  forms:
+    - runs over
+    - ran over
+    - running over
+  examples:
+    - en: Sorry, the last meeting ran over, so I'm a bit late.
+      vi: Xin lỗi, cuộc họp trước kéo dài quá giờ nên mình đến hơi muộn.
+- slug: t22-wrap-up-pv
+  lemma: wrap up
+  pos: phrasal_verb
+  kind: phrasal
+  cefr: B2
+  topic: communication
+  ipa: /ˌræp ˈʌp/
+  def: To finish a task, meeting or project.
+  vi: kết thúc, hoàn tất
+  forms:
+    - wraps up
+    - wrapped up
+    - wrapping up
+  examples:
+    - en: Let's wrap up this sprint and start planning the next one.
+      vi: Mình kết thúc sprint này rồi bắt đầu lên kế hoạch cho sprint sau nhé.
+- slug: t22-touch-base-phr
+  lemma: touch base
+  pos: phrase
+  kind: phrase
+  cefr: C1
+  topic: communication
+  ipa: /ˌtʌtʃ ˈbeɪs/
+  def: To talk briefly with someone to check how things are going.
+  vi: trao đổi nhanh để nắm tình hình
+  forms:
+    - touched base
+    - touching base
+    - touch base with
+  examples:
+    - en: Let's touch base on Friday to see if the bug is fixed.
+      vi: Thứ Sáu mình trao đổi nhanh xem bug đã sửa xong chưa nhé.
+- slug: t22-loop-in-pv
+  lemma: loop in
+  pos: phrasal_verb
+  kind: phrasal
+  cefr: C1
+  topic: communication
+  ipa: /ˌluːp ˈɪn/
+  def: To include someone in a conversation or email so they know what is happening.
+  vi: kéo (ai) vào cuộc trao đổi để nắm thông tin
+  forms:
+    - loops in
+    - looped in
+    - looping in
+    - keep in the loop
+  examples:
+    - en: I've looped in Duc from the security team.
+      vi: Mình đã kéo anh Đức bên team bảo mật vào cuộc trao đổi.
+- slug: t22-on-behalf-of-phr
+  lemma: on behalf of
+  pos: phrase
+  kind: phrase
+  cefr: B2
+  topic: communication
+  ipa: /ɒn bɪˈhɑːf əv/
+  def: Instead of someone, or as their representative.
+  vi: thay mặt cho
+  examples:
+    - en: I'm writing on behalf of the whole engineering team.
+      vi: Tôi viết thư này thay mặt cho toàn bộ đội kỹ thuật.
+- slug: t22-thank-you-note-n
+  lemma: thank-you note
+  pos: noun
+  kind: collocation
+  cefr: B1
+  topic: communication
+  ipa: /ˈθæŋk juː nəʊt/
+  def: A short message to thank someone.
+  vi: lời nhắn cảm ơn
+  examples:
+    - en: Send a thank-you note to the host within a day.
+      vi: Gửi lời nhắn cảm ơn chủ nhà trong vòng một ngày.
+- slug: t22-appreciate-v
+  lemma: appreciate
+  pos: verb
+  cefr: B1
+  topic: communication
+  ipa: /əˈpriːʃieɪt/
+  def: To be thankful for something someone did.
+  vi: trân trọng, cảm kích
+  examples:
+    - en: I really appreciate you taking the time to review this.
+      vi: Em rất cảm kích vì anh đã dành thời gian review.
+- slug: t22-goodwill-n
+  lemma: goodwill
+  pos: noun
+  cefr: C1
+  topic: communication
+  ipa: /ˌɡʊdˈwɪl/
+  def: Friendly feelings and trust between people.
+  vi: thiện chí
+  examples:
+    - en: Assume goodwill; everyone wants the project to succeed.
+      vi: Hãy tin vào thiện chí; ai cũng muốn dự án thành công.

@@ -4,10 +4,289 @@ sort: 10
 code: T10
 kind: topic
 cefr: B2
-status: draft
-title: { en: "Environment & Climate", vi: "Môi trường & khí hậu" }
-summary_vi: "Từ vựng về ô nhiễm, biến đổi khí hậu, rác thải, tái chế và lối sống xanh."
+status: published
+title:
+  en: Sustainable Software & Climate Products
+  vi: Phần mềm bền vững & sản phẩm khí hậu
+summary_vi: Trao đổi về tác động môi trường bằng ngôn ngữ kỹ thuật có giới hạn
+  rõ ràng. Liên hệ truyền tải dữ liệu, lưu trữ, vòng đời thiết bị và sản phẩm đo
+  lường khí hậu.
 can_do:
-  - "Nói về các vấn đề môi trường ở thành phố mình"
-  - "Đề xuất cách giảm rác thải và sống bền vững hơn"
-lessons: []
+  - Mô tả tác động và giới hạn của một chỉ số môi trường
+  - Đề xuất cải tiến phần mềm có cân nhắc tài nguyên
+lessons:
+  - slug: t10-l1
+    kind: vocab
+    title:
+      { en: "Set 1: Environmental product requirements", vi: "Bộ 1: Yêu cầu sản phẩm môi trường" }
+    senses:
+      [
+        climate-product-n,
+        climate-n,
+        pollution-n,
+        measure-v,
+        target-user-n-environment,
+        waste-n,
+        recycle-v,
+        green-adj,
+        requirement-env-n,
+        stakeholder-env-n,
+      ]
+    questions: []
+  - slug: t10-l2
+    kind: vocab
+    title: { en: "Set 2: Energy & software use", vi: "Bộ 2: Năng lượng & sử dụng phần mềm" }
+    senses:
+      [
+        energy-n,
+        electricity-n,
+        battery-n,
+        consume-v,
+        processor-n,
+        idle-adj,
+        background-task-n,
+        power-hungry-adj,
+        data-centre-n,
+        cooling-n,
+        workload-env-n,
+        renewable-adj,
+      ]
+    questions: []
+  - slug: t10-l3
+    kind: vocab
+    title: { en: "Set 3: Storage & retention", vi: "Bộ 3: Lưu trữ & thời hạn giữ dữ liệu" }
+    senses:
+      [
+        store-data-v,
+        delete-v,
+        keep-v,
+        snapshot-n,
+        duplicate-n,
+        retention-period-n,
+        archive-v,
+        expire-v,
+        purge-v,
+        cold-storage-n,
+        compress-v,
+        legal-obligation-n,
+        storage-footprint-n,
+        justify-v-environment,
+      ]
+    questions: []
+  - slug: t10-l4
+    kind: vocab
+    title:
+      {
+        en: "Set 4: Data transfer & efficient delivery",
+        vi: "Bộ 4: Truyền dữ liệu & phân phối hiệu quả",
+      }
+    senses:
+      [
+        load-time-n,
+        page-weight-n,
+        image-n,
+        data-cap-n,
+        cache-v,
+        lazy-load-v,
+        format-n,
+        request-n,
+        throttle-v,
+        edge-server-n,
+        payload-n,
+        minify-v,
+        polling-n,
+        autoplay-n,
+        resolution-n,
+        on-demand-adj,
+      ]
+    questions: []
+  - slug: t10-l5
+    kind: vocab
+    title: { en: "Set 5: Device lifecycles", vi: "Bộ 5: Vòng đời thiết bị" }
+    senses:
+      [
+        handset-n,
+        repair-v,
+        swap-out-phr,
+        retrofit-v,
+        second-hand-adj,
+        lifespan-n,
+        landfill-n,
+        spare-part-n,
+        refurbished-adj,
+        end-of-life-adj,
+        backward-compatible-adj,
+        dispose-of-phr,
+        wipe-v,
+        donate-v,
+        manufacture-v,
+        raw-material-n,
+        warranty-n,
+        modular-adj,
+      ]
+    questions: []
+  - slug: t10-l6
+    kind: vocab
+    title: { en: "Set 6: Emissions & measurement", vi: "Bộ 6: Phát thải & đo lường" }
+    senses:
+      [
+        emission-n,
+        carbon-n,
+        estimate-n,
+        direct-measurement-n,
+        sensor-n,
+        reading-n,
+        emission-factor-n,
+        baseline-env-n,
+        greenhouse-gas-n,
+        methodology-n,
+        kilowatt-hour-n,
+        approximate-adj,
+        calibrate-v,
+        offset-n,
+        scope-env-n,
+        attribute-v,
+        proxy-env-n,
+        granularity-n,
+        verify-env-v,
+        per-unit-adj,
+      ]
+    questions: []
+  - slug: t10-l7
+    kind: vocab
+    title: { en: "Set 7: Environmental dashboards", vi: "Bộ 7: Dashboard môi trường" }
+    senses:
+      [
+        dashboard-env-n,
+        chart-n,
+        unit-measure-n,
+        axis-n,
+        legend-n,
+        time-range-n,
+        refresh-rate-n,
+        trend-n,
+        spike-n,
+        filter-v,
+        stacked-bar-n,
+        cumulative-adj,
+        year-over-year-adj,
+        tooltip-n,
+        data-source-n,
+        freshness-n,
+        gridline-n,
+        callout-n,
+        normalise-v,
+        skewed-adj,
+        threshold-env-n,
+        drill-down-v,
+      ]
+    questions: []
+  - slug: t10-l8
+    kind: vocab
+    title: { en: "Set 8: Trade-offs & rebound effects", vi: "Bộ 8: Đánh đổi & tác động phát sinh" }
+    senses:
+      [
+        trade-off-env-n,
+        rebound-effect-n,
+        knock-on-effect-n-environment,
+        efficient-adj,
+        outweigh-v,
+        shift-v,
+        increase-v,
+        overall-adj,
+        unintended-adj,
+        middle-ground-n,
+        marginal-adj,
+        net-adj,
+        offset-v,
+        counterproductive-adj,
+        demand-env-n,
+        favour-v,
+        in-the-long-run-phr,
+        weigh-up-phr,
+        diminishing-returns-n,
+        hidden-cost-n,
+        in-exchange-for-phr,
+        carbon-aware-adj,
+        peak-hours-n,
+        holistic-adj,
+      ]
+    questions: []
+  - slug: t10-l9
+    kind: vocab
+    title: { en: "Set 9: Communicating uncertainty", vi: "Bộ 9: Truyền đạt độ bất định" }
+    senses:
+      [
+        uncertain-adj,
+        premise-n,
+        confidence-level-n,
+        likely-adj,
+        roughly-adv,
+        range-env-n,
+        margin-of-error-n,
+        disclaimer-n,
+        suggest-env-v,
+        indicate-v,
+        preliminary-adj,
+        overstate-v,
+        assertion-n,
+        greenwashing-n,
+        evidence-env-n,
+        sample-size-n,
+        as-far-as-we-know-phr,
+        subject-to-change-phr,
+        conservative-adj,
+        plausible-adj,
+        blind-spot-n-environment,
+        caution-n,
+        unverified-adj,
+        hedge-v,
+        best-guess-n,
+        error-bar-n,
+        probably-adv,
+        speculative-adj,
+      ]
+    questions: []
+  - slug: t10-l10
+    kind: vocab
+    title: { en: "Set 10: A sustainable software proposal", vi: "Bộ 10: Đề xuất phần mềm bền vững" }
+    senses:
+      [
+        proposal-env-n,
+        eco-friendly-adj,
+        experiment-env-n,
+        hypothesis-n,
+        metric-env-n,
+        success-criteria-n,
+        control-group-n,
+        pilot-n,
+        roll-out-phr,
+        reduce-v,
+        impact-env-n,
+        budget-env-n,
+        timeline-env-n,
+        milestone-env-n,
+        rationale-n-environment,
+        achievable-adj,
+        benchmark-env-n,
+        evaluate-v,
+        scale-up-phr,
+        opt-in-adj,
+        default-setting-n,
+        monitor-env-v,
+        revert-v,
+        end-result-n,
+        green-light-n,
+        risk-env-n,
+        de-risk-v,
+        quantify-v,
+        iterate-v,
+        multi-year-adj,
+        pledge-v,
+        answerable-adj,
+        stakeholder-buy-in-n,
+        auditable-adj,
+        follow-up-n-environment,
+        work-package-n,
+      ]
+    questions: []

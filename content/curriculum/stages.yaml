@@ -1,17 +1,22 @@
-# The two study tracks (ForumFlash-style). Grammar: units are CEFR levels, lessons are grammar points
-# (five study screens + a 16-question test; a level can be skipped with its 80% test-out).
-# Vocabulary: units are topics, lessons are word sets (flashcards + a 16-question test).
 - slug: grammar
   sort: 10
   track: grammar
   cefr: A1
-  title: { en: "Grammar by CEFR level", vi: "Ngữ pháp theo bậc CEFR" }
-  tagline_vi: "Từ cấu trúc câu cơ bản đến cách diễn đạt nâng cao"
-  description_vi: "Mỗi bậc gồm các chủ điểm ngữ pháp xếp theo thứ tự. Mỗi bài có phần học năm màn và một bài kiểm tra; làm bài vượt cấp để bỏ qua bậc bạn đã vững."
+  title:
+    en: Developer Grammar
+    vi: Ngữ pháp cho developer
+  tagline_vi: Câu rõ ràng cho stand-up, review và tài liệu kỹ thuật
+  description_vi: Học ngữ pháp từ A1 đến C2 qua tình huống của developer. Giữ nhịp
+    năm phần kiến thức, ví dụ có giải thích và bài kiểm tra; có thể kiểm tra
+    vượt cấp khi đã vững.
 - slug: vocab
   sort: 20
   track: vocab
   cefr: A2
-  title: { en: "Vocabulary by topic", vi: "Từ vựng theo chủ đề" }
-  tagline_vi: "Thẻ lật, phát âm và bài kiểm tra cho từng nhóm từ"
-  description_vi: "Từ, cụm từ và collocation chia theo chủ đề. Mỗi bài gồm một bộ thẻ để học và một bài kiểm tra; từ đã học tự vào sổ ôn tập."
+  title:
+    en: Developer Vocabulary
+    vi: Từ vựng cho developer
+  tagline_vi: 25 chủ đề từ công việc nhóm đến sản phẩm và đời sống developer
+  description_vi: "Học từ và cụm từ qua công việc thật: công cụ, debug, code
+    review, sản phẩm và giao tiếp với đồng nghiệp. Mỗi bộ thẻ đã phát hành có
+    bài kiểm tra và được đưa vào sổ ôn tập."

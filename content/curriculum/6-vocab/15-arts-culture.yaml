@@ -4,10 +4,284 @@ sort: 15
 code: T15
 kind: topic
 cefr: B2
-status: draft
-title: { en: "Arts & Culture", vi: "Nghệ thuật & văn hoá" }
-summary_vi: "Từ vựng về âm nhạc, phim ảnh, triển lãm, lễ hội và phong tục truyền thống."
+status: published
+title:
+  en: Interface Design & Cross-Cultural UX
+  vi: Thiết kế giao diện & trải nghiệm đa văn hoá
+summary_vi: Trao đổi với designer về bố cục, trạng thái giao diện và cách dùng
+  ngôn ngữ. Chú ý khả năng tiếp cận và khác biệt văn hoá khi xây sản phẩm cho
+  nhiều nhóm người dùng.
 can_do:
-  - "Giới thiệu một lễ hội hay phong tục của Việt Nam"
-  - "Nhận xét một bộ phim, cuốn sách hay buổi triển lãm"
-lessons: []
+  - Phản hồi thiết kế bằng nhu cầu người dùng và trạng thái cụ thể
+  - Làm rõ nội dung giao diện và yêu cầu bản địa hoá
+lessons:
+  - slug: t15-l1
+    kind: vocab
+    title:
+      en: "Set 1: Layout & visual hierarchy"
+      vi: "Bộ 1: Bố cục & thứ bậc thị giác"
+    senses:
+      - t15-layout-n
+      - t15-visual-hierarchy-n
+      - t15-wireframe-n
+      - t15-panel-n
+      - t15-heading-n
+      - t15-label-n
+      - t15-button-n
+      - t15-screen-n
+      - t15-navigation-n
+      - t15-emphasis-n
+    questions: []
+  - slug: t15-l2
+    kind: vocab
+    title:
+      en: "Set 2: Colour, type & spacing"
+      vi: "Bộ 2: Màu, chữ & khoảng cách"
+    senses:
+      - t15-colour-n
+      - t15-typography-n
+      - t15-spacing-n
+      - t15-padding-n
+      - t15-margin-n
+      - t15-font-size-n
+      - t15-line-height-n
+      - t15-contrast-n
+      - t15-alignment-n
+      - t15-grid-n
+      - t15-legibility-n
+      - t15-consistent-adj
+    questions: []
+  - slug: t15-l3
+    kind: vocab
+    title:
+      en: "Set 3: Components & design systems"
+      vi: "Bộ 3: Component & hệ thống thiết kế"
+    senses:
+      - t15-component-n
+      - t15-design-system-n
+      - t15-variant-n
+      - t15-reusable-adj
+      - t15-naming-convention-n
+      - t15-style-guide-n
+      - t15-default-n
+      - t15-override-v
+      - t15-property-n
+      - t15-token-n
+      - t15-pattern-n
+      - t15-documentation-n
+      - t15-prototype-n
+      - t15-maintainable-adj
+    questions: []
+  - slug: t15-l4
+    kind: vocab
+    title:
+      en: "Set 4: Interaction states"
+      vi: "Bộ 4: Trạng thái tương tác"
+    senses:
+      - t15-hover-n
+      - t15-focus-n
+      - t15-disabled-adj
+      - t15-selected-adj
+      - t15-pressed-adj
+      - t15-active-adj
+      - t15-interaction-n
+      - t15-feedback-n
+      - t15-toggle-v
+      - t15-dropdown-n
+      - t15-checkbox-n
+      - t15-radio-button-n
+      - t15-cursor-n
+      - t15-transition-n
+      - t15-animation-n
+      - t15-responsive-adj
+    questions: []
+  - slug: t15-l5
+    kind: vocab
+    title:
+      en: "Set 5: Loading, empty & error states"
+      vi: "Bộ 5: Tải, trống & lỗi"
+    senses:
+      - t15-loading-state-n
+      - t15-empty-state-n
+      - t15-error-state-n
+      - t15-placeholder-n
+      - t15-spinner-n
+      - t15-progress-bar-n
+      - t15-retry-v
+      - t15-timeout-n
+      - t15-validation-n
+      - t15-warning-n
+      - t15-success-n
+      - t15-failure-n
+      - t15-pending-adj
+      - t15-no-data-phr
+      - t15-offline-adj
+      - t15-reconnect-v
+      - t15-recover-v
+      - t15-user-friendly-adj
+    questions: []
+  - slug: t15-l6
+    kind: vocab
+    title:
+      en: "Set 6: UX writing"
+      vi: "Bộ 6: Ngôn ngữ giao diện"
+    senses:
+      - t15-ux-writing-n
+      - t15-plain-language-n
+      - t15-call-to-action-n
+      - t15-tooltip-n
+      - t15-helper-text-n
+      - t15-confirmation-n
+      - t15-concise-adj
+      - t15-ambiguous-adj
+      - t15-jargon-n
+      - t15-acronym-n
+      - t15-terminology-n
+      - t15-readability-n
+      - t15-reader-n
+      - t15-end-user-n
+      - t15-tone-n
+      - t15-friendly-adj
+      - t15-conversational-adj
+      - t15-reword-v
+      - t15-proofread-v
+      - t15-typo-n
+    questions: []
+  - slug: t15-l7
+    kind: vocab
+    title:
+      en: "Set 7: Accessibility conversations"
+      vi: "Bộ 7: Trao đổi về khả năng tiếp cận"
+    senses:
+      - t15-accessible-adj
+      - t15-accessibility-n
+      - t15-alt-text-n
+      - t15-screen-reader-n
+      - t15-keyboard-navigation-n
+      - t15-tab-order-n
+      - t15-focus-indicator-n
+      - t15-colour-blindness-n
+      - t15-caption-n
+      - t15-transcript-n
+      - t15-zoom-in-pv
+      - t15-touchscreen-n
+      - t15-target-size-n
+      - t15-semantic-adj
+      - t15-meaningful-adj
+      - t15-assistive-technology-n
+      - t15-shortcut-n
+      - t15-form-field-n
+      - t15-required-adj
+      - t15-optional-adj
+      - t15-visible-adj
+      - t15-hidden-adj
+    questions: []
+  - slug: t15-l8
+    kind: vocab
+    title:
+      en: "Set 8: Localisation & cultural context"
+      vi: "Bộ 8: Bản địa hoá & ngữ cảnh văn hoá"
+    senses:
+      - t15-localisation-n
+      - t15-translation-n
+      - t15-locale-n
+      - t15-time-zone-n
+      - t15-date-format-n
+      - t15-decimal-n
+      - t15-currency-n
+      - t15-right-to-left-adj
+      - t15-text-expansion-n
+      - t15-plural-n
+      - t15-cultural-context-n
+      - t15-symbol-n
+      - t15-icon-n
+      - t15-imagery-n
+      - t15-sensitive-adj
+      - t15-inclusive-adj
+      - t15-respectful-adj
+      - t15-familiar-with-phr
+      - t15-prior-knowledge-n
+      - t15-tailor-v
+      - t15-audience-n
+      - t15-avoid-v
+      - t15-wording-n
+      - t15-spell-out-pv
+    questions: []
+  - slug: t15-l9
+    kind: vocab
+    title:
+      en: "Set 9: Design feedback & handoff"
+      vi: "Bộ 9: Phản hồi & bàn giao thiết kế"
+    senses:
+      - t15-design-review-n
+      - t15-handoff-n
+      - t15-annotate-v
+      - t15-specification-n
+      - t15-acceptance-criteria-n
+      - t15-expected-behaviour-n
+      - t15-actual-result-n
+      - t15-screenshot-n
+      - t15-animated-gif-n
+      - t15-reference-n
+      - t15-before-and-after-phr
+      - t15-comparison-n
+      - t15-outline-n
+      - t15-detail-n
+      - t15-nitpick-n
+      - t15-constructive-adj
+      - t15-recommendation-n
+      - t15-rationale-n
+      - t15-constraint-n
+      - t15-edge-case-n
+      - t15-corner-case-n
+      - t15-test-plan-n
+      - t15-browser-n
+      - t15-device-n
+      - t15-compatibility-n
+      - t15-implementation-n
+      - t15-iteration-n
+      - t15-sign-off-n
+    questions: []
+  - slug: t15-l10
+    kind: vocab
+    title:
+      en: "Set 10: Explaining a UX trade-off"
+      vi: "Bộ 10: Giải thích đánh đổi UX"
+    senses:
+      - t15-trade-off-n
+      - t15-alternative-n
+      - t15-option-n
+      - t15-benefit-n
+      - t15-drawback-n
+      - t15-pros-and-cons-n
+      - t15-user-feedback-n
+      - t15-usability-n
+      - t15-usability-test-n
+      - t15-task-completion-n
+      - t15-discoverability-n
+      - t15-learnability-n
+      - t15-cognitive-load-n
+      - t15-friction-n
+      - t15-consistency-n
+      - t15-affordance-n
+      - t15-feedback-loop-n
+      - t15-mental-model-n
+      - t15-progressive-disclosure-n
+      - t15-information-architecture-n
+      - t15-content-hierarchy-n
+      - t15-breakpoint-n
+      - t15-viewport-n
+      - t15-mobile-first-adj
+      - t15-adaptive-adj
+      - t15-intuitive-adj
+      - t15-predictable-adj
+      - t15-flexibility-n
+      - t15-efficiency-n
+      - t15-satisfaction-n
+      - t15-evidence-based-adj
+      - t15-hypothesis-n
+      - t15-validate-v
+      - t15-measure-v
+      - t15-iterate-v
+      - t15-decision-record-n
+    questions: []

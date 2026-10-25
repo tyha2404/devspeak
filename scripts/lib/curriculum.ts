@@ -97,7 +97,7 @@ export function validateCurriculum(
 }
 
 /**
- * Every lesson gets a ForumFlash-shaped test: a word set is tested by 16 generated questions, a
+ * Every lesson gets a ForumFlash-shaped test: a word set has a bank covering every word, a
  * grammar point by its authored items plus translations built from its examples. Generated
  * questions are appended to the curated bank (seeded like any other).
  */
@@ -110,6 +110,7 @@ export function expandTrackLessons(c: Curriculum, content: ReturnType<typeof loa
         const extra = vocabTest(
           l.slug,
           l.senses.map((s) => senses.get(s)).filter((s) => !!s),
+          Math.max(16, l.senses.length),
         );
         l.questions = extra.map((q) => q.slug);
         content.questions.push(...extra);

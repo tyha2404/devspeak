@@ -1,0 +1,3479 @@
+# Vocabulary by topic: Developer Communities & Workplace Life (unit T19). Original content.
+# Set 1: Where you live & work
+- {
+    "slug": "neighbourhood-n",
+    "lemma": "neighbourhood",
+    "pos": "noun",
+    "cefr": "A2",
+    "topic": "cities",
+    "ipa": "/ˈneɪbəhʊd/",
+    "def": "The area of a city around the place where you live.",
+    "vi": "khu phố, khu dân cư",
+    "examples":
+      [
+        {
+          "en": "There are three good cafés with Wi-Fi in my neighbourhood.",
+          "vi": "Khu mình ở có ba quán cà phê có Wi-Fi tốt.",
+        },
+      ],
+  }
+- {
+    "slug": "apartment-n",
+    "lemma": "apartment",
+    "pos": "noun",
+    "cefr": "A2",
+    "topic": "cities",
+    "ipa": "/əˈpɑːtmənt/",
+    "def": "A set of rooms for living in, usually on one floor of a large building.",
+    "vi": "căn hộ",
+    "examples":
+      [
+        {
+          "en": "I work from a small desk in the corner of my apartment.",
+          "vi": "Mình làm việc ở một cái bàn nhỏ trong góc căn hộ.",
+        },
+      ],
+  }
+- {
+    "slug": "suburb-n",
+    "lemma": "suburb",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "cities",
+    "ipa": "/ˈsʌbɜːb/",
+    "def": "An area where people live on the edge of a city, away from the centre.",
+    "vi": "vùng ngoại ô",
+    "examples":
+      [
+        {
+          "en": "Many of our developers live in the suburbs and come in twice a week.",
+          "vi": "Nhiều developer của tụi mình sống ở ngoại ô và lên văn phòng hai lần một tuần.",
+        },
+      ],
+  }
+- {
+    "slug": "city-centre-n",
+    "lemma": "city centre",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "A2",
+    "topic": "cities",
+    "ipa": "/ˌsɪti ˈsentə/",
+    "def": "The main, busiest part of a city, with many shops and offices.",
+    "vi": "trung tâm thành phố",
+    "examples":
+      [
+        {
+          "en": "Our new office is in the city centre, close to the metro.",
+          "vi": "Văn phòng mới của tụi mình ở trung tâm thành phố, gần ga metro.",
+        },
+      ],
+  }
+- {
+    "slug": "office-n",
+    "lemma": "office",
+    "pos": "noun",
+    "cefr": "A1",
+    "topic": "cities",
+    "ipa": "/ˈɒfɪs/",
+    "def": "A room or building where people work at desks.",
+    "vi": "văn phòng",
+    "examples":
+      [
+        {
+          "en": "I go to the office on Tuesdays for planning meetings.",
+          "vi": "Mình lên văn phòng vào thứ Ba để họp lập kế hoạch.",
+        },
+      ],
+  }
+- {
+    "slug": "remote-adj",
+    "lemma": "remote",
+    "pos": "adjective",
+    "cefr": "B1",
+    "topic": "cities",
+    "ipa": "/rɪˈməʊt/",
+    "def": "Done from home or another place, not from the company's office.",
+    "vi": "từ xa",
+    "examples":
+      [
+        {
+          "en": "Our team is fully remote, so we meet on video calls.",
+          "vi": "Team mình làm việc từ xa hoàn toàn nên họp qua video call.",
+        },
+      ],
+  }
+- {
+    "slug": "hybrid-adj",
+    "lemma": "hybrid",
+    "pos": "adjective",
+    "cefr": "B1",
+    "topic": "cities",
+    "ipa": "/ˈhaɪbrɪd/",
+    "def": "Mixing some days at the office with some days working from home.",
+    "vi": "kết hợp (văn phòng và tại nhà)",
+    "examples":
+      [
+        {
+          "en": "The company uses a hybrid model: three days in the office, two at home.",
+          "vi": "Công ty áp dụng mô hình kết hợp: ba ngày ở văn phòng, hai ngày ở nhà.",
+        },
+      ],
+  }
+- {
+    "slug": "rent-n",
+    "lemma": "rent",
+    "pos": "noun",
+    "cefr": "A2",
+    "topic": "cities",
+    "ipa": "/rent/",
+    "def": "Money you pay every month to live in or use a place that someone else owns.",
+    "vi": "tiền thuê",
+    "examples":
+      [
+        {
+          "en": "The rent near the tech park is high, so I share a flat.",
+          "vi": "Tiền thuê nhà gần khu công nghệ cao nên mình ở ghép.",
+        },
+      ],
+  }
+- {
+    "slug": "nearby-adv",
+    "lemma": "nearby",
+    "pos": "adverb",
+    "cefr": "A2",
+    "topic": "cities",
+    "ipa": "/ˌnɪəˈbaɪ/",
+    "def": "Not far away from a place.",
+    "vi": "gần đó, ở gần",
+    "examples":
+      [
+        {
+          "en": "I live nearby, so I can walk to the office in ten minutes.",
+          "vi": "Mình ở gần đó nên đi bộ mười phút là tới văn phòng.",
+        },
+      ],
+  }
+- {
+    "slug": "move-to-phr",
+    "lemma": "move to",
+    "pos": "phrase",
+    "kind": "phrase",
+    "cefr": "A2",
+    "topic": "cities",
+    "ipa": "/ˈmuːv tə/",
+    "def": "To go to live or work in a different place.",
+    "vi": "chuyển đến",
+    "examples":
+      [
+        {
+          "en": "I moved to Da Nang last year and now work remotely.",
+          "vi": "Năm ngoái mình chuyển đến Đà Nẵng và giờ làm việc từ xa.",
+        },
+      ],
+  }
+# Set 2: Commuting & schedules
+- {
+    "slug": "commute-n",
+    "lemma": "commute",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "cities",
+    "ipa": "/kəˈmjuːt/",
+    "def": "The trip you make every day between your home and your workplace.",
+    "vi": "quãng đường đi làm hằng ngày",
+    "examples":
+      [
+        {
+          "en": "My commute is forty minutes, so I listen to tech podcasts.",
+          "vi": "Quãng đường đi làm của mình mất bốn mươi phút nên mình nghe podcast công nghệ.",
+        },
+      ],
+  }
+- {
+    "slug": "traffic-jam-n",
+    "lemma": "traffic jam",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "A2",
+    "topic": "cities",
+    "ipa": "/ˈtræfɪk dʒæm/",
+    "def": "A long line of vehicles on a road that are moving very slowly or not at all.",
+    "vi": "kẹt xe",
+    "examples":
+      [
+        {
+          "en": "Sorry, I'm stuck in a traffic jam and will join the stand-up late.",
+          "vi": "Xin lỗi, mình đang kẹt xe nên sẽ vào buổi stand-up trễ.",
+        },
+      ],
+  }
+- {
+    "slug": "rush-hour-n",
+    "lemma": "rush hour",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B1",
+    "topic": "cities",
+    "ipa": "/ˈrʌʃ aʊə/",
+    "def": "The busy time of day when most people are travelling to or from work.",
+    "vi": "giờ cao điểm",
+    "examples":
+      [
+        {
+          "en": "Let's start the meeting at 9:30 so people can avoid rush hour.",
+          "vi": "Mình bắt đầu họp lúc 9:30 để mọi người tránh giờ cao điểm nhé.",
+        },
+      ],
+  }
+- {
+    "slug": "bus-stop-n",
+    "lemma": "bus stop",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "A1",
+    "topic": "cities",
+    "ipa": "/ˈbʌs stɒp/",
+    "def": "A place at the side of a road where buses stop for people to get on and off.",
+    "vi": "trạm xe buýt",
+    "examples":
+      [
+        {
+          "en": "There is a bus stop right outside the coworking space.",
+          "vi": "Có một trạm xe buýt ngay trước không gian coworking.",
+        },
+      ],
+  }
+- {
+    "slug": "motorbike-n",
+    "lemma": "motorbike",
+    "pos": "noun",
+    "cefr": "A2",
+    "topic": "cities",
+    "ipa": "/ˈməʊtəbaɪk/",
+    "def": "A vehicle with two wheels and an engine.",
+    "vi": "xe máy",
+    "examples":
+      [
+        {
+          "en": "Most of my teammates ride a motorbike to work.",
+          "vi": "Hầu hết đồng đội mình đi làm bằng xe máy.",
+        },
+      ],
+  }
+- {
+    "slug": "run-late-phr",
+    "lemma": "run late",
+    "pos": "phrase",
+    "kind": "phrase",
+    "cefr": "B1",
+    "topic": "cities",
+    "ipa": "/rʌn ˈleɪt/",
+    "def": "To be behind the planned time.",
+    "vi": "bị trễ",
+    "examples":
+      [
+        {
+          "en": "I'm running late because of the rain. Please start without me.",
+          "vi": "Mình bị trễ vì trời mưa. Mọi người cứ bắt đầu trước nhé.",
+        },
+      ],
+  }
+- {
+    "slug": "delay-n",
+    "lemma": "delay",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "cities",
+    "ipa": "/dɪˈleɪ/",
+    "def": "A period of time when someone or something is later than planned.",
+    "vi": "sự chậm trễ",
+    "examples":
+      [
+        {
+          "en": "The metro had a twenty-minute delay this morning.",
+          "vi": "Sáng nay metro bị chậm hai mươi phút.",
+        },
+      ],
+  }
+- {
+    "slug": "timetable-n",
+    "lemma": "timetable",
+    "pos": "noun",
+    "cefr": "A2",
+    "topic": "cities",
+    "ipa": "/ˈtaɪmteɪbl/",
+    "def": "A list that shows the times when buses or trains leave and arrive.",
+    "vi": "lịch chạy (tàu, xe)",
+    "examples":
+      [
+        {
+          "en": "I checked the bus timetable, and the last bus is at 10 p.m.",
+          "vi": "Mình xem lịch chạy xe buýt rồi, chuyến cuối lúc 10 giờ tối.",
+        },
+      ],
+  }
+- {
+    "slug": "on-time-phr",
+    "lemma": "on time",
+    "pos": "phrase",
+    "kind": "phrase",
+    "cefr": "A2",
+    "topic": "cities",
+    "ipa": "/ɒn ˈtaɪm/",
+    "def": "At the planned time, not late.",
+    "vi": "đúng giờ",
+    "examples":
+      [
+        {
+          "en": "The demo started on time even though it was raining.",
+          "vi": "Buổi demo bắt đầu đúng giờ dù trời mưa.",
+        },
+      ],
+  }
+- {
+    "slug": "push-back-phr",
+    "lemma": "push back",
+    "pos": "phrasal_verb",
+    "kind": "phrasal",
+    "cefr": "B2",
+    "topic": "cities",
+    "ipa": "/pʊʃ ˈbæk/",
+    "def": "To move a meeting or event to a later time.",
+    "vi": "dời lại (muộn hơn)",
+    "examples":
+      [
+        {
+          "en": "Can we push back the call by thirty minutes? My train is late.",
+          "vi": "Mình dời cuộc gọi lại ba mươi phút được không? Tàu của mình bị trễ.",
+        },
+      ],
+  }
+- {
+    "slug": "carpool-n",
+    "lemma": "carpool",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "cities",
+    "ipa": "/ˈkɑːpuːl/",
+    "def": "An arrangement where people share a car to travel to work together.",
+    "vi": "đi chung xe",
+    "examples":
+      [
+        {
+          "en": "Four of us joined a carpool to the new office.",
+          "vi": "Bốn người tụi mình đi chung xe tới văn phòng mới.",
+        },
+      ],
+  }
+- {
+    "slug": "ride-share-n",
+    "lemma": "ride-share",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "cities",
+    "ipa": "/ˈraɪd ʃeə/",
+    "def": "A service where you book a car or motorbike ride through an app.",
+    "vi": "dịch vụ gọi xe",
+    "examples":
+      [
+        {
+          "en": "I'll take a ride-share from the airport to the meetup.",
+          "vi": "Mình sẽ gọi xe từ sân bay đến buổi meetup.",
+        },
+      ],
+  }
+# Set 3: Coworking & local communities
+- {
+    "slug": "coworking-space-n",
+    "lemma": "coworking space",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B1",
+    "topic": "cities",
+    "ipa": "/ˌkəʊˈwɜːkɪŋ speɪs/",
+    "def": "A shared office where people from different companies rent desks.",
+    "vi": "không gian làm việc chung",
+    "examples":
+      [
+        {
+          "en": "I work from a coworking space when I get bored at home.",
+          "vi": "Mình làm ở không gian làm việc chung khi chán ở nhà.",
+        },
+      ],
+  }
+- {
+    "slug": "membership-n",
+    "lemma": "membership",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "cities",
+    "ipa": "/ˈmembəʃɪp/",
+    "def": "The state of belonging to a group or club, often by paying a fee.",
+    "vi": "tư cách thành viên, gói thành viên",
+    "examples":
+      [
+        {
+          "en": "A monthly membership includes coffee and a locker.",
+          "vi": "Gói thành viên theo tháng bao gồm cà phê và một tủ đồ.",
+        },
+      ],
+  }
+- {
+    "slug": "hot-desk-n",
+    "lemma": "hot desk",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "cities",
+    "ipa": "/ˈhɒt desk/",
+    "def": "A desk that is not given to one person, so anyone can use it when it is free.",
+    "vi": "bàn làm việc dùng chung",
+    "examples":
+      [
+        {
+          "en": "Hot desks are cheaper, but you need to arrive early to get one.",
+          "vi": "Bàn dùng chung rẻ hơn nhưng bạn phải đến sớm mới có chỗ.",
+        },
+      ],
+  }
+- {
+    "slug": "phone-booth-n",
+    "lemma": "phone booth",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B1",
+    "topic": "cities",
+    "ipa": "/ˈfəʊn buːθ/",
+    "def": "A small closed room in an office where one person can make a call in private.",
+    "vi": "phòng gọi điện riêng",
+    "examples":
+      [
+        {
+          "en": "I'll take the client call in the phone booth so I don't disturb anyone.",
+          "vi": "Mình nghe cuộc gọi khách hàng trong phòng gọi riêng để không làm phiền ai.",
+        },
+      ],
+  }
+- {
+    "slug": "reserve-v",
+    "lemma": "reserve",
+    "pos": "verb",
+    "cefr": "B1",
+    "topic": "cities",
+    "ipa": "/rɪˈzɜːv/",
+    "def": "To arrange for a seat, room, or table to be kept for you.",
+    "vi": "đặt trước",
+    "examples":
+      [
+        {
+          "en": "You can reserve a desk for tomorrow in the app.",
+          "vi": "Bạn có thể đặt trước bàn cho ngày mai trên app.",
+        },
+      ],
+  }
+- {
+    "slug": "community-n",
+    "lemma": "community",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "cities",
+    "ipa": "/kəˈmjuːnəti/",
+    "def": "A group of people who share an interest or live in the same area.",
+    "vi": "cộng đồng",
+    "examples":
+      [
+        {
+          "en": "The local Python community meets on the first Friday of every month.",
+          "vi": "Cộng đồng Python ở đây gặp nhau vào thứ Sáu đầu tiên mỗi tháng.",
+        },
+      ],
+  }
+- {
+    "slug": "member-n",
+    "lemma": "member",
+    "pos": "noun",
+    "cefr": "A2",
+    "topic": "cities",
+    "ipa": "/ˈmembə/",
+    "def": "A person who belongs to a group or organisation.",
+    "vi": "thành viên",
+    "examples":
+      [
+        {
+          "en": "New members can ask questions in the #welcome channel.",
+          "vi": "Thành viên mới có thể đặt câu hỏi trong kênh #welcome.",
+        },
+      ],
+  }
+- {
+    "slug": "join-v",
+    "lemma": "join",
+    "pos": "verb",
+    "cefr": "A2",
+    "topic": "cities",
+    "ipa": "/dʒɔɪn/",
+    "def": "To become a member of a group or to take part in an activity.",
+    "vi": "tham gia",
+    "examples":
+      [
+        {
+          "en": "How can I join the React study group?",
+          "vi": "Làm sao để mình tham gia nhóm học React?",
+        },
+      ],
+  }
+- {
+    "slug": "day-pass-n",
+    "lemma": "day pass",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B1",
+    "topic": "cities",
+    "ipa": "/ˈdeɪ pɑːs/",
+    "def": "A ticket that lets you use a place for one day only.",
+    "vi": "vé dùng trong ngày",
+    "examples":
+      [
+        {
+          "en": "Buy a day pass first to see if you like the space.",
+          "vi": "Mua vé ngày trước để xem bạn có thích không gian này không.",
+        },
+      ],
+  }
+- {
+    "slug": "local-adj",
+    "lemma": "local",
+    "pos": "adjective",
+    "cefr": "A2",
+    "topic": "cities",
+    "ipa": "/ˈləʊkl/",
+    "def": "Belonging to or happening in the area where you are.",
+    "vi": "địa phương",
+    "examples":
+      [
+        {
+          "en": "Our office supports local student developer clubs.",
+          "vi": "Văn phòng tụi mình hỗ trợ các câu lạc bộ lập trình của sinh viên địa phương.",
+        },
+      ],
+  }
+- {
+    "slug": "free-trial-n",
+    "lemma": "free trial",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B1",
+    "topic": "cities",
+    "ipa": "/ˌfriː ˈtraɪəl/",
+    "def": "A short time when you can use a product or service without paying.",
+    "vi": "dùng thử miễn phí",
+    "examples":
+      [
+        {
+          "en": "The space offers a one-week free trial for new members.",
+          "vi": "Không gian này cho thành viên mới dùng thử miễn phí một tuần.",
+        },
+      ],
+  }
+- {
+    "slug": "amenities-n",
+    "lemma": "amenities",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "cities",
+    "ipa": "/əˈmiːnətiz/",
+    "def": "Useful things a place offers, such as a kitchen, showers, or parking.",
+    "vi": "tiện ích",
+    "examples":
+      [
+        {
+          "en": "The amenities include fast Wi-Fi, a kitchen, and bike parking.",
+          "vi": "Tiện ích gồm Wi-Fi nhanh, bếp và chỗ để xe đạp.",
+        },
+      ],
+  }
+- {
+    "slug": "quiet-zone-n",
+    "lemma": "quiet zone",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B1",
+    "topic": "cities",
+    "ipa": "/ˈkwaɪət zəʊn/",
+    "def": "An area where people must not talk loudly or make calls.",
+    "vi": "khu yên tĩnh",
+    "examples":
+      [
+        {
+          "en": "Please don't take calls in the quiet zone.",
+          "vi": "Vui lòng không nghe điện thoại trong khu yên tĩnh.",
+        },
+      ],
+  }
+- {
+    "slug": "front-desk-n",
+    "lemma": "front desk",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B1",
+    "topic": "cities",
+    "ipa": "/ˌfrʌnt ˈdesk/",
+    "def": "The place near the entrance where staff welcome visitors and answer questions.",
+    "vi": "quầy lễ tân",
+    "examples":
+      [
+        {
+          "en": "Ask the front desk for the Wi-Fi password.",
+          "vi": "Hỏi quầy lễ tân để lấy mật khẩu Wi-Fi.",
+        },
+      ],
+  }
+# Set 4: Meetup introductions
+- {
+    "slug": "meetup-n",
+    "lemma": "meetup",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "cities",
+    "ipa": "/ˈmiːtʌp/",
+    "def": "An informal meeting of people who share an interest.",
+    "vi": "buổi gặp mặt (cộng đồng)",
+    "examples":
+      [
+        {
+          "en": "I met my current team lead at a Go meetup.",
+          "vi": "Mình gặp trưởng nhóm hiện tại ở một buổi meetup Go.",
+        },
+      ],
+  }
+- {
+    "slug": "first-timer-n",
+    "lemma": "first-timer",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "cities",
+    "ipa": "/ˌfɜːst ˈtaɪmə/",
+    "def": "A person who is doing or attending something for the first time.",
+    "vi": "người lần đầu tham gia",
+    "examples":
+      [
+        {
+          "en": "Are you a first-timer? Let me show you around.",
+          "vi": "Bạn mới đến lần đầu à? Để mình dẫn bạn đi một vòng.",
+        },
+      ],
+  }
+- {
+    "slug": "introduce-yourself-phr",
+    "lemma": "introduce yourself",
+    "pos": "phrase",
+    "kind": "phrase",
+    "cefr": "A2",
+    "topic": "cities",
+    "ipa": "/ˌɪntrəˈdjuːs jɔːˈself/",
+    "def": "To tell someone your name and a little about you when you first meet.",
+    "vi": "giới thiệu bản thân",
+    "examples":
+      [
+        {
+          "en": "Let's go around the room and introduce ourselves.",
+          "vi": "Mình đi một vòng và giới thiệu bản thân nhé.",
+        },
+      ],
+  }
+- {
+    "slug": "background-n",
+    "lemma": "background",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "cities",
+    "ipa": "/ˈbækɡraʊnd/",
+    "def": "Your past education and work experience.",
+    "vi": "nền tảng, xuất thân (học vấn, kinh nghiệm)",
+    "examples":
+      [
+        {
+          "en": "My background is in mobile, but now I do mostly backend.",
+          "vi": "Mình xuất thân làm mobile nhưng giờ chủ yếu làm backend.",
+        },
+      ],
+  }
+- {
+    "slug": "interest-n",
+    "lemma": "interest",
+    "pos": "noun",
+    "cefr": "A2",
+    "topic": "cities",
+    "ipa": "/ˈɪntrəst/",
+    "def": "A subject or activity that you enjoy and want to learn more about.",
+    "vi": "sở thích, mối quan tâm",
+    "examples":
+      [
+        {
+          "en": "My main interest right now is data visualisation.",
+          "vi": "Mối quan tâm chính của mình bây giờ là trực quan hóa dữ liệu.",
+        },
+      ],
+  }
+- {
+    "slug": "name-tag-n",
+    "lemma": "name tag",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "A2",
+    "topic": "cities",
+    "ipa": "/ˈneɪm tæɡ/",
+    "def": "A small label with your name on it that you wear at an event.",
+    "vi": "thẻ tên",
+    "examples":
+      [
+        {
+          "en": "Please write your name and favourite language on your name tag.",
+          "vi": "Hãy viết tên và ngôn ngữ yêu thích lên thẻ tên của bạn.",
+        },
+      ],
+  }
+- {
+    "slug": "mingle-v",
+    "lemma": "mingle",
+    "pos": "verb",
+    "cefr": "B2",
+    "topic": "cities",
+    "ipa": "/ˈmɪŋɡl/",
+    "def": "To move around at an event and talk to many different people.",
+    "vi": "đi giao lưu, trò chuyện với nhiều người",
+    "examples":
+      [
+        {
+          "en": "After the talks, we stayed to mingle with the other guests.",
+          "vi": "Sau các bài nói, tụi mình ở lại giao lưu với các khách khác.",
+        },
+      ],
+  }
+- {
+    "slug": "icebreaker-n",
+    "lemma": "icebreaker",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "cities",
+    "ipa": "/ˈaɪsbreɪkə/",
+    "def": "A game or question that helps people who don't know each other start talking.",
+    "vi": "hoạt động làm quen",
+    "examples":
+      [
+        {
+          "en": "As an icebreaker, everyone shared their worst bug.",
+          "vi": "Để làm quen, mỗi người kể về con bug tệ nhất của mình.",
+        },
+      ],
+  }
+- {
+    "slug": "newcomer-n",
+    "lemma": "newcomer",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "cities",
+    "ipa": "/ˈnjuːkʌmə/",
+    "def": "A person who has recently arrived in a place or joined a group.",
+    "vi": "người mới",
+    "examples":
+      [
+        {
+          "en": "We pair each newcomer with someone who has been here a while.",
+          "vi": "Tụi mình ghép mỗi người mới với một người đã ở đây lâu.",
+        },
+      ],
+  }
+- {
+    "slug": "regular-n",
+    "lemma": "regular",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "cities",
+    "ipa": "/ˈreɡjələ/",
+    "def": "A person who often goes to the same place or event.",
+    "vi": "người quen mặt, khách quen",
+    "examples":
+      [
+        {
+          "en": "Minh is a regular; he hasn't missed a meetup in two years.",
+          "vi": "Minh là người quen mặt; hai năm nay anh ấy chưa bỏ buổi meetup nào.",
+        },
+      ],
+  }
+- {
+    "slug": "field-n",
+    "lemma": "field",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "cities",
+    "ipa": "/fiːld/",
+    "def": "An area of work or study.",
+    "vi": "lĩnh vực",
+    "examples":
+      [
+        {
+          "en": "What field do you work in — fintech or e-commerce?",
+          "vi": "Bạn làm trong lĩnh vực nào — fintech hay thương mại điện tử?",
+        },
+      ],
+  }
+- {
+    "slug": "lightning-talk-n",
+    "lemma": "lightning talk",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "cities",
+    "ipa": "/ˈlaɪtnɪŋ tɔːk/",
+    "def": "A very short presentation, usually five minutes, at a tech event.",
+    "vi": "bài nói chớp nhoáng",
+    "examples":
+      [
+        {
+          "en": "I gave a lightning talk about our test setup.",
+          "vi": "Mình trình bày một bài nói ngắn năm phút về cách tụi mình thiết lập test.",
+        },
+      ],
+  }
+- {
+    "slug": "venue-n",
+    "lemma": "venue",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "cities",
+    "ipa": "/ˈvenjuː/",
+    "def": "The place where an event happens.",
+    "vi": "địa điểm (tổ chức)",
+    "examples":
+      [
+        {
+          "en": "The venue is on the fifth floor, next to the lift.",
+          "vi": "Địa điểm ở tầng năm, cạnh thang máy.",
+        },
+      ],
+  }
+- {
+    "slug": "chat-v",
+    "lemma": "chat",
+    "pos": "verb",
+    "cefr": "A2",
+    "topic": "cities",
+    "ipa": "/tʃæt/",
+    "def": "To talk in a friendly, informal way.",
+    "vi": "trò chuyện",
+    "examples":
+      [
+        {
+          "en": "We chatted about Rust for almost an hour.",
+          "vi": "Tụi mình trò chuyện về Rust gần một tiếng.",
+        },
+      ],
+  }
+- {
+    "slug": "nice-to-meet-you-phr",
+    "lemma": "nice to meet you",
+    "pos": "phrase",
+    "kind": "phrase",
+    "cefr": "A1",
+    "topic": "cities",
+    "ipa": "/naɪs tə ˈmiːt juː/",
+    "def": "A polite thing to say when you meet someone for the first time.",
+    "vi": "rất vui được gặp bạn",
+    "examples":
+      [
+        {
+          "en": "Hi, I'm Lan from the payments team. Nice to meet you!",
+          "vi": "Chào, mình là Lan bên team thanh toán. Rất vui được gặp bạn!",
+        },
+      ],
+  }
+- {
+    "slug": "what-do-you-do-phr",
+    "lemma": "what do you do?",
+    "pos": "phrase",
+    "kind": "phrase",
+    "cefr": "A1",
+    "topic": "cities",
+    "ipa": "/wɒt də jə ˈduː/",
+    "def": "A question that asks about someone's job.",
+    "vi": "bạn làm nghề gì?",
+    "examples":
+      [
+        {
+          "en": "So, what do you do? — I'm a QA engineer at a start-up.",
+          "vi": "Vậy bạn làm nghề gì? — Mình là kỹ sư QA ở một start-up.",
+        },
+      ],
+  }
+# Set 5: Explaining a side project
+- {
+    "slug": "pet-project-n",
+    "lemma": "pet project",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "cities",
+    "ipa": "/ˌpet ˈprɒdʒekt/",
+    "def": "A personal project you work on because you care about it, not for money.",
+    "vi": "dự án tâm huyết cá nhân",
+    "examples":
+      [
+        {
+          "en": "My pet project is an app that tracks bus arrival times.",
+          "vi": "Dự án tâm huyết của mình là một app theo dõi giờ xe buýt đến.",
+        },
+      ],
+  }
+- {
+    "slug": "open-source-adj",
+    "lemma": "open-source",
+    "pos": "adjective",
+    "cefr": "B1",
+    "topic": "cities",
+    "ipa": "/ˌəʊpən ˈsɔːs/",
+    "def": "With code that anyone can read, use, and change for free.",
+    "vi": "mã nguồn mở",
+    "examples":
+      [
+        {
+          "en": "The library is open-source, so you can read the code on GitHub.",
+          "vi": "Thư viện này là mã nguồn mở nên bạn có thể đọc code trên GitHub.",
+        },
+      ],
+  }
+- {
+    "slug": "prototype-n",
+    "lemma": "prototype",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "cities",
+    "ipa": "/ˈprəʊtətaɪp/",
+    "def": "An early, simple version of a product, made to test an idea.",
+    "vi": "bản mẫu",
+    "examples":
+      [
+        {
+          "en": "I built a prototype in one weekend to test the idea.",
+          "vi": "Mình làm một bản mẫu trong một cuối tuần để thử ý tưởng.",
+        },
+      ],
+  }
+- {
+    "slug": "proof-of-concept-n",
+    "lemma": "proof of concept",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "cities",
+    "ipa": "/ˌpruːf əv ˈkɒnsept/",
+    "def": "A small piece of work that shows an idea can really work.",
+    "vi": "bản chứng minh khả thi",
+    "examples":
+      [
+        {
+          "en": "This is only a proof of concept; it has no login yet.",
+          "vi": "Đây mới là bản chứng minh khả thi; chưa có đăng nhập.",
+        },
+      ],
+  }
+- {
+    "slug": "use-case-n",
+    "lemma": "use case",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "cities",
+    "ipa": "/ˈjuːs keɪs/",
+    "def": "A particular situation in which a product is used.",
+    "vi": "trường hợp sử dụng",
+    "examples":
+      [
+        {
+          "en": "The main use case is splitting bills after team lunches.",
+          "vi": "Trường hợp sử dụng chính là chia tiền sau các bữa trưa của team.",
+        },
+      ],
+  }
+- {
+    "slug": "pain-point-n",
+    "lemma": "pain point",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "cities",
+    "ipa": "/ˈpeɪn pɔɪnt/",
+    "def": "A problem that annoys users and that a product can fix.",
+    "vi": "điểm khó chịu (của người dùng)",
+    "examples":
+      [
+        {
+          "en": "The biggest pain point was finding a quiet place to work.",
+          "vi": "Điểm khó chịu lớn nhất là tìm một chỗ yên tĩnh để làm việc.",
+        },
+      ],
+  }
+- {
+    "slug": "target-user-n",
+    "lemma": "target user",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "cities",
+    "ipa": "/ˌtɑːɡɪt ˈjuːzə/",
+    "def": "The kind of person a product is mainly made for.",
+    "vi": "người dùng mục tiêu",
+    "examples":
+      [
+        {
+          "en": "My target users are freelancers who work in cafés.",
+          "vi": "Người dùng mục tiêu của mình là freelancer làm việc ở quán cà phê.",
+        },
+      ],
+  }
+- {
+    "slug": "solve-v",
+    "lemma": "solve",
+    "pos": "verb",
+    "cefr": "B1",
+    "topic": "cities",
+    "ipa": "/sɒlv/",
+    "def": "To find a way to deal with a problem.",
+    "vi": "giải quyết",
+    "examples":
+      [
+        {
+          "en": "The app solves a simple problem: where to park near the office.",
+          "vi": "App giải quyết một vấn đề đơn giản: đỗ xe ở đâu gần văn phòng.",
+        },
+      ],
+  }
+- {
+    "slug": "beta-tester-n",
+    "lemma": "beta tester",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "cities",
+    "ipa": "/ˈbiːtə ˌtestə/",
+    "def": "A person who tries a product before it is finished and reports problems.",
+    "vi": "người dùng thử bản beta",
+    "examples":
+      [
+        {
+          "en": "I'm looking for ten beta testers from the meetup.",
+          "vi": "Mình đang tìm mười người dùng thử bản beta từ buổi meetup.",
+        },
+      ],
+  }
+- {
+    "slug": "traction-n",
+    "lemma": "traction",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "cities",
+    "ipa": "/ˈtrækʃn/",
+    "def": "Early proof that people are starting to use and like a product.",
+    "vi": "sức hút ban đầu",
+    "examples":
+      [
+        {
+          "en": "The tool got some traction after I posted it on a forum.",
+          "vi": "Công cụ có chút sức hút sau khi mình đăng lên một diễn đàn.",
+        },
+      ],
+  }
+- {
+    "slug": "user-feedback-n",
+    "lemma": "user feedback",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B1",
+    "topic": "cities",
+    "ipa": "/ˌjuːzə ˈfiːdbæk/",
+    "def": "Opinions and comments from the people who use a product.",
+    "vi": "phản hồi người dùng",
+    "examples":
+      [
+        {
+          "en": "Based on user feedback, I added a dark mode.",
+          "vi": "Dựa trên phản hồi người dùng, mình đã thêm chế độ tối.",
+        },
+      ],
+  }
+- {
+    "slug": "pitch-n",
+    "lemma": "pitch",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "cities",
+    "ipa": "/pɪtʃ/",
+    "def": "A short talk that tries to make people interested in an idea.",
+    "vi": "bài thuyết trình ngắn để thuyết phục",
+    "examples":
+      [
+        {
+          "en": "Keep your pitch under two minutes.",
+          "vi": "Giữ bài giới thiệu của bạn dưới hai phút.",
+        },
+      ],
+  }
+- {
+    "slug": "early-stage-adj",
+    "lemma": "early-stage",
+    "pos": "adjective",
+    "cefr": "B2",
+    "topic": "cities",
+    "ipa": "/ˌɜːli ˈsteɪdʒ/",
+    "def": "At the beginning of its development.",
+    "vi": "giai đoạn đầu",
+    "examples":
+      [
+        {
+          "en": "It's still early-stage, so expect a few bugs.",
+          "vi": "Nó vẫn đang ở giai đoạn đầu nên sẽ có vài lỗi.",
+        },
+      ],
+  }
+- {
+    "slug": "hobby-n",
+    "lemma": "hobby",
+    "pos": "noun",
+    "cefr": "A2",
+    "topic": "cities",
+    "ipa": "/ˈhɒbi/",
+    "def": "An activity you do for fun in your free time.",
+    "vi": "sở thích, thú vui",
+    "examples":
+      [
+        {
+          "en": "Coding games started as a hobby for me.",
+          "vi": "Viết game ban đầu chỉ là thú vui của mình.",
+        },
+      ],
+  }
+- {
+    "slug": "passion-n",
+    "lemma": "passion",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "cities",
+    "ipa": "/ˈpæʃn/",
+    "def": "A very strong feeling of liking something.",
+    "vi": "đam mê",
+    "examples":
+      [
+        {
+          "en": "Her passion for accessibility shows in every project.",
+          "vi": "Niềm đam mê của cô ấy với khả năng tiếp cận thể hiện trong mọi dự án.",
+        },
+      ],
+  }
+- {
+    "slug": "show-and-tell-n",
+    "lemma": "show-and-tell",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "cities",
+    "ipa": "/ˌʃəʊ ən ˈtel/",
+    "def": "An event where people show something they made and explain it.",
+    "vi": "buổi khoe và kể (sản phẩm)",
+    "examples":
+      [
+        {
+          "en": "Bring your side project to Friday's show-and-tell.",
+          "vi": "Mang dự án cá nhân của bạn đến buổi khoe sản phẩm hôm thứ Sáu.",
+        },
+      ],
+  }
+- {
+    "slug": "landing-page-n",
+    "lemma": "landing page",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "cities",
+    "ipa": "/ˈlændɪŋ peɪdʒ/",
+    "def": "A single web page that explains a product and asks visitors to sign up.",
+    "vi": "trang giới thiệu (landing page)",
+    "examples":
+      [
+        {
+          "en": "The landing page has a short video and a sign-up form.",
+          "vi": "Trang giới thiệu có một video ngắn và một form đăng ký.",
+        },
+      ],
+  }
+- {
+    "slug": "tech-stack-n",
+    "lemma": "tech stack",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "cities",
+    "ipa": "/ˈtek stæk/",
+    "def": "The set of languages, frameworks, and tools used to build a product.",
+    "vi": "bộ công nghệ",
+    "examples":
+      [
+        {
+          "en": "The tech stack is Next.js, Postgres, and a little Python.",
+          "vi": "Bộ công nghệ là Next.js, Postgres và một chút Python.",
+        },
+      ],
+  }
+# Set 6: Finding collaborators
+- {
+    "slug": "collaborator-n",
+    "lemma": "collaborator",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "cities",
+    "ipa": "/kəˈlæbəreɪtə/",
+    "def": "A person who works with you on a shared project.",
+    "vi": "người cộng tác",
+    "examples":
+      [
+        {
+          "en": "I'm looking for a collaborator who knows design.",
+          "vi": "Mình đang tìm một người cộng tác biết thiết kế.",
+        },
+      ],
+  }
+- {
+    "slug": "contributor-n",
+    "lemma": "contributor",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "cities",
+    "ipa": "/kənˈtrɪbjətə/",
+    "def": "A person who adds work, such as code or docs, to a project.",
+    "vi": "người đóng góp",
+    "examples":
+      [
+        {
+          "en": "The project has twelve contributors from five countries.",
+          "vi": "Dự án có mười hai người đóng góp từ năm quốc gia.",
+        },
+      ],
+  }
+- {
+    "slug": "co-founder-n",
+    "lemma": "co-founder",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "cities",
+    "ipa": "/ˌkəʊ ˈfaʊndə/",
+    "def": "One of the people who start a company together.",
+    "vi": "đồng sáng lập",
+    "examples":
+      [
+        {
+          "en": "He's looking for a technical co-founder for his start-up.",
+          "vi": "Anh ấy đang tìm một đồng sáng lập kỹ thuật cho start-up của mình.",
+        },
+      ],
+  }
+- {
+    "slug": "volunteer-n",
+    "lemma": "volunteer",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "cities",
+    "ipa": "/ˌvɒlənˈtɪə/",
+    "def": "A person who does work without being paid.",
+    "vi": "tình nguyện viên",
+    "examples":
+      [
+        {
+          "en": "We need two volunteers to translate the docs into Vietnamese.",
+          "vi": "Tụi mình cần hai tình nguyện viên dịch tài liệu sang tiếng Việt.",
+        },
+      ],
+  }
+- {
+    "slug": "contribute-v",
+    "lemma": "contribute",
+    "pos": "verb",
+    "cefr": "B2",
+    "topic": "cities",
+    "ipa": "/kənˈtrɪbjuːt/",
+    "def": "To give your work or ideas to help a shared project.",
+    "vi": "đóng góp",
+    "examples":
+      [
+        {
+          "en": "Anyone can contribute by fixing typos in the README.",
+          "vi": "Ai cũng có thể đóng góp bằng cách sửa lỗi chính tả trong README.",
+        },
+      ],
+  }
+- {
+    "slug": "good-first-issue-n",
+    "lemma": "good first issue",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "cities",
+    "ipa": "/ɡʊd ˌfɜːst ˈɪʃuː/",
+    "def": "A simple task in a project, marked for people who are contributing for the first time.",
+    "vi": "việc phù hợp cho người mới",
+    "examples":
+      [
+        {
+          "en": "Pick anything labelled 'good first issue' to start.",
+          "vi": "Chọn bất kỳ việc nào gắn nhãn 'good first issue' để bắt đầu.",
+        },
+      ],
+  }
+- {
+    "slug": "core-team-n",
+    "lemma": "core team",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "cities",
+    "ipa": "/ˈkɔː tiːm/",
+    "def": "The small main group of people who make the key decisions in a project.",
+    "vi": "nhóm nòng cốt",
+    "examples":
+      [
+        {
+          "en": "The core team reviews big changes before they are merged.",
+          "vi": "Nhóm nòng cốt xem xét các thay đổi lớn trước khi merge.",
+        },
+      ],
+  }
+- {
+    "slug": "help-wanted-phr",
+    "lemma": "help wanted",
+    "pos": "phrase",
+    "kind": "phrase",
+    "cefr": "B1",
+    "topic": "cities",
+    "ipa": "/ˌhelp ˈwɒntɪd/",
+    "def": "A label or notice saying that a project needs people to help.",
+    "vi": "cần người giúp",
+    "examples":
+      [
+        {
+          "en": "I added a 'help wanted' tag to the mobile tasks.",
+          "vi": "Mình đã gắn nhãn 'cần người giúp' cho các việc phần mobile.",
+        },
+      ],
+  }
+- {
+    "slug": "newcomer-friendly-adj",
+    "lemma": "newcomer-friendly",
+    "pos": "adjective",
+    "cefr": "B2",
+    "topic": "cities",
+    "ipa": "/ˌnjuːkʌmə ˈfrendli/",
+    "def": "Easy for people who are new to join and understand.",
+    "vi": "thân thiện với người mới",
+    "examples":
+      [
+        {
+          "en": "We try to keep the repo newcomer-friendly with clear setup steps.",
+          "vi": "Tụi mình cố giữ repo thân thiện với người mới bằng các bước cài đặt rõ ràng.",
+        },
+      ],
+  }
+- {
+    "slug": "chip-in-phr",
+    "lemma": "chip in",
+    "pos": "phrasal_verb",
+    "kind": "phrasal",
+    "cefr": "C1",
+    "topic": "cities",
+    "ipa": "/tʃɪp ˈɪn/",
+    "def": "To help a little, together with other people.",
+    "vi": "góp một tay (cùng người khác)",
+    "examples":
+      [
+        {
+          "en": "If everyone chips in an hour a week, we can finish by June.",
+          "vi": "Nếu mỗi người góp một tiếng mỗi tuần, tụi mình có thể xong trước tháng Sáu.",
+        },
+      ],
+  }
+- {
+    "slug": "availability-n",
+    "lemma": "availability",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "cities",
+    "ipa": "/əˌveɪləˈbɪləti/",
+    "def": "The times when you are free to do something.",
+    "vi": "thời gian rảnh, khả năng tham gia",
+    "examples":
+      [
+        {
+          "en": "What's your availability on weekday evenings?",
+          "vi": "Bạn rảnh những tối nào trong tuần?",
+        },
+      ],
+  }
+- {
+    "slug": "team-up-phr",
+    "lemma": "team up",
+    "pos": "phrasal_verb",
+    "kind": "phrasal",
+    "cefr": "B2",
+    "topic": "cities",
+    "ipa": "/tiːm ˈʌp/",
+    "def": "To join with another person or group to work on something.",
+    "vi": "hợp tác, bắt tay cùng",
+    "examples":
+      [
+        {
+          "en": "Let's team up with the design club for the hackathon.",
+          "vi": "Mình hợp tác với câu lạc bộ thiết kế cho cuộc thi hackathon nhé.",
+        },
+      ],
+  }
+- {
+    "slug": "complementary-adj",
+    "lemma": "complementary",
+    "pos": "adjective",
+    "cefr": "C1",
+    "topic": "cities",
+    "ipa": "/ˌkɒmplɪˈmentri/",
+    "def": "Different but useful together, because each fills what the other is missing.",
+    "vi": "bổ trợ cho nhau",
+    "examples":
+      [
+        {
+          "en": "Our skills are complementary: I do backend and she does UI.",
+          "vi": "Kỹ năng của tụi mình bổ trợ nhau: mình làm backend, cô ấy làm UI.",
+        },
+      ],
+  }
+- {
+    "slug": "seek-v",
+    "lemma": "seek",
+    "pos": "verb",
+    "cefr": "C1",
+    "topic": "cities",
+    "ipa": "/siːk/",
+    "def": "To try to find or get something (formal).",
+    "vi": "tìm kiếm (trang trọng)",
+    "examples":
+      [
+        {
+          "en": "We are seeking contributors with experience in accessibility.",
+          "vi": "Tụi mình đang tìm người đóng góp có kinh nghiệm về khả năng tiếp cận.",
+        },
+      ],
+  }
+- {
+    "slug": "onboard-v",
+    "lemma": "onboard",
+    "pos": "verb",
+    "cefr": "C1",
+    "topic": "cities",
+    "ipa": "/ˈɒnbɔːd/",
+    "def": "To help a new person learn how a team or project works.",
+    "vi": "hướng dẫn người mới hòa nhập",
+    "examples":
+      [
+        {
+          "en": "I can onboard you in a thirty-minute call.",
+          "vi": "Mình có thể hướng dẫn bạn làm quen dự án trong một cuộc gọi ba mươi phút.",
+        },
+      ],
+  }
+- {
+    "slug": "pair-up-phr",
+    "lemma": "pair up",
+    "pos": "phrasal_verb",
+    "kind": "phrasal",
+    "cefr": "B2",
+    "topic": "cities",
+    "ipa": "/peər ˈʌp/",
+    "def": "To form a group of two to work together.",
+    "vi": "bắt cặp",
+    "examples":
+      [
+        {
+          "en": "Let's pair up on the first issue so you learn the codebase.",
+          "vi": "Mình bắt cặp làm việc đầu tiên để bạn làm quen codebase nhé.",
+        },
+      ],
+  }
+- {
+    "slug": "get-involved-phr",
+    "lemma": "get involved",
+    "pos": "phrase",
+    "kind": "phrase",
+    "cefr": "B1",
+    "topic": "cities",
+    "ipa": "/ɡet ɪnˈvɒlvd/",
+    "def": "To start taking part in an activity or group.",
+    "vi": "tham gia (vào hoạt động)",
+    "examples":
+      [
+        {
+          "en": "The easiest way to get involved is to review pull requests.",
+          "vi": "Cách dễ nhất để tham gia là review pull request.",
+        },
+      ],
+  }
+- {
+    "slug": "lend-a-hand-phr",
+    "lemma": "lend a hand",
+    "pos": "phrase",
+    "kind": "phrase",
+    "cefr": "B2",
+    "topic": "cities",
+    "ipa": "/lend ə ˈhænd/",
+    "def": "To help someone (informal).",
+    "vi": "giúp một tay",
+    "examples":
+      [
+        {
+          "en": "Could you lend a hand with the database migration?",
+          "vi": "Bạn giúp mình một tay phần migration database được không?",
+        },
+      ],
+  }
+- {
+    "slug": "expertise-n",
+    "lemma": "expertise",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "cities",
+    "ipa": "/ˌekspɜːˈtiːz/",
+    "def": "Special skill or knowledge in a particular area.",
+    "vi": "chuyên môn",
+    "examples":
+      [
+        {
+          "en": "We need someone with expertise in payments.",
+          "vi": "Tụi mình cần người có chuyên môn về thanh toán.",
+        },
+      ],
+  }
+- {
+    "slug": "time-zone-n",
+    "lemma": "time zone",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B1",
+    "topic": "cities",
+    "ipa": "/ˈtaɪm zəʊn/",
+    "def": "An area of the world that uses the same clock time.",
+    "vi": "múi giờ",
+    "examples":
+      [
+        {
+          "en": "We are in different time zones, so we work mostly in writing.",
+          "vi": "Tụi mình ở khác múi giờ nên chủ yếu làm việc qua tin nhắn.",
+        },
+      ],
+  }
+# Set 7: Event planning
+- {
+    "slug": "organiser-n",
+    "lemma": "organiser",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "cities",
+    "ipa": "/ˈɔːɡənaɪzə/",
+    "def": "A person who plans and arranges an event.",
+    "vi": "người tổ chức",
+    "examples":
+      [
+        {
+          "en": "Contact the organisers if you want to give a talk.",
+          "vi": "Liên hệ người tổ chức nếu bạn muốn trình bày.",
+        },
+      ],
+  }
+- {
+    "slug": "agenda-n",
+    "lemma": "agenda",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "cities",
+    "ipa": "/əˈdʒendə/",
+    "def": "A list of things that will happen or be discussed at an event.",
+    "vi": "chương trình, lịch trình",
+    "examples":
+      [
+        {
+          "en": "The agenda has two talks and a Q&A.",
+          "vi": "Chương trình gồm hai bài nói và phần hỏi đáp.",
+        },
+      ],
+  }
+- {
+    "slug": "sponsor-n",
+    "lemma": "sponsor",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "cities",
+    "ipa": "/ˈspɒnsə/",
+    "def": "A company that pays some costs of an event, often to advertise itself.",
+    "vi": "nhà tài trợ",
+    "examples":
+      [
+        {
+          "en": "Our sponsor is paying for the pizza and drinks.",
+          "vi": "Nhà tài trợ của tụi mình chi tiền pizza và nước uống.",
+        },
+      ],
+  }
+- {
+    "slug": "catering-n",
+    "lemma": "catering",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "cities",
+    "ipa": "/ˈkeɪtərɪŋ/",
+    "def": "The service of providing food and drinks at an event.",
+    "vi": "dịch vụ ăn uống",
+    "examples":
+      [
+        {
+          "en": "Please order vegetarian options from the catering company.",
+          "vi": "Hãy đặt thêm món chay từ bên dịch vụ ăn uống.",
+        },
+      ],
+  }
+- {
+    "slug": "adapter-n",
+    "lemma": "adapter",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "cities",
+    "ipa": "/əˈdæptə/",
+    "def": "A small device that connects two pieces of equipment that do not fit together.",
+    "vi": "đầu chuyển",
+    "examples":
+      [
+        {
+          "en": "Bring a USB-C to HDMI adapter for your laptop.",
+          "vi": "Mang theo một đầu chuyển USB-C sang HDMI cho laptop của bạn.",
+        },
+      ],
+  }
+- {
+    "slug": "microphone-n",
+    "lemma": "microphone",
+    "pos": "noun",
+    "cefr": "A2",
+    "topic": "cities",
+    "ipa": "/ˈmaɪkrəfəʊn/",
+    "def": "A device that makes your voice louder or records it.",
+    "vi": "micro",
+    "examples":
+      [
+        {
+          "en": "Please use the microphone so people online can hear the questions.",
+          "vi": "Vui lòng dùng micro để người xem online nghe được câu hỏi.",
+        },
+      ],
+  }
+- {
+    "slug": "registration-n",
+    "lemma": "registration",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "cities",
+    "ipa": "/ˌredʒɪˈstreɪʃn/",
+    "def": "The process of putting your name on a list to attend an event.",
+    "vi": "việc đăng ký",
+    "examples":
+      [
+        {
+          "en": "Registration closes on Wednesday night.",
+          "vi": "Hạn đăng ký kết thúc vào tối thứ Tư.",
+        },
+      ],
+  }
+- {
+    "slug": "capacity-n",
+    "lemma": "capacity",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "cities",
+    "ipa": "/kəˈpæsəti/",
+    "def": "The largest number of people a place can hold.",
+    "vi": "sức chứa",
+    "examples":
+      [
+        {
+          "en": "The room has a capacity of sixty people.",
+          "vi": "Phòng có sức chứa sáu mươi người.",
+        },
+      ],
+  }
+- {
+    "slug": "headcount-n",
+    "lemma": "headcount",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "cities",
+    "ipa": "/ˈhedkaʊnt/",
+    "def": "The number of people who are coming or are present.",
+    "vi": "số người tham dự",
+    "examples":
+      [
+        {
+          "en": "Can you confirm the final headcount by Thursday for the food order?",
+          "vi": "Bạn xác nhận số người cuối cùng trước thứ Năm để đặt đồ ăn nhé?",
+        },
+      ],
+  }
+- {
+    "slug": "logistics-n",
+    "lemma": "logistics",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "cities",
+    "ipa": "/ləˈdʒɪstɪks/",
+    "def": "The practical planning of the details of an event.",
+    "vi": "công tác hậu cần",
+    "examples":
+      [
+        {
+          "en": "I'll handle the logistics; you focus on the speakers.",
+          "vi": "Mình lo hậu cần; bạn tập trung vào diễn giả.",
+        },
+      ],
+  }
+- {
+    "slug": "run-of-show-n",
+    "lemma": "run of show",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "cities",
+    "ipa": "/ˌrʌn əv ˈʃəʊ/",
+    "def": "A detailed, minute-by-minute plan of everything that happens during an event.",
+    "vi": "kịch bản chi tiết theo phút",
+    "examples":
+      [
+        {
+          "en": "Check the run of show: your talk starts at 7:15 sharp.",
+          "vi": "Xem kịch bản chi tiết nhé: bài của bạn bắt đầu đúng 7 giờ 15.",
+        },
+      ],
+  }
+- {
+    "slug": "rsvp-v",
+    "lemma": "RSVP",
+    "pos": "verb",
+    "cefr": "B2",
+    "topic": "cities",
+    "ipa": "/ˌɑːr es viː ˈpiː/",
+    "def": "To tell the organiser whether you will come to an event.",
+    "vi": "xác nhận tham dự",
+    "examples":
+      [
+        {
+          "en": "Please RSVP by Friday so we know how many chairs to set out.",
+          "vi": "Vui lòng xác nhận tham dự trước thứ Sáu để tụi mình biết cần bao nhiêu ghế.",
+        },
+      ],
+  }
+- {
+    "slug": "floor-plan-n",
+    "lemma": "floor plan",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "cities",
+    "ipa": "/ˈflɔː plæn/",
+    "def": "A drawing that shows where rooms, tables, and doors are in a building.",
+    "vi": "sơ đồ mặt bằng",
+    "examples":
+      [
+        {
+          "en": "According to the floor plan, the sponsor tables go near the entrance.",
+          "vi": "Theo sơ đồ mặt bằng, bàn của nhà tài trợ đặt gần lối vào.",
+        },
+      ],
+  }
+- {
+    "slug": "host-v",
+    "lemma": "host",
+    "pos": "verb",
+    "cefr": "B1",
+    "topic": "cities",
+    "ipa": "/həʊst/",
+    "def": "To provide the place for an event and welcome the guests.",
+    "vi": "đăng cai, tổ chức",
+    "examples":
+      [
+        {
+          "en": "Our company will host next month's meetup.",
+          "vi": "Công ty mình sẽ đăng cai buổi meetup tháng sau.",
+        },
+      ],
+  }
+- {
+    "slug": "livestream-n",
+    "lemma": "livestream",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "cities",
+    "ipa": "/ˈlaɪvstriːm/",
+    "def": "Video of an event that is shown on the internet while it is happening.",
+    "vi": "phát trực tiếp",
+    "examples":
+      [
+        {
+          "en": "The livestream link is in the event description.",
+          "vi": "Đường link phát trực tiếp nằm trong phần mô tả sự kiện.",
+        },
+      ],
+  }
+- {
+    "slug": "signage-n",
+    "lemma": "signage",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "cities",
+    "ipa": "/ˈsaɪnɪdʒ/",
+    "def": "Signs that show people the way or give information at a place.",
+    "vi": "biển chỉ dẫn",
+    "examples":
+      [
+        {
+          "en": "Put up some signage in the lobby so guests can find the lift.",
+          "vi": "Dán vài biển chỉ dẫn ở sảnh để khách tìm được thang máy.",
+        },
+      ],
+  }
+- {
+    "slug": "badge-n",
+    "lemma": "badge",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "cities",
+    "ipa": "/bædʒ/",
+    "def": "A small card you wear at an event to show your name or role.",
+    "vi": "thẻ đeo",
+    "examples":
+      [
+        {
+          "en": "Volunteers wear green badges, so ask them if you're lost.",
+          "vi": "Tình nguyện viên đeo thẻ xanh lá, nếu lạc đường cứ hỏi họ.",
+        },
+      ],
+  }
+- {
+    "slug": "waitlist-n",
+    "lemma": "waitlist",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "cities",
+    "ipa": "/ˈweɪtlɪst/",
+    "def": "A list of people who will get a place if someone else cancels.",
+    "vi": "danh sách chờ",
+    "examples":
+      [
+        {
+          "en": "The event is full, but you can join the waitlist.",
+          "vi": "Sự kiện đã đủ chỗ nhưng bạn có thể vào danh sách chờ.",
+        },
+      ],
+  }
+- {
+    "slug": "giveaway-n",
+    "lemma": "giveaway",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "cities",
+    "ipa": "/ˈɡɪvəweɪ/",
+    "def": "Something given free to people, often by a company to promote itself.",
+    "vi": "quà tặng miễn phí",
+    "examples":
+      [
+        {
+          "en": "The sponsor brought stickers and T-shirts as giveaways.",
+          "vi": "Nhà tài trợ mang sticker và áo thun làm quà tặng.",
+        },
+      ],
+  }
+- {
+    "slug": "set-up-phr",
+    "lemma": "set up",
+    "pos": "phrasal_verb",
+    "kind": "phrasal",
+    "cefr": "B1",
+    "topic": "cities",
+    "ipa": "/set ˈʌp/",
+    "def": "To get a place or equipment ready before something starts.",
+    "vi": "chuẩn bị, sắp đặt",
+    "examples":
+      [
+        {
+          "en": "Can you come at six to help set up the chairs and screen?",
+          "vi": "Bạn đến lúc sáu giờ giúp sắp ghế và màn hình được không?",
+        },
+      ],
+  }
+- {
+    "slug": "pack-up-phr",
+    "lemma": "pack up",
+    "pos": "phrasal_verb",
+    "kind": "phrasal",
+    "cefr": "B1",
+    "topic": "cities",
+    "ipa": "/pæk ˈʌp/",
+    "def": "To put things away after an event has finished.",
+    "vi": "dọn dẹp, thu dọn",
+    "examples":
+      [
+        {
+          "en": "Everyone helped pack up after the last talk.",
+          "vi": "Mọi người cùng thu dọn sau bài nói cuối cùng.",
+        },
+      ],
+  }
+- {
+    "slug": "backup-plan-n",
+    "lemma": "backup plan",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "cities",
+    "ipa": "/ˈbækʌp plæn/",
+    "def": "A second plan you can use if the first one fails.",
+    "vi": "phương án dự phòng",
+    "examples":
+      [
+        {
+          "en": "Our backup plan is to move the talk online if it storms.",
+          "vi": "Phương án dự phòng là chuyển bài nói lên online nếu có bão.",
+        },
+      ],
+  }
+# Set 8: Community guidelines
+- {
+    "slug": "code-of-conduct-n",
+    "lemma": "code of conduct",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "cities",
+    "ipa": "/ˌkəʊd əv ˈkɒndʌkt/",
+    "def": "A set of written rules about how people in a group should behave.",
+    "vi": "bộ quy tắc ứng xử",
+    "examples":
+      [
+        {
+          "en": "All attendees must follow our code of conduct.",
+          "vi": "Mọi người tham dự phải tuân thủ bộ quy tắc ứng xử của tụi mình.",
+        },
+      ],
+  }
+- {
+    "slug": "harassment-n",
+    "lemma": "harassment",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "cities",
+    "ipa": "/ˈhærəsmənt/",
+    "def": "Behaviour that repeatedly upsets, frightens, or attacks someone.",
+    "vi": "quấy rối",
+    "examples":
+      [
+        {
+          "en": "Harassment of any kind will not be accepted.",
+          "vi": "Mọi hình thức quấy rối đều không được chấp nhận.",
+        },
+      ],
+  }
+- {
+    "slug": "inclusive-adj",
+    "lemma": "inclusive",
+    "pos": "adjective",
+    "cefr": "C1",
+    "topic": "cities",
+    "ipa": "/ɪnˈkluːsɪv/",
+    "def": "Making everyone feel they are welcome and can take part.",
+    "vi": "hòa nhập, bao trùm",
+    "examples":
+      [
+        {
+          "en": "We use inclusive language in our docs and talks.",
+          "vi": "Tụi mình dùng ngôn ngữ hòa nhập trong tài liệu và bài nói.",
+        },
+      ],
+  }
+- {
+    "slug": "respectful-adj",
+    "lemma": "respectful",
+    "pos": "adjective",
+    "cefr": "B1",
+    "topic": "cities",
+    "ipa": "/rɪˈspektfl/",
+    "def": "Showing that you value other people and their opinions.",
+    "vi": "tôn trọng",
+    "examples":
+      [
+        {
+          "en": "Please be respectful, even when you disagree.",
+          "vi": "Hãy tôn trọng người khác, kể cả khi bạn không đồng ý.",
+        },
+      ],
+  }
+- {
+    "slug": "moderator-n",
+    "lemma": "moderator",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "cities",
+    "ipa": "/ˈmɒdəreɪtə/",
+    "def": "A person who watches an online group and makes sure people follow the rules.",
+    "vi": "người điều phối, quản trị viên",
+    "examples":
+      [
+        {
+          "en": "A moderator removed the post because it broke the rules.",
+          "vi": "Người điều phối đã gỡ bài đăng vì nó vi phạm quy định.",
+        },
+      ],
+  }
+- {
+    "slug": "report-v",
+    "lemma": "report",
+    "pos": "verb",
+    "cefr": "B1",
+    "topic": "cities",
+    "ipa": "/rɪˈpɔːt/",
+    "def": "To tell a person in charge about something bad that has happened.",
+    "vi": "báo cáo, phản ánh",
+    "examples":
+      [
+        {
+          "en": "You can report a message by clicking the three dots.",
+          "vi": "Bạn có thể báo cáo một tin nhắn bằng cách bấm vào ba dấu chấm.",
+        },
+      ],
+  }
+- {
+    "slug": "ban-v",
+    "lemma": "ban",
+    "pos": "verb",
+    "cefr": "B2",
+    "topic": "cities",
+    "ipa": "/bæn/",
+    "def": "To officially stop someone from taking part in something.",
+    "vi": "cấm",
+    "examples":
+      [
+        {
+          "en": "Users who keep posting ads will be banned.",
+          "vi": "Người dùng cứ đăng quảng cáo sẽ bị cấm.",
+        },
+      ],
+  }
+- {
+    "slug": "warning-n",
+    "lemma": "warning",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "cities",
+    "ipa": "/ˈwɔːnɪŋ/",
+    "def": "A message telling someone that they will be punished if they do something again.",
+    "vi": "lời cảnh cáo",
+    "examples":
+      [
+        {
+          "en": "First, we give a private warning.",
+          "vi": "Đầu tiên, tụi mình gửi một lời cảnh cáo riêng.",
+        },
+      ],
+  }
+- {
+    "slug": "off-topic-adj",
+    "lemma": "off-topic",
+    "pos": "adjective",
+    "cefr": "B2",
+    "topic": "cities",
+    "ipa": "/ˌɒf ˈtɒpɪk/",
+    "def": "Not related to the subject being discussed.",
+    "vi": "lạc đề",
+    "examples":
+      [
+        {
+          "en": "Please move off-topic chat to the #random channel.",
+          "vi": "Vui lòng chuyển các tin nhắn lạc đề sang kênh #random.",
+        },
+      ],
+  }
+- {
+    "slug": "self-promotion-n",
+    "lemma": "self-promotion",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "cities",
+    "ipa": "/ˌself prəˈməʊʃn/",
+    "def": "Advertising your own products or services.",
+    "vi": "tự quảng cáo",
+    "examples":
+      [
+        {
+          "en": "Too much self-promotion is not allowed in the help channel.",
+          "vi": "Không được tự quảng cáo quá nhiều trong kênh hỏi đáp.",
+        },
+      ],
+  }
+- {
+    "slug": "constructive-adj",
+    "lemma": "constructive",
+    "pos": "adjective",
+    "cefr": "B2",
+    "topic": "cities",
+    "ipa": "/kənˈstrʌktɪv/",
+    "def": "Helpful and meant to make something better.",
+    "vi": "mang tính xây dựng",
+    "examples":
+      [
+        {
+          "en": "Keep your feedback constructive and specific.",
+          "vi": "Hãy giữ góp ý mang tính xây dựng và cụ thể.",
+        },
+      ],
+  }
+- {
+    "slug": "tone-n",
+    "lemma": "tone",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "cities",
+    "ipa": "/təʊn/",
+    "def": "The feeling a piece of writing or speech gives, for example friendly or angry.",
+    "vi": "giọng điệu",
+    "examples":
+      [
+        {
+          "en": "The tone of your reply sounded a bit harsh.",
+          "vi": "Giọng điệu câu trả lời của bạn nghe hơi gay gắt.",
+        },
+      ],
+  }
+- {
+    "slug": "assume-good-faith-phr",
+    "lemma": "assume good faith",
+    "pos": "phrase",
+    "kind": "phrase",
+    "cefr": "C1",
+    "topic": "cities",
+    "ipa": "/əˌsjuːm ɡʊd ˈfeɪθ/",
+    "def": "To believe that other people mean well, even when they make mistakes.",
+    "vi": "tin vào thiện ý của người khác",
+    "examples":
+      [
+        {
+          "en": "Assume good faith: most rude-sounding questions come from stress.",
+          "vi": "Hãy tin vào thiện ý: phần lớn câu hỏi nghe có vẻ thô là do căng thẳng.",
+        },
+      ],
+  }
+- {
+    "slug": "welcoming-adj",
+    "lemma": "welcoming",
+    "pos": "adjective",
+    "cefr": "B2",
+    "topic": "cities",
+    "ipa": "/ˈwelkəmɪŋ/",
+    "def": "Friendly to people who arrive or join.",
+    "vi": "thân thiện, niềm nở",
+    "examples":
+      [
+        {
+          "en": "We want the forum to feel welcoming to beginners.",
+          "vi": "Tụi mình muốn diễn đàn tạo cảm giác thân thiện với người mới.",
+        },
+      ],
+  }
+- {
+    "slug": "enforce-v",
+    "lemma": "enforce",
+    "pos": "verb",
+    "cefr": "C1",
+    "topic": "cities",
+    "ipa": "/ɪnˈfɔːs/",
+    "def": "To make sure that people obey a rule.",
+    "vi": "thực thi (quy định)",
+    "examples":
+      [
+        {
+          "en": "The organisers enforce the rules at every event.",
+          "vi": "Ban tổ chức thực thi quy định ở mọi sự kiện.",
+        },
+      ],
+  }
+- {
+    "slug": "violation-n",
+    "lemma": "violation",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "cities",
+    "ipa": "/ˌvaɪəˈleɪʃn/",
+    "def": "An action that breaks a rule.",
+    "vi": "sự vi phạm",
+    "examples":
+      [
+        {
+          "en": "Sharing someone's private data is a serious violation.",
+          "vi": "Chia sẻ dữ liệu cá nhân của người khác là vi phạm nghiêm trọng.",
+        },
+      ],
+  }
+- {
+    "slug": "discrimination-n",
+    "lemma": "discrimination",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "cities",
+    "ipa": "/dɪˌskrɪmɪˈneɪʃn/",
+    "def": "Treating a person unfairly because of their gender, age, race, or similar.",
+    "vi": "sự phân biệt đối xử",
+    "examples":
+      [
+        {
+          "en": "There is no place for discrimination in this community.",
+          "vi": "Không có chỗ cho sự phân biệt đối xử trong cộng đồng này.",
+        },
+      ],
+  }
+- {
+    "slug": "safe-space-n",
+    "lemma": "safe space",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "cities",
+    "ipa": "/ˌseɪf ˈspeɪs/",
+    "def": "A place where people can speak without fear of being attacked or judged.",
+    "vi": "không gian an toàn",
+    "examples":
+      [
+        {
+          "en": "The beginners' channel is a safe space for any question.",
+          "vi": "Kênh cho người mới là không gian an toàn cho mọi câu hỏi.",
+        },
+      ],
+  }
+- {
+    "slug": "flag-v",
+    "lemma": "flag",
+    "pos": "verb",
+    "cefr": "B2",
+    "topic": "cities",
+    "ipa": "/flæɡ/",
+    "def": "To mark a post so that moderators will look at it.",
+    "vi": "gắn cờ, đánh dấu (để xem xét)",
+    "examples":
+      [
+        {
+          "en": "I flagged the comment because it included a personal attack.",
+          "vi": "Mình đã gắn cờ bình luận vì nó có công kích cá nhân.",
+        },
+      ],
+  }
+- {
+    "slug": "derail-v",
+    "lemma": "derail",
+    "pos": "verb",
+    "cefr": "C1",
+    "topic": "cities",
+    "ipa": "/dɪˈreɪl/",
+    "def": "To make a discussion go away from its main subject.",
+    "vi": "làm lệch hướng (thảo luận)",
+    "examples":
+      [
+        {
+          "en": "Please don't derail the thread with editor wars.",
+          "vi": "Đừng làm lệch hướng thảo luận bằng mấy cuộc tranh cãi về editor nhé.",
+        },
+      ],
+  }
+- {
+    "slug": "etiquette-n",
+    "lemma": "etiquette",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "cities",
+    "ipa": "/ˈetɪket/",
+    "def": "The accepted rules of polite behaviour in a group.",
+    "vi": "phép lịch sự, nghi thức",
+    "examples":
+      [
+        {
+          "en": "Good chat etiquette: reply in threads, not in the main channel.",
+          "vi": "Phép lịch sự khi chat: trả lời trong thread, không phải kênh chính.",
+        },
+      ],
+  }
+- {
+    "slug": "consent-n",
+    "lemma": "consent",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "cities",
+    "ipa": "/kənˈsent/",
+    "def": "Permission for something to happen.",
+    "vi": "sự đồng ý",
+    "examples":
+      [
+        {
+          "en": "Ask for consent before taking photos of attendees.",
+          "vi": "Hãy xin sự đồng ý trước khi chụp ảnh người tham dự.",
+        },
+      ],
+  }
+- {
+    "slug": "ground-rules-n",
+    "lemma": "ground rules",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "cities",
+    "ipa": "/ˈɡraʊnd ruːlz/",
+    "def": "Basic rules that everyone agrees to follow in a group.",
+    "vi": "quy tắc cơ bản",
+    "examples":
+      [
+        {
+          "en": "Before the Q&A, the host repeated the ground rules.",
+          "vi": "Trước phần hỏi đáp, người dẫn nhắc lại các quy tắc cơ bản.",
+        },
+      ],
+  }
+- {
+    "slug": "de-escalate-v",
+    "lemma": "de-escalate",
+    "pos": "verb",
+    "cefr": "C1",
+    "topic": "cities",
+    "ipa": "/ˌdiː ˈeskəleɪt/",
+    "def": "To make a tense situation calmer.",
+    "vi": "làm dịu (căng thẳng)",
+    "examples":
+      [
+        {
+          "en": "The moderator stepped in to de-escalate the argument.",
+          "vi": "Người điều phối can thiệp để làm dịu cuộc tranh cãi.",
+        },
+      ],
+  }
+# Set 9: Following up after an event
+- {
+    "slug": "follow-up-n",
+    "lemma": "follow-up",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "cities",
+    "ipa": "/ˈfɒləʊ ʌp/",
+    "def": "A message or action that continues something that happened earlier.",
+    "vi": "sự liên hệ tiếp theo",
+    "examples":
+      [
+        {
+          "en": "I sent a quick follow-up the morning after the meetup.",
+          "vi": "Mình gửi một tin liên hệ ngắn vào sáng hôm sau buổi meetup.",
+        },
+      ],
+  }
+- {
+    "slug": "catch-up-n",
+    "lemma": "catch-up",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "cities",
+    "ipa": "/ˈkætʃ ʌp/",
+    "def": "An informal meeting to talk about what has happened recently.",
+    "vi": "buổi gặp hỏi thăm",
+    "examples":
+      [
+        {
+          "en": "Would you like a coffee catch-up next week?",
+          "vi": "Tuần sau bạn có muốn đi cà phê trò chuyện không?",
+        },
+      ],
+  }
+- {
+    "slug": "loop-in-phr-cities",
+    "lemma": "loop in",
+    "pos": "phrasal_verb",
+    "kind": "phrasal",
+    "cefr": "C1",
+    "topic": "cities",
+    "ipa": "/luːp ˈɪn/",
+    "def": "To add someone to a conversation so they know what is happening.",
+    "vi": "thêm vào (cuộc trao đổi)",
+    "examples":
+      [
+        {
+          "en": "I'll loop in my colleague, who knows more about the API.",
+          "vi": "Mình sẽ thêm đồng nghiệp vào, người hiểu rõ API hơn.",
+        },
+      ],
+  }
+- {
+    "slug": "reconnect-v",
+    "lemma": "reconnect",
+    "pos": "verb",
+    "cefr": "B2",
+    "topic": "cities",
+    "ipa": "/ˌriːkəˈnekt/",
+    "def": "To contact someone again after some time.",
+    "vi": "kết nối lại",
+    "examples":
+      [
+        {
+          "en": "It was great to reconnect with old classmates at the conference.",
+          "vi": "Thật vui khi kết nối lại với bạn học cũ ở hội nghị.",
+        },
+      ],
+  }
+- {
+    "slug": "recap-n",
+    "lemma": "recap",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "cities",
+    "ipa": "/ˈriːkæp/",
+    "def": "A short summary of the main points.",
+    "vi": "bản tóm tắt",
+    "examples":
+      [
+        {
+          "en": "Here's a quick recap of what we discussed.",
+          "vi": "Đây là tóm tắt nhanh những gì tụi mình đã trao đổi.",
+        },
+      ],
+  }
+- {
+    "slug": "as-promised-phr",
+    "lemma": "as promised",
+    "pos": "phrase",
+    "kind": "phrase",
+    "cefr": "B2",
+    "topic": "cities",
+    "ipa": "/æz ˈprɒmɪst/",
+    "def": "Used when you do something you said you would do.",
+    "vi": "như đã hứa",
+    "examples":
+      [
+        {
+          "en": "As promised, here is the link to the repo.",
+          "vi": "Như đã hứa, đây là link tới repo.",
+        },
+      ],
+  }
+- {
+    "slug": "great-chatting-phr",
+    "lemma": "it was great chatting",
+    "pos": "phrase",
+    "kind": "phrase",
+    "cefr": "B1",
+    "topic": "cities",
+    "ipa": "/ɪt wəz ˌɡreɪt ˈtʃætɪŋ/",
+    "def": "A friendly way to start a message after talking to someone.",
+    "vi": "rất vui được trò chuyện",
+    "examples":
+      [
+        {
+          "en": "Hi Nam, it was great chatting with you on Saturday!",
+          "vi": "Chào Nam, rất vui được trò chuyện với bạn hôm thứ Bảy!",
+        },
+      ],
+  }
+- {
+    "slug": "business-card-n",
+    "lemma": "business card",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B1",
+    "topic": "cities",
+    "ipa": "/ˈbɪznəs kɑːd/",
+    "def": "A small card with your name, job, and contact information.",
+    "vi": "danh thiếp",
+    "examples":
+      [
+        {
+          "en": "Fewer people use business cards now; most share a QR code.",
+          "vi": "Giờ ít người dùng danh thiếp; phần lớn chia sẻ mã QR.",
+        },
+      ],
+  }
+- {
+    "slug": "contact-details-n",
+    "lemma": "contact details",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B1",
+    "topic": "cities",
+    "ipa": "/ˈkɒntækt diːteɪlz/",
+    "def": "Information such as your email or phone number that people use to reach you.",
+    "vi": "thông tin liên hệ",
+    "examples":
+      [
+        {
+          "en": "Could you send me your contact details?",
+          "vi": "Bạn gửi mình thông tin liên hệ được không?",
+        },
+      ],
+  }
+- {
+    "slug": "connection-request-n",
+    "lemma": "connection request",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "cities",
+    "ipa": "/kəˈnekʃn rɪˌkwest/",
+    "def": "An invitation on a professional website to join someone's contacts.",
+    "vi": "lời mời kết nối",
+    "examples":
+      [
+        {
+          "en": "Add a short note to your connection request so they remember you.",
+          "vi": "Thêm một lời nhắn ngắn vào lời mời kết nối để họ nhớ ra bạn.",
+        },
+      ],
+  }
+- {
+    "slug": "intro-email-n",
+    "lemma": "intro email",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "cities",
+    "ipa": "/ˈɪntrəʊ iːmeɪl/",
+    "def": "An email that introduces two people who might help each other.",
+    "vi": "email giới thiệu (hai người)",
+    "examples":
+      [
+        {
+          "en": "I'll write an intro email to you and our tech lead.",
+          "vi": "Mình sẽ viết email giới thiệu bạn với tech lead của tụi mình.",
+        },
+      ],
+  }
+- {
+    "slug": "warm-introduction-n",
+    "lemma": "warm introduction",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "cities",
+    "ipa": "/ˌwɔːm ˌɪntrəˈdʌkʃn/",
+    "def": "An introduction made by someone who knows both people.",
+    "vi": "lời giới thiệu qua người quen",
+    "examples":
+      [
+        {
+          "en": "A warm introduction usually gets a faster reply than a cold email.",
+          "vi": "Lời giới thiệu qua người quen thường được trả lời nhanh hơn email lạ.",
+        },
+      ],
+  }
+- {
+    "slug": "cold-message-n",
+    "lemma": "cold message",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "cities",
+    "ipa": "/ˌkəʊld ˈmesɪdʒ/",
+    "def": "A message to a person you have never met or spoken to.",
+    "vi": "tin nhắn gửi người lạ",
+    "examples":
+      [
+        {
+          "en": "Keep a cold message short and say why you're writing.",
+          "vi": "Giữ tin nhắn gửi người lạ thật ngắn và nói rõ lý do bạn viết.",
+        },
+      ],
+  }
+- {
+    "slug": "next-step-n",
+    "lemma": "next step",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B1",
+    "topic": "cities",
+    "ipa": "/ˌnekst ˈstep/",
+    "def": "The thing you will do after what you have just done.",
+    "vi": "bước tiếp theo",
+    "examples":
+      [
+        {
+          "en": "As a next step, could we schedule a short call?",
+          "vi": "Bước tiếp theo, mình hẹn một cuộc gọi ngắn được không?",
+        },
+      ],
+  }
+- {
+    "slug": "keep-in-touch-phr",
+    "lemma": "keep in touch",
+    "pos": "phrase",
+    "kind": "phrase",
+    "cefr": "B1",
+    "topic": "cities",
+    "ipa": "/kiːp ɪn ˈtʌtʃ/",
+    "def": "To continue to talk to or write to someone.",
+    "vi": "giữ liên lạc",
+    "examples":
+      [
+        {
+          "en": "Let's keep in touch — I'll be at the next meetup too.",
+          "vi": "Mình giữ liên lạc nhé — mình cũng sẽ đến buổi meetup tới.",
+        },
+      ],
+  }
+- {
+    "slug": "drop-a-line-phr",
+    "lemma": "drop someone a line",
+    "pos": "phrase",
+    "kind": "phrase",
+    "cefr": "B2",
+    "topic": "cities",
+    "ipa": "/drɒp ... ə ˈlaɪn/",
+    "def": "To send someone a short, informal message.",
+    "vi": "nhắn cho ai vài dòng",
+    "examples":
+      [
+        {
+          "en": "Drop me a line if you ever visit Hanoi.",
+          "vi": "Nhắn mình vài dòng nếu bạn có dịp ra Hà Nội nhé.",
+        },
+      ],
+  }
+- {
+    "slug": "slides-n",
+    "lemma": "slides",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "cities",
+    "ipa": "/slaɪdz/",
+    "def": "The pages of a presentation shown on a screen.",
+    "vi": "slide trình chiếu",
+    "examples":
+      [
+        {
+          "en": "The speakers' slides are now on the meetup page.",
+          "vi": "Slide của các diễn giả đã có trên trang meetup.",
+        },
+      ],
+  }
+- {
+    "slug": "highlight-n",
+    "lemma": "highlight",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "cities",
+    "ipa": "/ˈhaɪlaɪt/",
+    "def": "The best or most interesting part of something.",
+    "vi": "điểm nổi bật",
+    "examples":
+      [
+        {
+          "en": "The highlight for me was the talk on caching.",
+          "vi": "Điểm nổi bật với mình là bài nói về caching.",
+        },
+      ],
+  }
+- {
+    "slug": "thank-you-note-n",
+    "lemma": "thank-you note",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B1",
+    "topic": "cities",
+    "ipa": "/ˈθæŋk juː nəʊt/",
+    "def": "A short message to thank someone.",
+    "vi": "lời nhắn cảm ơn",
+    "examples":
+      [
+        {
+          "en": "Send a thank-you note to the host within a day.",
+          "vi": "Gửi lời nhắn cảm ơn chủ nhà trong vòng một ngày.",
+        },
+      ],
+  }
+- {
+    "slug": "mention-v",
+    "lemma": "mention",
+    "pos": "verb",
+    "cefr": "B1",
+    "topic": "cities",
+    "ipa": "/ˈmenʃn/",
+    "def": "To say something briefly.",
+    "vi": "nhắc đến",
+    "examples":
+      [
+        {
+          "en": "You mentioned a job opening on your team — is it still open?",
+          "vi": "Bạn có nhắc đến một vị trí đang tuyển ở team bạn — còn tuyển không?",
+        },
+      ],
+  }
+- {
+    "slug": "refer-to-phr",
+    "lemma": "refer to",
+    "pos": "phrasal_verb",
+    "kind": "phrasal",
+    "cefr": "B2",
+    "topic": "cities",
+    "ipa": "/rɪˈfɜː tə/",
+    "def": "To talk about or point to something.",
+    "vi": "đề cập đến, nhắc tới",
+    "examples":
+      [
+        {
+          "en": "The article I referred to is linked below.",
+          "vi": "Bài viết mình nhắc tới có link ở bên dưới.",
+        },
+      ],
+  }
+- {
+    "slug": "circle-back-phr",
+    "lemma": "circle back",
+    "pos": "phrasal_verb",
+    "kind": "phrasal",
+    "cefr": "C1",
+    "topic": "cities",
+    "ipa": "/ˌsɜːkl ˈbæk/",
+    "def": "To return to a subject later (business English).",
+    "vi": "quay lại (vấn đề) sau",
+    "examples":
+      [
+        {
+          "en": "Let me circle back after I talk to my manager.",
+          "vi": "Để mình quay lại chuyện này sau khi nói với quản lý nhé.",
+        },
+      ],
+  }
+- {
+    "slug": "prompt-adj",
+    "lemma": "prompt",
+    "pos": "adjective",
+    "cefr": "C1",
+    "topic": "cities",
+    "ipa": "/prɒmpt/",
+    "def": "Done quickly, without delay.",
+    "vi": "nhanh chóng, kịp thời",
+    "examples": [{ "en": "Thanks for the prompt reply!", "vi": "Cảm ơn bạn đã trả lời nhanh!" }],
+  }
+- {
+    "slug": "personalised-adj",
+    "lemma": "personalised",
+    "pos": "adjective",
+    "cefr": "B2",
+    "topic": "cities",
+    "ipa": "/ˈpɜːsənəlaɪzd/",
+    "def": "Written or made for one specific person.",
+    "vi": "được cá nhân hóa",
+    "examples":
+      [
+        {
+          "en": "A personalised message works better than a copied template.",
+          "vi": "Một tin nhắn cá nhân hóa hiệu quả hơn mẫu sao chép.",
+        },
+      ],
+  }
+- {
+    "slug": "gesture-n",
+    "lemma": "gesture",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "cities",
+    "ipa": "/ˈdʒestʃə/",
+    "def": "Something you do to show a feeling, such as thanks.",
+    "vi": "cử chỉ (thể hiện thiện ý)",
+    "examples":
+      [
+        {
+          "en": "Sharing the photos was a kind gesture.",
+          "vi": "Chia sẻ ảnh là một cử chỉ tử tế.",
+        },
+      ],
+  }
+- {
+    "slug": "gratitude-n",
+    "lemma": "gratitude",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "cities",
+    "ipa": "/ˈɡrætɪtjuːd/",
+    "def": "The feeling of being thankful.",
+    "vi": "lòng biết ơn",
+    "examples":
+      [
+        {
+          "en": "I want to express my gratitude to all the volunteers.",
+          "vi": "Mình muốn bày tỏ lòng biết ơn tới tất cả tình nguyện viên.",
+        },
+      ],
+  }
+- {
+    "slug": "nudge-n",
+    "lemma": "nudge",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "cities",
+    "ipa": "/nʌdʒ/",
+    "def": "A gentle reminder.",
+    "vi": "lời nhắc khéo",
+    "examples":
+      [
+        {
+          "en": "Just a gentle nudge about the slides you offered to share.",
+          "vi": "Chỉ nhắc khéo về bộ slide bạn bảo sẽ chia sẻ thôi.",
+        },
+      ],
+  }
+- {
+    "slug": "attach-v",
+    "lemma": "attach",
+    "pos": "verb",
+    "cefr": "B1",
+    "topic": "cities",
+    "ipa": "/əˈtætʃ/",
+    "def": "To add a file to an email or message.",
+    "vi": "đính kèm",
+    "examples":
+      [
+        {
+          "en": "I've attached the photos from the event.",
+          "vi": "Mình đã đính kèm ảnh của sự kiện.",
+        },
+      ],
+  }
+# Set 10: Building a professional network
+- {
+    "slug": "contact-n",
+    "lemma": "contact",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "cities",
+    "ipa": "/ˈkɒntækt/",
+    "def": "A person you know who may be able to help you, especially at work.",
+    "vi": "người quen (trong công việc)",
+    "examples":
+      [
+        {
+          "en": "She has many contacts in the gaming industry.",
+          "vi": "Cô ấy có nhiều người quen trong ngành game.",
+        },
+      ],
+  }
+- {
+    "slug": "industry-event-n",
+    "lemma": "industry event",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "cities",
+    "ipa": "/ˈɪndəstri ɪˌvent/",
+    "def": "A conference or meeting for people who work in the same business area.",
+    "vi": "sự kiện trong ngành",
+    "examples":
+      [
+        {
+          "en": "I try to go to one industry event every quarter.",
+          "vi": "Mình cố đi một sự kiện trong ngành mỗi quý.",
+        },
+      ],
+  }
+- {
+    "slug": "acquaintance-n",
+    "lemma": "acquaintance",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "cities",
+    "ipa": "/əˈkweɪntəns/",
+    "def": "A person you know a little but who is not a close friend.",
+    "vi": "người quen sơ",
+    "examples":
+      [
+        {
+          "en": "He's an acquaintance from a hackathon two years ago.",
+          "vi": "Anh ấy là người quen sơ từ một cuộc thi hackathon hai năm trước.",
+        },
+      ],
+  }
+- {
+    "slug": "sounding-board-n",
+    "lemma": "sounding board",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "cities",
+    "ipa": "/ˈsaʊndɪŋ bɔːd/",
+    "def": "A person you share ideas with to get an honest opinion.",
+    "vi": "người để tham khảo ý kiến",
+    "examples":
+      [
+        {
+          "en": "My former lead is my sounding board for career decisions.",
+          "vi": "Trưởng nhóm cũ là người mình tham khảo ý kiến khi quyết định nghề nghiệp.",
+        },
+      ],
+  }
+- {
+    "slug": "protege-n",
+    "lemma": "protégé",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "cities",
+    "ipa": "/ˈprɒtəʒeɪ/",
+    "def": "A young or less experienced person who is helped and guided by someone senior.",
+    "vi": "người được dìu dắt",
+    "examples":
+      [
+        {
+          "en": "Several of her protégés now lead their own teams.",
+          "vi": "Nhiều người được cô ấy dìu dắt giờ đã dẫn dắt team riêng.",
+        },
+      ],
+  }
+- {
+    "slug": "peer-n",
+    "lemma": "peer",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "cities",
+    "ipa": "/pɪə/",
+    "def": "A person at the same level as you, in age or work.",
+    "vi": "người ngang hàng, đồng nghiệp cùng cấp",
+    "examples":
+      [
+        {
+          "en": "Talking to peers at other companies helps me compare salaries.",
+          "vi": "Nói chuyện với người cùng cấp ở công ty khác giúp mình so sánh lương.",
+        },
+      ],
+  }
+- {
+    "slug": "vouch-for-phr",
+    "lemma": "vouch for",
+    "pos": "phrasal_verb",
+    "kind": "phrasal",
+    "cefr": "C1",
+    "topic": "cities",
+    "ipa": "/ˈvaʊtʃ fə/",
+    "def": "To say that you know someone is good and can be trusted.",
+    "vi": "đảm bảo cho, bảo lãnh cho",
+    "examples":
+      [
+        {
+          "en": "I can vouch for him; we worked together for three years.",
+          "vi": "Mình có thể đảm bảo cho anh ấy; tụi mình làm cùng nhau ba năm.",
+        },
+      ],
+  }
+- {
+    "slug": "testimonial-n",
+    "lemma": "testimonial",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "cities",
+    "ipa": "/ˌtestɪˈməʊniəl/",
+    "def": "A written statement praising someone's work.",
+    "vi": "lời nhận xét, lời chứng thực",
+    "examples":
+      [
+        {
+          "en": "A short testimonial from a client made my profile stronger.",
+          "vi": "Một lời nhận xét ngắn từ khách hàng làm hồ sơ của mình mạnh hơn.",
+        },
+      ],
+  }
+- {
+    "slug": "put-in-touch-phr",
+    "lemma": "put someone in touch",
+    "pos": "phrase",
+    "kind": "phrase",
+    "cefr": "B2",
+    "topic": "cities",
+    "ipa": "/pʊt ... ɪn ˈtʌtʃ/",
+    "def": "To give someone the contact details of another person so they can talk.",
+    "vi": "kết nối ai với ai",
+    "examples":
+      [
+        {
+          "en": "I can put you in touch with a recruiter I trust.",
+          "vi": "Mình có thể kết nối bạn với một nhà tuyển dụng mình tin.",
+        },
+      ],
+  }
+- {
+    "slug": "rapport-n",
+    "lemma": "rapport",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "cities",
+    "ipa": "/ræˈpɔː/",
+    "def": "A good, friendly relationship where people understand each other.",
+    "vi": "sự hòa hợp, mối quan hệ tốt",
+    "examples":
+      [
+        {
+          "en": "Building rapport takes time, not just one coffee.",
+          "vi": "Xây dựng quan hệ tốt cần thời gian, không chỉ một buổi cà phê.",
+        },
+      ],
+  }
+- {
+    "slug": "mutual-adj",
+    "lemma": "mutual",
+    "pos": "adjective",
+    "cefr": "B2",
+    "topic": "cities",
+    "ipa": "/ˈmjuːtʃuəl/",
+    "def": "Shared by two or more people.",
+    "vi": "chung, qua lại",
+    "examples":
+      [
+        {
+          "en": "We have a mutual friend who works at the same start-up.",
+          "vi": "Tụi mình có một người bạn chung làm ở cùng start-up.",
+        },
+      ],
+  }
+- {
+    "slug": "common-ground-n",
+    "lemma": "common ground",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "cities",
+    "ipa": "/ˌkɒmən ˈɡraʊnd/",
+    "def": "Interests or opinions that two people share.",
+    "vi": "điểm chung",
+    "examples":
+      [
+        {
+          "en": "We found common ground in our love of old game consoles.",
+          "vi": "Tụi mình tìm thấy điểm chung là cùng thích máy chơi game cũ.",
+        },
+      ],
+  }
+- {
+    "slug": "reciprocity-n",
+    "lemma": "reciprocity",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "cities",
+    "ipa": "/ˌresɪˈprɒsəti/",
+    "def": "Giving and receiving help in equal ways.",
+    "vi": "sự có qua có lại",
+    "examples":
+      [
+        {
+          "en": "Good networks are built on reciprocity, not only on asking.",
+          "vi": "Mạng lưới tốt được xây trên sự có qua có lại, không chỉ là nhờ vả.",
+        },
+      ],
+  }
+- {
+    "slug": "goodwill-n",
+    "lemma": "goodwill",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "cities",
+    "ipa": "/ˌɡʊdˈwɪl/",
+    "def": "Friendly feelings and trust toward a person or group.",
+    "vi": "thiện chí",
+    "examples":
+      [
+        {
+          "en": "Answering questions on the forum built a lot of goodwill.",
+          "vi": "Việc trả lời câu hỏi trên diễn đàn tạo được rất nhiều thiện chí.",
+        },
+      ],
+  }
+- {
+    "slug": "nurture-v",
+    "lemma": "nurture",
+    "pos": "verb",
+    "cefr": "C1",
+    "topic": "cities",
+    "ipa": "/ˈnɜːtʃə/",
+    "def": "To help something grow and develop over time.",
+    "vi": "vun đắp, nuôi dưỡng",
+    "examples":
+      [
+        {
+          "en": "Nurture your contacts by sharing useful articles now and then.",
+          "vi": "Vun đắp các mối quan hệ bằng cách thỉnh thoảng chia sẻ bài viết hữu ích.",
+        },
+      ],
+  }
+- {
+    "slug": "cultivate-v",
+    "lemma": "cultivate",
+    "pos": "verb",
+    "cefr": "C1",
+    "topic": "cities",
+    "ipa": "/ˈkʌltɪveɪt/",
+    "def": "To try hard to develop a relationship or skill.",
+    "vi": "xây dựng, trau dồi (có chủ đích)",
+    "examples":
+      [
+        {
+          "en": "He cultivated ties with local universities to find interns.",
+          "vi": "Anh ấy chủ động xây dựng quan hệ với các trường đại học để tìm thực tập sinh.",
+        },
+      ],
+  }
+- {
+    "slug": "visibility-n",
+    "lemma": "visibility",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "cities",
+    "ipa": "/ˌvɪzəˈbɪləti/",
+    "def": "How much other people notice you and your work.",
+    "vi": "mức độ được biết đến",
+    "examples":
+      [
+        {
+          "en": "Giving talks increased my visibility in the community.",
+          "vi": "Việc trình bày giúp mình được cộng đồng biết đến nhiều hơn.",
+        },
+      ],
+  }
+- {
+    "slug": "reputation-n",
+    "lemma": "reputation",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "cities",
+    "ipa": "/ˌrepjuˈteɪʃn/",
+    "def": "The opinion that people have of someone based on their past actions.",
+    "vi": "danh tiếng",
+    "examples":
+      [
+        {
+          "en": "She has a reputation for clear, kind code reviews.",
+          "vi": "Cô ấy nổi tiếng với những lần review code rõ ràng và tử tế.",
+        },
+      ],
+  }
+- {
+    "slug": "credibility-n",
+    "lemma": "credibility",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "cities",
+    "ipa": "/ˌkredəˈbɪləti/",
+    "def": "The quality of being believed and trusted.",
+    "vi": "sự tin cậy, uy tín",
+    "examples":
+      [
+        {
+          "en": "Showing real results gives your advice credibility.",
+          "vi": "Đưa ra kết quả thực tế giúp lời khuyên của bạn đáng tin hơn.",
+        },
+      ],
+  }
+- {
+    "slug": "personal-brand-n",
+    "lemma": "personal brand",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "cities",
+    "ipa": "/ˌpɜːsənl ˈbrænd/",
+    "def": "The image people have of you based on what you share and do publicly.",
+    "vi": "thương hiệu cá nhân",
+    "examples":
+      [
+        {
+          "en": "Writing a tech blog helped build my personal brand.",
+          "vi": "Viết blog công nghệ giúp mình xây dựng thương hiệu cá nhân.",
+        },
+      ],
+  }
+- {
+    "slug": "thought-leader-n",
+    "lemma": "thought leader",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "cities",
+    "ipa": "/ˈθɔːt ˌliːdə/",
+    "def": "A person whose ideas in a field are respected and followed by many others.",
+    "vi": "người dẫn dắt tư tưởng",
+    "examples":
+      [
+        {
+          "en": "You don't need to be a thought leader to share what you learned.",
+          "vi": "Bạn không cần là người dẫn dắt tư tưởng mới chia sẻ được điều mình học.",
+        },
+      ],
+  }
+- {
+    "slug": "alumni-n",
+    "lemma": "alumni",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "cities",
+    "ipa": "/əˈlʌmnaɪ/",
+    "def": "Former students of a school or former members of an organisation.",
+    "vi": "cựu sinh viên, cựu thành viên",
+    "examples":
+      [
+        {
+          "en": "The bootcamp's alumni group shares job posts every week.",
+          "vi": "Nhóm cựu học viên bootcamp chia sẻ tin tuyển dụng mỗi tuần.",
+        },
+      ],
+  }
+- {
+    "slug": "industry-n",
+    "lemma": "industry",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "cities",
+    "ipa": "/ˈɪndəstri/",
+    "def": "All the companies that do one type of business.",
+    "vi": "ngành",
+    "examples":
+      [
+        {
+          "en": "I'd like to move into the healthcare industry.",
+          "vi": "Mình muốn chuyển sang ngành y tế.",
+        },
+      ],
+  }
+- {
+    "slug": "ecosystem-n",
+    "lemma": "ecosystem",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "cities",
+    "ipa": "/ˈiːkəʊsɪstəm/",
+    "def": "A network of companies, people, and tools that depend on each other.",
+    "vi": "hệ sinh thái",
+    "examples":
+      [
+        {
+          "en": "The start-up ecosystem in Ho Chi Minh City is growing fast.",
+          "vi": "Hệ sinh thái start-up ở TP.HCM đang phát triển nhanh.",
+        },
+      ],
+  }
+- {
+    "slug": "grassroots-adj",
+    "lemma": "grassroots",
+    "pos": "adjective",
+    "cefr": "C1",
+    "topic": "cities",
+    "ipa": "/ˈɡrɑːsruːts/",
+    "def": "Started and run by ordinary members, not by big organisations.",
+    "vi": "từ cơ sở, tự phát",
+    "examples":
+      [
+        {
+          "en": "It began as a grassroots group of five students.",
+          "vi": "Nó bắt đầu là một nhóm tự phát của năm sinh viên.",
+        },
+      ],
+  }
+- {
+    "slug": "word-of-mouth-n",
+    "lemma": "word of mouth",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "cities",
+    "ipa": "/ˌwɜːd əv ˈmaʊθ/",
+    "def": "Information passed from person to person by talking.",
+    "vi": "truyền miệng",
+    "examples":
+      [
+        {
+          "en": "I found my last two jobs by word of mouth.",
+          "vi": "Mình tìm được hai công việc gần nhất nhờ truyền miệng.",
+        },
+      ],
+  }
+- {
+    "slug": "influential-adj",
+    "lemma": "influential",
+    "pos": "adjective",
+    "cefr": "C1",
+    "topic": "cities",
+    "ipa": "/ˌɪnfluˈenʃl/",
+    "def": "Having the power to affect what other people think or do.",
+    "vi": "có ảnh hưởng",
+    "examples":
+      [
+        {
+          "en": "His blog is influential among frontend developers.",
+          "vi": "Blog của anh ấy có ảnh hưởng trong giới developer frontend.",
+        },
+      ],
+  }
+- {
+    "slug": "genuine-adj",
+    "lemma": "genuine",
+    "pos": "adjective",
+    "cefr": "B2",
+    "topic": "cities",
+    "ipa": "/ˈdʒenjuɪn/",
+    "def": "Real and honest, not pretending.",
+    "vi": "chân thành",
+    "examples":
+      [
+        {
+          "en": "Show genuine interest in people's work, not only in their job title.",
+          "vi": "Hãy thật lòng quan tâm đến công việc của người khác, không chỉ chức danh của họ.",
+        },
+      ],
+  }
+- {
+    "slug": "down-to-earth-adj",
+    "lemma": "down-to-earth",
+    "pos": "adjective",
+    "cefr": "C1",
+    "topic": "cities",
+    "ipa": "/ˌdaʊn tu ˈɜːθ/",
+    "def": "Practical, friendly, and easy to talk to.",
+    "vi": "giản dị, dễ gần",
+    "examples":
+      [
+        {
+          "en": "Even the CTO was very down-to-earth at the meetup.",
+          "vi": "Ngay cả CTO cũng rất giản dị ở buổi meetup.",
+        },
+      ],
+  }
+- {
+    "slug": "give-back-phr",
+    "lemma": "give back",
+    "pos": "phrasal_verb",
+    "kind": "phrasal",
+    "cefr": "B2",
+    "topic": "cities",
+    "ipa": "/ɡɪv ˈbæk/",
+    "def": "To help a community that has helped you.",
+    "vi": "đóng góp lại (cho cộng đồng)",
+    "examples":
+      [
+        {
+          "en": "I mentor students now because I want to give back.",
+          "vi": "Giờ mình hướng dẫn sinh viên vì muốn đóng góp lại cho cộng đồng.",
+        },
+      ],
+  }
+- {
+    "slug": "pay-it-forward-phr",
+    "lemma": "pay it forward",
+    "pos": "phrase",
+    "kind": "phrase",
+    "cefr": "C1",
+    "topic": "cities",
+    "ipa": "/ˌpeɪ ɪt ˈfɔːwəd/",
+    "def": "To repay help you received by helping someone else.",
+    "vi": "giúp người khác như mình từng được giúp",
+    "examples":
+      [
+        {
+          "en": "Someone reviewed my first PR, so I pay it forward by reviewing beginners' code.",
+          "vi": "Từng có người review PR đầu tiên của mình nên giờ mình review code cho người mới.",
+        },
+      ],
+  }
+- {
+    "slug": "on-the-radar-phr",
+    "lemma": "on someone's radar",
+    "pos": "phrase",
+    "kind": "phrase",
+    "cefr": "C1",
+    "topic": "cities",
+    "ipa": "/ɒn ... ˈreɪdɑː/",
+    "def": "Noticed and remembered by someone.",
+    "vi": "được ai đó để ý tới",
+    "examples":
+      [
+        {
+          "en": "Sharing your work keeps you on recruiters' radar.",
+          "vi": "Chia sẻ công việc giúp bạn luôn được các nhà tuyển dụng để ý.",
+        },
+      ],
+  }
+- {
+    "slug": "hiring-manager-n",
+    "lemma": "hiring manager",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "cities",
+    "ipa": "/ˈhaɪərɪŋ ˌmænɪdʒə/",
+    "def": "The person who leads the team with the open job and decides who to hire.",
+    "vi": "quản lý tuyển dụng",
+    "examples":
+      [
+        {
+          "en": "I met the hiring manager at a meetup before I applied.",
+          "vi": "Mình gặp quản lý tuyển dụng ở một buổi meetup trước khi ứng tuyển.",
+        },
+      ],
+  }
+- {
+    "slug": "recruiter-n",
+    "lemma": "recruiter",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "cities",
+    "ipa": "/rɪˈkruːtə/",
+    "def": "A person whose job is to find people to fill jobs.",
+    "vi": "nhà tuyển dụng",
+    "examples":
+      [
+        {
+          "en": "A recruiter messaged me after seeing my conference talk.",
+          "vi": "Một nhà tuyển dụng nhắn cho mình sau khi xem bài nói của mình ở hội nghị.",
+        },
+      ],
+  }
+- {
+    "slug": "opportunity-n",
+    "lemma": "opportunity",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "cities",
+    "ipa": "/ˌɒpəˈtjuːnəti/",
+    "def": "A chance to do something good, such as a new job.",
+    "vi": "cơ hội",
+    "examples":
+      [
+        {
+          "en": "Many of the best opportunities are never posted online.",
+          "vi": "Nhiều cơ hội tốt nhất không bao giờ được đăng lên mạng.",
+        },
+      ],
+  }
+- {
+    "slug": "long-term-adj",
+    "lemma": "long-term",
+    "pos": "adjective",
+    "cefr": "B2",
+    "topic": "cities",
+    "ipa": "/ˌlɒŋ ˈtɜːm/",
+    "def": "Lasting or planned for a long time in the future.",
+    "vi": "lâu dài",
+    "examples":
+      [
+        {
+          "en": "Think of networking as a long-term habit, not a quick fix.",
+          "vi": "Hãy xem việc kết nối là thói quen lâu dài, không phải giải pháp tức thời.",
+        },
+      ],
+  }

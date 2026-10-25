@@ -4,10 +4,284 @@ sort: 7
 code: T07
 kind: topic
 cefr: B1
-status: draft
-title: { en: "Money & Shopping", vi: "Tiền bạc & mua sắm" }
-summary_vi: "Từ vựng về chi tiêu, tiết kiệm, ngân hàng, giảm giá, hoàn tiền và mua sắm trực tuyến."
+status: published
+title:
+  en: Budgets, Billing & Developer Purchases
+  vi: Ngân sách, hoá đơn & mua sắm công cụ
+summary_vi: Nói về giá, chi phí sử dụng, hoá đơn và gói dịch vụ. Tình huống gắn
+  với mua thiết bị, thuê công cụ và giải thích chi phí cho một dự án nhỏ.
 can_do:
-  - "Nói về chi tiêu, tiết kiệm và ngân sách cá nhân"
-  - "Hỏi giá, đổi trả hàng và xử lý vấn đề khi mua online"
-lessons: []
+  - So sánh chi phí công cụ và gói dịch vụ
+  - Giải thích hoá đơn hoặc yêu cầu thanh toán sai
+lessons:
+  - slug: t07-l1
+    kind: vocab
+    title: { en: "Set 1: Prices & purchase decisions", vi: "Bộ 1: Giá & quyết định mua" }
+    senses:
+      [
+        price-n,
+        cost-v,
+        cheap-adj,
+        expensive-adj,
+        afford-v,
+        worth-adj,
+        buy-v,
+        bargain-n,
+        list-price-n,
+        value-for-money-phr,
+      ]
+    questions: []
+  - slug: t07-l2
+    kind: vocab
+    title: { en: "Set 2: Subscriptions & renewals", vi: "Bộ 2: Thuê bao & gia hạn" }
+    senses:
+      [
+        seat-n,
+        pricing-plan-n,
+        grace-period-n,
+        renewal-date-n,
+        monthly-adj,
+        annual-adj,
+        auto-renewal-n,
+        downgrade-v,
+        free-trial-n-money-shopping,
+        billing-cycle-n,
+        sign-up-for-phr,
+        lapse-v,
+      ]
+    questions: []
+  - slug: t07-l3
+    kind: vocab
+    title: { en: "Set 3: Invoices & receipts", vi: "Bộ 3: Hoá đơn & chứng từ" }
+    senses:
+      [
+        billing-portal-n,
+        credit-note-n,
+        amount-n,
+        total-n,
+        subtotal-n,
+        line-item-n,
+        billing-address-n,
+        due-date-n,
+        issue-v,
+        tax-id-n,
+        overdue-adj,
+        vat-n,
+        settle-v-money-shopping,
+        purchase-order-n,
+      ]
+    questions: []
+  - slug: t07-l4
+    kind: vocab
+    title: { en: "Set 4: A project budget", vi: "Bộ 4: Ngân sách dự án" }
+    senses:
+      [
+        earmark-v-money-shopping,
+        ballpark-figure-n,
+        hosting-n,
+        software-licence-n,
+        contingency-n-money-shopping,
+        estimate-v,
+        overspend-v,
+        runway-n,
+        cost-breakdown-n,
+        one-off-adj-money-shopping,
+        recurring-adj,
+        approval-threshold-n,
+        set-aside-phr,
+        fund-v,
+        quarter-n,
+        spending-cap-n,
+      ]
+    questions: []
+  - slug: t07-l5
+    kind: vocab
+    title: { en: "Set 5: Usage-based pricing", vi: "Bộ 5: Giá theo mức sử dụng" }
+    senses:
+      [
+        usage-n,
+        pay-as-you-go-adj,
+        tier-n,
+        quota-n,
+        exceed-v,
+        overage-n,
+        metered-adj,
+        unit-price-n,
+        api-call-n,
+        egress-n,
+        compute-n,
+        autoscaling-n,
+        burst-n,
+        rate-card-n,
+        flat-rate-n,
+        threshold-n,
+        billable-adj,
+        consumption-n,
+      ]
+    questions: []
+  - slug: t07-l6
+    kind: vocab
+    title: { en: "Set 6: Refunds & billing issues", vi: "Bộ 6: Hoàn tiền & lỗi tính phí" }
+    senses:
+      [
+        money-back-guarantee-n,
+        miscalculate-v,
+        dispute-v,
+        chargeback-n,
+        billing-error-n,
+        transaction-n,
+        bank-statement-n,
+        proof-of-payment-n,
+        reference-number-n,
+        unpaid-adj,
+        reverse-v-money-shopping,
+        account-credit-n,
+        unauthorised-adj,
+        duplicate-adj,
+        eligible-adj,
+        processing-time-n,
+        waive-v,
+        compensate-v,
+        service-credit-n,
+        partial-adj,
+      ]
+    questions: []
+  - slug: t07-l7
+    kind: vocab
+    title:
+      { en: "Set 7: Currencies & payment methods", vi: "Bộ 7: Tiền tệ & phương thức thanh toán" }
+    senses:
+      [
+        foreign-currency-n,
+        mid-market-rate-n,
+        conversion-fee-n,
+        credit-card-n,
+        debit-card-n,
+        wire-transfer-n,
+        qr-payment-n,
+        payment-method-n,
+        swift-code-n,
+        checkout-n,
+        insufficient-funds-n,
+        expiry-date-n-money-shopping,
+        security-code-n,
+        instalment-n,
+        top-up-v,
+        withdraw-v,
+        balance-n,
+        fluctuate-v,
+        convert-v,
+        cardholder-n,
+        payment-gateway-n,
+        cross-border-adj-money-shopping,
+      ]
+    questions: []
+  - slug: t07-l8
+    kind: vocab
+    title: { en: "Set 8: Expenses & reimbursement", vi: "Bộ 8: Chi phí & hoàn ứng" }
+    senses:
+      [
+        expense-n,
+        reimburse-v,
+        claim-back-phr,
+        out-of-pocket-adj,
+        allowance-n,
+        per-diem-n,
+        mileage-n,
+        justification-n,
+        business-purpose-n,
+        expense-policy-n,
+        approver-n-money-shopping,
+        cost-centre-n,
+        petty-cash-n,
+        cash-advance-n,
+        stipend-n,
+        claimable-adj,
+        tax-deductible-adj,
+        accommodation-n,
+        conference-fee-n,
+        client-entertainment-n,
+        backdate-v,
+        pre-approval-n,
+        payroll-n,
+        corporate-card-n,
+      ]
+    questions: []
+  - slug: t07-l9
+    kind: vocab
+    title: { en: "Set 9: Comparing total cost", vi: "Bộ 9: So sánh tổng chi phí" }
+    senses:
+      [
+        total-cost-of-ownership-n,
+        initial-outlay-n,
+        upkeep-n,
+        support-contract-n,
+        licensing-model-n,
+        lock-in-n-money-shopping,
+        migration-cost-n,
+        add-on-n,
+        depreciation-n,
+        replacement-cycle-n,
+        payback-period-n,
+        break-even-v,
+        opportunity-cost-n,
+        outsource-v,
+        in-house-adj,
+        self-hosted-adj,
+        operational-adj,
+        capex-n,
+        opex-n,
+        amortise-v,
+        negligible-adj,
+        substantial-adj,
+        running-cost-n,
+        uptime-guarantee-n,
+        procurement-n,
+        economies-of-scale-n,
+        switching-cost-n,
+        extended-support-n,
+      ]
+    questions: []
+  - slug: t07-l10
+    kind: vocab
+    title: { en: "Set 10: Explaining a cost change", vi: "Bộ 10: Giải thích thay đổi chi phí" }
+    senses:
+      [
+        cost-overrun-n,
+        surge-v,
+        headroom-n,
+        attributable-adj,
+        cost-driver-n,
+        streamline-v-money-shopping,
+        prudent-adj,
+        optimise-v,
+        right-size-v,
+        reserved-instance-n,
+        orphaned-adj,
+        decommission-v,
+        consolidate-v,
+        forecast-n,
+        actuals-n,
+        year-on-year-adj,
+        inflation-n,
+        price-hike-n,
+        absorb-v,
+        pass-on-phr,
+        downsize-v,
+        renegotiate-v,
+        savings-n,
+        cut-back-on-phr,
+        budget-alert-n,
+        anomaly-n,
+        cost-tag-n,
+        granular-adj,
+        showback-n,
+        spend-n,
+        run-rate-n,
+        going-forward-phr,
+        pay-off-phr-money-shopping,
+        unforeseen-adj,
+        spending-freeze-n,
+        steep-adj-money-shopping,
+      ]
+    questions: []

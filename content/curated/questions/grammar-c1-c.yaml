@@ -1,0 +1,396 @@
+# Grammar track C1 tests (batch c1-c). Original items; answers stay server-side.
+# --- g-c1-correlative-inversion
+- slug: g-c1-correlative-inversion-1
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: email
+  sentence: "No sooner had we switched regions ___ the second outage began."
+  options: [when, than, that, then]
+  answer: 1
+  explanation_vi: "No sooner đi với than (sooner là dạng so sánh)."
+- slug: g-c1-correlative-inversion-2
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: jira
+  sentence: "Hardly ___ the hotfix when customers started reporting a new error."
+  options: [we had released, had we released, we released, did we released]
+  answer: 1
+  explanation_vi: "Hardly ở đầu câu → đảo trợ động từ: had + S + V3."
+- slug: g-c1-correlative-inversion-3
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: pr
+  sentence: "Not only ___ the startup time, but it also simplifies the config."
+  options: [the patch reduces, does the patch reduces, does the patch reduce, the patch does reduce]
+  answer: 2
+  explanation_vi: "Hiện tại đơn → does + S + V nguyên mẫu (reduce)."
+- slug: g-c1-correlative-inversion-4
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: email
+  sentence: "Scarcely had the contract been signed ___ the client asked to change the scope."
+  options: [than, then, when, that]
+  answer: 2
+  explanation_vi: "Scarcely/Hardly đi với when."
+- slug: g-c1-correlative-inversion-5
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: email
+  sentence: "No sooner ___ (we / announce – đảo ngữ) the beta than the sign-up page crashed."
+  accepted: ["had we announced"]
+  explanation_vi: "No sooner + had + S + V3: had we announced."
+- slug: g-c1-correlative-inversion-6
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: pr
+  sentence: "Not only ___ (the bug / leak – quá khứ, đảo ngữ) memory, but it also froze the UI."
+  accepted: ["did the bug leak"]
+  explanation_vi: "Quá khứ đơn → did + S + V nguyên mẫu: did the bug leak."
+- slug: g-c1-correlative-inversion-7
+  type: mcq_meaning
+  cefr: C1
+  topic: grammar
+  stem: "Chọn câu đúng."
+  question: "Câu nào đúng ngữ pháp?"
+  options:
+    - "Hardly we had deployed when the pager went off."
+    - "Hardly had we deployed when the pager went off."
+    - "Hardly had we deployed than the pager went off."
+    - "Hardly did we deployed when the pager went off."
+  answer: 1
+  explanation_vi: "Hardly + had + S + V3 … when."
+- slug: g-c1-correlative-inversion-8
+  type: mcq_meaning
+  cefr: C1
+  topic: grammar
+  stem: "No sooner had the API gone live than the rate limits were hit."
+  question: "Câu này có nghĩa là…"
+  options:
+    - "API bị chạm giới hạn trước khi chính thức chạy."
+    - "API chạy thật được một thời gian dài rồi mới chạm giới hạn."
+    - "Vừa đưa API lên chạy thật thì đã chạm giới hạn tần suất gọi."
+    - "API chưa bao giờ chạy thật vì bị giới hạn."
+  answer: 2
+  explanation_vi: "No sooner…than: việc thứ hai xảy ra ngay sau việc thứ nhất."
+# --- g-c1-conditional-inversion
+- slug: g-c1-conditional-inversion-1
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: vscode
+  sentence: "___ the health check fail three times, the pod will be restarted."
+  options: [If, Should, Had, Were]
+  answer: 1
+  explanation_vi: "Should + S + V nguyên mẫu (fail): điều kiện dự phòng loại 1. If cần fails."
+- slug: g-c1-conditional-inversion-2
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: email
+  sentence: "___ the backup been tested, we would have restored the data in an hour."
+  options: [If, Should, Were, Had]
+  answer: 3
+  explanation_vi: "Had + S + been + V3 = If the backup had been tested (loại 3)."
+- slug: g-c1-conditional-inversion-3
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: slack
+  sentence: "Were the client ___ the deadline again, we would need two more engineers."
+  options: [moving, moves, to move, moved]
+  answer: 2
+  explanation_vi: "Were + S + to V: giả định khó xảy ra."
+- slug: g-c1-conditional-inversion-4
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: jira
+  sentence: "Had we ___ the backups last month, we would have lost a week of data."
+  options: [not checked, didn't check, not check, no checked]
+  answer: 0
+  explanation_vi: "Phủ định trong đảo ngữ: Had + S + not + V3 → had we not checked."
+- slug: g-c1-conditional-inversion-5
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: email
+  sentence: "___ (you / have – đảo ngữ, dự phòng) any questions, please reply to this email."
+  accepted: ["Should you have", "should you have"]
+  explanation_vi: "Should + you + have: công thức lịch sự trong email."
+- slug: g-c1-conditional-inversion-6
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: slack
+  sentence: "___ (we / know – đảo ngữ loại 3) about the quota, we would have batched the requests."
+  accepted: ["Had we known", "had we known"]
+  explanation_vi: "Had + S + V3 = If we had known."
+- slug: g-c1-conditional-inversion-7
+  type: mcq_meaning
+  cefr: C1
+  topic: grammar
+  stem: "Chọn câu đúng."
+  question: "Câu nào đúng ngữ pháp?"
+  options:
+    - "Hadn't we cached the results, the page would have timed out."
+    - "If had we not cached the results, the page would have timed out."
+    - "Had we not cached the results, the page would have timed out."
+    - "Had not we cached the results, the page would have timed out."
+  answer: 2
+  explanation_vi: "Bỏ if, đảo had; not đứng sau chủ ngữ, không rút gọn."
+- slug: g-c1-conditional-inversion-8
+  type: mcq_meaning
+  cefr: C1
+  topic: grammar
+  stem: "Were it not for the retry logic, the import would fail every night."
+  question: "Câu này có nghĩa là…"
+  options:
+    - "Nhờ có cơ chế thử lại nên việc import không bị lỗi mỗi đêm."
+    - "Cơ chế thử lại làm việc import lỗi mỗi đêm."
+    - "Việc import lỗi mỗi đêm dù đã có cơ chế thử lại."
+    - "Trước đây import lỗi mỗi đêm vì chưa có cơ chế thử lại."
+  answer: 0
+  explanation_vi: "Were it not for + N = nếu không nhờ có… (giả định trái hiện tại)."
+# --- g-c1-cleft
+- slug: g-c1-cleft-1
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: slack
+  sentence: "It was the retry storm ___ overloaded the queue, not the new release."
+  options: [what, which it, that, who]
+  answer: 2
+  explanation_vi: "It-cleft: It was + X + that…"
+- slug: g-c1-cleft-2
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: pr
+  sentence: "What this PR needs ___ a couple of tests for the edge cases."
+  options: [are, is, be, being]
+  answer: 1
+  explanation_vi: "What-clause làm chủ ngữ số ít → is."
+- slug: g-c1-cleft-3
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: email
+  sentence: "It was only when we read the logs ___ we understood the problem."
+  options: [that, when, what, so]
+  answer: 0
+  explanation_vi: "It was only when… that… = mãi đến khi… mới…"
+- slug: g-c1-cleft-4
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: slack
+  sentence: "All you need to do ___ restart the worker."
+  options: [is to, are, does, being]
+  answer: 0
+  explanation_vi: "All + S + V + is + (to) V: chỉ cần…"
+- slug: g-c1-cleft-5
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: slack
+  sentence: "The DNS failed. → It ___ the DNS that failed."
+  accepted: ["was"]
+  explanation_vi: "Câu gốc ở quá khứ → It was… that."
+- slug: g-c1-cleft-6
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: email
+  sentence: "We need clearer ownership. → ___ we need is clearer ownership."
+  accepted: ["What", "what"]
+  explanation_vi: "Wh-cleft: What + S + V + is + X."
+- slug: g-c1-cleft-7
+  type: mcq_meaning
+  cefr: C1
+  topic: grammar
+  stem: "Chọn câu đúng."
+  question: "Câu nào đúng ngữ pháp?"
+  options:
+    - "It was Lan what found the memory leak."
+    - "It was Lan who found the memory leak."
+    - "This was Lan who found the memory leak."
+    - "It were Lan who found the memory leak."
+  answer: 1
+  explanation_vi: "It was + người + who/that…"
+- slug: g-c1-cleft-8
+  type: mcq_meaning
+  cefr: C1
+  topic: grammar
+  stem: "Đồng nghiệp nói migration làm chậm hệ thống, nhưng thật ra là do cấu hình connection pool."
+  question: "Câu nào sửa hiểu lầm tự nhiên nhất?"
+  options:
+    - "What was the pool config slowed things down."
+    - "It was the pool config, not the migration, that slowed things down."
+    - "The migration was what it slowed things down."
+    - "It was slowed things down the pool config."
+  answer: 1
+  explanation_vi: "It was X (not Y) that…: nhấn mạnh thủ phạm thật, đối lập với điều bị hiểu sai."
+# --- g-c1-subjunctive
+- slug: g-c1-subjunctive-1
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: pr
+  sentence: "The RFC recommends that each team ___ its own on-call schedule."
+  options: [owns, own, owned, owning]
+  answer: 1
+  explanation_vi: "Recommend that + S + V nguyên mẫu, không thêm -s."
+- slug: g-c1-subjunctive-2
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: email
+  sentence: "It is crucial that the API key ___ before the demo."
+  options: [is rotated, be rotated, rotates, will be rotated]
+  answer: 1
+  explanation_vi: "Bị động giả định: be + V3."
+- slug: g-c1-subjunctive-3
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: jira
+  sentence: "The CTO insisted that Hung ___ the release until the audit was over."
+  options: [delays, delayed, delay, would delay]
+  answer: 2
+  explanation_vi: "Dù insisted ở quá khứ, mệnh đề giả định vẫn dùng V nguyên mẫu."
+- slug: g-c1-subjunctive-4
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: email
+  sentence: "We request that contractors ___ customer data to personal devices."
+  options: [don't copy, not copy, not to copy, doesn't copy]
+  answer: 1
+  explanation_vi: "Phủ định giả định: not + V, không dùng do."
+- slug: g-c1-subjunctive-5
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: pr
+  sentence: "Security requires that every commit ___ (sign – giả định, bị động)."
+  accepted: ["be signed"]
+  explanation_vi: "Bị động giả định: be + V3 → be signed."
+- slug: g-c1-subjunctive-6
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: email
+  sentence: "The client demanded that the vendor ___ (provide – giả định) a fix within 24 hours."
+  accepted: ["provide"]
+  explanation_vi: "Demand that + S + V nguyên mẫu: provide (không phải provides/provided)."
+- slug: g-c1-subjunctive-7
+  type: mcq_meaning
+  cefr: C1
+  topic: grammar
+  stem: "Chọn câu đúng."
+  question: "Câu nào đúng chuẩn thức giả định?"
+  options:
+    - "It is essential that the service handles retries."
+    - "It is essential that the service handle retries."
+    - "It is essential that the service to handle retries."
+    - "It is essential that the service handled retries."
+  answer: 1
+  explanation_vi: "It is essential that + S + V nguyên mẫu (handle)."
+- slug: g-c1-subjunctive-8
+  type: mcq_meaning
+  cefr: C1
+  topic: grammar
+  stem: "Viết kiến nghị trong RFC: “đề xuất không ai được deploy vào thứ Sáu”."
+  question: "Câu nào phù hợp nhất?"
+  options:
+    - "We propose that nobody deploys on Fridays."
+    - "We propose that nobody doesn't deploy on Fridays."
+    - "We propose that nobody deploy on Fridays."
+    - "We propose nobody to deploy on Fridays."
+  answer: 2
+  explanation_vi: "Propose that + S + V nguyên mẫu; propose không đi với sb to V."
+# --- g-c1-high-time
+- slug: g-c1-high-time-1
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: slack
+  sentence: "It's high time we ___ this monolith into services."
+  options: [split up, will split, are splitting, split]
+  answer: 3
+  explanation_vi: "High time + S + V2. Split có V2 là split, mang nghĩa hiện tại."
+- slug: g-c1-high-time-2
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: slack
+  sentence: "I'd rather you ___ the prod database directly."
+  options: [don't query, didn't query, not query, won't query]
+  answer: 1
+  explanation_vi: "Would rather + người khác + V2 (phủ định: didn't + V)."
+- slug: g-c1-high-time-3
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: slack
+  sentence: "I'd rather ___ the design doc first than jump straight into code."
+  options: [to write, writing, write, wrote]
+  answer: 2
+  explanation_vi: "Cùng chủ ngữ: would rather + V nguyên mẫu, không có to."
+- slug: g-c1-high-time-4
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: email
+  sentence: "I'd rather the vendor ___ us before they deprecated the endpoint."
+  options: [warns, warned, had warned, would warn]
+  answer: 2
+  explanation_vi: "Tiếc chuyện quá khứ: would rather + S2 + had V3."
+- slug: g-c1-high-time-5
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: slack
+  sentence: "It's about time somebody ___ (update) the onboarding docs."
+  accepted: ["updated"]
+  explanation_vi: "About time + S + V2: updated."
+- slug: g-c1-high-time-6
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: slack
+  sentence: "We could ship tonight, but I'd rather ___ (not / rush) it."
+  accepted: ["not rush"]
+  explanation_vi: "Ưu tiên của chính mình, phủ định: would rather not + V."
+- slug: g-c1-high-time-7
+  type: mcq_meaning
+  cefr: C1
+  topic: grammar
+  stem: "It's time we upgraded Node."
+  question: "Người nói muốn diễn đạt…"
+  options:
+    - "Chúng ta đã nâng cấp Node rồi."
+    - "Lẽ ra chúng ta phải nâng cấp Node rồi, giờ nên làm đi."
+    - "Chúng ta đã quyết định không nâng cấp Node."
+    - "Hồi trước chúng ta từng nâng cấp Node đúng lúc."
+  answer: 1
+  explanation_vi: "It's time + S + V2: nghĩa hiện tại, hàm ý đã trễ."
+- slug: g-c1-high-time-8
+  type: mcq_meaning
+  cefr: C1
+  topic: grammar
+  stem: "Muốn nhắc khéo đồng nghiệp đừng tự merge PR của mình."
+  question: "Câu nào lịch sự và đúng nhất?"
+  options:
+    - "I'd rather you didn't merge your own PRs."
+    - "I'd rather you don't merge your own PRs."
+    - "I'd rather you not to merge your own PRs."
+    - "I'd rather that you hadn't merge your own PRs."
+  answer: 0
+  explanation_vi: "Would rather + you + didn't + V: lịch sự, nghĩa hiện tại."

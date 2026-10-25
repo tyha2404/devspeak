@@ -1,0 +1,3379 @@
+# Vocabulary by topic: Debugging, Experiments & Engineering Evidence (unit T11). Original content.
+# Set 1: Observations & symptoms
+- {
+    "slug": "observe-v-science",
+    "lemma": "observe",
+    "pos": "verb",
+    "cefr": "A2",
+    "topic": "science",
+    "ipa": "/əbˈzɜːv/",
+    "def": "To watch or notice something carefully.",
+    "vi": "quan sát",
+    "examples":
+      [
+        {
+          "en": "I observed the error only when two users saved at the same time.",
+          "vi": "Mình quan sát thấy lỗi chỉ xảy ra khi hai người dùng lưu cùng lúc.",
+        },
+      ],
+  }
+- {
+    "slug": "glitch-n",
+    "lemma": "glitch",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "science",
+    "ipa": "/ɡlɪtʃ/",
+    "def": "A small problem that makes something work wrongly for a short time.",
+    "vi": "trục trặc nhỏ",
+    "examples":
+      [
+        {
+          "en": "There's a glitch: the counter shows -1 for a second.",
+          "vi": "Có một trục trặc nhỏ: bộ đếm hiện -1 trong một giây.",
+        },
+      ],
+  }
+- {
+    "slug": "notice-v",
+    "lemma": "notice",
+    "pos": "verb",
+    "cefr": "A2",
+    "topic": "science",
+    "ipa": "/ˈnəʊtɪs/",
+    "def": "To become aware of something by seeing or hearing it.",
+    "vi": "để ý, nhận thấy",
+    "examples":
+      [
+        {
+          "en": "Did you notice that the button turns grey for a second?",
+          "vi": "Bạn có để ý nút bị xám đi một giây không?",
+        },
+      ],
+  }
+- {
+    "slug": "behaviour-n-science",
+    "lemma": "behaviour",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "science",
+    "ipa": "/bɪˈheɪvjə/",
+    "def": "The way a program or system acts.",
+    "vi": "hành vi, cách hoạt động",
+    "note": 'Anh-Mỹ viết "behavior".',
+    "examples":
+      [
+        {
+          "en": "This behaviour started after yesterday's deploy.",
+          "vi": "Hành vi này bắt đầu sau lần deploy hôm qua.",
+        },
+      ],
+  }
+- {
+    "slug": "unexpected-adj-science",
+    "lemma": "unexpected",
+    "pos": "adjective",
+    "cefr": "A2",
+    "topic": "science",
+    "ipa": "/ˌʌnɪkˈspektɪd/",
+    "def": "Not what you thought would happen.",
+    "vi": "bất ngờ, ngoài dự kiến",
+    "examples":
+      [
+        {
+          "en": "The API returned an unexpected empty list.",
+          "vi": "API trả về một danh sách rỗng ngoài dự kiến.",
+        },
+      ],
+  }
+- {
+    "slug": "crash-v",
+    "lemma": "crash",
+    "pos": "verb",
+    "cefr": "A2",
+    "topic": "science",
+    "ipa": "/kræʃ/",
+    "def": "(Of a program) to stop working suddenly.",
+    "vi": "bị sập, bị crash",
+    "examples":
+      [
+        {
+          "en": "The app crashes when I upload a large photo.",
+          "vi": "Ứng dụng bị crash khi mình tải lên một ảnh lớn.",
+        },
+      ],
+  }
+- {
+    "slug": "slow-adj",
+    "lemma": "slow",
+    "pos": "adjective",
+    "cefr": "A1",
+    "topic": "science",
+    "ipa": "/sləʊ/",
+    "def": "Taking a long time.",
+    "vi": "chậm",
+    "examples":
+      [
+        {
+          "en": "The search page is very slow in the morning.",
+          "vi": "Trang tìm kiếm rất chậm vào buổi sáng.",
+        },
+      ],
+  }
+- {
+    "slug": "happen-v",
+    "lemma": "happen",
+    "pos": "verb",
+    "cefr": "A2",
+    "topic": "science",
+    "ipa": "/ˈhæpən/",
+    "def": "To take place, often without being planned.",
+    "vi": "xảy ra",
+    "examples":
+      [
+        {
+          "en": "It happens about once every ten requests.",
+          "vi": "Nó xảy ra khoảng một lần trên mười request.",
+        },
+      ],
+  }
+- {
+    "slug": "screen-recording-n",
+    "lemma": "screen recording",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "A2",
+    "topic": "science",
+    "ipa": "/skriːn rɪˈkɔːdɪŋ/",
+    "def": "A video that shows what happens on a screen.",
+    "vi": "video quay màn hình",
+    "examples":
+      [
+        {
+          "en": "I attached a screen recording of the problem to the ticket.",
+          "vi": "Mình đã đính kèm video quay màn hình về vấn đề vào ticket.",
+        },
+      ],
+  }
+- {
+    "slug": "describe-v",
+    "lemma": "describe",
+    "pos": "verb",
+    "cefr": "A2",
+    "topic": "science",
+    "ipa": "/dɪˈskraɪb/",
+    "def": "To say what something is like.",
+    "vi": "mô tả",
+    "examples":
+      [
+        {
+          "en": "Please describe what you saw, not what you think the cause is.",
+          "vi": "Hãy mô tả điều bạn thấy, chứ không phải điều bạn nghĩ là nguyên nhân.",
+        },
+      ],
+  }
+# Set 2: Reproducing a bug
+- {
+    "slug": "reproducible-adj",
+    "lemma": "reproducible",
+    "pos": "adjective",
+    "cefr": "B1",
+    "topic": "science",
+    "ipa": "/ˌriːprəˈdjuːsəbl/",
+    "def": "Able to happen again when you repeat the same steps.",
+    "vi": "có thể tái hiện",
+    "examples":
+      [
+        {
+          "en": "The bug is reproducible on Android but not on iOS.",
+          "vi": "Lỗi có thể tái hiện trên Android nhưng không trên iOS.",
+        },
+      ],
+  }
+- {
+    "slug": "steps-to-reproduce-n-science",
+    "lemma": "steps to reproduce",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B1",
+    "topic": "science",
+    "ipa": "/steps tə ˌriːprəˈdjuːs/",
+    "def": "A numbered list of actions that make a bug appear.",
+    "vi": "các bước tái hiện",
+    "note": "Thường dùng số nhiều.",
+    "examples":
+      [
+        {
+          "en": "Add clear steps to reproduce so QA can check the fix.",
+          "vi": "Thêm các bước tái hiện rõ ràng để QA kiểm tra bản sửa.",
+        },
+      ],
+  }
+- {
+    "slug": "environment-n",
+    "lemma": "environment",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "science",
+    "ipa": "/ɪnˈvaɪrənmənt/",
+    "def": "The place where code runs, such as staging or production, with its settings.",
+    "vi": "môi trường",
+    "examples":
+      [
+        {
+          "en": "It only fails in the staging environment.",
+          "vi": "Nó chỉ lỗi ở môi trường staging.",
+        },
+      ],
+  }
+- {
+    "slug": "input-n",
+    "lemma": "input",
+    "pos": "noun",
+    "cefr": "A2",
+    "topic": "science",
+    "ipa": "/ˈɪnpʊt/",
+    "def": "Data that you give to a program.",
+    "vi": "dữ liệu đầu vào",
+    "examples":
+      [
+        {
+          "en": "The form breaks with this input: a name with an emoji.",
+          "vi": "Form bị lỗi với đầu vào này: một cái tên có emoji.",
+        },
+      ],
+  }
+- {
+    "slug": "expected-result-n",
+    "lemma": "expected result",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B1",
+    "topic": "science",
+    "ipa": "/ɪkˈspektɪd rɪˈzʌlt/",
+    "def": "What should happen if the software works correctly.",
+    "vi": "kết quả mong đợi",
+    "examples":
+      [
+        {
+          "en": "Expected result: the order appears in the list.",
+          "vi": "Kết quả mong đợi: đơn hàng hiện trong danh sách.",
+        },
+      ],
+  }
+- {
+    "slug": "actual-result-n",
+    "lemma": "actual result",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B1",
+    "topic": "science",
+    "ipa": "/ˈæktʃuəl rɪˈzʌlt/",
+    "def": "What really happens when you follow the steps.",
+    "vi": "kết quả thực tế",
+    "examples":
+      [
+        {
+          "en": "Actual result: the list stays empty.",
+          "vi": "Kết quả thực tế: danh sách vẫn trống.",
+        },
+      ],
+  }
+- {
+    "slug": "consistently-adv",
+    "lemma": "consistently",
+    "pos": "adverb",
+    "cefr": "B1",
+    "topic": "science",
+    "ipa": "/kənˈsɪstəntli/",
+    "def": "Every time, in the same way.",
+    "vi": "một cách nhất quán, lần nào cũng",
+    "examples":
+      [
+        {
+          "en": "I can consistently trigger it with an expired token.",
+          "vi": "Mình lần nào cũng gây ra được lỗi với một token hết hạn.",
+        },
+      ],
+  }
+- {
+    "slug": "intermittent-adj",
+    "lemma": "intermittent",
+    "pos": "adjective",
+    "cefr": "B2",
+    "topic": "science",
+    "ipa": "/ˌɪntəˈmɪtənt/",
+    "def": "Happening sometimes, not all the time.",
+    "vi": "lúc có lúc không, chập chờn",
+    "examples":
+      [
+        {
+          "en": "We have an intermittent test failure in CI.",
+          "vi": "Chúng ta có một test lúc pass lúc fail trên CI.",
+        },
+      ],
+  }
+- {
+    "slug": "test-data-n",
+    "lemma": "test data",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B1",
+    "topic": "science",
+    "ipa": "/test ˈdeɪtə/",
+    "def": "Example data made for checking software.",
+    "vi": "dữ liệu kiểm thử",
+    "examples":
+      [
+        {
+          "en": "Use the test data in the seed file, not real customer data.",
+          "vi": "Hãy dùng dữ liệu kiểm thử trong file seed, đừng dùng dữ liệu khách hàng thật.",
+        },
+      ],
+  }
+- {
+    "slug": "build-number-n",
+    "lemma": "build number",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B1",
+    "topic": "science",
+    "ipa": "/bɪld ˈnʌmbə/",
+    "def": "The number that identifies one exact build of an app.",
+    "vi": "số bản build",
+    "examples":
+      [
+        {
+          "en": "Which build number are you testing on?",
+          "vi": "Bạn đang test trên số bản build nào?",
+        },
+      ],
+  }
+- {
+    "slug": "repro-n",
+    "lemma": "repro",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "science",
+    "ipa": "/ˈriːprəʊ/",
+    "def": "(Informal) a short case that reproduces a bug.",
+    "vi": "bản tái hiện lỗi",
+    "examples":
+      [
+        {
+          "en": "Can you share a repro I can run locally?",
+          "vi": "Bạn chia sẻ một bản tái hiện để mình chạy local được không?",
+        },
+      ],
+  }
+- {
+    "slug": "setup-n",
+    "lemma": "setup",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "science",
+    "ipa": "/ˈsetʌp/",
+    "def": "The way things are arranged or configured before you start.",
+    "vi": "cấu hình, cách thiết lập",
+    "examples":
+      [
+        {
+          "en": "My setup: Node 20, macOS, a fresh database.",
+          "vi": "Cấu hình của mình: Node 20, macOS, một database mới.",
+        },
+      ],
+  }
+# Set 3: Hypotheses & assumptions
+- {
+    "slug": "working-theory-n",
+    "lemma": "working theory",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/ˈwɜːkɪŋ ˈθɪəri/",
+    "def": "The idea you are using for now to explain a problem, until you test it.",
+    "vi": "giả thuyết tạm thời",
+    "examples":
+      [
+        {
+          "en": "My working theory is that the cache returns old data.",
+          "vi": "Giả thuyết tạm thời của mình là cache trả về dữ liệu cũ.",
+        },
+      ],
+  }
+- {
+    "slug": "take-for-granted-phr",
+    "lemma": "take for granted",
+    "pos": "phrase",
+    "kind": "phrase",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/teɪk fə ˈɡrɑːntɪd/",
+    "def": "To believe something is true without thinking about it or checking it.",
+    "vi": "mặc nhiên cho là đúng",
+    "examples":
+      [
+        {
+          "en": "We took it for granted that the clocks were in sync.",
+          "vi": "Bọn mình mặc nhiên cho rằng đồng hồ các máy đã đồng bộ.",
+        },
+      ],
+  }
+- {
+    "slug": "suspect-v",
+    "lemma": "suspect",
+    "pos": "verb",
+    "cefr": "B1",
+    "topic": "science",
+    "ipa": "/səˈspekt/",
+    "def": "To think that something is probably the cause, without proof yet.",
+    "vi": "nghi ngờ",
+    "examples":
+      [{ "en": "I suspect the new retry logic.", "vi": "Mình nghi đoạn logic retry mới." }],
+  }
+- {
+    "slug": "probable-adj",
+    "lemma": "probable",
+    "pos": "adjective",
+    "cefr": "B2",
+    "topic": "science",
+    "ipa": "/ˈprɒbəbl/",
+    "def": "Likely to be true or to happen.",
+    "vi": "có khả năng cao",
+    "examples":
+      [
+        {
+          "en": "A memory leak is the most probable explanation.",
+          "vi": "Rò rỉ bộ nhớ là lời giải thích có khả năng cao nhất.",
+        },
+      ],
+  }
+- {
+    "slug": "rule-out-phr",
+    "lemma": "rule out",
+    "pos": "phrasal_verb",
+    "kind": "phrasal",
+    "cefr": "B2",
+    "topic": "science",
+    "ipa": "/ruːl aʊt/",
+    "def": "To decide that something is not possible or not the cause.",
+    "vi": "loại trừ",
+    "examples":
+      [
+        {
+          "en": "We can rule out the network because local calls fail too.",
+          "vi": "Ta có thể loại trừ mạng vì gọi local cũng lỗi.",
+        },
+      ],
+  }
+- {
+    "slug": "sanity-check-n",
+    "lemma": "sanity check",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "science",
+    "ipa": "/ˈsænəti tʃek/",
+    "def": "A quick, simple check that something is basically correct.",
+    "vi": "kiểm tra nhanh cơ bản",
+    "examples":
+      [
+        {
+          "en": "As a sanity check, print the config value before changing code.",
+          "vi": "Để kiểm tra nhanh, hãy in giá trị config trước khi sửa code.",
+        },
+      ],
+  }
+- {
+    "slug": "disprove-v",
+    "lemma": "disprove",
+    "pos": "verb",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/dɪsˈpruːv/",
+    "def": "To show that an idea is false.",
+    "vi": "bác bỏ, chứng minh là sai",
+    "examples":
+      [
+        {
+          "en": "One clean run on the old version would disprove my idea.",
+          "vi": "Chỉ một lần chạy sạch trên bản cũ là đủ bác bỏ ý mình.",
+        },
+      ],
+  }
+- {
+    "slug": "data-point-n",
+    "lemma": "data point",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "science",
+    "ipa": "/ˈdeɪtə pɔɪnt/",
+    "def": "One single fact or measurement.",
+    "vi": "điểm dữ liệu",
+    "examples":
+      [
+        {
+          "en": "One more data point: it also fails on Firefox.",
+          "vi": "Thêm một điểm dữ liệu: nó cũng lỗi trên Firefox.",
+        },
+      ],
+  }
+- {
+    "slug": "possible-cause-n",
+    "lemma": "possible cause",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B1",
+    "topic": "science",
+    "ipa": "/ˈpɒsəbl kɔːz/",
+    "def": "Something that might be the reason for a problem.",
+    "vi": "nguyên nhân có thể",
+    "examples":
+      [
+        {
+          "en": "List each possible cause and how to check it.",
+          "vi": "Liệt kê từng nguyên nhân có thể và cách kiểm tra.",
+        },
+      ],
+  }
+- {
+    "slug": "condition-n-science",
+    "lemma": "condition",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "science",
+    "ipa": "/kənˈdɪʃn/",
+    "def": "A situation that must exist for something else to happen.",
+    "vi": "điều kiện",
+    "examples":
+      [
+        {
+          "en": "The error needs two conditions: an empty cart and a coupon.",
+          "vi": "Lỗi cần hai điều kiện: giỏ hàng trống và một mã giảm giá.",
+        },
+      ],
+  }
+- {
+    "slug": "prediction-n",
+    "lemma": "prediction",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "science",
+    "ipa": "/prɪˈdɪkʃn/",
+    "def": "A statement about what you think will happen.",
+    "vi": "dự đoán",
+    "examples":
+      [
+        {
+          "en": "My prediction: with the cache off, the bug disappears.",
+          "vi": "Dự đoán của mình: tắt cache thì lỗi biến mất.",
+        },
+      ],
+  }
+- {
+    "slug": "falsifiable-adj",
+    "lemma": "falsifiable",
+    "pos": "adjective",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/ˈfɔːlsɪfaɪəbl/",
+    "def": "Possible to prove wrong with a test.",
+    "vi": "có thể bác bỏ bằng kiểm chứng",
+    "examples":
+      [
+        {
+          "en": "Make the hypothesis falsifiable: say what result would prove it wrong.",
+          "vi": "Hãy làm cho giả thuyết có thể bác bỏ: nói rõ kết quả nào sẽ chứng minh nó sai.",
+        },
+      ],
+  }
+- {
+    "slug": "unknown-n",
+    "lemma": "unknown",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "science",
+    "ipa": "/ˌʌnˈnəʊn/",
+    "def": "Something you do not know yet.",
+    "vi": "điều chưa biết, ẩn số",
+    "examples":
+      [
+        {
+          "en": "The biggest unknown is how the vendor API handles retries.",
+          "vi": "Điều chưa biết lớn nhất là API của bên cung cấp xử lý retry thế nào.",
+        },
+      ],
+  }
+- {
+    "slug": "narrow-down-phr",
+    "lemma": "narrow down",
+    "pos": "phrasal_verb",
+    "kind": "phrasal",
+    "cefr": "B2",
+    "topic": "science",
+    "ipa": "/ˈnærəʊ daʊn/",
+    "def": "To make a list of possibilities smaller.",
+    "vi": "thu hẹp",
+    "examples":
+      [
+        {
+          "en": "Bisecting the commits helped us narrow down the problem.",
+          "vi": "Bisect các commit giúp bọn mình thu hẹp vấn đề.",
+        },
+      ],
+  }
+# Set 4: Logs & traces
+- {
+    "slug": "log-entry-n",
+    "lemma": "log entry",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B1",
+    "topic": "science",
+    "ipa": "/lɒɡ ˈentri/",
+    "def": "One line or record in a log.",
+    "vi": "một dòng log",
+    "examples":
+      [
+        {
+          "en": "This log entry shows the payment was sent twice.",
+          "vi": "Dòng log này cho thấy thanh toán bị gửi hai lần.",
+        },
+      ],
+  }
+- {
+    "slug": "log-level-n",
+    "lemma": "log level",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "science",
+    "ipa": "/lɒɡ ˈlevl/",
+    "def": "A label like DEBUG, INFO or ERROR that shows how important a message is.",
+    "vi": "mức log",
+    "examples":
+      [
+        {
+          "en": "Set the log level to DEBUG for this service.",
+          "vi": "Đặt mức log của service này thành DEBUG.",
+        },
+      ],
+  }
+- {
+    "slug": "log-format-n",
+    "lemma": "log format",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "science",
+    "ipa": "/lɒɡ ˈfɔːmæt/",
+    "def": "The fixed structure of each log line, such as JSON fields.",
+    "vi": "định dạng log",
+    "examples":
+      [
+        {
+          "en": "Use the same log format in every service.",
+          "vi": "Dùng cùng một định dạng log ở mọi service.",
+        },
+      ],
+  }
+- {
+    "slug": "stack-trace-n",
+    "lemma": "stack trace",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "science",
+    "ipa": "/stæk treɪs/",
+    "def": "A list of the function calls that were running when an error happened.",
+    "vi": "stack trace, vết ngăn xếp",
+    "examples":
+      [
+        {
+          "en": "Paste the full stack trace, not just the last line.",
+          "vi": "Dán toàn bộ stack trace, đừng chỉ dòng cuối.",
+        },
+      ],
+  }
+- {
+    "slug": "trace-id-n",
+    "lemma": "trace ID",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/treɪs aɪ ˈdiː/",
+    "def": "A unique code that lets you follow one request through many services.",
+    "vi": "mã trace",
+    "examples":
+      [{ "en": "Search all logs for this trace ID.", "vi": "Tìm mã trace này trong tất cả log." }],
+  }
+- {
+    "slug": "sequence-n-science",
+    "lemma": "sequence",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "science",
+    "ipa": "/ˈsiːkwəns/",
+    "def": "The order in which things happen.",
+    "vi": "trình tự",
+    "examples":
+      [
+        {
+          "en": "The sequence was: login, refresh, then a 401 error.",
+          "vi": "Trình tự là: đăng nhập, làm mới, rồi lỗi 401.",
+        },
+      ],
+  }
+- {
+    "slug": "event-n-science",
+    "lemma": "event",
+    "pos": "noun",
+    "cefr": "A2",
+    "topic": "science",
+    "ipa": "/ɪˈvent/",
+    "def": "Something that happens in a system and can be recorded.",
+    "vi": "sự kiện",
+    "examples":
+      [
+        {
+          "en": "The queue received the event but never processed it.",
+          "vi": "Hàng đợi đã nhận sự kiện nhưng không bao giờ xử lý nó.",
+        },
+      ],
+  }
+- {
+    "slug": "warning-n-science",
+    "lemma": "warning",
+    "pos": "noun",
+    "cefr": "A2",
+    "topic": "science",
+    "ipa": "/ˈwɔːnɪŋ/",
+    "def": "A message that says something might be wrong.",
+    "vi": "cảnh báo",
+    "examples":
+      [
+        {
+          "en": "There were hundreds of warnings before the first error.",
+          "vi": "Có hàng trăm cảnh báo trước lỗi đầu tiên.",
+        },
+      ],
+  }
+- {
+    "slug": "status-code-n",
+    "lemma": "status code",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B1",
+    "topic": "science",
+    "ipa": "/ˈsteɪtəs kəʊd/",
+    "def": "A number in an HTTP response that shows the result, such as 404.",
+    "vi": "mã trạng thái",
+    "examples":
+      [
+        {
+          "en": "The status code 503 means the service was unavailable.",
+          "vi": "Mã trạng thái 503 nghĩa là service không sẵn sàng.",
+        },
+      ],
+  }
+- {
+    "slug": "verbose-adj",
+    "lemma": "verbose",
+    "pos": "adjective",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/vɜːˈbəʊs/",
+    "def": "Using more words or detail than usual.",
+    "vi": "chi tiết, dài dòng",
+    "examples":
+      [
+        {
+          "en": "Run it in verbose mode to see every SQL query.",
+          "vi": "Chạy ở chế độ chi tiết để thấy mọi câu SQL.",
+        },
+      ],
+  }
+- {
+    "slug": "grep-v",
+    "lemma": "grep",
+    "pos": "verb",
+    "cefr": "B2",
+    "topic": "science",
+    "ipa": "/ɡrep/",
+    "def": "To search text for lines that match a pattern.",
+    "vi": "tìm bằng grep",
+    "examples":
+      [{ "en": "Grep the logs for the user ID first.", "vi": "Grep log theo user ID trước." }],
+  }
+- {
+    "slug": "extract-v",
+    "lemma": "extract",
+    "pos": "verb",
+    "cefr": "B2",
+    "topic": "science",
+    "ipa": "/ɪkˈstrækt/",
+    "def": "To take out the part you need.",
+    "vi": "trích xuất",
+    "examples":
+      [
+        {
+          "en": "I extracted the five lines that matter.",
+          "vi": "Mình trích ra năm dòng quan trọng.",
+        },
+      ],
+  }
+- {
+    "slug": "preceding-adj",
+    "lemma": "preceding",
+    "pos": "adjective",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/prɪˈsiːdɪŋ/",
+    "def": "Coming just before something.",
+    "vi": "ngay trước đó",
+    "examples":
+      [
+        {
+          "en": "Look at the preceding entries to see what triggered it.",
+          "vi": "Xem các dòng ngay trước đó để biết cái gì kích hoạt nó.",
+        },
+      ],
+  }
+- {
+    "slug": "surrounding-lines-n",
+    "lemma": "surrounding lines",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "science",
+    "ipa": "/səˈraʊndɪŋ laɪnz/",
+    "def": "The lines just before and after the line you care about.",
+    "vi": "các dòng xung quanh",
+    "note": "Thường dùng số nhiều.",
+    "examples":
+      [
+        {
+          "en": "Include ten surrounding lines with the error.",
+          "vi": "Kèm mười dòng xung quanh lỗi.",
+        },
+      ],
+  }
+- {
+    "slug": "span-n",
+    "lemma": "span",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "science",
+    "ipa": "/spæn/",
+    "def": "In tracing, one timed step of a request, such as a database call.",
+    "vi": "span (một bước trong trace)",
+    "examples":
+      [
+        {
+          "en": "The slowest span is the call to the image service.",
+          "vi": "Span chậm nhất là lời gọi tới service ảnh.",
+        },
+      ],
+  }
+- {
+    "slug": "noise-n-science",
+    "lemma": "noise",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "science",
+    "ipa": "/nɔɪz/",
+    "def": "Useless information that hides the important parts.",
+    "vi": "nhiễu, thông tin thừa",
+    "note": "Danh từ không đếm được.",
+    "examples":
+      [
+        {
+          "en": "There's so much noise in these logs that the real error is hard to see.",
+          "vi": "Log này nhiều nhiễu quá nên khó thấy lỗi thật.",
+        },
+      ],
+  }
+# Set 5: A minimal experiment
+- {
+    "slug": "experiment-n",
+    "lemma": "experiment",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "science",
+    "ipa": "/ɪkˈsperɪmənt/",
+    "def": "A test you do to find out whether an idea is true.",
+    "vi": "thử nghiệm, thí nghiệm",
+    "examples":
+      [
+        {
+          "en": "Let's run a quick experiment with the old driver.",
+          "vi": "Hãy làm một thử nghiệm nhanh với driver cũ.",
+        },
+      ],
+  }
+- {
+    "slug": "variable-n",
+    "lemma": "variable",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "science",
+    "ipa": "/ˈveəriəbl/",
+    "def": "In an experiment, a thing that can change and affect the result.",
+    "vi": "biến số",
+    "examples":
+      [
+        {
+          "en": "The only variable I changed was the pool size.",
+          "vi": "Biến số duy nhất mình thay đổi là kích thước pool.",
+        },
+      ],
+  }
+- {
+    "slug": "isolate-v-science",
+    "lemma": "isolate",
+    "pos": "verb",
+    "cefr": "B2",
+    "topic": "science",
+    "ipa": "/ˈaɪsəleɪt/",
+    "def": "To separate one thing so you can study it alone.",
+    "vi": "cô lập, tách riêng",
+    "examples":
+      [
+        {
+          "en": "Isolate the function in a small script.",
+          "vi": "Tách riêng hàm đó ra một script nhỏ.",
+        },
+      ],
+  }
+- {
+    "slug": "controlled-adj",
+    "lemma": "controlled",
+    "pos": "adjective",
+    "cefr": "B2",
+    "topic": "science",
+    "ipa": "/kənˈtrəʊld/",
+    "def": "Done carefully so that conditions stay the same.",
+    "vi": "có kiểm soát",
+    "examples":
+      [
+        {
+          "en": "We need a controlled test on the same machine.",
+          "vi": "Ta cần một phép thử có kiểm soát trên cùng máy.",
+        },
+      ],
+  }
+- {
+    "slug": "minimal-adj",
+    "lemma": "minimal",
+    "pos": "adjective",
+    "cefr": "B2",
+    "topic": "science",
+    "ipa": "/ˈmɪnɪml/",
+    "def": "As small as possible.",
+    "vi": "tối thiểu",
+    "examples":
+      [
+        {
+          "en": "Here's a minimal example that shows the bug in ten lines.",
+          "vi": "Đây là ví dụ tối thiểu tái hiện lỗi trong mười dòng.",
+        },
+      ],
+  }
+- {
+    "slug": "factor-n",
+    "lemma": "factor",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "science",
+    "ipa": "/ˈfæktə/",
+    "def": "One of the things that influence a result.",
+    "vi": "yếu tố",
+    "examples":
+      [
+        {
+          "en": "Network speed is one factor, but not the main one.",
+          "vi": "Tốc độ mạng là một yếu tố, nhưng không phải yếu tố chính.",
+        },
+      ],
+  }
+- {
+    "slug": "hold-constant-phr",
+    "lemma": "hold constant",
+    "pos": "phrase",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/həʊld ˈkɒnstənt/",
+    "def": "To keep something the same while you change something else.",
+    "vi": "giữ cố định",
+    "examples":
+      [
+        {
+          "en": "Hold the data size constant and change only the thread count.",
+          "vi": "Giữ cố định kích thước dữ liệu và chỉ đổi số thread.",
+        },
+      ],
+  }
+- {
+    "slug": "repeat-v",
+    "lemma": "repeat",
+    "pos": "verb",
+    "cefr": "A2",
+    "topic": "science",
+    "ipa": "/rɪˈpiːt/",
+    "def": "To do something again.",
+    "vi": "lặp lại",
+    "examples":
+      [
+        {
+          "en": "Repeat the test five times to be sure.",
+          "vi": "Lặp lại phép thử năm lần cho chắc.",
+        },
+      ],
+  }
+- {
+    "slug": "run-n",
+    "lemma": "run",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "science",
+    "ipa": "/rʌn/",
+    "def": "One time that a test or program is executed.",
+    "vi": "lần chạy",
+    "examples":
+      [
+        {
+          "en": "In three out of ten runs, the job timed out.",
+          "vi": "Trong ba trên mười lần chạy, job bị quá thời gian.",
+        },
+      ],
+  }
+- {
+    "slug": "roll-back-phr",
+    "lemma": "roll back",
+    "pos": "phrasal_verb",
+    "kind": "phrasal",
+    "cefr": "B2",
+    "topic": "science",
+    "ipa": "/rəʊl bæk/",
+    "def": "To return a system to an earlier version.",
+    "vi": "quay lui phiên bản",
+    "examples":
+      [
+        {
+          "en": "Roll back the commit and see if the error goes away.",
+          "vi": "Quay lui commit đó và xem lỗi có hết không.",
+        },
+      ],
+  }
+- {
+    "slug": "toggle-v-science",
+    "lemma": "toggle",
+    "pos": "verb",
+    "cefr": "B2",
+    "topic": "science",
+    "ipa": "/ˈtɒɡl/",
+    "def": "To switch something on or off.",
+    "vi": "bật/tắt",
+    "examples":
+      [{ "en": "Toggle compression and measure again.", "vi": "Bật/tắt nén rồi đo lại." }],
+  }
+- {
+    "slug": "feature-flag-n",
+    "lemma": "feature flag",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "science",
+    "ipa": "/ˈfiːtʃə flæɡ/",
+    "def": "A setting that turns a feature on or off without a new deploy.",
+    "vi": "cờ tính năng",
+    "examples":
+      [
+        {
+          "en": "Turn off the feature flag for half of the servers.",
+          "vi": "Tắt cờ tính năng trên một nửa số server.",
+        },
+      ],
+  }
+- {
+    "slug": "scratch-environment-n",
+    "lemma": "scratch environment",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/skrætʃ ɪnˈvaɪrənmənt/",
+    "def": "A temporary place to try things and then throw away.",
+    "vi": "môi trường nháp",
+    "examples":
+      [
+        {
+          "en": "Try the migration in a scratch environment first.",
+          "vi": "Thử migration trong môi trường nháp trước.",
+        },
+      ],
+  }
+- {
+    "slug": "procedure-n",
+    "lemma": "procedure",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "science",
+    "ipa": "/prəˈsiːdʒə/",
+    "def": "A fixed set of steps for doing something.",
+    "vi": "quy trình",
+    "examples":
+      [
+        {
+          "en": "Write down the procedure so others can repeat it.",
+          "vi": "Ghi lại quy trình để người khác lặp lại được.",
+        },
+      ],
+  }
+- {
+    "slug": "time-v",
+    "lemma": "time",
+    "pos": "verb",
+    "cefr": "B1",
+    "topic": "science",
+    "ipa": "/taɪm/",
+    "def": "To measure how long something takes.",
+    "vi": "bấm giờ, đo thời gian",
+    "examples":
+      [
+        {
+          "en": "Time the response before and after the change.",
+          "vi": "Đo thời gian phản hồi trước và sau thay đổi.",
+        },
+      ],
+  }
+- {
+    "slug": "record-v-science",
+    "lemma": "record",
+    "pos": "verb",
+    "cefr": "B1",
+    "topic": "science",
+    "ipa": "/rɪˈkɔːd/",
+    "def": "To write down or save information so you can use it later.",
+    "vi": "ghi lại",
+    "examples":
+      [
+        {
+          "en": "Record every result in the spreadsheet, even the failed ones.",
+          "vi": "Ghi lại mọi kết quả vào bảng tính, kể cả lần thất bại.",
+        },
+      ],
+  }
+- {
+    "slug": "clean-state-n",
+    "lemma": "clean state",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/kliːn steɪt/",
+    "def": "A fresh start with no old data or settings left.",
+    "vi": "trạng thái sạch",
+    "examples":
+      [
+        {
+          "en": "Start each run from a clean state.",
+          "vi": "Bắt đầu mỗi lần chạy từ trạng thái sạch.",
+        },
+      ],
+  }
+- {
+    "slug": "one-at-a-time-phr",
+    "lemma": "one at a time",
+    "pos": "phrase",
+    "kind": "phrase",
+    "cefr": "B1",
+    "topic": "science",
+    "ipa": "/wʌn ət ə taɪm/",
+    "def": "Separately, one after another.",
+    "vi": "từng cái một",
+    "examples":
+      [{ "en": "Change the settings one at a time.", "vi": "Thay đổi từng thiết lập một." }],
+  }
+# Set 6: Benchmarks & baselines
+- {
+    "slug": "micro-benchmark-n",
+    "lemma": "microbenchmark",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/ˈmaɪkrəʊ ˌbentʃmɑːk/",
+    "def": "A small test that measures the speed of one function or operation.",
+    "vi": "benchmark vi mô",
+    "examples":
+      [
+        {
+          "en": "The microbenchmark shows the new parser is twice as fast.",
+          "vi": "Benchmark vi mô cho thấy parser mới nhanh gấp đôi.",
+        },
+      ],
+  }
+- {
+    "slug": "baseline-n-science",
+    "lemma": "baseline",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "science",
+    "ipa": "/ˈbeɪslaɪn/",
+    "def": "A first measurement that you compare later results with.",
+    "vi": "đường cơ sở, mốc so sánh",
+    "examples":
+      [
+        {
+          "en": "Measure a baseline before you optimise anything.",
+          "vi": "Hãy đo mốc so sánh trước khi tối ưu bất cứ thứ gì.",
+        },
+      ],
+  }
+- {
+    "slug": "latency-n",
+    "lemma": "latency",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/ˈleɪtənsi/",
+    "def": "The delay before a response arrives.",
+    "vi": "độ trễ",
+    "examples":
+      [
+        {
+          "en": "Latency went up from 80 to 300 milliseconds.",
+          "vi": "Độ trễ tăng từ 80 lên 300 mili giây.",
+        },
+      ],
+  }
+- {
+    "slug": "throughput-n",
+    "lemma": "throughput",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/ˈθruːpʊt/",
+    "def": "How much work a system can do in a period of time.",
+    "vi": "thông lượng",
+    "examples":
+      [
+        {
+          "en": "Throughput dropped to 500 requests per second.",
+          "vi": "Thông lượng giảm xuống 500 request mỗi giây.",
+        },
+      ],
+  }
+- {
+    "slug": "percentile-n",
+    "lemma": "percentile",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/pəˈsentaɪl/",
+    "def": "A value below which a given percent of results fall, such as p95.",
+    "vi": "phân vị",
+    "examples":
+      [
+        {
+          "en": "The 99th percentile is still too slow.",
+          "vi": "Phân vị thứ 99 vẫn còn quá chậm.",
+        },
+      ],
+  }
+- {
+    "slug": "warm-up-n",
+    "lemma": "warm-up",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "science",
+    "ipa": "/ˈwɔːm ʌp/",
+    "def": "A short first period that you do not count, so caches and the runtime are ready.",
+    "vi": "giai đoạn khởi động",
+    "examples":
+      [
+        {
+          "en": "Ignore the first minute; it's the warm-up.",
+          "vi": "Bỏ qua phút đầu; đó là giai đoạn khởi động.",
+        },
+      ],
+  }
+- {
+    "slug": "overhead-n-science",
+    "lemma": "overhead",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/ˈəʊvəhed/",
+    "def": "Extra time or resources needed beyond the main work.",
+    "vi": "chi phí phụ, overhead",
+    "examples":
+      [{ "en": "Logging adds about 5% overhead.", "vi": "Ghi log thêm khoảng 5% chi phí phụ." }],
+  }
+- {
+    "slug": "slowdown-n",
+    "lemma": "slowdown",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "science",
+    "ipa": "/ˈsləʊdaʊn/",
+    "def": "A drop in speed.",
+    "vi": "sự chậm đi",
+    "examples": [{ "en": "This PR caused a 15% slowdown.", "vi": "PR này làm chậm đi 15%." }],
+  }
+- {
+    "slug": "improvement-n-science",
+    "lemma": "improvement",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "science",
+    "ipa": "/ɪmˈpruːvmənt/",
+    "def": "A change that makes something better.",
+    "vi": "sự cải thiện",
+    "examples":
+      [
+        {
+          "en": "We saw a 20% improvement in load time.",
+          "vi": "Bọn mình thấy thời gian tải cải thiện 20%.",
+        },
+      ],
+  }
+- {
+    "slug": "average-n-science",
+    "lemma": "average",
+    "pos": "noun",
+    "cefr": "A2",
+    "topic": "science",
+    "ipa": "/ˈævərɪdʒ/",
+    "def": "The number you get by adding values and dividing by how many there are.",
+    "vi": "giá trị trung bình",
+    "examples":
+      [
+        {
+          "en": "The average hides a few very slow requests.",
+          "vi": "Giá trị trung bình che mất vài request rất chậm.",
+        },
+      ],
+  }
+- {
+    "slug": "median-n",
+    "lemma": "median",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "science",
+    "ipa": "/ˈmiːdiən/",
+    "def": "The middle value when results are put in order.",
+    "vi": "trung vị",
+    "examples":
+      [
+        {
+          "en": "The median response time is 120 ms.",
+          "vi": "Thời gian phản hồi trung vị là 120 ms.",
+        },
+      ],
+  }
+- {
+    "slug": "variance-n",
+    "lemma": "variance",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/ˈveəriəns/",
+    "def": "How much results differ from each other.",
+    "vi": "độ biến thiên, phương sai",
+    "examples":
+      [
+        {
+          "en": "The variance between runs is too high to trust.",
+          "vi": "Độ biến thiên giữa các lần chạy quá cao để tin được.",
+        },
+      ],
+  }
+- {
+    "slug": "outlier-n-science",
+    "lemma": "outlier",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/ˈaʊtlaɪə/",
+    "def": "A result that is very different from the others.",
+    "vi": "giá trị ngoại lai",
+    "examples":
+      [
+        {
+          "en": "One outlier took ten seconds because of a GC pause.",
+          "vi": "Một giá trị ngoại lai mất mười giây vì GC tạm dừng.",
+        },
+      ],
+  }
+- {
+    "slug": "comparable-adj",
+    "lemma": "comparable",
+    "pos": "adjective",
+    "cefr": "B2",
+    "topic": "science",
+    "ipa": "/ˈkɒmpərəbl/",
+    "def": "Similar enough to compare fairly.",
+    "vi": "có thể so sánh, tương đương",
+    "examples":
+      [
+        {
+          "en": "Run both versions on comparable machines.",
+          "vi": "Chạy cả hai phiên bản trên các máy tương đương.",
+        },
+      ],
+  }
+- {
+    "slug": "under-load-phr",
+    "lemma": "under load",
+    "pos": "phrase",
+    "kind": "phrase",
+    "cefr": "B2",
+    "topic": "science",
+    "ipa": "/ˈʌndə ləʊd/",
+    "def": "While the system is handling a lot of traffic.",
+    "vi": "khi chịu tải",
+    "examples":
+      [
+        {
+          "en": "The service is fine alone but fails under load.",
+          "vi": "Service chạy tốt khi đứng riêng nhưng lỗi khi chịu tải.",
+        },
+      ],
+  }
+- {
+    "slug": "profile-v",
+    "lemma": "profile",
+    "pos": "verb",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/ˈprəʊfaɪl/",
+    "def": "To measure which parts of a program use the most time or memory.",
+    "vi": "phân tích hiệu năng (profile)",
+    "examples":
+      [
+        {
+          "en": "Profile the endpoint before guessing.",
+          "vi": "Profile endpoint đó trước khi đoán.",
+        },
+      ],
+  }
+- {
+    "slug": "bottleneck-n-science",
+    "lemma": "bottleneck",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "science",
+    "ipa": "/ˈbɒtlnek/",
+    "def": "The slowest part that limits the whole system.",
+    "vi": "điểm nghẽn",
+    "examples":
+      [
+        {
+          "en": "The database is the bottleneck, not the API.",
+          "vi": "Database mới là điểm nghẽn, không phải API.",
+        },
+      ],
+  }
+- {
+    "slug": "iteration-n",
+    "lemma": "iteration",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "science",
+    "ipa": "/ˌɪtəˈreɪʃn/",
+    "def": "One repeat of a loop or of a test.",
+    "vi": "vòng lặp, lượt",
+    "examples": [{ "en": "Each iteration inserts 1,000 rows.", "vi": "Mỗi lượt chèn 1.000 dòng." }],
+  }
+- {
+    "slug": "hardware-n",
+    "lemma": "hardware",
+    "pos": "noun",
+    "cefr": "A2",
+    "topic": "science",
+    "ipa": "/ˈhɑːdweə/",
+    "def": "The physical parts of a computer.",
+    "vi": "phần cứng",
+    "examples":
+      [
+        {
+          "en": "The results depend on the hardware, so note the CPU model.",
+          "vi": "Kết quả phụ thuộc phần cứng nên hãy ghi lại loại CPU.",
+        },
+      ],
+  }
+- {
+    "slug": "cold-start-n",
+    "lemma": "cold start",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/kəʊld stɑːt/",
+    "def": "The slow first run when nothing is loaded or cached yet.",
+    "vi": "khởi động nguội",
+    "examples":
+      [
+        {
+          "en": "Cold starts make the first request take two seconds.",
+          "vi": "Khởi động nguội khiến request đầu tiên mất hai giây.",
+        },
+      ],
+  }
+# Set 7: A/B tests & metrics
+- {
+    "slug": "ab-test-n",
+    "lemma": "A/B test",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "science",
+    "ipa": "/ˌeɪ ˈbiː test/",
+    "def": "An experiment where two groups of users see different versions.",
+    "vi": "thử nghiệm A/B",
+    "examples":
+      [
+        {
+          "en": "We ran an A/B test on the new checkout page.",
+          "vi": "Bọn mình chạy thử nghiệm A/B cho trang thanh toán mới.",
+        },
+      ],
+  }
+- {
+    "slug": "holdout-n",
+    "lemma": "holdout",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/ˈhəʊldaʊt/",
+    "def": "A group of users kept on the old version for comparison.",
+    "vi": "nhóm giữ lại để đối chứng",
+    "examples":
+      [{ "en": "The holdout still sees the old button.", "vi": "Nhóm đối chứng vẫn thấy nút cũ." }],
+  }
+- {
+    "slug": "variant-n",
+    "lemma": "variant",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/ˈveəriənt/",
+    "def": "One of the different versions tested in an experiment.",
+    "vi": "phiên bản thử, biến thể",
+    "examples": [{ "en": "Variant B has a shorter form.", "vi": "Biến thể B có form ngắn hơn." }],
+  }
+- {
+    "slug": "metric-n-science",
+    "lemma": "metric",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "science",
+    "ipa": "/ˈmetrɪk/",
+    "def": "A number used to measure something.",
+    "vi": "chỉ số",
+    "examples":
+      [
+        {
+          "en": "Our main metric is completed sign-ups.",
+          "vi": "Chỉ số chính của chúng ta là số lượt đăng ký hoàn tất.",
+        },
+      ],
+  }
+- {
+    "slug": "conversion-rate-n",
+    "lemma": "conversion rate",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/kənˈvɜːʃn reɪt/",
+    "def": "The percent of users who complete a goal, like buying.",
+    "vi": "tỉ lệ chuyển đổi",
+    "examples":
+      [
+        {
+          "en": "The conversion rate rose from 3% to 3.4%.",
+          "vi": "Tỉ lệ chuyển đổi tăng từ 3% lên 3,4%.",
+        },
+      ],
+  }
+- {
+    "slug": "traffic-split-n",
+    "lemma": "traffic split",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/ˈtræfɪk splɪt/",
+    "def": "How users are divided between versions, such as 50/50.",
+    "vi": "tỉ lệ chia lưu lượng",
+    "examples":
+      [
+        {
+          "en": "We used a 90/10 traffic split to limit risk.",
+          "vi": "Bọn mình chia lưu lượng 90/10 để hạn chế rủi ro.",
+        },
+      ],
+  }
+- {
+    "slug": "randomly-adv",
+    "lemma": "randomly",
+    "pos": "adverb",
+    "cefr": "B1",
+    "topic": "science",
+    "ipa": "/ˈrændəmli/",
+    "def": "By chance, without a plan or pattern.",
+    "vi": "một cách ngẫu nhiên",
+    "examples":
+      [
+        {
+          "en": "Users are randomly put into one of two groups.",
+          "vi": "Người dùng được xếp ngẫu nhiên vào một trong hai nhóm.",
+        },
+      ],
+  }
+- {
+    "slug": "assign-v",
+    "lemma": "assign",
+    "pos": "verb",
+    "cefr": "B2",
+    "topic": "science",
+    "ipa": "/əˈsaɪn/",
+    "def": "To put someone into a group or give them a task.",
+    "vi": "phân vào, gán",
+    "examples":
+      [
+        {
+          "en": "Each new user is assigned to a group at sign-up.",
+          "vi": "Mỗi người dùng mới được phân vào một nhóm khi đăng ký.",
+        },
+      ],
+  }
+- {
+    "slug": "cohort-n",
+    "lemma": "cohort",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/ˈkəʊhɔːt/",
+    "def": "A group of users who share something, like their join month.",
+    "vi": "nhóm người dùng (cohort)",
+    "examples":
+      [
+        {
+          "en": "The March cohort stayed longer than February's.",
+          "vi": "Nhóm tháng Ba ở lại lâu hơn nhóm tháng Hai.",
+        },
+      ],
+  }
+- {
+    "slug": "statistically-significant-adj",
+    "lemma": "statistically significant",
+    "pos": "adjective",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/stəˈtɪstɪkli sɪɡˈnɪfɪkənt/",
+    "def": "Unlikely to be caused only by chance.",
+    "vi": "có ý nghĩa thống kê",
+    "examples":
+      [
+        {
+          "en": "The difference is small but statistically significant.",
+          "vi": "Khác biệt nhỏ nhưng có ý nghĩa thống kê.",
+        },
+      ],
+  }
+- {
+    "slug": "confidence-interval-n-science",
+    "lemma": "confidence interval",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/ˈkɒnfɪdəns ˈɪntəvl/",
+    "def": "A range that probably contains the true value.",
+    "vi": "khoảng tin cậy",
+    "examples":
+      [
+        {
+          "en": "The confidence interval still includes zero.",
+          "vi": "Khoảng tin cậy vẫn bao gồm số không.",
+        },
+      ],
+  }
+- {
+    "slug": "null-hypothesis-n",
+    "lemma": "null hypothesis",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/nʌl haɪˈpɒθəsɪs/",
+    "def": "The starting idea that a change has no real effect.",
+    "vi": "giả thuyết không",
+    "examples":
+      [
+        {
+          "en": "We can't reject the null hypothesis yet.",
+          "vi": "Ta chưa thể bác bỏ giả thuyết không.",
+        },
+      ],
+  }
+- {
+    "slug": "p-value-n",
+    "lemma": "p-value",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/ˈpiː ˌvæljuː/",
+    "def": "A number showing how surprising a result would be if there were no real effect.",
+    "vi": "giá trị p",
+    "examples":
+      [
+        {
+          "en": "A p-value of 0.3 is not convincing.",
+          "vi": "Giá trị p bằng 0,3 thì chưa thuyết phục.",
+        },
+      ],
+  }
+- {
+    "slug": "uplift-n",
+    "lemma": "uplift",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/ˈʌplɪft/",
+    "def": "An increase in a metric caused by a change.",
+    "vi": "mức tăng",
+    "examples":
+      [
+        {
+          "en": "The new layout gave a 2% uplift in clicks.",
+          "vi": "Bố cục mới giúp lượt nhấp tăng 2%.",
+        },
+      ],
+  }
+- {
+    "slug": "guardrail-metric-n",
+    "lemma": "guardrail metric",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/ˈɡɑːdreɪl ˈmetrɪk/",
+    "def": "A metric you watch to make sure a test does not cause harm.",
+    "vi": "chỉ số bảo vệ",
+    "examples":
+      [
+        {
+          "en": "Error rate is our guardrail metric for this test.",
+          "vi": "Tỉ lệ lỗi là chỉ số bảo vệ cho thử nghiệm này.",
+        },
+      ],
+  }
+- {
+    "slug": "retention-n-science",
+    "lemma": "retention",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/rɪˈtenʃn/",
+    "def": "How many users keep using a product over time.",
+    "vi": "tỉ lệ giữ chân",
+    "examples":
+      [
+        {
+          "en": "Day-7 retention did not change.",
+          "vi": "Tỉ lệ giữ chân ngày thứ 7 không thay đổi.",
+        },
+      ],
+  }
+- {
+    "slug": "engagement-n",
+    "lemma": "engagement",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "science",
+    "ipa": "/ɪnˈɡeɪdʒmənt/",
+    "def": "How much users interact with a product.",
+    "vi": "mức độ tương tác",
+    "examples":
+      [
+        {
+          "en": "Engagement went up, but so did support tickets.",
+          "vi": "Mức tương tác tăng, nhưng ticket hỗ trợ cũng tăng.",
+        },
+      ],
+  }
+- {
+    "slug": "ramp-up-phr",
+    "lemma": "ramp up",
+    "pos": "phrasal_verb",
+    "kind": "phrasal",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/ræmp ʌp/",
+    "def": "To increase something step by step.",
+    "vi": "tăng dần",
+    "examples":
+      [
+        {
+          "en": "We'll ramp up the winner to 100% next week.",
+          "vi": "Tuần sau ta sẽ tăng dần bản thắng lên 100%.",
+        },
+      ],
+  }
+- {
+    "slug": "exposure-n-science",
+    "lemma": "exposure",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/ɪkˈspəʊʒə/",
+    "def": "The moment a user actually sees the tested version.",
+    "vi": "lượt tiếp xúc",
+    "examples":
+      [
+        {
+          "en": "Count exposure only when the page really loads.",
+          "vi": "Chỉ tính lượt tiếp xúc khi trang thật sự tải xong.",
+        },
+      ],
+  }
+- {
+    "slug": "noisy-adj",
+    "lemma": "noisy",
+    "pos": "adjective",
+    "cefr": "B2",
+    "topic": "science",
+    "ipa": "/ˈnɔɪzi/",
+    "def": "(Of data) changing a lot for random reasons, so it is hard to read.",
+    "vi": "nhiễu",
+    "examples":
+      [
+        {
+          "en": "Daily numbers are noisy; look at the weekly trend.",
+          "vi": "Số liệu theo ngày nhiễu lắm; hãy xem xu hướng theo tuần.",
+        },
+      ],
+  }
+- {
+    "slug": "novelty-effect-n",
+    "lemma": "novelty effect",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/ˈnɒvlti ɪˈfekt/",
+    "def": "When users react to something only because it is new.",
+    "vi": "hiệu ứng mới lạ",
+    "examples":
+      [
+        {
+          "en": "The early uplift may be a novelty effect.",
+          "vi": "Mức tăng ban đầu có thể chỉ là hiệu ứng mới lạ.",
+        },
+      ],
+  }
+- {
+    "slug": "duration-n",
+    "lemma": "duration",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "science",
+    "ipa": "/djuˈreɪʃn/",
+    "def": "How long something lasts.",
+    "vi": "thời lượng",
+    "examples":
+      [
+        {
+          "en": "Decide the test duration before you start.",
+          "vi": "Quyết định thời lượng thử nghiệm trước khi bắt đầu.",
+        },
+      ],
+  }
+# Set 8: Correlation & causation
+- {
+    "slug": "correlation-n",
+    "lemma": "correlation",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/ˌkɒrəˈleɪʃn/",
+    "def": "A connection where two things change together.",
+    "vi": "sự tương quan",
+    "examples":
+      [
+        {
+          "en": "There's a correlation between deploy days and errors.",
+          "vi": "Có tương quan giữa ngày deploy và số lỗi.",
+        },
+      ],
+  }
+- {
+    "slug": "causation-n",
+    "lemma": "causation",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/kɔːˈzeɪʃn/",
+    "def": "The fact that one thing makes another happen.",
+    "vi": "quan hệ nhân quả",
+    "examples":
+      [{ "en": "Correlation is not causation.", "vi": "Tương quan không phải là nhân quả." }],
+  }
+- {
+    "slug": "cause-v",
+    "lemma": "cause",
+    "pos": "verb",
+    "cefr": "B1",
+    "topic": "science",
+    "ipa": "/kɔːz/",
+    "def": "To make something happen.",
+    "vi": "gây ra",
+    "examples":
+      [
+        {
+          "en": "We don't know yet what caused the spike.",
+          "vi": "Ta chưa biết cái gì gây ra đợt tăng đột biến.",
+        },
+      ],
+  }
+- {
+    "slug": "coincidence-n",
+    "lemma": "coincidence",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "science",
+    "ipa": "/kəʊˈɪnsɪdəns/",
+    "def": "When two things happen together by chance.",
+    "vi": "sự trùng hợp",
+    "examples":
+      [
+        {
+          "en": "The outage during the release may be a coincidence.",
+          "vi": "Sự cố trùng lúc phát hành có thể chỉ là trùng hợp.",
+        },
+      ],
+  }
+- {
+    "slug": "confounding-variable-n",
+    "lemma": "confounding variable",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/kənˈfaʊndɪŋ ˈveəriəbl/",
+    "def": "A hidden factor that affects both things you are comparing.",
+    "vi": "biến gây nhiễu",
+    "examples":
+      [
+        {
+          "en": "Traffic is a confounding variable here.",
+          "vi": "Lưu lượng truy cập là biến gây nhiễu ở đây.",
+        },
+      ],
+  }
+- {
+    "slug": "spurious-adj",
+    "lemma": "spurious",
+    "pos": "adjective",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/ˈspjʊəriəs/",
+    "def": "Seeming real but actually false.",
+    "vi": "giả tạo, không có thật",
+    "examples":
+      [
+        {
+          "en": "That link between dark mode and sales is spurious.",
+          "vi": "Mối liên hệ giữa dark mode và doanh số là giả tạo.",
+        },
+      ],
+  }
+- {
+    "slug": "upward-adj",
+    "lemma": "upward",
+    "pos": "adjective",
+    "cefr": "B2",
+    "topic": "science",
+    "ipa": "/ˈʌpwəd/",
+    "def": "Moving towards a higher level.",
+    "vi": "đi lên",
+    "examples":
+      [
+        {
+          "en": "There's a clear upward line in memory use.",
+          "vi": "Bộ nhớ sử dụng có đường đi lên rõ ràng.",
+        },
+      ],
+  }
+- {
+    "slug": "pattern-n",
+    "lemma": "pattern",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "science",
+    "ipa": "/ˈpætn/",
+    "def": "Something that repeats in a regular way.",
+    "vi": "quy luật, mẫu lặp lại",
+    "examples":
+      [
+        {
+          "en": "The errors follow a pattern: every hour on the hour.",
+          "vi": "Lỗi có quy luật: đúng mỗi đầu giờ.",
+        },
+      ],
+  }
+- {
+    "slug": "imply-v",
+    "lemma": "imply",
+    "pos": "verb",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/ɪmˈplaɪ/",
+    "def": "To suggest something without saying it directly.",
+    "vi": "hàm ý",
+    "examples":
+      [
+        {
+          "en": "A faster page doesn't imply more sales.",
+          "vi": "Trang nhanh hơn không hàm ý doanh số cao hơn.",
+        },
+      ],
+  }
+- {
+    "slug": "infer-v",
+    "lemma": "infer",
+    "pos": "verb",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/ɪnˈfɜː/",
+    "def": "To reach an opinion from the facts you have.",
+    "vi": "suy ra",
+    "examples":
+      [
+        {
+          "en": "From the logs we can infer the job ran twice.",
+          "vi": "Từ log ta có thể suy ra job đã chạy hai lần.",
+        },
+      ],
+  }
+- {
+    "slug": "conclude-v",
+    "lemma": "conclude",
+    "pos": "verb",
+    "cefr": "B2",
+    "topic": "science",
+    "ipa": "/kənˈkluːd/",
+    "def": "To decide something is true after thinking about the facts.",
+    "vi": "kết luận",
+    "examples":
+      [{ "en": "It's too early to conclude anything.", "vi": "Còn quá sớm để kết luận điều gì." }],
+  }
+- {
+    "slug": "bear-out-phr-science",
+    "lemma": "bear out",
+    "pos": "phrasal_verb",
+    "kind": "phrasal",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/beər aʊt/",
+    "def": "To show that a claim is true.",
+    "vi": "xác nhận, chứng thực",
+    "examples":
+      [
+        {
+          "en": "The numbers bear out the cache theory.",
+          "vi": "Số liệu xác nhận giả thuyết về cache.",
+        },
+      ],
+  }
+- {
+    "slug": "contradict-v",
+    "lemma": "contradict",
+    "pos": "verb",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/ˌkɒntrəˈdɪkt/",
+    "def": "To show that something else is not true.",
+    "vi": "mâu thuẫn với",
+    "examples":
+      [
+        {
+          "en": "These timestamps contradict the user's report.",
+          "vi": "Các dấu thời gian này mâu thuẫn với báo cáo của người dùng.",
+        },
+      ],
+  }
+- {
+    "slug": "observational-adj",
+    "lemma": "observational",
+    "pos": "adjective",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/ˌɒbzəˈveɪʃənl/",
+    "def": "Based on watching what happens, not on a controlled test.",
+    "vi": "dựa trên quan sát",
+    "examples":
+      [
+        {
+          "en": "This is observational data, so we can't prove cause.",
+          "vi": "Đây là dữ liệu quan sát nên ta không chứng minh được nguyên nhân.",
+        },
+      ],
+  }
+- {
+    "slug": "sample-n-science",
+    "lemma": "sample",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "science",
+    "ipa": "/ˈsɑːmpl/",
+    "def": "A small part of a group that you study.",
+    "vi": "mẫu",
+    "examples":
+      [
+        {
+          "en": "We checked a sample of 200 failed orders.",
+          "vi": "Bọn mình kiểm tra một mẫu gồm 200 đơn hàng lỗi.",
+        },
+      ],
+  }
+- {
+    "slug": "generalise-v",
+    "lemma": "generalise",
+    "pos": "verb",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/ˈdʒenrəlaɪz/",
+    "def": "To say something is true in all cases from a few examples.",
+    "vi": "khái quát hóa",
+    "note": 'Anh-Mỹ viết "generalize".',
+    "examples":
+      [
+        {
+          "en": "Don't generalise from one customer's complaint.",
+          "vi": "Đừng khái quát hóa từ lời phàn nàn của một khách hàng.",
+        },
+      ],
+  }
+- {
+    "slug": "read-too-much-into-phr",
+    "lemma": "read too much into",
+    "pos": "phrase",
+    "kind": "phrase",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/riːd tuː mʌtʃ ˈɪntuː/",
+    "def": "To think something means more than it really does.",
+    "vi": "suy diễn quá mức",
+    "examples":
+      [
+        {
+          "en": "Don't read too much into one graph.",
+          "vi": "Đừng suy diễn quá mức từ một biểu đồ.",
+        },
+      ],
+  }
+- {
+    "slug": "subtlety-n",
+    "lemma": "subtlety",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/ˈsʌtlti/",
+    "def": "A small detail that is easy to miss but important.",
+    "vi": "chi tiết tinh tế",
+    "examples":
+      [
+        {
+          "en": "The subtlety is that it got faster only for new users.",
+          "vi": "Chi tiết tinh tế là nó chỉ nhanh hơn với người dùng mới.",
+        },
+      ],
+  }
+- {
+    "slug": "far-fetched-adj",
+    "lemma": "far-fetched",
+    "pos": "adjective",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/ˌfɑː ˈfetʃt/",
+    "def": "Very unlikely to be true.",
+    "vi": "khó tin, gượng ép",
+    "examples":
+      [
+        {
+          "en": "A cosmic-ray bit flip sounds far-fetched.",
+          "vi": "Lỗi lật bit do tia vũ trụ nghe khó tin.",
+        },
+      ],
+  }
+- {
+    "slug": "inconclusive-adj",
+    "lemma": "inconclusive",
+    "pos": "adjective",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/ˌɪnkənˈkluːsɪv/",
+    "def": "Not giving a clear answer.",
+    "vi": "chưa đi đến kết luận",
+    "examples":
+      [
+        {
+          "en": "The results are inconclusive, so we'll run it longer.",
+          "vi": "Kết quả chưa rõ ràng nên ta sẽ chạy lâu hơn.",
+        },
+      ],
+  }
+- {
+    "slug": "downstream-adj",
+    "lemma": "downstream",
+    "pos": "adjective",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/ˌdaʊnˈstriːm/",
+    "def": "Happening later in a process, as a result of an earlier step.",
+    "vi": "ở phía sau (hạ nguồn)",
+    "examples":
+      [
+        {
+          "en": "The CDN change had a downstream effect on login.",
+          "vi": "Thay đổi CDN gây ảnh hưởng hạ nguồn tới đăng nhập.",
+        },
+      ],
+  }
+- {
+    "slug": "simultaneously-adv",
+    "lemma": "simultaneously",
+    "pos": "adverb",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/ˌsɪmlˈteɪniəsli/",
+    "def": "At exactly the same time.",
+    "vi": "đồng thời",
+    "examples":
+      [{ "en": "Both alerts fired simultaneously.", "vi": "Cả hai cảnh báo kêu đồng thời." }],
+  }
+- {
+    "slug": "reverse-causation-n",
+    "lemma": "reverse causation",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/rɪˈvɜːs kɔːˈzeɪʃn/",
+    "def": "When B actually causes A, not A causing B.",
+    "vi": "quan hệ nhân quả ngược",
+    "examples":
+      [
+        {
+          "en": "Maybe it's reverse causation: busy users open more tabs.",
+          "vi": "Có thể là nhân quả ngược: người dùng bận rộn mở nhiều tab hơn.",
+        },
+      ],
+  }
+- {
+    "slug": "in-isolation-phr",
+    "lemma": "in isolation",
+    "pos": "phrase",
+    "kind": "phrase",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/ɪn ˌaɪsəˈleɪʃn/",
+    "def": "Alone, without considering other things.",
+    "vi": "xét riêng lẻ",
+    "examples":
+      [
+        {
+          "en": "This metric means little in isolation.",
+          "vi": "Xét riêng lẻ thì chỉ số này không nói lên nhiều.",
+        },
+      ],
+  }
+# Set 9: Root-cause analysis
+- {
+    "slug": "primary-cause-n",
+    "lemma": "primary cause",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/ˈpraɪməri kɔːz/",
+    "def": "The main reason a problem happened.",
+    "vi": "nguyên nhân chính",
+    "examples":
+      [
+        {
+          "en": "The primary cause was a missing index, not slow servers.",
+          "vi": "Nguyên nhân chính là thiếu index, không phải server chậm.",
+        },
+      ],
+  }
+- {
+    "slug": "contributing-factor-n",
+    "lemma": "contributing factor",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/kənˈtrɪbjuːtɪŋ ˈfæktə/",
+    "def": "Something that helped a problem happen but did not cause it alone.",
+    "vi": "yếu tố góp phần",
+    "examples":
+      [
+        {
+          "en": "Missing alerts were a contributing factor.",
+          "vi": "Thiếu cảnh báo là một yếu tố góp phần.",
+        },
+      ],
+  }
+- {
+    "slug": "trigger-n",
+    "lemma": "trigger",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "science",
+    "ipa": "/ˈtrɪɡə/",
+    "def": "The event that started a problem.",
+    "vi": "nguyên nhân kích hoạt",
+    "examples":
+      [
+        {
+          "en": "The trigger was a config change at 9:02.",
+          "vi": "Thứ kích hoạt là một thay đổi config lúc 9:02.",
+        },
+      ],
+  }
+- {
+    "slug": "chain-of-events-n",
+    "lemma": "chain of events",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/tʃeɪn əv ɪˈvents/",
+    "def": "A series of events where each one leads to the next.",
+    "vi": "chuỗi sự kiện",
+    "examples":
+      [
+        {
+          "en": "Let's map the chain of events from the deploy to the outage.",
+          "vi": "Hãy vẽ ra chuỗi sự kiện từ lần deploy đến sự cố.",
+        },
+      ],
+  }
+- {
+    "slug": "five-whys-n",
+    "lemma": "five whys",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/faɪv waɪz/",
+    "def": 'A method of asking "why?" again and again to reach the root cause.',
+    "vi": "phương pháp 5 câu hỏi tại sao",
+    "examples":
+      [
+        {
+          "en": "We used the five whys in the retro.",
+          "vi": "Bọn mình dùng phương pháp 5 câu hỏi tại sao trong buổi retro.",
+        },
+      ],
+  }
+- {
+    "slug": "failure-mode-n",
+    "lemma": "failure mode",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/ˈfeɪljə məʊd/",
+    "def": "One specific way in which something can fail.",
+    "vi": "kiểu hỏng hóc",
+    "examples":
+      [
+        {
+          "en": "A full disk is a failure mode we never tested.",
+          "vi": "Ổ đĩa đầy là một kiểu hỏng mà ta chưa từng test.",
+        },
+      ],
+  }
+- {
+    "slug": "quarantine-v-science",
+    "lemma": "quarantine",
+    "pos": "verb",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/ˈkwɒrəntiːn/",
+    "def": "To separate something so it cannot harm the rest.",
+    "vi": "cách ly",
+    "examples":
+      [{ "en": "We quarantined the broken node.", "vi": "Bọn mình cách ly node bị lỗi." }],
+  }
+- {
+    "slug": "remediation-n",
+    "lemma": "remediation",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/rɪˌmiːdiˈeɪʃn/",
+    "def": "Work done to fix a problem properly.",
+    "vi": "khắc phục triệt để",
+    "examples":
+      [
+        {
+          "en": "The remediation plan includes a schema change.",
+          "vi": "Kế hoạch khắc phục bao gồm một thay đổi schema.",
+        },
+      ],
+  }
+- {
+    "slug": "stopgap-n-science",
+    "lemma": "stopgap",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/ˈstɒpɡæp/",
+    "def": "A quick, temporary solution used until a real one is ready.",
+    "vi": "giải pháp tạm thời",
+    "examples":
+      [
+        {
+          "en": "Clearing the cache is only a stopgap.",
+          "vi": "Xóa cache chỉ là giải pháp tạm thời.",
+        },
+      ],
+  }
+- {
+    "slug": "underlying-adj",
+    "lemma": "underlying",
+    "pos": "adjective",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/ˌʌndəˈlaɪɪŋ/",
+    "def": "Real and basic, but not easy to see.",
+    "vi": "tiềm ẩn, bên dưới",
+    "examples":
+      [
+        {
+          "en": "Restarting hides the underlying problem.",
+          "vi": "Khởi động lại chỉ che đi vấn đề bên dưới.",
+        },
+      ],
+  }
+- {
+    "slug": "trace-back-phr",
+    "lemma": "trace back",
+    "pos": "phrasal_verb",
+    "kind": "phrasal",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/treɪs bæk/",
+    "def": "To find where something started by following it backwards.",
+    "vi": "lần ngược lại",
+    "examples":
+      [
+        {
+          "en": "We traced the bad data back to one import job.",
+          "vi": "Bọn mình lần ngược dữ liệu sai về một job import.",
+        },
+      ],
+  }
+- {
+    "slug": "pinpoint-v",
+    "lemma": "pinpoint",
+    "pos": "verb",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/ˈpɪnpɔɪnt/",
+    "def": "To find something exactly.",
+    "vi": "xác định chính xác",
+    "examples":
+      [
+        {
+          "en": "The profiler helped us pinpoint the slow query.",
+          "vi": "Profiler giúp bọn mình xác định chính xác câu query chậm.",
+        },
+      ],
+  }
+- {
+    "slug": "attribute-to-phr",
+    "lemma": "attribute to",
+    "pos": "phrase",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/əˈtrɪbjuːt tə/",
+    "def": "To say that something is caused by a certain thing.",
+    "vi": "quy cho, cho là do",
+    "examples":
+      [
+        {
+          "en": "We attribute the delay to DNS, but it's not confirmed.",
+          "vi": "Bọn mình cho rằng độ trễ là do DNS, nhưng chưa được xác nhận.",
+        },
+      ],
+  }
+- {
+    "slug": "oversight-n",
+    "lemma": "oversight",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/ˈəʊvəsaɪt/",
+    "def": "A mistake made because you did not notice something.",
+    "vi": "sơ suất",
+    "examples":
+      [{ "en": "Skipping the review was an oversight.", "vi": "Bỏ qua review là một sơ suất." }],
+  }
+- {
+    "slug": "misconfiguration-n",
+    "lemma": "misconfiguration",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/ˌmɪskənˌfɪɡəˈreɪʃn/",
+    "def": "Wrong settings in a system.",
+    "vi": "cấu hình sai",
+    "examples":
+      [
+        {
+          "en": "A misconfiguration sent traffic to the old cluster.",
+          "vi": "Cấu hình sai đã đẩy lưu lượng sang cluster cũ.",
+        },
+      ],
+  }
+- {
+    "slug": "race-condition-n",
+    "lemma": "race condition",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/reɪs kənˈdɪʃn/",
+    "def": "A bug that happens when the result depends on which process finishes first.",
+    "vi": "tình trạng tranh chấp (race condition)",
+    "examples":
+      [
+        {
+          "en": "Two workers updating the same row caused a race condition.",
+          "vi": "Hai worker cập nhật cùng một dòng gây ra race condition.",
+        },
+      ],
+  }
+- {
+    "slug": "cascade-v",
+    "lemma": "cascade",
+    "pos": "verb",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/kæˈskeɪd/",
+    "def": "(Of a failure) to spread from one part to many others.",
+    "vi": "lan dây chuyền",
+    "examples":
+      [
+        {
+          "en": "One slow service cascaded into a full outage.",
+          "vi": "Một service chậm đã lan dây chuyền thành sự cố toàn hệ thống.",
+        },
+      ],
+  }
+- {
+    "slug": "blast-radius-n",
+    "lemma": "blast radius",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/blɑːst ˈreɪdiəs/",
+    "def": "How much of a system or how many users a failure affects.",
+    "vi": "phạm vi ảnh hưởng",
+    "examples":
+      [
+        {
+          "en": "Smaller deploys reduce the blast radius.",
+          "vi": "Deploy nhỏ hơn giúp giảm phạm vi ảnh hưởng.",
+        },
+      ],
+  }
+- {
+    "slug": "detect-v",
+    "lemma": "detect",
+    "pos": "verb",
+    "cefr": "B2",
+    "topic": "science",
+    "ipa": "/dɪˈtekt/",
+    "def": "To discover that something is there.",
+    "vi": "phát hiện",
+    "examples":
+      [
+        {
+          "en": "It took us forty minutes to detect the problem.",
+          "vi": "Bọn mình mất bốn mươi phút mới phát hiện vấn đề.",
+        },
+      ],
+  }
+- {
+    "slug": "recurrence-n-science",
+    "lemma": "recurrence",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/rɪˈkʌrəns/",
+    "def": "When something happens again.",
+    "vi": "sự tái diễn",
+    "examples":
+      [
+        {
+          "en": "A new alert should prevent a recurrence.",
+          "vi": "Một cảnh báo mới sẽ ngăn sự cố tái diễn.",
+        },
+      ],
+  }
+- {
+    "slug": "circuit-breaker-n",
+    "lemma": "circuit breaker",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/ˈsɜːkɪt ˌbreɪkə/",
+    "def": "Code that stops calls to a failing service so the failure does not spread.",
+    "vi": "cơ chế ngắt mạch",
+    "examples":
+      [
+        {
+          "en": "A circuit breaker would have stopped the cascade.",
+          "vi": "Một cơ chế ngắt mạch lẽ ra đã chặn được lỗi lan dây chuyền.",
+        },
+      ],
+  }
+- {
+    "slug": "postmortem-n-science",
+    "lemma": "postmortem",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/ˌpəʊstˈmɔːtəm/",
+    "def": "A meeting or document that studies an incident after it ends.",
+    "vi": "buổi/bản phân tích sau sự cố",
+    "examples":
+      [
+        {
+          "en": "The postmortem is on Friday.",
+          "vi": "Buổi phân tích sau sự cố diễn ra vào thứ Sáu.",
+        },
+      ],
+  }
+- {
+    "slug": "blameless-adj-science",
+    "lemma": "blameless",
+    "pos": "adjective",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/ˈbleɪmləs/",
+    "def": "Focusing on the system, not on blaming people.",
+    "vi": "không đổ lỗi",
+    "examples":
+      [
+        {
+          "en": "We keep our postmortems blameless.",
+          "vi": "Bọn mình giữ các buổi phân tích sự cố theo tinh thần không đổ lỗi.",
+        },
+      ],
+  }
+- {
+    "slug": "action-item-n-science",
+    "lemma": "action item",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "science",
+    "ipa": "/ˈækʃn ˈaɪtəm/",
+    "def": "A task someone agrees to do after a meeting.",
+    "vi": "việc cần làm",
+    "examples":
+      [
+        {
+          "en": "Each action item needs an owner and a date.",
+          "vi": "Mỗi việc cần làm cần có người phụ trách và hạn chót.",
+        },
+      ],
+  }
+- {
+    "slug": "corroborate-v-science",
+    "lemma": "corroborate",
+    "pos": "verb",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/kəˈrɒbəreɪt/",
+    "def": "To support an idea with more evidence.",
+    "vi": "chứng thực, xác nhận thêm",
+    "examples":
+      [
+        {
+          "en": "The database metrics corroborate what the logs show.",
+          "vi": "Chỉ số database xác nhận thêm điều log cho thấy.",
+        },
+      ],
+  }
+- {
+    "slug": "testable-adj",
+    "lemma": "testable",
+    "pos": "adjective",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/ˈtestəbl/",
+    "def": "Possible to check with a test.",
+    "vi": "có thể kiểm chứng",
+    "examples":
+      [
+        {
+          "en": "Give a testable explanation, not just a feeling.",
+          "vi": "Hãy đưa ra lời giải thích có thể kiểm chứng, đừng chỉ là cảm giác.",
+        },
+      ],
+  }
+- {
+    "slug": "explanation-n",
+    "lemma": "explanation",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "science",
+    "ipa": "/ˌekspləˈneɪʃn/",
+    "def": "A reason that makes something clear.",
+    "vi": "lời giải thích",
+    "examples":
+      [
+        {
+          "en": "Every piece of evidence fits this explanation.",
+          "vi": "Mọi bằng chứng đều khớp với lời giải thích này.",
+        },
+      ],
+  }
+- {
+    "slug": "consistent-with-phr",
+    "lemma": "consistent with",
+    "pos": "phrase",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/kənˈsɪstənt wɪð/",
+    "def": "Matching or agreeing with something.",
+    "vi": "khớp với, phù hợp với",
+    "examples":
+      [
+        {
+          "en": "The memory graph is consistent with a leak.",
+          "vi": "Biểu đồ bộ nhớ khớp với một lỗi rò rỉ.",
+        },
+      ],
+  }
+# Set 10: Writing an investigation report
+- {
+    "slug": "investigation-n",
+    "lemma": "investigation",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "science",
+    "ipa": "/ɪnˌvestɪˈɡeɪʃn/",
+    "def": "A careful search for the facts about a problem.",
+    "vi": "cuộc điều tra",
+    "examples": [{ "en": "The investigation took two days.", "vi": "Cuộc điều tra mất hai ngày." }],
+  }
+- {
+    "slug": "key-takeaway-n",
+    "lemma": "key takeaway",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/kiː ˈteɪkəweɪ/",
+    "def": "The most important point people should remember.",
+    "vi": "điểm mấu chốt cần nhớ",
+    "examples":
+      [
+        {
+          "en": "The key takeaway: the bug only affects old clients.",
+          "vi": "Điểm mấu chốt: lỗi chỉ ảnh hưởng các client cũ.",
+        },
+      ],
+  }
+- {
+    "slug": "timeframe-n",
+    "lemma": "timeframe",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "science",
+    "ipa": "/ˈtaɪmfreɪm/",
+    "def": "The period of time in which something happens.",
+    "vi": "khung thời gian",
+    "examples":
+      [
+        {
+          "en": "The report covers the timeframe from 1 to 3 May.",
+          "vi": "Báo cáo bao gồm khung thời gian từ 1 đến 3 tháng Năm.",
+        },
+      ],
+  }
+- {
+    "slug": "cover-v",
+    "lemma": "cover",
+    "pos": "verb",
+    "cefr": "B1",
+    "topic": "science",
+    "ipa": "/ˈkʌvə/",
+    "def": "To include a subject or period of time.",
+    "vi": "bao gồm, đề cập",
+    "examples":
+      [
+        {
+          "en": "This report covers only the web app.",
+          "vi": "Báo cáo này chỉ đề cập ứng dụng web.",
+        },
+      ],
+  }
+- {
+    "slug": "how-we-tested-phr",
+    "lemma": "how we tested",
+    "pos": "phrase",
+    "kind": "phrase",
+    "cefr": "B1",
+    "topic": "science",
+    "ipa": "/haʊ wi ˈtestɪd/",
+    "def": "A common report heading that explains the testing method.",
+    "vi": "cách chúng tôi kiểm thử",
+    "examples":
+      [
+        {
+          "en": "Under 'How we tested', list the tools and data.",
+          "vi": "Ở mục 'Cách chúng tôi kiểm thử', liệt kê công cụ và dữ liệu.",
+        },
+      ],
+  }
+- {
+    "slug": "overview-n",
+    "lemma": "overview",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "science",
+    "ipa": "/ˈəʊvəvjuː/",
+    "def": "A short description of the main facts.",
+    "vi": "tổng quan",
+    "examples":
+      [
+        {
+          "en": "Start with a short overview of the payment flow.",
+          "vi": "Bắt đầu bằng phần tổng quan ngắn về luồng thanh toán.",
+        },
+      ],
+  }
+- {
+    "slug": "user-impact-n",
+    "lemma": "user impact",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "science",
+    "ipa": "/ˈjuːzə ˈɪmpækt/",
+    "def": "How a problem affected the people using the product.",
+    "vi": "ảnh hưởng tới người dùng",
+    "examples":
+      [
+        {
+          "en": "User impact: about 2% could not log in.",
+          "vi": "Ảnh hưởng người dùng: khoảng 2% không đăng nhập được.",
+        },
+      ],
+  }
+- {
+    "slug": "priority-level-n",
+    "lemma": "priority level",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "science",
+    "ipa": "/praɪˈɒrəti ˈlevl/",
+    "def": "A label that shows how urgent a problem is, like P1 or P2.",
+    "vi": "mức ưu tiên",
+    "examples":
+      [{ "en": "We set the priority level to P1.", "vi": "Bọn mình đặt mức ưu tiên là P1." }],
+  }
+- {
+    "slug": "affected-adj",
+    "lemma": "affected",
+    "pos": "adjective",
+    "cefr": "B2",
+    "topic": "science",
+    "ipa": "/əˈfektɪd/",
+    "def": "Influenced or harmed by something.",
+    "vi": "bị ảnh hưởng",
+    "examples":
+      [
+        {
+          "en": "We emailed all affected customers.",
+          "vi": "Bọn mình đã email cho mọi khách hàng bị ảnh hưởng.",
+        },
+      ],
+  }
+- {
+    "slug": "restore-v-science",
+    "lemma": "restore",
+    "pos": "verb",
+    "cefr": "B2",
+    "topic": "science",
+    "ipa": "/rɪˈstɔː/",
+    "def": "To make something work again as it did before.",
+    "vi": "khôi phục",
+    "examples":
+      [{ "en": "Service was restored at 14:30.", "vi": "Dịch vụ được khôi phục lúc 14:30." }],
+  }
+- {
+    "slug": "outstanding-adj",
+    "lemma": "outstanding",
+    "pos": "adjective",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/aʊtˈstændɪŋ/",
+    "def": "Not yet done or solved.",
+    "vi": "còn tồn đọng",
+    "examples":
+      [{ "en": "Two questions are still outstanding.", "vi": "Vẫn còn hai câu hỏi tồn đọng." }],
+  }
+- {
+    "slug": "way-forward-n",
+    "lemma": "way forward",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/weɪ ˈfɔːwəd/",
+    "def": "The plan for what to do from now on.",
+    "vi": "hướng đi tiếp theo",
+    "examples":
+      [
+        {
+          "en": "The way forward is to add a test and update the runbook.",
+          "vi": "Hướng đi tiếp theo là thêm test và cập nhật runbook.",
+        },
+      ],
+  }
+- {
+    "slug": "put-forward-phr",
+    "lemma": "put forward",
+    "pos": "phrasal_verb",
+    "kind": "phrasal",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/pʊt ˈfɔːwəd/",
+    "def": "To suggest an idea or plan for people to discuss.",
+    "vi": "đưa ra (đề xuất)",
+    "examples":
+      [
+        {
+          "en": "We put forward two options for a long-term fix.",
+          "vi": "Bọn mình đưa ra hai phương án sửa lâu dài.",
+        },
+      ],
+  }
+- {
+    "slug": "known-issue-n-science",
+    "lemma": "known issue",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "science",
+    "ipa": "/nəʊn ˈɪʃuː/",
+    "def": "A problem that is already recorded but not fixed yet.",
+    "vi": "lỗi đã biết",
+    "examples":
+      [
+        {
+          "en": "List it as a known issue until the vendor fixes it.",
+          "vi": "Ghi nó là lỗi đã biết cho tới khi bên cung cấp sửa.",
+        },
+      ],
+  }
+- {
+    "slug": "raw-data-n-science",
+    "lemma": "raw data",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "science",
+    "ipa": "/rɔː ˈdeɪtə/",
+    "def": "Data that has not been processed or summarised.",
+    "vi": "dữ liệu thô",
+    "examples":
+      [
+        {
+          "en": "Link the raw data at the end of the report.",
+          "vi": "Gắn link dữ liệu thô ở cuối báo cáo.",
+        },
+      ],
+  }
+- {
+    "slug": "reviewer-n-science",
+    "lemma": "reviewer",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "science",
+    "ipa": "/rɪˈvjuːə/",
+    "def": "A person who checks a piece of work.",
+    "vi": "người duyệt",
+    "examples":
+      [
+        {
+          "en": "Ask a reviewer from another team to read it.",
+          "vi": "Nhờ một người duyệt từ nhóm khác đọc.",
+        },
+      ],
+  }
+- {
+    "slug": "jargon-n",
+    "lemma": "jargon",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/ˈdʒɑːɡən/",
+    "def": "Special words that only experts understand.",
+    "vi": "thuật ngữ chuyên môn khó hiểu",
+    "examples":
+      [
+        {
+          "en": "Avoid jargon in the summary for managers.",
+          "vi": "Tránh thuật ngữ khó hiểu trong phần tóm tắt cho quản lý.",
+        },
+      ],
+  }
+- {
+    "slug": "objective-adj",
+    "lemma": "objective",
+    "pos": "adjective",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/əbˈdʒektɪv/",
+    "def": "Based on facts, not feelings.",
+    "vi": "khách quan",
+    "examples":
+      [
+        {
+          "en": "Keep the tone objective and stick to the evidence.",
+          "vi": "Giữ giọng văn khách quan và bám vào bằng chứng.",
+        },
+      ],
+  }
+- {
+    "slug": "lay-reader-n",
+    "lemma": "lay reader",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/leɪ ˈriːdə/",
+    "def": "A reader who is not an expert in the subject.",
+    "vi": "người đọc không chuyên",
+    "examples":
+      [
+        {
+          "en": "Write the summary so a lay reader can follow it.",
+          "vi": "Viết phần tóm tắt sao cho người đọc không chuyên hiểu được.",
+        },
+      ],
+  }
+- {
+    "slug": "executive-summary-n",
+    "lemma": "executive summary",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/ɪɡˈzekjətɪv ˈsʌməri/",
+    "def": "A short part at the start that gives the main points.",
+    "vi": "tóm tắt tổng quan",
+    "examples":
+      [
+        {
+          "en": "Busy readers will only read the executive summary.",
+          "vi": "Người đọc bận rộn chỉ đọc phần tóm tắt tổng quan.",
+        },
+      ],
+  }
+- {
+    "slug": "approach-n",
+    "lemma": "approach",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "science",
+    "ipa": "/əˈprəʊtʃ/",
+    "def": "A way of dealing with a problem.",
+    "vi": "cách tiếp cận",
+    "examples":
+      [
+        {
+          "en": "Our first approach, adding retries, did not help.",
+          "vi": "Cách tiếp cận đầu tiên của bọn mình, thêm retry, không hiệu quả.",
+        },
+      ],
+  }
+- {
+    "slug": "looking-back-phr",
+    "lemma": "looking back",
+    "pos": "phrase",
+    "kind": "phrase",
+    "cefr": "B2",
+    "topic": "science",
+    "ipa": "/ˈlʊkɪŋ bæk/",
+    "def": "Thinking now about what happened earlier.",
+    "vi": "nhìn lại",
+    "examples":
+      [
+        {
+          "en": "Looking back, we should have checked the disk first.",
+          "vi": "Nhìn lại, lẽ ra bọn mình nên kiểm tra ổ đĩa trước.",
+        },
+      ],
+  }
+- {
+    "slug": "to-date-phr",
+    "lemma": "to date",
+    "pos": "phrase",
+    "kind": "phrase",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/tə deɪt/",
+    "def": "Until now.",
+    "vi": "tính đến nay",
+    "examples":
+      [
+        {
+          "en": "To date, no data has been lost.",
+          "vi": "Tính đến nay chưa có dữ liệu nào bị mất.",
+        },
+      ],
+  }
+- {
+    "slug": "disclose-v-science",
+    "lemma": "disclose",
+    "pos": "verb",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/dɪsˈkləʊz/",
+    "def": "To make information known officially.",
+    "vi": "công bố, tiết lộ",
+    "examples":
+      [
+        {
+          "en": "We must disclose the incident to affected clients.",
+          "vi": "Chúng ta phải thông báo sự cố cho khách hàng bị ảnh hưởng.",
+        },
+      ],
+  }
+- {
+    "slug": "owner-n-science",
+    "lemma": "owner",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "science",
+    "ipa": "/ˈəʊnə/",
+    "def": "The person responsible for a task or system.",
+    "vi": "người phụ trách",
+    "examples":
+      [{ "en": "Who is the owner of this service?", "vi": "Ai là người phụ trách service này?" }],
+  }
+- {
+    "slug": "keep-posted-phr",
+    "lemma": "keep someone posted",
+    "pos": "phrase",
+    "kind": "phrase",
+    "cefr": "B2",
+    "topic": "science",
+    "ipa": "/kiːp ˈsʌmwʌn ˈpəʊstɪd/",
+    "def": "To keep telling someone the latest news.",
+    "vi": "cập nhật thường xuyên cho ai",
+    "examples":
+      [
+        {
+          "en": "I'll keep you posted until the fix is live.",
+          "vi": "Mình sẽ cập nhật cho bạn đến khi bản sửa chạy thật.",
+        },
+      ],
+  }
+- {
+    "slug": "evidence-based-adj",
+    "lemma": "evidence-based",
+    "pos": "adjective",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/ˈevɪdəns beɪst/",
+    "def": "Based on facts and data, not opinion.",
+    "vi": "dựa trên bằng chứng",
+    "examples":
+      [
+        {
+          "en": "Every recommendation should be evidence-based.",
+          "vi": "Mọi khuyến nghị nên dựa trên bằng chứng.",
+        },
+      ],
+  }
+- {
+    "slug": "fact-check-v",
+    "lemma": "fact-check",
+    "pos": "verb",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/ˈfækt tʃek/",
+    "def": "To check that the facts in a text are correct.",
+    "vi": "kiểm chứng thông tin",
+    "examples":
+      [
+        {
+          "en": "Please fact-check the numbers before I send it.",
+          "vi": "Bạn kiểm chứng giúp các con số trước khi mình gửi nhé.",
+        },
+      ],
+  }
+- {
+    "slug": "circulate-v",
+    "lemma": "circulate",
+    "pos": "verb",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/ˈsɜːkjəleɪt/",
+    "def": "To send a document to a group of people.",
+    "vi": "gửi lan truyền, phân phát",
+    "examples":
+      [
+        {
+          "en": "Please circulate the report before Monday.",
+          "vi": "Vui lòng gửi báo cáo cho mọi người trước thứ Hai.",
+        },
+      ],
+  }
+- {
+    "slug": "countersign-v",
+    "lemma": "countersign",
+    "pos": "verb",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/ˈkaʊntəsaɪn/",
+    "def": "To sign a document that someone else has already signed, to show you agree.",
+    "vi": "ký xác nhận thêm",
+    "examples":
+      [
+        {
+          "en": "The tech lead will countersign the report.",
+          "vi": "Tech lead sẽ ký xác nhận thêm vào báo cáo.",
+        },
+      ],
+  }
+- {
+    "slug": "reference-v",
+    "lemma": "reference",
+    "pos": "verb",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/ˈrefrəns/",
+    "def": "To mention or link to another source.",
+    "vi": "dẫn chiếu",
+    "examples":
+      [
+        {
+          "en": "Reference the ticket number in the report.",
+          "vi": "Dẫn chiếu số ticket trong báo cáo.",
+        },
+      ],
+  }
+- {
+    "slug": "concede-v",
+    "lemma": "concede",
+    "pos": "verb",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/kənˈsiːd/",
+    "def": "To admit, often unwillingly, that something is true.",
+    "vi": "thừa nhận (miễn cưỡng)",
+    "examples":
+      [
+        {
+          "en": "We concede that the alert was too slow.",
+          "vi": "Bọn mình thừa nhận cảnh báo đã quá chậm.",
+        },
+      ],
+  }
+- {
+    "slug": "lesson-learned-n-science",
+    "lemma": "lesson learned",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/ˈlesn lɜːnd/",
+    "def": "Useful knowledge gained from an experience, often a bad one.",
+    "vi": "bài học rút ra",
+    "examples":
+      [
+        {
+          "en": "One lesson learned: test backups regularly.",
+          "vi": "Một bài học rút ra: kiểm tra bản sao lưu thường xuyên.",
+        },
+      ],
+  }
+- {
+    "slug": "initial-adj",
+    "lemma": "initial",
+    "pos": "adjective",
+    "cefr": "B2",
+    "topic": "science",
+    "ipa": "/ɪˈnɪʃl/",
+    "def": "Happening at the beginning.",
+    "vi": "ban đầu",
+    "examples":
+      [
+        {
+          "en": "These are initial findings; details will follow.",
+          "vi": "Đây là phát hiện ban đầu; chi tiết sẽ có sau.",
+        },
+      ],
+  }
+- {
+    "slug": "conclusive-adj",
+    "lemma": "conclusive",
+    "pos": "adjective",
+    "cefr": "C1",
+    "topic": "science",
+    "ipa": "/kənˈkluːsɪv/",
+    "def": "Proving something so that there is no doubt.",
+    "vi": "mang tính kết luận, thuyết phục",
+    "examples":
+      [
+        {
+          "en": "The rollback test gave conclusive proof.",
+          "vi": "Phép thử rollback cho bằng chứng thuyết phục.",
+        },
+      ],
+  }
+- {
+    "slug": "attach-v-science",
+    "lemma": "attach",
+    "pos": "verb",
+    "cefr": "B1",
+    "topic": "science",
+    "ipa": "/əˈtætʃ/",
+    "def": "To add a file to an email or document.",
+    "vi": "đính kèm",
+    "examples":
+      [
+        {
+          "en": "I attached the graphs to the report.",
+          "vi": "Mình đã đính kèm các biểu đồ vào báo cáo.",
+        },
+      ],
+  }

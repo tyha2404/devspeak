@@ -1,0 +1,396 @@
+# Grammar track C1 tests (batch c1-b). Original items; answers stay server-side.
+# --- g-c1-condition-alternatives
+- slug: g-c1-condition-alternatives-1
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: pr
+  sentence: "This change is safe to merge ___ the feature flag remains disabled in production."
+  options: [in case, otherwise, provided that, unless]
+  answer: 2
+  explanation_vi: "Điều kiện bắt buộc để merge an toàn → provided that. In case là phòng hờ, unless là ngoại lệ."
+- slug: g-c1-condition-alternatives-2
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: slack
+  sentence: "Keep the old credentials for a week ___ any client is still using them."
+  options: [in case, provided, as long as, otherwise]
+  answer: 0
+  explanation_vi: "Giữ lại để phòng khi vẫn còn client dùng → in case (hành động đề phòng làm trước)."
+- slug: g-c1-condition-alternatives-3
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: email
+  sentence: "Please confirm the scope by Friday; ___, we cannot guarantee the March launch date."
+  options: [unless, otherwise, provided, supposing]
+  answer: 1
+  explanation_vi: "Otherwise = nếu không thì; đứng sau dấu chấm phẩy để nối hệ quả."
+- slug: g-c1-condition-alternatives-4
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: jira
+  sentence: "___ the nightly snapshot, we would have lost three days of customer data."
+  options: [Unless, Provided, But for, In case of]
+  answer: 2
+  explanation_vi: "But for + danh từ = nếu không có…; đi với would have + V3 (điều kiện quá khứ)."
+- slug: g-c1-condition-alternatives-5
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: slack
+  sentence: "We'll go ahead with option B ___ (trừ khi) someone raises a blocker before noon."
+  accepted: ["unless"]
+  explanation_vi: "Unless = if… not, mệnh đề sau ở dạng khẳng định."
+- slug: g-c1-condition-alternatives-6
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: email
+  sentence: "The vendor may access the staging logs as long as all personal data ___ (be – hiện tại đơn) masked."
+  accepted: ["is"]
+  explanation_vi: "Mệnh đề điều kiện sau as long as dùng hiện tại đơn, không dùng will."
+- slug: g-c1-condition-alternatives-7
+  type: mcq_meaning
+  cefr: C1
+  topic: grammar
+  stem: "Chọn câu đúng."
+  question: "Câu nào đúng ngữ pháp và nghĩa?"
+  options:
+    - "Unless the load test doesn't pass, we will release on Friday."
+    - "Provided that the load test will pass, we release on Friday."
+    - "Unless the load test fails, we will release on Friday."
+    - "Otherwise the load test fails, we will release on Friday."
+  answer: 2
+  explanation_vi: "Unless + mệnh đề khẳng định (fails); không dùng phủ định kép, không dùng will sau provided, otherwise không mở mệnh đề điều kiện."
+- slug: g-c1-condition-alternatives-8
+  type: mcq_meaning
+  cefr: C1
+  topic: grammar
+  stem: "Giả định trong phần rủi ro của RFC."
+  question: "“Giả sử region chính bị sập thì failover mất bao lâu?” là…"
+  options:
+    - "In case the primary region went down, how long would failover take?"
+    - "Supposing the primary region went down, how long would failover take?"
+    - "Otherwise the primary region went down, how long would failover take?"
+    - "Provided the primary region went down, how long would failover take?"
+  answer: 1
+  explanation_vi: "Supposing đưa ra một kịch bản giả định để thảo luận. In case là phòng hờ, provided là điều kiện bắt buộc."
+# --- g-c1-verb-complementation
+- slug: g-c1-verb-complementation-1
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: email
+  sentence: "The client insisted that every release ___ signed off by their QA team."
+  options: [is, be, being, to be]
+  answer: 1
+  explanation_vi: "Insist that + S + V nguyên mẫu (thể giả định): be signed off."
+- slug: g-c1-verb-complementation-2
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: pr
+  sentence: "I'd recommend ___ this PR into two smaller ones before review."
+  options: [to split, you to split, splitting, split]
+  answer: 2
+  explanation_vi: "Recommend + V-ing; recommend không đi với to V hay someone to V."
+- slug: g-c1-verb-complementation-3
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: slack
+  sentence: "Our tech lead expects every reviewer ___ a decision within one working day."
+  options: [leaving, to leave, leave, that leaves]
+  answer: 1
+  explanation_vi: "Expect + O (every reviewer) + to V."
+- slug: g-c1-verb-complementation-4
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: jira
+  sentence: "Security proposed that third-party scripts ___ on the payment page."
+  options: [don't run, not run, not to run, aren't running]
+  answer: 1
+  explanation_vi: "Phủ định của thể giả định: not + V nguyên mẫu (not run), không dùng do."
+- slug: g-c1-verb-complementation-5
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: email
+  sentence: "All contractors are ___ (require – bị động) to complete security training before their first commit."
+  accepted: ["required"]
+  explanation_vi: "Be required to V: bị động nói về quy định chung."
+- slug: g-c1-verb-complementation-6
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: slack
+  sentence: "The incident commander urged the database team ___ (stop) all schema changes."
+  accepted: ["to stop"]
+  explanation_vi: "Urge + O + to V."
+- slug: g-c1-verb-complementation-7
+  type: mcq_meaning
+  cefr: C1
+  topic: grammar
+  stem: "Chọn câu đúng."
+  question: "Câu nào đúng ngữ pháp?"
+  options:
+    - "Minh suggested us to postpone the demo."
+    - "Minh suggested that we postpone the demo."
+    - "Minh suggested to postpone the demo."
+    - "Minh suggested we to postpone the demo."
+  answer: 1
+  explanation_vi: "Suggest không đi với (O +) to V; dùng suggest that + S + V hoặc suggest + V-ing."
+- slug: g-c1-verb-complementation-8
+  type: mcq_meaning
+  cefr: C1
+  topic: grammar
+  stem: "Yêu cầu trang trọng trong email với khách hàng."
+  question: "“Kiểm toán viên yêu cầu nhật ký truy cập phải được lưu bảy năm.” là…"
+  options:
+    - "The auditor demanded that the access logs are retained for seven years."
+    - "The auditor demanded the access logs to retain for seven years."
+    - "The auditor demanded that the access logs be retained for seven years."
+    - "The auditor demanded that the access logs retaining for seven years."
+  answer: 2
+  explanation_vi: "Demand that + S + be + V3: thể giả định bị động."
+# --- g-c1-relative-reduction
+- slug: g-c1-relative-reduction-1
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: vscode
+  sentence: "// Requests ___ the rate limit receive a 429 response."
+  options: [exceeded, exceeding, to exceed, are exceeding]
+  answer: 1
+  explanation_vi: "Request thực hiện hành động vượt → chủ động V-ing (= which exceed)."
+- slug: g-c1-relative-reduction-2
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: email
+  sentence: "Data ___ during the beta will be deleted after ninety days."
+  options: [collecting, collected, to collect, collects]
+  answer: 1
+  explanation_vi: "Dữ liệu bị thu thập → bị động V3 (= which is collected)."
+- slug: g-c1-relative-reduction-3
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: slack
+  sentence: "Thu was the first engineer ___ the memory leak."
+  options: [noticing, noticed, to notice, notices]
+  answer: 2
+  explanation_vi: "The first + N + to V."
+- slug: g-c1-relative-reduction-4
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: jira
+  sentence: "Users ___ the admin panel must use two-factor login."
+  options: [accessed, accessing, to be accessed, are accessing]
+  answer: 1
+  explanation_vi: "Người dùng thực hiện việc truy cập → chủ động V-ing."
+- slug: g-c1-relative-reduction-5
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: pr
+  sentence: "The library ___ (maintain – rút gọn) by the platform team has no known vulnerabilities."
+  accepted: ["maintained"]
+  explanation_vi: "Thư viện được đội platform duy trì → V3 (= which is maintained)."
+- slug: g-c1-relative-reduction-6
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: slack
+  sentence: "This is the only migration script ___ (modify – rút gọn) the users table."
+  accepted: ["to modify"]
+  explanation_vi: "The only + N + to V."
+- slug: g-c1-relative-reduction-7
+  type: mcq_meaning
+  cefr: C1
+  topic: grammar
+  stem: "Chọn câu đúng."
+  question: "Câu nào rút gọn mệnh đề quan hệ đúng?"
+  options:
+    - "The images storing in the CDN are compressed."
+    - "The images stored in the CDN are compressed."
+    - "The images are stored in the CDN are compressed."
+    - "The images to storing in the CDN are compressed."
+  answer: 1
+  explanation_vi: "Ảnh bị lưu → bị động, rút gọn thành V3: stored."
+- slug: g-c1-relative-reduction-8
+  type: mcq_meaning
+  cefr: C1
+  topic: grammar
+  stem: "Khi nào không rút gọn được."
+  question: "“PR mà Lan review hôm qua đã được merge.” là…"
+  options:
+    - "The PR reviewing Lan yesterday was merged."
+    - "The PR reviewed Lan yesterday was merged."
+    - "The PR that Lan reviewed yesterday was merged."
+    - "The PR to review Lan yesterday was merged."
+  answer: 2
+  explanation_vi: "PR là tân ngữ của reviewed; không rút gọn thành phân từ, chỉ có thể bỏ that."
+# --- g-c1-participle-clauses
+- slug: g-c1-participle-clauses-1
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: jira
+  sentence: "___ reviewed by two seniors, the RFC was approved without changes."
+  options: [Having, Having been, Being, Been having]
+  answer: 1
+  explanation_vi: "RFC được review xong trước → bị động hoàn thành: having been + V3."
+- slug: g-c1-participle-clauses-2
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: vscode
+  sentence: "// Once ___, the worker polls the queue every two seconds."
+  options: [deploying, deployed, having deploy, to deploy]
+  answer: 1
+  explanation_vi: "Worker được triển khai → once + V3 (= once it is deployed)."
+- slug: g-c1-participle-clauses-3
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: email
+  sentence: "___ received the logs, the vendor could not reproduce the crash."
+  options: [Having not, Not having, Not been, Not being]
+  answer: 1
+  explanation_vi: "Not đứng trước phân từ: not having + V3 (chủ động, xong trước)."
+- slug: g-c1-participle-clauses-4
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: slack
+  sentence: "With half the team ___ leave, the release was pushed back a week."
+  options: [in, at, on, for]
+  answer: 2
+  explanation_vi: "Mệnh đề tuyệt đối with + N + cụm giới từ; on leave = đang nghỉ phép."
+- slug: g-c1-participle-clauses-5
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: pr
+  sentence: "___ (expose – bị động, lý do) to the public internet, the admin endpoint requires a VPN."
+  accepted: ["Being exposed", "being exposed"]
+  explanation_vi: "Being + V3 nêu lý do bị động; chủ ngữ ngầm là the admin endpoint."
+- slug: g-c1-participle-clauses-6
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: email
+  sentence: "Unless ___ (configure – rút gọn) otherwise, every new bucket is encrypted at rest."
+  accepted: ["configured"]
+  explanation_vi: "Unless + V3 = unless it is configured."
+- slug: g-c1-participle-clauses-7
+  type: mcq_meaning
+  cefr: C1
+  topic: grammar
+  stem: "Phân từ treo."
+  question: "Câu nào KHÔNG có lỗi phân từ treo?"
+  options:
+    - "Having been deployed, we monitored the new version."
+    - "Reading the logs, the bug became obvious."
+    - "After reviewing the trace, Lan realised the timeout came from DNS."
+    - "Having finished the migration, the API was reopened by the team."
+  answer: 2
+  explanation_vi: "Chỉ ở câu Lan, chủ ngữ ngầm của phân từ (người review trace) trùng với chủ ngữ chính."
+- slug: g-c1-participle-clauses-8
+  type: mcq_meaning
+  cefr: C1
+  topic: grammar
+  stem: "Mệnh đề tuyệt đối."
+  question: "“Khi migration đã xong, chúng tôi mở lại API cho lưu lượng bên ngoài.” là…"
+  options:
+    - "Finishing the migration, the API was reopened to external traffic."
+    - "The migration finished, we reopened the API to external traffic."
+    - "Having been finished the migration, we reopened the API to external traffic."
+    - "The migration finishing, the API reopened us to external traffic."
+  answer: 1
+  explanation_vi: "Chủ ngữ của phần phân từ (the migration) khác we nên giữ lại: mệnh đề tuyệt đối."
+# --- g-c1-negative-inversion
+- slug: g-c1-negative-inversion-1
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: email
+  sentence: "Under no circumstances ___ API keys be committed to the repository."
+  options: [should, they should, do, are]
+  answer: 0
+  explanation_vi: "Under no circumstances + trợ động từ + S: should API keys be committed."
+- slug: g-c1-negative-inversion-2
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: slack
+  sentence: "Seldom ___ a single config change take down three regions at once."
+  options: [is, does, has, do]
+  answer: 1
+  explanation_vi: "Không có trợ động từ → thêm does (chủ ngữ số ít), động từ về nguyên mẫu take."
+- slug: g-c1-negative-inversion-3
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: jira
+  sentence: "Only after the replica has caught up ___ switched to it."
+  options: [traffic can be, can traffic be, traffic be can, can be traffic]
+  answer: 1
+  explanation_vi: "Sau only after + mệnh đề, đảo ngữ ở mệnh đề chính: can traffic be."
+- slug: g-c1-negative-inversion-4
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: email
+  sentence: "No sooner had the hotfix gone live ___ a second bug appeared in checkout."
+  options: [when, then, than, that]
+  answer: 2
+  explanation_vi: "No sooner… than; hardly/scarcely mới đi với when."
+- slug: g-c1-negative-inversion-5
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: email
+  sentence: "At no time ___ (be – quá khứ) any payment information exposed during the incident."
+  accepted: ["was"]
+  explanation_vi: "At no time + was + S + V3: đảo trợ động từ was lên trước chủ ngữ."
+- slug: g-c1-negative-inversion-6
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: slack
+  sentence: "Little ___ (trợ động từ – quá khứ) we know that the cron job had been failing for weeks."
+  accepted: ["did"]
+  explanation_vi: "Little + did + S + know: hoàn toàn không ngờ."
+- slug: g-c1-negative-inversion-7
+  type: mcq_meaning
+  cefr: C1
+  topic: grammar
+  stem: "Chọn câu đúng."
+  question: "Câu nào đúng ngữ pháp?"
+  options:
+    - "Rarely the backup fails on weekends."
+    - "Rarely does the backup fail on weekends."
+    - "Rarely does the backup fails on weekends."
+    - "Rarely is the backup fail on weekends."
+  answer: 1
+  explanation_vi: "Rarely đầu câu → does + S + V nguyên mẫu (fail)."
+- slug: g-c1-negative-inversion-8
+  type: mcq_meaning
+  cefr: C1
+  topic: grammar
+  stem: "Not until trong báo cáo sự cố."
+  question: "“Mãi đến khi bên cung cấp chia sẻ log, chúng tôi mới hiểu nguyên nhân gốc.” là…"
+  options:
+    - "Not until did the vendor share their logs we understood the root cause."
+    - "Not until the vendor shared their logs we understood the root cause."
+    - "Not until the vendor shared their logs did we understand the root cause."
+    - "Not until the vendor shared their logs did we understood the root cause."
+  answer: 2
+  explanation_vi: "Mệnh đề not until giữ trật tự thường; đảo ở mệnh đề chính: did we understand."

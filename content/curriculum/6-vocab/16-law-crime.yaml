@@ -4,10 +4,285 @@ sort: 16
 code: T16
 kind: topic
 cefr: B2
-status: draft
-title: { en: "Law & Crime", vi: "Pháp luật & tội phạm" }
-summary_vi: "Từ vựng về luật lệ, vi phạm, toà án, quyền lợi và an ninh trong đời sống."
+status: published
+title:
+  en: Security, Privacy & Responsible Handling
+  vi: Bảo mật, riêng tư & xử lý có trách nhiệm
+summary_vi: Dùng tiếng Anh khi trao đổi quyền truy cập, dữ liệu nhạy cảm, lỗ
+  hổng và sự cố. Nội dung tập trung vào diễn đạt rõ rủi ro và phối hợp xử lý,
+  không thay cho tư vấn pháp lý.
 can_do:
-  - "Hiểu tin tức cơ bản về các vụ án và xét xử"
-  - "Nói về quyền lợi, nghĩa vụ và quy định thường gặp"
-lessons: []
+  - Mô tả rủi ro bảo mật mà không làm lộ dữ liệu nhạy cảm
+  - Thống nhất phạm vi truy cập và bước xử lý sự cố
+lessons:
+  - slug: t16-l1
+    kind: vocab
+    title: { en: "Set 1: Accounts & authentication", vi: "Bộ 1: Tài khoản & xác thực" }
+    senses:
+      [
+        log-in-phr-law-crime,
+        username-n-law-crime,
+        sign-out-phr,
+        locked-adj,
+        reset-v,
+        identity-n,
+        verify-v-law-crime,
+        session-n-law-crime,
+        authentication-n,
+        two-factor-adj,
+      ]
+    questions: []
+  - slug: t16-l2
+    kind: vocab
+    title: { en: "Set 2: Access & least privilege", vi: "Bộ 2: Truy cập & quyền tối thiểu" }
+    senses:
+      [
+        permission-n-law-crime,
+        allow-v,
+        deny-v,
+        request-access-phr,
+        role-n-law-crime,
+        grant-v-law-crime,
+        revoke-v,
+        temporary-adj-law-crime,
+        scope-n-law-crime,
+        least-privilege-n,
+        approver-n-law-crime,
+        expire-v-law-crime,
+      ]
+    questions: []
+  - slug: t16-l3
+    kind: vocab
+    title: { en: "Set 3: Sensitive data", vi: "Bộ 3: Dữ liệu nhạy cảm" }
+    senses:
+      [
+        private-adj-law-crime,
+        personal-data-n-law-crime,
+        sensitive-adj-law-crime,
+        leak-v-law-crime,
+        hide-v,
+        mask-v,
+        remove-v,
+        confidential-adj-law-crime,
+        plain-text-n,
+        redact-v-law-crime,
+        anonymize-v,
+        expose-v,
+        screenshot-n-law-crime,
+        need-to-know-adj,
+      ]
+    questions: []
+  - slug: t16-l4
+    kind: vocab
+    title:
+      { en: "Set 4: Threats & suspicious activity", vi: "Bộ 4: Mối đe doạ & dấu hiệu bất thường" }
+    senses:
+      [
+        strange-adj,
+        report-v-law-crime,
+        warning-n-law-crime,
+        attacker-n,
+        suspicious-adj-law-crime,
+        scam-n-law-crime,
+        phishing-n-law-crime,
+        malware-n-law-crime,
+        threat-n,
+        unauthorized-adj,
+        impersonate-v,
+        brute-force-n,
+        observe-v,
+        indicator-n,
+        block-v-law-crime,
+        intrusion-n,
+      ]
+    questions: []
+  - slug: t16-l5
+    kind: vocab
+    title: { en: "Set 5: Vulnerability reports", vi: "Bộ 5: Báo cáo lỗ hổng" }
+    senses:
+      [
+        weakness-n-law-crime,
+        affect-v,
+        version-n,
+        severity-n,
+        vulnerability-n,
+        exploit-v,
+        reproduce-v-law-crime,
+        impact-n-law-crime,
+        patch-n,
+        disclose-v,
+        proof-of-concept-n-law-crime,
+        workaround-n-law-crime,
+        injection-n-law-crime,
+        researcher-n,
+        triage-v,
+        steps-to-reproduce-n,
+        bounty-n,
+        mitigate-v,
+      ]
+    questions: []
+  - slug: t16-l6
+    kind: vocab
+    title: { en: "Set 6: Privacy requirements", vi: "Bộ 6: Yêu cầu riêng tư" }
+    senses:
+      [
+        collect-v,
+        purpose-n,
+        store-v,
+        delete-v-law-crime,
+        privacy-n-law-crime,
+        consent-n-law-crime,
+        opt-out-phr-law-crime,
+        retention-n-law-crime,
+        regulation-n-law-crime,
+        comply-with-phr-law-crime,
+        legal-team-n,
+        policy-n-law-crime,
+        minimize-v,
+        third-party-n,
+        lawful-adj,
+        right-n,
+        terms-n,
+        data-subject-n,
+        audit-v,
+        cross-border-adj,
+      ]
+    questions: []
+  - slug: t16-l7
+    kind: vocab
+    title: { en: "Set 7: Encryption & secrets", vi: "Bộ 7: Mã hoá & thông tin bí mật" }
+    senses:
+      [
+        secret-n,
+        key-n,
+        password-n,
+        encrypt-v-law-crime,
+        decrypt-v,
+        rotate-v,
+        vault-n,
+        hash-n,
+        certificate-n-law-crime,
+        commit-secret-v,
+        placeholder-n,
+        environment-variable-n,
+        in-transit-phr,
+        compromised-adj,
+        revealed-adj,
+        strong-adj,
+        store-securely-phr,
+        signing-key-n,
+        algorithm-n-law-crime,
+        generate-v-law-crime,
+        access-token-n,
+        passphrase-n,
+      ]
+    questions: []
+  - slug: t16-l8
+    kind: vocab
+    title: { en: "Set 8: Incident coordination", vi: "Bộ 8: Phối hợp xử lý sự cố" }
+    senses:
+      [
+        incident-n,
+        urgent-adj-law-crime,
+        owner-n-law-crime,
+        status-n-law-crime,
+        escalate-v-law-crime,
+        on-call-adj,
+        contain-v-law-crime,
+        responder-n,
+        timeline-n-law-crime,
+        isolate-v,
+        notify-v,
+        in-progress-phr,
+        hand-over-phr-law-crime,
+        restore-v,
+        all-clear-n,
+        stakeholder-n-law-crime,
+        breach-n-law-crime,
+        acknowledge-v-law-crime,
+        coordinate-v,
+        severe-adj,
+        war-room-n,
+        next-update-n,
+        outage-n,
+        priority-n-law-crime,
+      ]
+    questions: []
+  - slug: t16-l9
+    kind: vocab
+    title: { en: "Set 9: Audit trails & evidence", vi: "Bộ 9: Dấu vết kiểm tra & bằng chứng" }
+    senses:
+      [
+        record-n,
+        proof-n-law-crime,
+        history-n,
+        audit-trail-n,
+        evidence-n-law-crime,
+        preserve-v,
+        timestamp-n,
+        tamper-with-phr,
+        investigate-v,
+        read-only-adj,
+        chain-of-custody-n,
+        auditor-n-law-crime,
+        trace-v,
+        integrity-n,
+        retain-v-law-crime,
+        restricted-adj,
+        forensic-adj,
+        compliance-n-law-crime,
+        event-n,
+        who-did-what-phr,
+        witness-n,
+        sign-off-phr,
+        immutable-adj,
+        legal-hold-n,
+        access-log-n-law-crime,
+        export-v,
+        checksum-n,
+        document-steps-v,
+      ]
+    questions: []
+  - slug: t16-l10
+    kind: vocab
+    title: { en: "Set 10: A security follow-up", vi: "Bộ 10: Theo dõi sau sự cố bảo mật" }
+    senses:
+      [
+        lesson-n,
+        cause-n,
+        prevent-v-law-crime,
+        summary-n-law-crime,
+        action-item-n,
+        root-cause-n-law-crime,
+        postmortem-n-law-crime,
+        blameless-adj-law-crime,
+        safeguard-n,
+        recurrence-n,
+        follow-up-phr,
+        remaining-adj,
+        measure-n,
+        long-term-adj-law-crime,
+        security-review-n,
+        deadline-n-law-crime,
+        track-v-law-crime,
+        training-n,
+        awareness-n,
+        checklist-n-law-crime,
+        harden-v,
+        monitoring-n,
+        security-alert-n,
+        lessons-learned-n,
+        risk-n-law-crime,
+        accountable-adj-law-crime,
+        sign-off-n-law-crime,
+        follow-through-n,
+        in-place-phr,
+        vendor-n-law-crime,
+        confirm-v-law-crime,
+        close-out-phr,
+        improvement-n-law-crime,
+        tabletop-exercise-n,
+        timely-adj-law-crime,
+        reassess-v,
+      ]
+    questions: []

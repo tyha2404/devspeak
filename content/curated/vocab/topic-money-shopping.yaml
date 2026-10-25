@@ -1,0 +1,3512 @@
+# Vocabulary by topic: Budgets, Billing & Developer Purchases (unit T07). Original content.
+# Set 1: Prices & purchase decisions
+- {
+    "slug": "price-n",
+    "lemma": "price",
+    "pos": "noun",
+    "cefr": "A2",
+    "topic": "personal-finance",
+    "ipa": "/praɪs/",
+    "def": "The amount of money you must pay to buy something.",
+    "vi": "giá",
+    "examples":
+      [
+        {
+          "en": "The price of this monitor dropped by twenty dollars this week.",
+          "vi": "Giá của màn hình này giảm hai mươi đô trong tuần này.",
+        },
+      ],
+  }
+- {
+    "slug": "cost-v",
+    "lemma": "cost",
+    "pos": "verb",
+    "cefr": "A2",
+    "topic": "personal-finance",
+    "ipa": "/kɒst/",
+    "def": "To have a price that you must pay.",
+    "vi": "có giá, tốn",
+    "examples":
+      [
+        {
+          "en": "A second laptop charger costs about thirty dollars.",
+          "vi": "Một cục sạc laptop thứ hai tốn khoảng ba mươi đô.",
+        },
+      ],
+    "note": "Quá khứ: cost – cost.",
+  }
+- {
+    "slug": "cheap-adj",
+    "lemma": "cheap",
+    "pos": "adjective",
+    "cefr": "A2",
+    "topic": "personal-finance",
+    "ipa": "/tʃiːp/",
+    "def": "Low in price, or lower than you expected.",
+    "vi": "rẻ",
+    "examples":
+      [
+        {
+          "en": "The cheap keyboard broke after two months of daily coding.",
+          "vi": "Cái bàn phím rẻ hỏng sau hai tháng code hằng ngày.",
+        },
+      ],
+  }
+- {
+    "slug": "expensive-adj",
+    "lemma": "expensive",
+    "pos": "adjective",
+    "cefr": "A2",
+    "topic": "personal-finance",
+    "ipa": "/ɪkˈspensɪv/",
+    "def": "Costing a lot of money.",
+    "vi": "đắt",
+    "examples":
+      [
+        {
+          "en": "The enterprise plan is too expensive for a team of three.",
+          "vi": "Gói enterprise quá đắt cho một nhóm ba người.",
+        },
+      ],
+  }
+- {
+    "slug": "afford-v",
+    "lemma": "afford",
+    "pos": "verb",
+    "cefr": "B1",
+    "topic": "personal-finance",
+    "ipa": "/əˈfɔːd/",
+    "def": "To have enough money to pay for something.",
+    "vi": "đủ tiền mua, chi trả được",
+    "examples":
+      [
+        {
+          "en": "We can't afford a new server until next quarter.",
+          "vi": "Chúng ta chưa đủ tiền mua server mới cho tới quý sau.",
+        },
+      ],
+    "note": "Thường đi với can / can't.",
+  }
+- {
+    "slug": "worth-adj",
+    "lemma": "worth",
+    "pos": "adjective",
+    "cefr": "B1",
+    "topic": "personal-finance",
+    "ipa": "/wɜːθ/",
+    "def": "Having a value that makes the money or effort a good idea.",
+    "vi": "đáng (tiền, công sức)",
+    "examples":
+      [
+        {
+          "en": "A good chair is worth the money if you sit all day.",
+          "vi": "Một cái ghế tốt đáng tiền nếu bạn ngồi cả ngày.",
+        },
+      ],
+    "note": "Cấu trúc: be worth + danh từ / V-ing.",
+  }
+- {
+    "slug": "buy-v",
+    "lemma": "buy",
+    "pos": "verb",
+    "cefr": "A1",
+    "topic": "personal-finance",
+    "ipa": "/baɪ/",
+    "def": "To get something by paying money for it.",
+    "vi": "mua",
+    "examples":
+      [
+        {
+          "en": "I bought a second monitor for testing mobile layouts.",
+          "vi": "Mình đã mua thêm một màn hình để test giao diện mobile.",
+        },
+      ],
+    "note": "Quá khứ: buy – bought – bought.",
+  }
+- {
+    "slug": "bargain-n",
+    "lemma": "bargain",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "personal-finance",
+    "ipa": "/ˈbɑːɡɪn/",
+    "def": "Something you buy for less than its usual price.",
+    "vi": "món hời",
+    "examples":
+      [
+        {
+          "en": "The refurbished laptop was a real bargain.",
+          "vi": "Cái laptop tân trang đúng là một món hời.",
+        },
+      ],
+  }
+- {
+    "slug": "list-price-n",
+    "lemma": "list price",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "personal-finance",
+    "ipa": "/ˈlɪst praɪs/",
+    "def": "The official price before any discount.",
+    "vi": "giá niêm yết",
+    "examples":
+      [
+        {
+          "en": "We paid less than the list price by buying three years at once.",
+          "vi": "Mình trả thấp hơn giá niêm yết nhờ mua ba năm một lần.",
+        },
+      ],
+  }
+- {
+    "slug": "value-for-money-phr",
+    "lemma": "value for money",
+    "pos": "phrase",
+    "kind": "phrase",
+    "cefr": "B1",
+    "topic": "personal-finance",
+    "ipa": "/ˌvæljuː fə ˈmʌni/",
+    "def": "Good quality or usefulness compared with the price you pay.",
+    "vi": "đáng đồng tiền",
+    "examples":
+      [
+        {
+          "en": "The basic plan is the best value for money for small projects.",
+          "vi": "Gói cơ bản là đáng đồng tiền nhất cho dự án nhỏ.",
+        },
+      ],
+  }
+# Set 2: Subscriptions & renewals
+- {
+    "slug": "seat-n",
+    "lemma": "seat",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "personal-finance",
+    "ipa": "/siːt/",
+    "def": "One user's place in a paid team plan.",
+    "vi": "chỗ (người dùng trong gói)",
+    "examples":
+      [
+        {
+          "en": "We pay for eight seats but only six people log in.",
+          "vi": "Mình trả tiền cho tám chỗ nhưng chỉ có sáu người đăng nhập.",
+        },
+      ],
+  }
+- {
+    "slug": "pricing-plan-n",
+    "lemma": "pricing plan",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B1",
+    "topic": "personal-finance",
+    "ipa": "/ˈpraɪsɪŋ plæn/",
+    "def": "One of the options a company offers, each with its own price and features.",
+    "vi": "gói giá, gói dịch vụ",
+    "examples":
+      [
+        {
+          "en": "Which pricing plan includes single sign-on?",
+          "vi": "Gói dịch vụ nào có đăng nhập một lần (SSO)?",
+        },
+      ],
+  }
+- {
+    "slug": "grace-period-n",
+    "lemma": "grace period",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "personal-finance",
+    "ipa": "/ˈɡreɪs ˌpɪəriəd/",
+    "def": "Extra time after a deadline before a service stops.",
+    "vi": "thời gian ân hạn",
+    "examples":
+      [
+        {
+          "en": "There's a seven-day grace period after a failed payment.",
+          "vi": "Có bảy ngày ân hạn sau khi thanh toán thất bại.",
+        },
+      ],
+  }
+- {
+    "slug": "renewal-date-n",
+    "lemma": "renewal date",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B1",
+    "topic": "personal-finance",
+    "ipa": "/rɪˈnjuːəl deɪt/",
+    "def": "The day when a subscription starts its next paid period.",
+    "vi": "ngày gia hạn",
+    "examples":
+      [
+        {
+          "en": "Please put the renewal date in the team calendar.",
+          "vi": "Bạn ghi ngày gia hạn vào lịch chung của nhóm nhé.",
+        },
+      ],
+  }
+- {
+    "slug": "monthly-adj",
+    "lemma": "monthly",
+    "pos": "adjective",
+    "cefr": "A2",
+    "topic": "personal-finance",
+    "ipa": "/ˈmʌnθli/",
+    "def": "Happening or paid once every month.",
+    "vi": "hằng tháng",
+    "examples":
+      [
+        {
+          "en": "The monthly fee is ten dollars per user.",
+          "vi": "Phí hằng tháng là mười đô mỗi người dùng.",
+        },
+      ],
+  }
+- {
+    "slug": "annual-adj",
+    "lemma": "annual",
+    "pos": "adjective",
+    "cefr": "B1",
+    "topic": "personal-finance",
+    "ipa": "/ˈænjuəl/",
+    "def": "Happening or paid once every year.",
+    "vi": "hằng năm",
+    "examples":
+      [
+        {
+          "en": "An annual plan saves us two months of fees.",
+          "vi": "Gói năm giúp mình tiết kiệm hai tháng phí.",
+        },
+      ],
+  }
+- {
+    "slug": "auto-renewal-n",
+    "lemma": "auto-renewal",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "personal-finance",
+    "ipa": "/ˌɔːtəʊ rɪˈnjuːəl/",
+    "def": "A setting that renews a plan by itself unless you stop it.",
+    "vi": "tự động gia hạn",
+    "examples":
+      [
+        {
+          "en": "Turn off auto-renewal if we only need the tool for one project.",
+          "vi": "Tắt tự động gia hạn nếu mình chỉ cần công cụ cho một dự án.",
+        },
+      ],
+  }
+- {
+    "slug": "downgrade-v",
+    "lemma": "downgrade",
+    "pos": "verb",
+    "cefr": "B1",
+    "topic": "personal-finance",
+    "ipa": "/ˌdaʊnˈɡreɪd/",
+    "def": "To move to a cheaper version of a service with fewer features.",
+    "vi": "hạ gói",
+    "examples":
+      [
+        {
+          "en": "If we downgrade, we will lose the audit logs.",
+          "vi": "Nếu hạ gói, mình sẽ mất nhật ký kiểm tra.",
+        },
+      ],
+  }
+- {
+    "slug": "free-trial-n-money-shopping",
+    "lemma": "free trial",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "A2",
+    "topic": "personal-finance",
+    "ipa": "/ˌfriː ˈtraɪəl/",
+    "def": "A short period when you can use a product without paying.",
+    "vi": "dùng thử miễn phí",
+    "examples":
+      [
+        {
+          "en": "The free trial lasts fourteen days and needs no card.",
+          "vi": "Bản dùng thử miễn phí kéo dài mười bốn ngày và không cần thẻ.",
+        },
+      ],
+  }
+- {
+    "slug": "billing-cycle-n",
+    "lemma": "billing cycle",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B1",
+    "topic": "personal-finance",
+    "ipa": "/ˈbɪlɪŋ ˌsaɪkl/",
+    "def": "The regular period after which a service charges you again.",
+    "vi": "chu kỳ thanh toán",
+    "examples":
+      [
+        {
+          "en": "Changes to your plan start at the next billing cycle.",
+          "vi": "Thay đổi gói sẽ áp dụng từ chu kỳ thanh toán kế tiếp.",
+        },
+      ],
+  }
+- {
+    "slug": "sign-up-for-phr",
+    "lemma": "sign up for",
+    "pos": "phrasal_verb",
+    "kind": "phrasal",
+    "cefr": "A2",
+    "topic": "personal-finance",
+    "ipa": "/ˌsaɪn ˈʌp fə/",
+    "def": "To create an account or join a service.",
+    "vi": "đăng ký",
+    "examples":
+      [
+        {
+          "en": "I signed up for the error-tracking service with my work email.",
+          "vi": "Mình đã đăng ký dịch vụ theo dõi lỗi bằng email công ty.",
+        },
+      ],
+  }
+- {
+    "slug": "lapse-v",
+    "lemma": "lapse",
+    "pos": "verb",
+    "cefr": "B2",
+    "topic": "personal-finance",
+    "ipa": "/læps/",
+    "def": "To end because it was not renewed in time.",
+    "vi": "hết hiệu lực",
+    "examples":
+      [
+        {
+          "en": "Our certificate lapsed because nobody renewed it.",
+          "vi": "Chứng chỉ của mình hết hiệu lực vì không ai gia hạn.",
+        },
+      ],
+  }
+# Set 3: Invoices & receipts
+- {
+    "slug": "billing-portal-n",
+    "lemma": "billing portal",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B1",
+    "topic": "personal-finance",
+    "ipa": "/ˈbɪlɪŋ ˌpɔːtl/",
+    "def": "The page where you see and pay a service's charges.",
+    "vi": "trang quản lý thanh toán",
+    "examples":
+      [
+        {
+          "en": "Download past receipts from the billing portal.",
+          "vi": "Tải các biên lai cũ từ trang quản lý thanh toán.",
+        },
+      ],
+  }
+- {
+    "slug": "credit-note-n",
+    "lemma": "credit note",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "personal-finance",
+    "ipa": "/ˈkredɪt nəʊt/",
+    "def": "A document from a seller that reduces what you owe on an invoice.",
+    "vi": "phiếu điều chỉnh giảm",
+    "examples":
+      [
+        {
+          "en": "They sent a credit note for the seats we removed.",
+          "vi": "Họ gửi phiếu điều chỉnh giảm cho các chỗ mình đã bỏ.",
+        },
+      ],
+  }
+- {
+    "slug": "amount-n",
+    "lemma": "amount",
+    "pos": "noun",
+    "cefr": "A2",
+    "topic": "personal-finance",
+    "ipa": "/əˈmaʊnt/",
+    "def": "How much money something is.",
+    "vi": "số tiền",
+    "examples":
+      [
+        {
+          "en": "The amount on the invoice doesn't match our order.",
+          "vi": "Số tiền trên hoá đơn không khớp với đơn hàng của mình.",
+        },
+      ],
+  }
+- {
+    "slug": "total-n",
+    "lemma": "total",
+    "pos": "noun",
+    "cefr": "A2",
+    "topic": "personal-finance",
+    "ipa": "/ˈtəʊtl/",
+    "def": "The number you get when you add every item together.",
+    "vi": "tổng cộng",
+    "examples":
+      [
+        {
+          "en": "The total includes tax and the setup fee.",
+          "vi": "Tổng cộng đã bao gồm thuế và phí cài đặt.",
+        },
+      ],
+  }
+- {
+    "slug": "subtotal-n",
+    "lemma": "subtotal",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "personal-finance",
+    "ipa": "/ˈsʌbtəʊtl/",
+    "def": "The total of a list of items before tax or fees are added.",
+    "vi": "tạm tính",
+    "examples":
+      [
+        {
+          "en": "The subtotal is correct, but the tax looks wrong.",
+          "vi": "Phần tạm tính đúng nhưng tiền thuế có vẻ sai.",
+        },
+      ],
+  }
+- {
+    "slug": "line-item-n",
+    "lemma": "line item",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "personal-finance",
+    "ipa": "/ˈlaɪn ˌaɪtəm/",
+    "def": "One separate row on an invoice or budget, with its own cost.",
+    "vi": "khoản mục",
+    "examples":
+      [
+        {
+          "en": "There is a line item for support that we never ordered.",
+          "vi": "Có một khoản mục hỗ trợ mà bên mình chưa từng đặt.",
+        },
+      ],
+  }
+- {
+    "slug": "billing-address-n",
+    "lemma": "billing address",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B1",
+    "topic": "personal-finance",
+    "ipa": "/ˈbɪlɪŋ əˌdres/",
+    "def": "The address that a company prints on your invoices.",
+    "vi": "địa chỉ thanh toán",
+    "examples":
+      [
+        {
+          "en": "Please update the billing address to our new office.",
+          "vi": "Bạn cập nhật địa chỉ thanh toán sang văn phòng mới giúp mình.",
+        },
+      ],
+  }
+- {
+    "slug": "due-date-n",
+    "lemma": "due date",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B1",
+    "topic": "personal-finance",
+    "ipa": "/ˈdjuː deɪt/",
+    "def": "The last day on which you should pay.",
+    "vi": "hạn thanh toán",
+    "examples":
+      [
+        {
+          "en": "The due date is thirty days after the invoice date.",
+          "vi": "Hạn thanh toán là ba mươi ngày sau ngày xuất hoá đơn.",
+        },
+      ],
+  }
+- {
+    "slug": "issue-v",
+    "lemma": "issue",
+    "pos": "verb",
+    "cefr": "B2",
+    "topic": "personal-finance",
+    "ipa": "/ˈɪʃuː/",
+    "def": "To officially produce and give out a document.",
+    "vi": "phát hành, xuất (chứng từ)",
+    "examples":
+      [
+        {
+          "en": "The vendor will issue a corrected invoice tomorrow.",
+          "vi": "Bên bán sẽ xuất lại hoá đơn đã sửa vào ngày mai.",
+        },
+      ],
+  }
+- {
+    "slug": "tax-id-n",
+    "lemma": "tax ID",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B1",
+    "topic": "personal-finance",
+    "ipa": "/ˈtæks ˌaɪ ˈdiː/",
+    "def": "The number that identifies a company for tax purposes.",
+    "vi": "mã số thuế",
+    "examples":
+      [
+        {
+          "en": "Our tax ID is missing from the last invoice.",
+          "vi": "Hoá đơn lần trước thiếu mã số thuế của công ty mình.",
+        },
+      ],
+  }
+- {
+    "slug": "overdue-adj",
+    "lemma": "overdue",
+    "pos": "adjective",
+    "cefr": "B2",
+    "topic": "personal-finance",
+    "ipa": "/ˌəʊvəˈdjuː/",
+    "def": "Not paid by the date when it should have been.",
+    "vi": "quá hạn",
+    "examples":
+      [
+        {
+          "en": "The hosting bill is overdue, so they may pause our servers.",
+          "vi": "Hoá đơn hosting đã quá hạn nên họ có thể tạm dừng server.",
+        },
+      ],
+  }
+- {
+    "slug": "vat-n",
+    "lemma": "VAT",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "personal-finance",
+    "ipa": "/ˌviː eɪ ˈtiː/",
+    "def": "A tax added to the price of goods and services.",
+    "vi": "thuế giá trị gia tăng",
+    "examples":
+      [
+        {
+          "en": "The invoice shows VAT as a separate line.",
+          "vi": "Hoá đơn ghi VAT thành một dòng riêng.",
+        },
+      ],
+    "note": "Viết tắt của value added tax.",
+  }
+- {
+    "slug": "settle-v-money-shopping",
+    "lemma": "settle",
+    "pos": "verb",
+    "cefr": "B2",
+    "topic": "personal-finance",
+    "ipa": "/ˈsetl/",
+    "def": "To pay all the money that you owe.",
+    "vi": "thanh toán (dứt điểm)",
+    "examples":
+      [
+        {
+          "en": "Finance settled the invoice on Friday.",
+          "vi": "Phòng kế toán đã thanh toán hoá đơn hôm thứ Sáu.",
+        },
+      ],
+  }
+- {
+    "slug": "purchase-order-n",
+    "lemma": "purchase order",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "personal-finance",
+    "ipa": "/ˈpɜːtʃəs ˌɔːdə/",
+    "def": "An official company document that approves buying something.",
+    "vi": "đơn đặt hàng",
+    "examples":
+      [
+        {
+          "en": "Please add our purchase order number to the invoice.",
+          "vi": "Vui lòng ghi số đơn đặt hàng của bên mình lên hoá đơn.",
+        },
+      ],
+    "note": "Viết tắt: PO.",
+  }
+# Set 4: A project budget
+- {
+    "slug": "earmark-v-money-shopping",
+    "lemma": "earmark",
+    "pos": "verb",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/ˈɪəmɑːk/",
+    "def": "To decide that money will be used only for one purpose.",
+    "vi": "dành riêng (cho mục đích)",
+    "examples":
+      [
+        {
+          "en": "This money is earmarked for the accessibility audit.",
+          "vi": "Khoản tiền này được dành riêng cho đợt rà soát khả năng tiếp cận.",
+        },
+      ],
+    "note": "Thường dùng bị động: be earmarked for.",
+  }
+- {
+    "slug": "ballpark-figure-n",
+    "lemma": "ballpark figure",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "personal-finance",
+    "ipa": "/ˈbɔːlpɑːk ˌfɪɡə/",
+    "def": "A rough number that is close to the real amount.",
+    "vi": "con số ước chừng",
+    "examples":
+      [
+        {
+          "en": "Can you give me a ballpark figure for hosting?",
+          "vi": "Bạn cho mình con số ước chừng cho hosting được không?",
+        },
+      ],
+  }
+- {
+    "slug": "hosting-n",
+    "lemma": "hosting",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "personal-finance",
+    "ipa": "/ˈhəʊstɪŋ/",
+    "def": "The service of keeping a website or app running on servers.",
+    "vi": "dịch vụ lưu trữ (hosting)",
+    "examples":
+      [
+        {
+          "en": "Hosting will cost about forty dollars a month.",
+          "vi": "Hosting sẽ tốn khoảng bốn mươi đô một tháng.",
+        },
+      ],
+  }
+- {
+    "slug": "software-licence-n",
+    "lemma": "software licence",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B1",
+    "topic": "personal-finance",
+    "ipa": "/ˈsɒftweə ˌlaɪsns/",
+    "def": "Official permission, usually paid, to use a program.",
+    "vi": "giấy phép phần mềm",
+    "examples":
+      [
+        {
+          "en": "We need two more software licences for the new hires.",
+          "vi": "Mình cần thêm hai giấy phép phần mềm cho người mới.",
+        },
+      ],
+    "note": 'Anh-Mỹ viết "license".',
+  }
+- {
+    "slug": "contingency-n-money-shopping",
+    "lemma": "contingency",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/kənˈtɪndʒənsi/",
+    "def": "Money kept aside in case something goes wrong.",
+    "vi": "khoản dự phòng",
+    "examples":
+      [
+        {
+          "en": "Keep ten percent as a contingency for surprises.",
+          "vi": "Giữ mười phần trăm làm khoản dự phòng cho bất ngờ.",
+        },
+      ],
+  }
+- {
+    "slug": "estimate-v",
+    "lemma": "estimate",
+    "pos": "verb",
+    "cefr": "B1",
+    "topic": "personal-finance",
+    "ipa": "/ˈestɪmeɪt/",
+    "def": "To guess an amount carefully using the facts you have.",
+    "vi": "ước tính",
+    "examples":
+      [
+        {
+          "en": "I estimate the API costs at three hundred dollars.",
+          "vi": "Mình ước tính chi phí API khoảng ba trăm đô.",
+        },
+      ],
+  }
+- {
+    "slug": "overspend-v",
+    "lemma": "overspend",
+    "pos": "verb",
+    "cefr": "B2",
+    "topic": "personal-finance",
+    "ipa": "/ˌəʊvəˈspend/",
+    "def": "To spend more money than you planned.",
+    "vi": "chi vượt",
+    "examples":
+      [
+        {
+          "en": "We overspent on cloud storage last month.",
+          "vi": "Tháng trước mình chi vượt cho lưu trữ đám mây.",
+        },
+      ],
+    "note": "Quá khứ: overspent.",
+  }
+- {
+    "slug": "runway-n",
+    "lemma": "runway",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/ˈrʌnweɪ/",
+    "def": "How long the money a project or startup has will last.",
+    "vi": "thời gian trụ được (theo tiền còn lại)",
+    "examples":
+      [
+        {
+          "en": "At this spend, we have eight months of runway.",
+          "vi": "Với mức chi này, mình trụ được thêm tám tháng.",
+        },
+      ],
+  }
+- {
+    "slug": "cost-breakdown-n",
+    "lemma": "cost breakdown",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "personal-finance",
+    "ipa": "/ˈkɒst ˌbreɪkdaʊn/",
+    "def": "A list that splits a total cost into its separate parts.",
+    "vi": "bảng chi tiết chi phí",
+    "examples":
+      [
+        {
+          "en": "The client asked for a cost breakdown by month.",
+          "vi": "Khách hàng yêu cầu bảng chi tiết chi phí theo tháng.",
+        },
+      ],
+  }
+- {
+    "slug": "one-off-adj-money-shopping",
+    "lemma": "one-off",
+    "pos": "adjective",
+    "cefr": "B2",
+    "topic": "personal-finance",
+    "ipa": "/ˌwʌn ˈɒf/",
+    "def": "Happening or paid only once.",
+    "vi": "một lần",
+    "examples":
+      [
+        {
+          "en": "The design audit is a one-off cost.",
+          "vi": "Đợt rà soát thiết kế là chi phí một lần.",
+        },
+      ],
+  }
+- {
+    "slug": "recurring-adj",
+    "lemma": "recurring",
+    "pos": "adjective",
+    "cefr": "B2",
+    "topic": "personal-finance",
+    "ipa": "/rɪˈkɜːrɪŋ/",
+    "def": "Happening again and again, for example every month.",
+    "vi": "định kỳ",
+    "examples":
+      [
+        {
+          "en": "Monitoring is a recurring cost, not a one-time payment.",
+          "vi": "Giám sát hệ thống là chi phí định kỳ chứ không phải trả một lần.",
+        },
+      ],
+  }
+- {
+    "slug": "approval-threshold-n",
+    "lemma": "approval threshold",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/əˈpruːvl ˌθreʃhəʊld/",
+    "def": "The amount above which a purchase needs a manager's OK.",
+    "vi": "ngưỡng phê duyệt",
+    "examples":
+      [
+        {
+          "en": "Our approval threshold for tools is 300 dollars.",
+          "vi": "Ngưỡng phê duyệt mua công cụ của mình là 300 đô.",
+        },
+      ],
+  }
+- {
+    "slug": "set-aside-phr",
+    "lemma": "set aside",
+    "pos": "phrasal_verb",
+    "kind": "phrasal",
+    "cefr": "B2",
+    "topic": "personal-finance",
+    "ipa": "/ˌset əˈsaɪd/",
+    "def": "To keep money for a particular use later.",
+    "vi": "để dành riêng",
+    "examples":
+      [
+        {
+          "en": "Let's set aside some money for a security review.",
+          "vi": "Mình để riêng một khoản cho đợt kiểm tra bảo mật nhé.",
+        },
+      ],
+  }
+- {
+    "slug": "fund-v",
+    "lemma": "fund",
+    "pos": "verb",
+    "cefr": "B2",
+    "topic": "personal-finance",
+    "ipa": "/fʌnd/",
+    "def": "To provide the money for a project or activity.",
+    "vi": "cấp tiền, tài trợ",
+    "examples":
+      [
+        {
+          "en": "The innovation team will fund the pilot.",
+          "vi": "Nhóm đổi mới sẽ cấp tiền cho dự án thử nghiệm.",
+        },
+      ],
+  }
+- {
+    "slug": "quarter-n",
+    "lemma": "quarter",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "personal-finance",
+    "ipa": "/ˈkwɔːtə/",
+    "def": "One of four three-month periods in a company's year.",
+    "vi": "quý",
+    "examples":
+      [
+        {
+          "en": "Our tools budget resets every quarter.",
+          "vi": "Ngân sách công cụ của mình được đặt lại mỗi quý.",
+        },
+      ],
+  }
+- {
+    "slug": "spending-cap-n",
+    "lemma": "spending cap",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "personal-finance",
+    "ipa": "/ˈspendɪŋ kæp/",
+    "def": "A fixed limit on how much can be spent.",
+    "vi": "mức trần chi tiêu",
+    "examples":
+      [
+        {
+          "en": "Set a spending cap on the cloud account to avoid surprises.",
+          "vi": "Đặt mức trần chi tiêu cho tài khoản cloud để tránh bất ngờ.",
+        },
+      ],
+  }
+# Set 5: Usage-based pricing
+- {
+    "slug": "usage-n",
+    "lemma": "usage",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "personal-finance",
+    "ipa": "/ˈjuːsɪdʒ/",
+    "def": "How much of a service you use.",
+    "vi": "mức sử dụng",
+    "examples":
+      [
+        {
+          "en": "Our usage doubled after the marketing email.",
+          "vi": "Mức sử dụng của mình tăng gấp đôi sau email marketing.",
+        },
+      ],
+  }
+- {
+    "slug": "pay-as-you-go-adj",
+    "lemma": "pay-as-you-go",
+    "pos": "adjective",
+    "cefr": "B2",
+    "topic": "personal-finance",
+    "ipa": "/ˌpeɪ əz juː ˈɡəʊ/",
+    "def": "Paying only for what you use, with no fixed fee.",
+    "vi": "dùng bao nhiêu trả bấy nhiêu",
+    "examples":
+      [
+        {
+          "en": "A pay-as-you-go plan suits our small side project.",
+          "vi": "Gói dùng bao nhiêu trả bấy nhiêu hợp với dự án phụ nhỏ của mình.",
+        },
+      ],
+  }
+- {
+    "slug": "tier-n",
+    "lemma": "tier",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "personal-finance",
+    "ipa": "/tɪə/",
+    "def": "One level in a set of prices or features.",
+    "vi": "bậc, hạng",
+    "examples":
+      [
+        {
+          "en": "The free tier allows a thousand requests a day.",
+          "vi": "Bậc miễn phí cho phép một nghìn request mỗi ngày.",
+        },
+      ],
+  }
+- {
+    "slug": "quota-n",
+    "lemma": "quota",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "personal-finance",
+    "ipa": "/ˈkwəʊtə/",
+    "def": "The largest amount you are allowed to use in a period.",
+    "vi": "hạn mức",
+    "examples":
+      [
+        {
+          "en": "We hit our email quota before lunch.",
+          "vi": "Mình dùng hết hạn mức email trước giờ trưa.",
+        },
+      ],
+  }
+- {
+    "slug": "exceed-v",
+    "lemma": "exceed",
+    "pos": "verb",
+    "cefr": "B2",
+    "topic": "personal-finance",
+    "ipa": "/ɪkˈsiːd/",
+    "def": "To go above a limit or amount.",
+    "vi": "vượt quá",
+    "examples":
+      [
+        {
+          "en": "If we exceed the limit, each extra call costs a cent.",
+          "vi": "Nếu vượt giới hạn, mỗi lượt gọi thêm tốn một xu.",
+        },
+      ],
+  }
+- {
+    "slug": "overage-n",
+    "lemma": "overage",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/ˈəʊvərɪdʒ/",
+    "def": "An extra charge for using more than your plan includes.",
+    "vi": "phí vượt mức",
+    "examples":
+      [
+        {
+          "en": "The overage on storage added fifty dollars to the bill.",
+          "vi": "Phí vượt mức lưu trữ làm hoá đơn tăng năm mươi đô.",
+        },
+      ],
+  }
+- {
+    "slug": "metered-adj",
+    "lemma": "metered",
+    "pos": "adjective",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/ˈmiːtəd/",
+    "def": "Measured and charged by the exact amount used.",
+    "vi": "tính theo đồng hồ đo, theo lượng dùng",
+    "examples":
+      [
+        {
+          "en": "Database reads are metered, so cache what you can.",
+          "vi": "Lượt đọc database được tính theo lượng dùng, nên cache được gì thì cache.",
+        },
+      ],
+  }
+- {
+    "slug": "unit-price-n",
+    "lemma": "unit price",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "personal-finance",
+    "ipa": "/ˈjuːnɪt praɪs/",
+    "def": "The price of one single item or unit.",
+    "vi": "đơn giá",
+    "examples":
+      [
+        {
+          "en": "The unit price falls when you buy more seats.",
+          "vi": "Đơn giá giảm khi mua nhiều chỗ hơn.",
+        },
+      ],
+  }
+- {
+    "slug": "api-call-n",
+    "lemma": "API call",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B1",
+    "topic": "personal-finance",
+    "ipa": "/ˌeɪ piː ˈaɪ kɔːl/",
+    "def": "One request that a program sends to an API.",
+    "vi": "lượt gọi API",
+    "examples":
+      [
+        {
+          "en": "Each API call costs a fraction of a cent.",
+          "vi": "Mỗi lượt gọi API tốn một phần nhỏ của một xu.",
+        },
+      ],
+  }
+- {
+    "slug": "egress-n",
+    "lemma": "egress",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/ˈiːɡres/",
+    "def": "Data that leaves a cloud provider's network, often charged.",
+    "vi": "lưu lượng ra (egress)",
+    "examples":
+      [
+        {
+          "en": "Egress fees made the backup plan more expensive.",
+          "vi": "Phí lưu lượng ra làm phương án sao lưu đắt hơn.",
+        },
+      ],
+  }
+- {
+    "slug": "compute-n",
+    "lemma": "compute",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/kəmˈpjuːt/",
+    "def": "Processing power from servers, sold as a service.",
+    "vi": "tài nguyên tính toán",
+    "examples":
+      [
+        {
+          "en": "Training the model needs a lot of compute.",
+          "vi": "Huấn luyện mô hình cần nhiều tài nguyên tính toán.",
+        },
+      ],
+  }
+- {
+    "slug": "autoscaling-n",
+    "lemma": "autoscaling",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/ˈɔːtəʊˌskeɪlɪŋ/",
+    "def": "A feature that adds or removes servers automatically as traffic changes.",
+    "vi": "tự động co giãn",
+    "examples":
+      [
+        {
+          "en": "Autoscaling keeps costs low at night.",
+          "vi": "Tự động co giãn giúp chi phí ban đêm thấp.",
+        },
+      ],
+  }
+- {
+    "slug": "burst-n",
+    "lemma": "burst",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "personal-finance",
+    "ipa": "/bɜːst/",
+    "def": "A short period of very high activity.",
+    "vi": "đợt tăng đột biến",
+    "examples":
+      [
+        {
+          "en": "A burst of sign-ups used our whole monthly quota.",
+          "vi": "Một đợt đăng ký tăng đột biến dùng hết hạn mức của cả tháng.",
+        },
+      ],
+  }
+- {
+    "slug": "rate-card-n",
+    "lemma": "rate card",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/ˈreɪt kɑːd/",
+    "def": "A list of a provider's prices for each kind of usage.",
+    "vi": "bảng giá dịch vụ",
+    "examples":
+      [
+        {
+          "en": "Check the rate card before choosing a region.",
+          "vi": "Xem bảng giá dịch vụ trước khi chọn region.",
+        },
+      ],
+  }
+- {
+    "slug": "flat-rate-n",
+    "lemma": "flat rate",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "personal-finance",
+    "ipa": "/ˌflæt ˈreɪt/",
+    "def": "One fixed price that does not change with usage.",
+    "vi": "giá cố định",
+    "examples":
+      [
+        {
+          "en": "A flat rate is easier to plan for than per-request pricing.",
+          "vi": "Giá cố định dễ lên kế hoạch hơn tính theo từng request.",
+        },
+      ],
+  }
+- {
+    "slug": "threshold-n",
+    "lemma": "threshold",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/ˈθreʃhəʊld/",
+    "def": "The level at which something starts to happen.",
+    "vi": "ngưỡng",
+    "examples":
+      [
+        {
+          "en": "Above this threshold, the price per gigabyte drops.",
+          "vi": "Trên ngưỡng này, giá mỗi gigabyte giảm.",
+        },
+      ],
+  }
+- {
+    "slug": "billable-adj",
+    "lemma": "billable",
+    "pos": "adjective",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/ˈbɪləbl/",
+    "def": "Able to be charged to a customer.",
+    "vi": "được tính tiền",
+    "examples":
+      [{ "en": "Failed requests are not billable.", "vi": "Request lỗi thì không bị tính tiền." }],
+  }
+- {
+    "slug": "consumption-n",
+    "lemma": "consumption",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "personal-finance",
+    "ipa": "/kənˈsʌmpʃn/",
+    "def": "The amount of something that is used up.",
+    "vi": "lượng tiêu thụ",
+    "examples":
+      [
+        {
+          "en": "Check the dashboard to see consumption per service.",
+          "vi": "Xem dashboard để biết lượng tiêu thụ của từng dịch vụ.",
+        },
+      ],
+  }
+# Set 6: Refunds & billing issues
+- {
+    "slug": "money-back-guarantee-n",
+    "lemma": "money-back guarantee",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B1",
+    "topic": "personal-finance",
+    "ipa": "/ˌmʌni bæk ˌɡærənˈtiː/",
+    "def": "A promise to return your money if you are not happy.",
+    "vi": "cam kết hoàn tiền",
+    "examples":
+      [
+        {
+          "en": "The course has a thirty-day money-back guarantee.",
+          "vi": "Khoá học có cam kết hoàn tiền trong ba mươi ngày.",
+        },
+      ],
+  }
+- {
+    "slug": "miscalculate-v",
+    "lemma": "miscalculate",
+    "pos": "verb",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/ˌmɪsˈkælkjuleɪt/",
+    "def": "To get a number or amount wrong.",
+    "vi": "tính sai",
+    "examples":
+      [
+        {
+          "en": "The system miscalculated the tax on our order.",
+          "vi": "Hệ thống đã tính sai thuế cho đơn hàng của mình.",
+        },
+      ],
+  }
+- {
+    "slug": "dispute-v",
+    "lemma": "dispute",
+    "pos": "verb",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/dɪˈspjuːt/",
+    "def": "To say officially that something is wrong or not fair.",
+    "vi": "khiếu nại, phản đối",
+    "examples":
+      [
+        {
+          "en": "We disputed the charge with our bank.",
+          "vi": "Bên mình đã khiếu nại khoản phí với ngân hàng.",
+        },
+      ],
+  }
+- {
+    "slug": "chargeback-n",
+    "lemma": "chargeback",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/ˈtʃɑːdʒbæk/",
+    "def": "When a bank takes back a card payment after a customer complains.",
+    "vi": "bồi hoàn qua ngân hàng",
+    "examples":
+      [
+        {
+          "en": "A chargeback should be the last step, after talking to the vendor.",
+          "vi": "Bồi hoàn qua ngân hàng nên là bước cuối, sau khi đã trao đổi với bên bán.",
+        },
+      ],
+  }
+- {
+    "slug": "billing-error-n",
+    "lemma": "billing error",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "personal-finance",
+    "ipa": "/ˈbɪlɪŋ ˌerə/",
+    "def": "A mistake in what a company charges you.",
+    "vi": "lỗi tính phí",
+    "examples":
+      [
+        {
+          "en": "Support confirmed it was a billing error on their side.",
+          "vi": "Bộ phận hỗ trợ xác nhận đó là lỗi tính phí từ phía họ.",
+        },
+      ],
+  }
+- {
+    "slug": "transaction-n",
+    "lemma": "transaction",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "personal-finance",
+    "ipa": "/trænˈzækʃn/",
+    "def": "A single payment or transfer of money.",
+    "vi": "giao dịch",
+    "examples":
+      [
+        {
+          "en": "I can see two transactions for the same order.",
+          "vi": "Mình thấy hai giao dịch cho cùng một đơn hàng.",
+        },
+      ],
+  }
+- {
+    "slug": "bank-statement-n",
+    "lemma": "bank statement",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B1",
+    "topic": "personal-finance",
+    "ipa": "/ˈbæŋk ˌsteɪtmənt/",
+    "def": "A record from your bank showing money in and out.",
+    "vi": "sao kê ngân hàng",
+    "examples":
+      [
+        {
+          "en": "I've attached the bank statement that shows the payment.",
+          "vi": "Mình đính kèm sao kê ngân hàng có khoản thanh toán.",
+        },
+      ],
+  }
+- {
+    "slug": "proof-of-payment-n",
+    "lemma": "proof of payment",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "personal-finance",
+    "ipa": "/ˌpruːf əv ˈpeɪmənt/",
+    "def": "A document that shows you have paid.",
+    "vi": "bằng chứng thanh toán",
+    "examples":
+      [
+        {
+          "en": "Please send proof of payment so we can find your order.",
+          "vi": "Vui lòng gửi bằng chứng thanh toán để chúng tôi tìm đơn hàng.",
+        },
+      ],
+  }
+- {
+    "slug": "reference-number-n",
+    "lemma": "reference number",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B1",
+    "topic": "personal-finance",
+    "ipa": "/ˈrefrəns ˌnʌmbə/",
+    "def": "A number that helps a company find your case or payment.",
+    "vi": "mã tham chiếu",
+    "examples":
+      [
+        {
+          "en": "Include the reference number in every reply.",
+          "vi": "Ghi mã tham chiếu trong mọi email trả lời.",
+        },
+      ],
+  }
+- {
+    "slug": "unpaid-adj",
+    "lemma": "unpaid",
+    "pos": "adjective",
+    "cefr": "B1",
+    "topic": "personal-finance",
+    "ipa": "/ˌʌnˈpeɪd/",
+    "def": "Not yet paid.",
+    "vi": "chưa thanh toán",
+    "examples":
+      [
+        {
+          "en": "The vendor says one invoice is still unpaid, but we paid it in May.",
+          "vi": "Bên bán nói một hoá đơn vẫn chưa thanh toán, nhưng mình đã trả hồi tháng Năm.",
+        },
+      ],
+  }
+- {
+    "slug": "reverse-v-money-shopping",
+    "lemma": "reverse",
+    "pos": "verb",
+    "cefr": "B2",
+    "topic": "personal-finance",
+    "ipa": "/rɪˈvɜːs/",
+    "def": "To cancel a payment so the money goes back.",
+    "vi": "đảo (giao dịch), hoàn lại",
+    "examples":
+      [
+        {
+          "en": "They reversed the duplicate payment within a day.",
+          "vi": "Họ đã hoàn lại khoản thanh toán trùng trong vòng một ngày.",
+        },
+      ],
+  }
+- {
+    "slug": "account-credit-n",
+    "lemma": "account credit",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "personal-finance",
+    "ipa": "/əˈkaʊnt ˌkredɪt/",
+    "def": "Money a company adds to your account to use on future bills.",
+    "vi": "tín dụng trong tài khoản",
+    "examples":
+      [
+        {
+          "en": "Instead of cash, they offered account credit for next month.",
+          "vi": "Thay vì tiền mặt, họ đề nghị cộng tín dụng vào tài khoản cho tháng sau.",
+        },
+      ],
+  }
+- {
+    "slug": "unauthorised-adj",
+    "lemma": "unauthorised",
+    "pos": "adjective",
+    "cefr": "B2",
+    "topic": "personal-finance",
+    "ipa": "/ʌnˈɔːθəraɪzd/",
+    "def": "Done without permission.",
+    "vi": "trái phép, không được cho phép",
+    "examples":
+      [
+        {
+          "en": "There's an unauthorised charge on the company card.",
+          "vi": "Có một khoản phí trái phép trên thẻ công ty.",
+        },
+      ],
+    "note": 'Anh-Mỹ viết "unauthorized".',
+  }
+- {
+    "slug": "duplicate-adj",
+    "lemma": "duplicate",
+    "pos": "adjective",
+    "cefr": "B2",
+    "topic": "personal-finance",
+    "ipa": "/ˈdjuːplɪkət/",
+    "def": "Exactly the same as something else, often by mistake.",
+    "vi": "trùng lặp",
+    "examples":
+      [
+        {
+          "en": "The webhook retried and created a duplicate payment.",
+          "vi": "Webhook gọi lại và tạo ra một khoản thanh toán trùng.",
+        },
+      ],
+  }
+- {
+    "slug": "eligible-adj",
+    "lemma": "eligible",
+    "pos": "adjective",
+    "cefr": "B2",
+    "topic": "personal-finance",
+    "ipa": "/ˈelɪdʒəbl/",
+    "def": "Allowed to have something because you meet the rules.",
+    "vi": "đủ điều kiện",
+    "examples":
+      [
+        {
+          "en": "Annual plans are eligible for a refund within thirty days.",
+          "vi": "Gói năm đủ điều kiện hoàn tiền trong vòng ba mươi ngày.",
+        },
+      ],
+  }
+- {
+    "slug": "processing-time-n",
+    "lemma": "processing time",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "personal-finance",
+    "ipa": "/ˈprəʊsesɪŋ taɪm/",
+    "def": "How long a request takes to be completed.",
+    "vi": "thời gian xử lý",
+    "examples":
+      [
+        {
+          "en": "The usual processing time for refunds is five working days.",
+          "vi": "Thời gian xử lý hoàn tiền thường là năm ngày làm việc.",
+        },
+      ],
+  }
+- {
+    "slug": "waive-v",
+    "lemma": "waive",
+    "pos": "verb",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/weɪv/",
+    "def": "To decide not to ask for a payment you could ask for.",
+    "vi": "miễn (phí)",
+    "examples":
+      [
+        {
+          "en": "They agreed to waive the late fee this time.",
+          "vi": "Họ đồng ý miễn phí trả chậm lần này.",
+        },
+      ],
+  }
+- {
+    "slug": "compensate-v",
+    "lemma": "compensate",
+    "pos": "verb",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/ˈkɒmpenseɪt/",
+    "def": "To give someone something because they suffered a loss.",
+    "vi": "đền bù",
+    "examples":
+      [
+        {
+          "en": "They compensated us with a free month after the outage.",
+          "vi": "Họ đền bù cho mình một tháng miễn phí sau sự cố ngừng dịch vụ.",
+        },
+      ],
+  }
+- {
+    "slug": "service-credit-n",
+    "lemma": "service credit",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/ˈsɜːvɪs ˌkredɪt/",
+    "def": "A discount a provider gives when it fails to deliver what it promised.",
+    "vi": "tín dụng bồi thường dịch vụ",
+    "examples":
+      [
+        {
+          "en": "After the outage, we claimed a service credit under the contract.",
+          "vi": "Sau sự cố, mình yêu cầu tín dụng bồi thường theo hợp đồng.",
+        },
+      ],
+  }
+- {
+    "slug": "partial-adj",
+    "lemma": "partial",
+    "pos": "adjective",
+    "cefr": "B2",
+    "topic": "personal-finance",
+    "ipa": "/ˈpɑːʃl/",
+    "def": "Only part, not complete.",
+    "vi": "một phần",
+    "examples":
+      [
+        {
+          "en": "We got a partial refund for the unused months.",
+          "vi": "Mình được hoàn tiền một phần cho các tháng chưa dùng.",
+        },
+      ],
+  }
+# Set 7: Currencies & payment methods
+- {
+    "slug": "foreign-currency-n",
+    "lemma": "foreign currency",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B1",
+    "topic": "personal-finance",
+    "ipa": "/ˌfɒrən ˈkʌrənsi/",
+    "def": "Money from another country.",
+    "vi": "ngoại tệ",
+    "examples":
+      [
+        {
+          "en": "The plugin is priced in a foreign currency, so check the fees.",
+          "vi": "Plugin được định giá bằng ngoại tệ, nên hãy kiểm tra phí.",
+        },
+      ],
+  }
+- {
+    "slug": "mid-market-rate-n",
+    "lemma": "mid-market rate",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/ˌmɪd ˈmɑːkɪt reɪt/",
+    "def": "The real middle price between buying and selling a currency.",
+    "vi": "tỷ giá trung bình thị trường",
+    "examples":
+      [
+        {
+          "en": "This app converts at the mid-market rate with no markup.",
+          "vi": "Ứng dụng này quy đổi theo tỷ giá trung bình thị trường, không cộng thêm.",
+        },
+      ],
+  }
+- {
+    "slug": "conversion-fee-n",
+    "lemma": "conversion fee",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "personal-finance",
+    "ipa": "/kənˈvɜːʃn fiː/",
+    "def": "A charge for changing money from one currency to another.",
+    "vi": "phí chuyển đổi ngoại tệ",
+    "examples":
+      [
+        {
+          "en": "My bank adds a three percent conversion fee.",
+          "vi": "Ngân hàng của mình cộng phí chuyển đổi ba phần trăm.",
+        },
+      ],
+  }
+- {
+    "slug": "credit-card-n",
+    "lemma": "credit card",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "A2",
+    "topic": "personal-finance",
+    "ipa": "/ˈkredɪt kɑːd/",
+    "def": "A card that lets you pay now and pay the bank back later.",
+    "vi": "thẻ tín dụng",
+    "examples":
+      [
+        {
+          "en": "The service only accepts a credit card for the trial.",
+          "vi": "Dịch vụ chỉ nhận thẻ tín dụng cho bản dùng thử.",
+        },
+      ],
+  }
+- {
+    "slug": "debit-card-n",
+    "lemma": "debit card",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B1",
+    "topic": "personal-finance",
+    "ipa": "/ˈdebɪt kɑːd/",
+    "def": "A card that takes money straight from your bank account.",
+    "vi": "thẻ ghi nợ",
+    "examples":
+      [
+        {
+          "en": "My debit card was rejected for the annual payment.",
+          "vi": "Thẻ ghi nợ của mình bị từ chối khi trả phí năm.",
+        },
+      ],
+  }
+- {
+    "slug": "wire-transfer-n",
+    "lemma": "wire transfer",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "personal-finance",
+    "ipa": "/ˈwaɪə ˌtrænsfɜː/",
+    "def": "Sending money electronically from one bank to another, often abroad.",
+    "vi": "chuyển tiền điện tử (quốc tế)",
+    "examples":
+      [
+        {
+          "en": "The client paid by wire transfer from Germany.",
+          "vi": "Khách hàng trả bằng chuyển tiền quốc tế từ Đức.",
+        },
+      ],
+  }
+- {
+    "slug": "qr-payment-n",
+    "lemma": "QR payment",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B1",
+    "topic": "personal-finance",
+    "ipa": "/ˌkjuː ˈɑː ˌpeɪmənt/",
+    "def": "Paying by scanning a QR code with a phone.",
+    "vi": "thanh toán QR",
+    "examples":
+      [
+        {
+          "en": "Most local vendors accept QR payment.",
+          "vi": "Đa số nhà cung cấp trong nước nhận thanh toán QR.",
+        },
+      ],
+  }
+- {
+    "slug": "payment-method-n",
+    "lemma": "payment method",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B1",
+    "topic": "personal-finance",
+    "ipa": "/ˈpeɪmənt ˌmeθəd/",
+    "def": "The way you choose to pay, such as a card or transfer.",
+    "vi": "phương thức thanh toán",
+    "examples":
+      [
+        {
+          "en": "Please add a payment method before the trial ends.",
+          "vi": "Vui lòng thêm phương thức thanh toán trước khi hết bản dùng thử.",
+        },
+      ],
+  }
+- {
+    "slug": "swift-code-n",
+    "lemma": "SWIFT code",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "personal-finance",
+    "ipa": "/ˈswɪft kəʊd/",
+    "def": "A code that identifies a bank in international payments.",
+    "vi": "mã SWIFT",
+    "examples":
+      [
+        {
+          "en": "The client needs our SWIFT code to send the payment.",
+          "vi": "Khách hàng cần mã SWIFT của bên mình để chuyển tiền.",
+        },
+      ],
+  }
+- {
+    "slug": "checkout-n",
+    "lemma": "checkout",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "personal-finance",
+    "ipa": "/ˈtʃekaʊt/",
+    "def": "The final step of buying something online, where you pay.",
+    "vi": "bước thanh toán",
+    "examples":
+      [
+        {
+          "en": "The coupon field is on the checkout page.",
+          "vi": "Ô nhập mã giảm giá nằm ở trang thanh toán.",
+        },
+      ],
+  }
+- {
+    "slug": "insufficient-funds-n",
+    "lemma": "insufficient funds",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "personal-finance",
+    "ipa": "/ˌɪnsəˌfɪʃnt ˈfʌndz/",
+    "def": "Not enough money in an account to make a payment.",
+    "vi": "không đủ số dư",
+    "examples":
+      [
+        {
+          "en": "The payment failed because of insufficient funds.",
+          "vi": "Thanh toán thất bại vì tài khoản không đủ số dư.",
+        },
+      ],
+  }
+- {
+    "slug": "expiry-date-n-money-shopping",
+    "lemma": "expiry date",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B1",
+    "topic": "personal-finance",
+    "ipa": "/ɪkˈspaɪəri deɪt/",
+    "def": "The date after which a card can no longer be used.",
+    "vi": "ngày hết hạn",
+    "examples":
+      [
+        {
+          "en": "Update the card before its expiry date next month.",
+          "vi": "Cập nhật thẻ trước ngày hết hạn vào tháng sau.",
+        },
+      ],
+  }
+- {
+    "slug": "security-code-n",
+    "lemma": "security code",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B1",
+    "topic": "personal-finance",
+    "ipa": "/sɪˈkjʊərəti kəʊd/",
+    "def": "The short number on the back of a card used to check it.",
+    "vi": "mã bảo mật (CVV)",
+    "examples":
+      [
+        {
+          "en": "Never paste the card's security code into a chat.",
+          "vi": "Đừng bao giờ dán mã bảo mật của thẻ vào khung chat.",
+        },
+      ],
+  }
+- {
+    "slug": "instalment-n",
+    "lemma": "instalment",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "personal-finance",
+    "ipa": "/ɪnˈstɔːlmənt/",
+    "def": "One of several parts of a payment, paid at different times.",
+    "vi": "kỳ trả góp",
+    "examples":
+      [
+        {
+          "en": "We'll pay the agency in three instalments.",
+          "vi": "Bọn mình sẽ trả agency thành ba đợt.",
+        },
+      ],
+    "note": 'Anh-Mỹ viết "installment".',
+  }
+- {
+    "slug": "top-up-v",
+    "lemma": "top up",
+    "pos": "phrasal_verb",
+    "kind": "phrasal",
+    "cefr": "B1",
+    "topic": "personal-finance",
+    "ipa": "/ˌtɒp ˈʌp/",
+    "def": "To add more money to a prepaid account or card.",
+    "vi": "nạp thêm tiền",
+    "examples":
+      [
+        {
+          "en": "Top up the SMS account before the campaign starts.",
+          "vi": "Nạp thêm tiền vào tài khoản SMS trước khi chiến dịch bắt đầu.",
+        },
+      ],
+  }
+- {
+    "slug": "withdraw-v",
+    "lemma": "withdraw",
+    "pos": "verb",
+    "cefr": "B2",
+    "topic": "personal-finance",
+    "ipa": "/wɪðˈdrɔː/",
+    "def": "To take money out of an account.",
+    "vi": "rút (tiền)",
+    "examples":
+      [
+        {
+          "en": "Freelancers can withdraw their earnings to a local bank.",
+          "vi": "Freelancer có thể rút thu nhập về ngân hàng trong nước.",
+        },
+      ],
+    "note": "Quá khứ: withdrew – withdrawn.",
+  }
+- {
+    "slug": "balance-n",
+    "lemma": "balance",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "personal-finance",
+    "ipa": "/ˈbæləns/",
+    "def": "The amount of money in an account.",
+    "vi": "số dư",
+    "examples":
+      [
+        {
+          "en": "The balance on the prepaid account is almost zero.",
+          "vi": "Số dư tài khoản trả trước gần như bằng không.",
+        },
+      ],
+  }
+- {
+    "slug": "fluctuate-v",
+    "lemma": "fluctuate",
+    "pos": "verb",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/ˈflʌktʃueɪt/",
+    "def": "To change often, going up and down.",
+    "vi": "biến động",
+    "examples":
+      [
+        {
+          "en": "The price in dong fluctuates with the dollar.",
+          "vi": "Giá tính bằng đồng biến động theo đô la.",
+        },
+      ],
+  }
+- {
+    "slug": "convert-v",
+    "lemma": "convert",
+    "pos": "verb",
+    "cefr": "B2",
+    "topic": "personal-finance",
+    "ipa": "/kənˈvɜːt/",
+    "def": "To change an amount into another currency or unit.",
+    "vi": "quy đổi",
+    "examples":
+      [
+        {
+          "en": "Convert the price to dong for the finance report.",
+          "vi": "Quy đổi giá sang đồng cho báo cáo tài chính.",
+        },
+      ],
+  }
+- {
+    "slug": "cardholder-n",
+    "lemma": "cardholder",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "personal-finance",
+    "ipa": "/ˈkɑːdhəʊldə/",
+    "def": "The person whose name is on a card.",
+    "vi": "chủ thẻ",
+    "examples":
+      [
+        {
+          "en": "The cardholder name must match the bank's record.",
+          "vi": "Tên chủ thẻ phải khớp với thông tin ngân hàng.",
+        },
+      ],
+  }
+- {
+    "slug": "payment-gateway-n",
+    "lemma": "payment gateway",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "personal-finance",
+    "ipa": "/ˈpeɪmənt ˌɡeɪtweɪ/",
+    "def": "A service that handles card payments between a shop and a bank.",
+    "vi": "cổng thanh toán",
+    "examples":
+      [
+        {
+          "en": "We switched payment gateways to support local cards.",
+          "vi": "Bọn mình đổi cổng thanh toán để hỗ trợ thẻ nội địa.",
+        },
+      ],
+  }
+- {
+    "slug": "cross-border-adj-money-shopping",
+    "lemma": "cross-border",
+    "pos": "adjective",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/ˌkrɒs ˈbɔːdə/",
+    "def": "Between two different countries.",
+    "vi": "xuyên biên giới, quốc tế",
+    "examples":
+      [
+        {
+          "en": "Cross-border payments can take three days to arrive.",
+          "vi": "Thanh toán quốc tế có thể mất ba ngày mới về.",
+        },
+      ],
+  }
+# Set 8: Expenses & reimbursement
+- {
+    "slug": "expense-n",
+    "lemma": "expense",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "personal-finance",
+    "ipa": "/ɪkˈspens/",
+    "def": "Money you spend, especially for work.",
+    "vi": "khoản chi",
+    "examples":
+      [
+        {
+          "en": "Taxi rides to the client are a work expense.",
+          "vi": "Đi taxi tới chỗ khách hàng là khoản chi công tác.",
+        },
+      ],
+  }
+- {
+    "slug": "reimburse-v",
+    "lemma": "reimburse",
+    "pos": "verb",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/ˌriːɪmˈbɜːs/",
+    "def": "To pay back money that someone spent for you or for work.",
+    "vi": "hoàn ứng, hoàn trả",
+    "examples":
+      [
+        {
+          "en": "The company will reimburse your conference ticket.",
+          "vi": "Công ty sẽ hoàn trả tiền vé hội thảo cho bạn.",
+        },
+      ],
+  }
+- {
+    "slug": "claim-back-phr",
+    "lemma": "claim back",
+    "pos": "phrasal_verb",
+    "kind": "phrasal",
+    "cefr": "B2",
+    "topic": "personal-finance",
+    "ipa": "/ˌkleɪm ˈbæk/",
+    "def": "To ask for money you spent to be paid back to you.",
+    "vi": "xin hoàn lại",
+    "examples":
+      [
+        {
+          "en": "You can claim back the taxi fare from the office.",
+          "vi": "Bạn có thể xin hoàn lại tiền taxi từ công ty.",
+        },
+      ],
+  }
+- {
+    "slug": "out-of-pocket-adj",
+    "lemma": "out-of-pocket",
+    "pos": "adjective",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/ˌaʊt əv ˈpɒkɪt/",
+    "def": "Paid with your own money.",
+    "vi": "tự bỏ tiền túi",
+    "examples":
+      [
+        {
+          "en": "I had some out-of-pocket costs during the trip.",
+          "vi": "Mình có vài khoản tự bỏ tiền túi trong chuyến đi.",
+        },
+      ],
+  }
+- {
+    "slug": "allowance-n",
+    "lemma": "allowance",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "personal-finance",
+    "ipa": "/əˈlaʊəns/",
+    "def": "An amount of money you are given regularly for a purpose.",
+    "vi": "phụ cấp",
+    "examples":
+      [
+        {
+          "en": "Remote staff get an internet allowance each month.",
+          "vi": "Nhân viên làm từ xa được phụ cấp internet mỗi tháng.",
+        },
+      ],
+  }
+- {
+    "slug": "per-diem-n",
+    "lemma": "per diem",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/ˌpɜː ˈdiːem/",
+    "def": "A fixed amount of money for each day of a work trip.",
+    "vi": "công tác phí theo ngày",
+    "examples":
+      [
+        {
+          "en": "The per diem covers meals but not the hotel.",
+          "vi": "Công tác phí theo ngày bao gồm ăn uống nhưng không gồm khách sạn.",
+        },
+      ],
+  }
+- {
+    "slug": "mileage-n",
+    "lemma": "mileage",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/ˈmaɪlɪdʒ/",
+    "def": "Money paid for each kilometre or mile you drive for work.",
+    "vi": "phụ phí quãng đường",
+    "examples":
+      [
+        {
+          "en": "You can claim mileage for driving to the data centre.",
+          "vi": "Bạn có thể xin phụ phí quãng đường khi lái xe tới trung tâm dữ liệu.",
+        },
+      ],
+  }
+- {
+    "slug": "justification-n",
+    "lemma": "justification",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/ˌdʒʌstɪfɪˈkeɪʃn/",
+    "def": "A good reason that explains why something was needed.",
+    "vi": "lý do biện minh",
+    "examples":
+      [
+        {
+          "en": "Add a short justification for the new headphones.",
+          "vi": "Thêm một lý do ngắn cho cái tai nghe mới.",
+        },
+      ],
+  }
+- {
+    "slug": "business-purpose-n",
+    "lemma": "business purpose",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "personal-finance",
+    "ipa": "/ˈbɪznəs ˌpɜːpəs/",
+    "def": "The work reason for spending money.",
+    "vi": "mục đích công việc",
+    "examples":
+      [
+        {
+          "en": 'Write the business purpose, for example "client demo".',
+          "vi": 'Ghi mục đích công việc, ví dụ "demo cho khách".',
+        },
+      ],
+  }
+- {
+    "slug": "expense-policy-n",
+    "lemma": "expense policy",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "personal-finance",
+    "ipa": "/ɪkˈspens ˌpɒləsi/",
+    "def": "The company rules about what you can spend and claim.",
+    "vi": "quy định chi tiêu",
+    "examples":
+      [
+        {
+          "en": "The expense policy doesn't cover alcohol.",
+          "vi": "Quy định chi tiêu không chi trả đồ uống có cồn.",
+        },
+      ],
+  }
+- {
+    "slug": "approver-n-money-shopping",
+    "lemma": "approver",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/əˈpruːvə/",
+    "def": "The person who must agree to a request.",
+    "vi": "người phê duyệt",
+    "examples":
+      [
+        {
+          "en": "Your team lead is the approver for claims under 200 dollars.",
+          "vi": "Trưởng nhóm là người phê duyệt các yêu cầu dưới 200 đô.",
+        },
+      ],
+  }
+- {
+    "slug": "cost-centre-n",
+    "lemma": "cost centre",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/ˈkɒst ˌsentə/",
+    "def": "The department or team that a cost is charged to.",
+    "vi": "trung tâm chi phí",
+    "examples":
+      [
+        {
+          "en": "Charge the cloud bill to the platform team's cost centre.",
+          "vi": "Ghi hoá đơn cloud vào trung tâm chi phí của nhóm platform.",
+        },
+      ],
+    "note": 'Anh-Mỹ viết "cost center".',
+  }
+- {
+    "slug": "petty-cash-n",
+    "lemma": "petty cash",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/ˌpeti ˈkæʃ/",
+    "def": "A small amount of cash kept in an office for small costs.",
+    "vi": "quỹ tiền mặt lặt vặt",
+    "examples":
+      [
+        {
+          "en": "We paid for the pizza from petty cash.",
+          "vi": "Bọn mình trả tiền pizza bằng quỹ tiền mặt lặt vặt.",
+        },
+      ],
+  }
+- {
+    "slug": "cash-advance-n",
+    "lemma": "cash advance",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/ˌkæʃ ədˈvɑːns/",
+    "def": "Money given to you before a trip, which you explain later.",
+    "vi": "tạm ứng",
+    "examples":
+      [
+        {
+          "en": "I asked for a cash advance for the Singapore trip.",
+          "vi": "Mình xin tạm ứng cho chuyến đi Singapore.",
+        },
+      ],
+  }
+- {
+    "slug": "stipend-n",
+    "lemma": "stipend",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/ˈstaɪpend/",
+    "def": "A fixed amount paid for a specific purpose, like learning.",
+    "vi": "khoản trợ cấp",
+    "examples":
+      [
+        {
+          "en": "Each developer has a yearly learning stipend.",
+          "vi": "Mỗi developer có một khoản trợ cấp học tập hằng năm.",
+        },
+      ],
+  }
+- {
+    "slug": "claimable-adj",
+    "lemma": "claimable",
+    "pos": "adjective",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/ˈkleɪməbl/",
+    "def": "Allowed to be claimed back from the company.",
+    "vi": "được hoàn ứng",
+    "examples":
+      [
+        {
+          "en": "Is a coworking day pass claimable?",
+          "vi": "Vé coworking theo ngày có được hoàn ứng không?",
+        },
+      ],
+  }
+- {
+    "slug": "tax-deductible-adj",
+    "lemma": "tax-deductible",
+    "pos": "adjective",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/ˌtæks dɪˈdʌktəbl/",
+    "def": "Able to be taken off the income on which you pay tax.",
+    "vi": "được trừ thuế",
+    "examples":
+      [
+        {
+          "en": "Some work equipment is tax-deductible for freelancers.",
+          "vi": "Một số thiết bị làm việc được trừ thuế cho freelancer.",
+        },
+      ],
+  }
+- {
+    "slug": "accommodation-n",
+    "lemma": "accommodation",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "personal-finance",
+    "ipa": "/əˌkɒməˈdeɪʃn/",
+    "def": "A place to stay, such as a hotel room.",
+    "vi": "chỗ ở",
+    "examples":
+      [
+        {
+          "en": "Book accommodation close to the conference venue.",
+          "vi": "Đặt chỗ ở gần địa điểm hội thảo.",
+        },
+      ],
+  }
+- {
+    "slug": "conference-fee-n",
+    "lemma": "conference fee",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "personal-finance",
+    "ipa": "/ˈkɒnfərəns fiː/",
+    "def": "The price of a ticket to attend a conference.",
+    "vi": "phí tham dự hội thảo",
+    "examples":
+      [
+        {
+          "en": "The conference fee includes lunch on both days.",
+          "vi": "Phí tham dự hội thảo gồm bữa trưa cả hai ngày.",
+        },
+      ],
+  }
+- {
+    "slug": "client-entertainment-n",
+    "lemma": "client entertainment",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/ˌklaɪənt entəˈteɪnmənt/",
+    "def": "Meals or events paid for to build a relationship with clients.",
+    "vi": "chi phí tiếp khách",
+    "examples":
+      [
+        {
+          "en": "Client entertainment needs approval in advance.",
+          "vi": "Chi phí tiếp khách cần được duyệt trước.",
+        },
+      ],
+  }
+- {
+    "slug": "backdate-v",
+    "lemma": "backdate",
+    "pos": "verb",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/ˌbækˈdeɪt/",
+    "def": "To put an earlier date on a document than the real one.",
+    "vi": "ghi lùi ngày",
+    "examples":
+      [
+        {
+          "en": "Don't backdate receipts to fit the deadline.",
+          "vi": "Đừng ghi lùi ngày biên lai cho kịp hạn.",
+        },
+      ],
+  }
+- {
+    "slug": "pre-approval-n",
+    "lemma": "pre-approval",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/ˌpriː əˈpruːvl/",
+    "def": "Permission you get before you spend money.",
+    "vi": "phê duyệt trước",
+    "examples":
+      [
+        {
+          "en": "Purchases over 500 dollars need pre-approval.",
+          "vi": "Khoản mua trên 500 đô cần được phê duyệt trước.",
+        },
+      ],
+  }
+- {
+    "slug": "payroll-n",
+    "lemma": "payroll",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "personal-finance",
+    "ipa": "/ˈpeɪrəʊl/",
+    "def": "The system that pays employees their salaries.",
+    "vi": "bảng lương",
+    "examples":
+      [
+        {
+          "en": "Your reimbursement will come with the next payroll.",
+          "vi": "Tiền hoàn ứng sẽ về cùng kỳ lương tới.",
+        },
+      ],
+  }
+- {
+    "slug": "corporate-card-n",
+    "lemma": "corporate card",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "personal-finance",
+    "ipa": "/ˈkɔːpərət kɑːd/",
+    "def": "A card paid by the company that staff use for work costs.",
+    "vi": "thẻ công ty",
+    "examples":
+      [
+        {
+          "en": "Use the corporate card for software, not your own card.",
+          "vi": "Dùng thẻ công ty để mua phần mềm, đừng dùng thẻ cá nhân.",
+        },
+      ],
+  }
+# Set 9: Comparing total cost
+- {
+    "slug": "total-cost-of-ownership-n",
+    "lemma": "total cost of ownership",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/ˌtəʊtl kɒst əv ˈəʊnəʃɪp/",
+    "def": "Every cost of a product over its life, not just the price.",
+    "vi": "tổng chi phí sở hữu",
+    "examples":
+      [
+        {
+          "en": "The total cost of ownership is lower for the managed database.",
+          "vi": "Tổng chi phí sở hữu của database được quản lý thấp hơn.",
+        },
+      ],
+    "note": "Viết tắt: TCO.",
+  }
+- {
+    "slug": "initial-outlay-n",
+    "lemma": "initial outlay",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/ɪˌnɪʃl ˈaʊtleɪ/",
+    "def": "The money you must spend at the start.",
+    "vi": "khoản chi ban đầu",
+    "examples":
+      [
+        {
+          "en": "The initial outlay for the servers is high.",
+          "vi": "Khoản chi ban đầu cho server khá cao.",
+        },
+      ],
+  }
+- {
+    "slug": "upkeep-n",
+    "lemma": "upkeep",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/ˈʌpkiːp/",
+    "def": "The work and money needed to keep something in good condition.",
+    "vi": "chi phí duy trì",
+    "examples":
+      [
+        {
+          "en": "The upkeep of our own mail server takes hours every month.",
+          "vi": "Duy trì mail server riêng tốn hàng giờ mỗi tháng.",
+        },
+      ],
+  }
+- {
+    "slug": "support-contract-n",
+    "lemma": "support contract",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "personal-finance",
+    "ipa": "/səˈpɔːt ˌkɒntrækt/",
+    "def": "An agreement where a company helps you for a fee.",
+    "vi": "hợp đồng hỗ trợ",
+    "examples":
+      [
+        {
+          "en": "The support contract adds fifteen percent a year.",
+          "vi": "Hợp đồng hỗ trợ cộng thêm mười lăm phần trăm mỗi năm.",
+        },
+      ],
+  }
+- {
+    "slug": "licensing-model-n",
+    "lemma": "licensing model",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/ˈlaɪsnsɪŋ ˌmɒdl/",
+    "def": "The way a product is sold, for example per user or per server.",
+    "vi": "mô hình cấp phép",
+    "examples":
+      [
+        {
+          "en": "The per-core licensing model gets expensive as we grow.",
+          "vi": "Mô hình cấp phép theo nhân CPU sẽ đắt lên khi mình mở rộng.",
+        },
+      ],
+  }
+- {
+    "slug": "lock-in-n-money-shopping",
+    "lemma": "lock-in",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/ˈlɒk ɪn/",
+    "def": "A situation where moving to another supplier is very hard or costly.",
+    "vi": "sự phụ thuộc nhà cung cấp",
+    "examples":
+      [
+        {
+          "en": "Proprietary formats increase vendor lock-in.",
+          "vi": "Định dạng độc quyền làm tăng sự phụ thuộc vào nhà cung cấp.",
+        },
+      ],
+  }
+- {
+    "slug": "migration-cost-n",
+    "lemma": "migration cost",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/maɪˈɡreɪʃn kɒst/",
+    "def": "The cost of moving systems or data to a new platform.",
+    "vi": "chi phí chuyển đổi hệ thống",
+    "examples":
+      [
+        {
+          "en": "Don't forget the migration cost when you compare.",
+          "vi": "Đừng quên chi phí chuyển đổi hệ thống khi so sánh.",
+        },
+      ],
+  }
+- {
+    "slug": "add-on-n",
+    "lemma": "add-on",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "personal-finance",
+    "ipa": "/ˈæd ɒn/",
+    "def": "An extra feature you pay for on top of the main product.",
+    "vi": "tiện ích bổ sung (trả thêm)",
+    "examples":
+      [
+        {
+          "en": "Backups are a paid add-on, not part of the base price.",
+          "vi": "Sao lưu là tiện ích trả thêm, không nằm trong giá gốc.",
+        },
+      ],
+  }
+- {
+    "slug": "depreciation-n",
+    "lemma": "depreciation",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/dɪˌpriːʃiˈeɪʃn/",
+    "def": "The fall in value of equipment over time.",
+    "vi": "khấu hao",
+    "examples":
+      [
+        {
+          "en": "Finance counts laptop depreciation over three years.",
+          "vi": "Kế toán tính khấu hao laptop trong ba năm.",
+        },
+      ],
+  }
+- {
+    "slug": "replacement-cycle-n",
+    "lemma": "replacement cycle",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/rɪˈpleɪsmənt ˌsaɪkl/",
+    "def": "How often equipment is changed for new equipment.",
+    "vi": "chu kỳ thay mới",
+    "examples":
+      [
+        {
+          "en": "Our laptop replacement cycle is four years.",
+          "vi": "Chu kỳ thay mới laptop của mình là bốn năm.",
+        },
+      ],
+  }
+- {
+    "slug": "payback-period-n",
+    "lemma": "payback period",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/ˈpeɪbæk ˌpɪəriəd/",
+    "def": "The time it takes for savings to cover what you spent.",
+    "vi": "thời gian hoàn vốn",
+    "examples":
+      [
+        {
+          "en": "The payback period for the test automation tool was four months.",
+          "vi": "Thời gian hoàn vốn của công cụ tự động hoá test là bốn tháng.",
+        },
+      ],
+  }
+- {
+    "slug": "break-even-v",
+    "lemma": "break even",
+    "pos": "verb",
+    "kind": "phrase",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/ˌbreɪk ˈiːvn/",
+    "def": "To earn as much as you spent, with no profit or loss.",
+    "vi": "hoà vốn",
+    "examples":
+      [
+        {
+          "en": "The new plan breaks even after eight months.",
+          "vi": "Gói mới hoà vốn sau tám tháng.",
+        },
+      ],
+  }
+- {
+    "slug": "opportunity-cost-n",
+    "lemma": "opportunity cost",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/ˌɒpəˈtjuːnəti kɒst/",
+    "def": "What you lose by choosing one option instead of another.",
+    "vi": "chi phí cơ hội",
+    "examples":
+      [
+        {
+          "en": "Building it ourselves has an opportunity cost in delayed features.",
+          "vi": "Tự làm có chi phí cơ hội là các tính năng bị chậm.",
+        },
+      ],
+  }
+- {
+    "slug": "outsource-v",
+    "lemma": "outsource",
+    "pos": "verb",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/ˈaʊtsɔːs/",
+    "def": "To pay another company to do work instead of doing it yourselves.",
+    "vi": "thuê ngoài",
+    "examples":
+      [
+        {
+          "en": "We could outsource the mobile app to an agency.",
+          "vi": "Mình có thể thuê agency làm app mobile.",
+        },
+      ],
+  }
+- {
+    "slug": "in-house-adj",
+    "lemma": "in-house",
+    "pos": "adjective",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/ˌɪn ˈhaʊs/",
+    "def": "Done by people inside the company.",
+    "vi": "nội bộ",
+    "examples":
+      [
+        {
+          "en": "An in-house team knows the product better.",
+          "vi": "Nhóm nội bộ hiểu sản phẩm hơn.",
+        },
+      ],
+  }
+- {
+    "slug": "self-hosted-adj",
+    "lemma": "self-hosted",
+    "pos": "adjective",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/ˌself ˈhəʊstɪd/",
+    "def": "Run on your own servers instead of the vendor's.",
+    "vi": "tự host",
+    "examples":
+      [
+        {
+          "en": "The self-hosted version is free but needs an engineer's time.",
+          "vi": "Bản tự host miễn phí nhưng tốn thời gian của kỹ sư.",
+        },
+      ],
+  }
+- {
+    "slug": "operational-adj",
+    "lemma": "operational",
+    "pos": "adjective",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/ˌɒpəˈreɪʃənl/",
+    "def": "Connected with running something day to day.",
+    "vi": "vận hành",
+    "examples":
+      [
+        {
+          "en": "Operational costs include on-call and monitoring.",
+          "vi": "Chi phí vận hành gồm trực sự cố và giám sát.",
+        },
+      ],
+  }
+- {
+    "slug": "capex-n",
+    "lemma": "capital expenditure",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/ˌkæpɪtl ɪkˈspendɪtʃə/",
+    "def": "Money spent on things the company will own for years, like hardware.",
+    "vi": "chi phí đầu tư (CapEx)",
+    "examples":
+      [
+        {
+          "en": "Buying servers counts as capital expenditure.",
+          "vi": "Mua server được tính là chi phí đầu tư.",
+        },
+      ],
+    "note": "Viết tắt: CapEx.",
+  }
+- {
+    "slug": "opex-n",
+    "lemma": "operating expense",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/ˈɒpəreɪtɪŋ ɪkˌspens/",
+    "def": "A regular cost of running the business, like cloud bills.",
+    "vi": "chi phí hoạt động (OpEx)",
+    "examples":
+      [
+        {
+          "en": "Cloud services are an operating expense.",
+          "vi": "Dịch vụ cloud là chi phí hoạt động.",
+        },
+      ],
+    "note": "Viết tắt: OpEx.",
+  }
+- {
+    "slug": "amortise-v",
+    "lemma": "amortise",
+    "pos": "verb",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/əˈmɔːtaɪz/",
+    "def": "To spread a cost over a period of time.",
+    "vi": "phân bổ dần (chi phí)",
+    "examples":
+      [
+        {
+          "en": "We amortise the hardware cost over three years.",
+          "vi": "Bọn mình phân bổ dần chi phí phần cứng trong ba năm.",
+        },
+      ],
+    "note": 'Anh-Mỹ viết "amortize".',
+  }
+- {
+    "slug": "negligible-adj",
+    "lemma": "negligible",
+    "pos": "adjective",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/ˈneɡlɪdʒəbl/",
+    "def": "So small that it is not important.",
+    "vi": "không đáng kể",
+    "examples":
+      [
+        {
+          "en": "The extra cost for logging is negligible.",
+          "vi": "Chi phí thêm cho logging không đáng kể.",
+        },
+      ],
+  }
+- {
+    "slug": "substantial-adj",
+    "lemma": "substantial",
+    "pos": "adjective",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/səbˈstænʃl/",
+    "def": "Large in amount or importance.",
+    "vi": "đáng kể, lớn",
+    "examples":
+      [
+        {
+          "en": "Switching gave us substantial savings on storage.",
+          "vi": "Chuyển đổi giúp mình tiết kiệm đáng kể chi phí lưu trữ.",
+        },
+      ],
+  }
+- {
+    "slug": "running-cost-n",
+    "lemma": "running cost",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "personal-finance",
+    "ipa": "/ˈrʌnɪŋ kɒst/",
+    "def": "The regular cost of keeping something working.",
+    "vi": "chi phí vận hành thường xuyên",
+    "examples":
+      [
+        {
+          "en": "The running cost of the GPU server is the real problem.",
+          "vi": "Chi phí vận hành thường xuyên của server GPU mới là vấn đề.",
+        },
+      ],
+  }
+- {
+    "slug": "uptime-guarantee-n",
+    "lemma": "uptime guarantee",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/ˈʌptaɪm ˌɡærənˈtiː/",
+    "def": "A promise that a service will be available for a certain share of the time.",
+    "vi": "cam kết thời gian hoạt động",
+    "examples":
+      [
+        {
+          "en": "The premium plan includes a 99.9% uptime guarantee.",
+          "vi": "Gói cao cấp có cam kết thời gian hoạt động 99,9%.",
+        },
+      ],
+  }
+- {
+    "slug": "procurement-n",
+    "lemma": "procurement",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/prəˈkjʊəmənt/",
+    "def": "The company process of choosing and buying goods or services.",
+    "vi": "mua sắm, thu mua",
+    "examples":
+      [
+        {
+          "en": "Procurement needs two quotes for any new tool.",
+          "vi": "Bộ phận mua sắm cần hai báo giá cho mỗi công cụ mới.",
+        },
+      ],
+  }
+- {
+    "slug": "economies-of-scale-n",
+    "lemma": "economies of scale",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/ɪˌkɒnəmiz əv ˈskeɪl/",
+    "def": "Lower costs per unit that come from doing or buying more.",
+    "vi": "lợi thế kinh tế theo quy mô",
+    "examples":
+      [
+        {
+          "en": "Big providers have economies of scale we can't match.",
+          "vi": "Nhà cung cấp lớn có lợi thế quy mô mà mình không sánh được.",
+        },
+      ],
+  }
+- {
+    "slug": "switching-cost-n",
+    "lemma": "switching cost",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/ˈswɪtʃɪŋ kɒst/",
+    "def": "The cost of changing from one supplier or product to another.",
+    "vi": "chi phí chuyển đổi nhà cung cấp",
+    "examples":
+      [
+        {
+          "en": "The switching cost is mostly retraining the team.",
+          "vi": "Chi phí chuyển nhà cung cấp chủ yếu là đào tạo lại nhóm.",
+        },
+      ],
+  }
+- {
+    "slug": "extended-support-n",
+    "lemma": "extended support",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/ɪkˌstendɪd səˈpɔːt/",
+    "def": "Paid help and updates after the normal support period ends.",
+    "vi": "hỗ trợ mở rộng",
+    "examples":
+      [
+        {
+          "en": "Extended support for the old database version is very expensive.",
+          "vi": "Hỗ trợ mở rộng cho phiên bản database cũ rất đắt.",
+        },
+      ],
+  }
+# Set 10: Explaining a cost change
+- {
+    "slug": "cost-overrun-n",
+    "lemma": "cost overrun",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/ˈkɒst ˌəʊvərʌn/",
+    "def": "When a project costs more than planned.",
+    "vi": "vượt chi phí",
+    "examples":
+      [
+        {
+          "en": "The cost overrun came from extra load testing.",
+          "vi": "Phần vượt chi phí đến từ việc kiểm thử tải thêm.",
+        },
+      ],
+  }
+- {
+    "slug": "surge-v",
+    "lemma": "surge",
+    "pos": "verb",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/sɜːdʒ/",
+    "def": "To rise suddenly and strongly.",
+    "vi": "tăng vọt",
+    "examples":
+      [
+        {
+          "en": "API costs surged after the feature went viral.",
+          "vi": "Chi phí API tăng vọt sau khi tính năng nổi lên.",
+        },
+      ],
+  }
+- {
+    "slug": "headroom-n",
+    "lemma": "headroom",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/ˈhedruːm/",
+    "def": "Space left before you reach a limit.",
+    "vi": "khoảng dư",
+    "examples":
+      [
+        {
+          "en": "We still have some headroom in this quarter's budget.",
+          "vi": "Ngân sách quý này vẫn còn khoảng dư.",
+        },
+      ],
+  }
+- {
+    "slug": "attributable-adj",
+    "lemma": "attributable",
+    "pos": "adjective",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/əˈtrɪbjətəbl/",
+    "def": "Caused by a particular thing.",
+    "vi": "do (nguyên nhân cụ thể) gây ra",
+    "examples":
+      [
+        {
+          "en": "Most of the increase is attributable to logging.",
+          "vi": "Phần lớn mức tăng là do logging gây ra.",
+        },
+      ],
+    "note": "Cấu trúc: attributable to + danh từ.",
+  }
+- {
+    "slug": "cost-driver-n",
+    "lemma": "cost driver",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/ˈkɒst ˌdraɪvə/",
+    "def": "The main thing that makes a cost go up or down.",
+    "vi": "yếu tố đẩy chi phí",
+    "examples":
+      [
+        {
+          "en": "Image processing is our biggest cost driver.",
+          "vi": "Xử lý ảnh là yếu tố đẩy chi phí lớn nhất của mình.",
+        },
+      ],
+  }
+- {
+    "slug": "streamline-v-money-shopping",
+    "lemma": "streamline",
+    "pos": "verb",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/ˈstriːmlaɪn/",
+    "def": "To make a process simpler and cheaper.",
+    "vi": "tinh gọn",
+    "examples":
+      [
+        {
+          "en": "We streamlined the CI pipeline and halved build minutes.",
+          "vi": "Mình tinh gọn pipeline CI và giảm một nửa phút build.",
+        },
+      ],
+  }
+- {
+    "slug": "prudent-adj",
+    "lemma": "prudent",
+    "pos": "adjective",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/ˈpruːdnt/",
+    "def": "Careful and sensible, especially with money.",
+    "vi": "thận trọng",
+    "examples":
+      [
+        {
+          "en": "It would be prudent to wait for next month's numbers.",
+          "vi": "Sẽ là thận trọng nếu chờ số liệu tháng sau.",
+        },
+      ],
+  }
+- {
+    "slug": "optimise-v",
+    "lemma": "optimise",
+    "pos": "verb",
+    "cefr": "B2",
+    "topic": "personal-finance",
+    "ipa": "/ˈɒptɪmaɪz/",
+    "def": "To change something so it works better or costs less.",
+    "vi": "tối ưu",
+    "examples":
+      [
+        {
+          "en": "We optimised the queries and cut database costs.",
+          "vi": "Bọn mình tối ưu truy vấn và giảm chi phí database.",
+        },
+      ],
+    "note": 'Anh-Mỹ viết "optimize".',
+  }
+- {
+    "slug": "right-size-v",
+    "lemma": "right-size",
+    "pos": "verb",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/ˈraɪt saɪz/",
+    "def": "To change resources to the size you really need.",
+    "vi": "điều chỉnh đúng quy mô",
+    "examples":
+      [
+        {
+          "en": "Let's right-size the servers that use only ten percent CPU.",
+          "vi": "Hãy điều chỉnh lại các server chỉ dùng mười phần trăm CPU.",
+        },
+      ],
+  }
+- {
+    "slug": "reserved-instance-n",
+    "lemma": "reserved instance",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/rɪˌzɜːvd ˈɪnstəns/",
+    "def": "A server you promise to use for a long period in return for a lower price.",
+    "vi": "máy chủ đặt trước",
+    "examples":
+      [
+        {
+          "en": "Reserved instances would save us about thirty percent.",
+          "vi": "Máy chủ đặt trước sẽ giúp tiết kiệm khoảng ba mươi phần trăm.",
+        },
+      ],
+  }
+- {
+    "slug": "orphaned-adj",
+    "lemma": "orphaned",
+    "pos": "adjective",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/ˈɔːfənd/",
+    "def": "Still running and costing money, but no longer used by anything.",
+    "vi": "bị bỏ quên (tài nguyên)",
+    "examples":
+      [
+        {
+          "en": "We found twenty orphaned disks from old test runs.",
+          "vi": "Mình tìm thấy hai mươi ổ đĩa bị bỏ quên từ các lần test cũ.",
+        },
+      ],
+  }
+- {
+    "slug": "decommission-v",
+    "lemma": "decommission",
+    "pos": "verb",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/ˌdiːkəˈmɪʃn/",
+    "def": "To officially stop using and remove a system.",
+    "vi": "ngừng vận hành",
+    "examples":
+      [
+        {
+          "en": "We will decommission the old cluster in March.",
+          "vi": "Bọn mình sẽ ngừng vận hành cụm máy cũ vào tháng Ba.",
+        },
+      ],
+  }
+- {
+    "slug": "consolidate-v",
+    "lemma": "consolidate",
+    "pos": "verb",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/kənˈsɒlɪdeɪt/",
+    "def": "To join several things into one, often to save money.",
+    "vi": "hợp nhất",
+    "examples":
+      [
+        {
+          "en": "Consolidating three monitoring tools into one saves money.",
+          "vi": "Hợp nhất ba công cụ giám sát thành một giúp tiết kiệm tiền.",
+        },
+      ],
+  }
+- {
+    "slug": "forecast-n",
+    "lemma": "forecast",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "personal-finance",
+    "ipa": "/ˈfɔːkɑːst/",
+    "def": "A statement of what you expect to happen in the future.",
+    "vi": "dự báo",
+    "examples":
+      [
+        {
+          "en": "The forecast shows costs flattening by June.",
+          "vi": "Dự báo cho thấy chi phí đi ngang vào tháng Sáu.",
+        },
+      ],
+  }
+- {
+    "slug": "actuals-n",
+    "lemma": "actuals",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/ˈæktʃuəlz/",
+    "def": "The real amounts spent, compared with the plan.",
+    "vi": "số thực chi",
+    "examples":
+      [
+        {
+          "en": "Our actuals were ten percent above the forecast.",
+          "vi": "Số thực chi của mình cao hơn dự báo mười phần trăm.",
+        },
+      ],
+    "note": "Luôn dùng số nhiều.",
+  }
+- {
+    "slug": "year-on-year-adj",
+    "lemma": "year-on-year",
+    "pos": "adjective",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/ˌjɪər ɒn ˈjɪə/",
+    "def": "Compared with the same period last year.",
+    "vi": "so với cùng kỳ năm trước",
+    "examples":
+      [
+        {
+          "en": "Hosting costs grew twelve percent year-on-year.",
+          "vi": "Chi phí hosting tăng mười hai phần trăm so với cùng kỳ năm trước.",
+        },
+      ],
+  }
+- {
+    "slug": "inflation-n",
+    "lemma": "inflation",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "personal-finance",
+    "ipa": "/ɪnˈfleɪʃn/",
+    "def": "A general rise in prices over time.",
+    "vi": "lạm phát",
+    "examples":
+      [
+        {
+          "en": "Part of the rise is simply inflation.",
+          "vi": "Một phần mức tăng chỉ đơn giản là do lạm phát.",
+        },
+      ],
+  }
+- {
+    "slug": "price-hike-n",
+    "lemma": "price hike",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/ˈpraɪs haɪk/",
+    "def": "A large, sudden increase in price.",
+    "vi": "đợt tăng giá mạnh",
+    "examples":
+      [
+        {
+          "en": "The vendor announced a price hike from January.",
+          "vi": "Nhà cung cấp thông báo tăng giá mạnh từ tháng Một.",
+        },
+      ],
+  }
+- {
+    "slug": "absorb-v",
+    "lemma": "absorb",
+    "pos": "verb",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/əbˈzɔːb/",
+    "def": "To pay an extra cost yourself instead of passing it on.",
+    "vi": "tự gánh (chi phí)",
+    "examples":
+      [
+        {
+          "en": "We can absorb the extra cost this quarter.",
+          "vi": "Quý này mình có thể tự gánh phần chi phí thêm.",
+        },
+      ],
+  }
+- {
+    "slug": "pass-on-phr",
+    "lemma": "pass on",
+    "pos": "phrasal_verb",
+    "kind": "phrasal",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/ˌpɑːs ˈɒn/",
+    "def": "To make someone else pay a cost you have.",
+    "vi": "chuyển (chi phí) sang",
+    "examples":
+      [
+        {
+          "en": "We may pass the cost on to customers on the free tier.",
+          "vi": "Mình có thể chuyển chi phí sang khách hàng dùng gói miễn phí.",
+        },
+      ],
+    "note": "Cấu trúc: pass something on to somebody.",
+  }
+- {
+    "slug": "downsize-v",
+    "lemma": "downsize",
+    "pos": "verb",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/ˌdaʊnˈsaɪz/",
+    "def": "To make something smaller, such as a server or plan.",
+    "vi": "thu nhỏ",
+    "examples":
+      [
+        {
+          "en": "We downsized the staging database to save money.",
+          "vi": "Mình thu nhỏ database staging để tiết kiệm.",
+        },
+      ],
+  }
+- {
+    "slug": "renegotiate-v",
+    "lemma": "renegotiate",
+    "pos": "verb",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/ˌriːnɪˈɡəʊʃieɪt/",
+    "def": "To discuss an agreement again to change its terms.",
+    "vi": "đàm phán lại",
+    "examples":
+      [
+        {
+          "en": "We'll renegotiate the contract before it renews.",
+          "vi": "Bọn mình sẽ đàm phán lại hợp đồng trước khi gia hạn.",
+        },
+      ],
+  }
+- {
+    "slug": "savings-n",
+    "lemma": "savings",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "personal-finance",
+    "ipa": "/ˈseɪvɪŋz/",
+    "def": "Money you no longer spend because of a change.",
+    "vi": "khoản tiết kiệm",
+    "examples":
+      [
+        {
+          "en": "Turning off idle servers gave us real savings.",
+          "vi": "Tắt server nhàn rỗi mang lại khoản tiết kiệm thực sự.",
+        },
+      ],
+    "note": "Thường dùng số nhiều.",
+  }
+- {
+    "slug": "cut-back-on-phr",
+    "lemma": "cut back on",
+    "pos": "phrasal_verb",
+    "kind": "phrasal",
+    "cefr": "B2",
+    "topic": "personal-finance",
+    "ipa": "/ˌkʌt ˈbæk ɒn/",
+    "def": "To use or spend less of something.",
+    "vi": "cắt giảm",
+    "examples":
+      [
+        {
+          "en": "We need to cut back on paid tools we rarely open.",
+          "vi": "Mình cần cắt giảm các công cụ trả phí hiếm khi mở.",
+        },
+      ],
+  }
+- {
+    "slug": "budget-alert-n",
+    "lemma": "budget alert",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "personal-finance",
+    "ipa": "/ˈbʌdʒɪt əˌlɜːt/",
+    "def": "A message sent when spending reaches a set level.",
+    "vi": "cảnh báo ngân sách",
+    "examples":
+      [
+        {
+          "en": "A budget alert fired at eighty percent on Tuesday.",
+          "vi": "Cảnh báo ngân sách bật lên ở mức tám mươi phần trăm hôm thứ Ba.",
+        },
+      ],
+  }
+- {
+    "slug": "anomaly-n",
+    "lemma": "anomaly",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/əˈnɒməli/",
+    "def": "Something unusual that is different from what is expected.",
+    "vi": "bất thường",
+    "examples":
+      [
+        {
+          "en": "The billing dashboard flagged an anomaly in storage costs.",
+          "vi": "Dashboard thanh toán đánh dấu một điểm bất thường trong chi phí lưu trữ.",
+        },
+      ],
+  }
+- {
+    "slug": "cost-tag-n",
+    "lemma": "cost tag",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/ˈkɒst tæɡ/",
+    "def": "A label on a cloud resource that shows which team or project it belongs to.",
+    "vi": "nhãn chi phí",
+    "examples":
+      [
+        {
+          "en": "Add a cost tag to every resource so we know who owns it.",
+          "vi": "Gắn nhãn chi phí cho mọi tài nguyên để biết ai sở hữu.",
+        },
+      ],
+  }
+- {
+    "slug": "granular-adj",
+    "lemma": "granular",
+    "pos": "adjective",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/ˈɡrænjələ/",
+    "def": "Showing a lot of small details.",
+    "vi": "chi tiết, cụ thể",
+    "examples":
+      [
+        {
+          "en": "We need more granular data to find the cause.",
+          "vi": "Mình cần dữ liệu chi tiết hơn để tìm nguyên nhân.",
+        },
+      ],
+  }
+- {
+    "slug": "showback-n",
+    "lemma": "showback",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/ˈʃəʊbæk/",
+    "def": "A report that shows each team what its cloud use costs, without charging it.",
+    "vi": "báo cáo chi phí theo nhóm",
+    "examples":
+      [
+        {
+          "en": "Monthly showback helped teams notice their own waste.",
+          "vi": "Báo cáo chi phí theo nhóm hằng tháng giúp các nhóm thấy phần lãng phí của mình.",
+        },
+      ],
+  }
+- {
+    "slug": "spend-n",
+    "lemma": "spend",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/spend/",
+    "def": "The amount of money spent in a period, used in business.",
+    "vi": "mức chi",
+    "examples":
+      [
+        {
+          "en": "Our cloud spend went up by fifteen percent.",
+          "vi": "Mức chi cloud của mình tăng mười lăm phần trăm.",
+        },
+      ],
+  }
+- {
+    "slug": "run-rate-n",
+    "lemma": "run rate",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/ˈrʌn reɪt/",
+    "def": "What a cost would be for a year if it continues at today's level.",
+    "vi": "mức chi quy đổi theo năm",
+    "examples":
+      [
+        {
+          "en": "At the current run rate, we'll spend sixty thousand this year.",
+          "vi": "Với mức chi hiện tại, năm nay mình sẽ tiêu sáu mươi nghìn.",
+        },
+      ],
+  }
+- {
+    "slug": "going-forward-phr",
+    "lemma": "going forward",
+    "pos": "phrase",
+    "kind": "phrase",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/ˌɡəʊɪŋ ˈfɔːwəd/",
+    "def": "From now on, in the future.",
+    "vi": "từ nay về sau",
+    "examples":
+      [
+        {
+          "en": "Going forward, every new service needs a cost tag.",
+          "vi": "Từ nay về sau, mọi dịch vụ mới đều cần nhãn chi phí.",
+        },
+      ],
+  }
+- {
+    "slug": "pay-off-phr-money-shopping",
+    "lemma": "pay off",
+    "pos": "phrasal_verb",
+    "kind": "phrasal",
+    "cefr": "B2",
+    "topic": "personal-finance",
+    "ipa": "/ˌpeɪ ˈɒf/",
+    "def": "To bring a good result that makes the cost worth it.",
+    "vi": "mang lại kết quả, đáng công",
+    "examples":
+      [
+        {
+          "en": "Moving to spot servers paid off within a month.",
+          "vi": "Chuyển sang spot server đã mang lại kết quả trong vòng một tháng.",
+        },
+      ],
+  }
+- {
+    "slug": "unforeseen-adj",
+    "lemma": "unforeseen",
+    "pos": "adjective",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/ˌʌnfɔːˈsiːn/",
+    "def": "Not expected or planned for.",
+    "vi": "không lường trước",
+    "examples":
+      [
+        {
+          "en": "An unforeseen spike in traffic raised the bill.",
+          "vi": "Một đợt tăng lưu lượng không lường trước làm hoá đơn tăng.",
+        },
+      ],
+  }
+- {
+    "slug": "spending-freeze-n",
+    "lemma": "spending freeze",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "personal-finance",
+    "ipa": "/ˈspendɪŋ friːz/",
+    "def": "A period when a company stops all new spending.",
+    "vi": "đóng băng chi tiêu",
+    "examples":
+      [
+        {
+          "en": "There's a spending freeze until the audit is done.",
+          "vi": "Đang đóng băng chi tiêu cho tới khi kiểm toán xong.",
+        },
+      ],
+  }
+- {
+    "slug": "steep-adj-money-shopping",
+    "lemma": "steep",
+    "pos": "adjective",
+    "cefr": "B2",
+    "topic": "personal-finance",
+    "ipa": "/stiːp/",
+    "def": "Very large and sudden, used about a rise or price.",
+    "vi": "mạnh, gắt (mức tăng)",
+    "examples":
+      [
+        {
+          "en": "A steep rise in log volume pushed up the bill.",
+          "vi": "Lượng log tăng mạnh đẩy hoá đơn lên.",
+        },
+      ],
+  }

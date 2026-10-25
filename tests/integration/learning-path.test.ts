@@ -80,9 +80,95 @@ describe("lessons", () => {
     expect(await completeLesson(admin, user, start.runId)).toMatchObject({ passed: false, xp: 0 });
     expect(await stateOf(user, "g-a1-present-simple")).toBe("locked");
   });
+
+  it("rotates all 36 words across three 16-question attempts and resumes open runs", async () => {
+    const user = await newUser();
+    try {
+      const id = await lessonId("t20-l10");
+      const { error } = await admin.from("user_unit_progress").insert({
+        user_id: user,
+        unit_id: await unitId("topic-energy"),
+        via: "lessons",
+      });
+      if (error) throw error;
+      const { data: bank, error: bankError } = await admin
+        .from("lesson_questions")
+        .select("question_id")
+        .eq("lesson_id", id);
+      if (bankError) throw bankError;
+      expect(bank).toHaveLength(36);
+      const covered = new Set<string>();
+      let previous = new Set<string>();
+      for (let attempt = 0; attempt < 3; attempt++) {
+        const run = await startLesson(admin, user, id);
+        expect(await startLesson(admin, user, id)).toEqual(run);
+        const { data: session, error: sessionError } = await admin
+          .from("quiz_sessions")
+          .select("question_ids, planned_count")
+          .eq("id", run.sessionId!)
+          .single();
+        if (sessionError) throw sessionError;
+        expect(session.planned_count).toBe(16);
+        const ids = session.question_ids as string[];
+        expect(new Set(ids).size).toBe(16);
+        if (attempt === 1) expect(ids.some((id) => previous.has(id))).toBe(false);
+        ids.forEach((id) => covered.add(id));
+        previous = new Set(ids);
+        await answerSession(user, run.sessionId!, () => true);
+        expect(await completeLesson(admin, user, run.runId)).toMatchObject({
+          passed: true,
+          correct: 16,
+          total: 16,
+        });
+      }
+      expect(covered).toEqual(new Set(bank!.map((row) => row.question_id)));
+    } finally {
+      await admin.auth.admin.deleteUser(user);
+    }
+  }, 90_000);
 });
 
 describe("level test-out", () => {
+  it("upgrades lesson completion and opens every lesson in the next level", async () => {
+    const user = await newUser();
+    try {
+      const a1 = await unitId("grammar-a1");
+      const completedAt = "2026-01-01T00:00:00+00:00";
+      const { error } = await admin.from("user_unit_progress").insert({
+        user_id: user,
+        unit_id: a1,
+        via: "lessons",
+        completed_at: completedAt,
+      });
+      if (error) throw error;
+      const before = findUnit(await loadPath(admin, user), await unitId("grammar-a2"))!.unit;
+      expect(before.lessons.some((lesson) => lesson.state === "locked")).toBe(true);
+      const exam = await startTestOut(admin, user, a1);
+      await answerSession(user, exam.sessionId, () => true);
+      expect(await finishTestOut(admin, user, exam.sessionId)).toMatchObject({
+        passed: true,
+        xp: 120,
+      });
+      const path = await loadPath(admin, user);
+      expect(findUnit(path, a1)!.unit.completedVia).toBe("test_out");
+      expect(
+        findUnit(path, await unitId("grammar-a2"))!.unit.lessons.every(
+          (lesson) => lesson.state === "available",
+        ),
+      ).toBe(true);
+      const { data: progress } = await admin
+        .from("user_unit_progress")
+        .select("completed_at")
+        .eq("user_id", user)
+        .eq("unit_id", a1)
+        .single();
+      expect(Date.parse(progress!.completed_at)).toBe(Date.parse(completedAt));
+      expect(await finishTestOut(admin, user, exam.sessionId)).toMatchObject({ xp: 0 });
+    } finally {
+      await admin.auth.admin.deleteUser(user);
+    }
+  }, 60_000);
+
   it("80% opens every lesson of the level and the next one, and pays 120 XP", async () => {
     const user = await newUser();
     const a1 = await unitId("grammar-a1");

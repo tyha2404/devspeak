@@ -4,10 +4,283 @@ sort: 8
 code: T08
 kind: topic
 cefr: B1
-status: draft
-title: { en: "Home & Housing", vi: "Nhà cửa & chỗ ở" }
-summary_vi: "Từ vựng về thuê nhà, hợp đồng thuê, hàng xóm, đồ đạc, sửa chữa và việc nhà."
+status: published
+title:
+  en: Home Office & Developer Workspace
+  vi: Góc làm việc & văn phòng cho developer
+summary_vi: Mô tả không gian làm việc, thiết bị và nhu cầu khi làm việc tại nhà
+  hoặc coworking. Thực hành yêu cầu hỗ trợ rõ vị trí, vấn đề và ảnh hưởng.
 can_do:
-  - "Hỏi thuê nhà và nói chuyện với chủ nhà về sửa chữa"
-  - "Mô tả căn nhà, đồ đạc và việc nhà hằng ngày"
-lessons: []
+  - Mô tả góc làm việc và yêu cầu thiết bị cần thiết
+  - Báo vấn đề không gian hoặc cơ sở vật chất một cách rõ ràng
+lessons:
+  - slug: t08-l1
+    kind: vocab
+    title: { en: "Set 1: Describing a workspace", vi: "Bộ 1: Mô tả góc làm việc" }
+    senses:
+      [
+        workspace-n,
+        desk-n-housing,
+        corner-n,
+        quiet-adj,
+        bright-adj,
+        spare-room-n,
+        floor-n,
+        window-n,
+        set-up-phr-housing,
+        cosy-adj,
+      ]
+    questions: []
+  - slug: t08-l2
+    kind: vocab
+    title: { en: "Set 2: Desks, chairs & monitors", vi: "Bộ 2: Bàn, ghế & màn hình" }
+    senses:
+      [
+        chair-n,
+        monitor-n,
+        keyboard-n,
+        monitor-arm-n,
+        adjustable-adj,
+        height-n,
+        equipment-n,
+        footrest-n,
+        wrist-rest-n,
+        laptop-stand-n,
+        extension-lead-n,
+        replacement-n,
+      ]
+    questions: []
+  - slug: t08-l3
+    kind: vocab
+    title: { en: "Set 3: Internet at home", vi: "Bộ 3: Kết nối mạng tại nhà" }
+    senses:
+      [
+        dead-zone-n,
+        ethernet-cable-n,
+        speed-test-n,
+        drop-out-phr,
+        unstable-adj,
+        range-extender-n,
+        power-bank-n-housing,
+        fibre-n-housing,
+        choppy-adj,
+        upload-speed-n,
+        data-plan-n,
+        reconnect-v-housing,
+        modem-n,
+        backup-connection-n,
+      ]
+    questions: []
+  - slug: t08-l4
+    kind: vocab
+    title: { en: "Set 4: Noise & interruptions", vi: "Bộ 4: Tiếng ồn & gián đoạn" }
+    senses:
+      [
+        doorbell-n,
+        drilling-n,
+        white-noise-n,
+        distraction-n,
+        housemate-n,
+        background-noise-n,
+        construction-n,
+        school-run-n-housing,
+        do-not-disturb-phr,
+        knock-v,
+        earplugs-n,
+        noise-cancelling-adj,
+        open-plan-adj,
+        put-off-phr,
+        concentrate-v,
+        in-the-middle-of-phr,
+      ]
+    questions: []
+  - slug: t08-l5
+    kind: vocab
+    title: { en: "Set 5: Renting a coworking desk", vi: "Bộ 5: Thuê chỗ ngồi coworking" }
+    senses:
+      [
+        coworking-space-n-housing,
+        rent-v,
+        hot-desk-n-housing,
+        dedicated-desk-n,
+        membership-n-housing,
+        day-pass-n-housing,
+        facilities-n,
+        locker-n,
+        opening-hours-n,
+        included-adj,
+        refundable-adj,
+        per-month-phr,
+        tour-n,
+        virtual-office-n,
+        price-list-n,
+        mail-handling-n,
+        front-desk-n-housing,
+        affordable-adj,
+      ]
+    questions: []
+  - slug: t08-l6
+    kind: vocab
+    title: { en: "Set 6: Meeting rooms & shared spaces", vi: "Bộ 6: Phòng họp & không gian chung" }
+    senses:
+      [
+        boardroom-n,
+        book-v,
+        vacant-adj,
+        occupied-adj,
+        double-booked-adj,
+        clash-n,
+        conference-phone-n,
+        flip-chart-n,
+        screen-sharing-n,
+        phone-booth-n-housing,
+        common-area-n,
+        shared-adj,
+        time-slot-n,
+        booking-system-n,
+        release-v,
+        overrun-v,
+        etiquette-n-housing,
+        first-come-first-served-phr,
+        room-display-n,
+        check-in-phr,
+      ]
+    questions: []
+  - slug: t08-l7
+    kind: vocab
+    title: { en: "Set 7: Maintenance requests", vi: "Bộ 7: Yêu cầu sửa chữa" }
+    senses:
+      [
+        handyman-n,
+        broken-adj,
+        leak-n,
+        air-conditioner-n,
+        light-bulb-n,
+        power-socket-n,
+        plumber-n,
+        blocked-adj,
+        technician-n,
+        landlord-n,
+        report-a-problem-phr,
+        out-of-order-phr,
+        fault-n,
+        inspect-v,
+        fix-v,
+        damage-n,
+        work-order-n,
+        follow-up-v,
+        health-hazard-n,
+        temporary-fix-n,
+        ventilation-n,
+        as-soon-as-possible-phr,
+      ]
+    questions: []
+  - slug: t08-l8
+    kind: vocab
+    title: { en: "Set 8: Moving & working temporarily", vi: "Bộ 8: Chuyển chỗ & làm việc tạm thời" }
+    senses:
+      [
+        move-house-phr,
+        relocate-v,
+        temporarily-adv,
+        unpack-v,
+        storage-unit-n,
+        limited-adj,
+        pack-v,
+        box-up-phr,
+        new-address-n,
+        utility-bill-n,
+        moving-day-n,
+        sublet-v,
+        settle-in-phr,
+        short-term-adj-housing,
+        lease-n,
+        neighbourhood-n-housing,
+        removal-company-n,
+        transition-n-housing,
+        keep-in-touch-phr-housing,
+        disruption-n-housing,
+        bubble-wrap-n,
+        remote-access-n,
+        belongings-n,
+        in-the-meantime-phr,
+      ]
+    questions: []
+  - slug: t08-l9
+    kind: vocab
+    title: { en: "Set 9: Workspace safety & access", vi: "Bộ 9: An toàn & ra vào văn phòng" }
+    senses:
+      [
+        access-card-n,
+        entrance-n,
+        security-guard-n,
+        visitor-n,
+        badge-n-housing,
+        lost-adj,
+        deactivate-v,
+        fire-exit-n,
+        fire-drill-n,
+        smoke-detector-n,
+        evacuate-v,
+        authorised-adj,
+        restricted-area-n,
+        sign-in-phr,
+        escort-v,
+        tailgating-n,
+        first-aid-kit-n,
+        trip-hazard-n,
+        lock-up-phr,
+        cctv-n,
+        fire-extinguisher-n,
+        turnstile-n,
+        card-reader-n,
+        compliance-n-housing,
+        assembly-point-n,
+        unattended-adj,
+        lock-your-screen-phr,
+        on-site-adv,
+      ]
+    questions: []
+  - slug: t08-l10
+    kind: vocab
+    title: { en: "Set 10: A practical workspace proposal", vi: "Bộ 10: Đề xuất cải thiện chỗ làm" }
+    senses:
+      [
+        proposal-n-housing,
+        standing-desk-n,
+        survey-n,
+        quiet-zone-n-housing,
+        cost-effective-adj,
+        greenery-n,
+        layout-n,
+        benefit-n-housing,
+        drawback-n-housing,
+        productivity-n,
+        wellbeing-n,
+        office-manager-n,
+        acoustic-panel-n,
+        wear-and-tear-n,
+        natural-light-n,
+        repaint-v,
+        renovation-n,
+        partition-n,
+        air-quality-n,
+        outline-v-housing,
+        breakout-area-n,
+        upgrade-n,
+        furniture-n,
+        declutter-v,
+        soundproof-adj,
+        pain-point-n-housing,
+        underused-adj,
+        rearrange-v,
+        vote-v-housing,
+        in-favour-of-phr,
+        pros-and-cons-n-housing,
+        noise-level-n,
+        consult-v-housing,
+        occupancy-n,
+        beanbag-n,
+        floor-space-n,
+      ]
+    questions: []

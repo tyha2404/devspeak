@@ -1,6 +1,12 @@
 import { describe, expect, it } from "vitest";
 import { QuestionSpec, type SenseSpec } from "@/features/content/curated";
-import { blankTerm, grammarTestOrder, mutations, vocabTest } from "./autoquiz";
+import {
+  blankTerm,
+  grammarTestOrder,
+  mutations,
+  vocabTest,
+  vocabQuestionSelection,
+} from "./autoquiz";
 
 const sense = (lemma: string, vi: string, example: string): SenseSpec => ({
   slug: lemma.replace(/\s+/g, "-"),
@@ -15,6 +21,34 @@ const sense = (lemma: string, vi: string, example: string): SenseSpec => ({
   keep_en: false,
   forms: [],
   examples: [{ en: example }],
+});
+
+describe("vocabulary coverage across attempts", () => {
+  it.each([10, 12, 14, 16, 18, 20, 22, 24, 28, 36])(
+    "covers all %i words without increasing the 16-question test",
+    (wordCount) => {
+      const words = Array.from({ length: wordCount }, (_, i) =>
+        sense(`term ${i}`, `nghĩa ${i}`, `Please check term ${i} before release.`),
+      );
+      const bank = vocabTest("coverage", words, Math.max(16, wordCount));
+      const covered = new Set<string>();
+      for (let attempt = 0; attempt < Math.ceil(bank.length / 16); attempt++) {
+        const selected = vocabQuestionSelection(bank, attempt);
+        expect(selected).toHaveLength(16);
+        expect(new Set(selected.map((q) => q.slug)).size).toBe(16);
+        selected.forEach((q) => q.senses.forEach((slug) => covered.add(slug)));
+      }
+      expect(covered).toEqual(new Set(words.map((word) => word.slug)));
+    },
+  );
+
+  it("retains a stable selection on resume and rotates after completion", () => {
+    const bank = Array.from({ length: 36 }, (_, i) => `q${i}`);
+    expect(vocabQuestionSelection(bank, 0)).toEqual(vocabQuestionSelection(bank, 0));
+    expect(vocabQuestionSelection(bank, 1)).toEqual(bank.slice(16, 32));
+    expect(vocabQuestionSelection(bank, 2)).toEqual([...bank.slice(32), ...bank.slice(0, 12)]);
+    expect(new Set(vocabQuestionSelection(bank, 36)).size).toBe(16);
+  });
 });
 
 const WORDS = [
@@ -69,22 +103,21 @@ describe("grammar helpers", () => {
     expect(blankTerm("Nothing here.", ["deadline"])).toBeNull();
   });
 
-  it("swaps confusable words and replays the lesson's own mistakes", () => {
+  it("uses the full authored mistake only for its matching correction", () => {
     const m = mutations("She is a student.", [
       { wrong: "She are a student.", right: "She is a student.", why: "" },
     ]);
-    expect(m[0]).toBe("She are a student.");
-    expect(m).toContain("She am a student.");
-    expect(m).toContain("She is an student.");
-    expect(m).not.toContain("She is the student.");
-    expect(m).not.toContain("She is a student.");
+    expect(m).toEqual(["She are a student."]);
   });
 
-  it("keeps swapped words lower case mid-sentence", () => {
-    const m = mutations("Call me when I leave.");
-    expect(m).toContain("Call I when I leave.");
-    expect(m).toContain("Call me when my leave.");
-    expect(m.some((x) => /\b(Me|My)\b/.test(x))).toBe(false);
+  it("does not manufacture potentially valid some/any or preposition alternatives", () => {
+    expect(mutations("Do you have any questions before the demo?")).toEqual([]);
+    expect(mutations("We work in the office.")).toEqual([]);
+    expect(
+      mutations("Call me when I leave.", [
+        { wrong: "Me work remotely.", right: "I work remotely.", why: "Subject pronoun" },
+      ]),
+    ).toEqual([]);
   });
 
   it("orders a grammar test like ForumFlash and caps it at 16", () => {

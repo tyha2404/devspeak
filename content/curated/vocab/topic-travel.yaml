@@ -1,0 +1,3498 @@
+# Vocabulary by topic: Remote Teams & Global Clients (unit T05). Original content.
+# Set 1: Introducing a distributed team
+- {
+    slug: colleague-n,
+    lemma: "colleague",
+    pos: noun,
+    cefr: A2,
+    topic: globalisation,
+    ipa: "/ˈkɒliːɡ/",
+    def: "A person you work with in the same company or team.",
+    vi: "đồng nghiệp",
+    examples:
+      [
+        {
+          en: "My colleague in Berlin reviews most of my pull requests.",
+          vi: "Đồng nghiệp của mình ở Berlin review hầu hết pull request của mình.",
+        },
+      ],
+  }
+- {
+    slug: team-member-n,
+    lemma: "team member",
+    pos: noun,
+    kind: collocation,
+    cefr: A2,
+    topic: globalisation,
+    ipa: "/tiːm ˈmembə/",
+    def: "One of the people who belong to a team.",
+    vi: "thành viên nhóm",
+    examples:
+      [
+        {
+          en: "We have six team members in four different countries.",
+          vi: "Nhóm mình có sáu thành viên ở bốn quốc gia khác nhau.",
+        },
+      ],
+  }
+- {
+    slug: based-in-phr,
+    lemma: "based in",
+    pos: phrase,
+    kind: phrase,
+    cefr: A2,
+    topic: globalisation,
+    ipa: "/beɪst ɪn/",
+    def: "Living or working mainly in a particular place.",
+    vi: "làm việc tại, có trụ sở ở",
+    examples:
+      [
+        {
+          en: "I'm based in Da Nang, but our designer is based in Lisbon.",
+          vi: "Mình làm việc ở Đà Nẵng, còn designer của nhóm ở Lisbon.",
+        },
+      ],
+  }
+- {
+    slug: location-n,
+    lemma: "location",
+    pos: noun,
+    cefr: A2,
+    topic: globalisation,
+    ipa: "/ləʊˈkeɪʃn/",
+    def: "The place where someone or something is.",
+    vi: "địa điểm, vị trí",
+    examples:
+      [
+        {
+          en: "Please add your location to your profile so people know your time zone.",
+          vi: "Hãy thêm địa điểm vào hồ sơ để mọi người biết múi giờ của bạn.",
+        },
+      ],
+  }
+- {
+    slug: role-n-travel,
+    lemma: "role",
+    pos: noun,
+    cefr: A2,
+    topic: globalisation,
+    ipa: "/rəʊl/",
+    def: "The job or position someone has in a team.",
+    vi: "vai trò",
+    examples:
+      [
+        {
+          en: "My role on this project is backend developer.",
+          vi: "Vai trò của mình trong dự án này là lập trình viên backend.",
+        },
+      ],
+  }
+- {
+    slug: welcome-v-travel,
+    lemma: "welcome",
+    pos: verb,
+    cefr: A2,
+    topic: globalisation,
+    ipa: "/ˈwelkəm/",
+    def: "To greet a new person in a friendly way.",
+    vi: "chào đón",
+    examples:
+      [
+        {
+          en: "Please welcome Linh, our new QA engineer in Hanoi.",
+          vi: "Mọi người cùng chào đón Linh, kỹ sư QA mới ở Hà Nội nhé.",
+        },
+      ],
+  }
+- {
+    slug: remote-adj-travel,
+    lemma: "remote",
+    pos: adjective,
+    cefr: A2,
+    topic: globalisation,
+    ipa: "/rɪˈməʊt/",
+    def: "Working from home or another place, not in the company office.",
+    vi: "từ xa",
+    examples:
+      [
+        {
+          en: "Our whole team is remote, so we never meet in an office.",
+          vi: "Cả nhóm làm từ xa nên tụi mình không bao giờ gặp ở văn phòng.",
+        },
+      ],
+  }
+- {
+    slug: channel-n,
+    lemma: "channel",
+    pos: noun,
+    cefr: A2,
+    topic: globalisation,
+    ipa: "/ˈtʃænl/",
+    def: "A named space in a chat tool where people talk about one subject.",
+    vi: "kênh (chat)",
+    examples:
+      [
+        {
+          en: "Post questions about the release in the #release channel.",
+          vi: "Hãy đăng câu hỏi về bản phát hành trong kênh #release.",
+        },
+      ],
+  }
+- {
+    slug: reach-v,
+    lemma: "reach",
+    pos: verb,
+    cefr: A2,
+    topic: globalisation,
+    ipa: "/riːtʃ/",
+    def: "To contact someone by phone, message or email.",
+    vi: "liên lạc được với",
+    examples:
+      [
+        {
+          en: "You can reach me on Slack until 6 p.m. my time.",
+          vi: "Bạn có thể liên lạc mình qua Slack đến 6 giờ chiều giờ của mình.",
+        },
+      ],
+  }
+- {
+    slug: nationality-n,
+    lemma: "nationality",
+    pos: noun,
+    cefr: A2,
+    topic: globalisation,
+    ipa: "/ˌnæʃəˈnæləti/",
+    def: "The country a person officially belongs to.",
+    vi: "quốc tịch",
+    examples:
+      [
+        {
+          en: "Our team has people of five nationalities.",
+          vi: "Nhóm mình có người thuộc năm quốc tịch.",
+        },
+      ],
+  }
+# Set 2: Time zones & overlap hours
+- {
+    slug: utc-n-travel,
+    lemma: "UTC",
+    pos: noun,
+    cefr: B1,
+    topic: globalisation,
+    ipa: "/ˌjuː tiː ˈsiː/",
+    def: "The world standard time that other clock times are compared to.",
+    vi: "giờ UTC",
+    examples:
+      [
+        {
+          en: "Write deadlines in UTC so nobody gets confused.",
+          vi: "Hãy ghi hạn chót theo giờ UTC để không ai bị nhầm.",
+        },
+      ],
+  }
+- {
+    slug: world-clock-n,
+    lemma: "world clock",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: globalisation,
+    ipa: "/ˌwɜːld ˈklɒk/",
+    def: "A tool that shows the time in several cities at once.",
+    vi: "đồng hồ thế giới",
+    examples:
+      [
+        {
+          en: "I keep a world clock with Hanoi, London and Toronto.",
+          vi: "Mình để đồng hồ thế giới với Hà Nội, London và Toronto.",
+        },
+      ],
+  }
+- {
+    slug: local-time-n,
+    lemma: "local time",
+    pos: noun,
+    kind: collocation,
+    cefr: A2,
+    topic: globalisation,
+    ipa: "/ˈləʊkl taɪm/",
+    def: "The time in the place where a person is.",
+    vi: "giờ địa phương",
+    examples:
+      [
+        {
+          en: "The meeting starts at 9 a.m. local time in Sydney.",
+          vi: "Cuộc họp bắt đầu lúc 9 giờ sáng giờ Sydney.",
+        },
+      ],
+  }
+- {
+    slug: schedule-v-travel,
+    lemma: "schedule",
+    pos: verb,
+    cefr: A2,
+    topic: globalisation,
+    ipa: "/ˈʃedjuːl/",
+    def: "To plan that something will happen at a certain time.",
+    vi: "lên lịch",
+    examples:
+      [
+        {
+          en: "Can we schedule the demo for Thursday afternoon?",
+          vi: "Mình lên lịch demo vào chiều thứ Năm được không?",
+        },
+      ],
+  }
+- {
+    slug: convenient-adj,
+    lemma: "convenient",
+    pos: adjective,
+    cefr: B1,
+    topic: globalisation,
+    ipa: "/kənˈviːniənt/",
+    def: "Easy for you and not causing problems with your plans.",
+    vi: "thuận tiện",
+    examples:
+      [
+        {
+          en: "Is 4 p.m. convenient for everyone in Europe?",
+          vi: "4 giờ chiều có thuận tiện cho mọi người ở châu Âu không?",
+        },
+      ],
+  }
+- {
+    slug: night-owl-n,
+    lemma: "night owl",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: globalisation,
+    ipa: "/ˈnaɪt aʊl/",
+    def: "A person who likes to stay awake and work late at night.",
+    vi: "cú đêm",
+    examples:
+      [
+        {
+          en: "As a night owl, Khoa is happy to join the late call with New York.",
+          vi: "Là cú đêm nên Khoa vui vẻ tham gia cuộc gọi muộn với New York.",
+        },
+      ],
+  }
+- {
+    slug: calendar-invite-n,
+    lemma: "calendar invite",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: globalisation,
+    ipa: "/ˈkælɪndə ˈɪnvaɪt/",
+    def: "A meeting request sent through a calendar app.",
+    vi: "lời mời lịch họp",
+    examples:
+      [
+        {
+          en: "I'll send a calendar invite with the call link.",
+          vi: "Mình sẽ gửi lời mời lịch họp kèm link cuộc gọi.",
+        },
+      ],
+  }
+- {
+    slug: bring-forward-pv,
+    lemma: "bring forward",
+    pos: phrasal_verb,
+    kind: phrasal,
+    cefr: B2,
+    topic: globalisation,
+    ipa: "/brɪŋ ˈfɔːwəd/",
+    def: "To move an event to an earlier time.",
+    vi: "dời lên sớm hơn",
+    examples:
+      [
+        {
+          en: "Can we bring the call forward to 8 a.m. your time?",
+          vi: "Mình dời cuộc gọi lên 8 giờ sáng giờ bạn được không?",
+        },
+      ],
+  }
+- {
+    slug: organiser-n-travel,
+    lemma: "organiser",
+    pos: noun,
+    cefr: B1,
+    topic: globalisation,
+    ipa: "/ˈɔːɡənaɪzə/",
+    def: "The person who arranges a meeting or event.",
+    vi: "người tổ chức",
+    examples:
+      [
+        {
+          en: "The organiser should choose a time that works for both regions.",
+          vi: "Người tổ chức nên chọn giờ hợp với cả hai khu vực.",
+        },
+      ],
+  }
+- {
+    slug: ahead-of-phr,
+    lemma: "ahead of",
+    pos: phrase,
+    kind: phrase,
+    cefr: B1,
+    topic: globalisation,
+    ipa: "/əˈhed əv/",
+    def: "Having a later clock time than another place.",
+    vi: "sớm hơn (về giờ)",
+    examples:
+      [
+        {
+          en: "Hanoi is six hours ahead of Paris in winter.",
+          vi: "Mùa đông Hà Nội sớm hơn Paris sáu tiếng.",
+        },
+      ],
+  }
+- {
+    slug: daylight-saving-time-n,
+    lemma: "daylight saving time",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: globalisation,
+    ipa: "/ˌdeɪlaɪt ˈseɪvɪŋ taɪm/",
+    def: "The months when some countries move their clocks one hour forward.",
+    vi: "giờ mùa hè",
+    examples:
+      [
+        {
+          en: "Remember that the US starts daylight saving time in March.",
+          vi: "Nhớ là Mỹ bắt đầu giờ mùa hè vào tháng Ba.",
+        },
+      ],
+  }
+- {
+    slug: early-bird-n,
+    lemma: "early bird",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: globalisation,
+    ipa: "/ˈɜːli bɜːd/",
+    def: "A person who likes to start the day very early.",
+    vi: "người dậy sớm",
+    examples:
+      [
+        {
+          en: "I'm an early bird, so a 7 a.m. call with Tokyo is fine.",
+          vi: "Mình là người dậy sớm nên gọi với Tokyo lúc 7 giờ sáng cũng ổn.",
+        },
+      ],
+  }
+# Set 3: Asynchronous updates
+- {
+    slug: asynchronous-adj,
+    lemma: "asynchronous",
+    pos: adjective,
+    cefr: B1,
+    topic: globalisation,
+    ipa: "/eɪˈsɪŋkrənəs/",
+    def: "Not happening at the same time; people reply when they are able to.",
+    vi: "bất đồng bộ",
+    examples:
+      [
+        {
+          en: "We prefer asynchronous updates to daily calls.",
+          vi: "Tụi mình thích cập nhật bất đồng bộ hơn là gọi mỗi ngày.",
+        },
+      ],
+  }
+- {
+    slug: standup-note-n,
+    lemma: "standup note",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: globalisation,
+    ipa: "/ˈstændʌp nəʊt/",
+    def: "A short written note saying what you did, will do and what blocks you.",
+    vi: "ghi chú standup",
+    examples:
+      [
+        {
+          en: "I post my standup note before the team in Europe wakes up.",
+          vi: "Mình đăng ghi chú standup trước khi nhóm châu Âu thức dậy.",
+        },
+      ],
+  }
+- {
+    slug: away-adj,
+    lemma: "away",
+    pos: adjective,
+    cefr: A2,
+    topic: globalisation,
+    ipa: "/əˈweɪ/",
+    def: "Not at your computer or not working at the moment.",
+    vi: "vắng, không có mặt",
+    examples:
+      [
+        {
+          en: "My status shows 'away' while I'm at lunch.",
+          vi: "Trạng thái của mình hiện 'vắng' khi mình đi ăn trưa.",
+        },
+      ],
+  }
+- {
+    slug: resume-v-travel,
+    lemma: "resume",
+    pos: verb,
+    cefr: B2,
+    topic: globalisation,
+    ipa: "/rɪˈzjuːm/",
+    def: "To start doing something again after a pause.",
+    vi: "tiếp tục lại",
+    examples:
+      [
+        {
+          en: "I'll resume the migration tomorrow morning.",
+          vi: "Sáng mai mình sẽ tiếp tục lại việc migration.",
+        },
+      ],
+  }
+- {
+    slug: blocker-n,
+    lemma: "blocker",
+    pos: noun,
+    cefr: B1,
+    topic: globalisation,
+    ipa: "/ˈblɒkə/",
+    def: "A problem that stops you from continuing your work.",
+    vi: "vấn đề chặn tiến độ",
+    examples:
+      [
+        {
+          en: "My only blocker is access to the staging database.",
+          vi: "Vấn đề duy nhất chặn mình là quyền truy cập database staging.",
+        },
+      ],
+  }
+- {
+    slug: thread-n,
+    lemma: "thread",
+    pos: noun,
+    cefr: B1,
+    topic: globalisation,
+    ipa: "/θred/",
+    def: "A chain of replies under one message in a chat tool.",
+    vi: "luồng trả lời",
+    examples:
+      [
+        {
+          en: "Let's keep the discussion in this thread.",
+          vi: "Mình giữ cuộc thảo luận trong luồng này nhé.",
+        },
+      ],
+  }
+- {
+    slug: notify-v-travel,
+    lemma: "notify",
+    pos: verb,
+    cefr: B1,
+    topic: globalisation,
+    ipa: "/ˈnəʊtɪfaɪ/",
+    def: "To tell someone about something officially or by an alert.",
+    vi: "thông báo",
+    examples:
+      [
+        {
+          en: "The bot will notify the channel when the build is ready.",
+          vi: "Bot sẽ thông báo cho kênh khi build xong.",
+        },
+      ],
+  }
+- {
+    slug: timestamp-n-travel,
+    lemma: "timestamp",
+    pos: noun,
+    cefr: B1,
+    topic: globalisation,
+    ipa: "/ˈtaɪmstæmp/",
+    def: "The date and time recorded for a message or event.",
+    vi: "dấu thời gian",
+    examples:
+      [
+        {
+          en: "Check the timestamp to see when the error started.",
+          vi: "Xem dấu thời gian để biết lỗi bắt đầu lúc nào.",
+        },
+      ],
+  }
+- {
+    slug: handoff-note-n,
+    lemma: "handoff note",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: globalisation,
+    ipa: "/ˈhændɒf nəʊt/",
+    def: "A message that explains work so another person can continue it.",
+    vi: "ghi chú bàn giao",
+    examples:
+      [
+        {
+          en: "I left a handoff note with the open questions and next steps.",
+          vi: "Mình để lại ghi chú bàn giao với câu hỏi còn mở và bước tiếp theo.",
+        },
+      ],
+  }
+- {
+    slug: self-contained-adj,
+    lemma: "self-contained",
+    pos: adjective,
+    cefr: B2,
+    topic: globalisation,
+    ipa: "/ˌself kənˈteɪnd/",
+    def: "Complete, so the reader needs nothing else to understand it.",
+    vi: "đầy đủ, tự hiểu được",
+    examples:
+      [
+        {
+          en: "Make each update self-contained, with links to the PR and logs.",
+          vi: "Hãy viết mỗi cập nhật đầy đủ, có link đến PR và log.",
+        },
+      ],
+  }
+- {
+    slug: scroll-back-pv,
+    lemma: "scroll back",
+    pos: phrasal_verb,
+    kind: phrasal,
+    cefr: B1,
+    topic: globalisation,
+    ipa: "/skrəʊl ˈbæk/",
+    def: "To move up in a chat or page to read older messages.",
+    vi: "kéo lên đọc lại",
+    examples:
+      [
+        {
+          en: "Scroll back to yesterday's thread for the decision.",
+          vi: "Hãy kéo lên luồng hôm qua để xem quyết định.",
+        },
+      ],
+  }
+- {
+    slug: reply-v,
+    lemma: "reply",
+    pos: verb,
+    cefr: A2,
+    topic: globalisation,
+    ipa: "/rɪˈplaɪ/",
+    def: "To answer a message.",
+    vi: "trả lời",
+    examples:
+      [
+        {
+          en: "I'll reply to your comment when I'm back online.",
+          vi: "Mình sẽ trả lời bình luận của bạn khi online lại.",
+        },
+      ],
+  }
+- {
+    slug: next-steps-n,
+    lemma: "next steps",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: globalisation,
+    ipa: "/nekst steps/",
+    def: "The actions that should happen after the current point.",
+    vi: "các bước tiếp theo",
+    examples:
+      [
+        {
+          en: "The next steps are writing tests and asking for review.",
+          vi: "Các bước tiếp theo là viết test và nhờ review.",
+        },
+      ],
+  }
+- {
+    slug: unblock-v,
+    lemma: "unblock",
+    pos: verb,
+    cefr: B2,
+    topic: globalisation,
+    ipa: "/ʌnˈblɒk/",
+    def: "To remove the problem that is stopping someone's work.",
+    vi: "gỡ vướng",
+    examples:
+      [
+        {
+          en: "Could you approve the access request to unblock me?",
+          vi: "Bạn duyệt yêu cầu truy cập để gỡ vướng cho mình được không?",
+        },
+      ],
+  }
+# Set 4: Clarifying a client request
+- {
+    slug: client-n,
+    lemma: "client",
+    pos: noun,
+    cefr: A2,
+    topic: globalisation,
+    ipa: "/ˈklaɪənt/",
+    def: "A person or company that pays for your work or service.",
+    vi: "khách hàng",
+    examples:
+      [
+        {
+          en: "The client wants the new dashboard by the end of the month.",
+          vi: "Khách hàng muốn có dashboard mới trước cuối tháng.",
+        },
+      ],
+  }
+- {
+    slug: requirement-n-travel,
+    lemma: "requirement",
+    pos: noun,
+    cefr: B1,
+    topic: globalisation,
+    ipa: "/rɪˈkwaɪəmənt/",
+    def: "Something a product must do or have.",
+    vi: "yêu cầu",
+    examples:
+      [
+        {
+          en: "One requirement is that the page loads in under two seconds.",
+          vi: "Một yêu cầu là trang phải tải dưới hai giây.",
+        },
+      ],
+  }
+- {
+    slug: scope-n-travel,
+    lemma: "scope",
+    pos: noun,
+    cefr: B1,
+    topic: globalisation,
+    ipa: "/skəʊp/",
+    def: "The amount of work that a project includes.",
+    vi: "phạm vi",
+    examples:
+      [
+        {
+          en: "Let's agree on the scope before we estimate.",
+          vi: "Mình thống nhất phạm vi trước khi ước lượng nhé.",
+        },
+      ],
+  }
+- {
+    slug: acceptance-criteria-n,
+    lemma: "acceptance criteria",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: globalisation,
+    ipa: "/əkˈseptəns kraɪˌtɪəriə/",
+    def: "The conditions a feature must meet to be accepted as done.",
+    vi: "tiêu chí chấp nhận",
+    examples:
+      [
+        {
+          en: "Can you share the acceptance criteria for the export feature?",
+          vi: "Bạn gửi giúp tiêu chí chấp nhận cho tính năng xuất file được không?",
+        },
+      ],
+  }
+- {
+    slug: use-case-n-travel,
+    lemma: "use case",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: globalisation,
+    ipa: "/ˈjuːs keɪs/",
+    def: "A situation in which someone uses a product to do something.",
+    vi: "tình huống sử dụng",
+    examples:
+      [
+        {
+          en: "The main use case is a manager downloading a monthly report.",
+          vi: "Tình huống sử dụng chính là quản lý tải báo cáo hằng tháng.",
+        },
+      ],
+  }
+- {
+    slug: user-story-n,
+    lemma: "user story",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: globalisation,
+    ipa: "/ˈjuːzə ˌstɔːri/",
+    def: "A short description of a feature from the user's point of view.",
+    vi: "user story",
+    examples:
+      [
+        {
+          en: "Each user story starts with 'As a customer, I want...'.",
+          vi: "Mỗi user story bắt đầu bằng 'Là một khách hàng, tôi muốn...'.",
+        },
+      ],
+  }
+- {
+    slug: wireframe-n-travel,
+    lemma: "wireframe",
+    pos: noun,
+    cefr: B2,
+    topic: globalisation,
+    ipa: "/ˈwaɪəfreɪm/",
+    def: "A simple drawing that shows the layout of a screen.",
+    vi: "bản phác thảo khung giao diện",
+    examples:
+      [
+        {
+          en: "The client sent a wireframe of the checkout page.",
+          vi: "Khách hàng gửi bản phác thảo khung trang thanh toán.",
+        },
+      ],
+  }
+- {
+    slug: edge-case-n-travel,
+    lemma: "edge case",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: globalisation,
+    ipa: "/ˈedʒ keɪs/",
+    def: "An unusual situation that happens only at the limits of normal use.",
+    vi: "trường hợp biên",
+    examples:
+      [
+        {
+          en: "What should happen in the edge case where the cart is empty?",
+          vi: "Trong trường hợp biên giỏ hàng trống thì nên xử lý thế nào?",
+        },
+      ],
+  }
+- {
+    slug: priority-n-travel,
+    lemma: "priority",
+    pos: noun,
+    cefr: B1,
+    topic: globalisation,
+    ipa: "/praɪˈɒrəti/",
+    def: "Something that is more important and should be done first.",
+    vi: "ưu tiên",
+    examples:
+      [
+        {
+          en: "Mobile support is the top priority for this sprint.",
+          vi: "Hỗ trợ mobile là ưu tiên hàng đầu của sprint này.",
+        },
+      ],
+  }
+- {
+    slug: sign-off-n-travel,
+    lemma: "sign-off",
+    pos: noun,
+    cefr: B2,
+    topic: globalisation,
+    ipa: "/ˈsaɪn ɒf/",
+    def: "Official approval that work is finished and accepted.",
+    vi: "sự phê duyệt cuối",
+    examples:
+      [
+        {
+          en: "We need the client's sign-off before we go live.",
+          vi: "Tụi mình cần khách hàng phê duyệt cuối trước khi chạy thật.",
+        },
+      ],
+  }
+- {
+    slug: ambiguous-adj,
+    lemma: "ambiguous",
+    pos: adjective,
+    cefr: B2,
+    topic: globalisation,
+    ipa: "/æmˈbɪɡjuəs/",
+    def: "Able to be understood in more than one way.",
+    vi: "mơ hồ, đa nghĩa",
+    examples:
+      [
+        {
+          en: "The word 'recent' in the ticket is ambiguous: one week or one month?",
+          vi: "Chữ 'gần đây' trong ticket hơi mơ hồ: một tuần hay một tháng?",
+        },
+      ],
+  }
+- {
+    slug: pin-down-pv,
+    lemma: "pin down",
+    pos: phrasal_verb,
+    kind: phrasal,
+    cefr: C1,
+    topic: globalisation,
+    ipa: "/pɪn daʊn/",
+    def: "To get someone to give exact details or a firm decision.",
+    vi: "chốt, làm rõ chính xác",
+    examples:
+      [
+        {
+          en: "We need to pin down which browsers the client supports.",
+          vi: "Tụi mình cần chốt chính xác khách hàng hỗ trợ trình duyệt nào.",
+        },
+      ],
+  }
+- {
+    slug: out-of-scope-phr,
+    lemma: "out of scope",
+    pos: phrase,
+    kind: phrase,
+    cefr: B2,
+    topic: globalisation,
+    ipa: "/aʊt əv skəʊp/",
+    def: "Not included in the work that was agreed.",
+    vi: "ngoài phạm vi",
+    examples:
+      [
+        {
+          en: "Dark mode is out of scope for the first version.",
+          vi: "Chế độ tối nằm ngoài phạm vi của phiên bản đầu.",
+        },
+      ],
+  }
+- {
+    slug: change-request-n,
+    lemma: "change request",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: globalisation,
+    ipa: "/ˈtʃeɪndʒ rɪˌkwest/",
+    def: "A formal request to change what was already agreed.",
+    vi: "yêu cầu thay đổi",
+    examples:
+      [
+        {
+          en: "Adding a new language would need a change request.",
+          vi: "Thêm một ngôn ngữ mới sẽ cần một yêu cầu thay đổi.",
+        },
+      ],
+  }
+- {
+    slug: product-owner-n,
+    lemma: "product owner",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: globalisation,
+    ipa: "/ˈprɒdʌkt ˌəʊnə/",
+    def: "The person who decides what a product should do and in what order.",
+    vi: "product owner",
+    examples:
+      [
+        {
+          en: "The client's product owner answers our questions every Tuesday.",
+          vi: "Product owner bên khách hàng trả lời câu hỏi của nhóm mỗi thứ Ba.",
+        },
+      ],
+  }
+- {
+    slug: feasible-adj,
+    lemma: "feasible",
+    pos: adjective,
+    cefr: B2,
+    topic: globalisation,
+    ipa: "/ˈfiːzəbl/",
+    def: "Possible to do in a practical way.",
+    vi: "khả thi",
+    examples:
+      [
+        {
+          en: "Is it feasible to finish the integration in two weeks?",
+          vi: "Hoàn thành tích hợp trong hai tuần có khả thi không?",
+        },
+      ],
+  }
+# Set 5: Cross-cultural collaboration
+- {
+    slug: check-understanding-phr,
+    lemma: "check understanding",
+    pos: phrase,
+    kind: phrase,
+    cefr: B1,
+    topic: globalisation,
+    ipa: "/tʃek ˌʌndəˈstændɪŋ/",
+    def: "To make sure two people mean the same thing.",
+    vi: "kiểm tra cách hiểu",
+    examples:
+      [
+        {
+          en: "Let me check understanding: you want the report daily, not weekly?",
+          vi: "Để mình kiểm tra lại cách hiểu: bạn muốn báo cáo mỗi ngày, không phải mỗi tuần?",
+        },
+      ],
+  }
+- {
+    slug: cross-cultural-adj,
+    lemma: "cross-cultural",
+    pos: adjective,
+    cefr: B2,
+    topic: globalisation,
+    ipa: "/ˌkrɒs ˈkʌltʃərəl/",
+    def: "Involving people from different cultures.",
+    vi: "đa văn hoá, liên văn hoá",
+    examples:
+      [
+        {
+          en: "Cross-cultural teams need clear written agreements.",
+          vi: "Các nhóm đa văn hoá cần những thoả thuận viết rõ ràng.",
+        },
+      ],
+  }
+- {
+    slug: direct-adj,
+    lemma: "direct",
+    pos: adjective,
+    cefr: B1,
+    topic: globalisation,
+    ipa: "/dəˈrekt/",
+    def: "Saying what you think clearly, without hiding it.",
+    vi: "thẳng thắn",
+    examples:
+      [
+        {
+          en: "Our Dutch colleagues are very direct in code reviews.",
+          vi: "Các đồng nghiệp người Hà Lan rất thẳng thắn khi review code.",
+        },
+      ],
+  }
+- {
+    slug: courteous-adj,
+    lemma: "courteous",
+    pos: adjective,
+    cefr: C1,
+    topic: globalisation,
+    ipa: "/ˈkɜːtiəs/",
+    def: "Kind and respectful in the way you behave.",
+    vi: "nhã nhặn",
+    examples:
+      [
+        {
+          en: "Even short emails to the client should be courteous.",
+          vi: "Ngay cả email ngắn gửi khách hàng cũng nên nhã nhặn.",
+        },
+      ],
+  }
+- {
+    slug: indirect-adj,
+    lemma: "indirect",
+    pos: adjective,
+    cefr: B1,
+    topic: globalisation,
+    ipa: "/ˌɪndəˈrekt/",
+    def: "Not saying something clearly; suggesting it instead.",
+    vi: "gián tiếp, vòng vo",
+    examples:
+      [
+        {
+          en: "'That might be hard' is sometimes an indirect way of saying no.",
+          vi: "'Cái đó có thể khó' đôi khi là cách nói không một cách gián tiếp.",
+        },
+      ],
+  }
+- {
+    slug: phrasing-n,
+    lemma: "phrasing",
+    pos: noun,
+    cefr: B2,
+    topic: globalisation,
+    ipa: "/ˈfreɪzɪŋ/",
+    def: "The words you choose to say something.",
+    vi: "cách diễn đạt",
+    examples:
+      [
+        {
+          en: "Softer phrasing like 'maybe we could' feels less like an order.",
+          vi: "Cách diễn đạt nhẹ nhàng như 'có lẽ mình có thể' bớt giống ra lệnh.",
+        },
+      ],
+  }
+- {
+    slug: feedback-n-travel,
+    lemma: "feedback",
+    pos: noun,
+    cefr: B1,
+    topic: globalisation,
+    ipa: "/ˈfiːdbæk/",
+    def: "Comments about how good something is and how to improve it.",
+    vi: "góp ý, phản hồi",
+    examples:
+      [
+        {
+          en: "She gave me useful feedback on my design doc.",
+          vi: "Chị ấy góp ý rất hữu ích cho tài liệu thiết kế của mình.",
+        },
+      ],
+  }
+- {
+    slug: respectful-adj-travel,
+    lemma: "respectful",
+    pos: adjective,
+    cefr: B1,
+    topic: globalisation,
+    ipa: "/rɪˈspektfl/",
+    def: "Showing that you value other people and their ideas.",
+    vi: "tôn trọng",
+    examples:
+      [
+        {
+          en: "Keep comments respectful, even when you disagree.",
+          vi: "Hãy giữ bình luận tôn trọng, kể cả khi bạn không đồng ý.",
+        },
+      ],
+  }
+- {
+    slug: custom-n,
+    lemma: "custom",
+    pos: noun,
+    cefr: B1,
+    topic: globalisation,
+    ipa: "/ˈkʌstəm/",
+    def: "Something that people in a culture usually do.",
+    vi: "phong tục",
+    examples:
+      [
+        {
+          en: "In some countries it is a custom to give gifts at the end of the year.",
+          vi: "Ở một số nước, tặng quà cuối năm là một phong tục.",
+        },
+      ],
+  }
+- {
+    slug: interpret-v,
+    lemma: "interpret",
+    pos: verb,
+    cefr: B2,
+    topic: globalisation,
+    ipa: "/ɪnˈtɜːprɪt/",
+    def: "To decide what someone's words or actions mean.",
+    vi: "hiểu, diễn giải",
+    examples:
+      [
+        {
+          en: "I interpreted his silence as agreement, but I was wrong.",
+          vi: "Mình hiểu sự im lặng của anh ấy là đồng ý, nhưng mình đã sai.",
+        },
+      ],
+  }
+- {
+    slug: nuance-n,
+    lemma: "nuance",
+    pos: noun,
+    cefr: C1,
+    topic: globalisation,
+    ipa: "/ˈnjuːɑːns/",
+    def: "A small difference in meaning or feeling.",
+    vi: "sắc thái",
+    examples:
+      [
+        {
+          en: "Emoji can carry nuance that is lost in plain text.",
+          vi: "Emoji có thể mang sắc thái mà chữ thường bị mất.",
+        },
+      ],
+  }
+- {
+    slug: taboo-n,
+    lemma: "taboo",
+    pos: noun,
+    cefr: C1,
+    topic: globalisation,
+    ipa: "/təˈbuː/",
+    def: "A subject people avoid because it is seen as rude or wrong.",
+    vi: "điều cấm kỵ",
+    examples:
+      [
+        {
+          en: "Asking about salary is a taboo in some cultures.",
+          vi: "Hỏi về lương là điều cấm kỵ ở một số nền văn hoá.",
+        },
+      ],
+  }
+- {
+    slug: offensive-adj,
+    lemma: "offensive",
+    pos: adjective,
+    cefr: B2,
+    topic: globalisation,
+    ipa: "/əˈfensɪv/",
+    def: "Likely to make people upset or angry.",
+    vi: "xúc phạm, gây khó chịu",
+    examples:
+      [
+        {
+          en: "A joke that is fine at home may be offensive abroad.",
+          vi: "Câu đùa bình thường ở nhà có thể gây khó chịu ở nước khác.",
+        },
+      ],
+  }
+- {
+    slug: hierarchy-n,
+    lemma: "hierarchy",
+    pos: noun,
+    cefr: B2,
+    topic: globalisation,
+    ipa: "/ˈhaɪərɑːki/",
+    def: "A system where people have different levels of power.",
+    vi: "thứ bậc",
+    examples:
+      [
+        {
+          en: "In a strong hierarchy, juniors may not question a manager.",
+          vi: "Trong môi trường thứ bậc chặt, nhân viên mới có thể không dám chất vấn quản lý.",
+        },
+      ],
+  }
+- {
+    slug: save-face-phr,
+    lemma: "save face",
+    pos: phrase,
+    kind: phrase,
+    cefr: C1,
+    topic: globalisation,
+    ipa: "/seɪv ˈfeɪs/",
+    def: "To avoid looking foolish or losing respect in front of others.",
+    vi: "giữ thể diện",
+    examples:
+      [
+        {
+          en: "Give critical feedback in private so people can save face.",
+          vi: "Hãy góp ý nặng riêng tư để người khác giữ được thể diện.",
+        },
+      ],
+  }
+- {
+    slug: open-minded-adj,
+    lemma: "open-minded",
+    pos: adjective,
+    cefr: B2,
+    topic: globalisation,
+    ipa: "/ˌəʊpən ˈmaɪndɪd/",
+    def: "Willing to listen to new or different ideas.",
+    vi: "cởi mở",
+    examples:
+      [
+        {
+          en: "Being open-minded helps when a teammate works differently.",
+          vi: "Cởi mở sẽ giúp ích khi đồng đội làm việc theo cách khác.",
+        },
+      ],
+  }
+- {
+    slug: idiom-n,
+    lemma: "idiom",
+    pos: noun,
+    cefr: B2,
+    topic: globalisation,
+    ipa: "/ˈɪdiəm/",
+    def: "A group of words whose meaning is different from the single words.",
+    vi: "thành ngữ",
+    examples:
+      [
+        {
+          en: "Avoid idioms like 'ballpark figure' with non-native speakers.",
+          vi: "Tránh thành ngữ như 'ballpark figure' với người không nói tiếng Anh bản ngữ.",
+        },
+      ],
+  }
+- {
+    slug: body-language-n,
+    lemma: "body language",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: globalisation,
+    ipa: "/ˈbɒdi ˌlæŋɡwɪdʒ/",
+    def: "Messages you send with your face, hands and position.",
+    vi: "ngôn ngữ cơ thể",
+    examples:
+      [
+        {
+          en: "On video calls, body language is harder to read.",
+          vi: "Trong cuộc gọi video, ngôn ngữ cơ thể khó đọc hơn.",
+        },
+      ],
+  }
+# Set 6: Working across holidays
+- {
+    slug: public-holiday-n,
+    lemma: "public holiday",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: globalisation,
+    ipa: "/ˌpʌblɪk ˈhɒlədeɪ/",
+    def: "A day when most people in a country do not work.",
+    vi: "ngày lễ",
+    examples:
+      [
+        {
+          en: "Monday is a public holiday in Vietnam, so our office is closed.",
+          vi: "Thứ Hai là ngày lễ ở Việt Nam nên văn phòng đóng cửa.",
+        },
+      ],
+  }
+- {
+    slug: time-off-request-n,
+    lemma: "time-off request",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: globalisation,
+    ipa: "/ˌtaɪm ˈɒf rɪˌkwest/",
+    def: "A request for permission to take days off work.",
+    vi: "đơn xin nghỉ",
+    examples:
+      [
+        {
+          en: "Send your time-off request through the HR portal.",
+          vi: "Gửi đơn xin nghỉ qua cổng HR.",
+        },
+      ],
+  }
+- {
+    slug: out-of-office-message-n,
+    lemma: "out-of-office message",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: globalisation,
+    ipa: "/ˌaʊt əv ˈɒfɪs ˌmesɪdʒ/",
+    def: "An automatic reply saying you are away and when you return.",
+    vi: "tin trả lời tự động khi vắng mặt",
+    examples:
+      [
+        {
+          en: "Set an out-of-office message with the name of your backup.",
+          vi: "Hãy đặt tin trả lời tự động khi vắng kèm tên người thay bạn.",
+        },
+      ],
+  }
+- {
+    slug: backup-contact-n,
+    lemma: "backup contact",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: globalisation,
+    ipa: "/ˈbækʌp ˌkɒntækt/",
+    def: "The person to contact when the usual person is away.",
+    vi: "người liên hệ thay thế",
+    examples:
+      [
+        {
+          en: "Duc is my backup contact while I'm on holiday.",
+          vi: "Đức là người liên hệ thay thế khi mình đi nghỉ.",
+        },
+      ],
+  }
+- {
+    slug: stand-in-n,
+    lemma: "stand-in",
+    pos: noun,
+    cefr: C1,
+    topic: globalisation,
+    ipa: "/ˈstænd ɪn/",
+    def: "A person who does someone's job for a short time.",
+    vi: "người làm thay",
+    examples:
+      [
+        {
+          en: "Duc is my stand-in for code reviews while I'm away.",
+          vi: "Đức là người làm thay mình review code khi mình vắng.",
+        },
+      ],
+  }
+- {
+    slug: ahead-of-time-phr,
+    lemma: "ahead of time",
+    pos: phrase,
+    kind: phrase,
+    cefr: B1,
+    topic: globalisation,
+    ipa: "/əˌhed əv ˈtaɪm/",
+    def: "Earlier than an event or deadline.",
+    vi: "trước thời hạn",
+    examples:
+      [
+        {
+          en: "Share your holiday plans ahead of time.",
+          vi: "Chia sẻ kế hoạch nghỉ trước thời hạn nhé.",
+        },
+      ],
+  }
+- {
+    slug: be-back-phr,
+    lemma: "be back",
+    pos: phrase,
+    kind: phrase,
+    cefr: A2,
+    topic: globalisation,
+    ipa: "/biː ˈbæk/",
+    def: "To return to work or a place.",
+    vi: "quay lại",
+    examples:
+      [{ en: "I'll be back on Monday the 10th.", vi: "Mình sẽ quay lại vào thứ Hai ngày 10." }],
+  }
+- {
+    slug: unavailable-adj,
+    lemma: "unavailable",
+    pos: adjective,
+    cefr: B1,
+    topic: globalisation,
+    ipa: "/ˌʌnəˈveɪləbl/",
+    def: "Not able to be contacted or to work.",
+    vi: "không liên lạc được, vắng",
+    examples:
+      [
+        {
+          en: "I'm unavailable during Tet, from the 8th to the 15th.",
+          vi: "Mình vắng dịp Tết, từ ngày 8 đến ngày 15.",
+        },
+      ],
+  }
+- {
+    slug: festival-n,
+    lemma: "festival",
+    pos: noun,
+    cefr: A2,
+    topic: globalisation,
+    ipa: "/ˈfestɪvl/",
+    def: "A special time when people celebrate something.",
+    vi: "lễ hội",
+    examples:
+      [
+        {
+          en: "Diwali is a big festival for our team in India.",
+          vi: "Diwali là lễ hội lớn của nhóm mình ở Ấn Độ.",
+        },
+      ],
+  }
+- {
+    slug: lunar-new-year-n,
+    lemma: "Lunar New Year",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: globalisation,
+    ipa: "/ˌluːnə njuː ˈjɪə/",
+    def: "The new year festival based on the moon calendar, Tet in Vietnam.",
+    vi: "Tết Nguyên đán",
+    examples:
+      [
+        {
+          en: "Most of the Vietnam team is off for a week at Lunar New Year.",
+          vi: "Hầu hết nhóm Việt Nam nghỉ một tuần dịp Tết Nguyên đán.",
+        },
+      ],
+  }
+- {
+    slug: shutdown-n,
+    lemma: "shutdown",
+    pos: noun,
+    cefr: B2,
+    topic: globalisation,
+    ipa: "/ˈʃʌtdaʊn/",
+    def: "A period when a company stops normal work.",
+    vi: "thời gian tạm ngừng hoạt động",
+    examples:
+      [
+        {
+          en: "The company has a shutdown between Christmas and New Year.",
+          vi: "Công ty tạm ngừng hoạt động từ Giáng sinh đến Năm mới.",
+        },
+      ],
+  }
+- {
+    slug: reduced-capacity-n,
+    lemma: "reduced capacity",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: globalisation,
+    ipa: "/rɪˌdjuːst kəˈpæsəti/",
+    def: "Being able to do less work than usual because fewer people are available.",
+    vi: "năng lực giảm",
+    examples:
+      [
+        {
+          en: "We'll work at reduced capacity in August, so expect slower reviews.",
+          vi: "Tháng Tám nhóm làm với năng lực giảm, nên review sẽ chậm hơn.",
+        },
+      ],
+  }
+- {
+    slug: on-call-adj-travel,
+    lemma: "on-call",
+    pos: adjective,
+    cefr: B2,
+    topic: globalisation,
+    ipa: "/ˌɒn ˈkɔːl/",
+    def: "Ready to be contacted and fix urgent problems outside normal hours.",
+    vi: "trực sự cố",
+    examples:
+      [
+        {
+          en: "Tuan is on-call during the holiday weekend.",
+          vi: "Tuấn trực sự cố trong cuối tuần nghỉ lễ.",
+        },
+      ],
+  }
+- {
+    slug: time-sensitive-adj,
+    lemma: "time-sensitive",
+    pos: adjective,
+    cefr: B2,
+    topic: globalisation,
+    ipa: "/ˈtaɪm ˌsensətɪv/",
+    def: "Needing to be done before a certain time.",
+    vi: "cần làm gấp theo thời hạn",
+    examples:
+      [
+        {
+          en: "The tax update is time-sensitive, so finish it before the break.",
+          vi: "Cập nhật thuế cần gấp, nên làm xong trước kỳ nghỉ.",
+        },
+      ],
+  }
+- {
+    slug: code-freeze-n,
+    lemma: "code freeze",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: globalisation,
+    ipa: "/ˈkəʊd friːz/",
+    def: "A period when no new code changes are allowed.",
+    vi: "đóng băng code",
+    examples:
+      [
+        {
+          en: "We start a code freeze two days before the holiday.",
+          vi: "Tụi mình đóng băng code hai ngày trước kỳ nghỉ.",
+        },
+      ],
+  }
+- {
+    slug: hotfix-n,
+    lemma: "hotfix",
+    pos: noun,
+    cefr: B2,
+    topic: globalisation,
+    ipa: "/ˈhɒtfɪks/",
+    def: "A quick fix for a serious bug in a live system.",
+    vi: "bản vá khẩn",
+    examples:
+      [
+        {
+          en: "Only hotfixes go out during the holiday week.",
+          vi: "Trong tuần nghỉ lễ chỉ phát hành bản vá khẩn.",
+        },
+      ],
+  }
+- {
+    slug: carry-over-pv,
+    lemma: "carry over",
+    pos: phrasal_verb,
+    kind: phrasal,
+    cefr: B2,
+    topic: globalisation,
+    ipa: "/ˌkæri ˈəʊvə/",
+    def: "To move unused days off to the next year.",
+    vi: "chuyển sang (năm sau)",
+    examples:
+      [
+        {
+          en: "You can carry over five unused days to next year.",
+          vi: "Bạn có thể chuyển năm ngày phép chưa dùng sang năm sau.",
+        },
+      ],
+  }
+- {
+    slug: team-calendar-n,
+    lemma: "team calendar",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: globalisation,
+    ipa: "/tiːm ˈkælɪndə/",
+    def: "A shared calendar that shows everyone's holidays and events.",
+    vi: "lịch chung của nhóm",
+    examples:
+      [
+        {
+          en: "Add your days off to the team calendar.",
+          vi: "Hãy thêm ngày nghỉ của bạn vào lịch chung của nhóm.",
+        },
+      ],
+  }
+- {
+    slug: long-weekend-n,
+    lemma: "long weekend",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: globalisation,
+    ipa: "/ˌlɒŋ ˌwiːkˈend/",
+    def: "A weekend with an extra day off on Friday or Monday.",
+    vi: "kỳ nghỉ cuối tuần dài",
+    examples:
+      [
+        {
+          en: "It's a long weekend in the UK, so expect no replies on Monday.",
+          vi: "Bên Anh có kỳ nghỉ cuối tuần dài, nên thứ Hai sẽ không ai trả lời.",
+        },
+      ],
+  }
+- {
+    slug: skeleton-crew-n,
+    lemma: "skeleton crew",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: globalisation,
+    ipa: "/ˌskelɪtn ˈkruː/",
+    def: "The smallest group of people needed to keep work running.",
+    vi: "nhân sự tối thiểu",
+    examples:
+      [
+        {
+          en: "Only a skeleton crew works during Tet to watch the servers.",
+          vi: "Chỉ một nhóm nhân sự tối thiểu làm dịp Tết để trông server.",
+        },
+      ],
+  }
+# Set 7: International delivery
+- {
+    slug: handover-package-n,
+    lemma: "handover package",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: globalisation,
+    ipa: "/ˈhændəʊvə ˌpækɪdʒ/",
+    def: "All the files, notes and access details given to a client at the end.",
+    vi: "gói bàn giao",
+    examples:
+      [
+        {
+          en: "The handover package includes the source code and admin guide.",
+          vi: "Gói bàn giao gồm mã nguồn và hướng dẫn quản trị.",
+        },
+      ],
+  }
+- {
+    slug: acceptance-test-n,
+    lemma: "acceptance test",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: globalisation,
+    ipa: "/əkˈseptəns test/",
+    def: "A test the client runs to decide whether to accept the work.",
+    vi: "kiểm thử nghiệm thu",
+    examples:
+      [
+        {
+          en: "The client will run the acceptance test next week.",
+          vi: "Khách hàng sẽ chạy kiểm thử nghiệm thu vào tuần tới.",
+        },
+      ],
+  }
+- {
+    slug: release-note-n,
+    lemma: "release note",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: globalisation,
+    ipa: "/rɪˈliːs nəʊt/",
+    def: "A short document that lists what changed in a new version.",
+    vi: "ghi chú phát hành",
+    examples:
+      [
+        {
+          en: "Each delivery comes with release notes in English.",
+          vi: "Mỗi lần bàn giao đều kèm ghi chú phát hành bằng tiếng Anh.",
+        },
+      ],
+  }
+- {
+    slug: staging-environment-n,
+    lemma: "staging environment",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: globalisation,
+    ipa: "/ˈsteɪdʒɪŋ ɪnˌvaɪrənmənt/",
+    def: "A copy of the live system used for testing before release.",
+    vi: "môi trường staging",
+    examples:
+      [
+        {
+          en: "The client can test the build in the staging environment.",
+          vi: "Khách hàng có thể thử bản build trên môi trường staging.",
+        },
+      ],
+  }
+- {
+    slug: invoice-n,
+    lemma: "invoice",
+    pos: noun,
+    cefr: B2,
+    topic: globalisation,
+    ipa: "/ˈɪnvɔɪs/",
+    def: "A document that asks a client to pay for work.",
+    vi: "hoá đơn",
+    examples:
+      [
+        {
+          en: "We send the invoice after the client accepts the milestone.",
+          vi: "Tụi mình gửi hoá đơn sau khi khách hàng chấp nhận cột mốc.",
+        },
+      ],
+  }
+- {
+    slug: payment-terms-n,
+    lemma: "payment terms",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: globalisation,
+    ipa: "/ˈpeɪmənt tɜːmz/",
+    def: "The agreed rules about when and how a client pays.",
+    vi: "điều khoản thanh toán",
+    examples:
+      [
+        {
+          en: "Our payment terms are 30 days after the invoice date.",
+          vi: "Điều khoản thanh toán là 30 ngày sau ngày xuất hoá đơn.",
+        },
+      ],
+  }
+- {
+    slug: feedback-loop-n,
+    lemma: "feedback loop",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: globalisation,
+    ipa: "/ˈfiːdbæk luːp/",
+    def: "The cycle of showing work, getting comments and improving it.",
+    vi: "vòng phản hồi",
+    examples:
+      [
+        {
+          en: "Weekly demos keep the feedback loop short.",
+          vi: "Demo hằng tuần giúp vòng phản hồi ngắn lại.",
+        },
+      ],
+  }
+- {
+    slug: approval-n-travel,
+    lemma: "approval",
+    pos: noun,
+    cefr: B1,
+    topic: globalisation,
+    ipa: "/əˈpruːvl/",
+    def: "Official permission or agreement.",
+    vi: "sự chấp thuận",
+    examples:
+      [
+        {
+          en: "We are waiting for approval from the client's legal team.",
+          vi: "Tụi mình đang chờ sự chấp thuận từ bộ phận pháp lý của khách hàng.",
+        },
+      ],
+  }
+- {
+    slug: delivery-date-n,
+    lemma: "delivery date",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: globalisation,
+    ipa: "/dɪˈlɪvəri deɪt/",
+    def: "The day work is promised to reach the client.",
+    vi: "ngày bàn giao",
+    examples:
+      [
+        {
+          en: "The delivery date is the 30th, Sydney time.",
+          vi: "Ngày bàn giao là ngày 30, theo giờ Sydney.",
+        },
+      ],
+  }
+- {
+    slug: ship-v,
+    lemma: "ship",
+    pos: verb,
+    cefr: B2,
+    topic: globalisation,
+    ipa: "/ʃɪp/",
+    def: "To release a product or feature to users.",
+    vi: "phát hành, đưa ra",
+    examples:
+      [
+        {
+          en: "We plan to ship the payment page next Tuesday.",
+          vi: "Tụi mình định phát hành trang thanh toán vào thứ Ba tới.",
+        },
+      ],
+  }
+- {
+    slug: on-schedule-phr,
+    lemma: "on schedule",
+    pos: phrase,
+    kind: phrase,
+    cefr: B1,
+    topic: globalisation,
+    ipa: "/ɒn ˈʃedjuːl/",
+    def: "Happening at the planned time, not late.",
+    vi: "đúng tiến độ",
+    examples:
+      [
+        {
+          en: "The mobile app is still on schedule for March.",
+          vi: "Ứng dụng mobile vẫn đúng tiến độ cho tháng Ba.",
+        },
+      ],
+  }
+- {
+    slug: revision-n,
+    lemma: "revision",
+    pos: noun,
+    cefr: B2,
+    topic: globalisation,
+    ipa: "/rɪˈvɪʒn/",
+    def: "A change made to improve or correct a piece of work.",
+    vi: "bản chỉnh sửa",
+    examples:
+      [
+        {
+          en: "The contract includes two rounds of revisions.",
+          vi: "Hợp đồng bao gồm hai vòng chỉnh sửa.",
+        },
+      ],
+  }
+- {
+    slug: go-live-n-travel,
+    lemma: "go-live",
+    pos: noun,
+    cefr: B2,
+    topic: globalisation,
+    ipa: "/ˌɡəʊ ˈlaɪv/",
+    def: "The moment a system starts being used for real.",
+    vi: "thời điểm chạy thật",
+    examples:
+      [
+        {
+          en: "The go-live is planned for Monday morning, client time.",
+          vi: "Thời điểm chạy thật dự kiến vào sáng thứ Hai giờ khách hàng.",
+        },
+      ],
+  }
+- {
+    slug: file-transfer-n,
+    lemma: "file transfer",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: globalisation,
+    ipa: "/ˈfaɪl ˌtrænsfɜː/",
+    def: "Sending files from one computer or place to another.",
+    vi: "truyền tệp",
+    examples:
+      [
+        {
+          en: "Large videos go through a secure file transfer, not email.",
+          vi: "Video lớn được gửi qua kênh truyền tệp bảo mật, không qua email.",
+        },
+      ],
+  }
+- {
+    slug: shared-drive-n,
+    lemma: "shared drive",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: globalisation,
+    ipa: "/ʃeəd ˈdraɪv/",
+    def: "An online folder that several people can open and edit.",
+    vi: "ổ chia sẻ",
+    examples:
+      [
+        {
+          en: "All design files are in the client's shared drive.",
+          vi: "Tất cả file thiết kế nằm trong ổ chia sẻ của khách hàng.",
+        },
+      ],
+  }
+- {
+    slug: version-n-travel,
+    lemma: "version",
+    pos: noun,
+    cefr: A2,
+    topic: globalisation,
+    ipa: "/ˈvɜːʃn/",
+    def: "One form of a product that is a little different from earlier ones.",
+    vi: "phiên bản",
+    examples:
+      [
+        {
+          en: "Version 2.1 fixes the bugs the client reported.",
+          vi: "Phiên bản 2.1 sửa các lỗi khách hàng đã báo.",
+        },
+      ],
+  }
+- {
+    slug: walkthrough-video-n,
+    lemma: "walkthrough video",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: globalisation,
+    ipa: "/ˈwɔːkθruː ˌvɪdiəu/",
+    def: "A recorded video that shows step by step how something works.",
+    vi: "video hướng dẫn từng bước",
+    examples:
+      [
+        {
+          en: "I attached a walkthrough video of the new admin panel.",
+          vi: "Mình đính kèm video hướng dẫn từng bước cho trang quản trị mới.",
+        },
+      ],
+  }
+- {
+    slug: review-cycle-n,
+    lemma: "review cycle",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: globalisation,
+    ipa: "/rɪˈvjuː ˌsaɪkl/",
+    def: "One round of checking work and returning comments.",
+    vi: "vòng duyệt",
+    examples:
+      [
+        {
+          en: "Each review cycle takes about three business days.",
+          vi: "Mỗi vòng duyệt mất khoảng ba ngày làm việc.",
+        },
+      ],
+  }
+- {
+    slug: time-difference-n,
+    lemma: "time difference",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: globalisation,
+    ipa: "/ˈtaɪm ˌdɪfrəns/",
+    def: "The number of hours between the clocks of two places.",
+    vi: "chênh lệch múi giờ",
+    examples:
+      [
+        {
+          en: "Because of the time difference, the client tests while we sleep.",
+          vi: "Do chênh lệch múi giờ, khách hàng thử nghiệm khi tụi mình ngủ.",
+        },
+      ],
+  }
+- {
+    slug: business-day-n,
+    lemma: "business day",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: globalisation,
+    ipa: "/ˈbɪznəs deɪ/",
+    def: "A normal working day, not a weekend or holiday.",
+    vi: "ngày làm việc",
+    examples:
+      [
+        {
+          en: "We reply to bug reports within one business day.",
+          vi: "Tụi mình phản hồi báo lỗi trong vòng một ngày làm việc.",
+        },
+      ],
+  }
+- {
+    slug: response-time-n,
+    lemma: "response time",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: globalisation,
+    ipa: "/rɪˈspɒns taɪm/",
+    def: "How long it takes to answer a message or request.",
+    vi: "thời gian phản hồi",
+    examples:
+      [
+        {
+          en: "Our agreed response time for critical bugs is four hours.",
+          vi: "Thời gian phản hồi đã thống nhất cho lỗi nghiêm trọng là bốn tiếng.",
+        },
+      ],
+  }
+- {
+    slug: warranty-period-n,
+    lemma: "warranty period",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: globalisation,
+    ipa: "/ˈwɒrənti ˌpɪəriəd/",
+    def: "The time after delivery when you fix bugs for free.",
+    vi: "thời gian bảo hành",
+    examples:
+      [
+        {
+          en: "Bugs found in the 60-day warranty period are fixed at no cost.",
+          vi: "Lỗi phát hiện trong 60 ngày bảo hành được sửa miễn phí.",
+        },
+      ],
+  }
+# Set 8: Localisation requirements
+- {
+    slug: localisation-n,
+    lemma: "localisation",
+    pos: noun,
+    cefr: B2,
+    topic: globalisation,
+    ipa: "/ˌləʊkəlaɪˈzeɪʃn/",
+    def: "Changing a product so it fits the language and habits of a country.",
+    vi: "bản địa hoá",
+    examples:
+      [
+        {
+          en: "Localisation for Japan includes a new font and date style.",
+          vi: "Bản địa hoá cho Nhật gồm font mới và kiểu ngày tháng.",
+        },
+      ],
+  }
+- {
+    slug: translate-v,
+    lemma: "translate",
+    pos: verb,
+    cefr: B1,
+    topic: globalisation,
+    ipa: "/trænzˈleɪt/",
+    def: "To change words from one language into another.",
+    vi: "dịch",
+    examples:
+      [
+        {
+          en: "A freelancer will translate the app into Thai.",
+          vi: "Một freelancer sẽ dịch ứng dụng sang tiếng Thái.",
+        },
+      ],
+  }
+- {
+    slug: locale-n,
+    lemma: "locale",
+    pos: noun,
+    cefr: C1,
+    topic: globalisation,
+    ipa: "/ləʊˈkɑːl/",
+    def: "A setting that combines a language and a region, such as vi-VN.",
+    vi: "thiết lập vùng ngôn ngữ",
+    examples:
+      [
+        {
+          en: "The server reads the user's locale from the browser.",
+          vi: "Server đọc thiết lập vùng ngôn ngữ của người dùng từ trình duyệt.",
+        },
+      ],
+  }
+- {
+    slug: currency-n,
+    lemma: "currency",
+    pos: noun,
+    cefr: B1,
+    topic: globalisation,
+    ipa: "/ˈkʌrənsi/",
+    def: "The type of money a country uses.",
+    vi: "tiền tệ",
+    examples:
+      [
+        {
+          en: "Show prices in the user's local currency.",
+          vi: "Hiển thị giá bằng tiền tệ địa phương của người dùng.",
+        },
+      ],
+  }
+- {
+    slug: date-format-n,
+    lemma: "date format",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: globalisation,
+    ipa: "/ˈdeɪt ˌfɔːmæt/",
+    def: "The order and style used to write a date.",
+    vi: "định dạng ngày",
+    examples:
+      [
+        {
+          en: "The US date format puts the month before the day.",
+          vi: "Định dạng ngày của Mỹ đặt tháng trước ngày.",
+        },
+      ],
+  }
+- {
+    slug: decimal-separator-n,
+    lemma: "decimal separator",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: globalisation,
+    ipa: "/ˈdesɪml ˌsepəreɪtə/",
+    def: "The symbol between the whole number and the part after it, like . or ,.",
+    vi: "dấu thập phân",
+    examples:
+      [
+        {
+          en: "Germany uses a comma as the decimal separator.",
+          vi: "Đức dùng dấu phẩy làm dấu thập phân.",
+        },
+      ],
+  }
+- {
+    slug: right-to-left-adj,
+    lemma: "right-to-left",
+    pos: adjective,
+    cefr: B2,
+    topic: globalisation,
+    ipa: "/ˌraɪt tə ˈleft/",
+    def: "Written starting from the right side, like Arabic.",
+    vi: "viết từ phải sang trái",
+    examples:
+      [
+        {
+          en: "The layout must flip for right-to-left languages.",
+          vi: "Bố cục phải lật lại cho các ngôn ngữ viết từ phải sang trái.",
+        },
+      ],
+  }
+- {
+    slug: character-encoding-n,
+    lemma: "character encoding",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: globalisation,
+    ipa: "/ˈkærəktər ɪnˌkəʊdɪŋ/",
+    def: "The system a computer uses to store letters as numbers, such as UTF-8.",
+    vi: "bảng mã ký tự",
+    examples:
+      [
+        {
+          en: "Use UTF-8 character encoding so Vietnamese accents display correctly.",
+          vi: "Dùng bảng mã UTF-8 để dấu tiếng Việt hiển thị đúng.",
+        },
+      ],
+  }
+- {
+    slug: ui-string-n,
+    lemma: "UI string",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: globalisation,
+    ipa: "/ˌjuː ˈaɪ strɪŋ/",
+    def: "A piece of text shown in the interface, like a button label.",
+    vi: "chuỗi giao diện",
+    examples:
+      [
+        {
+          en: "Move every UI string into the translation file.",
+          vi: "Chuyển mọi chuỗi giao diện vào file dịch.",
+        },
+      ],
+  }
+- {
+    slug: placeholder-n-travel,
+    lemma: "placeholder",
+    pos: noun,
+    cefr: B2,
+    topic: globalisation,
+    ipa: "/ˈpleɪshəʊldə/",
+    def: "A marker in text that is replaced by a real value later.",
+    vi: "biến giữ chỗ",
+    examples:
+      [
+        {
+          en: "Keep the {name} placeholder when you translate the greeting.",
+          vi: "Giữ biến {name} khi bạn dịch câu chào.",
+        },
+      ],
+  }
+- {
+    slug: plural-form-n,
+    lemma: "plural form",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: globalisation,
+    ipa: "/ˈplʊərəl fɔːm/",
+    def: "The version of a word used for more than one thing.",
+    vi: "dạng số nhiều",
+    examples:
+      [
+        {
+          en: "Some languages have several plural forms for numbers.",
+          vi: "Một số ngôn ngữ có nhiều dạng số nhiều cho các con số.",
+        },
+      ],
+  }
+- {
+    slug: fallback-n,
+    lemma: "fallback",
+    pos: noun,
+    cefr: C1,
+    topic: globalisation,
+    ipa: "/ˈfɔːlbæk/",
+    def: "Something used when the first choice is not available.",
+    vi: "phương án dự phòng",
+    examples:
+      [
+        {
+          en: "English is the fallback when a translation is missing.",
+          vi: "Tiếng Anh là phương án dự phòng khi thiếu bản dịch.",
+        },
+      ],
+  }
+- {
+    slug: region-n,
+    lemma: "region",
+    pos: noun,
+    cefr: B1,
+    topic: globalisation,
+    ipa: "/ˈriːdʒən/",
+    def: "A large area of the world or of a country.",
+    vi: "khu vực",
+    examples:
+      [
+        {
+          en: "The app is launching first in the Southeast Asia region.",
+          vi: "Ứng dụng ra mắt trước ở khu vực Đông Nam Á.",
+        },
+      ],
+  }
+- {
+    slug: exchange-rate-n,
+    lemma: "exchange rate",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: globalisation,
+    ipa: "/ɪksˈtʃeɪndʒ reɪt/",
+    def: "How much of one currency you get for another.",
+    vi: "tỷ giá",
+    examples:
+      [
+        {
+          en: "Prices update daily based on the exchange rate.",
+          vi: "Giá được cập nhật hằng ngày theo tỷ giá.",
+        },
+      ],
+  }
+- {
+    slug: sales-tax-n,
+    lemma: "sales tax",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: globalisation,
+    ipa: "/ˈseɪlz tæks/",
+    def: "Money added to a price that goes to the government.",
+    vi: "thuế bán hàng",
+    examples:
+      [
+        {
+          en: "Sales tax is different in each US state.",
+          vi: "Thuế bán hàng khác nhau ở mỗi bang của Mỹ.",
+        },
+      ],
+  }
+- {
+    slug: address-format-n,
+    lemma: "address format",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: globalisation,
+    ipa: "/əˈdres ˌfɔːmæt/",
+    def: "The order of the street, city and postcode in an address.",
+    vi: "định dạng địa chỉ",
+    examples:
+      [
+        {
+          en: "The checkout form adapts to each country's address format.",
+          vi: "Form thanh toán thay đổi theo định dạng địa chỉ của từng nước.",
+        },
+      ],
+  }
+- {
+    slug: truncate-v,
+    lemma: "truncate",
+    pos: verb,
+    cefr: C1,
+    topic: globalisation,
+    ipa: "/trʌŋˈkeɪt/",
+    def: "To cut off the end of text because it is too long.",
+    vi: "cắt bớt",
+    examples:
+      [
+        {
+          en: "Long German words get truncated on small buttons.",
+          vi: "Từ tiếng Đức dài bị cắt bớt trên nút nhỏ.",
+        },
+      ],
+  }
+- {
+    slug: overflow-v,
+    lemma: "overflow",
+    pos: verb,
+    cefr: B2,
+    topic: globalisation,
+    ipa: "/ˌəʊvəˈfləʊ/",
+    def: "To go outside the space that is meant for it.",
+    vi: "tràn ra ngoài",
+    examples:
+      [
+        {
+          en: "The French label overflows its container on mobile.",
+          vi: "Nhãn tiếng Pháp bị tràn ra ngoài khung trên mobile.",
+        },
+      ],
+  }
+- {
+    slug: hard-coded-adj,
+    lemma: "hard-coded",
+    pos: adjective,
+    cefr: B2,
+    topic: globalisation,
+    ipa: "/ˌhɑːd ˈkəʊdɪd/",
+    def: "Written directly into the code instead of being set elsewhere.",
+    vi: "viết cứng trong code",
+    examples:
+      [
+        {
+          en: "The currency symbol is hard-coded, so it always shows dollars.",
+          vi: "Ký hiệu tiền bị viết cứng trong code nên lúc nào cũng hiện đô la.",
+        },
+      ],
+  }
+- {
+    slug: culturally-appropriate-adj,
+    lemma: "culturally appropriate",
+    pos: adjective,
+    kind: collocation,
+    cefr: C1,
+    topic: globalisation,
+    ipa: "/ˌkʌltʃərəli əˈprəʊpriət/",
+    def: "Suitable and not offensive for a particular culture.",
+    vi: "phù hợp văn hoá",
+    examples:
+      [
+        {
+          en: "The client asked us to check that icons are culturally appropriate.",
+          vi: "Khách hàng nhờ tụi mình kiểm tra biểu tượng có phù hợp văn hoá không.",
+        },
+      ],
+  }
+- {
+    slug: native-speaker-n,
+    lemma: "native speaker",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: globalisation,
+    ipa: "/ˌneɪtɪv ˈspiːkə/",
+    def: "A person who learned a language as a child at home.",
+    vi: "người bản ngữ",
+    examples:
+      [
+        {
+          en: "Ask a native speaker to review the Korean text.",
+          vi: "Hãy nhờ người bản ngữ xem lại phần chữ tiếng Hàn.",
+        },
+      ],
+  }
+- {
+    slug: glossary-n,
+    lemma: "glossary",
+    pos: noun,
+    cefr: B2,
+    topic: globalisation,
+    ipa: "/ˈɡlɒsəri/",
+    def: "A list of special words and how they should be translated.",
+    vi: "bảng thuật ngữ",
+    examples:
+      [
+        {
+          en: "Translators follow our glossary for product names.",
+          vi: "Người dịch làm theo bảng thuật ngữ cho tên sản phẩm.",
+        },
+      ],
+  }
+- {
+    slug: metric-system-n,
+    lemma: "metric system",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: globalisation,
+    ipa: "/ˈmetrɪk ˌsɪstəm/",
+    def: "The system of measurement that uses metres and kilograms.",
+    vi: "hệ mét",
+    examples:
+      [
+        {
+          en: "Show distances in miles for the US and the metric system elsewhere.",
+          vi: "Hiển thị khoảng cách bằng dặm cho Mỹ và hệ mét cho nơi khác.",
+        },
+      ],
+  }
+- {
+    slug: accent-mark-n,
+    lemma: "accent mark",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: globalisation,
+    ipa: "/ˈæksent mɑːk/",
+    def: "A small sign above or below a letter, like the marks in Vietnamese.",
+    vi: "dấu (thanh, phụ)",
+    examples:
+      [
+        {
+          en: "Search should still match names without accent marks.",
+          vi: "Tìm kiếm vẫn phải khớp tên khi không gõ dấu.",
+        },
+      ],
+  }
+# Set 9: Vendor & partner coordination
+- {
+    slug: subcontractor-n,
+    lemma: "subcontractor",
+    pos: noun,
+    cefr: C1,
+    topic: globalisation,
+    ipa: "/ˌsʌbkənˈtræktə/",
+    def: "A company hired by another company to do part of its work.",
+    vi: "nhà thầu phụ",
+    examples:
+      [
+        {
+          en: "A subcontractor in Poland builds the iOS app.",
+          vi: "Một nhà thầu phụ ở Ba Lan làm ứng dụng iOS.",
+        },
+      ],
+  }
+- {
+    slug: upstream-adj,
+    lemma: "upstream",
+    pos: adjective,
+    cefr: C1,
+    topic: globalisation,
+    ipa: "/ˌʌpˈstriːm/",
+    def: "Coming from a service or system that yours depends on.",
+    vi: "phía thượng nguồn (hệ thống phụ thuộc)",
+    examples:
+      [
+        {
+          en: "The errors come from an upstream service, not our code.",
+          vi: "Lỗi đến từ một dịch vụ phía trên mà mình phụ thuộc, không phải code mình.",
+        },
+      ],
+  }
+- {
+    slug: third-party-adj,
+    lemma: "third-party",
+    pos: adjective,
+    cefr: B2,
+    topic: globalisation,
+    ipa: "/ˌθɜːd ˈpɑːti/",
+    def: "Made or run by another company, not by you or your client.",
+    vi: "bên thứ ba",
+    examples:
+      [
+        {
+          en: "The crash comes from a third-party analytics library.",
+          vi: "Lỗi crash đến từ một thư viện analytics bên thứ ba.",
+        },
+      ],
+  }
+- {
+    slug: dependency-n-travel,
+    lemma: "dependency",
+    pos: noun,
+    cefr: B2,
+    topic: globalisation,
+    ipa: "/dɪˈpendənsi/",
+    def: "Something your work needs from someone else before it can continue.",
+    vi: "sự phụ thuộc",
+    examples:
+      [
+        {
+          en: "The map feature has a dependency on the partner's location API.",
+          vi: "Tính năng bản đồ phụ thuộc vào API vị trí của đối tác.",
+        },
+      ],
+  }
+- {
+    slug: integration-n,
+    lemma: "integration",
+    pos: noun,
+    cefr: B2,
+    topic: globalisation,
+    ipa: "/ˌɪntɪˈɡreɪʃn/",
+    def: "The work of connecting two systems so they work together.",
+    vi: "tích hợp",
+    examples:
+      [
+        {
+          en: "The integration with the shipping company is almost done.",
+          vi: "Tích hợp với công ty vận chuyển gần xong rồi.",
+        },
+      ],
+  }
+- {
+    slug: service-level-agreement-n,
+    lemma: "service level agreement",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: globalisation,
+    ipa: "/ˈsɜːvɪs ˌlevl əˈɡriːmənt/",
+    def: "A contract that says how well and how fast a service must work.",
+    vi: "cam kết chất lượng dịch vụ (SLA)",
+    examples:
+      [
+        {
+          en: "The service level agreement promises 99.9% uptime.",
+          vi: "Cam kết SLA đảm bảo 99,9% thời gian hoạt động.",
+        },
+      ],
+  }
+- {
+    slug: degraded-adj,
+    lemma: "degraded",
+    pos: adjective,
+    cefr: C1,
+    topic: globalisation,
+    ipa: "/dɪˈɡreɪdɪd/",
+    def: "Working, but more slowly or with fewer features than normal.",
+    vi: "suy giảm",
+    examples:
+      [
+        {
+          en: "The partner's API is degraded, so searches take ten seconds.",
+          vi: "API của đối tác đang suy giảm nên tìm kiếm mất mười giây.",
+        },
+      ],
+  }
+- {
+    slug: impact-n-travel,
+    lemma: "impact",
+    pos: noun,
+    cefr: B2,
+    topic: globalisation,
+    ipa: "/ˈɪmpækt/",
+    def: "The effect that something has on people or work.",
+    vi: "tác động, ảnh hưởng",
+    examples:
+      [
+        {
+          en: "The delay has a big impact on our launch date.",
+          vi: "Sự chậm trễ tác động lớn đến ngày ra mắt.",
+        },
+      ],
+  }
+- {
+    slug: workaround-n-travel,
+    lemma: "workaround",
+    pos: noun,
+    cefr: B2,
+    topic: globalisation,
+    ipa: "/ˈwɜːkəraʊnd/",
+    def: "A temporary way to avoid a problem without fixing it.",
+    vi: "cách xử lý tạm",
+    examples:
+      [
+        {
+          en: "As a workaround, we cache the partner's data for an hour.",
+          vi: "Để xử lý tạm, tụi mình cache dữ liệu của đối tác trong một giờ.",
+        },
+      ],
+  }
+- {
+    slug: fall-behind-pv,
+    lemma: "fall behind",
+    pos: phrasal_verb,
+    kind: phrasal,
+    cefr: B2,
+    topic: globalisation,
+    ipa: "/fɔːl bɪˈhaɪnd/",
+    def: "To not do work as fast as planned.",
+    vi: "bị tụt lại, chậm",
+    examples:
+      [
+        {
+          en: "The partner fell behind with their SDK release.",
+          vi: "Đối tác bị chậm trong việc phát hành SDK.",
+        },
+      ],
+  }
+- {
+    slug: chase-up-pv,
+    lemma: "chase up",
+    pos: phrasal_verb,
+    kind: phrasal,
+    cefr: B2,
+    topic: globalisation,
+    ipa: "/tʃeɪs ʌp/",
+    def: "To remind someone to do something they promised.",
+    vi: "nhắc, hối thúc",
+    examples:
+      [
+        {
+          en: "Can you chase up the vendor about the missing API keys?",
+          vi: "Bạn nhắc nhà cung cấp về API key còn thiếu giúp mình nhé?",
+        },
+      ],
+  }
+- {
+    slug: account-manager-n,
+    lemma: "account manager",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: globalisation,
+    ipa: "/əˈkaʊnt ˌmænɪdʒə/",
+    def: "The person at a company who looks after one customer.",
+    vi: "quản lý tài khoản khách hàng",
+    examples:
+      [
+        {
+          en: "Ask our account manager at the bank about the new limits.",
+          vi: "Hỏi quản lý tài khoản bên ngân hàng về hạn mức mới.",
+        },
+      ],
+  }
+- {
+    slug: escalation-path-n,
+    lemma: "escalation path",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: globalisation,
+    ipa: "/ˌeskəˈleɪʃn pɑːθ/",
+    def: "The agreed order of people to contact when a problem gets worse.",
+    vi: "quy trình báo cấp trên",
+    examples:
+      [
+        {
+          en: "The contract lists an escalation path for critical outages.",
+          vi: "Hợp đồng ghi rõ quy trình báo cấp trên cho sự cố nghiêm trọng.",
+        },
+      ],
+  }
+- {
+    slug: status-page-n,
+    lemma: "status page",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: globalisation,
+    ipa: "/ˈsteɪtəs peɪdʒ/",
+    def: "A web page where a service shows whether it is working.",
+    vi: "trang trạng thái",
+    examples:
+      [
+        {
+          en: "Check the provider's status page before you debug our code.",
+          vi: "Xem trang trạng thái của nhà cung cấp trước khi debug code mình.",
+        },
+      ],
+  }
+- {
+    slug: rate-limit-n,
+    lemma: "rate limit",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: globalisation,
+    ipa: "/ˈreɪt ˌlɪmɪt/",
+    def: "The largest number of requests an API allows in a period of time.",
+    vi: "giới hạn tần suất",
+    examples:
+      [
+        {
+          en: "We hit the partner's rate limit during the import.",
+          vi: "Tụi mình chạm giới hạn tần suất của đối tác khi import.",
+        },
+      ],
+  }
+- {
+    slug: api-key-n,
+    lemma: "API key",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: globalisation,
+    ipa: "/ˌeɪ piː ˈaɪ kiː/",
+    def: "A secret code that lets your app use another company's API.",
+    vi: "khoá API",
+    examples:
+      [
+        {
+          en: "Never post the API key in a public channel.",
+          vi: "Đừng bao giờ đăng khoá API trong kênh công khai.",
+        },
+      ],
+  }
+- {
+    slug: sandbox-n,
+    lemma: "sandbox",
+    pos: noun,
+    cefr: B2,
+    topic: globalisation,
+    ipa: "/ˈsændbɒks/",
+    def: "A safe test version of a service where nothing real happens.",
+    vi: "môi trường thử nghiệm",
+    examples:
+      [
+        {
+          en: "Test the refund flow in the payment sandbox first.",
+          vi: "Hãy thử luồng hoàn tiền trên môi trường thử nghiệm thanh toán trước.",
+        },
+      ],
+  }
+- {
+    slug: plan-b-n,
+    lemma: "plan B",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: globalisation,
+    ipa: "/ˌplæn ˈbiː/",
+    def: "A second plan to use if the first one fails.",
+    vi: "phương án B",
+    examples:
+      [
+        {
+          en: "Our plan B is to switch to a second email provider.",
+          vi: "Phương án B là chuyển sang nhà cung cấp email thứ hai.",
+        },
+      ],
+  }
+- {
+    slug: single-point-of-failure-n-travel,
+    lemma: "single point of failure",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: globalisation,
+    ipa: "/ˌsɪŋɡl ˌpɔɪnt əv ˈfeɪljə/",
+    def: "One part that stops the whole system if it breaks.",
+    vi: "điểm lỗi duy nhất",
+    examples:
+      [
+        {
+          en: "Using only one SMS vendor is a single point of failure.",
+          vi: "Chỉ dùng một nhà cung cấp SMS là một điểm lỗi duy nhất.",
+        },
+      ],
+  }
+- {
+    slug: mitigate-v-travel,
+    lemma: "mitigate",
+    pos: verb,
+    cefr: C1,
+    topic: globalisation,
+    ipa: "/ˈmɪtɪɡeɪt/",
+    def: "To make a problem or its effects less serious.",
+    vi: "giảm thiểu",
+    examples:
+      [
+        {
+          en: "Retries help mitigate short network failures.",
+          vi: "Cơ chế thử lại giúp giảm thiểu lỗi mạng ngắn.",
+        },
+      ],
+  }
+- {
+    slug: slip-v,
+    lemma: "slip",
+    pos: verb,
+    cefr: C1,
+    topic: globalisation,
+    ipa: "/slɪp/",
+    def: "(Of a date or plan) to move later than planned.",
+    vi: "bị lùi lại",
+    examples:
+      [
+        {
+          en: "If their API slips again, our release slips too.",
+          vi: "Nếu API của họ lại bị lùi, bản phát hành của mình cũng bị lùi theo.",
+        },
+      ],
+  }
+- {
+    slug: unresponsive-adj,
+    lemma: "unresponsive",
+    pos: adjective,
+    cefr: C1,
+    topic: globalisation,
+    ipa: "/ˌʌnrɪˈspɒnsɪv/",
+    def: "Not answering or not reacting.",
+    vi: "không phản hồi",
+    examples:
+      [
+        {
+          en: "The vendor has been unresponsive for three days.",
+          vi: "Nhà cung cấp không phản hồi suốt ba ngày rồi.",
+        },
+      ],
+  }
+- {
+    slug: liable-adj,
+    lemma: "liable",
+    pos: adjective,
+    cefr: C1,
+    topic: globalisation,
+    ipa: "/ˈlaɪəbl/",
+    def: "Legally responsible for paying for damage or loss.",
+    vi: "chịu trách nhiệm pháp lý",
+    examples:
+      [
+        {
+          en: "The vendor is liable if they lose customer data.",
+          vi: "Nhà cung cấp chịu trách nhiệm pháp lý nếu làm mất dữ liệu khách hàng.",
+        },
+      ],
+  }
+- {
+    slug: data-processing-agreement-n,
+    lemma: "data processing agreement",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: globalisation,
+    ipa: "/ˌdeɪtə ˈprəʊsesɪŋ əˌɡriːmənt/",
+    def: "A contract that says how a company may use and protect personal data.",
+    vi: "thoả thuận xử lý dữ liệu",
+    examples:
+      [
+        {
+          en: "Sign a data processing agreement before sending them user data.",
+          vi: "Ký thoả thuận xử lý dữ liệu trước khi gửi dữ liệu người dùng cho họ.",
+        },
+      ],
+  }
+- {
+    slug: renew-v,
+    lemma: "renew",
+    pos: verb,
+    cefr: B2,
+    topic: globalisation,
+    ipa: "/rɪˈnjuː/",
+    def: "To make a contract or licence continue for another period.",
+    vi: "gia hạn",
+    examples:
+      [
+        {
+          en: "We need to renew the map licence before June.",
+          vi: "Tụi mình cần gia hạn giấy phép bản đồ trước tháng Sáu.",
+        },
+      ],
+  }
+- {
+    slug: licence-n,
+    lemma: "licence",
+    pos: noun,
+    cefr: B2,
+    topic: globalisation,
+    ipa: "/ˈlaɪsns/",
+    def: "Official permission to use software or a product.",
+    vi: "giấy phép",
+    examples:
+      [
+        {
+          en: "The font licence allows use in mobile apps.",
+          vi: "Giấy phép font cho phép dùng trong ứng dụng mobile.",
+        },
+      ],
+  }
+- {
+    slug: audit-v-travel,
+    lemma: "audit",
+    pos: verb,
+    cefr: C1,
+    topic: globalisation,
+    ipa: "/ˈɔːdɪt/",
+    def: "To check carefully how a company or system follows the rules.",
+    vi: "kiểm tra, đánh giá",
+    examples:
+      [
+        {
+          en: "We audit each vendor's security once a year.",
+          vi: "Mỗi năm tụi mình đánh giá bảo mật của từng nhà cung cấp một lần.",
+        },
+      ],
+  }
+- {
+    slug: root-cause-n-travel,
+    lemma: "root cause",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: globalisation,
+    ipa: "/ˌruːt ˈkɔːz/",
+    def: "The main reason a problem happened.",
+    vi: "nguyên nhân gốc",
+    examples:
+      [
+        {
+          en: "The vendor promised a report on the root cause of the outage.",
+          vi: "Nhà cung cấp hứa gửi báo cáo về nguyên nhân gốc của sự cố.",
+        },
+      ],
+  }
+# Set 10: A remote collaboration agreement
+- {
+    slug: working-agreement-n,
+    lemma: "working agreement",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: globalisation,
+    ipa: "/ˈwɜːkɪŋ əˌɡriːmənt/",
+    def: "A written list of how a team chooses to work together.",
+    vi: "thoả thuận làm việc",
+    examples:
+      [
+        {
+          en: "Our working agreement says we reply to mentions within four hours.",
+          vi: "Thoả thuận làm việc của nhóm quy định trả lời tag trong vòng bốn tiếng.",
+        },
+      ],
+  }
+- {
+    slug: response-window-n,
+    lemma: "response window",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: globalisation,
+    ipa: "/rɪˈspɒns ˌwɪndəʊ/",
+    def: "The period in which people are expected to reply.",
+    vi: "khung thời gian phản hồi",
+    examples:
+      [
+        {
+          en: "The response window for non-urgent questions is one day.",
+          vi: "Khung thời gian phản hồi cho câu hỏi không gấp là một ngày.",
+        },
+      ],
+  }
+- {
+    slug: overlap-window-n,
+    lemma: "overlap window",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: globalisation,
+    ipa: "/ˈəʊvəlæp ˌwɪndəʊ/",
+    def: "The agreed hours when team members in all time zones are online.",
+    vi: "khung giờ giao nhau",
+    examples:
+      [
+        {
+          en: "Our overlap window is 2 to 4 p.m. Vietnam time.",
+          vi: "Khung giờ giao nhau của nhóm là 2 đến 4 giờ chiều giờ Việt Nam.",
+        },
+      ],
+  }
+- {
+    slug: norm-n,
+    lemma: "norm",
+    pos: noun,
+    cefr: C1,
+    topic: globalisation,
+    ipa: "/nɔːm/",
+    def: "A usual way of behaving that a group accepts.",
+    vi: "chuẩn mực, thói quen chung",
+    examples:
+      [
+        {
+          en: "Writing a summary after each call is a team norm.",
+          vi: "Viết tóm tắt sau mỗi cuộc gọi là chuẩn mực của nhóm.",
+        },
+      ],
+  }
+- {
+    slug: time-boxed-adj,
+    lemma: "time-boxed",
+    pos: adjective,
+    cefr: C1,
+    topic: globalisation,
+    ipa: "/ˈtaɪm bɒkst/",
+    def: "Given a fixed amount of time that cannot be extended.",
+    vi: "giới hạn thời gian cố định",
+    examples:
+      [
+        {
+          en: "Standups are time-boxed to fifteen minutes.",
+          vi: "Standup được giới hạn cố định mười lăm phút.",
+        },
+      ],
+  }
+- {
+    slug: urgency-n,
+    lemma: "urgency",
+    pos: noun,
+    cefr: B2,
+    topic: globalisation,
+    ipa: "/ˈɜːdʒənsi/",
+    def: "How quickly something needs to be done.",
+    vi: "mức độ khẩn",
+    examples:
+      [
+        {
+          en: "Mark the urgency in the first line of your message.",
+          vi: "Ghi mức độ khẩn ở dòng đầu tin nhắn.",
+        },
+      ],
+  }
+- {
+    slug: page-v,
+    lemma: "page",
+    pos: verb,
+    cefr: C1,
+    topic: globalisation,
+    ipa: "/peɪdʒ/",
+    def: "To send an alert that wakes or calls someone who is on duty.",
+    vi: "gọi khẩn (qua hệ thống cảnh báo)",
+    examples:
+      [
+        {
+          en: "Only page the on-call engineer for production incidents.",
+          vi: "Chỉ gọi khẩn kỹ sư trực khi có sự cố production.",
+        },
+      ],
+  }
+- {
+    slug: deep-work-n,
+    lemma: "deep work",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: globalisation,
+    ipa: "/ˌdiːp ˈwɜːk/",
+    def: "Long periods of focused work without interruptions.",
+    vi: "làm việc tập trung sâu",
+    examples:
+      [
+        {
+          en: "Mornings are kept for deep work, with no meetings.",
+          vi: "Buổi sáng dành cho làm việc tập trung sâu, không họp.",
+        },
+      ],
+  }
+- {
+    slug: status-indicator-n,
+    lemma: "status indicator",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: globalisation,
+    ipa: "/ˈsteɪtəs ˌɪndɪkeɪtə/",
+    def: "A small sign in a chat app showing if someone is online.",
+    vi: "biểu tượng trạng thái",
+    examples:
+      [
+        {
+          en: "Keep your status indicator up to date.",
+          vi: "Hãy cập nhật biểu tượng trạng thái của bạn.",
+        },
+      ],
+  }
+- {
+    slug: right-to-disconnect-n,
+    lemma: "right to disconnect",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: globalisation,
+    ipa: "/ˌraɪt tə ˌdɪskəˈnekt/",
+    def: "The right not to answer work messages outside working hours.",
+    vi: "quyền ngắt kết nối",
+    examples:
+      [
+        {
+          en: "Our agreement respects the right to disconnect after 7 p.m.",
+          vi: "Thoả thuận của nhóm tôn trọng quyền ngắt kết nối sau 7 giờ tối.",
+        },
+      ],
+  }
+- {
+    slug: transparency-n-travel,
+    lemma: "transparency",
+    pos: noun,
+    cefr: C1,
+    topic: globalisation,
+    ipa: "/trænsˈpærənsi/",
+    def: "Being open so others can see what is happening and why.",
+    vi: "sự minh bạch",
+    examples:
+      [
+        {
+          en: "We keep decisions in public channels for transparency.",
+          vi: "Tụi mình để các quyết định trong kênh công khai cho minh bạch.",
+        },
+      ],
+  }
+- {
+    slug: goodwill-n-travel,
+    lemma: "goodwill",
+    pos: noun,
+    cefr: C1,
+    topic: globalisation,
+    ipa: "/ˌɡʊdˈwɪl/",
+    def: "Friendly feelings and a wish to help each other.",
+    vi: "thiện chí",
+    examples:
+      [
+        {
+          en: "Assume goodwill when a short message sounds rude.",
+          vi: "Hãy nghĩ tới thiện chí khi một tin nhắn ngắn nghe cộc lốc.",
+        },
+      ],
+  }
+- {
+    slug: autonomy-n,
+    lemma: "autonomy",
+    pos: noun,
+    cefr: C1,
+    topic: globalisation,
+    ipa: "/ɔːˈtɒnəmi/",
+    def: "The freedom to make your own decisions about your work.",
+    vi: "quyền tự chủ",
+    examples:
+      [
+        {
+          en: "Developers have autonomy to choose their working hours.",
+          vi: "Lập trình viên có quyền tự chủ chọn giờ làm việc.",
+        },
+      ],
+  }
+- {
+    slug: over-communicate-v,
+    lemma: "over-communicate",
+    pos: verb,
+    cefr: C1,
+    topic: globalisation,
+    ipa: "/ˌəʊvə kəˈmjuːnɪkeɪt/",
+    def: "To share more information than seems needed, to avoid confusion.",
+    vi: "giao tiếp kỹ hơn mức cần",
+    examples:
+      [
+        {
+          en: "In a remote team, it's better to over-communicate.",
+          vi: "Trong nhóm từ xa, giao tiếp kỹ hơn mức cần vẫn tốt hơn.",
+        },
+      ],
+  }
+- {
+    slug: default-to-phr,
+    lemma: "default to",
+    pos: phrase,
+    kind: phrase,
+    cefr: C1,
+    topic: globalisation,
+    ipa: "/dɪˈfɔːlt tə/",
+    def: "To choose something automatically unless there is a reason not to.",
+    vi: "mặc định chọn",
+    examples:
+      [
+        {
+          en: "We default to written discussion and meet only when needed.",
+          vi: "Tụi mình mặc định thảo luận bằng văn bản, chỉ họp khi cần.",
+        },
+      ],
+  }
+- {
+    slug: single-source-of-truth-n,
+    lemma: "single source of truth",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: globalisation,
+    ipa: "/ˌsɪŋɡl ˌsɔːs əv ˈtruːθ/",
+    def: "The one place everyone agrees holds the correct information.",
+    vi: "nguồn thông tin chuẩn duy nhất",
+    examples:
+      [
+        {
+          en: "The project board is our single source of truth for priorities.",
+          vi: "Bảng dự án là nguồn thông tin chuẩn duy nhất về độ ưu tiên.",
+        },
+      ],
+  }
+- {
+    slug: decision-log-n,
+    lemma: "decision log",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: globalisation,
+    ipa: "/dɪˈsɪʒn lɒɡ/",
+    def: "A record of important decisions and the reasons for them.",
+    vi: "nhật ký quyết định",
+    examples:
+      [
+        {
+          en: "Add the database choice to the decision log.",
+          vi: "Thêm lựa chọn database vào nhật ký quyết định.",
+        },
+      ],
+  }
+- {
+    slug: retrospective-n-travel,
+    lemma: "retrospective",
+    pos: noun,
+    cefr: B2,
+    topic: globalisation,
+    ipa: "/ˌretrəˈspektɪv/",
+    def: "A meeting where a team looks back at what went well and what to improve.",
+    vi: "buổi nhìn lại",
+    examples:
+      [
+        {
+          en: "We update the agreement after each retrospective.",
+          vi: "Tụi mình cập nhật thoả thuận sau mỗi buổi nhìn lại.",
+        },
+      ],
+  }
+- {
+    slug: agree-on-phr-travel,
+    lemma: "agree on",
+    pos: phrase,
+    kind: phrase,
+    cefr: B1,
+    topic: globalisation,
+    ipa: "/əˈɡriː ɒn/",
+    def: "To decide something together.",
+    vi: "thống nhất về",
+    examples:
+      [
+        {
+          en: "Let's agree on one tool for task tracking.",
+          vi: "Mình thống nhất dùng một công cụ để theo dõi việc nhé.",
+        },
+      ],
+  }
+- {
+    slug: meeting-free-day-n,
+    lemma: "meeting-free day",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: globalisation,
+    ipa: "/ˌmiːtɪŋ ˈfriː deɪ/",
+    def: "A day when nobody books meetings so people can focus.",
+    vi: "ngày không họp",
+    examples:
+      [{ en: "Wednesday is our meeting-free day.", vi: "Thứ Tư là ngày không họp của nhóm." }],
+  }
+- {
+    slug: equitable-adj,
+    lemma: "equitable",
+    pos: adjective,
+    cefr: C1,
+    topic: globalisation,
+    ipa: "/ˈekwɪtəbl/",
+    def: "Fair to everyone, giving each person the same chances.",
+    vi: "công bằng",
+    examples:
+      [
+        {
+          en: "An equitable schedule shares late meetings between regions.",
+          vi: "Lịch họp công bằng chia đều các cuộc họp muộn giữa các khu vực.",
+        },
+      ],
+  }
+- {
+    slug: proximity-bias-n,
+    lemma: "proximity bias",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: globalisation,
+    ipa: "/prɒkˈsɪməti ˌbaɪəs/",
+    def: "Treating people who are physically near you better than remote people.",
+    vi: "thiên vị người ở gần",
+    examples:
+      [
+        {
+          en: "Proximity bias can make remote developers miss promotions.",
+          vi: "Thiên vị người ở gần có thể khiến dev làm từ xa lỡ cơ hội thăng tiến.",
+        },
+      ],
+  }
+- {
+    slug: rotate-v-travel,
+    lemma: "rotate",
+    pos: verb,
+    cefr: B2,
+    topic: globalisation,
+    ipa: "/rəʊˈteɪt/",
+    def: "To change something in turns so it is fair to everyone.",
+    vi: "luân phiên",
+    examples:
+      [
+        {
+          en: "We rotate the meeting time so no region always stays late.",
+          vi: "Tụi mình luân phiên giờ họp để không khu vực nào luôn phải thức khuya.",
+        },
+      ],
+  }
+- {
+    slug: handover-checklist-n,
+    lemma: "handover checklist",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: globalisation,
+    ipa: "/ˈhændəʊvə ˌtʃeklɪst/",
+    def: "A list of items to finish before passing work to someone else.",
+    vi: "danh sách kiểm tra bàn giao",
+    examples:
+      [
+        {
+          en: "Follow the handover checklist at the end of your day.",
+          vi: "Làm theo danh sách kiểm tra bàn giao cuối ngày làm việc.",
+        },
+      ],
+  }
+- {
+    slug: spare-capacity-n,
+    lemma: "spare capacity",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: globalisation,
+    ipa: "/ˌspeə kəˈpæsəti/",
+    def: "Extra time a person or team has for more work.",
+    vi: "năng lực dư",
+    examples:
+      [
+        {
+          en: "Tell the lead if you have spare capacity this sprint.",
+          vi: "Báo trưởng nhóm nếu sprint này bạn còn dư thời gian.",
+        },
+      ],
+  }
+- {
+    slug: loop-in-pv,
+    lemma: "loop in",
+    pos: phrasal_verb,
+    kind: phrasal,
+    cefr: C1,
+    topic: globalisation,
+    ipa: "/luːp ɪn/",
+    def: "To include someone in a conversation so they know what is happening.",
+    vi: "kéo vào cuộc trao đổi",
+    examples:
+      [
+        {
+          en: "Please loop in QA before you change the release date.",
+          vi: "Hãy kéo QA vào trước khi đổi ngày phát hành.",
+        },
+      ],
+  }
+- {
+    slug: quiet-hours-n,
+    lemma: "quiet hours",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: globalisation,
+    ipa: "/ˈkwaɪət ˌaʊəz/",
+    def: "Agreed times when people should not send work messages.",
+    vi: "giờ yên lặng",
+    examples:
+      [
+        {
+          en: "Quiet hours start at 8 p.m. in each person's time zone.",
+          vi: "Giờ yên lặng bắt đầu lúc 8 giờ tối theo múi giờ của mỗi người.",
+        },
+      ],
+  }
+- {
+    slug: flag-v-travel,
+    lemma: "flag",
+    pos: verb,
+    cefr: B2,
+    topic: globalisation,
+    ipa: "/flæɡ/",
+    def: "To point out a problem so others notice it.",
+    vi: "nêu ra, đánh dấu vấn đề",
+    examples:
+      [
+        {
+          en: "Flag any risk to the deadline as early as possible.",
+          vi: "Hãy nêu ra mọi rủi ro với hạn chót càng sớm càng tốt.",
+        },
+      ],
+  }
+- {
+    slug: in-writing-phr,
+    lemma: "in writing",
+    pos: phrase,
+    kind: phrase,
+    cefr: B1,
+    topic: globalisation,
+    ipa: "/ɪn ˈraɪtɪŋ/",
+    def: "Written down, not only said.",
+    vi: "bằng văn bản",
+    examples:
+      [
+        {
+          en: "Please confirm scope changes in writing.",
+          vi: "Vui lòng xác nhận thay đổi phạm vi bằng văn bản.",
+        },
+      ],
+  }
+- {
+    slug: living-document-n,
+    lemma: "living document",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: globalisation,
+    ipa: "/ˌlɪvɪŋ ˈdɒkjumənt/",
+    def: "A document that is updated often as things change.",
+    vi: "tài liệu được cập nhật liên tục",
+    examples:
+      [
+        {
+          en: "The agreement is a living document, not a fixed rulebook.",
+          vi: "Thoả thuận là tài liệu cập nhật liên tục, không phải bộ luật cố định.",
+        },
+      ],
+  }
+- {
+    slug: amend-v,
+    lemma: "amend",
+    pos: verb,
+    cefr: C1,
+    topic: globalisation,
+    ipa: "/əˈmend/",
+    def: "To make a small change to a text or rule.",
+    vi: "sửa đổi",
+    examples:
+      [
+        {
+          en: "Anyone can propose to amend a rule in the agreement.",
+          vi: "Ai cũng có thể đề xuất sửa đổi một quy tắc trong thoả thuận.",
+        },
+      ],
+  }
+- {
+    slug: blameless-adj-travel,
+    lemma: "blameless",
+    pos: adjective,
+    cefr: C1,
+    topic: globalisation,
+    ipa: "/ˈbleɪmləs/",
+    def: "Focusing on fixing a problem, not on punishing a person.",
+    vi: "không đổ lỗi",
+    examples:
+      [
+        {
+          en: "We write blameless post-mortems after every incident.",
+          vi: "Tụi mình viết báo cáo sự cố không đổ lỗi sau mỗi sự cố.",
+        },
+      ],
+  }
+- {
+    slug: cadence-n,
+    lemma: "cadence",
+    pos: noun,
+    cefr: C1,
+    topic: globalisation,
+    ipa: "/ˈkeɪdns/",
+    def: "How often something regularly happens.",
+    vi: "nhịp độ, tần suất",
+    examples:
+      [
+        {
+          en: "We keep a weekly cadence for client demos.",
+          vi: "Tụi mình giữ nhịp demo cho khách hàng mỗi tuần một lần.",
+        },
+      ],
+  }
+- {
+    slug: synchronous-adj,
+    lemma: "synchronous",
+    pos: adjective,
+    cefr: C1,
+    topic: globalisation,
+    ipa: "/ˈsɪŋkrənəs/",
+    def: "Happening at the same time, with everyone present.",
+    vi: "đồng bộ (cùng lúc)",
+    examples:
+      [
+        {
+          en: "Keep synchronous meetings for decisions that need discussion.",
+          vi: "Chỉ dùng cuộc họp đồng bộ cho những quyết định cần thảo luận.",
+        },
+      ],
+  }
+- {
+    slug: exception-n-travel,
+    lemma: "exception",
+    pos: noun,
+    cefr: B2,
+    topic: globalisation,
+    ipa: "/ɪkˈsepʃn/",
+    def: "A case where a usual rule does not apply.",
+    vi: "ngoại lệ",
+    examples:
+      [
+        {
+          en: "Production incidents are an exception to the quiet-hours rule.",
+          vi: "Sự cố production là ngoại lệ của quy tắc giờ yên lặng.",
+        },
+      ],
+  }
+- {
+    slug: opt-out-v,
+    lemma: "opt out",
+    pos: verb,
+    kind: collocation,
+    cefr: C1,
+    topic: globalisation,
+    ipa: "/ˌɒpt ˈaʊt/",
+    def: "To choose not to take part in something.",
+    vi: "chọn không tham gia",
+    examples:
+      [
+        {
+          en: "Anyone can opt out of the optional social call.",
+          vi: "Ai cũng có thể chọn không tham gia cuộc gọi giao lưu tuỳ chọn.",
+        },
+      ],
+  }

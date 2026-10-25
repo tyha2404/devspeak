@@ -4,10 +4,288 @@ sort: 5
 code: T05
 kind: topic
 cefr: B1
-status: draft
-title: { en: "Travel & Holidays", vi: "Du lịch & kỳ nghỉ" }
-summary_vi: "Từ vựng cho chuyến đi: đặt vé, sân bay, khách sạn, hành lý, lịch trình và trải nghiệm ở nơi mới."
+status: published
+title:
+  en: Remote Teams & Global Clients
+  vi: Nhóm từ xa & khách hàng quốc tế
+summary_vi: Phối hợp công việc qua múi giờ, khác biệt văn hoá và yêu cầu của
+  khách hàng quốc tế. Ưu tiên sự rõ ràng trong giao việc và làm việc bất đồng
+  bộ.
 can_do:
-  - "Đặt phòng, làm thủ tục và hỏi đường khi đi du lịch"
-  - "Kể lại một chuyến đi và những gì mình đã trải nghiệm"
-lessons: []
+  - Thống nhất lịch phối hợp giữa các múi giờ
+  - Làm rõ yêu cầu và giới hạn khi giao việc xuyên biên giới
+lessons:
+  - slug: t05-l1
+    kind: vocab
+    title: { en: "Set 1: Introducing a distributed team", vi: "Bộ 1: Giới thiệu nhóm phân tán" }
+    senses:
+      [
+        colleague-n,
+        team-member-n,
+        based-in-phr,
+        location-n,
+        role-n-travel,
+        welcome-v-travel,
+        remote-adj-travel,
+        channel-n,
+        reach-v,
+        nationality-n,
+      ]
+    questions: []
+  - slug: t05-l2
+    kind: vocab
+    title: { en: "Set 2: Time zones & overlap hours", vi: "Bộ 2: Múi giờ & giờ giao nhau" }
+    senses:
+      [
+        utc-n-travel,
+        world-clock-n,
+        local-time-n,
+        schedule-v-travel,
+        convenient-adj,
+        night-owl-n,
+        calendar-invite-n,
+        bring-forward-pv,
+        organiser-n-travel,
+        ahead-of-phr,
+        daylight-saving-time-n,
+        early-bird-n,
+      ]
+    questions: []
+  - slug: t05-l3
+    kind: vocab
+    title: { en: "Set 3: Asynchronous updates", vi: "Bộ 3: Cập nhật bất đồng bộ" }
+    senses:
+      [
+        asynchronous-adj,
+        standup-note-n,
+        away-adj,
+        resume-v-travel,
+        blocker-n,
+        thread-n,
+        notify-v-travel,
+        timestamp-n-travel,
+        handoff-note-n,
+        self-contained-adj,
+        scroll-back-pv,
+        reply-v,
+        next-steps-n,
+        unblock-v,
+      ]
+    questions: []
+  - slug: t05-l4
+    kind: vocab
+    title: { en: "Set 4: Clarifying a client request", vi: "Bộ 4: Làm rõ yêu cầu khách hàng" }
+    senses:
+      [
+        client-n,
+        requirement-n-travel,
+        scope-n-travel,
+        acceptance-criteria-n,
+        use-case-n-travel,
+        user-story-n,
+        wireframe-n-travel,
+        edge-case-n-travel,
+        priority-n-travel,
+        sign-off-n-travel,
+        ambiguous-adj,
+        pin-down-pv,
+        out-of-scope-phr,
+        change-request-n,
+        product-owner-n,
+        feasible-adj,
+      ]
+    questions: []
+  - slug: t05-l5
+    kind: vocab
+    title: { en: "Set 5: Cross-cultural collaboration", vi: "Bộ 5: Phối hợp đa văn hoá" }
+    senses:
+      [
+        check-understanding-phr,
+        cross-cultural-adj,
+        direct-adj,
+        courteous-adj,
+        indirect-adj,
+        phrasing-n,
+        feedback-n-travel,
+        respectful-adj-travel,
+        custom-n,
+        interpret-v,
+        nuance-n,
+        taboo-n,
+        offensive-adj,
+        hierarchy-n,
+        save-face-phr,
+        open-minded-adj,
+        idiom-n,
+        body-language-n,
+      ]
+    questions: []
+  - slug: t05-l6
+    kind: vocab
+    title: { en: "Set 6: Working across holidays", vi: "Bộ 6: Phối hợp qua kỳ nghỉ" }
+    senses:
+      [
+        public-holiday-n,
+        time-off-request-n,
+        out-of-office-message-n,
+        backup-contact-n,
+        stand-in-n,
+        ahead-of-time-phr,
+        be-back-phr,
+        unavailable-adj,
+        festival-n,
+        lunar-new-year-n,
+        shutdown-n,
+        reduced-capacity-n,
+        on-call-adj-travel,
+        time-sensitive-adj,
+        code-freeze-n,
+        hotfix-n,
+        carry-over-pv,
+        team-calendar-n,
+        long-weekend-n,
+        skeleton-crew-n,
+      ]
+    questions: []
+  - slug: t05-l7
+    kind: vocab
+    title: { en: "Set 7: International delivery", vi: "Bộ 7: Bàn giao cho khách quốc tế" }
+    senses:
+      [
+        handover-package-n,
+        acceptance-test-n,
+        release-note-n,
+        staging-environment-n,
+        invoice-n,
+        payment-terms-n,
+        feedback-loop-n,
+        approval-n-travel,
+        delivery-date-n,
+        ship-v,
+        on-schedule-phr,
+        revision-n,
+        go-live-n-travel,
+        file-transfer-n,
+        shared-drive-n,
+        version-n-travel,
+        walkthrough-video-n,
+        review-cycle-n,
+        time-difference-n,
+        business-day-n,
+        response-time-n,
+        warranty-period-n,
+      ]
+    questions: []
+  - slug: t05-l8
+    kind: vocab
+    title: { en: "Set 8: Localisation requirements", vi: "Bộ 8: Yêu cầu bản địa hoá" }
+    senses:
+      [
+        localisation-n,
+        translate-v,
+        locale-n,
+        currency-n,
+        date-format-n,
+        decimal-separator-n,
+        right-to-left-adj,
+        character-encoding-n,
+        ui-string-n,
+        placeholder-n-travel,
+        plural-form-n,
+        fallback-n,
+        region-n,
+        exchange-rate-n,
+        sales-tax-n,
+        address-format-n,
+        truncate-v,
+        overflow-v,
+        hard-coded-adj,
+        culturally-appropriate-adj,
+        native-speaker-n,
+        glossary-n,
+        metric-system-n,
+        accent-mark-n,
+      ]
+    questions: []
+  - slug: t05-l9
+    kind: vocab
+    title: { en: "Set 9: Vendor & partner coordination", vi: "Bộ 9: Phối hợp nhà cung cấp" }
+    senses:
+      [
+        subcontractor-n,
+        upstream-adj,
+        third-party-adj,
+        dependency-n-travel,
+        integration-n,
+        service-level-agreement-n,
+        degraded-adj,
+        impact-n-travel,
+        workaround-n-travel,
+        fall-behind-pv,
+        chase-up-pv,
+        account-manager-n,
+        escalation-path-n,
+        status-page-n,
+        rate-limit-n,
+        api-key-n,
+        sandbox-n,
+        plan-b-n,
+        single-point-of-failure-n-travel,
+        mitigate-v-travel,
+        slip-v,
+        unresponsive-adj,
+        liable-adj,
+        data-processing-agreement-n,
+        renew-v,
+        licence-n,
+        audit-v-travel,
+        root-cause-n-travel,
+      ]
+    questions: []
+  - slug: t05-l10
+    kind: vocab
+    title:
+      {
+        en: "Set 10: A remote collaboration agreement",
+        vi: "Bộ 10: Thoả thuận cách làm việc từ xa",
+      }
+    senses:
+      [
+        working-agreement-n,
+        response-window-n,
+        overlap-window-n,
+        norm-n,
+        time-boxed-adj,
+        urgency-n,
+        page-v,
+        deep-work-n,
+        status-indicator-n,
+        right-to-disconnect-n,
+        transparency-n-travel,
+        goodwill-n-travel,
+        autonomy-n,
+        over-communicate-v,
+        default-to-phr,
+        single-source-of-truth-n,
+        decision-log-n,
+        retrospective-n-travel,
+        agree-on-phr-travel,
+        meeting-free-day-n,
+        equitable-adj,
+        proximity-bias-n,
+        rotate-v-travel,
+        handover-checklist-n,
+        spare-capacity-n,
+        loop-in-pv,
+        quiet-hours-n,
+        flag-v-travel,
+        in-writing-phr,
+        living-document-n,
+        amend-v,
+        blameless-adj-travel,
+        cadence-n,
+        synchronous-adj,
+        exception-n-travel,
+        opt-out-v,
+      ]
+    questions: []

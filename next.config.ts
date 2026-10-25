@@ -1,4 +1,5 @@
 import type { NextConfig } from "next";
+import { PHASE_DEVELOPMENT_SERVER } from "next/constants";
 
 const securityHeaders = [
   { key: "X-Content-Type-Options", value: "nosniff" },
@@ -8,8 +9,6 @@ const securityHeaders = [
 ];
 
 const nextConfig: NextConfig = {
-  // E2E builds into its own directory so a running `next dev` can't clobber it.
-  distDir: process.env.NEXT_DIST_DIR ?? ".next",
   // Render metadata in <head> for every client (not streamed), so crawlers and audits always see it.
   htmlLimitedBots: /.*/,
   // Old URLs: the former /tracks area is now the site root, and the career path was removed.
@@ -37,4 +36,11 @@ const nextConfig: NextConfig = {
   },
 };
 
-export default nextConfig;
+export default function config(phase: string): NextConfig {
+  return {
+    ...nextConfig,
+    // Concurrent dev, production and E2E builds must not overwrite each other's chunks.
+    distDir:
+      process.env.NEXT_DIST_DIR ?? (phase === PHASE_DEVELOPMENT_SERVER ? ".next-dev" : ".next"),
+  };
+}

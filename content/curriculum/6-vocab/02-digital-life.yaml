@@ -5,11 +5,15 @@ code: T02
 kind: topic
 cefr: B1
 status: published
-title: { en: "Technology & Digital Life", vi: "Công nghệ & đời sống số" }
-summary_vi: "Từ vựng về thiết bị, tài khoản, bảo mật và thói quen trên mạng: sao lưu, xác thực hai lớp, thông báo, lừa đảo."
+title:
+  en: Development Tools & Digital Systems
+  vi: Công cụ lập trình & hệ thống số
+summary_vi: Dùng tiếng Anh khi cài môi trường, quản lý tài khoản, làm việc với
+  mạng, dịch vụ cloud và công cụ AI. Luôn giải thích tác vụ và giới hạn của công
+  cụ.
 can_do:
-  - "Nói về cách dùng thiết bị, tài khoản và bảo mật cơ bản"
-  - "Mô tả thói quen online như lướt mạng, xem trực tuyến, cai thiết bị số"
+  - Mô tả môi trường làm việc và tái hiện lỗi công cụ
+  - Hỏi quyền truy cập và giải thích cách xử lý dữ liệu an toàn
 lessons:
   - slug: t02-l1
     kind: vocab

@@ -14,6 +14,7 @@ import type {
   TrackSummary,
 } from "@/lib/contracts/learn";
 import { localDate } from "@/lib/time";
+import { vocabQuestionSelection } from "./autoquiz";
 import {
   buildPath,
   findLesson,
@@ -298,7 +299,18 @@ export async function startLesson(
     .eq("questions.status", "published")
     .order("sort");
   if (qErr) throw qErr;
-  const ids = shuffleBands((qs ?? []).map((q) => q.question_id as string));
+  let bank = (qs ?? []).map((q) => q.question_id as string);
+  if (l.kind === "vocab") {
+    const { count, error: attemptsError } = await db
+      .from("lesson_runs")
+      .select("id", { count: "exact", head: true })
+      .eq("user_id", userId)
+      .eq("lesson_id", lessonId)
+      .not("finished_at", "is", null);
+    if (attemptsError) throw attemptsError;
+    bank = vocabQuestionSelection(bank, count ?? 0);
+  }
+  const ids = shuffleBands(bank);
   if (!ids.length) throw new LearnError("EMPTY", "This lesson has no questions yet");
   const session = await createSession(db, userId, {
     kind: "lesson",

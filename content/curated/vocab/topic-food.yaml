@@ -1,0 +1,3271 @@
+# Vocabulary by topic: Team Lunches & Everyday Conversation (unit T06). Original content.
+# Set 1: inviting someone to lunch
+- {
+    slug: grab-lunch-phr,
+    lemma: "grab lunch",
+    pos: phrase,
+    kind: collocation,
+    cefr: A2,
+    topic: food,
+    ipa: "/ɡræb lʌntʃ/",
+    def: "To go and get a quick, informal meal in the middle of the day.",
+    vi: "đi ăn trưa (nhanh, thân mật)",
+    examples:
+      [
+        {
+          en: "Do you want to grab lunch after stand-up?",
+          vi: "Bạn có muốn đi ăn trưa sau buổi stand-up không?",
+        },
+      ],
+  }
+- {
+    slug: lunch-buddy-n,
+    lemma: "lunch buddy",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: food,
+    ipa: "/ˈlʌntʃ ˌbʌdi/",
+    def: "A friend or colleague you usually eat lunch with.",
+    vi: "bạn ăn trưa",
+    examples:
+      [
+        {
+          en: "Nam has been my lunch buddy since my first week.",
+          vi: "Nam là bạn ăn trưa của mình từ tuần đầu đi làm.",
+        },
+      ],
+  }
+- {
+    slug: tag-along-pv,
+    lemma: "tag along",
+    pos: phrasal_verb,
+    kind: phrasal,
+    cefr: B2,
+    topic: food,
+    ipa: "/ˌtæɡ əˈlɒŋ/",
+    def: "To go somewhere with a group, often without being formally invited.",
+    vi: "đi theo, đi ké",
+    examples:
+      [
+        {
+          en: "Mind if I tag along? I don't know any places nearby yet.",
+          vi: "Cho mình đi ké nhé? Mình chưa biết quán nào quanh đây.",
+        },
+      ],
+  }
+- {
+    slug: free-adj,
+    lemma: "free",
+    pos: adjective,
+    cefr: A2,
+    topic: food,
+    ipa: "/friː/",
+    def: "Not busy, so you have time to do something.",
+    vi: "rảnh",
+    examples:
+      [
+        {
+          en: "Are you free at twelve, or do you have a call?",
+          vi: "Mười hai giờ bạn rảnh không, hay có cuộc gọi?",
+        },
+      ],
+  }
+- {
+    slug: nearby-adj,
+    lemma: "nearby",
+    pos: adjective,
+    cefr: A2,
+    topic: food,
+    ipa: "/ˌnɪəˈbaɪ/",
+    def: "Close to where you are; not far away.",
+    vi: "gần đây",
+    examples:
+      [
+        {
+          en: "There's a nearby café that does good sandwiches.",
+          vi: "Có một quán cà phê gần đây làm bánh mì ngon.",
+        },
+      ],
+  }
+- {
+    slug: canteen-n,
+    lemma: "canteen",
+    pos: noun,
+    cefr: A2,
+    topic: food,
+    ipa: "/kænˈtiːn/",
+    def: "A place in an office or school where people can buy and eat meals.",
+    vi: "căng tin",
+    examples:
+      [
+        {
+          en: "The canteen on the third floor is cheaper than outside.",
+          vi: "Căng tin tầng ba rẻ hơn ăn ngoài.",
+        },
+      ],
+  }
+- {
+    slug: how-about-phr,
+    lemma: "how about ...?",
+    pos: phrase,
+    kind: phrase,
+    cefr: A2,
+    topic: food,
+    ipa: "/haʊ əˈbaʊt/",
+    def: "Used to suggest an idea, a time or a place.",
+    vi: "… thì sao?, hay là …?",
+    examples:
+      [
+        {
+          en: "How about half past twelve, after the deploy?",
+          vi: "Mười hai rưỡi thì sao, sau khi deploy xong?",
+        },
+      ],
+  }
+- {
+    slug: starving-adj,
+    lemma: "starving",
+    pos: adjective,
+    cefr: A2,
+    topic: food,
+    ipa: "/ˈstɑːvɪŋ/",
+    def: "Very hungry (informal).",
+    vi: "đói cồn cào",
+    examples:
+      [{ en: "I skipped breakfast, so I'm starving.", vi: "Mình bỏ bữa sáng nên giờ đói lắm." }],
+  }
+- {
+    slug: sounds-good-phr,
+    lemma: "sounds good",
+    pos: phrase,
+    kind: phrase,
+    cefr: A2,
+    topic: food,
+    ipa: "/saʊndz ɡʊd/",
+    def: "An informal way to agree with a plan or suggestion.",
+    vi: "nghe được đấy, ok",
+    examples:
+      [
+        {
+          en: '"Pho at one?" "Sounds good, see you downstairs."',
+          vi: '"Một giờ ăn phở nhé?" "Ok, gặp dưới sảnh."',
+        },
+      ],
+  }
+- {
+    slug: rain-check-phr,
+    lemma: "take a rain check",
+    pos: phrase,
+    kind: phrase,
+    cefr: B1,
+    topic: food,
+    ipa: "/teɪk ə ˈreɪn tʃek/",
+    def: "To say no to an invitation now but suggest doing it another time.",
+    vi: "hẹn dịp khác",
+    examples:
+      [
+        {
+          en: "I have a bug to fix — can I take a rain check until Friday?",
+          vi: "Mình đang phải sửa bug — để thứ Sáu đi được không?",
+        },
+      ],
+  }
+# Set 2: ordering food & drinks
+- {
+    slug: specials-n,
+    lemma: "specials",
+    pos: noun,
+    cefr: B1,
+    topic: food,
+    ipa: "/ˈspeʃlz/",
+    def: "Dishes that a restaurant offers only on a particular day.",
+    vi: "món đặc biệt trong ngày",
+    examples: [{ en: "What are today's specials?", vi: "Hôm nay có món đặc biệt gì?" }],
+  }
+- {
+    slug: order-v,
+    lemma: "order",
+    pos: verb,
+    cefr: A2,
+    topic: food,
+    ipa: "/ˈɔːdə/",
+    def: "To ask for food or drinks in a restaurant or café.",
+    vi: "gọi món",
+    examples:
+      [{ en: "I'll order the chicken rice for everyone.", vi: "Mình sẽ gọi cơm gà cho cả nhóm." }],
+  }
+- {
+    slug: waiter-n,
+    lemma: "waiter",
+    pos: noun,
+    cefr: A2,
+    topic: food,
+    ipa: "/ˈweɪtə/",
+    def: "A person whose job is to bring food and drinks to tables.",
+    vi: "người phục vụ",
+    examples:
+      [
+        {
+          en: "Let's ask the waiter if the soup is spicy.",
+          vi: "Hỏi anh phục vụ xem súp có cay không.",
+        },
+      ],
+  }
+- {
+    slug: starter-n,
+    lemma: "starter",
+    pos: noun,
+    cefr: A2,
+    topic: food,
+    ipa: "/ˈstɑːtə/",
+    def: "A small dish you eat before the main part of a meal.",
+    vi: "món khai vị",
+    examples:
+      [
+        {
+          en: "Shall we share some spring rolls as a starter?",
+          vi: "Mình gọi chả giò làm khai vị ăn chung nhé?",
+        },
+      ],
+  }
+- {
+    slug: main-course-n,
+    lemma: "main course",
+    pos: noun,
+    kind: collocation,
+    cefr: A2,
+    topic: food,
+    ipa: "/ˌmeɪn ˈkɔːs/",
+    def: "The biggest and most important dish of a meal.",
+    vi: "món chính",
+    examples:
+      [
+        {
+          en: "For the main course I'll have the grilled fish.",
+          vi: "Món chính mình lấy cá nướng.",
+        },
+      ],
+  }
+- {
+    slug: dessert-n,
+    lemma: "dessert",
+    pos: noun,
+    cefr: A2,
+    topic: food,
+    ipa: "/dɪˈzɜːt/",
+    def: "Sweet food eaten at the end of a meal.",
+    vi: "món tráng miệng",
+    examples:
+      [
+        {
+          en: "Nobody has room for dessert after that lunch.",
+          vi: "Ăn trưa xong chẳng ai còn chỗ cho tráng miệng.",
+        },
+      ],
+  }
+- {
+    slug: side-dish-n,
+    lemma: "side dish",
+    pos: noun,
+    kind: collocation,
+    cefr: A2,
+    topic: food,
+    ipa: "/ˈsaɪd dɪʃ/",
+    def: "A small amount of food served next to the main dish.",
+    vi: "món ăn kèm",
+    examples:
+      [
+        {
+          en: "The salad comes as a side dish with the burger.",
+          vi: "Salad là món ăn kèm với burger.",
+        },
+      ],
+  }
+- {
+    slug: iced-adj,
+    lemma: "iced",
+    pos: adjective,
+    cefr: A2,
+    topic: food,
+    ipa: "/aɪst/",
+    def: "Served very cold with ice in it.",
+    vi: "có đá, đá (đồ uống)",
+    examples:
+      [{ en: "One iced coffee with less sugar, please.", vi: "Cho một cà phê đá ít đường." }],
+  }
+- {
+    slug: spicy-adj,
+    lemma: "spicy",
+    pos: adjective,
+    cefr: A2,
+    topic: food,
+    ipa: "/ˈspaɪsi/",
+    def: "Having a strong, hot taste from chilli or pepper.",
+    vi: "cay",
+    examples:
+      [
+        {
+          en: "Is this curry very spicy, or just a little?",
+          vi: "Món cà ri này cay lắm hay chỉ hơi cay?",
+        },
+      ],
+  }
+- {
+    slug: refill-n,
+    lemma: "refill",
+    pos: noun,
+    cefr: B1,
+    topic: food,
+    ipa: "/ˈriːfɪl/",
+    def: "Another serving of a drink in the same glass or cup.",
+    vi: "rót thêm (đồ uống)",
+    examples:
+      [{ en: "Can I get a refill of iced tea?", vi: "Cho mình rót thêm trà đá được không?" }],
+  }
+- {
+    slug: to-go-adj,
+    lemma: "to go",
+    pos: adjective,
+    kind: phrase,
+    cefr: B1,
+    topic: food,
+    ipa: "/tə ˈɡəʊ/",
+    def: "Bought to take away and eat or drink somewhere else.",
+    vi: "mang đi",
+    examples:
+      [
+        {
+          en: "Two banh mi to go — we have a meeting at one.",
+          vi: "Hai ổ bánh mì mang đi — một giờ bọn mình có họp.",
+        },
+      ],
+  }
+- {
+    slug: extra-adj,
+    lemma: "extra",
+    pos: adjective,
+    cefr: A2,
+    topic: food,
+    ipa: "/ˈekstrə/",
+    def: "More than the usual amount.",
+    vi: "thêm",
+    examples:
+      [{ en: "Can I have extra chilli on the side?", vi: "Cho mình thêm ớt để riêng nhé?" }],
+  }
+# Set 3: dietary needs & allergies
+- {
+    slug: meat-free-adj,
+    lemma: "meat-free",
+    pos: adjective,
+    cefr: B1,
+    topic: food,
+    ipa: "/ˌmiːt ˈfriː/",
+    def: "Not containing any meat.",
+    vi: "không có thịt",
+    examples:
+      [{ en: "Is the fried rice meat-free?", vi: "Cơm chiên này không có thịt phải không?" }],
+  }
+- {
+    slug: vegan-adj,
+    lemma: "vegan",
+    pos: adjective,
+    cefr: B1,
+    topic: food,
+    ipa: "/ˈviːɡən/",
+    def: "Not eating or using any animal products, including eggs and milk.",
+    vi: "thuần chay",
+    examples:
+      [
+        {
+          en: "Is there a vegan option without egg in the sauce?",
+          vi: "Có món thuần chay mà nước sốt không có trứng không?",
+        },
+      ],
+  }
+- {
+    slug: gluten-free-adj,
+    lemma: "gluten-free",
+    pos: adjective,
+    cefr: B1,
+    topic: food,
+    ipa: "/ˌɡluːtn ˈfriː/",
+    def: "Not containing gluten, a substance found in wheat and some other grains.",
+    vi: "không chứa gluten",
+    examples:
+      [
+        {
+          en: "Rice noodles are a good gluten-free choice.",
+          vi: "Bún gạo là lựa chọn không gluten tốt.",
+        },
+      ],
+  }
+- {
+    slug: dairy-n,
+    lemma: "dairy",
+    pos: noun,
+    cefr: B1,
+    topic: food,
+    ipa: "/ˈdeəri/",
+    def: "Milk and food made from milk, such as cheese and butter.",
+    vi: "sữa và chế phẩm từ sữa",
+    examples:
+      [
+        {
+          en: "Minh can't have dairy, so no cheese on his pizza.",
+          vi: "Minh không dùng được đồ sữa nên pizza của bạn ấy bỏ phô mai.",
+        },
+      ],
+  }
+- {
+    slug: peanut-n,
+    lemma: "peanut",
+    pos: noun,
+    cefr: A2,
+    topic: food,
+    ipa: "/ˈpiːnʌt/",
+    def: "A small nut that grows under the ground; some people react badly to it.",
+    vi: "đậu phộng, lạc",
+    examples:
+      [
+        {
+          en: "Please check whether the salad has peanuts in it.",
+          vi: "Kiểm tra giúp xem gỏi có đậu phộng không nhé.",
+        },
+      ],
+  }
+- {
+    slug: seafood-n,
+    lemma: "seafood",
+    pos: noun,
+    cefr: A2,
+    topic: food,
+    ipa: "/ˈsiːfuːd/",
+    def: "Fish and other animals from the sea, such as shrimp and crab, eaten as food.",
+    vi: "hải sản",
+    examples:
+      [
+        {
+          en: "Lan avoids seafood, so let's not go to the crab place.",
+          vi: "Lan tránh hải sản nên đừng đi quán cua.",
+        },
+      ],
+  }
+- {
+    slug: halal-adj,
+    lemma: "halal",
+    pos: adjective,
+    cefr: B1,
+    topic: food,
+    ipa: "/həˈlɑːl/",
+    def: "Prepared in a way allowed by Islamic law.",
+    vi: "halal",
+    examples:
+      [
+        {
+          en: "Our new teammate from Malaysia only eats halal meat.",
+          vi: "Bạn đồng nghiệp mới từ Malaysia chỉ ăn thịt halal.",
+        },
+      ],
+  }
+- {
+    slug: ingredient-n,
+    lemma: "ingredient",
+    pos: noun,
+    cefr: B1,
+    topic: food,
+    ipa: "/ɪnˈɡriːdiənt/",
+    def: "One of the foods that are mixed together to make a dish.",
+    vi: "nguyên liệu, thành phần",
+    examples:
+      [
+        {
+          en: "Could you list the ingredients in this sauce?",
+          vi: "Bạn liệt kê giúp các thành phần trong nước sốt này được không?",
+        },
+      ],
+  }
+- {
+    slug: allergic-to-phr,
+    lemma: "allergic to",
+    pos: phrase,
+    kind: collocation,
+    cefr: B1,
+    topic: food,
+    ipa: "/əˈlɜːdʒɪk tə/",
+    def: "Having a bad physical reaction when you eat or touch something.",
+    vi: "bị dị ứng với",
+    examples:
+      [
+        {
+          en: "I'm allergic to shellfish, so I'll skip the hotpot.",
+          vi: "Mình dị ứng hải sản có vỏ nên mình không ăn lẩu.",
+        },
+      ],
+  }
+- {
+    slug: intolerant-adj,
+    lemma: "intolerant",
+    pos: adjective,
+    cefr: B2,
+    topic: food,
+    ipa: "/ɪnˈtɒlərənt/",
+    def: "Unable to eat a type of food without feeling ill, though it is not a true allergy.",
+    vi: "không dung nạp",
+    examples:
+      [
+        {
+          en: "She's lactose intolerant, so oat milk works better.",
+          vi: "Bạn ấy không dung nạp lactose nên sữa yến mạch hợp hơn.",
+        },
+      ],
+  }
+- {
+    slug: reaction-n,
+    lemma: "reaction",
+    pos: noun,
+    cefr: B1,
+    topic: food,
+    ipa: "/riˈækʃn/",
+    def: "A change in your body, such as a rash, caused by food or medicine.",
+    vi: "phản ứng (cơ thể)",
+    examples:
+      [
+        {
+          en: "I had a bad reaction to prawns last year.",
+          vi: "Năm ngoái mình bị phản ứng nặng với tôm.",
+        },
+      ],
+  }
+- {
+    slug: pescatarian-adj,
+    lemma: "pescatarian",
+    pos: adjective,
+    cefr: C1,
+    topic: food,
+    ipa: "/ˌpeskəˈteəriən/",
+    def: "Eating fish and seafood but no other meat.",
+    vi: "ăn cá nhưng không ăn thịt",
+    examples:
+      [
+        {
+          en: "Linh is pescatarian, so the grilled fish works for her.",
+          vi: "Linh chỉ ăn cá không ăn thịt nên món cá nướng hợp với bạn ấy.",
+        },
+      ],
+  }
+- {
+    slug: contain-v,
+    lemma: "contain",
+    pos: verb,
+    cefr: B1,
+    topic: food,
+    ipa: "/kənˈteɪn/",
+    def: "To have something inside as a part.",
+    vi: "chứa, có (thành phần)",
+    examples:
+      [
+        {
+          en: "Does this dressing contain fish sauce?",
+          vi: "Nước sốt trộn này có nước mắm không?",
+        },
+      ],
+  }
+- {
+    slug: cross-contamination-n,
+    lemma: "cross-contamination",
+    pos: noun,
+    cefr: C1,
+    topic: food,
+    ipa: "/ˌkrɒs kənˌtæmɪˈneɪʃn/",
+    def: "When a small amount of one food gets into another, for example from shared tools.",
+    vi: "nhiễm chéo",
+    examples:
+      [
+        {
+          en: "Ask the kitchen about cross-contamination with nuts.",
+          vi: "Hỏi bếp về nguy cơ nhiễm chéo với các loại hạt.",
+        },
+      ],
+  }
+# Set 4: food preferences
+- {
+    slug: favourite-adj,
+    lemma: "favourite",
+    pos: adjective,
+    cefr: A2,
+    topic: food,
+    ipa: "/ˈfeɪvərɪt/",
+    def: "Liked more than all the others of the same type.",
+    vi: "yêu thích nhất",
+    examples:
+      [
+        {
+          en: "My favourite lunch near the office is bun cha.",
+          vi: "Món trưa mình thích nhất gần công ty là bún chả.",
+        },
+      ],
+  }
+- {
+    slug: prefer-v,
+    lemma: "prefer",
+    pos: verb,
+    cefr: A2,
+    topic: food,
+    ipa: "/prɪˈfɜː/",
+    def: "To like one thing more than another.",
+    vi: "thích hơn",
+    examples:
+      [{ en: "I prefer rice to bread at lunchtime.", vi: "Buổi trưa mình thích cơm hơn bánh mì." }],
+  }
+- {
+    slug: sweet-adj,
+    lemma: "sweet",
+    pos: adjective,
+    cefr: A2,
+    topic: food,
+    ipa: "/swiːt/",
+    def: "Tasting of sugar.",
+    vi: "ngọt",
+    examples: [{ en: "This milk tea is too sweet for me.", vi: "Trà sữa này ngọt quá với mình." }],
+  }
+- {
+    slug: sour-adj,
+    lemma: "sour",
+    pos: adjective,
+    cefr: A2,
+    topic: food,
+    ipa: "/ˈsaʊə/",
+    def: "Having a sharp taste like lemon or vinegar.",
+    vi: "chua",
+    examples:
+      [{ en: "The soup is a bit sour because of the tamarind.", vi: "Canh hơi chua vì có me." }],
+  }
+- {
+    slug: bitter-adj,
+    lemma: "bitter",
+    pos: adjective,
+    cefr: B1,
+    topic: food,
+    ipa: "/ˈbɪtə/",
+    def: "Having a strong, sharp taste that is not sweet, like black coffee.",
+    vi: "đắng",
+    examples:
+      [
+        {
+          en: "Bitter melon is healthy, but I can't get used to it.",
+          vi: "Mướp đắng tốt cho sức khoẻ nhưng mình chưa quen được.",
+        },
+      ],
+  }
+- {
+    slug: salty-adj,
+    lemma: "salty",
+    pos: adjective,
+    cefr: A2,
+    topic: food,
+    ipa: "/ˈsɔːlti/",
+    def: "Containing or tasting of a lot of salt.",
+    vi: "mặn",
+    examples:
+      [
+        {
+          en: "The fries were too salty, so I drank a lot of water.",
+          vi: "Khoai chiên mặn quá nên mình uống rất nhiều nước.",
+        },
+      ],
+  }
+- {
+    slug: savoury-adj,
+    lemma: "savoury",
+    pos: adjective,
+    cefr: B2,
+    topic: food,
+    ipa: "/ˈseɪvəri/",
+    def: "Tasting of salt or spices rather than sugar.",
+    vi: "mặn (vị, không phải ngọt)",
+    examples:
+      [
+        {
+          en: "I'd rather have a savoury snack than cake in the afternoon.",
+          vi: "Buổi chiều mình thích ăn vặt vị mặn hơn bánh ngọt.",
+        },
+      ],
+  }
+- {
+    slug: bland-adj,
+    lemma: "bland",
+    pos: adjective,
+    cefr: B2,
+    topic: food,
+    ipa: "/blænd/",
+    def: "Having very little flavour.",
+    vi: "nhạt nhẽo",
+    examples:
+      [
+        {
+          en: "Hospital food is often bland, but this place is great.",
+          vi: "Đồ ăn bệnh viện thường nhạt, nhưng quán này rất ngon.",
+        },
+      ],
+  }
+- {
+    slug: crispy-adj,
+    lemma: "crispy",
+    pos: adjective,
+    cefr: B1,
+    topic: food,
+    ipa: "/ˈkrɪspi/",
+    def: "Pleasantly hard and dry on the outside, so it makes a noise when you bite it.",
+    vi: "giòn",
+    examples:
+      [
+        {
+          en: "I love the crispy pork they sell downstairs.",
+          vi: "Mình mê món heo quay giòn bán dưới tầng.",
+        },
+      ],
+  }
+- {
+    slug: greasy-adj,
+    lemma: "greasy",
+    pos: adjective,
+    cefr: B1,
+    topic: food,
+    ipa: "/ˈɡriːsi/",
+    def: "Containing too much oil or fat.",
+    vi: "nhiều dầu mỡ",
+    examples:
+      [
+        {
+          en: "I avoid greasy food before long afternoon meetings.",
+          vi: "Mình tránh đồ nhiều dầu mỡ trước các buổi họp chiều dài.",
+        },
+      ],
+  }
+- {
+    slug: flavour-n,
+    lemma: "flavour",
+    pos: noun,
+    cefr: B1,
+    topic: food,
+    ipa: "/ˈfleɪvə/",
+    def: "The particular taste of a food or drink.",
+    vi: "hương vị",
+    examples:
+      [
+        {
+          en: "Which flavour of ice cream should I get for the team?",
+          vi: "Mình nên mua kem vị gì cho cả nhóm?",
+        },
+      ],
+  }
+- {
+    slug: taste-v,
+    lemma: "taste",
+    pos: verb,
+    cefr: A2,
+    topic: food,
+    ipa: "/teɪst/",
+    def: "To have a particular flavour; also, to try a little food.",
+    vi: "có vị; nếm",
+    examples:
+      [
+        {
+          en: "This broth tastes even better than last week.",
+          vi: "Nước dùng hôm nay ngon hơn tuần trước.",
+        },
+      ],
+  }
+- {
+    slug: fussy-eater-n,
+    lemma: "fussy eater",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: food,
+    ipa: "/ˌfʌsi ˈiːtə/",
+    def: "Someone who only likes a few kinds of food.",
+    vi: "người kén ăn",
+    examples:
+      [
+        {
+          en: "I'm a fussy eater, so I'll just have plain rice.",
+          vi: "Mình kén ăn nên mình chỉ ăn cơm trắng thôi.",
+        },
+      ],
+  }
+- {
+    slug: acquired-taste-n,
+    lemma: "acquired taste",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: food,
+    ipa: "/əˌkwaɪəd ˈteɪst/",
+    def: "Something you only start to enjoy after trying it several times.",
+    vi: "món phải ăn quen mới thích",
+    examples:
+      [
+        {
+          en: "Durian is an acquired taste for most of our foreign colleagues.",
+          vi: "Sầu riêng là món phải ăn quen mới thích với phần lớn đồng nghiệp nước ngoài.",
+        },
+      ],
+  }
+- {
+    slug: comfort-food-n,
+    lemma: "comfort food",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: food,
+    ipa: "/ˈkʌmfət fuːd/",
+    def: "Simple food that makes you feel happy and relaxed.",
+    vi: 'món ăn "chữa lành"',
+    examples:
+      [
+        {
+          en: "After a stressful release, congee is my comfort food.",
+          vi: "Sau một đợt release căng thẳng, cháo là món giúp mình thư giãn.",
+        },
+      ],
+  }
+- {
+    slug: craving-n,
+    lemma: "craving",
+    pos: noun,
+    cefr: B2,
+    topic: food,
+    ipa: "/ˈkreɪvɪŋ/",
+    def: "A strong wish to eat a particular food.",
+    vi: "cơn thèm",
+    examples:
+      [{ en: "I have a craving for fried chicken today.", vi: "Hôm nay mình thèm gà rán." }],
+  }
+# Set 5: cooking & routines
+- {
+    slug: boil-v,
+    lemma: "boil",
+    pos: verb,
+    cefr: A2,
+    topic: food,
+    ipa: "/bɔɪl/",
+    def: "To cook food in very hot water.",
+    vi: "luộc, đun sôi",
+    examples:
+      [
+        {
+          en: "I boil a few eggs on Sunday for the week.",
+          vi: "Chủ nhật mình luộc vài quả trứng cho cả tuần.",
+        },
+      ],
+  }
+- {
+    slug: fry-v,
+    lemma: "fry",
+    pos: verb,
+    cefr: A2,
+    topic: food,
+    ipa: "/fraɪ/",
+    def: "To cook food in hot oil.",
+    vi: "chiên, rán",
+    examples:
+      [{ en: "I fried some tofu for my lunchbox.", vi: "Mình chiên ít đậu phụ cho hộp cơm." }],
+  }
+- {
+    slug: stir-fry-v,
+    lemma: "stir-fry",
+    pos: verb,
+    cefr: B1,
+    topic: food,
+    ipa: "/ˈstɜː fraɪ/",
+    def: "To cook small pieces of food quickly in a little hot oil while moving them around.",
+    vi: "xào",
+    examples:
+      [
+        {
+          en: "Stir-fry the vegetables for two minutes, no longer.",
+          vi: "Xào rau hai phút thôi, đừng lâu hơn.",
+        },
+      ],
+  }
+- {
+    slug: chop-v,
+    lemma: "chop",
+    pos: verb,
+    cefr: B1,
+    topic: food,
+    ipa: "/tʃɒp/",
+    def: "To cut food into smaller pieces with a knife.",
+    vi: "thái, băm",
+    examples:
+      [
+        {
+          en: "I chop all the onions at once to save time.",
+          vi: "Mình thái hết hành một lần cho đỡ mất thời gian.",
+        },
+      ],
+  }
+- {
+    slug: grill-v,
+    lemma: "grill",
+    pos: verb,
+    cefr: B1,
+    topic: food,
+    ipa: "/ɡrɪl/",
+    def: "To cook food over or under strong direct heat.",
+    vi: "nướng (vỉ)",
+    examples:
+      [
+        {
+          en: "We grilled chicken at the team picnic.",
+          vi: "Bọn mình nướng gà ở buổi picnic của nhóm.",
+        },
+      ],
+  }
+- {
+    slug: steam-v,
+    lemma: "steam",
+    pos: verb,
+    cefr: B1,
+    topic: food,
+    ipa: "/stiːm/",
+    def: "To cook food using the hot gas from boiling water.",
+    vi: "hấp",
+    examples:
+      [{ en: "Steaming fish keeps it soft and light.", vi: "Hấp cá giúp cá mềm và nhẹ bụng." }],
+  }
+- {
+    slug: bake-v,
+    lemma: "bake",
+    pos: verb,
+    cefr: A2,
+    topic: food,
+    ipa: "/beɪk/",
+    def: "To cook food such as bread or cake in an oven.",
+    vi: "nướng (lò)",
+    examples:
+      [
+        {
+          en: "Hoa baked cookies for the sprint demo.",
+          vi: "Hoa nướng bánh quy cho buổi demo sprint.",
+        },
+      ],
+  }
+- {
+    slug: recipe-n,
+    lemma: "recipe",
+    pos: noun,
+    cefr: A2,
+    topic: food,
+    ipa: "/ˈresəpi/",
+    def: "A set of instructions for cooking a dish.",
+    vi: "công thức nấu ăn",
+    examples:
+      [
+        {
+          en: "Can you send me the recipe for that curry?",
+          vi: "Gửi mình công thức món cà ri đó được không?",
+        },
+      ],
+  }
+- {
+    slug: leftovers-n,
+    lemma: "leftovers",
+    pos: noun,
+    cefr: B1,
+    topic: food,
+    ipa: "/ˈleftəʊvəz/",
+    def: "Food that was not eaten at a meal and is kept for later.",
+    vi: "đồ ăn thừa",
+    examples:
+      [
+        {
+          en: "I brought leftovers from last night's dinner.",
+          vi: "Mình mang đồ ăn còn từ bữa tối qua.",
+        },
+      ],
+  }
+- {
+    slug: microwave-v,
+    lemma: "microwave",
+    pos: verb,
+    cefr: B1,
+    topic: food,
+    ipa: "/ˈmaɪkrəweɪv/",
+    def: "To heat or cook food in a microwave oven.",
+    vi: "hâm bằng lò vi sóng",
+    examples:
+      [
+        {
+          en: "There's a queue to microwave lunch at twelve.",
+          vi: "Mười hai giờ có hàng người chờ hâm cơm bằng lò vi sóng.",
+        },
+      ],
+  }
+- {
+    slug: meal-prep-n,
+    lemma: "meal prep",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: food,
+    ipa: "/ˈmiːl prep/",
+    def: "Cooking and packing meals for several days in advance.",
+    vi: "chuẩn bị bữa ăn trước",
+    examples:
+      [
+        {
+          en: "Meal prep on Sundays saves me a lot of money.",
+          vi: "Nấu sẵn đồ ăn vào Chủ nhật giúp mình tiết kiệm nhiều tiền.",
+        },
+      ],
+  }
+- {
+    slug: lunchbox-n,
+    lemma: "lunchbox",
+    pos: noun,
+    cefr: A2,
+    topic: food,
+    ipa: "/ˈlʌntʃbɒks/",
+    def: "A container for carrying a meal to work or school.",
+    vi: "hộp cơm",
+    examples:
+      [{ en: "I forgot my lunchbox on the bus.", vi: "Mình để quên hộp cơm trên xe buýt." }],
+  }
+- {
+    slug: rice-cooker-n,
+    lemma: "rice cooker",
+    pos: noun,
+    kind: collocation,
+    cefr: A2,
+    topic: food,
+    ipa: "/ˈraɪs ˌkʊkə/",
+    def: "An electric machine that cooks rice automatically.",
+    vi: "nồi cơm điện",
+    examples:
+      [
+        {
+          en: "The office pantry has a rice cooker we can use.",
+          vi: "Phòng pantry của công ty có nồi cơm điện để dùng.",
+        },
+      ],
+  }
+- {
+    slug: frying-pan-n,
+    lemma: "frying pan",
+    pos: noun,
+    kind: collocation,
+    cefr: A2,
+    topic: food,
+    ipa: "/ˈfraɪɪŋ pæn/",
+    def: "A flat metal pan with a handle, used for cooking food in oil.",
+    vi: "chảo",
+    examples:
+      [
+        {
+          en: "I only need one frying pan for this recipe.",
+          vi: "Công thức này mình chỉ cần một cái chảo.",
+        },
+      ],
+  }
+- {
+    slug: heat-up-pv,
+    lemma: "heat up",
+    pos: phrasal_verb,
+    kind: phrasal,
+    cefr: B1,
+    topic: food,
+    ipa: "/hiːt ˈʌp/",
+    def: "To make cold food warm again.",
+    vi: "hâm nóng",
+    examples:
+      [
+        {
+          en: "I'll heat up my soup before the meeting starts.",
+          vi: "Mình sẽ hâm nóng súp trước khi họp.",
+        },
+      ],
+  }
+- {
+    slug: instant-noodles-n,
+    lemma: "instant noodles",
+    pos: noun,
+    kind: collocation,
+    cefr: A2,
+    topic: food,
+    ipa: "/ˌɪnstənt ˈnuːdlz/",
+    def: "Dried noodles that are ready to eat after you add hot water.",
+    vi: "mì gói, mì ăn liền",
+    examples:
+      [
+        {
+          en: "During crunch week, I lived on instant noodles.",
+          vi: "Tuần chạy deadline, mình sống nhờ mì gói.",
+        },
+      ],
+  }
+- {
+    slug: defrost-v,
+    lemma: "defrost",
+    pos: verb,
+    cefr: B2,
+    topic: food,
+    ipa: "/ˌdiːˈfrɒst/",
+    def: "To let frozen food become soft and not frozen any more.",
+    vi: "rã đông",
+    examples:
+      [
+        {
+          en: "Take the chicken out to defrost before you leave for work.",
+          vi: "Lấy gà ra rã đông trước khi đi làm.",
+        },
+      ],
+  }
+- {
+    slug: season-v,
+    lemma: "season",
+    pos: verb,
+    cefr: B2,
+    topic: food,
+    ipa: "/ˈsiːzn/",
+    def: "To add salt, pepper or spices to food to improve its flavour.",
+    vi: "nêm gia vị",
+    examples:
+      [
+        {
+          en: "Season the soup at the end so it isn't too salty.",
+          vi: "Nêm canh ở cuối để không bị mặn.",
+        },
+      ],
+  }
+# Set 6: splitting a bill
+- {
+    slug: bill-n,
+    lemma: "bill",
+    pos: noun,
+    cefr: A2,
+    topic: food,
+    ipa: "/bɪl/",
+    def: "A piece of paper that shows how much you must pay for a meal.",
+    vi: "hoá đơn",
+    examples: [{ en: "Could we have the bill, please?", vi: "Cho bọn mình xin hoá đơn nhé." }],
+  }
+- {
+    slug: split-the-bill-phr,
+    lemma: "split the bill",
+    pos: phrase,
+    kind: collocation,
+    cefr: B1,
+    topic: food,
+    ipa: "/ˌsplɪt ðə ˈbɪl/",
+    def: "To share the cost of a meal between the people who ate it.",
+    vi: "chia tiền hoá đơn",
+    examples: [{ en: "Let's split the bill four ways.", vi: "Mình chia hoá đơn làm bốn nhé." }],
+  }
+- {
+    slug: gratuity-n,
+    lemma: "gratuity",
+    pos: noun,
+    cefr: C1,
+    topic: food,
+    ipa: "/ɡrəˈtjuːəti/",
+    def: "A formal word for extra money given to thank staff for their service.",
+    vi: "tiền thưởng phục vụ",
+    examples:
+      [
+        {
+          en: "The gratuity is already included for groups of eight or more.",
+          vi: "Với nhóm từ tám người, tiền phục vụ đã được tính sẵn.",
+        },
+      ],
+  }
+- {
+    slug: service-charge-n,
+    lemma: "service charge",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: food,
+    ipa: "/ˈsɜːvɪs tʃɑːdʒ/",
+    def: "An amount added to a bill for the work of the staff.",
+    vi: "phí phục vụ",
+    examples:
+      [
+        {
+          en: "The bill has a ten percent service charge.",
+          vi: "Hoá đơn có phí phục vụ mười phần trăm.",
+        },
+      ],
+  }
+- {
+    slug: receipt-n,
+    lemma: "receipt",
+    pos: noun,
+    cefr: A2,
+    topic: food,
+    ipa: "/rɪˈsiːt/",
+    def: "A piece of paper that proves you have paid for something.",
+    vi: "biên lai",
+    examples:
+      [
+        {
+          en: "Keep the receipt so you can claim the cost.",
+          vi: "Giữ biên lai để còn thanh toán lại chi phí.",
+        },
+      ],
+  }
+- {
+    slug: pay-back-pv,
+    lemma: "pay back",
+    pos: phrasal_verb,
+    kind: phrasal,
+    cefr: B1,
+    topic: food,
+    ipa: "/peɪ ˈbæk/",
+    def: "To give someone the money you owe them.",
+    vi: "trả lại (tiền)",
+    examples:
+      [{ en: "I'll pay you back after lunch.", vi: "Ăn trưa xong mình trả lại tiền cho bạn." }],
+  }
+- {
+    slug: owe-v,
+    lemma: "owe",
+    pos: verb,
+    cefr: B1,
+    topic: food,
+    ipa: "/əʊ/",
+    def: "To need to pay money to someone because they paid for you.",
+    vi: "nợ",
+    examples:
+      [{ en: "How much do I owe you for the noodles?", vi: "Tiền mì mình nợ bạn bao nhiêu?" }],
+  }
+- {
+    slug: treat-v,
+    lemma: "treat",
+    pos: verb,
+    cefr: B1,
+    topic: food,
+    ipa: "/triːt/",
+    def: "To pay for someone else's food or drink as a kind gesture.",
+    vi: "khao, đãi",
+    examples:
+      [
+        {
+          en: "The lead treated us to coffee after the launch.",
+          vi: "Trưởng nhóm khao cả nhóm cà phê sau buổi ra mắt.",
+        },
+      ],
+  }
+- {
+    slug: on-the-house-phr,
+    lemma: "on the house",
+    pos: phrase,
+    kind: phrase,
+    cefr: B2,
+    topic: food,
+    ipa: "/ɒn ðə ˈhaʊs/",
+    def: "Given free by the restaurant or bar.",
+    vi: "quán tặng, miễn phí",
+    examples:
+      [
+        {
+          en: "The owner said the desserts were on the house.",
+          vi: "Chủ quán bảo món tráng miệng là quán tặng.",
+        },
+      ],
+  }
+- {
+    slug: per-person-phr,
+    lemma: "per person",
+    pos: phrase,
+    kind: collocation,
+    cefr: B1,
+    topic: food,
+    ipa: "/pə ˈpɜːsn/",
+    def: "For each person.",
+    vi: "mỗi người",
+    examples:
+      [
+        {
+          en: "It comes to about 120,000 dong per person.",
+          vi: "Tính ra khoảng 120.000 đồng mỗi người.",
+        },
+      ],
+  }
+- {
+    slug: round-up-pv,
+    lemma: "round up",
+    pos: phrasal_verb,
+    kind: phrasal,
+    cefr: B1,
+    topic: food,
+    ipa: "/raʊnd ˈʌp/",
+    def: "To change a number to the next whole or simpler number above it.",
+    vi: "làm tròn lên",
+    examples:
+      [
+        {
+          en: "Let's round it up to 150 each to cover the tip.",
+          vi: "Làm tròn lên 150 mỗi người để trả luôn tiền boa.",
+        },
+      ],
+  }
+- {
+    slug: change-n,
+    lemma: "change",
+    pos: noun,
+    cefr: A2,
+    topic: food,
+    ipa: "/tʃeɪndʒ/",
+    def: "The money you get back when you pay more than the price.",
+    vi: "tiền thối, tiền thừa",
+    examples: [{ en: "Keep the change.", vi: "Không cần thối lại đâu." }],
+  }
+- {
+    slug: transfer-v-food,
+    lemma: "transfer",
+    pos: verb,
+    cefr: B1,
+    topic: food,
+    ipa: "/trænsˈfɜː/",
+    def: "To move money from one bank account to another.",
+    vi: "chuyển khoản",
+    examples:
+      [{ en: "I'll transfer my share to you now.", vi: "Mình chuyển phần của mình cho bạn ngay." }],
+  }
+- {
+    slug: tax-n,
+    lemma: "tax",
+    pos: noun,
+    cefr: A2,
+    topic: food,
+    ipa: "/tæks/",
+    def: "Money that you must pay to the government, often added to a price.",
+    vi: "thuế",
+    examples:
+      [
+        {
+          en: "Does the price on the menu include tax?",
+          vi: "Giá trên thực đơn đã gồm thuế chưa?",
+        },
+      ],
+  }
+- {
+    slug: discount-n,
+    lemma: "discount",
+    pos: noun,
+    cefr: B1,
+    topic: food,
+    ipa: "/ˈdɪskaʊnt/",
+    def: "An amount taken off the usual price.",
+    vi: "giảm giá",
+    examples:
+      [
+        {
+          en: "We get a ten percent discount with our staff card.",
+          vi: "Bọn mình được giảm mười phần trăm khi dùng thẻ nhân viên.",
+        },
+      ],
+  }
+- {
+    slug: cash-n,
+    lemma: "cash",
+    pos: noun,
+    cefr: A2,
+    topic: food,
+    ipa: "/kæʃ/",
+    def: "Money in the form of coins or notes.",
+    vi: "tiền mặt",
+    examples: [{ en: "This place only takes cash.", vi: "Quán này chỉ nhận tiền mặt." }],
+  }
+- {
+    slug: card-payment-n,
+    lemma: "card payment",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: food,
+    ipa: "/ˈkɑːd ˌpeɪmənt/",
+    def: "Paying with a bank card instead of cash.",
+    vi: "thanh toán bằng thẻ",
+    examples:
+      [
+        {
+          en: "Is card payment OK for one bill?",
+          vi: "Thanh toán bằng thẻ cho một hoá đơn được không?",
+        },
+      ],
+  }
+- {
+    slug: overcharge-v,
+    lemma: "overcharge",
+    pos: verb,
+    cefr: B2,
+    topic: food,
+    ipa: "/ˌəʊvəˈtʃɑːdʒ/",
+    def: "To ask someone to pay more than the correct price.",
+    vi: "tính tiền quá mức",
+    examples:
+      [
+        {
+          en: "I think they overcharged us for the drinks.",
+          vi: "Mình nghĩ quán tính dư tiền đồ uống của mình.",
+        },
+      ],
+  }
+- {
+    slug: itemised-adj,
+    lemma: "itemised",
+    pos: adjective,
+    cefr: C1,
+    topic: food,
+    ipa: "/ˈaɪtəmaɪzd/",
+    def: "Showing each thing and its price separately.",
+    vi: "liệt kê từng món",
+    examples:
+      [
+        {
+          en: "Can we get an itemised bill so each of us pays for our own dishes?",
+          vi: "Cho xin hoá đơn liệt kê từng món để mỗi người trả phần mình nhé?",
+        },
+      ],
+  }
+- {
+    slug: chip-in-pv,
+    lemma: "chip in",
+    pos: phrasal_verb,
+    kind: phrasal,
+    cefr: B2,
+    topic: food,
+    ipa: "/tʃɪp ˈɪn/",
+    def: "To give some money so a group can pay for something together.",
+    vi: "góp tiền",
+    examples:
+      [
+        {
+          en: "Everyone chipped in for Nam's birthday cake.",
+          vi: "Mọi người góp tiền mua bánh sinh nhật cho Nam.",
+        },
+      ],
+  }
+# Set 7: booking for a team
+- {
+    slug: book-a-table-phr,
+    lemma: "book a table",
+    pos: phrase,
+    kind: collocation,
+    cefr: A2,
+    topic: food,
+    ipa: "/ˌbʊk ə ˈteɪbl/",
+    def: "To arrange in advance to have a table at a restaurant.",
+    vi: "đặt bàn",
+    examples:
+      [{ en: "I'll book a table for Friday evening.", vi: "Mình sẽ đặt bàn cho tối thứ Sáu." }],
+  }
+- {
+    slug: reservation-n,
+    lemma: "reservation",
+    pos: noun,
+    cefr: B1,
+    topic: food,
+    ipa: "/ˌrezəˈveɪʃn/",
+    def: "An arrangement to keep a table, room or seat for you.",
+    vi: "sự đặt chỗ",
+    examples:
+      [
+        {
+          en: "I have a reservation under DevQuest for seven.",
+          vi: "Mình có đặt chỗ tên DevQuest lúc bảy giờ.",
+        },
+      ],
+  }
+- {
+    slug: party-n,
+    lemma: "party",
+    pos: noun,
+    cefr: B1,
+    topic: food,
+    ipa: "/ˈpɑːti/",
+    def: "A group of people who go somewhere together, such as to a restaurant.",
+    vi: "nhóm khách",
+    examples:
+      [
+        {
+          en: "We're a party of twelve — do you have space?",
+          vi: "Nhóm bọn mình mười hai người — quán còn chỗ không?",
+        },
+      ],
+  }
+- {
+    slug: private-room-n,
+    lemma: "private room",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: food,
+    ipa: "/ˌpraɪvət ˈruːm/",
+    def: "A separate room in a restaurant for one group only.",
+    vi: "phòng riêng",
+    examples:
+      [
+        {
+          en: "A private room would be quieter for the farewell speech.",
+          vi: "Phòng riêng sẽ yên tĩnh hơn cho bài phát biểu chia tay.",
+        },
+      ],
+  }
+- {
+    slug: seating-plan-n,
+    lemma: "seating plan",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: food,
+    ipa: "/ˈsiːtɪŋ plæn/",
+    def: "A plan that shows where each person or group will sit.",
+    vi: "sơ đồ chỗ ngồi",
+    examples:
+      [
+        {
+          en: "Could you send a seating plan for the long table?",
+          vi: "Bạn gửi giúp sơ đồ chỗ ngồi cho bàn dài được không?",
+        },
+      ],
+  }
+- {
+    slug: fully-booked-adj,
+    lemma: "fully booked",
+    pos: adjective,
+    kind: collocation,
+    cefr: B1,
+    topic: food,
+    ipa: "/ˌfʊli ˈbʊkt/",
+    def: "Having no more tables, rooms or seats left.",
+    vi: "kín chỗ",
+    examples:
+      [
+        {
+          en: "Sorry, we're fully booked on Friday night.",
+          vi: "Xin lỗi, tối thứ Sáu bên em kín chỗ rồi.",
+        },
+      ],
+  }
+- {
+    slug: arrival-time-n,
+    lemma: "arrival time",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: food,
+    ipa: "/əˈraɪvl taɪm/",
+    def: "The time when someone is expected to come.",
+    vi: "giờ đến",
+    examples:
+      [
+        {
+          en: "Our arrival time is around 6:30, after work.",
+          vi: "Bọn mình đến khoảng 6 giờ 30, sau giờ làm.",
+        },
+      ],
+  }
+- {
+    slug: booking-fee-n,
+    lemma: "booking fee",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: food,
+    ipa: "/ˈbʊkɪŋ fiː/",
+    def: "An extra amount you pay when you reserve something.",
+    vi: "phí đặt chỗ",
+    examples:
+      [
+        {
+          en: "Is there a booking fee for the private room?",
+          vi: "Phòng riêng có mất phí đặt chỗ không?",
+        },
+      ],
+  }
+- {
+    slug: set-menu-n,
+    lemma: "set menu",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: food,
+    ipa: "/ˌset ˈmenjuː/",
+    def: "A fixed choice of dishes for a fixed price.",
+    vi: "thực đơn cố định, set menu",
+    examples:
+      [
+        {
+          en: "The set menu makes it easier to plan the budget.",
+          vi: "Thực đơn set giúp dự trù ngân sách dễ hơn.",
+        },
+      ],
+  }
+- {
+    slug: guest-count-n,
+    lemma: "guest count",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: food,
+    ipa: "/ˈɡest kaʊnt/",
+    def: "The number of people who will come to a meal or event.",
+    vi: "số lượng khách",
+    examples:
+      [
+        {
+          en: "Please confirm the guest count by Wednesday.",
+          vi: "Vui lòng xác nhận số lượng khách trước thứ Tư.",
+        },
+      ],
+  }
+- {
+    slug: walk-in-n,
+    lemma: "walk-in",
+    pos: noun,
+    cefr: B2,
+    topic: food,
+    ipa: "/ˈwɔːk ɪn/",
+    def: "A customer who arrives without booking first.",
+    vi: "khách không đặt trước",
+    examples:
+      [
+        {
+          en: "They only take walk-ins at lunchtime.",
+          vi: "Buổi trưa quán chỉ nhận khách vãng lai.",
+        },
+      ],
+  }
+- {
+    slug: cancellation-n,
+    lemma: "cancellation",
+    pos: noun,
+    cefr: B1,
+    topic: food,
+    ipa: "/ˌkænsəˈleɪʃn/",
+    def: "The act of saying a booking will not happen.",
+    vi: "sự huỷ",
+    examples: [{ en: "Is there a fee for late cancellation?", vi: "Huỷ muộn có mất phí không?" }],
+  }
+- {
+    slug: under-the-name-phr,
+    lemma: "under the name",
+    pos: phrase,
+    kind: phrase,
+    cefr: B1,
+    topic: food,
+    ipa: "/ˈʌndə ðə ˈneɪm/",
+    def: "Used to say whose name a booking was made with.",
+    vi: "đặt dưới tên",
+    examples: [{ en: "The table is under the name Linh Tran.", vi: "Bàn đặt dưới tên Linh Trần." }],
+  }
+- {
+    slug: confirmation-n,
+    lemma: "confirmation",
+    pos: noun,
+    cefr: B1,
+    topic: food,
+    ipa: "/ˌkɒnfəˈmeɪʃn/",
+    def: "A message that says a booking or plan is definite.",
+    vi: "xác nhận",
+    examples:
+      [
+        {
+          en: "I got an email confirmation for the booking.",
+          vi: "Mình đã nhận email xác nhận đặt chỗ.",
+        },
+      ],
+  }
+- {
+    slug: rooftop-n,
+    lemma: "rooftop",
+    pos: noun,
+    cefr: B1,
+    topic: food,
+    ipa: "/ˈruːftɒp/",
+    def: "The flat top of a building, sometimes used as a restaurant or bar.",
+    vi: "sân thượng",
+    examples:
+      [
+        {
+          en: "The rooftop has a great view, but it closes if it rains.",
+          vi: "Sân thượng view đẹp nhưng trời mưa là đóng.",
+        },
+      ],
+  }
+- {
+    slug: long-table-n,
+    lemma: "long table",
+    pos: noun,
+    kind: collocation,
+    cefr: A2,
+    topic: food,
+    ipa: "/ˌlɒŋ ˈteɪbl/",
+    def: "One big table where a large group can sit together.",
+    vi: "bàn dài",
+    examples:
+      [
+        {
+          en: "Could we have one long table instead of three small ones?",
+          vi: "Cho bọn mình một bàn dài thay vì ba bàn nhỏ được không?",
+        },
+      ],
+  }
+- {
+    slug: outdoor-seating-n,
+    lemma: "outdoor seating",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: food,
+    ipa: "/ˌaʊtdɔː ˈsiːtɪŋ/",
+    def: "Tables and chairs outside a restaurant.",
+    vi: "chỗ ngồi ngoài trời",
+    examples:
+      [
+        {
+          en: "Outdoor seating is nice, but it might rain.",
+          vi: "Ngồi ngoài trời thì thích, nhưng có thể mưa.",
+        },
+      ],
+  }
+- {
+    slug: wheelchair-accessible-adj,
+    lemma: "wheelchair accessible",
+    pos: adjective,
+    kind: collocation,
+    cefr: B2,
+    topic: food,
+    ipa: "/ˈwiːltʃeər əkˈsesəbl/",
+    def: "Easy to enter and use for someone in a wheelchair.",
+    vi: "xe lăn vào được",
+    examples:
+      [{ en: "Is the restaurant wheelchair accessible?", vi: "Nhà hàng có lối cho xe lăn không?" }],
+  }
+- {
+    slug: no-show-n,
+    lemma: "no-show",
+    pos: noun,
+    cefr: C1,
+    topic: food,
+    ipa: "/ˌnəʊ ˈʃəʊ/",
+    def: "A person who books but does not come and does not cancel.",
+    vi: "khách đặt mà không đến",
+    examples:
+      [{ en: "They charge a fee for no-shows.", vi: "Họ thu phí với khách đặt mà không đến." }],
+  }
+- {
+    slug: special-request-n,
+    lemma: "special request",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: food,
+    ipa: "/ˌspeʃl rɪˈkwest/",
+    def: "Something extra or different that you ask a restaurant to do.",
+    vi: "yêu cầu đặc biệt",
+    examples:
+      [
+        {
+          en: "Our special request is a cake at the end of the meal.",
+          vi: "Yêu cầu đặc biệt của bọn mình là mang bánh ra cuối bữa.",
+        },
+      ],
+  }
+- {
+    slug: minimum-spend-n,
+    lemma: "minimum spend",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: food,
+    ipa: "/ˌmɪnɪməm ˈspend/",
+    def: "The smallest total a group must pay to use a room or service.",
+    vi: "mức chi tối thiểu",
+    examples:
+      [
+        {
+          en: "The private room has a minimum spend of five million dong.",
+          vi: "Phòng riêng có mức chi tối thiểu năm triệu đồng.",
+        },
+      ],
+  }
+- {
+    slug: hold-a-table-phr,
+    lemma: "hold a table",
+    pos: phrase,
+    kind: collocation,
+    cefr: B1,
+    topic: food,
+    ipa: "/ˌhəʊld ə ˈteɪbl/",
+    def: "To keep a table free for someone for a short time.",
+    vi: "giữ bàn",
+    examples:
+      [
+        {
+          en: "Can you hold the table until 7:15? We're stuck in traffic.",
+          vi: "Giữ bàn giúp đến 7 giờ 15 nhé? Bọn mình đang kẹt xe.",
+        },
+      ],
+  }
+# Set 8: lunch small talk
+- {
+    slug: catch-up-n-food,
+    lemma: "catch-up",
+    pos: noun,
+    cefr: B1,
+    topic: food,
+    ipa: "/ˈkætʃ ʌp/",
+    def: "An informal meeting to talk about what has happened since you last met.",
+    vi: "buổi hàn huyên, cập nhật",
+    examples:
+      [
+        {
+          en: "Lunch is a good time for a quick catch-up.",
+          vi: "Bữa trưa là lúc hay để hàn huyên nhanh.",
+        },
+      ],
+  }
+- {
+    slug: come-to-think-of-it-phr,
+    lemma: "come to think of it",
+    pos: phrase,
+    kind: phrase,
+    cefr: B2,
+    topic: food,
+    ipa: "/ˌkʌm tə ˈθɪŋk əv ɪt/",
+    def: "Used when you suddenly remember or realise something.",
+    vi: "nghĩ lại thì",
+    examples:
+      [
+        {
+          en: "Come to think of it, I've never tried Hue food.",
+          vi: "Nghĩ lại thì mình chưa thử món Huế bao giờ.",
+        },
+      ],
+  }
+- {
+    slug: speaking-of-phr,
+    lemma: "speaking of",
+    pos: phrase,
+    kind: phrase,
+    cefr: B1,
+    topic: food,
+    ipa: "/ˈspiːkɪŋ əv/",
+    def: "Used to connect a new topic to something just mentioned.",
+    vi: "nhắc đến …",
+    examples:
+      [
+        {
+          en: "Speaking of coffee, have you tried the new place on the corner?",
+          vi: "Nhắc đến cà phê, bạn thử quán mới ở góc đường chưa?",
+        },
+      ],
+  }
+- {
+    slug: what-about-you-phr,
+    lemma: "what about you?",
+    pos: phrase,
+    kind: phrase,
+    cefr: A2,
+    topic: food,
+    ipa: "/wɒt əˈbaʊt juː/",
+    def: "Used to ask someone the same question you were just asked.",
+    vi: "còn bạn thì sao?",
+    examples:
+      [{ en: "I'm a big football fan. What about you?", vi: "Mình mê bóng đá lắm. Còn bạn?" }],
+  }
+- {
+    slug: pastime-n,
+    lemma: "pastime",
+    pos: noun,
+    cefr: C1,
+    topic: food,
+    ipa: "/ˈpɑːstaɪm/",
+    def: "Something you do regularly for fun in your free time.",
+    vi: "thú tiêu khiển",
+    examples:
+      [
+        {
+          en: "Fishing is his favourite weekend pastime.",
+          vi: "Câu cá là thú tiêu khiển cuối tuần của anh ấy.",
+        },
+      ],
+  }
+- {
+    slug: where-are-you-from-phr,
+    lemma: "where are you from?",
+    pos: phrase,
+    kind: phrase,
+    cefr: A2,
+    topic: food,
+    ipa: "/ˌweər ə juː ˈfrɒm/",
+    def: "A question asking about someone's home town or country.",
+    vi: "bạn quê ở đâu?",
+    examples:
+      [{ en: "Where are you from originally — Hanoi?", vi: "Bạn quê gốc ở đâu — Hà Nội à?" }],
+  }
+- {
+    slug: traffic-jam-n-food,
+    lemma: "traffic jam",
+    pos: noun,
+    kind: collocation,
+    cefr: A2,
+    topic: food,
+    ipa: "/ˈtræfɪk dʒæm/",
+    def: "A long line of vehicles that cannot move or move very slowly.",
+    vi: "kẹt xe",
+    examples:
+      [
+        {
+          en: "I was stuck in a traffic jam for an hour this morning.",
+          vi: "Sáng nay mình bị kẹt xe cả tiếng.",
+        },
+      ],
+  }
+- {
+    slug: weekend-plans-n,
+    lemma: "weekend plans",
+    pos: noun,
+    kind: collocation,
+    cefr: A2,
+    topic: food,
+    ipa: "/ˌwiːkend ˈplænz/",
+    def: "What you intend to do on Saturday and Sunday.",
+    vi: "kế hoạch cuối tuần",
+    examples:
+      [
+        {
+          en: "Any weekend plans, or just resting?",
+          vi: "Cuối tuần có kế hoạch gì không, hay chỉ nghỉ ngơi?",
+        },
+      ],
+  }
+- {
+    slug: binge-watch-v,
+    lemma: "binge-watch",
+    pos: verb,
+    cefr: B2,
+    topic: food,
+    ipa: "/ˈbɪndʒ wɒtʃ/",
+    def: "To watch many episodes of a series one after another.",
+    vi: "cày phim",
+    examples:
+      [
+        {
+          en: "I binge-watched the whole season on Saturday.",
+          vi: "Thứ Bảy mình cày hết cả mùa phim.",
+        },
+      ],
+  }
+- {
+    slug: small-world-phr,
+    lemma: "it's a small world",
+    pos: phrase,
+    kind: phrase,
+    cefr: B1,
+    topic: food,
+    ipa: "/ɪts ə ˌsmɔːl ˈwɜːld/",
+    def: "Said when you are surprised to find a connection with someone.",
+    vi: "trái đất tròn thật",
+    examples:
+      [
+        {
+          en: "You went to my school too? It's a small world!",
+          vi: "Bạn cũng học trường mình à? Trái đất tròn thật!",
+        },
+      ],
+  }
+- {
+    slug: no-way-phr,
+    lemma: "no way!",
+    pos: phrase,
+    kind: phrase,
+    cefr: B1,
+    topic: food,
+    ipa: "/ˌnəʊ ˈweɪ/",
+    def: "An informal way to show surprise.",
+    vi: "thật á!, không thể nào!",
+    examples:
+      [
+        {
+          en: '"I ran a marathon last week." "No way!"',
+          vi: '"Tuần trước mình chạy marathon." "Thật á!"',
+        },
+      ],
+  }
+- {
+    slug: nosy-adj,
+    lemma: "nosy",
+    pos: adjective,
+    cefr: B2,
+    topic: food,
+    ipa: "/ˈnəʊzi/",
+    def: "Too interested in other people's private lives.",
+    vi: "tọc mạch",
+    examples:
+      [
+        {
+          en: "Sorry if that's nosy, but how did you two meet?",
+          vi: "Xin lỗi nếu hơi tọc mạch, nhưng hai bạn quen nhau thế nào?",
+        },
+      ],
+  }
+- {
+    slug: how-come-phr,
+    lemma: "how come?",
+    pos: phrase,
+    kind: phrase,
+    cefr: B1,
+    topic: food,
+    ipa: "/ˌhaʊ ˈkʌm/",
+    def: "An informal way to ask why.",
+    vi: "sao vậy?, tại sao?",
+    examples: [{ en: "How come you're not eating today?", vi: "Sao hôm nay bạn không ăn?" }],
+  }
+- {
+    slug: i-know-what-you-mean-phr,
+    lemma: "I know what you mean",
+    pos: phrase,
+    kind: phrase,
+    cefr: B1,
+    topic: food,
+    ipa: "/aɪ ˌnəʊ wɒt juː ˈmiːn/",
+    def: "Used to show you understand or share someone's feeling.",
+    vi: "mình hiểu ý bạn",
+    examples:
+      [
+        {
+          en: '"Mondays are so long." "I know what you mean."',
+          vi: '"Thứ Hai dài quá." "Mình hiểu mà."',
+        },
+      ],
+  }
+- {
+    slug: off-topic-adj-food,
+    lemma: "off-topic",
+    pos: adjective,
+    cefr: B2,
+    topic: food,
+    ipa: "/ˌɒf ˈtɒpɪk/",
+    def: "Not connected to what people are talking about.",
+    vi: "lạc đề",
+    examples:
+      [
+        {
+          en: "Sorry, this is a bit off-topic, but who likes durian?",
+          vi: "Xin lỗi hơi lạc đề, nhưng ai thích sầu riêng không?",
+        },
+      ],
+  }
+- {
+    slug: awkward-silence-n,
+    lemma: "awkward silence",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: food,
+    ipa: "/ˌɔːkwəd ˈsaɪləns/",
+    def: "A quiet moment that makes people feel uncomfortable.",
+    vi: "khoảng lặng ngượng ngùng",
+    examples:
+      [
+        {
+          en: "To avoid an awkward silence, I asked about her weekend.",
+          vi: "Để tránh im lặng ngượng ngùng, mình hỏi về cuối tuần của bạn ấy.",
+        },
+      ],
+  }
+- {
+    slug: conversation-starter-n,
+    lemma: "conversation starter",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: food,
+    ipa: "/ˌkɒnvəˈseɪʃn ˌstɑːtə/",
+    def: "A question or topic that helps people begin talking.",
+    vi: "câu mở đầu câu chuyện",
+    examples:
+      [
+        {
+          en: '"What did you eat for breakfast?" is a simple conversation starter.',
+          vi: '"Sáng nay bạn ăn gì?" là câu mở chuyện đơn giản.',
+        },
+      ],
+  }
+- {
+    slug: anecdote-n,
+    lemma: "anecdote",
+    pos: noun,
+    cefr: C1,
+    topic: food,
+    ipa: "/ˈænɪkdəʊt/",
+    def: "A short, interesting story about something that happened.",
+    vi: "giai thoại, mẩu chuyện",
+    examples:
+      [
+        {
+          en: "He told a funny anecdote about his first deploy.",
+          vi: "Anh ấy kể chuyện vui về lần deploy đầu tiên.",
+        },
+      ],
+  }
+- {
+    slug: go-on-pv,
+    lemma: "go on",
+    pos: phrasal_verb,
+    kind: phrasal,
+    cefr: B1,
+    topic: food,
+    ipa: "/ɡəʊ ˈɒn/",
+    def: "Used to ask someone to continue speaking.",
+    vi: "nói tiếp đi",
+    examples:
+      [
+        {
+          en: "Go on — what happened after the server crashed?",
+          vi: "Kể tiếp đi — server sập xong thì sao?",
+        },
+      ],
+  }
+- {
+    slug: relatable-adj,
+    lemma: "relatable",
+    pos: adjective,
+    cefr: C1,
+    topic: food,
+    ipa: "/rɪˈleɪtəbl/",
+    def: "Easy to understand because you have had a similar experience.",
+    vi: "dễ đồng cảm",
+    examples:
+      [
+        {
+          en: "Your story about the 2 a.m. bug is so relatable.",
+          vi: "Chuyện bug lúc 2 giờ sáng của bạn nghe đồng cảm ghê.",
+        },
+      ],
+  }
+- {
+    slug: banter-n,
+    lemma: "banter",
+    pos: noun,
+    cefr: C1,
+    topic: food,
+    ipa: "/ˈbæntə/",
+    def: "Friendly, joking talk between people.",
+    vi: "câu đùa qua lại",
+    examples:
+      [
+        {
+          en: "There's always good banter at the team lunch.",
+          vi: "Bữa trưa của nhóm lúc nào cũng đùa vui.",
+        },
+      ],
+  }
+- {
+    slug: hit-it-off-phr,
+    lemma: "hit it off",
+    pos: phrase,
+    kind: phrase,
+    cefr: B2,
+    topic: food,
+    ipa: "/ˌhɪt ɪt ˈɒf/",
+    def: "To like each other immediately.",
+    vi: "hợp nhau ngay",
+    examples:
+      [
+        {
+          en: "The two new interns hit it off on day one.",
+          vi: "Hai bạn thực tập mới hợp nhau ngay ngày đầu.",
+        },
+      ],
+  }
+- {
+    slug: in-common-phr,
+    lemma: "have something in common",
+    pos: phrase,
+    kind: phrase,
+    cefr: B1,
+    topic: food,
+    ipa: "/ɪn ˈkɒmən/",
+    def: "To share the same interests or experiences.",
+    vi: "có điểm chung",
+    examples:
+      [
+        {
+          en: "We have a lot in common — we both love hiking.",
+          vi: "Bọn mình có nhiều điểm chung — đều thích leo núi.",
+        },
+      ],
+  }
+- {
+    slug: inside-joke-n,
+    lemma: "inside joke",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: food,
+    ipa: "/ˌɪnsaɪd ˈdʒəʊk/",
+    def: "A joke that only people in a particular group understand.",
+    vi: "trò đùa nội bộ",
+    examples:
+      [
+        {
+          en: '"It works on my machine" is our team''s inside joke.',
+          vi: '"Máy em chạy được mà" là câu đùa nội bộ của nhóm.',
+        },
+      ],
+  }
+# Set 9: food delivery problems
+- {
+    slug: delivery-app-n,
+    lemma: "delivery app",
+    pos: noun,
+    kind: collocation,
+    cefr: A2,
+    topic: food,
+    ipa: "/dɪˈlɪvəri æp/",
+    def: "A phone app you use to order food that is brought to you.",
+    vi: "ứng dụng giao đồ ăn",
+    examples:
+      [
+        {
+          en: "I ordered through the delivery app at eleven.",
+          vi: "Mình đặt qua app giao đồ ăn lúc mười một giờ.",
+        },
+      ],
+  }
+- {
+    slug: courier-n,
+    lemma: "courier",
+    pos: noun,
+    cefr: B1,
+    topic: food,
+    ipa: "/ˈkʊriə/",
+    def: "A person whose job is to carry and deliver things.",
+    vi: "người giao hàng",
+    examples:
+      [
+        {
+          en: "The courier is waiting at the building entrance.",
+          vi: "Anh shipper đang đợi ở cửa toà nhà.",
+        },
+      ],
+  }
+- {
+    slug: missing-adj-food,
+    lemma: "missing",
+    pos: adjective,
+    cefr: A2,
+    topic: food,
+    ipa: "/ˈmɪsɪŋ/",
+    def: "Not there when it should be.",
+    vi: "bị thiếu",
+    examples: [{ en: "My drink is missing from the order.", vi: "Đơn của mình bị thiếu đồ uống." }],
+  }
+- {
+    slug: wrong-order-n,
+    lemma: "wrong order",
+    pos: noun,
+    kind: collocation,
+    cefr: A2,
+    topic: food,
+    ipa: "/ˌrɒŋ ˈɔːdə/",
+    def: "Food that is not what you asked for.",
+    vi: "giao nhầm đơn",
+    examples:
+      [
+        {
+          en: "We got the wrong order — this isn't ours.",
+          vi: "Bọn mình bị giao nhầm đơn — cái này không phải của mình.",
+        },
+      ],
+  }
+- {
+    slug: running-late-phr,
+    lemma: "running late",
+    pos: phrase,
+    kind: phrase,
+    cefr: B1,
+    topic: food,
+    ipa: "/ˌrʌnɪŋ ˈleɪt/",
+    def: "Later than planned.",
+    vi: "bị trễ",
+    examples:
+      [{ en: "The app says the driver is running late.", vi: "App báo tài xế đang bị trễ." }],
+  }
+- {
+    slug: estimated-time-of-arrival-n,
+    lemma: "estimated time of arrival",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: food,
+    ipa: "/ˌestɪmeɪtɪd taɪm əv əˈraɪvl/",
+    def: "The time something is expected to arrive, often shortened to ETA.",
+    vi: "thời gian dự kiến đến",
+    examples:
+      [
+        {
+          en: "The estimated time of arrival keeps changing.",
+          vi: "Thời gian dự kiến đến cứ thay đổi liên tục.",
+        },
+      ],
+  }
+- {
+    slug: spill-v,
+    lemma: "spill",
+    pos: verb,
+    cefr: B1,
+    topic: food,
+    ipa: "/spɪl/",
+    def: "To let liquid fall out of its container by accident.",
+    vi: "làm đổ",
+    examples: [{ en: "Half the soup spilled in the bag.", vi: "Nửa bát súp bị đổ ra túi." }],
+  }
+- {
+    slug: leak-v,
+    lemma: "leak",
+    pos: verb,
+    cefr: B2,
+    topic: food,
+    ipa: "/liːk/",
+    def: "To let liquid come out through a hole or crack.",
+    vi: "rò, rỉ",
+    examples:
+      [
+        {
+          en: "The sauce container leaked all over the box.",
+          vi: "Hộp nước sốt bị rỉ ra khắp hộp.",
+        },
+      ],
+  }
+- {
+    slug: packaging-n,
+    lemma: "packaging",
+    pos: noun,
+    cefr: B1,
+    topic: food,
+    ipa: "/ˈpækɪdʒɪŋ/",
+    def: "The boxes, bags and wrapping used to hold a product.",
+    vi: "bao bì",
+    examples:
+      [{ en: "The packaging was damaged when it arrived.", vi: "Bao bì bị hỏng khi giao tới." }],
+  }
+- {
+    slug: sealed-adj,
+    lemma: "sealed",
+    pos: adjective,
+    cefr: B2,
+    topic: food,
+    ipa: "/siːld/",
+    def: "Closed tightly so nothing can get in or out.",
+    vi: "được niêm phong, kín",
+    examples:
+      [{ en: "Make sure the bag is still sealed.", vi: "Kiểm tra xem túi còn niêm phong không." }],
+  }
+- {
+    slug: refund-n,
+    lemma: "refund",
+    pos: noun,
+    cefr: B1,
+    topic: food,
+    ipa: "/ˈriːfʌnd/",
+    def: "Money that is paid back to you.",
+    vi: "tiền hoàn lại",
+    examples:
+      [
+        {
+          en: "I asked for a refund for the missing drink.",
+          vi: "Mình yêu cầu hoàn tiền cho ly nước bị thiếu.",
+        },
+      ],
+  }
+- {
+    slug: complaint-n,
+    lemma: "complaint",
+    pos: noun,
+    cefr: B1,
+    topic: food,
+    ipa: "/kəmˈpleɪnt/",
+    def: "A statement that something is wrong or not good enough.",
+    vi: "khiếu nại",
+    examples:
+      [
+        {
+          en: "I filed a complaint in the app with photos.",
+          vi: "Mình gửi khiếu nại trong app kèm ảnh.",
+        },
+      ],
+  }
+- {
+    slug: customer-support-n,
+    lemma: "customer support",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: food,
+    ipa: "/ˌkʌstəmə səˈpɔːt/",
+    def: "The team that helps customers with problems.",
+    vi: "bộ phận hỗ trợ khách hàng",
+    examples:
+      [
+        {
+          en: "Customer support replied within five minutes.",
+          vi: "Bộ phận hỗ trợ trả lời trong năm phút.",
+        },
+      ],
+  }
+- {
+    slug: contents-n,
+    lemma: "contents",
+    pos: noun,
+    cefr: B1,
+    topic: food,
+    ipa: "/ˈkɒntents/",
+    def: "The things that are inside a box, bag or package.",
+    vi: "đồ bên trong",
+    examples:
+      [
+        {
+          en: "Check the contents of the bag before the courier leaves.",
+          vi: "Kiểm tra đồ trong túi trước khi shipper đi.",
+        },
+      ],
+  }
+- {
+    slug: reorder-v,
+    lemma: "reorder",
+    pos: verb,
+    cefr: B2,
+    topic: food,
+    ipa: "/ˌriːˈɔːdə/",
+    def: "To order the same thing again.",
+    vi: "đặt lại",
+    examples:
+      [
+        {
+          en: "The app let me reorder the meal for free.",
+          vi: "App cho mình đặt lại suất ăn miễn phí.",
+        },
+      ],
+  }
+- {
+    slug: delivery-fee-n,
+    lemma: "delivery fee",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: food,
+    ipa: "/dɪˈlɪvəri fiː/",
+    def: "The amount you pay to have something brought to you.",
+    vi: "phí giao hàng",
+    examples:
+      [
+        {
+          en: "The delivery fee is higher when it rains.",
+          vi: "Trời mưa thì phí giao hàng cao hơn.",
+        },
+      ],
+  }
+- {
+    slug: drop-off-n,
+    lemma: "drop-off",
+    pos: noun,
+    cefr: B2,
+    topic: food,
+    ipa: "/ˈdrɒp ɒf/",
+    def: "The place or moment when a delivery is left with you.",
+    vi: "điểm/lúc giao",
+    examples:
+      [
+        {
+          en: "Please choose the lobby as the drop-off point.",
+          vi: "Hãy chọn sảnh làm điểm giao.",
+        },
+      ],
+  }
+- {
+    slug: doorstep-n,
+    lemma: "doorstep",
+    pos: noun,
+    cefr: B2,
+    topic: food,
+    ipa: "/ˈdɔːstep/",
+    def: "The area just outside the door of a building.",
+    vi: "trước cửa",
+    examples:
+      [{ en: "The courier left the bag on the doorstep.", vi: "Shipper để túi đồ trước cửa." }],
+  }
+- {
+    slug: soggy-adj,
+    lemma: "soggy",
+    pos: adjective,
+    cefr: B2,
+    topic: food,
+    ipa: "/ˈsɒɡi/",
+    def: "Wet and soft in an unpleasant way.",
+    vi: "bị ỉu, nhũn",
+    examples:
+      [
+        {
+          en: "The fries were soggy by the time they arrived.",
+          vi: "Khoai chiên tới nơi đã ỉu hết.",
+        },
+      ],
+  }
+- {
+    slug: undercooked-adj,
+    lemma: "undercooked",
+    pos: adjective,
+    cefr: B2,
+    topic: food,
+    ipa: "/ˌʌndəˈkʊkt/",
+    def: "Not cooked enough.",
+    vi: "chưa chín kỹ",
+    examples:
+      [
+        {
+          en: "The chicken was undercooked, so I didn't eat it.",
+          vi: "Gà chưa chín kỹ nên mình không ăn.",
+        },
+      ],
+  }
+- {
+    slug: out-of-stock-adj,
+    lemma: "out of stock",
+    pos: adjective,
+    kind: phrase,
+    cefr: B1,
+    topic: food,
+    ipa: "/ˌaʊt əv ˈstɒk/",
+    def: "Not available because it has all been sold.",
+    vi: "hết hàng",
+    examples:
+      [
+        {
+          en: "The shop marked the mango smoothie as out of stock.",
+          vi: "Quán báo sinh tố xoài đã hết.",
+        },
+      ],
+  }
+- {
+    slug: substitute-v,
+    lemma: "substitute",
+    pos: verb,
+    cefr: B2,
+    topic: food,
+    ipa: "/ˈsʌbstɪtjuːt/",
+    def: "To use one thing instead of another.",
+    vi: "thay thế",
+    examples:
+      [
+        {
+          en: "They substituted tofu for chicken without asking.",
+          vi: "Quán tự thay đậu phụ cho gà mà không hỏi.",
+        },
+      ],
+  }
+- {
+    slug: voucher-n,
+    lemma: "voucher",
+    pos: noun,
+    cefr: B1,
+    topic: food,
+    ipa: "/ˈvaʊtʃə/",
+    def: "A code or paper that gives you money off a future order.",
+    vi: "phiếu giảm giá",
+    examples:
+      [
+        {
+          en: "The app gave me a voucher to say sorry.",
+          vi: "App tặng mình phiếu giảm giá để xin lỗi.",
+        },
+      ],
+  }
+- {
+    slug: compensation-n,
+    lemma: "compensation",
+    pos: noun,
+    cefr: C1,
+    topic: food,
+    ipa: "/ˌkɒmpenˈseɪʃn/",
+    def: "Something, usually money, given because of a problem or loss.",
+    vi: "bồi thường",
+    examples:
+      [
+        {
+          en: "They offered compensation for the late delivery.",
+          vi: "Họ đề nghị bồi thường cho việc giao trễ.",
+        },
+      ],
+  }
+- {
+    slug: sort-out-pv,
+    lemma: "sort out",
+    pos: phrasal_verb,
+    kind: phrasal,
+    cefr: B1,
+    topic: food,
+    ipa: "/sɔːt ˈaʊt/",
+    def: "To deal with a problem successfully.",
+    vi: "xử lý, giải quyết",
+    examples:
+      [
+        {
+          en: "Support sorted out the missing item in ten minutes.",
+          vi: "Bộ phận hỗ trợ xử lý món bị thiếu trong mười phút.",
+        },
+      ],
+  }
+- {
+    slug: crushed-adj,
+    lemma: "crushed",
+    pos: adjective,
+    cefr: B2,
+    topic: food,
+    ipa: "/krʌʃt/",
+    def: "Pressed so hard that it is damaged or loses its shape.",
+    vi: "bị bẹp, bị dập",
+    examples:
+      [{ en: "The cake box arrived crushed on one side.", vi: "Hộp bánh tới nơi bị bẹp một bên." }],
+  }
+- {
+    slug: wrong-address-n,
+    lemma: "wrong address",
+    pos: noun,
+    kind: collocation,
+    cefr: A2,
+    topic: food,
+    ipa: "/ˌrɒŋ əˈdres/",
+    def: "A place that is not the one the order should go to.",
+    vi: "sai địa chỉ",
+    examples:
+      [
+        {
+          en: "The driver went to the wrong address next door.",
+          vi: "Tài xế giao nhầm sang địa chỉ nhà bên cạnh.",
+        },
+      ],
+  }
+- {
+    slug: rate-v,
+    lemma: "rate",
+    pos: verb,
+    cefr: B1,
+    topic: food,
+    ipa: "/reɪt/",
+    def: "To give a score to show how good something was.",
+    vi: "đánh giá",
+    examples:
+      [
+        {
+          en: "I rated the driver five stars despite the delay.",
+          vi: "Mình vẫn đánh giá tài xế năm sao dù bị trễ.",
+        },
+      ],
+  }
+# Set 10: planning a team gathering
+- {
+    slug: year-end-party-n,
+    lemma: "year-end party",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: food,
+    ipa: "/ˌjɪər ˈend ˌpɑːti/",
+    def: "A party a company holds at the end of the year.",
+    vi: "tiệc tất niên",
+    examples:
+      [
+        {
+          en: "The year-end party is on the last Friday of December.",
+          vi: "Tiệc tất niên vào thứ Sáu cuối cùng của tháng Mười Hai.",
+        },
+      ],
+  }
+- {
+    slug: picnic-n,
+    lemma: "picnic",
+    pos: noun,
+    cefr: A2,
+    topic: food,
+    ipa: "/ˈpɪknɪk/",
+    def: "A meal you take to eat outdoors.",
+    vi: "buổi dã ngoại",
+    examples:
+      [
+        {
+          en: "A picnic in the park is cheap and fun for the team.",
+          vi: "Dã ngoại ở công viên vừa rẻ vừa vui cho nhóm.",
+        },
+      ],
+  }
+- {
+    slug: catering-n-food,
+    lemma: "catering",
+    pos: noun,
+    cefr: B2,
+    topic: food,
+    ipa: "/ˈkeɪtərɪŋ/",
+    def: "The service of providing food and drinks for an event.",
+    vi: "dịch vụ đồ ăn (tiệc)",
+    examples:
+      [
+        {
+          en: "Catering for forty people needs to be ordered a week ahead.",
+          vi: "Đặt đồ ăn cho bốn mươi người phải đặt trước một tuần.",
+        },
+      ],
+  }
+- {
+    slug: buffet-n,
+    lemma: "buffet",
+    pos: noun,
+    cefr: B1,
+    topic: food,
+    ipa: "/ˈbʊfeɪ/",
+    def: "A meal where people serve themselves from many dishes on a table.",
+    vi: "tiệc đứng, buffet",
+    examples:
+      [
+        {
+          en: "A buffet works well when people have different diets.",
+          vi: "Buffet hợp khi mọi người ăn uống khác nhau.",
+        },
+      ],
+  }
+- {
+    slug: finger-food-n,
+    lemma: "finger food",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: food,
+    ipa: "/ˈfɪŋɡə fuːd/",
+    def: "Small pieces of food you can eat with your hands.",
+    vi: "đồ ăn nhẹ cầm tay",
+    examples:
+      [
+        {
+          en: "We'll serve finger food during the demo.",
+          vi: "Bọn mình sẽ có đồ ăn nhẹ cầm tay trong buổi demo.",
+        },
+      ],
+  }
+- {
+    slug: refreshments-n,
+    lemma: "refreshments",
+    pos: noun,
+    cefr: B2,
+    topic: food,
+    ipa: "/rɪˈfreʃmənts/",
+    def: "Drinks and small snacks offered at a meeting or event.",
+    vi: "đồ ăn uống nhẹ",
+    examples:
+      [
+        {
+          en: "Refreshments will be provided after the town hall.",
+          vi: "Sau buổi town hall sẽ có đồ ăn uống nhẹ.",
+        },
+      ],
+  }
+- {
+    slug: beverage-n,
+    lemma: "beverage",
+    pos: noun,
+    cefr: B2,
+    topic: food,
+    ipa: "/ˈbevərɪdʒ/",
+    def: "A formal word for a drink.",
+    vi: "đồ uống",
+    examples:
+      [
+        {
+          en: "The beverage list includes juice and soft drinks.",
+          vi: "Danh sách đồ uống có nước ép và nước ngọt.",
+        },
+      ],
+  }
+- {
+    slug: non-alcoholic-adj,
+    lemma: "non-alcoholic",
+    pos: adjective,
+    cefr: B2,
+    topic: food,
+    ipa: "/ˌnɒn ælkəˈhɒlɪk/",
+    def: "Not containing alcohol.",
+    vi: "không cồn",
+    examples:
+      [
+        {
+          en: "Please include non-alcoholic options for everyone.",
+          vi: "Hãy có lựa chọn không cồn cho mọi người.",
+        },
+      ],
+  }
+- {
+    slug: toast-n,
+    lemma: "toast",
+    pos: noun,
+    cefr: B2,
+    topic: food,
+    ipa: "/təʊst/",
+    def: "A moment when people raise their glasses and drink to honour someone.",
+    vi: "nâng ly chúc mừng",
+    examples:
+      [
+        {
+          en: "Let's make a toast to the team that shipped v2!",
+          vi: "Cùng nâng ly chúc mừng đội đã ra mắt v2!",
+        },
+      ],
+  }
+- {
+    slug: send-off-n,
+    lemma: "send-off",
+    pos: noun,
+    cefr: C1,
+    topic: food,
+    ipa: "/ˈsend ɒf/",
+    def: "A gathering to say goodbye to someone who is leaving.",
+    vi: "buổi tiễn",
+    examples:
+      [
+        {
+          en: "We're giving Quang a proper send-off on Friday.",
+          vi: "Thứ Sáu bọn mình làm buổi tiễn anh Quang đàng hoàng.",
+        },
+      ],
+  }
+- {
+    slug: festive-adj,
+    lemma: "festive",
+    pos: adjective,
+    cefr: B2,
+    topic: food,
+    ipa: "/ˈfestɪv/",
+    def: "Happy and suitable for a celebration.",
+    vi: "không khí lễ hội",
+    examples:
+      [
+        {
+          en: "The office feels festive with all the lights up.",
+          vi: "Văn phòng có không khí lễ hội khi treo đèn.",
+        },
+      ],
+  }
+- {
+    slug: occasion-n,
+    lemma: "occasion",
+    pos: noun,
+    cefr: B1,
+    topic: food,
+    ipa: "/əˈkeɪʒn/",
+    def: "A special event or time.",
+    vi: "dịp",
+    examples:
+      [{ en: "What's the occasion — someone's birthday?", vi: "Dịp gì vậy — sinh nhật ai à?" }],
+  }
+- {
+    slug: theme-n,
+    lemma: "theme",
+    pos: noun,
+    cefr: B1,
+    topic: food,
+    ipa: "/θiːm/",
+    def: "The main idea or style of an event.",
+    vi: "chủ đề",
+    examples:
+      [
+        {
+          en: "The theme for the year-end party is the 90s.",
+          vi: "Chủ đề tiệc cuối năm là thập niên 90.",
+        },
+      ],
+  }
+- {
+    slug: decorations-n,
+    lemma: "decorations",
+    pos: noun,
+    cefr: B1,
+    topic: food,
+    ipa: "/ˌdekəˈreɪʃnz/",
+    def: "Things used to make a place look attractive for an event.",
+    vi: "đồ trang trí",
+    examples: [{ en: "Who's in charge of the decorations?", vi: "Ai lo phần trang trí?" }],
+  }
+- {
+    slug: sign-up-sheet-n,
+    lemma: "sign-up sheet",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: food,
+    ipa: "/ˈsaɪn ʌp ʃiːt/",
+    def: "A list where people write their names to say they will take part.",
+    vi: "danh sách đăng ký",
+    examples:
+      [
+        {
+          en: "Add your name to the sign-up sheet in the channel.",
+          vi: "Ghi tên vào danh sách đăng ký trong channel nhé.",
+        },
+      ],
+  }
+- {
+    slug: guest-list-n,
+    lemma: "guest list",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: food,
+    ipa: "/ˈɡest lɪst/",
+    def: "A list of the people invited to an event.",
+    vi: "danh sách khách mời",
+    examples:
+      [
+        {
+          en: "Should we add the design team to the guest list?",
+          vi: "Có nên thêm đội design vào danh sách khách mời không?",
+        },
+      ],
+  }
+- {
+    slug: turnout-n,
+    lemma: "turnout",
+    pos: noun,
+    cefr: C1,
+    topic: food,
+    ipa: "/ˈtɜːnaʊt/",
+    def: "The number of people who come to an event.",
+    vi: "số người tham dự",
+    examples:
+      [
+        {
+          en: "The turnout was great — almost everyone came.",
+          vi: "Số người đến rất đông — gần như ai cũng tới.",
+        },
+      ],
+  }
+- {
+    slug: dress-up-pv,
+    lemma: "dress up",
+    pos: phrasal_verb,
+    kind: phrasal,
+    cefr: B1,
+    topic: food,
+    ipa: "/dres ˈʌp/",
+    def: "To wear nicer clothes than usual, or a costume, for an event.",
+    vi: "ăn mặc chỉn chu, hoá trang",
+    examples:
+      [
+        {
+          en: "Do we need to dress up for the year-end party?",
+          vi: "Tiệc cuối năm có cần ăn mặc chỉn chu không?",
+        },
+      ],
+  }
+- {
+    slug: central-location-n,
+    lemma: "central location",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: food,
+    ipa: "/ˌsentrəl ləʊˈkeɪʃn/",
+    def: "A place that is easy for most people to get to.",
+    vi: "vị trí trung tâm",
+    examples:
+      [
+        {
+          en: "A central location helps people who live far away.",
+          vi: "Vị trí trung tâm giúp những người ở xa.",
+        },
+      ],
+  }
+- {
+    slug: within-budget-phr,
+    lemma: "within budget",
+    pos: phrase,
+    kind: collocation,
+    cefr: B2,
+    topic: food,
+    ipa: "/wɪˌðɪn ˈbʌdʒɪt/",
+    def: "Not costing more than the amount of money planned.",
+    vi: "trong ngân sách",
+    examples:
+      [{ en: "The whole event stayed within budget.", vi: "Cả sự kiện vẫn nằm trong ngân sách." }],
+  }
+- {
+    slug: cost-per-head-n,
+    lemma: "cost per head",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: food,
+    ipa: "/ˌkɒst pə ˈhed/",
+    def: "The amount of money spent on each person.",
+    vi: "chi phí mỗi đầu người",
+    examples:
+      [
+        {
+          en: "The cost per head is about 300,000 dong.",
+          vi: "Chi phí mỗi người khoảng 300.000 đồng.",
+        },
+      ],
+  }
+- {
+    slug: price-range-n,
+    lemma: "price range",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: food,
+    ipa: "/ˈpraɪs reɪndʒ/",
+    def: "The lowest and highest amount something might cost.",
+    vi: "khoảng giá",
+    examples:
+      [
+        {
+          en: "What price range works for everyone — under 300k?",
+          vi: "Khoảng giá nào hợp với mọi người — dưới 300 nghìn?",
+        },
+      ],
+  }
+- {
+    slug: expense-claim-n,
+    lemma: "expense claim",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: food,
+    ipa: "/ɪkˈspens kleɪm/",
+    def: "A request to your company to pay back money you spent for work.",
+    vi: "đề nghị hoàn chi phí",
+    examples:
+      [
+        {
+          en: "Attach the receipt to your expense claim.",
+          vi: "Đính kèm hoá đơn vào đề nghị hoàn chi phí.",
+        },
+      ],
+  }
+- {
+    slug: sign-off-pv,
+    lemma: "sign off on",
+    pos: phrasal_verb,
+    kind: phrasal,
+    cefr: C1,
+    topic: food,
+    ipa: "/ˌsaɪn ˈɒf ɒn/",
+    def: "To give official approval for something.",
+    vi: "phê duyệt",
+    examples:
+      [{ en: "Our manager needs to sign off on the budget.", vi: "Quản lý cần duyệt ngân sách." }],
+  }
+- {
+    slug: logistics-n-food,
+    lemma: "logistics",
+    pos: noun,
+    cefr: C1,
+    topic: food,
+    ipa: "/ləˈdʒɪstɪks/",
+    def: "The practical planning of how an event will work.",
+    vi: "khâu hậu cần",
+    examples:
+      [
+        {
+          en: "I'll handle the logistics — transport and timing.",
+          vi: "Mình lo khâu hậu cần — đi lại và thời gian.",
+        },
+      ],
+  }
+- {
+    slug: liaise-v,
+    lemma: "liaise",
+    pos: verb,
+    cefr: C1,
+    topic: food,
+    ipa: "/liˈeɪz/",
+    def: "To talk to people in another group so you can work together.",
+    vi: "liên lạc, làm đầu mối",
+    examples:
+      [
+        {
+          en: "I'll liaise with the restaurant about the menu.",
+          vi: "Mình sẽ làm đầu mối với nhà hàng về thực đơn.",
+        },
+      ],
+  }
+- {
+    slug: take-charge-of-phr,
+    lemma: "take charge of",
+    pos: phrase,
+    kind: collocation,
+    cefr: B2,
+    topic: food,
+    ipa: "/ˌteɪk ˈtʃɑːdʒ əv/",
+    def: "To become responsible for organising something.",
+    vi: "đảm nhận, phụ trách",
+    examples:
+      [{ en: "Mai offered to take charge of the music.", vi: "Mai xung phong phụ trách âm nhạc." }],
+  }
+- {
+    slug: preference-n,
+    lemma: "preference",
+    pos: noun,
+    cefr: B2,
+    topic: food,
+    ipa: "/ˈprefrəns/",
+    def: "The thing you like or want more than others.",
+    vi: "sự ưu tiên, lựa chọn ưa thích",
+    examples:
+      [
+        {
+          en: "Drop your preference in the form: hotpot or BBQ.",
+          vi: "Ghi lựa chọn của bạn vào form: lẩu hay nướng.",
+        },
+      ],
+  }
+- {
+    slug: majority-n,
+    lemma: "majority",
+    pos: noun,
+    cefr: B2,
+    topic: food,
+    ipa: "/məˈdʒɒrəti/",
+    def: "More than half of the people in a group.",
+    vi: "đa số",
+    examples:
+      [
+        {
+          en: "The majority voted for hotpot, so hotpot it is.",
+          vi: "Đa số chọn lẩu, vậy mình đi lẩu.",
+        },
+      ],
+  }
+- {
+    slug: meet-halfway-phr,
+    lemma: "meet halfway",
+    pos: phrase,
+    kind: phrase,
+    cefr: B2,
+    topic: food,
+    ipa: "/ˌmiːt ˌhɑːfˈweɪ/",
+    def: "To agree to accept part of what each side wants.",
+    vi: "nhượng bộ mỗi bên một chút",
+    examples:
+      [
+        {
+          en: "Let's meet halfway: hotpot this time, BBQ next time.",
+          vi: "Mỗi bên nhường chút: lần này lẩu, lần sau nướng.",
+        },
+      ],
+  }
+- {
+    slug: put-to-a-vote-phr,
+    lemma: "put something to a vote",
+    pos: phrase,
+    kind: phrase,
+    cefr: C1,
+    topic: food,
+    ipa: "/ˌpʊt tu ə ˈvəʊt/",
+    def: "To let a group decide by voting.",
+    vi: "đưa ra biểu quyết",
+    examples:
+      [
+        {
+          en: "Let's put the venue to a vote in Slack.",
+          vi: "Mình đưa địa điểm ra biểu quyết trên Slack nhé.",
+        },
+      ],
+  }
+- {
+    slug: pitch-in-pv,
+    lemma: "pitch in",
+    pos: phrasal_verb,
+    kind: phrasal,
+    cefr: B2,
+    topic: food,
+    ipa: "/pɪtʃ ˈɪn/",
+    def: "To help with a task as part of a group.",
+    vi: "chung tay giúp",
+    examples:
+      [
+        {
+          en: "Everyone pitched in to set up the room.",
+          vi: "Mọi người cùng chung tay dọn phòng.",
+        },
+      ],
+  }
+- {
+    slug: tentative-adj,
+    lemma: "tentative",
+    pos: adjective,
+    cefr: C1,
+    topic: food,
+    ipa: "/ˈtentətɪv/",
+    def: "Not yet certain or final.",
+    vi: "tạm thời, dự kiến",
+    examples:
+      [
+        {
+          en: "The date is tentative until the client confirms the release.",
+          vi: "Ngày còn dự kiến cho đến khi khách hàng chốt lịch release.",
+        },
+      ],
+  }
+- {
+    slug: finalise-v,
+    lemma: "finalise",
+    pos: verb,
+    cefr: B2,
+    topic: food,
+    ipa: "/ˈfaɪnəlaɪz/",
+    def: "To make the last decisions so a plan is complete.",
+    vi: "chốt, hoàn tất",
+    examples:
+      [
+        {
+          en: "We need to finalise the menu by Friday.",
+          vi: "Mình cần chốt thực đơn trước thứ Sáu.",
+        },
+      ],
+  }
+- {
+    slug: save-the-date-n,
+    lemma: "save the date",
+    pos: noun,
+    kind: phrase,
+    cefr: C1,
+    topic: food,
+    ipa: "/ˌseɪv ðə ˈdeɪt/",
+    def: "An early message asking people to keep a date free for an event.",
+    vi: "thông báo giữ lịch",
+    examples:
+      [
+        {
+          en: "I sent a save the date for the year-end party.",
+          vi: "Mình đã gửi thông báo giữ lịch cho tiệc cuối năm.",
+        },
+      ],
+  }
+- {
+    slug: off-site-n,
+    lemma: "off-site",
+    pos: noun,
+    cefr: C1,
+    topic: food,
+    ipa: "/ˌɒf ˈsaɪt/",
+    def: "A team event held away from the usual office.",
+    vi: "sự kiện ngoài văn phòng",
+    examples:
+      [{ en: "The off-site includes a cooking class.", vi: "Buổi off-site có cả lớp học nấu ăn." }],
+  }

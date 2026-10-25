@@ -1,0 +1,322 @@
+# Grammar track C2 tests (batch b). Original items; answers stay server-side.
+# --- g-c2-qualification
+- slug: g-c2-qualification-1
+  type: fill_blank
+  cefr: C2
+  topic: grammar
+  skin: email
+  sentence: "We can commit to the launch date ___ the legal review closes by the end of the month."
+  options: [provided that, insofar, in case of, as far as]
+  answer: 0
+  explanation_vi: "Provided that + mệnh đề: cam kết có điều kiện bắt buộc. Insofar phải có as; in case of + danh từ; as far as cần ...is concerned."
+- slug: g-c2-qualification-2
+  type: fill_blank
+  cefr: C2
+  topic: grammar
+  skin: pr
+  sentence: "The patch is safe ___ we have been able to test it, which so far means Linux only."
+  options: [unless, insofar as, provided, whereas]
+  answer: 1
+  explanation_vi: "Insofar as: đúng trong chừng mực mà… — giới hạn mức độ của nhận định."
+- slug: g-c2-qualification-3
+  type: fill_blank
+  cefr: C2
+  topic: grammar
+  skin: jira
+  sentence: "The spike would ___ to have started when the batch job kicked off at 02:00."
+  options: [seems, appearing, appear, be appear]
+  answer: 2
+  explanation_vi: "Would + động từ nguyên mẫu: would appear to have + V3 (suy luận dè dặt về quá khứ)."
+- slug: g-c2-qualification-4
+  type: fill_blank
+  cefr: C2
+  topic: grammar
+  skin: slack
+  sentence: "A passing test suite does not ___ mean the feature works for real users."
+  options: [hardly, necessarily, possibly, if anything]
+  answer: 1
+  explanation_vi: "Does not necessarily mean: chặn suy luận quá đà. Hardly không đi sau not."
+- slug: g-c2-qualification-5
+  type: fill_blank
+  cefr: C2
+  topic: grammar
+  skin: email
+  sentence: "___ (Chừng nào còn chưa) the vendor signs the DPA, we cannot send them production data."
+  accepted: ["Unless and until", "unless and until"]
+  explanation_vi: "Unless and until: nhấn mạnh điều kiện tiên quyết; chừng nào chưa xảy ra thì không thay đổi."
+- slug: g-c2-qualification-6
+  type: fill_blank
+  cefr: C2
+  topic: grammar
+  skin: slack
+  sentence: "If ___, the new caching layer made the dashboard slower, not faster."
+  accepted: ["anything"]
+  explanation_vi: "If anything: kết quả không như kỳ vọng, thậm chí ngược lại."
+- slug: g-c2-qualification-7
+  type: mcq_meaning
+  cefr: C2
+  topic: grammar
+  stem: "Chọn câu dè dặt vừa đủ, phù hợp postmortem."
+  question: "Câu nào nêu suy luận đúng mức, không thổi phồng cũng không rào đón quá mức?"
+  options:
+    - "It might possibly perhaps seem that the cache could be the cause."
+    - "The cache is definitely and absolutely the only cause."
+    - "The evidence would seem to point to the cache, at least in the EU region."
+    - "The cache seems being the cause, at least in EU region."
+  answer: 2
+  explanation_vi: "Một tín hiệu dè dặt (would seem) + khoanh phạm vi (at least in the EU region). Câu A rào đón chồng chất, câu B tuyệt đối hoá, câu D sai ngữ pháp."
+- slug: g-c2-qualification-8
+  type: mcq_meaning
+  cefr: C2
+  topic: grammar
+  stem: "Giới hạn ngoại lệ."
+  question: "“Mọi service đều đã bật TLS, có lẽ chỉ trừ job báo cáo cũ” là…"
+  options:
+    - "All services now use TLS, with the possible exception of the legacy reporting job."
+    - "All services now use TLS, with possible except the legacy reporting job."
+    - "All services now use TLS, possibly excepting of the legacy reporting job."
+    - "All services now use TLS, in the possible exception to the legacy reporting job."
+  answer: 0
+  explanation_vi: "Cụm cố định: with the possible exception of + N."
+# --- g-c2-parallelism
+- slug: g-c2-parallelism-1
+  type: fill_blank
+  cefr: C2
+  topic: grammar
+  skin: email
+  sentence: "The ideal candidate can design APIs, review pull requests and ___ junior engineers."
+  options: [mentoring, mentor, to mentoring, mentored]
+  answer: 1
+  explanation_vi: "Ba vế song song sau can đều là động từ nguyên mẫu: design, review, mentor."
+- slug: g-c2-parallelism-2
+  type: fill_blank
+  cefr: C2
+  topic: grammar
+  skin: pr
+  sentence: "Not only ___ the refactor remove dead code, but it also halved the bundle size."
+  options: [the, has, did, was]
+  answer: 2
+  explanation_vi: "Not only đầu câu → đảo trợ động từ: did + S + V nguyên mẫu (remove)."
+- slug: g-c2-parallelism-3
+  type: fill_blank
+  cefr: C2
+  topic: grammar
+  skin: slack
+  sentence: "We will either upgrade the driver ___ switch to the official client library."
+  options: [nor, and, but, or]
+  answer: 3
+  explanation_vi: "Either… or; hai vế đều là động từ nguyên mẫu (upgrade / switch)."
+- slug: g-c2-parallelism-4
+  type: fill_blank
+  cefr: C2
+  topic: grammar
+  skin: jira
+  sentence: "Neither the integration tests nor the changelog ___ updated before the release."
+  options: [was, were, have, being]
+  answer: 0
+  explanation_vi: "Neither… nor: động từ chia theo vế gần nhất — the changelog (số ít) → was."
+- slug: g-c2-parallelism-5
+  type: fill_blank
+  cefr: C2
+  topic: grammar
+  skin: email
+  sentence: "The real question is whether to hire a contractor ___ (hay là) train someone on the team."
+  accepted: ["or to", "or"]
+  explanation_vi: "Whether to V or (to) V: hai vế song song; lặp to giúp ranh giới rõ hơn."
+- slug: g-c2-parallelism-6
+  type: fill_blank
+  cefr: C2
+  topic: grammar
+  skin: pr
+  sentence: "We chose to document the limitation rather than ___ (hide) it behind a flag."
+  accepted: ["hide"]
+  explanation_vi: "To document… rather than hide: hai động từ nguyên mẫu song song."
+- slug: g-c2-parallelism-7
+  type: mcq_meaning
+  cefr: C2
+  topic: grammar
+  stem: "Chọn câu có cấu trúc song song đúng."
+  question: "Câu nào đúng?"
+  options:
+    - "We assessed each option on cost, how secure it is and being easy to run."
+    - "We assessed each option on cost, security and ease of operation."
+    - "We assessed each option on cost, being secure and to operate easily."
+    - "We assessed each option on costing, secure and ease of operation."
+  answer: 1
+  explanation_vi: "Ba tiêu chí cùng là danh từ: cost, security, ease of operation."
+- slug: g-c2-parallelism-8
+  type: mcq_meaning
+  cefr: C2
+  topic: grammar
+  stem: "Vị trí của not only."
+  question: "“Sự cố ảnh hưởng không chỉ tới thanh toán mà còn tới API đối tác” là…"
+  options:
+    - "The outage not only affected checkout but also the partner API."
+    - "Not only the outage affected checkout but also the partner API."
+    - "The outage affected not only checkout but also the partner API."
+    - "The outage affected not only checkout but it also the partner API."
+  answer: 2
+  explanation_vi: "Not only đặt ngay trước phần được so sánh (checkout) để hai vế cùng là danh từ: checkout / the partner API."
+# --- g-c2-synthesis
+- slug: g-c2-synthesis-1
+  type: fill_blank
+  cefr: C2
+  topic: grammar
+  skin: email
+  sentence: "___ the vendor reports linear scaling, our own load tests flattened out at eight nodes."
+  options: [Whereas, By contrast, Despite, In line with]
+  answer: 0
+  explanation_vi: "Whereas là liên từ nối hai mệnh đề đối lập. By contrast là trạng từ; despite và in line with cần danh từ."
+- slug: g-c2-synthesis-2
+  type: fill_blank
+  cefr: C2
+  topic: grammar
+  skin: pr
+  sentence: "Consistent ___ the SRE team's findings, our traces show most of the delay in TLS handshakes."
+  options: [to, with, by, from]
+  answer: 1
+  explanation_vi: "Consistent with + N: nối hai nguồn đồng thuận."
+- slug: g-c2-synthesis-3
+  type: fill_blank
+  cefr: C2
+  topic: grammar
+  skin: slack
+  sentence: "The library's maintainers ___ full thread safety, yet two open issues describe deadlocks."
+  options: [demonstrate, show, claim, prove]
+  answer: 2
+  explanation_vi: "Claim cho thấy người viết giữ khoảng cách với nguồn — phù hợp với vế yet đi sau. Show / demonstrate / prove hàm ý chấp nhận là đúng."
+- slug: g-c2-synthesis-4
+  type: fill_blank
+  cefr: C2
+  topic: grammar
+  skin: jira
+  sentence: "___ together, these results suggest the bottleneck is lock contention rather than disk I/O."
+  options: [Taking, Take, To take, Taken]
+  answer: 3
+  explanation_vi: "Taken together (cụm phân từ bị động cố định): gộp các nguồn lại để rút ra kết luận."
+- slug: g-c2-synthesis-5
+  type: fill_blank
+  cefr: C2
+  topic: grammar
+  skin: email
+  sentence: "___ (Như tài liệu chính thức có lưu ý), long-running transactions can block autovacuum."
+  accepted:
+    [
+      "As the official documentation notes",
+      "as the official documentation notes",
+      "As the official docs note",
+    ]
+  explanation_vi: "As X notes: dẫn nguồn và ngầm đồng tình với nguồn."
+- slug: g-c2-synthesis-6
+  type: fill_blank
+  cefr: C2
+  topic: grammar
+  skin: slack
+  sentence: "The backend team prefers event sourcing; the data team, by ___, needs simple snapshots."
+  accepted: ["contrast"]
+  explanation_vi: "By contrast: trạng từ đặt giữa dấu phẩy trong mệnh đề thứ hai để đối chiếu hai quan điểm."
+- slug: g-c2-synthesis-7
+  type: mcq_meaning
+  cefr: C2
+  topic: grammar
+  stem: "Phân biệt ý của nguồn và ý của người viết."
+  question: "Câu nào đúng để nêu nhận định của chính bạn sau khi tóm tắt các nguồn?"
+  options:
+    - "According to me, option B carries less risk."
+    - "In our view, option B carries less risk."
+    - "According to us view, option B carries less risk."
+    - "As we notes, option B carries less risk."
+  answer: 1
+  explanation_vi: "According to chỉ dùng cho nguồn bên ngoài. Ý riêng: in our view / in my view."
+- slug: g-c2-synthesis-8
+  type: mcq_meaning
+  cefr: C2
+  topic: grammar
+  stem: "Chỉ ra khoảng trống trong các nguồn."
+  question: "“Điều mà chưa nguồn nào đề cập là chi phí khi failover giữa các region” là…"
+  options:
+    - "What none of these sources addresses is the cost of failing over between regions."
+    - "What none of these sources addresses it is the cost of failing over between regions."
+    - "That none of these sources address is the cost of failing over between regions."
+    - "None of these sources what addresses is the cost of failing over between regions."
+  answer: 0
+  explanation_vi: "Câu chẻ What + mệnh đề + is + N; không thêm it sau mệnh đề what."
+# --- g-c2-rhetorical
+- slug: g-c2-rhetorical-1
+  type: fill_blank
+  cefr: C2
+  topic: grammar
+  skin: email
+  sentence: "___, the managed queue costs more per message; even so, it removes a whole on-call rotation."
+  options: [Even though, Admittedly, Despite, Whereas]
+  answer: 1
+  explanation_vi: "Admittedly mở câu nhượng bộ, đứng riêng với dấu phẩy. Even though / whereas cần mệnh đề phụ; despite cần danh từ."
+- slug: g-c2-rhetorical-2
+  type: fill_blank
+  cefr: C2
+  topic: grammar
+  skin: pr
+  sentence: "It is the unbounded retry policy, not the database, ___ took the service down."
+  options: [who, what, that, which it]
+  answer: 2
+  explanation_vi: "Câu chẻ It is X that…; phần nhấn là vật → that, không dùng who hay what."
+- slug: g-c2-rhetorical-3
+  type: fill_blank
+  cefr: C2
+  topic: grammar
+  skin: slack
+  sentence: "What worries me ___ not the migration itself but the missing rollback plan."
+  options: [it is, are, is, being]
+  answer: 2
+  explanation_vi: "Mệnh đề what làm chủ ngữ số ít → is; không thêm it."
+- slug: g-c2-rhetorical-4
+  type: fill_blank
+  cefr: C2
+  topic: grammar
+  skin: jira
+  sentence: "This proposal overlooks the fact ___ most of our customers are still on the desktop client."
+  options: [which, of, what, that]
+  answer: 3
+  explanation_vi: "The fact that + mệnh đề: phản bác bằng dữ kiện."
+- slug: g-c2-rhetorical-5
+  type: fill_blank
+  cefr: C2
+  topic: grammar
+  skin: email
+  sentence: "Granted, the new framework has a smaller community. ___ (Tuy vậy), its type checks have already prevented two incidents."
+  accepted: ["That said", "Even so", "That said,", "Even so,"]
+  explanation_vi: "Sau câu nhượng bộ (Granted…), mở câu phản bác bằng That said / Even so."
+- slug: g-c2-rhetorical-6
+  type: fill_blank
+  cefr: C2
+  topic: grammar
+  skin: slack
+  sentence: "If every write must be audited, it ___ that the audit log cannot be optional."
+  accepted: ["follows"]
+  explanation_vi: "It follows that…: kết luận logic suy ra từ tiền đề."
+- slug: g-c2-rhetorical-7
+  type: mcq_meaning
+  cefr: C2
+  topic: grammar
+  stem: "Nhượng bộ rồi phản bác trong một câu."
+  question: "Câu nào đúng và giữ giọng lập luận công bằng?"
+  options:
+    - "While it is true that microservices allow independent deploys, our team of six cannot run twenty of them."
+    - "While it is true microservices allow independent deploys, but our team of six cannot run twenty of them."
+    - "It is true while microservices allow independent deploys, our team of six cannot run twenty of them."
+    - "Even though it is true that microservices allow independent deploys, but our team cannot run twenty of them."
+  answer: 0
+  explanation_vi: "While it is true that… + mệnh đề chính; không thêm but vì while đã là liên từ."
+- slug: g-c2-rhetorical-8
+  type: mcq_meaning
+  cefr: C2
+  topic: grammar
+  stem: "Kết luận sau khi cân nhắc hai phía."
+  question: "“Cân nhắc mọi mặt thì viết lại parser vẫn rẻ hơn vá tiếp” là…"
+  options:
+    - "On the balance, rewriting the parser is cheaper than patching it again."
+    - "In balance, rewriting the parser is cheaper than patching it again."
+    - "Balancing on, rewriting the parser is cheaper than patching it again."
+    - "On balance, rewriting the parser is cheaper than patching it again."
+  answer: 3
+  explanation_vi: "Cụm cố định on balance (không có the): kết luận sau khi đã cân hai phía."

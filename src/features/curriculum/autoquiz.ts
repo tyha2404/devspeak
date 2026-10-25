@@ -6,11 +6,18 @@ import type { GrammarBody } from "./schema";
 
 export const TRACK_TEST_SIZE = 16;
 
+/** Rotate a fixed-size test through the full bank, advancing only after a finished attempt. */
+export function vocabQuestionSelection<T>(bank: T[], completedAttempts: number): T[] {
+  if (bank.length <= TRACK_TEST_SIZE) return [...bank];
+  const start = (completedAttempts * TRACK_TEST_SIZE) % bank.length;
+  return Array.from({ length: TRACK_TEST_SIZE }, (_, i) => bank[(start + i) % bank.length]!);
+}
+
 const byText = (a: string, b: string) => a.localeCompare(b, "vi");
 
 /** Options sorted alphabetically (so position never hints at the answer); returns the answer index. */
 function choice(correct: string, distractors: string[]) {
-  const options = [correct, ...distractors.filter((d) => d !== correct)].slice(0, 4).sort(byText);
+  const options = [...new Set([correct, ...distractors])].slice(0, 4).sort(byText);
   return { options, answer: options.indexOf(correct) };
 }
 
@@ -33,7 +40,7 @@ export function blankTerm(sentence: string, forms: string[]): string | null {
 }
 
 /**
- * Sixteen questions over a word set, cycling four kinds like ForumFlash: term → meaning,
+ * A question bank over a word set, cycling four kinds like ForumFlash: term → meaning,
  * meaning → term, type the term for a meaning, and pick the term that completes an example.
  * Distractors are the next words of the same set.
  */
@@ -43,7 +50,10 @@ export function vocabTest(lessonSlug: string, words: SenseSpec[], size = TRACK_T
   const used = new Set<string>();
   for (let n = 0; n < size; n++) {
     const w = words[n % words.length]!;
-    const others = [1, 2, 3].map((k) => words[(n + k) % words.length]!);
+    const others = Array.from(
+      { length: words.length - 1 },
+      (_, k) => words[(n + k + 1) % words.length]!,
+    );
     const base = {
       slug: `auto-${lessonSlug}-${n + 1}`,
       cefr: w.cefr,
@@ -104,80 +114,22 @@ export function vocabTest(lessonSlug: string, words: SenseSpec[], size = TRACK_T
   return out;
 }
 
-/** Words learners confuse, swapped in to build wrong-but-plausible sentences. */
-const CONFUSABLE: string[][] = [
-  ["am", "is", "are"],
-  ["was", "were"],
-  ["do", "does", "did"],
-  ["has", "have", "had"],
-  // Only a ↔ an: swapping in "the" can still be a correct sentence (likewise can/could and
-  // will/would are left out: the polite or hypothetical form is often a valid translation too).
-  ["a", "an"],
-  ["i", "me", "my"],
-  ["he", "him", "his"],
-  ["she", "her"],
-  ["we", "us", "our"],
-  ["they", "them", "their"],
-  ["this", "these"],
-  ["that", "those"],
-  ["much", "many"],
-  ["some", "any"],
-  ["in", "on", "at"],
-  ["more", "most"],
-  ["than", "then"],
-  ["isn't", "aren't"],
-  ["doesn't", "don't"],
-  ["hasn't", "haven't"],
-];
-
-/** Capitalise the swapped word only at the start of the sentence ("I" is always upper case). */
-const casing = (word: string, atStart: boolean) =>
-  word.toLowerCase() === "i"
-    ? "I"
-    : atStart
-      ? word[0]!.toUpperCase() + word.slice(1)
-      : word.toLowerCase();
-
-/** Variants of `sentence` with one confusable word swapped, lesson-specific mistakes first. */
+/** Use authored mistakes only when their complete correction matches this exact example. */
 export function mutations(sentence: string, fixes: GrammarBody["contrast"]["fixes"] = []) {
-  const out: string[] = [];
-  const add = (s: string) => {
-    if (s !== sentence && !out.includes(s)) out.push(s);
-  };
-  // The lesson's own wrong → right pairs: undo the correction wherever it applies.
-  for (const f of fixes) {
-    const right = f.right.split(/\s+/);
-    const wrong = f.wrong.split(/\s+/);
-    if (right.length !== wrong.length) continue;
-    right.forEach((r, i) => {
-      const w = wrong[i]!;
-      if (r.toLowerCase() === w.toLowerCase()) return;
-      const re = new RegExp(`\\b${escapeRe(r.replace(/[.,!?]$/, ""))}\\b`, "i");
-      const m = re.exec(sentence);
-      if (m) add(sentence.replace(re, casing(w.replace(/[.,!?]$/, ""), m.index === 0)));
-    });
-  }
-  const tokens = sentence.split(/(\s+)/);
-  tokens.forEach((tok, i) => {
-    const core = tok.replace(/[.,!?;:]+$/, "");
-    const tail = tok.slice(core.length);
-    const group = CONFUSABLE.find((g) => g.includes(core.toLowerCase()));
-    if (!group) return;
-    for (const alt of group)
-      if (alt !== core.toLowerCase()) {
-        const copy = [...tokens];
-        copy[i] = casing(alt, i === 0) + tail;
-        add(copy.join(""));
-      }
-  });
-  return out;
+  return [
+    ...new Set(
+      fixes
+        .filter((fix) => fix.right === sentence && fix.wrong !== sentence)
+        .map((fix) => fix.wrong),
+    ),
+  ];
 }
 
 /** "Read the Vietnamese, pick the English" items built from a grammar lesson's examples. */
 export function grammarTranslations(lessonSlug: string, cefr: SenseSpec["cefr"], g: GrammarBody) {
   return g.examples.flatMap((e, i): QuestionSpec[] => {
     const wrong = mutations(e.en, g.contrast.fixes);
-    const fallback = g.examples.filter((x) => x.en !== e.en).map((x) => x.en);
+    const fallback = g.examples.filter((x) => x.en !== e.en && x.vi !== e.vi).map((x) => x.en);
     const distractors = [...wrong, ...fallback].slice(0, 3);
     if (distractors.length < 2) return [];
     return [

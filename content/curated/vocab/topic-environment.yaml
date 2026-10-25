@@ -1,0 +1,3420 @@
+# Vocabulary by topic: Sustainable Software & Climate Products (unit T10). Original content.
+# Set 1
+- {
+    slug: climate-product-n,
+    lemma: "climate product",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: environment,
+    ipa: "/ˈklaɪmət ˌprɒdʌkt/",
+    def: "Software built to measure or reduce harm to the climate.",
+    vi: "sản phẩm khí hậu",
+    examples:
+      [
+        {
+          en: "Our climate product helps factories see their energy use.",
+          vi: "Sản phẩm khí hậu của bọn mình giúp các nhà máy thấy mức dùng năng lượng.",
+        },
+      ],
+  }
+- {
+    slug: climate-n,
+    lemma: "climate",
+    pos: noun,
+    cefr: A2,
+    topic: environment,
+    ipa: "/ˈklaɪmət/",
+    def: "The usual weather of a place over many years.",
+    vi: "khí hậu",
+    examples:
+      [
+        {
+          en: "The app shows how the climate in Hanoi has changed.",
+          vi: "Ứng dụng cho thấy khí hậu ở Hà Nội đã thay đổi thế nào.",
+        },
+      ],
+  }
+- {
+    slug: pollution-n,
+    lemma: "pollution",
+    pos: noun,
+    cefr: A2,
+    topic: environment,
+    ipa: "/pəˈluːʃn/",
+    def: "Dirty or harmful things in the air, water or land.",
+    vi: "ô nhiễm",
+    examples:
+      [
+        {
+          en: "Users want to check air pollution before they go running.",
+          vi: "Người dùng muốn xem mức ô nhiễm không khí trước khi đi chạy.",
+        },
+      ],
+  }
+- {
+    slug: measure-v,
+    lemma: "measure",
+    pos: verb,
+    cefr: A2,
+    topic: environment,
+    ipa: "/ˈmeʒə/",
+    def: "To find the size, amount or level of something.",
+    vi: "đo",
+    examples:
+      [
+        {
+          en: "First we need to decide what the app should measure.",
+          vi: "Trước hết mình cần quyết định ứng dụng nên đo cái gì.",
+        },
+      ],
+  }
+- {
+    slug: target-user-n-environment,
+    lemma: "target user",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: environment,
+    ipa: "/ˈtɑːɡɪt ˈjuːzə/",
+    def: "The kind of person a product is mainly built for.",
+    vi: "người dùng mục tiêu",
+    examples:
+      [
+        {
+          en: "Our target user is a factory manager, not a scientist.",
+          vi: "Người dùng mục tiêu của mình là quản lý nhà máy, không phải nhà khoa học.",
+        },
+      ],
+  }
+- {
+    slug: waste-n,
+    lemma: "waste",
+    pos: noun,
+    cefr: A2,
+    topic: environment,
+    ipa: "/weɪst/",
+    def: "Things that are thrown away because they are no longer needed.",
+    vi: "rác thải",
+    examples:
+      [
+        {
+          en: "The client wants to track how much waste each office produces.",
+          vi: "Khách hàng muốn theo dõi mỗi văn phòng thải ra bao nhiêu rác.",
+        },
+      ],
+  }
+- {
+    slug: recycle-v,
+    lemma: "recycle",
+    pos: verb,
+    cefr: A2,
+    topic: environment,
+    ipa: "/ˌriːˈsaɪkl/",
+    def: "To treat used things so they can be used again.",
+    vi: "tái chế",
+    examples:
+      [
+        {
+          en: "The new feature reminds staff to recycle paper cups.",
+          vi: "Tính năng mới nhắc nhân viên tái chế cốc giấy.",
+        },
+      ],
+  }
+- {
+    slug: green-adj,
+    lemma: "green",
+    pos: adjective,
+    cefr: A2,
+    topic: environment,
+    ipa: "/ɡriːn/",
+    def: "Not harmful to nature.",
+    vi: "xanh, thân thiện môi trường",
+    examples:
+      [
+        {
+          en: "The client wants a green version of the delivery app.",
+          vi: "Khách hàng muốn một phiên bản xanh của ứng dụng giao hàng.",
+        },
+      ],
+  }
+- {
+    slug: requirement-env-n,
+    lemma: "requirement",
+    pos: noun,
+    cefr: B1,
+    topic: environment,
+    ipa: "/rɪˈkwaɪəmənt/",
+    def: "Something a product must do or have.",
+    vi: "yêu cầu",
+    examples:
+      [
+        {
+          en: "One requirement is that the report works offline.",
+          vi: "Một yêu cầu là báo cáo phải chạy được khi không có mạng.",
+        },
+      ],
+  }
+- {
+    slug: stakeholder-env-n,
+    lemma: "stakeholder",
+    pos: noun,
+    cefr: B2,
+    topic: environment,
+    ipa: "/ˈsteɪkhəʊldə/",
+    def: "A person or group who cares about or is affected by a project.",
+    vi: "bên liên quan",
+    examples:
+      [
+        {
+          en: "We interviewed every stakeholder before writing the spec.",
+          vi: "Bọn mình đã phỏng vấn mọi bên liên quan trước khi viết đặc tả.",
+        },
+      ],
+  }
+# Set 2
+- {
+    slug: energy-n,
+    lemma: "energy",
+    pos: noun,
+    cefr: A2,
+    topic: environment,
+    ipa: "/ˈenədʒi/",
+    def: "Power from electricity, fuel and so on that makes machines work.",
+    vi: "năng lượng",
+    examples:
+      [
+        {
+          en: "Video calls use more energy than you might think.",
+          vi: "Gọi video tốn năng lượng hơn bạn nghĩ.",
+        },
+      ],
+  }
+- {
+    slug: electricity-n,
+    lemma: "electricity",
+    pos: noun,
+    cefr: A2,
+    topic: environment,
+    ipa: "/ɪˌlekˈtrɪsəti/",
+    def: "The power that comes through wires and runs computers and lights.",
+    vi: "điện",
+    examples:
+      [
+        {
+          en: "The office pays a lot for electricity in summer.",
+          vi: "Văn phòng trả rất nhiều tiền điện vào mùa hè.",
+        },
+      ],
+  }
+- {
+    slug: battery-n,
+    lemma: "battery",
+    pos: noun,
+    cefr: A2,
+    topic: environment,
+    ipa: "/ˈbætri/",
+    def: "A small object that stores power for a phone or laptop.",
+    vi: "pin",
+    examples:
+      [
+        {
+          en: "This bug drains the phone battery in two hours.",
+          vi: "Lỗi này làm hết pin điện thoại trong hai tiếng.",
+        },
+      ],
+  }
+- {
+    slug: consume-v,
+    lemma: "consume",
+    pos: verb,
+    cefr: B1,
+    topic: environment,
+    ipa: "/kənˈsjuːm/",
+    def: "To use energy, time or another resource.",
+    vi: "tiêu thụ",
+    examples:
+      [
+        {
+          en: "The sync job consumes too much power at night.",
+          vi: "Tác vụ đồng bộ tiêu thụ quá nhiều điện vào ban đêm.",
+        },
+      ],
+  }
+- {
+    slug: processor-n,
+    lemma: "processor",
+    pos: noun,
+    cefr: B1,
+    topic: environment,
+    ipa: "/ˈprəʊsesə/",
+    def: "The part of a computer that does the calculations.",
+    vi: "bộ xử lý",
+    examples:
+      [
+        {
+          en: "The loop keeps the processor busy even when the app is idle.",
+          vi: "Vòng lặp khiến bộ xử lý bận ngay cả khi ứng dụng rảnh.",
+        },
+      ],
+  }
+- {
+    slug: idle-adj,
+    lemma: "idle",
+    pos: adjective,
+    cefr: B2,
+    topic: environment,
+    ipa: "/ˈaɪdl/",
+    def: "Switched on but not doing any work.",
+    vi: "nhàn rỗi, không hoạt động",
+    examples:
+      [
+        {
+          en: "Half of our test servers are idle at the weekend.",
+          vi: "Một nửa số server test không làm gì vào cuối tuần.",
+        },
+      ],
+  }
+- {
+    slug: background-task-n,
+    lemma: "background task",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: environment,
+    ipa: "/ˈbækɡraʊnd tɑːsk/",
+    def: "Work an app does when the user is not looking at it.",
+    vi: "tác vụ nền",
+    examples:
+      [
+        {
+          en: "A background task checks for updates every minute.",
+          vi: "Một tác vụ nền kiểm tra cập nhật mỗi phút.",
+        },
+      ],
+  }
+- {
+    slug: power-hungry-adj,
+    lemma: "power-hungry",
+    pos: adjective,
+    cefr: B2,
+    topic: environment,
+    ipa: "/ˈpaʊə ˌhʌŋɡri/",
+    def: "Needing a lot of electricity to run.",
+    vi: "ngốn điện",
+    examples:
+      [
+        {
+          en: "Training this model is very power-hungry.",
+          vi: "Huấn luyện mô hình này rất ngốn điện.",
+        },
+      ],
+  }
+- {
+    slug: data-centre-n,
+    lemma: "data centre",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: environment,
+    ipa: "/ˈdeɪtə ˌsentə/",
+    def: "A building full of servers that store and process data.",
+    vi: "trung tâm dữ liệu",
+    examples:
+      [
+        {
+          en: "Our data centre is cooled with water from the river.",
+          vi: "Trung tâm dữ liệu của bọn mình được làm mát bằng nước sông.",
+        },
+      ],
+  }
+- {
+    slug: cooling-n,
+    lemma: "cooling",
+    pos: noun,
+    cefr: B1,
+    topic: environment,
+    ipa: "/ˈkuːlɪŋ/",
+    def: "The process of keeping machines from getting too hot.",
+    vi: "làm mát",
+    examples:
+      [
+        {
+          en: "Cooling uses almost a third of the building's power.",
+          vi: "Việc làm mát dùng gần một phần ba điện của tòa nhà.",
+        },
+      ],
+  }
+- {
+    slug: workload-env-n,
+    lemma: "workload",
+    pos: noun,
+    cefr: B2,
+    topic: environment,
+    ipa: "/ˈwɜːkləʊd/",
+    def: "The amount of computing work a system has to do.",
+    vi: "khối lượng tính toán",
+    examples:
+      [
+        {
+          en: "We moved the heavy workload to a cleaner region.",
+          vi: "Bọn mình đã chuyển khối lượng tính toán nặng sang khu vực sạch hơn.",
+        },
+      ],
+  }
+- {
+    slug: renewable-adj,
+    lemma: "renewable",
+    pos: adjective,
+    cefr: B2,
+    topic: environment,
+    ipa: "/rɪˈnjuːəbl/",
+    def: "Coming from sources like sun or wind that do not run out.",
+    vi: "tái tạo",
+    examples:
+      [
+        {
+          en: "The provider says this region runs on renewable energy.",
+          vi: "Nhà cung cấp nói khu vực này dùng năng lượng tái tạo.",
+        },
+      ],
+  }
+# Set 3
+- {
+    slug: store-data-v,
+    lemma: "store",
+    pos: verb,
+    cefr: A2,
+    topic: environment,
+    ipa: "/stɔː/",
+    def: "To keep information so you can use it later.",
+    vi: "lưu",
+    examples:
+      [
+        {
+          en: "We store every photo the user uploads.",
+          vi: "Bọn mình lưu mọi ảnh người dùng tải lên.",
+        },
+      ],
+  }
+- {
+    slug: delete-v,
+    lemma: "delete",
+    pos: verb,
+    cefr: A2,
+    topic: environment,
+    ipa: "/dɪˈliːt/",
+    def: "To remove information completely.",
+    vi: "xóa",
+    examples:
+      [
+        {
+          en: "The script deletes logs that are older than a year.",
+          vi: "Script xóa các log cũ hơn một năm.",
+        },
+      ],
+  }
+- {
+    slug: keep-v,
+    lemma: "keep",
+    pos: verb,
+    cefr: A2,
+    topic: environment,
+    ipa: "/kiːp/",
+    def: "To continue to have something and not throw it away.",
+    vi: "giữ lại",
+    examples:
+      [
+        {
+          en: "How long do we need to keep these invoices?",
+          vi: "Mình cần giữ các hóa đơn này bao lâu?",
+        },
+      ],
+  }
+- {
+    slug: snapshot-n,
+    lemma: "snapshot",
+    pos: noun,
+    cefr: B2,
+    topic: environment,
+    ipa: "/ˈsnæpʃɒt/",
+    def: "A saved copy of a disk or database at one moment.",
+    vi: "bản chụp dữ liệu",
+    examples:
+      [
+        {
+          en: "We have seven snapshots of the same database.",
+          vi: "Bọn mình có bảy bản chụp của cùng một cơ sở dữ liệu.",
+        },
+      ],
+  }
+- {
+    slug: duplicate-n,
+    lemma: "duplicate",
+    pos: noun,
+    cefr: B1,
+    topic: environment,
+    ipa: "/ˈdjuːplɪkət/",
+    def: "An exact copy of something that already exists.",
+    vi: "bản trùng lặp",
+    examples:
+      [
+        {
+          en: "Removing duplicates saved us two terabytes.",
+          vi: "Xóa các bản trùng lặp giúp tiết kiệm hai terabyte.",
+        },
+      ],
+  }
+- {
+    slug: retention-period-n,
+    lemma: "retention period",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: environment,
+    ipa: "/rɪˈtenʃn ˌpɪəriəd/",
+    def: "How long data must be kept before it is removed.",
+    vi: "thời hạn lưu giữ",
+    examples:
+      [
+        {
+          en: "The retention period for chat logs is ninety days.",
+          vi: "Thời hạn lưu giữ log chat là chín mươi ngày.",
+        },
+      ],
+  }
+- {
+    slug: archive-v,
+    lemma: "archive",
+    pos: verb,
+    cefr: B1,
+    topic: environment,
+    ipa: "/ˈɑːkaɪv/",
+    def: "To move old data to a cheaper place where it is rarely used.",
+    vi: "lưu trữ lâu dài",
+    examples:
+      [
+        {
+          en: "Let's archive projects nobody has opened since 2022.",
+          vi: "Mình hãy lưu trữ các dự án không ai mở từ năm 2022.",
+        },
+      ],
+  }
+- {
+    slug: expire-v,
+    lemma: "expire",
+    pos: verb,
+    cefr: B1,
+    topic: environment,
+    ipa: "/ɪkˈspaɪə/",
+    def: "To stop being valid after a set time.",
+    vi: "hết hạn",
+    examples:
+      [{ en: "Temporary files expire after one week.", vi: "File tạm hết hạn sau một tuần." }],
+  }
+- {
+    slug: purge-v,
+    lemma: "purge",
+    pos: verb,
+    cefr: C1,
+    topic: environment,
+    ipa: "/pɜːdʒ/",
+    def: "To remove large amounts of unwanted data at once.",
+    vi: "dọn sạch",
+    examples:
+      [
+        {
+          en: "The job purges deleted accounts every Sunday.",
+          vi: "Tác vụ dọn sạch các tài khoản đã xóa vào mỗi Chủ nhật.",
+        },
+      ],
+  }
+- {
+    slug: cold-storage-n,
+    lemma: "cold storage",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: environment,
+    ipa: "/kəʊld ˈstɔːrɪdʒ/",
+    def: "Cheap storage for data you almost never need to read.",
+    vi: "lưu trữ lạnh",
+    examples:
+      [
+        {
+          en: "Old videos go to cold storage after six months.",
+          vi: "Video cũ được chuyển sang lưu trữ lạnh sau sáu tháng.",
+        },
+      ],
+  }
+- {
+    slug: compress-v,
+    lemma: "compress",
+    pos: verb,
+    cefr: B2,
+    topic: environment,
+    ipa: "/kəmˈpres/",
+    def: "To make a file smaller so it takes less space.",
+    vi: "nén",
+    examples:
+      [
+        {
+          en: "We compress the logs before we upload them.",
+          vi: "Bọn mình nén log trước khi tải lên.",
+        },
+      ],
+  }
+- {
+    slug: legal-obligation-n,
+    lemma: "legal obligation",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: environment,
+    ipa: "/ˈliːɡl ˌɒblɪˈɡeɪʃn/",
+    def: "Something the law says you must do.",
+    vi: "nghĩa vụ pháp lý",
+    examples:
+      [
+        {
+          en: "We have a legal obligation to keep tax records for ten years.",
+          vi: "Bọn mình có nghĩa vụ pháp lý phải giữ hồ sơ thuế mười năm.",
+        },
+      ],
+  }
+- {
+    slug: storage-footprint-n,
+    lemma: "storage footprint",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: environment,
+    ipa: "/ˈstɔːrɪdʒ ˌfʊtprɪnt/",
+    def: "The total amount of space a system's data takes up.",
+    vi: "dung lượng chiếm dụng",
+    examples:
+      [
+        {
+          en: "Our storage footprint has doubled in a year.",
+          vi: "Dung lượng chiếm dụng của bọn mình đã tăng gấp đôi trong một năm.",
+        },
+      ],
+  }
+- {
+    slug: justify-v-environment,
+    lemma: "justify",
+    pos: verb,
+    cefr: B2,
+    topic: environment,
+    ipa: "/ˈdʒʌstɪfaɪ/",
+    def: "To give a good reason for a decision.",
+    vi: "biện minh, giải thích lý do",
+    examples:
+      [
+        {
+          en: "Can we justify keeping raw data forever?",
+          vi: "Mình có lý do chính đáng để giữ dữ liệu thô mãi mãi không?",
+        },
+      ],
+  }
+# Set 4
+- {
+    slug: load-time-n,
+    lemma: "load time",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: environment,
+    ipa: "/ləʊd taɪm/",
+    def: "How long a page or screen takes to appear.",
+    vi: "thời gian tải",
+    examples:
+      [
+        {
+          en: "Smaller files cut the load time to one second.",
+          vi: "File nhỏ hơn giảm thời gian tải xuống một giây.",
+        },
+      ],
+  }
+- {
+    slug: page-weight-n,
+    lemma: "page weight",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: environment,
+    ipa: "/peɪdʒ weɪt/",
+    def: "The total size of everything a web page loads.",
+    vi: "dung lượng trang",
+    examples:
+      [
+        {
+          en: "We cut the page weight from 4 MB to 900 KB.",
+          vi: "Bọn mình giảm dung lượng trang từ 4 MB xuống 900 KB.",
+        },
+      ],
+  }
+- {
+    slug: image-n,
+    lemma: "image",
+    pos: noun,
+    cefr: A2,
+    topic: environment,
+    ipa: "/ˈɪmɪdʒ/",
+    def: "A picture shown on a screen.",
+    vi: "hình ảnh",
+    examples:
+      [
+        {
+          en: "The images on the home page are far too large.",
+          vi: "Hình ảnh ở trang chủ quá lớn.",
+        },
+      ],
+  }
+- {
+    slug: data-cap-n,
+    lemma: "data cap",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: environment,
+    ipa: "/ˈdeɪtə kæp/",
+    def: "A limit on how much data a user may use each month.",
+    vi: "giới hạn dung lượng",
+    examples:
+      [
+        {
+          en: "Many of our users have a small data cap on their phones.",
+          vi: "Nhiều người dùng của mình có giới hạn dung lượng nhỏ trên điện thoại.",
+        },
+      ],
+  }
+- {
+    slug: cache-v,
+    lemma: "cache",
+    pos: verb,
+    cefr: B2,
+    topic: environment,
+    ipa: "/kæʃ/",
+    def: "To save a copy nearby so it does not need to be fetched again.",
+    vi: "lưu bộ nhớ đệm",
+    examples:
+      [
+        {
+          en: "We cache the fonts so they load only once.",
+          vi: "Bọn mình lưu font vào bộ nhớ đệm để chỉ tải một lần.",
+        },
+      ],
+  }
+- {
+    slug: lazy-load-v,
+    lemma: "lazy-load",
+    pos: verb,
+    cefr: B2,
+    topic: environment,
+    ipa: "/ˈleɪzi ləʊd/",
+    def: "To load content only when the user is about to see it.",
+    vi: "tải trễ",
+    examples:
+      [
+        {
+          en: "Let's lazy-load the images below the fold.",
+          vi: "Mình hãy tải trễ các ảnh nằm dưới phần màn hình đầu.",
+        },
+      ],
+  }
+- {
+    slug: format-n,
+    lemma: "format",
+    pos: noun,
+    cefr: B1,
+    topic: environment,
+    ipa: "/ˈfɔːmæt/",
+    def: "The way a file is encoded, such as JPEG or WebP.",
+    vi: "định dạng",
+    examples:
+      [
+        {
+          en: "A modern format makes these photos half the size.",
+          vi: "Một định dạng hiện đại làm ảnh nhỏ đi một nửa.",
+        },
+      ],
+  }
+- {
+    slug: request-n,
+    lemma: "request",
+    pos: noun,
+    cefr: B1,
+    topic: environment,
+    ipa: "/rɪˈkwest/",
+    def: "A message asking a server for data.",
+    vi: "yêu cầu, request",
+    examples:
+      [
+        {
+          en: "The page makes eighty requests before it shows anything.",
+          vi: "Trang gửi tám mươi request trước khi hiển thị gì đó.",
+        },
+      ],
+  }
+- {
+    slug: throttle-v,
+    lemma: "throttle",
+    pos: verb,
+    cefr: C1,
+    topic: environment,
+    ipa: "/ˈθrɒtl/",
+    def: "To limit how fast data or requests can flow.",
+    vi: "giới hạn tốc độ",
+    examples:
+      [
+        {
+          en: "We throttle uploads on mobile data.",
+          vi: "Bọn mình giới hạn tốc độ tải lên khi dùng dữ liệu di động.",
+        },
+      ],
+  }
+- {
+    slug: edge-server-n,
+    lemma: "edge server",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: environment,
+    ipa: "/edʒ ˈsɜːvə/",
+    def: "A server placed close to users to deliver content faster.",
+    vi: "máy chủ biên",
+    examples:
+      [
+        {
+          en: "The video comes from an edge server in Singapore.",
+          vi: "Video được phục vụ từ một máy chủ biên ở Singapore.",
+        },
+      ],
+  }
+- {
+    slug: payload-n,
+    lemma: "payload",
+    pos: noun,
+    cefr: B2,
+    topic: environment,
+    ipa: "/ˈpeɪləʊd/",
+    def: "The actual data carried in a message.",
+    vi: "dữ liệu tải",
+    examples:
+      [
+        {
+          en: "The API payload includes fields no screen uses.",
+          vi: "Dữ liệu tải của API có những trường không màn hình nào dùng.",
+        },
+      ],
+  }
+- {
+    slug: minify-v,
+    lemma: "minify",
+    pos: verb,
+    cefr: C1,
+    topic: environment,
+    ipa: "/ˈmɪnɪfaɪ/",
+    def: "To remove spaces and comments from code to make it smaller.",
+    vi: "thu gọn mã",
+    examples:
+      [
+        {
+          en: "The build step minifies all our JavaScript.",
+          vi: "Bước build thu gọn toàn bộ JavaScript.",
+        },
+      ],
+  }
+- {
+    slug: polling-n,
+    lemma: "polling",
+    pos: noun,
+    cefr: B2,
+    topic: environment,
+    ipa: "/ˈpəʊlɪŋ/",
+    def: "Asking a server again and again whether anything has changed.",
+    vi: "hỏi vòng",
+    examples:
+      [
+        {
+          en: "Polling every five seconds keeps the radio awake.",
+          vi: "Hỏi vòng mỗi năm giây khiến sóng mạng luôn bật.",
+        },
+      ],
+  }
+- {
+    slug: autoplay-n,
+    lemma: "autoplay",
+    pos: noun,
+    cefr: B1,
+    topic: environment,
+    ipa: "/ˈɔːtəʊpleɪ/",
+    def: "When a video starts by itself without the user pressing play.",
+    vi: "tự động phát",
+    examples:
+      [
+        {
+          en: "Turning off autoplay saved a lot of traffic.",
+          vi: "Tắt tự động phát giúp tiết kiệm nhiều lưu lượng.",
+        },
+      ],
+  }
+- {
+    slug: resolution-n,
+    lemma: "resolution",
+    pos: noun,
+    cefr: B2,
+    topic: environment,
+    ipa: "/ˌrezəˈluːʃn/",
+    def: "How many pixels an image or video has.",
+    vi: "độ phân giải",
+    examples:
+      [
+        {
+          en: "We could serve a lower resolution on small screens.",
+          vi: "Mình có thể phục vụ độ phân giải thấp hơn trên màn hình nhỏ.",
+        },
+      ],
+  }
+- {
+    slug: on-demand-adj,
+    lemma: "on-demand",
+    pos: adjective,
+    cefr: B2,
+    topic: environment,
+    ipa: "/ˌɒn dɪˈmɑːnd/",
+    def: "Provided only when someone asks for it.",
+    vi: "theo yêu cầu",
+    examples:
+      [
+        {
+          en: "Reports are now generated on-demand instead of every hour.",
+          vi: "Báo cáo giờ được tạo theo yêu cầu thay vì mỗi giờ.",
+        },
+      ],
+  }
+# Set 5
+- {
+    slug: handset-n,
+    lemma: "handset",
+    pos: noun,
+    cefr: B2,
+    topic: environment,
+    ipa: "/ˈhændset/",
+    def: "A mobile phone.",
+    vi: "máy điện thoại",
+    examples:
+      [
+        {
+          en: "Many users in rural areas have older handsets.",
+          vi: "Nhiều người dùng ở nông thôn có máy điện thoại đời cũ.",
+        },
+      ],
+  }
+- {
+    slug: repair-v,
+    lemma: "repair",
+    pos: verb,
+    cefr: A2,
+    topic: environment,
+    ipa: "/rɪˈpeə/",
+    def: "To fix something that is broken.",
+    vi: "sửa chữa",
+    examples:
+      [
+        {
+          en: "It is cheaper to repair this laptop than to buy a new one.",
+          vi: "Sửa chiếc laptop này rẻ hơn mua cái mới.",
+        },
+      ],
+  }
+- {
+    slug: swap-out-phr,
+    lemma: "swap out",
+    pos: phrasal_verb,
+    kind: phrasal,
+    cefr: B2,
+    topic: environment,
+    ipa: "/swɒp aʊt/",
+    def: "To take one part out and put another in.",
+    vi: "tháo ra thay",
+    examples:
+      [
+        {
+          en: "You can swap out the battery in five minutes.",
+          vi: "Bạn có thể tháo pin ra thay trong năm phút.",
+        },
+      ],
+  }
+- {
+    slug: retrofit-v,
+    lemma: "retrofit",
+    pos: verb,
+    cefr: C1,
+    topic: environment,
+    ipa: "/ˈretrəʊfɪt/",
+    def: "To add new parts to an old machine or building.",
+    vi: "cải tạo, lắp thêm",
+    examples:
+      [
+        {
+          en: "We retrofitted the old servers with faster disks.",
+          vi: "Bọn mình lắp thêm ổ đĩa nhanh hơn cho các server cũ.",
+        },
+      ],
+  }
+- {
+    slug: second-hand-adj,
+    lemma: "second-hand",
+    pos: adjective,
+    cefr: B1,
+    topic: environment,
+    ipa: "/ˌsekənd ˈhænd/",
+    def: "Owned by someone else before.",
+    vi: "đã qua sử dụng",
+    examples:
+      [
+        {
+          en: "The test lab uses second-hand phones.",
+          vi: "Phòng test dùng điện thoại đã qua sử dụng.",
+        },
+      ],
+  }
+- {
+    slug: lifespan-n,
+    lemma: "lifespan",
+    pos: noun,
+    cefr: B2,
+    topic: environment,
+    ipa: "/ˈlaɪfspæn/",
+    def: "How long something lasts or can be used.",
+    vi: "tuổi thọ",
+    examples:
+      [
+        {
+          en: "A lighter app can extend the lifespan of old phones.",
+          vi: "Một ứng dụng nhẹ hơn có thể kéo dài tuổi thọ điện thoại cũ.",
+        },
+      ],
+  }
+- {
+    slug: landfill-n,
+    lemma: "landfill",
+    pos: noun,
+    cefr: B2,
+    topic: environment,
+    ipa: "/ˈlændfɪl/",
+    def: "A place where rubbish is buried in the ground.",
+    vi: "bãi chôn lấp",
+    examples:
+      [
+        {
+          en: "Old phones should not end up in landfill.",
+          vi: "Điện thoại cũ không nên bị đưa vào bãi chôn lấp.",
+        },
+      ],
+  }
+- {
+    slug: spare-part-n,
+    lemma: "spare part",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: environment,
+    ipa: "/speə pɑːt/",
+    def: "A part kept to replace one that breaks.",
+    vi: "linh kiện thay thế",
+    examples:
+      [
+        {
+          en: "Spare parts for this model are hard to find.",
+          vi: "Linh kiện thay thế cho mẫu này rất khó tìm.",
+        },
+      ],
+  }
+- {
+    slug: refurbished-adj,
+    lemma: "refurbished",
+    pos: adjective,
+    cefr: B2,
+    topic: environment,
+    ipa: "/ˌriːˈfɜːbɪʃt/",
+    def: "Used before but cleaned and repaired to work like new.",
+    vi: "tân trang",
+    examples:
+      [
+        {
+          en: "We bought twenty refurbished monitors for the new team.",
+          vi: "Bọn mình mua hai mươi màn hình tân trang cho nhóm mới.",
+        },
+      ],
+  }
+- {
+    slug: end-of-life-adj,
+    lemma: "end-of-life",
+    pos: adjective,
+    cefr: C1,
+    topic: environment,
+    ipa: "/ˌend əv ˈlaɪf/",
+    def: "No longer supported or updated by the maker.",
+    vi: "hết vòng đời hỗ trợ",
+    examples:
+      [
+        {
+          en: "These routers are end-of-life and get no security fixes.",
+          vi: "Các router này đã hết vòng đời hỗ trợ và không còn bản vá bảo mật.",
+        },
+      ],
+  }
+- {
+    slug: backward-compatible-adj,
+    lemma: "backward compatible",
+    pos: adjective,
+    kind: collocation,
+    cefr: C1,
+    topic: environment,
+    ipa: "/ˈbækwəd kəmˈpætəbl/",
+    def: "Still working with older versions or devices.",
+    vi: "tương thích ngược",
+    examples:
+      [
+        {
+          en: "Keeping the app backward compatible helps users keep old phones.",
+          vi: "Giữ ứng dụng tương thích ngược giúp người dùng giữ được điện thoại cũ.",
+        },
+      ],
+  }
+- {
+    slug: dispose-of-phr,
+    lemma: "dispose of",
+    pos: phrasal_verb,
+    kind: phrasal,
+    cefr: B2,
+    topic: environment,
+    ipa: "/dɪˈspəʊz əv/",
+    def: "To get rid of something you no longer want.",
+    vi: "vứt bỏ, xử lý",
+    examples:
+      [
+        {
+          en: "Please dispose of old hard drives through IT.",
+          vi: "Vui lòng xử lý ổ cứng cũ qua bộ phận IT.",
+        },
+      ],
+  }
+- {
+    slug: wipe-v,
+    lemma: "wipe",
+    pos: verb,
+    cefr: B2,
+    topic: environment,
+    ipa: "/waɪp/",
+    def: "To erase all data from a disk or device.",
+    vi: "xóa sạch",
+    examples:
+      [
+        {
+          en: "IT wipes each laptop before it is donated.",
+          vi: "IT xóa sạch mỗi laptop trước khi đem tặng.",
+        },
+      ],
+  }
+- {
+    slug: donate-v,
+    lemma: "donate",
+    pos: verb,
+    cefr: B1,
+    topic: environment,
+    ipa: "/dəʊˈneɪt/",
+    def: "To give something to people who need it, for free.",
+    vi: "quyên tặng",
+    examples:
+      [
+        {
+          en: "We donate old laptops to local schools.",
+          vi: "Bọn mình tặng laptop cũ cho các trường địa phương.",
+        },
+      ],
+  }
+- {
+    slug: manufacture-v,
+    lemma: "manufacture",
+    pos: verb,
+    cefr: B2,
+    topic: environment,
+    ipa: "/ˌmænjuˈfæktʃə/",
+    def: "To make goods in large numbers in a factory.",
+    vi: "sản xuất",
+    examples:
+      [
+        {
+          en: "Most of a phone's emissions come from manufacturing it.",
+          vi: "Phần lớn phát thải của điện thoại đến từ việc sản xuất nó.",
+        },
+      ],
+  }
+- {
+    slug: raw-material-n,
+    lemma: "raw material",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: environment,
+    ipa: "/rɔː məˈtɪəriəl/",
+    def: "A basic natural substance used to make products.",
+    vi: "nguyên liệu thô",
+    examples:
+      [
+        {
+          en: "Chips need rare raw materials from mines.",
+          vi: "Chip cần các nguyên liệu thô hiếm từ hầm mỏ.",
+        },
+      ],
+  }
+- {
+    slug: warranty-n,
+    lemma: "warranty",
+    pos: noun,
+    cefr: B2,
+    topic: environment,
+    ipa: "/ˈwɒrənti/",
+    def: "A promise to repair a product for free for a set time.",
+    vi: "bảo hành",
+    examples:
+      [
+        {
+          en: "The warranty covers the battery for two years.",
+          vi: "Bảo hành bao gồm pin trong hai năm.",
+        },
+      ],
+  }
+- {
+    slug: modular-adj,
+    lemma: "modular",
+    pos: adjective,
+    cefr: C1,
+    topic: environment,
+    ipa: "/ˈmɒdjələ/",
+    def: "Made of separate parts that can be changed one by one.",
+    vi: "dạng mô-đun",
+    examples:
+      [
+        {
+          en: "A modular laptop lets you swap just the keyboard.",
+          vi: "Laptop dạng mô-đun cho phép chỉ thay bàn phím.",
+        },
+      ],
+  }
+# Set 6
+- {
+    slug: emission-n,
+    lemma: "emission",
+    pos: noun,
+    cefr: B2,
+    topic: environment,
+    ipa: "/iˈmɪʃn/",
+    def: "Gas, especially carbon dioxide, sent into the air.",
+    vi: "khí thải, phát thải",
+    examples:
+      [
+        {
+          en: "The dashboard shows emissions for each cloud service.",
+          vi: "Dashboard hiển thị phát thải của từng dịch vụ cloud.",
+        },
+      ],
+  }
+- {
+    slug: carbon-n,
+    lemma: "carbon",
+    pos: noun,
+    cefr: B1,
+    topic: environment,
+    ipa: "/ˈkɑːbən/",
+    def: "Short for carbon dioxide, the gas that warms the planet.",
+    vi: "các-bon",
+    examples:
+      [
+        {
+          en: "How much carbon does one API call produce?",
+          vi: "Một lần gọi API tạo ra bao nhiêu các-bon?",
+        },
+      ],
+  }
+- {
+    slug: estimate-n,
+    lemma: "estimate",
+    pos: noun,
+    cefr: B1,
+    topic: environment,
+    ipa: "/ˈestɪmət/",
+    def: "A number that is calculated roughly, not measured exactly.",
+    vi: "giá trị ước tính",
+    examples:
+      [
+        {
+          en: "This figure is an estimate, not a meter reading.",
+          vi: "Con số này là ước tính, không phải số đo từ công tơ.",
+        },
+      ],
+  }
+- {
+    slug: direct-measurement-n,
+    lemma: "direct measurement",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: environment,
+    ipa: "/daɪˈrekt ˈmeʒəmənt/",
+    def: "A value read from a real meter or sensor.",
+    vi: "số đo trực tiếp",
+    examples:
+      [
+        {
+          en: "We only have direct measurement for our own servers.",
+          vi: "Bọn mình chỉ có số đo trực tiếp cho server của mình.",
+        },
+      ],
+  }
+- {
+    slug: sensor-n,
+    lemma: "sensor",
+    pos: noun,
+    cefr: B1,
+    topic: environment,
+    ipa: "/ˈsensə/",
+    def: "A device that detects heat, light, gas and so on.",
+    vi: "cảm biến",
+    examples:
+      [
+        {
+          en: "Each sensor sends a reading every ten minutes.",
+          vi: "Mỗi cảm biến gửi một số đo mười phút một lần.",
+        },
+      ],
+  }
+- {
+    slug: reading-n,
+    lemma: "reading",
+    pos: noun,
+    cefr: B1,
+    topic: environment,
+    ipa: "/ˈriːdɪŋ/",
+    def: "A number shown by a measuring tool.",
+    vi: "chỉ số đo",
+    examples:
+      [
+        {
+          en: "The meter reading looks wrong for March.",
+          vi: "Chỉ số công tơ tháng Ba trông có vẻ sai.",
+        },
+      ],
+  }
+- {
+    slug: emission-factor-n,
+    lemma: "emission factor",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: environment,
+    ipa: "/iˈmɪʃn ˈfæktə/",
+    def: "A number used to turn activity, like kWh, into emissions.",
+    vi: "hệ số phát thải",
+    examples:
+      [
+        {
+          en: "The emission factor for this grid changes every year.",
+          vi: "Hệ số phát thải của lưới điện này thay đổi hằng năm.",
+        },
+      ],
+  }
+- {
+    slug: baseline-env-n,
+    lemma: "baseline",
+    pos: noun,
+    cefr: B2,
+    topic: environment,
+    ipa: "/ˈbeɪslaɪn/",
+    def: "A starting value used to compare later changes.",
+    vi: "mức cơ sở",
+    examples:
+      [
+        {
+          en: "Last year's usage is our baseline.",
+          vi: "Mức sử dụng năm ngoái là mức cơ sở của mình.",
+        },
+      ],
+  }
+- {
+    slug: greenhouse-gas-n,
+    lemma: "greenhouse gas",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: environment,
+    ipa: "/ˈɡriːnhaʊs ɡæs/",
+    def: "A gas that traps heat in the air around the earth.",
+    vi: "khí nhà kính",
+    examples:
+      [
+        {
+          en: "The report covers all greenhouse gases, not just CO2.",
+          vi: "Báo cáo bao gồm mọi khí nhà kính, không chỉ CO2.",
+        },
+      ],
+  }
+- {
+    slug: methodology-n,
+    lemma: "methodology",
+    pos: noun,
+    cefr: C1,
+    topic: environment,
+    ipa: "/ˌmeθəˈdɒlədʒi/",
+    def: "The set of methods used to calculate or study something.",
+    vi: "phương pháp luận",
+    examples:
+      [
+        {
+          en: "Please link the methodology under the chart.",
+          vi: "Vui lòng gắn liên kết phương pháp luận dưới biểu đồ.",
+        },
+      ],
+  }
+- {
+    slug: kilowatt-hour-n,
+    lemma: "kilowatt-hour",
+    pos: noun,
+    cefr: B2,
+    topic: environment,
+    ipa: "/ˈkɪləwɒt aʊə/",
+    def: "A unit of energy, equal to 1,000 watts for one hour.",
+    vi: "ki-lô-oát giờ",
+    examples:
+      [
+        {
+          en: "The cluster used 300 kilowatt-hours last week.",
+          vi: "Cụm máy dùng 300 ki-lô-oát giờ tuần trước.",
+        },
+      ],
+  }
+- {
+    slug: approximate-adj,
+    lemma: "approximate",
+    pos: adjective,
+    cefr: B2,
+    topic: environment,
+    ipa: "/əˈprɒksɪmət/",
+    def: "Close to the real value but not exact.",
+    vi: "xấp xỉ",
+    examples:
+      [
+        {
+          en: "These are approximate numbers based on public data.",
+          vi: "Đây là số liệu xấp xỉ dựa trên dữ liệu công khai.",
+        },
+      ],
+  }
+- {
+    slug: calibrate-v,
+    lemma: "calibrate",
+    pos: verb,
+    cefr: C1,
+    topic: environment,
+    ipa: "/ˈkælɪbreɪt/",
+    def: "To adjust a measuring tool so it gives correct results.",
+    vi: "hiệu chuẩn",
+    examples:
+      [
+        {
+          en: "The sensors must be calibrated every six months.",
+          vi: "Cảm biến phải được hiệu chuẩn sáu tháng một lần.",
+        },
+      ],
+  }
+- {
+    slug: offset-n,
+    lemma: "offset",
+    pos: noun,
+    cefr: C1,
+    topic: environment,
+    ipa: "/ˈɒfset/",
+    def: "An action meant to balance emissions made somewhere else.",
+    vi: "bù trừ phát thải",
+    examples:
+      [
+        {
+          en: "Buying offsets does not reduce our own emissions.",
+          vi: "Mua bù trừ phát thải không làm giảm phát thải của chính mình.",
+        },
+      ],
+  }
+- {
+    slug: scope-env-n,
+    lemma: "scope",
+    pos: noun,
+    cefr: B2,
+    topic: environment,
+    ipa: "/skəʊp/",
+    def: "The range of sources a measurement includes.",
+    vi: "phạm vi",
+    examples:
+      [
+        {
+          en: "Supplier emissions are outside the scope of this report.",
+          vi: "Phát thải của nhà cung cấp nằm ngoài phạm vi báo cáo này.",
+        },
+      ],
+  }
+- {
+    slug: attribute-v,
+    lemma: "attribute",
+    pos: verb,
+    cefr: C1,
+    topic: environment,
+    ipa: "/əˈtrɪbjuːt/",
+    def: "To say that something is caused by a particular thing.",
+    vi: "quy cho",
+    examples:
+      [
+        {
+          en: "We attribute most of the energy to the search service.",
+          vi: "Bọn mình quy phần lớn năng lượng cho dịch vụ tìm kiếm.",
+        },
+      ],
+  }
+- {
+    slug: proxy-env-n,
+    lemma: "proxy",
+    pos: noun,
+    cefr: C1,
+    topic: environment,
+    ipa: "/ˈprɒksi/",
+    def: "Something measured instead because the real thing cannot be.",
+    vi: "đại lượng thay thế",
+    examples:
+      [
+        {
+          en: "CPU time is only a proxy for energy use.",
+          vi: "Thời gian CPU chỉ là đại lượng thay thế cho mức dùng năng lượng.",
+        },
+      ],
+  }
+- {
+    slug: granularity-n,
+    lemma: "granularity",
+    pos: noun,
+    cefr: C1,
+    topic: environment,
+    ipa: "/ˌɡrænjəˈlærəti/",
+    def: "How detailed or finely divided the data is.",
+    vi: "độ chi tiết",
+    examples:
+      [
+        {
+          en: "The provider only gives monthly granularity.",
+          vi: "Nhà cung cấp chỉ cho độ chi tiết theo tháng.",
+        },
+      ],
+  }
+- {
+    slug: verify-env-v,
+    lemma: "verify",
+    pos: verb,
+    cefr: B2,
+    topic: environment,
+    ipa: "/ˈverɪfaɪ/",
+    def: "To check that something is true or correct.",
+    vi: "xác minh",
+    examples:
+      [
+        {
+          en: "An outside auditor verifies our numbers each year.",
+          vi: "Một đơn vị kiểm toán bên ngoài xác minh số liệu mỗi năm.",
+        },
+      ],
+  }
+- {
+    slug: per-unit-adj,
+    lemma: "per-unit",
+    pos: adjective,
+    cefr: B2,
+    topic: environment,
+    ipa: "/ˌpɜː ˈjuːnɪt/",
+    def: "Calculated for one item, user or request.",
+    vi: "tính trên mỗi đơn vị",
+    examples:
+      [
+        {
+          en: "Per-unit emissions fell even though total use grew.",
+          vi: "Phát thải trên mỗi đơn vị giảm dù tổng mức dùng tăng.",
+        },
+      ],
+  }
+# Set 7
+- {
+    slug: dashboard-env-n,
+    lemma: "dashboard",
+    pos: noun,
+    cefr: B1,
+    topic: environment,
+    ipa: "/ˈdæʃbɔːd/",
+    def: "A screen that shows key numbers and charts together.",
+    vi: "bảng điều khiển",
+    examples:
+      [{ en: "The dashboard updates once a day.", vi: "Dashboard cập nhật mỗi ngày một lần." }],
+  }
+- {
+    slug: chart-n,
+    lemma: "chart",
+    pos: noun,
+    cefr: A2,
+    topic: environment,
+    ipa: "/tʃɑːt/",
+    def: "A picture that shows numbers as lines, bars and so on.",
+    vi: "biểu đồ",
+    examples:
+      [
+        {
+          en: "This chart shows energy use by team.",
+          vi: "Biểu đồ này cho thấy mức dùng năng lượng theo nhóm.",
+        },
+      ],
+  }
+- {
+    slug: unit-measure-n,
+    lemma: "unit",
+    pos: noun,
+    cefr: B1,
+    topic: environment,
+    ipa: "/ˈjuːnɪt/",
+    def: "A fixed amount used for measuring, like kg or kWh.",
+    vi: "đơn vị",
+    examples:
+      [
+        {
+          en: "Please show the unit next to every number.",
+          vi: "Vui lòng hiển thị đơn vị cạnh mỗi con số.",
+        },
+      ],
+  }
+- {
+    slug: axis-n,
+    lemma: "axis",
+    pos: noun,
+    cefr: B2,
+    topic: environment,
+    ipa: "/ˈæksɪs/",
+    def: "The line on the side or bottom of a chart with values.",
+    vi: "trục",
+    examples:
+      [
+        {
+          en: "The vertical axis does not start at zero.",
+          vi: "Trục dọc không bắt đầu từ số không.",
+        },
+      ],
+  }
+- {
+    slug: legend-n,
+    lemma: "legend",
+    pos: noun,
+    cefr: B2,
+    topic: environment,
+    ipa: "/ˈledʒənd/",
+    def: "A small box that explains the colours on a chart.",
+    vi: "chú giải",
+    examples:
+      [
+        {
+          en: "Add a legend so people know which line is which region.",
+          vi: "Thêm chú giải để mọi người biết đường nào là khu vực nào.",
+        },
+      ],
+  }
+- {
+    slug: time-range-n,
+    lemma: "time range",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: environment,
+    ipa: "/taɪm reɪndʒ/",
+    def: "The period of time a chart covers.",
+    vi: "khoảng thời gian",
+    examples:
+      [
+        {
+          en: "Change the time range to the last 30 days.",
+          vi: "Đổi khoảng thời gian sang 30 ngày gần nhất.",
+        },
+      ],
+  }
+- {
+    slug: refresh-rate-n,
+    lemma: "refresh rate",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: environment,
+    ipa: "/rɪˈfreʃ reɪt/",
+    def: "How often new data appears on a screen.",
+    vi: "tần suất cập nhật",
+    examples:
+      [
+        {
+          en: "The refresh rate is every six hours, not live.",
+          vi: "Tần suất cập nhật là sáu tiếng một lần, không phải trực tiếp.",
+        },
+      ],
+  }
+- {
+    slug: trend-n,
+    lemma: "trend",
+    pos: noun,
+    cefr: B1,
+    topic: environment,
+    ipa: "/trend/",
+    def: "A general direction in which numbers are changing.",
+    vi: "xu hướng",
+    examples:
+      [
+        {
+          en: "The trend is going down since we moved regions.",
+          vi: "Xu hướng đang giảm kể từ khi bọn mình chuyển khu vực.",
+        },
+      ],
+  }
+- {
+    slug: spike-n,
+    lemma: "spike",
+    pos: noun,
+    cefr: B2,
+    topic: environment,
+    ipa: "/spaɪk/",
+    def: "A sudden short rise in a number.",
+    vi: "tăng vọt",
+    examples:
+      [
+        {
+          en: "What caused the spike on Tuesday night?",
+          vi: "Điều gì gây ra đợt tăng vọt tối thứ Ba?",
+        },
+      ],
+  }
+- {
+    slug: filter-v,
+    lemma: "filter",
+    pos: verb,
+    cefr: B1,
+    topic: environment,
+    ipa: "/ˈfɪltə/",
+    def: "To show only the data that matches certain rules.",
+    vi: "lọc",
+    examples:
+      [{ en: "You can filter the chart by service.", vi: "Bạn có thể lọc biểu đồ theo dịch vụ." }],
+  }
+- {
+    slug: stacked-bar-n,
+    lemma: "stacked bar",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: environment,
+    ipa: "/stækt bɑː/",
+    def: "A bar chart where each bar is split into coloured parts.",
+    vi: "cột chồng",
+    examples:
+      [
+        {
+          en: "A stacked bar shows each service's share of the total.",
+          vi: "Cột chồng cho thấy phần đóng góp của từng dịch vụ vào tổng.",
+        },
+      ],
+  }
+- {
+    slug: cumulative-adj,
+    lemma: "cumulative",
+    pos: adjective,
+    cefr: C1,
+    topic: environment,
+    ipa: "/ˈkjuːmjələtɪv/",
+    def: "Adding each new amount to the total so far.",
+    vi: "cộng dồn",
+    examples:
+      [
+        {
+          en: "The cumulative line shows the total since January.",
+          vi: "Đường cộng dồn cho thấy tổng từ tháng Một.",
+        },
+      ],
+  }
+- {
+    slug: year-over-year-adj,
+    lemma: "year-over-year",
+    pos: adjective,
+    cefr: B2,
+    topic: environment,
+    ipa: "/ˌjɪər əʊvə ˈjɪə/",
+    def: "Compared with the same time last year.",
+    vi: "so với cùng kỳ năm trước",
+    examples:
+      [
+        {
+          en: "Year-over-year usage is down 12%.",
+          vi: "Mức dùng so với cùng kỳ năm trước giảm 12%.",
+        },
+      ],
+  }
+- {
+    slug: tooltip-n,
+    lemma: "tooltip",
+    pos: noun,
+    cefr: B1,
+    topic: environment,
+    ipa: "/ˈtuːltɪp/",
+    def: "A small box of text that appears when you hover over something.",
+    vi: "chú thích nổi",
+    examples:
+      [
+        {
+          en: "The tooltip should explain how the number is estimated.",
+          vi: "Chú thích nổi nên giải thích con số được ước tính thế nào.",
+        },
+      ],
+  }
+- {
+    slug: data-source-n,
+    lemma: "data source",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: environment,
+    ipa: "/ˈdeɪtə sɔːs/",
+    def: "The place where the numbers come from.",
+    vi: "nguồn dữ liệu",
+    examples: [{ en: "Each tile names its data source.", vi: "Mỗi ô đều ghi rõ nguồn dữ liệu." }],
+  }
+- {
+    slug: freshness-n,
+    lemma: "freshness",
+    pos: noun,
+    cefr: C1,
+    topic: environment,
+    ipa: "/ˈfreʃnəs/",
+    def: "How recent the data on a screen is.",
+    vi: "độ mới của dữ liệu",
+    examples:
+      [
+        {
+          en: "Show the data freshness in the top corner.",
+          vi: "Hiển thị độ mới của dữ liệu ở góc trên.",
+        },
+      ],
+  }
+- {
+    slug: gridline-n,
+    lemma: "gridline",
+    pos: noun,
+    cefr: B2,
+    topic: environment,
+    ipa: "/ˈɡrɪdlaɪn/",
+    def: "A thin line across a chart that helps you read values.",
+    vi: "đường lưới",
+    examples:
+      [
+        {
+          en: "Light gridlines make the values easier to read.",
+          vi: "Đường lưới nhạt giúp đọc giá trị dễ hơn.",
+        },
+      ],
+  }
+- {
+    slug: callout-n,
+    lemma: "callout",
+    pos: noun,
+    cefr: C1,
+    topic: environment,
+    ipa: "/ˈkɔːlaʊt/",
+    def: "A short note with a line pointing to part of a chart.",
+    vi: "chú thích chỉ dẫn",
+    examples:
+      [
+        {
+          en: "Add a callout where we changed regions.",
+          vi: "Thêm chú thích chỉ dẫn tại chỗ bọn mình chuyển khu vực.",
+        },
+      ],
+  }
+- {
+    slug: normalise-v,
+    lemma: "normalise",
+    pos: verb,
+    cefr: C1,
+    topic: environment,
+    ipa: "/ˈnɔːməlaɪz/",
+    def: "To adjust numbers so they can be fairly compared.",
+    vi: "chuẩn hóa",
+    examples:
+      [
+        {
+          en: "We normalise emissions by number of active users.",
+          vi: "Bọn mình chuẩn hóa phát thải theo số người dùng hoạt động.",
+        },
+      ],
+  }
+- {
+    slug: skewed-adj,
+    lemma: "skewed",
+    pos: adjective,
+    cefr: C1,
+    topic: environment,
+    ipa: "/skjuːd/",
+    def: "Not accurate because one part has too much influence.",
+    vi: "bị lệch",
+    examples:
+      [
+        {
+          en: "One huge customer makes the average skewed.",
+          vi: "Một khách hàng rất lớn khiến số trung bình bị lệch.",
+        },
+      ],
+  }
+- {
+    slug: threshold-env-n,
+    lemma: "threshold",
+    pos: noun,
+    cefr: B2,
+    topic: environment,
+    ipa: "/ˈθreʃhəʊld/",
+    def: "A level at which something starts to happen.",
+    vi: "ngưỡng",
+    examples:
+      [{ en: "The tile turns red above the threshold.", vi: "Ô chuyển sang đỏ khi vượt ngưỡng." }],
+  }
+- {
+    slug: drill-down-v,
+    lemma: "drill down",
+    pos: phrasal_verb,
+    kind: phrasal,
+    cefr: C1,
+    topic: environment,
+    ipa: "/drɪl daʊn/",
+    def: "To move from summary data to more detailed data.",
+    vi: "đi sâu vào chi tiết",
+    examples:
+      [
+        {
+          en: "You can drill down from region to single server.",
+          vi: "Bạn có thể đi sâu từ khu vực xuống từng server.",
+        },
+      ],
+  }
+# Set 8
+- {
+    slug: trade-off-env-n,
+    lemma: "trade-off",
+    pos: noun,
+    cefr: B2,
+    topic: environment,
+    ipa: "/ˈtreɪd ɒf/",
+    def: "A balance between two things you cannot fully have together.",
+    vi: "sự đánh đổi",
+    examples:
+      [
+        {
+          en: "There is a trade-off between speed and energy here.",
+          vi: "Ở đây có sự đánh đổi giữa tốc độ và năng lượng.",
+        },
+      ],
+  }
+- {
+    slug: rebound-effect-n,
+    lemma: "rebound effect",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: environment,
+    ipa: "/ˈriːbaʊnd ɪˌfekt/",
+    def: "When saving resources makes people use more overall.",
+    vi: "hiệu ứng dội ngược",
+    examples:
+      [
+        {
+          en: "Faster pages led to more visits, a classic rebound effect.",
+          vi: "Trang nhanh hơn dẫn tới nhiều lượt truy cập hơn, đúng kiểu hiệu ứng dội ngược.",
+        },
+      ],
+  }
+- {
+    slug: knock-on-effect-n-environment,
+    lemma: "knock-on effect",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: environment,
+    ipa: "/ˈnɒk ɒn ɪˌfekt/",
+    def: "An indirect result that spreads to other areas.",
+    vi: "hiệu ứng dây chuyền",
+    examples:
+      [
+        {
+          en: "Shorter timeouts had a knock-on effect on retries.",
+          vi: "Timeout ngắn hơn gây hiệu ứng dây chuyền lên số lần thử lại.",
+        },
+      ],
+  }
+- {
+    slug: efficient-adj,
+    lemma: "efficient",
+    pos: adjective,
+    cefr: B1,
+    topic: environment,
+    ipa: "/ɪˈfɪʃnt/",
+    def: "Doing a job well without wasting resources.",
+    vi: "hiệu quả",
+    examples:
+      [
+        {
+          en: "The new query is more efficient but harder to read.",
+          vi: "Câu truy vấn mới hiệu quả hơn nhưng khó đọc hơn.",
+        },
+      ],
+  }
+- {
+    slug: outweigh-v,
+    lemma: "outweigh",
+    pos: verb,
+    cefr: C1,
+    topic: environment,
+    ipa: "/ˌaʊtˈweɪ/",
+    def: "To be bigger or more important than something else.",
+    vi: "lớn hơn, vượt trội hơn",
+    examples:
+      [
+        {
+          en: "The savings outweigh the extra build time.",
+          vi: "Khoản tiết kiệm lớn hơn thời gian build tăng thêm.",
+        },
+      ],
+  }
+- {
+    slug: shift-v,
+    lemma: "shift",
+    pos: verb,
+    cefr: B2,
+    topic: environment,
+    ipa: "/ʃɪft/",
+    def: "To move something to a different place or time.",
+    vi: "dịch chuyển",
+    examples:
+      [
+        {
+          en: "Shifting the job to the CPU moved the load, not removed it.",
+          vi: "Chuyển tác vụ sang CPU chỉ dịch chuyển tải, không loại bỏ nó.",
+        },
+      ],
+  }
+- {
+    slug: increase-v,
+    lemma: "increase",
+    pos: verb,
+    cefr: A2,
+    topic: environment,
+    ipa: "/ɪnˈkriːs/",
+    def: "To become or make something bigger.",
+    vi: "tăng",
+    examples:
+      [
+        {
+          en: "Free storage will increase uploads.",
+          vi: "Lưu trữ miễn phí sẽ làm tăng lượt tải lên.",
+        },
+      ],
+  }
+- {
+    slug: overall-adj,
+    lemma: "overall",
+    pos: adjective,
+    cefr: B1,
+    topic: environment,
+    ipa: "/ˌəʊvərˈɔːl/",
+    def: "Including everything; total.",
+    vi: "tổng thể",
+    examples:
+      [
+        {
+          en: "Overall consumption went up even though each request got cheaper.",
+          vi: "Tiêu thụ tổng thể tăng dù mỗi request rẻ hơn.",
+        },
+      ],
+  }
+- {
+    slug: unintended-adj,
+    lemma: "unintended",
+    pos: adjective,
+    cefr: B2,
+    topic: environment,
+    ipa: "/ˌʌnɪnˈtendɪd/",
+    def: "Not planned or wanted.",
+    vi: "ngoài ý muốn",
+    examples:
+      [
+        {
+          en: "The unintended result was twice as many notifications.",
+          vi: "Kết quả ngoài ý muốn là số thông báo tăng gấp đôi.",
+        },
+      ],
+  }
+- {
+    slug: middle-ground-n,
+    lemma: "middle ground",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: environment,
+    ipa: "/ˈmɪdl ɡraʊnd/",
+    def: "A position between two opposite choices that both sides can accept.",
+    vi: "điểm cân bằng",
+    examples:
+      [
+        {
+          en: "As a middle ground, we keep HD only on Wi-Fi.",
+          vi: "Để cân bằng, bọn mình chỉ giữ HD khi dùng Wi-Fi.",
+        },
+      ],
+  }
+- {
+    slug: marginal-adj,
+    lemma: "marginal",
+    pos: adjective,
+    cefr: C1,
+    topic: environment,
+    ipa: "/ˈmɑːdʒɪnl/",
+    def: "Very small and not important.",
+    vi: "không đáng kể",
+    examples:
+      [
+        {
+          en: "The gain from this change is marginal.",
+          vi: "Lợi ích từ thay đổi này không đáng kể.",
+        },
+      ],
+  }
+- {
+    slug: net-adj,
+    lemma: "net",
+    pos: adjective,
+    cefr: B2,
+    topic: environment,
+    ipa: "/net/",
+    def: "Left after everything has been added and taken away.",
+    vi: "ròng",
+    examples:
+      [
+        {
+          en: "The net saving is smaller than the headline number.",
+          vi: "Khoản tiết kiệm ròng nhỏ hơn con số tiêu đề.",
+        },
+      ],
+  }
+- {
+    slug: offset-v,
+    lemma: "offset",
+    pos: verb,
+    cefr: C1,
+    topic: environment,
+    ipa: "/ˈɒfset/",
+    def: "To cancel out the effect of something.",
+    vi: "bù lại",
+    examples:
+      [
+        {
+          en: "More users offset the gains from lighter pages.",
+          vi: "Lượng người dùng tăng đã bù lại lợi ích từ trang nhẹ hơn.",
+        },
+      ],
+  }
+- {
+    slug: counterproductive-adj,
+    lemma: "counterproductive",
+    pos: adjective,
+    cefr: C1,
+    topic: environment,
+    ipa: "/ˌkaʊntəprəˈdʌktɪv/",
+    def: "Having the opposite result to the one you want.",
+    vi: "phản tác dụng",
+    examples:
+      [
+        {
+          en: "Deleting caches every hour was counterproductive.",
+          vi: "Xóa bộ nhớ đệm mỗi giờ lại phản tác dụng.",
+        },
+      ],
+  }
+- {
+    slug: demand-env-n,
+    lemma: "demand",
+    pos: noun,
+    cefr: B2,
+    topic: environment,
+    ipa: "/dɪˈmɑːnd/",
+    def: "How much people want to use something.",
+    vi: "nhu cầu",
+    examples:
+      [
+        {
+          en: "Cheaper compute will raise demand for it.",
+          vi: "Tài nguyên tính toán rẻ hơn sẽ làm nhu cầu tăng.",
+        },
+      ],
+  }
+- {
+    slug: favour-v,
+    lemma: "favour",
+    pos: verb,
+    cefr: B2,
+    topic: environment,
+    ipa: "/ˈfeɪvə/",
+    def: "To choose one option over another.",
+    vi: "ưu ái chọn",
+    examples:
+      [
+        {
+          en: "We favour readability unless the saving is large.",
+          vi: "Bọn mình ưu tiên tính dễ đọc trừ khi khoản tiết kiệm lớn.",
+        },
+      ],
+  }
+- {
+    slug: in-the-long-run-phr,
+    lemma: "in the long run",
+    pos: phrase,
+    kind: phrase,
+    cefr: B2,
+    topic: environment,
+    ipa: "/ɪn ðə lɒŋ rʌn/",
+    def: "Over a long period of time in the future.",
+    vi: "về lâu dài",
+    examples:
+      [
+        {
+          en: "In the long run, smaller models cost less to serve.",
+          vi: "Về lâu dài, mô hình nhỏ hơn tốn ít chi phí phục vụ hơn.",
+        },
+      ],
+  }
+- {
+    slug: weigh-up-phr,
+    lemma: "weigh up",
+    pos: phrasal_verb,
+    kind: phrasal,
+    cefr: B2,
+    topic: environment,
+    ipa: "/weɪ ʌp/",
+    def: "To think carefully about the good and bad sides.",
+    vi: "cân nhắc",
+    examples:
+      [
+        {
+          en: "Let's weigh up both options before we decide.",
+          vi: "Mình hãy cân nhắc cả hai phương án trước khi quyết định.",
+        },
+      ],
+  }
+- {
+    slug: diminishing-returns-n,
+    lemma: "diminishing returns",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: environment,
+    ipa: "/dɪˈmɪnɪʃɪŋ rɪˈtɜːnz/",
+    def: "When each extra effort gives a smaller benefit.",
+    vi: "lợi ích giảm dần",
+    examples:
+      [
+        {
+          en: "After 200 KB we hit diminishing returns.",
+          vi: "Sau mức 200 KB thì lợi ích giảm dần.",
+        },
+      ],
+  }
+- {
+    slug: hidden-cost-n,
+    lemma: "hidden cost",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: environment,
+    ipa: "/ˈhɪdn kɒst/",
+    def: "A cost that is not obvious at first.",
+    vi: "chi phí ẩn",
+    examples:
+      [
+        {
+          en: "Extra test devices are a hidden cost of this plan.",
+          vi: "Thiết bị test bổ sung là một chi phí ẩn của kế hoạch này.",
+        },
+      ],
+  }
+- {
+    slug: in-exchange-for-phr,
+    lemma: "in exchange for",
+    pos: phrase,
+    kind: phrase,
+    cefr: B2,
+    topic: environment,
+    ipa: "/ɪn ɪksˈtʃeɪndʒ fə/",
+    def: "Giving one thing to get another.",
+    vi: "để đổi lấy",
+    examples:
+      [
+        {
+          en: "We accept slower builds in exchange for smaller bundles.",
+          vi: "Bọn mình chấp nhận build chậm hơn để đổi lấy bundle nhỏ hơn.",
+        },
+      ],
+  }
+- {
+    slug: carbon-aware-adj,
+    lemma: "carbon-aware",
+    pos: adjective,
+    cefr: C1,
+    topic: environment,
+    ipa: "/ˈkɑːbən əˌweə/",
+    def: "Running work when or where electricity is cleanest.",
+    vi: "nhận biết các-bon",
+    examples:
+      [
+        {
+          en: "A carbon-aware scheduler runs batch jobs at noon.",
+          vi: "Bộ lập lịch nhận biết các-bon chạy tác vụ batch vào buổi trưa.",
+        },
+      ],
+  }
+- {
+    slug: peak-hours-n,
+    lemma: "peak hours",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: environment,
+    ipa: "/piːk ˈaʊəz/",
+    def: "The time of day when use is highest.",
+    vi: "giờ cao điểm",
+    examples:
+      [
+        {
+          en: "Avoid heavy jobs during peak hours.",
+          vi: "Tránh chạy tác vụ nặng vào giờ cao điểm.",
+        },
+      ],
+  }
+- {
+    slug: holistic-adj,
+    lemma: "holistic",
+    pos: adjective,
+    cefr: C1,
+    topic: environment,
+    ipa: "/həʊˈlɪstɪk/",
+    def: "Looking at the whole system, not just one part.",
+    vi: "toàn diện",
+    examples:
+      [
+        {
+          en: "We need a holistic view, not just server numbers.",
+          vi: "Mình cần một góc nhìn toàn diện, không chỉ số liệu server.",
+        },
+      ],
+  }
+# Set 9
+- {
+    slug: uncertain-adj,
+    lemma: "uncertain",
+    pos: adjective,
+    cefr: B1,
+    topic: environment,
+    ipa: "/ʌnˈsɜːtn/",
+    def: "Not known for sure.",
+    vi: "không chắc chắn",
+    examples:
+      [
+        {
+          en: "The exact savings are still uncertain.",
+          vi: "Mức tiết kiệm chính xác vẫn chưa chắc chắn.",
+        },
+      ],
+  }
+- {
+    slug: premise-n,
+    lemma: "premise",
+    pos: noun,
+    cefr: C1,
+    topic: environment,
+    ipa: "/ˈpremɪs/",
+    def: "An idea that an argument is based on.",
+    vi: "tiền đề",
+    examples:
+      [
+        {
+          en: "The premise of the model is that traffic stays flat.",
+          vi: "Tiền đề của mô hình là lưu lượng không đổi.",
+        },
+      ],
+  }
+- {
+    slug: confidence-level-n,
+    lemma: "confidence level",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: environment,
+    ipa: "/ˈkɒnfɪdəns ˌlevl/",
+    def: "How sure you are that a result is correct.",
+    vi: "mức tin cậy",
+    examples:
+      [
+        {
+          en: "We have a high confidence level for the server data only.",
+          vi: "Bọn mình chỉ có mức tin cậy cao với dữ liệu server.",
+        },
+      ],
+  }
+- {
+    slug: likely-adj,
+    lemma: "likely",
+    pos: adjective,
+    cefr: B1,
+    topic: environment,
+    ipa: "/ˈlaɪkli/",
+    def: "Probably going to happen or be true.",
+    vi: "có khả năng",
+    examples:
+      [
+        {
+          en: "It is likely that the real number is higher.",
+          vi: "Có khả năng con số thật cao hơn.",
+        },
+      ],
+  }
+- {
+    slug: roughly-adv,
+    lemma: "roughly",
+    pos: adverb,
+    cefr: B1,
+    topic: environment,
+    ipa: "/ˈrʌfli/",
+    def: "About; not exactly.",
+    vi: "khoảng chừng",
+    examples:
+      [{ en: "The job uses roughly 5 kWh a day.", vi: "Tác vụ dùng khoảng 5 kWh mỗi ngày." }],
+  }
+- {
+    slug: range-env-n,
+    lemma: "range",
+    pos: noun,
+    cefr: B1,
+    topic: environment,
+    ipa: "/reɪndʒ/",
+    def: "The space between the lowest and highest possible values.",
+    vi: "khoảng giá trị",
+    examples:
+      [
+        {
+          en: "The estimate is a range of 2 to 4 tonnes.",
+          vi: "Ước tính là một khoảng từ 2 đến 4 tấn.",
+        },
+      ],
+  }
+- {
+    slug: margin-of-error-n,
+    lemma: "margin of error",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: environment,
+    ipa: "/ˈmɑːdʒɪn əv ˈerə/",
+    def: "How far a result could be from the true value.",
+    vi: "biên độ sai số",
+    examples:
+      [
+        {
+          en: "The margin of error is about 15 percent.",
+          vi: "Biên độ sai số khoảng 15 phần trăm.",
+        },
+      ],
+  }
+- {
+    slug: disclaimer-n,
+    lemma: "disclaimer",
+    pos: noun,
+    cefr: C1,
+    topic: environment,
+    ipa: "/dɪsˈkleɪmə/",
+    def: "A short statement that limits what you promise.",
+    vi: "lời miễn trừ",
+    examples:
+      [
+        {
+          en: "Add a disclaimer that figures are estimates.",
+          vi: "Thêm lời miễn trừ rằng các con số là ước tính.",
+        },
+      ],
+  }
+- {
+    slug: suggest-env-v,
+    lemma: "suggest",
+    pos: verb,
+    cefr: B1,
+    topic: environment,
+    ipa: "/səˈdʒest/",
+    def: "To show that something is probably true.",
+    vi: "cho thấy",
+    examples:
+      [
+        {
+          en: "The data suggests that nights are cleaner.",
+          vi: "Dữ liệu cho thấy ban đêm sạch hơn.",
+        },
+      ],
+  }
+- {
+    slug: indicate-v,
+    lemma: "indicate",
+    pos: verb,
+    cefr: B2,
+    topic: environment,
+    ipa: "/ˈɪndɪkeɪt/",
+    def: "To show or point to something as a sign.",
+    vi: "chỉ ra",
+    examples:
+      [{ en: "Early results indicate a 10% drop.", vi: "Kết quả ban đầu chỉ ra mức giảm 10%." }],
+  }
+- {
+    slug: preliminary-adj,
+    lemma: "preliminary",
+    pos: adjective,
+    cefr: C1,
+    topic: environment,
+    ipa: "/prɪˈlɪmɪnəri/",
+    def: "Coming first, before the full or final version.",
+    vi: "sơ bộ",
+    examples:
+      [
+        {
+          en: "These are preliminary findings from one week of data.",
+          vi: "Đây là phát hiện sơ bộ từ một tuần dữ liệu.",
+        },
+      ],
+  }
+- {
+    slug: overstate-v,
+    lemma: "overstate",
+    pos: verb,
+    cefr: C1,
+    topic: environment,
+    ipa: "/ˌəʊvəˈsteɪt/",
+    def: "To say something is bigger or more true than it is.",
+    vi: "phóng đại",
+    examples:
+      [
+        {
+          en: "Let's not overstate the impact in the blog post.",
+          vi: "Mình đừng phóng đại tác động trong bài blog.",
+        },
+      ],
+  }
+- {
+    slug: assertion-n,
+    lemma: "assertion",
+    pos: noun,
+    cefr: C1,
+    topic: environment,
+    ipa: "/əˈsɜːʃn/",
+    def: "A strong statement that something is true.",
+    vi: "khẳng định",
+    examples:
+      [{ en: "That assertion needs data behind it.", vi: "Khẳng định đó cần dữ liệu chứng minh." }],
+  }
+- {
+    slug: greenwashing-n,
+    lemma: "greenwashing",
+    pos: noun,
+    cefr: C1,
+    topic: environment,
+    ipa: "/ˈɡriːnwɒʃɪŋ/",
+    def: "Making a product seem better for nature than it really is.",
+    vi: "tẩy xanh",
+    examples:
+      [
+        {
+          en: "Calling the app carbon-free would be greenwashing.",
+          vi: "Gọi ứng dụng là không phát thải sẽ là tẩy xanh.",
+        },
+      ],
+  }
+- {
+    slug: evidence-env-n,
+    lemma: "evidence",
+    pos: noun,
+    cefr: B1,
+    topic: environment,
+    ipa: "/ˈevɪdəns/",
+    def: "Facts that show something is true.",
+    vi: "bằng chứng",
+    examples:
+      [
+        {
+          en: "We need more evidence before we change the default.",
+          vi: "Mình cần thêm bằng chứng trước khi đổi mặc định.",
+        },
+      ],
+  }
+- {
+    slug: sample-size-n,
+    lemma: "sample size",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: environment,
+    ipa: "/ˈsɑːmpl saɪz/",
+    def: "The number of items or people in a study.",
+    vi: "cỡ mẫu",
+    examples:
+      [
+        {
+          en: "With a sample size of five offices, be careful.",
+          vi: "Với cỡ mẫu chỉ năm văn phòng, hãy cẩn thận.",
+        },
+      ],
+  }
+- {
+    slug: as-far-as-we-know-phr,
+    lemma: "as far as we know",
+    pos: phrase,
+    kind: phrase,
+    cefr: B1,
+    topic: environment,
+    ipa: "/æz fɑːr əz wi nəʊ/",
+    def: "Based on the information we have now.",
+    vi: "theo những gì mình biết",
+    examples:
+      [
+        {
+          en: "As far as we know, no other team uses this region.",
+          vi: "Theo những gì mình biết, không nhóm nào khác dùng khu vực này.",
+        },
+      ],
+  }
+- {
+    slug: subject-to-change-phr,
+    lemma: "subject to change",
+    pos: phrase,
+    kind: phrase,
+    cefr: B2,
+    topic: environment,
+    ipa: "/ˈsʌbdʒɪkt tə tʃeɪndʒ/",
+    def: "Possibly different later when new data arrives.",
+    vi: "có thể thay đổi",
+    examples:
+      [
+        {
+          en: "All numbers are subject to change after the audit.",
+          vi: "Mọi con số có thể thay đổi sau đợt kiểm toán.",
+        },
+      ],
+  }
+- {
+    slug: conservative-adj,
+    lemma: "conservative",
+    pos: adjective,
+    cefr: C1,
+    topic: environment,
+    ipa: "/kənˈsɜːvətɪv/",
+    def: "Deliberately low or careful, to avoid overstating.",
+    vi: "thận trọng",
+    examples:
+      [
+        {
+          en: "We used a conservative estimate of the savings.",
+          vi: "Bọn mình dùng một ước tính thận trọng cho khoản tiết kiệm.",
+        },
+      ],
+  }
+- {
+    slug: plausible-adj,
+    lemma: "plausible",
+    pos: adjective,
+    cefr: C1,
+    topic: environment,
+    ipa: "/ˈplɔːzəbl/",
+    def: "Seeming reasonable and possibly true.",
+    vi: "hợp lý, có vẻ đúng",
+    examples:
+      [
+        {
+          en: "That explanation is plausible, but we haven't tested it.",
+          vi: "Lời giải thích đó nghe hợp lý, nhưng mình chưa kiểm chứng.",
+        },
+      ],
+  }
+- {
+    slug: blind-spot-n-environment,
+    lemma: "blind spot",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: environment,
+    ipa: "/blaɪnd spɒt/",
+    def: "An area you cannot see or have no data about.",
+    vi: "điểm mù",
+    examples:
+      [
+        {
+          en: "Supplier emissions are a blind spot in our report.",
+          vi: "Phát thải của nhà cung cấp là điểm mù trong báo cáo.",
+        },
+      ],
+  }
+- {
+    slug: caution-n,
+    lemma: "caution",
+    pos: noun,
+    cefr: B2,
+    topic: environment,
+    ipa: "/ˈkɔːʃn/",
+    def: "Great care to avoid mistakes or danger.",
+    vi: "sự thận trọng",
+    examples:
+      [
+        {
+          en: "Please read these numbers with caution.",
+          vi: "Vui lòng đọc các con số này một cách thận trọng.",
+        },
+      ],
+  }
+- {
+    slug: unverified-adj,
+    lemma: "unverified",
+    pos: adjective,
+    cefr: C1,
+    topic: environment,
+    ipa: "/ʌnˈverɪfaɪd/",
+    def: "Not yet checked to be true.",
+    vi: "chưa được xác minh",
+    examples:
+      [
+        {
+          en: "The vendor's figure is still unverified.",
+          vi: "Con số của nhà cung cấp vẫn chưa được xác minh.",
+        },
+      ],
+  }
+- {
+    slug: hedge-v,
+    lemma: "hedge",
+    pos: verb,
+    cefr: C1,
+    topic: environment,
+    ipa: "/hedʒ/",
+    def: "To avoid saying something too strongly.",
+    vi: "nói giảm, rào đón",
+    examples:
+      [
+        {
+          en: 'Hedge the statement with "may" or "probably".',
+          vi: 'Hãy rào đón câu đó bằng "may" hoặc "probably".',
+        },
+      ],
+  }
+- {
+    slug: best-guess-n,
+    lemma: "best guess",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: environment,
+    ipa: "/best ɡes/",
+    def: "The most likely answer when you cannot be sure.",
+    vi: "phỏng đoán tốt nhất",
+    examples:
+      [
+        {
+          en: "Our best guess is about three tonnes a year.",
+          vi: "Phỏng đoán tốt nhất của bọn mình là khoảng ba tấn mỗi năm.",
+        },
+      ],
+  }
+- {
+    slug: error-bar-n,
+    lemma: "error bar",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: environment,
+    ipa: "/ˈerə bɑː/",
+    def: "A line on a chart showing how uncertain a value is.",
+    vi: "thanh sai số",
+    examples:
+      [
+        {
+          en: "Add error bars so readers see the uncertainty.",
+          vi: "Thêm thanh sai số để người đọc thấy độ bất định.",
+        },
+      ],
+  }
+- {
+    slug: probably-adv,
+    lemma: "probably",
+    pos: adverb,
+    cefr: A2,
+    topic: environment,
+    ipa: "/ˈprɒbəbli/",
+    def: "Almost certainly, but not completely.",
+    vi: "có lẽ",
+    examples:
+      [
+        {
+          en: "The real number is probably a bit higher.",
+          vi: "Con số thực có lẽ cao hơn một chút.",
+        },
+      ],
+  }
+- {
+    slug: speculative-adj,
+    lemma: "speculative",
+    pos: adjective,
+    cefr: C1,
+    topic: environment,
+    ipa: "/ˈspekjələtɪv/",
+    def: "Based on guesses rather than facts.",
+    vi: "mang tính suy đoán",
+    examples:
+      [
+        {
+          en: "Savings from the new chip are still speculative.",
+          vi: "Khoản tiết kiệm từ chip mới vẫn mang tính suy đoán.",
+        },
+      ],
+  }
+# Set 10
+- {
+    slug: proposal-env-n,
+    lemma: "proposal",
+    pos: noun,
+    cefr: B1,
+    topic: environment,
+    ipa: "/prəˈpəʊzl/",
+    def: "A written plan that asks others to agree to something.",
+    vi: "đề xuất",
+    examples:
+      [
+        {
+          en: "I wrote a proposal to cut image sizes by half.",
+          vi: "Mình đã viết một đề xuất giảm một nửa kích thước ảnh.",
+        },
+      ],
+  }
+- {
+    slug: eco-friendly-adj,
+    lemma: "eco-friendly",
+    pos: adjective,
+    cefr: B1,
+    topic: environment,
+    ipa: "/ˌiːkəʊ ˈfrendli/",
+    def: "Not harmful to the natural world.",
+    vi: "thân thiện với môi trường",
+    examples:
+      [
+        {
+          en: "We want the product to stay eco-friendly as it grows.",
+          vi: "Bọn mình muốn sản phẩm vẫn thân thiện với môi trường khi phát triển.",
+        },
+      ],
+  }
+- {
+    slug: experiment-env-n,
+    lemma: "experiment",
+    pos: noun,
+    cefr: B1,
+    topic: environment,
+    ipa: "/ɪkˈsperɪmənt/",
+    def: "A test done to find out whether an idea works.",
+    vi: "thử nghiệm",
+    examples:
+      [
+        {
+          en: "Let's run an experiment with dark mode as default.",
+          vi: "Mình hãy chạy thử nghiệm với chế độ tối làm mặc định.",
+        },
+      ],
+  }
+- {
+    slug: hypothesis-n,
+    lemma: "hypothesis",
+    pos: noun,
+    cefr: C1,
+    topic: environment,
+    ipa: "/haɪˈpɒθəsɪs/",
+    def: "An idea that you plan to test.",
+    vi: "giả thuyết",
+    examples:
+      [
+        {
+          en: "Our hypothesis is that smaller images won't hurt sales.",
+          vi: "Giả thuyết của mình là ảnh nhỏ hơn không ảnh hưởng doanh số.",
+        },
+      ],
+  }
+- {
+    slug: metric-env-n,
+    lemma: "metric",
+    pos: noun,
+    cefr: B2,
+    topic: environment,
+    ipa: "/ˈmetrɪk/",
+    def: "A number used to track how well something is going.",
+    vi: "chỉ số",
+    examples:
+      [
+        {
+          en: "The main metric is energy per active user.",
+          vi: "Chỉ số chính là năng lượng trên mỗi người dùng hoạt động.",
+        },
+      ],
+  }
+- {
+    slug: success-criteria-n,
+    lemma: "success criteria",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: environment,
+    ipa: "/səkˈses kraɪˌtɪəriə/",
+    def: "The conditions that show a project has worked.",
+    vi: "tiêu chí thành công",
+    examples:
+      [
+        {
+          en: "The success criteria must be agreed before we start.",
+          vi: "Tiêu chí thành công phải được thống nhất trước khi bắt đầu.",
+        },
+      ],
+  }
+- {
+    slug: control-group-n,
+    lemma: "control group",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: environment,
+    ipa: "/kənˈtrəʊl ɡruːp/",
+    def: "The users in a test who get no change, for comparison.",
+    vi: "nhóm đối chứng",
+    examples:
+      [
+        {
+          en: "Half the users stay in the control group.",
+          vi: "Một nửa người dùng ở lại nhóm đối chứng.",
+        },
+      ],
+  }
+- {
+    slug: pilot-n,
+    lemma: "pilot",
+    pos: noun,
+    cefr: B2,
+    topic: environment,
+    ipa: "/ˈpaɪlət/",
+    def: "A small first test before a full launch.",
+    vi: "chương trình thí điểm",
+    examples:
+      [
+        {
+          en: "We'll start with a pilot in two cities.",
+          vi: "Bọn mình sẽ bắt đầu với chương trình thí điểm ở hai thành phố.",
+        },
+      ],
+  }
+- {
+    slug: roll-out-phr,
+    lemma: "roll out",
+    pos: phrasal_verb,
+    kind: phrasal,
+    cefr: B2,
+    topic: environment,
+    ipa: "/rəʊl aʊt/",
+    def: "To make something available to more users step by step.",
+    vi: "triển khai dần",
+    examples:
+      [
+        {
+          en: "If the pilot works, we roll it out to everyone.",
+          vi: "Nếu thí điểm hiệu quả, bọn mình triển khai cho mọi người.",
+        },
+      ],
+  }
+- {
+    slug: reduce-v,
+    lemma: "reduce",
+    pos: verb,
+    cefr: A2,
+    topic: environment,
+    ipa: "/rɪˈdjuːs/",
+    def: "To make something smaller or less.",
+    vi: "giảm",
+    examples:
+      [
+        {
+          en: "This change could reduce data use by 30%.",
+          vi: "Thay đổi này có thể giảm 30% lượng dữ liệu dùng.",
+        },
+      ],
+  }
+- {
+    slug: impact-env-n,
+    lemma: "impact",
+    pos: noun,
+    cefr: B1,
+    topic: environment,
+    ipa: "/ˈɪmpækt/",
+    def: "A strong effect that something has.",
+    vi: "tác động",
+    examples:
+      [
+        {
+          en: "What is the impact on users with slow networks?",
+          vi: "Tác động lên người dùng mạng chậm là gì?",
+        },
+      ],
+  }
+- {
+    slug: budget-env-n,
+    lemma: "budget",
+    pos: noun,
+    cefr: B1,
+    topic: environment,
+    ipa: "/ˈbʌdʒɪt/",
+    def: "A planned limit on how much can be used.",
+    vi: "ngân sách",
+    examples:
+      [
+        {
+          en: "We set a carbon budget for each team.",
+          vi: "Bọn mình đặt ngân sách các-bon cho mỗi nhóm.",
+        },
+      ],
+  }
+- {
+    slug: timeline-env-n,
+    lemma: "timeline",
+    pos: noun,
+    cefr: B1,
+    topic: environment,
+    ipa: "/ˈtaɪmlaɪn/",
+    def: "A plan showing when each step will happen.",
+    vi: "lộ trình",
+    examples:
+      [
+        {
+          en: "The timeline has three phases over six months.",
+          vi: "Lộ trình gồm ba giai đoạn trong sáu tháng.",
+        },
+      ],
+  }
+- {
+    slug: milestone-env-n,
+    lemma: "milestone",
+    pos: noun,
+    cefr: B2,
+    topic: environment,
+    ipa: "/ˈmaɪlstəʊn/",
+    def: "An important point in a project's progress.",
+    vi: "cột mốc",
+    examples:
+      [
+        {
+          en: "The first milestone is a working energy report.",
+          vi: "Cột mốc đầu tiên là một báo cáo năng lượng chạy được.",
+        },
+      ],
+  }
+- {
+    slug: rationale-n-environment,
+    lemma: "rationale",
+    pos: noun,
+    cefr: C1,
+    topic: environment,
+    ipa: "/ˌræʃəˈnɑːl/",
+    def: "The reasons behind a decision or plan.",
+    vi: "lý do căn bản",
+    examples:
+      [
+        {
+          en: "The rationale section explains why we chose this region.",
+          vi: "Phần lý do giải thích vì sao bọn mình chọn khu vực này.",
+        },
+      ],
+  }
+- {
+    slug: achievable-adj,
+    lemma: "achievable",
+    pos: adjective,
+    cefr: B2,
+    topic: environment,
+    ipa: "/əˈtʃiːvəbl/",
+    def: "Possible to reach with the time and people you have.",
+    vi: "có thể đạt được",
+    examples:
+      [
+        {
+          en: "Is a 20% cut achievable by June?",
+          vi: "Cắt giảm 20% trước tháng Sáu có đạt được không?",
+        },
+      ],
+  }
+- {
+    slug: benchmark-env-n,
+    lemma: "benchmark",
+    pos: noun,
+    cefr: B2,
+    topic: environment,
+    ipa: "/ˈbentʃmɑːk/",
+    def: "A standard test used to compare performance.",
+    vi: "bài đo chuẩn",
+    examples:
+      [
+        {
+          en: "We ran the benchmark before and after the change.",
+          vi: "Bọn mình chạy bài đo chuẩn trước và sau thay đổi.",
+        },
+      ],
+  }
+- {
+    slug: evaluate-v,
+    lemma: "evaluate",
+    pos: verb,
+    cefr: B2,
+    topic: environment,
+    ipa: "/ɪˈvæljueɪt/",
+    def: "To judge how good or useful something is.",
+    vi: "đánh giá",
+    examples:
+      [
+        {
+          en: "We'll evaluate the results after four weeks.",
+          vi: "Bọn mình sẽ đánh giá kết quả sau bốn tuần.",
+        },
+      ],
+  }
+- {
+    slug: scale-up-phr,
+    lemma: "scale up",
+    pos: phrasal_verb,
+    kind: phrasal,
+    cefr: B2,
+    topic: environment,
+    ipa: "/skeɪl ʌp/",
+    def: "To make something bigger or used more widely.",
+    vi: "mở rộng quy mô",
+    examples:
+      [
+        {
+          en: "We can scale up the fix to every product page.",
+          vi: "Mình có thể mở rộng bản sửa ra mọi trang sản phẩm.",
+        },
+      ],
+  }
+- {
+    slug: opt-in-adj,
+    lemma: "opt-in",
+    pos: adjective,
+    cefr: B2,
+    topic: environment,
+    ipa: "/ˈɒpt ɪn/",
+    def: "Used only by people who choose to join.",
+    vi: "tự nguyện tham gia",
+    examples:
+      [
+        {
+          en: "The eco mode is opt-in for now.",
+          vi: "Chế độ tiết kiệm hiện chỉ dành cho ai tự chọn bật.",
+        },
+      ],
+  }
+- {
+    slug: default-setting-n,
+    lemma: "default setting",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: environment,
+    ipa: "/dɪˈfɔːlt ˈsetɪŋ/",
+    def: "The choice a system makes unless the user changes it.",
+    vi: "cài đặt mặc định",
+    examples:
+      [
+        {
+          en: "Changing the default setting has the biggest effect.",
+          vi: "Thay đổi cài đặt mặc định có tác động lớn nhất.",
+        },
+      ],
+  }
+- {
+    slug: monitor-env-v,
+    lemma: "monitor",
+    pos: verb,
+    cefr: B2,
+    topic: environment,
+    ipa: "/ˈmɒnɪtə/",
+    def: "To watch and check something over time.",
+    vi: "theo dõi",
+    examples:
+      [
+        {
+          en: "We will monitor energy use for three months.",
+          vi: "Bọn mình sẽ theo dõi mức dùng năng lượng trong ba tháng.",
+        },
+      ],
+  }
+- {
+    slug: revert-v,
+    lemma: "revert",
+    pos: verb,
+    cefr: C1,
+    topic: environment,
+    ipa: "/rɪˈvɜːt/",
+    def: "To go back to an earlier state.",
+    vi: "hoàn nguyên",
+    examples:
+      [
+        {
+          en: "If complaints rise, we revert the change.",
+          vi: "Nếu khiếu nại tăng, bọn mình hoàn nguyên thay đổi.",
+        },
+      ],
+  }
+- {
+    slug: end-result-n,
+    lemma: "end result",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: environment,
+    ipa: "/end rɪˈzʌlt/",
+    def: "What finally happens after a process.",
+    vi: "kết quả cuối cùng",
+    examples:
+      [
+        {
+          en: "The end result will decide next year's plan.",
+          vi: "Kết quả cuối cùng sẽ quyết định kế hoạch năm sau.",
+        },
+      ],
+  }
+- {
+    slug: green-light-n,
+    lemma: "green light",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: environment,
+    ipa: "/ɡriːn laɪt/",
+    def: "Permission to start or continue a project.",
+    vi: "bật đèn xanh",
+    examples:
+      [
+        {
+          en: "We need the green light from the product lead.",
+          vi: "Bọn mình cần trưởng nhóm sản phẩm bật đèn xanh.",
+        },
+      ],
+  }
+- {
+    slug: risk-env-n,
+    lemma: "risk",
+    pos: noun,
+    cefr: B1,
+    topic: environment,
+    ipa: "/rɪsk/",
+    def: "The chance that something bad will happen.",
+    vi: "rủi ro",
+    examples:
+      [
+        {
+          en: "The main risk is slower pages for some users.",
+          vi: "Rủi ro chính là trang chậm hơn với một số người dùng.",
+        },
+      ],
+  }
+- {
+    slug: de-risk-v,
+    lemma: "de-risk",
+    pos: verb,
+    cefr: C1,
+    topic: environment,
+    ipa: "/ˌdiː ˈrɪsk/",
+    def: "To make a plan less likely to fail.",
+    vi: "giảm rủi ro",
+    examples:
+      [
+        {
+          en: "We de-risk the launch by testing on old phones first.",
+          vi: "Bọn mình giảm rủi ro khi ra mắt bằng cách test trên điện thoại cũ trước.",
+        },
+      ],
+  }
+- {
+    slug: quantify-v,
+    lemma: "quantify",
+    pos: verb,
+    cefr: C1,
+    topic: environment,
+    ipa: "/ˈkwɒntɪfaɪ/",
+    def: "To express something as a number.",
+    vi: "định lượng",
+    examples:
+      [
+        {
+          en: "Try to quantify the savings in kWh.",
+          vi: "Hãy cố định lượng khoản tiết kiệm bằng kWh.",
+        },
+      ],
+  }
+- {
+    slug: iterate-v,
+    lemma: "iterate",
+    pos: verb,
+    cefr: B2,
+    topic: environment,
+    ipa: "/ˈɪtəreɪt/",
+    def: "To improve something by repeating small changes.",
+    vi: "lặp cải tiến",
+    examples:
+      [
+        {
+          en: "We'll iterate on the design after the first results.",
+          vi: "Bọn mình sẽ cải tiến thiết kế sau kết quả đầu tiên.",
+        },
+      ],
+  }
+- {
+    slug: multi-year-adj,
+    lemma: "multi-year",
+    pos: adjective,
+    cefr: B2,
+    topic: environment,
+    ipa: "/ˌmʌlti ˈjɪə/",
+    def: "Lasting for several years.",
+    vi: "nhiều năm",
+    examples:
+      [
+        {
+          en: "This is a multi-year plan, not a quick fix.",
+          vi: "Đây là kế hoạch nhiều năm, không phải bản sửa nhanh.",
+        },
+      ],
+  }
+- {
+    slug: pledge-v,
+    lemma: "pledge",
+    pos: verb,
+    cefr: C1,
+    topic: environment,
+    ipa: "/pledʒ/",
+    def: "To make a serious public promise.",
+    vi: "cam kết công khai",
+    examples:
+      [
+        {
+          en: "The company pledged to halve its cloud emissions.",
+          vi: "Công ty cam kết công khai giảm một nửa phát thải cloud.",
+        },
+      ],
+  }
+- {
+    slug: answerable-adj,
+    lemma: "answerable",
+    pos: adjective,
+    cefr: C1,
+    topic: environment,
+    ipa: "/ˈɑːnsərəbl/",
+    def: "Having to explain your actions to someone.",
+    vi: "phải giải trình",
+    examples:
+      [
+        {
+          en: "The team lead is answerable to the board for the target.",
+          vi: "Trưởng nhóm phải giải trình với ban lãnh đạo về mục tiêu.",
+        },
+      ],
+  }
+- {
+    slug: stakeholder-buy-in-n,
+    lemma: "buy-in",
+    pos: noun,
+    cefr: C1,
+    topic: environment,
+    ipa: "/ˈbaɪ ɪn/",
+    def: "Agreement and support from the people involved.",
+    vi: "sự đồng thuận",
+    examples:
+      [
+        {
+          en: "Without buy-in from sales, the pilot will stall.",
+          vi: "Không có sự đồng thuận từ bộ phận bán hàng, thí điểm sẽ bị đình trệ.",
+        },
+      ],
+  }
+- {
+    slug: auditable-adj,
+    lemma: "auditable",
+    pos: adjective,
+    cefr: C1,
+    topic: environment,
+    ipa: "/ˈɔːdɪtəbl/",
+    def: "Recorded clearly enough for someone else to check.",
+    vi: "có thể kiểm tra lại",
+    examples:
+      [
+        {
+          en: "Keep every calculation auditable.",
+          vi: "Hãy giữ mọi phép tính ở dạng có thể kiểm tra lại.",
+        },
+      ],
+  }
+- {
+    slug: follow-up-n-environment,
+    lemma: "follow-up",
+    pos: noun,
+    cefr: B2,
+    topic: environment,
+    ipa: "/ˈfɒləʊ ʌp/",
+    def: "Something done later to continue earlier work.",
+    vi: "bước tiếp theo",
+    examples:
+      [
+        {
+          en: "The follow-up is a review meeting in March.",
+          vi: "Bước tiếp theo là một buổi họp đánh giá vào tháng Ba.",
+        },
+      ],
+  }
+- {
+    slug: work-package-n,
+    lemma: "work package",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: environment,
+    ipa: "/wɜːk ˈpækɪdʒ/",
+    def: "A group of related tasks with one owner and one result.",
+    vi: "gói công việc",
+    examples:
+      [
+        {
+          en: "Each work package has its own owner and deadline.",
+          vi: "Mỗi gói công việc có người phụ trách và hạn chót riêng.",
+        },
+      ],
+  }

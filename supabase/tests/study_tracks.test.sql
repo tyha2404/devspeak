@@ -1,6 +1,6 @@
 begin;
 create extension if not exists pgtap with schema extensions;
-select plan(19);
+select plan(21);
 
 -- ----- fixtures: a grammar stage with two levels; level 1 has two lessons -----
 insert into auth.users (id, email) values
@@ -79,12 +79,21 @@ select ok(not exists (select 1 from public.user_unit_progress p join public.unit
 select is((select streak_current from public.profiles where id = '00000000-0000-0000-0000-0000000000a7'), 1,
   'finishing a test starts the streak, passed or not');
 
+insert into public.user_unit_progress (user_id, unit_id, via)
+select '00000000-0000-0000-0000-0000000000a7', id, 'lessons' from public.units where slug = 'tt-g2';
+
 select is((public.svc_test_out_unit('00000000-0000-0000-0000-0000000000a7',
   '00000000-0000-0000-0000-00000000ac05') ->> 'xp')::int, 120, 'a passed test-out (13/16) pays 120 XP');
+select is((select p.via from public.user_unit_progress p join public.units u on u.id = p.unit_id
+  where p.user_id = '00000000-0000-0000-0000-0000000000a7' and u.slug = 'tt-g2'), 'test_out',
+  'passing test-out upgrades a level already completed through lessons');
 select is((public.svc_test_out_unit('00000000-0000-0000-0000-0000000000a7',
   '00000000-0000-0000-0000-00000000ac05') ->> 'xp')::int, 0, 'once per test session');
 select is((public.svc_test_out_unit('00000000-0000-0000-0000-0000000000a7',
   '00000000-0000-0000-0000-00000000ac06') ->> 'passed')::boolean, false, '12/16 (75%) does not pass');
+select is((select p.via from public.user_unit_progress p join public.units u on u.id = p.unit_id
+  where p.user_id = '00000000-0000-0000-0000-0000000000a7' and u.slug = 'tt-g2'), 'test_out',
+  'a later failed test-out does not downgrade the completion method');
 
 select * from finish();
 rollback;

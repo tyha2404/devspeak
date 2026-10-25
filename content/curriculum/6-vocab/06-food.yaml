@@ -4,10 +4,283 @@ sort: 6
 code: T06
 kind: topic
 cefr: A2
-status: draft
-title: { en: "Food & Cooking", vi: "Ẩm thực & nấu ăn" }
-summary_vi: "Từ vựng về món ăn, nguyên liệu, cách nấu, gọi món ở nhà hàng và thói quen ăn uống."
+status: published
+title:
+  en: Team Lunches & Everyday Conversation
+  vi: Bữa trưa nhóm & giao tiếp thường ngày
+summary_vi: "Dùng những tình huống đời thường để trò chuyện tự nhiên với đồng
+  nghiệp: gọi món, ăn kiêng, đặt chỗ và tổ chức một buổi gặp nhóm."
 can_do:
-  - "Gọi món, hỏi về nguyên liệu và nói món mình thích"
-  - "Mô tả cách nấu một món ăn đơn giản"
-lessons: []
+  - Tham gia cuộc trò chuyện trong bữa trưa với nhóm
+  - Hỏi nhu cầu ăn uống và tổ chức một buổi gặp phù hợp
+lessons:
+  - slug: t06-l1
+    kind: vocab
+    title: { en: "Set 1: Inviting someone to lunch", vi: "Bộ 1: Rủ đồng nghiệp ăn trưa" }
+    senses:
+      [
+        grab-lunch-phr,
+        lunch-buddy-n,
+        tag-along-pv,
+        free-adj,
+        nearby-adj,
+        canteen-n,
+        how-about-phr,
+        starving-adj,
+        sounds-good-phr,
+        rain-check-phr,
+      ]
+    questions: []
+  - slug: t06-l2
+    kind: vocab
+    title: { en: "Set 2: Ordering food & drinks", vi: "Bộ 2: Gọi đồ ăn & thức uống" }
+    senses:
+      [
+        specials-n,
+        order-v,
+        waiter-n,
+        starter-n,
+        main-course-n,
+        dessert-n,
+        side-dish-n,
+        iced-adj,
+        spicy-adj,
+        refill-n,
+        to-go-adj,
+        extra-adj,
+      ]
+    questions: []
+  - slug: t06-l3
+    kind: vocab
+    title: { en: "Set 3: Dietary needs & allergies", vi: "Bộ 3: Nhu cầu ăn uống & dị ứng" }
+    senses:
+      [
+        meat-free-adj,
+        vegan-adj,
+        gluten-free-adj,
+        dairy-n,
+        peanut-n,
+        seafood-n,
+        halal-adj,
+        ingredient-n,
+        allergic-to-phr,
+        intolerant-adj,
+        reaction-n,
+        pescatarian-adj,
+        contain-v,
+        cross-contamination-n,
+      ]
+    questions: []
+  - slug: t06-l4
+    kind: vocab
+    title: { en: "Set 4: Food preferences", vi: "Bộ 4: Sở thích ăn uống" }
+    senses:
+      [
+        favourite-adj,
+        prefer-v,
+        sweet-adj,
+        sour-adj,
+        bitter-adj,
+        salty-adj,
+        savoury-adj,
+        bland-adj,
+        crispy-adj,
+        greasy-adj,
+        flavour-n,
+        taste-v,
+        fussy-eater-n,
+        acquired-taste-n,
+        comfort-food-n,
+        craving-n,
+      ]
+    questions: []
+  - slug: t06-l5
+    kind: vocab
+    title: { en: "Set 5: Cooking & routines", vi: "Bộ 5: Nấu ăn & thói quen" }
+    senses:
+      [
+        boil-v,
+        fry-v,
+        stir-fry-v,
+        chop-v,
+        grill-v,
+        steam-v,
+        bake-v,
+        recipe-n,
+        leftovers-n,
+        microwave-v,
+        meal-prep-n,
+        lunchbox-n,
+        rice-cooker-n,
+        frying-pan-n,
+        heat-up-pv,
+        instant-noodles-n,
+        defrost-v,
+        season-v,
+      ]
+    questions: []
+  - slug: t06-l6
+    kind: vocab
+    title: { en: "Set 6: Splitting a bill", vi: "Bộ 6: Chia hoá đơn" }
+    senses:
+      [
+        bill-n,
+        split-the-bill-phr,
+        gratuity-n,
+        service-charge-n,
+        receipt-n,
+        pay-back-pv,
+        owe-v,
+        treat-v,
+        on-the-house-phr,
+        per-person-phr,
+        round-up-pv,
+        change-n,
+        transfer-v-food,
+        tax-n,
+        discount-n,
+        cash-n,
+        card-payment-n,
+        overcharge-v,
+        itemised-adj,
+        chip-in-pv,
+      ]
+    questions: []
+  - slug: t06-l7
+    kind: vocab
+    title: { en: "Set 7: Booking for a team", vi: "Bộ 7: Đặt chỗ cho nhóm" }
+    senses:
+      [
+        book-a-table-phr,
+        reservation-n,
+        party-n,
+        private-room-n,
+        seating-plan-n,
+        fully-booked-adj,
+        arrival-time-n,
+        booking-fee-n,
+        set-menu-n,
+        guest-count-n,
+        walk-in-n,
+        cancellation-n,
+        under-the-name-phr,
+        confirmation-n,
+        rooftop-n,
+        long-table-n,
+        outdoor-seating-n,
+        wheelchair-accessible-adj,
+        no-show-n,
+        special-request-n,
+        minimum-spend-n,
+        hold-a-table-phr,
+      ]
+    questions: []
+  - slug: t06-l8
+    kind: vocab
+    title: { en: "Set 8: Lunch small talk", vi: "Bộ 8: Trò chuyện trong bữa trưa" }
+    senses:
+      [
+        catch-up-n-food,
+        come-to-think-of-it-phr,
+        speaking-of-phr,
+        what-about-you-phr,
+        pastime-n,
+        where-are-you-from-phr,
+        traffic-jam-n-food,
+        weekend-plans-n,
+        binge-watch-v,
+        small-world-phr,
+        no-way-phr,
+        nosy-adj,
+        how-come-phr,
+        i-know-what-you-mean-phr,
+        off-topic-adj-food,
+        awkward-silence-n,
+        conversation-starter-n,
+        anecdote-n,
+        go-on-pv,
+        relatable-adj,
+        banter-n,
+        hit-it-off-phr,
+        in-common-phr,
+        inside-joke-n,
+      ]
+    questions: []
+  - slug: t06-l9
+    kind: vocab
+    title: { en: "Set 9: Food delivery problems", vi: "Bộ 9: Sự cố giao đồ ăn" }
+    senses:
+      [
+        delivery-app-n,
+        courier-n,
+        missing-adj-food,
+        wrong-order-n,
+        running-late-phr,
+        estimated-time-of-arrival-n,
+        spill-v,
+        leak-v,
+        packaging-n,
+        sealed-adj,
+        refund-n,
+        complaint-n,
+        customer-support-n,
+        contents-n,
+        reorder-v,
+        delivery-fee-n,
+        drop-off-n,
+        doorstep-n,
+        soggy-adj,
+        undercooked-adj,
+        out-of-stock-adj,
+        substitute-v,
+        voucher-n,
+        compensation-n,
+        sort-out-pv,
+        crushed-adj,
+        wrong-address-n,
+        rate-v,
+      ]
+    questions: []
+  - slug: t06-l10
+    kind: vocab
+    title: { en: "Set 10: Planning a team gathering", vi: "Bộ 10: Tổ chức buổi gặp nhóm" }
+    senses:
+      [
+        year-end-party-n,
+        picnic-n,
+        catering-n-food,
+        buffet-n,
+        finger-food-n,
+        refreshments-n,
+        beverage-n,
+        non-alcoholic-adj,
+        toast-n,
+        send-off-n,
+        festive-adj,
+        occasion-n,
+        theme-n,
+        decorations-n,
+        sign-up-sheet-n,
+        guest-list-n,
+        turnout-n,
+        dress-up-pv,
+        central-location-n,
+        within-budget-phr,
+        cost-per-head-n,
+        price-range-n,
+        expense-claim-n,
+        sign-off-pv,
+        logistics-n-food,
+        liaise-v,
+        take-charge-of-phr,
+        preference-n,
+        majority-n,
+        meet-halfway-phr,
+        put-to-a-vote-phr,
+        pitch-in-pv,
+        tentative-adj,
+        finalise-v,
+        save-the-date-n,
+        off-site-n,
+      ]
+    questions: []

@@ -4,10 +4,306 @@ sort: 13
 code: T13
 kind: topic
 cefr: B1
-status: draft
-title: { en: "Feelings & Emotions", vi: "Cảm xúc & tâm trạng" }
-summary_vi: "Từ vựng để gọi tên cảm xúc: vui, thất vọng, bực bội, tự hào, lo lắng và cách thể hiện chúng."
+status: published
+title:
+  en: Onboarding, Feedback & Team Change
+  vi: Hoà nhập, phản hồi & thay đổi trong nhóm
+summary_vi: Giao tiếp khi có người mới, thay đổi vai trò hoặc chuyển giao kiến
+  thức. Luyện phản hồi dựa trên hành vi và nhu cầu thay vì gán nhãn con người.
 can_do:
-  - "Diễn tả chính xác cảm xúc của mình trong nhiều tình huống"
-  - "Hỏi han và an ủi người khác một cách tự nhiên"
-lessons: []
+  - Giúp người mới hiểu công việc và tìm đúng người hỗ trợ
+  - Phản hồi cụ thể và trao đổi thay đổi trong nhóm
+lessons:
+  - {
+      "slug": "t13-l1",
+      "kind": "vocab",
+      "title": { "en": "Set 1: Welcoming a new developer", "vi": "Bộ 1: Chào đón developer mới" },
+      "senses":
+        [
+          "newcomer-n-emotions",
+          "welcome-v",
+          "introduce-v",
+          "teammate-n",
+          "first-day-n",
+          "show-around-pv",
+          "team-lead-n",
+          "desk-n",
+          "nice-to-meet-you-phr-emotions",
+          "buddy-n",
+        ],
+      "questions": [],
+    }
+  - {
+      "slug": "t13-l2",
+      "kind": "vocab",
+      "title": { "en": "Set 2: An onboarding checklist", "vi": "Bộ 2: Checklist hoà nhập" },
+      "senses":
+        [
+          "checklist-n",
+          "access-n",
+          "account-n",
+          "laptop-n",
+          "set-up-pv",
+          "request-v",
+          "approve-v",
+          "pending-adj",
+          "missing-adj",
+          "tick-off-pv",
+          "welcome-pack-n",
+          "badge-n-emotions",
+        ],
+      "questions": [],
+    }
+  - {
+      "slug": "t13-l3",
+      "kind": "vocab",
+      "title": { "en": "Set 3: Expectations in a new role", "vi": "Bộ 3: Kỳ vọng với vai trò mới" },
+      "senses":
+        [
+          "role-n",
+          "expectation-n",
+          "probation-n",
+          "ramp-up-pv",
+          "settle-in-pv",
+          "priority-n",
+          "contribute-v-emotions",
+          "job-spec-n",
+          "get-up-to-speed-phr",
+          "steep-adj",
+          "independently-adv",
+          "starter-task-n",
+          "short-term-adj",
+          "keep-an-eye-on-phr",
+        ],
+      "questions": [],
+    }
+  - {
+      "slug": "t13-l4",
+      "kind": "vocab",
+      "title": { "en": "Set 4: Asking for feedback", "vi": "Bộ 4: Xin phản hồi" },
+      "senses":
+        [
+          "feedback-n",
+          "ask-for-phr",
+          "honest-adj",
+          "suggestion-n",
+          "point-out-pv",
+          "improvement-n",
+          "area-for-growth-n",
+          "appreciate-v",
+          "blind-spot-n",
+          "open-to-phr",
+          "strong-point-n",
+          "shortcoming-n",
+          "catch-up-n-emotions",
+          "work-in-progress-n",
+          "how-did-i-do-phr",
+          "rough-adj",
+        ],
+      "questions": [],
+    }
+  - {
+      "slug": "t13-l5",
+      "kind": "vocab",
+      "title":
+        { "en": "Set 5: Giving constructive feedback", "vi": "Bộ 5: Góp ý có tính xây dựng" },
+      "senses":
+        [
+          "constructive-adj-emotions",
+          "observation-n",
+          "behaviour-n",
+          "impact-n",
+          "recommend-v",
+          "criticise-v",
+          "tone-n-emotions",
+          "label-v",
+          "judgement-n",
+          "encourage-v-emotions",
+          "phrase-v",
+          "timely-adj",
+          "in-private-phr",
+          "balance-v",
+          "actionable-adj",
+          "intention-n",
+          "supportive-adj",
+          "jump-to-conclusions-phr",
+        ],
+      "questions": [],
+    }
+  - {
+      "slug": "t13-l6",
+      "kind": "vocab",
+      "title":
+        { "en": "Set 6: Receiving difficult feedback", "vi": "Bộ 6: Nhận phản hồi khó nghe" },
+      "senses":
+        [
+          "defensive-adj",
+          "react-v",
+          "take-on-board-phr",
+          "reflect-v",
+          "admit-v",
+          "mistake-n",
+          "disappointed-adj",
+          "embarrassed-adj",
+          "calm-down-pv",
+          "justify-v",
+          "overreact-v",
+          "criticism-n",
+          "follow-up-n-emotions",
+          "agree-on-phr",
+          "concrete-adj",
+          "sting-v",
+          "grateful-adj",
+          "push-back-pv",
+          "own-up-to-pv",
+          "look-back-on-pv",
+        ],
+      "questions": [],
+    }
+  - {
+      "slug": "t13-l7",
+      "kind": "vocab",
+      "title": { "en": "Set 7: Changing responsibilities", "vi": "Bộ 7: Thay đổi trách nhiệm" },
+      "senses":
+        [
+          "responsibility-n",
+          "take-over-pv",
+          "hand-over-pv",
+          "reorganisation-n",
+          "report-to-pv",
+          "decision-maker-n",
+          "scope-n",
+          "step-down-pv",
+          "transfer-v",
+          "reassign-v",
+          "overlap-v",
+          "effective-from-phr",
+          "in-charge-of-phr",
+          "approval-n",
+          "direct-report-n",
+          "job-title-n",
+          "take-on-pv",
+          "redistribute-v",
+          "point-of-contact-n",
+          "step-up-pv",
+          "mandate-n",
+          "sign-off-n",
+        ],
+      "questions": [],
+    }
+  - {
+      "slug": "t13-l8",
+      "kind": "vocab",
+      "title": { "en": "Set 8: Knowledge transfer", "vi": "Bộ 8: Chuyển giao kiến thức" },
+      "senses":
+        [
+          "knowledge-transfer-n",
+          "handover-document-n",
+          "walkthrough-n",
+          "pair-v",
+          "tribal-knowledge-n",
+          "runbook-n",
+          "record-v",
+          "legacy-adj",
+          "dependency-n",
+          "gotcha-n",
+          "schedule-v",
+          "session-n",
+          "bus-factor-n",
+          "document-v",
+          "edge-case-n",
+          "pass-on-pv",
+          "single-point-of-failure-n",
+          "sit-in-on-pv",
+          "flowchart-n",
+          "backstory-n",
+          "custodian-n",
+          "known-issue-n",
+          "office-hours-n",
+          "stale-adj",
+        ],
+      "questions": [],
+    }
+  - {
+      "slug": "t13-l9",
+      "kind": "vocab",
+      "title": { "en": "Set 9: Disagreement during change", "vi": "Bộ 9: Bất đồng khi thay đổi" },
+      "senses":
+        [
+          "disagree-v",
+          "concern-n",
+          "raise-a-concern-phr",
+          "rationale-n",
+          "compromise-n",
+          "common-goal-n",
+          "trade-off-n",
+          "resistance-n",
+          "reluctant-adj",
+          "sceptical-adj",
+          "persuade-v",
+          "argument-n",
+          "respectful-adj-emotions",
+          "conflict-n",
+          "escalate-v",
+          "consensus-n",
+          "uncertainty-n",
+          "devils-advocate-n",
+          "voice-v",
+          "commit-v",
+          "disagree-and-commit-phr",
+          "frustration-n",
+          "perspective-n",
+          "step-back-pv",
+          "hard-data-n",
+          "goodwill-n-emotions",
+          "diplomatic-adj",
+          "side-with-pv",
+        ],
+      "questions": [],
+    }
+  - {
+      "slug": "t13-l10",
+      "kind": "vocab",
+      "title":
+        { "en": "Set 10: A team transition plan", "vi": "Bộ 10: Kế hoạch chuyển tiếp của nhóm" },
+      "senses":
+        [
+          "transition-n",
+          "owner-n",
+          "mitigation-n",
+          "contingency-n",
+          "rollout-n",
+          "cutover-n",
+          "headcount-n-emotions",
+          "attrition-n",
+          "backfill-v",
+          "offboarding-n",
+          "continuity-n",
+          "disruption-n",
+          "phase-out-pv",
+          "interim-adj",
+          "successor-n",
+          "coverage-n",
+          "retain-v",
+          "communicate-v",
+          "announcement-n",
+          "readiness-n",
+          "buffer-n",
+          "transparency-n",
+          "workstream-n",
+          "bottleneck-n",
+          "outline-v",
+          "capacity-n-emotions",
+          "go-live-n",
+          "key-person-risk-n",
+          "staffing-n",
+          "onboard-v-emotions",
+          "last-working-day-n",
+          "wind-down-pv",
+          "knock-on-effect-n",
+          "stopgap-n",
+          "recap-v",
+          "earmark-v",
+        ],
+      "questions": [],
+    }

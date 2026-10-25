@@ -1,0 +1,525 @@
+# [reference topic id, existing lesson slug or null, original developer-facing outcome]
+# Existing lesson identities and ordering are retained; missing concepts become visible outlines.
+- unit: grammar-a1
+  title: { en: "Grammar A1 — Your First Developer Conversations", vi: "Ngữ pháp A1" }
+  summary_vi: "Bắt đầu từ câu ngắn để giới thiệu bản thân, mô tả công cụ và cập nhật công việc. Luyện dùng chủ ngữ, động từ và câu hỏi rõ ràng trong tin nhắn nhóm."
+  can_do:
+    [
+      "Giới thiệu vai trò và mô tả trạng thái một tác vụ",
+      "Hỏi thông tin cơ bản về ticket, tài khoản và môi trường làm việc",
+    ]
+  lessons:
+    - [
+        a1-be-pronouns,
+        g-a1-be,
+        "Giới thiệu vai trò và nói trạng thái của build, server hoặc ticket.",
+      ]
+    - [
+        a1-object-pronouns,
+        g-a1-object-pronouns,
+        "Chỉ rõ người nhận tin nhắn, người cần hỗ trợ và đối tượng thao tác.",
+      ]
+    - [
+        a1-nouns,
+        g-a1-plurals,
+        "Mô tả một hay nhiều file, lỗi và yêu cầu mà không nhầm số ít, số nhiều.",
+      ]
+    - [
+        a1-countability,
+        g-a1-countability,
+        "Phân biệt information, feedback và advice với những thứ có thể đếm trong công việc.",
+      ]
+    - [a1-possessives, g-a1-possessives, "Nói rõ tài khoản, thiết bị hoặc phần việc thuộc về ai."]
+    - [
+        a1-demonstratives,
+        g-a1-this-that,
+        "Chỉ đúng ticket, dòng log hoặc thay đổi đang được thảo luận.",
+      ]
+    - [
+        a1-articles,
+        g-a1-articles,
+        "Giới thiệu một API mới rồi nhắc lại đúng API đó trong lời giải thích.",
+      ]
+    - [a1-quantifiers, g-a1-quantifiers, "Hỏi và nói lượng thời gian, dữ liệu hoặc số lỗi còn lại."]
+    - [
+        a1-adjectives,
+        g-a1-adjectives-adverbs,
+        "Phân biệt trạng thái hệ thống với cách hệ thống thực hiện tác vụ.",
+      ]
+    - [
+        a1-frequency,
+        g-a1-frequency,
+        "Mô tả tần suất review, chạy test và thực hiện một công việc định kỳ.",
+      ]
+    - [
+        a1-prepositions,
+        g-a1-prepositions,
+        "Nêu đúng giờ họp, ngày release và vị trí tài liệu hoặc thiết bị.",
+      ]
+    - [
+        a1-present-simple,
+        g-a1-present-simple,
+        "Giải thích thói quen của nhóm và hành vi bình thường của một chức năng.",
+      ]
+    - [a1-likes, g-a1-likes, "Nói về công nghệ yêu thích và những tác vụ mình muốn làm cùng nhóm."]
+    - [
+        a1-present-continuous,
+        g-a1-present-continuous,
+        "Nói mình đang xử lý gì và phân biệt với công việc thường ngày.",
+      ]
+    - [
+        a1-word-order,
+        g-a1-word-order,
+        "Viết một câu cập nhật có người thực hiện, hành động và đối tượng rõ ràng.",
+      ]
+    - [
+        a1-questions,
+        g-a1-questions,
+        "Hỏi và phủ định hành vi của tính năng mà không bỏ trợ động từ.",
+      ]
+    - [
+        a1-wh-questions,
+        g-a1-wh-questions,
+        "Hỏi ai phụ trách, lỗi xảy ra ở đâu và cần hoàn thành khi nào.",
+      ]
+    - [
+        a1-there-is,
+        g-a1-there-is,
+        "Báo có một lỗi, nhiều cảnh báo hoặc một tuỳ chọn trong giao diện.",
+      ]
+    - [a1-can-imperatives, g-a1-can, "Nói khả năng của mình và xin hỗ trợ một tác vụ đơn giản."]
+- unit: grammar-a2
+  title: { en: "Grammar A2 — Updates, Requests & Plans", vi: "Ngữ pháp A2" }
+  summary_vi: "Kể việc đã làm, mô tả lỗi và thống nhất bước tiếp theo. Dùng câu hỏi, so sánh và lời đề nghị để trao đổi trong stand-up, ticket và kế hoạch sprint."
+  can_do:
+    [
+      "Kể lại công việc hôm qua và nêu kế hoạch tiếp theo",
+      "Mô tả vấn đề, so sánh lựa chọn và đưa lời khuyên đơn giản",
+    ]
+  lessons:
+    - [
+        a2-reflexive,
+        g-a2-reflexive,
+        "Nói ai tự xử lý phần việc nào và tránh nhầm chủ thể nhận hành động.",
+      ]
+    - [
+        a2-past-simple,
+        g-a2-past-simple,
+        "Báo điều đã sửa, đã thử và đã kiểm tra trong một mốc thời gian đã qua.",
+      ]
+    - [
+        a2-was-were,
+        g-a2-was-were,
+        "Hỏi trạng thái hệ thống trước sự cố và xác nhận ai có mặt lúc đó.",
+      ]
+    - [
+        a2-prepositions-movement,
+        g-a2-prepositions-movement,
+        "Mô tả dữ liệu đi qua các bước xử lý và thao tác di chuyển file.",
+      ]
+    - [a2-future, g-a2-will, "Phân biệt lời hứa, dự đoán và quyết định thực hiện bước tiếp theo."]
+    - [
+        a2-present-perfect,
+        g-a2-present-perfect,
+        "Nói trải nghiệm đã từng dùng một công nghệ mà không gán mốc thời gian cụ thể.",
+      ]
+    - [
+        a2-obligation,
+        g-a2-must-have-to,
+        "Phân biệt điều bắt buộc với việc không cần làm trong quy trình nhóm.",
+      ]
+    - [
+        a2-ed-ing-adjectives,
+        g-a2-ed-ing-adjectives,
+        "Phân biệt cảm nhận của người dùng với tính chất của một trải nghiệm giao diện.",
+      ]
+    - [
+        a2-adjective-order,
+        g-a2-adjective-order,
+        "Mô tả thiết bị, tính năng và hệ thống bằng cụm danh từ tự nhiên.",
+      ]
+    - [
+        a2-comparatives,
+        g-a2-comparatives,
+        "So sánh hai công cụ hoặc cách làm theo một tiêu chí cụ thể.",
+      ]
+    - [
+        a2-superlatives,
+        g-a2-superlatives,
+        "Xác định phương án phù hợp nhất trong nhóm lựa chọn đã nêu.",
+      ]
+    - [
+        a2-too-enough,
+        g-a2-too-enough,
+        "Giải thích giới hạn về thời gian, quyền truy cập hoặc năng lực hệ thống.",
+      ]
+    - [a2-so-such, g-a2-so-such, "Mô tả mức độ ảnh hưởng của một lỗi và kết quả mà nó gây ra."]
+    - [
+        a2-linkers,
+        g-a2-linkers,
+        "Nối nguyên nhân, kết quả và lựa chọn trong cập nhật công việc ngắn.",
+      ]
+    - [
+        a2-indefinite-pronouns,
+        g-a2-some-any-compounds,
+        "Hỏi có ai gặp lỗi hoặc có điều gì thay đổi mà chưa chỉ rõ đối tượng.",
+      ]
+    - [
+        a2-quantifiers,
+        g-a2-quantifiers,
+        "Trao đổi số yêu cầu, lượng dữ liệu và thời gian cần cho một tác vụ.",
+      ]
+- unit: grammar-b1
+  title: { en: "Grammar B1 — Explain Bugs & Propose Solutions", vi: "Ngữ pháp B1" }
+  summary_vi: "Giải thích lỗi, diễn biến công việc và kết quả đã kiểm chứng. Dùng mệnh đề, điều kiện và cách hỏi gián tiếp để làm rõ yêu cầu và đề xuất cách giải quyết."
+  can_do:
+    [
+      "Viết báo cáo lỗi có trình tự và kết quả thử nghiệm",
+      "Giải thích lựa chọn và đặt câu hỏi lịch sự trong thảo luận kỹ thuật",
+    ]
+  lessons:
+    - [
+        b1-determiners,
+        g-b1-both-either-neither,
+        "Nói cả hai, một trong hai hoặc không phương án nào đáp ứng yêu cầu.",
+      ]
+    - [
+        b1-past-continuous,
+        g-b1-past-continuous,
+        "Mô tả tác vụ đang chạy khi một lỗi hoặc sự kiện khác xảy ra.",
+      ]
+    - [
+        b1-perfect-vs-past,
+        g-b1-present-perfect,
+        "Phân biệt kết quả còn liên quan hiện tại với thay đổi ở một mốc đã qua.",
+      ]
+    - [
+        b1-perfect-markers,
+        g-b1-perfect-markers,
+        "Cập nhật việc vừa xong, chưa xong và đã kéo dài từ thời điểm nào.",
+      ]
+    - [
+        b1-perfect-continuous,
+        g-b1-present-perfect-continuous,
+        "Nói một quá trình điều tra đã kéo dài bao lâu và còn đang tiếp diễn.",
+      ]
+    - [b1-past-perfect, g-b1-past-perfect, "Làm rõ thay đổi nào đã xảy ra trước khi sự cố bắt đầu."]
+    - [
+        b1-future-continuous,
+        g-b1-future-continuous,
+        "Thông báo lịch làm việc dự kiến tại một thời điểm trong tương lai.",
+      ]
+    - [
+        b1-time-clauses,
+        g-b1-time-clauses,
+        "Nêu thứ tự chạy test, triển khai và thông báo sau khi điều kiện được đáp ứng.",
+      ]
+    - [b1-used-to, g-b1-used-to, "So sánh quy trình cũ với điều nhóm đã quen làm hiện nay."]
+    - [
+        b1-gerund-infinitive,
+        g-b1-gerund-infinitive,
+        "Dùng đúng dạng động từ sau suggest, avoid, decide và plan.",
+      ]
+    - [
+        b1-ability-permission,
+        g-b1-ability-permission,
+        "Phân biệt hệ thống có khả năng làm gì với người dùng được phép làm gì.",
+      ]
+    - [
+        b1-deduction,
+        g-b1-must-cant-deduction,
+        "Nêu suy luận về nguyên nhân và mức chắc chắn mà bằng chứng cho phép.",
+      ]
+    - [
+        b1-advice,
+        g-b1-advice,
+        "Đưa lời khuyên có cân nhắc mức khẩn cấp và quyền quyết định của người nhận.",
+      ]
+    - [
+        b1-purpose-clauses,
+        g-b1-purpose-clauses,
+        "Giải thích mục đích của test, validation và bước xử lý bổ sung.",
+      ]
+    - [
+        b1-conditionals,
+        g-b1-first-conditional,
+        "Nêu hành vi hoặc bước xử lý sẽ xảy ra khi điều kiện được đáp ứng.",
+      ]
+    - [
+        b1-second-conditional,
+        g-b1-second-conditional,
+        "Thảo luận một giải pháp giả định khi tài nguyên hoặc yêu cầu thay đổi.",
+      ]
+    - [
+        b1-passive,
+        g-b1-passive,
+        "Mô tả dữ liệu được xử lý hoặc lỗi được sửa mà không làm mất trách nhiệm cần thiết.",
+      ]
+    - [
+        b1-noun-clauses,
+        g-b1-noun-clauses,
+        "Diễn đạt điều đã biết, điều cần tìm hiểu và kết quả của một phép kiểm tra.",
+      ]
+    - [
+        b1-relative,
+        g-b1-relative-clauses,
+        "Chỉ đúng API, người dùng hoặc yêu cầu đang được đề cập.",
+      ]
+    - [
+        b1-relative-prepositions,
+        g-b1-relative-prepositions,
+        "Mô tả dịch vụ mà ứng dụng phụ thuộc vào và dữ liệu mà nhóm làm việc với.",
+      ]
+    - [
+        b1-agreement-tags,
+        g-b1-question-tags,
+        "Xác nhận cách hiểu về hành vi hệ thống mà không biến suy đoán thành sự thật.",
+      ]
+- unit: grammar-b2
+  title: { en: "Grammar B2 — Reviews, Incidents & Trade-offs", vi: "Ngữ pháp B2" }
+  summary_vi: "Diễn đạt nguyên nhân, đánh đổi và quan điểm trong code review, postmortem và thảo luận thiết kế. Kiểm soát mức nhấn mạnh và phân biệt thông tin chính với phần bổ sung."
+  can_do:
+    [
+      "Phân tích điều có thể làm khác trong một sự cố",
+      "Trình bày phản biện có lý do và báo lại quyết định chính xác",
+    ]
+  lessons:
+    - [
+        b2-articles-advanced,
+        g-b2-articles-advanced,
+        "Phân biệt nhận định chung về phần mềm với một hệ thống cụ thể đang bàn.",
+      ]
+    - [
+        b2-verb-patterns,
+        g-b2-verb-patterns,
+        "Tránh đổi nghĩa khi dùng stop, remember, try với các dạng động từ khác nhau.",
+      ]
+    - [
+        b2-third-conditional,
+        g-b2-third-conditional,
+        "Phân tích một phương án đã không xảy ra trong postmortem.",
+      ]
+    - [
+        b2-condition-linkers,
+        g-b2-condition-linkers,
+        "Đặt điều kiện triển khai, ngoại lệ và phương án dự phòng chính xác.",
+      ]
+    - [
+        b2-concession,
+        g-b2-contrast-linkers,
+        "Thừa nhận ưu điểm của một phương án trước khi nêu giới hạn.",
+      ]
+    - [
+        b2-wishes,
+        g-b2-wish-past,
+        "Diễn đạt điều đáng lẽ nên được thực hiện mà không chỉ trích cá nhân.",
+      ]
+    - [
+        b2-causative,
+        g-b2-causative,
+        "Phân biệt tự thực hiện, nhờ người khác và thuê thực hiện một việc.",
+      ]
+    - [
+        b2-passive-advanced,
+        g-b2-passive-reporting,
+        "Báo một nhận định từ nguồn khác mà vẫn giữ rõ nguồn và độ chắc chắn.",
+      ]
+    - [
+        b2-reported,
+        g-b2-reported,
+        "Ghi lại điều bên liên quan đã nói với đúng mốc thời gian và chủ thể.",
+      ]
+    - [
+        b2-reported-questions,
+        g-b2-reported-questions,
+        "Tóm tắt câu hỏi và yêu cầu từ cuộc họp mà không đổi ý ban đầu.",
+      ]
+    - [
+        b2-reporting-verbs,
+        g-b2-reporting-verbs,
+        "Phân biệt đề nghị, hứa, thừa nhận và khuyến nghị khi viết biên bản.",
+      ]
+    - [
+        b2-relative-advanced,
+        g-b2-non-defining-relatives,
+        "Thêm bối cảnh về một thành phần mà không đổi đối tượng câu nói.",
+      ]
+    - [
+        b2-emphasis-do,
+        g-b2-emphasis-do,
+        "Nhấn mạnh một điểm cần làm rõ trong phản hồi kỹ thuật mà không tăng giọng điệu đối đầu.",
+      ]
+    - [
+        b2-whatever,
+        g-b2-whatever,
+        "Nêu yêu cầu vẫn đúng bất kể cách triển khai hoặc nguồn dữ liệu.",
+      ]
+    - [
+        b2-comparisons,
+        g-b2-comparisons,
+        "Diễn đạt mức tăng, giảm và quan hệ giữa hai thay đổi hiệu năng.",
+      ]
+    - [
+        b2-phrasal-prepositions,
+        g-b2-phrasal-prepositions,
+        "Dùng đúng cụm động từ trong trao đổi triển khai, rollback và điều tra lỗi.",
+      ]
+- unit: grammar-c1
+  title: { en: "Grammar C1 — Architecture & Technical Leadership", vi: "Ngữ pháp C1" }
+  summary_vi: "Dẫn dắt thảo luận kỹ thuật bằng lập luận chặt chẽ và văn bản dễ theo dõi. Tập diễn đạt giả định, rủi ro, kiến nghị và quan hệ giữa các ý khi viết RFC hoặc quyết định kiến trúc."
+  can_do:
+    [
+      "Viết RFC có giả định, phương án và điều kiện xem lại quyết định",
+      "Phản biện một thiết kế bằng ngôn ngữ chính xác, hợp tác",
+    ]
+  lessons:
+    - [
+        c1-past-perfect-continuous,
+        g-c1-past-perfect-continuous,
+        "Giải thích quá trình tích luỹ dẫn tới một sự cố hoặc quyết định trong quá khứ.",
+      ]
+    - [
+        c1-future-perfect,
+        g-c1-future-perfect,
+        "Nêu đầu ra dự kiến sẽ hoàn thành trước mốc chuyển đổi hệ thống.",
+      ]
+    - [
+        c1-future-perfect-continuous,
+        g-c1-future-perfect-continuous,
+        "Diễn đạt thời lượng vận hành hoặc thử nghiệm tính tới một mốc tương lai.",
+      ]
+    - [
+        c1-modal-perfect,
+        g-c1-modal-perfect,
+        "Phân biệt khả năng, nghĩa vụ và nhận xét sau sự kiện trong phân tích kỹ thuật.",
+      ]
+    - [
+        c1-mixed-conditionals,
+        g-c1-mixed-conditionals,
+        "Liên kết quyết định quá khứ với hệ quả hiện tại khi thảo luận nợ kỹ thuật.",
+      ]
+    - [
+        c1-condition-alternatives,
+        g-c1-condition-alternatives,
+        "Nêu điều kiện, giả định và ngoại lệ của phương án trong RFC.",
+      ]
+    - [
+        c1-verb-complementation,
+        g-c1-verb-complementation,
+        "Diễn đạt chính xác ai được yêu cầu, khuyến khích hoặc kỳ vọng thực hiện việc gì.",
+      ]
+    - [
+        c1-relative-reduction,
+        g-c1-relative-reduction,
+        "Rút gọn phần mô tả thành phần hệ thống mà vẫn giữ đúng đối tượng.",
+      ]
+    - [
+        c1-participle-clauses,
+        g-c1-participle-clauses,
+        "Nối bối cảnh và hệ quả trong tài liệu thiết kế mà không làm sai chủ thể hành động.",
+      ]
+    - [
+        c1-negative-inversion,
+        g-c1-negative-inversion,
+        "Nhấn mạnh giới hạn hoặc điều kiện an toàn trong văn bản trang trọng.",
+      ]
+    - [
+        c1-correlative-inversion,
+        g-c1-correlative-inversion,
+        "Diễn đạt thứ tự và sự kết hợp của các thay đổi trong báo cáo kỹ thuật.",
+      ]
+    - [
+        c1-conditional-inversion,
+        g-c1-conditional-inversion,
+        "Viết điều kiện dự phòng trang trọng trong kế hoạch chuyển đổi hoặc vận hành.",
+      ]
+    - [c1-cleft, g-c1-cleft, "Đưa đúng thông tin cần nhấn mạnh lên trọng tâm của câu giải thích."]
+    - [
+        c1-subjunctive,
+        g-c1-subjunctive,
+        "Viết kiến nghị hoặc yêu cầu chính thức trong RFC và quy tắc vận hành.",
+      ]
+    - [
+        c1-high-time,
+        g-c1-high-time,
+        "Đề xuất thay đổi đã bị trì hoãn và nêu ưu tiên cá nhân với giọng điệu phù hợp.",
+      ]
+    - [
+        c1-advanced-passive,
+        g-c1-advanced-passive,
+        "Báo nhận định hoặc quan sát từ nhiều nguồn mà không làm mờ giới hạn bằng chứng.",
+      ]
+    - [
+        c1-complex-noun-phrase,
+        g-c1-complex-noun-phrase,
+        "Viết cụm danh từ mô tả hệ thống đủ chính xác nhưng vẫn dễ đọc.",
+      ]
+    - [
+        c1-nominalisation,
+        g-c1-nominalisation,
+        "Chuyển giữa câu chủ động và danh từ hoá theo mục đích của tài liệu.",
+      ]
+    - [
+        c1-ellipsis,
+        g-c1-ellipsis,
+        "Tránh lặp thông tin mà vẫn giữ rõ phần bị lược trong trao đổi kỹ thuật.",
+      ]
+    - [
+        c1-punctuation,
+        g-c1-punctuation,
+        "Dùng dấu câu để làm rõ điều kiện, giới hạn và các ý có quan hệ gần.",
+      ]
+    - [
+        c1-linkers,
+        g-c1-linkers,
+        "Kết nối lập luận, bằng chứng và phản biện trong đề xuất kiến trúc.",
+      ]
+- unit: grammar-c2
+  title: { en: "Grammar C2 — Precision, Influence & Synthesis", vi: "Ngữ pháp C2" }
+  summary_vi: "Tinh chỉnh cách diễn đạt khi cần tổng hợp nhiều nguồn, thương lượng và bảo vệ một quyết định phức tạp. Ưu tiên độ chính xác, mạch thông tin và giọng điệu phù hợp thay vì câu dài khó hiểu."
+  can_do:
+    [
+      "Tổng hợp bằng chứng có giới hạn và khác biệt giữa các nguồn",
+      "Viết lập luận thuyết phục, cân bằng và phù hợp người đọc",
+    ]
+  lessons:
+    - [
+        c2-tense-stance,
+        g-c2-tense-stance,
+        "Kiểm soát mốc thời gian và mức cam kết khi trình bày một nhận định kỹ thuật.",
+      ]
+    - [
+        c2-register,
+        g-c2-register,
+        "Điều chỉnh cùng một thông điệp cho chat nhóm, RFC và trao đổi với khách hàng.",
+      ]
+    - [
+        c2-information-flow,
+        g-c2-information-flow,
+        "Sắp thông tin đã biết trước thông tin mới để người đọc theo dõi một giải thích dài.",
+      ]
+    - [
+        c2-cohesion,
+        g-c2-cohesion,
+        "Giữ đối tượng tham chiếu và quan hệ lập luận rõ qua nhiều đoạn RFC.",
+      ]
+    - [
+        c2-qualification,
+        g-c2-qualification,
+        "Nêu chính xác phạm vi, điều kiện và mức chắc chắn của một kết luận.",
+      ]
+    - [
+        c2-parallelism,
+        g-c2-parallelism,
+        "Trình bày tiêu chí, lựa chọn và hành động song song để tránh cách hiểu lệch.",
+      ]
+    - [
+        c2-synthesis,
+        g-c2-synthesis,
+        "Tổng hợp tài liệu, benchmark và ý kiến nhóm mà vẫn giữ rõ nguồn của từng nhận định.",
+      ]
+    - [
+        c2-rhetorical,
+        g-c2-rhetorical,
+        "Bảo vệ một quyết định kỹ thuật bằng luận điểm, bằng chứng và phản biện công bằng.",
+      ]

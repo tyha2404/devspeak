@@ -16,10 +16,14 @@ async function answerTrackQuiz(
   trigger: () => Promise<unknown>,
   { wrong = [], timeout = [] }: { wrong?: number[]; timeout?: number[] } = {},
 ) {
-  const deliveries: { deliveryId?: string; done?: boolean }[] = [];
+  const deliveries = new Map<number, { deliveryId?: string; done?: boolean }>();
   const onResponse = async (r: import("@playwright/test").Response) => {
     try {
-      if (r.url().includes("/api/quiz/next")) deliveries.push((await r.json()).data);
+      if (r.url().includes("/api/quiz/next")) {
+        const delivery = (await r.json()).data;
+        // Track the displayed question number; Strict Mode can repeat requests for one index.
+        if (delivery.index) deliveries.set(delivery.index, delivery);
+      }
     } catch {
       // navigation raced the body read
     }
@@ -29,8 +33,8 @@ async function answerTrackQuiz(
     await trigger();
     const quiz = page.getByTestId("quiz");
     for (let n = 1; n <= 20; n++) {
-      await expect.poll(() => deliveries.length >= n, { timeout: 15_000 }).toBeTruthy();
-      const d = deliveries[n - 1]!;
+      await expect.poll(() => deliveries.has(n), { timeout: 15_000 }).toBeTruthy();
+      const d = deliveries.get(n)!;
       if (d.done) return;
       if (timeout.includes(n)) {
         await expect(quiz.getByText("Hết giờ.")).toBeVisible({ timeout: 40_000 });
@@ -39,7 +43,7 @@ async function answerTrackQuiz(
         const box = quiz.getByRole("textbox");
         if (await box.count()) {
           await box.fill(wrong.includes(n) ? "zzz" : right);
-          await box.press("Enter");
+          await quiz.getByRole("button", { name: "Kiểm tra", exact: true }).click();
         } else {
           const exact = new RegExp(`^[A-D] ${escapeRe(right)}$`);
           const target = wrong.includes(n)
@@ -65,6 +69,7 @@ async function answerTrackQuiz(
 test("grammar track: lesson info → five study screens → timed test → stars, XP and history", async ({
   page,
 }) => {
+  test.setTimeout(90_000);
   // Guests land on the home page directly; there is no onboarding for this area.
   await startOnHome(page);
   await expect(page).toHaveURL(/\/$/);
@@ -94,13 +99,19 @@ test("grammar track: lesson info → five study screens → timed test → stars
   await expect(page.getByText("+80")).toBeVisible();
   await page.screenshot({ path: test.info().outputPath("result.png"), fullPage: true });
 
+  const nextLesson = page.getByRole("link", { name: /^Bài tiếp:/ });
+  const nextLessonHref = await nextLesson.getAttribute("href");
+  await nextLesson.click();
+  await expect(page).toHaveURL(new RegExp(`${nextLessonHref}$`));
+  await expect(page.getByRole("button", { name: "Tiếp tục →" })).toBeVisible({ timeout: 20_000 });
+
   await page.goto("/grammar");
   await page.getByRole("button", { name: /To be & subject pronouns/ }).click();
   await expect(page.getByRole("dialog").getByText("Kết quả gần nhất")).toBeVisible();
   await expect(page.getByRole("dialog").getByText("100%").first()).toBeVisible();
   await page.screenshot({ path: test.info().outputPath("lesson-info.png") });
   await page.getByRole("dialog").getByRole("button", { name: "Đóng", exact: true }).click();
-  await expect(page.getByRole("button", { name: /Present simple/ })).toBeEnabled();
+  await expect(page.getByRole("button", { name: /Object pronouns/ })).toBeEnabled();
 });
 
 test("vocabulary track: rate cards, a question times out, the test still finishes", async ({

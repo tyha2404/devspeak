@@ -5,1449 +5,2475 @@ code: A1
 kind: grammar
 cefr: A1
 status: published
-title: { en: "Grammar A1", vi: "Ngữ pháp A1" }
-summary_vi: "Nền tảng câu tiếng Anh: be, hiện tại đơn, mạo từ, số nhiều, từ chỉ định, sở hữu, đại từ tân ngữ, there is/are, can và giới từ in/on/at."
+title:
+  en: Grammar A1 — Your First Developer Conversations
+  vi: Ngữ pháp A1
+summary_vi: Bắt đầu từ câu ngắn để giới thiệu bản thân, mô tả công cụ và cập
+  nhật công việc. Luyện dùng chủ ngữ, động từ và câu hỏi rõ ràng trong tin nhắn
+  nhóm.
 can_do:
-  - "Giới thiệu bản thân và đồng nghiệp bằng câu đơn đúng ngữ pháp"
-  - "Nói về thói quen và công việc hằng ngày"
+  - Giới thiệu vai trò và mô tả trạng thái một tác vụ
+  - Hỏi thông tin cơ bản về ticket, tài khoản và môi trường làm việc
 lessons:
   - slug: g-a1-be
     kind: grammar
-    title: { en: "To be & subject pronouns", vi: "Động từ be và đại từ chủ ngữ" }
+    title:
+      en: To be & subject pronouns
+      vi: Động từ be và đại từ chủ ngữ
     questions:
-      [g-a1-be-1, g-a1-be-2, g-a1-be-3, g-a1-be-4, g-a1-be-5, g-a1-be-6, g-a1-be-7, g-a1-be-8]
+      - g-a1-be-1
+      - g-a1-be-2
+      - g-a1-be-3
+      - g-a1-be-4
+      - g-a1-be-5
+      - g-a1-be-6
+      - g-a1-be-7
+      - g-a1-be-8
     grammar:
-      title_vi: "Động từ be và đại từ chủ ngữ"
-      group: "Từ loại"
+      title_vi: Động từ be và đại từ chủ ngữ
+      group: Từ loại
       overview:
         focus: "Be nối chủ ngữ với thông tin về chủ ngữ: một danh từ (nghề, tên), một tính từ (trạng thái) hoặc một nơi chốn. Tiếng Việt thường bỏ “là/thì/ở”, còn tiếng Anh luôn cần be, và be đổi dạng theo chủ ngữ."
-        formulas: ["S + am/is/are + danh từ / tính từ / nơi chốn"]
-        hook: "I am a backend developer."
-      functions:
-        - title: "Nói mình là ai, làm nghề gì"
-          explain: "Sau be là cụm danh từ; nhớ a/an trước nghề nghiệp số ít."
-          examples: ["I am a tester.", "They are interns."]
-        - title: "Miêu tả trạng thái, tính chất"
-          explain: "Sau be là tính từ. Không thêm động từ khác giữa be và tính từ."
-          examples: ["The build is green.", "We are busy today."]
-        - title: "Nói ở đâu, đến từ đâu"
-          explain: "Sau be là cụm chỉ nơi chốn, hoặc be from + địa danh."
-          examples: ["The logs are in the bucket.", "Huy is from Can Tho."]
-        - title: "Tuổi, giờ, thời tiết"
-          explain: "Tiếng Anh dùng be cho tuổi; dùng chủ ngữ it cho giờ và thời tiết."
-          examples: ["She is twenty-five.", "It is nine o'clock."]
-      structure:
-        forms:
-          - {
-              label: "Khẳng định",
-              pattern: "I am · you/we/they are · he/she/it is",
-              example: "The server is down.",
-            }
-          - {
-              label: "Phủ định",
-              pattern: "S + am/is/are + not",
-              example: "The tests are not ready.",
-            }
-          - { label: "Nghi vấn", pattern: "Am/Is/Are + S + …?", example: "Is the API slow?" }
-          - {
-              label: "Rút gọn",
-              pattern: "I'm · you're · it's · isn't · aren't",
-              example: "It isn't my ticket.",
-            }
-        steps:
-          - title: "Xác định chủ ngữ"
-            explain: "I → am; he, she, it và danh từ số ít → is; you, we, they và danh từ số nhiều → are."
-            example: "The bug (= it) → is"
-          - title: "Đặt be ngay sau chủ ngữ"
-            explain: "Câu khẳng định không cần thêm trợ động từ nào."
-            example: "My laptop is new."
-          - title: "Phủ định và câu hỏi bằng chính be"
-            explain: "Thêm not sau be, hoặc đưa be lên đầu câu. Không dùng do/does với be."
-            example: "Are you free? — Yes, I am."
-      examples:
-        - {
-            tag: "Giới thiệu",
-            en: "I'm Trang, and I'm a mobile developer.",
-            vi: "Mình là Trang, lập trình viên mobile.",
-            note: "I đi với am; trước nghề số ít có a.",
-          }
-        - {
-            tag: "Trạng thái",
-            en: "The new release is stable.",
-            vi: "Bản phát hành mới chạy ổn định.",
-            note: "Release là danh từ số ít nên dùng is; stable là tính từ đứng ngay sau be.",
-          }
-        - {
-            tag: "Số nhiều",
-            en: "These tickets are urgent.",
-            vi: "Mấy ticket này gấp.",
-            note: "Tickets số nhiều → are.",
-          }
-        - {
-            tag: "Phủ định",
-            en: "I'm not on call this week.",
-            vi: "Tuần này mình không trực.",
-            note: "Rút gọn chuẩn là I'm not; không có dạng amn't.",
-          }
-        - {
-            tag: "Câu hỏi",
-            en: "Is the staging server up?",
-            vi: "Server staging có đang chạy không?",
-            note: "Đảo is lên trước chủ ngữ, phần còn lại giữ nguyên.",
-          }
-        - {
-            tag: "Giờ",
-            en: "It's late, and the office is empty.",
-            vi: "Muộn rồi, văn phòng vắng tanh.",
-            note: "It là chủ ngữ hình thức chỉ thời gian.",
-          }
-        - {
-            tag: "Nơi chốn",
-            en: "The meeting room is on the third floor.",
-            vi: "Phòng họp ở tầng ba.",
-            note: "Tiếng Việt chỉ nói “ở”, tiếng Anh vẫn cần is trước cụm nơi chốn.",
-          }
-        - {
-            tag: "Quê quán",
-            en: "Are you from Hanoi?",
-            vi: "Bạn đến từ Hà Nội à?",
-            note: "Be from + địa danh; câu hỏi đảo are lên trước you.",
-          }
-      contrast:
-        title: "Dạng be theo chủ ngữ"
-        rows:
-          - { label: "I", note: "ngôi thứ nhất số ít", example: "I am ready." }
-          - { label: "You", note: "ngôi thứ hai, số ít và số nhiều", example: "You are next." }
-          - { label: "He / She / It", note: "ngôi thứ ba số ít", example: "It is broken." }
-          - { label: "We / They", note: "số nhiều", example: "They are online." }
-        fixes:
-          - {
-              wrong: "He are my team lead.",
-              right: "He is my team lead.",
-              why: "He là ngôi thứ ba số ít nên dùng is.",
-            }
-          - {
-              wrong: "I have 24 years old.",
-              right: "I am 24 years old.",
-              why: "Tiếng Việt nói “có… tuổi”, tiếng Anh dùng be để nói tuổi.",
-            }
-          - {
-              wrong: "Do you are free now?",
-              right: "Are you free now?",
-              why: "Be tự làm trợ động từ, nên chỉ đảo be lên đầu, không thêm do.",
-            }
-  - slug: g-a1-present-simple
-    kind: grammar
-    title: { en: "Present simple: habits & facts", vi: "Thì hiện tại đơn: thói quen và sự thật" }
-    questions:
-      [
-        g-a1-present-simple-1,
-        g-a1-present-simple-2,
-        g-a1-present-simple-3,
-        g-a1-present-simple-4,
-        g-a1-present-simple-5,
-        g-a1-present-simple-6,
-        g-a1-present-simple-7,
-        g-a1-present-simple-8,
-      ]
-    grammar:
-      title_vi: "Thì hiện tại đơn"
-      group: "Thì động từ"
-      overview:
-        focus: "Hiện tại đơn dùng cho việc lặp lại đều đặn (thói quen, lịch làm việc) và những điều luôn đúng. Tiếng Việt không chia động từ, nhưng tiếng Anh thêm -s/-es khi chủ ngữ là he/she/it, và mượn do/does để phủ định, đặt câu hỏi."
         formulas:
-          - "I/you/we/they + V · he/she/it + V-s/es"
-          - "S + don't/doesn't + V (nguyên mẫu)"
-          - "Do/Does + S + V (nguyên mẫu)…?"
-        hook: "Our team deploys every Friday."
+          - S + am/is/are + danh từ / tính từ / nơi chốn
+        hook: I am a backend developer.
       functions:
-        - title: "Thói quen, việc lặp lại"
-          explain: "Thường đi với every day, usually, often, always, on Mondays."
-          examples: ["I check my email every morning.", "We usually have stand-up at 9."]
-        - title: "Sự thật, điều luôn đúng"
-          explain: "Mô tả cách một hệ thống hay một thứ gì đó vận hành, không gắn với lúc nói."
-          examples: ["Water boils at 100 degrees.", "This function returns a string."]
-        - title: "Lịch trình cố định"
-          explain: "Giờ họp, giờ tàu, lịch release đã định sẵn."
-          examples: ["The sprint starts on Monday.", "The office opens at 8:30."]
-        - title: "Nói về công việc, sở thích"
-          explain: "Hỏi và trả lời ai làm gì, thích gì, sống ở đâu."
-          examples: ["She works on the payment team.", "Do you like TypeScript?"]
+        - title: Nói mình là ai, làm nghề gì
+          explain: Sau be là cụm danh từ; nhớ a/an trước nghề nghiệp số ít.
+          examples:
+            - I am a tester.
+            - They are interns.
+        - title: Miêu tả trạng thái, tính chất
+          explain: Sau be là tính từ. Không thêm động từ khác giữa be và tính từ.
+          examples:
+            - The build is green.
+            - We are busy today.
+        - title: Nói ở đâu, đến từ đâu
+          explain: Sau be là cụm chỉ nơi chốn, hoặc be from + địa danh.
+          examples:
+            - The logs are in the bucket.
+            - Huy is from Can Tho.
+        - title: Tuổi, giờ, thời tiết
+          explain: Tiếng Anh dùng be cho tuổi; dùng chủ ngữ it cho giờ và thời tiết.
+          examples:
+            - She is twenty-five.
+            - It is nine o'clock.
       structure:
         forms:
-          - {
-              label: "Khẳng định",
-              pattern: "I/you/we/they work · he/she/it works",
-              example: "He writes the API docs.",
-            }
-          - {
-              label: "Phủ định",
-              pattern: "S + don't/doesn't + V",
-              example: "She doesn't use Windows.",
-            }
-          - {
-              label: "Nghi vấn",
-              pattern: "Do/Does + S + V…?",
-              example: "Does the app support dark mode?",
-            }
-          - {
-              label: "Trả lời ngắn",
-              pattern: "Yes, S + do/does · No, S + don't/doesn't",
-              example: "Yes, it does.",
-            }
+          - label: Khẳng định
+            pattern: I am · you/we/they are · he/she/it is
+            example: The server is down.
+          - label: Phủ định
+            pattern: S + am/is/are + not
+            example: The tests are not ready.
+          - label: Nghi vấn
+            pattern: Am/Is/Are + S + …?
+            example: Is the API slow?
+          - label: Rút gọn
+            pattern: I'm · you're · it's · isn't · aren't
+            example: It isn't my ticket.
         steps:
-          - title: "Xác định chủ ngữ"
-            explain: "He, she, it, một người, một vật (số ít) → động từ thêm -s/-es. Các chủ ngữ khác giữ nguyên động từ."
-            example: "The script (= it) runs"
-          - title: "Thêm đuôi đúng"
-            explain: "Thường thêm -s; sau -s, -sh, -ch, -x, -o thêm -es; phụ âm + y → -ies. Have → has."
-            example: "fix → fixes · try → tries · have → has"
-          - title: "Phủ định, câu hỏi: -s chuyển sang does"
-            explain: "Khi đã có does/doesn't thì động từ chính trở về nguyên mẫu, không thêm -s nữa."
-            example: "Does he work remotely? (không phải works)"
+          - title: Xác định chủ ngữ
+            explain: I → am; he, she, it và danh từ số ít → is; you, we, they và danh từ số nhiều → are.
+            example: The bug (= it) → is
+          - title: Đặt be ngay sau chủ ngữ
+            explain: Câu khẳng định không cần thêm trợ động từ nào.
+            example: My laptop is new.
+          - title: Phủ định và câu hỏi bằng chính be
+            explain: Thêm not sau be, hoặc đưa be lên đầu câu. Không dùng do/does với be.
+            example: Are you free? — Yes, I am.
       examples:
-        - {
-            tag: "Thói quen",
-            en: "Minh reviews pull requests after lunch.",
-            vi: "Minh review pull request sau bữa trưa.",
-            note: "Minh = he nên review thêm -s.",
-          }
-        - {
-            tag: "Sự thật",
-            en: "The cache expires after ten minutes.",
-            vi: "Cache hết hạn sau mười phút.",
-            note: "Mô tả cách hệ thống hoạt động; cache = it → expires.",
-          }
-        - {
-            tag: "Lịch trình",
-            en: "Our retro happens every second Friday.",
-            vi: "Buổi retro diễn ra cách tuần vào thứ Sáu.",
-            note: "Lịch cố định dùng hiện tại đơn, không dùng tương lai.",
-          }
-        - {
-            tag: "Phủ định",
-            en: "I don't work on weekends.",
-            vi: "Mình không làm việc cuối tuần.",
-            note: "I đi với don't; động từ work giữ nguyên.",
-          }
-        - {
-            tag: "Phủ định",
-            en: "This laptop doesn't have a USB-A port.",
-            vi: "Laptop này không có cổng USB-A.",
-            note: "Sau doesn't dùng have, không dùng has.",
-          }
-        - {
-            tag: "Câu hỏi",
-            en: "Does the build take long?",
-            vi: "Build có lâu không?",
-            note: "Does đứng đầu, take ở dạng nguyên mẫu.",
-          }
-        - {
-            tag: "Tần suất",
-            en: "We always write tests first.",
-            vi: "Tụi mình luôn viết test trước.",
-            note: "Trạng từ tần suất đứng trước động từ thường.",
-          }
-        - {
-            tag: "Câu hỏi",
-            en: "What time do you start work?",
-            vi: "Bạn bắt đầu làm việc lúc mấy giờ?",
-            note: "Từ để hỏi + do + chủ ngữ + động từ nguyên mẫu.",
-          }
+        - tag: Giới thiệu
+          en: I'm Trang, and I'm a mobile developer.
+          vi: Mình là Trang, lập trình viên mobile.
+          note: I đi với am; trước nghề số ít có a.
+        - tag: Trạng thái
+          en: The new release is stable.
+          vi: Bản phát hành mới chạy ổn định.
+          note: Release là danh từ số ít nên dùng is; stable là tính từ đứng ngay sau be.
+        - tag: Số nhiều
+          en: These tickets are urgent.
+          vi: Mấy ticket này gấp.
+          note: Tickets số nhiều → are.
+        - tag: Phủ định
+          en: I'm not on call this week.
+          vi: Tuần này mình không trực.
+          note: Rút gọn chuẩn là I'm not; không có dạng amn't.
+        - tag: Câu hỏi
+          en: Is the staging server up?
+          vi: Server staging có đang chạy không?
+          note: Đảo is lên trước chủ ngữ, phần còn lại giữ nguyên.
+        - tag: Giờ
+          en: It's late, and the office is empty.
+          vi: Muộn rồi, văn phòng vắng tanh.
+          note: It là chủ ngữ hình thức chỉ thời gian.
+        - tag: Nơi chốn
+          en: The meeting room is on the third floor.
+          vi: Phòng họp ở tầng ba.
+          note: Tiếng Việt chỉ nói “ở”, tiếng Anh vẫn cần is trước cụm nơi chốn.
+        - tag: Quê quán
+          en: Are you from Hanoi?
+          vi: Bạn đến từ Hà Nội à?
+          note: Be from + địa danh; câu hỏi đảo are lên trước you.
       contrast:
-        title: "Động từ theo chủ ngữ"
+        title: Dạng be theo chủ ngữ
         rows:
-          - {
-              label: "I / You / We / They",
-              note: "động từ nguyên mẫu",
-              example: "They work in Da Nang.",
-            }
-          - { label: "He / She / It", note: "động từ + -s/-es", example: "It works offline." }
-          - {
-              label: "don't / doesn't",
-              note: "phủ định, động từ nguyên mẫu",
-              example: "He doesn't work here.",
-            }
-          - { label: "Do / Does …?", note: "câu hỏi, động từ nguyên mẫu", example: "Does it work?" }
+          - label: I
+            note: ngôi thứ nhất số ít
+            example: I am ready.
+          - label: You
+            note: ngôi thứ hai, số ít và số nhiều
+            example: You are next.
+          - label: He / She / It
+            note: ngôi thứ ba số ít
+            example: It is broken.
+          - label: We / They
+            note: số nhiều
+            example: They are online.
         fixes:
-          - {
-              wrong: "She work in the QA team.",
-              right: "She works in the QA team.",
-              why: "She là ngôi thứ ba số ít nên động từ cần -s.",
-            }
-          - {
-              wrong: "He doesn't likes meetings.",
-              right: "He doesn't like meetings.",
-              why: "Đã có doesn't thì động từ chính trở về nguyên mẫu.",
-            }
-          - {
-              wrong: "Do she use Linux?",
-              right: "Does she use Linux?",
-              why: "Câu hỏi với he/she/it dùng does.",
-            }
-          - {
-              wrong: "I am work from home on Fridays.",
-              right: "I work from home on Fridays.",
-              why: "Không ghép am với động từ thường ở hiện tại đơn.",
-            }
-  - slug: g-a1-articles
+          - wrong: He are my team lead.
+            right: He is my team lead.
+            why: He là ngôi thứ ba số ít nên dùng is.
+          - wrong: I have 24 years old.
+            right: I am 24 years old.
+            why: Tiếng Việt nói “có… tuổi”, tiếng Anh dùng be để nói tuổi.
+          - wrong: Do you are free now?
+            right: Are you free now?
+            why: Be tự làm trợ động từ, nên chỉ đảo be lên đầu, không thêm do.
+  - slug: g-a1-object-pronouns
     kind: grammar
-    title: { en: "A, an & the", vi: "Mạo từ a, an và the" }
+    title:
+      en: Object pronouns
+      vi: Đại từ tân ngữ
     questions:
-      [
-        g-a1-articles-1,
-        g-a1-articles-2,
-        g-a1-articles-3,
-        g-a1-articles-4,
-        g-a1-articles-5,
-        g-a1-articles-6,
-        g-a1-articles-7,
-        g-a1-articles-8,
-      ]
+      - g-a1-object-pronouns-1
+      - g-a1-object-pronouns-2
+      - g-a1-object-pronouns-3
+      - g-a1-object-pronouns-4
+      - g-a1-object-pronouns-5
+      - g-a1-object-pronouns-6
+      - g-a1-object-pronouns-7
+      - g-a1-object-pronouns-8
     grammar:
-      title_vi: "Mạo từ a, an và the"
-      group: "Từ loại"
+      title_vi: Đại từ tân ngữ me, him, her, us, them
+      group: Từ loại
       overview:
-        focus: "Danh từ đếm được số ít trong tiếng Anh gần như không bao giờ đứng một mình: cần a/an (một cái bất kỳ, lần đầu nhắc) hoặc the (cái cụ thể, cả hai bên đều biết). Tiếng Việt không có mạo từ nên người học hay bỏ sót."
+        focus: "Tiếng Việt dùng cùng một từ “mình, anh ấy, họ” dù đứng đầu hay cuối câu. Tiếng Anh đổi dạng: làm chủ ngữ (trước động từ) dùng I, he, she, we, they; làm tân ngữ (sau động từ hoặc giới từ) dùng me, him, her, us, them. You và it giữ nguyên."
         formulas:
-          - "a + âm phụ âm · an + âm nguyên âm"
-          - "the + danh từ cụ thể, đã xác định"
-          - "Ø + danh từ số nhiều / không đếm được (nói chung)"
-        hook: "I found a bug. The bug is in the login form."
+          - S + V + me/you/him/her/it/us/them
+          - giới từ + me/you/him/her/it/us/them
+        hook: I call him, and he calls me back.
       functions:
-        - title: "Nhắc đến lần đầu: a/an"
-          explain: "Người nghe chưa biết cái nào; chỉ một cái bất kỳ trong nhiều cái."
-          examples: ["I have an idea.", "We need a new designer."]
-        - title: "Nghề nghiệp, phân loại"
-          explain: "Nói ai đó là gì, cái gì thuộc loại nào: luôn có a/an trước danh từ số ít."
-          examples: ["She is an engineer.", "React is a library."]
-        - title: "Cái đã biết, đã nhắc: the"
-          explain: "Lần nhắc thứ hai, hoặc cả hai người đều biết đang nói cái nào."
-          examples: ["Can you close the door?", "I fixed the bug you reported."]
-        - title: "Duy nhất hoặc được xác định rõ"
-          explain: "Chỉ có một cái, hoặc có cụm phía sau chỉ rõ (of…, that…, so sánh nhất)."
-          examples: ["The internet is slow today.", "The name of the file is wrong."]
-        - title: "Nói chung: không mạo từ"
-          explain: "Danh từ số nhiều hoặc không đếm được khi nói chung chung thì không dùng the."
-          examples: ["Developers love coffee.", "Good code needs tests."]
+        - title: Sau động từ
+          explain: Người hoặc vật nhận hành động đứng sau động từ ở dạng tân ngữ.
+          examples:
+            - Can you help me?
+            - I know her.
+        - title: Sau giới từ
+          explain: Sau for, with, to, about… luôn dùng dạng tân ngữ.
+          examples:
+            - This task is for them.
+            - Come with us.
+        - title: Thay cho vật đã nhắc
+          explain: Vật số ít → it, nhiều vật → them.
+          examples:
+            - I like this tool. I use it every day.
+            - The files are ready. Please check them.
+        - title: Trả lời ngắn
+          explain: Câu trả lời một từ, không có động từ, thường dùng dạng tân ngữ.
+          examples:
+            - Who wants coffee? — Me!
+            - Not him, please.
       structure:
         forms:
-          - { label: "a", pattern: "a + âm phụ âm", example: "a laptop · a user · a URL" }
-          - { label: "an", pattern: "an + âm nguyên âm", example: "an API · an hour · an email" }
-          - { label: "the", pattern: "the + danh từ đã xác định", example: "the main branch" }
-          - {
-              label: "Không mạo từ",
-              pattern: "Ø + số nhiều / không đếm được",
-              example: "Users like fast apps.",
-            }
+          - label: Đổi dạng
+            pattern: I → me · he → him · she → her · we → us · they → them
+            example: They like us.
+          - label: Giữ nguyên
+            pattern: you → you · it → it
+            example: I need it. Do you need it?
+          - label: Sau động từ
+            pattern: S + V + O
+            example: Call me later.
+          - label: Sau giới từ
+            pattern: giới từ + O
+            example: a message for her
         steps:
-          - title: "Danh từ đếm được hay không?"
-            explain: "Không đếm được (information, advice, software, feedback) không bao giờ đi với a/an."
-            example: "some feedback (không phải a feedback)"
-          - title: "Người nghe đã biết cái nào chưa?"
-            explain: "Chưa biết, nói lần đầu → a/an. Đã biết hoặc chỉ có một → the."
-            example: "There is a meeting at 3. The meeting is in Room B."
-          - title: "Chọn a hay an theo âm, không theo chữ"
-            explain: "Nghe âm đầu tiên: “hour” bắt đầu bằng âm nguyên âm → an; “user”, “URL” bắt đầu bằng âm /j/ → a."
-            example: "an SQL query · a unit test"
+          - title: Từ đó đứng ở đâu?
+            explain: Trước động từ → chủ ngữ; sau động từ hoặc giới từ → tân ngữ.
+            example: She emails him. He replies to her.
+          - title: Đổi đúng dạng
+            explain: Thay I bằng me, we bằng us, they bằng them…
+            example: Help we → Help us
+          - title: Khi có thêm người khác
+            explain: “Lan và mình” ở vị trí tân ngữ vẫn dùng me.
+            example: The meeting is for Lan and me.
       examples:
-        - {
-            tag: "Lần đầu",
-            en: "We have a problem with the payment page.",
-            vi: "Tụi mình có một vấn đề với trang thanh toán.",
-            note: "Vấn đề mới nhắc → a; trang thanh toán thì ai cũng biết là trang nào → the.",
-          }
-        - {
-            tag: "Nghề",
-            en: "My brother is an accountant.",
-            vi: "Anh mình là kế toán.",
-            note: "Accountant bắt đầu bằng âm nguyên âm → an.",
-          }
-        - {
-            tag: "Âm đầu",
-            en: "It takes an hour to run a full backup.",
-            vi: "Chạy một bản backup đầy đủ mất một tiếng.",
-            note: "Chữ h trong hour câm nên dùng an.",
-          }
-        - {
-            tag: "Âm đầu",
-            en: "Every user gets a unique ID.",
-            vi: "Mỗi người dùng có một ID riêng.",
-            note: "Unique đọc /juː/ → a, dù chữ đầu là u.",
-          }
-        - {
-            tag: "Đã biết",
-            en: "Please send me the report from yesterday.",
-            vi: "Gửi mình bản báo cáo hôm qua nhé.",
-            note: "From yesterday chỉ rõ báo cáo nào → the.",
-          }
-        - {
-            tag: "Nói chung",
-            en: "Clients usually want features, not explanations.",
-            vi: "Khách hàng thường muốn tính năng chứ không muốn giải thích.",
-            note: "Nói chung về số nhiều → không dùng the.",
-          }
-        - {
-            tag: "Duy nhất",
-            en: "The CEO is in Singapore this week.",
-            vi: "Tuần này CEO đang ở Singapore.",
-            note: "Công ty chỉ có một CEO nên dùng the.",
-          }
-        - {
-            tag: "Không đếm được",
-            en: "I need some information about the new API.",
-            vi: "Mình cần một ít thông tin về API mới.",
-            note: "Information không đếm được: dùng some, không dùng an và không thêm -s.",
-          }
+        - tag: Sau động từ
+          en: Can you help me with this bug?
+          vi: Bạn giúp mình xử lý lỗi này được không?
+          note: Sau help là tân ngữ → me, không dùng I.
+        - tag: Sau động từ
+          en: I don't know him.
+          vi: Mình không quen anh ấy.
+          note: Anh ấy đứng sau động từ → him.
+        - tag: Sau động từ
+          en: Please send her the link.
+          vi: Gửi link cho cô ấy nhé.
+          note: Her là tân ngữ, đứng ngay sau send.
+        - tag: Sau giới từ
+          en: These new chairs are for us.
+          vi: Mấy cái ghế mới này là cho tụi mình.
+          note: Sau giới từ for → us.
+        - tag: Thay người
+          en: The clients are here. Please meet them in Room A.
+          vi: Khách hàng đến rồi. Bạn ra gặp họ ở phòng A nhé.
+          note: Họ là tân ngữ của meet → them.
+        - tag: Thay vật
+          en: I like this extension, and I use it every day.
+          vi: Mình thích extension này và ngày nào cũng dùng nó.
+          note: Vật số ít ở vị trí tân ngữ vẫn là it.
+        - tag: Lời nhờ
+          en: Call me after lunch.
+          vi: Gọi cho mình sau bữa trưa nhé.
+          note: Call + me, không cần thêm to.
+        - tag: Hai người
+          en: Huy works with Lan and me.
+          vi: Huy làm việc với Lan và mình.
+          note: Sau with dùng me, kể cả khi có thêm người khác.
       contrast:
-        title: "a/an, the hay không mạo từ"
+        title: Chủ ngữ và tân ngữ
         rows:
-          - { label: "a / an", note: "một cái bất kỳ, nhắc lần đầu", example: "I need a charger." }
-          - {
-              label: "the",
-              note: "cái cụ thể mà hai bên đều biết",
-              example: "Where is the charger?",
-            }
-          - {
-              label: "Ø (số nhiều)",
-              note: "nói chung về cả loại",
-              example: "Chargers are expensive here.",
-            }
-          - {
-              label: "Ø (không đếm được)",
-              note: "khái niệm, chất liệu chung",
-              example: "Feedback helps us improve.",
-            }
+          - label: I / me
+            note: trước động từ / sau động từ
+            example: I call Nam. Nam calls me.
+          - label: he / him
+            note: anh ấy
+            example: He emails Lan. Lan emails him.
+          - label: she / her
+            note: cô ấy
+            example: She helps us. We help her.
+          - label: we / us
+            note: chúng tôi
+            example: We invite them. They invite us.
+          - label: they / them
+            note: họ, chúng nó
+            example: They know me. I know them.
         fixes:
-          - {
-              wrong: "I am developer.",
-              right: "I am a developer.",
-              why: "Danh từ đếm được số ít chỉ nghề phải có a/an.",
-            }
-          - {
-              wrong: "She sent me an useful link.",
-              right: "She sent me a useful link.",
-              why: "Useful bắt đầu bằng âm /j/ (phụ âm) nên dùng a.",
-            }
-          - {
-              wrong: "Can you give me a feedback?",
-              right: "Can you give me some feedback?",
-              why: "Feedback không đếm được, không đi với a.",
-            }
-          - {
-              wrong: "The developers need coffee to work.",
-              right: "Developers need coffee to work.",
-              why: "Nói chung về mọi lập trình viên thì không dùng the.",
-            }
+          - wrong: Can you call I later?
+            right: Can you call me later?
+            why: Sau động từ dùng me.
+          - wrong: Please send the file to they.
+            right: Please send the file to them.
+            why: Sau giới từ to dùng them.
+          - wrong: Him is my team lead.
+            right: He is my team lead.
+            why: Đứng trước động từ làm chủ ngữ phải dùng he.
+          - wrong: This task is for Minh and I.
+            right: This task is for Minh and me.
+            why: Sau for dùng me dù có thêm tên khác.
   - slug: g-a1-plurals
     kind: grammar
     title:
-      {
-        en: "Plural nouns & countable/uncountable",
-        vi: "Danh từ số nhiều, đếm được và không đếm được",
-      }
+      en: Plural nouns & countable/uncountable
+      vi: Danh từ số nhiều, đếm được và không đếm được
     questions:
-      [
-        g-a1-plurals-1,
-        g-a1-plurals-2,
-        g-a1-plurals-3,
-        g-a1-plurals-4,
-        g-a1-plurals-5,
-        g-a1-plurals-6,
-        g-a1-plurals-7,
-        g-a1-plurals-8,
-      ]
+      - g-a1-plurals-1
+      - g-a1-plurals-2
+      - g-a1-plurals-3
+      - g-a1-plurals-4
+      - g-a1-plurals-5
+      - g-a1-plurals-6
+      - g-a1-plurals-7
+      - g-a1-plurals-8
     grammar:
-      title_vi: "Danh từ số nhiều, đếm được và không đếm được"
-      group: "Danh từ"
+      title_vi: Danh từ số nhiều, đếm được và không đếm được
+      group: Danh từ
       overview:
         focus: "Tiếng Việt thêm “các, những, hai, ba” còn danh từ giữ nguyên; tiếng Anh đổi chính danh từ: thêm -s/-es hoặc đổi hẳn dạng. Một số danh từ không đếm được (information, advice, software, money) không có số nhiều, không đi với a/an hay con số, và động từ theo sau chia số ít."
         formulas:
           - "Đếm được: one bug · two bugs"
           - "Không đếm được: some/much + N (không -s) + động từ số ít"
-          - "many + N số nhiều · much + N không đếm được"
-        hook: "We have three bugs and a lot of feedback."
+          - many + N số nhiều · much + N không đếm được
+        hook: We have three bugs and a lot of feedback.
       functions:
-        - title: "Nói số lượng từ hai trở lên"
-          explain: "Sau two, three, many, a lot of… danh từ đếm được phải ở dạng số nhiều."
-          examples: ["We have two monitors.", "Five new users sign up every hour."]
-        - title: "Đuôi -es và -ies"
-          explain: "Sau -s, -ss, -sh, -ch, -x thêm -es; phụ âm + y đổi thành -ies."
-          examples: ["one box → two boxes", "one query → many queries"]
-        - title: "Số nhiều bất quy tắc"
-          explain: "Một số danh từ đổi hẳn dạng, không thêm -s."
-          examples: ["one person → two people", "one child → three children"]
-        - title: "Danh từ không đếm được"
-          explain: "Không thêm -s, không dùng a/an; động từ chia như số ít."
-          examples: ["The information is correct.", "We need more time."]
+        - title: Nói số lượng từ hai trở lên
+          explain: Sau two, three, many, a lot of… danh từ đếm được phải ở dạng số nhiều.
+          examples:
+            - We have two monitors.
+            - Five new users sign up every hour.
+        - title: Đuôi -es và -ies
+          explain: Sau -s, -ss, -sh, -ch, -x thêm -es; phụ âm + y đổi thành -ies.
+          examples:
+            - one box → two boxes
+            - one query → many queries
+        - title: Số nhiều bất quy tắc
+          explain: Một số danh từ đổi hẳn dạng, không thêm -s.
+          examples:
+            - one person → two people
+            - one child → three children
+        - title: Danh từ không đếm được
+          explain: Không thêm -s, không dùng a/an; động từ chia như số ít.
+          examples:
+            - The information is correct.
+            - We need more time.
       structure:
         forms:
-          - { label: "Thêm -s", pattern: "N + -s", example: "file → files · user → users" }
-          - {
-              label: "Thêm -es",
-              pattern: "-s/-sh/-ch/-x + es",
-              example: "class → classes · patch → patches",
-            }
-          - {
-              label: "Đổi -ies",
-              pattern: "phụ âm + y → -ies",
-              example: "query → queries · city → cities",
-            }
-          - {
-              label: "Bất quy tắc",
-              pattern: "person → people · man → men · child → children",
-              example: "Three people are online.",
-            }
-          - {
-              label: "Không đếm được",
-              pattern: "không -s, động từ số ít",
-              example: "The software is free.",
-            }
+          - label: Thêm -s
+            pattern: N + -s
+            example: file → files · user → users
+          - label: Thêm -es
+            pattern: -s/-sh/-ch/-x + es
+            example: class → classes · patch → patches
+          - label: Đổi -ies
+            pattern: phụ âm + y → -ies
+            example: query → queries · city → cities
+          - label: Bất quy tắc
+            pattern: person → people · man → men · child → children
+            example: Three people are online.
+          - label: Không đếm được
+            pattern: không -s, động từ số ít
+            example: The software is free.
         steps:
-          - title: "Đếm được hay không?"
-            explain: "Đếm được thì có số ít và số nhiều; không đếm được thì luôn giữ nguyên một dạng."
-            example: "two laptops · some equipment"
-          - title: "Chọn đuôi đúng"
-            explain: "Nhìn chữ cuối để chọn -s, -es hay -ies; nguyên âm + y (key, day) chỉ thêm -s."
-            example: "key → keys · reply → replies"
-          - title: "Chia động từ theo danh từ"
-            explain: "Danh từ số nhiều → are, động từ nguyên mẫu; không đếm được → is, động từ thêm -s."
-            example: "The files are big. The advice is useful."
+          - title: Đếm được hay không?
+            explain: Đếm được thì có số ít và số nhiều; không đếm được thì luôn giữ nguyên một dạng.
+            example: two laptops · some equipment
+          - title: Chọn đuôi đúng
+            explain: Nhìn chữ cuối để chọn -s, -es hay -ies; nguyên âm + y (key, day) chỉ thêm -s.
+            example: key → keys · reply → replies
+          - title: Chia động từ theo danh từ
+            explain: Danh từ số nhiều → are, động từ nguyên mẫu; không đếm được → is, động từ thêm -s.
+            example: The files are big. The advice is useful.
       examples:
-        - {
-            tag: "Số nhiều",
-            en: "We have two meetings today.",
-            vi: "Hôm nay tụi mình có hai cuộc họp.",
-            note: "Sau two, meeting phải thêm -s.",
-          }
-        - {
-            tag: "Đuôi -es",
-            en: "The teacher has three classes on Monday.",
-            vi: "Thầy giáo có ba lớp vào thứ Hai.",
-            note: "Class tận cùng bằng -ss nên thêm -es: classes.",
-          }
-        - {
-            tag: "Đuôi -ies",
-            en: "The app sends many queries to the database.",
-            vi: "Ứng dụng gửi nhiều truy vấn đến cơ sở dữ liệu.",
-            note: "Query: phụ âm r + y → queries.",
-          }
-        - {
-            tag: "Bất quy tắc",
-            en: "Twenty people work in our office.",
-            vi: "Hai mươi người làm việc ở văn phòng mình.",
-            note: "Person → people; people là số nhiều nên work không thêm -s.",
-          }
-        - {
-            tag: "Bất quy tắc",
-            en: "My sister has two children.",
-            vi: "Chị mình có hai đứa con.",
-            note: "Child → children, không có dạng childs.",
-          }
-        - {
-            tag: "Không đếm được",
-            en: "The information on this page is wrong.",
-            vi: "Thông tin trên trang này bị sai.",
-            note: "Information không đếm được: không -s, động từ dùng is.",
-          }
-        - {
-            tag: "Không đếm được",
-            en: "I need some advice about my CV.",
-            vi: "Mình cần vài lời khuyên về CV của mình.",
-            note: "Advice không đếm được: dùng some, không nói an advice hay advices.",
-          }
-        - {
-            tag: "Không đếm được",
-            en: "This software is free for students.",
-            vi: "Phần mềm này miễn phí cho sinh viên.",
-            note: "Software không có dạng softwares; động từ chia số ít.",
-          }
+        - tag: Số nhiều
+          en: We have two meetings today.
+          vi: Hôm nay tụi mình có hai cuộc họp.
+          note: Sau two, meeting phải thêm -s.
+        - tag: Đuôi -es
+          en: The teacher has three classes on Monday.
+          vi: Thầy giáo có ba lớp vào thứ Hai.
+          note: "Class tận cùng bằng -ss nên thêm -es: classes."
+        - tag: Đuôi -ies
+          en: The app sends many queries to the database.
+          vi: Ứng dụng gửi nhiều truy vấn đến cơ sở dữ liệu.
+          note: "Query: phụ âm r + y → queries."
+        - tag: Bất quy tắc
+          en: Twenty people work in our office.
+          vi: Hai mươi người làm việc ở văn phòng mình.
+          note: Person → people; people là số nhiều nên work không thêm -s.
+        - tag: Bất quy tắc
+          en: My sister has two children.
+          vi: Chị mình có hai đứa con.
+          note: Child → children, không có dạng childs.
+        - tag: Không đếm được
+          en: The information on this page is wrong.
+          vi: Thông tin trên trang này bị sai.
+          note: "Information không đếm được: không -s, động từ dùng is."
+        - tag: Không đếm được
+          en: I need some advice about my CV.
+          vi: Mình cần vài lời khuyên về CV của mình.
+          note: "Advice không đếm được: dùng some, không nói an advice hay advices."
+        - tag: Không đếm được
+          en: This software is free for students.
+          vi: Phần mềm này miễn phí cho sinh viên.
+          note: Software không có dạng softwares; động từ chia số ít.
       contrast:
-        title: "Đếm được và không đếm được"
+        title: Đếm được và không đếm được
         rows:
-          - { label: "Đếm được, số ít", note: "a/an + N", example: "a laptop" }
-          - { label: "Đếm được, số nhiều", note: "N-s, đi với many", example: "many laptops" }
-          - {
-              label: "Không đếm được",
-              note: "không -s, đi với much/some",
-              example: "much time · some money",
-            }
+          - label: Đếm được, số ít
+            note: a/an + N
+            example: a laptop
+          - label: Đếm được, số nhiều
+            note: N-s, đi với many
+            example: many laptops
+          - label: Không đếm được
+            note: không -s, đi với much/some
+            example: much time · some money
         fixes:
-          - {
-              wrong: "We have two new member in the team.",
-              right: "We have two new members in the team.",
-              why: "Sau two, danh từ đếm được phải ở số nhiều.",
-            }
-          - {
-              wrong: "Thanks for the informations.",
-              right: "Thanks for the information.",
-              why: "Information không đếm được nên không thêm -s.",
-            }
-          - {
-              wrong: "My two childs go to school.",
-              right: "My two children go to school.",
-              why: "Child có số nhiều bất quy tắc: children.",
-            }
-          - {
-              wrong: "The software are ready.",
-              right: "The software is ready.",
-              why: "Software không đếm được nên động từ chia số ít.",
-            }
-  - slug: g-a1-this-that
+          - wrong: We have two new member in the team.
+            right: We have two new members in the team.
+            why: Sau two, danh từ đếm được phải ở số nhiều.
+          - wrong: Thanks for the informations.
+            right: Thanks for the information.
+            why: Information không đếm được nên không thêm -s.
+          - wrong: My two childs go to school.
+            right: My two children go to school.
+            why: "Child có số nhiều bất quy tắc: children."
+          - wrong: The software are ready.
+            right: The software is ready.
+            why: Software không đếm được nên động từ chia số ít.
+  - slug: g-a1-countability
     kind: grammar
-    title: { en: "This, that, these & those", vi: "Từ chỉ định this, that, these, those" }
+    title:
+      en: Countable & uncountable nouns
+      vi: Danh từ đếm được và không đếm được
     questions:
-      [
-        g-a1-this-that-1,
-        g-a1-this-that-2,
-        g-a1-this-that-3,
-        g-a1-this-that-4,
-        g-a1-this-that-5,
-        g-a1-this-that-6,
-        g-a1-this-that-7,
-        g-a1-this-that-8,
-      ]
+      - g-a1-countability-1
+      - g-a1-countability-2
+      - g-a1-countability-3
+      - g-a1-countability-4
+      - g-a1-countability-5
+      - g-a1-countability-6
+      - g-a1-countability-7
+      - g-a1-countability-8
     grammar:
-      title_vi: "Từ chỉ định this, that, these, those"
-      group: "Từ loại"
+      title_vi: Danh từ đếm được và không đếm được
+      group: Danh từ
       overview:
-        focus: "This/these chỉ thứ ở gần người nói (cái này, mấy cái này); that/those chỉ thứ ở xa (cái kia, mấy cái kia). Tiếng Việt đặt “này/kia” sau danh từ, còn tiếng Anh đặt từ chỉ định trước danh từ và phải khớp số ít hay số nhiều."
+        focus: Danh từ đếm được (bug, ticket, file) có số ít, số nhiều và đi với a/an hoặc số đếm. Danh từ không đếm được (information, feedback, advice, code, data) không có dạng số nhiều, không đi với a/an và luôn dùng động từ số ít. Tiếng Việt không phân biệt điều này, nên người Việt hay nói nhầm “informations” hay “an advice”.
         formulas:
-          - "this/that + N số ít"
-          - "these/those + N số nhiều"
-          - "This is… · These are…"
-        hook: "This bug is new, but those bugs are old."
+          - a/an + danh từ đếm được số ít
+          - danh từ đếm được + -s → động từ số nhiều
+          - danh từ không đếm được (không -s) → động từ số ít
+        hook: Thanks for the feedback on my two pull requests.
       functions:
-        - title: "Chỉ thứ ở gần: this/these"
-          explain: "Thứ trong tay, trên bàn hoặc trên màn hình của chính mình."
-          examples: ["This laptop is mine.", "These files are big."]
-        - title: "Chỉ thứ ở xa: that/those"
-          explain: "Thứ ở xa người nói hoặc ở phía người nghe."
-          examples: ["That building is our office.", "Those chairs are new."]
-        - title: "Giới thiệu, tự xưng"
-          explain: "This is + tên để giới thiệu ai đó, hoặc tự xưng khi gọi điện, nhắn tin."
-          examples: ["This is Nam, our new tester.", "Hi, this is Linh from HR."]
-        - title: "Đứng một mình thay danh từ"
-          explain: "Từ chỉ định có thể làm chủ ngữ hoặc tân ngữ khi đã rõ đang nói cái gì."
-          examples: ["That is a good idea.", "I like these."]
+        - title: Đếm những thứ rời rạc
+          explain: "Bug, ticket, commit, server… đếm được: dùng a/an khi số ít, thêm -s khi số nhiều."
+          examples:
+            - I have a ticket for you.
+            - We fixed three bugs yesterday.
+        - title: Nói về thứ trừu tượng, không đếm được
+          explain: Information, feedback, advice, knowledge, progress không bao giờ thêm -s và không dùng a/an.
+          examples:
+            - Your feedback is very useful.
+            - We need more information about the error.
+        - title: Biến thứ không đếm được thành đếm được
+          explain: Dùng a piece of / a bit of / a line of trước danh từ không đếm được khi muốn nói “một”.
+          examples:
+            - Here is a piece of advice.
+            - This line of code is wrong.
+        - title: Chọn động từ đúng
+          explain: Danh từ không đếm được đi với is/has/was; danh từ số nhiều đi với are/have/were.
+          examples:
+            - The data is in the new table.
+            - The logs are in the old bucket.
       structure:
         forms:
-          - {
-              label: "this",
-              pattern: "this + N số ít / không đếm được (gần)",
-              example: "this ticket · this code",
-            }
-          - {
-              label: "that",
-              pattern: "that + N số ít / không đếm được (xa)",
-              example: "that meeting",
-            }
-          - { label: "these", pattern: "these + N số nhiều (gần)", example: "these tickets" }
-          - { label: "those", pattern: "those + N số nhiều (xa)", example: "those meetings" }
+          - label: Đếm được số ít
+            pattern: a/an/one + N
+            example: There is a bug in the login form.
+          - label: Đếm được số nhiều
+            pattern: N-s + are/have
+            example: The new tickets are on the board.
+          - label: Không đếm được
+            pattern: N (không -s, không a/an) + is/has
+            example: The documentation is out of date.
+          - label: Đơn vị đếm
+            pattern: a piece of / a bit of + N
+            example: Can I give you a piece of advice?
         steps:
-          - title: "Gần hay xa?"
-            explain: "Gần người nói → this/these; xa người nói → that/those."
-            example: "this mouse here · that printer over there"
-          - title: "Số ít hay số nhiều?"
-            explain: "Danh từ số nhiều đi với these/those, và động từ theo sau là are."
-            example: "These logs are long."
-          - title: "Không thêm a/the"
-            explain: "Đã có từ chỉ định thì bỏ mạo từ."
-            example: "this PR (không phải the this PR)"
+          - title: "Hỏi: có đếm “một, hai, ba” được không?"
+            explain: Đếm được hai bug, ba file → đếm được. Không nói “hai thông tin” trong tiếng Anh → không đếm được.
+            example: two bugs ✔ · two informations ✘
+          - title: Chọn mạo từ hoặc bỏ mạo từ
+            explain: Đếm được số ít cần a/an/the/my…; không đếm được có thể đứng một mình.
+            example: I need a laptop. · I need help.
+          - title: Khớp động từ
+            explain: Không đếm được → động từ số ít, kể cả khi nghĩa là “nhiều”.
+            example: All the information is in the ticket.
       examples:
-        - {
-            tag: "Gần",
-            en: "This keyboard is very loud.",
-            vi: "Bàn phím này kêu to quá.",
-            note: "Bàn phím ngay trước mặt, số ít → this.",
-          }
-        - {
-            tag: "Gần, số nhiều",
-            en: "These tests are slow.",
-            vi: "Mấy test này chạy chậm.",
-            note: "Tests số nhiều → these, động từ are.",
-          }
-        - {
-            tag: "Xa",
-            en: "That printer doesn't work.",
-            vi: "Cái máy in kia không chạy.",
-            note: "Máy in ở xa người nói, số ít → that.",
-          }
-        - {
-            tag: "Xa, số nhiều",
-            en: "Those boxes are for the new office.",
-            vi: "Mấy cái thùng kia là cho văn phòng mới.",
-            note: "Boxes số nhiều, ở xa → those.",
-          }
-        - {
-            tag: "Giới thiệu",
-            en: "This is Hoa, our new designer.",
-            vi: "Đây là Hoa, designer mới của tụi mình.",
-            note: "Giới thiệu người dùng This is + tên.",
-          }
-        - {
-            tag: "Tự xưng",
-            en: "Hi, this is Khoa from the support team.",
-            vi: "Alô, Khoa bên team hỗ trợ đây ạ.",
-            note: "Khi gọi điện hoặc nhắn tin, tự xưng bằng this is.",
-          }
-        - {
-            tag: "Thay danh từ",
-            en: "That is a great idea!",
-            vi: "Đó là một ý tưởng hay!",
-            note: "That thay cho điều người kia vừa nói.",
-          }
-        - {
-            tag: "Câu hỏi",
-            en: "Are these your headphones?",
-            vi: "Đây có phải tai nghe của bạn không?",
-            note: "Headphones số nhiều → these; câu hỏi đảo are lên đầu.",
-          }
+        - tag: Phản hồi
+          en: The client's feedback was positive.
+          vi: Phản hồi của khách hàng rất tích cực.
+          note: "Feedback không đếm được: không thêm -s, động từ là was."
+        - tag: Thông tin
+          en: Please add more information to the ticket.
+          vi: Bạn thêm thông tin vào ticket nhé.
+          note: Không nói informations; more đứng trước danh từ không đếm được.
+        - tag: Lời khuyên
+          en: My mentor gave me a piece of advice about testing.
+          vi: Mentor cho mình một lời khuyên về việc viết test.
+          note: Muốn nói “một lời khuyên” thì dùng a piece of advice, không dùng an advice.
+        - tag: Đếm được
+          en: Hoa closed four tickets this morning.
+          vi: Sáng nay Hoa đã đóng bốn ticket.
+          note: Ticket đếm được, sau số bốn phải có -s.
+        - tag: Dữ liệu
+          en: The test data lives in a separate folder.
+          vi: Dữ liệu test nằm trong một thư mục riêng.
+          note: Trong công việc, data thường được dùng như danh từ không đếm được, đi với lives (số ít).
+        - tag: Mã nguồn
+          en: There is a lot of old code in this module.
+          vi: Module này có rất nhiều code cũ.
+          note: Code (mã nguồn) không đếm được, nên dùng there is chứ không phải codes.
+        - tag: Thiết bị
+          en: Each tester has a phone and two tablets.
+          vi: Mỗi tester có một điện thoại và hai máy tính bảng.
+          note: "Phone, tablet đếm được: a phone, two tablets."
+        - tag: Tiến độ
+          en: Our progress on the migration is slow.
+          vi: Tiến độ chuyển đổi của nhóm đang chậm.
+          note: "Progress không đếm được: không có progresses, động từ là is."
       contrast:
-        title: "Gần/xa và số ít/số nhiều"
+        title: Đếm được hay không đếm được?
         rows:
-          - { label: "this", note: "gần, số ít", example: "this cable" }
-          - { label: "these", note: "gần, số nhiều", example: "these cables" }
-          - { label: "that", note: "xa, số ít", example: "that cable" }
-          - { label: "those", note: "xa, số nhiều", example: "those cables" }
+          - label: bug / bugs
+            note: đếm được
+            example: Two bugs are still open.
+          - label: ticket / tickets
+            note: đếm được
+            example: I have a ticket for you.
+          - label: information
+            note: không đếm được
+            example: The information is correct.
+          - label: feedback / advice
+            note: không đếm được
+            example: Thanks for the advice.
+          - label: a piece of …
+            note: đếm thứ không đếm được
+            example: a piece of feedback
         fixes:
-          - {
-              wrong: "This files are old.",
-              right: "These files are old.",
-              why: "Files số nhiều nên dùng these.",
-            }
-          - {
-              wrong: "Those laptop is broken.",
-              right: "That laptop is broken.",
-              why: "Laptop số ít nên dùng that.",
-            }
-          - {
-              wrong: "The this report is wrong.",
-              right: "This report is wrong.",
-              why: "Không dùng the cùng với this.",
-            }
-          - {
-              wrong: "These is my teammates.",
-              right: "These are my teammates.",
-              why: "These là số nhiều nên đi với are.",
-            }
+          - wrong: Can you send me the informations?
+            right: Can you send me the information?
+            why: Information không đếm được nên không có -s.
+          - wrong: She gave me an advice.
+            right: She gave me some advice.
+            why: Advice không đi với an; dùng some advice hoặc a piece of advice.
+          - wrong: The feedbacks are helpful.
+            right: The feedback is helpful.
+            why: "Feedback không đếm được: bỏ -s và dùng động từ số ít."
   - slug: g-a1-possessives
     kind: grammar
-    title: { en: "Possessives: my, your… & 's", vi: "Sở hữu: my, your… và 's" }
+    title:
+      en: "Possessives: my, your… & 's"
+      vi: "Sở hữu: my, your… và 's"
     questions:
-      [
-        g-a1-possessives-1,
-        g-a1-possessives-2,
-        g-a1-possessives-3,
-        g-a1-possessives-4,
-        g-a1-possessives-5,
-        g-a1-possessives-6,
-        g-a1-possessives-7,
-        g-a1-possessives-8,
-      ]
+      - g-a1-possessives-1
+      - g-a1-possessives-2
+      - g-a1-possessives-3
+      - g-a1-possessives-4
+      - g-a1-possessives-5
+      - g-a1-possessives-6
+      - g-a1-possessives-7
+      - g-a1-possessives-8
     grammar:
-      title_vi: "Tính từ sở hữu và sở hữu cách 's"
-      group: "Từ loại"
+      title_vi: Tính từ sở hữu và sở hữu cách 's
+      group: Từ loại
       overview:
         focus: "Tiếng Việt nói “laptop của Lan” (vật trước, người sau). Tiếng Anh làm ngược lại: người sở hữu đứng trước vật, dùng tính từ sở hữu (my, your, his, her, its, our, their) hoặc tên + 's. Đã có từ sở hữu thì không dùng a/the."
         formulas:
-          - "my/your/his/her/its/our/their + N"
-          - "Tên / danh từ số ít + 's + N"
-          - "Danh từ số nhiều có -s + ' + N"
-        hook: "This is my laptop, and that is Lan's monitor."
+          - my/your/his/her/its/our/their + N
+          - Tên / danh từ số ít + 's + N
+          - Danh từ số nhiều có -s + ' + N
+        hook: This is my laptop, and that is Lan's monitor.
       functions:
-        - title: "Nói đồ của ai"
-          explain: "Tính từ sở hữu đứng ngay trước danh từ."
-          examples: ["My password is too short.", "Their office is near the river."]
-        - title: "His hay her"
-          explain: "Chọn theo người sở hữu là nam hay nữ, không theo đồ vật."
-          examples: ["Minh and his team", "Lan and her manager"]
-        - title: "Tên + 's"
-          explain: "Thêm 's sau tên người hoặc danh từ chỉ người để nói đồ của họ."
-          examples: ["Tuan's desk is by the window.", "Please read the client's email."]
-        - title: "Its cho vật, công ty, ứng dụng"
-          explain: "Its (không có dấu nháy) nghĩa là “của nó”; it's là viết tắt của it is."
-          examples: ["The app and its icon", "The company has its own canteen."]
-      structure:
-        forms:
-          - {
-              label: "Tính từ sở hữu",
-              pattern: "I → my · you → your · he → his · she → her · it → its · we → our · they → their",
-              example: "our sprint goal",
-            }
-          - { label: "'s (số ít)", pattern: "N + 's", example: "the manager's room" }
-          - { label: "' (số nhiều)", pattern: "N-s + '", example: "the users' data" }
-          - { label: "Câu hỏi", pattern: "Whose + N…?", example: "Whose laptop is this?" }
-        steps:
-          - title: "Xác định ai sở hữu"
-            explain: "Rồi chọn từ tương ứng với người đó."
-            example: "Hoa → her · Nam → his · the app → its"
-          - title: "Người trước, vật sau"
-            explain: "Đặt từ sở hữu trước danh từ và bỏ a/the."
-            example: "my laptop (không phải the laptop of me)"
-          - title: "Phân biệt its và it's"
-            explain: "Its = của nó; it's = it is."
-            example: "It's late. The app saves its data."
-      examples:
-        - {
-            tag: "my",
-            en: "My password doesn't work.",
-            vi: "Mật khẩu của mình không dùng được.",
-            note: "Của mình → my, đặt trước danh từ.",
-          }
-        - {
-            tag: "his",
-            en: "Minh and his team work in Hanoi.",
-            vi: "Minh và team của anh ấy làm việc ở Hà Nội.",
-            note: "Minh là nam → his.",
-          }
-        - {
-            tag: "her",
-            en: "Thu shares her screen in every meeting.",
-            vi: "Thu chia sẻ màn hình của cô ấy trong mọi buổi họp.",
-            note: "Thu là nữ → her.",
-          }
-        - {
-            tag: "its",
-            en: "The app saves its data in the cloud.",
-            vi: "Ứng dụng lưu dữ liệu của nó trên cloud.",
-            note: "Của nó (vật) → its, không có dấu nháy.",
-          }
-        - {
-            tag: "our",
-            en: "Our office is on the tenth floor.",
-            vi: "Văn phòng của tụi mình ở tầng mười.",
-            note: "We → our.",
-          }
-        - {
-            tag: "'s",
-            en: "Tuan's laptop is very fast.",
-            vi: "Laptop của Tuấn chạy rất nhanh.",
-            note: "Tên + 's + vật: Tuan's laptop.",
-          }
-        - {
-            tag: "Số nhiều",
-            en: "The users' passwords are safe.",
-            vi: "Mật khẩu của người dùng đều an toàn.",
-            note: "Users đã có -s nên chỉ thêm dấu nháy: users'.",
-          }
-        - {
-            tag: "Câu hỏi",
-            en: "Whose charger is this?",
-            vi: "Sạc này của ai vậy?",
-            note: "Hỏi chủ sở hữu: Whose + danh từ.",
-          }
-      contrast:
-        title: "Đại từ chủ ngữ → tính từ sở hữu"
-        rows:
-          - { label: "I → my", note: "của tôi", example: "my laptop" }
-          - { label: "you → your", note: "của bạn", example: "your ticket" }
-          - { label: "he → his", note: "của anh ấy", example: "his team" }
-          - { label: "she → her", note: "của cô ấy", example: "her code" }
-          - { label: "it → its", note: "của nó (vật)", example: "its logo" }
-          - {
-              label: "we → our · they → their",
-              note: "của chúng tôi · của họ",
-              example: "our office · their project",
-            }
-        fixes:
-          - {
-              wrong: "This is the laptop of Lan.",
-              right: "This is Lan's laptop.",
-              why: "Với người sở hữu, tiếng Anh tự nhiên dùng 's.",
-            }
-          - {
-              wrong: "Nam needs her password.",
-              right: "Nam needs his password.",
-              why: "Nam là nam → his; chọn theo người sở hữu, không theo đồ vật.",
-            }
-          - {
-              wrong: "The app updates it's data every hour.",
-              right: "The app updates its data every hour.",
-              why: "It's = it is; sở hữu dùng its.",
-            }
-          - {
-              wrong: "I like the my new desk.",
-              right: "I like my new desk.",
-              why: "Không dùng the cùng với my.",
-            }
-  - slug: g-a1-object-pronouns
-    kind: grammar
-    title: { en: "Object pronouns", vi: "Đại từ tân ngữ" }
-    questions:
-      [
-        g-a1-object-pronouns-1,
-        g-a1-object-pronouns-2,
-        g-a1-object-pronouns-3,
-        g-a1-object-pronouns-4,
-        g-a1-object-pronouns-5,
-        g-a1-object-pronouns-6,
-        g-a1-object-pronouns-7,
-        g-a1-object-pronouns-8,
-      ]
-    grammar:
-      title_vi: "Đại từ tân ngữ me, him, her, us, them"
-      group: "Từ loại"
-      overview:
-        focus: "Tiếng Việt dùng cùng một từ “mình, anh ấy, họ” dù đứng đầu hay cuối câu. Tiếng Anh đổi dạng: làm chủ ngữ (trước động từ) dùng I, he, she, we, they; làm tân ngữ (sau động từ hoặc giới từ) dùng me, him, her, us, them. You và it giữ nguyên."
-        formulas:
-          - "S + V + me/you/him/her/it/us/them"
-          - "giới từ + me/you/him/her/it/us/them"
-        hook: "I call him, and he calls me back."
-      functions:
-        - title: "Sau động từ"
-          explain: "Người hoặc vật nhận hành động đứng sau động từ ở dạng tân ngữ."
-          examples: ["Can you help me?", "I know her."]
-        - title: "Sau giới từ"
-          explain: "Sau for, with, to, about… luôn dùng dạng tân ngữ."
-          examples: ["This task is for them.", "Come with us."]
-        - title: "Thay cho vật đã nhắc"
-          explain: "Vật số ít → it, nhiều vật → them."
+        - title: Nói đồ của ai
+          explain: Tính từ sở hữu đứng ngay trước danh từ.
           examples:
-            ["I like this tool. I use it every day.", "The files are ready. Please check them."]
-        - title: "Trả lời ngắn"
-          explain: "Câu trả lời một từ, không có động từ, thường dùng dạng tân ngữ."
-          examples: ["Who wants coffee? — Me!", "Not him, please."]
+            - My password is too short.
+            - Their office is near the river.
+        - title: His hay her
+          explain: Chọn theo người sở hữu là nam hay nữ, không theo đồ vật.
+          examples:
+            - Minh and his team
+            - Lan and her manager
+        - title: Tên + 's
+          explain: Thêm 's sau tên người hoặc danh từ chỉ người để nói đồ của họ.
+          examples:
+            - Tuan's desk is by the window.
+            - Please read the client's email.
+        - title: Its cho vật, công ty, ứng dụng
+          explain: Its (không có dấu nháy) nghĩa là “của nó”; it's là viết tắt của it is.
+          examples:
+            - The app and its icon
+            - The company has its own canteen.
       structure:
         forms:
-          - {
-              label: "Đổi dạng",
-              pattern: "I → me · he → him · she → her · we → us · they → them",
-              example: "They like us.",
-            }
-          - {
-              label: "Giữ nguyên",
-              pattern: "you → you · it → it",
-              example: "I need it. Do you need it?",
-            }
-          - { label: "Sau động từ", pattern: "S + V + O", example: "Call me later." }
-          - { label: "Sau giới từ", pattern: "giới từ + O", example: "a message for her" }
+          - label: Tính từ sở hữu
+            pattern: I → my · you → your · he → his · she → her · it → its · we → our · they → their
+            example: our sprint goal
+          - label: "'s (số ít)"
+            pattern: N + 's
+            example: the manager's room
+          - label: "' (số nhiều)"
+            pattern: N-s + '
+            example: the users' data
+          - label: Câu hỏi
+            pattern: Whose + N…?
+            example: Whose laptop is this?
         steps:
-          - title: "Từ đó đứng ở đâu?"
-            explain: "Trước động từ → chủ ngữ; sau động từ hoặc giới từ → tân ngữ."
-            example: "She emails him. He replies to her."
-          - title: "Đổi đúng dạng"
-            explain: "Thay I bằng me, we bằng us, they bằng them…"
-            example: "Help we → Help us"
-          - title: "Khi có thêm người khác"
-            explain: "“Lan và mình” ở vị trí tân ngữ vẫn dùng me."
-            example: "The meeting is for Lan and me."
+          - title: Xác định ai sở hữu
+            explain: Rồi chọn từ tương ứng với người đó.
+            example: Hoa → her · Nam → his · the app → its
+          - title: Người trước, vật sau
+            explain: Đặt từ sở hữu trước danh từ và bỏ a/the.
+            example: my laptop (không phải the laptop of me)
+          - title: Phân biệt its và it's
+            explain: Its = của nó; it's = it is.
+            example: It's late. The app saves its data.
       examples:
-        - {
-            tag: "Sau động từ",
-            en: "Can you help me with this bug?",
-            vi: "Bạn giúp mình xử lý lỗi này được không?",
-            note: "Sau help là tân ngữ → me, không dùng I.",
-          }
-        - {
-            tag: "Sau động từ",
-            en: "I don't know him.",
-            vi: "Mình không quen anh ấy.",
-            note: "Anh ấy đứng sau động từ → him.",
-          }
-        - {
-            tag: "Sau động từ",
-            en: "Please send her the link.",
-            vi: "Gửi link cho cô ấy nhé.",
-            note: "Her là tân ngữ, đứng ngay sau send.",
-          }
-        - {
-            tag: "Sau giới từ",
-            en: "These new chairs are for us.",
-            vi: "Mấy cái ghế mới này là cho tụi mình.",
-            note: "Sau giới từ for → us.",
-          }
-        - {
-            tag: "Thay người",
-            en: "The clients are here. Please meet them in Room A.",
-            vi: "Khách hàng đến rồi. Bạn ra gặp họ ở phòng A nhé.",
-            note: "Họ là tân ngữ của meet → them.",
-          }
-        - {
-            tag: "Thay vật",
-            en: "I like this extension, and I use it every day.",
-            vi: "Mình thích extension này và ngày nào cũng dùng nó.",
-            note: "Vật số ít ở vị trí tân ngữ vẫn là it.",
-          }
-        - {
-            tag: "Lời nhờ",
-            en: "Call me after lunch.",
-            vi: "Gọi cho mình sau bữa trưa nhé.",
-            note: "Call + me, không cần thêm to.",
-          }
-        - {
-            tag: "Hai người",
-            en: "Huy works with Lan and me.",
-            vi: "Huy làm việc với Lan và mình.",
-            note: "Sau with dùng me, kể cả khi có thêm người khác.",
-          }
+        - tag: my
+          en: My password doesn't work.
+          vi: Mật khẩu của mình không dùng được.
+          note: Của mình → my, đặt trước danh từ.
+        - tag: his
+          en: Minh and his team work in Hanoi.
+          vi: Minh và team của anh ấy làm việc ở Hà Nội.
+          note: Minh là nam → his.
+        - tag: her
+          en: Thu shares her screen in every meeting.
+          vi: Thu chia sẻ màn hình của cô ấy trong mọi buổi họp.
+          note: Thu là nữ → her.
+        - tag: its
+          en: The app saves its data in the cloud.
+          vi: Ứng dụng lưu dữ liệu của nó trên cloud.
+          note: Của nó (vật) → its, không có dấu nháy.
+        - tag: our
+          en: Our office is on the tenth floor.
+          vi: Văn phòng của tụi mình ở tầng mười.
+          note: We → our.
+        - tag: "'s"
+          en: Tuan's laptop is very fast.
+          vi: Laptop của Tuấn chạy rất nhanh.
+          note: "Tên + 's + vật: Tuan's laptop."
+        - tag: Số nhiều
+          en: The users' passwords are safe.
+          vi: Mật khẩu của người dùng đều an toàn.
+          note: "Users đã có -s nên chỉ thêm dấu nháy: users'."
+        - tag: Câu hỏi
+          en: Whose charger is this?
+          vi: Sạc này của ai vậy?
+          note: "Hỏi chủ sở hữu: Whose + danh từ."
       contrast:
-        title: "Chủ ngữ và tân ngữ"
+        title: Đại từ chủ ngữ → tính từ sở hữu
         rows:
-          - {
-              label: "I / me",
-              note: "trước động từ / sau động từ",
-              example: "I call Nam. Nam calls me.",
-            }
-          - { label: "he / him", note: "anh ấy", example: "He emails Lan. Lan emails him." }
-          - { label: "she / her", note: "cô ấy", example: "She helps us. We help her." }
-          - { label: "we / us", note: "chúng tôi", example: "We invite them. They invite us." }
-          - { label: "they / them", note: "họ, chúng nó", example: "They know me. I know them." }
+          - label: I → my
+            note: của tôi
+            example: my laptop
+          - label: you → your
+            note: của bạn
+            example: your ticket
+          - label: he → his
+            note: của anh ấy
+            example: his team
+          - label: she → her
+            note: của cô ấy
+            example: her code
+          - label: it → its
+            note: của nó (vật)
+            example: its logo
+          - label: we → our · they → their
+            note: của chúng tôi · của họ
+            example: our office · their project
         fixes:
-          - {
-              wrong: "Can you call I later?",
-              right: "Can you call me later?",
-              why: "Sau động từ dùng me.",
-            }
-          - {
-              wrong: "Please send the file to they.",
-              right: "Please send the file to them.",
-              why: "Sau giới từ to dùng them.",
-            }
-          - {
-              wrong: "Him is my team lead.",
-              right: "He is my team lead.",
-              why: "Đứng trước động từ làm chủ ngữ phải dùng he.",
-            }
-          - {
-              wrong: "This task is for Minh and I.",
-              right: "This task is for Minh and me.",
-              why: "Sau for dùng me dù có thêm tên khác.",
-            }
-  - slug: g-a1-there-is
+          - wrong: This is the laptop of Lan.
+            right: This is Lan's laptop.
+            why: Với người sở hữu, tiếng Anh tự nhiên dùng 's.
+          - wrong: Nam needs her password.
+            right: Nam needs his password.
+            why: Nam là nam → his; chọn theo người sở hữu, không theo đồ vật.
+          - wrong: The app updates it's data every hour.
+            right: The app updates its data every hour.
+            why: It's = it is; sở hữu dùng its.
+          - wrong: I like the my new desk.
+            right: I like my new desk.
+            why: Không dùng the cùng với my.
+  - slug: g-a1-this-that
     kind: grammar
-    title: { en: "There is & there are", vi: "Cấu trúc there is / there are" }
+    title:
+      en: This, that, these & those
+      vi: Từ chỉ định this, that, these, those
     questions:
-      [
-        g-a1-there-is-1,
-        g-a1-there-is-2,
-        g-a1-there-is-3,
-        g-a1-there-is-4,
-        g-a1-there-is-5,
-        g-a1-there-is-6,
-        g-a1-there-is-7,
-        g-a1-there-is-8,
-      ]
+      - g-a1-this-that-1
+      - g-a1-this-that-2
+      - g-a1-this-that-3
+      - g-a1-this-that-4
+      - g-a1-this-that-5
+      - g-a1-this-that-6
+      - g-a1-this-that-7
+      - g-a1-this-that-8
     grammar:
-      title_vi: "Cấu trúc there is / there are"
-      group: "Cấu trúc câu"
+      title_vi: Từ chỉ định this, that, these, those
+      group: Từ loại
       overview:
-        focus: "Muốn nói ở đâu đó “có” một thứ (phòng họp có máy chiếu, trong code có lỗi), tiếng Anh dùng there is/there are, không bắt đầu câu bằng have. Chọn is hay are theo danh từ đứng ngay sau."
+        focus: This/these chỉ thứ ở gần người nói (cái này, mấy cái này); that/those chỉ thứ ở xa (cái kia, mấy cái kia). Tiếng Việt đặt “này/kia” sau danh từ, còn tiếng Anh đặt từ chỉ định trước danh từ và phải khớp số ít hay số nhiều.
         formulas:
-          - "There is + a/an + N số ít · There is + N không đếm được"
-          - "There are + N số nhiều"
-          - "Is there…? · Are there…?"
-        hook: "There is a bug in the login page."
+          - this/that + N số ít
+          - these/those + N số nhiều
+          - This is… · These are…
+        hook: This bug is new, but those bugs are old.
       functions:
-        - title: "Có một thứ"
-          explain: "Danh từ số ít hoặc không đếm được → there is (there's)."
-          examples: ["There is a printer on the second floor.", "There's an error in line 10."]
-        - title: "Có nhiều thứ"
-          explain: "Danh từ số nhiều → there are."
-          examples: ["There are three meeting rooms.", "There are some tickets in the backlog."]
-        - title: "Không có"
-          explain: "There isn't / there aren't, thường đi với any."
-          examples: ["There isn't any coffee.", "There aren't any open bugs."]
-        - title: "Hỏi có hay không"
-          explain: "Đảo is/are lên trước there."
-          examples: ["Is there a meeting today?", "Are there any questions?"]
+        - title: "Chỉ thứ ở gần: this/these"
+          explain: Thứ trong tay, trên bàn hoặc trên màn hình của chính mình.
+          examples:
+            - This laptop is mine.
+            - These files are big.
+        - title: "Chỉ thứ ở xa: that/those"
+          explain: Thứ ở xa người nói hoặc ở phía người nghe.
+          examples:
+            - That building is our office.
+            - Those chairs are new.
+        - title: Giới thiệu, tự xưng
+          explain: This is + tên để giới thiệu ai đó, hoặc tự xưng khi gọi điện, nhắn tin.
+          examples:
+            - This is Nam, our new tester.
+            - Hi, this is Linh from HR.
+        - title: Đứng một mình thay danh từ
+          explain: Từ chỉ định có thể làm chủ ngữ hoặc tân ngữ khi đã rõ đang nói cái gì.
+          examples:
+            - That is a good idea.
+            - I like these.
       structure:
         forms:
-          - {
-              label: "Số ít",
-              pattern: "There is (There's) + a/an + N",
-              example: "There's a new message.",
-            }
-          - {
-              label: "Số nhiều",
-              pattern: "There are + N số nhiều",
-              example: "There are two new messages.",
-            }
-          - {
-              label: "Phủ định",
-              pattern: "There isn't a/any… · There aren't any…",
-              example: "There aren't any chairs.",
-            }
-          - {
-              label: "Nghi vấn",
-              pattern: "Is there…? · Are there…?",
-              example: "Is there a parking lot?",
-            }
-          - {
-              label: "Trả lời ngắn",
-              pattern: "Yes, there is/are. · No, there isn't/aren't.",
-              example: "No, there isn't.",
-            }
+          - label: this
+            pattern: this + N số ít / không đếm được (gần)
+            example: this ticket · this code
+          - label: that
+            pattern: that + N số ít / không đếm được (xa)
+            example: that meeting
+          - label: these
+            pattern: these + N số nhiều (gần)
+            example: these tickets
+          - label: those
+            pattern: those + N số nhiều (xa)
+            example: those meetings
         steps:
-          - title: "Nhìn danh từ ngay sau"
-            explain: "Số ít hoặc không đếm được → is; số nhiều → are."
-            example: "There is some milk. There are some cups."
-          - title: "Nơi chốn thường đặt cuối câu"
-            explain: "There is/are + thứ gì + ở đâu."
-            example: "There is a whiteboard in Room B."
-          - title: "Phủ định và câu hỏi"
-            explain: "Thêm not sau is/are, hoặc đảo is/are lên trước there; số nhiều thường dùng any."
-            example: "Are there any updates?"
+          - title: Gần hay xa?
+            explain: Gần người nói → this/these; xa người nói → that/those.
+            example: this mouse here · that printer over there
+          - title: Số ít hay số nhiều?
+            explain: Danh từ số nhiều đi với these/those, và động từ theo sau là are.
+            example: These logs are long.
+          - title: Không thêm a/the
+            explain: Đã có từ chỉ định thì bỏ mạo từ.
+            example: this PR (không phải the this PR)
       examples:
-        - {
-            tag: "Số ít",
-            en: "There is a whiteboard in the meeting room.",
-            vi: "Trong phòng họp có một cái bảng trắng.",
-            note: "Một cái bảng (số ít) → there is.",
-          }
-        - {
-            tag: "Số nhiều",
-            en: "There are two printers on this floor.",
-            vi: "Ở tầng này có hai máy in.",
-            note: "Hai máy in → there are.",
-          }
-        - {
-            tag: "Rút gọn",
-            en: "There's an error in the logs.",
-            vi: "Trong log có một lỗi.",
-            note: "There's = there is; error bắt đầu bằng nguyên âm → an.",
-          }
-        - {
-            tag: "Không đếm được",
-            en: "There is some coffee in the kitchen.",
-            vi: "Trong bếp có cà phê đấy.",
-            note: "Coffee không đếm được → is.",
-          }
-        - {
-            tag: "Phủ định",
-            en: "There isn't a meeting this afternoon.",
-            vi: "Chiều nay không có cuộc họp nào.",
-            note: "Phủ định số ít: there isn't a.",
-          }
-        - {
-            tag: "Phủ định",
-            en: "There aren't any open tickets right now.",
-            vi: "Hiện giờ không có ticket nào đang mở.",
-            note: "Phủ định số nhiều: there aren't any.",
-          }
-        - {
-            tag: "Câu hỏi",
-            en: "Is there a bathroom on this floor?",
-            vi: "Tầng này có nhà vệ sinh không?",
-            note: "Câu hỏi số ít: đảo is lên trước there.",
-          }
-        - {
-            tag: "Câu hỏi",
-            en: "Are there any questions?",
-            vi: "Mọi người có câu hỏi nào không?",
-            note: "Câu hỏi số nhiều thường dùng any.",
-          }
+        - tag: Gần
+          en: This keyboard is very loud.
+          vi: Bàn phím này kêu to quá.
+          note: Bàn phím ngay trước mặt, số ít → this.
+        - tag: Gần, số nhiều
+          en: These tests are slow.
+          vi: Mấy test này chạy chậm.
+          note: Tests số nhiều → these, động từ are.
+        - tag: Xa
+          en: That printer doesn't work.
+          vi: Cái máy in kia không chạy.
+          note: Máy in ở xa người nói, số ít → that.
+        - tag: Xa, số nhiều
+          en: Those boxes are for the new office.
+          vi: Mấy cái thùng kia là cho văn phòng mới.
+          note: Boxes số nhiều, ở xa → those.
+        - tag: Giới thiệu
+          en: This is Hoa, our new designer.
+          vi: Đây là Hoa, designer mới của tụi mình.
+          note: Giới thiệu người dùng This is + tên.
+        - tag: Tự xưng
+          en: Hi, this is Khoa from the support team.
+          vi: Alô, Khoa bên team hỗ trợ đây ạ.
+          note: Khi gọi điện hoặc nhắn tin, tự xưng bằng this is.
+        - tag: Thay danh từ
+          en: That is a great idea!
+          vi: Đó là một ý tưởng hay!
+          note: That thay cho điều người kia vừa nói.
+        - tag: Câu hỏi
+          en: Are these your headphones?
+          vi: Đây có phải tai nghe của bạn không?
+          note: Headphones số nhiều → these; câu hỏi đảo are lên đầu.
       contrast:
-        title: "There is/are và have"
+        title: Gần/xa và số ít/số nhiều
         rows:
-          - {
-              label: "There is",
-              note: "ở đâu đó có một thứ (số ít / không đếm được)",
-              example: "There is a car outside.",
-            }
-          - {
-              label: "There are",
-              note: "ở đâu đó có nhiều thứ",
-              example: "There are two cars outside.",
-            }
-          - { label: "have / has", note: "ai đó sở hữu cái gì", example: "I have a car." }
+          - label: this
+            note: gần, số ít
+            example: this cable
+          - label: these
+            note: gần, số nhiều
+            example: these cables
+          - label: that
+            note: xa, số ít
+            example: that cable
+          - label: those
+            note: xa, số nhiều
+            example: those cables
         fixes:
-          - {
-              wrong: "Have a bug in the login page.",
-              right: "There is a bug in the login page.",
-              why: "Nói ở đâu “có” cái gì dùng there is, không bắt đầu câu bằng have.",
-            }
-          - {
-              wrong: "There is three new users.",
-              right: "There are three new users.",
-              why: "Danh từ số nhiều → there are.",
-            }
-          - {
-              wrong: "There are some information here.",
-              right: "There is some information here.",
-              why: "Information không đếm được → is.",
-            }
-          - {
-              wrong: "Is there any meetings today?",
-              right: "Are there any meetings today?",
-              why: "Meetings số nhiều → Are there.",
-            }
-  - slug: g-a1-can
+          - wrong: This files are old.
+            right: These files are old.
+            why: Files số nhiều nên dùng these.
+          - wrong: Those laptop is broken.
+            right: That laptop is broken.
+            why: Laptop số ít nên dùng that.
+          - wrong: The this report is wrong.
+            right: This report is wrong.
+            why: Không dùng the cùng với this.
+          - wrong: These is my teammates.
+            right: These are my teammates.
+            why: These là số nhiều nên đi với are.
+  - slug: g-a1-articles
     kind: grammar
-    title: { en: "Can & can't", vi: "Động từ khuyết thiếu can / can't" }
+    title:
+      en: A, an & the
+      vi: Mạo từ a, an và the
     questions:
-      [
-        g-a1-can-1,
-        g-a1-can-2,
-        g-a1-can-3,
-        g-a1-can-4,
-        g-a1-can-5,
-        g-a1-can-6,
-        g-a1-can-7,
-        g-a1-can-8,
-      ]
+      - g-a1-articles-1
+      - g-a1-articles-2
+      - g-a1-articles-3
+      - g-a1-articles-4
+      - g-a1-articles-5
+      - g-a1-articles-6
+      - g-a1-articles-7
+      - g-a1-articles-8
     grammar:
-      title_vi: "Động từ khuyết thiếu can / can't"
-      group: "Động từ khuyết thiếu"
+      title_vi: Mạo từ a, an và the
+      group: Từ loại
       overview:
-        focus: "Can diễn tả khả năng (biết làm, làm được), xin phép và nhờ vả. Can đứng trước động từ nguyên mẫu, không đổi theo chủ ngữ (không có cans), và tự làm phủ định, câu hỏi mà không cần do/does."
+        focus: "Danh từ đếm được số ít trong tiếng Anh gần như không bao giờ đứng một mình: cần a/an (một cái bất kỳ, lần đầu nhắc) hoặc the (cái cụ thể, cả hai bên đều biết). Tiếng Việt không có mạo từ nên người học hay bỏ sót."
         formulas:
-          - "S + can / can't + V (nguyên mẫu)"
-          - "Can + S + V (nguyên mẫu)…?"
-        hook: "I can write Python, but I can't write Go."
+          - a + âm phụ âm · an + âm nguyên âm
+          - the + danh từ cụ thể, đã xác định
+          - Ø + danh từ số nhiều / không đếm được (nói chung)
+        hook: I found a bug. The bug is in the login form.
       functions:
-        - title: "Khả năng"
-          explain: "Ai đó biết hoặc làm được việc gì."
-          examples: ["She can speak Japanese.", "I can't swim."]
-        - title: "Xin phép"
-          explain: "Can I…? để hỏi mình có được làm gì không."
-          examples: ["Can I leave early today?", "Can I use this room?"]
-        - title: "Nhờ vả"
-          explain: "Can you…? để nhờ người khác một cách lịch sự."
-          examples: ["Can you review my PR?", "Can you call me back?"]
-        - title: "Được phép hay không"
-          explain: "Mô tả quy định, tính năng cho phép hoặc không cho phép làm gì."
-          examples: ["You can't park here.", "Users can reset their password."]
+        - title: "Nhắc đến lần đầu: a/an"
+          explain: Người nghe chưa biết cái nào; chỉ một cái bất kỳ trong nhiều cái.
+          examples:
+            - I have an idea.
+            - We need a new designer.
+        - title: Nghề nghiệp, phân loại
+          explain: "Nói ai đó là gì, cái gì thuộc loại nào: luôn có a/an trước danh từ số ít."
+          examples:
+            - She is an engineer.
+            - React is a library.
+        - title: "Cái đã biết, đã nhắc: the"
+          explain: Lần nhắc thứ hai, hoặc cả hai người đều biết đang nói cái nào.
+          examples:
+            - Can you close the door?
+            - I fixed the bug you reported.
+        - title: Duy nhất hoặc được xác định rõ
+          explain: Chỉ có một cái, hoặc có cụm phía sau chỉ rõ (of…, that…, so sánh nhất).
+          examples:
+            - The internet is slow today.
+            - The name of the file is wrong.
+        - title: "Nói chung: không mạo từ"
+          explain: Danh từ số nhiều hoặc không đếm được khi nói chung chung thì không dùng the.
+          examples:
+            - Developers love coffee.
+            - Good code needs tests.
       structure:
         forms:
-          - { label: "Khẳng định", pattern: "S + can + V", example: "He can fix it." }
-          - {
-              label: "Phủ định",
-              pattern: "S + can't / cannot + V",
-              example: "We can't access the server.",
-            }
-          - { label: "Nghi vấn", pattern: "Can + S + V…?", example: "Can you hear me?" }
-          - { label: "Trả lời ngắn", pattern: "Yes, S can. · No, S can't.", example: "Yes, I can." }
+          - label: a
+            pattern: a + âm phụ âm
+            example: a laptop · a user · a URL
+          - label: an
+            pattern: an + âm nguyên âm
+            example: an API · an hour · an email
+          - label: the
+            pattern: the + danh từ đã xác định
+            example: the main branch
+          - label: Không mạo từ
+            pattern: Ø + số nhiều / không đếm được
+            example: Users like fast apps.
         steps:
-          - title: "Giữ nguyên can"
-            explain: "Mọi chủ ngữ đều dùng can, không thêm -s."
-            example: "She can (không phải she cans)"
-          - title: "Động từ sau can ở nguyên mẫu"
-            explain: "Không thêm to, -s hay -ing sau can."
-            example: "can deploy (không phải can to deploy)"
-          - title: "Phủ định, câu hỏi bằng chính can"
-            explain: "Không dùng do/does; viết cannot liền hoặc rút gọn can't."
-            example: "Can he come? — No, he can't."
+          - title: Danh từ đếm được hay không?
+            explain: Không đếm được (information, advice, software, feedback) không bao giờ đi với a/an.
+            example: some feedback (không phải a feedback)
+          - title: Người nghe đã biết cái nào chưa?
+            explain: Chưa biết, nói lần đầu → a/an. Đã biết hoặc chỉ có một → the.
+            example: There is a meeting at 3. The meeting is in Room B.
+          - title: Chọn a hay an theo âm, không theo chữ
+            explain: "Nghe âm đầu tiên: “hour” bắt đầu bằng âm nguyên âm → an; “user”, “URL” bắt đầu bằng âm /j/ → a."
+            example: an SQL query · a unit test
       examples:
-        - {
-            tag: "Khả năng",
-            en: "Linh can speak three languages.",
-            vi: "Linh nói được ba thứ tiếng.",
-            note: "Khả năng → can; speak giữ nguyên mẫu.",
-          }
-        - {
-            tag: "Không làm được",
-            en: "I can't open this file.",
-            vi: "Mình không mở được file này.",
-            note: "Can't + động từ nguyên mẫu.",
-          }
-        - {
-            tag: "Câu hỏi",
-            en: "Can you hear me?",
-            vi: "Bạn có nghe thấy mình không?",
-            note: "Đưa can lên đầu câu, không dùng do.",
-          }
-        - {
-            tag: "Xin phép",
-            en: "Can I leave at four today?",
-            vi: "Hôm nay em về lúc bốn giờ được không ạ?",
-            note: "Xin phép dùng Can I…?",
-          }
-        - {
-            tag: "Nhờ vả",
-            en: "Can you send me the slides?",
-            vi: "Bạn gửi mình slide được không?",
-            note: "Nhờ vả lịch sự: Can you…?",
-          }
-        - {
-            tag: "Tính năng",
-            en: "Users can change their password in Settings.",
-            vi: "Người dùng có thể đổi mật khẩu trong phần Cài đặt.",
-            note: "Mô tả hệ thống cho phép làm gì → can.",
-          }
-        - {
-            tag: "Quy định",
-            en: "We can't deploy on Fridays.",
-            vi: "Tụi mình không được deploy vào thứ Sáu.",
-            note: "Quy định không cho phép cũng dùng can't.",
-          }
-        - {
-            tag: "Câu ngắn",
-            en: "She can't come to the meeting, but Tuan can.",
-            vi: "Chị ấy không đến họp được, nhưng Tuấn thì được.",
-            note: "Vế sau chỉ cần can, không lặp lại động từ.",
-          }
+        - tag: Lần đầu
+          en: We have a problem with the payment page.
+          vi: Tụi mình có một vấn đề với trang thanh toán.
+          note: Vấn đề mới nhắc → a; trang thanh toán thì ai cũng biết là trang nào → the.
+        - tag: Nghề
+          en: My brother is an accountant.
+          vi: Anh mình là kế toán.
+          note: Accountant bắt đầu bằng âm nguyên âm → an.
+        - tag: Âm đầu
+          en: It takes an hour to run a full backup.
+          vi: Chạy một bản backup đầy đủ mất một tiếng.
+          note: Chữ h trong hour câm nên dùng an.
+        - tag: Âm đầu
+          en: Every user gets a unique ID.
+          vi: Mỗi người dùng có một ID riêng.
+          note: Unique đọc /juː/ → a, dù chữ đầu là u.
+        - tag: Đã biết
+          en: Please send me the report from yesterday.
+          vi: Gửi mình bản báo cáo hôm qua nhé.
+          note: From yesterday chỉ rõ báo cáo nào → the.
+        - tag: Nói chung
+          en: Clients usually want features, not explanations.
+          vi: Khách hàng thường muốn tính năng chứ không muốn giải thích.
+          note: Nói chung về số nhiều → không dùng the.
+        - tag: Duy nhất
+          en: The CEO is in Singapore this week.
+          vi: Tuần này CEO đang ở Singapore.
+          note: Công ty chỉ có một CEO nên dùng the.
+        - tag: Không đếm được
+          en: I need some information about the new API.
+          vi: Mình cần một ít thông tin về API mới.
+          note: "Information không đếm được: dùng some, không dùng an và không thêm -s."
       contrast:
-        title: "Can và động từ thường"
+        title: a/an, the hay không mạo từ
         rows:
-          - { label: "can", note: "khẳng định, mọi chủ ngữ", example: "He can drive." }
-          - {
-              label: "can't / cannot",
-              note: "phủ định, không cần doesn't",
-              example: "He can't drive.",
-            }
-          - { label: "Can …?", note: "câu hỏi, không cần does", example: "Can he drive?" }
-          - {
-              label: "Động từ thường",
-              note: "cần do/does để hỏi, phủ định",
-              example: "Does he drive?",
-            }
+          - label: a / an
+            note: một cái bất kỳ, nhắc lần đầu
+            example: I need a charger.
+          - label: the
+            note: cái cụ thể mà hai bên đều biết
+            example: Where is the charger?
+          - label: Ø (số nhiều)
+            note: nói chung về cả loại
+            example: Chargers are expensive here.
+          - label: Ø (không đếm được)
+            note: khái niệm, chất liệu chung
+            example: Feedback helps us improve.
         fixes:
-          - {
-              wrong: "She cans play the guitar.",
-              right: "She can play the guitar.",
-              why: "Can không bao giờ thêm -s.",
-            }
-          - {
-              wrong: "I can to finish it today.",
-              right: "I can finish it today.",
-              why: "Sau can là động từ nguyên mẫu không có to.",
-            }
-          - {
-              wrong: "Do you can help me?",
-              right: "Can you help me?",
-              why: "Can tự làm câu hỏi, không cần do.",
-            }
-          - {
-              wrong: "He can't comes today.",
-              right: "He can't come today.",
-              why: "Sau can't động từ không thêm -s.",
-            }
+          - wrong: I am developer.
+            right: I am a developer.
+            why: Danh từ đếm được số ít chỉ nghề phải có a/an.
+          - wrong: She sent me an useful link.
+            right: She sent me a useful link.
+            why: Useful bắt đầu bằng âm /j/ (phụ âm) nên dùng a.
+          - wrong: Can you give me a feedback?
+            right: Can you give me some feedback?
+            why: Feedback không đếm được, không đi với a.
+          - wrong: The developers need coffee to work.
+            right: Developers need coffee to work.
+            why: Nói chung về mọi lập trình viên thì không dùng the.
+  - slug: g-a1-quantifiers
+    kind: grammar
+    title:
+      en: Some, any, much, many, a lot of
+      vi: Lượng từ cơ bản
+    questions:
+      - g-a1-quantifiers-1
+      - g-a1-quantifiers-2
+      - g-a1-quantifiers-3
+      - g-a1-quantifiers-4
+      - g-a1-quantifiers-5
+      - g-a1-quantifiers-6
+      - g-a1-quantifiers-7
+      - g-a1-quantifiers-8
+    grammar:
+      title_vi: Lượng từ cơ bản
+      group: Danh từ
+      overview:
+        focus: Lượng từ cho biết “bao nhiêu”. Some dùng trong câu khẳng định, any trong câu phủ định và câu hỏi. Many đi với danh từ đếm được số nhiều (bugs, tests), much đi với danh từ không đếm được (time, data). A lot of dùng được cho cả hai và rất tự nhiên trong câu khẳng định.
+        formulas:
+          - some + N (khẳng định) · any + N (phủ định, câu hỏi)
+          - many + N đếm được số nhiều · much + N không đếm được
+          - a lot of + mọi loại danh từ
+        hook: We don't have much time, and there are still a lot of bugs.
+      functions:
+        - title: Nói có một ít, một vài
+          explain: Some trong câu khẳng định, với cả danh từ số nhiều và không đếm được.
+          examples:
+            - I have some questions about the spec.
+            - There is some data in the cache.
+        - title: Nói không có chút nào
+          explain: Not … any trong câu phủ định; nghĩa là “không… nào”.
+          examples:
+            - We don't have any tests for this file.
+            - There aren't any errors in the log.
+        - title: Hỏi về số lượng
+          explain: Any trong câu hỏi có/không; how many + số nhiều, how much + không đếm được.
+          examples:
+            - Are there any open tickets?
+            - How much time do we have?
+        - title: Nói nhiều
+          explain: Câu khẳng định thường dùng a lot of; much và many hay xuất hiện trong câu phủ định và câu hỏi.
+          examples:
+            - We get a lot of traffic at night.
+            - There aren't many users on Sunday.
+      structure:
+        forms:
+          - label: Khẳng định
+            pattern: some / a lot of + N
+            example: I need some help with Docker.
+          - label: Phủ định
+            pattern: not + any / much / many + N
+            example: We don't have much memory left.
+          - label: Câu hỏi có/không
+            pattern: Is/Are there any + N?
+            example: Is there any coffee left?
+          - label: Hỏi số lượng
+            pattern: How many + N-s? · How much + N?
+            example: How many bugs are left?
+        steps:
+          - title: Xác định loại danh từ
+            explain: Đếm được số nhiều (bugs, users) hay không đếm được (time, data, memory)?
+            example: bugs → many · time → much
+          - title: Xác định loại câu
+            explain: Khẳng định → some / a lot of; phủ định và câu hỏi → any / much / many.
+            example: We have some time. · We don't have any time.
+          - title: Ghép lại và kiểm tra động từ
+            explain: Danh từ số nhiều → are; danh từ không đếm được → is.
+            example: There are a lot of logs. · There is a lot of noise.
+      examples:
+        - tag: Khẳng định
+          en: I found some typos in your README.
+          vi: Mình thấy vài lỗi chính tả trong README của bạn.
+          note: Câu khẳng định dùng some trước danh từ số nhiều.
+        - tag: Phủ định
+          en: The new branch doesn't have any conflicts.
+          vi: Branch mới không có xung đột nào.
+          note: Câu phủ định với doesn't dùng any.
+        - tag: Câu hỏi
+          en: Do you have any questions before the demo?
+          vi: Trước buổi demo bạn có câu hỏi nào không?
+          note: Câu hỏi có/không thường dùng any.
+        - tag: Thời gian
+          en: How much time do you need for the review?
+          vi: Bạn cần bao nhiêu thời gian để review?
+          note: Time không đếm được nên hỏi bằng how much.
+        - tag: Số lỗi
+          en: How many failing tests are on the main branch?
+          vi: Trên nhánh main có bao nhiêu test đang lỗi?
+          note: Tests là số nhiều đếm được nên dùng how many và are.
+        - tag: Nhiều
+          en: Our app sends a lot of emails every morning.
+          vi: Mỗi sáng ứng dụng của nhóm gửi rất nhiều email.
+          note: A lot of tự nhiên nhất trong câu khẳng định.
+        - tag: Ít
+          en: The free plan doesn't give us much storage.
+          vi: Gói miễn phí không cho nhiều dung lượng lưu trữ.
+          note: Storage không đếm được, câu phủ định → much.
+        - tag: Stand-up
+          en: There aren't many blockers this sprint.
+          vi: Sprint này không có nhiều vướng mắc.
+          note: Blockers đếm được số nhiều, phủ định → many.
+      contrast:
+        title: Chọn lượng từ
+        rows:
+          - label: some
+            note: khẳng định, mọi loại danh từ
+            example: I have some ideas.
+          - label: any
+            note: phủ định và câu hỏi
+            example: Are there any updates?
+          - label: many
+            note: đếm được số nhiều
+            example: Not many people use it.
+          - label: much
+            note: không đếm được
+            example: We don't have much time.
+          - label: a lot of
+            note: cả hai loại, thường trong khẳng định
+            example: a lot of users / a lot of data
+        fixes:
+          - wrong: How many time do we have?
+            right: How much time do we have?
+            why: Time không đếm được nên dùng much.
+          - wrong: There aren't some errors.
+            right: There aren't any errors.
+            why: Câu phủ định dùng any, không dùng some.
+          - wrong: We have much bugs this week.
+            right: We have a lot of bugs this week.
+            why: Bugs đếm được nên không dùng much; câu khẳng định dùng a lot of tự nhiên nhất.
+  - slug: g-a1-adjectives-adverbs
+    kind: grammar
+    title:
+      en: Adjectives & adverbs
+      vi: Tính từ và trạng từ
+    questions:
+      - g-a1-adjectives-adverbs-1
+      - g-a1-adjectives-adverbs-2
+      - g-a1-adjectives-adverbs-3
+      - g-a1-adjectives-adverbs-4
+      - g-a1-adjectives-adverbs-5
+      - g-a1-adjectives-adverbs-6
+      - g-a1-adjectives-adverbs-7
+      - g-a1-adjectives-adverbs-8
+    grammar:
+      title_vi: Tính từ và trạng từ
+      group: Từ loại
+      overview:
+        focus: "Tính từ (slow, quick, careful) miêu tả danh từ: hệ thống như thế nào. Trạng từ cách thức (slowly, quickly, carefully) miêu tả động từ: hệ thống làm việc như thế nào. Tiếng Việt dùng cùng một từ “nhanh” cho cả hai, còn tiếng Anh thường thêm -ly để tạo trạng từ."
+        formulas:
+          - be / look / seem + tính từ
+          - tính từ + danh từ
+          - động từ (+ tân ngữ) + trạng từ (-ly)
+        hook: The API is slow because it loads the data slowly.
+      functions:
+        - title: Miêu tả trạng thái
+          explain: Sau be và các động từ như look, seem, feel dùng tính từ.
+          examples:
+            - The dashboard is quiet today.
+            - Your fix looks good.
+        - title: Miêu tả danh từ
+          explain: Tính từ đứng trước danh từ và không thêm -s.
+          examples:
+            - We have a stable build.
+            - She writes clear commit messages.
+        - title: Miêu tả cách làm
+          explain: Trạng từ đứng sau động từ, hoặc sau tân ngữ nếu có.
+          examples:
+            - The script runs quietly.
+            - Please read the error carefully.
+        - title: Dạng bất quy tắc
+          explain: Good → well; fast, hard, late giữ nguyên dạng khi làm trạng từ.
+          examples:
+            - The new cache works well.
+            - Our team works hard before a release.
+      structure:
+        forms:
+          - label: Tính từ sau be
+            pattern: S + be + adj
+            example: The query is slow.
+          - label: Tính từ trước danh từ
+            pattern: adj + N
+            example: It's a slow query.
+          - label: Trạng từ sau động từ
+            pattern: S + V (+ O) + adv
+            example: The query runs slowly.
+          - label: Bất quy tắc
+            pattern: good → well · fast → fast · hard → hard
+            example: The deploy went well.
+        steps:
+          - title: Tìm từ được miêu tả
+            explain: Miêu tả người hoặc vật (danh từ) → tính từ. Miêu tả hành động (động từ) → trạng từ.
+            example: a careful tester · test carefully
+          - title: Tạo trạng từ
+            explain: Thêm -ly vào tính từ; -y đổi thành -ily; -le đổi thành -ly.
+            example: quick → quickly · easy → easily · simple → simply
+          - title: Cẩn thận với be và động từ cảm nhận
+            explain: Sau be, look, seem, sound luôn là tính từ, dù tiếng Việt dịch như trạng từ.
+            example: The plan sounds good. (không dùng well)
+      examples:
+        - tag: Trạng thái
+          en: The production server is healthy again.
+          vi: Server production đã ổn trở lại.
+          note: Healthy là tính từ đứng sau be, miêu tả server.
+        - tag: Cách làm
+          en: The installer finishes quickly on a new laptop.
+          vi: Trình cài đặt chạy xong nhanh trên laptop mới.
+          note: Quickly miêu tả động từ finishes nên dùng trạng từ.
+        - tag: Trước danh từ
+          en: Minh found a strange error in the payment module.
+          vi: Minh tìm ra một lỗi lạ trong module thanh toán.
+          note: Tính từ strange đứng trước danh từ error.
+        - tag: Sau tân ngữ
+          en: Please test the migration carefully.
+          vi: Bạn kiểm thử bản migration cẩn thận nhé.
+          note: Trạng từ đứng sau tân ngữ the migration, không chen giữa động từ và tân ngữ.
+        - tag: Good / well
+          en: The demo went well, and the client was happy.
+          vi: Buổi demo diễn ra tốt và khách hàng rất vui.
+          note: Went là động từ nên dùng well; sau was dùng tính từ happy.
+        - tag: Look + tính từ
+          en: Your pull request looks clean.
+          vi: Pull request của bạn trông gọn gàng.
+          note: Sau look (trông có vẻ) dùng tính từ clean.
+        - tag: Bất quy tắc
+          en: Tuan types fast but checks his code slowly.
+          vi: Tuấn gõ nhanh nhưng kiểm tra code chậm rãi.
+          note: Fast giữ nguyên khi làm trạng từ; slow thêm -ly thành slowly.
+        - tag: Đổi -y
+          en: With the new tool, we can deploy easily.
+          vi: Với công cụ mới, nhóm có thể deploy dễ dàng.
+          note: "Easy → easily: đổi -y thành -i rồi thêm -ly."
+      contrast:
+        title: Tính từ hay trạng từ?
+        rows:
+          - label: slow / slowly
+            note: -ly thông thường
+            example: a slow page · it loads slowly
+          - label: careful / carefully
+            note: -ly thông thường
+            example: a careful review · review carefully
+          - label: easy / easily
+            note: -y → -ily
+            example: an easy task · fix it easily
+          - label: good / well
+            note: bất quy tắc
+            example: good code · it works well
+          - label: fast / fast
+            note: không đổi
+            example: a fast build · it builds fast
+        fixes:
+          - wrong: The app runs very slow.
+            right: The app runs very slowly.
+            why: Runs là động từ nên cần trạng từ slowly.
+          - wrong: The new version works good.
+            right: The new version works well.
+            why: Trạng từ của good là well.
+          - wrong: The server is slowly today.
+            right: The server is slow today.
+            why: Sau be là tính từ, miêu tả trạng thái của server.
+  - slug: g-a1-frequency
+    kind: grammar
+    title:
+      en: Adverbs of frequency
+      vi: Trạng từ chỉ tần suất
+    questions:
+      - g-a1-frequency-1
+      - g-a1-frequency-2
+      - g-a1-frequency-3
+      - g-a1-frequency-4
+      - g-a1-frequency-5
+      - g-a1-frequency-6
+      - g-a1-frequency-7
+      - g-a1-frequency-8
+    grammar:
+      title_vi: Trạng từ chỉ tần suất
+      group: Trạng từ
+      overview:
+        focus: Always, usually, often, sometimes, rarely, never cho biết một việc xảy ra thường xuyên thế nào. Chúng đứng trước động từ thường nhưng đứng sau be. Các cụm như every day, once a week, twice a month thường đứng cuối câu.
+        formulas:
+          - S + always/usually/often/sometimes/rarely/never + V
+          - S + be + always/usually/… + adj/N
+          - … + every day / once a week (cuối câu)
+        hook: We always run the tests before we merge.
+      functions:
+        - title: Mô tả thói quen của nhóm
+          explain: Trạng từ tần suất đứng ngay trước động từ chính.
+          examples:
+            - We usually deploy on Tuesday.
+            - Lan often reviews my code.
+        - title: Mô tả trạng thái thường gặp
+          explain: Với be, trạng từ đứng sau be.
+          examples:
+            - The build is always green on Monday.
+            - The office is rarely quiet.
+        - title: Nói việc không bao giờ xảy ra
+          explain: Never đã mang nghĩa phủ định, không thêm don't/doesn't.
+          examples:
+            - Our team never pushes to main directly.
+            - He never skips the stand-up.
+        - title: Nói lịch cụ thể
+          explain: Every + đơn vị thời gian, once/twice/three times + a + đơn vị thời gian, đặt cuối câu.
+          examples:
+            - The backup runs every night.
+            - We have a retro twice a month.
+      structure:
+        forms:
+          - label: Với động từ thường
+            pattern: S + adv + V(s)
+            example: She sometimes works from home.
+          - label: Với be
+            pattern: S + be + adv
+            example: The pipeline is usually fast.
+          - label: Câu hỏi
+            pattern: How often + do/does + S + V?
+            example: How often do you update the docs?
+          - label: Cụm chỉ tần suất
+            pattern: … + every week / once a day
+            example: I check the alerts once a day.
+        steps:
+          - title: Chọn mức độ
+            explain: always (100%) → usually → often → sometimes → rarely → never (0%).
+            example: We often pair on hard bugs.
+          - title: Đặt đúng vị trí
+            explain: Trước động từ thường; sau be; giữa trợ động từ và động từ chính.
+            example: I don't usually work late.
+          - title: Giữ đuôi -s ở động từ
+            explain: "Trạng từ không thay đổi quy tắc hiện tại đơn: he/she/it vẫn cần -s."
+            example: Minh always writes good tests.
+      examples:
+        - tag: Luôn luôn
+          en: Our CI always checks the code style.
+          vi: CI của nhóm luôn kiểm tra định dạng code.
+          note: Always đứng trước động từ checks; CI số ít nên checks có -s.
+        - tag: Thường
+          en: I usually answer emails after lunch.
+          vi: Mình thường trả lời email sau bữa trưa.
+          note: Usually đứng giữa chủ ngữ và động từ.
+        - tag: Với be
+          en: The staging server is often busy at noon.
+          vi: Server staging hay bận vào buổi trưa.
+          note: Với be, trạng từ đứng sau is.
+        - tag: Thỉnh thoảng
+          en: Linh sometimes joins the stand-up from the train.
+          vi: Thỉnh thoảng Linh tham gia stand-up từ trên tàu.
+          note: Sometimes đứng trước joins; joins giữ -s.
+        - tag: Hiếm khi
+          en: This alert rarely fires on weekends.
+          vi: Cảnh báo này hiếm khi kích hoạt vào cuối tuần.
+          note: Rarely = hiếm khi, mang nghĩa gần phủ định nhưng không cần not.
+        - tag: Không bao giờ
+          en: We never store passwords in plain text.
+          vi: Nhóm không bao giờ lưu mật khẩu dạng văn bản thô.
+          note: Never tự mang nghĩa phủ định; không viết don't never.
+        - tag: Lịch
+          en: The security scan runs once a week.
+          vi: Bản quét bảo mật chạy mỗi tuần một lần.
+          note: Once a week đặt ở cuối câu.
+        - tag: Câu hỏi
+          en: How often does the team release a new version?
+          vi: Bao lâu nhóm phát hành một phiên bản mới?
+          note: How often + does + chủ ngữ số ít + động từ nguyên mẫu.
+      contrast:
+        title: Vị trí của trạng từ tần suất
+        rows:
+          - label: Động từ thường
+            note: trạng từ đứng trước
+            example: He often fixes flaky tests.
+          - label: Be
+            note: trạng từ đứng sau
+            example: He is often online late.
+          - label: Trợ động từ
+            note: đứng giữa trợ động từ và động từ
+            example: I don't often work late.
+          - label: every / once a …
+            note: đứng cuối câu
+            example: We meet every morning.
+        fixes:
+          - wrong: We run always the tests.
+            right: We always run the tests.
+            why: Trạng từ tần suất đứng trước động từ thường.
+          - wrong: The build always is slow.
+            right: The build is always slow.
+            why: Với be, trạng từ đứng sau be.
+          - wrong: She doesn't never miss a deadline.
+            right: She never misses a deadline.
+            why: Never đã là phủ định; bỏ doesn't và giữ -s ở động từ.
   - slug: g-a1-prepositions
     kind: grammar
-    title: { en: "In, on, at: time & place", vi: "Giới từ in, on, at chỉ thời gian và nơi chốn" }
+    title:
+      en: "In, on, at: time & place"
+      vi: Giới từ in, on, at chỉ thời gian và nơi chốn
     questions:
-      [
-        g-a1-prepositions-1,
-        g-a1-prepositions-2,
-        g-a1-prepositions-3,
-        g-a1-prepositions-4,
-        g-a1-prepositions-5,
-        g-a1-prepositions-6,
-        g-a1-prepositions-7,
-        g-a1-prepositions-8,
-      ]
+      - g-a1-prepositions-1
+      - g-a1-prepositions-2
+      - g-a1-prepositions-3
+      - g-a1-prepositions-4
+      - g-a1-prepositions-5
+      - g-a1-prepositions-6
+      - g-a1-prepositions-7
+      - g-a1-prepositions-8
     grammar:
-      title_vi: "Giới từ in, on, at chỉ thời gian và nơi chốn"
-      group: "Giới từ"
+      title_vi: Giới từ in, on, at chỉ thời gian và nơi chốn
+      group: Giới từ
       overview:
         focus: "Tiếng Việt dùng “vào, lúc, ở, trong, trên” khá linh hoạt; tiếng Anh chọn in, on, at theo độ rộng: at cho một điểm (giờ, chỗ hẹn), on cho ngày và bề mặt, in cho khoảng lớn (tháng, năm, buổi, thành phố) và không gian bên trong."
         formulas:
-          - "at + giờ · on + thứ/ngày · in + tháng/năm/buổi"
-          - "at + điểm · on + bề mặt/tầng · in + bên trong/thành phố"
-        hook: "The meeting is at 10 on Monday in Room B."
+          - at + giờ · on + thứ/ngày · in + tháng/năm/buổi
+          - at + điểm · on + bề mặt/tầng · in + bên trong/thành phố
+        hook: The meeting is at 10 on Monday in Room B.
       functions:
         - title: "At: một điểm thời gian"
-          explain: "Giờ cụ thể, và một số mốc như noon, night."
-          examples: ["The call is at 3 p.m.", "I sleep at midnight."]
-        - title: "On: thứ và ngày"
-          explain: "Thứ trong tuần, ngày tháng cụ thể."
-          examples: ["We release on Fridays.", "The deadline is on 5 May."]
-        - title: "In: khoảng thời gian dài"
-          explain: "Tháng, năm, mùa, buổi trong ngày (trừ at night)."
-          examples: ["The course starts in June.", "I work best in the morning."]
-        - title: "Nơi chốn: at, on, in"
-          explain: "At một điểm; on trên bề mặt hoặc tầng; in bên trong hoặc thành phố, nước."
+          explain: Giờ cụ thể, và một số mốc như noon, night.
           examples:
-            ["She is at the reception.", "The notes are on the desk.", "The keys are in my bag."]
+            - The call is at 3 p.m.
+            - I sleep at midnight.
+        - title: "On: thứ và ngày"
+          explain: Thứ trong tuần, ngày tháng cụ thể.
+          examples:
+            - We release on Fridays.
+            - The deadline is on 5 May.
+        - title: "In: khoảng thời gian dài"
+          explain: Tháng, năm, mùa, buổi trong ngày (trừ at night).
+          examples:
+            - The course starts in June.
+            - I work best in the morning.
+        - title: "Nơi chốn: at, on, in"
+          explain: At một điểm; on trên bề mặt hoặc tầng; in bên trong hoặc thành phố, nước.
+          examples:
+            - She is at the reception.
+            - The notes are on the desk.
+            - The keys are in my bag.
       structure:
         forms:
-          - { label: "at", pattern: "giờ · điểm cụ thể", example: "at 8:30 · at the door" }
-          - {
-              label: "on",
-              pattern: "thứ, ngày · bề mặt · tầng",
-              example: "on Monday · on the wall · on the 3rd floor",
-            }
-          - {
-              label: "in",
-              pattern: "tháng, năm, buổi · bên trong · thành phố, nước",
-              example: "in July · in the box · in Da Nang",
-            }
-          - {
-              label: "Không giới từ",
-              pattern: "trước this/next/every/tomorrow",
-              example: "next Monday · every day",
-            }
+          - label: at
+            pattern: giờ · điểm cụ thể
+            example: at 8:30 · at the door
+          - label: on
+            pattern: thứ, ngày · bề mặt · tầng
+            example: on Monday · on the wall · on the 3rd floor
+          - label: in
+            pattern: tháng, năm, buổi · bên trong · thành phố, nước
+            example: in July · in the box · in Da Nang
+          - label: Không giới từ
+            pattern: trước this/next/every/tomorrow
+            example: next Monday · every day
         steps:
           - title: "Thời gian: điểm, ngày hay khoảng?"
-            explain: "Giờ cụ thể → at; một ngày → on; tháng, năm, buổi → in."
-            example: "at 5 · on Tuesday · in 2026"
+            explain: Giờ cụ thể → at; một ngày → on; tháng, năm, buổi → in.
+            example: at 5 · on Tuesday · in 2026
           - title: "Nơi chốn: điểm, mặt hay bên trong?"
-            explain: "Chỗ hẹn, địa điểm → at; trên bề mặt → on; bên trong một không gian → in."
-            example: "at the station · on the table · in the room"
-          - title: "Bỏ giới từ trước this/next/every"
-            explain: "Không nói on next Monday hay in every morning."
-            example: "See you next Monday."
+            explain: Chỗ hẹn, địa điểm → at; trên bề mặt → on; bên trong một không gian → in.
+            example: at the station · on the table · in the room
+          - title: Bỏ giới từ trước this/next/every
+            explain: Không nói on next Monday hay in every morning.
+            example: See you next Monday.
       examples:
-        - {
-            tag: "Giờ",
-            en: "The stand-up starts at nine.",
-            vi: "Buổi stand-up bắt đầu lúc chín giờ.",
-            note: "Giờ cụ thể → at.",
-          }
-        - {
-            tag: "Thứ",
-            en: "We release a new version on Thursday.",
-            vi: "Tụi mình phát hành phiên bản mới vào thứ Năm.",
-            note: "Thứ trong tuần → on.",
-          }
-        - {
-            tag: "Tháng",
-            en: "My birthday is in October.",
-            vi: "Sinh nhật mình vào tháng Mười.",
-            note: "Tháng → in.",
-          }
-        - {
-            tag: "Buổi",
-            en: "I usually read the news in the morning.",
-            vi: "Mình thường đọc tin tức vào buổi sáng.",
-            note: "In the morning/afternoon/evening, nhưng at night.",
-          }
-        - {
-            tag: "Bề mặt",
-            en: "Your badge is on the desk.",
-            vi: "Thẻ nhân viên của bạn ở trên bàn.",
-            note: "Trên bề mặt → on.",
-          }
-        - {
-            tag: "Bên trong",
-            en: "The cables are in the top drawer.",
-            vi: "Dây cáp ở trong ngăn kéo trên cùng.",
-            note: "Bên trong một không gian → in.",
-          }
-        - {
-            tag: "Thành phố",
-            en: "Our company has an office in Da Nang.",
-            vi: "Công ty mình có văn phòng ở Đà Nẵng.",
-            note: "Thành phố, đất nước → in.",
-          }
-        - {
-            tag: "Điểm hẹn",
-            en: "Let's meet at the main gate.",
-            vi: "Mình gặp nhau ở cổng chính nhé.",
-            note: "Một điểm hẹn cụ thể → at.",
-          }
+        - tag: Giờ
+          en: The stand-up starts at nine.
+          vi: Buổi stand-up bắt đầu lúc chín giờ.
+          note: Giờ cụ thể → at.
+        - tag: Thứ
+          en: We release a new version on Thursday.
+          vi: Tụi mình phát hành phiên bản mới vào thứ Năm.
+          note: Thứ trong tuần → on.
+        - tag: Tháng
+          en: My birthday is in October.
+          vi: Sinh nhật mình vào tháng Mười.
+          note: Tháng → in.
+        - tag: Buổi
+          en: I usually read the news in the morning.
+          vi: Mình thường đọc tin tức vào buổi sáng.
+          note: In the morning/afternoon/evening, nhưng at night.
+        - tag: Bề mặt
+          en: Your badge is on the desk.
+          vi: Thẻ nhân viên của bạn ở trên bàn.
+          note: Trên bề mặt → on.
+        - tag: Bên trong
+          en: The cables are in the top drawer.
+          vi: Dây cáp ở trong ngăn kéo trên cùng.
+          note: Bên trong một không gian → in.
+        - tag: Thành phố
+          en: Our company has an office in Da Nang.
+          vi: Công ty mình có văn phòng ở Đà Nẵng.
+          note: Thành phố, đất nước → in.
+        - tag: Điểm hẹn
+          en: Let's meet at the main gate.
+          vi: Mình gặp nhau ở cổng chính nhé.
+          note: Một điểm hẹn cụ thể → at.
       contrast:
-        title: "in, on, at"
+        title: in, on, at
         rows:
-          - { label: "at", note: "một điểm: giờ, chỗ hẹn", example: "at 6 p.m. · at the bus stop" }
-          - { label: "on", note: "ngày; bề mặt", example: "on Sunday · on the screen" }
-          - { label: "in", note: "khoảng lớn; bên trong", example: "in 2026 · in the car" }
-          - { label: "Ø", note: "trước this/next/every", example: "this Friday · every week" }
+          - label: at
+            note: "một điểm: giờ, chỗ hẹn"
+            example: at 6 p.m. · at the bus stop
+          - label: on
+            note: ngày; bề mặt
+            example: on Sunday · on the screen
+          - label: in
+            note: khoảng lớn; bên trong
+            example: in 2026 · in the car
+          - label: Ø
+            note: trước this/next/every
+            example: this Friday · every week
         fixes:
-          - {
-              wrong: "The demo is in Monday.",
-              right: "The demo is on Monday.",
-              why: "Thứ trong tuần dùng on.",
-            }
-          - { wrong: "See you on 3 p.m.", right: "See you at 3 p.m.", why: "Giờ cụ thể dùng at." }
-          - {
-              wrong: "I live at Ho Chi Minh City.",
-              right: "I live in Ho Chi Minh City.",
-              why: "Thành phố dùng in.",
-            }
-          - {
-              wrong: "Let's talk on next Friday.",
-              right: "Let's talk next Friday.",
-              why: "Trước next không dùng giới từ.",
-            }
+          - wrong: The demo is in Monday.
+            right: The demo is on Monday.
+            why: Thứ trong tuần dùng on.
+          - wrong: See you on 3 p.m.
+            right: See you at 3 p.m.
+            why: Giờ cụ thể dùng at.
+          - wrong: I live at Ho Chi Minh City.
+            right: I live in Ho Chi Minh City.
+            why: Thành phố dùng in.
+          - wrong: Let's talk on next Friday.
+            right: Let's talk next Friday.
+            why: Trước next không dùng giới từ.
+  - slug: g-a1-present-simple
+    kind: grammar
+    title:
+      en: "Present simple: habits & facts"
+      vi: "Thì hiện tại đơn: thói quen và sự thật"
+    questions:
+      - g-a1-present-simple-1
+      - g-a1-present-simple-2
+      - g-a1-present-simple-3
+      - g-a1-present-simple-4
+      - g-a1-present-simple-5
+      - g-a1-present-simple-6
+      - g-a1-present-simple-7
+      - g-a1-present-simple-8
+    grammar:
+      title_vi: Thì hiện tại đơn
+      group: Thì động từ
+      overview:
+        focus: Hiện tại đơn dùng cho việc lặp lại đều đặn (thói quen, lịch làm việc) và những điều luôn đúng. Tiếng Việt không chia động từ, nhưng tiếng Anh thêm -s/-es khi chủ ngữ là he/she/it, và mượn do/does để phủ định, đặt câu hỏi.
+        formulas:
+          - I/you/we/they + V · he/she/it + V-s/es
+          - S + don't/doesn't + V (nguyên mẫu)
+          - Do/Does + S + V (nguyên mẫu)…?
+        hook: Our team deploys every Friday.
+      functions:
+        - title: Thói quen, việc lặp lại
+          explain: Thường đi với every day, usually, often, always, on Mondays.
+          examples:
+            - I check my email every morning.
+            - We usually have stand-up at 9.
+        - title: Sự thật, điều luôn đúng
+          explain: Mô tả cách một hệ thống hay một thứ gì đó vận hành, không gắn với lúc nói.
+          examples:
+            - Water boils at 100 degrees.
+            - This function returns a string.
+        - title: Lịch trình cố định
+          explain: Giờ họp, giờ tàu, lịch release đã định sẵn.
+          examples:
+            - The sprint starts on Monday.
+            - The office opens at 8:30.
+        - title: Nói về công việc, sở thích
+          explain: Hỏi và trả lời ai làm gì, thích gì, sống ở đâu.
+          examples:
+            - She works on the payment team.
+            - Do you like TypeScript?
+      structure:
+        forms:
+          - label: Khẳng định
+            pattern: I/you/we/they work · he/she/it works
+            example: He writes the API docs.
+          - label: Phủ định
+            pattern: S + don't/doesn't + V
+            example: She doesn't use Windows.
+          - label: Nghi vấn
+            pattern: Do/Does + S + V…?
+            example: Does the app support dark mode?
+          - label: Trả lời ngắn
+            pattern: Yes, S + do/does · No, S + don't/doesn't
+            example: Yes, it does.
+        steps:
+          - title: Xác định chủ ngữ
+            explain: He, she, it, một người, một vật (số ít) → động từ thêm -s/-es. Các chủ ngữ khác giữ nguyên động từ.
+            example: The script (= it) runs
+          - title: Thêm đuôi đúng
+            explain: Thường thêm -s; sau -s, -sh, -ch, -x, -o thêm -es; phụ âm + y → -ies. Have → has.
+            example: fix → fixes · try → tries · have → has
+          - title: "Phủ định, câu hỏi: -s chuyển sang does"
+            explain: Khi đã có does/doesn't thì động từ chính trở về nguyên mẫu, không thêm -s nữa.
+            example: Does he work remotely? (không phải works)
+      examples:
+        - tag: Thói quen
+          en: Minh reviews pull requests after lunch.
+          vi: Minh review pull request sau bữa trưa.
+          note: Minh = he nên review thêm -s.
+        - tag: Sự thật
+          en: The cache expires after ten minutes.
+          vi: Cache hết hạn sau mười phút.
+          note: Mô tả cách hệ thống hoạt động; cache = it → expires.
+        - tag: Lịch trình
+          en: Our retro happens every second Friday.
+          vi: Buổi retro diễn ra cách tuần vào thứ Sáu.
+          note: Lịch cố định dùng hiện tại đơn, không dùng tương lai.
+        - tag: Phủ định
+          en: I don't work on weekends.
+          vi: Mình không làm việc cuối tuần.
+          note: I đi với don't; động từ work giữ nguyên.
+        - tag: Phủ định
+          en: This laptop doesn't have a USB-A port.
+          vi: Laptop này không có cổng USB-A.
+          note: Sau doesn't dùng have, không dùng has.
+        - tag: Câu hỏi
+          en: Does the build take long?
+          vi: Build có lâu không?
+          note: Does đứng đầu, take ở dạng nguyên mẫu.
+        - tag: Tần suất
+          en: We always write tests first.
+          vi: Tụi mình luôn viết test trước.
+          note: Trạng từ tần suất đứng trước động từ thường.
+        - tag: Câu hỏi
+          en: What time do you start work?
+          vi: Bạn bắt đầu làm việc lúc mấy giờ?
+          note: Từ để hỏi + do + chủ ngữ + động từ nguyên mẫu.
+      contrast:
+        title: Động từ theo chủ ngữ
+        rows:
+          - label: I / You / We / They
+            note: động từ nguyên mẫu
+            example: They work in Da Nang.
+          - label: He / She / It
+            note: động từ + -s/-es
+            example: It works offline.
+          - label: don't / doesn't
+            note: phủ định, động từ nguyên mẫu
+            example: He doesn't work here.
+          - label: Do / Does …?
+            note: câu hỏi, động từ nguyên mẫu
+            example: Does it work?
+        fixes:
+          - wrong: She work in the QA team.
+            right: She works in the QA team.
+            why: She là ngôi thứ ba số ít nên động từ cần -s.
+          - wrong: He doesn't likes meetings.
+            right: He doesn't like meetings.
+            why: Đã có doesn't thì động từ chính trở về nguyên mẫu.
+          - wrong: Do she use Linux?
+            right: Does she use Linux?
+            why: Câu hỏi với he/she/it dùng does.
+          - wrong: I am work from home on Fridays.
+            right: I work from home on Fridays.
+            why: Không ghép am với động từ thường ở hiện tại đơn.
+  - slug: g-a1-likes
+    kind: grammar
+    title:
+      en: Like, love, want + -ing / to
+      vi: Nói về sở thích và mong muốn
+    questions:
+      - g-a1-likes-1
+      - g-a1-likes-2
+      - g-a1-likes-3
+      - g-a1-likes-4
+      - g-a1-likes-5
+      - g-a1-likes-6
+      - g-a1-likes-7
+      - g-a1-likes-8
+    grammar:
+      title_vi: Nói về sở thích và mong muốn
+      group: Động từ
+      overview:
+        focus: Like, love, enjoy, hate nói về sở thích; want, would like nói về mong muốn. Sau like, love, hate có thể dùng V-ing hoặc to V; sau enjoy chỉ dùng V-ing; sau want và would like chỉ dùng to V. Tiếng Việt chỉ cần “thích làm”, còn tiếng Anh phải chọn đúng dạng của động từ thứ hai.
+        formulas:
+          - S + like/love/hate + V-ing / to V
+          - S + enjoy + V-ing
+          - S + want / would like + to V
+        hook: I love working with TypeScript, and I want to learn Rust.
+      functions:
+        - title: Nói về điều mình thích
+          explain: Like hoặc love + danh từ, hoặc + V-ing cho hoạt động nói chung.
+          examples:
+            - I like Python.
+            - She loves writing clean tests.
+        - title: Nói về điều mình không thích
+          explain: Don't like hoặc hate + V-ing / to V; với ngôi thứ ba dùng doesn't like.
+          examples:
+            - I don't like fixing CSS bugs.
+            - He hates waiting for slow builds.
+        - title: Nói mong muốn
+          explain: Want + to V; would like + to V lịch sự hơn, hợp khi nói với sếp hoặc khách hàng.
+          examples:
+            - I want to join the mobile team.
+            - We would like to show you a demo.
+        - title: Hỏi sở thích và mong muốn
+          explain: Do you like + V-ing? hỏi sở thích; Would you like to + V? là lời mời.
+          examples:
+            - Do you like pair programming?
+            - Would you like to review my PR?
+      structure:
+        forms:
+          - label: Sở thích
+            pattern: like/love + V-ing
+            example: I love solving hard bugs.
+          - label: Enjoy
+            pattern: enjoy + V-ing (không dùng to)
+            example: We enjoy learning new tools.
+          - label: Mong muốn
+            pattern: want / would like + to V
+            example: I'd like to take this ticket.
+          - label: Phủ định
+            pattern: don't/doesn't + like/want + …
+            example: She doesn't want to work on Sunday.
+        steps:
+          - title: "Xác định ý: sở thích hay mong muốn?"
+            explain: Thích nói chung → like/love/enjoy. Muốn làm (một lần, sắp tới) → want / would like.
+            example: I like testing. · I want to test this now.
+          - title: Chọn dạng động từ thứ hai
+            explain: Enjoy → V-ing; want, would like → to V; like, love, hate → cả hai.
+            example: enjoy coding · want to code
+          - title: Chia động từ đầu
+            explain: He/she/it → likes, wants, enjoys; câu phủ định và câu hỏi dùng do/does + nguyên mẫu.
+            example: Does he like Go? — Yes, he does.
+      examples:
+        - tag: Sở thích
+          en: Nam enjoys refactoring old modules.
+          vi: Nam thích tái cấu trúc các module cũ.
+          note: Enjoy chỉ đi với V-ing; Nam là ngôi thứ ba nên enjoys.
+        - tag: Mong muốn
+          en: I want to learn more about Kubernetes this year.
+          vi: Năm nay mình muốn học thêm về Kubernetes.
+          note: Want luôn đi với to + động từ nguyên mẫu.
+        - tag: Lịch sự
+          en: We'd like to move the meeting to Friday.
+          vi: Nhóm muốn dời cuộc họp sang thứ Sáu.
+          note: We'd like = we would like, lịch sự hơn want; sau đó là to move.
+        - tag: Không thích
+          en: My lead hates reading long log files.
+          vi: Trưởng nhóm của mình ghét đọc file log dài.
+          note: Hate + V-ing; lead là ngôi thứ ba nên hates.
+        - tag: Công nghệ
+          en: Do you like using Vim or VS Code?
+          vi: Bạn thích dùng Vim hay VS Code?
+          note: Câu hỏi với do, động từ like giữ nguyên mẫu, sau đó là using.
+        - tag: Lời mời
+          en: Would you like to pair with me on this bug?
+          vi: Bạn có muốn cùng mình xử lý bug này không?
+          note: Would you like to + V là lời mời lịch sự.
+        - tag: Phủ định
+          en: Thu doesn't want to work on the old API.
+          vi: Thu không muốn làm với API cũ.
+          note: Doesn't + want (không -s) + to work.
+        - tag: Nhóm
+          en: Our team loves sharing tips in the Friday demo.
+          vi: Nhóm mình rất thích chia sẻ mẹo trong buổi demo thứ Sáu.
+          note: Team là danh từ số ít nên loves; love + V-ing.
+      contrast:
+        title: V-ing hay to V?
+        rows:
+          - label: enjoy
+            note: chỉ V-ing
+            example: I enjoy debugging.
+          - label: like / love / hate
+            note: V-ing hoặc to V
+            example: I like coding / I like to code.
+          - label: want
+            note: chỉ to V
+            example: I want to code.
+          - label: would like
+            note: chỉ to V, lịch sự
+            example: I'd like to ask a question.
+        fixes:
+          - wrong: I want learning React.
+            right: I want to learn React.
+            why: Want đi với to + động từ nguyên mẫu.
+          - wrong: She enjoys to write docs.
+            right: She enjoys writing docs.
+            why: Enjoy chỉ đi với V-ing.
+          - wrong: He doesn't likes meetings.
+            right: He doesn't like meetings.
+            why: Sau doesn't, động từ ở dạng nguyên mẫu, không thêm -s.
+  - slug: g-a1-present-continuous
+    kind: grammar
+    title:
+      en: Present continuous
+      vi: Hiện tại tiếp diễn
+    questions:
+      - g-a1-present-continuous-1
+      - g-a1-present-continuous-2
+      - g-a1-present-continuous-3
+      - g-a1-present-continuous-4
+      - g-a1-present-continuous-5
+      - g-a1-present-continuous-6
+      - g-a1-present-continuous-7
+      - g-a1-present-continuous-8
+    grammar:
+      title_vi: Hiện tại tiếp diễn
+      group: Thì động từ
+      overview:
+        focus: "Hiện tại tiếp diễn kể việc đang diễn ra ngay lúc nói hoặc trong giai đoạn này (sprint này, tuần này). Tiếng Việt chỉ cần thêm “đang”, còn tiếng Anh cần hai phần: be (am/is/are) và động từ thêm -ing. Việc lặp lại đều đặn thì dùng hiện tại đơn (xem bài Hiện tại đơn)."
+        formulas:
+          - S + am/is/are + V-ing
+          - S + am/is/are + not + V-ing
+          - Am/Is/Are + S + V-ing?
+        hook: I'm fixing the login bug right now.
+      functions:
+        - title: Việc đang làm ngay lúc nói
+          explain: Hay đi với now, right now, at the moment. Đây là câu trả lời chuẩn khi ai đó hỏi bạn đang làm gì.
+          examples:
+            - I'm reviewing your PR now.
+            - She is talking to the client.
+        - title: Việc tạm thời trong giai đoạn này
+          explain: Không nhất thiết đang làm đúng giây phút đó, chỉ cần đang diễn ra quanh thời điểm hiện tại.
+          examples:
+            - We are migrating the database this week.
+            - Minh is working from home this month.
+        - title: Cập nhật tiến độ trong stand-up
+          explain: Dùng để báo việc mình đang làm dở; việc xong rồi thì không dùng thì này.
+          examples:
+            - I'm still writing tests for the payment module.
+            - They are waiting for the design.
+        - title: Phân biệt với thói quen
+          explain: Hiện tại đơn = việc thường ngày, lặp lại. Hiện tại tiếp diễn = việc đang diễn ra lúc này, khác với thường lệ.
+          examples:
+            - I usually write Java, but today I'm writing Go.
+            - The pipeline normally runs at night, but it's running now.
+      structure:
+        forms:
+          - label: Khẳng định
+            pattern: S + am/is/are + V-ing
+            example: The build is running.
+          - label: Phủ định
+            pattern: S + am/is/are + not + V-ing
+            example: I'm not using the old API.
+          - label: Nghi vấn
+            pattern: Am/Is/Are + S + V-ing?
+            example: Are you deploying to staging?
+          - label: Rút gọn
+            pattern: I'm · he's · they're · isn't · aren't
+            example: She isn't coding today.
+        steps:
+          - title: Chọn be theo chủ ngữ
+            explain: I → am; he, she, it, danh từ số ít → is; you, we, they, danh từ số nhiều → are.
+            example: The servers → are
+          - title: Thêm -ing vào động từ
+            explain: Thường chỉ thêm -ing; bỏ e câm (write → writing); gấp đôi phụ âm cuối ở từ ngắn (run → running).
+            example: fix → fixing · merge → merging · stop → stopping
+          - title: Phủ định và câu hỏi bằng be
+            explain: Thêm not sau be, hoặc đưa be lên đầu câu. Không dùng do/does trong thì này.
+            example: Is he joining the call? — Yes, he is.
+      examples:
+        - tag: Lúc này
+          en: I'm debugging a crash in the checkout page.
+          vi: Mình đang debug một lỗi crash ở trang thanh toán.
+          note: I'm = I am; debug gấp đôi g thành debugging.
+        - tag: Stand-up
+          en: Today I'm finishing the search ticket.
+          vi: Hôm nay mình làm cho xong ticket tìm kiếm.
+          note: Việc đang làm dở trong ngày nên dùng tiếp diễn.
+        - tag: Tạm thời
+          en: Our team is testing a new CI tool this sprint.
+          vi: Sprint này team mình đang thử một công cụ CI mới.
+          note: Our team coi là số ít nên đi với is.
+        - tag: Phủ định
+          en: The worker isn't processing any jobs.
+          vi: Worker không xử lý job nào cả.
+          note: Isn't + V-ing; không viết doesn't processing.
+        - tag: Câu hỏi
+          en: Are you still waiting for the build?
+          vi: Bạn vẫn đang chờ bản build à?
+          note: Đảo are lên trước you; still đứng trước V-ing.
+        - tag: Đối chiếu
+          en: Lan usually tests on Android, but today she's testing on iOS.
+          vi: Lan thường test trên Android, nhưng hôm nay cô ấy test trên iOS.
+          note: Usually + hiện tại đơn cho thói quen; today + tiếp diễn cho việc lúc này.
+        - tag: Hệ thống
+          en: The disk is filling up fast.
+          vi: Ổ đĩa đang đầy lên rất nhanh.
+          note: Diễn tả thay đổi đang diễn ra; fill up thêm -ing ở động từ chính.
+        - tag: Số nhiều
+          en: Two designers are joining the meeting.
+          vi: Hai designer sẽ vào cuộc họp.
+          note: Chủ ngữ số nhiều nên dùng are.
+      contrast:
+        title: Hiện tại đơn hay hiện tại tiếp diễn?
+        rows:
+          - label: Hiện tại đơn
+            note: thói quen, lịch cố định
+            example: I review PRs every morning.
+          - label: Hiện tại tiếp diễn
+            note: đang diễn ra lúc nói
+            example: I'm reviewing a PR now.
+          - label: Hiện tại tiếp diễn
+            note: tạm thời, giai đoạn này
+            example: We're using a backup server this week.
+          - label: Động từ trạng thái
+            note: know, need, want, like thường không dùng -ing
+            example: I need more logs.
+        fixes:
+          - wrong: I fixing the bug now.
+            right: I'm fixing the bug now.
+            why: Tiếng Việt chỉ nói “đang”, tiếng Anh không được bỏ be trước V-ing.
+          - wrong: Do you working on the API?
+            right: Are you working on the API?
+            why: Câu hỏi của thì tiếp diễn dùng be, không dùng do.
+          - wrong: I'm knowing the answer.
+            right: I know the answer.
+            why: Know là động từ trạng thái nên dùng hiện tại đơn.
+  - slug: g-a1-word-order
+    kind: grammar
+    title:
+      en: Basic word order (S-V-O)
+      vi: Trật tự từ cơ bản
+    questions:
+      - g-a1-word-order-1
+      - g-a1-word-order-2
+      - g-a1-word-order-3
+      - g-a1-word-order-4
+      - g-a1-word-order-5
+      - g-a1-word-order-6
+      - g-a1-word-order-7
+      - g-a1-word-order-8
+    grammar:
+      title_vi: Trật tự từ cơ bản
+      group: Cấu trúc câu
+      overview:
+        focus: "Câu tiếng Anh đi theo khung cố định: chủ ngữ (ai làm) + động từ (làm gì) + tân ngữ (làm với cái gì), rồi mới đến nơi chốn và thời gian. Tiếng Việt cũng S-V-O nhưng hay bỏ chủ ngữ (“Đã merge rồi”) và đưa thời gian lên đầu tùy ý; tiếng Anh gần như luôn cần chủ ngữ và giữ động từ sát tân ngữ."
+        formulas:
+          - S + V + O
+          - S + V + O + nơi chốn + thời gian
+          - "Trạng từ tần suất: S + always/usually + V + O"
+        hook: Nam merged the PR this morning.
+      functions:
+        - title: Luôn có chủ ngữ
+          explain: Câu báo cáo cần nói rõ ai làm. Khi không có người cụ thể, dùng I, we hoặc it.
+          examples:
+            - I updated the README.
+            - It works on my machine.
+        - title: Động từ đứng sát tân ngữ
+          explain: Không chen trạng từ (quickly, carefully, again) giữa động từ và tân ngữ; đặt nó sau tân ngữ.
+          examples:
+            - She checks the logs carefully.
+            - We tested the form again.
+        - title: Nơi chốn trước, thời gian sau
+          explain: Khi câu có cả hai, thứ tự quen thuộc là nơi chốn rồi đến thời gian ở cuối câu.
+          examples:
+            - I deploy the app to staging every Friday.
+            - We meet in room B at ten.
+        - title: Trạng từ tần suất trước động từ thường
+          explain: Always, usually, often, never đứng trước động từ chính nhưng sau be.
+          examples:
+            - Huy always writes clear commit messages.
+            - The tests are never slow.
+      structure:
+        forms:
+          - label: Cơ bản
+            pattern: S + V + O
+            example: The script deletes old files.
+          - label: Hai tân ngữ
+            pattern: S + V + người + vật
+            example: Please send me the link.
+          - label: Có nơi chốn, thời gian
+            pattern: S + V + O + nơi + lúc
+            example: We push the code to GitHub every day.
+          - label: Có tần suất
+            pattern: S + usually + V + O
+            example: I usually run the linter first.
+        steps:
+          - title: Tìm người làm
+            explain: Bắt đầu câu bằng chủ ngữ; đừng bỏ trống như tiếng Việt.
+            example: (Đã sửa rồi) → I fixed it.
+          - title: Đặt động từ rồi tân ngữ
+            explain: Ghép động từ và cái bị tác động thành một khối không tách rời.
+            example: fixed + the bug
+          - title: Thêm phần phụ ở cuối
+            explain: Cách thức, nơi chốn, thời gian đi sau tân ngữ.
+            example: I fixed the bug on the server yesterday.
+      examples:
+        - tag: Cập nhật
+          en: Tuan reviewed my pull request.
+          vi: Tuấn đã review pull request của mình.
+          note: Chủ ngữ Tuan, động từ reviewed, tân ngữ my pull request.
+        - tag: Chủ ngữ it
+          en: It crashes on older phones.
+          vi: Nó bị crash trên điện thoại đời cũ.
+          note: Tiếng Việt có thể chỉ nói “bị crash”; tiếng Anh cần chủ ngữ it.
+        - tag: Trạng từ
+          en: Please read the error message carefully.
+          vi: Hãy đọc kỹ thông báo lỗi.
+          note: Carefully đứng sau tân ngữ, không chen giữa read và the error message.
+        - tag: Nơi và lúc
+          en: We release the mobile app on Mondays.
+          vi: Bọn mình phát hành ứng dụng mobile vào thứ Hai.
+          note: Thời gian on Mondays đứng cuối câu.
+        - tag: Hai tân ngữ
+          en: Can you give me access to the repo?
+          vi: Bạn cấp cho mình quyền vào repo được không?
+          note: Give + người (me) + vật (access).
+        - tag: Tần suất
+          en: Our QA team often finds edge cases.
+          vi: Đội QA của bọn mình hay tìm ra các trường hợp biên.
+          note: Often đứng trước động từ finds.
+        - tag: Sau be
+          en: The dashboard is usually empty at night.
+          vi: Ban đêm dashboard thường trống.
+          note: Với be, trạng từ tần suất đứng sau be.
+        - tag: Mệnh lệnh
+          en: Close the old branches before Friday.
+          vi: Đóng các nhánh cũ trước thứ Sáu nhé.
+          note: Câu mệnh lệnh là trường hợp hiếm được bỏ chủ ngữ; vẫn là V + O + thời gian.
+      contrast:
+        title: Vị trí các thành phần trong câu
+        rows:
+          - label: Chủ ngữ
+            note: đứng đầu, gần như bắt buộc
+            example: I…
+          - label: Động từ + tân ngữ
+            note: đi liền nhau
+            example: …restarted the server…
+          - label: Cách thức / nơi chốn
+            note: sau tân ngữ
+            example: …quickly / in production…
+          - label: Thời gian
+            note: thường ở cuối câu
+            example: …last night.
+        fixes:
+          - wrong: Already deployed to production.
+            right: I already deployed it to production.
+            why: Câu báo cáo cần chủ ngữ và tân ngữ; tiếng Việt bỏ được, tiếng Anh thì không.
+          - wrong: She fixed quickly the bug.
+            right: She fixed the bug quickly.
+            why: Không chen trạng từ giữa động từ và tân ngữ.
+          - wrong: I check always my email.
+            right: I always check my email.
+            why: Trạng từ tần suất đứng trước động từ thường.
+  - slug: g-a1-questions
+    kind: grammar
+    title:
+      en: Yes/no questions & negatives with do/does
+      vi: Câu hỏi có/không và phủ định với do/does
+    questions:
+      - g-a1-questions-1
+      - g-a1-questions-2
+      - g-a1-questions-3
+      - g-a1-questions-4
+      - g-a1-questions-5
+      - g-a1-questions-6
+      - g-a1-questions-7
+      - g-a1-questions-8
+    grammar:
+      title_vi: Câu hỏi có/không và phủ định với do/does
+      group: Cấu trúc câu
+      overview:
+        focus: Bài Hiện tại đơn đã giới thiệu do/does; bài này luyện sâu cách dùng chúng để hỏi và phủ định. Tiếng Việt chỉ cần thêm “có… không” hay “không”; tiếng Anh với động từ thường phải mượn trợ động từ do/does, và động từ chính trở về nguyên mẫu. Be và can thì tự đảo, không cần do.
+        formulas:
+          - Do/Does + S + V nguyên mẫu?
+          - S + don't/doesn't + V nguyên mẫu
+          - Yes, S + do/does. · No, S + don't/doesn't.
+        hook: Does the app support dark mode?
+      functions:
+        - title: Hỏi một tính năng có làm được việc gì không
+          explain: Chủ ngữ là the app, the API, it… (số ít) nên dùng does.
+          examples:
+            - Does the API return JSON?
+            - Does it work offline?
+        - title: Hỏi thói quen, quy trình của người khác
+          explain: Chủ ngữ I, you, we, they hoặc số nhiều dùng do.
+          examples:
+            - Do you use Docker?
+            - Do the tests run on every push?
+        - title: Nói tính năng không làm gì
+          explain: Doesn't/don't + động từ nguyên mẫu; -s chỉ xuất hiện một lần, ở does.
+          examples:
+            - The button doesn't save the form.
+            - We don't support Internet Explorer.
+        - title: Trả lời ngắn
+          explain: Lặp lại trợ động từ, không lặp động từ chính.
+          examples:
+            - Do you have the logs? — Yes, I do.
+            - Does it crash? — No, it doesn't.
+      structure:
+        forms:
+          - label: Câu hỏi (I/you/we/they)
+            pattern: Do + S + V?
+            example: Do they deploy on Fridays?
+          - label: Câu hỏi (he/she/it)
+            pattern: Does + S + V?
+            example: Does she own this service?
+          - label: Phủ định
+            pattern: S + don't/doesn't + V
+            example: The link doesn't open.
+          - label: Trả lời ngắn
+            pattern: Yes, S + do/does · No, S + don't/doesn't
+            example: No, it doesn't.
+        steps:
+          - title: Kiểm tra động từ chính
+            explain: Nếu là be hoặc can thì đảo chính nó. Nếu là động từ thường (work, need, return…) thì cần do/does.
+            example: It works. → cần does
+          - title: Chọn do hay does
+            explain: He, she, it, danh từ số ít → does; còn lại → do.
+            example: The cache (= it) → does
+          - title: Đưa động từ về nguyên mẫu
+            explain: Does/doesn't đã mang -s, nên động từ chính bỏ -s.
+            example: It works. → Does it work? → It doesn't work.
+      examples:
+        - tag: Tính năng
+          en: Does the search bar support filters?
+          vi: Thanh tìm kiếm có hỗ trợ bộ lọc không?
+          note: The search bar số ít → does; support giữ nguyên mẫu.
+        - tag: Quy trình
+          en: Do you write unit tests for every ticket?
+          vi: Bạn có viết unit test cho mọi ticket không?
+          note: You đi với do.
+        - tag: Phủ định
+          en: The export button doesn't download anything.
+          vi: Nút xuất file không tải gì về cả.
+          note: Doesn't + download; không viết doesn't downloads.
+        - tag: Phủ định
+          en: We don't merge without a review.
+          vi: Bọn mình không merge khi chưa có review.
+          note: We đi với don't.
+        - tag: Trả lời ngắn
+          en: Does the bug happen on Safari? — Yes, it does.
+          vi: Lỗi có xảy ra trên Safari không? — Có.
+          note: Câu trả lời lặp lại does, không lặp happen.
+        - tag: Với be
+          en: Is the endpoint public?
+          vi: Endpoint này có công khai không?
+          note: Public là tính từ, động từ là be, nên đảo is chứ không dùng does.
+        - tag: Ngôi ba
+          en: Linh doesn't have admin rights.
+          vi: Linh không có quyền admin.
+          note: Has trở thành have sau doesn't.
+        - tag: Xác nhận
+          en: Does this change break the old clients?
+          vi: Thay đổi này có làm hỏng các client cũ không?
+          note: This change số ít → does; break nguyên mẫu.
+      contrast:
+        title: Khi nào cần do/does?
+        rows:
+          - label: Động từ thường
+            note: mượn do/does
+            example: Does it load fast?
+          - label: Be
+            note: đảo be, không có do
+            example: Is it fast?
+          - label: Can
+            note: đảo can, không có do
+            example: Can it load offline?
+          - label: Have (sở hữu)
+            note: là động từ thường nên cần do/does
+            example: Do you have a minute?
+        fixes:
+          - wrong: The app support dark mode?
+            right: Does the app support dark mode?
+            why: Tiếng Việt hỏi bằng ngữ điệu được, tiếng Anh viết cần trợ động từ does.
+          - wrong: It doesn't works.
+            right: It doesn't work.
+            why: Sau doesn't động từ về nguyên mẫu.
+          - wrong: Does the server is down?
+            right: Is the server down?
+            why: Câu với be không dùng does.
+  - slug: g-a1-wh-questions
+    kind: grammar
+    title:
+      en: Wh- questions
+      vi: Câu hỏi Wh-
+    questions:
+      - g-a1-wh-questions-1
+      - g-a1-wh-questions-2
+      - g-a1-wh-questions-3
+      - g-a1-wh-questions-4
+      - g-a1-wh-questions-5
+      - g-a1-wh-questions-6
+      - g-a1-wh-questions-7
+      - g-a1-wh-questions-8
+    grammar:
+      title_vi: Câu hỏi Wh-
+      group: Cấu trúc câu
+      overview:
+        focus: "Câu hỏi Wh- hỏi thông tin cụ thể: who (ai), what (cái gì), where (ở đâu), when (khi nào), why (tại sao), how (thế nào). Tiếng Việt để từ để hỏi ở cuối hoặc giữa câu (“Lỗi ở đâu?”), còn tiếng Anh luôn đưa từ để hỏi lên đầu, rồi mới đến be hoặc do/does và chủ ngữ."
+        formulas:
+          - Wh- + be + S?
+          - Wh- + do/does + S + V?
+          - Who + V(s) + O? (hỏi chủ ngữ)
+        hook: Who owns the payment service?
+      functions:
+        - title: Hỏi ai phụ trách
+          explain: Khi who là chủ ngữ, không cần do/does; động từ chia như với he/she.
+          examples:
+            - Who owns this ticket?
+            - Who reviews the database changes?
+        - title: Hỏi lỗi ở đâu, là gì
+          explain: Where/what + be + chủ ngữ; hoặc + do/does với động từ thường.
+          examples:
+            - Where is the error log?
+            - What does the error say?
+        - title: Hỏi hạn chót và thời gian
+          explain: When hỏi thời điểm chung; what time hỏi giờ cụ thể.
+          examples:
+            - When is the deadline?
+            - What time does the release start?
+        - title: Hỏi lý do và cách làm
+          explain: Why hỏi nguyên nhân, how hỏi cách thức; cấu trúc phía sau giống câu hỏi có/không.
+          examples:
+            - Why does the build fail?
+            - How do you run the tests locally?
+      structure:
+        forms:
+          - label: Với be
+            pattern: Wh- + am/is/are + S?
+            example: Where are the API docs?
+          - label: Với động từ thường
+            pattern: Wh- + do/does + S + V?
+            example: When do we freeze the code?
+          - label: Hỏi chủ ngữ
+            pattern: Who/What + V(s) + …?
+            example: What causes the timeout?
+          - label: Với can
+            pattern: Wh- + can + S + V?
+            example: How can I reset my token?
+        steps:
+          - title: Chọn từ để hỏi
+            explain: Thông tin bạn thiếu là người (who), vật (what), nơi (where), lúc (when), lý do (why) hay cách (how)?
+            example: Thiếu nơi chốn → where
+          - title: Đặt từ để hỏi lên đầu
+            explain: Không để nó ở cuối như tiếng Việt.
+            example: Lỗi ở đâu? → Where is the bug?
+          - title: Ghép phần câu hỏi có/không
+            explain: Sau từ để hỏi là be hoặc do/does + chủ ngữ + động từ nguyên mẫu. Riêng khi hỏi chủ ngữ (who/what làm gì) thì giữ trật tự câu khẳng định.
+            example: Where does it fail? · Who broke it?
+      examples:
+        - tag: Phụ trách
+          en: Who is on call tonight?
+          vi: Tối nay ai trực?
+          note: Who + is; tiếng Việt để “ai” ở giữa, tiếng Anh đưa lên đầu.
+        - tag: Phụ trách
+          en: Who maintains the mobile SDK?
+          vi: Ai bảo trì SDK mobile?
+          note: Who là chủ ngữ nên không có does; maintains thêm -s.
+        - tag: Vị trí lỗi
+          en: Where does the app crash?
+          vi: Ứng dụng bị crash ở chỗ nào?
+          note: Động từ thường crash nên cần does; crash về nguyên mẫu.
+        - tag: Hạn chót
+          en: When do you need the report?
+          vi: Khi nào bạn cần bản báo cáo?
+          note: You đi với do; need giữ nguyên mẫu.
+        - tag: Nội dung
+          en: What is the ticket number?
+          vi: Số ticket là bao nhiêu?
+          note: Tiếng Việt hỏi “bao nhiêu”, tiếng Anh dùng what cho mã số.
+        - tag: Nguyên nhân
+          en: Why are the tests so slow today?
+          vi: Sao hôm nay test chạy chậm vậy?
+          note: Slow là tính từ nên dùng be; the tests số nhiều → are.
+        - tag: Cách làm
+          en: How do I connect to the VPN?
+          vi: Mình kết nối VPN bằng cách nào?
+          note: How + do + I + connect.
+        - tag: Giờ cụ thể
+          en: What time does the stand-up start?
+          vi: Stand-up bắt đầu lúc mấy giờ?
+          note: The stand-up số ít → does; start không thêm -s.
+      contrast:
+        title: Từ để hỏi và thông tin cần hỏi
+        rows:
+          - label: Who
+            note: người
+            example: Who wrote this function?
+          - label: What
+            note: vật, nội dung, mã số
+            example: What does this flag do?
+          - label: Where
+            note: nơi chốn, vị trí trong code
+            example: Where is the config file?
+          - label: When / What time
+            note: thời điểm, giờ
+            example: When is the demo?
+          - label: Why / How
+            note: lý do, cách làm
+            example: How does the cache work?
+        fixes:
+          - wrong: The bug is where?
+            right: Where is the bug?
+            why: Từ để hỏi đứng đầu câu, không để cuối như tiếng Việt.
+          - wrong: When the release starts?
+            right: When does the release start?
+            why: Với động từ thường cần does và động từ về nguyên mẫu.
+          - wrong: Who does own this repo?
+            right: Who owns this repo?
+            why: Who là chủ ngữ nên không dùng does.
+  - slug: g-a1-there-is
+    kind: grammar
+    title:
+      en: There is & there are
+      vi: Cấu trúc there is / there are
+    questions:
+      - g-a1-there-is-1
+      - g-a1-there-is-2
+      - g-a1-there-is-3
+      - g-a1-there-is-4
+      - g-a1-there-is-5
+      - g-a1-there-is-6
+      - g-a1-there-is-7
+      - g-a1-there-is-8
+    grammar:
+      title_vi: Cấu trúc there is / there are
+      group: Cấu trúc câu
+      overview:
+        focus: Muốn nói ở đâu đó “có” một thứ (phòng họp có máy chiếu, trong code có lỗi), tiếng Anh dùng there is/there are, không bắt đầu câu bằng have. Chọn is hay are theo danh từ đứng ngay sau.
+        formulas:
+          - There is + a/an + N số ít · There is + N không đếm được
+          - There are + N số nhiều
+          - Is there…? · Are there…?
+        hook: There is a bug in the login page.
+      functions:
+        - title: Có một thứ
+          explain: Danh từ số ít hoặc không đếm được → there is (there's).
+          examples:
+            - There is a printer on the second floor.
+            - There's an error in line 10.
+        - title: Có nhiều thứ
+          explain: Danh từ số nhiều → there are.
+          examples:
+            - There are three meeting rooms.
+            - There are some tickets in the backlog.
+        - title: Không có
+          explain: There isn't / there aren't, thường đi với any.
+          examples:
+            - There isn't any coffee.
+            - There aren't any open bugs.
+        - title: Hỏi có hay không
+          explain: Đảo is/are lên trước there.
+          examples:
+            - Is there a meeting today?
+            - Are there any questions?
+      structure:
+        forms:
+          - label: Số ít
+            pattern: There is (There's) + a/an + N
+            example: There's a new message.
+          - label: Số nhiều
+            pattern: There are + N số nhiều
+            example: There are two new messages.
+          - label: Phủ định
+            pattern: There isn't a/any… · There aren't any…
+            example: There aren't any chairs.
+          - label: Nghi vấn
+            pattern: Is there…? · Are there…?
+            example: Is there a parking lot?
+          - label: Trả lời ngắn
+            pattern: Yes, there is/are. · No, there isn't/aren't.
+            example: No, there isn't.
+        steps:
+          - title: Nhìn danh từ ngay sau
+            explain: Số ít hoặc không đếm được → is; số nhiều → are.
+            example: There is some milk. There are some cups.
+          - title: Nơi chốn thường đặt cuối câu
+            explain: There is/are + thứ gì + ở đâu.
+            example: There is a whiteboard in Room B.
+          - title: Phủ định và câu hỏi
+            explain: Thêm not sau is/are, hoặc đảo is/are lên trước there; số nhiều thường dùng any.
+            example: Are there any updates?
+      examples:
+        - tag: Số ít
+          en: There is a whiteboard in the meeting room.
+          vi: Trong phòng họp có một cái bảng trắng.
+          note: Một cái bảng (số ít) → there is.
+        - tag: Số nhiều
+          en: There are two printers on this floor.
+          vi: Ở tầng này có hai máy in.
+          note: Hai máy in → there are.
+        - tag: Rút gọn
+          en: There's an error in the logs.
+          vi: Trong log có một lỗi.
+          note: There's = there is; error bắt đầu bằng nguyên âm → an.
+        - tag: Không đếm được
+          en: There is some coffee in the kitchen.
+          vi: Trong bếp có cà phê đấy.
+          note: Coffee không đếm được → is.
+        - tag: Phủ định
+          en: There isn't a meeting this afternoon.
+          vi: Chiều nay không có cuộc họp nào.
+          note: "Phủ định số ít: there isn't a."
+        - tag: Phủ định
+          en: There aren't any open tickets right now.
+          vi: Hiện giờ không có ticket nào đang mở.
+          note: "Phủ định số nhiều: there aren't any."
+        - tag: Câu hỏi
+          en: Is there a bathroom on this floor?
+          vi: Tầng này có nhà vệ sinh không?
+          note: "Câu hỏi số ít: đảo is lên trước there."
+        - tag: Câu hỏi
+          en: Are there any questions?
+          vi: Mọi người có câu hỏi nào không?
+          note: Câu hỏi số nhiều thường dùng any.
+      contrast:
+        title: There is/are và have
+        rows:
+          - label: There is
+            note: ở đâu đó có một thứ (số ít / không đếm được)
+            example: There is a car outside.
+          - label: There are
+            note: ở đâu đó có nhiều thứ
+            example: There are two cars outside.
+          - label: have / has
+            note: ai đó sở hữu cái gì
+            example: I have a car.
+        fixes:
+          - wrong: Have a bug in the login page.
+            right: There is a bug in the login page.
+            why: Nói ở đâu “có” cái gì dùng there is, không bắt đầu câu bằng have.
+          - wrong: There is three new users.
+            right: There are three new users.
+            why: Danh từ số nhiều → there are.
+          - wrong: There are some information here.
+            right: There is some information here.
+            why: Information không đếm được → is.
+          - wrong: Is there any meetings today?
+            right: Are there any meetings today?
+            why: Meetings số nhiều → Are there.
+  - slug: g-a1-can
+    kind: grammar
+    title:
+      en: Can & can't
+      vi: Động từ khuyết thiếu can / can't
+    questions:
+      - g-a1-can-1
+      - g-a1-can-2
+      - g-a1-can-3
+      - g-a1-can-4
+      - g-a1-can-5
+      - g-a1-can-6
+      - g-a1-can-7
+      - g-a1-can-8
+    grammar:
+      title_vi: Động từ khuyết thiếu can / can't
+      group: Động từ khuyết thiếu
+      overview:
+        focus: Can diễn tả khả năng (biết làm, làm được), xin phép và nhờ vả. Can đứng trước động từ nguyên mẫu, không đổi theo chủ ngữ (không có cans), và tự làm phủ định, câu hỏi mà không cần do/does.
+        formulas:
+          - S + can / can't + V (nguyên mẫu)
+          - Can + S + V (nguyên mẫu)…?
+        hook: I can write Python, but I can't write Go.
+      functions:
+        - title: Khả năng
+          explain: Ai đó biết hoặc làm được việc gì.
+          examples:
+            - She can speak Japanese.
+            - I can't swim.
+        - title: Xin phép
+          explain: Can I…? để hỏi mình có được làm gì không.
+          examples:
+            - Can I leave early today?
+            - Can I use this room?
+        - title: Nhờ vả
+          explain: Can you…? để nhờ người khác một cách lịch sự.
+          examples:
+            - Can you review my PR?
+            - Can you call me back?
+        - title: Được phép hay không
+          explain: Mô tả quy định, tính năng cho phép hoặc không cho phép làm gì.
+          examples:
+            - You can't park here.
+            - Users can reset their password.
+      structure:
+        forms:
+          - label: Khẳng định
+            pattern: S + can + V
+            example: He can fix it.
+          - label: Phủ định
+            pattern: S + can't / cannot + V
+            example: We can't access the server.
+          - label: Nghi vấn
+            pattern: Can + S + V…?
+            example: Can you hear me?
+          - label: Trả lời ngắn
+            pattern: Yes, S can. · No, S can't.
+            example: Yes, I can.
+        steps:
+          - title: Giữ nguyên can
+            explain: Mọi chủ ngữ đều dùng can, không thêm -s.
+            example: She can (không phải she cans)
+          - title: Động từ sau can ở nguyên mẫu
+            explain: Không thêm to, -s hay -ing sau can.
+            example: can deploy (không phải can to deploy)
+          - title: Phủ định, câu hỏi bằng chính can
+            explain: Không dùng do/does; viết cannot liền hoặc rút gọn can't.
+            example: Can he come? — No, he can't.
+      examples:
+        - tag: Khả năng
+          en: Linh can speak three languages.
+          vi: Linh nói được ba thứ tiếng.
+          note: Khả năng → can; speak giữ nguyên mẫu.
+        - tag: Không làm được
+          en: I can't open this file.
+          vi: Mình không mở được file này.
+          note: Can't + động từ nguyên mẫu.
+        - tag: Câu hỏi
+          en: Can you hear me?
+          vi: Bạn có nghe thấy mình không?
+          note: Đưa can lên đầu câu, không dùng do.
+        - tag: Xin phép
+          en: Can I leave at four today?
+          vi: Hôm nay em về lúc bốn giờ được không ạ?
+          note: Xin phép dùng Can I…?
+        - tag: Nhờ vả
+          en: Can you send me the slides?
+          vi: Bạn gửi mình slide được không?
+          note: "Nhờ vả lịch sự: Can you…?"
+        - tag: Tính năng
+          en: Users can change their password in Settings.
+          vi: Người dùng có thể đổi mật khẩu trong phần Cài đặt.
+          note: Mô tả hệ thống cho phép làm gì → can.
+        - tag: Quy định
+          en: We can't deploy on Fridays.
+          vi: Tụi mình không được deploy vào thứ Sáu.
+          note: Quy định không cho phép cũng dùng can't.
+        - tag: Câu ngắn
+          en: She can't come to the meeting, but Tuan can.
+          vi: Chị ấy không đến họp được, nhưng Tuấn thì được.
+          note: Vế sau chỉ cần can, không lặp lại động từ.
+      contrast:
+        title: Can và động từ thường
+        rows:
+          - label: can
+            note: khẳng định, mọi chủ ngữ
+            example: He can drive.
+          - label: can't / cannot
+            note: phủ định, không cần doesn't
+            example: He can't drive.
+          - label: Can …?
+            note: câu hỏi, không cần does
+            example: Can he drive?
+          - label: Động từ thường
+            note: cần do/does để hỏi, phủ định
+            example: Does he drive?
+        fixes:
+          - wrong: She cans play the guitar.
+            right: She can play the guitar.
+            why: Can không bao giờ thêm -s.
+          - wrong: I can to finish it today.
+            right: I can finish it today.
+            why: Sau can là động từ nguyên mẫu không có to.
+          - wrong: Do you can help me?
+            right: Can you help me?
+            why: Can tự làm câu hỏi, không cần do.
+          - wrong: He can't comes today.
+            right: He can't come today.
+            why: Sau can't động từ không thêm -s.

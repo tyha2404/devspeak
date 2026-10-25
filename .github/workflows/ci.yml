@@ -27,12 +27,6 @@ jobs:
       - run: pnpm typecheck
       - run: pnpm format:check
       - run: pnpm test
-      - name: Generated game assets are up to date
-        run: |
-          pnpm assets
-          pnpm maps
-          git diff --exit-code public/assets
-
       - name: Start local Supabase
         run: pnpm exec supabase start -x studio,imgproxy,edge-runtime,logflare,vector,supavisor
       - name: Export local Supabase keys

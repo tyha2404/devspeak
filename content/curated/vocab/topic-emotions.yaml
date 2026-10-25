@@ -1,0 +1,3464 @@
+# Vocabulary by topic: Onboarding, Feedback & Team Change (unit T13). Original content.
+# Set 1: Welcoming a new developer
+- {
+    "slug": "newcomer-n-emotions",
+    "lemma": "newcomer",
+    "pos": "noun",
+    "cefr": "A2",
+    "topic": "population",
+    "ipa": "/ˈnjuːkʌmə/",
+    "def": "A person who has just joined a group or a place.",
+    "vi": "người mới đến",
+    "examples":
+      [
+        {
+          "en": "As a newcomer, Minh had many questions about our deploy process.",
+          "vi": "Là người mới, Minh có nhiều câu hỏi về quy trình deploy của nhóm.",
+        },
+      ],
+  }
+- {
+    "slug": "welcome-v",
+    "lemma": "welcome",
+    "pos": "verb",
+    "cefr": "A2",
+    "topic": "population",
+    "ipa": "/ˈwelkəm/",
+    "def": "To greet someone in a friendly way when they arrive.",
+    "vi": "chào đón",
+    "examples":
+      [
+        {
+          "en": "Please welcome Lan, who joins the mobile team today.",
+          "vi": "Mọi người cùng chào đón Lan, hôm nay bạn ấy vào nhóm mobile.",
+        },
+      ],
+  }
+- {
+    "slug": "introduce-v",
+    "lemma": "introduce",
+    "pos": "verb",
+    "cefr": "A2",
+    "topic": "population",
+    "ipa": "/ˌɪntrəˈdjuːs/",
+    "def": "To tell people each other's names when they meet for the first time.",
+    "vi": "giới thiệu",
+    "examples":
+      [
+        {
+          "en": "Let me introduce you to Huy, our backend lead.",
+          "vi": "Để mình giới thiệu bạn với Huy, trưởng nhóm backend.",
+        },
+      ],
+  }
+- {
+    "slug": "teammate-n",
+    "lemma": "teammate",
+    "pos": "noun",
+    "cefr": "A2",
+    "topic": "population",
+    "ipa": "/ˈtiːmmeɪt/",
+    "def": "A person who works in the same team as you.",
+    "vi": "đồng đội, thành viên cùng nhóm",
+    "examples":
+      [
+        {
+          "en": "Your teammates are happy to review your first pull request.",
+          "vi": "Các bạn cùng nhóm sẵn lòng review pull request đầu tiên của bạn.",
+        },
+      ],
+  }
+- {
+    "slug": "first-day-n",
+    "lemma": "first day",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "A1",
+    "topic": "population",
+    "ipa": "/ˌfɜːst ˈdeɪ/",
+    "def": "The day when you start a new job or school.",
+    "vi": "ngày đầu tiên",
+    "examples":
+      [
+        {
+          "en": "On your first day, just set up your laptop and meet the team.",
+          "vi": "Ngày đầu tiên, bạn chỉ cần cài máy và làm quen với nhóm.",
+        },
+      ],
+  }
+- {
+    "slug": "show-around-pv",
+    "lemma": "show someone around",
+    "pos": "phrasal_verb",
+    "kind": "phrasal",
+    "cefr": "A2",
+    "topic": "population",
+    "ipa": "/ˌʃəʊ ə ˈraʊnd/",
+    "def": "To walk with a new person and point out the places they need to know.",
+    "vi": "dẫn ai đi xem một vòng",
+    "examples":
+      [
+        {
+          "en": "Tuan will show you around the office after the stand-up.",
+          "vi": "Sau buổi stand-up, Tuấn sẽ dẫn bạn đi xem văn phòng.",
+        },
+      ],
+  }
+- {
+    "slug": "team-lead-n",
+    "lemma": "team lead",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "A2",
+    "topic": "population",
+    "ipa": "/ˈtiːm liːd/",
+    "def": "The person who guides a team's daily work.",
+    "vi": "trưởng nhóm",
+    "examples":
+      [
+        {
+          "en": "Ask your team lead if you are not sure which ticket to take.",
+          "vi": "Hỏi trưởng nhóm nếu bạn không chắc nên nhận ticket nào.",
+        },
+      ],
+  }
+- {
+    "slug": "desk-n",
+    "lemma": "desk",
+    "pos": "noun",
+    "cefr": "A1",
+    "topic": "population",
+    "ipa": "/desk/",
+    "def": "A table where you sit to work.",
+    "vi": "bàn làm việc",
+    "examples":
+      [
+        {
+          "en": "Your desk is next to the window, near the QA team.",
+          "vi": "Bàn của bạn ở cạnh cửa sổ, gần nhóm QA.",
+        },
+      ],
+  }
+- {
+    "slug": "nice-to-meet-you-phr-emotions",
+    "lemma": "nice to meet you",
+    "pos": "phrase",
+    "kind": "phrase",
+    "cefr": "A1",
+    "topic": "population",
+    "ipa": "/ˌnaɪs tə ˈmiːt juː/",
+    "def": "A polite thing to say when you meet someone for the first time.",
+    "vi": "rất vui được gặp bạn",
+    "examples":
+      [
+        {
+          "en": "Hi, I'm Sarah from design. Nice to meet you!",
+          "vi": "Chào bạn, mình là Sarah bên design. Rất vui được gặp bạn!",
+        },
+      ],
+  }
+- {
+    "slug": "buddy-n",
+    "lemma": "buddy",
+    "pos": "noun",
+    "cefr": "A2",
+    "topic": "population",
+    "ipa": "/ˈbʌdi/",
+    "def": "A team member chosen to help a new person during their first weeks.",
+    "vi": "người kèm cặp, bạn đồng hành",
+    "examples":
+      [
+        {
+          "en": "Your onboarding buddy can answer small questions any time.",
+          "vi": "Người kèm cặp của bạn có thể trả lời các câu hỏi nhỏ bất cứ lúc nào.",
+        },
+      ],
+  }
+# Set 2: An onboarding checklist
+- {
+    "slug": "checklist-n",
+    "lemma": "checklist",
+    "pos": "noun",
+    "cefr": "A2",
+    "topic": "population",
+    "ipa": "/ˈtʃeklɪst/",
+    "def": "A list of tasks that you mark one by one when they are done.",
+    "vi": "danh sách kiểm tra",
+    "examples":
+      [
+        {
+          "en": "The checklist has twelve items for your first week.",
+          "vi": "Danh sách kiểm tra có mười hai mục cho tuần đầu của bạn.",
+        },
+      ],
+  }
+- {
+    "slug": "access-n",
+    "lemma": "access",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "population",
+    "ipa": "/ˈækses/",
+    "def": "The right or the means to use a system or enter a place.",
+    "vi": "quyền truy cập",
+    "examples":
+      [
+        {
+          "en": "Do you have access to the staging server yet?",
+          "vi": "Bạn đã có quyền truy cập máy chủ staging chưa?",
+        },
+      ],
+  }
+- {
+    "slug": "account-n",
+    "lemma": "account",
+    "pos": "noun",
+    "cefr": "A2",
+    "topic": "population",
+    "ipa": "/əˈkaʊnt/",
+    "def": "A personal login that lets you use a service.",
+    "vi": "tài khoản",
+    "examples":
+      [
+        {
+          "en": "IT will create your email account this morning.",
+          "vi": "Sáng nay IT sẽ tạo tài khoản email cho bạn.",
+        },
+      ],
+  }
+- {
+    "slug": "laptop-n",
+    "lemma": "laptop",
+    "pos": "noun",
+    "cefr": "A1",
+    "topic": "population",
+    "ipa": "/ˈlæptɒp/",
+    "def": "A small computer that you can carry.",
+    "vi": "máy tính xách tay",
+    "examples":
+      [
+        {
+          "en": "Your laptop is ready, but you still need to install Docker.",
+          "vi": "Máy của bạn đã sẵn sàng, nhưng bạn vẫn cần cài Docker.",
+        },
+      ],
+  }
+- {
+    "slug": "set-up-pv",
+    "lemma": "set up",
+    "pos": "verb",
+    "kind": "phrasal",
+    "cefr": "A2",
+    "topic": "population",
+    "ipa": "/ˌset ˈʌp/",
+    "def": "To prepare a tool or a machine so it is ready to use.",
+    "vi": "cài đặt, thiết lập",
+    "examples":
+      [
+        {
+          "en": "It took me two hours to set up the local database.",
+          "vi": "Mình mất hai tiếng để thiết lập database trên máy.",
+        },
+      ],
+  }
+- {
+    "slug": "request-v",
+    "lemma": "request",
+    "pos": "verb",
+    "cefr": "B1",
+    "topic": "population",
+    "ipa": "/rɪˈkwest/",
+    "def": "To ask for something formally, often through a form or a tool.",
+    "vi": "yêu cầu, đề nghị",
+    "examples":
+      [
+        {
+          "en": "Request VPN access through the IT portal.",
+          "vi": "Hãy đề nghị cấp quyền VPN qua cổng IT.",
+        },
+      ],
+  }
+- {
+    "slug": "approve-v",
+    "lemma": "approve",
+    "pos": "verb",
+    "cefr": "B1",
+    "topic": "population",
+    "ipa": "/əˈpruːv/",
+    "def": "To officially say yes to a request.",
+    "vi": "phê duyệt",
+    "examples":
+      [
+        {
+          "en": "Your manager has to approve the request first.",
+          "vi": "Quản lý của bạn phải phê duyệt yêu cầu trước.",
+        },
+      ],
+  }
+- {
+    "slug": "pending-adj",
+    "lemma": "pending",
+    "pos": "adjective",
+    "cefr": "B2",
+    "topic": "population",
+    "ipa": "/ˈpendɪŋ/",
+    "def": "Waiting for a decision or an action.",
+    "vi": "đang chờ xử lý",
+    "examples":
+      [
+        {
+          "en": "My GitHub invite is still pending.",
+          "vi": "Lời mời GitHub của mình vẫn đang chờ.",
+        },
+      ],
+  }
+- {
+    "slug": "missing-adj",
+    "lemma": "missing",
+    "pos": "adjective",
+    "cefr": "A2",
+    "topic": "population",
+    "ipa": "/ˈmɪsɪŋ/",
+    "def": "Not there when it should be.",
+    "vi": "bị thiếu",
+    "examples":
+      [
+        {
+          "en": "Two steps are missing from the setup guide.",
+          "vi": "Hướng dẫn cài đặt bị thiếu hai bước.",
+        },
+      ],
+  }
+- {
+    "slug": "tick-off-pv",
+    "lemma": "tick off",
+    "pos": "verb",
+    "kind": "phrasal",
+    "cefr": "B1",
+    "topic": "population",
+    "ipa": "/ˌtɪk ˈɒf/",
+    "def": "To mark an item on a list to show it is done.",
+    "vi": "đánh dấu đã xong",
+    "examples":
+      [
+        {
+          "en": "Tick off each item when you finish it.",
+          "vi": "Làm xong mục nào thì đánh dấu mục đó.",
+        },
+      ],
+  }
+- {
+    "slug": "welcome-pack-n",
+    "lemma": "welcome pack",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B1",
+    "topic": "population",
+    "ipa": "/ˈwelkəm pæk/",
+    "def": "A set of useful documents and items given to a new employee.",
+    "vi": "bộ tài liệu chào mừng",
+    "examples":
+      [
+        {
+          "en": "The welcome pack has the Wi-Fi password and a map of our services.",
+          "vi": "Bộ tài liệu chào mừng có mật khẩu Wi-Fi và sơ đồ các service.",
+        },
+      ],
+  }
+- {
+    "slug": "badge-n-emotions",
+    "lemma": "badge",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "population",
+    "ipa": "/bædʒ/",
+    "def": "A card that shows who you are and lets you enter a building.",
+    "vi": "thẻ ra vào",
+    "examples":
+      [
+        {
+          "en": "Pick up your badge at reception before ten.",
+          "vi": "Hãy nhận thẻ ra vào ở lễ tân trước mười giờ.",
+        },
+      ],
+  }
+# Set 3: Expectations in a new role
+- {
+    "slug": "role-n",
+    "lemma": "role",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "population",
+    "ipa": "/rəʊl/",
+    "def": "The job or position someone has in a team.",
+    "vi": "vai trò",
+    "examples":
+      [
+        {
+          "en": "In this role, you will own the payment service.",
+          "vi": "Ở vai trò này, bạn sẽ phụ trách service thanh toán.",
+        },
+      ],
+  }
+- {
+    "slug": "expectation-n",
+    "lemma": "expectation",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "population",
+    "ipa": "/ˌekspekˈteɪʃn/",
+    "def": "A belief about what someone should do or achieve.",
+    "vi": "sự kỳ vọng",
+    "examples":
+      [
+        {
+          "en": "Let's agree on expectations for your first month.",
+          "vi": "Mình cùng thống nhất kỳ vọng cho tháng đầu của bạn nhé.",
+        },
+      ],
+  }
+- {
+    "slug": "probation-n",
+    "lemma": "probation",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "population",
+    "ipa": "/prəˈbeɪʃn/",
+    "def": "A first period in a job when the company checks if you are suitable.",
+    "vi": "thời gian thử việc",
+    "examples":
+      [
+        {
+          "en": "Your probation lasts two months.",
+          "vi": "Thời gian thử việc của bạn kéo dài hai tháng.",
+        },
+      ],
+  }
+- {
+    "slug": "ramp-up-pv",
+    "lemma": "ramp up",
+    "pos": "verb",
+    "kind": "phrasal",
+    "cefr": "B2",
+    "topic": "population",
+    "ipa": "/ˌræmp ˈʌp/",
+    "def": "To increase your speed or amount of work little by little.",
+    "vi": "tăng dần tốc độ",
+    "examples":
+      [
+        {
+          "en": "We expect you to ramp up over the first six weeks.",
+          "vi": "Bọn mình mong bạn tăng dần tốc độ trong sáu tuần đầu.",
+        },
+      ],
+  }
+- {
+    "slug": "settle-in-pv",
+    "lemma": "settle in",
+    "pos": "verb",
+    "kind": "phrasal",
+    "cefr": "B1",
+    "topic": "population",
+    "ipa": "/ˌsetl ˈɪn/",
+    "def": "To become comfortable in a new place or job.",
+    "vi": "quen dần, ổn định",
+    "examples":
+      [
+        {
+          "en": "Take a week to settle in before you pick big tickets.",
+          "vi": "Cứ dành một tuần để quen dần rồi hẵng nhận ticket lớn.",
+        },
+      ],
+  }
+- {
+    "slug": "priority-n",
+    "lemma": "priority",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "population",
+    "ipa": "/praɪˈɒrəti/",
+    "def": "Something that is more important than other things and should be done first.",
+    "vi": "ưu tiên",
+    "examples":
+      [
+        {
+          "en": "Your first priority is to learn the release process.",
+          "vi": "Ưu tiên đầu tiên của bạn là nắm quy trình release.",
+        },
+      ],
+  }
+- {
+    "slug": "contribute-v-emotions",
+    "lemma": "contribute",
+    "pos": "verb",
+    "cefr": "B1",
+    "topic": "population",
+    "ipa": "/kənˈtrɪbjuːt/",
+    "def": "To give your work or ideas to help a shared result.",
+    "vi": "đóng góp",
+    "examples":
+      [
+        {
+          "en": "By week three, we hope you can contribute small fixes.",
+          "vi": "Đến tuần thứ ba, bọn mình hy vọng bạn đóng góp được vài bản sửa nhỏ.",
+        },
+      ],
+  }
+- {
+    "slug": "job-spec-n",
+    "lemma": "job spec",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "population",
+    "ipa": "/ˈdʒɒb spek/",
+    "def": "A short document that lists the duties and skills of a job.",
+    "vi": "bản mô tả công việc",
+    "examples":
+      [
+        {
+          "en": "The job spec says you will also mentor interns.",
+          "vi": "Bản mô tả công việc ghi rằng bạn cũng sẽ kèm thực tập sinh.",
+        },
+      ],
+  }
+- {
+    "slug": "get-up-to-speed-phr",
+    "lemma": "get up to speed",
+    "pos": "phrase",
+    "kind": "phrase",
+    "cefr": "B2",
+    "topic": "population",
+    "ipa": "/ˌɡet ʌp tə ˈspiːd/",
+    "def": "To learn everything you need so you can work at the normal level.",
+    "vi": "bắt kịp, nắm được việc",
+    "examples":
+      [
+        {
+          "en": "Read the architecture notes to get up to speed quickly.",
+          "vi": "Hãy đọc ghi chú kiến trúc để nhanh chóng nắm được việc.",
+        },
+      ],
+  }
+- {
+    "slug": "steep-adj",
+    "lemma": "steep",
+    "pos": "adjective",
+    "cefr": "B2",
+    "topic": "population",
+    "ipa": "/stiːp/",
+    "def": "Used about learning that is hard because there is a lot to learn quickly.",
+    "vi": "khó, dốc (đường cong học tập)",
+    "examples":
+      [
+        {
+          "en": "The learning curve here is steep, so ask for help early.",
+          "vi": "Ở đây phải học rất nhiều trong thời gian ngắn, nên hãy hỏi sớm.",
+        },
+      ],
+  }
+- {
+    "slug": "independently-adv",
+    "lemma": "independently",
+    "pos": "adverb",
+    "cefr": "B2",
+    "topic": "population",
+    "ipa": "/ˌɪndɪˈpendəntli/",
+    "def": "Without needing help or control from other people.",
+    "vi": "một cách độc lập",
+    "examples":
+      [
+        {
+          "en": "After a month, you should handle on-call tickets independently.",
+          "vi": "Sau một tháng, bạn nên tự xử lý được ticket trực một cách độc lập.",
+        },
+      ],
+  }
+- {
+    "slug": "starter-task-n",
+    "lemma": "starter task",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B1",
+    "topic": "population",
+    "ipa": "/ˈstɑːtə tɑːsk/",
+    "def": "A small, safe piece of work given to a new person to learn the code.",
+    "vi": "việc khởi động",
+    "examples":
+      [
+        {
+          "en": "Your starter task is to fix a typo in the login page.",
+          "vi": "Việc khởi động của bạn là sửa lỗi chính tả ở trang đăng nhập.",
+        },
+      ],
+  }
+- {
+    "slug": "short-term-adj",
+    "lemma": "short-term",
+    "pos": "adjective",
+    "cefr": "B1",
+    "topic": "population",
+    "ipa": "/ˌʃɔːt ˈtɜːm/",
+    "def": "Lasting or planned for only a short time.",
+    "vi": "ngắn hạn",
+    "examples":
+      [
+        {
+          "en": "Let's set three short-term goals for this sprint.",
+          "vi": "Mình đặt ba mục tiêu ngắn hạn cho sprint này nhé.",
+        },
+      ],
+  }
+- {
+    "slug": "keep-an-eye-on-phr",
+    "lemma": "keep an eye on",
+    "pos": "phrase",
+    "kind": "phrase",
+    "cefr": "B1",
+    "topic": "population",
+    "ipa": "/ˌkiːp ən ˈaɪ ɒn/",
+    "def": "To watch something or someone to check that all is fine.",
+    "vi": "để mắt tới",
+    "examples":
+      [
+        {
+          "en": "I'll keep an eye on your first deploys, just in case.",
+          "vi": "Mình sẽ để mắt tới mấy lần deploy đầu của bạn, phòng khi cần.",
+        },
+      ],
+  }
+# Set 4: Asking for feedback
+- {
+    "slug": "feedback-n",
+    "lemma": "feedback",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "population",
+    "ipa": "/ˈfiːdbæk/",
+    "def": "Comments about how well someone did something, given so they can improve.",
+    "vi": "phản hồi, góp ý",
+    "examples":
+      [
+        {
+          "en": "Could you give me feedback on my design doc?",
+          "vi": "Anh cho em góp ý về tài liệu thiết kế được không?",
+        },
+      ],
+  }
+- {
+    "slug": "ask-for-phr",
+    "lemma": "ask for",
+    "pos": "phrase",
+    "kind": "phrase",
+    "cefr": "A2",
+    "topic": "population",
+    "ipa": "/ˈɑːsk fə/",
+    "def": "To say that you want someone to give you something.",
+    "vi": "xin, yêu cầu",
+    "examples":
+      [
+        {
+          "en": "Don't wait for the review; ask for feedback early.",
+          "vi": "Đừng đợi đến buổi review; hãy xin góp ý sớm.",
+        },
+      ],
+  }
+- {
+    "slug": "honest-adj",
+    "lemma": "honest",
+    "pos": "adjective",
+    "cefr": "A2",
+    "topic": "population",
+    "ipa": "/ˈɒnɪst/",
+    "def": "Telling the truth, even when it is not pleasant.",
+    "vi": "thẳng thắn, trung thực",
+    "examples":
+      [
+        {
+          "en": "Please be honest: is my code hard to read?",
+          "vi": "Anh cứ thẳng thắn nhé: code của em có khó đọc không?",
+        },
+      ],
+  }
+- {
+    "slug": "suggestion-n",
+    "lemma": "suggestion",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "population",
+    "ipa": "/səˈdʒestʃən/",
+    "def": "An idea that you offer for someone to think about.",
+    "vi": "đề xuất, gợi ý",
+    "examples":
+      [
+        {
+          "en": "Thanks for the suggestion about naming the variables.",
+          "vi": "Cảm ơn gợi ý về cách đặt tên biến.",
+        },
+      ],
+  }
+- {
+    "slug": "point-out-pv",
+    "lemma": "point out",
+    "pos": "verb",
+    "kind": "phrasal",
+    "cefr": "B1",
+    "topic": "population",
+    "ipa": "/ˌpɔɪnt ˈaʊt/",
+    "def": "To tell someone about a fact or a problem they did not notice.",
+    "vi": "chỉ ra",
+    "examples":
+      [
+        {
+          "en": "Can you point out anything I missed in the tests?",
+          "vi": "Anh chỉ ra giúp em chỗ nào em bỏ sót trong test được không?",
+        },
+      ],
+  }
+- {
+    "slug": "improvement-n",
+    "lemma": "improvement",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "population",
+    "ipa": "/ɪmˈpruːvmənt/",
+    "def": "A change that makes something better.",
+    "vi": "sự cải thiện",
+    "examples":
+      [
+        {
+          "en": "Is there one improvement I should focus on first?",
+          "vi": "Có điểm cải thiện nào em nên tập trung trước không?",
+        },
+      ],
+  }
+- {
+    "slug": "area-for-growth-n",
+    "lemma": "area for growth",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "population",
+    "ipa": "/ˌeəriə fə ˈɡrəʊθ/",
+    "def": "A skill that a person can still develop.",
+    "vi": "điểm cần phát triển",
+    "examples":
+      [
+        {
+          "en": "My main area for growth is writing clear tickets.",
+          "vi": "Điểm cần phát triển chính của mình là viết ticket rõ ràng.",
+        },
+      ],
+  }
+- {
+    "slug": "appreciate-v",
+    "lemma": "appreciate",
+    "pos": "verb",
+    "cefr": "B1",
+    "topic": "population",
+    "ipa": "/əˈpriːʃieɪt/",
+    "def": "To be thankful for something someone did.",
+    "vi": "trân trọng, cảm kích",
+    "examples":
+      [
+        {
+          "en": "I really appreciate you taking the time to review this.",
+          "vi": "Em rất cảm kích vì anh đã dành thời gian review.",
+        },
+      ],
+  }
+- {
+    "slug": "blind-spot-n",
+    "lemma": "blind spot",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "population",
+    "ipa": "/ˈblaɪnd spɒt/",
+    "def": "A weakness that you cannot see in yourself.",
+    "vi": "điểm mù",
+    "examples":
+      [
+        {
+          "en": "Feedback from peers helps me find my blind spots.",
+          "vi": "Góp ý từ đồng nghiệp giúp mình tìm ra điểm mù của bản thân.",
+        },
+      ],
+  }
+- {
+    "slug": "open-to-phr",
+    "lemma": "open to",
+    "pos": "phrase",
+    "kind": "phrase",
+    "cefr": "B1",
+    "topic": "population",
+    "ipa": "/ˈəʊpən tə/",
+    "def": "Willing to listen to and consider something.",
+    "vi": "sẵn sàng đón nhận",
+    "examples":
+      [
+        {
+          "en": "I'm open to any comments on the API design.",
+          "vi": "Mình sẵn sàng đón nhận mọi góp ý về thiết kế API.",
+        },
+      ],
+  }
+- {
+    "slug": "strong-point-n",
+    "lemma": "strong point",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B1",
+    "topic": "population",
+    "ipa": "/ˌstrɒŋ ˈpɔɪnt/",
+    "def": "Something that a person does especially well.",
+    "vi": "điểm mạnh",
+    "examples":
+      [
+        {
+          "en": "Debugging is clearly one of your strong points.",
+          "vi": "Gỡ lỗi rõ ràng là một điểm mạnh của bạn.",
+        },
+      ],
+  }
+- {
+    "slug": "shortcoming-n",
+    "lemma": "shortcoming",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "population",
+    "ipa": "/ˈʃɔːtkʌmɪŋ/",
+    "def": "A fault that makes someone or something less effective.",
+    "vi": "thiếu sót",
+    "examples":
+      [
+        {
+          "en": "What are the shortcomings of my migration plan?",
+          "vi": "Kế hoạch migration của em có thiếu sót gì?",
+        },
+      ],
+  }
+- {
+    "slug": "catch-up-n-emotions",
+    "lemma": "catch-up",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "population",
+    "ipa": "/ˈkætʃ ʌp/",
+    "def": "A short, informal meeting to talk about recent work.",
+    "vi": "buổi trao đổi nhanh",
+    "examples":
+      [
+        {
+          "en": "Can we have a quick catch-up about my first sprint?",
+          "vi": "Mình nói chuyện nhanh về sprint đầu của em được không?",
+        },
+      ],
+  }
+- {
+    "slug": "work-in-progress-n",
+    "lemma": "work in progress",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "population",
+    "ipa": "/ˌwɜːk ɪn ˈprəʊɡres/",
+    "def": "Something that is started but not finished yet.",
+    "vi": "việc đang làm dở",
+    "examples":
+      [
+        {
+          "en": "This PR is a work in progress, but early feedback helps.",
+          "vi": "PR này còn đang làm dở, nhưng góp ý sớm vẫn rất có ích.",
+        },
+      ],
+  }
+- {
+    "slug": "how-did-i-do-phr",
+    "lemma": "how did I do?",
+    "pos": "phrase",
+    "kind": "phrase",
+    "cefr": "A2",
+    "topic": "population",
+    "ipa": "/ˌhaʊ dɪd aɪ ˈduː/",
+    "def": "A simple question to ask someone's opinion of your performance.",
+    "vi": "mình làm thế nào?",
+    "examples":
+      [
+        {
+          "en": "That was my first demo. How did I do?",
+          "vi": "Đó là buổi demo đầu tiên của mình. Mình làm thế nào?",
+        },
+      ],
+  }
+- {
+    "slug": "rough-adj",
+    "lemma": "rough",
+    "pos": "adjective",
+    "cefr": "B1",
+    "topic": "population",
+    "ipa": "/rʌf/",
+    "def": "Not complete or detailed; an early version.",
+    "vi": "sơ bộ, thô",
+    "examples":
+      [{ "en": "Here is a rough version of the README.", "vi": "Đây là bản README sơ bộ." }],
+  }
+# Set 5: Giving constructive feedback
+- {
+    "slug": "constructive-adj-emotions",
+    "lemma": "constructive",
+    "pos": "adjective",
+    "cefr": "B2",
+    "topic": "population",
+    "ipa": "/kənˈstrʌktɪv/",
+    "def": "Helpful and meant to improve something, not only to criticise.",
+    "vi": "mang tính xây dựng",
+    "examples":
+      [
+        {
+          "en": "Keep review comments constructive and kind.",
+          "vi": "Hãy giữ bình luận review mang tính xây dựng và tử tế.",
+        },
+      ],
+  }
+- {
+    "slug": "observation-n",
+    "lemma": "observation",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "population",
+    "ipa": "/ˌɒbzəˈveɪʃn/",
+    "def": "A fact you noticed by watching carefully.",
+    "vi": "điều quan sát được",
+    "examples":
+      [
+        {
+          "en": "My observation is that the stand-ups often run over time.",
+          "vi": "Mình quan sát thấy các buổi stand-up thường bị quá giờ.",
+        },
+      ],
+  }
+- {
+    "slug": "behaviour-n",
+    "lemma": "behaviour",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "population",
+    "ipa": "/bɪˈheɪvjə/",
+    "def": "The way a person acts.",
+    "vi": "hành vi, cách hành xử",
+    "examples":
+      [
+        {
+          "en": "Talk about the behaviour, not about the person.",
+          "vi": "Hãy nói về hành vi, đừng nói về con người.",
+        },
+      ],
+  }
+- {
+    "slug": "impact-n",
+    "lemma": "impact",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "population",
+    "ipa": "/ˈɪmpækt/",
+    "def": "The effect that an action has on something or someone.",
+    "vi": "tác động, ảnh hưởng",
+    "examples":
+      [
+        {
+          "en": "When reviews wait for days, the impact is slower releases.",
+          "vi": "Khi review phải chờ nhiều ngày, hậu quả là release chậm hơn.",
+        },
+      ],
+  }
+- {
+    "slug": "recommend-v",
+    "lemma": "recommend",
+    "pos": "verb",
+    "cefr": "B1",
+    "topic": "population",
+    "ipa": "/ˌrekəˈmend/",
+    "def": "To advise someone that something is a good idea.",
+    "vi": "khuyên, đề nghị",
+    "examples":
+      [
+        {
+          "en": "I recommend splitting this PR into two smaller ones.",
+          "vi": "Mình đề nghị tách PR này thành hai PR nhỏ hơn.",
+        },
+      ],
+  }
+- {
+    "slug": "criticise-v",
+    "lemma": "criticise",
+    "pos": "verb",
+    "cefr": "B1",
+    "topic": "population",
+    "ipa": "/ˈkrɪtɪsaɪz/",
+    "def": "To say what is wrong with someone or something.",
+    "vi": "chỉ trích, phê bình",
+    "examples":
+      [
+        {
+          "en": "Never criticise a colleague in a public channel.",
+          "vi": "Đừng bao giờ phê bình đồng nghiệp trong kênh chung.",
+        },
+      ],
+  }
+- {
+    "slug": "tone-n-emotions",
+    "lemma": "tone",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "population",
+    "ipa": "/təʊn/",
+    "def": "The feeling that your words show, for example friendly or angry.",
+    "vi": "giọng điệu",
+    "examples":
+      [
+        {
+          "en": "Written comments can sound harsh, so check your tone.",
+          "vi": "Bình luận viết có thể nghe gay gắt, nên hãy kiểm tra giọng điệu.",
+        },
+      ],
+  }
+- {
+    "slug": "label-v",
+    "lemma": "label",
+    "pos": "verb",
+    "cefr": "B2",
+    "topic": "population",
+    "ipa": "/ˈleɪbl/",
+    "def": "To describe a person with a fixed word, often an unfair one.",
+    "vi": "gán nhãn",
+    "examples":
+      [
+        {
+          "en": "Don't label him as lazy; describe what happened.",
+          "vi": "Đừng gán cho anh ấy là lười; hãy mô tả điều đã xảy ra.",
+        },
+      ],
+  }
+- {
+    "slug": "judgement-n",
+    "lemma": "judgement",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "population",
+    "ipa": "/ˈdʒʌdʒmənt/",
+    "def": "An opinion about whether someone is good or bad.",
+    "vi": "sự phán xét",
+    "examples":
+      [
+        {
+          "en": "Share facts first and leave out personal judgement.",
+          "vi": "Hãy nêu sự việc trước và bỏ qua phán xét cá nhân.",
+        },
+      ],
+  }
+- {
+    "slug": "encourage-v-emotions",
+    "lemma": "encourage",
+    "pos": "verb",
+    "cefr": "B1",
+    "topic": "population",
+    "ipa": "/ɪnˈkʌrɪdʒ/",
+    "def": "To give someone confidence to keep doing something.",
+    "vi": "khích lệ, động viên",
+    "examples":
+      [
+        {
+          "en": "Encourage juniors to ask questions in reviews.",
+          "vi": "Hãy khích lệ các bạn junior đặt câu hỏi khi review.",
+        },
+      ],
+  }
+- {
+    "slug": "phrase-v",
+    "lemma": "phrase",
+    "pos": "verb",
+    "cefr": "B2",
+    "topic": "population",
+    "ipa": "/freɪz/",
+    "def": "To choose the words you use to say something.",
+    "vi": "diễn đạt",
+    "examples":
+      [
+        {
+          "en": "Phrase it as a question: could we add a test here?",
+          "vi": "Hãy diễn đạt dưới dạng câu hỏi: mình thêm test ở đây được không?",
+        },
+      ],
+  }
+- {
+    "slug": "timely-adj",
+    "lemma": "timely",
+    "pos": "adjective",
+    "cefr": "B2",
+    "topic": "population",
+    "ipa": "/ˈtaɪmli/",
+    "def": "Happening at the right time, not too late.",
+    "vi": "kịp thời",
+    "examples":
+      [
+        {
+          "en": "Timely feedback is more useful than a long review at the end.",
+          "vi": "Góp ý kịp thời có ích hơn một buổi đánh giá dài vào cuối kỳ.",
+        },
+      ],
+  }
+- {
+    "slug": "in-private-phr",
+    "lemma": "in private",
+    "pos": "phrase",
+    "kind": "phrase",
+    "cefr": "B1",
+    "topic": "population",
+    "ipa": "/ɪn ˈpraɪvət/",
+    "def": "With no other people present.",
+    "vi": "riêng tư, nói riêng",
+    "examples":
+      [
+        {
+          "en": "I'd rather discuss the missed deadline in private.",
+          "vi": "Mình muốn nói riêng về chuyện trễ hạn.",
+        },
+      ],
+  }
+- {
+    "slug": "balance-v",
+    "lemma": "balance",
+    "pos": "verb",
+    "cefr": "B2",
+    "topic": "population",
+    "ipa": "/ˈbæləns/",
+    "def": "To give equal weight to two different things.",
+    "vi": "cân bằng",
+    "examples":
+      [
+        {
+          "en": "Balance what went well with what needs to change.",
+          "vi": "Hãy cân bằng giữa điều làm tốt và điều cần thay đổi.",
+        },
+      ],
+  }
+- {
+    "slug": "actionable-adj",
+    "lemma": "actionable",
+    "pos": "adjective",
+    "cefr": "C1",
+    "topic": "population",
+    "ipa": "/ˈækʃənəbl/",
+    "def": "Clear enough that a person knows what to do next.",
+    "vi": "có thể hành động ngay",
+    "examples":
+      [
+        {
+          "en": '"Be better" is vague; give one actionable step.',
+          "vi": '"Làm tốt hơn" thì mơ hồ; hãy đưa một bước có thể làm ngay.',
+        },
+      ],
+  }
+- {
+    "slug": "intention-n",
+    "lemma": "intention",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "population",
+    "ipa": "/ɪnˈtenʃn/",
+    "def": "What you plan or want to do.",
+    "vi": "ý định",
+    "examples":
+      [
+        {
+          "en": "I know your intention was good, but the change broke the build.",
+          "vi": "Mình biết ý định của bạn là tốt, nhưng thay đổi đó làm hỏng build.",
+        },
+      ],
+  }
+- {
+    "slug": "supportive-adj",
+    "lemma": "supportive",
+    "pos": "adjective",
+    "cefr": "B2",
+    "topic": "population",
+    "ipa": "/səˈpɔːtɪv/",
+    "def": "Giving help and showing that you care.",
+    "vi": "ủng hộ, hỗ trợ",
+    "examples":
+      [
+        {
+          "en": "A supportive reviewer explains why, not just what.",
+          "vi": "Một người review biết hỗ trợ sẽ giải thích vì sao, chứ không chỉ cái gì.",
+        },
+      ],
+  }
+- {
+    "slug": "jump-to-conclusions-phr",
+    "lemma": "jump to conclusions",
+    "pos": "phrase",
+    "kind": "phrase",
+    "cefr": "B2",
+    "topic": "population",
+    "ipa": "/ˌdʒʌmp tə kənˈkluːʒnz/",
+    "def": "To decide something too quickly, before you know all the facts.",
+    "vi": "vội kết luận",
+    "examples":
+      [
+        {
+          "en": "Don't jump to conclusions; ask why the tests were skipped.",
+          "vi": "Đừng vội kết luận; hãy hỏi vì sao test bị bỏ qua.",
+        },
+      ],
+  }
+# Set 6: Receiving difficult feedback
+- {
+    "slug": "defensive-adj",
+    "lemma": "defensive",
+    "pos": "adjective",
+    "cefr": "B2",
+    "topic": "population",
+    "ipa": "/dɪˈfensɪv/",
+    "def": "Quick to protect yourself because you feel criticised.",
+    "vi": "phòng thủ, chống chế",
+    "examples":
+      [
+        {
+          "en": "Try not to get defensive when someone questions your code.",
+          "vi": "Cố đừng chống chế khi ai đó đặt câu hỏi về code của bạn.",
+        },
+      ],
+  }
+- {
+    "slug": "react-v",
+    "lemma": "react",
+    "pos": "verb",
+    "cefr": "B1",
+    "topic": "population",
+    "ipa": "/riˈækt/",
+    "def": "To behave in a certain way because of something that happened.",
+    "vi": "phản ứng",
+    "examples":
+      [
+        {
+          "en": "How did you react when the review was negative?",
+          "vi": "Bạn đã phản ứng thế nào khi bị review tiêu cực?",
+        },
+      ],
+  }
+- {
+    "slug": "take-on-board-phr",
+    "lemma": "take something on board",
+    "pos": "phrase",
+    "kind": "phrase",
+    "cefr": "C1",
+    "topic": "population",
+    "ipa": "/ˌteɪk ɒn ˈbɔːd/",
+    "def": "To accept an idea and decide to use it.",
+    "vi": "tiếp thu",
+    "examples":
+      [
+        {
+          "en": "Thanks, I'll take that on board for the next release.",
+          "vi": "Cảm ơn, mình sẽ tiếp thu điều đó cho lần release tới.",
+        },
+      ],
+  }
+- {
+    "slug": "reflect-v",
+    "lemma": "reflect",
+    "pos": "verb",
+    "cefr": "B2",
+    "topic": "population",
+    "ipa": "/rɪˈflekt/",
+    "def": "To think carefully about something you did.",
+    "vi": "suy ngẫm",
+    "examples":
+      [
+        {
+          "en": "Let me reflect on this and reply tomorrow.",
+          "vi": "Để mình suy ngẫm rồi trả lời vào ngày mai.",
+        },
+      ],
+  }
+- {
+    "slug": "admit-v",
+    "lemma": "admit",
+    "pos": "verb",
+    "cefr": "B1",
+    "topic": "population",
+    "ipa": "/ədˈmɪt/",
+    "def": "To say that something bad is true, often unwillingly.",
+    "vi": "thừa nhận",
+    "examples":
+      [
+        {
+          "en": "I admit I didn't test the edge cases.",
+          "vi": "Mình thừa nhận là đã không test các trường hợp biên.",
+        },
+      ],
+  }
+- {
+    "slug": "mistake-n",
+    "lemma": "mistake",
+    "pos": "noun",
+    "cefr": "A2",
+    "topic": "population",
+    "ipa": "/mɪˈsteɪk/",
+    "def": "Something that is wrong or done in the wrong way.",
+    "vi": "lỗi, sai lầm",
+    "examples":
+      [
+        {
+          "en": "Everyone makes mistakes; what matters is the fix.",
+          "vi": "Ai cũng mắc lỗi; điều quan trọng là cách sửa.",
+        },
+      ],
+  }
+- {
+    "slug": "disappointed-adj",
+    "lemma": "disappointed",
+    "pos": "adjective",
+    "cefr": "B1",
+    "topic": "population",
+    "ipa": "/ˌdɪsəˈpɔɪntɪd/",
+    "def": "Unhappy because something was not as good as you hoped.",
+    "vi": "thất vọng",
+    "examples":
+      [
+        {
+          "en": "I was disappointed with my review score, but it was fair.",
+          "vi": "Mình thất vọng với điểm đánh giá, nhưng nó công bằng.",
+        },
+      ],
+  }
+- {
+    "slug": "embarrassed-adj",
+    "lemma": "embarrassed",
+    "pos": "adjective",
+    "cefr": "B1",
+    "topic": "population",
+    "ipa": "/ɪmˈbærəst/",
+    "def": "Feeling shy or uncomfortable because of something you did.",
+    "vi": "ngượng, xấu hổ",
+    "examples":
+      [
+        {
+          "en": "I felt embarrassed when my bug reached production.",
+          "vi": "Mình thấy xấu hổ khi lỗi của mình lọt lên production.",
+        },
+      ],
+  }
+- {
+    "slug": "calm-down-pv",
+    "lemma": "calm down",
+    "pos": "verb",
+    "kind": "phrasal",
+    "cefr": "A2",
+    "topic": "population",
+    "ipa": "/ˌkɑːm ˈdaʊn/",
+    "def": "To become less angry or upset.",
+    "vi": "bình tĩnh lại",
+    "examples":
+      [
+        {
+          "en": "I took a short walk to calm down before replying.",
+          "vi": "Mình đi dạo một chút cho bình tĩnh rồi mới trả lời.",
+        },
+      ],
+  }
+- {
+    "slug": "justify-v",
+    "lemma": "justify",
+    "pos": "verb",
+    "cefr": "B2",
+    "topic": "population",
+    "ipa": "/ˈdʒʌstɪfaɪ/",
+    "def": "To give reasons to show that a decision was right.",
+    "vi": "biện minh, giải thích lý do",
+    "examples":
+      [
+        {
+          "en": "You don't need to justify every line; just listen first.",
+          "vi": "Bạn không cần biện minh từng dòng; cứ lắng nghe trước đã.",
+        },
+      ],
+  }
+- {
+    "slug": "overreact-v",
+    "lemma": "overreact",
+    "pos": "verb",
+    "cefr": "B2",
+    "topic": "population",
+    "ipa": "/ˌəʊvəriˈækt/",
+    "def": "To react more strongly than the situation needs.",
+    "vi": "phản ứng thái quá",
+    "examples":
+      [
+        {
+          "en": "Maybe I overreacted to the comment about naming.",
+          "vi": "Có lẽ mình đã phản ứng thái quá với nhận xét về cách đặt tên.",
+        },
+      ],
+  }
+- {
+    "slug": "criticism-n",
+    "lemma": "criticism",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "population",
+    "ipa": "/ˈkrɪtɪsɪzəm/",
+    "def": "Comments that say what is wrong with something.",
+    "vi": "lời phê bình",
+    "examples":
+      [
+        {
+          "en": "Fair criticism helped me write cleaner code.",
+          "vi": "Lời phê bình xác đáng giúp mình viết code sạch hơn.",
+        },
+      ],
+  }
+- {
+    "slug": "follow-up-n-emotions",
+    "lemma": "follow-up",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "population",
+    "ipa": "/ˈfɒləʊ ʌp/",
+    "def": "A later meeting or action to continue something.",
+    "vi": "buổi trao đổi tiếp theo",
+    "examples":
+      [
+        {
+          "en": "Let's book a follow-up in two weeks to check progress.",
+          "vi": "Mình hẹn buổi trao đổi tiếp sau hai tuần để xem tiến độ nhé.",
+        },
+      ],
+  }
+- {
+    "slug": "agree-on-phr",
+    "lemma": "agree on",
+    "pos": "phrase",
+    "kind": "phrase",
+    "cefr": "B1",
+    "topic": "population",
+    "ipa": "/əˈɡriː ɒn/",
+    "def": "To make a shared decision about something.",
+    "vi": "thống nhất về",
+    "examples":
+      [
+        {
+          "en": "Can we agree on two steps I can work on?",
+          "vi": "Mình thống nhất hai bước em có thể làm được không?",
+        },
+      ],
+  }
+- {
+    "slug": "concrete-adj",
+    "lemma": "concrete",
+    "pos": "adjective",
+    "cefr": "B2",
+    "topic": "population",
+    "ipa": "/ˈkɒŋkriːt/",
+    "def": "Clear and based on real examples, not general ideas.",
+    "vi": "cụ thể",
+    "examples":
+      [
+        {
+          "en": "Could you give me a concrete example from last sprint?",
+          "vi": "Anh cho em một ví dụ cụ thể từ sprint trước được không?",
+        },
+      ],
+  }
+- {
+    "slug": "sting-v",
+    "lemma": "sting",
+    "pos": "verb",
+    "cefr": "C1",
+    "topic": "population",
+    "ipa": "/stɪŋ/",
+    "def": "To hurt someone's feelings for a short time.",
+    "vi": "làm nhói lòng, làm chạnh lòng",
+    "examples":
+      [
+        {
+          "en": "The comment stung, but it was correct.",
+          "vi": "Nhận xét đó làm mình chạnh lòng, nhưng nó đúng.",
+        },
+      ],
+  }
+- {
+    "slug": "grateful-adj",
+    "lemma": "grateful",
+    "pos": "adjective",
+    "cefr": "B1",
+    "topic": "population",
+    "ipa": "/ˈɡreɪtfl/",
+    "def": "Feeling thanks for something.",
+    "vi": "biết ơn",
+    "examples":
+      [
+        {
+          "en": "I'm grateful you told me before the performance review.",
+          "vi": "Mình biết ơn vì bạn đã nói trước buổi đánh giá.",
+        },
+      ],
+  }
+- {
+    "slug": "push-back-pv",
+    "lemma": "push back",
+    "pos": "verb",
+    "kind": "phrasal",
+    "cefr": "B2",
+    "topic": "population",
+    "ipa": "/ˌpʊʃ ˈbæk/",
+    "def": "To argue against a request or an idea.",
+    "vi": "phản bác",
+    "examples":
+      [
+        {
+          "en": "It's fine to push back if the feedback seems wrong.",
+          "vi": "Phản bác cũng không sao nếu góp ý có vẻ chưa đúng.",
+        },
+      ],
+  }
+- {
+    "slug": "own-up-to-pv",
+    "lemma": "own up to",
+    "pos": "verb",
+    "kind": "phrasal",
+    "cefr": "B2",
+    "topic": "population",
+    "ipa": "/ˌəʊn ˈʌp tə/",
+    "def": "To admit that you are responsible for something bad.",
+    "vi": "nhận trách nhiệm về",
+    "examples":
+      [
+        {
+          "en": "He owned up to the broken migration in the retro.",
+          "vi": "Anh ấy đã nhận trách nhiệm về migration lỗi trong buổi retro.",
+        },
+      ],
+  }
+- {
+    "slug": "look-back-on-pv",
+    "lemma": "look back on",
+    "pos": "verb",
+    "kind": "phrasal",
+    "cefr": "B2",
+    "topic": "population",
+    "ipa": "/ˌlʊk ˈbæk ɒn/",
+    "def": "To think about something in the past.",
+    "vi": "nhìn lại",
+    "examples":
+      [
+        {
+          "en": "Looking back on it, the feedback really helped my career.",
+          "vi": "Nhìn lại, lời góp ý đó thực sự giúp ích cho sự nghiệp của mình.",
+        },
+      ],
+  }
+# Set 7: Changing responsibilities
+- {
+    "slug": "responsibility-n",
+    "lemma": "responsibility",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "population",
+    "ipa": "/rɪˌspɒnsəˈbɪləti/",
+    "def": "A task or duty that is yours to do.",
+    "vi": "trách nhiệm",
+    "examples":
+      [
+        {
+          "en": "Release notes are now my responsibility.",
+          "vi": "Ghi chú phát hành giờ là trách nhiệm của mình.",
+        },
+      ],
+  }
+- {
+    "slug": "take-over-pv",
+    "lemma": "take over",
+    "pos": "verb",
+    "kind": "phrasal",
+    "cefr": "B1",
+    "topic": "population",
+    "ipa": "/ˌteɪk ˈəʊvə/",
+    "def": "To start doing a job that someone else did before.",
+    "vi": "tiếp quản",
+    "examples":
+      [
+        {
+          "en": "Linh will take over the search service from Monday.",
+          "vi": "Từ thứ Hai, Linh sẽ tiếp quản service tìm kiếm.",
+        },
+      ],
+  }
+- {
+    "slug": "hand-over-pv",
+    "lemma": "hand over",
+    "pos": "verb",
+    "kind": "phrasal",
+    "cefr": "B1",
+    "topic": "population",
+    "ipa": "/ˌhænd ˈəʊvə/",
+    "def": "To give your work or duties to another person.",
+    "vi": "bàn giao",
+    "examples":
+      [
+        {
+          "en": "Please hand over the open tickets before you leave.",
+          "vi": "Hãy bàn giao các ticket đang mở trước khi bạn đi.",
+        },
+      ],
+  }
+- {
+    "slug": "reorganisation-n",
+    "lemma": "reorganisation",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "population",
+    "ipa": "/riˌɔːɡənaɪˈzeɪʃn/",
+    "def": "A change in how a company or team is arranged.",
+    "vi": "sự tái cơ cấu",
+    "examples":
+      [
+        {
+          "en": "After the reorganisation, QA joins the product teams.",
+          "vi": "Sau đợt tái cơ cấu, QA nhập vào các nhóm sản phẩm.",
+        },
+      ],
+  }
+- {
+    "slug": "report-to-pv",
+    "lemma": "report to",
+    "pos": "verb",
+    "kind": "phrasal",
+    "cefr": "B2",
+    "topic": "population",
+    "ipa": "/rɪˈpɔːt tə/",
+    "def": "To have someone as your manager.",
+    "vi": "báo cáo cho, dưới quyền",
+    "examples":
+      [
+        {
+          "en": "From next month, you will report to Sarah.",
+          "vi": "Từ tháng sau, bạn sẽ báo cáo cho Sarah.",
+        },
+      ],
+  }
+- {
+    "slug": "decision-maker-n",
+    "lemma": "decision-maker",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "population",
+    "ipa": "/dɪˈsɪʒn meɪkə/",
+    "def": "The person who has the power to decide.",
+    "vi": "người ra quyết định",
+    "examples":
+      [
+        {
+          "en": "Who is the decision-maker for database changes now?",
+          "vi": "Giờ ai là người ra quyết định cho các thay đổi database?",
+        },
+      ],
+  }
+- {
+    "slug": "scope-n",
+    "lemma": "scope",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "population",
+    "ipa": "/skəʊp/",
+    "def": "The range of things that a job or project covers.",
+    "vi": "phạm vi",
+    "examples":
+      [
+        {
+          "en": "Mobile releases are now outside my scope.",
+          "vi": "Release mobile giờ nằm ngoài phạm vi của mình.",
+        },
+      ],
+  }
+- {
+    "slug": "step-down-pv",
+    "lemma": "step down",
+    "pos": "verb",
+    "kind": "phrasal",
+    "cefr": "B2",
+    "topic": "population",
+    "ipa": "/ˌstep ˈdaʊn/",
+    "def": "To leave an important position.",
+    "vi": "từ chức, rút khỏi vị trí",
+    "examples":
+      [
+        {
+          "en": "Huy is stepping down as tech lead to focus on coding.",
+          "vi": "Huy rút khỏi vị trí tech lead để tập trung viết code.",
+        },
+      ],
+  }
+- {
+    "slug": "transfer-v",
+    "lemma": "transfer",
+    "pos": "verb",
+    "cefr": "B1",
+    "topic": "population",
+    "ipa": "/trænsˈfɜː/",
+    "def": "To move someone to a different team or place.",
+    "vi": "chuyển (công tác)",
+    "examples":
+      [
+        {
+          "en": "Minh is transferring to the data team.",
+          "vi": "Minh sẽ chuyển sang nhóm dữ liệu.",
+        },
+      ],
+  }
+- {
+    "slug": "reassign-v",
+    "lemma": "reassign",
+    "pos": "verb",
+    "cefr": "B2",
+    "topic": "population",
+    "ipa": "/ˌriːəˈsaɪn/",
+    "def": "To give a task to a different person.",
+    "vi": "giao lại",
+    "examples":
+      [
+        {
+          "en": "I've reassigned your tickets to Lan.",
+          "vi": "Mình đã giao lại các ticket của bạn cho Lan.",
+        },
+      ],
+  }
+- {
+    "slug": "overlap-v",
+    "lemma": "overlap",
+    "pos": "verb",
+    "cefr": "B2",
+    "topic": "population",
+    "ipa": "/ˌəʊvəˈlæp/",
+    "def": "To cover some of the same area as something else.",
+    "vi": "chồng chéo",
+    "examples":
+      [
+        {
+          "en": "Our two roles overlap, so let's split the work clearly.",
+          "vi": "Vai trò của hai đứa mình bị chồng chéo, nên mình chia việc rõ ra nhé.",
+        },
+      ],
+  }
+- {
+    "slug": "effective-from-phr",
+    "lemma": "effective from",
+    "pos": "phrase",
+    "kind": "phrase",
+    "cefr": "C1",
+    "topic": "population",
+    "ipa": "/ɪˈfektɪv frəm/",
+    "def": "Starting to be official on a certain date.",
+    "vi": "có hiệu lực từ",
+    "examples":
+      [
+        {
+          "en": "The new on-call rota is effective from 1 May.",
+          "vi": "Lịch trực mới có hiệu lực từ ngày 1 tháng 5.",
+        },
+      ],
+  }
+- {
+    "slug": "in-charge-of-phr",
+    "lemma": "in charge of",
+    "pos": "phrase",
+    "kind": "phrase",
+    "cefr": "B1",
+    "topic": "population",
+    "ipa": "/ɪn ˈtʃɑːdʒ əv/",
+    "def": "Having control of something and being responsible for it.",
+    "vi": "phụ trách",
+    "examples":
+      [{ "en": "Who is in charge of the CI pipeline now?", "vi": "Giờ ai phụ trách pipeline CI?" }],
+  }
+- {
+    "slug": "approval-n",
+    "lemma": "approval",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "population",
+    "ipa": "/əˈpruːvl/",
+    "def": "Official permission for something.",
+    "vi": "sự phê duyệt",
+    "examples":
+      [
+        {
+          "en": "Schema changes still need approval from the architect.",
+          "vi": "Thay đổi schema vẫn cần kiến trúc sư phê duyệt.",
+        },
+      ],
+  }
+- {
+    "slug": "direct-report-n",
+    "lemma": "direct report",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "population",
+    "ipa": "/dəˌrekt rɪˈpɔːt/",
+    "def": "A person whose manager is you.",
+    "vi": "nhân viên trực tiếp dưới quyền",
+    "examples":
+      [
+        {
+          "en": "As a new manager, I have four direct reports.",
+          "vi": "Là quản lý mới, mình có bốn nhân viên trực tiếp.",
+        },
+      ],
+  }
+- {
+    "slug": "job-title-n",
+    "lemma": "job title",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B1",
+    "topic": "population",
+    "ipa": "/ˈdʒɒb taɪtl/",
+    "def": "The name of your position at work.",
+    "vi": "chức danh",
+    "examples":
+      [
+        {
+          "en": "My job title changed, but my daily work is the same.",
+          "vi": "Chức danh của mình đổi, nhưng việc hằng ngày vẫn vậy.",
+        },
+      ],
+  }
+- {
+    "slug": "take-on-pv",
+    "lemma": "take on",
+    "pos": "verb",
+    "kind": "phrasal",
+    "cefr": "B2",
+    "topic": "population",
+    "ipa": "/ˌteɪk ˈɒn/",
+    "def": "To accept new work or a new duty.",
+    "vi": "nhận thêm",
+    "examples":
+      [
+        {
+          "en": "I can take on code reviews if someone covers support.",
+          "vi": "Mình có thể nhận thêm review code nếu có người lo phần hỗ trợ.",
+        },
+      ],
+  }
+- {
+    "slug": "redistribute-v",
+    "lemma": "redistribute",
+    "pos": "verb",
+    "cefr": "C1",
+    "topic": "population",
+    "ipa": "/ˌriːdɪˈstrɪbjuːt/",
+    "def": "To share something out again in a different way.",
+    "vi": "phân bổ lại",
+    "examples":
+      [
+        {
+          "en": "We'll redistribute Tuan's tasks while he is on leave.",
+          "vi": "Bọn mình sẽ phân bổ lại việc của Tuấn khi anh ấy nghỉ phép.",
+        },
+      ],
+  }
+- {
+    "slug": "point-of-contact-n",
+    "lemma": "point of contact",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "population",
+    "ipa": "/ˌpɔɪnt əv ˈkɒntækt/",
+    "def": "The one person others should talk to about a subject.",
+    "vi": "đầu mối liên hệ",
+    "examples":
+      [
+        {
+          "en": "Lan is now the point of contact for the payment API.",
+          "vi": "Lan giờ là đầu mối liên hệ cho API thanh toán.",
+        },
+      ],
+  }
+- {
+    "slug": "step-up-pv",
+    "lemma": "step up",
+    "pos": "verb",
+    "kind": "phrasal",
+    "cefr": "B2",
+    "topic": "population",
+    "ipa": "/ˌstep ˈʌp/",
+    "def": "To take more responsibility when it is needed.",
+    "vi": "đứng ra gánh vác",
+    "examples":
+      [
+        {
+          "en": "With Huy away, Minh stepped up and ran the release.",
+          "vi": "Khi Huy vắng, Minh đã đứng ra lo bản release.",
+        },
+      ],
+  }
+- {
+    "slug": "mandate-n",
+    "lemma": "mandate",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "population",
+    "ipa": "/ˈmændeɪt/",
+    "def": "The official authority to do a certain job.",
+    "vi": "quyền hạn được giao",
+    "examples":
+      [
+        {
+          "en": "Our team now has a mandate to own all internal tools.",
+          "vi": "Nhóm mình giờ được giao quyền quản lý mọi công cụ nội bộ.",
+        },
+      ],
+  }
+- {
+    "slug": "sign-off-n",
+    "lemma": "sign-off",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "population",
+    "ipa": "/ˈsaɪn ɒf/",
+    "def": "Official final agreement that work is complete or can go ahead.",
+    "vi": "sự chấp thuận cuối cùng",
+    "examples":
+      [
+        {
+          "en": "After the change, product gives sign-off on releases.",
+          "vi": "Sau thay đổi, bên product là người chấp thuận cuối cho release.",
+        },
+      ],
+  }
+# Set 8: Knowledge transfer
+- {
+    "slug": "knowledge-transfer-n",
+    "lemma": "knowledge transfer",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "population",
+    "ipa": "/ˈnɒlɪdʒ ˌtrænsfɜː/",
+    "def": "The process of teaching another person what you know about a system.",
+    "vi": "chuyển giao kiến thức",
+    "examples":
+      [
+        {
+          "en": "We have two weeks for knowledge transfer before Huy leaves.",
+          "vi": "Mình có hai tuần chuyển giao kiến thức trước khi Huy nghỉ.",
+        },
+      ],
+  }
+- {
+    "slug": "handover-document-n",
+    "lemma": "handover document",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "population",
+    "ipa": "/ˈhændəʊvə ˌdɒkjumənt/",
+    "def": "A document that explains the work being passed to someone else.",
+    "vi": "tài liệu bàn giao",
+    "examples":
+      [
+        {
+          "en": "The handover document lists every cron job and its owner.",
+          "vi": "Tài liệu bàn giao liệt kê mọi cron job và người phụ trách.",
+        },
+      ],
+  }
+- {
+    "slug": "walkthrough-n",
+    "lemma": "walkthrough",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "population",
+    "ipa": "/ˈwɔːkθruː/",
+    "def": "A step-by-step explanation of how something works.",
+    "vi": "buổi hướng dẫn từng bước",
+    "examples":
+      [
+        {
+          "en": "Can you do a walkthrough of the billing code on Friday?",
+          "vi": "Thứ Sáu anh hướng dẫn từng bước phần code billing được không?",
+        },
+      ],
+  }
+- {
+    "slug": "pair-v",
+    "lemma": "pair",
+    "pos": "verb",
+    "cefr": "B2",
+    "topic": "population",
+    "ipa": "/peə/",
+    "def": "To work together with another developer on the same code.",
+    "vi": "làm cặp, pair",
+    "examples":
+      [
+        {
+          "en": "I'll pair with Lan on the next two incidents.",
+          "vi": "Mình sẽ làm cặp với Lan trong hai sự cố tới.",
+        },
+      ],
+  }
+- {
+    "slug": "tribal-knowledge-n",
+    "lemma": "tribal knowledge",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "population",
+    "ipa": "/ˌtraɪbl ˈnɒlɪdʒ/",
+    "def": "Important information that only a few people know and is not written down.",
+    "vi": "kiến thức truyền miệng",
+    "examples":
+      [
+        {
+          "en": "Too much of our deploy process is tribal knowledge.",
+          "vi": "Quá nhiều phần trong quy trình deploy của mình chỉ là kiến thức truyền miệng.",
+        },
+      ],
+  }
+- {
+    "slug": "runbook-n",
+    "lemma": "runbook",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "population",
+    "ipa": "/ˈrʌnbʊk/",
+    "def": "A written guide for doing routine or emergency tasks on a system.",
+    "vi": "sổ tay vận hành",
+    "examples":
+      [
+        {
+          "en": "Follow the runbook if the queue gets stuck.",
+          "vi": "Làm theo sổ tay vận hành nếu hàng đợi bị kẹt.",
+        },
+      ],
+  }
+- {
+    "slug": "record-v",
+    "lemma": "record",
+    "pos": "verb",
+    "cefr": "B1",
+    "topic": "population",
+    "ipa": "/rɪˈkɔːd/",
+    "def": "To save sound or video so people can watch it later.",
+    "vi": "ghi lại, quay lại",
+    "examples":
+      [
+        {
+          "en": "Let's record the session for people in other time zones.",
+          "vi": "Mình quay lại buổi này cho các bạn ở múi giờ khác nhé.",
+        },
+      ],
+  }
+- {
+    "slug": "legacy-adj",
+    "lemma": "legacy",
+    "pos": "adjective",
+    "cefr": "C1",
+    "topic": "population",
+    "ipa": "/ˈleɡəsi/",
+    "def": "Old but still in use, and often hard to change.",
+    "vi": "cũ, kế thừa",
+    "examples":
+      [
+        {
+          "en": "Nobody else knows the legacy reporting module.",
+          "vi": "Không ai khác biết module báo cáo cũ đó.",
+        },
+      ],
+  }
+- {
+    "slug": "dependency-n",
+    "lemma": "dependency",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "population",
+    "ipa": "/dɪˈpendənsi/",
+    "def": "Something that a system needs in order to work.",
+    "vi": "phụ thuộc",
+    "examples":
+      [
+        {
+          "en": "Write down every external dependency of the service.",
+          "vi": "Hãy ghi lại mọi phụ thuộc bên ngoài của service.",
+        },
+      ],
+  }
+- {
+    "slug": "gotcha-n",
+    "lemma": "gotcha",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "population",
+    "ipa": "/ˈɡɒtʃə/",
+    "def": "A hidden problem that surprises people.",
+    "vi": "cái bẫy, điểm dễ vấp",
+    "examples":
+      [
+        {
+          "en": "One gotcha: the job fails silently if the token expires.",
+          "vi": "Một điểm dễ vấp: job sẽ lỗi âm thầm nếu token hết hạn.",
+        },
+      ],
+  }
+- {
+    "slug": "schedule-v",
+    "lemma": "schedule",
+    "pos": "verb",
+    "cefr": "B1",
+    "topic": "population",
+    "ipa": "/ˈʃedjuːl/",
+    "def": "To plan that something will happen at a certain time.",
+    "vi": "lên lịch",
+    "examples":
+      [
+        {
+          "en": "I've scheduled three sessions next week.",
+          "vi": "Mình đã lên lịch ba buổi vào tuần sau.",
+        },
+      ],
+  }
+- {
+    "slug": "session-n",
+    "lemma": "session",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "population",
+    "ipa": "/ˈseʃn/",
+    "def": "A period of time used for one activity.",
+    "vi": "buổi",
+    "examples":
+      [
+        {
+          "en": "The first session covers the database layer.",
+          "vi": "Buổi đầu nói về lớp database.",
+        },
+      ],
+  }
+- {
+    "slug": "bus-factor-n",
+    "lemma": "bus factor",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "population",
+    "ipa": "/ˈbʌs ˌfæktə/",
+    "def": "How many people would have to leave before a project gets stuck.",
+    "vi": "bus factor (số người then chốt)",
+    "examples":
+      [
+        {
+          "en": "Our bus factor for the payment service is one.",
+          "vi": "Service thanh toán của mình chỉ có một người then chốt.",
+        },
+      ],
+  }
+- {
+    "slug": "document-v",
+    "lemma": "document",
+    "pos": "verb",
+    "cefr": "B2",
+    "topic": "population",
+    "ipa": "/ˈdɒkjument/",
+    "def": "To write down information about how something works.",
+    "vi": "ghi tài liệu",
+    "examples":
+      [
+        {
+          "en": "Please document the steps you take during the migration.",
+          "vi": "Hãy ghi tài liệu các bước bạn làm trong lúc migration.",
+        },
+      ],
+  }
+- {
+    "slug": "edge-case-n",
+    "lemma": "edge case",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "population",
+    "ipa": "/ˈedʒ keɪs/",
+    "def": "An unusual situation at the limit of what a system expects.",
+    "vi": "trường hợp biên",
+    "examples":
+      [
+        {
+          "en": "Explain the edge cases, not only the happy path.",
+          "vi": "Hãy giải thích các trường hợp biên, không chỉ luồng bình thường.",
+        },
+      ],
+  }
+- {
+    "slug": "pass-on-pv",
+    "lemma": "pass on",
+    "pos": "verb",
+    "kind": "phrasal",
+    "cefr": "B1",
+    "topic": "population",
+    "ipa": "/ˌpɑːs ˈɒn/",
+    "def": "To give information to another person.",
+    "vi": "truyền lại",
+    "examples":
+      [
+        {
+          "en": "Pass on anything you learn to the rest of the team.",
+          "vi": "Hãy truyền lại những gì bạn học được cho cả nhóm.",
+        },
+      ],
+  }
+- {
+    "slug": "single-point-of-failure-n",
+    "lemma": "single point of failure",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "population",
+    "ipa": "/ˌsɪŋɡl pɔɪnt əv ˈfeɪljə/",
+    "def": "One part, or person, whose loss would stop the whole system.",
+    "vi": "điểm lỗi duy nhất",
+    "examples":
+      [
+        {
+          "en": "Don't let one engineer become a single point of failure.",
+          "vi": "Đừng để một kỹ sư trở thành điểm lỗi duy nhất.",
+        },
+      ],
+  }
+- {
+    "slug": "sit-in-on-pv",
+    "lemma": "sit in on",
+    "pos": "verb",
+    "kind": "phrasal",
+    "cefr": "B2",
+    "topic": "population",
+    "ipa": "/ˌsɪt ˈɪn ɒn/",
+    "def": "To attend a meeting or activity to watch and learn.",
+    "vi": "dự (để quan sát)",
+    "examples":
+      [
+        {
+          "en": "You can sit in on my on-call shift this week.",
+          "vi": "Tuần này bạn có thể ngồi cùng ca trực của mình để quan sát.",
+        },
+      ],
+  }
+- {
+    "slug": "flowchart-n",
+    "lemma": "flowchart",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "population",
+    "ipa": "/ˈfləʊtʃɑːt/",
+    "def": "A drawing that shows the steps of a process with boxes and arrows.",
+    "vi": "lưu đồ",
+    "examples":
+      [
+        {
+          "en": "This flowchart shows how an order moves between services.",
+          "vi": "Lưu đồ này cho thấy một đơn hàng đi qua các service thế nào.",
+        },
+      ],
+  }
+- {
+    "slug": "backstory-n",
+    "lemma": "backstory",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "population",
+    "ipa": "/ˈbækstɔːri/",
+    "def": "The history behind a decision or situation.",
+    "vi": "câu chuyện phía sau",
+    "examples":
+      [
+        {
+          "en": "What's the backstory behind this strange config flag?",
+          "vi": "Câu chuyện phía sau cờ cấu hình kỳ lạ này là gì?",
+        },
+      ],
+  }
+- {
+    "slug": "custodian-n",
+    "lemma": "custodian",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "population",
+    "ipa": "/kʌˈstəʊdiən/",
+    "def": "A person who looks after something important.",
+    "vi": "người trông coi",
+    "examples":
+      [
+        {
+          "en": "Lan will be the custodian of the infrastructure scripts.",
+          "vi": "Lan sẽ là người trông coi các script hạ tầng.",
+        },
+      ],
+  }
+- {
+    "slug": "known-issue-n",
+    "lemma": "known issue",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "population",
+    "ipa": "/ˌnəʊn ˈɪʃuː/",
+    "def": "A problem that the team already knows about but has not fixed.",
+    "vi": "lỗi đã biết",
+    "examples":
+      [
+        {
+          "en": "Add the timeout bug to the list of known issues.",
+          "vi": "Thêm lỗi timeout vào danh sách lỗi đã biết.",
+        },
+      ],
+  }
+- {
+    "slug": "office-hours-n",
+    "lemma": "office hours",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "population",
+    "ipa": "/ˈɒfɪs aʊəz/",
+    "def": "Regular times when an expert is free to answer questions.",
+    "vi": "giờ giải đáp",
+    "examples":
+      [
+        {
+          "en": "I'll hold office hours every Tuesday after the handover.",
+          "vi": "Sau bàn giao, mình sẽ có giờ giải đáp vào mỗi thứ Ba.",
+        },
+      ],
+  }
+- {
+    "slug": "stale-adj",
+    "lemma": "stale",
+    "pos": "adjective",
+    "cefr": "C1",
+    "topic": "population",
+    "ipa": "/steɪl/",
+    "def": "No longer up to date or useful.",
+    "vi": "lỗi thời, cũ",
+    "examples":
+      [
+        {
+          "en": "Half of the wiki is stale, so check with me first.",
+          "vi": "Nửa wiki đã lỗi thời, nên hỏi mình trước nhé.",
+        },
+      ],
+  }
+# Set 9: Disagreement during change
+- {
+    "slug": "disagree-v",
+    "lemma": "disagree",
+    "pos": "verb",
+    "cefr": "A2",
+    "topic": "population",
+    "ipa": "/ˌdɪsəˈɡriː/",
+    "def": "To have a different opinion from someone.",
+    "vi": "không đồng ý",
+    "examples":
+      [
+        {
+          "en": "I disagree with moving the deadline, and here is why.",
+          "vi": "Mình không đồng ý dời hạn, và đây là lý do.",
+        },
+      ],
+  }
+- {
+    "slug": "concern-n",
+    "lemma": "concern",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "population",
+    "ipa": "/kənˈsɜːn/",
+    "def": "A worry about something.",
+    "vi": "mối lo ngại",
+    "examples":
+      [
+        {
+          "en": "My main concern is the extra on-call load.",
+          "vi": "Mối lo chính của mình là lượng trực tăng thêm.",
+        },
+      ],
+  }
+- {
+    "slug": "raise-a-concern-phr",
+    "lemma": "raise a concern",
+    "pos": "phrase",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "population",
+    "ipa": "/ˌreɪz ə kənˈsɜːn/",
+    "def": "To mention a worry so that others can discuss it.",
+    "vi": "nêu lo ngại",
+    "examples":
+      [
+        {
+          "en": "I'd like to raise a concern about the new review rule.",
+          "vi": "Mình muốn nêu một lo ngại về quy định review mới.",
+        },
+      ],
+  }
+- {
+    "slug": "rationale-n",
+    "lemma": "rationale",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "population",
+    "ipa": "/ˌræʃəˈnɑːl/",
+    "def": "The reasons behind a decision.",
+    "vi": "lý do căn bản",
+    "examples":
+      [
+        {
+          "en": "Could you share the rationale for merging the teams?",
+          "vi": "Anh chia sẻ lý do của việc gộp nhóm được không?",
+        },
+      ],
+  }
+- {
+    "slug": "compromise-n",
+    "lemma": "compromise",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "population",
+    "ipa": "/ˈkɒmprəmaɪz/",
+    "def": "An agreement where each side gives up part of what it wants.",
+    "vi": "sự thoả hiệp",
+    "examples":
+      [
+        {
+          "en": "As a compromise, we keep the old API for one more quarter.",
+          "vi": "Để thoả hiệp, mình giữ API cũ thêm một quý.",
+        },
+      ],
+  }
+- {
+    "slug": "common-goal-n",
+    "lemma": "common goal",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "population",
+    "ipa": "/ˌkɒmən ˈɡəʊl/",
+    "def": "An aim that everyone in a group shares.",
+    "vi": "mục tiêu chung",
+    "examples":
+      [
+        {
+          "en": "We disagree on the how, but our common goal is fewer outages.",
+          "vi": "Mình khác nhau về cách làm, nhưng mục tiêu chung là ít sự cố hơn.",
+        },
+      ],
+  }
+- {
+    "slug": "trade-off-n",
+    "lemma": "trade-off",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "population",
+    "ipa": "/ˈtreɪd ɒf/",
+    "def": "A situation where you lose one good thing to get another.",
+    "vi": "sự đánh đổi",
+    "examples":
+      [
+        {
+          "en": "The trade-off is faster releases but less manual testing.",
+          "vi": "Sự đánh đổi là release nhanh hơn nhưng ít test thủ công hơn.",
+        },
+      ],
+  }
+- {
+    "slug": "resistance-n",
+    "lemma": "resistance",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "population",
+    "ipa": "/rɪˈzɪstəns/",
+    "def": "Refusal to accept a change.",
+    "vi": "sự phản kháng",
+    "examples":
+      [
+        {
+          "en": "There's some resistance to the new branching model.",
+          "vi": "Có một chút phản kháng với mô hình branch mới.",
+        },
+      ],
+  }
+- {
+    "slug": "reluctant-adj",
+    "lemma": "reluctant",
+    "pos": "adjective",
+    "cefr": "B2",
+    "topic": "population",
+    "ipa": "/rɪˈlʌktənt/",
+    "def": "Not wanting to do something.",
+    "vi": "miễn cưỡng",
+    "examples":
+      [
+        {
+          "en": "Senior devs are reluctant to drop their old tools.",
+          "vi": "Các dev senior miễn cưỡng bỏ công cụ cũ.",
+        },
+      ],
+  }
+- {
+    "slug": "sceptical-adj",
+    "lemma": "sceptical",
+    "pos": "adjective",
+    "cefr": "C1",
+    "topic": "population",
+    "ipa": "/ˈskeptɪkl/",
+    "def": "Having doubts that something is true or will work.",
+    "vi": "hoài nghi",
+    "examples":
+      [
+        {
+          "en": "I'm sceptical that the new process will save time.",
+          "vi": "Mình hoài nghi rằng quy trình mới sẽ tiết kiệm thời gian.",
+        },
+      ],
+  }
+- {
+    "slug": "persuade-v",
+    "lemma": "persuade",
+    "pos": "verb",
+    "cefr": "B1",
+    "topic": "population",
+    "ipa": "/pəˈsweɪd/",
+    "def": "To make someone agree by giving good reasons.",
+    "vi": "thuyết phục",
+    "examples":
+      [
+        {
+          "en": "She persuaded us with numbers from the last incident.",
+          "vi": "Chị ấy thuyết phục bọn mình bằng số liệu từ sự cố trước.",
+        },
+      ],
+  }
+- {
+    "slug": "argument-n",
+    "lemma": "argument",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "population",
+    "ipa": "/ˈɑːɡjumənt/",
+    "def": "A reason you give to support an idea.",
+    "vi": "lập luận",
+    "examples":
+      [
+        {
+          "en": "That's a strong argument for keeping the monorepo.",
+          "vi": "Đó là một lập luận mạnh cho việc giữ monorepo.",
+        },
+      ],
+  }
+- {
+    "slug": "respectful-adj-emotions",
+    "lemma": "respectful",
+    "pos": "adjective",
+    "cefr": "B2",
+    "topic": "population",
+    "ipa": "/rɪˈspektfl/",
+    "def": "Showing that you value other people's views.",
+    "vi": "tôn trọng",
+    "examples":
+      [
+        {
+          "en": "Keep the discussion respectful, even when you disagree.",
+          "vi": "Hãy giữ cuộc thảo luận tôn trọng, kể cả khi bất đồng.",
+        },
+      ],
+  }
+- {
+    "slug": "conflict-n",
+    "lemma": "conflict",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "population",
+    "ipa": "/ˈkɒnflɪkt/",
+    "def": "A serious disagreement between people.",
+    "vi": "xung đột",
+    "examples":
+      [
+        {
+          "en": "Unclear roles caused conflict between the two squads.",
+          "vi": "Vai trò không rõ ràng gây xung đột giữa hai nhóm.",
+        },
+      ],
+  }
+- {
+    "slug": "escalate-v",
+    "lemma": "escalate",
+    "pos": "verb",
+    "cefr": "C1",
+    "topic": "population",
+    "ipa": "/ˈeskəleɪt/",
+    "def": "To take a problem to a more senior person.",
+    "vi": "đưa lên cấp trên",
+    "examples":
+      [
+        {
+          "en": "If we can't agree, we'll escalate it to the CTO.",
+          "vi": "Nếu không thống nhất được, mình sẽ đưa lên CTO.",
+        },
+      ],
+  }
+- {
+    "slug": "consensus-n",
+    "lemma": "consensus",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "population",
+    "ipa": "/kənˈsensəs/",
+    "def": "Agreement among all the people in a group.",
+    "vi": "sự đồng thuận",
+    "examples":
+      [
+        {
+          "en": "We reached consensus after two meetings.",
+          "vi": "Sau hai cuộc họp, nhóm đã đạt đồng thuận.",
+        },
+      ],
+  }
+- {
+    "slug": "uncertainty-n",
+    "lemma": "uncertainty",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "population",
+    "ipa": "/ʌnˈsɜːtnti/",
+    "def": "A feeling of not knowing what will happen.",
+    "vi": "sự bất định",
+    "examples":
+      [
+        {
+          "en": "The reorg created a lot of uncertainty in the team.",
+          "vi": "Đợt tái cơ cấu tạo ra nhiều bất định trong nhóm.",
+        },
+      ],
+  }
+- {
+    "slug": "devils-advocate-n",
+    "lemma": "devil's advocate",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "population",
+    "ipa": "/ˌdevlz ˈædvəkət/",
+    "def": "A person who argues the other side on purpose to test an idea.",
+    "vi": "người cố tình phản biện",
+    "examples":
+      [
+        {
+          "en": "Let me play devil's advocate: what if traffic doubles?",
+          "vi": "Để mình phản biện thử: nếu lượng truy cập tăng gấp đôi thì sao?",
+        },
+      ],
+  }
+- {
+    "slug": "voice-v",
+    "lemma": "voice",
+    "pos": "verb",
+    "cefr": "C1",
+    "topic": "population",
+    "ipa": "/vɔɪs/",
+    "def": "To say your opinion or feelings openly.",
+    "vi": "bày tỏ",
+    "examples":
+      [
+        {
+          "en": "Several people voiced doubts about the timeline.",
+          "vi": "Một số người đã bày tỏ nghi ngờ về tiến độ.",
+        },
+      ],
+  }
+- {
+    "slug": "commit-v",
+    "lemma": "commit",
+    "pos": "verb",
+    "cefr": "B2",
+    "topic": "population",
+    "ipa": "/kəˈmɪt/",
+    "def": "To promise to give your full effort to something.",
+    "vi": "cam kết",
+    "examples":
+      [
+        {
+          "en": "Once we decide, everyone commits to the plan.",
+          "vi": "Khi đã quyết, mọi người cam kết theo kế hoạch.",
+        },
+      ],
+  }
+- {
+    "slug": "disagree-and-commit-phr",
+    "lemma": "disagree and commit",
+    "pos": "phrase",
+    "kind": "phrase",
+    "cefr": "C1",
+    "topic": "population",
+    "ipa": "/ˌdɪsəɡriː ənd kəˈmɪt/",
+    "def": "To support a decision fully even though you argued against it.",
+    "vi": "bất đồng nhưng vẫn cam kết",
+    "examples":
+      [
+        {
+          "en": "I had doubts, but I'll disagree and commit.",
+          "vi": "Mình có nghi ngại, nhưng mình vẫn sẽ cam kết làm.",
+        },
+      ],
+  }
+- {
+    "slug": "frustration-n",
+    "lemma": "frustration",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "population",
+    "ipa": "/frʌˈstreɪʃn/",
+    "def": "The annoyed feeling when you cannot change or achieve something.",
+    "vi": "sự bực bội",
+    "examples":
+      [
+        {
+          "en": "I understand your frustration with the new rules.",
+          "vi": "Mình hiểu sự bực bội của bạn với quy định mới.",
+        },
+      ],
+  }
+- {
+    "slug": "perspective-n",
+    "lemma": "perspective",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "population",
+    "ipa": "/pəˈspektɪv/",
+    "def": "A particular way of seeing a situation.",
+    "vi": "góc nhìn",
+    "examples":
+      [
+        {
+          "en": "From the support team's perspective, the change adds work.",
+          "vi": "Từ góc nhìn của nhóm hỗ trợ, thay đổi này thêm việc.",
+        },
+      ],
+  }
+- {
+    "slug": "step-back-pv",
+    "lemma": "step back",
+    "pos": "verb",
+    "kind": "phrasal",
+    "cefr": "B2",
+    "topic": "population",
+    "ipa": "/ˌstep ˈbæk/",
+    "def": "To stop and think about a situation in a calmer way.",
+    "vi": "lùi lại để nhìn tổng thể",
+    "examples":
+      [
+        {
+          "en": "Let's step back and look at what we are trying to solve.",
+          "vi": "Mình lùi lại một chút và xem mình đang muốn giải quyết gì.",
+        },
+      ],
+  }
+- {
+    "slug": "hard-data-n",
+    "lemma": "hard data",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "population",
+    "ipa": "/ˌhɑːd ˈdeɪtə/",
+    "def": "Facts and numbers that can be measured.",
+    "vi": "số liệu xác thực",
+    "examples":
+      [
+        {
+          "en": "Can we look at hard data instead of opinions?",
+          "vi": "Mình xem số liệu thực thay vì ý kiến được không?",
+        },
+      ],
+  }
+- {
+    "slug": "goodwill-n-emotions",
+    "lemma": "goodwill",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "population",
+    "ipa": "/ˌɡʊdˈwɪl/",
+    "def": "Friendly feelings and trust between people.",
+    "vi": "thiện chí",
+    "examples":
+      [
+        {
+          "en": "Assume goodwill; everyone wants the project to succeed.",
+          "vi": "Hãy tin vào thiện chí; ai cũng muốn dự án thành công.",
+        },
+      ],
+  }
+- {
+    "slug": "diplomatic-adj",
+    "lemma": "diplomatic",
+    "pos": "adjective",
+    "cefr": "C1",
+    "topic": "population",
+    "ipa": "/ˌdɪpləˈmætɪk/",
+    "def": "Careful to say things without upsetting people.",
+    "vi": "khéo léo, tế nhị",
+    "examples":
+      [
+        {
+          "en": "She gave a diplomatic answer to the angry message.",
+          "vi": "Chị ấy trả lời tin nhắn giận dữ một cách khéo léo.",
+        },
+      ],
+  }
+- {
+    "slug": "side-with-pv",
+    "lemma": "side with",
+    "pos": "verb",
+    "kind": "phrasal",
+    "cefr": "C1",
+    "topic": "population",
+    "ipa": "/ˈsaɪd wɪð/",
+    "def": "To support one person or group in an argument.",
+    "vi": "đứng về phía",
+    "examples":
+      [
+        {
+          "en": "The architect sided with the mobile team on this.",
+          "vi": "Kiến trúc sư đứng về phía nhóm mobile trong chuyện này.",
+        },
+      ],
+  }
+# Set 10: A team transition plan
+- {
+    "slug": "transition-n",
+    "lemma": "transition",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "population",
+    "ipa": "/trænˈzɪʃn/",
+    "def": "The process of changing from one state to another.",
+    "vi": "sự chuyển tiếp",
+    "examples":
+      [
+        {
+          "en": "The transition to the new team will take a month.",
+          "vi": "Quá trình chuyển sang nhóm mới sẽ mất một tháng.",
+        },
+      ],
+  }
+- {
+    "slug": "owner-n",
+    "lemma": "owner",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "population",
+    "ipa": "/ˈəʊnə/",
+    "def": "The person responsible for a task or a system.",
+    "vi": "người phụ trách",
+    "examples":
+      [
+        {
+          "en": "Every task in the plan needs one owner.",
+          "vi": "Mỗi đầu việc trong kế hoạch cần một người phụ trách.",
+        },
+      ],
+  }
+- {
+    "slug": "mitigation-n",
+    "lemma": "mitigation",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "population",
+    "ipa": "/ˌmɪtɪˈɡeɪʃn/",
+    "def": "An action that makes a problem less serious.",
+    "vi": "biện pháp giảm thiểu",
+    "examples":
+      [
+        {
+          "en": "For each risk, write a mitigation next to it.",
+          "vi": "Với mỗi rủi ro, hãy ghi biện pháp giảm thiểu bên cạnh.",
+        },
+      ],
+  }
+- {
+    "slug": "contingency-n",
+    "lemma": "contingency",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "population",
+    "ipa": "/kənˈtɪndʒənsi/",
+    "def": "A plan for something bad that might happen.",
+    "vi": "phương án dự phòng",
+    "examples":
+      [
+        {
+          "en": "Our contingency is to keep Huy on call for two weeks.",
+          "vi": "Phương án dự phòng là giữ Huy trực thêm hai tuần.",
+        },
+      ],
+  }
+- {
+    "slug": "rollout-n",
+    "lemma": "rollout",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "population",
+    "ipa": "/ˈrəʊlaʊt/",
+    "def": "The step-by-step introduction of something new.",
+    "vi": "triển khai dần",
+    "examples":
+      [
+        {
+          "en": "The rollout of the new team structure starts in March.",
+          "vi": "Việc triển khai cơ cấu nhóm mới bắt đầu vào tháng Ba.",
+        },
+      ],
+  }
+- {
+    "slug": "cutover-n",
+    "lemma": "cutover",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "population",
+    "ipa": "/ˈkʌtəʊvə/",
+    "def": "The moment when you switch fully from the old system to the new one.",
+    "vi": "thời điểm chuyển hẳn",
+    "examples":
+      [
+        {
+          "en": "The cutover is planned for Saturday night.",
+          "vi": "Thời điểm chuyển hẳn dự kiến vào tối thứ Bảy.",
+        },
+      ],
+  }
+- {
+    "slug": "headcount-n-emotions",
+    "lemma": "headcount",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "population",
+    "ipa": "/ˈhedkaʊnt/",
+    "def": "The number of people working in a team or company.",
+    "vi": "số lượng nhân sự",
+    "examples":
+      [
+        {
+          "en": "We keep the same headcount after the merge.",
+          "vi": "Sau khi gộp, số lượng nhân sự vẫn giữ nguyên.",
+        },
+      ],
+  }
+- {
+    "slug": "attrition-n",
+    "lemma": "attrition",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "population",
+    "ipa": "/əˈtrɪʃn/",
+    "def": "The loss of staff who leave and are not replaced.",
+    "vi": "sự hao hụt nhân sự",
+    "examples":
+      [
+        {
+          "en": "High attrition is the biggest risk in this plan.",
+          "vi": "Hao hụt nhân sự cao là rủi ro lớn nhất của kế hoạch này.",
+        },
+      ],
+  }
+- {
+    "slug": "backfill-v",
+    "lemma": "backfill",
+    "pos": "verb",
+    "cefr": "C1",
+    "topic": "population",
+    "ipa": "/ˈbækfɪl/",
+    "def": "To find someone to fill a job that another person left.",
+    "vi": "tuyển bù",
+    "examples":
+      [
+        {
+          "en": "We will backfill Minh's role by June.",
+          "vi": "Mình sẽ tuyển người bù vị trí của Minh trước tháng Sáu.",
+        },
+      ],
+  }
+- {
+    "slug": "offboarding-n",
+    "lemma": "offboarding",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "population",
+    "ipa": "/ˈɒfbɔːdɪŋ/",
+    "def": "The process of removing access and passing on work when someone leaves.",
+    "vi": "quy trình nghỉ việc",
+    "examples":
+      [
+        {
+          "en": "Offboarding includes removing all production keys.",
+          "vi": "Quy trình nghỉ việc gồm việc thu hồi mọi khoá production.",
+        },
+      ],
+  }
+- {
+    "slug": "continuity-n",
+    "lemma": "continuity",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "population",
+    "ipa": "/ˌkɒntɪˈnjuːəti/",
+    "def": "The state of continuing without breaks or problems.",
+    "vi": "tính liên tục",
+    "examples":
+      [
+        {
+          "en": "The goal is continuity of support for our customers.",
+          "vi": "Mục tiêu là đảm bảo hỗ trợ khách hàng không bị gián đoạn.",
+        },
+      ],
+  }
+- {
+    "slug": "disruption-n",
+    "lemma": "disruption",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "population",
+    "ipa": "/dɪsˈrʌpʃn/",
+    "def": "A problem that stops something from working normally.",
+    "vi": "sự gián đoạn",
+    "examples":
+      [
+        {
+          "en": "We want minimal disruption to the release schedule.",
+          "vi": "Bọn mình muốn lịch release bị gián đoạn ít nhất.",
+        },
+      ],
+  }
+- {
+    "slug": "phase-out-pv",
+    "lemma": "phase out",
+    "pos": "verb",
+    "kind": "phrasal",
+    "cefr": "C1",
+    "topic": "population",
+    "ipa": "/ˌfeɪz ˈaʊt/",
+    "def": "To stop using something gradually.",
+    "vi": "loại bỏ dần",
+    "examples":
+      [
+        {
+          "en": "We'll phase out the old on-call rota by May.",
+          "vi": "Mình sẽ loại bỏ dần lịch trực cũ trước tháng Năm.",
+        },
+      ],
+  }
+- {
+    "slug": "interim-adj",
+    "lemma": "interim",
+    "pos": "adjective",
+    "cefr": "C1",
+    "topic": "population",
+    "ipa": "/ˈɪntərɪm/",
+    "def": "For a short time, until a permanent choice is made.",
+    "vi": "tạm thời",
+    "examples":
+      [
+        {
+          "en": "Lan is the interim tech lead until we hire.",
+          "vi": "Lan là tech lead tạm thời cho đến khi tuyển được người.",
+        },
+      ],
+  }
+- {
+    "slug": "successor-n",
+    "lemma": "successor",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "population",
+    "ipa": "/səkˈsesə/",
+    "def": "The person who takes a job after someone else.",
+    "vi": "người kế nhiệm",
+    "examples":
+      [
+        {
+          "en": "Huy is training his successor this month.",
+          "vi": "Tháng này Huy đang đào tạo người kế nhiệm.",
+        },
+      ],
+  }
+- {
+    "slug": "coverage-n",
+    "lemma": "coverage",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "population",
+    "ipa": "/ˈkʌvərɪdʒ/",
+    "def": "Having enough people to handle work at all needed times.",
+    "vi": "sự bao phủ (nhân lực)",
+    "examples":
+      [
+        {
+          "en": "We need on-call coverage during the holiday week.",
+          "vi": "Mình cần đủ người trực trong tuần lễ.",
+        },
+      ],
+  }
+- {
+    "slug": "retain-v",
+    "lemma": "retain",
+    "pos": "verb",
+    "cefr": "C1",
+    "topic": "population",
+    "ipa": "/rɪˈteɪn/",
+    "def": "To keep someone or something.",
+    "vi": "giữ chân, giữ lại",
+    "examples":
+      [
+        {
+          "en": "We want to retain our senior engineers during the change.",
+          "vi": "Bọn mình muốn giữ chân các kỹ sư senior trong đợt thay đổi.",
+        },
+      ],
+  }
+- {
+    "slug": "communicate-v",
+    "lemma": "communicate",
+    "pos": "verb",
+    "cefr": "B1",
+    "topic": "population",
+    "ipa": "/kəˈmjuːnɪkeɪt/",
+    "def": "To share information with others.",
+    "vi": "truyền đạt, thông báo",
+    "examples":
+      [
+        {
+          "en": "Communicate each step of the plan to the support team.",
+          "vi": "Hãy thông báo từng bước của kế hoạch cho nhóm hỗ trợ.",
+        },
+      ],
+  }
+- {
+    "slug": "announcement-n",
+    "lemma": "announcement",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "population",
+    "ipa": "/əˈnaʊnsmənt/",
+    "def": "An official statement that tells people about something.",
+    "vi": "thông báo",
+    "examples":
+      [
+        {
+          "en": "The announcement goes out to the whole company on Monday.",
+          "vi": "Thông báo sẽ gửi tới toàn công ty vào thứ Hai.",
+        },
+      ],
+  }
+- {
+    "slug": "readiness-n",
+    "lemma": "readiness",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "population",
+    "ipa": "/ˈredinəs/",
+    "def": "The state of being prepared.",
+    "vi": "mức độ sẵn sàng",
+    "examples":
+      [
+        {
+          "en": "We'll check team readiness a week before cutover.",
+          "vi": "Mình sẽ kiểm tra mức độ sẵn sàng của nhóm một tuần trước khi chuyển.",
+        },
+      ],
+  }
+- {
+    "slug": "buffer-n",
+    "lemma": "buffer",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "population",
+    "ipa": "/ˈbʌfə/",
+    "def": "Extra time added to a plan in case of delays.",
+    "vi": "thời gian dự trữ",
+    "examples":
+      [
+        {
+          "en": "Add a one-week buffer before the old team leaves.",
+          "vi": "Hãy thêm một tuần dự trữ trước khi nhóm cũ rời đi.",
+        },
+      ],
+  }
+- {
+    "slug": "transparency-n",
+    "lemma": "transparency",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "population",
+    "ipa": "/trænsˈpærənsi/",
+    "def": "Being open and honest so people know what is happening.",
+    "vi": "sự minh bạch",
+    "examples":
+      [
+        {
+          "en": "Transparency about the plan reduces rumours.",
+          "vi": "Minh bạch về kế hoạch giúp bớt tin đồn.",
+        },
+      ],
+  }
+- {
+    "slug": "workstream-n",
+    "lemma": "workstream",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "population",
+    "ipa": "/ˈwɜːkstriːm/",
+    "def": "One separate part of a larger project.",
+    "vi": "mảng công việc",
+    "examples":
+      [
+        {
+          "en": "The plan has three workstreams: people, systems and docs.",
+          "vi": "Kế hoạch có ba mảng: con người, hệ thống và tài liệu.",
+        },
+      ],
+  }
+- {
+    "slug": "bottleneck-n",
+    "lemma": "bottleneck",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "population",
+    "ipa": "/ˈbɒtlnek/",
+    "def": "A point where work slows down because too much depends on it.",
+    "vi": "điểm nghẽn",
+    "examples":
+      [
+        {
+          "en": "Code review by one person is a bottleneck.",
+          "vi": "Việc chỉ một người review code là một điểm nghẽn.",
+        },
+      ],
+  }
+- {
+    "slug": "outline-v",
+    "lemma": "outline",
+    "pos": "verb",
+    "cefr": "B2",
+    "topic": "population",
+    "ipa": "/ˈaʊtlaɪn/",
+    "def": "To describe the main points of something.",
+    "vi": "phác thảo",
+    "examples":
+      [
+        {
+          "en": "This page outlines who owns what after the move.",
+          "vi": "Trang này phác thảo ai phụ trách gì sau khi chuyển.",
+        },
+      ],
+  }
+- {
+    "slug": "capacity-n-emotions",
+    "lemma": "capacity",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "population",
+    "ipa": "/kəˈpæsəti/",
+    "def": "The amount of work a team is able to do.",
+    "vi": "năng lực, công suất",
+    "examples":
+      [
+        {
+          "en": "The team will have less capacity during the handover.",
+          "vi": "Trong lúc bàn giao, nhóm sẽ có ít năng lực xử lý hơn.",
+        },
+      ],
+  }
+- {
+    "slug": "go-live-n",
+    "lemma": "go-live",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "population",
+    "ipa": "/ˌɡəʊ ˈlaɪv/",
+    "def": "The moment a new system or process starts being used for real.",
+    "vi": "thời điểm đưa vào hoạt động",
+    "examples":
+      [
+        {
+          "en": "The new support process has a go-live date of 1 July.",
+          "vi": "Quy trình hỗ trợ mới có ngày đưa vào hoạt động là 1 tháng 7.",
+        },
+      ],
+  }
+- {
+    "slug": "key-person-risk-n",
+    "lemma": "key-person risk",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "population",
+    "ipa": "/ˌkiː ˈpɜːsn rɪsk/",
+    "def": "The danger that work stops if one important person leaves.",
+    "vi": "rủi ro phụ thuộc một người",
+    "examples":
+      [
+        {
+          "en": "Pairing reduces key-person risk on the billing service.",
+          "vi": "Làm cặp giúp giảm rủi ro phụ thuộc một người ở service billing.",
+        },
+      ],
+  }
+- {
+    "slug": "staffing-n",
+    "lemma": "staffing",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "population",
+    "ipa": "/ˈstɑːfɪŋ/",
+    "def": "The people a team has and how they are arranged.",
+    "vi": "bố trí nhân sự",
+    "examples":
+      [
+        {
+          "en": "Staffing for the night shift is still not decided.",
+          "vi": "Bố trí nhân sự cho ca đêm vẫn chưa được quyết.",
+        },
+      ],
+  }
+- {
+    "slug": "onboard-v-emotions",
+    "lemma": "onboard",
+    "pos": "verb",
+    "cefr": "C1",
+    "topic": "population",
+    "ipa": "/ˈɒnbɔːd/",
+    "def": "To help a new person join a team and learn the work.",
+    "vi": "giúp hoà nhập",
+    "examples":
+      [
+        {
+          "en": "We need to onboard three new hires in the same month.",
+          "vi": "Mình cần giúp ba người mới hoà nhập trong cùng một tháng.",
+        },
+      ],
+  }
+- {
+    "slug": "last-working-day-n",
+    "lemma": "last working day",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "population",
+    "ipa": "/ˌlɑːst ˈwɜːkɪŋ deɪ/",
+    "def": "The final day someone works before leaving a job.",
+    "vi": "ngày làm việc cuối cùng",
+    "examples":
+      [
+        {
+          "en": "Huy's last working day is 30 June.",
+          "vi": "Ngày làm việc cuối của Huy là 30 tháng 6.",
+        },
+      ],
+  }
+- {
+    "slug": "wind-down-pv",
+    "lemma": "wind down",
+    "pos": "verb",
+    "kind": "phrasal",
+    "cefr": "C1",
+    "topic": "population",
+    "ipa": "/ˌwaɪnd ˈdaʊn/",
+    "def": "To reduce work slowly before something stops completely.",
+    "vi": "thu hẹp dần",
+    "examples":
+      [
+        {
+          "en": "The old team will wind down support over two sprints.",
+          "vi": "Nhóm cũ sẽ thu hẹp dần việc hỗ trợ trong hai sprint.",
+        },
+      ],
+  }
+- {
+    "slug": "knock-on-effect-n",
+    "lemma": "knock-on effect",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "population",
+    "ipa": "/ˈnɒk ɒn ɪˌfekt/",
+    "def": "An indirect result of an action that affects other things.",
+    "vi": "hiệu ứng dây chuyền",
+    "examples":
+      [
+        {
+          "en": "A delay here has a knock-on effect on the mobile release.",
+          "vi": "Chậm ở đây sẽ gây hiệu ứng dây chuyền tới release mobile.",
+        },
+      ],
+  }
+- {
+    "slug": "stopgap-n",
+    "lemma": "stopgap",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "population",
+    "ipa": "/ˈstɒpɡæp/",
+    "def": "A quick solution used only until a better one is ready.",
+    "vi": "giải pháp tạm",
+    "examples":
+      [
+        {
+          "en": "The shared inbox is a stopgap until the new tool is ready.",
+          "vi": "Hộp thư chung chỉ là giải pháp tạm cho đến khi có công cụ mới.",
+        },
+      ],
+  }
+- {
+    "slug": "recap-v",
+    "lemma": "recap",
+    "pos": "verb",
+    "cefr": "C1",
+    "topic": "population",
+    "ipa": "/ˈriːkæp/",
+    "def": "To repeat the main points of something briefly.",
+    "vi": "tóm tắt lại",
+    "examples":
+      [
+        {
+          "en": "Let me recap: three owners, two risks, one deadline.",
+          "vi": "Để mình tóm tắt lại: ba người phụ trách, hai rủi ro, một hạn chót.",
+        },
+      ],
+  }
+- {
+    "slug": "earmark-v",
+    "lemma": "earmark",
+    "pos": "verb",
+    "cefr": "C1",
+    "topic": "population",
+    "ipa": "/ˈɪəmɑːk/",
+    "def": "To decide that something will be used for a particular purpose.",
+    "vi": "dành riêng cho",
+    "examples":
+      [
+        {
+          "en": "We've earmarked two days for writing runbooks.",
+          "vi": "Bọn mình đã dành riêng hai ngày để viết sổ tay vận hành.",
+        },
+      ],
+  }

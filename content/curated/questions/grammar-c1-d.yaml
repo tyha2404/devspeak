@@ -1,0 +1,483 @@
+# Grammar track C1 tests (batch c1-d). Original items; answers stay server-side.
+# --- g-c1-advanced-passive
+- slug: g-c1-advanced-passive-1
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: jira
+  sentence: "The outage is believed ___ with a misconfigured load balancer last night."
+  options: [to start, to have started, having started, to be started]
+  answer: 1
+  explanation_vi: "Nhận định ở hiện tại (is believed), sự việc ở quá khứ (last night) → to have + V3."
+- slug: g-c1-advanced-passive-2
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: slack
+  sentence: "Several enterprise clients are reported ___ timeouts right now."
+  options: [to experience, to have experienced, to be experiencing, being experienced]
+  answer: 2
+  explanation_vi: "Right now: việc đang diễn ra lúc báo cáo → to be + V-ing."
+- slug: g-c1-advanced-passive-3
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: email
+  sentence: "The API keys are thought ___ in a public repository, so we are rotating them."
+  options: [to have exposed, to have been exposed, to be exposing, to expose]
+  answer: 1
+  explanation_vi: "Keys bị lộ (bị động) và xảy ra trước → to have been + V3."
+- slug: g-c1-advanced-passive-4
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: jira
+  sentence: "___ are believed to be around forty services still calling the legacy API."
+  options: [It, They, There, These]
+  answer: 2
+  explanation_vi: "Nói về sự tồn tại: There are believed to be + N."
+- slug: g-c1-advanced-passive-5
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: slack
+  sentence: "During the load test, the pod was seen ___ (crash – nguyên mẫu) twice."
+  accepted: ["to crash"]
+  explanation_vi: "Bị động của see + nguyên mẫu phải có to: was seen to crash."
+- slug: g-c1-advanced-passive-6
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: email
+  sentence: "The migration was said ___ (finish – nguyên mẫu hoàn thành) before the alert fired."
+  accepted: ["to have finished"]
+  explanation_vi: "Was said (quá khứ), việc xong còn sớm hơn → to have finished."
+- slug: g-c1-advanced-passive-7
+  type: mcq_meaning
+  cefr: C1
+  topic: grammar
+  stem: "Chọn câu đúng."
+  question: "Câu nào đúng ngữ pháp?"
+  options:
+    - "The script was seen delete the temp folder."
+    - "The bug is thought to exist since last year."
+    - "It is believed to be two root causes."
+    - "The bug is thought to have existed since last year."
+  answer: 3
+  explanation_vi: "Since last year → to have existed. Câu khác: thiếu to sau was seen; It thay vì There."
+- slug: g-c1-advanced-passive-8
+  type: mcq_meaning
+  cefr: C1
+  topic: grammar
+  stem: "Báo cáo sự cố cần thận trọng."
+  question: "Câu nào nói rõ đây chỉ là giả thuyết, chưa được xác nhận?"
+  options:
+    - "The leak comes from the SDK."
+    - "It has been suggested, though not confirmed, that the leak comes from the SDK."
+    - "The SDK caused the leak, as everyone knows."
+    - "We proved the leak comes from the SDK."
+  answer: 1
+  explanation_vi: "It has been suggested + though not confirmed giữ rõ giới hạn bằng chứng."
+# --- g-c1-complex-noun-phrase
+- slug: g-c1-complex-noun-phrase-1
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: pr
+  sentence: "This PR moves the job to a ___ cluster in Singapore."
+  options: [three-nodes, three-node, three nodes, node-three]
+  answer: 1
+  explanation_vi: "Tính từ ghép số + danh từ đứng trước danh từ: danh từ ở dạng số ít, có gạch nối."
+- slug: g-c1-complex-noun-phrase-2
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: jira
+  sentence: "The list of flaky tests in the payment modules ___ getting longer every sprint."
+  options: [are, were, is, have]
+  answer: 2
+  explanation_vi: "Danh từ chính là list (số ít) → is, dù các danh từ gần động từ là số nhiều."
+- slug: g-c1-complex-noun-phrase-3
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: email
+  sentence: "We adopted a ___ library last year."
+  options:
+    [
+      logging open-source lightweight,
+      open-source lightweight logging,
+      lightweight logging open-source,
+      lightweight open-source logging,
+    ]
+  answer: 3
+  explanation_vi: "Trật tự: đánh giá (lightweight) → nguồn gốc (open-source) → danh từ bổ nghĩa chức năng (logging)."
+- slug: g-c1-complex-noun-phrase-4
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: slack
+  sentence: "Requests ___ from unverified devices are rejected at the gateway."
+  options: [sending, sent, are sent, send]
+  answer: 1
+  explanation_vi: "Phân từ rút gọn bị động: requests (that are) sent from…"
+- slug: g-c1-complex-noun-phrase-5
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: slack
+  sentence: "Search was the first service ___ (move) to the new cluster."
+  accepted: ["to move"]
+  explanation_vi: "The first/last/only + N + to V."
+- slug: g-c1-complex-noun-phrase-6
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: pr
+  sentence: "The onboarding docs describe a ___ (well / document – tính từ ghép) failover process."
+  accepted: ["well-documented"]
+  explanation_vi: "Trạng từ + phân từ đứng trước danh từ nối bằng gạch: well-documented."
+- slug: g-c1-complex-noun-phrase-7
+  type: mcq_meaning
+  cefr: C1
+  topic: grammar
+  stem: "Viết cho dễ đọc."
+  question: "Cách nào thay tốt nhất cho “user account region migration guide”?"
+  options:
+    - "a guide user account to region migration"
+    - "a guide to migrating user accounts between regions"
+    - "a migrating guide of user accounts regions"
+    - "a user accounts regions migrations guide"
+  answer: 1
+  explanation_vi: "Đẩy bớt danh từ ra sau bằng to + V-ing và between."
+- slug: g-c1-complex-noun-phrase-8
+  type: mcq_meaning
+  cefr: C1
+  topic: grammar
+  stem: "Chọn câu đúng."
+  question: "Câu nào đúng ngữ pháp?"
+  options:
+    - "We planned a two-weeks sprint for the rewrite."
+    - "The logs from the payment services is too noisy."
+    - "The engineer who designed the original schema has since left."
+    - "It uses a documented well retry policy."
+  answer: 2
+  explanation_vi: "Who designed… bổ nghĩa engineer, động từ chính has left. Còn lại: two-week, are, well-documented."
+# --- g-c1-nominalisation
+- slug: g-c1-nominalisation-1
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: email
+  sentence: "The ___ of the legacy endpoint will require a deprecation notice."
+  options: [remove, removal, removing of, removed]
+  answer: 1
+  explanation_vi: "Sau the cần danh từ: remove → removal."
+- slug: g-c1-nominalisation-2
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: jira
+  sentence: "Prior to ___, please freeze the main branch."
+  options: [deploy, deployment, deployed, be deployed]
+  answer: 1
+  explanation_vi: "Prior to là giới từ → theo sau là danh từ deployment."
+- slug: g-c1-nominalisation-3
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: email
+  sentence: "The ___ failure of the primary node triggered an automatic failover."
+  options: [suddenly, sudden, suddenness, sudden of]
+  answer: 1
+  explanation_vi: "It failed suddenly → its sudden failure: trạng từ thành tính từ trước danh từ."
+- slug: g-c1-nominalisation-4
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: slack
+  sentence: "Traffic doubled overnight, and the ___ exposed a bottleneck in the queue."
+  options: [increased, increase, increasing of, increasingly]
+  answer: 1
+  explanation_vi: "Danh hoá ý vừa nói (traffic doubled) làm chủ ngữ: the increase."
+- slug: g-c1-nominalisation-5
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: email
+  sentence: "The ___ (available – danh từ) of the service matters more than its raw speed."
+  accepted: ["availability"]
+  explanation_vi: "Available → availability."
+- slug: g-c1-nominalisation-6
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: jira
+  sentence: "The board's ___ (approve – danh từ) of the RFC came after three rounds of review."
+  accepted: ["approval"]
+  explanation_vi: "Approve → approval; sở hữu cách board's cho biết ai phê duyệt."
+- slug: g-c1-nominalisation-7
+  type: mcq_meaning
+  cefr: C1
+  topic: grammar
+  stem: "Viết lại trang trọng cho báo cáo."
+  question: "Câu nào là bản danh hoá đúng của “After we upgraded the cluster, latency dropped by half”?"
+  options:
+    - "Following upgrade the cluster, latency dropped by half."
+    - "Following the upgrading cluster, latency dropped by half."
+    - "Following the upgrade of the cluster, latency dropped by half."
+    - "Following the cluster upgraded, latency dropped by half."
+  answer: 2
+  explanation_vi: "Following + the + N + of + O."
+- slug: g-c1-nominalisation-8
+  type: mcq_meaning
+  cefr: C1
+  topic: grammar
+  stem: "Chọn văn phong phù hợp."
+  question: "Trong tin nhắn cho team, câu nào rõ ràng nhất?"
+  options:
+    - "A decision on the postponement of the launch was made."
+    - "We decided to postpone the launch because the load tests failed."
+    - "Postponement of launch decision due to load test failure."
+    - "The making of a postponement decision occurred."
+  answer: 1
+  explanation_vi: "Trong chat, câu động từ có chủ ngữ rõ dễ hiểu hơn danh hoá dày đặc."
+# --- g-c1-ellipsis
+- slug: g-c1-ellipsis-1
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: pr
+  sentence: "I haven't reviewed the PR yet, but Lan ___."
+  options: [did, has, is, does]
+  answer: 1
+  explanation_vi: "Câu trước ở hiện tại hoàn thành → lược bằng has."
+- slug: g-c1-ellipsis-2
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: slack
+  sentence: "Nobody expected the nightly job to fail, but it ___."
+  options: [had, was, did, has done]
+  answer: 2
+  explanation_vi: "Failed ở quá khứ đơn → lược bằng did."
+- slug: g-c1-ellipsis-3
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: slack
+  sentence: "Is this change going to break the mobile app? — I hope ___."
+  options: [not, no, don't, not so]
+  answer: 0
+  explanation_vi: "Phủ định với hope: I hope not."
+- slug: g-c1-ellipsis-4
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: jira
+  sentence: "We kept the critical alerts and muted the noisy ___."
+  options: [one, ones, them ones, it]
+  answer: 1
+  explanation_vi: "Ones thay cho alerts (danh từ đếm được số nhiều)."
+- slug: g-c1-ellipsis-5
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: email
+  sentence: "If you need to roll back, please ___ (thế cụm động từ, trang trọng) before the traffic peak."
+  accepted: ["do so"]
+  explanation_vi: "Do so thay cho roll back, hợp với tài liệu vận hành."
+- slug: g-c1-ellipsis-6
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: slack
+  sentence: "I didn't update the changelog, but I meant ___ (lược sau động từ)."
+  accepted: ["to"]
+  explanation_vi: "Lược sau mean/want/try vẫn giữ to: I meant to."
+- slug: g-c1-ellipsis-7
+  type: mcq_meaning
+  cefr: C1
+  topic: grammar
+  stem: "Chọn câu đúng."
+  question: "Câu nào đúng ngữ pháp?"
+  options:
+    - "Will it be ready by Friday? — I don't hope so."
+    - "I didn't test it, but Minh tested."
+    - "The migration hasn't been tested, but it should have been."
+    - "We need more information and a better one."
+  answer: 2
+  explanation_vi: "Should have been = should have been tested. Còn lại: I hope not; Minh did; information không đếm được."
+- slug: g-c1-ellipsis-8
+  type: mcq_meaning
+  cefr: C1
+  topic: grammar
+  stem: "Thế cả mệnh đề."
+  question: "“Thứ Sáu bản sửa xong chứ? — Mình nghĩ là có.” là…"
+  options:
+    - "Will the fix be ready by Friday? — I expect so."
+    - "Will the fix be ready by Friday? — I expect it."
+    - "Will the fix be ready by Friday? — I expect yes."
+    - "Will the fix be ready by Friday? — I expect that."
+  answer: 0
+  explanation_vi: "Expect/think/hope + so thay cho cả mệnh đề."
+# --- g-c1-punctuation
+- slug: g-c1-punctuation-1
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: pr
+  sentence: "The job is idempotent___ however, it is not safe to run in parallel."
+  options: [",", ";", ":", "—"]
+  answer: 1
+  explanation_vi: "However nối hai câu độc lập → chấm phẩy trước, phẩy sau."
+- slug: g-c1-punctuation-2
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: email
+  sentence: "The fix has one side effect___ all cached sessions are invalidated."
+  options: [",", ";", ":", "and,"]
+  answer: 2
+  explanation_vi: "Câu hoàn chỉnh rồi giới thiệu chi tiết → hai chấm."
+- slug: g-c1-punctuation-3
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: jira
+  sentence: "Choose the correct version: “___ must upgrade before Friday.” (chỉ những service dùng Redis)"
+  options:
+    [
+      "Services, that use Redis,",
+      "Services that use Redis",
+      "Services, which use Redis,",
+      "Services; that use Redis",
+    ]
+  answer: 1
+  explanation_vi: "Mệnh đề giới hạn đối tượng → không phẩy."
+- slug: g-c1-punctuation-4
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: slack
+  sentence: "Staging is down; ___ the release has been moved to Thursday."
+  options: [therefore, "therefore,", ", therefore", so that]
+  answer: 1
+  explanation_vi: "Sau chấm phẩy, trạng từ liên kết + phẩy: ; therefore, …"
+- slug: g-c1-punctuation-5
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: email
+  sentence: "If the health check fails twice___ the pod is restarted. (điền một dấu câu)"
+  accepted: [","]
+  explanation_vi: "Mệnh đề if đứng đầu câu → dấu phẩy trước mệnh đề chính."
+- slug: g-c1-punctuation-6
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: pr
+  sentence: "The tests passed; ___ the build failed. (từ nối tương phản + dấu câu)"
+  accepted: ["however,", "nevertheless,", "nonetheless,"]
+  explanation_vi: "Sau chấm phẩy dùng trạng từ liên kết + phẩy, ví dụ however,"
+- slug: g-c1-punctuation-7
+  type: mcq_meaning
+  cefr: C1
+  topic: grammar
+  stem: "Dấu phẩy đổi nghĩa."
+  question: "“Our engineers, who are on call, must keep their laptops nearby.” nghĩa là…"
+  options:
+    - "Chỉ những kỹ sư đang trực phải để laptop bên cạnh."
+    - "Tất cả kỹ sư đều đang trực, và họ phải để laptop bên cạnh."
+    - "Không kỹ sư nào đang trực."
+    - "Kỹ sư trực không cần laptop."
+  answer: 1
+  explanation_vi: "Cặp phẩy biến mệnh đề thành thông tin phụ áp dụng cho tất cả."
+- slug: g-c1-punctuation-8
+  type: mcq_meaning
+  cefr: C1
+  topic: grammar
+  stem: "Chọn câu đúng."
+  question: "Câu nào dùng dấu câu đúng?"
+  options:
+    - "The build passed, the deploy failed."
+    - "The supported regions are: Tokyo and Frankfurt."
+    - "The tests passed, however the build failed."
+    - "The new API — at least in its current form — does not support pagination."
+  answer: 3
+  explanation_vi: "Cặp gạch ngang chèn giới hạn. Còn lại: comma splice, hai chấm sau động từ, however thiếu chấm phẩy."
+# --- g-c1-linkers
+- slug: g-c1-linkers-1
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: email
+  sentence: "Admittedly, a monolith is simpler to deploy. ___, it no longer fits our team structure."
+  options: [That said, Conversely, By extension, Insofar as]
+  answer: 0
+  explanation_vi: "Thừa nhận rồi quay lại lập trường → That said."
+- slug: g-c1-linkers-2
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: pr
+  sentence: "Smaller batches lower latency; ___, larger batches raise throughput."
+  options: [that said, conversely, notwithstanding, given that]
+  answer: 1
+  explanation_vi: "Hai vế đối xứng theo chiều ngược nhau → conversely."
+- slug: g-c1-linkers-3
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: email
+  sentence: "___ the migration cost, we recommend moving to Postgres."
+  options: [Although, Insofar as, Notwithstanding, Even so]
+  answer: 2
+  explanation_vi: "Theo sau là cụm danh từ → giới từ notwithstanding (= despite)."
+- slug: g-c1-linkers-4
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: jira
+  sentence: "The design is sound ___ traffic stays below current levels."
+  options: [insofar as, notwithstanding, conversely, by extension]
+  answer: 0
+  explanation_vi: "Giới hạn phạm vi đúng + mệnh đề → insofar as."
+- slug: g-c1-linkers-5
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: slack
+  sentence: "The benchmark is synthetic. ___ (dù vậy – 2 từ), the gap is too large to ignore."
+  accepted: ["Even so", "even so"]
+  explanation_vi: "Even so: dù điều vừa nói là đúng, vẫn…"
+- slug: g-c1-linkers-6
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: pr
+  sentence: "If the payments team can own its schema, then by ___ every team can."
+  accepted: ["extension"]
+  explanation_vi: "By extension: suy rộng ra, lập luận áp dụng cho cả nhóm lớn hơn."
+- slug: g-c1-linkers-7
+  type: mcq_meaning
+  cefr: C1
+  topic: grammar
+  stem: "Chọn câu đúng."
+  question: "Câu nào đúng ngữ pháp?"
+  options:
+    - "Notwithstanding the cost is high, we recommend it."
+    - "Insofar the data is public, we can cache it."
+    - "Given the team's experience with Go, a rewrite in Rust seems risky."
+    - "It is fast, conversely it uses more memory."
+  answer: 2
+  explanation_vi: "Given + danh từ đúng. Còn lại: notwithstanding + danh từ; insofar as; conversely sai quan hệ và thiếu chấm phẩy."
+- slug: g-c1-linkers-8
+  type: mcq_meaning
+  cefr: C1
+  topic: grammar
+  stem: "Cùng một lý lẽ."
+  question: "“Mình yêu cầu client đánh version cho request; theo cùng lý lẽ đó, mình cũng phải đánh version cho response.” — từ nối phù hợp là…"
+  options: ["by the same token", "conversely", "notwithstanding", "admittedly"]
+  answer: 0
+  explanation_vi: "By the same token: áp dụng cùng nguyên tắc cho phía còn lại."

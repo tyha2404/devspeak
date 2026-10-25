@@ -4,10 +4,283 @@ sort: 20
 code: T20
 kind: topic
 cefr: B2
-status: draft
-title: { en: "Energy & Resources", vi: "Năng lượng & tài nguyên" }
-summary_vi: "Từ vựng về điện, nhiên liệu, năng lượng tái tạo, tiết kiệm năng lượng và tài nguyên thiên nhiên."
+status: published
+title:
+  en: Cloud Resources, Performance & Capacity
+  vi: Tài nguyên cloud, hiệu năng & năng lực hệ thống
+summary_vi: Mô tả cách hệ thống sử dụng CPU, bộ nhớ, mạng và lưu trữ. Luyện
+  trình bày sự đánh đổi giữa độ trễ, năng lực phục vụ, độ tin cậy và chi phí.
 can_do:
-  - "Nói về nguồn năng lượng và cách tiết kiệm điện"
-  - "Hiểu bài viết về năng lượng tái tạo và tài nguyên"
-lessons: []
+  - Giải thích một vấn đề hiệu năng bằng chỉ số và điều kiện đo
+  - Đề xuất phương án tối ưu có đánh giá tác động
+lessons:
+  - slug: t20-l1
+    kind: vocab
+    title:
+      en: "Set 1: Compute & memory"
+      vi: "Bộ 1: Tính toán & bộ nhớ"
+    senses:
+      - t20-compute-n
+      - t20-memory-n
+      - t20-cpu-n
+      - t20-ram-n
+      - t20-resource-n
+      - t20-allocation-n
+      - t20-instance-n
+      - t20-process-n
+      - t20-thread-n
+      - t20-utilisation-n
+    questions: []
+  - slug: t20-l2
+    kind: vocab
+    title:
+      en: "Set 2: Storage & I/O"
+      vi: "Bộ 2: Lưu trữ & nhập xuất"
+    senses:
+      - t20-storage-n
+      - t20-disk-n
+      - t20-read-v
+      - t20-write-v
+      - t20-i-o-n
+      - t20-file-system-n
+      - t20-hard-drive-n
+      - t20-throughput-n
+      - t20-latency-n
+      - t20-buffer-v
+      - t20-cache-v
+      - t20-data-transfer-n
+    questions: []
+  - slug: t20-l3
+    kind: vocab
+    title:
+      en: "Set 3: Latency & throughput"
+      vi: "Bộ 3: Độ trễ & thông lượng"
+    senses:
+      - t20-percentile-n
+      - t20-median-n
+      - t20-average-n
+      - t20-response-time-n
+      - t20-request-n
+      - t20-concurrent-adj
+      - t20-concurrency-n
+      - t20-under-load-phr
+      - t20-peak-n
+      - t20-baseline-n
+      - t20-benchmark-n
+      - t20-bottleneck-n
+      - t20-overhead-n
+      - t20-measurement-n
+    questions: []
+  - slug: t20-l4
+    kind: vocab
+    title:
+      en: "Set 4: Caching & reuse"
+      vi: "Bộ 4: Cache & tái sử dụng"
+    senses:
+      - t20-cache-hit-n
+      - t20-cache-miss-n
+      - t20-expiration-n
+      - t20-invalidation-n
+      - t20-time-to-live-n
+      - t20-reuse-v
+      - t20-stale-adj
+      - t20-fresh-adj
+      - t20-eviction-n
+      - t20-warm-up-n
+      - t20-cold-start-n
+      - t20-preload-v
+      - t20-fetch-v
+      - t20-lookup-n
+      - t20-key-n
+      - t20-value-n
+    questions: []
+  - slug: t20-l5
+    kind: vocab
+    title:
+      en: "Set 5: Scaling & load"
+      vi: "Bộ 5: Mở rộng & tải"
+    senses:
+      - t20-scaling-n
+      - t20-autoscaling-n
+      - t20-horizontal-scaling-n
+      - t20-vertical-scaling-n
+      - t20-load-balancer-n
+      - t20-replica-n
+      - t20-traffic-n
+      - t20-capacity-n
+      - t20-headroom-n
+      - t20-burst-n
+      - t20-surge-v
+      - t20-quota-n
+      - t20-exceed-v
+      - t20-limit-n
+      - t20-saturation-n
+      - t20-backpressure-n
+      - t20-elasticity-n
+      - t20-right-size-v
+    questions: []
+  - slug: t20-l6
+    kind: vocab
+    title:
+      en: "Set 6: Queues & background jobs"
+      vi: "Bộ 6: Hàng đợi & tác vụ nền"
+    senses:
+      - t20-queue-n
+      - t20-background-job-n
+      - t20-worker-n
+      - t20-enqueue-v
+      - t20-dequeue-v
+      - t20-retry-v
+      - t20-job-status-n
+      - t20-scheduled-adj
+      - t20-asynchronous-adj
+      - t20-synchronous-adj
+      - t20-batch-n
+      - t20-payload-n
+      - t20-priority-n
+      - t20-dead-letter-queue-n
+      - t20-timeout-n
+      - t20-acknowledge-v
+      - t20-at-least-once-phr
+      - t20-exactly-once-phr
+      - t20-deduplication-n
+      - t20-idempotency-n
+    questions: []
+  - slug: t20-l7
+    kind: vocab
+    title:
+      en: "Set 7: Resource limits & quotas"
+      vi: "Bộ 7: Giới hạn & hạn mức"
+    senses:
+      - t20-resource-limit-n
+      - t20-rate-limit-n
+      - t20-throttle-v
+      - t20-fair-usage-n
+      - t20-request-budget-n
+      - t20-spending-cap-n
+      - t20-threshold-n
+      - t20-alert-n
+      - t20-billable-adj
+      - t20-consumption-n
+      - t20-metered-adj
+      - t20-overage-n
+      - t20-api-call-n
+      - t20-egress-n
+      - t20-unit-price-n
+      - t20-pay-as-you-go-adj
+      - t20-tier-n
+      - t20-flat-rate-n
+      - t20-reserved-instance-n
+      - t20-hosting-n
+      - t20-cloud-provider-n
+      - t20-service-level-n
+    questions: []
+  - slug: t20-l8
+    kind: vocab
+    title:
+      en: "Set 8: Monitoring capacity"
+      vi: "Bộ 8: Theo dõi năng lực hệ thống"
+    senses:
+      - t20-monitoring-n
+      - t20-metric-n
+      - t20-dashboard-n
+      - t20-graph-n
+      - t20-time-series-n
+      - t20-sample-n
+      - t20-interval-n
+      - t20-trend-n
+      - t20-spike-n
+      - t20-anomaly-n
+      - t20-warning-n
+      - t20-critical-adj
+      - t20-availability-n
+      - t20-uptime-n
+      - t20-downtime-n
+      - t20-outage-n
+      - t20-alert-fatigue-n
+      - t20-false-alarm-n
+      - t20-notification-channel-n
+      - t20-escalation-n
+      - t20-runbook-n
+      - t20-on-call-adj
+      - t20-sustained-adj
+      - t20-cooldown-n
+    questions: []
+  - slug: t20-l9
+    kind: vocab
+    title:
+      en: "Set 9: Optimisation trade-offs"
+      vi: "Bộ 9: Đánh đổi khi tối ưu"
+    senses:
+      - t20-optimise-v
+      - t20-trade-off-n
+      - t20-cost-v
+      - t20-benefit-n
+      - t20-drawback-n
+      - t20-performance-n
+      - t20-reliability-n
+      - t20-maintainability-n
+      - t20-complexity-n
+      - t20-technical-debt-n
+      - t20-migration-cost-n
+      - t20-lock-in-n
+      - t20-operational-adj
+      - t20-running-cost-n
+      - t20-total-cost-of-ownership-n
+      - t20-negligible-adj
+      - t20-substantial-adj
+      - t20-comparable-adj
+      - t20-controlled-adj
+      - t20-isolate-v
+      - t20-variable-n
+      - t20-repeat-v
+      - t20-variance-n
+      - t20-outlier-n
+      - t20-accuracy-n
+      - t20-precision-n
+      - t20-granularity-n
+      - t20-sampling-n
+    questions: []
+  - slug: t20-l10
+    kind: vocab
+    title:
+      en: "Set 10: A performance recommendation"
+      vi: "Bộ 10: Đề xuất cải thiện hiệu năng"
+    senses:
+      - t20-proposal-n
+      - t20-recommendation-n
+      - t20-objective-adj
+      - t20-scope-n
+      - t20-non-goal-n
+      - t20-hypothesis-n
+      - t20-experiment-n
+      - t20-baseline-value-n
+      - t20-target-value-n
+      - t20-success-criteria-n
+      - t20-guardrail-metric-n
+      - t20-test-plan-n
+      - t20-load-test-n
+      - t20-stress-test-n
+      - t20-soak-test-n
+      - t20-microbenchmark-n
+      - t20-profile-v
+      - t20-trace-n
+      - t20-log-level-n
+      - t20-diagnose-v
+      - t20-working-theory-n
+      - t20-rule-out-pv
+      - t20-corroborate-v
+      - t20-inconclusive-adj
+      - t20-statistically-significant-adj
+      - t20-confidence-interval-n
+      - t20-risk-n
+      - t20-mitigation-n
+      - t20-rollback-n
+      - t20-roll-out-pv
+      - t20-feature-flag-n
+      - t20-canary-n
+      - t20-staged-rollout-n
+      - t20-postmortem-n
+      - t20-action-item-n
+      - t20-review-date-n
+    questions: []

@@ -4,10 +4,284 @@ sort: 11
 code: T11
 kind: topic
 cefr: B2
-status: draft
-title: { en: "Science & Research", vi: "Khoa học & nghiên cứu" }
-summary_vi: "Từ vựng về thí nghiệm, dữ liệu, giả thuyết, kết quả nghiên cứu và phát minh."
+status: published
+title:
+  en: Debugging, Experiments & Engineering Evidence
+  vi: Debug, thử nghiệm & bằng chứng kỹ thuật
+summary_vi: Dùng tiếng Anh để đặt giả thuyết, tái hiện lỗi và diễn giải bằng
+  chứng. Từ đọc log đến benchmark và kết luận thí nghiệm, luôn tách quan sát
+  khỏi suy đoán.
 can_do:
-  - "Mô tả một thí nghiệm hay nghiên cứu bằng từ ngữ đơn giản"
-  - "Hiểu cách trình bày giả thuyết, bằng chứng và kết luận"
-lessons: []
+  - Viết báo cáo điều tra lỗi có bằng chứng và giả thuyết
+  - Trình bày thử nghiệm, kết quả và giới hạn kết luận
+lessons:
+  - slug: t11-l1
+    kind: vocab
+    title: { en: "Set 1: Observations & symptoms", vi: "Bộ 1: Quan sát & dấu hiệu lỗi" }
+    senses:
+      [
+        observe-v-science,
+        glitch-n,
+        notice-v,
+        behaviour-n-science,
+        unexpected-adj-science,
+        crash-v,
+        slow-adj,
+        happen-v,
+        screen-recording-n,
+        describe-v,
+      ]
+    questions: []
+  - slug: t11-l2
+    kind: vocab
+    title: { en: "Set 2: Reproducing a bug", vi: "Bộ 2: Tái hiện lỗi" }
+    senses:
+      [
+        reproducible-adj,
+        steps-to-reproduce-n-science,
+        environment-n,
+        input-n,
+        expected-result-n,
+        actual-result-n,
+        consistently-adv,
+        intermittent-adj,
+        test-data-n,
+        build-number-n,
+        repro-n,
+        setup-n,
+      ]
+    questions: []
+  - slug: t11-l3
+    kind: vocab
+    title: { en: "Set 3: Hypotheses & assumptions", vi: "Bộ 3: Giả thuyết & giả định" }
+    senses:
+      [
+        working-theory-n,
+        take-for-granted-phr,
+        suspect-v,
+        probable-adj,
+        rule-out-phr,
+        sanity-check-n,
+        disprove-v,
+        data-point-n,
+        possible-cause-n,
+        condition-n-science,
+        prediction-n,
+        falsifiable-adj,
+        unknown-n,
+        narrow-down-phr,
+      ]
+    questions: []
+  - slug: t11-l4
+    kind: vocab
+    title: { en: "Set 4: Logs & traces", vi: "Bộ 4: Log & trace" }
+    senses:
+      [
+        log-entry-n,
+        log-level-n,
+        log-format-n,
+        stack-trace-n,
+        trace-id-n,
+        sequence-n-science,
+        event-n-science,
+        warning-n-science,
+        status-code-n,
+        verbose-adj,
+        grep-v,
+        extract-v,
+        preceding-adj,
+        surrounding-lines-n,
+        span-n,
+        noise-n-science,
+      ]
+    questions: []
+  - slug: t11-l5
+    kind: vocab
+    title: { en: "Set 5: A minimal experiment", vi: "Bộ 5: Thử nghiệm tối thiểu" }
+    senses:
+      [
+        experiment-n,
+        variable-n,
+        isolate-v-science,
+        controlled-adj,
+        minimal-adj,
+        factor-n,
+        hold-constant-phr,
+        repeat-v,
+        run-n,
+        roll-back-phr,
+        toggle-v-science,
+        feature-flag-n,
+        scratch-environment-n,
+        procedure-n,
+        time-v,
+        record-v-science,
+        clean-state-n,
+        one-at-a-time-phr,
+      ]
+    questions: []
+  - slug: t11-l6
+    kind: vocab
+    title: { en: "Set 6: Benchmarks & baselines", vi: "Bộ 6: Benchmark & đường cơ sở" }
+    senses:
+      [
+        micro-benchmark-n,
+        baseline-n-science,
+        latency-n,
+        throughput-n,
+        percentile-n,
+        warm-up-n,
+        overhead-n-science,
+        slowdown-n,
+        improvement-n-science,
+        average-n-science,
+        median-n,
+        variance-n,
+        outlier-n-science,
+        comparable-adj,
+        under-load-phr,
+        profile-v,
+        bottleneck-n-science,
+        iteration-n,
+        hardware-n,
+        cold-start-n,
+      ]
+    questions: []
+  - slug: t11-l7
+    kind: vocab
+    title: { en: "Set 7: A/B tests & metrics", vi: "Bộ 7: Thử nghiệm A/B & chỉ số" }
+    senses:
+      [
+        ab-test-n,
+        holdout-n,
+        variant-n,
+        metric-n-science,
+        conversion-rate-n,
+        traffic-split-n,
+        randomly-adv,
+        assign-v,
+        cohort-n,
+        statistically-significant-adj,
+        confidence-interval-n-science,
+        null-hypothesis-n,
+        p-value-n,
+        uplift-n,
+        guardrail-metric-n,
+        retention-n-science,
+        engagement-n,
+        ramp-up-phr,
+        exposure-n-science,
+        noisy-adj,
+        novelty-effect-n,
+        duration-n,
+      ]
+    questions: []
+  - slug: t11-l8
+    kind: vocab
+    title: { en: "Set 8: Correlation & causation", vi: "Bộ 8: Tương quan & quan hệ nhân quả" }
+    senses:
+      [
+        correlation-n,
+        causation-n,
+        cause-v,
+        coincidence-n,
+        confounding-variable-n,
+        spurious-adj,
+        upward-adj,
+        pattern-n,
+        imply-v,
+        infer-v,
+        conclude-v,
+        bear-out-phr-science,
+        contradict-v,
+        observational-adj,
+        sample-n-science,
+        generalise-v,
+        read-too-much-into-phr,
+        subtlety-n,
+        far-fetched-adj,
+        inconclusive-adj,
+        downstream-adj,
+        simultaneously-adv,
+        reverse-causation-n,
+        in-isolation-phr,
+      ]
+    questions: []
+  - slug: t11-l9
+    kind: vocab
+    title: { en: "Set 9: Root-cause analysis", vi: "Bộ 9: Phân tích nguyên nhân gốc" }
+    senses:
+      [
+        primary-cause-n,
+        contributing-factor-n,
+        trigger-n,
+        chain-of-events-n,
+        five-whys-n,
+        failure-mode-n,
+        quarantine-v-science,
+        remediation-n,
+        stopgap-n-science,
+        underlying-adj,
+        trace-back-phr,
+        pinpoint-v,
+        attribute-to-phr,
+        oversight-n,
+        misconfiguration-n,
+        race-condition-n,
+        cascade-v,
+        blast-radius-n,
+        detect-v,
+        recurrence-n-science,
+        circuit-breaker-n,
+        postmortem-n-science,
+        blameless-adj-science,
+        action-item-n-science,
+        corroborate-v-science,
+        testable-adj,
+        explanation-n,
+        consistent-with-phr,
+      ]
+    questions: []
+  - slug: t11-l10
+    kind: vocab
+    title: { en: "Set 10: Writing an investigation report", vi: "Bộ 10: Viết báo cáo điều tra" }
+    senses:
+      [
+        investigation-n,
+        key-takeaway-n,
+        timeframe-n,
+        cover-v,
+        how-we-tested-phr,
+        overview-n,
+        user-impact-n,
+        priority-level-n,
+        affected-adj,
+        restore-v-science,
+        outstanding-adj,
+        way-forward-n,
+        put-forward-phr,
+        known-issue-n-science,
+        raw-data-n-science,
+        reviewer-n-science,
+        jargon-n,
+        objective-adj,
+        lay-reader-n,
+        executive-summary-n,
+        approach-n,
+        looking-back-phr,
+        to-date-phr,
+        disclose-v-science,
+        owner-n-science,
+        keep-posted-phr,
+        evidence-based-adj,
+        fact-check-v,
+        circulate-v,
+        countersign-v,
+        reference-v,
+        concede-v,
+        lesson-learned-n-science,
+        initial-adj,
+        conclusive-adj,
+        attach-v-science,
+      ]
+    questions: []

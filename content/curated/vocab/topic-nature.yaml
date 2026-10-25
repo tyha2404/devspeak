@@ -1,0 +1,3430 @@
+# Vocabulary by topic: Sensor Data, Water & Environmental Systems (unit T23). Original content.
+# Set 1: sensors & readings
+- {
+    "slug": "sensor-n-nature",
+    "lemma": "sensor",
+    "pos": "noun",
+    "cefr": "A2",
+    "topic": "oceans",
+    "ipa": "/ˈsensə/",
+    "def": "A small device that notices a physical condition, such as heat or movement, and records it.",
+    "vi": "cảm biến",
+    "examples":
+      [
+        {
+          "en": "Each sensor sends its data to our server once a minute.",
+          "vi": "Mỗi cảm biến gửi dữ liệu lên server của mình mỗi phút một lần.",
+        },
+      ],
+  }
+- {
+    "slug": "reading-n-nature",
+    "lemma": "reading",
+    "pos": "noun",
+    "cefr": "A2",
+    "topic": "oceans",
+    "ipa": "/ˈriːdɪŋ/",
+    "def": "One value that a measuring device shows or reports at a certain moment.",
+    "vi": "số đo, chỉ số",
+    "examples":
+      [
+        {
+          "en": "The last reading from the river station was 2.4 metres.",
+          "vi": "Số đo gần nhất từ trạm sông là 2,4 mét.",
+        },
+      ],
+  }
+- {
+    "slug": "measure-v-nature",
+    "lemma": "measure",
+    "pos": "verb",
+    "cefr": "A2",
+    "topic": "oceans",
+    "ipa": "/ˈmeʒə/",
+    "def": "To find out the size, amount or level of something using a tool.",
+    "vi": "đo",
+    "examples":
+      [
+        {
+          "en": "This device measures the temperature of the water, not the air.",
+          "vi": "Thiết bị này đo nhiệt độ của nước, không phải không khí.",
+        },
+      ],
+  }
+- {
+    "slug": "temperature-n",
+    "lemma": "temperature",
+    "pos": "noun",
+    "cefr": "A2",
+    "topic": "oceans",
+    "ipa": "/ˈtemprətʃə/",
+    "def": "How hot or cold something is.",
+    "vi": "nhiệt độ",
+    "examples":
+      [
+        {
+          "en": "Show the temperature in Celsius on the main screen.",
+          "vi": "Hiển thị nhiệt độ theo độ C trên màn hình chính.",
+        },
+      ],
+  }
+- {
+    "slug": "humidity-n",
+    "lemma": "humidity",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "oceans",
+    "ipa": "/hjuːˈmɪdəti/",
+    "def": "The amount of water in the air.",
+    "vi": "độ ẩm",
+    "examples":
+      [
+        {
+          "en": "Humidity goes above 90% here during the rainy season.",
+          "vi": "Độ ẩm ở đây vượt 90% vào mùa mưa.",
+        },
+      ],
+  }
+- {
+    "slug": "pressure-n-nature",
+    "lemma": "pressure",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "oceans",
+    "ipa": "/ˈpreʃə/",
+    "def": "The force that air or water pushes with on a surface.",
+    "vi": "áp suất",
+    "examples":
+      [
+        {
+          "en": "A sudden drop in pipe pressure usually means a leak.",
+          "vi": "Áp suất ống tụt đột ngột thường có nghĩa là bị rò.",
+        },
+      ],
+  }
+- {
+    "slug": "transmit-v",
+    "lemma": "transmit",
+    "pos": "verb",
+    "cefr": "B1",
+    "topic": "oceans",
+    "ipa": "/trænzˈmɪt/",
+    "def": "To send data or a signal from one place to another, often without wires.",
+    "vi": "truyền (dữ liệu)",
+    "examples":
+      [
+        {
+          "en": "The station transmits its data over the mobile network.",
+          "vi": "Trạm truyền dữ liệu qua mạng di động.",
+        },
+      ],
+  }
+- {
+    "slug": "battery-n-nature",
+    "lemma": "battery",
+    "pos": "noun",
+    "cefr": "A2",
+    "topic": "oceans",
+    "ipa": "/ˈbætəri/",
+    "def": "An object that stores electricity and gives power to a device.",
+    "vi": "pin",
+    "examples":
+      [
+        {
+          "en": "Please add the battery level to the device details page.",
+          "vi": "Bạn thêm mức pin vào trang chi tiết thiết bị nhé.",
+        },
+      ],
+  }
+- {
+    "slug": "wind-speed-n",
+    "lemma": "wind speed",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "A2",
+    "topic": "oceans",
+    "ipa": "/ˈwɪnd spiːd/",
+    "def": "How fast the air is moving, usually shown in km/h or m/s.",
+    "vi": "tốc độ gió",
+    "examples":
+      [
+        {
+          "en": "The app shows wind speed next to the rain forecast.",
+          "vi": "Ứng dụng hiển thị tốc độ gió bên cạnh dự báo mưa.",
+        },
+      ],
+  }
+- {
+    "slug": "rainfall-n",
+    "lemma": "rainfall",
+    "pos": "noun",
+    "cefr": "A2",
+    "topic": "oceans",
+    "ipa": "/ˈreɪnfɔːl/",
+    "def": "The amount of rain that falls in a place during a period of time.",
+    "vi": "lượng mưa",
+    "examples":
+      [
+        {
+          "en": "Total rainfall for the day is shown in millimetres.",
+          "vi": "Tổng lượng mưa trong ngày được hiển thị theo milimét.",
+        },
+      ],
+  }
+# Set 2: units & measurement ranges
+- {
+    "slug": "unit-of-measurement-n",
+    "lemma": "unit of measurement",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "A2",
+    "topic": "oceans",
+    "ipa": "/ˈjuːnɪt əv ˈmeʒəmənt/",
+    "def": "A fixed amount, like a metre or a litre, used to express a measured value.",
+    "vi": "đơn vị đo",
+    "examples":
+      [
+        {
+          "en": "Every field in the API must say its unit of measurement.",
+          "vi": "Mỗi trường trong API phải ghi rõ đơn vị đo.",
+        },
+      ],
+  }
+- {
+    "slug": "degree-n",
+    "lemma": "degree",
+    "pos": "noun",
+    "cefr": "A2",
+    "topic": "oceans",
+    "ipa": "/dɪˈɡriː/",
+    "def": "A unit for measuring temperature or angles.",
+    "vi": "độ",
+    "examples":
+      [
+        {
+          "en": "The water is two degrees warmer than last week.",
+          "vi": "Nước ấm hơn tuần trước hai độ.",
+        },
+      ],
+  }
+- {
+    "slug": "millimetre-n",
+    "lemma": "millimetre",
+    "pos": "noun",
+    "cefr": "A2",
+    "topic": "oceans",
+    "ipa": "/ˈmɪlɪmiːtə/",
+    "def": "A unit of length; one thousandth of a metre.",
+    "vi": "milimét",
+    "examples":
+      [
+        {
+          "en": "Rain is reported in millimetres, not centimetres.",
+          "vi": "Lượng mưa được báo theo milimét, không phải centimét.",
+        },
+      ],
+  }
+- {
+    "slug": "litre-n",
+    "lemma": "litre",
+    "pos": "noun",
+    "cefr": "A2",
+    "topic": "oceans",
+    "ipa": "/ˈliːtə/",
+    "def": "A unit for measuring liquid; 1,000 litres make one cubic metre.",
+    "vi": "lít",
+    "examples":
+      [
+        {
+          "en": "The meter counts how many litres pass through each hour.",
+          "vi": "Đồng hồ đếm số lít chảy qua mỗi giờ.",
+        },
+      ],
+  }
+- {
+    "slug": "percentage-n-nature",
+    "lemma": "percentage",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "oceans",
+    "ipa": "/pəˈsentɪdʒ/",
+    "def": "An amount shown as a part of 100.",
+    "vi": "tỉ lệ phần trăm",
+    "examples":
+      [
+        {
+          "en": "Show the tank level as a percentage of its full size.",
+          "vi": "Hiển thị mức bồn theo phần trăm so với dung tích đầy.",
+        },
+      ],
+  }
+- {
+    "slug": "minimum-n",
+    "lemma": "minimum",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "oceans",
+    "ipa": "/ˈmɪnɪməm/",
+    "def": "The smallest amount that is possible or allowed.",
+    "vi": "giá trị nhỏ nhất",
+    "examples":
+      [
+        {
+          "en": "The minimum for this sensor is minus 40 degrees.",
+          "vi": "Giá trị nhỏ nhất của cảm biến này là âm 40 độ.",
+        },
+      ],
+  }
+- {
+    "slug": "maximum-n",
+    "lemma": "maximum",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "oceans",
+    "ipa": "/ˈmæksɪməm/",
+    "def": "The largest amount that is possible or allowed.",
+    "vi": "giá trị lớn nhất",
+    "examples":
+      [
+        {
+          "en": "Readings above the maximum should be marked as invalid.",
+          "vi": "Số đo vượt giá trị lớn nhất nên bị đánh dấu không hợp lệ.",
+        },
+      ],
+  }
+- {
+    "slug": "range-n",
+    "lemma": "range",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "oceans",
+    "ipa": "/reɪndʒ/",
+    "def": "All the values between a lowest and a highest limit.",
+    "vi": "khoảng, phạm vi",
+    "examples":
+      [
+        {
+          "en": "What is the valid range for pH values in this system?",
+          "vi": "Khoảng hợp lệ của giá trị pH trong hệ thống này là bao nhiêu?",
+        },
+      ],
+  }
+- {
+    "slug": "convert-v-nature",
+    "lemma": "convert",
+    "pos": "verb",
+    "cefr": "B1",
+    "topic": "oceans",
+    "ipa": "/kənˈvɜːt/",
+    "def": "To change a value from one unit or form into another.",
+    "vi": "chuyển đổi",
+    "examples":
+      [
+        {
+          "en": "We convert all temperatures to Celsius before saving them.",
+          "vi": "Bọn mình chuyển mọi nhiệt độ sang độ C trước khi lưu.",
+        },
+      ],
+  }
+- {
+    "slug": "decimal-n",
+    "lemma": "decimal",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "oceans",
+    "ipa": "/ˈdesɪml/",
+    "def": "A number that uses a point to show parts smaller than one, like 3.75.",
+    "vi": "số thập phân",
+    "examples":
+      [
+        {
+          "en": "Round water levels to two decimals on the chart.",
+          "vi": "Làm tròn mực nước đến hai chữ số thập phân trên biểu đồ.",
+        },
+      ],
+  }
+- {
+    "slug": "negative-adj",
+    "lemma": "negative",
+    "pos": "adjective",
+    "cefr": "B1",
+    "topic": "oceans",
+    "ipa": "/ˈneɡətɪv/",
+    "def": "Less than zero.",
+    "vi": "âm (nhỏ hơn 0)",
+    "examples":
+      [
+        {
+          "en": "A negative flow value means the water is moving backwards.",
+          "vi": "Giá trị lưu lượng âm nghĩa là nước đang chảy ngược.",
+        },
+      ],
+  }
+- {
+    "slug": "round-v",
+    "lemma": "round",
+    "pos": "verb",
+    "cefr": "B1",
+    "topic": "oceans",
+    "ipa": "/raʊnd/",
+    "def": "To change a number to the nearest whole number or simpler value.",
+    "vi": "làm tròn",
+    "examples":
+      [
+        {
+          "en": "Don't round the raw data; only round what users see.",
+          "vi": "Đừng làm tròn dữ liệu gốc; chỉ làm tròn phần người dùng thấy.",
+        },
+      ],
+  }
+# Set 3: time series & timestamps
+- {
+    "slug": "time-series-n",
+    "lemma": "time series",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B1",
+    "topic": "oceans",
+    "ipa": "/ˈtaɪm sɪəriːz/",
+    "def": "A list of values recorded one after another over time.",
+    "vi": "chuỗi thời gian",
+    "examples":
+      [
+        {
+          "en": "We store each station's data as a time series.",
+          "vi": "Bọn mình lưu dữ liệu mỗi trạm dưới dạng chuỗi thời gian.",
+        },
+      ],
+  }
+- {
+    "slug": "utc-n",
+    "lemma": "UTC",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "oceans",
+    "ipa": "/ˌjuː tiː ˈsiː/",
+    "def": "The world standard time that other time zones are counted from.",
+    "vi": "giờ UTC (giờ chuẩn quốc tế)",
+    "examples":
+      [
+        {
+          "en": "Store every time in UTC and convert it only for display.",
+          "vi": "Lưu mọi thời gian theo UTC và chỉ chuyển đổi khi hiển thị.",
+        },
+      ],
+  }
+- {
+    "slug": "interval-n",
+    "lemma": "interval",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "oceans",
+    "ipa": "/ˈɪntəvl/",
+    "def": "The period of time between two events or measurements.",
+    "vi": "khoảng thời gian (giữa hai lần)",
+    "examples":
+      [
+        {
+          "en": "The sensor reports at a ten-minute interval.",
+          "vi": "Cảm biến gửi số đo cách nhau mười phút.",
+        },
+      ],
+  }
+- {
+    "slug": "daylight-saving-n",
+    "lemma": "daylight saving time",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "oceans",
+    "ipa": "/ˌdeɪlaɪt ˈseɪvɪŋ taɪm/",
+    "def": "The practice in some countries of moving clocks forward one hour in summer.",
+    "vi": "giờ mùa hè",
+    "examples":
+      [
+        {
+          "en": "Our partners in Europe use daylight saving time, so check the offset.",
+          "vi": "Đối tác ở châu Âu dùng giờ mùa hè, nên hãy kiểm tra độ lệch giờ.",
+        },
+      ],
+  }
+- {
+    "slug": "record-v-nature",
+    "lemma": "record",
+    "pos": "verb",
+    "cefr": "A2",
+    "topic": "oceans",
+    "ipa": "/rɪˈkɔːd/",
+    "def": "To store information so that it can be used later.",
+    "vi": "ghi lại",
+    "examples":
+      [
+        {
+          "en": "The logger records a value even when the network is down.",
+          "vi": "Bộ ghi vẫn ghi lại giá trị kể cả khi mất mạng.",
+        },
+      ],
+  }
+- {
+    "slug": "sample-n",
+    "lemma": "sample",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "oceans",
+    "ipa": "/ˈsɑːmpl/",
+    "def": "A single measurement taken at one point in time.",
+    "vi": "mẫu (số đo)",
+    "examples":
+      [
+        {
+          "en": "We keep one sample per minute for the last 30 days.",
+          "vi": "Bọn mình giữ một mẫu mỗi phút cho 30 ngày gần nhất.",
+        },
+      ],
+  }
+- {
+    "slug": "hourly-adj",
+    "lemma": "hourly",
+    "pos": "adjective",
+    "cefr": "A2",
+    "topic": "oceans",
+    "ipa": "/ˈaʊəli/",
+    "def": "Happening or calculated once every hour.",
+    "vi": "theo giờ, hằng giờ",
+    "examples":
+      [
+        {
+          "en": "The chart shows hourly values by default.",
+          "vi": "Biểu đồ mặc định hiển thị giá trị theo giờ.",
+        },
+      ],
+  }
+- {
+    "slug": "average-n",
+    "lemma": "average",
+    "pos": "noun",
+    "cefr": "A2",
+    "topic": "oceans",
+    "ipa": "/ˈævərɪdʒ/",
+    "def": "The number you get by adding values together and dividing by how many there are.",
+    "vi": "giá trị trung bình",
+    "examples":
+      [
+        {
+          "en": "The daily average hides short spikes in the data.",
+          "vi": "Giá trị trung bình ngày che mất các đỉnh ngắn trong dữ liệu.",
+        },
+      ],
+  }
+- {
+    "slug": "trend-n-nature",
+    "lemma": "trend",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "oceans",
+    "ipa": "/trend/",
+    "def": "The general direction in which values are changing over time.",
+    "vi": "xu hướng",
+    "examples":
+      [
+        {
+          "en": "The trend shows the lake getting warmer every summer.",
+          "vi": "Xu hướng cho thấy hồ ấm dần lên mỗi mùa hè.",
+        },
+      ],
+  }
+- {
+    "slug": "peak-n",
+    "lemma": "peak",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "oceans",
+    "ipa": "/piːk/",
+    "def": "The highest point or value in a period.",
+    "vi": "đỉnh, giá trị cao nhất",
+    "examples":
+      [
+        {
+          "en": "The flood peak arrived at 3 a.m. local time.",
+          "vi": "Đỉnh lũ đến lúc 3 giờ sáng giờ địa phương.",
+        },
+      ],
+  }
+- {
+    "slug": "delay-n-nature",
+    "lemma": "delay",
+    "pos": "noun",
+    "cefr": "A2",
+    "topic": "oceans",
+    "ipa": "/dɪˈleɪ/",
+    "def": "The extra time before something arrives or happens.",
+    "vi": "độ trễ",
+    "examples":
+      [
+        {
+          "en": "There is a five-minute delay between measurement and display.",
+          "vi": "Có độ trễ năm phút giữa lúc đo và lúc hiển thị.",
+        },
+      ],
+  }
+- {
+    "slug": "sequence-n",
+    "lemma": "sequence",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "oceans",
+    "ipa": "/ˈsiːkwəns/",
+    "def": "A series of things in a particular order.",
+    "vi": "trình tự, chuỗi",
+    "examples":
+      [
+        {
+          "en": "Data can arrive out of sequence, so sort it by measured time.",
+          "vi": "Dữ liệu có thể đến không theo trình tự, nên hãy sắp xếp theo thời gian đo.",
+        },
+      ],
+  }
+- {
+    "slug": "daily-total-n",
+    "lemma": "daily total",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "A2",
+    "topic": "oceans",
+    "ipa": "/ˌdeɪli ˈtəʊtl/",
+    "def": "The sum of all values counted during one day.",
+    "vi": "tổng trong ngày",
+    "examples":
+      [
+        {
+          "en": "Which time zone decides where the daily total starts?",
+          "vi": "Múi giờ nào quyết định tổng trong ngày bắt đầu từ lúc nào?",
+        },
+      ],
+  }
+- {
+    "slug": "ingestion-time-n",
+    "lemma": "ingestion time",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "oceans",
+    "ipa": "/ɪnˈdʒestʃən taɪm/",
+    "def": "The moment a system receives and saves data, which may be later than when it was measured.",
+    "vi": "thời điểm nhận dữ liệu",
+    "examples":
+      [
+        {
+          "en": "Ingestion time is useful for debugging, but users need measured time.",
+          "vi": "Thời điểm nhận dữ liệu có ích khi debug, nhưng người dùng cần thời gian đo.",
+        },
+      ],
+  }
+# Set 4: missing & stale data
+- {
+    "slug": "absent-adj",
+    "lemma": "absent",
+    "pos": "adjective",
+    "cefr": "B1",
+    "topic": "oceans",
+    "ipa": "/ˈæbsənt/",
+    "def": "Not present in a place or a set of data.",
+    "vi": "vắng mặt, không có",
+    "examples":
+      [
+        {
+          "en": 'If the field is absent, show "no data" instead of zero.',
+          "vi": 'Nếu trường đó không có, hãy hiện "không có dữ liệu" thay vì số 0.',
+        },
+      ],
+  }
+- {
+    "slug": "stale-adj-nature",
+    "lemma": "stale",
+    "pos": "adjective",
+    "cefr": "B2",
+    "topic": "oceans",
+    "ipa": "/steɪl/",
+    "def": "No longer fresh; old enough that it may not be true any more.",
+    "vi": "cũ, quá hạn",
+    "examples":
+      [
+        {
+          "en": "Mark a value as stale if it is more than an hour old.",
+          "vi": "Đánh dấu giá trị là cũ nếu nó đã quá một giờ.",
+        },
+      ],
+  }
+- {
+    "slug": "gap-n",
+    "lemma": "gap",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "oceans",
+    "ipa": "/ɡæp/",
+    "def": "A period where there is no data between two points.",
+    "vi": "khoảng trống",
+    "examples":
+      [
+        {
+          "en": "Don't draw a line across the gap; leave it empty.",
+          "vi": "Đừng nối đường qua khoảng trống; cứ để trống.",
+        },
+      ],
+  }
+- {
+    "slug": "disconnected-adj",
+    "lemma": "disconnected",
+    "pos": "adjective",
+    "cefr": "B1",
+    "topic": "oceans",
+    "ipa": "/ˌdɪskəˈnektɪd/",
+    "def": "No longer joined to a network or power supply.",
+    "vi": "mất kết nối",
+    "examples":
+      [
+        {
+          "en": "Three stations have been disconnected since the storm.",
+          "vi": "Ba trạm đã mất kết nối từ sau cơn bão.",
+        },
+      ],
+  }
+- {
+    "slug": "outage-n-nature",
+    "lemma": "outage",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "oceans",
+    "ipa": "/ˈaʊtɪdʒ/",
+    "def": "A period when a service or power supply stops working.",
+    "vi": "sự cố ngừng hoạt động",
+    "examples":
+      [
+        {
+          "en": "A power outage stopped the pumps for two hours.",
+          "vi": "Sự cố mất điện làm máy bơm ngừng hai tiếng.",
+        },
+      ],
+  }
+- {
+    "slug": "zero-n",
+    "lemma": "zero",
+    "pos": "noun",
+    "cefr": "A2",
+    "topic": "oceans",
+    "ipa": "/ˈzɪərəʊ/",
+    "def": "The number 0.",
+    "vi": "số không",
+    "examples":
+      [
+        {
+          "en": "Zero rainfall and no rainfall data are not the same thing.",
+          "vi": "Lượng mưa bằng 0 và không có dữ liệu mưa là hai chuyện khác nhau.",
+        },
+      ],
+  }
+- {
+    "slug": "null-n",
+    "lemma": "null",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "oceans",
+    "ipa": "/nʌl/",
+    "def": 'A special value in data that means "nothing is known here".',
+    "vi": "giá trị null",
+    "examples":
+      [
+        {
+          "en": "The API returns null when the sensor did not report.",
+          "vi": "API trả về null khi cảm biến không gửi số đo.",
+        },
+      ],
+  }
+- {
+    "slug": "last-seen-n",
+    "lemma": "last seen",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B1",
+    "topic": "oceans",
+    "ipa": "/ˌlɑːst ˈsiːn/",
+    "def": "The most recent time a device contacted the system.",
+    "vi": "lần cuối hoạt động",
+    "examples":
+      [
+        {
+          "en": 'Add a "last seen" column so operators can spot silent devices.',
+          "vi": 'Thêm cột "lần cuối hoạt động" để người vận hành phát hiện thiết bị im lặng.',
+        },
+      ],
+  }
+- {
+    "slug": "dash-n",
+    "lemma": "dash",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "oceans",
+    "ipa": "/dæʃ/",
+    "def": "A short line (—) often used in a table to show that a value is missing.",
+    "vi": "dấu gạch ngang",
+    "examples":
+      [
+        {
+          "en": "Show a dash in the cell when there is no reading.",
+          "vi": "Hiện dấu gạch ngang trong ô khi không có số đo.",
+        },
+      ],
+  }
+- {
+    "slug": "reconnect-v-nature",
+    "lemma": "reconnect",
+    "pos": "verb",
+    "cefr": "B1",
+    "topic": "oceans",
+    "ipa": "/ˌriːkəˈnekt/",
+    "def": "To join a network again after being cut off.",
+    "vi": "kết nối lại",
+    "examples":
+      [
+        {
+          "en": "When the station reconnects, it uploads the stored values.",
+          "vi": "Khi trạm kết nối lại, nó tải lên các giá trị đã lưu.",
+        },
+      ],
+  }
+- {
+    "slug": "backfill-v-nature",
+    "lemma": "backfill",
+    "pos": "verb",
+    "cefr": "C1",
+    "topic": "oceans",
+    "ipa": "/ˈbækfɪl/",
+    "def": "To add missing past data after it becomes available.",
+    "vi": "bổ sung dữ liệu quá khứ",
+    "examples":
+      [
+        {
+          "en": "We will backfill last week's readings once the logger is collected.",
+          "vi": "Bọn mình sẽ bổ sung số đo tuần trước khi thu hồi bộ ghi.",
+        },
+      ],
+  }
+- {
+    "slug": "estimate-v-nature",
+    "lemma": "estimate",
+    "pos": "verb",
+    "cefr": "B1",
+    "topic": "oceans",
+    "ipa": "/ˈestɪmeɪt/",
+    "def": "To guess a value using the information you have.",
+    "vi": "ước tính",
+    "examples":
+      [
+        {
+          "en": "If you estimate a value, label it clearly as estimated.",
+          "vi": "Nếu ước tính một giá trị, hãy ghi rõ là ước tính.",
+        },
+      ],
+  }
+- {
+    "slug": "dropout-n",
+    "lemma": "dropout",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "oceans",
+    "ipa": "/ˈdrɒpaʊt/",
+    "def": "A short, sudden loss of signal or data.",
+    "vi": "sự rớt tín hiệu",
+    "examples":
+      [
+        {
+          "en": "Brief dropouts are normal in rural areas with weak coverage.",
+          "vi": "Rớt tín hiệu ngắn là bình thường ở vùng nông thôn sóng yếu.",
+        },
+      ],
+  }
+- {
+    "slug": "incomplete-adj",
+    "lemma": "incomplete",
+    "pos": "adjective",
+    "cefr": "B1",
+    "topic": "oceans",
+    "ipa": "/ˌɪnkəmˈpliːt/",
+    "def": "Not having all the parts that it should have.",
+    "vi": "không đầy đủ",
+    "examples":
+      [
+        {
+          "en": "Today's total is incomplete until midnight.",
+          "vi": "Tổng hôm nay chưa đầy đủ cho đến nửa đêm.",
+        },
+      ],
+  }
+- {
+    "slug": "no-data-phr",
+    "lemma": "no data",
+    "pos": "phrase",
+    "kind": "phrase",
+    "cefr": "A2",
+    "topic": "oceans",
+    "ipa": "/ˌnəʊ ˈdeɪtə/",
+    "def": "A label that tells users nothing was measured or received.",
+    "vi": "không có dữ liệu",
+    "examples":
+      [
+        {
+          "en": 'Use a grey "no data" label, not a red error.',
+          "vi": 'Dùng nhãn "không có dữ liệu" màu xám, không phải lỗi màu đỏ.',
+        },
+      ],
+  }
+- {
+    "slug": "resume-v",
+    "lemma": "resume",
+    "pos": "verb",
+    "cefr": "B2",
+    "topic": "oceans",
+    "ipa": "/rɪˈzjuːm/",
+    "def": "To start again after a pause.",
+    "vi": "tiếp tục lại",
+    "examples":
+      [
+        {
+          "en": "Reporting resumed at 9:40 after the battery was changed.",
+          "vi": "Việc gửi số đo tiếp tục lại lúc 9:40 sau khi thay pin.",
+        },
+      ],
+  }
+# Set 5: water & resource monitoring
+- {
+    "slug": "water-level-n",
+    "lemma": "water level",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "A2",
+    "topic": "oceans",
+    "ipa": "/ˈwɔːtə levl/",
+    "def": "The height of the surface of water in a river, lake or tank.",
+    "vi": "mực nước",
+    "examples":
+      [
+        {
+          "en": "The water level is shown in metres above the riverbed.",
+          "vi": "Mực nước được tính bằng mét so với đáy sông.",
+        },
+      ],
+  }
+- {
+    "slug": "flow-n-nature",
+    "lemma": "flow",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "oceans",
+    "ipa": "/fləʊ/",
+    "def": "The amount of water moving past a point in a period of time.",
+    "vi": "lưu lượng, dòng chảy",
+    "examples":
+      [
+        {
+          "en": "Flow is measured in litres per second.",
+          "vi": "Lưu lượng được đo bằng lít trên giây.",
+        },
+      ],
+  }
+- {
+    "slug": "reservoir-n",
+    "lemma": "reservoir",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "oceans",
+    "ipa": "/ˈrezəvwɑː/",
+    "def": "A large lake, often man-made, that stores water for a city or farm.",
+    "vi": "hồ chứa",
+    "examples":
+      [
+        {
+          "en": "The reservoir is only 40% full after the dry season.",
+          "vi": "Hồ chứa chỉ đầy 40% sau mùa khô.",
+        },
+      ],
+  }
+- {
+    "slug": "river-n",
+    "lemma": "river",
+    "pos": "noun",
+    "cefr": "A1",
+    "topic": "oceans",
+    "ipa": "/ˈrɪvə/",
+    "def": "A large natural stream of water that flows to the sea or a lake.",
+    "vi": "sông",
+    "examples":
+      [
+        {
+          "en": "We have twelve stations along the river.",
+          "vi": "Bọn mình có mười hai trạm dọc theo sông.",
+        },
+      ],
+  }
+- {
+    "slug": "pipe-n",
+    "lemma": "pipe",
+    "pos": "noun",
+    "cefr": "A2",
+    "topic": "oceans",
+    "ipa": "/paɪp/",
+    "def": "A tube that carries water or gas.",
+    "vi": "đường ống",
+    "examples":
+      [
+        {
+          "en": "Each pipe in the network has its own ID.",
+          "vi": "Mỗi đường ống trong mạng có mã riêng.",
+        },
+      ],
+  }
+- {
+    "slug": "leak-n-nature",
+    "lemma": "leak",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "oceans",
+    "ipa": "/liːk/",
+    "def": "A hole or crack that lets water or gas escape.",
+    "vi": "chỗ rò rỉ",
+    "examples":
+      [
+        {
+          "en": "Night-time flow can help us find a leak.",
+          "vi": "Lưu lượng ban đêm có thể giúp tìm chỗ rò rỉ.",
+        },
+      ],
+  }
+- {
+    "slug": "pump-n",
+    "lemma": "pump",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "oceans",
+    "ipa": "/pʌmp/",
+    "def": "A machine that pushes water or air through pipes.",
+    "vi": "máy bơm",
+    "examples":
+      [
+        {
+          "en": "Show whether each pump is running or stopped.",
+          "vi": "Hiển thị từng máy bơm đang chạy hay đã dừng.",
+        },
+      ],
+  }
+- {
+    "slug": "tank-n",
+    "lemma": "tank",
+    "pos": "noun",
+    "cefr": "A2",
+    "topic": "oceans",
+    "ipa": "/tæŋk/",
+    "def": "A large container for holding liquid.",
+    "vi": "bồn, bể chứa",
+    "examples":
+      [
+        {
+          "en": "The tank page should show its level and capacity.",
+          "vi": "Trang bồn chứa nên hiển thị mức nước và dung tích.",
+        },
+      ],
+  }
+- {
+    "slug": "water-quality-n",
+    "lemma": "water quality",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B1",
+    "topic": "oceans",
+    "ipa": "/ˈwɔːtə ˌkwɒləti/",
+    "def": "How clean and safe water is, based on tests.",
+    "vi": "chất lượng nước",
+    "examples":
+      [
+        {
+          "en": "Water quality results are uploaded by the lab once a day.",
+          "vi": "Kết quả chất lượng nước được phòng lab tải lên mỗi ngày một lần.",
+        },
+      ],
+  }
+- {
+    "slug": "supply-n",
+    "lemma": "supply",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "oceans",
+    "ipa": "/səˈplaɪ/",
+    "def": "An amount of something that is available to be used.",
+    "vi": "nguồn cung",
+    "examples":
+      [
+        {
+          "en": "The dashboard should warn if the water supply is running low.",
+          "vi": "Dashboard nên cảnh báo khi nguồn cung nước sắp cạn.",
+        },
+      ],
+  }
+- {
+    "slug": "consumption-n-nature",
+    "lemma": "consumption",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "oceans",
+    "ipa": "/kənˈsʌmpʃn/",
+    "def": "The amount of something that people use.",
+    "vi": "lượng tiêu thụ",
+    "examples":
+      [
+        {
+          "en": "Monthly consumption is shown per household.",
+          "vi": "Lượng tiêu thụ hằng tháng được hiển thị theo từng hộ.",
+        },
+      ],
+  }
+- {
+    "slug": "drought-n",
+    "lemma": "drought",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "oceans",
+    "ipa": "/draʊt/",
+    "def": "A long period with little or no rain.",
+    "vi": "hạn hán",
+    "examples":
+      [
+        {
+          "en": "During the drought, farmers checked the app every morning.",
+          "vi": "Trong đợt hạn hán, nông dân xem ứng dụng mỗi sáng.",
+        },
+      ],
+  }
+- {
+    "slug": "flood-n",
+    "lemma": "flood",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "oceans",
+    "ipa": "/flʌd/",
+    "def": "A large amount of water covering land that is usually dry.",
+    "vi": "lũ lụt",
+    "examples":
+      [
+        {
+          "en": "The flood map updates every fifteen minutes.",
+          "vi": "Bản đồ lũ cập nhật mỗi mười lăm phút.",
+        },
+      ],
+  }
+- {
+    "slug": "operator-n",
+    "lemma": "operator",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "oceans",
+    "ipa": "/ˈɒpəreɪtə/",
+    "def": "A person whose job is to control a machine or system.",
+    "vi": "người vận hành",
+    "examples":
+      [
+        {
+          "en": "Operators need to see all pump faults on one screen.",
+          "vi": "Người vận hành cần thấy mọi lỗi máy bơm trên một màn hình.",
+        },
+      ],
+  }
+- {
+    "slug": "valve-n",
+    "lemma": "valve",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "oceans",
+    "ipa": "/vælv/",
+    "def": "A part that opens or closes to control the flow of liquid.",
+    "vi": "van",
+    "examples":
+      [
+        {
+          "en": "The app should record who opened the valve and when.",
+          "vi": "Ứng dụng nên ghi lại ai mở van và lúc nào.",
+        },
+      ],
+  }
+- {
+    "slug": "usage-pattern-n",
+    "lemma": "usage pattern",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "oceans",
+    "ipa": "/ˈjuːsɪdʒ ˌpætn/",
+    "def": "The usual way that people use something over time.",
+    "vi": "thói quen sử dụng",
+    "examples":
+      [
+        {
+          "en": "Usage patterns change a lot during the Tết holiday.",
+          "vi": "Thói quen sử dụng thay đổi nhiều trong dịp Tết.",
+        },
+      ],
+  }
+- {
+    "slug": "groundwater-n",
+    "lemma": "groundwater",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "oceans",
+    "ipa": "/ˈɡraʊndwɔːtə/",
+    "def": "Water that is held under the ground in soil or rock.",
+    "vi": "nước ngầm",
+    "examples":
+      [
+        {
+          "en": "Groundwater levels fall slowly, so we sample them weekly.",
+          "vi": "Mực nước ngầm giảm chậm nên bọn mình lấy mẫu hằng tuần.",
+        },
+      ],
+  }
+- {
+    "slug": "seep-v",
+    "lemma": "seep",
+    "pos": "verb",
+    "cefr": "C1",
+    "topic": "oceans",
+    "ipa": "/siːp/",
+    "def": "To flow slowly through a small opening or through soil.",
+    "vi": "thấm, rỉ",
+    "examples":
+      [
+        {
+          "en": "Salt water can seep into wells near the coast.",
+          "vi": "Nước mặn có thể thấm vào giếng gần bờ biển.",
+        },
+      ],
+  }
+# Set 6: thresholds & alerts
+- {
+    "slug": "threshold-n-nature",
+    "lemma": "threshold",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "oceans",
+    "ipa": "/ˈθreʃhəʊld/",
+    "def": "The level at which something starts to happen, such as an alert.",
+    "vi": "ngưỡng",
+    "examples":
+      [{ "en": "Who sets the threshold for each station?", "vi": "Ai đặt ngưỡng cho từng trạm?" }],
+  }
+- {
+    "slug": "alert-n",
+    "lemma": "alert",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "oceans",
+    "ipa": "/əˈlɜːt/",
+    "def": "A message that warns people about a problem.",
+    "vi": "cảnh báo",
+    "examples":
+      [
+        {
+          "en": "Send an alert when the river rises above 3 metres.",
+          "vi": "Gửi cảnh báo khi mực sông lên quá 3 mét.",
+        },
+      ],
+  }
+- {
+    "slug": "exceed-v-nature",
+    "lemma": "exceed",
+    "pos": "verb",
+    "cefr": "B2",
+    "topic": "oceans",
+    "ipa": "/ɪkˈsiːd/",
+    "def": "To be greater than a number or limit.",
+    "vi": "vượt quá",
+    "examples":
+      [
+        {
+          "en": "The alert fires when turbidity exceeds the limit.",
+          "vi": "Cảnh báo bật khi độ đục vượt quá giới hạn.",
+        },
+      ],
+  }
+- {
+    "slug": "trigger-v",
+    "lemma": "trigger",
+    "pos": "verb",
+    "cefr": "B2",
+    "topic": "oceans",
+    "ipa": "/ˈtrɪɡə/",
+    "def": "To make something start to happen.",
+    "vi": "kích hoạt",
+    "examples":
+      [
+        {
+          "en": "One bad reading should not trigger an alarm.",
+          "vi": "Một số đo sai không nên kích hoạt báo động.",
+        },
+      ],
+  }
+- {
+    "slug": "notify-v-nature",
+    "lemma": "notify",
+    "pos": "verb",
+    "cefr": "B1",
+    "topic": "oceans",
+    "ipa": "/ˈnəʊtɪfaɪ/",
+    "def": "To tell someone officially about something.",
+    "vi": "thông báo",
+    "examples":
+      [
+        {
+          "en": "Notify the duty engineer by SMS and email.",
+          "vi": "Thông báo cho kỹ sư trực qua SMS và email.",
+        },
+      ],
+  }
+- {
+    "slug": "severity-n-nature",
+    "lemma": "severity",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "oceans",
+    "ipa": "/sɪˈverəti/",
+    "def": "How serious a problem is.",
+    "vi": "mức độ nghiêm trọng",
+    "examples":
+      [
+        {
+          "en": "Each alert has a severity from low to high.",
+          "vi": "Mỗi cảnh báo có mức độ nghiêm trọng từ thấp đến cao.",
+        },
+      ],
+  }
+- {
+    "slug": "warning-level-n",
+    "lemma": "warning level",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B1",
+    "topic": "oceans",
+    "ipa": "/ˈwɔːnɪŋ levl/",
+    "def": "One of the official steps that show how dangerous a situation is.",
+    "vi": "cấp báo động",
+    "examples":
+      [
+        {
+          "en": "The river reached warning level two this morning.",
+          "vi": "Sông đạt báo động cấp hai sáng nay.",
+        },
+      ],
+  }
+- {
+    "slug": "subscriber-n",
+    "lemma": "subscriber",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "oceans",
+    "ipa": "/səbˈskraɪbə/",
+    "def": "A person who has chosen to receive messages about something.",
+    "vi": "người đăng ký nhận",
+    "examples":
+      [
+        {
+          "en": "Subscribers can choose which stations they hear about.",
+          "vi": "Người đăng ký nhận có thể chọn trạm nào họ muốn nhận tin.",
+        },
+      ],
+  }
+- {
+    "slug": "notification-channel-n",
+    "lemma": "notification channel",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "oceans",
+    "ipa": "/ˌnəʊtɪfɪˈkeɪʃn ˌtʃænl/",
+    "def": "The way a message is delivered, such as SMS, email or an app.",
+    "vi": "kênh thông báo",
+    "examples":
+      [
+        {
+          "en": "Critical alerts need a second notification channel.",
+          "vi": "Cảnh báo nghiêm trọng cần thêm một kênh thông báo thứ hai.",
+        },
+      ],
+  }
+- {
+    "slug": "hysteresis-n",
+    "lemma": "hysteresis",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "oceans",
+    "ipa": "/ˌhɪstəˈriːsɪs/",
+    "def": 'A gap between the "on" and "off" levels so an alert does not switch back and forth.',
+    "vi": "độ trễ ngưỡng (hysteresis)",
+    "examples":
+      [
+        {
+          "en": "Add some hysteresis so the alert doesn't flap around 3 metres.",
+          "vi": "Thêm độ trễ ngưỡng để cảnh báo không bật tắt liên tục quanh mức 3 mét.",
+        },
+      ],
+  }
+- {
+    "slug": "false-alarm-n",
+    "lemma": "false alarm",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B1",
+    "topic": "oceans",
+    "ipa": "/ˌfɔːls əˈlɑːm/",
+    "def": "A warning about a danger that is not real.",
+    "vi": "báo động giả",
+    "examples":
+      [
+        {
+          "en": "Too many false alarms make people ignore real ones.",
+          "vi": "Quá nhiều báo động giả khiến mọi người bỏ qua báo động thật.",
+        },
+      ],
+  }
+- {
+    "slug": "suppress-v",
+    "lemma": "suppress",
+    "pos": "verb",
+    "cefr": "C1",
+    "topic": "oceans",
+    "ipa": "/səˈpres/",
+    "def": "To stop something from appearing or being sent.",
+    "vi": "chặn, tạm ẩn",
+    "examples":
+      [
+        {
+          "en": "Suppress alerts from stations that are under maintenance.",
+          "vi": "Tạm chặn cảnh báo từ các trạm đang bảo trì.",
+        },
+      ],
+  }
+- {
+    "slug": "rule-n",
+    "lemma": "rule",
+    "pos": "noun",
+    "cefr": "A2",
+    "topic": "oceans",
+    "ipa": "/ruːl/",
+    "def": "An instruction that says what should happen in a certain situation.",
+    "vi": "quy tắc",
+    "examples":
+      [
+        {
+          "en": "Each alert rule has a condition and a list of people.",
+          "vi": "Mỗi quy tắc cảnh báo có một điều kiện và một danh sách người nhận.",
+        },
+      ],
+  }
+- {
+    "slug": "condition-n-nature",
+    "lemma": "condition",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "oceans",
+    "ipa": "/kənˈdɪʃn/",
+    "def": "Something that must be true for another thing to happen.",
+    "vi": "điều kiện",
+    "examples":
+      [
+        {
+          "en": 'The condition is "level above 3 m for 10 minutes".',
+          "vi": 'Điều kiện là "mực nước trên 3 m trong 10 phút".',
+        },
+      ],
+  }
+- {
+    "slug": "sustained-adj",
+    "lemma": "sustained",
+    "pos": "adjective",
+    "cefr": "C1",
+    "topic": "oceans",
+    "ipa": "/səˈsteɪnd/",
+    "def": "Continuing for a period of time without stopping.",
+    "vi": "kéo dài, liên tục",
+    "examples":
+      [
+        {
+          "en": "Only alert on a sustained rise, not a single spike.",
+          "vi": "Chỉ cảnh báo khi tăng liên tục, không phải một đỉnh đơn lẻ.",
+        },
+      ],
+  }
+- {
+    "slug": "rota-n",
+    "lemma": "rota",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "oceans",
+    "ipa": "/ˈrəʊtə/",
+    "def": "A list showing who works at which times, taking turns.",
+    "vi": "lịch trực luân phiên",
+    "examples":
+      [
+        {
+          "en": "Night alerts go to whoever is on the rota that week.",
+          "vi": "Cảnh báo ban đêm gửi cho người có tên trong lịch trực tuần đó.",
+        },
+      ],
+  }
+- {
+    "slug": "cooldown-n",
+    "lemma": "cooldown",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "oceans",
+    "ipa": "/ˈkuːldaʊn/",
+    "def": "A waiting period before the same action can happen again.",
+    "vi": "thời gian chờ",
+    "examples":
+      [
+        {
+          "en": "Use a 30-minute cooldown between repeated alerts.",
+          "vi": "Dùng thời gian chờ 30 phút giữa các cảnh báo lặp lại.",
+        },
+      ],
+  }
+- {
+    "slug": "duplicate-n-nature",
+    "lemma": "duplicate",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "oceans",
+    "ipa": "/ˈdjuːplɪkət/",
+    "def": "An exact copy of something that already exists.",
+    "vi": "bản trùng lặp",
+    "examples":
+      [
+        {
+          "en": "Group duplicates so operators get one message, not ten.",
+          "vi": "Gộp các bản trùng lặp để người vận hành nhận một tin, không phải mười.",
+        },
+      ],
+  }
+- {
+    "slug": "critical-adj",
+    "lemma": "critical",
+    "pos": "adjective",
+    "cefr": "B2",
+    "topic": "oceans",
+    "ipa": "/ˈkrɪtɪkl/",
+    "def": "Extremely serious and needing action immediately.",
+    "vi": "nghiêm trọng, nguy cấp",
+    "examples":
+      [
+        {
+          "en": "A critical alert must reach someone within five minutes.",
+          "vi": "Cảnh báo nguy cấp phải đến được ai đó trong vòng năm phút.",
+        },
+      ],
+  }
+- {
+    "slug": "fall-below-phr",
+    "lemma": "fall below",
+    "pos": "phrasal_verb",
+    "kind": "phrasal",
+    "cefr": "B1",
+    "topic": "oceans",
+    "ipa": "/ˌfɔːl bɪˈləʊ/",
+    "def": "To become lower than a certain level.",
+    "vi": "xuống dưới (mức)",
+    "examples":
+      [
+        {
+          "en": "Warn us when oxygen falls below 4 mg per litre.",
+          "vi": "Báo cho bọn mình khi oxy xuống dưới 4 mg mỗi lít.",
+        },
+      ],
+  }
+# Set 7: maps & environmental layers
+- {
+    "slug": "layer-n",
+    "lemma": "layer",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "oceans",
+    "ipa": "/ˈleɪə/",
+    "def": "One set of map data that can be shown on top of others.",
+    "vi": "lớp (bản đồ)",
+    "examples":
+      [
+        {
+          "en": "Users can turn the rainfall layer on or off.",
+          "vi": "Người dùng có thể bật hoặc tắt lớp lượng mưa.",
+        },
+      ],
+  }
+- {
+    "slug": "coverage-n-nature",
+    "lemma": "coverage",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "oceans",
+    "ipa": "/ˈkʌvərɪdʒ/",
+    "def": "The area or amount that something includes.",
+    "vi": "phạm vi phủ",
+    "examples":
+      [
+        {
+          "en": "Satellite coverage stops at the national border.",
+          "vi": "Phạm vi phủ của vệ tinh dừng ở biên giới quốc gia.",
+        },
+      ],
+  }
+- {
+    "slug": "province-n",
+    "lemma": "province",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "oceans",
+    "ipa": "/ˈprɒvɪns/",
+    "def": "One of the large areas a country is divided into for government.",
+    "vi": "tỉnh",
+    "examples":
+      [
+        {
+          "en": "Let users filter stations by province.",
+          "vi": "Cho phép người dùng lọc trạm theo tỉnh.",
+        },
+      ],
+  }
+- {
+    "slug": "polygon-n",
+    "lemma": "polygon",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "oceans",
+    "ipa": "/ˈpɒlɪɡən/",
+    "def": "A shape with many straight sides, used on maps to mark an area.",
+    "vi": "đa giác",
+    "examples":
+      [
+        {
+          "en": "Each flood zone is stored as a polygon.",
+          "vi": "Mỗi vùng ngập được lưu dưới dạng đa giác.",
+        },
+      ],
+  }
+- {
+    "slug": "coordinates-n",
+    "lemma": "coordinates",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "oceans",
+    "ipa": "/kəʊˈɔːdɪnəts/",
+    "def": "A pair of numbers that shows an exact position on a map.",
+    "vi": "tọa độ",
+    "examples":
+      [
+        {
+          "en": "Check that the coordinates are not swapped.",
+          "vi": "Kiểm tra xem tọa độ có bị đảo ngược không.",
+        },
+      ],
+  }
+- {
+    "slug": "latitude-n",
+    "lemma": "latitude",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "oceans",
+    "ipa": "/ˈlætɪtjuːd/",
+    "def": "The distance of a place north or south of the equator.",
+    "vi": "vĩ độ",
+    "examples":
+      [
+        {
+          "en": "Latitude must be between minus 90 and 90.",
+          "vi": "Vĩ độ phải nằm trong khoảng âm 90 đến 90.",
+        },
+      ],
+  }
+- {
+    "slug": "longitude-n",
+    "lemma": "longitude",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "oceans",
+    "ipa": "/ˈlɒŋɡɪtjuːd/",
+    "def": "The distance of a place east or west of Greenwich in London.",
+    "vi": "kinh độ",
+    "examples":
+      [
+        {
+          "en": "Vietnam's longitude is around 102 to 110 degrees east.",
+          "vi": "Kinh độ của Việt Nam khoảng từ 102 đến 110 độ Đông.",
+        },
+      ],
+  }
+- {
+    "slug": "satellite-n",
+    "lemma": "satellite",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "oceans",
+    "ipa": "/ˈsætəlaɪt/",
+    "def": "A machine that goes around the Earth and collects or sends information.",
+    "vi": "vệ tinh",
+    "examples":
+      [
+        {
+          "en": "The satellite image is updated every three days.",
+          "vi": "Ảnh vệ tinh được cập nhật ba ngày một lần.",
+        },
+      ],
+  }
+- {
+    "slug": "resolution-n-nature",
+    "lemma": "resolution",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "oceans",
+    "ipa": "/ˌrezəˈluːʃn/",
+    "def": "How much detail an image or data set has, such as metres per pixel.",
+    "vi": "độ phân giải",
+    "examples":
+      [
+        {
+          "en": "At this resolution, one pixel covers 10 metres.",
+          "vi": "Ở độ phân giải này, một pixel bằng 10 mét.",
+        },
+      ],
+  }
+- {
+    "slug": "overlay-v",
+    "lemma": "overlay",
+    "pos": "verb",
+    "cefr": "C1",
+    "topic": "oceans",
+    "ipa": "/ˌəʊvəˈleɪ/",
+    "def": "To put one layer of information on top of another.",
+    "vi": "chồng lớp",
+    "examples":
+      [
+        {
+          "en": "Overlay the station markers on the flood map.",
+          "vi": "Chồng các điểm trạm lên bản đồ lũ.",
+        },
+      ],
+  }
+- {
+    "slug": "legend-n-nature",
+    "lemma": "legend",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "oceans",
+    "ipa": "/ˈledʒənd/",
+    "def": "The box on a map or chart that explains its colours and symbols.",
+    "vi": "chú giải",
+    "examples":
+      [
+        {
+          "en": "The legend must explain what each colour means.",
+          "vi": "Chú giải phải giải thích mỗi màu có nghĩa gì.",
+        },
+      ],
+  }
+- {
+    "slug": "scale-n",
+    "lemma": "scale",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "oceans",
+    "ipa": "/skeɪl/",
+    "def": "A line on a map that shows how distances compare with real life.",
+    "vi": "tỉ lệ (bản đồ)",
+    "examples":
+      [
+        {
+          "en": "Show the scale in the bottom corner of the map.",
+          "vi": "Hiển thị tỉ lệ ở góc dưới của bản đồ.",
+        },
+      ],
+  }
+- {
+    "slug": "zoom-in-phr",
+    "lemma": "zoom in",
+    "pos": "phrasal_verb",
+    "kind": "phrasal",
+    "cefr": "B1",
+    "topic": "oceans",
+    "ipa": "/ˌzuːm ˈɪn/",
+    "def": "To make a part of a map or picture look bigger and more detailed.",
+    "vi": "phóng to",
+    "examples":
+      [{ "en": "Labels only appear when you zoom in.", "vi": "Nhãn chỉ hiện khi bạn phóng to." }],
+  }
+- {
+    "slug": "terrain-n",
+    "lemma": "terrain",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "oceans",
+    "ipa": "/təˈreɪn/",
+    "def": "The shape and type of land in an area.",
+    "vi": "địa hình",
+    "examples":
+      [
+        {
+          "en": "Terrain view helps explain why water collects in this valley.",
+          "vi": "Chế độ xem địa hình giúp giải thích vì sao nước dồn về thung lũng này.",
+        },
+      ],
+  }
+- {
+    "slug": "coastline-n",
+    "lemma": "coastline",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "oceans",
+    "ipa": "/ˈkəʊstlaɪn/",
+    "def": "The edge of the land where it meets the sea.",
+    "vi": "đường bờ biển",
+    "examples":
+      [
+        {
+          "en": "The coastline layer is from 2019 and may be out of date.",
+          "vi": "Lớp đường bờ biển là từ năm 2019 và có thể đã cũ.",
+        },
+      ],
+  }
+- {
+    "slug": "catchment-n",
+    "lemma": "catchment",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "oceans",
+    "ipa": "/ˈkætʃmənt/",
+    "def": "The area of land from which rain flows into one river or lake.",
+    "vi": "lưu vực",
+    "examples":
+      [
+        {
+          "en": "Rain anywhere in the catchment will reach this station later.",
+          "vi": "Mưa ở bất kỳ đâu trong lưu vực rồi cũng sẽ đến trạm này.",
+        },
+      ],
+  }
+- {
+    "slug": "grid-n",
+    "lemma": "grid",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "oceans",
+    "ipa": "/ɡrɪd/",
+    "def": "A pattern of equal squares that divides an area.",
+    "vi": "lưới ô",
+    "examples":
+      [
+        {
+          "en": "The forecast is given for each 5 km grid cell.",
+          "vi": "Dự báo được đưa ra cho mỗi ô lưới 5 km.",
+        },
+      ],
+  }
+- {
+    "slug": "update-frequency-n",
+    "lemma": "update frequency",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "oceans",
+    "ipa": "/ˈʌpdeɪt ˌfriːkwənsi/",
+    "def": "How often new data is added to a layer or source.",
+    "vi": "tần suất cập nhật",
+    "examples":
+      [
+        {
+          "en": "Show each layer's update frequency in its info panel.",
+          "vi": "Hiển thị tần suất cập nhật của mỗi lớp trong bảng thông tin.",
+        },
+      ],
+  }
+- {
+    "slug": "shade-v",
+    "lemma": "shade",
+    "pos": "verb",
+    "cefr": "B1",
+    "topic": "oceans",
+    "ipa": "/ʃeɪd/",
+    "def": "To fill an area with a colour, often darker for higher values.",
+    "vi": "tô màu",
+    "examples":
+      [
+        {
+          "en": "Shade each district by its rainfall total.",
+          "vi": "Tô màu từng huyện theo tổng lượng mưa.",
+        },
+      ],
+  }
+- {
+    "slug": "marker-n",
+    "lemma": "marker",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "oceans",
+    "ipa": "/ˈmɑːkə/",
+    "def": "A small symbol that shows a place on a map.",
+    "vi": "điểm đánh dấu",
+    "examples":
+      [
+        {
+          "en": "Clicking a marker opens the station details.",
+          "vi": "Bấm vào điểm đánh dấu sẽ mở chi tiết trạm.",
+        },
+      ],
+  }
+- {
+    "slug": "toggle-v",
+    "lemma": "toggle",
+    "pos": "verb",
+    "cefr": "B2",
+    "topic": "oceans",
+    "ipa": "/ˈtɒɡl/",
+    "def": "To switch between two states, such as on and off.",
+    "vi": "bật/tắt",
+    "examples":
+      [
+        {
+          "en": "Users can toggle between satellite and street view.",
+          "vi": "Người dùng có thể chuyển qua lại giữa ảnh vệ tinh và bản đồ đường.",
+        },
+      ],
+  }
+- {
+    "slug": "basemap-n",
+    "lemma": "basemap",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "oceans",
+    "ipa": "/ˈbeɪsmæp/",
+    "def": "The background map that other data layers are drawn on.",
+    "vi": "bản đồ nền",
+    "examples":
+      [
+        {
+          "en": "Use a light basemap so the data colours stand out.",
+          "vi": "Dùng bản đồ nền sáng để màu dữ liệu nổi bật.",
+        },
+      ],
+  }
+# Set 8: data quality & calibration
+- {
+    "slug": "calibrate-v-nature",
+    "lemma": "calibrate",
+    "pos": "verb",
+    "cefr": "C1",
+    "topic": "oceans",
+    "ipa": "/ˈkælɪbreɪt/",
+    "def": "To adjust a measuring tool so that its results are correct.",
+    "vi": "hiệu chuẩn",
+    "examples":
+      [
+        {
+          "en": "The sensors are calibrated every six months.",
+          "vi": "Các cảm biến được hiệu chuẩn sáu tháng một lần.",
+        },
+      ],
+  }
+- {
+    "slug": "accuracy-n",
+    "lemma": "accuracy",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "oceans",
+    "ipa": "/ˈækjərəsi/",
+    "def": "How close a measurement is to the true value.",
+    "vi": "độ chính xác",
+    "examples":
+      [
+        {
+          "en": "The accuracy of this probe is plus or minus 0.5 degrees.",
+          "vi": "Độ chính xác của đầu đo này là cộng trừ 0,5 độ.",
+        },
+      ],
+  }
+- {
+    "slug": "precision-n",
+    "lemma": "precision",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "oceans",
+    "ipa": "/prɪˈsɪʒn/",
+    "def": "How finely a value is measured or shown, such as the number of decimals.",
+    "vi": "độ chi tiết (số chữ số)",
+    "examples":
+      [
+        {
+          "en": "Don't show more precision than the sensor really has.",
+          "vi": "Đừng hiển thị nhiều chữ số hơn mức cảm biến thực sự đo được.",
+        },
+      ],
+  }
+- {
+    "slug": "drift-n",
+    "lemma": "drift",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "oceans",
+    "ipa": "/drɪft/",
+    "def": "A slow change in a sensor's readings away from the true value over time.",
+    "vi": "độ trôi",
+    "examples":
+      [
+        {
+          "en": "Compare with the reference station to detect drift.",
+          "vi": "So sánh với trạm chuẩn để phát hiện độ trôi.",
+        },
+      ],
+  }
+- {
+    "slug": "noise-n",
+    "lemma": "noise",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "oceans",
+    "ipa": "/nɔɪz/",
+    "def": "Small random changes in data that do not carry real information.",
+    "vi": "nhiễu",
+    "examples":
+      [
+        {
+          "en": "The signal has a lot of noise when the wind is strong.",
+          "vi": "Tín hiệu có rất nhiều nhiễu khi gió mạnh.",
+        },
+      ],
+  }
+- {
+    "slug": "outlier-n",
+    "lemma": "outlier",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "oceans",
+    "ipa": "/ˈaʊtlaɪə/",
+    "def": "A value that is very different from the others in a set.",
+    "vi": "giá trị ngoại lai",
+    "examples":
+      [
+        {
+          "en": "Review outliers before removing them.",
+          "vi": "Xem xét các giá trị ngoại lai trước khi loại bỏ.",
+        },
+      ],
+  }
+- {
+    "slug": "spike-n-nature",
+    "lemma": "spike",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "oceans",
+    "ipa": "/spaɪk/",
+    "def": "A sudden, short increase in a value.",
+    "vi": "đột biến tăng",
+    "examples":
+      [
+        {
+          "en": "A spike to 99 degrees is clearly a sensor error.",
+          "vi": "Đột biến lên 99 độ rõ ràng là lỗi cảm biến.",
+        },
+      ],
+  }
+- {
+    "slug": "faulty-adj",
+    "lemma": "faulty",
+    "pos": "adjective",
+    "cefr": "B2",
+    "topic": "oceans",
+    "ipa": "/ˈfɔːlti/",
+    "def": "Not working correctly because of a problem.",
+    "vi": "bị lỗi, hỏng",
+    "examples":
+      [
+        {
+          "en": "The faulty unit kept sending the same value all day.",
+          "vi": "Thiết bị hỏng cứ gửi cùng một giá trị suốt ngày.",
+        },
+      ],
+  }
+- {
+    "slug": "tolerance-n",
+    "lemma": "tolerance",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "oceans",
+    "ipa": "/ˈtɒlərəns/",
+    "def": "The amount by which a value may differ and still be acceptable.",
+    "vi": "dung sai",
+    "examples":
+      [
+        {
+          "en": "The two stations agree within the tolerance of 2%.",
+          "vi": "Hai trạm khớp nhau trong dung sai 2%.",
+        },
+      ],
+  }
+- {
+    "slug": "inspect-v-nature",
+    "lemma": "inspect",
+    "pos": "verb",
+    "cefr": "B2",
+    "topic": "oceans",
+    "ipa": "/ɪnˈspekt/",
+    "def": "To look at something carefully to find problems.",
+    "vi": "kiểm tra kỹ",
+    "examples":
+      [
+        {
+          "en": "A technician will inspect the station on Friday.",
+          "vi": "Kỹ thuật viên sẽ kiểm tra trạm vào thứ Sáu.",
+        },
+      ],
+  }
+- {
+    "slug": "reference-value-n",
+    "lemma": "reference value",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "oceans",
+    "ipa": "/ˈrefrəns ˌvæljuː/",
+    "def": "A known correct value used to check other measurements.",
+    "vi": "giá trị chuẩn",
+    "examples":
+      [
+        {
+          "en": "Record the reference value used for each calibration.",
+          "vi": "Ghi lại giá trị chuẩn dùng cho mỗi lần hiệu chuẩn.",
+        },
+      ],
+  }
+- {
+    "slug": "deviation-n",
+    "lemma": "deviation",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "oceans",
+    "ipa": "/ˌdiːviˈeɪʃn/",
+    "def": "The amount by which something is different from what is normal or expected.",
+    "vi": "độ lệch",
+    "examples":
+      [
+        {
+          "en": "Highlight any deviation of more than 10% from the neighbours.",
+          "vi": "Làm nổi bật mọi độ lệch hơn 10% so với các trạm lân cận.",
+        },
+      ],
+  }
+- {
+    "slug": "inconsistent-adj",
+    "lemma": "inconsistent",
+    "pos": "adjective",
+    "cefr": "B2",
+    "topic": "oceans",
+    "ipa": "/ˌɪnkənˈsɪstənt/",
+    "def": "Not matching other information, or changing without a reason.",
+    "vi": "không nhất quán",
+    "examples":
+      [
+        {
+          "en": "The units are inconsistent between the old and new devices.",
+          "vi": "Đơn vị giữa thiết bị cũ và mới không nhất quán.",
+        },
+      ],
+  }
+- {
+    "slug": "plausible-adj-nature",
+    "lemma": "plausible",
+    "pos": "adjective",
+    "cefr": "C1",
+    "topic": "oceans",
+    "ipa": "/ˈplɔːzəbl/",
+    "def": "Possible and reasonable enough to believe.",
+    "vi": "hợp lý, có thể tin được",
+    "examples":
+      [
+        {
+          "en": "Is a 5-metre rise in ten minutes plausible here?",
+          "vi": "Mực nước tăng 5 mét trong mười phút ở đây có hợp lý không?",
+        },
+      ],
+  }
+- {
+    "slug": "clamp-v",
+    "lemma": "clamp",
+    "pos": "verb",
+    "cefr": "C1",
+    "topic": "oceans",
+    "ipa": "/klæmp/",
+    "def": "To force a value to stay between a lowest and a highest limit.",
+    "vi": "giới hạn (giá trị trong khoảng)",
+    "examples":
+      [
+        {
+          "en": "Don't clamp the stored data; only clamp the chart axis.",
+          "vi": "Đừng giới hạn dữ liệu lưu trữ; chỉ giới hạn trục biểu đồ.",
+        },
+      ],
+  }
+- {
+    "slug": "quarantine-v",
+    "lemma": "quarantine",
+    "pos": "verb",
+    "cefr": "C1",
+    "topic": "oceans",
+    "ipa": "/ˈkwɒrəntiːn/",
+    "def": "To keep suspicious data apart until someone checks it.",
+    "vi": "cách ly (dữ liệu)",
+    "examples":
+      [
+        {
+          "en": "Quarantine readings from a station that failed calibration.",
+          "vi": "Cách ly số đo từ trạm không qua hiệu chuẩn.",
+        },
+      ],
+  }
+- {
+    "slug": "maintenance-n",
+    "lemma": "maintenance",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "oceans",
+    "ipa": "/ˈmeɪntənəns/",
+    "def": "Work done to keep equipment in good condition.",
+    "vi": "bảo trì",
+    "examples":
+      [
+        {
+          "en": "Log every maintenance visit with a date and notes.",
+          "vi": "Ghi lại mỗi lần bảo trì kèm ngày và ghi chú.",
+        },
+      ],
+  }
+- {
+    "slug": "cross-check-v",
+    "lemma": "cross-check",
+    "pos": "verb",
+    "cefr": "C1",
+    "topic": "oceans",
+    "ipa": "/ˌkrɒs ˈtʃek/",
+    "def": "To check information by comparing it with a different source.",
+    "vi": "đối chiếu",
+    "examples":
+      [
+        {
+          "en": "Cross-check rain gauges with the radar estimate.",
+          "vi": "Đối chiếu máy đo mưa với ước tính từ radar.",
+        },
+      ],
+  }
+- {
+    "slug": "sensor-fault-n",
+    "lemma": "sensor fault",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "oceans",
+    "ipa": "/ˈsensə fɔːlt/",
+    "def": "A problem inside a sensor that makes its data wrong.",
+    "vi": "lỗi cảm biến",
+    "examples":
+      [
+        {
+          "en": "Label the gap as a sensor fault, not as dry weather.",
+          "vi": "Ghi khoảng trống là lỗi cảm biến, không phải trời khô.",
+        },
+      ],
+  }
+- {
+    "slug": "baseline-n-nature",
+    "lemma": "baseline",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "oceans",
+    "ipa": "/ˈbeɪslaɪn/",
+    "def": "A normal level used to compare new values against.",
+    "vi": "mức nền, đường cơ sở",
+    "examples":
+      [
+        {
+          "en": "We need a year of data to build a baseline.",
+          "vi": "Cần một năm dữ liệu để xây mức nền.",
+        },
+      ],
+  }
+- {
+    "slug": "raw-data-n",
+    "lemma": "raw data",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "oceans",
+    "ipa": "/ˌrɔː ˈdeɪtə/",
+    "def": "Data exactly as it was collected, before any cleaning or changes.",
+    "vi": "dữ liệu thô",
+    "examples":
+      [
+        {
+          "en": "Always keep the raw data, even after corrections.",
+          "vi": "Luôn giữ dữ liệu thô, kể cả sau khi đã hiệu chỉnh.",
+        },
+      ],
+  }
+- {
+    "slug": "smooth-v",
+    "lemma": "smooth",
+    "pos": "verb",
+    "cefr": "C1",
+    "topic": "oceans",
+    "ipa": "/smuːð/",
+    "def": "To reduce small random changes in data so the main pattern is clearer.",
+    "vi": "làm mượt",
+    "examples":
+      [
+        {
+          "en": "Smooth the line for the overview but not for the export.",
+          "vi": "Làm mượt đường cho phần tổng quan nhưng không làm cho file xuất.",
+        },
+      ],
+  }
+- {
+    "slug": "firmware-n",
+    "lemma": "firmware",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "oceans",
+    "ipa": "/ˈfɜːmweə/",
+    "def": "The software built into a device that controls how it works.",
+    "vi": "firmware (phần mềm thiết bị)",
+    "examples":
+      [
+        {
+          "en": "The jump started right after the firmware update.",
+          "vi": "Bước nhảy bắt đầu ngay sau khi cập nhật firmware.",
+        },
+      ],
+  }
+- {
+    "slug": "corrosion-n",
+    "lemma": "corrosion",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "oceans",
+    "ipa": "/kəˈrəʊʒn/",
+    "def": "Damage to metal caused slowly by water, air or salt.",
+    "vi": "sự ăn mòn",
+    "examples":
+      [
+        {
+          "en": "Corrosion on the probe can make readings drift.",
+          "vi": "Sự ăn mòn trên đầu đo có thể làm số đo bị trôi.",
+        },
+      ],
+  }
+# Set 9: communicating environmental risk
+- {
+    "slug": "storm-surge-n",
+    "lemma": "storm surge",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "oceans",
+    "ipa": "/ˈstɔːm sɜːdʒ/",
+    "def": "A rise in sea level caused by a strong storm pushing water onto the land.",
+    "vi": "nước dâng do bão",
+    "examples":
+      [
+        {
+          "en": "The map shows areas at risk from storm surge.",
+          "vi": "Bản đồ hiển thị các khu vực có nguy cơ nước dâng do bão.",
+        },
+      ],
+  }
+- {
+    "slug": "forecast-n-nature",
+    "lemma": "forecast",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "oceans",
+    "ipa": "/ˈfɔːkɑːst/",
+    "def": "A statement about what is expected to happen, especially with the weather.",
+    "vi": "dự báo",
+    "examples":
+      [
+        {
+          "en": "Show the forecast as a dashed line after the last reading.",
+          "vi": "Hiển thị dự báo bằng đường nét đứt sau số đo cuối cùng.",
+        },
+      ],
+  }
+- {
+    "slug": "observation-n-nature",
+    "lemma": "observation",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "oceans",
+    "ipa": "/ˌɒbzəˈveɪʃn/",
+    "def": "Something that has been seen or measured, not guessed.",
+    "vi": "quan sát",
+    "examples":
+      [
+        {
+          "en": "Keep observations and forecasts in different colours.",
+          "vi": "Giữ quan sát và dự báo ở hai màu khác nhau.",
+        },
+      ],
+  }
+- {
+    "slug": "premise-n-nature",
+    "lemma": "premise",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "oceans",
+    "ipa": "/ˈpremɪs/",
+    "def": "An idea that you accept as true and use as the base for a conclusion.",
+    "vi": "tiền đề",
+    "examples":
+      [
+        {
+          "en": "The model's premise is that the dam stays closed.",
+          "vi": "Tiền đề của mô hình là đập vẫn đóng.",
+        },
+      ],
+  }
+- {
+    "slug": "likelihood-n",
+    "lemma": "likelihood",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "oceans",
+    "ipa": "/ˈlaɪklihʊd/",
+    "def": "How probable it is that something will happen.",
+    "vi": "khả năng xảy ra",
+    "examples":
+      [
+        {
+          "en": 'Say the likelihood in words, like "likely" or "unlikely".',
+          "vi": 'Diễn đạt khả năng xảy ra bằng chữ, như "có khả năng" hay "khó xảy ra".',
+        },
+      ],
+  }
+- {
+    "slug": "uncertainty-n-nature",
+    "lemma": "uncertainty",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "oceans",
+    "ipa": "/ʌnˈsɜːtnti/",
+    "def": "A state of not knowing exactly what is true or what will happen.",
+    "vi": "độ bất định",
+    "examples":
+      [
+        {
+          "en": "The shaded band shows the uncertainty of the forecast.",
+          "vi": "Dải tô màu thể hiện độ bất định của dự báo.",
+        },
+      ],
+  }
+- {
+    "slug": "projection-n",
+    "lemma": "projection",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "oceans",
+    "ipa": "/prəˈdʒekʃn/",
+    "def": "An estimate of a future value based on what is happening now.",
+    "vi": "dự phóng",
+    "examples":
+      [
+        {
+          "en": "This projection assumes rainfall stays the same as last year.",
+          "vi": "Dự phóng này giả định lượng mưa giữ như năm ngoái.",
+        },
+      ],
+  }
+- {
+    "slug": "scenario-n",
+    "lemma": "scenario",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "oceans",
+    "ipa": "/səˈnɑːriəʊ/",
+    "def": "A possible situation or series of events in the future.",
+    "vi": "kịch bản",
+    "examples":
+      [
+        {
+          "en": "Let users compare a low and a high emissions scenario.",
+          "vi": "Cho người dùng so sánh kịch bản phát thải thấp và cao.",
+        },
+      ],
+  }
+- {
+    "slug": "consequence-n-nature",
+    "lemma": "consequence",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "oceans",
+    "ipa": "/ˈkɒnsɪkwəns/",
+    "def": "A result of an action or event, often a bad one.",
+    "vi": "hậu quả",
+    "examples":
+      [
+        {
+          "en": "Explain the consequence for residents in one clear sentence.",
+          "vi": "Giải thích hậu quả đối với người dân bằng một câu rõ ràng.",
+        },
+      ],
+  }
+- {
+    "slug": "vulnerable-adj",
+    "lemma": "vulnerable",
+    "pos": "adjective",
+    "cefr": "C1",
+    "topic": "oceans",
+    "ipa": "/ˈvʌlnərəbl/",
+    "def": "Easily harmed or affected by something bad.",
+    "vi": "dễ bị tổn thương",
+    "examples":
+      [
+        {
+          "en": "Highlight schools and hospitals in vulnerable areas.",
+          "vi": "Làm nổi bật trường học và bệnh viện ở các vùng dễ bị tổn thương.",
+        },
+      ],
+  }
+- {
+    "slug": "exposure-n",
+    "lemma": "exposure",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "oceans",
+    "ipa": "/ɪkˈspəʊʒə/",
+    "def": "The state of being in a place or situation where harm is possible.",
+    "vi": "mức độ phơi nhiễm",
+    "examples":
+      [
+        {
+          "en": "Exposure is counted as the number of homes in the flood zone.",
+          "vi": "Mức phơi nhiễm được tính bằng số nhà trong vùng ngập.",
+        },
+      ],
+  }
+- {
+    "slug": "safeguard-n-nature",
+    "lemma": "safeguard",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "oceans",
+    "ipa": "/ˈseɪfɡɑːd/",
+    "def": "Something that protects people from harm or loss.",
+    "vi": "biện pháp bảo vệ",
+    "examples":
+      [
+        {
+          "en": "Add a safeguard so a single sensor can't issue a public warning.",
+          "vi": "Thêm biện pháp bảo vệ để một cảm biến không thể tự phát cảnh báo công khai.",
+        },
+      ],
+  }
+- {
+    "slug": "evacuate-v-nature",
+    "lemma": "evacuate",
+    "pos": "verb",
+    "cefr": "C1",
+    "topic": "oceans",
+    "ipa": "/ɪˈvækjueɪt/",
+    "def": "To move people out of a dangerous place to somewhere safe.",
+    "vi": "sơ tán",
+    "examples":
+      [
+        {
+          "en": "The app must never tell people to evacuate on its own.",
+          "vi": "Ứng dụng không bao giờ được tự ý bảo người dân sơ tán.",
+        },
+      ],
+  }
+- {
+    "slug": "advisory-n",
+    "lemma": "advisory",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "oceans",
+    "ipa": "/ədˈvaɪzəri/",
+    "def": "An official notice that gives advice about a possible danger.",
+    "vi": "khuyến cáo",
+    "examples":
+      [
+        {
+          "en": "Link each warning to the official advisory.",
+          "vi": "Liên kết mỗi cảnh báo với khuyến cáo chính thức.",
+        },
+      ],
+  }
+- {
+    "slug": "confidence-interval-n",
+    "lemma": "confidence interval",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "oceans",
+    "ipa": "/ˈkɒnfɪdəns ˌɪntəvl/",
+    "def": "A range of values that the true value is likely to fall within.",
+    "vi": "khoảng tin cậy",
+    "examples":
+      [
+        {
+          "en": "Show the 90% confidence interval in the tooltip.",
+          "vi": "Hiển thị khoảng tin cậy 90% trong tooltip.",
+        },
+      ],
+  }
+- {
+    "slug": "worst-case-adj",
+    "lemma": "worst-case",
+    "pos": "adjective",
+    "cefr": "B2",
+    "topic": "oceans",
+    "ipa": "/ˌwɜːst ˈkeɪs/",
+    "def": "Describing the most serious result that could possibly happen.",
+    "vi": "xấu nhất",
+    "examples":
+      [
+        {
+          "en": "Label the worst-case line so nobody reads it as the forecast.",
+          "vi": "Gắn nhãn đường xấu nhất để không ai hiểu nhầm đó là dự báo.",
+        },
+      ],
+  }
+- {
+    "slug": "observed-adj",
+    "lemma": "observed",
+    "pos": "adjective",
+    "cefr": "B2",
+    "topic": "oceans",
+    "ipa": "/əbˈzɜːvd/",
+    "def": "Actually measured or seen, rather than calculated or predicted.",
+    "vi": "quan sát được, đo thực tế",
+    "examples":
+      [
+        {
+          "en": "The table lists observed values only.",
+          "vi": "Bảng chỉ liệt kê các giá trị đo thực tế.",
+        },
+      ],
+  }
+- {
+    "slug": "predicted-adj",
+    "lemma": "predicted",
+    "pos": "adjective",
+    "cefr": "B2",
+    "topic": "oceans",
+    "ipa": "/prɪˈdɪktɪd/",
+    "def": "Expected to happen according to a model or calculation.",
+    "vi": "được dự đoán",
+    "examples":
+      [{ "en": "The predicted peak is tomorrow at noon.", "vi": "Đỉnh được dự đoán là trưa mai." }],
+  }
+- {
+    "slug": "heatwave-n",
+    "lemma": "heatwave",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "oceans",
+    "ipa": "/ˈhiːtweɪv/",
+    "def": "A period of unusually hot weather.",
+    "vi": "đợt nắng nóng",
+    "examples":
+      [
+        {
+          "en": "During a heatwave, we refresh the data every ten minutes.",
+          "vi": "Trong đợt nắng nóng, bọn mình làm mới dữ liệu mỗi mười phút.",
+        },
+      ],
+  }
+- {
+    "slug": "footnote-n",
+    "lemma": "footnote",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "oceans",
+    "ipa": "/ˈfʊtnəʊt/",
+    "def": "A short note at the bottom of a page or chart that adds detail.",
+    "vi": "chú thích cuối",
+    "examples":
+      [
+        {
+          "en": "Put the data source in a footnote under the chart.",
+          "vi": "Ghi nguồn dữ liệu trong chú thích cuối dưới biểu đồ.",
+        },
+      ],
+  }
+- {
+    "slug": "disclaimer-n-nature",
+    "lemma": "disclaimer",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "oceans",
+    "ipa": "/dɪsˈkleɪmə/",
+    "def": "A statement that limits what a product promises or is responsible for.",
+    "vi": "tuyên bố miễn trừ",
+    "examples":
+      [
+        {
+          "en": "The disclaimer says the map is not an official warning.",
+          "vi": "Tuyên bố miễn trừ nói rằng bản đồ không phải cảnh báo chính thức.",
+        },
+      ],
+  }
+- {
+    "slug": "pollution-n-nature",
+    "lemma": "pollution",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "oceans",
+    "ipa": "/pəˈluːʃn/",
+    "def": "Harmful substances in air, water or soil.",
+    "vi": "ô nhiễm",
+    "examples":
+      [
+        {
+          "en": "Air pollution is worse on days with no wind.",
+          "vi": "Ô nhiễm không khí tệ hơn vào những ngày lặng gió.",
+        },
+      ],
+  }
+- {
+    "slug": "erosion-n",
+    "lemma": "erosion",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "oceans",
+    "ipa": "/ɪˈrəʊʒn/",
+    "def": "The slow removal of soil or rock by water, wind or ice.",
+    "vi": "xói mòn",
+    "examples":
+      [
+        {
+          "en": "The erosion layer compares the riverbank in 2015 and today.",
+          "vi": "Lớp xói mòn so sánh bờ sông năm 2015 với hiện nay.",
+        },
+      ],
+  }
+- {
+    "slug": "sea-level-n",
+    "lemma": "sea level",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B1",
+    "topic": "oceans",
+    "ipa": "/ˈsiː levl/",
+    "def": "The average height of the sea, used as a base for measuring heights.",
+    "vi": "mực nước biển",
+    "examples":
+      [
+        {
+          "en": "Heights on this map are given in metres above sea level.",
+          "vi": "Độ cao trên bản đồ này tính bằng mét so với mực nước biển.",
+        },
+      ],
+  }
+- {
+    "slug": "extreme-weather-n",
+    "lemma": "extreme weather",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "oceans",
+    "ipa": "/ɪkˌstriːm ˈweðə/",
+    "def": "Weather that is much more severe than usual, such as strong storms.",
+    "vi": "thời tiết cực đoan",
+    "examples":
+      [
+        {
+          "en": "Extreme weather events are marked with an icon on the timeline.",
+          "vi": "Các hiện tượng thời tiết cực đoan được đánh dấu bằng biểu tượng trên dòng thời gian.",
+        },
+      ],
+  }
+- {
+    "slug": "communicate-v-nature",
+    "lemma": "communicate",
+    "pos": "verb",
+    "cefr": "B1",
+    "topic": "oceans",
+    "ipa": "/kəˈmjuːnɪkeɪt/",
+    "def": "To share information so that others understand it.",
+    "vi": "truyền đạt",
+    "examples":
+      [
+        {
+          "en": "We need to communicate the risk without causing panic.",
+          "vi": "Mình cần truyền đạt rủi ro mà không gây hoảng loạn.",
+        },
+      ],
+  }
+- {
+    "slug": "overstate-v-nature",
+    "lemma": "overstate",
+    "pos": "verb",
+    "cefr": "C1",
+    "topic": "oceans",
+    "ipa": "/ˌəʊvəˈsteɪt/",
+    "def": "To say that something is bigger or more serious than it really is.",
+    "vi": "nói quá",
+    "examples":
+      [
+        {
+          "en": "Bright red everywhere would overstate the danger.",
+          "vi": "Tô đỏ khắp nơi sẽ làm nói quá mức nguy hiểm.",
+        },
+      ],
+  }
+- {
+    "slug": "local-authority-n",
+    "lemma": "local authority",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "oceans",
+    "ipa": "/ˌləʊkl ɔːˈθɒrəti/",
+    "def": "The organisation that runs public services in a city or area.",
+    "vi": "chính quyền địa phương",
+    "examples":
+      [
+        {
+          "en": "Only the local authority can publish an official warning.",
+          "vi": "Chỉ chính quyền địa phương mới được công bố cảnh báo chính thức.",
+        },
+      ],
+  }
+# Set 10: an environmental dashboard brief
+- {
+    "slug": "brief-n",
+    "lemma": "brief",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "oceans",
+    "ipa": "/briːf/",
+    "def": "A short document that explains what a piece of work should achieve.",
+    "vi": "bản mô tả yêu cầu",
+    "examples":
+      [
+        {
+          "en": "The brief lists the users, the data and the alerts.",
+          "vi": "Bản mô tả yêu cầu liệt kê người dùng, dữ liệu và cảnh báo.",
+        },
+      ],
+  }
+- {
+    "slug": "kickoff-n",
+    "lemma": "kickoff",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "oceans",
+    "ipa": "/ˈkɪkɒf/",
+    "def": "The first meeting that starts a project.",
+    "vi": "buổi khởi động dự án",
+    "examples":
+      [
+        {
+          "en": "Let's agree on the key screens at the kickoff.",
+          "vi": "Mình thống nhất các màn hình chính ở buổi khởi động dự án nhé.",
+        },
+      ],
+  }
+- {
+    "slug": "end-user-n-nature",
+    "lemma": "end user",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "oceans",
+    "ipa": "/ˌend ˈjuːzə/",
+    "def": "The person who finally uses a product.",
+    "vi": "người dùng cuối",
+    "examples":
+      [
+        {
+          "en": "The end users are field technicians with old phones.",
+          "vi": "Người dùng cuối là kỹ thuật viên hiện trường dùng điện thoại cũ.",
+        },
+      ],
+  }
+- {
+    "slug": "display-v",
+    "lemma": "display",
+    "pos": "verb",
+    "cefr": "B1",
+    "topic": "oceans",
+    "ipa": "/dɪˈspleɪ/",
+    "def": "To show information on a screen.",
+    "vi": "hiển thị",
+    "examples":
+      [
+        {
+          "en": "Display the latest value in large text at the top.",
+          "vi": "Hiển thị giá trị mới nhất bằng chữ lớn ở trên cùng.",
+        },
+      ],
+  }
+- {
+    "slug": "widget-n",
+    "lemma": "widget",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "oceans",
+    "ipa": "/ˈwɪdʒɪt/",
+    "def": "A small, separate part of a screen that shows one piece of information.",
+    "vi": "widget (khối hiển thị)",
+    "examples":
+      [
+        {
+          "en": "Each widget should load on its own so one failure doesn't block the page.",
+          "vi": "Mỗi widget nên tải độc lập để một lỗi không chặn cả trang.",
+        },
+      ],
+  }
+- {
+    "slug": "panel-n",
+    "lemma": "panel",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "oceans",
+    "ipa": "/ˈpænl/",
+    "def": "A section of a screen with its own border and content.",
+    "vi": "khung, bảng",
+    "examples":
+      [
+        {
+          "en": "The side panel shows details for the selected station.",
+          "vi": "Khung bên hiển thị chi tiết trạm đang chọn.",
+        },
+      ],
+  }
+- {
+    "slug": "chart-n-nature",
+    "lemma": "chart",
+    "pos": "noun",
+    "cefr": "A2",
+    "topic": "oceans",
+    "ipa": "/tʃɑːt/",
+    "def": "A picture that shows numbers as lines, bars or shapes.",
+    "vi": "biểu đồ",
+    "examples":
+      [
+        {
+          "en": "The main chart shows the last 48 hours.",
+          "vi": "Biểu đồ chính hiển thị 48 giờ gần nhất.",
+        },
+      ],
+  }
+- {
+    "slug": "filter-n",
+    "lemma": "filter",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "oceans",
+    "ipa": "/ˈfɪltə/",
+    "def": "A control that shows only the items that match certain conditions.",
+    "vi": "bộ lọc",
+    "examples":
+      [
+        {
+          "en": "Add a filter for station type and status.",
+          "vi": "Thêm bộ lọc theo loại trạm và trạng thái.",
+        },
+      ],
+  }
+- {
+    "slug": "drill-down-v-nature",
+    "lemma": "drill down",
+    "pos": "phrasal_verb",
+    "kind": "phrasal",
+    "cefr": "C1",
+    "topic": "oceans",
+    "ipa": "/ˌdrɪl ˈdaʊn/",
+    "def": "To move from a summary to more detailed data.",
+    "vi": "đi sâu vào chi tiết",
+    "examples":
+      [
+        {
+          "en": "Users can drill down from a province to a single station.",
+          "vi": "Người dùng có thể đi sâu từ một tỉnh đến từng trạm.",
+        },
+      ],
+  }
+- {
+    "slug": "aggregate-v",
+    "lemma": "aggregate",
+    "pos": "verb",
+    "cefr": "C1",
+    "topic": "oceans",
+    "ipa": "/ˈæɡrɪɡeɪt/",
+    "def": "To combine many values into one, such as a sum or average.",
+    "vi": "tổng hợp",
+    "examples":
+      [
+        {
+          "en": "Aggregate the data by day for views longer than a month.",
+          "vi": "Tổng hợp dữ liệu theo ngày cho các khung xem dài hơn một tháng.",
+        },
+      ],
+  }
+- {
+    "slug": "granularity-n-nature",
+    "lemma": "granularity",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "oceans",
+    "ipa": "/ˌɡrænjuˈlærəti/",
+    "def": "The level of detail in data, such as per minute or per day.",
+    "vi": "độ chi tiết",
+    "examples":
+      [
+        {
+          "en": "What granularity do operators need: minute or hour?",
+          "vi": "Người vận hành cần độ chi tiết nào: theo phút hay theo giờ?",
+        },
+      ],
+  }
+- {
+    "slug": "refresh-rate-n-nature",
+    "lemma": "refresh rate",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "oceans",
+    "ipa": "/rɪˈfreʃ reɪt/",
+    "def": "How often a screen gets new data automatically.",
+    "vi": "tần suất làm mới",
+    "examples":
+      [
+        {
+          "en": "A one-minute refresh rate is enough for river levels.",
+          "vi": "Tần suất làm mới một phút là đủ cho mực nước sông.",
+        },
+      ],
+  }
+- {
+    "slug": "loading-state-n",
+    "lemma": "loading state",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "oceans",
+    "ipa": "/ˈləʊdɪŋ steɪt/",
+    "def": "What a screen shows while it is waiting for data.",
+    "vi": "trạng thái đang tải",
+    "examples":
+      [
+        {
+          "en": "The loading state should keep the layout from jumping.",
+          "vi": "Trạng thái đang tải nên giữ bố cục không bị nhảy.",
+        },
+      ],
+  }
+- {
+    "slug": "empty-state-n",
+    "lemma": "empty state",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "oceans",
+    "ipa": "/ˈempti steɪt/",
+    "def": "What a screen shows when there is no data to display.",
+    "vi": "trạng thái trống",
+    "examples":
+      [
+        {
+          "en": "Write a helpful empty state for new stations with no history.",
+          "vi": "Viết trạng thái trống hữu ích cho trạm mới chưa có lịch sử.",
+        },
+      ],
+  }
+- {
+    "slug": "tooltip-n-nature",
+    "lemma": "tooltip",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "oceans",
+    "ipa": "/ˈtuːltɪp/",
+    "def": "A small box with extra information that appears when you point at something.",
+    "vi": "tooltip (chú thích nổi)",
+    "examples":
+      [
+        {
+          "en": "The tooltip shows the exact time and value.",
+          "vi": "Tooltip hiển thị chính xác thời gian và giá trị.",
+        },
+      ],
+  }
+- {
+    "slug": "label-n-nature",
+    "lemma": "label",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "oceans",
+    "ipa": "/ˈleɪbl/",
+    "def": "A short piece of text that names or describes something.",
+    "vi": "nhãn",
+    "examples":
+      [
+        {
+          "en": "Every axis needs a label with its unit.",
+          "vi": "Mỗi trục cần một nhãn kèm đơn vị.",
+        },
+      ],
+  }
+- {
+    "slug": "colour-code-v",
+    "lemma": "colour-code",
+    "pos": "verb",
+    "cefr": "B2",
+    "topic": "oceans",
+    "ipa": "/ˈkʌlə kəʊd/",
+    "def": "To use different colours to show different groups or levels.",
+    "vi": "mã hóa bằng màu",
+    "examples":
+      [
+        {
+          "en": "Colour-code stations by warning level.",
+          "vi": "Mã hóa trạm bằng màu theo cấp báo động.",
+        },
+      ],
+  }
+- {
+    "slug": "emphasise-v",
+    "lemma": "emphasise",
+    "pos": "verb",
+    "cefr": "B2",
+    "topic": "oceans",
+    "ipa": "/ˈemfəsaɪz/",
+    "def": "To make something more noticeable because it is important.",
+    "vi": "nhấn mạnh",
+    "examples":
+      [
+        {
+          "en": "Emphasise stations that have stopped reporting.",
+          "vi": "Nhấn mạnh các trạm đã ngừng gửi số đo.",
+        },
+      ],
+  }
+- {
+    "slug": "accessible-adj-nature",
+    "lemma": "accessible",
+    "pos": "adjective",
+    "cefr": "B2",
+    "topic": "oceans",
+    "ipa": "/əkˈsesəbl/",
+    "def": "Easy for everyone to use, including people with disabilities.",
+    "vi": "dễ tiếp cận",
+    "examples":
+      [
+        {
+          "en": "Don't rely on red and green alone; keep it accessible.",
+          "vi": "Đừng chỉ dựa vào đỏ và xanh; hãy giữ cho nó dễ tiếp cận.",
+        },
+      ],
+  }
+- {
+    "slug": "export-v-nature",
+    "lemma": "export",
+    "pos": "verb",
+    "cefr": "B1",
+    "topic": "oceans",
+    "ipa": "/ɪkˈspɔːt/",
+    "def": "To save data from a program into a file for use elsewhere.",
+    "vi": "xuất (dữ liệu)",
+    "examples":
+      [
+        {
+          "en": "Researchers want to export the raw values as CSV.",
+          "vi": "Các nhà nghiên cứu muốn xuất giá trị gốc ra CSV.",
+        },
+      ],
+  }
+- {
+    "slug": "access-level-n",
+    "lemma": "access level",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "oceans",
+    "ipa": "/ˈækses levl/",
+    "def": "The amount of a system that a user is allowed to see or change.",
+    "vi": "cấp quyền truy cập",
+    "examples":
+      [
+        {
+          "en": "Public viewers get a lower access level than operators.",
+          "vi": "Người xem công khai có cấp quyền truy cập thấp hơn người vận hành.",
+        },
+      ],
+  }
+- {
+    "slug": "viewer-n",
+    "lemma": "viewer",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "oceans",
+    "ipa": "/ˈvjuːə/",
+    "def": "A person who looks at a screen or page.",
+    "vi": "người xem",
+    "examples":
+      [
+        {
+          "en": "Most viewers open the dashboard on a phone.",
+          "vi": "Phần lớn người xem mở dashboard trên điện thoại.",
+        },
+      ],
+  }
+- {
+    "slug": "non-goal-n",
+    "lemma": "non-goal",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "oceans",
+    "ipa": "/ˌnɒn ˈɡəʊl/",
+    "def": "Something a project clearly says it will not try to do.",
+    "vi": "điều không nằm trong mục tiêu",
+    "examples":
+      [
+        {
+          "en": "Predicting floods is a non-goal for version one.",
+          "vi": "Dự đoán lũ không nằm trong mục tiêu của phiên bản một.",
+        },
+      ],
+  }
+- {
+    "slug": "definition-of-done-n",
+    "lemma": "definition of done",
+    "pos": "noun",
+    "kind": "phrase",
+    "cefr": "C1",
+    "topic": "oceans",
+    "ipa": "/ˌdefɪˈnɪʃn əv ˈdʌn/",
+    "def": "A shared list of checks that work must pass before it counts as finished.",
+    "vi": "định nghĩa hoàn thành",
+    "examples":
+      [
+        {
+          "en": "Our definition of done includes testing with missing data.",
+          "vi": "Định nghĩa hoàn thành của bọn mình gồm cả việc test với dữ liệu thiếu.",
+        },
+      ],
+  }
+- {
+    "slug": "corner-case-n",
+    "lemma": "corner case",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "oceans",
+    "ipa": "/ˈkɔːnə keɪs/",
+    "def": "A rare situation where several unusual conditions happen together.",
+    "vi": "tình huống hiếm gặp",
+    "examples":
+      [
+        {
+          "en": "A station moved to a new time zone is a corner case worth testing.",
+          "vi": "Trạm chuyển sang múi giờ mới là tình huống hiếm đáng để test.",
+        },
+      ],
+  }
+- {
+    "slug": "rank-v",
+    "lemma": "rank",
+    "pos": "verb",
+    "cefr": "B2",
+    "topic": "oceans",
+    "ipa": "/ræŋk/",
+    "def": "To put things in order by how important or large they are.",
+    "vi": "xếp hạng",
+    "examples":
+      [
+        {
+          "en": "Rank the alerts by severity, then by time.",
+          "vi": "Xếp hạng cảnh báo theo mức nghiêm trọng, rồi theo thời gian.",
+        },
+      ],
+  }
+- {
+    "slug": "wireframe-n",
+    "lemma": "wireframe",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "oceans",
+    "ipa": "/ˈwaɪəfreɪm/",
+    "def": "A simple drawing of a screen's layout without final design.",
+    "vi": "wireframe (khung bố cục)",
+    "examples":
+      [
+        {
+          "en": "Attach a wireframe of the station page to the brief.",
+          "vi": "Đính kèm wireframe của trang trạm vào bản mô tả.",
+        },
+      ],
+  }
+- {
+    "slug": "go-live-n-nature",
+    "lemma": "go-live",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "oceans",
+    "ipa": "/ˌɡəʊ ˈlaɪv/",
+    "def": "The moment a system starts being used for real.",
+    "vi": "thời điểm đưa vào vận hành",
+    "examples":
+      [
+        {
+          "en": "Go-live is planned before the rainy season.",
+          "vi": "Thời điểm đưa vào vận hành dự kiến trước mùa mưa.",
+        },
+      ],
+  }
+- {
+    "slug": "deadline-n-nature",
+    "lemma": "deadline",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "oceans",
+    "ipa": "/ˈdedlaɪn/",
+    "def": "The time or date by which something must be finished.",
+    "vi": "hạn chót",
+    "examples":
+      [
+        {
+          "en": "The deadline is fixed because of the flood season.",
+          "vi": "Hạn chót không thể dời vì mùa lũ.",
+        },
+      ],
+  }
+- {
+    "slug": "metric-n-nature",
+    "lemma": "metric",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "oceans",
+    "ipa": "/ˈmetrɪk/",
+    "def": "A number used to measure how well something is working.",
+    "vi": "chỉ số đo lường",
+    "examples":
+      [
+        {
+          "en": "One key metric is the share of stations reporting on time.",
+          "vi": "Một chỉ số chính là tỉ lệ trạm gửi số đo đúng hạn.",
+        },
+      ],
+  }
+- {
+    "slug": "summary-view-n",
+    "lemma": "summary view",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "oceans",
+    "ipa": "/ˈsʌməri vjuː/",
+    "def": "A screen that shows the most important information at a glance.",
+    "vi": "màn hình tổng quan",
+    "examples":
+      [
+        {
+          "en": "The summary view lists only stations that need attention.",
+          "vi": "Màn hình tổng quan chỉ liệt kê các trạm cần chú ý.",
+        },
+      ],
+  }
+- {
+    "slug": "historical-adj",
+    "lemma": "historical",
+    "pos": "adjective",
+    "cefr": "B2",
+    "topic": "oceans",
+    "ipa": "/hɪˈstɒrɪkl/",
+    "def": "Relating to the past.",
+    "vi": "lịch sử, trong quá khứ",
+    "examples":
+      [
+        {
+          "en": "Historical data older than five years lives in cold storage.",
+          "vi": "Dữ liệu lịch sử hơn năm năm được lưu ở kho lưu trữ lạnh.",
+        },
+      ],
+  }
+- {
+    "slug": "real-time-adj",
+    "lemma": "real-time",
+    "pos": "adjective",
+    "cefr": "B2",
+    "topic": "oceans",
+    "ipa": "/ˌrɪəl ˈtaɪm/",
+    "def": "Happening or updated at almost the same moment as events happen.",
+    "vi": "thời gian thực",
+    "examples":
+      [
+        {
+          "en": '"Real-time" here means within five minutes, not instantly.',
+          "vi": '"Thời gian thực" ở đây nghĩa là trong vòng năm phút, không phải tức thì.',
+        },
+      ],
+  }
+- {
+    "slug": "partial-adj-nature",
+    "lemma": "partial",
+    "pos": "adjective",
+    "cefr": "B2",
+    "topic": "oceans",
+    "ipa": "/ˈpɑːʃl/",
+    "def": "Not complete; only including some parts.",
+    "vi": "một phần",
+    "examples":
+      [
+        {
+          "en": "Mark today's bar as partial until the day ends.",
+          "vi": "Đánh dấu cột hôm nay là một phần cho đến hết ngày.",
+        },
+      ],
+  }
+- {
+    "slug": "indicator-n-nature",
+    "lemma": "indicator",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "oceans",
+    "ipa": "/ˈɪndɪkeɪtə/",
+    "def": "A sign or small symbol that shows a state or level.",
+    "vi": "chỉ báo",
+    "examples":
+      [
+        {
+          "en": "A small indicator shows when each value was last updated.",
+          "vi": "Một chỉ báo nhỏ cho biết mỗi giá trị được cập nhật lần cuối khi nào.",
+        },
+      ],
+  }
+- {
+    "slug": "legibility-n",
+    "lemma": "legibility",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "oceans",
+    "ipa": "/ˌledʒəˈbɪləti/",
+    "def": "How easy text or numbers are to read.",
+    "vi": "độ dễ đọc",
+    "examples":
+      [
+        {
+          "en": "Check legibility on a phone screen in bright sunlight.",
+          "vi": "Kiểm tra độ dễ đọc trên màn hình điện thoại dưới nắng gắt.",
+        },
+      ],
+  }

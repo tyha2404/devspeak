@@ -1,0 +1,3350 @@
+# Vocabulary by topic: Technical Writing & Product Communication (unit T09). Original content.
+# Set 1: README essentials
+- {
+    slug: readme-n,
+    lemma: README,
+    pos: noun,
+    cefr: A2,
+    topic: media,
+    ipa: "/ˈriːd miː/",
+    def: "A text file in a project that tells people what it is and how to use it.",
+    vi: "tệp README (giới thiệu dự án)",
+    examples:
+      [
+        {
+          en: "Please read the README before you open the project.",
+          vi: "Hãy đọc README trước khi mở dự án nhé.",
+        },
+      ],
+  }
+- {
+    slug: introduction-n,
+    lemma: introduction,
+    pos: noun,
+    cefr: A2,
+    topic: media,
+    ipa: "/ˌɪntrəˈdʌkʃn/",
+    def: "The first part of a text that says what it is about.",
+    vi: "phần giới thiệu",
+    examples:
+      [
+        {
+          en: "The introduction says this tool converts images to PDF.",
+          vi: "Phần giới thiệu nói công cụ này chuyển ảnh sang PDF.",
+        },
+      ],
+  }
+- {
+    slug: installation-n,
+    lemma: installation,
+    pos: noun,
+    cefr: B1,
+    topic: media,
+    ipa: "/ˌɪnstəˈleɪʃn/",
+    def: "The process of putting software on a computer so it can be used.",
+    vi: "cài đặt",
+    examples:
+      [
+        {
+          en: "The installation section has only three steps.",
+          vi: "Phần cài đặt chỉ có ba bước.",
+        },
+      ],
+  }
+- {
+    slug: run-v,
+    lemma: run,
+    pos: verb,
+    cefr: A2,
+    topic: media,
+    ipa: "/rʌn/",
+    def: "To start a program and make it work.",
+    vi: "chạy (chương trình)",
+    examples:
+      [
+        {
+          en: "Run the app with one command: pnpm dev.",
+          vi: "Chạy ứng dụng bằng một lệnh: pnpm dev.",
+        },
+      ],
+  }
+- {
+    slug: clone-v,
+    lemma: clone,
+    pos: verb,
+    cefr: A2,
+    topic: media,
+    ipa: "/kləʊn/",
+    def: "To make a full copy of a code repository on your computer.",
+    vi: "sao chép (kho mã) về máy",
+    examples:
+      [
+        {
+          en: "First, clone the repository from GitHub.",
+          vi: "Đầu tiên, clone kho mã từ GitHub về.",
+        },
+      ],
+  }
+- {
+    slug: folder-n,
+    lemma: folder,
+    pos: noun,
+    cefr: A2,
+    topic: media,
+    ipa: "/ˈfəʊldə/",
+    def: "A place on a computer where files are kept together.",
+    vi: "thư mục",
+    examples:
+      [
+        {
+          en: "All the images are in the assets folder.",
+          vi: "Tất cả ảnh nằm trong thư mục assets.",
+        },
+      ],
+  }
+- {
+    slug: command-n,
+    lemma: command,
+    pos: noun,
+    cefr: A2,
+    topic: media,
+    ipa: "/kəˈmɑːnd/",
+    def: "An instruction that you type to make a computer do something.",
+    vi: lệnh,
+    examples:
+      [{ en: "Copy this command into your terminal.", vi: "Chép lệnh này vào terminal của bạn." }],
+  }
+- {
+    slug: example-n,
+    lemma: example,
+    pos: noun,
+    cefr: A2,
+    topic: media,
+    ipa: "/ɪɡˈzɑːmpl/",
+    def: "Something that shows how a thing works or is used.",
+    vi: "ví dụ",
+    examples:
+      [
+        {
+          en: "The README has an example of a simple request.",
+          vi: "README có ví dụ về một request đơn giản.",
+        },
+      ],
+  }
+- {
+    slug: license-n,
+    lemma: license,
+    pos: noun,
+    cefr: B1,
+    topic: media,
+    ipa: "/ˈlaɪsns/",
+    def: "A legal text that says how other people may use the code.",
+    vi: "giấy phép",
+    examples: [{ en: "This project uses the MIT license.", vi: "Dự án này dùng giấy phép MIT." }],
+  }
+- {
+    slug: contributor-n-media-news,
+    lemma: contributor,
+    pos: noun,
+    cefr: B1,
+    topic: media,
+    ipa: "/kənˈtrɪbjətə/",
+    def: "A person who adds work, such as code or text, to a project.",
+    vi: "người đóng góp",
+    examples:
+      [
+        {
+          en: "We thank every contributor at the end of the README.",
+          vi: "Chúng tôi cảm ơn mọi người đóng góp ở cuối README.",
+        },
+      ],
+  }
+# Set 2: Writing a useful issue
+- {
+    slug: bug-report-n,
+    lemma: "bug report",
+    pos: noun,
+    kind: collocation,
+    cefr: A2,
+    topic: media,
+    ipa: "/ˈbʌɡ rɪpɔːt/",
+    def: "A message that describes a problem in a program.",
+    vi: "báo cáo lỗi",
+    examples:
+      [
+        {
+          en: "Your bug report helped us find the problem quickly.",
+          vi: "Báo cáo lỗi của bạn giúp chúng tôi tìm ra vấn đề nhanh.",
+        },
+      ],
+  }
+- {
+    slug: issue-template-n,
+    lemma: "issue template",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: media,
+    ipa: "/ˈɪʃuː templeɪt/",
+    def: "A ready form with headings that people fill in when they report a problem.",
+    vi: "mẫu issue",
+    examples:
+      [
+        {
+          en: "Please fill in the issue template so we have all the facts.",
+          vi: "Bạn điền theo mẫu issue để tụi mình có đủ thông tin nhé.",
+        },
+      ],
+  }
+- {
+    slug: description-n,
+    lemma: description,
+    pos: noun,
+    cefr: A2,
+    topic: media,
+    ipa: "/dɪˈskrɪpʃn/",
+    def: "Words that say what something is like or what happened.",
+    vi: "phần mô tả",
+    examples:
+      [
+        {
+          en: "The description says the page goes white after login.",
+          vi: "Phần mô tả nói trang bị trắng sau khi đăng nhập.",
+        },
+      ],
+  }
+- {
+    slug: expected-behaviour-n,
+    lemma: "expected behaviour",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: media,
+    ipa: "/ɪkˌspektɪd bɪˈheɪvjə/",
+    def: "What a program should do if it works correctly.",
+    vi: "hành vi mong đợi",
+    examples:
+      [
+        {
+          en: "Expected behaviour: the form shows an error message.",
+          vi: "Hành vi mong đợi: form hiện thông báo lỗi.",
+        },
+      ],
+  }
+- {
+    slug: browser-console-n,
+    lemma: "browser console",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: media,
+    ipa: "/ˈbraʊzə kɒnsəʊl/",
+    def: "The browser tool where web errors and messages are shown.",
+    vi: "bảng console của trình duyệt",
+    examples:
+      [
+        {
+          en: "Copy any red errors from the browser console.",
+          vi: "Chép mọi lỗi màu đỏ từ console của trình duyệt.",
+        },
+      ],
+  }
+- {
+    slug: system-info-n,
+    lemma: "system info",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: media,
+    ipa: "/ˈsɪstəm ɪnfəʊ/",
+    def: "Details about a computer, like its model and software versions.",
+    vi: "thông tin hệ thống",
+    examples:
+      [
+        {
+          en: "Paste your system info at the end of the issue.",
+          vi: "Dán thông tin hệ thống ở cuối issue.",
+        },
+      ],
+  }
+- {
+    slug: assignee-n,
+    lemma: assignee,
+    pos: noun,
+    cefr: B2,
+    topic: media,
+    ipa: "/ˌæsaɪˈniː/",
+    def: "The person who is responsible for working on an issue.",
+    vi: "người được giao việc",
+    examples:
+      [
+        {
+          en: "The assignee is Huy, so ask him for updates.",
+          vi: "Người được giao là Huy, hỏi anh ấy để cập nhật nhé.",
+        },
+      ],
+  }
+- {
+    slug: flaky-adj,
+    lemma: flaky,
+    pos: adjective,
+    cefr: B2,
+    topic: media,
+    ipa: "/ˈfleɪki/",
+    def: "Not reliable; working sometimes and failing other times.",
+    vi: "chập chờn",
+    examples:
+      [
+        {
+          en: "The upload is flaky on slow Wi-Fi.",
+          vi: "Việc tải lên bị chập chờn khi Wi-Fi chậm.",
+        },
+      ],
+  }
+- {
+    slug: label-n,
+    lemma: label,
+    pos: noun,
+    cefr: B1,
+    topic: media,
+    ipa: "/ˈleɪbl/",
+    def: "A short tag that puts an issue into a group.",
+    vi: nhãn,
+    examples:
+      [
+        {
+          en: 'Add the "bug" label so the team can find it.',
+          vi: 'Gắn nhãn "bug" để cả nhóm tìm được.',
+        },
+      ],
+  }
+- {
+    slug: close-v,
+    lemma: close,
+    pos: verb,
+    cefr: A2,
+    topic: media,
+    ipa: "/kləʊz/",
+    def: "To mark an issue as finished or not needed any more.",
+    vi: "đóng (issue)",
+    examples:
+      [
+        {
+          en: "I'll close this issue because the fix is live.",
+          vi: "Mình sẽ đóng issue này vì bản sửa đã chạy rồi.",
+        },
+      ],
+  }
+- {
+    slug: triage-v-media-news,
+    lemma: triage,
+    pos: verb,
+    cefr: C1,
+    topic: media,
+    ipa: "/ˈtriːɑːʒ/",
+    def: "To look at new issues and decide how urgent each one is.",
+    vi: "phân loại mức ưu tiên",
+    examples:
+      [
+        {
+          en: "We triage new issues every Monday morning.",
+          vi: "Sáng thứ Hai nào tụi mình cũng phân loại issue mới.",
+        },
+      ],
+  }
+- {
+    slug: upvote-v,
+    lemma: upvote,
+    pos: verb,
+    cefr: B2,
+    topic: media,
+    ipa: "/ˈʌpvəʊt/",
+    def: "To click to show that you agree or have the same problem.",
+    vi: "bình chọn ủng hộ",
+    examples:
+      [
+        {
+          en: 'Upvote the issue instead of writing "+1".',
+          vi: 'Hãy bấm ủng hộ issue thay vì viết "+1".',
+        },
+      ],
+  }
+# Set 3: Pull request descriptions
+- {
+    slug: pull-request-n,
+    lemma: "pull request",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: media,
+    ipa: "/ˈpʊl rɪkwest/",
+    def: "A request to add your code changes into the main project.",
+    vi: "yêu cầu hợp nhất mã (pull request)",
+    examples:
+      [
+        {
+          en: "I opened a pull request for the login fix.",
+          vi: "Mình đã mở pull request cho bản sửa đăng nhập.",
+        },
+      ],
+  }
+- {
+    slug: diff-n,
+    lemma: diff,
+    pos: noun,
+    cefr: B1,
+    topic: media,
+    ipa: "/dɪf/",
+    def: "The lines of code that were added or removed in a change.",
+    vi: "phần khác biệt (diff)",
+    examples:
+      [
+        {
+          en: "The diff is small: only two files changed.",
+          vi: "Diff nhỏ thôi: chỉ hai tệp thay đổi.",
+        },
+      ],
+  }
+- {
+    slug: commit-message-n,
+    lemma: "commit message",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: media,
+    ipa: "/kəˈmɪt mesɪdʒ/",
+    def: "A short text that explains one saved change in the code history.",
+    vi: "thông điệp commit",
+    examples:
+      [
+        {
+          en: "Write a commit message that says why, not only what.",
+          vi: "Viết thông điệp commit nói lý do, không chỉ nói làm gì.",
+        },
+      ],
+  }
+- {
+    slug: rebase-v,
+    lemma: rebase,
+    pos: verb,
+    cefr: C1,
+    topic: media,
+    ipa: "/ˌriːˈbeɪs/",
+    def: "To move your branch so it starts from the newest main code.",
+    vi: "rebase (đặt lại gốc nhánh)",
+    examples:
+      [
+        {
+          en: "Please rebase on main before we review.",
+          vi: "Bạn rebase lên main trước khi tụi mình review nhé.",
+        },
+      ],
+  }
+- {
+    slug: merge-v,
+    lemma: merge,
+    pos: verb,
+    cefr: B1,
+    topic: media,
+    ipa: "/mɜːdʒ/",
+    def: "To join changes from one branch into another.",
+    vi: "hợp nhất (merge)",
+    examples:
+      [
+        {
+          en: "We can merge this after the tests pass.",
+          vi: "Mình có thể merge cái này sau khi test chạy qua.",
+        },
+      ],
+  }
+- {
+    slug: squash-v,
+    lemma: squash,
+    pos: verb,
+    cefr: C1,
+    topic: media,
+    ipa: "/skwɒʃ/",
+    def: "To join several small commits into one before merging.",
+    vi: "gộp commit",
+    examples:
+      [
+        {
+          en: "Please squash your commits into one clean commit.",
+          vi: "Bạn gộp các commit lại thành một commit gọn nhé.",
+        },
+      ],
+  }
+- {
+    slug: motivation-n-media-news,
+    lemma: motivation,
+    pos: noun,
+    cefr: B1,
+    topic: media,
+    ipa: "/ˌməʊtɪˈveɪʃn/",
+    def: "The reason why a change is needed.",
+    vi: "lý do, động cơ",
+    examples:
+      [
+        {
+          en: "Motivation: users could not reset their password.",
+          vi: "Lý do: người dùng không đặt lại được mật khẩu.",
+        },
+      ],
+  }
+- {
+    slug: test-plan-n,
+    lemma: "test plan",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: media,
+    ipa: "/ˈtest plæn/",
+    def: "A description of how you checked that a change works.",
+    vi: "kế hoạch kiểm thử",
+    examples:
+      [
+        {
+          en: "My test plan lists the three cases I tried by hand.",
+          vi: "Kế hoạch kiểm thử của mình liệt kê ba trường hợp mình thử bằng tay.",
+        },
+      ],
+  }
+- {
+    slug: refactor-v,
+    lemma: refactor,
+    pos: verb,
+    cefr: B2,
+    topic: media,
+    ipa: "/riːˈfæktə/",
+    def: "To change the structure of code without changing what it does.",
+    vi: "tái cấu trúc mã",
+    examples:
+      [
+        {
+          en: "I refactored the parser so it is easier to test.",
+          vi: "Mình đã tái cấu trúc parser để dễ test hơn.",
+        },
+      ],
+  }
+- {
+    slug: address-feedback-phr,
+    lemma: "address feedback",
+    pos: phrase,
+    kind: phrase,
+    cefr: B2,
+    topic: media,
+    ipa: "/əˌdres ˈfiːdbæk/",
+    def: "To make changes because of comments from reviewers.",
+    vi: "xử lý góp ý",
+    examples:
+      [
+        {
+          en: "I addressed all the feedback in the last commit.",
+          vi: "Mình đã xử lý hết góp ý trong commit cuối.",
+        },
+      ],
+  }
+- {
+    slug: request-changes-phr-media-news,
+    lemma: "request changes",
+    pos: phrase,
+    kind: phrase,
+    cefr: B1,
+    topic: media,
+    ipa: "/rɪˌkwest ˈtʃeɪndʒɪz/",
+    def: "To ask the author to fix things before a change can be merged.",
+    vi: "yêu cầu chỉnh sửa",
+    examples:
+      [
+        {
+          en: "The reviewer requested changes because a test was missing.",
+          vi: "Reviewer yêu cầu chỉnh sửa vì thiếu một test.",
+        },
+      ],
+  }
+- {
+    slug: checklist-n-media-news,
+    lemma: checklist,
+    pos: noun,
+    cefr: B1,
+    topic: media,
+    ipa: "/ˈtʃeklɪst/",
+    def: "A list of things you must check or do.",
+    vi: "danh sách kiểm tra",
+    examples:
+      [
+        {
+          en: "Tick every item in the checklist before asking for review.",
+          vi: "Đánh dấu mọi mục trong danh sách kiểm tra trước khi nhờ review.",
+        },
+      ],
+  }
+- {
+    slug: related-adj,
+    lemma: related,
+    pos: adjective,
+    cefr: B1,
+    topic: media,
+    ipa: "/rɪˈleɪtɪd/",
+    def: "Connected to something else.",
+    vi: "liên quan",
+    examples: [{ en: "Related issue: #118.", vi: "Issue liên quan: #118." }],
+  }
+- {
+    slug: link-to-phr,
+    lemma: "link to",
+    pos: phrase,
+    kind: phrase,
+    cefr: B1,
+    topic: media,
+    ipa: "/ˈlɪŋk tə/",
+    def: "To connect one page or item to another so people can open it.",
+    vi: "liên kết tới",
+    examples:
+      [
+        {
+          en: "Please link to the design doc in the description.",
+          vi: "Hãy liên kết tới tài liệu thiết kế trong phần mô tả.",
+        },
+      ],
+  }
+# Set 4: Release notes
+- {
+    slug: whats-new-n,
+    lemma: "what's new",
+    pos: noun,
+    kind: collocation,
+    cefr: A2,
+    topic: media,
+    ipa: "/ˌwɒts ˈnjuː/",
+    def: "A heading or page that lists the latest changes in a product.",
+    vi: "có gì mới",
+    examples:
+      [
+        {
+          en: 'Open "What''s new" to see this month''s changes.',
+          vi: 'Mở mục "Có gì mới" để xem các thay đổi tháng này.',
+        },
+      ],
+  }
+- {
+    slug: new-feature-n,
+    lemma: "new feature",
+    pos: noun,
+    kind: collocation,
+    cefr: A2,
+    topic: media,
+    ipa: "/ˌnjuː ˈfiːtʃə/",
+    def: "A thing a product can do now that it could not do before.",
+    vi: "tính năng mới",
+    examples:
+      [{ en: "The big new feature is dark mode.", vi: "Tính năng mới nổi bật là chế độ tối." }],
+  }
+- {
+    slug: bug-fix-n,
+    lemma: "bug fix",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: media,
+    ipa: "/ˈbʌɡ fɪks/",
+    def: "A change that corrects a problem in a program.",
+    vi: "bản sửa lỗi",
+    examples:
+      [
+        {
+          en: "This version is only bug fixes, no new features.",
+          vi: "Phiên bản này chỉ có sửa lỗi, không có tính năng mới.",
+        },
+      ],
+  }
+- {
+    slug: tweak-n,
+    lemma: tweak,
+    pos: noun,
+    cefr: B2,
+    topic: media,
+    ipa: "/twiːk/",
+    def: "A small change that makes something work a little better.",
+    vi: "chỉnh sửa nhỏ",
+    examples:
+      [
+        {
+          en: "We made a few tweaks to the search page.",
+          vi: "Chúng tôi chỉnh vài chỗ nhỏ ở trang tìm kiếm.",
+        },
+      ],
+  }
+- {
+    slug: install-update-phr,
+    lemma: "install an update",
+    pos: phrase,
+    kind: phrase,
+    cefr: B1,
+    topic: media,
+    ipa: "/ɪnˌstɔːl ən ˈʌpdeɪt/",
+    def: "To put a newer version of software on your device.",
+    vi: "cài bản cập nhật",
+    examples:
+      [
+        {
+          en: "Install the update to get the new features.",
+          vi: "Cài bản cập nhật để có các tính năng mới.",
+        },
+      ],
+  }
+- {
+    slug: announce-v,
+    lemma: announce,
+    pos: verb,
+    cefr: B1,
+    topic: media,
+    ipa: "/əˈnaʊns/",
+    def: "To tell many people about something officially.",
+    vi: "thông báo",
+    examples:
+      [
+        {
+          en: "We announced the release on our blog.",
+          vi: "Chúng tôi đã thông báo bản phát hành trên blog.",
+        },
+      ],
+  }
+- {
+    slug: call-out-pv,
+    lemma: "call out",
+    pos: phrasal_verb,
+    kind: phrasal,
+    cefr: B2,
+    topic: media,
+    ipa: "/ˌkɔːl ˈaʊt/",
+    def: "To point out something clearly so people notice it.",
+    vi: "nêu bật, chỉ rõ",
+    examples:
+      [
+        {
+          en: "Call out the price change at the top of the notes.",
+          vi: "Nêu rõ thay đổi giá ở đầu ghi chú.",
+        },
+      ],
+  }
+- {
+    slug: sneak-peek-n,
+    lemma: "sneak peek",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: media,
+    ipa: "/ˌsniːk ˈpiːk/",
+    def: "A short early look at something before it is released.",
+    vi: "xem trước",
+    examples:
+      [
+        {
+          en: "The last section gives a sneak peek of next month's release.",
+          vi: "Phần cuối cho xem trước bản phát hành tháng sau.",
+        },
+      ],
+  }
+- {
+    slug: minor-adj,
+    lemma: minor,
+    pos: adjective,
+    cefr: B1,
+    topic: media,
+    ipa: "/ˈmaɪnə/",
+    def: "Small and not very important.",
+    vi: "nhỏ, không đáng kể",
+    examples:
+      [
+        {
+          en: "This release only has minor changes to the menu.",
+          vi: "Bản này chỉ có thay đổi nhỏ ở menu.",
+        },
+      ],
+  }
+- {
+    slug: major-adj,
+    lemma: major,
+    pos: adjective,
+    cefr: B1,
+    topic: media,
+    ipa: "/ˈmeɪdʒə/",
+    def: "Big and important.",
+    vi: "lớn, quan trọng",
+    examples:
+      [
+        {
+          en: "Version 5 is a major update with a new editor.",
+          vi: "Phiên bản 5 là bản cập nhật lớn với trình soạn thảo mới.",
+        },
+      ],
+  }
+- {
+    slug: patch-n-media-news,
+    lemma: patch,
+    pos: noun,
+    cefr: B1,
+    topic: media,
+    ipa: "/pætʃ/",
+    def: "A small update that fixes a problem.",
+    vi: "bản vá",
+    examples:
+      [
+        {
+          en: "We shipped a patch for the login bug this morning.",
+          vi: "Sáng nay chúng tôi đã tung bản vá cho lỗi đăng nhập.",
+        },
+      ],
+  }
+- {
+    slug: roll-out-pv,
+    lemma: "roll out",
+    pos: phrasal_verb,
+    kind: phrasal,
+    cefr: B2,
+    topic: media,
+    ipa: "/ˌrəʊl ˈaʊt/",
+    def: "To make something available to users, often step by step.",
+    vi: "triển khai dần",
+    examples:
+      [
+        {
+          en: "We will roll out the new dashboard to all users next week.",
+          vi: "Tuần sau chúng tôi sẽ triển khai bảng điều khiển mới cho mọi người dùng.",
+        },
+      ],
+  }
+- {
+    slug: generally-available-adj,
+    lemma: "generally available",
+    pos: adjective,
+    cefr: C1,
+    topic: media,
+    ipa: "/ˌdʒenrəli əˈveɪləbl/",
+    def: "Ready for all users, not only for testers.",
+    vi: "phát hành chính thức",
+    examples:
+      [
+        {
+          en: "The new editor is now generally available.",
+          vi: "Trình soạn thảo mới giờ đã phát hành chính thức.",
+        },
+      ],
+  }
+- {
+    slug: enhancement-n,
+    lemma: enhancement,
+    pos: noun,
+    cefr: B2,
+    topic: media,
+    ipa: "/ɪnˈhɑːnsmənt/",
+    def: "A change that adds to or improves a product's features.",
+    vi: "nâng cấp tính năng",
+    examples:
+      [
+        {
+          en: "Enhancement: you can now filter reports by date.",
+          vi: "Nâng cấp: giờ bạn có thể lọc báo cáo theo ngày.",
+        },
+      ],
+  }
+- {
+    slug: compatibility-n,
+    lemma: compatibility,
+    pos: noun,
+    cefr: B2,
+    topic: media,
+    ipa: "/kəmˌpætəˈbɪləti/",
+    def: "The ability of things to work together without problems.",
+    vi: "khả năng tương thích",
+    examples:
+      [
+        {
+          en: "This release improves compatibility with older phones.",
+          vi: "Bản này cải thiện khả năng tương thích với điện thoại cũ.",
+        },
+      ],
+  }
+- {
+    slug: impacted-adj,
+    lemma: impacted,
+    pos: adjective,
+    cefr: B2,
+    topic: media,
+    ipa: "/ɪmˈpæktɪd/",
+    def: "Changed by something, often in a bad way.",
+    vi: "chịu ảnh hưởng",
+    examples:
+      [
+        {
+          en: "Only impacted accounts need to reset their keys.",
+          vi: "Chỉ tài khoản chịu ảnh hưởng mới cần đặt lại khoá.",
+        },
+      ],
+  }
+# Set 5: User guides & walkthroughs
+- {
+    slug: user-guide-n,
+    lemma: "user guide",
+    pos: noun,
+    kind: collocation,
+    cefr: A2,
+    topic: media,
+    ipa: "/ˈjuːzə ɡaɪd/",
+    def: "A document that shows people how to use a product.",
+    vi: "hướng dẫn sử dụng",
+    examples:
+      [
+        {
+          en: "The user guide explains how to create an invoice.",
+          vi: "Hướng dẫn sử dụng giải thích cách tạo hoá đơn.",
+        },
+      ],
+  }
+- {
+    slug: walkthrough-n-media-news,
+    lemma: walkthrough,
+    pos: noun,
+    cefr: B2,
+    topic: media,
+    ipa: "/ˈwɔːkθruː/",
+    def: "A guide that takes you through a task one step at a time.",
+    vi: "bài hướng dẫn từng bước",
+    examples:
+      [
+        {
+          en: "This walkthrough shows how to connect your bank account.",
+          vi: "Bài hướng dẫn này chỉ cách kết nối tài khoản ngân hàng.",
+        },
+      ],
+  }
+- {
+    slug: before-you-begin-phr,
+    lemma: "before you begin",
+    pos: phrase,
+    kind: phrase,
+    cefr: A2,
+    topic: media,
+    ipa: "/bɪˌfɔː juː bɪˈɡɪn/",
+    def: "A heading for things you need to do or have before starting.",
+    vi: "trước khi bắt đầu",
+    examples:
+      [
+        {
+          en: "Before you begin, make a backup of your data.",
+          vi: "Trước khi bắt đầu, hãy sao lưu dữ liệu của bạn.",
+        },
+      ],
+  }
+- {
+    slug: make-sure-phr,
+    lemma: "make sure",
+    pos: phrase,
+    kind: phrase,
+    cefr: A2,
+    topic: media,
+    ipa: "/ˌmeɪk ˈʃʊə/",
+    def: "To check or do something so that it is certainly true.",
+    vi: "đảm bảo",
+    examples:
+      [
+        {
+          en: "Make sure you are logged in as an admin.",
+          vi: "Hãy đảm bảo bạn đang đăng nhập bằng tài khoản quản trị.",
+        },
+      ],
+  }
+- {
+    slug: click-v,
+    lemma: click,
+    pos: verb,
+    cefr: A2,
+    topic: media,
+    ipa: "/klɪk/",
+    def: "To press a mouse button on something on the screen.",
+    vi: "bấm, nhấp chuột",
+    examples: [{ en: "Click Save at the bottom of the page.", vi: "Bấm Lưu ở cuối trang." }],
+  }
+- {
+    slug: select-v,
+    lemma: select,
+    pos: verb,
+    cefr: A2,
+    topic: media,
+    ipa: "/sɪˈlekt/",
+    def: "To choose one item from a list.",
+    vi: chọn,
+    examples:
+      [{ en: "Select your country from the list.", vi: "Chọn quốc gia của bạn trong danh sách." }],
+  }
+- {
+    slug: enter-v,
+    lemma: enter,
+    pos: verb,
+    cefr: A2,
+    topic: media,
+    ipa: "/ˈentə/",
+    def: "To type information into a box on a screen.",
+    vi: "nhập (thông tin)",
+    examples:
+      [{ en: "Enter your email address and press Next.", vi: "Nhập địa chỉ email rồi bấm Tiếp." }],
+  }
+- {
+    slug: field-n-media-news,
+    lemma: field,
+    pos: noun,
+    cefr: A2,
+    topic: media,
+    ipa: "/fiːld/",
+    def: "A box in a form where you type information.",
+    vi: "ô nhập liệu",
+    examples: [{ en: "The name field cannot be empty.", vi: "Ô tên không được để trống." }],
+  }
+- {
+    slug: button-n,
+    lemma: button,
+    pos: noun,
+    cefr: A2,
+    topic: media,
+    ipa: "/ˈbʌtn/",
+    def: "A small area on a screen that you press to do something.",
+    vi: nút,
+    examples: [{ en: "The blue button sends the form.", vi: "Nút màu xanh dùng để gửi form." }],
+  }
+- {
+    slug: dropdown-n,
+    lemma: dropdown,
+    pos: noun,
+    cefr: B1,
+    topic: media,
+    ipa: "/ˈdrɒpdaʊn/",
+    def: "A list that opens when you click it so you can choose one item.",
+    vi: "danh sách thả xuống",
+    examples:
+      [
+        {
+          en: "Choose your time zone from the dropdown.",
+          vi: "Chọn múi giờ trong danh sách thả xuống.",
+        },
+      ],
+  }
+- {
+    slug: drag-v,
+    lemma: drag,
+    pos: verb,
+    cefr: B1,
+    topic: media,
+    ipa: "/dræɡ/",
+    def: "To move something on the screen while holding the mouse button.",
+    vi: kéo,
+    examples: [{ en: "Drag the file into the upload box.", vi: "Kéo tệp vào ô tải lên." }],
+  }
+- {
+    slug: you-should-see-phr,
+    lemma: "you should see",
+    pos: phrase,
+    kind: phrase,
+    cefr: A2,
+    topic: media,
+    ipa: "/juː ʃʊd ˈsiː/",
+    def: "Words that tell readers what result to expect after a step.",
+    vi: "bạn sẽ thấy",
+    examples:
+      [
+        {
+          en: 'You should see a green message that says "Saved".',
+          vi: 'Bạn sẽ thấy một thông báo màu xanh ghi "Đã lưu".',
+        },
+      ],
+  }
+- {
+    slug: troubleshooting-n,
+    lemma: troubleshooting,
+    pos: noun,
+    cefr: B2,
+    topic: media,
+    ipa: "/ˈtrʌblʃuːtɪŋ/",
+    def: "Finding and solving problems, often a section of a guide.",
+    vi: "khắc phục sự cố",
+    examples:
+      [
+        {
+          en: "If nothing happens, read the troubleshooting section.",
+          vi: "Nếu không có gì xảy ra, hãy đọc phần khắc phục sự cố.",
+        },
+      ],
+  }
+- {
+    slug: navigate-v,
+    lemma: navigate,
+    pos: verb,
+    cefr: B1,
+    topic: media,
+    ipa: "/ˈnævɪɡeɪt/",
+    def: "To move to a page or place in an app or website.",
+    vi: "đi tới (trang)",
+    examples:
+      [{ en: "Navigate to Settings, then Billing.", vi: "Vào Cài đặt, rồi tới Thanh toán." }],
+  }
+- {
+    slug: settings-n,
+    lemma: settings,
+    pos: noun,
+    cefr: A2,
+    topic: media,
+    ipa: "/ˈsetɪŋz/",
+    def: "The part of an app where you change how it works.",
+    vi: "phần cài đặt",
+    examples:
+      [
+        {
+          en: "You can turn off emails in Settings.",
+          vi: "Bạn có thể tắt email trong phần Cài đặt.",
+        },
+      ],
+  }
+- {
+    slug: shortcut-n,
+    lemma: shortcut,
+    pos: noun,
+    cefr: B1,
+    topic: media,
+    ipa: "/ˈʃɔːtkʌt/",
+    def: "A key or quick way to do something faster.",
+    vi: "phím tắt",
+    examples: [{ en: "Use the shortcut Ctrl+S to save.", vi: "Dùng phím tắt Ctrl+S để lưu." }],
+  }
+- {
+    slug: pop-up-n,
+    lemma: pop-up,
+    pos: noun,
+    cefr: B1,
+    topic: media,
+    ipa: "/ˈpɒp ʌp/",
+    def: "A small window that suddenly appears on the screen.",
+    vi: "cửa sổ bật lên",
+    examples:
+      [
+        {
+          en: "A pop-up asks if you want to save your changes.",
+          vi: "Một cửa sổ bật lên hỏi bạn có muốn lưu thay đổi không.",
+        },
+      ],
+  }
+- {
+    slug: screen-n,
+    lemma: screen,
+    pos: noun,
+    cefr: A2,
+    topic: media,
+    ipa: "/skriːn/",
+    def: "One page or view that an app shows you.",
+    vi: "màn hình",
+    examples:
+      [
+        {
+          en: "On the next screen, choose a password.",
+          vi: "Ở màn hình tiếp theo, hãy chọn mật khẩu.",
+        },
+      ],
+  }
+# Set 6: Writing for different readers
+- {
+    slug: reader-n,
+    lemma: reader,
+    pos: noun,
+    cefr: A2,
+    topic: media,
+    ipa: "/ˈriːdə/",
+    def: "A person who reads a text.",
+    vi: "người đọc",
+    examples:
+      [
+        {
+          en: "Think about your reader before you start writing.",
+          vi: "Hãy nghĩ về người đọc trước khi bắt đầu viết.",
+        },
+      ],
+  }
+- {
+    slug: register-n,
+    lemma: register,
+    pos: noun,
+    cefr: C1,
+    topic: media,
+    ipa: "/ˈredʒɪstə/",
+    def: "The level of formality you choose in writing or speech.",
+    vi: "văn phong (mức độ trang trọng)",
+    examples:
+      [
+        {
+          en: "Match the register to the reader: chat or contract.",
+          vi: "Chọn văn phong hợp với người đọc: tin nhắn hay hợp đồng.",
+        },
+      ],
+  }
+- {
+    slug: formal-adj,
+    lemma: formal,
+    pos: adjective,
+    cefr: B1,
+    topic: media,
+    ipa: "/ˈfɔːml/",
+    def: "Serious and correct, used in official situations.",
+    vi: "trang trọng",
+    examples:
+      [
+        {
+          en: "Emails to clients should be a little more formal.",
+          vi: "Email gửi khách hàng nên trang trọng hơn một chút.",
+        },
+      ],
+  }
+- {
+    slug: conversational-adj,
+    lemma: conversational,
+    pos: adjective,
+    cefr: B2,
+    topic: media,
+    ipa: "/ˌkɒnvəˈseɪʃənl/",
+    def: "Written in a relaxed way, like people talk.",
+    vi: "tự nhiên như nói chuyện",
+    examples:
+      [
+        {
+          en: "Our blog uses a conversational style.",
+          vi: "Blog của chúng tôi dùng văn phong như trò chuyện.",
+        },
+      ],
+  }
+- {
+    slug: buzzword-n,
+    lemma: buzzword,
+    pos: noun,
+    cefr: C1,
+    topic: media,
+    ipa: "/ˈbʌzwɜːd/",
+    def: "A fashionable word that sounds important but often says little.",
+    vi: "từ thời thượng sáo rỗng",
+    examples:
+      [
+        {
+          en: 'Drop buzzwords like "synergy" and say what changed.',
+          vi: 'Bỏ những từ sáo rỗng như "synergy" và nói rõ điều gì thay đổi.',
+        },
+      ],
+  }
+- {
+    slug: technical-adj,
+    lemma: technical,
+    pos: adjective,
+    cefr: B1,
+    topic: media,
+    ipa: "/ˈteknɪkl/",
+    def: "Connected with the detailed, practical side of a subject like software.",
+    vi: "kỹ thuật",
+    examples:
+      [
+        {
+          en: "The technical section is for developers only.",
+          vi: "Phần kỹ thuật chỉ dành cho developer.",
+        },
+      ],
+  }
+- {
+    slug: non-technical-adj,
+    lemma: non-technical,
+    pos: adjective,
+    cefr: B1,
+    topic: media,
+    ipa: "/ˌnɒn ˈteknɪkl/",
+    def: "Without special knowledge of technology.",
+    vi: "không chuyên kỹ thuật",
+    examples:
+      [
+        {
+          en: "Write the summary for non-technical managers.",
+          vi: "Viết phần tóm tắt cho các quản lý không chuyên kỹ thuật.",
+        },
+      ],
+  }
+- {
+    slug: plain-language-n,
+    lemma: "plain language",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: media,
+    ipa: "/ˌpleɪn ˈlæŋɡwɪdʒ/",
+    def: "Simple, clear words that most people understand easily.",
+    vi: "ngôn ngữ đơn giản, dễ hiểu",
+    examples:
+      [
+        {
+          en: "Explain the outage in plain language.",
+          vi: "Giải thích sự cố bằng ngôn ngữ dễ hiểu.",
+        },
+      ],
+  }
+- {
+    slug: end-user-n,
+    lemma: "end user",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: media,
+    ipa: "/ˌend ˈjuːzə/",
+    def: "The person who finally uses a product, not the people who build it.",
+    vi: "người dùng cuối",
+    examples:
+      [
+        {
+          en: "End users only need to know that login is faster.",
+          vi: "Người dùng cuối chỉ cần biết đăng nhập đã nhanh hơn.",
+        },
+      ],
+  }
+- {
+    slug: tldr-n,
+    lemma: "TL;DR",
+    pos: noun,
+    cefr: B2,
+    topic: media,
+    ipa: "/ˌtiː el ˈdiː ɑː/",
+    def: "A very short summary at the top for people with little time.",
+    vi: "tóm tắt siêu ngắn",
+    examples:
+      [
+        {
+          en: "Start the email with a one-line TL;DR for managers.",
+          vi: "Mở đầu email bằng một dòng tóm tắt ngắn cho các quản lý.",
+        },
+      ],
+  }
+- {
+    slug: prior-knowledge-n,
+    lemma: "prior knowledge",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: media,
+    ipa: "/ˌpraɪə ˈnɒlɪdʒ/",
+    def: "What a reader already knows before reading.",
+    vi: "kiến thức có sẵn",
+    examples:
+      [
+        {
+          en: "This guide needs no prior knowledge of SQL.",
+          vi: "Hướng dẫn này không cần kiến thức SQL có sẵn.",
+        },
+      ],
+  }
+- {
+    slug: familiar-with-phr,
+    lemma: "familiar with",
+    pos: phrase,
+    kind: phrase,
+    cefr: B1,
+    topic: media,
+    ipa: "/fəˈmɪliə wɪð/",
+    def: "Knowing something because you have seen or used it before.",
+    vi: "quen thuộc với",
+    examples:
+      [
+        {
+          en: "Not every reader is familiar with Kubernetes.",
+          vi: "Không phải người đọc nào cũng quen với Kubernetes.",
+        },
+      ],
+  }
+- {
+    slug: tailor-v,
+    lemma: tailor,
+    pos: verb,
+    cefr: B2,
+    topic: media,
+    ipa: "/ˈteɪlə/",
+    def: "To change something so it fits a particular person or group.",
+    vi: "điều chỉnh cho phù hợp",
+    examples:
+      [
+        {
+          en: "Tailor the message for each team.",
+          vi: "Điều chỉnh thông điệp cho phù hợp với từng nhóm.",
+        },
+      ],
+  }
+- {
+    slug: accessible-adj,
+    lemma: accessible,
+    pos: adjective,
+    cefr: B2,
+    topic: media,
+    ipa: "/əkˈsesəbl/",
+    def: "Easy for many different people to understand or use.",
+    vi: "dễ tiếp cận",
+    examples:
+      [
+        {
+          en: "Short sentences make the guide more accessible.",
+          vi: "Câu ngắn giúp hướng dẫn dễ tiếp cận hơn.",
+        },
+      ],
+  }
+- {
+    slug: explain-v,
+    lemma: explain,
+    pos: verb,
+    cefr: A2,
+    topic: media,
+    ipa: "/ɪkˈspleɪn/",
+    def: "To tell someone about something so they understand it.",
+    vi: "giải thích",
+    examples:
+      [
+        {
+          en: "Can you explain why the build failed?",
+          vi: "Bạn giải thích được vì sao build bị lỗi không?",
+        },
+      ],
+  }
+- {
+    slug: detail-n,
+    lemma: detail,
+    pos: noun,
+    cefr: A2,
+    topic: media,
+    ipa: "/ˈdiːteɪl/",
+    def: "A small fact or piece of information.",
+    vi: "chi tiết",
+    examples:
+      [
+        {
+          en: "Leave out the database details for the sales team.",
+          vi: "Bỏ bớt chi tiết về database cho nhóm bán hàng.",
+        },
+      ],
+  }
+- {
+    slug: friendly-adj,
+    lemma: friendly,
+    pos: adjective,
+    cefr: A2,
+    topic: media,
+    ipa: "/ˈfrendli/",
+    def: "Kind and pleasant.",
+    vi: "thân thiện",
+    examples:
+      [
+        {
+          en: "The error message should sound friendly, not angry.",
+          vi: "Thông báo lỗi nên nghe thân thiện, không gay gắt.",
+        },
+      ],
+  }
+- {
+    slug: condescending-adj,
+    lemma: condescending,
+    pos: adjective,
+    cefr: C1,
+    topic: media,
+    ipa: "/ˌkɒndɪˈsendɪŋ/",
+    def: "Talking to people as if they are less clever than you.",
+    vi: "kẻ cả, coi thường",
+    examples:
+      [
+        {
+          en: 'Avoid words like "simply", which can sound condescending.',
+          vi: 'Tránh những từ như "simply" vì nghe có thể kẻ cả.',
+        },
+      ],
+  }
+- {
+    slug: relevance-n,
+    lemma: relevance,
+    pos: noun,
+    cefr: C1,
+    topic: media,
+    ipa: "/ˈreləvəns/",
+    def: "How useful or connected something is to a person or situation.",
+    vi: "mức độ liên quan",
+    examples:
+      [
+        {
+          en: "Explain the relevance of the change for each team.",
+          vi: "Giải thích mức độ liên quan của thay đổi với từng nhóm.",
+        },
+      ],
+  }
+- {
+    slug: acronym-n,
+    lemma: acronym,
+    pos: noun,
+    cefr: B2,
+    topic: media,
+    ipa: "/ˈækrənɪm/",
+    def: "A word made from the first letters of other words, like API.",
+    vi: "từ viết tắt (ghép chữ đầu)",
+    examples:
+      [
+        {
+          en: "Write out each acronym the first time you use it.",
+          vi: "Hãy viết đầy đủ mỗi từ viết tắt ở lần đầu dùng.",
+        },
+      ],
+  }
+# Set 7: Technical blog structure
+- {
+    slug: headline-n,
+    lemma: headline,
+    pos: noun,
+    cefr: B1,
+    topic: media,
+    ipa: "/ˈhedlaɪn/",
+    def: "The title of an article, written to catch attention.",
+    vi: "tiêu đề bài viết",
+    examples:
+      [
+        {
+          en: "A good headline says what problem the post solves.",
+          vi: "Một tiêu đề tốt nói bài viết giải quyết vấn đề gì.",
+        },
+      ],
+  }
+- {
+    slug: hook-n,
+    lemma: hook,
+    pos: noun,
+    cefr: B2,
+    topic: media,
+    ipa: "/hʊk/",
+    def: "An interesting opening that makes people want to keep reading.",
+    vi: "câu mở đầu thu hút",
+    examples:
+      [
+        {
+          en: "Start with a hook, like the night our server went down.",
+          vi: "Mở đầu bằng một câu thu hút, như cái đêm server của tụi mình sập.",
+        },
+      ],
+  }
+- {
+    slug: problem-statement-n,
+    lemma: "problem statement",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: media,
+    ipa: "/ˈprɒbləm steɪtmənt/",
+    def: "A short, clear description of the problem you want to solve.",
+    vi: "mô tả vấn đề",
+    examples:
+      [
+        {
+          en: "The problem statement fits in two sentences.",
+          vi: "Phần mô tả vấn đề gói gọn trong hai câu.",
+        },
+      ],
+  }
+- {
+    slug: architecture-diagram-n,
+    lemma: "architecture diagram",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: media,
+    ipa: "/ˈɑːkɪtektʃə daɪəɡræm/",
+    def: "A picture that shows the main parts of a system and how they connect.",
+    vi: "sơ đồ kiến trúc",
+    examples:
+      [
+        {
+          en: "An architecture diagram helps readers follow the post.",
+          vi: "Một sơ đồ kiến trúc giúp người đọc theo kịp bài viết.",
+        },
+      ],
+  }
+- {
+    slug: solution-n,
+    lemma: solution,
+    pos: noun,
+    cefr: B1,
+    topic: media,
+    ipa: "/səˈluːʃn/",
+    def: "A way to solve a problem.",
+    vi: "giải pháp",
+    examples:
+      [
+        {
+          en: "The final solution was a simple cache.",
+          vi: "Giải pháp cuối cùng là một bộ nhớ đệm đơn giản.",
+        },
+      ],
+  }
+- {
+    slug: results-n,
+    lemma: results,
+    pos: noun,
+    cefr: B1,
+    topic: media,
+    ipa: "/rɪˈzʌlts/",
+    def: "What happened at the end because of the work you did.",
+    vi: "kết quả",
+    examples:
+      [
+        {
+          en: "In the results section, show the speed before and after.",
+          vi: "Trong phần kết quả, hãy cho thấy tốc độ trước và sau.",
+        },
+      ],
+  }
+- {
+    slug: war-story-n,
+    lemma: "war story",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: media,
+    ipa: "/ˈwɔː stɔːri/",
+    def: "An exciting true story about a hard problem you dealt with.",
+    vi: 'chuyện "chiến trường" (kể lại sự cố)',
+    examples:
+      [
+        {
+          en: "Readers love a good war story about a 3 a.m. outage.",
+          vi: "Người đọc thích những câu chuyện về sự cố lúc 3 giờ sáng.",
+        },
+      ],
+  }
+- {
+    slug: conclusion-n,
+    lemma: conclusion,
+    pos: noun,
+    cefr: B1,
+    topic: media,
+    ipa: "/kənˈkluːʒn/",
+    def: "The last part of a text that finishes the main ideas.",
+    vi: "phần kết luận",
+    examples:
+      [
+        {
+          en: "Keep the conclusion short and practical.",
+          vi: "Giữ phần kết luận ngắn và thực tế.",
+        },
+      ],
+  }
+- {
+    slug: downside-n,
+    lemma: downside,
+    pos: noun,
+    cefr: B2,
+    topic: media,
+    ipa: "/ˈdaʊnsaɪd/",
+    def: "The bad part of something that is mostly good.",
+    vi: "mặt trái, nhược điểm",
+    examples:
+      [
+        {
+          en: "The downside of this cache is extra memory use.",
+          vi: "Nhược điểm của bộ nhớ đệm này là tốn thêm bộ nhớ.",
+        },
+      ],
+  }
+- {
+    slug: series-n,
+    lemma: series,
+    pos: noun,
+    cefr: B1,
+    topic: media,
+    ipa: "/ˈsɪəriːz/",
+    def: "A group of related posts that come one after another.",
+    vi: "loạt bài",
+    examples:
+      [
+        {
+          en: "This is part two of our series on caching.",
+          vi: "Đây là phần hai trong loạt bài về caching.",
+        },
+      ],
+  }
+- {
+    slug: publish-v,
+    lemma: publish,
+    pos: verb,
+    cefr: B1,
+    topic: media,
+    ipa: "/ˈpʌblɪʃ/",
+    def: "To make a text available for people to read.",
+    vi: "xuất bản, đăng",
+    examples:
+      [
+        {
+          en: "We publish one engineering post every month.",
+          vi: "Mỗi tháng chúng tôi đăng một bài kỹ thuật.",
+        },
+      ],
+  }
+- {
+    slug: structure-n,
+    lemma: structure,
+    pos: noun,
+    cefr: B1,
+    topic: media,
+    ipa: "/ˈstrʌktʃə/",
+    def: "The way the parts of something are arranged.",
+    vi: "bố cục, cấu trúc",
+    examples:
+      [
+        {
+          en: "The structure is: problem, approach, results, limits.",
+          vi: "Bố cục là: vấn đề, cách làm, kết quả, giới hạn.",
+        },
+      ],
+  }
+- {
+    slug: paragraph-n,
+    lemma: paragraph,
+    pos: noun,
+    cefr: A2,
+    topic: media,
+    ipa: "/ˈpærəɡrɑːf/",
+    def: "A group of sentences about one idea.",
+    vi: "đoạn văn",
+    examples:
+      [{ en: "Each paragraph should cover one idea.", vi: "Mỗi đoạn văn nên nói về một ý." }],
+  }
+- {
+    slug: heading-n,
+    lemma: heading,
+    pos: noun,
+    cefr: B1,
+    topic: media,
+    ipa: "/ˈhedɪŋ/",
+    def: "A title at the top of a part of a text.",
+    vi: "đề mục",
+    examples:
+      [
+        {
+          en: "Use headings so readers can jump to the code.",
+          vi: "Dùng đề mục để người đọc nhảy tới phần code.",
+        },
+      ],
+  }
+- {
+    slug: code-snippet-n,
+    lemma: "code snippet",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: media,
+    ipa: "/ˈkəʊd snɪpɪt/",
+    def: "A short piece of code shown in a text.",
+    vi: "đoạn mã ngắn",
+    examples:
+      [
+        {
+          en: "Add a code snippet that shows the fix.",
+          vi: "Thêm một đoạn mã ngắn minh hoạ bản sửa.",
+        },
+      ],
+  }
+- {
+    slug: readership-n,
+    lemma: readership,
+    pos: noun,
+    cefr: C1,
+    topic: media,
+    ipa: "/ˈriːdəʃɪp/",
+    def: "All the people who usually read a publication.",
+    vi: "lượng độc giả",
+    examples:
+      [
+        {
+          en: "Our blog's readership is mostly backend developers.",
+          vi: "Độc giả blog của chúng tôi chủ yếu là developer backend.",
+        },
+      ],
+  }
+- {
+    slug: engaging-adj,
+    lemma: engaging,
+    pos: adjective,
+    cefr: B2,
+    topic: media,
+    ipa: "/ɪnˈɡeɪdʒɪŋ/",
+    def: "Interesting enough to keep your attention.",
+    vi: "hấp dẫn, lôi cuốn",
+    examples:
+      [
+        {
+          en: "Real stories make a technical post more engaging.",
+          vi: "Câu chuyện thật làm bài kỹ thuật hấp dẫn hơn.",
+        },
+      ],
+  }
+- {
+    slug: insight-n,
+    lemma: insight,
+    pos: noun,
+    cefr: C1,
+    topic: media,
+    ipa: "/ˈɪnsaɪt/",
+    def: "A clear, deep understanding of something.",
+    vi: "hiểu biết sâu sắc",
+    examples:
+      [
+        {
+          en: "The post gives real insight into how the queue works.",
+          vi: "Bài viết mang lại hiểu biết sâu về cách hàng đợi vận hành.",
+        },
+      ],
+  }
+- {
+    slug: case-study-n,
+    lemma: "case study",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: media,
+    ipa: "/ˈkeɪs stʌdi/",
+    def: "A detailed story of how one real project or problem was handled.",
+    vi: "nghiên cứu tình huống",
+    examples:
+      [
+        {
+          en: "Our case study shows how we cut costs by 30%.",
+          vi: "Nghiên cứu tình huống cho thấy cách chúng tôi giảm 30% chi phí.",
+        },
+      ],
+  }
+- {
+    slug: subtitle-n,
+    lemma: subtitle,
+    pos: noun,
+    cefr: B2,
+    topic: media,
+    ipa: "/ˈsʌbtaɪtl/",
+    def: "A second, smaller title that adds information to the main one.",
+    vi: "tiêu đề phụ",
+    examples:
+      [
+        {
+          en: "The subtitle says who the post is for.",
+          vi: "Tiêu đề phụ nói bài viết dành cho ai.",
+        },
+      ],
+  }
+- {
+    slug: call-to-action-n,
+    lemma: "call to action",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: media,
+    ipa: "/ˌkɔːl tə ˈækʃn/",
+    def: "A line that tells readers what to do next.",
+    vi: "lời kêu gọi hành động",
+    examples:
+      [
+        {
+          en: "End with a call to action: try the demo.",
+          vi: "Kết bài bằng lời kêu gọi hành động: dùng thử bản demo.",
+        },
+      ],
+  }
+- {
+    slug: word-count-n,
+    lemma: "word count",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: media,
+    ipa: "/ˈwɜːd kaʊnt/",
+    def: "The number of words in a text.",
+    vi: "số chữ",
+    examples: [{ en: "Keep the word count under 1,500.", vi: "Giữ số chữ dưới 1.500." }],
+  }
+# Set 8: Evidence, screenshots & links
+- {
+    slug: animated-gif-n,
+    lemma: "animated GIF",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: media,
+    ipa: "/ˌænɪmeɪtɪd ˈɡɪf/",
+    def: "A short moving picture that plays again and again.",
+    vi: "ảnh GIF động",
+    examples:
+      [
+        {
+          en: "An animated GIF shows the bug better than words.",
+          vi: "Một ảnh GIF động thể hiện lỗi rõ hơn lời nói.",
+        },
+      ],
+  }
+- {
+    slug: dashboard-n,
+    lemma: dashboard,
+    pos: noun,
+    cefr: B2,
+    topic: media,
+    ipa: "/ˈdæʃbɔːd/",
+    def: "A screen that shows important numbers in one place.",
+    vi: "bảng điều khiển",
+    examples:
+      [
+        {
+          en: "Link the dashboard so readers can see live numbers.",
+          vi: "Gắn liên kết bảng điều khiển để người đọc xem số liệu trực tiếp.",
+        },
+      ],
+  }
+- {
+    slug: graph-n,
+    lemma: graph,
+    pos: noun,
+    cefr: B1,
+    topic: media,
+    ipa: "/ɡrɑːf/",
+    def: "A picture that shows how numbers change or compare.",
+    vi: "biểu đồ",
+    examples:
+      [
+        {
+          en: "The graph shows errors dropping after the fix.",
+          vi: "Biểu đồ cho thấy lỗi giảm sau khi sửa.",
+        },
+      ],
+  }
+- {
+    slug: hyperlink-n,
+    lemma: hyperlink,
+    pos: noun,
+    cefr: B1,
+    topic: media,
+    ipa: "/ˈhaɪpəlɪŋk/",
+    def: "Text you can click to go to another page.",
+    vi: "siêu liên kết",
+    examples:
+      [{ en: "Add a hyperlink to the original issue.", vi: "Thêm siêu liên kết tới issue gốc." }],
+  }
+- {
+    slug: reference-n,
+    lemma: reference,
+    pos: noun,
+    cefr: B1,
+    topic: media,
+    ipa: "/ˈrefrəns/",
+    def: "A mention of a source that gives more information.",
+    vi: "tài liệu tham khảo",
+    examples:
+      [
+        {
+          en: "Put the references at the end of the document.",
+          vi: "Đặt tài liệu tham khảo ở cuối văn bản.",
+        },
+      ],
+  }
+- {
+    slug: inline-link-n,
+    lemma: "inline link",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: media,
+    ipa: "/ˌɪnlaɪn ˈlɪŋk/",
+    def: "A link placed inside a sentence instead of at the end.",
+    vi: "liên kết trong câu",
+    examples:
+      [
+        {
+          en: "Use an inline link to the issue, not a long URL.",
+          vi: "Dùng liên kết ngay trong câu tới issue, đừng dán URL dài.",
+        },
+      ],
+  }
+- {
+    slug: substantiate-v,
+    lemma: substantiate,
+    pos: verb,
+    cefr: C1,
+    topic: media,
+    ipa: "/səbˈstænʃieɪt/",
+    def: "To show with facts that something is true.",
+    vi: "chứng minh, minh chứng",
+    examples:
+      [
+        {
+          en: "Substantiate the claim with test results.",
+          vi: "Hãy chứng minh nhận định bằng kết quả kiểm thử.",
+        },
+      ],
+  }
+- {
+    slug: alt-text-n,
+    lemma: "alt text",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: media,
+    ipa: "/ˈɔːlt tekst/",
+    def: "A short description of an image for people who cannot see it.",
+    vi: "văn bản thay thế cho ảnh",
+    examples:
+      [
+        {
+          en: "Add alt text to every image in the docs.",
+          vi: "Thêm văn bản thay thế cho mọi ảnh trong tài liệu.",
+        },
+      ],
+  }
+- {
+    slug: crop-v,
+    lemma: crop,
+    pos: verb,
+    cefr: B2,
+    topic: media,
+    ipa: "/krɒp/",
+    def: "To cut off the outer parts of a picture.",
+    vi: "cắt (ảnh)",
+    examples:
+      [{ en: "Crop the image so only the error is visible.", vi: "Cắt ảnh để chỉ thấy phần lỗi." }],
+  }
+- {
+    slug: zoom-in-pv,
+    lemma: "zoom in",
+    pos: phrasal_verb,
+    kind: phrasal,
+    cefr: B1,
+    topic: media,
+    ipa: "/ˌzuːm ˈɪn/",
+    def: "To make part of an image look bigger.",
+    vi: "phóng to",
+    examples:
+      [
+        {
+          en: "Zoom in on the red warning so readers can see it.",
+          vi: "Phóng to cảnh báo màu đỏ để người đọc thấy rõ.",
+        },
+      ],
+  }
+- {
+    slug: sensitive-information-n,
+    lemma: "sensitive information",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: media,
+    ipa: "/ˌsensətɪv ɪnfəˈmeɪʃn/",
+    def: "Private data, like passwords or names, that should not be shared.",
+    vi: "thông tin nhạy cảm",
+    examples:
+      [
+        {
+          en: "Check screenshots for sensitive information before posting.",
+          vi: "Kiểm tra ảnh chụp có thông tin nhạy cảm không trước khi đăng.",
+        },
+      ],
+  }
+- {
+    slug: redact-v-media-news,
+    lemma: redact,
+    pos: verb,
+    cefr: C1,
+    topic: media,
+    ipa: "/rɪˈdækt/",
+    def: "To hide private parts of a document before others see it.",
+    vi: "che, xoá phần nhạy cảm",
+    examples:
+      [
+        {
+          en: "Redact the customer's email in the log.",
+          vi: "Che email của khách hàng trong log.",
+        },
+      ],
+  }
+- {
+    slug: log-excerpt-n,
+    lemma: "log excerpt",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: media,
+    ipa: "/ˈlɒɡ eksɜːpt/",
+    def: "A short part copied from a log file.",
+    vi: "đoạn trích log",
+    examples:
+      [
+        {
+          en: "Include a log excerpt that shows the timeout.",
+          vi: "Thêm một đoạn trích log cho thấy lỗi timeout.",
+        },
+      ],
+  }
+- {
+    slug: before-and-after-phr,
+    lemma: "before and after",
+    pos: phrase,
+    kind: phrase,
+    cefr: B1,
+    topic: media,
+    ipa: "/bɪˌfɔːr ən ˈɑːftə/",
+    def: "Showing something both before and after a change.",
+    vi: "trước và sau",
+    examples:
+      [
+        {
+          en: "Show before and after screenshots of the new layout.",
+          vi: "Đưa ảnh chụp trước và sau của bố cục mới.",
+        },
+      ],
+  }
+- {
+    slug: paste-v,
+    lemma: paste,
+    pos: verb,
+    cefr: B1,
+    topic: media,
+    ipa: "/peɪst/",
+    def: "To put copied text or images into a place.",
+    vi: dán,
+    examples: [{ en: "Paste the error into a code block.", vi: "Dán lỗi vào một khối code." }],
+  }
+- {
+    slug: permalink-n,
+    lemma: permalink,
+    pos: noun,
+    cefr: C1,
+    topic: media,
+    ipa: "/ˈpɜːməlɪŋk/",
+    def: "A link that always points to the same exact page or line.",
+    vi: "liên kết cố định",
+    examples:
+      [
+        {
+          en: "Use a permalink to the line, not to the main branch.",
+          vi: "Dùng liên kết cố định tới dòng code, đừng trỏ tới nhánh main.",
+        },
+      ],
+  }
+- {
+    slug: broken-link-n,
+    lemma: "broken link",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: media,
+    ipa: "/ˌbrəʊkən ˈlɪŋk/",
+    def: "A link that no longer opens the right page.",
+    vi: "liên kết hỏng",
+    examples:
+      [
+        {
+          en: "The docs had three broken links after the move.",
+          vi: "Tài liệu có ba liên kết hỏng sau khi chuyển chỗ.",
+        },
+      ],
+  }
+- {
+    slug: quote-v,
+    lemma: quote,
+    pos: verb,
+    cefr: B1,
+    topic: media,
+    ipa: "/kwəʊt/",
+    def: "To repeat someone's exact words.",
+    vi: "trích dẫn",
+    examples:
+      [
+        {
+          en: "Quote the user's message in the ticket.",
+          vi: "Trích dẫn tin nhắn của người dùng trong ticket.",
+        },
+      ],
+  }
+- {
+    slug: percentage-n,
+    lemma: percentage,
+    pos: noun,
+    cefr: B1,
+    topic: media,
+    ipa: "/pəˈsentɪdʒ/",
+    def: "An amount shown as part of 100.",
+    vi: "tỷ lệ phần trăm",
+    examples:
+      [
+        {
+          en: "A small percentage of users saw the error.",
+          vi: "Một tỷ lệ nhỏ người dùng gặp lỗi.",
+        },
+      ],
+  }
+- {
+    slug: comparison-n,
+    lemma: comparison,
+    pos: noun,
+    cefr: B1,
+    topic: media,
+    ipa: "/kəmˈpærɪsn/",
+    def: "Looking at two or more things to see how they are different.",
+    vi: "sự so sánh",
+    examples:
+      [
+        {
+          en: "A side-by-side comparison makes the speed-up clear.",
+          vi: "Một phép so sánh song song làm rõ mức tăng tốc.",
+        },
+      ],
+  }
+- {
+    slug: repeatable-adj,
+    lemma: repeatable,
+    pos: adjective,
+    cefr: C1,
+    topic: media,
+    ipa: "/rɪˈpiːtəbl/",
+    def: "Giving the same result each time it is done.",
+    vi: "lặp lại được",
+    examples:
+      [
+        {
+          en: "Use a repeatable script, not a one-time manual test.",
+          vi: "Dùng một script lặp lại được, đừng test tay một lần.",
+        },
+      ],
+  }
+- {
+    slug: source-link-n,
+    lemma: "source link",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: media,
+    ipa: "/ˈsɔːs lɪŋk/",
+    def: "A link to the place where information came from.",
+    vi: "liên kết nguồn",
+    examples:
+      [
+        {
+          en: "Every number in the report has a source link.",
+          vi: "Mỗi con số trong báo cáo đều có liên kết nguồn.",
+        },
+      ],
+  }
+- {
+    slug: pull-quote-n,
+    lemma: "pull quote",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: media,
+    ipa: "/ˈpʊl kwəʊt/",
+    def: "A short line from an article shown in large text to catch attention.",
+    vi: "câu trích nổi bật",
+    examples:
+      [
+        {
+          en: "Use the customer's words as a pull quote.",
+          vi: "Dùng lời khách hàng làm câu trích nổi bật.",
+        },
+      ],
+  }
+- {
+    slug: embed-v,
+    lemma: embed,
+    pos: verb,
+    cefr: B2,
+    topic: media,
+    ipa: "/ɪmˈbed/",
+    def: "To put something, like a video or chart, inside a page.",
+    vi: nhúng,
+    examples: [{ en: "Embed the demo video in the README.", vi: "Nhúng video demo vào README." }],
+  }
+# Set 9: Editing for clarity
+- {
+    slug: nominalisation-n,
+    lemma: nominalisation,
+    pos: noun,
+    cefr: C1,
+    topic: media,
+    ipa: "/ˌnɒmɪnəlaɪˈzeɪʃn/",
+    def: 'Using a noun where a verb would be clearer, like "make a decision" for "decide".',
+    vi: "danh từ hoá",
+    examples:
+      [
+        {
+          en: 'Replace the nominalisation "perform an update" with "update".',
+          vi: 'Thay cụm danh từ hoá "perform an update" bằng "update".',
+        },
+      ],
+  }
+- {
+    slug: wordy-adj,
+    lemma: wordy,
+    pos: adjective,
+    cefr: B2,
+    topic: media,
+    ipa: "/ˈwɜːdi/",
+    def: "Using more words than needed.",
+    vi: "dài dòng",
+    examples:
+      [
+        {
+          en: "This paragraph is wordy; cut it to two lines.",
+          vi: "Đoạn này dài dòng quá; rút còn hai dòng.",
+        },
+      ],
+  }
+- {
+    slug: redundant-adj,
+    lemma: redundant,
+    pos: adjective,
+    cefr: C1,
+    topic: media,
+    ipa: "/rɪˈdʌndənt/",
+    def: "Not needed because it repeats something already said.",
+    vi: "thừa, lặp",
+    examples:
+      [
+        {
+          en: '"Past history" is redundant; just say "history".',
+          vi: '"Lịch sử quá khứ" là thừa; chỉ cần nói "lịch sử".',
+        },
+      ],
+  }
+- {
+    slug: passive-voice-n,
+    lemma: "passive voice",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: media,
+    ipa: "/ˌpæsɪv ˈvɔɪs/",
+    def: 'A sentence form where the action is done to the subject, as in "the file was deleted".',
+    vi: "câu bị động",
+    examples:
+      [
+        {
+          en: "The passive voice hides who deleted the file.",
+          vi: "Câu bị động che đi việc ai đã xoá tệp.",
+        },
+      ],
+  }
+- {
+    slug: active-voice-n,
+    lemma: "active voice",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: media,
+    ipa: "/ˌæktɪv ˈvɔɪs/",
+    def: 'A sentence form where the subject does the action, as in "the script deletes the file".',
+    vi: "câu chủ động",
+    examples:
+      [
+        {
+          en: 'Use the active voice: "The script deletes old files."',
+          vi: 'Dùng câu chủ động: "Script xoá các tệp cũ."',
+        },
+      ],
+  }
+- {
+    slug: subject-n,
+    lemma: subject,
+    pos: noun,
+    cefr: B1,
+    topic: media,
+    ipa: "/ˈsʌbdʒɪkt/",
+    def: "The person or thing that does the action in a sentence.",
+    vi: "chủ ngữ",
+    examples:
+      [
+        {
+          en: "Make the subject clear: the server or the user?",
+          vi: "Làm rõ chủ ngữ: server hay người dùng?",
+        },
+      ],
+  }
+- {
+    slug: sentence-n,
+    lemma: sentence,
+    pos: noun,
+    cefr: A2,
+    topic: media,
+    ipa: "/ˈsentəns/",
+    def: "A group of words that expresses a complete thought.",
+    vi: câu,
+    examples:
+      [{ en: "Keep each sentence under twenty words.", vi: "Giữ mỗi câu dưới hai mươi từ." }],
+  }
+- {
+    slug: clause-n,
+    lemma: clause,
+    pos: noun,
+    cefr: C1,
+    topic: media,
+    ipa: "/klɔːz/",
+    def: "A part of a sentence with its own subject and verb.",
+    vi: "mệnh đề",
+    examples:
+      [
+        {
+          en: "Split the sentence where the second clause begins.",
+          vi: "Tách câu ở chỗ mệnh đề thứ hai bắt đầu.",
+        },
+      ],
+  }
+- {
+    slug: trim-v,
+    lemma: trim,
+    pos: verb,
+    cefr: B2,
+    topic: media,
+    ipa: "/trɪm/",
+    def: "To make something shorter by removing parts that are not needed.",
+    vi: "cắt gọt, rút gọn",
+    examples:
+      [
+        {
+          en: "Trim the intro so the steps start sooner.",
+          vi: "Rút gọn phần mở đầu để các bước xuất hiện sớm hơn.",
+        },
+      ],
+  }
+- {
+    slug: reword-v,
+    lemma: reword,
+    pos: verb,
+    cefr: B2,
+    topic: media,
+    ipa: "/ˌriːˈwɜːd/",
+    def: "To write something again using different words.",
+    vi: "diễn đạt lại",
+    examples:
+      [
+        {
+          en: "Reword this line so it doesn't sound like blame.",
+          vi: "Diễn đạt lại dòng này để nó không nghe như đổ lỗi.",
+        },
+      ],
+  }
+- {
+    slug: readability-n,
+    lemma: readability,
+    pos: noun,
+    cefr: C1,
+    topic: media,
+    ipa: "/ˌriːdəˈbɪləti/",
+    def: "How easy a text is to read and understand.",
+    vi: "độ dễ đọc",
+    examples:
+      [{ en: "Short paragraphs improve readability.", vi: "Đoạn văn ngắn giúp tăng độ dễ đọc." }],
+  }
+- {
+    slug: consistent-adj-media-news,
+    lemma: consistent,
+    pos: adjective,
+    cefr: B2,
+    topic: media,
+    ipa: "/kənˈsɪstənt/",
+    def: "Always the same in style or meaning.",
+    vi: "nhất quán",
+    examples:
+      [
+        {
+          en: 'Be consistent: say "sign in" everywhere, not "log on".',
+          vi: 'Hãy nhất quán: dùng "sign in" ở mọi chỗ, không dùng "log on".',
+        },
+      ],
+  }
+- {
+    slug: terminology-n,
+    lemma: terminology,
+    pos: noun,
+    cefr: C1,
+    topic: media,
+    ipa: "/ˌtɜːmɪˈnɒlədʒi/",
+    def: "The special words used in a subject.",
+    vi: "thuật ngữ",
+    examples:
+      [
+        {
+          en: "We keep a list of product terminology in the wiki.",
+          vi: "Chúng tôi có danh sách thuật ngữ sản phẩm trong wiki.",
+        },
+      ],
+  }
+- {
+    slug: filler-word-n,
+    lemma: "filler word",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: media,
+    ipa: "/ˈfɪlə wɜːd/",
+    def: 'A word that adds no meaning, such as "basically" or "just".',
+    vi: "từ đệm",
+    examples:
+      [
+        {
+          en: 'Remove filler words like "really" and "basically".',
+          vi: 'Bỏ các từ đệm như "really" và "basically".',
+        },
+      ],
+  }
+- {
+    slug: run-on-sentence-n,
+    lemma: "run-on sentence",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: media,
+    ipa: "/ˌrʌn ɒn ˈsentəns/",
+    def: "A sentence that joins too many ideas without correct breaks.",
+    vi: "câu dài nối lủng củng",
+    examples:
+      [
+        {
+          en: "Split that run-on sentence into three.",
+          vi: "Tách câu dài lủng củng đó thành ba câu.",
+        },
+      ],
+  }
+- {
+    slug: line-break-n,
+    lemma: "line break",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: media,
+    ipa: "/ˈlaɪn breɪk/",
+    def: "The point where text ends one line and starts a new one.",
+    vi: "ngắt dòng",
+    examples: [{ en: "Add a line break between the steps.", vi: "Thêm ngắt dòng giữa các bước." }],
+  }
+- {
+    slug: break-up-pv,
+    lemma: "break up",
+    pos: phrasal_verb,
+    kind: phrasal,
+    cefr: B1,
+    topic: media,
+    ipa: "/ˌbreɪk ˈʌp/",
+    def: "To divide something into smaller parts.",
+    vi: "chia nhỏ",
+    examples:
+      [
+        {
+          en: "Break up the long section into short steps.",
+          vi: "Chia nhỏ phần dài thành các bước ngắn.",
+        },
+      ],
+  }
+- {
+    slug: spell-out-pv,
+    lemma: "spell out",
+    pos: phrasal_verb,
+    kind: phrasal,
+    cefr: B2,
+    topic: media,
+    ipa: "/ˌspel ˈaʊt/",
+    def: "To explain something clearly and in detail.",
+    vi: "nói rõ, giải thích cặn kẽ",
+    examples:
+      [
+        {
+          en: "Spell out what happens if the payment fails.",
+          vi: "Nói rõ điều gì xảy ra nếu thanh toán thất bại.",
+        },
+      ],
+  }
+- {
+    slug: edit-v,
+    lemma: edit,
+    pos: verb,
+    cefr: B1,
+    topic: media,
+    ipa: "/ˈedɪt/",
+    def: "To change a text to make it better or correct.",
+    vi: "biên tập, chỉnh sửa",
+    examples:
+      [
+        {
+          en: "I edited the guide to remove old screenshots.",
+          vi: "Mình đã chỉnh sửa hướng dẫn để bỏ ảnh chụp cũ.",
+        },
+      ],
+  }
+- {
+    slug: editor-n,
+    lemma: editor,
+    pos: noun,
+    cefr: B1,
+    topic: media,
+    ipa: "/ˈedɪtə/",
+    def: "A person whose job is to check and improve texts.",
+    vi: "biên tập viên",
+    examples:
+      [
+        {
+          en: "Our editor asked for a shorter title.",
+          vi: "Biên tập viên của chúng tôi muốn một tiêu đề ngắn hơn.",
+        },
+      ],
+  }
+- {
+    slug: coherent-adj,
+    lemma: coherent,
+    pos: adjective,
+    cefr: C1,
+    topic: media,
+    ipa: "/kəʊˈhɪərənt/",
+    def: "Clear and logical, with parts that fit together.",
+    vi: "mạch lạc",
+    examples:
+      [
+        {
+          en: "The steps are now in order and the guide is coherent.",
+          vi: "Các bước giờ đã đúng thứ tự và hướng dẫn mạch lạc.",
+        },
+      ],
+  }
+- {
+    slug: flow-n,
+    lemma: flow,
+    pos: noun,
+    cefr: B2,
+    topic: media,
+    ipa: "/fləʊ/",
+    def: "The way ideas move smoothly from one to the next.",
+    vi: "dòng chảy, mạch văn",
+    examples:
+      [
+        {
+          en: "Move this paragraph up to improve the flow.",
+          vi: "Đưa đoạn này lên trên để mạch văn trôi hơn.",
+        },
+      ],
+  }
+- {
+    slug: emphasis-n,
+    lemma: emphasis,
+    pos: noun,
+    cefr: B2,
+    topic: media,
+    ipa: "/ˈemfəsɪs/",
+    def: "Special importance given to something.",
+    vi: "sự nhấn mạnh",
+    examples:
+      [
+        {
+          en: "Put the emphasis on what the user must do.",
+          vi: "Nhấn mạnh vào việc người dùng phải làm.",
+        },
+      ],
+  }
+- {
+    slug: typo-n,
+    lemma: typo,
+    pos: noun,
+    cefr: B1,
+    topic: media,
+    ipa: "/ˈtaɪpəʊ/",
+    def: "A small mistake in typing.",
+    vi: "lỗi đánh máy",
+    examples:
+      [
+        {
+          en: 'There''s a typo in the command: "isntall".',
+          vi: 'Có lỗi đánh máy trong lệnh: "isntall".',
+        },
+      ],
+  }
+- {
+    slug: punctuation-n,
+    lemma: punctuation,
+    pos: noun,
+    cefr: B2,
+    topic: media,
+    ipa: "/ˌpʌŋktʃuˈeɪʃn/",
+    def: "Marks like commas and full stops used in writing.",
+    vi: "dấu câu",
+    examples:
+      [
+        {
+          en: "Check the punctuation in the list items.",
+          vi: "Kiểm tra dấu câu trong các mục danh sách.",
+        },
+      ],
+  }
+- {
+    slug: style-guide-n,
+    lemma: "style guide",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: media,
+    ipa: "/ˈstaɪl ɡaɪd/",
+    def: "A set of rules for how a team writes.",
+    vi: "hướng dẫn văn phong",
+    examples:
+      [
+        {
+          en: 'Our style guide says to use "you", not "the user".',
+          vi: 'Hướng dẫn văn phong của chúng tôi bảo dùng "bạn", không dùng "người dùng".',
+        },
+      ],
+  }
+- {
+    slug: nitpick-n-media-news,
+    lemma: nitpick,
+    pos: noun,
+    cefr: C1,
+    topic: media,
+    ipa: "/ˈnɪtpɪk/",
+    def: "A very small comment about a detail that is not important.",
+    vi: "góp ý vụn vặt",
+    examples:
+      [
+        {
+          en: "Just a nitpick: add a full stop here.",
+          vi: "Góp ý nhỏ thôi: thêm dấu chấm ở đây nhé.",
+        },
+      ],
+  }
+- {
+    slug: grammar-n,
+    lemma: grammar,
+    pos: noun,
+    cefr: A2,
+    topic: media,
+    ipa: "/ˈɡræmə/",
+    def: "The rules for how words are put together in a language.",
+    vi: "ngữ pháp",
+    examples:
+      [
+        {
+          en: "A tool can check grammar, but not meaning.",
+          vi: "Công cụ có thể kiểm tra ngữ pháp, nhưng không kiểm được ý nghĩa.",
+        },
+      ],
+  }
+# Set 10: Communicating a breaking change
+- {
+    slug: breaking-change-n,
+    lemma: "breaking change",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: media,
+    ipa: "/ˌbreɪkɪŋ ˈtʃeɪndʒ/",
+    def: "A change that makes old code or settings stop working.",
+    vi: "thay đổi không tương thích",
+    examples:
+      [
+        {
+          en: "Version 3 has one breaking change to the login API.",
+          vi: "Phiên bản 3 có một thay đổi không tương thích ở API đăng nhập.",
+        },
+      ],
+  }
+- {
+    slug: non-breaking-adj,
+    lemma: non-breaking,
+    pos: adjective,
+    cefr: C1,
+    topic: media,
+    ipa: "/ˌnɒn ˈbreɪkɪŋ/",
+    def: "Not causing old code or settings to stop working.",
+    vi: "không gây lỗi tương thích",
+    examples:
+      [
+        {
+          en: "Adding an optional field is a non-breaking change.",
+          vi: "Thêm một trường tuỳ chọn là thay đổi không gây lỗi tương thích.",
+        },
+      ],
+  }
+- {
+    slug: migration-guide-n,
+    lemma: "migration guide",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: media,
+    ipa: "/maɪˈɡreɪʃn ɡaɪd/",
+    def: "A document that explains how to move to a new version.",
+    vi: "hướng dẫn chuyển đổi",
+    examples:
+      [
+        {
+          en: "Follow the migration guide to update your config.",
+          vi: "Làm theo hướng dẫn chuyển đổi để cập nhật cấu hình.",
+        },
+      ],
+  }
+- {
+    slug: migrate-v,
+    lemma: migrate,
+    pos: verb,
+    cefr: B2,
+    topic: media,
+    ipa: "/maɪˈɡreɪt/",
+    def: "To move data or code from one system or version to another.",
+    vi: "chuyển đổi, di chuyển",
+    examples:
+      [
+        {
+          en: "Please migrate to the new endpoint before May.",
+          vi: "Vui lòng chuyển sang endpoint mới trước tháng Năm.",
+        },
+      ],
+  }
+- {
+    slug: deprecation-n,
+    lemma: deprecation,
+    pos: noun,
+    cefr: C1,
+    topic: media,
+    ipa: "/ˌdeprəˈkeɪʃn/",
+    def: "An official warning that a feature will be removed later.",
+    vi: "việc ngừng khuyến khích dùng",
+    examples:
+      [
+        {
+          en: "The deprecation notice went out three months ago.",
+          vi: "Thông báo ngừng hỗ trợ đã gửi từ ba tháng trước.",
+        },
+      ],
+  }
+- {
+    slug: end-of-life-n,
+    lemma: "end of life",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: media,
+    ipa: "/ˌend əv ˈlaɪf/",
+    def: "The date after which a product gets no more updates or support.",
+    vi: "hết vòng đời hỗ trợ",
+    examples:
+      [
+        {
+          en: "Version 1 reaches end of life in December.",
+          vi: "Phiên bản 1 hết vòng đời hỗ trợ vào tháng Mười Hai.",
+        },
+      ],
+  }
+- {
+    slug: roadmap-n,
+    lemma: roadmap,
+    pos: noun,
+    cefr: B2,
+    topic: media,
+    ipa: "/ˈrəʊdmæp/",
+    def: "A plan that shows future changes and when they will come.",
+    vi: "lộ trình",
+    examples:
+      [
+        {
+          en: "The roadmap shows v2 being removed next spring.",
+          vi: "Lộ trình cho thấy v2 sẽ bị gỡ vào mùa xuân tới.",
+        },
+      ],
+  }
+- {
+    slug: deadline-n-media-news,
+    lemma: deadline,
+    pos: noun,
+    cefr: B1,
+    topic: media,
+    ipa: "/ˈdedlaɪn/",
+    def: "The last time or date by which something must be done.",
+    vi: "hạn chót",
+    examples:
+      [{ en: "The deadline to update is 30 June.", vi: "Hạn chót để cập nhật là 30 tháng Sáu." }],
+  }
+- {
+    slug: advance-notice-n,
+    lemma: "advance notice",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: media,
+    ipa: "/ədˌvɑːns ˈnəʊtɪs/",
+    def: "A warning given some time before something happens.",
+    vi: "thông báo trước",
+    examples:
+      [
+        {
+          en: "We give customers 90 days' advance notice.",
+          vi: "Chúng tôi thông báo trước cho khách hàng 90 ngày.",
+        },
+      ],
+  }
+- {
+    slug: maintenance-window-n,
+    lemma: "maintenance window",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: media,
+    ipa: "/ˈmeɪntənəns wɪndəʊ/",
+    def: "A planned time when a system may be stopped for work on it.",
+    vi: "khung giờ bảo trì",
+    examples:
+      [
+        {
+          en: "The switch happens in the maintenance window on Sunday night.",
+          vi: "Việc chuyển đổi diễn ra trong khung giờ bảo trì tối Chủ nhật.",
+        },
+      ],
+  }
+- {
+    slug: opt-in-v,
+    lemma: "opt in",
+    pos: verb,
+    kind: phrasal,
+    cefr: C1,
+    topic: media,
+    ipa: "/ˌɒpt ˈɪn/",
+    def: "To choose to take part in something.",
+    vi: "chủ động tham gia",
+    examples:
+      [
+        {
+          en: "You can opt in to the new API early.",
+          vi: "Bạn có thể chủ động dùng thử API mới sớm.",
+        },
+      ],
+  }
+- {
+    slug: rollback-n,
+    lemma: rollback,
+    pos: noun,
+    cefr: C1,
+    topic: media,
+    ipa: "/ˈrəʊlbæk/",
+    def: "A return to an earlier version after a problem.",
+    vi: "khôi phục về bản trước",
+    examples:
+      [
+        {
+          en: "If errors rise, we will do a rollback.",
+          vi: "Nếu lỗi tăng, chúng tôi sẽ khôi phục về bản trước.",
+        },
+      ],
+  }
+- {
+    slug: compatibility-layer-n,
+    lemma: "compatibility layer",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: media,
+    ipa: "/kəmˌpætəˈbɪləti leɪə/",
+    def: "Extra code that lets old calls keep working with a new system.",
+    vi: "lớp tương thích",
+    examples:
+      [
+        {
+          en: "A compatibility layer keeps old requests working for now.",
+          vi: "Một lớp tương thích giúp request cũ vẫn chạy trong lúc này.",
+        },
+      ],
+  }
+- {
+    slug: transition-period-n,
+    lemma: "transition period",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: media,
+    ipa: "/trænˈzɪʃn pɪəriəd/",
+    def: "A time when both the old and new ways still work.",
+    vi: "giai đoạn chuyển tiếp",
+    examples:
+      [
+        {
+          en: "During the transition period, both versions are supported.",
+          vi: "Trong giai đoạn chuyển tiếp, cả hai phiên bản đều được hỗ trợ.",
+        },
+      ],
+  }
+- {
+    slug: phase-out-pv-media-news,
+    lemma: "phase out",
+    pos: phrasal_verb,
+    kind: phrasal,
+    cefr: C1,
+    topic: media,
+    ipa: "/ˌfeɪz ˈaʊt/",
+    def: "To stop using something slowly, in stages.",
+    vi: "loại bỏ dần",
+    examples:
+      [
+        {
+          en: "We will phase out API keys in favour of tokens.",
+          vi: "Chúng tôi sẽ loại bỏ dần API key để chuyển sang token.",
+        },
+      ],
+  }
+- {
+    slug: rename-v,
+    lemma: rename,
+    pos: verb,
+    cefr: B1,
+    topic: media,
+    ipa: "/ˌriːˈneɪm/",
+    def: "To give something a new name.",
+    vi: "đổi tên",
+    examples:
+      [
+        {
+          en: "The field user_id is renamed to account_id.",
+          vi: "Trường user_id được đổi tên thành account_id.",
+        },
+      ],
+  }
+- {
+    slug: mandatory-adj-media-news,
+    lemma: mandatory,
+    pos: adjective,
+    cefr: C1,
+    topic: media,
+    ipa: "/ˈmændətəri/",
+    def: "Something you must do; not optional.",
+    vi: "bắt buộc",
+    examples:
+      [
+        {
+          en: "Two-step login becomes mandatory for admins.",
+          vi: "Đăng nhập hai bước trở thành bắt buộc với quản trị viên.",
+        },
+      ],
+  }
+- {
+    slug: version-bump-n,
+    lemma: "version bump",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: media,
+    ipa: "/ˈvɜːʃn bʌmp/",
+    def: "An increase in a version number, such as from 2.0 to 3.0.",
+    vi: "việc tăng số phiên bản",
+    examples:
+      [
+        {
+          en: "A breaking change needs a major version bump.",
+          vi: "Thay đổi không tương thích cần tăng số phiên bản chính.",
+        },
+      ],
+  }
+- {
+    slug: semantic-versioning-n,
+    lemma: "semantic versioning",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: media,
+    ipa: "/sɪˌmæntɪk ˈvɜːʃnɪŋ/",
+    def: "A system where version numbers show if a change is a fix, a feature or breaking.",
+    vi: "đánh số phiên bản ngữ nghĩa",
+    examples:
+      [
+        {
+          en: "We follow semantic versioning, so 3.0 means breaking changes.",
+          vi: "Chúng tôi theo semantic versioning nên 3.0 nghĩa là có thay đổi không tương thích.",
+        },
+      ],
+  }
+- {
+    slug: action-required-phr,
+    lemma: "action required",
+    pos: phrase,
+    kind: phrase,
+    cefr: B2,
+    topic: media,
+    ipa: "/ˌækʃn rɪˈkwaɪəd/",
+    def: "Words that tell readers they must do something.",
+    vi: "cần hành động",
+    examples:
+      [
+        {
+          en: "Subject: Action required: update your webhook URL.",
+          vi: "Tiêu đề: Cần hành động: cập nhật URL webhook của bạn.",
+        },
+      ],
+  }
+- {
+    slug: customer-facing-adj,
+    lemma: customer-facing,
+    pos: adjective,
+    cefr: C1,
+    topic: media,
+    ipa: "/ˈkʌstəmə feɪsɪŋ/",
+    def: "Seen or used directly by customers.",
+    vi: "hướng tới khách hàng",
+    examples:
+      [
+        {
+          en: "This is a customer-facing change, so support must know.",
+          vi: "Đây là thay đổi khách hàng thấy được nên bộ phận hỗ trợ phải biết.",
+        },
+      ],
+  }
+- {
+    slug: internal-adj,
+    lemma: internal,
+    pos: adjective,
+    cefr: B2,
+    topic: media,
+    ipa: "/ɪnˈtɜːnl/",
+    def: "Used only inside a company or system.",
+    vi: "nội bộ",
+    examples:
+      [{ en: "Internal tools will switch first.", vi: "Các công cụ nội bộ sẽ chuyển trước." }],
+  }
+- {
+    slug: sync-up-pv,
+    lemma: "sync up",
+    pos: phrasal_verb,
+    kind: phrasal,
+    cefr: B2,
+    topic: media,
+    ipa: "/ˌsɪŋk ˈʌp/",
+    def: "To meet briefly so everyone has the same information.",
+    vi: "họp nhanh để thống nhất",
+    examples:
+      [
+        {
+          en: "Let's sync up with support before we send the email.",
+          vi: "Mình họp nhanh với bộ phận hỗ trợ trước khi gửi email nhé.",
+        },
+      ],
+  }
+- {
+    slug: regret-v-media-news,
+    lemma: regret,
+    pos: verb,
+    cefr: B2,
+    topic: media,
+    ipa: "/rɪˈɡret/",
+    def: "To feel or say you are sorry about something.",
+    vi: "lấy làm tiếc",
+    examples:
+      [
+        {
+          en: "We regret the short notice for this change.",
+          vi: "Chúng tôi lấy làm tiếc vì thông báo thay đổi này hơi gấp.",
+        },
+      ],
+  }
+- {
+    slug: inconvenience-n,
+    lemma: inconvenience,
+    pos: noun,
+    cefr: B2,
+    topic: media,
+    ipa: "/ˌɪnkənˈviːniəns/",
+    def: "A small problem or trouble that something causes.",
+    vi: "sự bất tiện",
+    examples:
+      [
+        {
+          en: "Sorry for any inconvenience this may cause.",
+          vi: "Xin lỗi vì mọi bất tiện có thể xảy ra.",
+        },
+      ],
+  }
+- {
+    slug: minimise-v,
+    lemma: minimise,
+    pos: verb,
+    cefr: B2,
+    topic: media,
+    ipa: "/ˈmɪnɪmaɪz/",
+    def: "To make something as small as possible.",
+    vi: "giảm tới mức thấp nhất",
+    examples:
+      [
+        {
+          en: "We switch at night to minimise disruption.",
+          vi: "Chúng tôi chuyển vào ban đêm để giảm gián đoạn tới mức thấp nhất.",
+        },
+      ],
+  }
+- {
+    slug: dry-run-n,
+    lemma: "dry run",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: media,
+    ipa: "/ˌdraɪ ˈrʌn/",
+    def: "A practice run that shows what would happen without making real changes.",
+    vi: "chạy thử",
+    examples:
+      [
+        {
+          en: "Do a dry run of the migration script first.",
+          vi: "Chạy thử script chuyển đổi trước đã.",
+        },
+      ],
+  }
+- {
+    slug: follow-up-email-n,
+    lemma: "follow-up email",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: media,
+    ipa: "/ˈfɒləʊ ʌp iːmeɪl/",
+    def: "A second email sent after the first to remind or update people.",
+    vi: "email nhắc lại",
+    examples:
+      [
+        {
+          en: "Send a follow-up email one week before the deadline.",
+          vi: "Gửi email nhắc lại một tuần trước hạn chót.",
+        },
+      ],
+  }
+- {
+    slug: faq-n,
+    lemma: FAQ,
+    pos: noun,
+    cefr: B1,
+    topic: media,
+    ipa: "/ˌef eɪ ˈkjuː/",
+    def: "A list of common questions with their answers.",
+    vi: "câu hỏi thường gặp",
+    examples:
+      [
+        {
+          en: "We added an FAQ for teams moving to v3.",
+          vi: "Chúng tôi thêm phần câu hỏi thường gặp cho các nhóm chuyển sang v3.",
+        },
+      ],
+  }
+- {
+    slug: effective-date-n,
+    lemma: "effective date",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: media,
+    ipa: "/ɪˈfektɪv deɪt/",
+    def: "The date when a change starts to apply.",
+    vi: "ngày có hiệu lực",
+    examples:
+      [
+        {
+          en: "The effective date of the new limits is 1 July.",
+          vi: "Ngày giới hạn mới có hiệu lực là 1 tháng Bảy.",
+        },
+      ],
+  }
+- {
+    slug: legacy-adj-media-news,
+    lemma: legacy,
+    pos: adjective,
+    cefr: C1,
+    topic: media,
+    ipa: "/ˈleɡəsi/",
+    def: "Old but still in use, and often hard to change.",
+    vi: "cũ, kế thừa",
+    examples:
+      [{ en: "The legacy endpoint will be removed in v4.", vi: "Endpoint cũ sẽ bị gỡ bỏ ở v4." }],
+  }
+- {
+    slug: client-library-n,
+    lemma: "client library",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: media,
+    ipa: "/ˈklaɪənt laɪbrəri/",
+    def: "Ready code that helps apps talk to a service's API.",
+    vi: "thư viện client",
+    examples:
+      [
+        {
+          en: "Update the client library to version 3 before July.",
+          vi: "Cập nhật thư viện client lên bản 3 trước tháng Bảy.",
+        },
+      ],
+  }
+- {
+    slug: kill-switch-n,
+    lemma: "kill switch",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: media,
+    ipa: "/ˈkɪl swɪtʃ/",
+    def: "A setting that turns a feature off quickly in an emergency.",
+    vi: "công tắc tắt khẩn cấp",
+    examples:
+      [
+        {
+          en: "We added a kill switch in case the new format fails.",
+          vi: "Chúng tôi thêm công tắc tắt khẩn cấp phòng khi định dạng mới bị lỗi.",
+        },
+      ],
+  }
+- {
+    slug: incremental-adj,
+    lemma: incremental,
+    pos: adjective,
+    cefr: C1,
+    topic: media,
+    ipa: "/ˌɪŋkrəˈmentl/",
+    def: "Happening in small steps over time.",
+    vi: "từng bước, tăng dần",
+    examples:
+      [
+        {
+          en: "An incremental switch is safer than one big release.",
+          vi: "Chuyển đổi từng bước an toàn hơn một lần phát hành lớn.",
+        },
+      ],
+  }
+- {
+    slug: communicate-v-media-news,
+    lemma: communicate,
+    pos: verb,
+    cefr: B1,
+    topic: media,
+    ipa: "/kəˈmjuːnɪkeɪt/",
+    def: "To share information with other people.",
+    vi: "truyền đạt",
+    examples:
+      [
+        {
+          en: "Communicate the change in the app and by email.",
+          vi: "Truyền đạt thay đổi trong ứng dụng và qua email.",
+        },
+      ],
+  }
+- {
+    slug: office-hours-n-media-news,
+    lemma: "office hours",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: media,
+    ipa: "/ˈɒfɪs aʊəz/",
+    def: "Set times when a team is free to answer people's questions.",
+    vi: "giờ hỗ trợ giải đáp",
+    examples:
+      [
+        {
+          en: "We will hold office hours every Tuesday for teams moving to v3.",
+          vi: "Thứ Ba nào chúng tôi cũng có giờ giải đáp cho các nhóm chuyển sang v3.",
+        },
+      ],
+  }

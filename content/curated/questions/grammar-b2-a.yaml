@@ -1,0 +1,396 @@
+# Grammar track B2 tests (batch b2-a). Original items; answers stay server-side.
+# --- g-b2-articles-advanced
+- slug: g-b2-articles-advanced-1
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "In general, ___ make onboarding much faster."
+  options: [the code reviews, a code reviews, code reviews, a code review]
+  answer: 2
+  explanation_vi: "Nhận định chung về code review → danh từ số nhiều, không mạo từ."
+- slug: g-b2-articles-advanced-2
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: pr
+  sentence: "___ in this module were written before we adopted TypeScript."
+  options: [Tests, The tests, A tests, A test]
+  answer: 1
+  explanation_vi: "In this module chỉ đúng bộ test cụ thể → the tests."
+- slug: g-b2-articles-advanced-3
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: email
+  sentence: "___ is a top priority for every bank we work with."
+  options: [The security, A security, Securities, Security]
+  answer: 3
+  explanation_vi: "Bảo mật nói chung, danh từ không đếm được → không mạo từ."
+- slug: g-b2-articles-advanced-4
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: vscode
+  sentence: "// ___ queue lets producers and consumers work at different speeds."
+  options: [A, The, An, Ø]
+  answer: 0
+  explanation_vi: "Định nghĩa một loại, danh từ đếm được số ít → a queue (bất kỳ queue nào)."
+- slug: g-b2-articles-advanced-5
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "___ (performance / of / the search page) dropped after the last release."
+  accepted: ["The performance of the search page"]
+  explanation_vi: "Of the search page xác định hiệu năng cụ thể → The performance of the search page."
+- slug: g-b2-articles-advanced-6
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: email
+  sentence: "Viết lại không mạo từ cho nhận định chung: “The users hate slow apps.” → ___ hate slow apps."
+  accepted: ["Users"]
+  explanation_vi: "Nói về người dùng nói chung → users, không dùng the."
+- slug: g-b2-articles-advanced-7
+  type: mcq_meaning
+  cefr: B2
+  topic: grammar
+  stem: "Chọn câu đúng."
+  question: "Câu nào dùng mạo từ đúng?"
+  options:
+    - "The documentation saves time, but documentation for this SDK is outdated."
+    - "Documentation saves time, but the documentation for this SDK is outdated."
+    - "A documentation saves time, but the documentation for this SDK is outdated."
+    - "Documentation saves time, but a documentation for this SDK is outdated."
+  answer: 1
+  explanation_vi: "Nói chung → không mạo từ; tài liệu cụ thể của SDK này → the."
+- slug: g-b2-articles-advanced-8
+  type: mcq_meaning
+  cefr: B2
+  topic: grammar
+  stem: "Nhận định chung trong văn viết trang trọng."
+  question: "“Điện thoại thông minh đã thay đổi cách chúng ta làm việc.” (giọng bài báo) là…"
+  options:
+    - "Smartphone has changed the way we work."
+    - "The smartphones has changed the way we work."
+    - "The smartphone has changed the way we work."
+    - "A smartphones has changed the way we work."
+  answer: 2
+  explanation_vi: "The + danh từ số ít có thể chỉ cả một loại phát minh trong văn trang trọng. Smartphone số ít không đứng trơ trọi."
+# --- g-b2-verb-patterns
+- slug: g-b2-verb-patterns-1
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "I definitely remember ___ that PR. Why is it still open?"
+  options: [to approve, approve, approving, approved]
+  answer: 2
+  explanation_vi: "Nhớ lại việc đã làm → remember + V-ing."
+- slug: g-b2-verb-patterns-2
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "The app keeps freezing on my phone. — Try ___ the cache."
+  options: [to clearing, clearing, clear, cleared]
+  answer: 1
+  explanation_vi: "Gợi ý một cách thử để giải quyết vấn đề → try + V-ing."
+- slug: g-b2-verb-patterns-3
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: jira
+  sentence: "Sorry, I forgot ___ the ticket to QA before I left."
+  options: [assigning, assign, to assign, assigned]
+  answer: 2
+  explanation_vi: "Quên làm việc cần làm → forget + to V."
+- slug: g-b2-verb-patterns-4
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: email
+  sentence: "We regret ___ you that the free plan will end on 1 July."
+  options: [informing, to inform, inform, informed]
+  answer: 1
+  explanation_vi: "Lấy làm tiếc khi báo tin (thư trang trọng) → regret + to V."
+- slug: g-b2-verb-patterns-5
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "Our team stopped ___ (use) Jenkins two years ago — we're on GitHub Actions now."
+  accepted: ["using"]
+  explanation_vi: "Bỏ hẳn một việc → stop + V-ing."
+- slug: g-b2-verb-patterns-6
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "I really regret ___ (skip) the design review. We missed a big issue."
+  accepted: ["skipping"]
+  explanation_vi: "Tiếc vì việc đã làm → regret + V-ing."
+- slug: g-b2-verb-patterns-7
+  type: mcq_meaning
+  cefr: B2
+  topic: grammar
+  stem: "Hiểu đúng nghĩa."
+  question: "“Huy stopped to check the alerts.” nghĩa là…"
+  options:
+    - "Huy không kiểm tra cảnh báo nữa."
+    - "Huy dừng việc đang làm để kiểm tra cảnh báo."
+    - "Huy quên kiểm tra cảnh báo."
+    - "Huy cố gắng kiểm tra cảnh báo nhưng không được."
+  answer: 1
+  explanation_vi: "Stop + to V = dừng lại để làm việc khác. Stop + V-ing mới là bỏ hẳn."
+- slug: g-b2-verb-patterns-8
+  type: mcq_meaning
+  cefr: B2
+  topic: grammar
+  stem: "Chọn câu đúng nghĩa."
+  question: "“Sau phần demo, chị ấy chuyển sang giới thiệu lộ trình quý tới.” là…"
+  options:
+    - "After the demo, she went on presenting the roadmap for next quarter."
+    - "After the demo, she went on to present the roadmap for next quarter."
+    - "After the demo, she stopped presenting the roadmap for next quarter."
+    - "After the demo, she tried presenting the roadmap for next quarter."
+  answer: 1
+  explanation_vi: "Go on + to V = chuyển sang việc tiếp theo. Go on + V-ing = tiếp tục việc đang làm."
+# --- g-b2-condition-linkers
+- slug: g-b2-condition-linkers-1
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: jira
+  sentence: "We'll release on Thursday ___ QA finds a blocker."
+  options: [as long as, in case, unless, provided]
+  answer: 2
+  explanation_vi: "Ngoại lệ: phát hành, trừ khi QA thấy lỗi chặn → unless."
+- slug: g-b2-condition-linkers-2
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "Take a snapshot of the database ___ the migration goes wrong."
+  options: [unless, in case, as long as, otherwise]
+  answer: 1
+  explanation_vi: "Làm trước để phòng sự cố → in case."
+- slug: g-b2-condition-linkers-3
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: email
+  sentence: "You can work from home on Fridays ___ you join the morning stand-up."
+  options: [as long as, unless, in case, otherwise]
+  answer: 0
+  explanation_vi: "Điều kiện bắt buộc (miễn là) → as long as."
+- slug: g-b2-condition-linkers-4
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "Save your changes now in case the laptop ___."
+  options: [will crash, crashes, would crash, is crash]
+  answer: 1
+  explanation_vi: "Mệnh đề in case dùng hiện tại đơn khi nói về tương lai → crashes."
+- slug: g-b2-condition-linkers-5
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: pr
+  sentence: "Pin the package version. ___, a minor update could break the build."
+  accepted: ["Otherwise"]
+  explanation_vi: "Nêu hậu quả nếu không làm theo → Otherwise (nếu không thì)."
+- slug: g-b2-condition-linkers-6
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "Viết lại với unless: “Don't restart the server if the health check doesn't fail.” → Don't restart the server ___ the health check fails."
+  accepted: ["unless"]
+  explanation_vi: "If… not = unless; sau unless dùng động từ khẳng định (fails)."
+- slug: g-b2-condition-linkers-7
+  type: mcq_meaning
+  cefr: B2
+  topic: grammar
+  stem: "Chọn câu đúng."
+  question: "Câu nào đúng ngữ pháp và nghĩa?"
+  options:
+    - "We'll deploy tonight unless the tests don't pass."
+    - "We'll deploy tonight unless the tests will fail."
+    - "We'll deploy tonight unless the tests fail."
+    - "We'll deploy tonight unless the tests failing."
+  answer: 2
+  explanation_vi: "Unless đã mang nghĩa phủ định và dùng hiện tại đơn: unless the tests fail."
+- slug: g-b2-condition-linkers-8
+  type: mcq_meaning
+  cefr: B2
+  topic: grammar
+  stem: "Hiểu đúng nghĩa."
+  question: "“I'll keep my laptop with me in case the client calls.” nghĩa là…"
+  options:
+    - "Mình chỉ mang laptop nếu khách gọi."
+    - "Mình mang laptop theo để phòng khi khách gọi."
+    - "Mình sẽ không mang laptop trừ khi khách gọi."
+    - "Mình mang laptop miễn là khách gọi."
+  answer: 1
+  explanation_vi: "In case = phòng khi: mang laptop trước, dù khách có gọi hay không."
+# --- g-b2-reported
+- slug: g-b2-reported-1
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: email
+  sentence: "The vendor ___ that their API was not the cause, but we haven't verified it yet."
+  options: [confirmed, claimed, told, explained us]
+  answer: 1
+  explanation_vi: "Họ khẳng định nhưng mình chưa kiểm chứng → claimed."
+- slug: g-b2-reported-2
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "Ngoc explained ___ that the refund would take five days."
+  options: [the customer, to the customer, the customer to, for customer]
+  answer: 1
+  explanation_vi: "Explain + to + người nghe + that, không nói explained the customer."
+- slug: g-b2-reported-3
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "Khoa ___ us that the SSL certificate expires next week."
+  options: [said, explained, warned, pointed out]
+  answer: 2
+  explanation_vi: "Warn + O + that. Said, explained và pointed out không đi trực tiếp với us."
+- slug: g-b2-reported-4
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: email
+  sentence: "On Monday the designer said she would send the mockups ___."
+  options: [tomorrow, the next day, next day ago, yesterday]
+  answer: 1
+  explanation_vi: "Kể lại ở thời điểm khác → tomorrow đổi thành the next day."
+- slug: g-b2-reported-5
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "“The fix is ready,” he said. Nhưng không ai tin. → He ___ (insist – quá khứ) that the fix was ready."
+  accepted: ["insisted"]
+  explanation_vi: "Khăng khăng dù người khác nghi ngờ → insisted."
+- slug: g-b2-reported-6
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "“Staging is down.” (vẫn đang lỗi) → Mai said staging ___ (be) down, so don't test there now."
+  accepted: ["is"]
+  explanation_vi: "Thông tin vẫn còn đúng lúc kể → có thể giữ nguyên thì: is."
+- slug: g-b2-reported-7
+  type: mcq_meaning
+  cefr: B2
+  topic: grammar
+  stem: "Chọn câu đúng."
+  question: "Câu nào đúng ngữ pháp?"
+  options:
+    - "He said me that the server was down."
+    - "He told that the server was down."
+    - "He told me that the server was down."
+    - "He explained me that the server was down."
+  answer: 2
+  explanation_vi: "Tell + người nghe; say và explain không có người nghe ngay sau."
+- slug: g-b2-reported-8
+  type: mcq_meaning
+  cefr: B2
+  topic: grammar
+  stem: "Chọn động từ tường thuật đúng thái độ."
+  question: "Ngân hàng đã kiểm tra và xác nhận khoản tiền đã về. Câu nào phù hợp nhất?"
+  options:
+    - "The bank claimed that the payment had arrived."
+    - "The bank confirmed that the payment had arrived."
+    - "The bank insisted that the payment had arrived."
+    - "The bank denied that the payment had arrived."
+  answer: 1
+  explanation_vi: "Thông tin đã được kiểm chứng → confirmed. Claimed hàm ý chưa chắc, insisted hàm ý có người phản đối."
+# --- g-b2-reported-questions
+- slug: g-b2-reported-questions-1
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "“Could you check the error logs?” → Minh asked me ___ the error logs."
+  options: [check, to check, that I check, if check]
+  answer: 1
+  explanation_vi: "Lời nhờ → asked + O + to V."
+- slug: g-b2-reported-questions-2
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: email
+  sentence: "The product owner asked us ___ before the investor demo."
+  options: [don't deploy, not deploy, to not deploying, not to deploy]
+  answer: 3
+  explanation_vi: "Yêu cầu phủ định → asked + O + not to V."
+- slug: g-b2-reported-questions-3
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "After the breach, the security team ___ everyone to change their passwords immediately."
+  options: [said, urged, suggested, explained]
+  answer: 1
+  explanation_vi: "Thúc giục mạnh + O + to V → urged. Said, suggested, explained không đi với O + to V."
+- slug: g-b2-reported-questions-4
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "“How do I connect to the staging database?” → The intern asked ___ connect to the staging database."
+  options: [how to, how does he, how he can to, what to]
+  answer: 0
+  explanation_vi: "Hỏi cách làm → asked how to + V."
+- slug: g-b2-reported-questions-5
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: email
+  sentence: "“Please sign the contract by Friday.” → Hoa ___ (remind – quá khứ) the client to sign the contract by Friday."
+  accepted: ["reminded"]
+  explanation_vi: "Nhắc việc → remind + O + to V; quá khứ: reminded."
+- slug: g-b2-reported-questions-6
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "“Don't share the link outside the team.” → She told us ___ (share) the link outside the team."
+  accepted: ["not to share"]
+  explanation_vi: "Mệnh lệnh phủ định → told + O + not to V."
+- slug: g-b2-reported-questions-7
+  type: mcq_meaning
+  cefr: B2
+  topic: grammar
+  stem: "Chọn câu đúng."
+  question: "Câu nào tường thuật đúng câu “Should we raise prices?”?"
+  options:
+    - "The founders discussed whether to raise prices."
+    - "The founders discussed whether should they raise prices."
+    - "The founders discussed whether raise prices."
+    - "The founders discussed to whether raise prices."
+  answer: 0
+  explanation_vi: "Câu hỏi “có nên…?” → whether + to V."
+- slug: g-b2-reported-questions-8
+  type: mcq_meaning
+  cefr: B2
+  topic: grammar
+  stem: "Chọn câu đúng."
+  question: "Câu nào đúng ngữ pháp?"
+  options:
+    - "They asked what should they do next."
+    - "They asked what they should do next."
+    - "They asked me that what they should do next."
+    - "They asked what did they do next."
+  answer: 1
+  explanation_vi: "Câu hỏi tường thuật theo trật tự câu kể: wh- + S + V, không đảo ngữ."

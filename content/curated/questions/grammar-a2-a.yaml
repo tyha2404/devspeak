@@ -1,0 +1,393 @@
+# Grammar A2 batch a2-a tests. Original items; answers stay server-side.
+- {
+    slug: "g-a2-reflexive-1",
+    type: "fill_blank",
+    cefr: "A2",
+    topic: "grammar",
+    skin: "slack",
+    sentence: "Tuan set up the new laptop ___, without IT.",
+    options: ["him", "himself", "his", "hisself"],
+    answer: 1,
+    explanation_vi: "Nhấn mạnh tự làm, chủ ngữ Tuan → himself.",
+  }
+- {
+    slug: "g-a2-reflexive-2",
+    type: "fill_blank",
+    cefr: "A2",
+    topic: "grammar",
+    skin: "jira",
+    sentence: "The worker restarts ___ when memory is too high.",
+    options: ["it", "its", "itself", "themselves"],
+    answer: 2,
+    explanation_vi: "Worker là vật, tự khởi động lại → itself.",
+  }
+- {
+    slug: "g-a2-reflexive-3",
+    type: "fill_blank",
+    cefr: "A2",
+    topic: "grammar",
+    skin: "slack",
+    sentence: "Don't worry, we can test the patch ___.",
+    options: ["ourself", "ourselves", "us", "ours"],
+    answer: 1,
+    explanation_vi: "We số nhiều → ourselves.",
+  }
+- {
+    slug: "g-a2-reflexive-4",
+    type: "fill_blank",
+    cefr: "A2",
+    topic: "grammar",
+    skin: "email",
+    sentence: "Please introduce ___ at the start of the call, Ms. Lan.",
+    options: ["you", "your", "yourself", "yourselves"],
+    answer: 2,
+    explanation_vi: "Một người (Ms. Lan) tự giới thiệu → yourself.",
+  }
+- {
+    slug: "g-a2-reflexive-5",
+    type: "fill_blank",
+    cefr: "A2",
+    topic: "grammar",
+    skin: "pr",
+    sentence: "I wrote this migration by ___ (I), so please check it carefully.",
+    accepted: ["myself"],
+    explanation_vi: "By + phản thân = một mình; I → myself.",
+  }
+- {
+    slug: "g-a2-reflexive-6",
+    type: "fill_blank",
+    cefr: "A2",
+    topic: "grammar",
+    skin: "slack",
+    sentence: "The interns configured their accounts ___ (they).",
+    accepted: ["themselves"],
+    explanation_vi: "They → themselves (không có theirselves).",
+  }
+- {
+    slug: "g-a2-reflexive-7",
+    type: "mcq_meaning",
+    cefr: "A2",
+    topic: "grammar",
+    stem: "Chọn câu đúng.",
+    question: "Câu nào đúng ngữ pháp?",
+    options:
+      [
+        "She fixed the build herself.",
+        "She fixed the build sheself.",
+        "She fixed the build her.",
+        "She fixed the build herselves.",
+      ],
+    answer: 0,
+    explanation_vi: "She → herself; -selves chỉ dùng cho số nhiều.",
+  }
+- {
+    slug: "g-a2-reflexive-8",
+    type: "mcq_meaning",
+    cefr: "A2",
+    topic: "grammar",
+    stem: "Báo cáo trong stand-up.",
+    question: "“Mình tự deploy bản sửa lỗi một mình” là…",
+    options:
+      [
+        "I deployed the fix by me.",
+        "I deployed the fix by myself.",
+        "I deployed the fix by mine.",
+        "I deployed the fix by my.",
+      ],
+    answer: 1,
+    explanation_vi: "“Một mình” = by + đại từ phản thân: by myself.",
+  }
+- {
+    slug: "g-a2-was-were-1",
+    type: "fill_blank",
+    cefr: "A2",
+    topic: "grammar",
+    skin: "slack",
+    sentence: "___ the payment service slow this morning?",
+    options: ["Did", "Were", "Was", "Is"],
+    answer: 2,
+    explanation_vi: "Hỏi trạng thái trong quá khứ, chủ ngữ số ít → Was.",
+  }
+- {
+    slug: "g-a2-was-were-2",
+    type: "fill_blank",
+    cefr: "A2",
+    topic: "grammar",
+    skin: "jira",
+    sentence: "There ___ five timeouts before the crash.",
+    options: ["was", "were", "did", "is"],
+    answer: 1,
+    explanation_vi: "Five timeouts số nhiều → there were.",
+  }
+- {
+    slug: "g-a2-was-were-3",
+    type: "fill_blank",
+    cefr: "A2",
+    topic: "grammar",
+    skin: "slack",
+    sentence: "Who ___ on call when the database went down?",
+    options: ["were", "did", "was", "is"],
+    answer: 2,
+    explanation_vi: "Who làm chủ ngữ, chia số ít → was.",
+  }
+- {
+    slug: "g-a2-was-were-4",
+    type: "fill_blank",
+    cefr: "A2",
+    topic: "grammar",
+    skin: "email",
+    sentence: "___ you and Hieu at the client meeting on Monday?",
+    options: ["Was", "Did", "Were", "Are"],
+    answer: 2,
+    explanation_vi: "You and Hieu số nhiều, chuyện thứ Hai trước → Were.",
+  }
+- {
+    slug: "g-a2-was-were-5",
+    type: "fill_blank",
+    cefr: "A2",
+    topic: "grammar",
+    skin: "slack",
+    sentence: "Were the backups ready? — No, they ___ (not).",
+    accepted: ["weren't", "were not"],
+    explanation_vi: "Trả lời ngắn lặp lại be: No, they weren't.",
+  }
+- {
+    slug: "g-a2-was-were-6",
+    type: "fill_blank",
+    cefr: "A2",
+    topic: "grammar",
+    skin: "jira",
+    sentence: "Why ___ the dashboard empty after the deploy?",
+    accepted: ["was"],
+    explanation_vi: "Why + was + chủ ngữ số ít (the dashboard).",
+  }
+- {
+    slug: "g-a2-was-were-7",
+    type: "mcq_meaning",
+    cefr: "A2",
+    topic: "grammar",
+    stem: "Chọn câu đúng.",
+    question: "Câu nào đúng ngữ pháp?",
+    options:
+      [
+        "Did the API down at noon?",
+        "Was the API down at noon?",
+        "Were the API down at noon?",
+        "Was the API went down at noon?",
+      ],
+    answer: 1,
+    explanation_vi: "Down là trạng thái, không có động từ thường → Was + the API + down.",
+  }
+- {
+    slug: "g-a2-was-were-8",
+    type: "mcq_meaning",
+    cefr: "A2",
+    topic: "grammar",
+    stem: "Hỏi trong postmortem.",
+    question: "“Lúc 2 giờ sáng bạn ở đâu?” là…",
+    options:
+      [
+        "Where you were at 2 a.m.?",
+        "Where did you at 2 a.m.?",
+        "Where were you at 2 a.m.?",
+        "Where was you at 2 a.m.?",
+      ],
+    answer: 2,
+    explanation_vi: "Câu hỏi Wh- với be: Where + were + you; you luôn đi với were.",
+  }
+- {
+    slug: "g-a2-prepositions-movement-1",
+    type: "fill_blank",
+    cefr: "A2",
+    topic: "grammar",
+    skin: "slack",
+    sentence: "Please copy the data ___ staging to production.",
+    options: ["from", "in", "at", "of"],
+    answer: 0,
+    explanation_vi: "From… to: từ điểm xuất phát đến đích.",
+  }
+- {
+    slug: "g-a2-prepositions-movement-2",
+    type: "fill_blank",
+    cefr: "A2",
+    topic: "grammar",
+    skin: "vscode",
+    sentence: "Paste the API key ___ the .env file, not the code.",
+    options: ["into", "out of", "across", "from"],
+    answer: 0,
+    explanation_vi: "Đi vào bên trong file → into.",
+  }
+- {
+    slug: "g-a2-prepositions-movement-3",
+    type: "fill_blank",
+    cefr: "A2",
+    topic: "grammar",
+    skin: "jira",
+    sentence: "Every request passes ___ the auth middleware first.",
+    options: ["across", "through", "along", "into"],
+    answer: 1,
+    explanation_vi: "Đi xuyên qua một lớp xử lý → through.",
+  }
+- {
+    slug: "g-a2-prepositions-movement-4",
+    type: "fill_blank",
+    cefr: "A2",
+    topic: "grammar",
+    skin: "pr",
+    sentence: "Move the secrets ___ the repo before you push.",
+    options: ["out of", "into", "through", "to"],
+    answer: 0,
+    explanation_vi: "Lấy ra khỏi repo → out of.",
+  }
+- {
+    slug: "g-a2-prepositions-movement-5",
+    type: "fill_blank",
+    cefr: "A2",
+    topic: "grammar",
+    skin: "slack",
+    sentence: "The deploy failed, so we rolled back ___ version 1.4.",
+    accepted: ["to"],
+    explanation_vi: "Back to: quay về phiên bản cũ.",
+  }
+- {
+    slug: "g-a2-prepositions-movement-6",
+    type: "fill_blank",
+    cefr: "A2",
+    topic: "grammar",
+    skin: "email",
+    sentence: "We will send the final report ___ the client on Friday.",
+    accepted: ["to"],
+    explanation_vi: "Gửi đến người nhận → to.",
+  }
+- {
+    slug: "g-a2-prepositions-movement-7",
+    type: "mcq_meaning",
+    cefr: "A2",
+    topic: "grammar",
+    stem: "Chọn câu đúng.",
+    question: "Câu nào đúng ngữ pháp?",
+    options:
+      [
+        "Drag the image in to the box.",
+        "Drag the image into the box.",
+        "Drag the image onto into the box.",
+        "Drag the image the box.",
+      ],
+    answer: 1,
+    explanation_vi: "Chuyển động vào bên trong → into (viết liền).",
+  }
+- {
+    slug: "g-a2-prepositions-movement-8",
+    type: "mcq_meaning",
+    cefr: "A2",
+    topic: "grammar",
+    stem: "Mô tả pipeline.",
+    question: "“Dữ liệu đi qua bộ lọc rồi vào kho dữ liệu” là…",
+    options:
+      [
+        "The data goes across the filter and into the warehouse.",
+        "The data goes through the filter and into the warehouse.",
+        "The data goes through the filter and out of the warehouse.",
+        "The data goes from the filter and through the warehouse.",
+      ],
+    answer: 1,
+    explanation_vi: "Đi qua bộ lọc → through; vào kho → into.",
+  }
+- {
+    slug: "g-a2-present-perfect-1",
+    type: "fill_blank",
+    cefr: "A2",
+    topic: "grammar",
+    skin: "slack",
+    sentence: "I ___ never used Kotlin, but I want to learn it.",
+    options: ["has", "have", "did", "am"],
+    answer: 1,
+    explanation_vi: "I → have; have never + V3.",
+  }
+- {
+    slug: "g-a2-present-perfect-2",
+    type: "fill_blank",
+    cefr: "A2",
+    topic: "grammar",
+    skin: "email",
+    sentence: "Our new lead ___ worked on payment systems before.",
+    options: ["have", "has", "is", "did"],
+    answer: 1,
+    explanation_vi: "Our new lead số ít → has.",
+  }
+- {
+    slug: "g-a2-present-perfect-3",
+    type: "fill_blank",
+    cefr: "A2",
+    topic: "grammar",
+    skin: "slack",
+    sentence: "Have you ever ___ a production database by mistake?",
+    options: ["delete", "deleting", "deleted", "deletes"],
+    answer: 2,
+    explanation_vi: "Have + ever + V3: deleted.",
+  }
+- {
+    slug: "g-a2-present-perfect-4",
+    type: "fill_blank",
+    cefr: "A2",
+    topic: "grammar",
+    skin: "pr",
+    sentence: "I have ___ tests like this in Jest before.",
+    options: ["wrote", "written", "write", "writed"],
+    answer: 1,
+    explanation_vi: "Sau have dùng V3: written.",
+  }
+- {
+    slug: "g-a2-present-perfect-5",
+    type: "fill_blank",
+    cefr: "A2",
+    topic: "grammar",
+    skin: "slack",
+    sentence: "___ she ever led a sprint planning?",
+    accepted: ["Has", "has"],
+    explanation_vi: "She số ít → Has + she + ever + V3.",
+  }
+- {
+    slug: "g-a2-present-perfect-6",
+    type: "fill_blank",
+    cefr: "A2",
+    topic: "grammar",
+    skin: "email",
+    sentence: "We have ___ (be) to the Tokyo office twice.",
+    accepted: ["been"],
+    explanation_vi: "Been to = đã từng đến; V3 của be là been.",
+  }
+- {
+    slug: "g-a2-present-perfect-7",
+    type: "mcq_meaning",
+    cefr: "A2",
+    topic: "grammar",
+    stem: "Chọn câu đúng.",
+    question: "Câu nào đúng ngữ pháp?",
+    options:
+      [
+        "I have not never tried Deno.",
+        "I have never tried Deno.",
+        "I never have tried Deno.",
+        "I has never tried Deno.",
+      ],
+    answer: 1,
+    explanation_vi: "Never đứng giữa have và V3, không thêm not; I đi với have.",
+  }
+- {
+    slug: "g-a2-present-perfect-8",
+    type: "mcq_meaning",
+    cefr: "A2",
+    topic: "grammar",
+    stem: "Phỏng vấn tuyển dụng.",
+    question: "“Bạn đã bao giờ dùng Docker chưa?” là…",
+    options:
+      [
+        "Did you ever used Docker?",
+        "Have you ever use Docker?",
+        "Have you ever used Docker?",
+        "Has you ever used Docker?",
+      ],
+    answer: 2,
+    explanation_vi: "Hỏi trải nghiệm không mốc thời gian → Have you ever + V3 (used).",
+  }

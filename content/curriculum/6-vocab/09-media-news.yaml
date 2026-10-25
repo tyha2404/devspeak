@@ -4,10 +4,290 @@ sort: 9
 code: T09
 kind: topic
 cefr: B2
-status: draft
-title: { en: "Media & News", vi: "Truyền thông & tin tức" }
-summary_vi: "Từ vựng về báo chí, mạng xã hội, tin giả, quảng cáo và cách đánh giá nguồn tin."
+status: published
+title:
+  en: Technical Writing & Product Communication
+  vi: Viết kỹ thuật & truyền đạt sản phẩm
+summary_vi: "Biến thông tin kỹ thuật thành tài liệu dễ dùng: README, ticket,
+  pull request, release note và hướng dẫn hỗ trợ. Luyện nói đúng đối tượng và đủ
+  ngữ cảnh."
 can_do:
-  - "Tóm tắt một bản tin và nói nguồn tin đáng tin hay không"
-  - "Bàn luận về ảnh hưởng của mạng xã hội và quảng cáo"
-lessons: []
+  - Viết mô tả thay đổi rõ mục đích, cách dùng và giới hạn
+  - Chỉnh giọng điệu tài liệu theo người đọc
+lessons:
+  - slug: t09-l1
+    kind: vocab
+    title: { "en": "Set 1: README essentials", "vi": "Bộ 1: Nội dung cốt lõi của README" }
+    senses:
+      [
+        "readme-n",
+        "introduction-n",
+        "installation-n",
+        "run-v",
+        "clone-v",
+        "folder-n",
+        "command-n",
+        "example-n",
+        "license-n",
+        "contributor-n-media-news",
+      ]
+    questions: []
+  - slug: t09-l2
+    kind: vocab
+    title: { "en": "Set 2: Writing a useful issue", "vi": "Bộ 2: Viết issue hữu ích" }
+    senses:
+      [
+        "bug-report-n",
+        "issue-template-n",
+        "description-n",
+        "expected-behaviour-n",
+        "browser-console-n",
+        "system-info-n",
+        "assignee-n",
+        "flaky-adj",
+        "label-n",
+        "close-v",
+        "triage-v-media-news",
+        "upvote-v",
+      ]
+    questions: []
+  - slug: t09-l3
+    kind: vocab
+    title: { "en": "Set 3: Pull request descriptions", "vi": "Bộ 3: Mô tả pull request" }
+    senses:
+      [
+        "pull-request-n",
+        "diff-n",
+        "commit-message-n",
+        "rebase-v",
+        "merge-v",
+        "squash-v",
+        "motivation-n-media-news",
+        "test-plan-n",
+        "refactor-v",
+        "address-feedback-phr",
+        "request-changes-phr-media-news",
+        "checklist-n-media-news",
+        "related-adj",
+        "link-to-phr",
+      ]
+    questions: []
+  - slug: t09-l4
+    kind: vocab
+    title: { "en": "Set 4: Release notes", "vi": "Bộ 4: Ghi chú phát hành" }
+    senses:
+      [
+        "whats-new-n",
+        "new-feature-n",
+        "bug-fix-n",
+        "tweak-n",
+        "install-update-phr",
+        "announce-v",
+        "call-out-pv",
+        "sneak-peek-n",
+        "minor-adj",
+        "major-adj",
+        "patch-n-media-news",
+        "roll-out-pv",
+        "generally-available-adj",
+        "enhancement-n",
+        "compatibility-n",
+        "impacted-adj",
+      ]
+    questions: []
+  - slug: t09-l5
+    kind: vocab
+    title: { "en": "Set 5: User guides & walkthroughs", "vi": "Bộ 5: Hướng dẫn sử dụng" }
+    senses:
+      [
+        "user-guide-n",
+        "walkthrough-n-media-news",
+        "before-you-begin-phr",
+        "make-sure-phr",
+        "click-v",
+        "select-v",
+        "enter-v",
+        "field-n-media-news",
+        "button-n",
+        "dropdown-n",
+        "drag-v",
+        "you-should-see-phr",
+        "troubleshooting-n",
+        "navigate-v",
+        "settings-n",
+        "shortcut-n",
+        "pop-up-n",
+        "screen-n",
+      ]
+    questions: []
+  - slug: t09-l6
+    kind: vocab
+    title:
+      { "en": "Set 6: Writing for different readers", "vi": "Bộ 6: Viết cho từng nhóm người đọc" }
+    senses:
+      [
+        "reader-n",
+        "register-n",
+        "formal-adj",
+        "conversational-adj",
+        "buzzword-n",
+        "technical-adj",
+        "non-technical-adj",
+        "plain-language-n",
+        "end-user-n",
+        "tldr-n",
+        "prior-knowledge-n",
+        "familiar-with-phr",
+        "tailor-v",
+        "accessible-adj",
+        "explain-v",
+        "detail-n",
+        "friendly-adj",
+        "condescending-adj",
+        "relevance-n",
+        "acronym-n",
+      ]
+    questions: []
+  - slug: t09-l7
+    kind: vocab
+    title: { "en": "Set 7: Technical blog structure", "vi": "Bộ 7: Bố cục bài viết kỹ thuật" }
+    senses:
+      [
+        "headline-n",
+        "hook-n",
+        "problem-statement-n",
+        "architecture-diagram-n",
+        "solution-n",
+        "results-n",
+        "war-story-n",
+        "conclusion-n",
+        "downside-n",
+        "series-n",
+        "publish-v",
+        "structure-n",
+        "paragraph-n",
+        "heading-n",
+        "code-snippet-n",
+        "readership-n",
+        "engaging-adj",
+        "insight-n",
+        "case-study-n",
+        "subtitle-n",
+        "call-to-action-n",
+        "word-count-n",
+      ]
+    questions: []
+  - slug: t09-l8
+    kind: vocab
+    title:
+      { "en": "Set 8: Evidence, screenshots & links", "vi": "Bộ 8: Bằng chứng, ảnh & liên kết" }
+    senses:
+      [
+        "animated-gif-n",
+        "dashboard-n",
+        "graph-n",
+        "hyperlink-n",
+        "reference-n",
+        "inline-link-n",
+        "substantiate-v",
+        "alt-text-n",
+        "crop-v",
+        "zoom-in-pv",
+        "sensitive-information-n",
+        "redact-v-media-news",
+        "log-excerpt-n",
+        "before-and-after-phr",
+        "paste-v",
+        "permalink-n",
+        "broken-link-n",
+        "quote-v",
+        "percentage-n",
+        "comparison-n",
+        "repeatable-adj",
+        "source-link-n",
+        "pull-quote-n",
+        "embed-v",
+      ]
+    questions: []
+  - slug: t09-l9
+    kind: vocab
+    title: { "en": "Set 9: Editing for clarity", "vi": "Bộ 9: Biên tập để dễ hiểu" }
+    senses:
+      [
+        "nominalisation-n",
+        "wordy-adj",
+        "redundant-adj",
+        "passive-voice-n",
+        "active-voice-n",
+        "subject-n",
+        "sentence-n",
+        "clause-n",
+        "trim-v",
+        "reword-v",
+        "readability-n",
+        "consistent-adj-media-news",
+        "terminology-n",
+        "filler-word-n",
+        "run-on-sentence-n",
+        "line-break-n",
+        "break-up-pv",
+        "spell-out-pv",
+        "edit-v",
+        "editor-n",
+        "coherent-adj",
+        "flow-n",
+        "emphasis-n",
+        "typo-n",
+        "punctuation-n",
+        "style-guide-n",
+        "nitpick-n-media-news",
+        "grammar-n",
+      ]
+    questions: []
+  - slug: t09-l10
+    kind: vocab
+    title:
+      {
+        "en": "Set 10: Communicating a breaking change",
+        "vi": "Bộ 10: Truyền đạt thay đổi không tương thích",
+      }
+    senses:
+      [
+        "breaking-change-n",
+        "non-breaking-adj",
+        "migration-guide-n",
+        "migrate-v",
+        "deprecation-n",
+        "end-of-life-n",
+        "roadmap-n",
+        "deadline-n-media-news",
+        "advance-notice-n",
+        "maintenance-window-n",
+        "opt-in-v",
+        "rollback-n",
+        "compatibility-layer-n",
+        "transition-period-n",
+        "phase-out-pv-media-news",
+        "rename-v",
+        "mandatory-adj-media-news",
+        "version-bump-n",
+        "semantic-versioning-n",
+        "action-required-phr",
+        "customer-facing-adj",
+        "internal-adj",
+        "sync-up-pv",
+        "regret-v-media-news",
+        "inconvenience-n",
+        "minimise-v",
+        "dry-run-n",
+        "follow-up-email-n",
+        "faq-n",
+        "effective-date-n",
+        "legacy-adj-media-news",
+        "client-library-n",
+        "kill-switch-n",
+        "incremental-adj",
+        "communicate-v-media-news",
+        "office-hours-n-media-news",
+      ]
+    questions: []

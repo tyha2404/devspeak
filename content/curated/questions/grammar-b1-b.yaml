@@ -1,0 +1,393 @@
+# Grammar track B1 tests (batch b1-b). Original items; answers stay server-side.
+- {
+    "slug": "g-b1-advice-1",
+    "type": "fill_blank",
+    "cefr": "B1",
+    "topic": "grammar",
+    "skin": "slack",
+    "sentence": "The demo starts in ten minutes. You'd better ___ the server now.",
+    "options": ["restart", "to restart", "restarting", "restarted"],
+    "answer": 0,
+    "explanation_vi": "Had better ('d better) + V nguyên mẫu, không có to.",
+  }
+- {
+    "slug": "g-b1-advice-2",
+    "type": "fill_blank",
+    "cefr": "B1",
+    "topic": "grammar",
+    "skin": "pr",
+    "sentence": "We ___ to add a migration note; other teams read this changelog.",
+    "options": ["ought", "had better", "need not", "should"],
+    "answer": 0,
+    "explanation_vi": "Chỉ ought đi với to; ought to = nên, giọng góp ý.",
+  }
+- {
+    "slug": "g-b1-advice-3",
+    "type": "fill_blank",
+    "cefr": "B1",
+    "topic": "grammar",
+    "skin": "slack",
+    "sentence": "You ___ come in early tomorrow. The release is already done.",
+    "options": ["mustn't", "don't need to", "had better", "ought to"],
+    "answer": 1,
+    "explanation_vi": "Không bắt buộc, người nghe tự quyết → don't need to. Mustn't là cấm.",
+  }
+- {
+    "slug": "g-b1-advice-4",
+    "type": "fill_blank",
+    "cefr": "B1",
+    "topic": "grammar",
+    "skin": "jira",
+    "sentence": "We'd better ___ the schema while customers are checking out.",
+    "options": ["not change", "don't change", "not to change", "no change"],
+    "answer": 0,
+    "explanation_vi": "Phủ định: had better not + V.",
+  }
+- {
+    "slug": "g-b1-advice-5",
+    "type": "fill_blank",
+    "cefr": "B1",
+    "topic": "grammar",
+    "skin": "email",
+    "sentence": "Your certificate expires on Friday, so you ___ (need) renew it this week.",
+    "accepted": ["need to"],
+    "explanation_vi": "Việc bắt buộc → need to + V.",
+  }
+- {
+    "slug": "g-b1-advice-6",
+    "type": "fill_blank",
+    "cefr": "B1",
+    "topic": "grammar",
+    "skin": "slack",
+    "sentence": "You ___ (ought) not to share the admin password in this channel.",
+    "accepted": ["ought"],
+    "explanation_vi": "Phủ định của ought to là ought not to.",
+  }
+- {
+    "slug": "g-b1-advice-7",
+    "type": "mcq_meaning",
+    "cefr": "B1",
+    "topic": "grammar",
+    "stem": "Nhắc gấp.",
+    "question": "Câu nào đúng ngữ pháp?",
+    "options":
+      [
+        "You had better to check the logs.",
+        "You'd better check the logs.",
+        "You'd better checking the logs.",
+        "You better had check the logs.",
+      ],
+    "answer": 1,
+    "explanation_vi": "'d better + V nguyên mẫu.",
+  }
+- {
+    "slug": "g-b1-advice-8",
+    "type": "mcq_meaning",
+    "cefr": "B1",
+    "topic": "grammar",
+    "stem": "Không bắt buộc.",
+    "question": "“Bạn khỏi cần viết lại cả module đâu” là…",
+    "options":
+      [
+        "You needn't rewrite the whole module.",
+        "You mustn't rewrite the whole module.",
+        "You'd better rewrite the whole module.",
+        "You need rewriting the whole module.",
+      ],
+    "answer": 0,
+    "explanation_vi": "Needn't + V: không cần thiết, tuỳ người nghe.",
+  }
+- {
+    "slug": "g-b1-purpose-clauses-1",
+    "type": "fill_blank",
+    "cefr": "B1",
+    "topic": "grammar",
+    "skin": "pr",
+    "sentence": "I added a unit test ___ the rounding bug.",
+    "options": ["for catch", "to catch", "for catching it", "so that catch"],
+    "answer": 1,
+    "explanation_vi": "Mục đích là hành động, cùng chủ ngữ → to + V.",
+  }
+- {
+    "slug": "g-b1-purpose-clauses-2",
+    "type": "fill_blank",
+    "cefr": "B1",
+    "topic": "grammar",
+    "skin": "slack",
+    "sentence": "The new staging server is only ___ load tests.",
+    "options": ["to", "so that", "for", "in order"],
+    "answer": 2,
+    "explanation_vi": "Mục đích là danh từ (load tests) → for.",
+  }
+- {
+    "slug": "g-b1-purpose-clauses-3",
+    "type": "fill_blank",
+    "cefr": "B1",
+    "topic": "grammar",
+    "skin": "jira",
+    "sentence": "Please add screenshots so that the designer ___ check the layout.",
+    "options": ["can", "to", "for", "can to"],
+    "answer": 0,
+    "explanation_vi": "So that + S + can + V.",
+  }
+- {
+    "slug": "g-b1-purpose-clauses-4",
+    "type": "fill_blank",
+    "cefr": "B1",
+    "topic": "grammar",
+    "skin": "email",
+    "sentence": "We validate every upload ___ broken files don't reach the database.",
+    "options": ["to", "for", "so that", "in order to"],
+    "answer": 2,
+    "explanation_vi": "Theo sau là mệnh đề đầy đủ (broken files don't…) → so that.",
+  }
+- {
+    "slug": "g-b1-purpose-clauses-5",
+    "type": "fill_blank",
+    "cefr": "B1",
+    "topic": "grammar",
+    "skin": "pr",
+    "sentence": "We mock the email service ___ (so) that tests don't send real messages.",
+    "accepted": ["so"],
+    "explanation_vi": "So that + mệnh đề phủ định: để … không ….",
+  }
+- {
+    "slug": "g-b1-purpose-clauses-6",
+    "type": "fill_blank",
+    "cefr": "B1",
+    "topic": "grammar",
+    "skin": "email",
+    "sentence": "In order ___ (reduce) costs, we moved the batch jobs to night hours.",
+    "accepted": ["to reduce"],
+    "explanation_vi": "In order to + V nguyên mẫu.",
+  }
+- {
+    "slug": "g-b1-purpose-clauses-7",
+    "type": "mcq_meaning",
+    "cefr": "B1",
+    "topic": "grammar",
+    "stem": "Giải thích mục đích.",
+    "question": "Câu nào đúng ngữ pháp?",
+    "options":
+      [
+        "We use Redis for cache the sessions.",
+        "We use Redis to cache the sessions.",
+        "We use Redis so that cache the sessions.",
+        "We use Redis for to cache the sessions.",
+      ],
+    "answer": 1,
+    "explanation_vi": "Mục đích là hành động → to + V, không dùng for + V.",
+  }
+- {
+    "slug": "g-b1-purpose-clauses-8",
+    "type": "mcq_meaning",
+    "cefr": "B1",
+    "topic": "grammar",
+    "stem": "Viết ghi chú.",
+    "question": "“Mình ghi lại để không quên các bước” là…",
+    "options":
+      [
+        "I'll write it down for not forget the steps.",
+        "I'll write it down so that I won't forget the steps.",
+        "I'll write it down to I won't forget the steps.",
+        "I'll write it down for forgetting the steps.",
+      ],
+    "answer": 1,
+    "explanation_vi": "Mục đích phủ định → so that + won't.",
+  }
+- {
+    "slug": "g-b1-noun-clauses-1",
+    "type": "fill_blank",
+    "cefr": "B1",
+    "topic": "grammar",
+    "skin": "slack",
+    "sentence": "We still don't know why the job ___ at midnight.",
+    "options": ["does fail", "fails", "is fail", "did fails"],
+    "answer": 1,
+    "explanation_vi": "Mệnh đề danh ngữ giữ trật tự câu kể, không dùng does.",
+  }
+- {
+    "slug": "g-b1-noun-clauses-2",
+    "type": "fill_blank",
+    "cefr": "B1",
+    "topic": "grammar",
+    "skin": "jira",
+    "sentence": "Can you check ___ the backup finished last night?",
+    "options": ["that", "what", "whether", "which"],
+    "answer": 2,
+    "explanation_vi": "Câu hỏi có/không → whether.",
+  }
+- {
+    "slug": "g-b1-noun-clauses-3",
+    "type": "fill_blank",
+    "cefr": "B1",
+    "topic": "grammar",
+    "skin": "email",
+    "sentence": "The test proved ___ the old index was never used.",
+    "options": ["that", "whether", "what", "why"],
+    "answer": 0,
+    "explanation_vi": "Kết quả đã biết, khẳng định → that.",
+  }
+- {
+    "slug": "g-b1-noun-clauses-4",
+    "type": "fill_blank",
+    "cefr": "B1",
+    "topic": "grammar",
+    "skin": "slack",
+    "sentence": "What the profiler showed ___ a slow regex.",
+    "options": ["were", "was", "are", "have"],
+    "answer": 1,
+    "explanation_vi": "Mệnh đề what làm chủ ngữ, chia số ít → was.",
+  }
+- {
+    "slug": "g-b1-noun-clauses-5",
+    "type": "fill_blank",
+    "cefr": "B1",
+    "topic": "grammar",
+    "skin": "slack",
+    "sentence": "I'm not sure where the config file ___ (be).",
+    "accepted": ["is"],
+    "explanation_vi": "Where + S + V: the config file is, không đảo.",
+  }
+- {
+    "slug": "g-b1-noun-clauses-6",
+    "type": "fill_blank",
+    "cefr": "B1",
+    "topic": "grammar",
+    "skin": "jira",
+    "sentence": "I'll find out ___ many users saw the error.",
+    "accepted": ["how", "How"],
+    "explanation_vi": "How many: hỏi số lượng trong mệnh đề danh ngữ.",
+  }
+- {
+    "slug": "g-b1-noun-clauses-7",
+    "type": "mcq_meaning",
+    "cefr": "B1",
+    "topic": "grammar",
+    "stem": "Hỏi thông tin.",
+    "question": "Câu nào đúng ngữ pháp?",
+    "options":
+      [
+        "Can you tell me where are the credentials stored?",
+        "Can you tell me where the credentials are stored?",
+        "Can you tell me where do the credentials stored?",
+        "Can you tell me that where the credentials are stored?",
+      ],
+    "answer": 1,
+    "explanation_vi": "Giữ trật tự câu kể trong mệnh đề wh-.",
+  }
+- {
+    "slug": "g-b1-noun-clauses-8",
+    "type": "mcq_meaning",
+    "cefr": "B1",
+    "topic": "grammar",
+    "stem": "Báo cáo sự cố.",
+    "question": "“Tụi mình chưa hiểu vì sao hàng đợi cứ phình ra” là…",
+    "options":
+      [
+        "We don't understand why does the queue keep growing.",
+        "We don't understand that the queue keeps growing why.",
+        "We don't understand why the queue keeps growing.",
+        "We don't understand whether why the queue grows.",
+      ],
+    "answer": 2,
+    "explanation_vi": "Why + S + V, không dùng does.",
+  }
+- {
+    "slug": "g-b1-relative-prepositions-1",
+    "type": "fill_blank",
+    "cefr": "B1",
+    "topic": "grammar",
+    "skin": "pr",
+    "sentence": "Redis is the only service our login flow depends ___.",
+    "options": ["in", "on", "with", "from"],
+    "answer": 1,
+    "explanation_vi": "Depend on: giới từ đứng cuối mệnh đề.",
+  }
+- {
+    "slug": "g-b1-relative-prepositions-2",
+    "type": "fill_blank",
+    "cefr": "B1",
+    "topic": "grammar",
+    "skin": "email",
+    "sentence": "The RFC lists the services on ___ the app depends.",
+    "options": ["that", "which", "who", "what"],
+    "answer": 1,
+    "explanation_vi": "Sau giới từ, vật → which; không dùng that.",
+  }
+- {
+    "slug": "g-b1-relative-prepositions-3",
+    "type": "fill_blank",
+    "cefr": "B1",
+    "topic": "grammar",
+    "skin": "email",
+    "sentence": "The vendor with ___ we signed the contract has raised its prices.",
+    "options": ["who", "whom", "that", "which"],
+    "answer": 1,
+    "explanation_vi": "Sau giới từ, người → whom.",
+  }
+- {
+    "slug": "g-b1-relative-prepositions-4",
+    "type": "fill_blank",
+    "cefr": "B1",
+    "topic": "grammar",
+    "skin": "slack",
+    "sentence": "Is that the dataset the analytics team works ___?",
+    "options": ["with", "with it", "to", "at"],
+    "answer": 0,
+    "explanation_vi": "Work with; không lặp tân ngữ it.",
+  }
+- {
+    "slug": "g-b1-relative-prepositions-5",
+    "type": "fill_blank",
+    "cefr": "B1",
+    "topic": "grammar",
+    "skin": "jira",
+    "sentence": "I finally found the config file I was looking ___.",
+    "accepted": ["for"],
+    "explanation_vi": "Look for: for đứng cuối mệnh đề.",
+  }
+- {
+    "slug": "g-b1-relative-prepositions-6",
+    "type": "fill_blank",
+    "cefr": "B1",
+    "topic": "grammar",
+    "skin": "email",
+    "sentence": "The webhook URL to ___ events are sent must use HTTPS.",
+    "accepted": ["which"],
+    "explanation_vi": "Giới từ to + which cho vật.",
+  }
+- {
+    "slug": "g-b1-relative-prepositions-7",
+    "type": "mcq_meaning",
+    "cefr": "B1",
+    "topic": "grammar",
+    "stem": "Tài liệu kỹ thuật.",
+    "question": "Câu nào đúng ngữ pháp?",
+    "options":
+      [
+        "This is the library we depend.",
+        "This is the library on that we depend.",
+        "This is the library we depend on.",
+        "This is the library we depend on it.",
+      ],
+    "answer": 2,
+    "explanation_vi": "Giữ giới từ on, không lặp it, không dùng on that.",
+  }
+- {
+    "slug": "g-b1-relative-prepositions-8",
+    "type": "mcq_meaning",
+    "cefr": "B1",
+    "topic": "grammar",
+    "stem": "Hỏi đồng nghiệp.",
+    "question": "“Chị ấy là kỹ sư mà bạn đã trao đổi về sự cố à?” là…",
+    "options":
+      [
+        "Is she the engineer you talked about the outage?",
+        "Is she the engineer you talked to about the outage?",
+        "Is she the engineer to who you talked about the outage?",
+        "Is she the engineer you talked to her about the outage?",
+      ],
+    "answer": 1,
+    "explanation_vi": "Talk to: giữ to, không lặp her; sau giới từ không dùng who.",
+  }

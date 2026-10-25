@@ -4,10 +4,1043 @@ sort: 6
 code: C2
 kind: grammar
 cefr: C2
-status: draft
-title: { en: "Grammar C2", vi: "Ngữ pháp C2" }
-summary_vi: "Sắc thái tinh tế nhất của ngữ pháp: thức giả định (I suggest that he be…), danh từ hoá, tỉnh lược, đảo ngữ trang trọng và các cấu trúc nhấn mạnh hiếm gặp, để viết và nói chính xác ở mức gần như bản ngữ."
+status: published
+title:
+  en: Grammar C2 — Precision, Influence & Synthesis
+  vi: Ngữ pháp C2
+summary_vi: Tinh chỉnh cách diễn đạt khi cần tổng hợp nhiều nguồn, thương lượng
+  và bảo vệ một quyết định phức tạp. Ưu tiên độ chính xác, mạch thông tin và
+  giọng điệu phù hợp thay vì câu dài khó hiểu.
 can_do:
-  - "Viết văn bản trang trọng (đề xuất, chính sách, RFC) với câu chặt chẽ và giọng điệu chuẩn xác"
-  - "Phân biệt và dùng đúng sắc thái nhỏ giữa các cấu trúc gần nghĩa khi thương lượng, phản biện"
-lessons: []
+  - Tổng hợp bằng chứng có giới hạn và khác biệt giữa các nguồn
+  - Viết lập luận thuyết phục, cân bằng và phù hợp người đọc
+lessons:
+  - slug: g-c2-tense-stance
+    kind: grammar
+    title:
+      en: Tense & stance control
+      vi: Thì và lập trường của người viết
+    questions:
+      - g-c2-tense-stance-1
+      - g-c2-tense-stance-2
+      - g-c2-tense-stance-3
+      - g-c2-tense-stance-4
+      - g-c2-tense-stance-5
+      - g-c2-tense-stance-6
+      - g-c2-tense-stance-7
+      - g-c2-tense-stance-8
+    grammar:
+      title_vi: Thì và mức cam kết trong nhận định kỹ thuật
+      group: Diễn ngôn
+      overview:
+        focus: "Ở C2, chọn thì không chỉ để chỉ thời gian mà còn để định vị nhận định: hiện tại đơn cho điều đã được xác lập, quá khứ đơn cho điều mình đã quan sát trong một lần đo cụ thể, hiện tại hoàn thành cho bằng chứng tích luỹ đến nay. Đi kèm là mức cam kết (stance): appears to, would seem, there is no evidence that… giúp bạn nói đúng mức mình biết, không hơn không kém."
+        formulas:
+          - "Đã xác lập: S + V (hiện tại đơn) — The cache invalidates on write."
+          - "Quan sát một lần: In our test, S + V-ed — latency rose to 900 ms."
+          - "Bằng chứng tích luỹ: S + has/have + V3 — No regression has been observed."
+          - "Giảm cam kết: appears to / would seem to / is likely to + V"
+        hook: The fix appears to hold, although we have only observed it under synthetic load.
+      functions:
+        - title: Tách điều đã biết khỏi điều vừa đo
+          explain: Hiện tại đơn khẳng định một tính chất của hệ thống; quá khứ đơn gắn kết quả với một lần chạy cụ thể, để người đọc biết phạm vi của bằng chứng.
+          examples:
+            - The scheduler retries failed jobs; in Tuesday's run, however, it skipped three of them.
+            - Writes are idempotent by design, yet the replay we ran last night produced duplicates.
+        - title: Hiện tại hoàn thành cho bằng chứng còn hiệu lực
+          explain: Has been observed, has not reproduced… nói rằng kết luận vẫn đúng tính đến lúc viết và có thể được cập nhật.
+          examples:
+            - Since the patch was deployed, the error has not recurred.
+            - Three independent teams have confirmed the same memory profile.
+        - title: Hạ mức cam kết có chủ đích
+          explain: Appears to, would seem, is likely to cho biết đây là suy luận, không phải sự thật đã kiểm chứng. Dùng một lần, đúng chỗ; chồng nhiều lớp rào đón sẽ làm câu vô nghĩa.
+          examples:
+            - The leak appears to originate in the image decoder.
+            - It would seem that the timeout is set too aggressively for mobile clients.
+        - title: Nâng mức cam kết khi bằng chứng đủ
+          explain: Clearly, demonstrably, there is no doubt that… chỉ dùng khi dữ liệu thật sự loại trừ các giải thích khác; nếu không, người review sẽ hỏi lại.
+          examples:
+            - The benchmark demonstrably rules out network latency as the cause.
+            - "There is no doubt that the migration caused the outage: the timestamps match to the second."
+      structure:
+        forms:
+          - label: Sự thật đã xác lập
+            pattern: S + V (hiện tại đơn)
+            example: The gateway terminates TLS before routing.
+          - label: Kết quả của một lần đo
+            pattern: In + lần chạy cụ thể, S + V-ed
+            example: In the March load test, p99 latency peaked at 1.2 s.
+          - label: Bằng chứng tích luỹ
+            pattern: S + has/have (not) + V3 + (since/so far)
+            example: So far, no customer has reported data loss.
+          - label: Suy luận có rào đón
+            pattern: S + appears/seems + to (have) + V
+            example: The job appears to have stalled before the commit step.
+        steps:
+          - title: "Hỏi: điều này đúng mọi lúc hay chỉ đúng trong lần đo đó?"
+            explain: Đúng mọi lúc → hiện tại đơn. Chỉ lần đó → quá khứ đơn kèm mốc.
+            example: The parser rejects empty input. / The parser crashed on build 412.
+          - title: Còn đang theo dõi thì dùng hiện tại hoàn thành
+            explain: Has not recurred ngầm nói “tính đến giờ”, chừa chỗ cho dữ liệu mới.
+            example: The alert has not fired since we raised the threshold.
+          - title: "Suy luận về quá khứ: appear to have + V3"
+            explain: Rào đón một sự kiện đã xảy ra thì dùng to have + V3, không phải to + V.
+            example: The deploy appears to have skipped the health check.
+          - title: Một lớp rào đón là đủ
+            explain: Tránh “it might possibly seem to perhaps…”. Chọn một từ phản ánh đúng mức chắc chắn.
+            example: The cause is likely a race condition.
+      examples:
+        - tag: Xác lập vs quan sát
+          en: The service caches tokens for an hour, but in yesterday's trace it refreshed them every minute.
+          vi: Service lưu token trong một giờ, nhưng trong trace hôm qua nó làm mới token mỗi phút.
+          note: Caches (tính chất) đối lập với refreshed (một lần quan sát).
+        - tag: Bằng chứng còn hiệu lực
+          en: Since we pinned the driver version, the deadlock has not reappeared.
+          vi: Từ khi cố định phiên bản driver, lỗi deadlock chưa xuất hiện lại.
+          note: "Has not reappeared: đúng tính đến lúc viết, có thể thay đổi."
+        - tag: Rào đón quá khứ
+          en: The rollback appears to have restored the old schema before the cache warmed up.
+          vi: Có vẻ như lệnh rollback đã khôi phục schema cũ trước khi cache kịp nạp lại.
+          note: "Appears to have + V3: suy luận về việc đã xảy ra."
+        - tag: Rào đón hiện tại
+          en: The new index is likely to help read-heavy tenants far more than write-heavy ones.
+          vi: Index mới nhiều khả năng giúp các tenant đọc nhiều hơn hẳn so với tenant ghi nhiều.
+          note: "Is likely to: dự đoán có cơ sở, chưa kiểm chứng."
+        - tag: Cam kết mạnh
+          en: The flame graph demonstrably shows that serialization dominates the request time.
+          vi: Flame graph cho thấy rõ ràng việc tuần tự hoá chiếm phần lớn thời gian xử lý request.
+          note: Demonstrably chỉ dùng khi bằng chứng đã nằm ngay trước mắt người đọc.
+        - tag: Phạm vi bằng chứng
+          en: We have only reproduced the bug on ARM builds, so we cannot yet rule out other platforms.
+          vi: Chúng tôi mới tái hiện được lỗi trên bản build ARM, nên chưa thể loại trừ các nền tảng khác.
+          note: Have only reproduced giới hạn kết luận một cách trung thực.
+        - tag: Không phủ nhận quá mức
+          en: There is no evidence that customer data was exposed during the incident.
+          vi: Không có bằng chứng cho thấy dữ liệu khách hàng bị lộ trong sự cố.
+          note: Nói về bằng chứng, không khẳng định tuyệt đối “dữ liệu không bị lộ”.
+        - tag: Chuyển mốc thời gian
+          en: The original design assumed a single region; the system now spans three.
+          vi: Thiết kế ban đầu giả định chỉ có một region; hiện hệ thống trải trên ba region.
+          note: Assumed (quyết định trong quá khứ) đặt cạnh spans (thực tế hiện tại).
+      contrast:
+        title: Cùng một kết quả, ba mức cam kết
+        rows:
+          - label: Khẳng định
+            note: dữ liệu đã loại trừ giải thích khác
+            example: The retry storm caused the outage.
+          - label: Rào đón
+            note: suy luận hợp lý, chưa kiểm chứng xong
+            example: The retry storm appears to have caused the outage.
+          - label: Chỉ nêu bằng chứng
+            note: để người đọc tự kết luận
+            example: The outage began two seconds after the retry storm.
+        fixes:
+          - wrong: The job appears to stall yesterday before the commit.
+            right: The job appears to have stalled yesterday before the commit.
+            why: "Rào đón một việc đã xảy ra: appear to have + V3."
+          - wrong: Since the patch, the error did not recur.
+            right: Since the patch, the error has not recurred.
+            why: Since + mốc đến nay → hiện tại hoàn thành.
+          - wrong: It might perhaps possibly seem that the cache is stale.
+            right: The cache may be stale.
+            why: Chồng nhiều lớp rào đón làm người đọc không biết bạn chắc đến đâu.
+  - slug: g-c2-register
+    kind: grammar
+    title:
+      en: Register & formality control
+      vi: Điều chỉnh văn phong và mức trang trọng
+    questions:
+      - g-c2-register-1
+      - g-c2-register-2
+      - g-c2-register-3
+      - g-c2-register-4
+      - g-c2-register-5
+      - g-c2-register-6
+      - g-c2-register-7
+      - g-c2-register-8
+    grammar:
+      title_vi: "Một thông điệp, ba văn phong: chat, RFC, khách hàng"
+      group: Diễn ngôn
+      overview:
+        focus: "Người viết C2 giữ nguyên nội dung nhưng đổi ngữ pháp theo người đọc. Chat nhóm: câu ngắn, cụm động từ, tỉnh lược chủ ngữ. RFC: danh từ hoá, bị động có chủ đích, chủ ngữ là hệ thống thay vì con người. Khách hàng: trang trọng nhưng ấm áp, nói về tác động với họ, dùng we chịu trách nhiệm và tránh thuật ngữ nội bộ."
+        formulas:
+          - "Chat: (S) + phrasal verb, câu cụt — Pushed a fix, can you take a look?"
+          - "RFC: danh từ hoá + bị động — Adoption of X is proposed."
+          - "Khách hàng: We + V + tác động tới bạn — We have restored access to your dashboards."
+        hook: Rolled it back. → The release was reverted. → We have reverted the update, and your service is running normally.
+      functions:
+        - title: "Chat nhóm: gọn và thân mật"
+          explain: Tỉnh lược chủ ngữ, dùng cụm động từ (roll back, look into), viết tắt quen thuộc. Mục tiêu là tốc độ, không phải sự hoàn chỉnh.
+          examples:
+            - Looking into the 502s now, will post an update in 10.
+            - Rolled back the config, things look calmer.
+        - title: "RFC: khách quan và chính xác"
+          explain: Danh từ hoá (the introduction of, a reduction in) và bị động giúp đặt ý tưởng, không phải con người, vào vị trí chủ ngữ. Động từ Latin (eliminate, mitigate) thay cụm động từ.
+          examples:
+            - The introduction of a write-ahead log would eliminate partial updates.
+            - It is proposed that the legacy endpoint be deprecated in Q3.
+        - title: "Khách hàng: trang trọng, trách nhiệm, đồng cảm"
+          explain: Dùng we chủ động khi nhận trách nhiệm, nói về tác động với khách thay vì chi tiết nội bộ, và tránh bị động né tránh kiểu “mistakes were made”.
+          examples:
+            - We have identified the cause of the delay and have taken steps to prevent it.
+            - We appreciate your patience while we completed the upgrade.
+        - title: Chuyển đổi không đổi nghĩa
+          explain: Khi chuyển văn phong, giữ nguyên sự thật, mức chắc chắn và thời điểm; chỉ đổi cấu trúc và từ vựng.
+          examples:
+            - "Chat: “DB was choking on that query.” → RFC: “The query caused sustained CPU saturation on the primary.”"
+            - "Chat: “We'll get it sorted by Friday.” → Khách: “We expect to resolve this by Friday.”"
+      structure:
+        forms:
+          - label: Chat nhóm
+            pattern: (bỏ chủ ngữ) + phrasal verb + thông tin ngắn
+            example: Spun up a new node, watching the metrics.
+          - label: RFC — danh từ hoá
+            pattern: The + N (of …) + would/will + V
+            example: The removal of the sync call would reduce p99 latency.
+          - label: RFC — đề xuất
+            pattern: It is proposed/recommended that + S + V (nguyên mẫu)
+            example: It is recommended that each service own its schema.
+          - label: Khách hàng
+            pattern: We + have + V3 + (để/vì) tác động tới bạn
+            example: We have extended your trial so that no data is lost.
+        steps:
+          - title: Xác định người đọc và mục đích
+            explain: Đồng nghiệp cần cập nhật nhanh; người review RFC cần lập luận; khách hàng cần biết họ bị ảnh hưởng thế nào.
+            example: "Same fact: the cache was misconfigured."
+          - title: Chọn chủ ngữ phù hợp
+            explain: "Chat: tôi/bạn (thường tỉnh lược). RFC: hệ thống, đề xuất. Khách hàng: we và your service."
+            example: "RFC: The cache configuration did not match production."
+          - title: Đổi động từ và cấu trúc, không đổi sự thật
+            explain: Figure out → determine; fix → resolve; danh từ hoá khi cần trung tính.
+            example: "Customer: We have resolved a configuration issue that slowed your reports."
+          - title: Đọc lại để bắt chỗ lệch văn phong
+            explain: Một cụm như “gonna” trong RFC hay “it is proposed” trong chat đều phá giọng văn.
+            example: "Not: “It is gonna be deprecated.” → “It will be deprecated.”"
+      examples:
+        - tag: Chat
+          en: Bumped the pool size, errors are dropping off.
+          vi: Đã tăng kích thước pool, lỗi đang giảm dần.
+          note: "Tỉnh lược chủ ngữ, cụm động từ bump, drop off: chuẩn chat nội bộ."
+        - tag: RFC — danh từ hoá
+          en: A reduction in connection churn is expected once pooling is enabled.
+          vi: Dự kiến tình trạng kết nối bị mở rồi đóng liên tục sẽ giảm khi bật pooling.
+          note: A reduction in thay cho “it will reduce”, đưa kết quả lên làm chủ ngữ.
+        - tag: RFC — giả định
+          en: It is proposed that all public endpoints be versioned from the next release.
+          vi: Đề xuất rằng mọi endpoint công khai đều được đánh phiên bản từ bản phát hành tới.
+          note: "Proposed that + S + be (nguyên mẫu): văn phong trang trọng."
+        - tag: Khách hàng — nhận trách nhiệm
+          en: We made an error in last night's update, and we have already corrected it.
+          vi: Chúng tôi đã mắc lỗi trong bản cập nhật tối qua và đã khắc phục xong.
+          note: We chủ động nhận lỗi, không dùng bị động né tránh.
+        - tag: Khách hàng — tác động
+          en: Your exports were delayed by about two hours, but no data was lost.
+          vi: Việc xuất dữ liệu của quý khách bị chậm khoảng hai giờ, nhưng không có dữ liệu nào bị mất.
+          note: Nói tác động với khách, bỏ chi tiết nội bộ như tên queue.
+        - tag: Chuyển đổi
+          en: In the chat she wrote “prod's flaky again”; in the report she wrote “production experienced intermittent failures”.
+          vi: Trong chat cô ấy viết “prod lại chập chờn”; trong báo cáo cô ấy viết “môi trường production gặp lỗi gián đoạn”.
+          note: Cùng sự thật, hai văn phong.
+        - tag: RFC — chủ ngữ là hệ thống
+          en: The current design couples billing to authentication, which complicates independent scaling.
+          vi: Thiết kế hiện tại gắn chặt thanh toán với xác thực, khiến việc mở rộng độc lập trở nên phức tạp.
+          note: Phê bình thiết kế, không phê bình người viết ra nó.
+        - tag: Khách hàng — lịch sự
+          en: Should you need further assistance, our team is available around the clock.
+          vi: Nếu quý khách cần hỗ trợ thêm, đội ngũ của chúng tôi luôn sẵn sàng suốt ngày đêm.
+          note: Should you need = If you need, đảo ngữ trang trọng.
+      contrast:
+        title: Cùng sự cố, ba văn phong
+        rows:
+          - label: Chat nhóm
+            note: nhanh, thân mật, tỉnh lược
+            example: Cert expired, renewed it, all green now.
+          - label: RFC / postmortem
+            note: khách quan, danh từ hoá, đề xuất
+            example: Certificate expiry caused the outage; automated renewal is proposed.
+          - label: Khách hàng
+            note: trang trọng, nhận trách nhiệm, tác động
+            example: We have restored secure access and are introducing safeguards so that this does not recur.
+        fixes:
+          - wrong: It is proposed that the team gonna drop the old API.
+            right: It is proposed that the old API be retired.
+            why: Gonna là khẩu ngữ, lệch hoàn toàn với khung trang trọng; sau proposed that dùng be nguyên mẫu.
+          - wrong: Mistakes were made during your migration.
+            right: We made a mistake during your migration.
+            why: Với khách hàng, bị động né tránh làm mất lòng tin; dùng we để nhận trách nhiệm.
+          - wrong: Dear team, I hereby inform you that I have pushed the fix.
+            right: Pushed the fix, can someone review?
+            why: Trong chat nhóm, văn phong quá trang trọng nghe xa cách và chậm.
+  - slug: g-c2-information-flow
+    kind: grammar
+    title:
+      en: Information flow
+      vi: Mạch thông tin trong câu và đoạn
+    questions:
+      - g-c2-information-flow-1
+      - g-c2-information-flow-2
+      - g-c2-information-flow-3
+      - g-c2-information-flow-4
+      - g-c2-information-flow-5
+      - g-c2-information-flow-6
+      - g-c2-information-flow-7
+      - g-c2-information-flow-8
+    grammar:
+      title_vi: Thông tin cũ trước, thông tin mới sau (given → new)
+      group: Diễn ngôn
+      overview:
+        focus: "Người đọc theo dõi dễ nhất khi mỗi câu mở đầu bằng điều họ đã biết và kết thúc bằng điều mới. Ở C2, bạn chủ động chọn cấu trúc để đạt điều đó: bị động, đảo vị trí trạng ngữ, câu chẻ (What… is…, It is… that…), this/such + danh từ tóm ý câu trước, và đưa cụm dài, nặng xuống cuối câu (end-weight)."
+        formulas:
+          - Câu trước kết thúc bằng X → câu sau bắt đầu bằng X (hoặc This + N)
+          - "Bị động để đưa thông tin cũ lên đầu: X was introduced by …"
+          - "Câu chẻ: What + S + V + is + thông tin mới"
+          - "End-weight: cụm dài, mới nhất đặt cuối câu"
+        hook: Each request passes through a rate limiter. This limiter, in turn, reads its quotas from Redis.
+      functions:
+        - title: "Nối chuỗi: mới của câu trước thành cũ của câu sau"
+          explain: Khi câu trước giới thiệu một khái niệm, câu sau mở đầu bằng chính khái niệm đó, tạo mạch như bậc thang.
+          examples:
+            - The client sends a signed token. That token is verified at the edge.
+            - Writes go to a queue. The queue is drained by three workers.
+        - title: Bị động phục vụ mạch thông tin
+          explain: Dùng bị động không phải để trang trọng mà để giữ chủ đề ở đầu câu khi người làm hành động là thông tin mới.
+          examples:
+            - The outage was triggered by a malformed feature flag.
+            - This module is maintained by the payments team, not by platform.
+        - title: Tóm ý bằng This/Such + danh từ
+          explain: This approach, such a change, this trade-off gói gọn cả câu trước thành một chủ đề mới để bàn tiếp.
+          examples:
+            - We could shard by tenant. This approach, however, makes cross-tenant reports expensive.
+            - Dropping the column would break three consumers. Such a change needs a deprecation window.
+        - title: Câu chẻ và end-weight để làm nổi thông tin mới
+          explain: What we need is…, It was X that… đặt tiêu điểm vào phần cuối; cụm dài, phức tạp nên chuyển xuống cuối để câu không bị nặng đầu.
+          examples:
+            - What slows the build down is not compilation but dependency resolution.
+            - It was the retry logic, not the database, that amplified the incident.
+      structure:
+        forms:
+          - label: Nối chuỗi
+            pattern: … + X. X / This X + V …
+            example: Logs are shipped to a collector. The collector batches them every second.
+          - label: Bị động giữ chủ đề
+            pattern: Chủ đề cũ + be + V3 + by + tác nhân mới
+            example: The regression was introduced by a dependency upgrade.
+          - label: Câu chẻ What
+            pattern: What + S + V + is/was + tiêu điểm mới
+            example: What we underestimated was the cost of cold starts.
+          - label: Câu chẻ It
+            pattern: It is/was + tiêu điểm + that + phần còn lại
+            example: It was the DNS change that broke the webhooks.
+          - label: End-weight
+            pattern: S + V + O ngắn + cụm dài ở cuối
+            example: We moved to the new region every service that handles card data.
+        steps:
+          - title: Xác định thông tin cũ trong câu
+            explain: Điều người đọc vừa đọc ở câu trước, hoặc đã biết từ tiêu đề, là thông tin cũ.
+            example: Đoạn đang nói về “the cache” → câu sau mở đầu bằng the cache / it.
+          - title: Đưa thông tin cũ lên đầu
+            explain: Nếu chủ ngữ tự nhiên là thông tin mới, cân nhắc bị động hoặc đảo trạng ngữ.
+            example: The cache is populated by a nightly job.
+          - title: Tóm ý dài bằng This + danh từ
+            explain: Đừng dùng This trơ trọi; thêm danh từ để người đọc biết This chỉ cái gì.
+            example: This limitation… / This design choice…
+          - title: Để tiêu điểm ở cuối
+            explain: Cuối câu là vị trí nhấn tự nhiên; đặt kết luận hay con số quan trọng ở đó.
+            example: The bottleneck turned out to be lock contention on a single row.
+      examples:
+        - tag: Nối chuỗi
+          en: Every upload creates a job record. That record is then picked up by the thumbnail worker.
+          vi: Mỗi lần tải lên tạo ra một bản ghi job. Bản ghi đó sau đó được worker tạo ảnh thu nhỏ nhận xử lý.
+          note: Job record (mới ở câu 1) mở đầu câu 2 dưới dạng That record.
+        - tag: Bị động giữ chủ đề
+          en: The flaky test was eventually traced to a shared temp directory.
+          vi: Bài test chập chờn cuối cùng được tìm ra là do một thư mục tạm dùng chung.
+          note: Đoạn văn đang bàn về bài test, nên bài test đứng đầu; nguyên nhân mới ở cuối.
+        - tag: This + danh từ
+          en: We could cache the whole response. This option, though simple, would serve stale prices.
+          vi: Chúng ta có thể cache toàn bộ response. Phương án này tuy đơn giản nhưng sẽ trả về giá đã cũ.
+          note: This option gói lại cả câu trước.
+        - tag: Câu chẻ What
+          en: What the profiler revealed was that most of the time went into JSON parsing.
+          vi: Điều mà profiler cho thấy là phần lớn thời gian bị tiêu tốn vào việc phân tích JSON.
+          note: What… was đẩy phát hiện quan trọng xuống cuối câu.
+        - tag: Câu chẻ It
+          en: It was the missing index, rather than the network, that made the dashboard slow.
+          vi: Chính việc thiếu index, chứ không phải mạng, đã làm dashboard chậm.
+          note: It was X that… nhấn mạnh và loại trừ giải thích khác.
+        - tag: End-weight
+          en: The review flagged as risky any change that touches the billing schema without a migration plan.
+          vi: Buổi review đánh dấu là rủi ro mọi thay đổi chạm vào schema thanh toán mà không có kế hoạch migration.
+          note: Tân ngữ dài được chuyển xuống sau as risky để câu không nặng đầu.
+        - tag: Đảo trạng ngữ
+          en: Behind the load balancer sit four identical API nodes.
+          vi: Phía sau bộ cân bằng tải là bốn node API giống hệt nhau.
+          note: Load balancer (đã nhắc) lên đầu; bốn node (mới) xuống cuối.
+        - tag: Đoạn hoàn chỉnh
+          en: Search queries hit a read replica. This replica lags the primary by up to five seconds, which explains the missing results.
+          vi: Truy vấn tìm kiếm đi vào một bản sao chỉ đọc. Bản sao này trễ so với bản chính tối đa năm giây, điều đó giải thích vì sao thiếu kết quả.
+          note: Mỗi câu nối vào phần cuối của câu trước; kết luận nằm ở cuối đoạn.
+      contrast:
+        title: Cùng nội dung, mạch thông tin khác nhau
+        rows:
+          - label: Đứt mạch
+            note: câu sau mở đầu bằng thông tin mới, người đọc phải quay lại
+            example: Tokens are signed by the auth service. A five-minute expiry is set on the tokens by default.
+          - label: Liền mạch
+            note: câu sau mở đầu bằng điều vừa nhắc
+            example: Tokens are signed by the auth service. By default, they expire after five minutes.
+          - label: Có tiêu điểm
+            note: câu chẻ đặt điều quan trọng nhất ở cuối
+            example: What callers often forget is that tokens expire after five minutes.
+        fixes:
+          - wrong: We tried sharding. This made reports slow.
+            right: We tried sharding. This change made cross-tenant reports slow.
+            why: This trơ trọi mơ hồ; thêm danh từ để chỉ rõ đối tượng.
+          - wrong: What slows the build is dependency resolution is.
+            right: What slows the build is dependency resolution.
+            why: Câu chẻ What chỉ có một động từ be nối hai vế.
+          - wrong: A shared temp directory caused the flaky test, which we had been debugging for weeks.
+            right: The flaky test, which we had been debugging for weeks, was caused by a shared temp directory.
+            why: Khi đoạn văn đang nói về bài test, đưa nó lên đầu và để nguyên nhân mới ở cuối.
+  - slug: g-c2-cohesion
+    kind: grammar
+    title:
+      en: Cohesion across paragraphs
+      vi: Liên kết xuyên đoạn
+    questions:
+      - g-c2-cohesion-1
+      - g-c2-cohesion-2
+      - g-c2-cohesion-3
+      - g-c2-cohesion-4
+      - g-c2-cohesion-5
+      - g-c2-cohesion-6
+      - g-c2-cohesion-7
+      - g-c2-cohesion-8
+    grammar:
+      title_vi: Giữ tham chiếu và quan hệ lập luận qua nhiều đoạn
+      group: Diễn ngôn
+      overview:
+        focus: "Một RFC dài chỉ dễ đọc khi người đọc luôn biết “nó” là gì và đoạn này đứng ở đâu trong lập luận. Công cụ C2: lặp lại danh từ khi it/this có thể nhầm, từ tóm lược (the former/the latter, the second option), câu chuyển đoạn nêu quan hệ (Having established…, This raises the question of…), và tỉnh lược/thay thế (do so, one) để tránh lặp mà không mất nghĩa."
+        formulas:
+          - "Tham chiếu rõ: the former / the latter / the second option / this constraint"
+          - "Chuyển đoạn: Having + V3 + X, we now turn to Y."
+          - "Thay thế: do so, one, the same"
+          - "Quan hệ lập luận: That said, / By contrast, / It follows that…"
+        hook: Having ruled out the network, we now turn to the storage layer.
+      functions:
+        - title: Giữ đối tượng tham chiếu không mơ hồ
+          explain: Khi đoạn trước có hai danh từ, it hay this dễ gây nhầm. Lặp lại danh từ, hoặc dùng the former/the latter, the proposed queue…
+          examples:
+            - Option A uses Kafka and option B uses SQS. The latter requires no cluster management.
+            - The gateway calls the auth service. If the auth service is slow, every request waits.
+        - title: Câu chuyển đoạn nêu quan hệ
+          explain: Mở đoạn mới bằng một câu tóm điều đã xong và báo điều sắp tới, để người đọc biết vì sao đoạn này tồn tại.
+          examples:
+            - Having described the current architecture, we now examine its failure modes.
+            - These constraints rule out a synchronous design, which brings us to the event-driven alternative.
+        - title: Từ nối lập luận đúng quan hệ
+          explain: That said (nhượng bộ sau khi khẳng định), by contrast (đối lập), it follows that (hệ quả logic), in particular (cụ thể hoá). Dùng sai từ nối làm đảo ngược lập luận.
+          examples:
+            - The migration is risky. That said, postponing it would cost us more.
+            - Latency targets are strict. It follows that cross-region calls must stay off the hot path.
+        - title: Thay thế và tỉnh lược để tránh lặp
+          explain: Do so thay cho cả cụm động từ đã nhắc; one thay cho danh từ đếm được. Chỉ dùng khi tiền ngữ còn gần và rõ.
+          examples:
+            - Teams may opt out of the new linter, but those that do so must document why.
+            - We need a new rate limiter, ideally one that supports per-tenant quotas.
+      structure:
+        forms:
+          - label: The former / the latter
+            pattern: X and Y … The former (= X) / The latter (= Y) + V
+            example: We compared Postgres and DynamoDB. The latter scaled better but cost more.
+          - label: Chuyển đoạn bằng phân từ hoàn thành
+            pattern: Having + V3 + X, we now + V + Y
+            example: Having outlined the goals, we now describe the rollout.
+          - label: Danh từ tóm lược
+            pattern: This/These + danh từ khái quát (constraint, trade-off, risk)
+            example: These trade-offs are summarised in the table below.
+          - label: Thay thế động từ
+            pattern: … + do so (= lặp lại hành động đã nêu)
+            example: If a service exceeds its budget, it should alert before doing so again.
+        steps:
+          - title: "Đọc từng it/this/they và hỏi: chỉ cái gì?"
+            explain: Nếu có hơn một ứng viên trong câu hoặc đoạn trước, thay bằng danh từ cụ thể.
+            example: It → the retry queue
+          - title: Mở đoạn bằng câu cầu nối
+            explain: Câu đầu đoạn nên nhắc lại kết luận đoạn trước và nêu câu hỏi của đoạn này.
+            example: Given this bottleneck, the obvious question is whether caching helps.
+          - title: Chọn từ nối theo quan hệ thật
+            explain: "Đối lập, nhượng bộ, hệ quả, ví dụ: mỗi quan hệ có từ nối riêng; đừng dùng However cho mọi chỗ."
+            example: By contrast, the batch path tolerates delay.
+          - title: Giữ thuật ngữ nhất quán
+            explain: Đã gọi là “the ingestion service” thì đừng đổi sang “the importer” ở đoạn sau; người đọc sẽ nghĩ đó là hai thứ.
+            example: the ingestion service … the ingestion service
+      examples:
+        - tag: The latter
+          en: We considered a shared cache and a per-node cache. The latter avoids network hops but wastes memory.
+          vi: Chúng tôi đã cân nhắc cache dùng chung và cache trên từng node. Phương án sau tránh được lượt gọi qua mạng nhưng tốn bộ nhớ.
+          note: The latter chỉ rõ per-node cache, không thể nhầm.
+        - tag: Chuyển đoạn
+          en: Having established that the queue is the bottleneck, we now consider three ways to relieve it.
+          vi: Sau khi đã xác định hàng đợi là điểm nghẽn, giờ chúng ta xem xét ba cách để giảm tải cho nó.
+          note: Having + V3 tóm đoạn trước, we now consider mở đoạn mới.
+        - tag: Lặp danh từ
+          en: The scheduler triggers the exporter. When the exporter fails, the scheduler does not retry.
+          vi: Bộ lập lịch kích hoạt trình xuất dữ liệu. Khi trình xuất dữ liệu lỗi, bộ lập lịch không thử lại.
+          note: Lặp lại danh từ thay vì it, vì có hai ứng viên.
+        - tag: That said
+          en: The rewrite would simplify the codebase considerably. That said, it would freeze feature work for a quarter.
+          vi: Việc viết lại sẽ đơn giản hoá codebase đáng kể. Dù vậy, nó sẽ làm đóng băng việc phát triển tính năng trong một quý.
+          note: "That said: thừa nhận ý trước rồi đưa ra cân nhắc ngược lại."
+        - tag: It follows that
+          en: Every tenant must be isolated at the storage layer. It follows that shared tables are not an option.
+          vi: Mọi tenant đều phải được cô lập ở tầng lưu trữ. Từ đó suy ra bảng dùng chung không phải là một lựa chọn.
+          note: Hệ quả logic trực tiếp từ yêu cầu ở câu trước.
+        - tag: Do so
+          en: Services may bypass the gateway for internal traffic, but any service that does so must use mutual TLS.
+          vi: Các service được phép bỏ qua gateway với lưu lượng nội bộ, nhưng service nào làm vậy thì phải dùng mutual TLS.
+          note: Does so = bypasses the gateway for internal traffic.
+        - tag: Danh từ tóm lược
+          en: Neither option meets the latency budget on its own. This constraint pushes us towards a hybrid design.
+          vi: Không phương án nào tự nó đáp ứng được ngân sách độ trễ. Ràng buộc này đẩy chúng ta tới một thiết kế lai.
+          note: This constraint gói lại câu trước thành chủ đề cho lập luận tiếp.
+        - tag: By contrast
+          en: The real-time path must answer within 50 ms. The reporting path, by contrast, can tolerate minutes of delay.
+          vi: Luồng thời gian thực phải trả lời trong 50 ms. Ngược lại, luồng báo cáo có thể chấp nhận trễ vài phút.
+          note: By contrast đặt hai luồng đối lập rõ ràng.
+      contrast:
+        title: Từ nối nào cho quan hệ nào
+        rows:
+          - label: That said / Even so
+            note: "nhượng bộ: thừa nhận ý trước, rồi cân nhắc ngược lại"
+            example: The plan is sound. That said, the timeline is tight.
+          - label: By contrast / Conversely
+            note: đối lập hai đối tượng
+            example: Reads are cheap. Writes, by contrast, lock the row.
+          - label: It follows that / Consequently
+            note: hệ quả logic
+            example: All calls are idempotent. It follows that retries are safe.
+          - label: In particular
+            note: cụ thể hoá ý chung
+            example: Several endpoints are slow; in particular, /search times out.
+        fixes:
+          - wrong: The gateway calls the auth service. If it is slow, requests time out.
+            right: The gateway calls the auth service. If the auth service is slow, requests time out.
+            why: It có thể chỉ gateway hoặc auth service; lặp lại danh từ để rõ.
+          - wrong: All calls are idempotent. By contrast, retries are safe.
+            right: All calls are idempotent. It follows that retries are safe.
+            why: Đây là quan hệ hệ quả, không phải đối lập.
+          - wrong: Having outlined the goals, the rollout is now described.
+            right: Having outlined the goals, we now describe the rollout.
+            why: Chủ ngữ của mệnh đề chính phải là người thực hiện having outlined (we), không phải the rollout.
+  - slug: g-c2-qualification
+    kind: grammar
+    title:
+      en: Precision & qualification
+      vi: Diễn đạt dè dặt và giới hạn phạm vi nhận định
+    questions:
+      - g-c2-qualification-1
+      - g-c2-qualification-2
+      - g-c2-qualification-3
+      - g-c2-qualification-4
+      - g-c2-qualification-5
+      - g-c2-qualification-6
+      - g-c2-qualification-7
+      - g-c2-qualification-8
+    grammar:
+      title_vi: Giới hạn phạm vi và mức chắc chắn của kết luận
+      group: Diễn ngôn học thuật
+      overview:
+        focus: "Ở C2, vấn đề không còn là biết “may” hay “might”, mà là đặt đúng ranh giới cho một nhận định: đúng trong phạm vi nào (within the scope of…), với điều kiện gì (provided that…, insofar as…), chắc đến mức nào (the evidence would seem to suggest…). Một postmortem hay RFC thuyết phục là văn bản nói rõ điều mình biết, điều mình suy ra và điều mình chưa kiểm chứng, không thổi phồng cũng không né tránh."
+        formulas:
+          - "Phạm vi: within / outside the scope of… · as far as X is concerned · in the case of…"
+          - "Điều kiện: provided (that) · insofar as · to the extent that · unless and until"
+          - "Mức chắc chắn: would appear / seem to · there is little / some evidence that · arguably"
+          - "Giới hạn: at least in… · not necessarily · if anything · with the possible exception of…"
+        hook: The fix would appear to resolve the leak, at least under the load profiles we have tested.
+      functions:
+        - title: Khoanh vùng phạm vi nhận định
+          explain: Nói rõ kết luận đúng cho dữ liệu, môi trường hay nhóm người dùng nào, để người đọc không khái quát hoá quá mức.
+          examples:
+            - Within the scope of this audit, no credentials were found in plain text.
+            - As far as the mobile clients are concerned, the change is backward compatible.
+        - title: Gắn điều kiện vào cam kết
+          explain: Provided that, insofar as, to the extent that biến một lời hứa tuyệt đối thành một cam kết có điều kiện rõ ràng.
+          examples:
+            - We can meet the deadline provided that the vendor delivers the API keys by Monday.
+            - The proposal is sound insofar as it addresses read traffic; writes remain an open question.
+        - title: Hạ mức chắc chắn một cách có chủ đích
+          explain: Would appear to, there is some evidence that, arguably cho thấy đây là suy luận có cơ sở, không phải sự thật đã chứng minh.
+          examples:
+            - The regression would seem to originate in the serializer rather than the network layer.
+            - There is some evidence that the cache warm-up masks the underlying latency.
+        - title: Chặn cách hiểu quá đà
+          explain: Not necessarily, if anything, with the possible exception of… sửa trước kết luận sai mà người đọc dễ rút ra.
+          examples:
+            - A green build does not necessarily mean the migration is safe to run in production.
+            - If anything, the new index made the nightly report slightly slower.
+      structure:
+        forms:
+          - label: Phạm vi
+            pattern: Within the scope of + N, S + V
+            example: Within the scope of this test, the queue never overflowed.
+          - label: Điều kiện
+            pattern: S + V, provided (that) + S + V (hiện tại)
+            example: We'll ship on Friday, provided QA signs off by Thursday.
+          - label: Mức độ đúng
+            pattern: S + V + insofar as / to the extent that + S + V
+            example: The plan works to the extent that traffic stays below current peaks.
+          - label: Suy luận dè dặt
+            pattern: S + would appear / seem + to V (to have V3)
+            example: The job would appear to have stalled before midnight.
+        steps:
+          - title: Tách điều đã đo được và điều suy ra
+            explain: Sự thật đã kiểm chứng dùng câu khẳng định thẳng; suy luận mới cần would appear, likely, there is evidence that.
+            example: CPU peaked at 95%. This would appear to explain the timeouts.
+          - title: Đặt giới hạn ngay cạnh nhận định
+            explain: Cụm at least in…, in the case of… đặt sát mệnh đề nó giới hạn, tránh để người đọc gán nhầm cho cả câu.
+            example: The bug is fixed, at least in the Android build.
+          - title: Không chồng quá nhiều lớp rào đón
+            explain: Một nhận định chỉ cần một tín hiệu dè dặt. It might possibly perhaps seem… làm câu mất giá trị thông tin.
+            example: "The fix likely resolves it. (không phải: It might possibly perhaps seem to resolve it.)"
+      examples:
+        - tag: Phạm vi kiểm thử
+          en: The fix would appear to resolve the leak, at least under the load profiles we have tested.
+          vi: Bản sửa có vẻ đã xử lý được rò rỉ bộ nhớ, ít nhất là với các kịch bản tải mà tụi mình đã thử.
+          note: Would appear hạ mức chắc chắn; at least under… khoanh phạm vi kết luận.
+        - tag: Cam kết có điều kiện
+          en: We can commit to the March date provided that the security review closes this sprint.
+          vi: Tụi mình có thể cam kết mốc tháng Ba, với điều kiện đợt rà soát bảo mật xong trong sprint này.
+          note: Provided that + hiện tại đơn, dù việc xảy ra trong tương lai.
+        - tag: Đúng một phần
+          en: The benchmark is representative only insofar as it reflects our current traffic mix.
+          vi: Benchmark này chỉ phản ánh đúng thực tế trong chừng mực nó khớp với tỷ lệ traffic hiện nay.
+          note: "Insofar as: đúng đến mức độ, trong phạm vi mà…"
+        - tag: Không suy rộng
+          en: Passing the load test does not necessarily mean the service will survive Black Friday.
+          vi: Qua được bài load test chưa chắc đã có nghĩa là service sẽ trụ nổi dịp Black Friday.
+          note: Not necessarily chặn một suy luận quá đà.
+        - tag: Bằng chứng còn mỏng
+          en: There is little evidence so far that users notice the extra two hundred milliseconds.
+          vi: Đến giờ vẫn chưa có mấy bằng chứng cho thấy người dùng nhận ra hai trăm mili giây chậm thêm đó.
+          note: "There is little evidence that: dè dặt nhưng vẫn nêu rõ hướng kết luận."
+        - tag: Ngoại lệ
+          en: All endpoints now enforce rate limits, with the possible exception of the legacy export route.
+          vi: Mọi endpoint giờ đều áp giới hạn tần suất, có lẽ chỉ trừ route export cũ.
+          note: "With the possible exception of: thừa nhận một ngoại lệ chưa chắc chắn."
+        - tag: Ngược kỳ vọng
+          en: If anything, splitting the monolith has increased our deployment overhead.
+          vi: Nếu có thay đổi gì thì việc tách monolith còn làm chi phí triển khai tăng lên.
+          note: "If anything: kết quả không như kỳ vọng, thậm chí theo chiều ngược lại."
+        - tag: Chưa đủ điều kiện
+          en: Unless and until the vendor publishes an SLA, we should treat the integration as best-effort.
+          vi: Chừng nào nhà cung cấp còn chưa công bố SLA thì mình nên xem tích hợp này là kiểu cố gắng hết sức, không bảo đảm.
+          note: "Unless and until: nhấn mạnh điều kiện tiên quyết trước khi đổi đánh giá."
+      contrast:
+        title: Mức độ ràng buộc của các liên từ điều kiện
+        rows:
+          - label: if
+            note: điều kiện trung tính, không nhấn mạnh
+            example: If QA signs off, we'll ship.
+          - label: provided (that)
+            note: điều kiện bắt buộc, giọng cam kết, trang trọng
+            example: We'll ship provided that QA signs off.
+          - label: insofar as / to the extent that
+            note: đúng đến mức độ nào, không phải có hay không
+            example: It scales insofar as the database does.
+          - label: unless and until
+            note: chưa thay đổi chừng nào điều kiện chưa xảy ra
+            example: Unless and until we get logs, the cause is unknown.
+        fixes:
+          - wrong: We will ship provided that QA will sign off.
+            right: We will ship provided that QA signs off.
+            why: Mệnh đề điều kiện sau provided that dùng hiện tại đơn, không dùng will.
+          - wrong: It would appear that it might possibly be the cache.
+            right: It would appear to be the cache.
+            why: Chồng nhiều lớp rào đón làm câu rỗng; một tín hiệu là đủ.
+          - wrong: The fix is safe insofar we have tested.
+            right: The fix is safe insofar as we have tested it.
+            why: Insofar luôn đi với as.
+  - slug: g-c2-parallelism
+    kind: grammar
+    title:
+      en: Parallelism & coordination
+      vi: Cấu trúc song song và phép đồng đẳng
+    questions:
+      - g-c2-parallelism-1
+      - g-c2-parallelism-2
+      - g-c2-parallelism-3
+      - g-c2-parallelism-4
+      - g-c2-parallelism-5
+      - g-c2-parallelism-6
+      - g-c2-parallelism-7
+      - g-c2-parallelism-8
+    grammar:
+      title_vi: Cấu trúc song song với liên từ tương liên và danh sách
+      group: Diễn ngôn học thuật
+      overview:
+        focus: "Khi liệt kê tiêu chí, phương án hay việc cần làm, các vế phải cùng dạng ngữ pháp: cùng là danh từ, cùng là to V, cùng là mệnh đề. Ở C2, cái khó nằm ở liên từ tương liên (not only… but also, either… or, whether… or, both… and): phần đứng sau mỗi liên từ phải tương xứng, và vị trí đặt liên từ quyết định phạm vi nghĩa. Đặt sai một chữ “not only” là người đọc hiểu lệch điều bạn cam kết."
+        formulas:
+          - A, B(,) and C — cùng loại từ / cùng dạng động từ
+          - not only X but (also) Y · both X and Y · either X or Y · neither X nor Y
+          - whether X or Y · rather than X · as much X as Y
+          - Lặp lại giới từ / to / that để đánh dấu ranh giới các vế
+        hook: The RFC should explain not only what we are changing but also why the current design fails.
+      functions:
+        - title: Liệt kê tiêu chí cùng dạng
+          explain: "Tiêu chí đánh giá, yêu cầu tuyển dụng, tiêu chí nghiệm thu: mọi mục đều là danh từ hoặc đều là động từ cùng dạng."
+          examples:
+            - We evaluated each queue on throughput, operational cost and ease of recovery.
+            - Candidates should be able to design schemas, review migrations and mentor juniors.
+        - title: Đối chiếu hai phương án cân xứng
+          explain: Either… or, whether… or, rather than đặt hai lựa chọn trên cùng một bậc ngữ pháp để người đọc so sánh công bằng.
+          examples:
+            - We can either extend the current service or replace it with a managed queue.
+            - The question is whether to cache at the edge or to denormalize the table.
+        - title: Nhấn mạnh phạm vi bằng liên từ tương liên
+          explain: Not only… but also, both… and cho thấy cam kết bao trùm cả hai vế; vị trí liên từ phải đặt ngay trước phần được so sánh.
+          examples:
+            - The outage affected not only checkout but also the partner API.
+            - The change must be both reversible and observable.
+        - title: Lặp từ đánh dấu để tránh mơ hồ
+          explain: Trong câu dài, lặp lại to, that hay giới từ ở đầu mỗi vế giúp người đọc thấy vế mới bắt đầu ở đâu.
+          examples:
+            - We agreed that the flag stays on, that alerts go to on-call and that the rollback script is tested weekly.
+            - The budget covers training for new hires and for contractors.
+      structure:
+        forms:
+          - label: Danh sách
+            pattern: N, N and N / to V, V and V
+            example: The goal is to reduce cost, simplify deploys and improve recovery.
+          - label: Not only… but also
+            pattern: S + V + not only X but also Y (X, Y cùng dạng)
+            example: It improves not only speed but also accuracy.
+          - label: Đảo ngữ đầu câu
+            pattern: Not only + trợ động từ + S + V, but S + also + V
+            example: Not only did the patch fix the bug, but it also cut latency.
+          - label: Either / neither / whether
+            pattern: either X or Y · neither X nor Y · whether X or Y
+            example: Neither the logs nor the metrics showed the spike.
+        steps:
+          - title: Gạch chân phần đứng ngay sau mỗi liên từ
+            explain: Phần sau either phải cùng loại với phần sau or. Nếu sau either là động từ thì sau or cũng là động từ.
+            example: We will either refactor the module or delete it.
+          - title: Đặt liên từ sát phần được so sánh
+            explain: Đặt either / not only trước động từ chung thì hai vế phía sau phải chỉ khác nhau ở phần còn lại.
+            example: She not only wrote the spec but also reviewed every PR.
+          - title: "Neither… nor: động từ hoà hợp với vế gần nhất"
+            explain: "Neither the docs nor the tests were updated. Khi vế gần là số ít: Neither the tests nor the doc was updated."
+            example: Neither the reviewers nor the author was aware of the flag.
+      examples:
+        - tag: Tiêu chí
+          en: We compared the vendors on price, data residency and quality of support.
+          vi: Tụi mình so sánh các nhà cung cấp theo giá, nơi lưu trữ dữ liệu và chất lượng hỗ trợ.
+          note: Ba vế đều là cụm danh từ.
+        - tag: Phạm vi rộng
+          en: The RFC should explain not only what we are changing but also why the current design fails.
+          vi: RFC cần giải thích không chỉ mình đang thay đổi gì mà còn vì sao thiết kế hiện tại không ổn.
+          note: "Hai vế đều là mệnh đề wh-: what… / why…"
+        - tag: Đảo ngữ
+          en: Not only did the rollback restore service, but it also preserved every queued order.
+          vi: Việc rollback không những khôi phục được dịch vụ mà còn giữ nguyên mọi đơn hàng đang chờ.
+          note: "Not only đầu câu → đảo trợ động từ: did the rollback restore."
+        - tag: Hai phương án
+          en: We can either migrate the data in one weekend or run both systems in parallel for a month.
+          vi: Mình có thể chuyển dữ liệu trong một cuối tuần, hoặc chạy song song cả hai hệ thống trong một tháng.
+          note: "Sau either và sau or đều là động từ nguyên mẫu: migrate / run."
+        - tag: Cân nhắc
+          en: The real decision is whether to hire a specialist or to train someone internally.
+          vi: Quyết định thực sự là nên tuyển chuyên gia hay đào tạo người trong team.
+          note: Whether to V or to V; lặp to để hai vế rõ ràng.
+        - tag: Không vế nào
+          en: Neither the runbook nor the dashboards mentioned the fallback region.
+          vi: Cả runbook lẫn các dashboard đều không nhắc tới region dự phòng.
+          note: Neither… nor; động từ chia theo vế gần (the dashboards).
+        - tag: Lặp that
+          en: The client asked that the data stay in Vietnam and that every export be logged.
+          vi: Khách hàng yêu cầu dữ liệu phải nằm ở Việt Nam và mọi lần xuất dữ liệu đều phải được ghi log.
+          note: Lặp that đánh dấu hai yêu cầu riêng; thức giả định stay / be.
+        - tag: Thay vì
+          en: We chose to document the edge cases rather than hide them behind a feature flag.
+          vi: Tụi mình chọn ghi rõ các trường hợp biên thay vì giấu chúng sau một feature flag.
+          note: "To document… rather than hide: hai động từ nguyên mẫu song song."
+      contrast:
+        title: Vị trí liên từ quyết định cấu trúc
+        rows:
+          - label: either + V … or + V
+            note: chọn giữa hai hành động
+            example: We will either patch it or replace it.
+          - label: either + N … or + N
+            note: chọn giữa hai đối tượng, động từ chung đứng trước
+            example: We will replace either the driver or the pool.
+          - label: not only (giữa câu)
+            note: không đảo ngữ
+            example: It not only failed but also corrupted the cache.
+          - label: Not only (đầu câu)
+            note: đảo trợ động từ lên trước chủ ngữ
+            example: Not only did it fail, but it also corrupted the cache.
+        fixes:
+          - wrong: We need someone who can write tests, reviewing PRs and documentation.
+            right: We need someone who can write tests, review PRs and maintain documentation.
+            why: Ba vế phải cùng dạng động từ nguyên mẫu sau can.
+          - wrong: We will either patch the library or a new one.
+            right: We will either patch the library or adopt a new one.
+            why: Sau either là động từ thì sau or cũng phải là động từ.
+          - wrong: Not only the patch fixed the bug, but it also cut latency.
+            right: Not only did the patch fix the bug, but it also cut latency.
+            why: Not only đầu câu bắt buộc đảo trợ động từ.
+  - slug: g-c2-synthesis
+    kind: grammar
+    title:
+      en: Academic synthesis
+      vi: Tổng hợp nhiều nguồn trong một câu
+    questions:
+      - g-c2-synthesis-1
+      - g-c2-synthesis-2
+      - g-c2-synthesis-3
+      - g-c2-synthesis-4
+      - g-c2-synthesis-5
+      - g-c2-synthesis-6
+      - g-c2-synthesis-7
+      - g-c2-synthesis-8
+    grammar:
+      title_vi: Quy nguồn và nối các nguồn trong câu tổng hợp
+      group: Diễn ngôn học thuật
+      overview:
+        focus: "Viết phần “bối cảnh” của một RFC hay báo cáo đánh giá công nghệ nghĩa là gộp nhiều nguồn vào ít câu: tài liệu chính thức, benchmark, kinh nghiệm của team khác. Kỹ năng C2 là vừa nén thông tin (whereas, while, consistent with, in line with) vừa giữ rõ ai nói gì (according to, as X notes, X's findings suggest), để người đọc phân biệt được dữ kiện của nguồn và nhận định của chính bạn."
+        formulas:
+          - "Quy nguồn: according to X · as X notes / reports · X's findings suggest that…"
+          - "Đồng thuận: consistent with / in line with X · X and Y both point to…"
+          - "Đối lập: whereas X reports…, Y finds… · while X…, Y… · X, by contrast,…"
+          - "Ý mình: taken together, these results suggest… · what neither source addresses is…"
+        hook: Whereas the vendor's benchmark reports sub-millisecond reads, the platform team's tests suggest otherwise under contention.
+      functions:
+        - title: Quy nguồn rõ ràng
+          explain: According to, as X notes, X reports that… gắn nhận định vào người nói; động từ tường thuật (claims, shows, suggests) thể hiện mức tin cậy bạn dành cho nguồn.
+          examples:
+            - As the Postgres documentation notes, long-running transactions block vacuum.
+            - The vendor claims a 99.99% uptime, although its status page shows two outages this quarter.
+        - title: Chỉ ra điểm đồng thuận
+          explain: Consistent with, in line with, both… point to nối hai nguồn cùng chiều mà không phải viết hai câu riêng.
+          examples:
+            - Consistent with the SRE team's findings, our traces show most latency in DNS resolution.
+            - Both the survey and the support tickets point to onboarding as the main pain point.
+        - title: Đặt hai nguồn đối lập cạnh nhau
+          explain: Whereas, while, by contrast đặt hai kết quả trái nhau trong cùng một câu để người đọc thấy ngay mâu thuẫn.
+          examples:
+            - Whereas the original paper tested read-heavy loads, our workload is mostly writes.
+            - The design doc favours gRPC; the mobile team, by contrast, prefers REST for caching.
+        - title: Rút ra nhận định của riêng mình
+          explain: Taken together, what none of these sources addresses… đánh dấu chỗ bạn chuyển từ tóm tắt sang lập luận.
+          examples:
+            - Taken together, these results suggest that the bottleneck is lock contention, not disk I/O.
+            - What none of these sources addresses is how the system behaves during a regional failover.
+      structure:
+        forms:
+          - label: Quy nguồn
+            pattern: According to X, S + V / As X notes, S + V
+            example: According to the 2024 audit, half the services lack alerts.
+          - label: Đồng thuận
+            pattern: Consistent with / In line with + N, S + V
+            example: In line with earlier tests, memory stayed flat.
+          - label: Đối lập
+            pattern: Whereas X + V, Y + V
+            example: Whereas Team A saw gains, Team B saw none.
+          - label: Tổng hợp
+            pattern: Taken together, these + N + suggest that…
+            example: Taken together, these reports suggest a config drift.
+        steps:
+          - title: Chọn động từ tường thuật theo mức tin cậy
+            explain: "Shows / demonstrates: chấp nhận là đúng. Suggests / indicates: có cơ sở nhưng chưa chắc. Claims / asserts: giữ khoảng cách với nguồn."
+            example: The vendor claims zero downtime; our logs show three minutes.
+          - title: Không dùng according to với ý của chính mình
+            explain: According to luôn dẫn nguồn bên ngoài. Ý kiến của bạn dùng we argue, in our view hoặc taken together.
+            example: "In our view, the data favours option B. (không phải: According to me…)"
+          - title: Whereas nối hai mệnh đề, by contrast đứng trong câu thứ hai
+            explain: Whereas là liên từ; by contrast là trạng từ, cần dấu câu tách mệnh đề.
+            example: Kafka retains messages. RabbitMQ, by contrast, deletes them on ack.
+      examples:
+        - tag: Đối lập nguồn
+          en: Whereas the vendor's benchmark reports sub-millisecond reads, the platform team's tests suggest otherwise under contention.
+          vi: Benchmark của nhà cung cấp báo đọc dưới một mili giây, trong khi thử nghiệm của team platform cho thấy điều ngược lại khi có tranh chấp tài nguyên.
+          note: Whereas đặt hai nguồn trái chiều trong một câu.
+        - tag: Dẫn tài liệu
+          en: As the Kubernetes documentation notes, liveness probes should not depend on external services.
+          vi: Như tài liệu Kubernetes có lưu ý, liveness probe không nên phụ thuộc vào dịch vụ bên ngoài.
+          note: "As X notes: dẫn nguồn và ngầm đồng ý với nguồn."
+        - tag: Giữ khoảng cách
+          en: The library's maintainers claim full thread safety, yet three open issues describe race conditions.
+          vi: Nhóm duy trì thư viện khẳng định là an toàn luồng hoàn toàn, vậy mà có tới ba issue đang mở mô tả lỗi race condition.
+          note: Claim cho thấy người viết chưa tin hẳn nguồn.
+        - tag: Cùng chiều
+          en: In line with last year's postmortem, the new traces place most of the delay in connection setup.
+          vi: Đúng như postmortem năm ngoái, các trace mới cho thấy phần lớn độ trễ nằm ở khâu thiết lập kết nối.
+          note: In line with + N nối hai nguồn đồng thuận.
+        - tag: Nhiều nguồn
+          en: Both the user interviews and the funnel data point to the pricing page as the main drop-off.
+          vi: Cả phỏng vấn người dùng lẫn dữ liệu phễu đều cho thấy trang giá là chỗ người dùng bỏ đi nhiều nhất.
+          note: "Both… and… point to: gộp hai nguồn cùng kết luận."
+        - tag: Tổng hợp
+          en: Taken together, these findings suggest that the timeouts stem from retries rather than slow queries.
+          vi: Gộp lại, các kết quả này cho thấy timeout bắt nguồn từ việc thử lại chứ không phải do truy vấn chậm.
+          note: "Taken together: chuyển từ tóm tắt nguồn sang kết luận của người viết."
+        - tag: Khoảng trống
+          en: What none of these studies addresses is the cost of running the cluster across two regions.
+          vi: Điều mà chưa nghiên cứu nào trong số này đề cập là chi phí chạy cụm trên hai region.
+          note: Câu chẻ what… is… chỉ ra khoảng trống trong các nguồn.
+        - tag: Tương phản
+          en: The backend team favours event sourcing; the analytics team, by contrast, needs simple snapshots.
+          vi: Team backend nghiêng về event sourcing; ngược lại, team phân tích dữ liệu chỉ cần các bản snapshot đơn giản.
+          note: By contrast là trạng từ, đặt giữa dấu phẩy trong mệnh đề thứ hai.
+      contrast:
+        title: Động từ tường thuật và thái độ của người viết
+        rows:
+          - label: shows / demonstrates
+            note: người viết chấp nhận là đúng
+            example: The trace shows a lock wait.
+          - label: suggests / indicates
+            note: có cơ sở, chưa kết luận chắc
+            example: The data suggests a memory leak.
+          - label: claims / asserts
+            note: người viết giữ khoảng cách, có thể nghi ngờ
+            example: The vendor claims linear scaling.
+          - label: taken together / in our view
+            note: nhận định riêng của người viết
+            example: In our view, option B is safer.
+        fixes:
+          - wrong: According to me, the cache is the bottleneck.
+            right: In my view, the cache is the bottleneck.
+            why: According to dùng cho nguồn bên ngoài, không dùng cho ý của chính mình.
+          - wrong: Whereas the docs recommend pooling. Our tests show no gain.
+            right: Whereas the docs recommend pooling, our tests show no gain.
+            why: Whereas là liên từ phụ thuộc, mệnh đề của nó không đứng một mình thành câu.
+          - wrong: Consistent to the earlier study, latency dropped.
+            right: Consistent with the earlier study, latency dropped.
+            why: Consistent luôn đi với with.
+  - slug: g-c2-rhetorical
+    kind: grammar
+    title:
+      en: Argumentative structures
+      vi: Cấu trúc lập luận trong văn học thuật
+    questions:
+      - g-c2-rhetorical-1
+      - g-c2-rhetorical-2
+      - g-c2-rhetorical-3
+      - g-c2-rhetorical-4
+      - g-c2-rhetorical-5
+      - g-c2-rhetorical-6
+      - g-c2-rhetorical-7
+      - g-c2-rhetorical-8
+    grammar:
+      title_vi: Nhượng bộ, phản biện và nhấn mạnh luận điểm
+      group: Diễn ngôn học thuật
+      overview:
+        focus: "Một quyết định kiến trúc thuyết phục không chỉ nêu lý do ủng hộ mà còn trình bày công bằng lập luận phản đối rồi trả lời nó. Tiếng Anh học thuật có những khuôn cố định cho từng bước: nhượng bộ (Admittedly…, While it is true that…), phản bác (Even so…, This overlooks…), nhấn mạnh (What matters here is…, It is X that…) và kết luận (It follows that…). Dùng đúng khuôn giúp lập luận chặt mà giọng vẫn ôn hoà."
+        formulas:
+          - "Nhượng bộ: Admittedly, … · While it is true that…, … · Granted, …"
+          - "Phản bác: Even so, … · This overlooks the fact that… · That said, …"
+          - "Nhấn mạnh: What matters (here) is… · It is X that… · The point is not X but Y"
+          - "Kết luận: It follows that… · On balance, … · Hence, …"
+        hook: Admittedly, a monorepo slows down our CI; even so, it is the only way to keep shared types in sync.
+      functions:
+        - title: Nhượng bộ công bằng
+          explain: Thừa nhận điểm mạnh của phía bên kia trước khi phản bác giúp bạn nghe khách quan và khó bị bắt bẻ.
+          examples:
+            - Admittedly, the managed service costs more per request.
+            - While it is true that GraphQL reduces round trips, it complicates caching.
+        - title: Phản bác có cơ sở
+          explain: Even so, that said, this overlooks… chuyển sang luận điểm chính mà không phủ nhận điều vừa thừa nhận.
+          examples:
+            - Even so, the savings in on-call time outweigh the extra cost.
+            - This argument overlooks the fact that most of our traffic is internal.
+        - title: Nhấn mạnh điều cốt lõi
+          explain: Câu chẻ (What matters is…, It is… that…) và khuôn not X but Y kéo sự chú ý về đúng điểm bạn muốn người đọc nhớ.
+          examples:
+            - What matters here is not raw speed but predictable latency.
+            - It is the lack of ownership, not the tooling, that keeps breaking the build.
+        - title: Kết luận từ lập luận
+          explain: It follows that, on balance, hence chỉ ra kết luận được suy ra từ các luận điểm trước, không phải ý kiến mới.
+          examples:
+            - On balance, the benefits of the migration justify a two-sprint delay.
+            - It follows that we should retire the legacy endpoint before adding new clients.
+      structure:
+        forms:
+          - label: Nhượng bộ
+            pattern: While it is true that + S + V, S + V
+            example: While it is true that Go compiles fast, our team knows Kotlin.
+          - label: Câu chẻ what
+            pattern: What + S + V + is + N / that-clause
+            example: What we need is a clear owner.
+          - label: Câu chẻ it
+            pattern: It is + X + that / who + V
+            example: It is the retry policy that causes the spike.
+          - label: Kết luận
+            pattern: It follows that + S + V / On balance, S + V
+            example: It follows that the cache must be invalidated on write.
+        steps:
+          - title: Nhượng bộ trước, phản bác sau
+            explain: Admittedly / Granted mở đầu câu nhượng bộ; even so / that said mở đầu câu phản bác ngay sau đó.
+            example: Granted, the rewrite is risky. That said, patching has failed twice.
+          - title: "Câu chẻ: chọn đúng phần được nhấn"
+            explain: It is + phần nhấn + that + phần còn lại. Phần nhấn là thứ đối lập với một khả năng khác.
+            example: It is the schema, not the query, that needs changing.
+          - title: "Not X but Y: hai vế cùng dạng"
+            explain: "Giống cấu trúc song song: nếu X là danh từ thì Y cũng là danh từ."
+            example: The issue is not cost but complexity.
+      examples:
+        - tag: Nhượng bộ – phản bác
+          en: Admittedly, a monorepo slows down our CI; even so, it is the only way to keep shared types in sync.
+          vi: Phải thừa nhận monorepo làm CI chậm đi; dù vậy, đó là cách duy nhất để giữ các type dùng chung luôn đồng bộ.
+          note: "Admittedly… even so…: thừa nhận rồi giữ vững lập trường."
+        - tag: While it is true
+          en: While it is true that microservices allow independent deploys, our team of six cannot operate twenty of them.
+          vi: Đúng là microservice cho phép triển khai độc lập, nhưng team sáu người của mình không thể vận hành nổi hai mươi service.
+          note: "While it is true that…: nhượng bộ trong cùng một câu."
+        - tag: Câu chẻ what
+          en: What worries me is not the migration itself but the lack of a rollback plan.
+          vi: Điều làm mình lo không phải bản thân việc migration mà là việc không có kế hoạch rollback.
+          note: "What… is not X but Y: nhấn đúng vào rủi ro thật."
+        - tag: Câu chẻ it
+          en: It is the unbounded retry loop, not the database, that brought the service down.
+          vi: Chính vòng lặp retry không giới hạn, chứ không phải database, đã làm sập service.
+          note: "It is X that…: khẳng định nguyên nhân, loại trừ nguyên nhân khác."
+        - tag: Chỉ ra lỗ hổng
+          en: This argument overlooks the fact that most of our customers still run the desktop client.
+          vi: Lập luận này bỏ qua một thực tế là phần lớn khách hàng của mình vẫn dùng bản desktop.
+          note: "Overlooks the fact that…: phản bác lịch sự, tập trung vào dữ kiện."
+        - tag: Cân nhắc
+          en: On balance, rewriting the parser is cheaper than maintaining three layers of patches.
+          vi: Cân nhắc mọi mặt thì viết lại parser vẫn rẻ hơn duy trì ba lớp bản vá chồng lên nhau.
+          note: "On balance: kết luận sau khi đã cân hai phía."
+        - tag: Suy ra
+          en: If every write must be audited, it follows that the audit log cannot be optional.
+          vi: Nếu mọi thao tác ghi đều phải được kiểm toán thì suy ra nhật ký kiểm toán không thể là tuỳ chọn.
+          note: "It follows that: kết luận logic từ tiền đề."
+        - tag: Giữ lập trường
+          en: Granted, the new framework has a smaller community. That said, its type safety has already prevented two incidents.
+          vi: Công nhận framework mới có cộng đồng nhỏ hơn. Tuy vậy, tính an toàn kiểu của nó đã giúp tránh được hai sự cố rồi.
+          note: "Granted… That said…: nhượng bộ ngắn, phản bác bằng bằng chứng."
+      contrast:
+        title: Các khuôn chuyển ý trong lập luận
+        rows:
+          - label: Admittedly / Granted
+            note: thừa nhận điểm của phía bên kia
+            example: Admittedly, the API is verbose.
+          - label: Even so / That said
+            note: quay về lập trường của mình
+            example: Even so, it is well documented.
+          - label: What matters is / It is… that
+            note: nhấn mạnh luận điểm cốt lõi
+            example: What matters is consistency.
+          - label: On balance / It follows that
+            note: kết luận từ các luận điểm
+            example: On balance, we should adopt it.
+        fixes:
+          - wrong: It is the retry loop who caused the outage.
+            right: It is the retry loop that caused the outage.
+            why: Câu chẻ với vật dùng that; who chỉ dùng khi phần nhấn là người.
+          - wrong: What we need it is a clear owner.
+            right: What we need is a clear owner.
+            why: Mệnh đề what đã là chủ ngữ, không thêm it.
+          - wrong: Even though, the cost is justified.
+            right: Even so, the cost is justified.
+            why: Even though là liên từ cần mệnh đề theo sau; đứng đầu câu phản bác dùng even so.

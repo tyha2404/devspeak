@@ -1,0 +1,3429 @@
+# Vocabulary by topic: Security, Privacy & Responsible Handling (unit T16). Original content.
+# Set 1: Accounts & authentication
+- {
+    "slug": "log-in-phr-law-crime",
+    "lemma": "log in",
+    "pos": "phrasal_verb",
+    "kind": "phrasal",
+    "cefr": "A2",
+    "topic": "crime",
+    "ipa": "/lɒɡ ˈɪn/",
+    "def": "To enter your name and secret word so a system lets you use it.",
+    "vi": "đăng nhập",
+    "examples":
+      [
+        {
+          "en": "Please log in with your company account, not your personal one.",
+          "vi": "Vui lòng đăng nhập bằng tài khoản công ty, không dùng tài khoản cá nhân.",
+        },
+      ],
+  }
+- {
+    "slug": "username-n-law-crime",
+    "lemma": "username",
+    "pos": "noun",
+    "cefr": "A2",
+    "topic": "crime",
+    "ipa": "/ˈjuːzəneɪm/",
+    "def": "The name you type to show a system which account is yours.",
+    "vi": "tên đăng nhập",
+    "examples":
+      [
+        {
+          "en": "Your username is the part of your email before the @ sign.",
+          "vi": "Tên đăng nhập của bạn là phần email trước dấu @.",
+        },
+      ],
+  }
+- {
+    "slug": "sign-out-phr",
+    "lemma": "sign out",
+    "pos": "phrasal_verb",
+    "kind": "phrasal",
+    "cefr": "A2",
+    "topic": "crime",
+    "ipa": "/saɪn ˈaʊt/",
+    "def": "To end your session so nobody else can use your account on that device.",
+    "vi": "đăng xuất",
+    "examples":
+      [
+        {
+          "en": "Remember to sign out of the admin panel on shared laptops.",
+          "vi": "Nhớ đăng xuất khỏi trang quản trị trên laptop dùng chung.",
+        },
+      ],
+  }
+- {
+    "slug": "locked-adj",
+    "lemma": "locked",
+    "pos": "adjective",
+    "cefr": "A2",
+    "topic": "crime",
+    "ipa": "/lɒkt/",
+    "def": "Closed so that it cannot be used until someone opens it again.",
+    "vi": "bị khoá",
+    "examples":
+      [
+        {
+          "en": "My account is locked after three wrong tries.",
+          "vi": "Tài khoản của mình bị khoá sau ba lần nhập sai.",
+        },
+      ],
+  }
+- {
+    "slug": "reset-v",
+    "lemma": "reset",
+    "pos": "verb",
+    "cefr": "B1",
+    "topic": "crime",
+    "ipa": "/ˌriːˈset/",
+    "def": "To change something back to a new starting state, such as a new secret word.",
+    "vi": "đặt lại",
+    "examples":
+      [
+        {
+          "en": "I asked IT to reset my access after I lost my phone.",
+          "vi": "Mình đã nhờ IT đặt lại quyền truy cập sau khi mất điện thoại.",
+        },
+      ],
+  }
+- {
+    "slug": "identity-n",
+    "lemma": "identity",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "crime",
+    "ipa": "/aɪˈdentəti/",
+    "def": "Who a person or system really is.",
+    "vi": "danh tính",
+    "examples":
+      [
+        {
+          "en": "The service checks your identity before it gives you a token.",
+          "vi": "Dịch vụ kiểm tra danh tính của bạn trước khi cấp token.",
+        },
+      ],
+  }
+- {
+    "slug": "verify-v-law-crime",
+    "lemma": "verify",
+    "pos": "verb",
+    "cefr": "B1",
+    "topic": "crime",
+    "ipa": "/ˈverɪfaɪ/",
+    "def": "To check that something is true or correct.",
+    "vi": "xác minh",
+    "examples":
+      [
+        {
+          "en": "We send a code to verify that the email address is yours.",
+          "vi": "Chúng tôi gửi một mã để xác minh địa chỉ email là của bạn.",
+        },
+      ],
+  }
+- {
+    "slug": "session-n-law-crime",
+    "lemma": "session",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "crime",
+    "ipa": "/ˈseʃn/",
+    "def": "The period of time when a user stays logged in to a system.",
+    "vi": "phiên làm việc",
+    "examples":
+      [
+        {
+          "en": "Your session ends after thirty minutes without activity.",
+          "vi": "Phiên làm việc của bạn kết thúc sau ba mươi phút không hoạt động.",
+        },
+      ],
+  }
+- {
+    "slug": "authentication-n",
+    "lemma": "authentication",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "crime",
+    "ipa": "/ɔːˌθentɪˈkeɪʃn/",
+    "def": "The process of proving who you are to a system.",
+    "vi": "xác thực",
+    "examples":
+      [
+        {
+          "en": "Authentication tells us who you are, not what you are allowed to do.",
+          "vi": "Xác thực cho biết bạn là ai, không phải bạn được phép làm gì.",
+        },
+      ],
+  }
+- {
+    "slug": "two-factor-adj",
+    "lemma": "two-factor",
+    "pos": "adjective",
+    "cefr": "B2",
+    "topic": "crime",
+    "ipa": "/ˌtuː ˈfæktə/",
+    "def": "Using two different proofs, such as a secret word and a phone code, to log in.",
+    "vi": "hai lớp (xác thực)",
+    "examples":
+      [
+        {
+          "en": "Two-factor login is required for every production account.",
+          "vi": "Đăng nhập hai lớp là bắt buộc với mọi tài khoản production.",
+        },
+      ],
+  }
+# Set 2: Access & least privilege
+- {
+    "slug": "permission-n-law-crime",
+    "lemma": "permission",
+    "pos": "noun",
+    "cefr": "A2",
+    "topic": "crime",
+    "ipa": "/pəˈmɪʃn/",
+    "def": "The right to do a certain action in a system.",
+    "vi": "quyền",
+    "examples":
+      [
+        {
+          "en": "I don't have permission to delete this bucket.",
+          "vi": "Mình không có quyền xoá bucket này.",
+        },
+      ],
+  }
+- {
+    "slug": "allow-v",
+    "lemma": "allow",
+    "pos": "verb",
+    "cefr": "A2",
+    "topic": "crime",
+    "ipa": "/əˈlaʊ/",
+    "def": "To let someone do something.",
+    "vi": "cho phép",
+    "examples":
+      [
+        {
+          "en": "The new rule allows testers to read logs but not change them.",
+          "vi": "Quy tắc mới cho phép tester đọc log nhưng không được sửa.",
+        },
+      ],
+  }
+- {
+    "slug": "deny-v",
+    "lemma": "deny",
+    "pos": "verb",
+    "cefr": "B1",
+    "topic": "crime",
+    "ipa": "/dɪˈnaɪ/",
+    "def": "To refuse to let someone do or have something.",
+    "vi": "từ chối",
+    "examples":
+      [
+        {
+          "en": "The gateway will deny any request without a valid token.",
+          "vi": "Gateway sẽ từ chối mọi request không có token hợp lệ.",
+        },
+      ],
+  }
+- {
+    "slug": "request-access-phr",
+    "lemma": "request access",
+    "pos": "phrase",
+    "kind": "phrase",
+    "cefr": "B1",
+    "topic": "crime",
+    "ipa": "/rɪˈkwest ˈækses/",
+    "def": "To ask formally to be able to use a system or resource.",
+    "vi": "xin quyền truy cập",
+    "examples":
+      [
+        {
+          "en": "I'll request access to the billing database through the ticket form.",
+          "vi": "Mình sẽ xin quyền truy cập cơ sở dữ liệu thanh toán qua form ticket.",
+        },
+      ],
+  }
+- {
+    "slug": "role-n-law-crime",
+    "lemma": "role",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "crime",
+    "ipa": "/rəʊl/",
+    "def": "A named group of permissions that you give to users.",
+    "vi": "vai trò",
+    "examples":
+      [
+        {
+          "en": "Give her the viewer role, not the owner role.",
+          "vi": "Hãy cấp cho cô ấy vai trò viewer, không phải owner.",
+        },
+      ],
+  }
+- {
+    "slug": "grant-v-law-crime",
+    "lemma": "grant",
+    "pos": "verb",
+    "cefr": "B1",
+    "topic": "crime",
+    "ipa": "/ɡrɑːnt/",
+    "def": "To officially give someone a right.",
+    "vi": "cấp (quyền)",
+    "examples":
+      [
+        {
+          "en": "The team lead can grant write access for one week.",
+          "vi": "Trưởng nhóm có thể cấp quyền ghi trong một tuần.",
+        },
+      ],
+  }
+- {
+    "slug": "revoke-v",
+    "lemma": "revoke",
+    "pos": "verb",
+    "cefr": "B2",
+    "topic": "crime",
+    "ipa": "/rɪˈvəʊk/",
+    "def": "To officially take back a right that was given.",
+    "vi": "thu hồi",
+    "examples":
+      [
+        {
+          "en": "We revoke all keys on a person's last working day.",
+          "vi": "Chúng tôi thu hồi mọi khoá vào ngày làm việc cuối của một người.",
+        },
+      ],
+  }
+- {
+    "slug": "temporary-adj-law-crime",
+    "lemma": "temporary",
+    "pos": "adjective",
+    "cefr": "B1",
+    "topic": "crime",
+    "ipa": "/ˈtemprəri/",
+    "def": "Lasting only for a short, limited time.",
+    "vi": "tạm thời",
+    "examples":
+      [
+        {
+          "en": "I only need temporary access while I fix this bug.",
+          "vi": "Mình chỉ cần quyền tạm thời trong lúc sửa lỗi này.",
+        },
+      ],
+  }
+- {
+    "slug": "scope-n-law-crime",
+    "lemma": "scope",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "crime",
+    "ipa": "/skəʊp/",
+    "def": "The exact range of things that a permission or task covers.",
+    "vi": "phạm vi",
+    "examples":
+      [
+        {
+          "en": "Please keep the scope to the staging project only.",
+          "vi": "Vui lòng giới hạn phạm vi trong project staging thôi.",
+        },
+      ],
+  }
+- {
+    "slug": "least-privilege-n",
+    "lemma": "least privilege",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "crime",
+    "ipa": "/ˌliːst ˈprɪvəlɪdʒ/",
+    "def": "The idea that each user should have only the access they really need.",
+    "vi": "quyền tối thiểu",
+    "examples":
+      [
+        {
+          "en": "Following least privilege, the bot can only read one folder.",
+          "vi": "Theo nguyên tắc quyền tối thiểu, bot chỉ đọc được một thư mục.",
+        },
+      ],
+  }
+- {
+    "slug": "approver-n-law-crime",
+    "lemma": "approver",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "crime",
+    "ipa": "/əˈpruːvə/",
+    "def": "The person who says yes or no to a request.",
+    "vi": "người phê duyệt",
+    "examples":
+      [
+        {
+          "en": "Your manager is the approver for this access request.",
+          "vi": "Quản lý của bạn là người phê duyệt yêu cầu truy cập này.",
+        },
+      ],
+  }
+- {
+    "slug": "expire-v-law-crime",
+    "lemma": "expire",
+    "pos": "verb",
+    "cefr": "B2",
+    "topic": "crime",
+    "ipa": "/ɪkˈspaɪə/",
+    "def": "To stop being valid after a set time.",
+    "vi": "hết hạn",
+    "examples":
+      [
+        {
+          "en": "This access will expire automatically on Friday.",
+          "vi": "Quyền này sẽ tự hết hạn vào thứ Sáu.",
+        },
+      ],
+  }
+# Set 3: Sensitive data
+- {
+    "slug": "private-adj-law-crime",
+    "lemma": "private",
+    "pos": "adjective",
+    "cefr": "A2",
+    "topic": "crime",
+    "ipa": "/ˈpraɪvət/",
+    "def": "Meant only for one person or a small group, not for everyone.",
+    "vi": "riêng tư",
+    "examples":
+      [
+        {
+          "en": "Phone numbers are private, so hide them in the screenshot.",
+          "vi": "Số điện thoại là thông tin riêng tư, nên hãy che chúng trong ảnh chụp.",
+        },
+      ],
+  }
+- {
+    "slug": "personal-data-n-law-crime",
+    "lemma": "personal data",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B1",
+    "topic": "crime",
+    "ipa": "/ˌpɜːsənl ˈdeɪtə/",
+    "def": "Information that can show who a real person is.",
+    "vi": "dữ liệu cá nhân",
+    "examples":
+      [
+        {
+          "en": "Don't paste personal data into the ticket.",
+          "vi": "Đừng dán dữ liệu cá nhân vào ticket.",
+        },
+      ],
+  }
+- {
+    "slug": "sensitive-adj-law-crime",
+    "lemma": "sensitive",
+    "pos": "adjective",
+    "cefr": "B1",
+    "topic": "crime",
+    "ipa": "/ˈsensətɪv/",
+    "def": "Needing careful handling because it could cause harm if others see it.",
+    "vi": "nhạy cảm",
+    "examples":
+      [
+        {
+          "en": "Salary files are sensitive and stay in the HR system.",
+          "vi": "File lương là dữ liệu nhạy cảm và chỉ nằm trong hệ thống HR.",
+        },
+      ],
+  }
+- {
+    "slug": "leak-v-law-crime",
+    "lemma": "leak",
+    "pos": "verb",
+    "cefr": "B1",
+    "topic": "crime",
+    "ipa": "/liːk/",
+    "def": "To let secret information become known by accident or on purpose.",
+    "vi": "làm lộ",
+    "examples":
+      [
+        {
+          "en": "The debug page leaked user emails to anyone with the link.",
+          "vi": "Trang debug đã làm lộ email người dùng cho bất kỳ ai có link.",
+        },
+      ],
+  }
+- {
+    "slug": "hide-v",
+    "lemma": "hide",
+    "pos": "verb",
+    "cefr": "A2",
+    "topic": "crime",
+    "ipa": "/haɪd/",
+    "def": "To put something where people cannot see it.",
+    "vi": "che, giấu",
+    "examples":
+      [
+        {
+          "en": "Hide the token before you share your terminal.",
+          "vi": "Hãy che token trước khi chia sẻ terminal.",
+        },
+      ],
+  }
+- {
+    "slug": "mask-v",
+    "lemma": "mask",
+    "pos": "verb",
+    "cefr": "B2",
+    "topic": "crime",
+    "ipa": "/mɑːsk/",
+    "def": "To replace part of a value with symbols so it cannot be read.",
+    "vi": "che (một phần)",
+    "examples":
+      [
+        {
+          "en": "We mask card numbers and show only the last four digits.",
+          "vi": "Chúng tôi che số thẻ và chỉ hiện bốn số cuối.",
+        },
+      ],
+  }
+- {
+    "slug": "remove-v",
+    "lemma": "remove",
+    "pos": "verb",
+    "cefr": "A2",
+    "topic": "crime",
+    "ipa": "/rɪˈmuːv/",
+    "def": "To take something away from a place.",
+    "vi": "gỡ bỏ",
+    "examples":
+      [
+        {
+          "en": "Please remove the customer's address from the log line.",
+          "vi": "Vui lòng gỡ địa chỉ khách hàng khỏi dòng log.",
+        },
+      ],
+  }
+- {
+    "slug": "confidential-adj-law-crime",
+    "lemma": "confidential",
+    "pos": "adjective",
+    "cefr": "B2",
+    "topic": "crime",
+    "ipa": "/ˌkɒnfɪˈdenʃl/",
+    "def": "Meant to be kept secret within a company or group.",
+    "vi": "bảo mật, mật",
+    "examples":
+      [
+        {
+          "en": "The contract is confidential, so don't upload it to public tools.",
+          "vi": "Hợp đồng là tài liệu mật, đừng tải lên công cụ công khai.",
+        },
+      ],
+  }
+- {
+    "slug": "plain-text-n",
+    "lemma": "plain text",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "crime",
+    "ipa": "/ˌpleɪn ˈtekst/",
+    "def": "Data stored or sent in a form anyone can read, without protection.",
+    "vi": "văn bản thô (không mã hoá)",
+    "examples":
+      [
+        {
+          "en": "The old service kept passwords in plain text.",
+          "vi": "Dịch vụ cũ lưu mật khẩu ở dạng văn bản thô.",
+        },
+      ],
+  }
+- {
+    "slug": "redact-v-law-crime",
+    "lemma": "redact",
+    "pos": "verb",
+    "cefr": "C1",
+    "topic": "crime",
+    "ipa": "/rɪˈdækt/",
+    "def": "To remove or black out secret parts of a document before sharing it.",
+    "vi": "biên tập che thông tin",
+    "examples":
+      [
+        {
+          "en": "Redact the names before you attach the report to the issue.",
+          "vi": "Hãy che tên trước khi đính kèm báo cáo vào issue.",
+        },
+      ],
+  }
+- {
+    "slug": "anonymize-v",
+    "lemma": "anonymize",
+    "pos": "verb",
+    "cefr": "C1",
+    "topic": "crime",
+    "ipa": "/əˈnɒnɪmaɪz/",
+    "def": "To change data so that no one can tell which person it belongs to.",
+    "vi": "ẩn danh hoá",
+    "examples":
+      [
+        {
+          "en": "We anonymize production data before copying it to staging.",
+          "vi": "Chúng tôi ẩn danh hoá dữ liệu production trước khi chép sang staging.",
+        },
+      ],
+  }
+- {
+    "slug": "expose-v",
+    "lemma": "expose",
+    "pos": "verb",
+    "cefr": "B2",
+    "topic": "crime",
+    "ipa": "/ɪkˈspəʊz/",
+    "def": "To leave something open so others can see or reach it.",
+    "vi": "để lộ",
+    "examples":
+      [
+        {
+          "en": "The bucket was public and exposed thousands of files.",
+          "vi": "Bucket để công khai và đã để lộ hàng nghìn file.",
+        },
+      ],
+  }
+- {
+    "slug": "screenshot-n-law-crime",
+    "lemma": "screenshot",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "crime",
+    "ipa": "/ˈskriːnʃɒt/",
+    "def": "A picture of what is on a screen.",
+    "vi": "ảnh chụp màn hình",
+    "examples":
+      [
+        {
+          "en": "Crop the screenshot so the API key is not visible.",
+          "vi": "Cắt ảnh chụp màn hình để không thấy API key.",
+        },
+      ],
+  }
+- {
+    "slug": "need-to-know-adj",
+    "lemma": "need-to-know",
+    "pos": "adjective",
+    "cefr": "C1",
+    "topic": "crime",
+    "ipa": "/ˌniːd tə ˈnəʊ/",
+    "def": "Shared only with people who need it for their work.",
+    "vi": "chỉ chia sẻ khi cần",
+    "examples":
+      [
+        {
+          "en": "Incident details are on a need-to-know basis for now.",
+          "vi": "Chi tiết sự cố hiện chỉ chia sẻ cho người cần biết.",
+        },
+      ],
+  }
+# Set 4: Threats & suspicious activity
+- {
+    "slug": "strange-adj",
+    "lemma": "strange",
+    "pos": "adjective",
+    "cefr": "A2",
+    "topic": "crime",
+    "ipa": "/streɪndʒ/",
+    "def": "Unusual and not expected.",
+    "vi": "lạ",
+    "examples":
+      [
+        {
+          "en": "I saw a strange login from another country last night.",
+          "vi": "Mình thấy một lần đăng nhập lạ từ nước khác tối qua.",
+        },
+      ],
+  }
+- {
+    "slug": "report-v-law-crime",
+    "lemma": "report",
+    "pos": "verb",
+    "cefr": "A2",
+    "topic": "crime",
+    "ipa": "/rɪˈpɔːt/",
+    "def": "To tell someone in charge that something has happened.",
+    "vi": "báo cáo",
+    "examples":
+      [
+        {
+          "en": "Report the email to the security channel and don't click the link.",
+          "vi": "Hãy báo email đó lên kênh bảo mật và đừng bấm vào link.",
+        },
+      ],
+  }
+- {
+    "slug": "warning-n-law-crime",
+    "lemma": "warning",
+    "pos": "noun",
+    "cefr": "A2",
+    "topic": "crime",
+    "ipa": "/ˈwɔːnɪŋ/",
+    "def": "A message that tells you about possible danger.",
+    "vi": "cảnh báo",
+    "examples":
+      [
+        {
+          "en": "The browser showed a warning about the certificate.",
+          "vi": "Trình duyệt hiện cảnh báo về chứng chỉ.",
+        },
+      ],
+  }
+- {
+    "slug": "attacker-n",
+    "lemma": "attacker",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "crime",
+    "ipa": "/əˈtækə/",
+    "def": "A person who tries to break into or damage a system.",
+    "vi": "kẻ tấn công",
+    "examples":
+      [
+        {
+          "en": "An attacker could use this form to send fake orders.",
+          "vi": "Kẻ tấn công có thể dùng form này để gửi đơn giả.",
+        },
+      ],
+  }
+- {
+    "slug": "suspicious-adj-law-crime",
+    "lemma": "suspicious",
+    "pos": "adjective",
+    "cefr": "B1",
+    "topic": "crime",
+    "ipa": "/səˈspɪʃəs/",
+    "def": "Making you think something wrong or dishonest may be happening.",
+    "vi": "đáng ngờ",
+    "examples":
+      [
+        {
+          "en": "There were hundreds of suspicious requests from one IP.",
+          "vi": "Có hàng trăm request đáng ngờ từ một IP.",
+        },
+      ],
+  }
+- {
+    "slug": "scam-n-law-crime",
+    "lemma": "scam",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "crime",
+    "ipa": "/skæm/",
+    "def": "A dishonest trick to get money or information from people.",
+    "vi": "lừa đảo",
+    "examples":
+      [
+        {
+          "en": "The 'urgent invoice' message is a scam.",
+          "vi": "Tin nhắn 'hoá đơn khẩn' là lừa đảo.",
+        },
+      ],
+  }
+- {
+    "slug": "phishing-n-law-crime",
+    "lemma": "phishing",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "crime",
+    "ipa": "/ˈfɪʃɪŋ/",
+    "def": "Fake messages that try to make people give away logins or money.",
+    "vi": "lừa đảo giả mạo (phishing)",
+    "examples":
+      [
+        {
+          "en": "We run a phishing test every quarter.",
+          "vi": "Chúng tôi chạy bài kiểm tra phishing mỗi quý.",
+        },
+      ],
+  }
+- {
+    "slug": "malware-n-law-crime",
+    "lemma": "malware",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "crime",
+    "ipa": "/ˈmælweə/",
+    "def": "Software made to harm a computer or steal data.",
+    "vi": "phần mềm độc hại",
+    "examples":
+      [
+        {
+          "en": "The download contained malware, so the laptop was wiped.",
+          "vi": "File tải về chứa phần mềm độc hại nên laptop đã bị xoá sạch.",
+        },
+      ],
+  }
+- {
+    "slug": "threat-n",
+    "lemma": "threat",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "crime",
+    "ipa": "/θret/",
+    "def": "Something or someone that could cause damage.",
+    "vi": "mối đe doạ",
+    "examples":
+      [
+        {
+          "en": "Stolen laptops are a real threat to customer data.",
+          "vi": "Laptop bị đánh cắp là mối đe doạ thực sự với dữ liệu khách hàng.",
+        },
+      ],
+  }
+- {
+    "slug": "unauthorized-adj",
+    "lemma": "unauthorized",
+    "pos": "adjective",
+    "cefr": "B2",
+    "topic": "crime",
+    "ipa": "/ʌnˈɔːθəraɪzd/",
+    "def": "Done without official permission.",
+    "vi": "trái phép",
+    "examples":
+      [
+        {
+          "en": "We blocked an unauthorized attempt to read the admin API.",
+          "vi": "Chúng tôi đã chặn một lần truy cập trái phép vào API admin.",
+        },
+      ],
+  }
+- {
+    "slug": "impersonate-v",
+    "lemma": "impersonate",
+    "pos": "verb",
+    "cefr": "C1",
+    "topic": "crime",
+    "ipa": "/ɪmˈpɜːsəneɪt/",
+    "def": "To pretend to be another person in order to trick people.",
+    "vi": "mạo danh",
+    "examples":
+      [
+        {
+          "en": "Someone tried to impersonate our CTO on chat.",
+          "vi": "Có người cố mạo danh CTO của chúng ta trên chat.",
+        },
+      ],
+  }
+- {
+    "slug": "brute-force-n",
+    "lemma": "brute force",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "crime",
+    "ipa": "/ˌbruːt ˈfɔːs/",
+    "def": "Trying a huge number of guesses until one works.",
+    "vi": "dò thử (brute force)",
+    "examples":
+      [
+        {
+          "en": "Rate limits stop brute force attacks on the login page.",
+          "vi": "Giới hạn tần suất ngăn tấn công dò thử trên trang đăng nhập.",
+        },
+      ],
+  }
+- {
+    "slug": "observe-v",
+    "lemma": "observe",
+    "pos": "verb",
+    "cefr": "B2",
+    "topic": "crime",
+    "ipa": "/əbˈzɜːv/",
+    "def": "To notice or see something, especially by watching carefully.",
+    "vi": "quan sát",
+    "examples":
+      [
+        {
+          "en": "I observed the requests between 2 and 3 a.m.",
+          "vi": "Mình quan sát thấy các request từ 2 đến 3 giờ sáng.",
+        },
+      ],
+  }
+- {
+    "slug": "indicator-n",
+    "lemma": "indicator",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "crime",
+    "ipa": "/ˈɪndɪkeɪtə/",
+    "def": "A sign that shows something may be happening.",
+    "vi": "dấu hiệu",
+    "examples":
+      [
+        {
+          "en": "Many failed logins are an indicator of an attack.",
+          "vi": "Nhiều lần đăng nhập thất bại là dấu hiệu của một cuộc tấn công.",
+        },
+      ],
+  }
+- {
+    "slug": "block-v-law-crime",
+    "lemma": "block",
+    "pos": "verb",
+    "cefr": "A2",
+    "topic": "crime",
+    "ipa": "/blɒk/",
+    "def": "To stop something from passing or happening.",
+    "vi": "chặn",
+    "examples":
+      [
+        {
+          "en": "We will block that IP range for now.",
+          "vi": "Tạm thời chúng tôi sẽ chặn dải IP đó.",
+        },
+      ],
+  }
+- {
+    "slug": "intrusion-n",
+    "lemma": "intrusion",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "crime",
+    "ipa": "/ɪnˈtruːʒn/",
+    "def": "Getting into a place or system where you are not welcome.",
+    "vi": "xâm nhập",
+    "examples":
+      [
+        {
+          "en": "The alert fired, but there was no sign of intrusion.",
+          "vi": "Cảnh báo đã kêu, nhưng không có dấu hiệu xâm nhập.",
+        },
+      ],
+  }
+# Set 5: Vulnerability reports
+- {
+    "slug": "weakness-n-law-crime",
+    "lemma": "weakness",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "crime",
+    "ipa": "/ˈwiːknəs/",
+    "def": "A part of something that is not strong and can fail.",
+    "vi": "điểm yếu",
+    "examples":
+      [
+        {
+          "en": "The weakness is in how we check file types.",
+          "vi": "Điểm yếu nằm ở cách chúng ta kiểm tra loại file.",
+        },
+      ],
+  }
+- {
+    "slug": "affect-v",
+    "lemma": "affect",
+    "pos": "verb",
+    "cefr": "B1",
+    "topic": "crime",
+    "ipa": "/əˈfekt/",
+    "def": "To have an influence or effect on something.",
+    "vi": "ảnh hưởng",
+    "examples":
+      [
+        {
+          "en": "The bug affects only users on the old mobile app.",
+          "vi": "Lỗi này chỉ ảnh hưởng người dùng app di động bản cũ.",
+        },
+      ],
+  }
+- {
+    "slug": "version-n",
+    "lemma": "version",
+    "pos": "noun",
+    "cefr": "A2",
+    "topic": "crime",
+    "ipa": "/ˈvɜːʃn/",
+    "def": "One form of a product that is a little different from others.",
+    "vi": "phiên bản",
+    "examples":
+      [
+        {
+          "en": "Versions before 2.4 are not safe.",
+          "vi": "Các phiên bản trước 2.4 không an toàn.",
+        },
+      ],
+  }
+- {
+    "slug": "severity-n",
+    "lemma": "severity",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "crime",
+    "ipa": "/sɪˈverəti/",
+    "def": "How serious or bad a problem is.",
+    "vi": "mức độ nghiêm trọng",
+    "examples":
+      [
+        {
+          "en": "We rated the severity as high because no login is needed.",
+          "vi": "Chúng tôi đánh giá mức độ nghiêm trọng là cao vì không cần đăng nhập.",
+        },
+      ],
+  }
+- {
+    "slug": "vulnerability-n",
+    "lemma": "vulnerability",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "crime",
+    "ipa": "/ˌvʌlnərəˈbɪləti/",
+    "def": "A security flaw that an attacker could use.",
+    "vi": "lỗ hổng",
+    "examples":
+      [
+        {
+          "en": "A researcher found a vulnerability in our upload API.",
+          "vi": "Một nhà nghiên cứu tìm thấy lỗ hổng trong API upload của chúng ta.",
+        },
+      ],
+  }
+- {
+    "slug": "exploit-v",
+    "lemma": "exploit",
+    "pos": "verb",
+    "cefr": "C1",
+    "topic": "crime",
+    "ipa": "/ɪkˈsplɔɪt/",
+    "def": "To use a weakness in a system to do something harmful.",
+    "vi": "khai thác",
+    "examples":
+      [
+        {
+          "en": "An attacker could exploit this to read other users' files.",
+          "vi": "Kẻ tấn công có thể khai thác lỗi này để đọc file của người khác.",
+        },
+      ],
+  }
+- {
+    "slug": "reproduce-v-law-crime",
+    "lemma": "reproduce",
+    "pos": "verb",
+    "cefr": "B2",
+    "topic": "crime",
+    "ipa": "/ˌriːprəˈdjuːs/",
+    "def": "To make a problem happen again in order to study it.",
+    "vi": "tái hiện",
+    "examples":
+      [
+        {
+          "en": "I can reproduce it with a test account, not real data.",
+          "vi": "Mình có thể tái hiện bằng tài khoản test, không dùng dữ liệu thật.",
+        },
+      ],
+  }
+- {
+    "slug": "impact-n-law-crime",
+    "lemma": "impact",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "crime",
+    "ipa": "/ˈɪmpækt/",
+    "def": "The effect that something has, especially a strong one.",
+    "vi": "tác động",
+    "examples":
+      [
+        {
+          "en": "The impact is limited to read-only data.",
+          "vi": "Tác động chỉ giới hạn ở dữ liệu chỉ đọc.",
+        },
+      ],
+  }
+- {
+    "slug": "patch-n",
+    "lemma": "patch",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "crime",
+    "ipa": "/pætʃ/",
+    "def": "A small update that fixes a problem in software.",
+    "vi": "bản vá",
+    "examples":
+      [
+        {
+          "en": "The patch is ready and waiting for review.",
+          "vi": "Bản vá đã sẵn sàng và đang chờ review.",
+        },
+      ],
+  }
+- {
+    "slug": "disclose-v",
+    "lemma": "disclose",
+    "pos": "verb",
+    "cefr": "C1",
+    "topic": "crime",
+    "ipa": "/dɪsˈkləʊz/",
+    "def": "To make information known, especially after keeping it private.",
+    "vi": "công bố",
+    "examples":
+      [
+        {
+          "en": "We will disclose the issue after customers have updated.",
+          "vi": "Chúng tôi sẽ công bố lỗi sau khi khách hàng đã cập nhật.",
+        },
+      ],
+  }
+- {
+    "slug": "proof-of-concept-n-law-crime",
+    "lemma": "proof of concept",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "crime",
+    "ipa": "/ˌpruːf əv ˈkɒnsept/",
+    "def": "A small demo that shows an attack or idea really works.",
+    "vi": "bản chứng minh khái niệm (PoC)",
+    "examples":
+      [
+        {
+          "en": "Please share the proof of concept privately, not in the public issue.",
+          "vi": "Vui lòng gửi PoC riêng, không đăng trong issue công khai.",
+        },
+      ],
+  }
+- {
+    "slug": "workaround-n-law-crime",
+    "lemma": "workaround",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "crime",
+    "ipa": "/ˈwɜːkəraʊnd/",
+    "def": "A temporary way to avoid a problem until it is properly fixed.",
+    "vi": "cách tạm khắc phục",
+    "examples":
+      [
+        {
+          "en": "Until the fix ships, the workaround is to turn off public links.",
+          "vi": "Cho đến khi bản sửa phát hành, cách tạm thời là tắt link công khai.",
+        },
+      ],
+  }
+- {
+    "slug": "injection-n-law-crime",
+    "lemma": "injection",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "crime",
+    "ipa": "/ɪnˈdʒekʃn/",
+    "def": "An attack that puts harmful code into input a system runs.",
+    "vi": "tấn công chèn mã (injection)",
+    "examples":
+      [
+        {
+          "en": "The search box was open to SQL injection.",
+          "vi": "Ô tìm kiếm có thể bị tấn công SQL injection.",
+        },
+      ],
+  }
+- {
+    "slug": "researcher-n",
+    "lemma": "researcher",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "crime",
+    "ipa": "/rɪˈsɜːtʃə/",
+    "def": "A person who studies something carefully to find new facts.",
+    "vi": "nhà nghiên cứu",
+    "examples":
+      [
+        {
+          "en": "Thank the researcher and confirm we received the report.",
+          "vi": "Hãy cảm ơn nhà nghiên cứu và xác nhận đã nhận báo cáo.",
+        },
+      ],
+  }
+- {
+    "slug": "triage-v",
+    "lemma": "triage",
+    "pos": "verb",
+    "cefr": "C1",
+    "topic": "crime",
+    "ipa": "/ˈtriːɑːʒ/",
+    "def": "To quickly decide how urgent each problem is.",
+    "vi": "phân loại mức ưu tiên",
+    "examples":
+      [
+        {
+          "en": "The on-call engineer will triage new reports each morning.",
+          "vi": "Kỹ sư trực sẽ phân loại các báo cáo mới mỗi sáng.",
+        },
+      ],
+  }
+- {
+    "slug": "steps-to-reproduce-n",
+    "lemma": "steps to reproduce",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "crime",
+    "ipa": "/ˌsteps tə ˌriːprəˈdjuːs/",
+    "def": "A list of actions that make a problem happen again.",
+    "vi": "các bước tái hiện",
+    "examples":
+      [
+        {
+          "en": "Add clear steps to reproduce, using only test accounts.",
+          "vi": "Thêm các bước tái hiện rõ ràng, chỉ dùng tài khoản test.",
+        },
+      ],
+  }
+- {
+    "slug": "bounty-n",
+    "lemma": "bounty",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "crime",
+    "ipa": "/ˈbaʊnti/",
+    "def": "Money paid as a reward for finding a security problem.",
+    "vi": "tiền thưởng (bug bounty)",
+    "examples":
+      [
+        {
+          "en": "The report qualifies for a bounty under our program.",
+          "vi": "Báo cáo này đủ điều kiện nhận tiền thưởng theo chương trình.",
+        },
+      ],
+  }
+- {
+    "slug": "mitigate-v",
+    "lemma": "mitigate",
+    "pos": "verb",
+    "cefr": "C1",
+    "topic": "crime",
+    "ipa": "/ˈmɪtɪɡeɪt/",
+    "def": "To make something bad less serious.",
+    "vi": "giảm thiểu",
+    "examples":
+      [
+        {
+          "en": "A firewall rule can mitigate the risk while we patch.",
+          "vi": "Một rule tường lửa có thể giảm thiểu rủi ro trong lúc vá.",
+        },
+      ],
+  }
+# Set 6: Privacy requirements
+- {
+    "slug": "collect-v",
+    "lemma": "collect",
+    "pos": "verb",
+    "cefr": "A2",
+    "topic": "crime",
+    "ipa": "/kəˈlekt/",
+    "def": "To get and keep things, such as information, from people.",
+    "vi": "thu thập",
+    "examples":
+      [
+        {
+          "en": "Why do we need to collect the user's birthday?",
+          "vi": "Tại sao chúng ta cần thu thập ngày sinh của người dùng?",
+        },
+      ],
+  }
+- {
+    "slug": "purpose-n",
+    "lemma": "purpose",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "crime",
+    "ipa": "/ˈpɜːpəs/",
+    "def": "The reason why something is done.",
+    "vi": "mục đích",
+    "examples":
+      [
+        {
+          "en": "Each field in the form needs a clear purpose.",
+          "vi": "Mỗi trường trong form cần có mục đích rõ ràng.",
+        },
+      ],
+  }
+- {
+    "slug": "store-v",
+    "lemma": "store",
+    "pos": "verb",
+    "cefr": "A2",
+    "topic": "crime",
+    "ipa": "/stɔː/",
+    "def": "To keep something somewhere so it can be used later.",
+    "vi": "lưu trữ",
+    "examples":
+      [
+        {
+          "en": "We store chat logs for ninety days.",
+          "vi": "Chúng tôi lưu trữ log chat trong chín mươi ngày.",
+        },
+      ],
+  }
+- {
+    "slug": "delete-v-law-crime",
+    "lemma": "delete",
+    "pos": "verb",
+    "cefr": "A2",
+    "topic": "crime",
+    "ipa": "/dɪˈliːt/",
+    "def": "To remove data from a computer completely.",
+    "vi": "xoá",
+    "examples":
+      [
+        {
+          "en": "Users can delete their account from the settings page.",
+          "vi": "Người dùng có thể xoá tài khoản từ trang cài đặt.",
+        },
+      ],
+  }
+- {
+    "slug": "privacy-n-law-crime",
+    "lemma": "privacy",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "crime",
+    "ipa": "/ˈprɪvəsi/",
+    "def": "The right to keep your personal life and information to yourself.",
+    "vi": "quyền riêng tư",
+    "examples":
+      [
+        {
+          "en": "Privacy is part of the design, not an extra step.",
+          "vi": "Quyền riêng tư là một phần của thiết kế, không phải bước thêm.",
+        },
+      ],
+  }
+- {
+    "slug": "consent-n-law-crime",
+    "lemma": "consent",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "crime",
+    "ipa": "/kənˈsent/",
+    "def": "Permission that a person gives freely for something to happen.",
+    "vi": "sự đồng ý",
+    "examples":
+      [
+        {
+          "en": "We need the user's consent before we send marketing emails.",
+          "vi": "Chúng ta cần sự đồng ý của người dùng trước khi gửi email marketing.",
+        },
+      ],
+  }
+- {
+    "slug": "opt-out-phr-law-crime",
+    "lemma": "opt out",
+    "pos": "phrasal_verb",
+    "kind": "phrasal",
+    "cefr": "B2",
+    "topic": "crime",
+    "ipa": "/ˌɒpt ˈaʊt/",
+    "def": "To choose not to take part in something.",
+    "vi": "từ chối tham gia",
+    "examples":
+      [
+        {
+          "en": "Users can opt out of analytics in one click.",
+          "vi": "Người dùng có thể từ chối analytics chỉ bằng một cú bấm.",
+        },
+      ],
+  }
+- {
+    "slug": "retention-n-law-crime",
+    "lemma": "retention",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "crime",
+    "ipa": "/rɪˈtenʃn/",
+    "def": "How long data is kept before it is removed.",
+    "vi": "thời hạn lưu giữ",
+    "examples":
+      [
+        {
+          "en": "What is the retention period for payment records?",
+          "vi": "Thời hạn lưu giữ hồ sơ thanh toán là bao lâu?",
+        },
+      ],
+  }
+- {
+    "slug": "regulation-n-law-crime",
+    "lemma": "regulation",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "crime",
+    "ipa": "/ˌreɡjuˈleɪʃn/",
+    "def": "An official rule made by a government or authority.",
+    "vi": "quy định",
+    "examples":
+      [
+        {
+          "en": "Check whether the new regulation applies to our users in Europe.",
+          "vi": "Hãy kiểm tra xem quy định mới có áp dụng cho người dùng ở châu Âu không.",
+        },
+      ],
+  }
+- {
+    "slug": "comply-with-phr-law-crime",
+    "lemma": "comply with",
+    "pos": "phrasal_verb",
+    "kind": "phrasal",
+    "cefr": "B2",
+    "topic": "crime",
+    "ipa": "/kəmˈplaɪ wɪð/",
+    "def": "To obey a rule or law.",
+    "vi": "tuân thủ",
+    "examples":
+      [
+        {
+          "en": "The export feature must comply with local data laws.",
+          "vi": "Tính năng xuất dữ liệu phải tuân thủ luật dữ liệu địa phương.",
+        },
+      ],
+  }
+- {
+    "slug": "legal-team-n",
+    "lemma": "legal team",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B1",
+    "topic": "crime",
+    "ipa": "/ˈliːɡl tiːm/",
+    "def": "The group in a company that gives advice on laws and contracts.",
+    "vi": "bộ phận pháp lý",
+    "examples":
+      [
+        {
+          "en": "Let's ask the legal team before we change the terms.",
+          "vi": "Hãy hỏi bộ phận pháp lý trước khi đổi điều khoản.",
+        },
+      ],
+  }
+- {
+    "slug": "policy-n-law-crime",
+    "lemma": "policy",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "crime",
+    "ipa": "/ˈpɒləsi/",
+    "def": "A set of rules or plans that a company follows.",
+    "vi": "chính sách",
+    "examples":
+      [
+        {
+          "en": "Our privacy policy says we never sell user data.",
+          "vi": "Chính sách riêng tư của chúng ta nói rằng không bao giờ bán dữ liệu người dùng.",
+        },
+      ],
+  }
+- {
+    "slug": "minimize-v",
+    "lemma": "minimize",
+    "pos": "verb",
+    "cefr": "B2",
+    "topic": "crime",
+    "ipa": "/ˈmɪnɪmaɪz/",
+    "def": "To make something as small as possible.",
+    "vi": "giảm thiểu",
+    "examples":
+      [
+        {
+          "en": "Minimize the fields we collect at sign-up.",
+          "vi": "Hãy giảm số trường thu thập khi đăng ký xuống mức ít nhất.",
+        },
+      ],
+  }
+- {
+    "slug": "third-party-n",
+    "lemma": "third party",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "crime",
+    "ipa": "/ˌθɜːd ˈpɑːti/",
+    "def": "An outside company or person, not you or your customer.",
+    "vi": "bên thứ ba",
+    "examples":
+      [{ "en": "Which third party receives this data?", "vi": "Bên thứ ba nào nhận dữ liệu này?" }],
+  }
+- {
+    "slug": "lawful-adj",
+    "lemma": "lawful",
+    "pos": "adjective",
+    "cefr": "C1",
+    "topic": "crime",
+    "ipa": "/ˈlɔːfl/",
+    "def": "Allowed by law.",
+    "vi": "hợp pháp",
+    "examples":
+      [
+        {
+          "en": "We need a lawful reason to process health data.",
+          "vi": "Chúng ta cần lý do hợp pháp để xử lý dữ liệu sức khoẻ.",
+        },
+      ],
+  }
+- {
+    "slug": "right-n",
+    "lemma": "right",
+    "pos": "noun",
+    "cefr": "A2",
+    "topic": "crime",
+    "ipa": "/raɪt/",
+    "def": "Something that the law says you are allowed to have or do.",
+    "vi": "quyền (lợi)",
+    "examples":
+      [
+        {
+          "en": "Users have the right to see the data we hold about them.",
+          "vi": "Người dùng có quyền xem dữ liệu chúng ta lưu về họ.",
+        },
+      ],
+  }
+- {
+    "slug": "terms-n",
+    "lemma": "terms",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "crime",
+    "ipa": "/tɜːmz/",
+    "def": "The conditions that users agree to when they use a service.",
+    "vi": "điều khoản",
+    "examples":
+      [
+        {
+          "en": "Update the terms before the new feature goes live.",
+          "vi": "Hãy cập nhật điều khoản trước khi tính năng mới ra mắt.",
+        },
+      ],
+  }
+- {
+    "slug": "data-subject-n",
+    "lemma": "data subject",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "crime",
+    "ipa": "/ˈdeɪtə ˌsʌbdʒɪkt/",
+    "def": "The real person that a piece of personal data is about.",
+    "vi": "chủ thể dữ liệu",
+    "examples":
+      [
+        {
+          "en": "A data subject asked us for a copy of their records.",
+          "vi": "Một chủ thể dữ liệu đã yêu cầu bản sao hồ sơ của họ.",
+        },
+      ],
+  }
+- {
+    "slug": "audit-v",
+    "lemma": "audit",
+    "pos": "verb",
+    "cefr": "B2",
+    "topic": "crime",
+    "ipa": "/ˈɔːdɪt/",
+    "def": "To check records or systems carefully to see if rules are followed.",
+    "vi": "kiểm toán, rà soát",
+    "examples":
+      [
+        {
+          "en": "An external firm will audit our data handling next month.",
+          "vi": "Một công ty bên ngoài sẽ rà soát cách xử lý dữ liệu của chúng ta tháng tới.",
+        },
+      ],
+  }
+- {
+    "slug": "cross-border-adj",
+    "lemma": "cross-border",
+    "pos": "adjective",
+    "cefr": "C1",
+    "topic": "crime",
+    "ipa": "/ˌkrɒs ˈbɔːdə/",
+    "def": "Moving between two or more countries.",
+    "vi": "xuyên biên giới",
+    "examples":
+      [
+        {
+          "en": "Cross-border transfers need extra review.",
+          "vi": "Việc chuyển dữ liệu xuyên biên giới cần rà soát thêm.",
+        },
+      ],
+  }
+# Set 7: Encryption & secrets
+- {
+    "slug": "secret-n",
+    "lemma": "secret",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "crime",
+    "ipa": "/ˈsiːkrɪt/",
+    "def": "A value such as a key or password that only the system should know.",
+    "vi": "thông tin bí mật (secret)",
+    "examples":
+      [
+        {
+          "en": "Never paste a secret into chat, even in a private message.",
+          "vi": "Đừng bao giờ dán secret vào chat, kể cả tin nhắn riêng.",
+        },
+      ],
+  }
+- {
+    "slug": "key-n",
+    "lemma": "key",
+    "pos": "noun",
+    "cefr": "A2",
+    "topic": "crime",
+    "ipa": "/kiː/",
+    "def": "A value used to lock or unlock data or to prove access.",
+    "vi": "khoá",
+    "examples":
+      [{ "en": "Each service has its own API key.", "vi": "Mỗi dịch vụ có API key riêng." }],
+  }
+- {
+    "slug": "password-n",
+    "lemma": "password",
+    "pos": "noun",
+    "cefr": "A2",
+    "topic": "crime",
+    "ipa": "/ˈpɑːswɜːd/",
+    "def": "A secret word you use to log in.",
+    "vi": "mật khẩu",
+    "examples":
+      [
+        {
+          "en": "Use the password manager to share the test password.",
+          "vi": "Hãy dùng trình quản lý mật khẩu để chia sẻ mật khẩu test.",
+        },
+      ],
+  }
+- {
+    "slug": "encrypt-v-law-crime",
+    "lemma": "encrypt",
+    "pos": "verb",
+    "cefr": "B2",
+    "topic": "crime",
+    "ipa": "/ɪnˈkrɪpt/",
+    "def": "To change data into a code so only allowed people can read it.",
+    "vi": "mã hoá",
+    "examples":
+      [
+        {
+          "en": "We encrypt backups before they leave the server.",
+          "vi": "Chúng tôi mã hoá bản sao lưu trước khi rời khỏi máy chủ.",
+        },
+      ],
+  }
+- {
+    "slug": "decrypt-v",
+    "lemma": "decrypt",
+    "pos": "verb",
+    "cefr": "B2",
+    "topic": "crime",
+    "ipa": "/diːˈkrɪpt/",
+    "def": "To change coded data back into a form people can read.",
+    "vi": "giải mã",
+    "examples":
+      [
+        {
+          "en": "Only the billing service can decrypt these fields.",
+          "vi": "Chỉ dịch vụ thanh toán mới giải mã được các trường này.",
+        },
+      ],
+  }
+- {
+    "slug": "rotate-v",
+    "lemma": "rotate",
+    "pos": "verb",
+    "cefr": "B2",
+    "topic": "crime",
+    "ipa": "/rəʊˈteɪt/",
+    "def": "To replace a key or secret with a new one on a regular basis.",
+    "vi": "xoay vòng (đổi khoá)",
+    "examples":
+      [
+        {
+          "en": "We rotate database passwords every ninety days.",
+          "vi": "Chúng tôi đổi mật khẩu database mỗi chín mươi ngày.",
+        },
+      ],
+  }
+- {
+    "slug": "vault-n",
+    "lemma": "vault",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "crime",
+    "ipa": "/vɔːlt/",
+    "def": "A secure place, often a tool, where secrets are kept.",
+    "vi": "kho bí mật (vault)",
+    "examples":
+      [
+        {
+          "en": "The deploy script reads the key from the vault.",
+          "vi": "Script deploy đọc khoá từ vault.",
+        },
+      ],
+  }
+- {
+    "slug": "hash-n",
+    "lemma": "hash",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "crime",
+    "ipa": "/hæʃ/",
+    "def": "A fixed string made from data that cannot be turned back into the data.",
+    "vi": "giá trị băm",
+    "examples":
+      [
+        {
+          "en": "We store a hash of each password, never the password itself.",
+          "vi": "Chúng tôi lưu giá trị băm của mật khẩu, không bao giờ lưu mật khẩu.",
+        },
+      ],
+  }
+- {
+    "slug": "certificate-n-law-crime",
+    "lemma": "certificate",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "crime",
+    "ipa": "/səˈtɪfɪkət/",
+    "def": "A digital file that proves a website or server is who it says it is.",
+    "vi": "chứng chỉ",
+    "examples":
+      [
+        {
+          "en": "The TLS certificate expires in five days.",
+          "vi": "Chứng chỉ TLS sẽ hết hạn trong năm ngày.",
+        },
+      ],
+  }
+- {
+    "slug": "commit-secret-v",
+    "lemma": "commit",
+    "pos": "verb",
+    "cefr": "B1",
+    "topic": "crime",
+    "ipa": "/kəˈmɪt/",
+    "def": "To save a set of changes into a code repository.",
+    "vi": "commit (lưu thay đổi)",
+    "examples":
+      [
+        {
+          "en": "Someone committed a key to the public repo by mistake.",
+          "vi": "Có người lỡ commit một khoá lên repo công khai.",
+        },
+      ],
+  }
+- {
+    "slug": "placeholder-n",
+    "lemma": "placeholder",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "crime",
+    "ipa": "/ˈpleɪshəʊldə/",
+    "def": "A fake value that stands in for the real one.",
+    "vi": "giá trị giữ chỗ",
+    "examples":
+      [
+        {
+          "en": "Use a placeholder like XXXX in the docs instead of the real token.",
+          "vi": "Hãy dùng giá trị giữ chỗ như XXXX trong tài liệu thay vì token thật.",
+        },
+      ],
+  }
+- {
+    "slug": "environment-variable-n",
+    "lemma": "environment variable",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "crime",
+    "ipa": "/ɪnˈvaɪrənmənt ˌveəriəbl/",
+    "def": "A named value that a program reads from the system it runs on.",
+    "vi": "biến môi trường",
+    "examples":
+      [
+        {
+          "en": "Load the key from an environment variable, not from the code.",
+          "vi": "Hãy đọc khoá từ biến môi trường, không viết trong code.",
+        },
+      ],
+  }
+- {
+    "slug": "in-transit-phr",
+    "lemma": "in transit",
+    "pos": "phrase",
+    "kind": "phrase",
+    "cefr": "C1",
+    "topic": "crime",
+    "ipa": "/ɪn ˈtrænzɪt/",
+    "def": "While data is moving across a network.",
+    "vi": "khi đang truyền",
+    "examples":
+      [
+        {
+          "en": "Data is encrypted in transit and at rest.",
+          "vi": "Dữ liệu được mã hoá khi đang truyền và khi lưu trữ.",
+        },
+      ],
+  }
+- {
+    "slug": "compromised-adj",
+    "lemma": "compromised",
+    "pos": "adjective",
+    "cefr": "C1",
+    "topic": "crime",
+    "ipa": "/ˈkɒmprəmaɪzd/",
+    "def": "No longer safe because someone else may know or control it.",
+    "vi": "bị xâm phạm",
+    "examples":
+      [
+        {
+          "en": "Treat the token as compromised and replace it now.",
+          "vi": "Hãy coi token đã bị xâm phạm và thay ngay.",
+        },
+      ],
+  }
+- {
+    "slug": "revealed-adj",
+    "lemma": "revealed",
+    "pos": "adjective",
+    "cefr": "B2",
+    "topic": "crime",
+    "ipa": "/rɪˈviːld/",
+    "def": "Shown to people after being hidden.",
+    "vi": "bị tiết lộ",
+    "examples":
+      [
+        {
+          "en": "The value was revealed in a build log.",
+          "vi": "Giá trị đã bị tiết lộ trong log build.",
+        },
+      ],
+  }
+- {
+    "slug": "strong-adj",
+    "lemma": "strong",
+    "pos": "adjective",
+    "cefr": "A2",
+    "topic": "crime",
+    "ipa": "/strɒŋ/",
+    "def": "Hard to guess or break.",
+    "vi": "mạnh",
+    "examples":
+      [
+        {
+          "en": "Pick a strong passphrase with at least four random words.",
+          "vi": "Chọn một passphrase mạnh với ít nhất bốn từ ngẫu nhiên.",
+        },
+      ],
+  }
+- {
+    "slug": "store-securely-phr",
+    "lemma": "store securely",
+    "pos": "phrase",
+    "kind": "phrase",
+    "cefr": "B2",
+    "topic": "crime",
+    "ipa": "/stɔː sɪˈkjʊəli/",
+    "def": "To keep something in a way that protects it from others.",
+    "vi": "lưu trữ an toàn",
+    "examples":
+      [
+        {
+          "en": "Store recovery codes securely, not on a sticky note.",
+          "vi": "Hãy lưu mã khôi phục an toàn, không dán giấy nhớ.",
+        },
+      ],
+  }
+- {
+    "slug": "signing-key-n",
+    "lemma": "signing key",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "crime",
+    "ipa": "/ˈsaɪnɪŋ kiː/",
+    "def": "A key used to prove that a file or message came from you.",
+    "vi": "khoá ký",
+    "examples":
+      [
+        {
+          "en": "The release is checked with our signing key.",
+          "vi": "Bản phát hành được kiểm tra bằng khoá ký của chúng tôi.",
+        },
+      ],
+  }
+- {
+    "slug": "algorithm-n-law-crime",
+    "lemma": "algorithm",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "crime",
+    "ipa": "/ˈælɡərɪðəm/",
+    "def": "A set of steps a computer follows to solve a problem.",
+    "vi": "thuật toán",
+    "examples":
+      [
+        {
+          "en": "That hashing algorithm is too old to be safe.",
+          "vi": "Thuật toán băm đó quá cũ, không còn an toàn.",
+        },
+      ],
+  }
+- {
+    "slug": "generate-v-law-crime",
+    "lemma": "generate",
+    "pos": "verb",
+    "cefr": "B1",
+    "topic": "crime",
+    "ipa": "/ˈdʒenəreɪt/",
+    "def": "To produce or create something.",
+    "vi": "tạo",
+    "examples":
+      [
+        {
+          "en": "Generate a new key in the console and delete the old one.",
+          "vi": "Hãy tạo khoá mới trong console và xoá khoá cũ.",
+        },
+      ],
+  }
+- {
+    "slug": "access-token-n",
+    "lemma": "token",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "crime",
+    "ipa": "/ˈtəʊkən/",
+    "def": "A string a system gives you to prove you are allowed to use it.",
+    "vi": "mã thông báo (token)",
+    "examples":
+      [
+        {
+          "en": "The token in your local file should never go into Git.",
+          "vi": "Token trong file local không bao giờ được đưa lên Git.",
+        },
+      ],
+  }
+- {
+    "slug": "passphrase-n",
+    "lemma": "passphrase",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "crime",
+    "ipa": "/ˈpɑːsfreɪz/",
+    "def": "A long secret made of several words, used like a password.",
+    "vi": "cụm mật khẩu",
+    "examples":
+      [
+        {
+          "en": "The SSH key is protected by a passphrase.",
+          "vi": "Khoá SSH được bảo vệ bằng một cụm mật khẩu.",
+        },
+      ],
+  }
+# Set 8: Incident coordination
+- {
+    "slug": "incident-n",
+    "lemma": "incident",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "crime",
+    "ipa": "/ˈɪnsɪdənt/",
+    "def": "An event, especially a problem, that needs a response.",
+    "vi": "sự cố",
+    "examples":
+      [
+        {
+          "en": "We opened a security incident at 9:40.",
+          "vi": "Chúng tôi đã mở một sự cố bảo mật lúc 9:40.",
+        },
+      ],
+  }
+- {
+    "slug": "urgent-adj-law-crime",
+    "lemma": "urgent",
+    "pos": "adjective",
+    "cefr": "A2",
+    "topic": "crime",
+    "ipa": "/ˈɜːdʒənt/",
+    "def": "Needing attention right away.",
+    "vi": "khẩn cấp",
+    "examples":
+      [
+        {
+          "en": "This is urgent: the admin key may be public.",
+          "vi": "Việc này khẩn cấp: khoá admin có thể đã bị công khai.",
+        },
+      ],
+  }
+- {
+    "slug": "owner-n-law-crime",
+    "lemma": "owner",
+    "pos": "noun",
+    "cefr": "A2",
+    "topic": "crime",
+    "ipa": "/ˈəʊnə/",
+    "def": "The person responsible for a task or system.",
+    "vi": "người phụ trách",
+    "examples":
+      [{ "en": "Who is the owner of this incident?", "vi": "Ai là người phụ trách sự cố này?" }],
+  }
+- {
+    "slug": "status-n-law-crime",
+    "lemma": "status",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "crime",
+    "ipa": "/ˈsteɪtəs/",
+    "def": "The current situation of something.",
+    "vi": "trạng thái",
+    "examples":
+      [
+        {
+          "en": "I'll post a status update every thirty minutes.",
+          "vi": "Mình sẽ đăng cập nhật trạng thái mỗi ba mươi phút.",
+        },
+      ],
+  }
+- {
+    "slug": "escalate-v-law-crime",
+    "lemma": "escalate",
+    "pos": "verb",
+    "cefr": "B2",
+    "topic": "crime",
+    "ipa": "/ˈeskəleɪt/",
+    "def": "To pass a problem to someone with more authority.",
+    "vi": "chuyển cấp",
+    "examples":
+      [
+        {
+          "en": "If it isn't contained in an hour, escalate to the CISO.",
+          "vi": "Nếu không kiểm soát được trong một giờ, hãy chuyển lên CISO.",
+        },
+      ],
+  }
+- {
+    "slug": "on-call-adj",
+    "lemma": "on call",
+    "pos": "adjective",
+    "kind": "collocation",
+    "cefr": "B1",
+    "topic": "crime",
+    "ipa": "/ˌɒn ˈkɔːl/",
+    "def": "Ready to be contacted and to work if a problem happens.",
+    "vi": "trực (sự cố)",
+    "examples":
+      [{ "en": "Who is on call for security this week?", "vi": "Tuần này ai trực sự cố bảo mật?" }],
+  }
+- {
+    "slug": "contain-v-law-crime",
+    "lemma": "contain",
+    "pos": "verb",
+    "cefr": "C1",
+    "topic": "crime",
+    "ipa": "/kənˈteɪn/",
+    "def": "To stop something harmful from spreading.",
+    "vi": "khoanh vùng, ngăn chặn",
+    "examples":
+      [
+        {
+          "en": "First we contain the issue, then we find the cause.",
+          "vi": "Trước hết chúng ta khoanh vùng sự cố, sau đó tìm nguyên nhân.",
+        },
+      ],
+  }
+- {
+    "slug": "responder-n",
+    "lemma": "responder",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "crime",
+    "ipa": "/rɪˈspɒndə/",
+    "def": "A person who acts to deal with an incident.",
+    "vi": "người ứng phó",
+    "examples":
+      [
+        {
+          "en": "Only responders can see the incident channel.",
+          "vi": "Chỉ người ứng phó mới xem được kênh sự cố.",
+        },
+      ],
+  }
+- {
+    "slug": "timeline-n-law-crime",
+    "lemma": "timeline",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "crime",
+    "ipa": "/ˈtaɪmlaɪn/",
+    "def": "A list of events in the order they happened.",
+    "vi": "dòng thời gian",
+    "examples":
+      [
+        {
+          "en": "Add each action to the timeline with the exact time.",
+          "vi": "Hãy thêm từng hành động vào dòng thời gian với thời điểm chính xác.",
+        },
+      ],
+  }
+- {
+    "slug": "isolate-v",
+    "lemma": "isolate",
+    "pos": "verb",
+    "cefr": "B2",
+    "topic": "crime",
+    "ipa": "/ˈaɪsəleɪt/",
+    "def": "To separate something so it cannot affect anything else.",
+    "vi": "cô lập",
+    "examples":
+      [
+        {
+          "en": "Isolate the infected server from the network.",
+          "vi": "Hãy cô lập máy chủ bị nhiễm khỏi mạng.",
+        },
+      ],
+  }
+- {
+    "slug": "notify-v",
+    "lemma": "notify",
+    "pos": "verb",
+    "cefr": "B2",
+    "topic": "crime",
+    "ipa": "/ˈnəʊtɪfaɪ/",
+    "def": "To formally tell someone about something.",
+    "vi": "thông báo",
+    "examples":
+      [
+        {
+          "en": "We must notify affected customers within 72 hours.",
+          "vi": "Chúng ta phải thông báo cho khách hàng bị ảnh hưởng trong vòng 72 giờ.",
+        },
+      ],
+  }
+- {
+    "slug": "in-progress-phr",
+    "lemma": "in progress",
+    "pos": "phrase",
+    "kind": "phrase",
+    "cefr": "B1",
+    "topic": "crime",
+    "ipa": "/ɪn ˈprəʊɡres/",
+    "def": "Happening now and not yet finished.",
+    "vi": "đang xử lý",
+    "examples":
+      [
+        {
+          "en": "The investigation is still in progress.",
+          "vi": "Cuộc điều tra vẫn đang được xử lý.",
+        },
+      ],
+  }
+- {
+    "slug": "hand-over-phr-law-crime",
+    "lemma": "hand over",
+    "pos": "phrasal_verb",
+    "kind": "phrasal",
+    "cefr": "B1",
+    "topic": "crime",
+    "ipa": "/ˌhænd ˈəʊvə/",
+    "def": "To give responsibility for something to another person.",
+    "vi": "bàn giao",
+    "examples":
+      [
+        {
+          "en": "I'll hand over to Linh when my shift ends.",
+          "vi": "Mình sẽ bàn giao cho Linh khi hết ca.",
+        },
+      ],
+  }
+- {
+    "slug": "restore-v",
+    "lemma": "restore",
+    "pos": "verb",
+    "cefr": "B2",
+    "topic": "crime",
+    "ipa": "/rɪˈstɔː/",
+    "def": "To bring something back to how it was before.",
+    "vi": "khôi phục",
+    "examples":
+      [
+        {
+          "en": "We restored the service from a clean backup.",
+          "vi": "Chúng tôi đã khôi phục dịch vụ từ một bản sao lưu sạch.",
+        },
+      ],
+  }
+- {
+    "slug": "all-clear-n",
+    "lemma": "all clear",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "crime",
+    "ipa": "/ˌɔːl ˈklɪə/",
+    "def": "A message saying that danger is over.",
+    "vi": "báo an toàn",
+    "examples":
+      [
+        {
+          "en": "Wait for the all clear before you reopen the API.",
+          "vi": "Hãy đợi báo an toàn trước khi mở lại API.",
+        },
+      ],
+  }
+- {
+    "slug": "stakeholder-n-law-crime",
+    "lemma": "stakeholder",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "crime",
+    "ipa": "/ˈsteɪkhəʊldə/",
+    "def": "A person who is affected by or interested in a project.",
+    "vi": "bên liên quan",
+    "examples":
+      [
+        {
+          "en": "Send a short summary to stakeholders, without technical secrets.",
+          "vi": "Gửi bản tóm tắt ngắn cho các bên liên quan, không kèm bí mật kỹ thuật.",
+        },
+      ],
+  }
+- {
+    "slug": "breach-n-law-crime",
+    "lemma": "breach",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "crime",
+    "ipa": "/briːtʃ/",
+    "def": "A case where data is seen or taken by people who should not have it.",
+    "vi": "vụ rò rỉ dữ liệu",
+    "examples":
+      [
+        {
+          "en": "Legal will decide if this counts as a breach.",
+          "vi": "Bộ phận pháp lý sẽ quyết định việc này có tính là rò rỉ dữ liệu không.",
+        },
+      ],
+  }
+- {
+    "slug": "acknowledge-v-law-crime",
+    "lemma": "acknowledge",
+    "pos": "verb",
+    "cefr": "B2",
+    "topic": "crime",
+    "ipa": "/əkˈnɒlɪdʒ/",
+    "def": "To say that you have received or noticed something.",
+    "vi": "xác nhận đã nhận",
+    "examples":
+      [
+        {
+          "en": "Please acknowledge the page so we know you're on it.",
+          "vi": "Vui lòng xác nhận cảnh báo để mọi người biết bạn đang xử lý.",
+        },
+      ],
+  }
+- {
+    "slug": "coordinate-v",
+    "lemma": "coordinate",
+    "pos": "verb",
+    "cefr": "B2",
+    "topic": "crime",
+    "ipa": "/kəʊˈɔːdɪneɪt/",
+    "def": "To organize people so they work together well.",
+    "vi": "điều phối",
+    "examples":
+      [
+        {
+          "en": "Mai will coordinate between the support and security teams.",
+          "vi": "Mai sẽ điều phối giữa nhóm hỗ trợ và nhóm bảo mật.",
+        },
+      ],
+  }
+- {
+    "slug": "severe-adj",
+    "lemma": "severe",
+    "pos": "adjective",
+    "cefr": "B2",
+    "topic": "crime",
+    "ipa": "/sɪˈvɪə/",
+    "def": "Very serious or bad.",
+    "vi": "nghiêm trọng",
+    "examples":
+      [
+        {
+          "en": "This is a severe outage affecting all logins.",
+          "vi": "Đây là sự cố nghiêm trọng ảnh hưởng mọi lượt đăng nhập.",
+        },
+      ],
+  }
+- {
+    "slug": "war-room-n",
+    "lemma": "war room",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "crime",
+    "ipa": "/ˈwɔː ruːm/",
+    "def": "A call or room where a team works together on a big problem.",
+    "vi": "phòng chỉ huy sự cố",
+    "examples":
+      [
+        {
+          "en": "Join the war room link in the incident channel.",
+          "vi": "Hãy vào link phòng chỉ huy trong kênh sự cố.",
+        },
+      ],
+  }
+- {
+    "slug": "next-update-n",
+    "lemma": "next update",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B1",
+    "topic": "crime",
+    "ipa": "/ˌnekst ˈʌpdeɪt/",
+    "def": "The time when the following news will be shared.",
+    "vi": "cập nhật tiếp theo",
+    "examples":
+      [
+        {
+          "en": "Next update at 11:00, or sooner if things change.",
+          "vi": "Cập nhật tiếp theo lúc 11:00, hoặc sớm hơn nếu có thay đổi.",
+        },
+      ],
+  }
+- {
+    "slug": "outage-n",
+    "lemma": "outage",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "crime",
+    "ipa": "/ˈaʊtɪdʒ/",
+    "def": "A time when a service stops working.",
+    "vi": "sự cố ngừng dịch vụ",
+    "examples":
+      [
+        {
+          "en": "The outage lasted twelve minutes.",
+          "vi": "Sự cố ngừng dịch vụ kéo dài mười hai phút.",
+        },
+      ],
+  }
+- {
+    "slug": "priority-n-law-crime",
+    "lemma": "priority",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "crime",
+    "ipa": "/praɪˈɒrəti/",
+    "def": "Something that is more important than other things.",
+    "vi": "ưu tiên",
+    "examples":
+      [
+        {
+          "en": "Our first priority is to protect customer data.",
+          "vi": "Ưu tiên đầu tiên của chúng ta là bảo vệ dữ liệu khách hàng.",
+        },
+      ],
+  }
+# Set 9: Audit trails & evidence
+- {
+    "slug": "record-n",
+    "lemma": "record",
+    "pos": "noun",
+    "cefr": "A2",
+    "topic": "crime",
+    "ipa": "/ˈrekɔːd/",
+    "def": "Written or saved information about what happened.",
+    "vi": "bản ghi",
+    "examples":
+      [
+        {
+          "en": "Keep a record of who changed the setting.",
+          "vi": "Hãy giữ bản ghi về ai đã đổi cài đặt.",
+        },
+      ],
+  }
+- {
+    "slug": "proof-n-law-crime",
+    "lemma": "proof",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "crime",
+    "ipa": "/pruːf/",
+    "def": "Facts that show something is true.",
+    "vi": "bằng chứng xác thực",
+    "examples":
+      [
+        {
+          "en": "Do we have proof that the file was not downloaded?",
+          "vi": "Chúng ta có bằng chứng rằng file chưa bị tải về không?",
+        },
+      ],
+  }
+- {
+    "slug": "history-n",
+    "lemma": "history",
+    "pos": "noun",
+    "cefr": "A2",
+    "topic": "crime",
+    "ipa": "/ˈhɪstri/",
+    "def": "A list of past actions or changes.",
+    "vi": "lịch sử",
+    "examples":
+      [
+        {
+          "en": "The commit history shows when the key was added.",
+          "vi": "Lịch sử commit cho thấy khoá được thêm vào lúc nào.",
+        },
+      ],
+  }
+- {
+    "slug": "audit-trail-n",
+    "lemma": "audit trail",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "crime",
+    "ipa": "/ˈɔːdɪt treɪl/",
+    "def": "A list of records that shows every action taken in a system.",
+    "vi": "dấu vết kiểm tra",
+    "examples":
+      [
+        {
+          "en": "The audit trail shows the export ran at 2:14 a.m.",
+          "vi": "Dấu vết kiểm tra cho thấy lệnh xuất chạy lúc 2:14 sáng.",
+        },
+      ],
+  }
+- {
+    "slug": "evidence-n-law-crime",
+    "lemma": "evidence",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "crime",
+    "ipa": "/ˈevɪdəns/",
+    "def": "Information used to show what really happened.",
+    "vi": "bằng chứng",
+    "examples":
+      [
+        {
+          "en": "Don't reboot the server; we need it as evidence.",
+          "vi": "Đừng khởi động lại máy chủ; chúng ta cần nó làm bằng chứng.",
+        },
+      ],
+  }
+- {
+    "slug": "preserve-v",
+    "lemma": "preserve",
+    "pos": "verb",
+    "cefr": "B2",
+    "topic": "crime",
+    "ipa": "/prɪˈzɜːv/",
+    "def": "To keep something safe and unchanged.",
+    "vi": "bảo toàn",
+    "examples":
+      [
+        {
+          "en": "Preserve the logs before the cleanup job deletes them.",
+          "vi": "Hãy bảo toàn log trước khi job dọn dẹp xoá chúng.",
+        },
+      ],
+  }
+- {
+    "slug": "timestamp-n",
+    "lemma": "timestamp",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "crime",
+    "ipa": "/ˈtaɪmstæmp/",
+    "def": "The date and time saved with an event.",
+    "vi": "dấu thời gian",
+    "examples":
+      [
+        {
+          "en": "Every log line has a timestamp in UTC.",
+          "vi": "Mỗi dòng log đều có dấu thời gian theo UTC.",
+        },
+      ],
+  }
+- {
+    "slug": "tamper-with-phr",
+    "lemma": "tamper with",
+    "pos": "phrasal_verb",
+    "kind": "phrasal",
+    "cefr": "C1",
+    "topic": "crime",
+    "ipa": "/ˈtæmpə wɪð/",
+    "def": "To change something secretly or without permission.",
+    "vi": "can thiệp trái phép",
+    "examples":
+      [
+        {
+          "en": "Logs are signed so nobody can tamper with them.",
+          "vi": "Log được ký để không ai can thiệp trái phép được.",
+        },
+      ],
+  }
+- {
+    "slug": "investigate-v",
+    "lemma": "investigate",
+    "pos": "verb",
+    "cefr": "B1",
+    "topic": "crime",
+    "ipa": "/ɪnˈvestɪɡeɪt/",
+    "def": "To look carefully for facts about what happened.",
+    "vi": "điều tra",
+    "examples":
+      [
+        {
+          "en": "The security team will investigate the login.",
+          "vi": "Nhóm bảo mật sẽ điều tra lần đăng nhập đó.",
+        },
+      ],
+  }
+- {
+    "slug": "read-only-adj",
+    "lemma": "read-only",
+    "pos": "adjective",
+    "cefr": "B2",
+    "topic": "crime",
+    "ipa": "/ˌriːd ˈəʊnli/",
+    "def": "Able to be looked at but not changed.",
+    "vi": "chỉ đọc",
+    "examples":
+      [
+        {
+          "en": "Give the auditors read-only access to the logs.",
+          "vi": "Hãy cấp cho kiểm toán viên quyền chỉ đọc với log.",
+        },
+      ],
+  }
+- {
+    "slug": "chain-of-custody-n",
+    "lemma": "chain of custody",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "crime",
+    "ipa": "/ˌtʃeɪn əv ˈkʌstədi/",
+    "def": "A record of who held a piece of evidence and when.",
+    "vi": "chuỗi lưu giữ bằng chứng",
+    "examples":
+      [
+        {
+          "en": "Write down the chain of custody for the disk image.",
+          "vi": "Hãy ghi lại chuỗi lưu giữ cho bản sao ổ đĩa.",
+        },
+      ],
+  }
+- {
+    "slug": "auditor-n-law-crime",
+    "lemma": "auditor",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "crime",
+    "ipa": "/ˈɔːdɪtə/",
+    "def": "A person whose job is to check records and systems officially.",
+    "vi": "kiểm toán viên",
+    "examples":
+      [
+        {
+          "en": "The auditor asked for last year's access reviews.",
+          "vi": "Kiểm toán viên yêu cầu các lần rà soát quyền năm ngoái.",
+        },
+      ],
+  }
+- {
+    "slug": "trace-v",
+    "lemma": "trace",
+    "pos": "verb",
+    "cefr": "B2",
+    "topic": "crime",
+    "ipa": "/treɪs/",
+    "def": "To follow the path of something back to where it started.",
+    "vi": "truy vết",
+    "examples":
+      [
+        {
+          "en": "We traced the request back to a test script.",
+          "vi": "Chúng tôi đã truy vết request về một script test.",
+        },
+      ],
+  }
+- {
+    "slug": "integrity-n",
+    "lemma": "integrity",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "crime",
+    "ipa": "/ɪnˈteɡrəti/",
+    "def": "The state of being complete and not changed.",
+    "vi": "tính toàn vẹn",
+    "examples":
+      [
+        {
+          "en": "A checksum proves the integrity of the backup.",
+          "vi": "Checksum chứng minh tính toàn vẹn của bản sao lưu.",
+        },
+      ],
+  }
+- {
+    "slug": "retain-v-law-crime",
+    "lemma": "retain",
+    "pos": "verb",
+    "cefr": "C1",
+    "topic": "crime",
+    "ipa": "/rɪˈteɪn/",
+    "def": "To continue to keep something.",
+    "vi": "giữ lại",
+    "examples":
+      [
+        {
+          "en": "We retain access logs for one year.",
+          "vi": "Chúng tôi giữ lại log truy cập trong một năm.",
+        },
+      ],
+  }
+- {
+    "slug": "restricted-adj",
+    "lemma": "restricted",
+    "pos": "adjective",
+    "cefr": "B2",
+    "topic": "crime",
+    "ipa": "/rɪˈstrɪktɪd/",
+    "def": "Limited to only some people.",
+    "vi": "hạn chế",
+    "examples":
+      [
+        {
+          "en": "The evidence folder is restricted to the incident team.",
+          "vi": "Thư mục bằng chứng chỉ giới hạn cho nhóm xử lý sự cố.",
+        },
+      ],
+  }
+- {
+    "slug": "forensic-adj",
+    "lemma": "forensic",
+    "pos": "adjective",
+    "cefr": "C1",
+    "topic": "crime",
+    "ipa": "/fəˈrensɪk/",
+    "def": "Using careful scientific methods to find out what happened.",
+    "vi": "pháp y (số)",
+    "examples":
+      [
+        {
+          "en": "A forensic copy of the disk was made before any changes.",
+          "vi": "Bản sao pháp y của ổ đĩa được tạo trước mọi thay đổi.",
+        },
+      ],
+  }
+- {
+    "slug": "compliance-n-law-crime",
+    "lemma": "compliance",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "crime",
+    "ipa": "/kəmˈplaɪəns/",
+    "def": "The fact of following rules or laws.",
+    "vi": "sự tuân thủ",
+    "examples":
+      [
+        {
+          "en": "Compliance needs proof that access was reviewed.",
+          "vi": "Bộ phận tuân thủ cần bằng chứng rằng quyền đã được rà soát.",
+        },
+      ],
+  }
+- {
+    "slug": "event-n",
+    "lemma": "event",
+    "pos": "noun",
+    "cefr": "A2",
+    "topic": "crime",
+    "ipa": "/ɪˈvent/",
+    "def": "A single thing that happens and is recorded.",
+    "vi": "sự kiện",
+    "examples":
+      [
+        {
+          "en": "Each login creates an event in the log.",
+          "vi": "Mỗi lần đăng nhập tạo ra một sự kiện trong log.",
+        },
+      ],
+  }
+- {
+    "slug": "who-did-what-phr",
+    "lemma": "who did what",
+    "pos": "phrase",
+    "kind": "phrase",
+    "cefr": "B1",
+    "topic": "crime",
+    "ipa": "/ˌhuː dɪd ˈwɒt/",
+    "def": "Which person did which action.",
+    "vi": "ai đã làm gì",
+    "examples":
+      [
+        {
+          "en": "The log should show who did what and when.",
+          "vi": "Log cần cho thấy ai đã làm gì và khi nào.",
+        },
+      ],
+  }
+- {
+    "slug": "witness-n",
+    "lemma": "witness",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "crime",
+    "ipa": "/ˈwɪtnəs/",
+    "def": "A person who saw something happen.",
+    "vi": "nhân chứng",
+    "examples":
+      [
+        {
+          "en": "Ask a witness to sign the note when you seal the laptop.",
+          "vi": "Hãy nhờ một nhân chứng ký vào biên bản khi niêm phong laptop.",
+        },
+      ],
+  }
+- {
+    "slug": "sign-off-phr",
+    "lemma": "sign off",
+    "pos": "phrasal_verb",
+    "kind": "phrasal",
+    "cefr": "B2",
+    "topic": "crime",
+    "ipa": "/ˌsaɪn ˈɒf/",
+    "def": "To give final approval for something.",
+    "vi": "ký duyệt",
+    "examples":
+      [
+        {
+          "en": "The security lead must sign off on the evidence list.",
+          "vi": "Trưởng nhóm bảo mật phải ký duyệt danh sách bằng chứng.",
+        },
+      ],
+  }
+- {
+    "slug": "immutable-adj",
+    "lemma": "immutable",
+    "pos": "adjective",
+    "cefr": "C1",
+    "topic": "crime",
+    "ipa": "/ɪˈmjuːtəbl/",
+    "def": "Not able to be changed after it is created.",
+    "vi": "bất biến",
+    "examples":
+      [
+        {
+          "en": "Store audit logs in immutable storage.",
+          "vi": "Hãy lưu log kiểm tra trong kho lưu trữ bất biến.",
+        },
+      ],
+  }
+- {
+    "slug": "legal-hold-n",
+    "lemma": "legal hold",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "crime",
+    "ipa": "/ˌliːɡl ˈhəʊld/",
+    "def": "An instruction to keep certain data because of a legal case.",
+    "vi": "lệnh giữ dữ liệu pháp lý",
+    "examples":
+      [
+        {
+          "en": "These emails are under legal hold, so don't delete them.",
+          "vi": "Các email này đang chịu lệnh giữ dữ liệu, đừng xoá.",
+        },
+      ],
+  }
+- {
+    "slug": "access-log-n-law-crime",
+    "lemma": "access log",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "crime",
+    "ipa": "/ˈækses lɒɡ/",
+    "def": "A file that lists every request made to a system.",
+    "vi": "log truy cập",
+    "examples":
+      [
+        {
+          "en": "Check the access log for requests to the export URL.",
+          "vi": "Hãy kiểm tra log truy cập xem có request nào tới URL xuất dữ liệu không.",
+        },
+      ],
+  }
+- {
+    "slug": "export-v",
+    "lemma": "export",
+    "pos": "verb",
+    "cefr": "B1",
+    "topic": "crime",
+    "ipa": "/ɪkˈspɔːt/",
+    "def": "To save data from one system into a file to use elsewhere.",
+    "vi": "xuất (dữ liệu)",
+    "examples":
+      [
+        {
+          "en": "Export the logs to a read-only folder.",
+          "vi": "Hãy xuất log ra một thư mục chỉ đọc.",
+        },
+      ],
+  }
+- {
+    "slug": "checksum-n",
+    "lemma": "checksum",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "crime",
+    "ipa": "/ˈtʃeksʌm/",
+    "def": "A short value computed from a file to show it has not changed.",
+    "vi": "mã kiểm tra (checksum)",
+    "examples":
+      [
+        {
+          "en": "Write the checksum next to each file in the evidence list.",
+          "vi": "Ghi checksum bên cạnh mỗi file trong danh sách bằng chứng.",
+        },
+      ],
+  }
+- {
+    "slug": "document-steps-v",
+    "lemma": "document",
+    "pos": "verb",
+    "cefr": "B1",
+    "topic": "crime",
+    "ipa": "/ˈdɒkjument/",
+    "def": "To write down details about something as a record.",
+    "vi": "ghi chép lại",
+    "examples":
+      [
+        {
+          "en": "Document every step you take on the server.",
+          "vi": "Hãy ghi chép lại mọi bước bạn làm trên máy chủ.",
+        },
+      ],
+  }
+# Set 10: A security follow-up
+- {
+    "slug": "lesson-n",
+    "lemma": "lesson",
+    "pos": "noun",
+    "cefr": "A2",
+    "topic": "crime",
+    "ipa": "/ˈlesn/",
+    "def": "Something useful you learn from an experience.",
+    "vi": "bài học",
+    "examples":
+      [
+        {
+          "en": "The main lesson is to review public links every month.",
+          "vi": "Bài học chính là rà soát link công khai mỗi tháng.",
+        },
+      ],
+  }
+- {
+    "slug": "cause-n",
+    "lemma": "cause",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "crime",
+    "ipa": "/kɔːz/",
+    "def": "The thing that makes something happen.",
+    "vi": "nguyên nhân",
+    "examples":
+      [
+        {
+          "en": "The cause was an old test account with admin rights.",
+          "vi": "Nguyên nhân là một tài khoản test cũ có quyền admin.",
+        },
+      ],
+  }
+- {
+    "slug": "prevent-v-law-crime",
+    "lemma": "prevent",
+    "pos": "verb",
+    "cefr": "B1",
+    "topic": "crime",
+    "ipa": "/prɪˈvent/",
+    "def": "To stop something from happening.",
+    "vi": "ngăn ngừa",
+    "examples":
+      [
+        {
+          "en": "A pre-commit hook will prevent keys from being pushed.",
+          "vi": "Một pre-commit hook sẽ ngăn khoá bị đẩy lên.",
+        },
+      ],
+  }
+- {
+    "slug": "summary-n-law-crime",
+    "lemma": "summary",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "crime",
+    "ipa": "/ˈsʌməri/",
+    "def": "A short report of the main points.",
+    "vi": "bản tóm tắt",
+    "examples":
+      [
+        {
+          "en": "Here's a short summary for the leadership team.",
+          "vi": "Đây là bản tóm tắt ngắn cho ban lãnh đạo.",
+        },
+      ],
+  }
+- {
+    "slug": "action-item-n",
+    "lemma": "action item",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B1",
+    "topic": "crime",
+    "ipa": "/ˈækʃn ˌaɪtəm/",
+    "def": "A task that someone must do after a meeting.",
+    "vi": "việc cần làm",
+    "examples":
+      [
+        {
+          "en": "Each action item needs an owner and a due date.",
+          "vi": "Mỗi việc cần làm cần có người phụ trách và hạn chót.",
+        },
+      ],
+  }
+- {
+    "slug": "root-cause-n-law-crime",
+    "lemma": "root cause",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "crime",
+    "ipa": "/ˌruːt ˈkɔːz/",
+    "def": "The deepest reason why a problem happened.",
+    "vi": "nguyên nhân gốc",
+    "examples":
+      [
+        {
+          "en": "The root cause was missing input validation.",
+          "vi": "Nguyên nhân gốc là thiếu kiểm tra dữ liệu đầu vào.",
+        },
+      ],
+  }
+- {
+    "slug": "postmortem-n-law-crime",
+    "lemma": "postmortem",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "crime",
+    "ipa": "/ˌpəʊstˈmɔːtəm/",
+    "def": "A meeting or document that studies a problem after it is over.",
+    "vi": "phân tích sau sự cố",
+    "examples":
+      [
+        {
+          "en": "The postmortem is blameless and focuses on systems.",
+          "vi": "Buổi phân tích sau sự cố không đổ lỗi và tập trung vào hệ thống.",
+        },
+      ],
+  }
+- {
+    "slug": "blameless-adj-law-crime",
+    "lemma": "blameless",
+    "pos": "adjective",
+    "cefr": "C1",
+    "topic": "crime",
+    "ipa": "/ˈbleɪmləs/",
+    "def": "Not trying to find one person to punish.",
+    "vi": "không đổ lỗi",
+    "examples":
+      [
+        {
+          "en": "We keep the review blameless so people speak honestly.",
+          "vi": "Chúng tôi giữ buổi review không đổ lỗi để mọi người nói thật.",
+        },
+      ],
+  }
+- {
+    "slug": "safeguard-n",
+    "lemma": "safeguard",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "crime",
+    "ipa": "/ˈseɪfɡɑːd/",
+    "def": "Something that protects against harm.",
+    "vi": "biện pháp bảo vệ",
+    "examples":
+      [
+        {
+          "en": "We added a safeguard that blocks public buckets.",
+          "vi": "Chúng tôi thêm một biện pháp bảo vệ chặn bucket công khai.",
+        },
+      ],
+  }
+- {
+    "slug": "recurrence-n",
+    "lemma": "recurrence",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "crime",
+    "ipa": "/rɪˈkʌrəns/",
+    "def": "The fact of happening again.",
+    "vi": "sự tái diễn",
+    "examples":
+      [
+        {
+          "en": "These checks reduce the chance of recurrence.",
+          "vi": "Các kiểm tra này giảm khả năng tái diễn.",
+        },
+      ],
+  }
+- {
+    "slug": "follow-up-phr",
+    "lemma": "follow up",
+    "pos": "phrasal_verb",
+    "kind": "phrasal",
+    "cefr": "B1",
+    "topic": "crime",
+    "ipa": "/ˌfɒləʊ ˈʌp/",
+    "def": "To do more work later to finish something.",
+    "vi": "theo dõi tiếp",
+    "examples":
+      [
+        {
+          "en": "I'll follow up with the vendor about their fix.",
+          "vi": "Mình sẽ theo dõi tiếp với nhà cung cấp về bản sửa của họ.",
+        },
+      ],
+  }
+- {
+    "slug": "remaining-adj",
+    "lemma": "remaining",
+    "pos": "adjective",
+    "cefr": "B1",
+    "topic": "crime",
+    "ipa": "/rɪˈmeɪnɪŋ/",
+    "def": "Still left after others are done.",
+    "vi": "còn lại",
+    "examples":
+      [
+        {
+          "en": "Two remaining tasks are due next sprint.",
+          "vi": "Hai việc còn lại có hạn vào sprint tới.",
+        },
+      ],
+  }
+- {
+    "slug": "measure-n",
+    "lemma": "measure",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "crime",
+    "ipa": "/ˈmeʒə/",
+    "def": "An action taken to deal with a problem.",
+    "vi": "biện pháp",
+    "examples":
+      [
+        {
+          "en": "As a short-term measure, we turned off file sharing.",
+          "vi": "Biện pháp ngắn hạn là tắt chia sẻ file.",
+        },
+      ],
+  }
+- {
+    "slug": "long-term-adj-law-crime",
+    "lemma": "long-term",
+    "pos": "adjective",
+    "cefr": "B2",
+    "topic": "crime",
+    "ipa": "/ˌlɒŋ ˈtɜːm/",
+    "def": "Lasting or planned for a long time.",
+    "vi": "dài hạn",
+    "examples":
+      [
+        {
+          "en": "The long-term fix is to move secrets into the vault.",
+          "vi": "Cách sửa dài hạn là chuyển secret vào vault.",
+        },
+      ],
+  }
+- {
+    "slug": "security-review-n",
+    "lemma": "review",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "crime",
+    "ipa": "/rɪˈvjuː/",
+    "def": "A careful look at something to judge it.",
+    "vi": "buổi rà soát",
+    "examples":
+      [
+        {
+          "en": "The quarterly access review starts on Monday.",
+          "vi": "Buổi rà soát quyền hàng quý bắt đầu vào thứ Hai.",
+        },
+      ],
+  }
+- {
+    "slug": "deadline-n-law-crime",
+    "lemma": "deadline",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "crime",
+    "ipa": "/ˈdedlaɪn/",
+    "def": "The time by which something must be done.",
+    "vi": "hạn chót",
+    "examples":
+      [
+        {
+          "en": "The deadline for rotating all keys is Friday.",
+          "vi": "Hạn chót đổi toàn bộ khoá là thứ Sáu.",
+        },
+      ],
+  }
+- {
+    "slug": "track-v-law-crime",
+    "lemma": "track",
+    "pos": "verb",
+    "cefr": "B1",
+    "topic": "crime",
+    "ipa": "/træk/",
+    "def": "To follow the progress of something.",
+    "vi": "theo dõi",
+    "examples":
+      [
+        {
+          "en": "We track each action item in Jira.",
+          "vi": "Chúng tôi theo dõi từng việc cần làm trên Jira.",
+        },
+      ],
+  }
+- {
+    "slug": "training-n",
+    "lemma": "training",
+    "pos": "noun",
+    "cefr": "A2",
+    "topic": "crime",
+    "ipa": "/ˈtreɪnɪŋ/",
+    "def": "Lessons that teach people a skill for work.",
+    "vi": "đào tạo",
+    "examples":
+      [
+        {
+          "en": "Everyone will take short phishing training.",
+          "vi": "Mọi người sẽ tham gia buổi đào tạo ngắn về phishing.",
+        },
+      ],
+  }
+- {
+    "slug": "awareness-n",
+    "lemma": "awareness",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "crime",
+    "ipa": "/əˈweənəs/",
+    "def": "Knowing that something exists or is important.",
+    "vi": "nhận thức",
+    "examples":
+      [
+        {
+          "en": "Security awareness is part of onboarding.",
+          "vi": "Nhận thức về bảo mật là một phần của onboarding.",
+        },
+      ],
+  }
+- {
+    "slug": "checklist-n-law-crime",
+    "lemma": "checklist",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "crime",
+    "ipa": "/ˈtʃeklɪst/",
+    "def": "A list of things to check or do.",
+    "vi": "danh sách kiểm tra",
+    "examples":
+      [
+        {
+          "en": "Add 'remove test accounts' to the release checklist.",
+          "vi": "Hãy thêm 'xoá tài khoản test' vào danh sách kiểm tra phát hành.",
+        },
+      ],
+  }
+- {
+    "slug": "harden-v",
+    "lemma": "harden",
+    "pos": "verb",
+    "cefr": "C1",
+    "topic": "crime",
+    "ipa": "/ˈhɑːdn/",
+    "def": "To make a system more difficult to attack.",
+    "vi": "gia cố bảo mật",
+    "examples":
+      [
+        {
+          "en": "We hardened the SSH config on all servers.",
+          "vi": "Chúng tôi đã gia cố cấu hình SSH trên mọi máy chủ.",
+        },
+      ],
+  }
+- {
+    "slug": "monitoring-n",
+    "lemma": "monitoring",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "crime",
+    "ipa": "/ˈmɒnɪtərɪŋ/",
+    "def": "Watching a system all the time to notice problems.",
+    "vi": "giám sát",
+    "examples":
+      [
+        {
+          "en": "Better monitoring would have caught this in minutes.",
+          "vi": "Giám sát tốt hơn đã có thể phát hiện việc này trong vài phút.",
+        },
+      ],
+  }
+- {
+    "slug": "security-alert-n",
+    "lemma": "alert",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "crime",
+    "ipa": "/əˈlɜːt/",
+    "def": "An automatic message that warns about a problem.",
+    "vi": "cảnh báo tự động",
+    "examples":
+      [
+        {
+          "en": "We added an alert for logins from new countries.",
+          "vi": "Chúng tôi thêm cảnh báo tự động cho đăng nhập từ quốc gia mới.",
+        },
+      ],
+  }
+- {
+    "slug": "lessons-learned-n",
+    "lemma": "lessons learned",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "B2",
+    "topic": "crime",
+    "ipa": "/ˌlesnz ˈlɜːnd/",
+    "def": "Useful knowledge gained from a past problem.",
+    "vi": "bài học rút ra",
+    "examples":
+      [
+        {
+          "en": "Share the lessons learned with the other teams.",
+          "vi": "Hãy chia sẻ bài học rút ra với các nhóm khác.",
+        },
+      ],
+  }
+- {
+    "slug": "risk-n-law-crime",
+    "lemma": "risk",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "crime",
+    "ipa": "/rɪsk/",
+    "def": "The chance that something bad will happen.",
+    "vi": "rủi ro",
+    "examples":
+      [
+        {
+          "en": "The remaining risk is low but not zero.",
+          "vi": "Rủi ro còn lại thấp nhưng không bằng không.",
+        },
+      ],
+  }
+- {
+    "slug": "accountable-adj-law-crime",
+    "lemma": "accountable",
+    "pos": "adjective",
+    "cefr": "C1",
+    "topic": "crime",
+    "ipa": "/əˈkaʊntəbl/",
+    "def": "Responsible for something and expected to explain it.",
+    "vi": "chịu trách nhiệm",
+    "examples":
+      [
+        {
+          "en": "Each team is accountable for its own secrets.",
+          "vi": "Mỗi nhóm chịu trách nhiệm về secret của mình.",
+        },
+      ],
+  }
+- {
+    "slug": "sign-off-n-law-crime",
+    "lemma": "sign-off",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "crime",
+    "ipa": "/ˈsaɪn ɒf/",
+    "def": "Final approval that work is finished.",
+    "vi": "sự phê duyệt cuối",
+    "examples":
+      [
+        {
+          "en": "We need security sign-off before closing the incident.",
+          "vi": "Chúng ta cần phê duyệt cuối của nhóm bảo mật trước khi đóng sự cố.",
+        },
+      ],
+  }
+- {
+    "slug": "follow-through-n",
+    "lemma": "follow-through",
+    "pos": "noun",
+    "cefr": "C1",
+    "topic": "crime",
+    "ipa": "/ˈfɒləʊ θruː/",
+    "def": "Finishing all the work you said you would do.",
+    "vi": "sự thực hiện đến cùng",
+    "examples":
+      [
+        {
+          "en": "Good follow-through matters more than a long report.",
+          "vi": "Thực hiện đến cùng quan trọng hơn một bản báo cáo dài.",
+        },
+      ],
+  }
+- {
+    "slug": "in-place-phr",
+    "lemma": "in place",
+    "pos": "phrase",
+    "kind": "phrase",
+    "cefr": "B2",
+    "topic": "crime",
+    "ipa": "/ɪn ˈpleɪs/",
+    "def": "Ready and working.",
+    "vi": "đã được áp dụng",
+    "examples":
+      [
+        {
+          "en": "The new controls are now in place.",
+          "vi": "Các biện pháp kiểm soát mới đã được áp dụng.",
+        },
+      ],
+  }
+- {
+    "slug": "vendor-n-law-crime",
+    "lemma": "vendor",
+    "pos": "noun",
+    "cefr": "B2",
+    "topic": "crime",
+    "ipa": "/ˈvendə/",
+    "def": "A company that sells a product or service to you.",
+    "vi": "nhà cung cấp",
+    "examples":
+      [
+        {
+          "en": "The vendor confirmed their patch is live.",
+          "vi": "Nhà cung cấp xác nhận bản vá của họ đã chạy.",
+        },
+      ],
+  }
+- {
+    "slug": "confirm-v-law-crime",
+    "lemma": "confirm",
+    "pos": "verb",
+    "cefr": "A2",
+    "topic": "crime",
+    "ipa": "/kənˈfɜːm/",
+    "def": "To say or show that something is true or certain.",
+    "vi": "xác nhận",
+    "examples":
+      [
+        {
+          "en": "Can you confirm that the old key no longer works?",
+          "vi": "Bạn xác nhận giúp khoá cũ không còn hoạt động được không?",
+        },
+      ],
+  }
+- {
+    "slug": "close-out-phr",
+    "lemma": "close out",
+    "pos": "phrasal_verb",
+    "kind": "phrasal",
+    "cefr": "C1",
+    "topic": "crime",
+    "ipa": "/ˌkləʊz ˈaʊt/",
+    "def": "To finish and formally end a piece of work.",
+    "vi": "kết thúc, đóng lại",
+    "examples":
+      [
+        {
+          "en": "We'll close out the incident once all items are done.",
+          "vi": "Chúng tôi sẽ đóng sự cố khi mọi việc đã xong.",
+        },
+      ],
+  }
+- {
+    "slug": "improvement-n-law-crime",
+    "lemma": "improvement",
+    "pos": "noun",
+    "cefr": "B1",
+    "topic": "crime",
+    "ipa": "/ɪmˈpruːvmənt/",
+    "def": "A change that makes something better.",
+    "vi": "cải tiến",
+    "examples":
+      [
+        {
+          "en": "List one improvement per team in the follow-up doc.",
+          "vi": "Hãy liệt kê một cải tiến cho mỗi nhóm trong tài liệu theo dõi.",
+        },
+      ],
+  }
+- {
+    "slug": "tabletop-exercise-n",
+    "lemma": "tabletop exercise",
+    "pos": "noun",
+    "kind": "collocation",
+    "cefr": "C1",
+    "topic": "crime",
+    "ipa": "/ˈteɪbltɒp ˌeksəsaɪz/",
+    "def": "A practice meeting where a team talks through a fake incident.",
+    "vi": "diễn tập trên giấy",
+    "examples":
+      [
+        {
+          "en": "We'll run a tabletop exercise in December.",
+          "vi": "Chúng tôi sẽ tổ chức diễn tập trên giấy vào tháng Mười Hai.",
+        },
+      ],
+  }
+- {
+    "slug": "timely-adj-law-crime",
+    "lemma": "timely",
+    "pos": "adjective",
+    "cefr": "C1",
+    "topic": "crime",
+    "ipa": "/ˈtaɪmli/",
+    "def": "Happening at the right time, not late.",
+    "vi": "kịp thời",
+    "examples":
+      [
+        {
+          "en": "Thanks to timely reporting, no data left the system.",
+          "vi": "Nhờ báo cáo kịp thời, không dữ liệu nào ra khỏi hệ thống.",
+        },
+      ],
+  }
+- {
+    "slug": "reassess-v",
+    "lemma": "reassess",
+    "pos": "verb",
+    "cefr": "C1",
+    "topic": "crime",
+    "ipa": "/ˌriːəˈses/",
+    "def": "To think again about something to see if it has changed.",
+    "vi": "đánh giá lại",
+    "examples":
+      [
+        {
+          "en": "We'll reassess the risk after the migration.",
+          "vi": "Chúng tôi sẽ đánh giá lại rủi ro sau đợt migration.",
+        },
+      ],
+  }

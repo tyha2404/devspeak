@@ -1,0 +1,405 @@
+# Grammar track A1 tests (batch 1b): present continuous, word order, do/does questions, wh- questions.
+# Original items; answers stay server-side.
+- {
+    slug: g-a1-present-continuous-1,
+    type: fill_blank,
+    cefr: A1,
+    topic: grammar,
+    skin: slack,
+    sentence: "I ___ reviewing your PR right now.",
+    options: [am, is, are, do],
+    answer: 0,
+    explanation_vi: "Chủ ngữ I đi với am; thì tiếp diễn cần be + V-ing.",
+  }
+- {
+    slug: g-a1-present-continuous-2,
+    type: fill_blank,
+    cefr: A1,
+    topic: grammar,
+    skin: jira,
+    sentence: "The build ___ still running.",
+    options: [am, is, are, does],
+    answer: 1,
+    explanation_vi: "The build số ít → is + running.",
+  }
+- {
+    slug: g-a1-present-continuous-3,
+    type: fill_blank,
+    cefr: A1,
+    topic: grammar,
+    skin: slack,
+    sentence: "We are ___ (migrate) the database this week.",
+    accepted: [migrating],
+    explanation_vi: "Bỏ e câm rồi thêm -ing: migrate → migrating.",
+  }
+- {
+    slug: g-a1-present-continuous-4,
+    type: mcq_meaning,
+    cefr: A1,
+    topic: grammar,
+    stem: "Chọn câu đúng.",
+    question: "Câu nào nói đúng việc bạn đang làm lúc này?",
+    options:
+      [
+        "I fixing the bug now.",
+        "I'm fixing the bug now.",
+        "I fix now the bug.",
+        "I'm fix the bug now.",
+      ],
+    answer: 1,
+    explanation_vi: "Cần cả be (am) và V-ing: I'm fixing.",
+  }
+- {
+    slug: g-a1-present-continuous-5,
+    type: mcq_meaning,
+    cefr: A1,
+    topic: grammar,
+    stem: "Chọn câu hỏi đúng.",
+    question: "Bạn muốn hỏi đồng nghiệp có đang deploy lên staging không.",
+    options:
+      [
+        "Do you deploying to staging?",
+        "Are you deploy to staging?",
+        "Are you deploying to staging?",
+        "You deploying to staging?",
+      ],
+    answer: 2,
+    explanation_vi: "Câu hỏi thì tiếp diễn: Are + S + V-ing, không dùng do.",
+  }
+- {
+    slug: g-a1-present-continuous-6,
+    type: fill_blank,
+    cefr: A1,
+    topic: grammar,
+    skin: slack,
+    sentence: "She ___ coding today; she is in workshops.",
+    accepted: ["isn't", "is not", "'s not"],
+    explanation_vi: "Phủ định thì tiếp diễn: is not / isn't + V-ing.",
+  }
+- {
+    slug: g-a1-present-continuous-7,
+    type: mcq_meaning,
+    cefr: A1,
+    topic: grammar,
+    stem: "Thói quen hay việc lúc này?",
+    question: "Câu nào đúng?",
+    options:
+      [
+        "I usually write Java, but today I'm writing Go.",
+        "I'm usually writing Java, but today I write Go.",
+        "I usually writing Java, but today I write Go.",
+      ],
+    answer: 0,
+    explanation_vi: "Thói quen (usually) dùng hiện tại đơn; việc hôm nay dùng tiếp diễn.",
+  }
+- {
+    slug: g-a1-present-continuous-8,
+    type: fill_blank,
+    cefr: A1,
+    topic: grammar,
+    skin: jira,
+    sentence: "Two testers ___ checking the new form.",
+    options: [am, is, are, be],
+    answer: 2,
+    explanation_vi: "Two testers số nhiều → are.",
+  }
+- {
+    slug: g-a1-word-order-1,
+    type: mcq_meaning,
+    cefr: A1,
+    topic: grammar,
+    stem: "Chọn câu đúng trật tự.",
+    question: "Câu nào đúng?",
+    options:
+      [
+        "She fixed quickly the bug.",
+        "She quickly the bug fixed.",
+        "She fixed the bug quickly.",
+        "Fixed she the bug quickly.",
+      ],
+    answer: 2,
+    explanation_vi: "S + V + O, trạng từ cách thức đứng sau tân ngữ.",
+  }
+- {
+    slug: g-a1-word-order-2,
+    type: mcq_meaning,
+    cefr: A1,
+    topic: grammar,
+    stem: "Viết cập nhật có chủ ngữ.",
+    question: "“Đã merge PR rồi” nên viết là…",
+    options: ["Already merged the PR.", "I merged the PR.", "Merged I the PR.", "The PR I merged."],
+    answer: 1,
+    explanation_vi: "Câu tiếng Anh cần chủ ngữ: I merged the PR.",
+  }
+- {
+    slug: g-a1-word-order-3,
+    type: fill_blank,
+    cefr: A1,
+    topic: grammar,
+    skin: slack,
+    sentence: "I ___ check my email before stand-up.",
+    options: [always, the, it, at],
+    answer: 0,
+    explanation_vi: "Trạng từ tần suất always đứng trước động từ thường check.",
+  }
+- {
+    slug: g-a1-word-order-4,
+    type: mcq_meaning,
+    cefr: A1,
+    topic: grammar,
+    stem: "Nơi chốn và thời gian.",
+    question: "Câu nào đúng trật tự?",
+    options:
+      [
+        "We deploy every Friday the app to staging.",
+        "We deploy the app to staging every Friday.",
+        "Every Friday we the app deploy to staging.",
+      ],
+    answer: 1,
+    explanation_vi: "V + O + nơi chốn + thời gian.",
+  }
+- {
+    slug: g-a1-word-order-5,
+    type: fill_blank,
+    cefr: A1,
+    topic: grammar,
+    skin: jira,
+    sentence: "___ crashes on older phones.",
+    accepted: [It, it],
+    explanation_vi: "Câu tiếng Anh cần chủ ngữ; dùng it cho ứng dụng hoặc lỗi.",
+  }
+- {
+    slug: g-a1-word-order-6,
+    type: fill_blank,
+    cefr: A1,
+    topic: grammar,
+    skin: slack,
+    sentence: "Can you send ___ the link?",
+    options: [me, I, my, mine],
+    answer: 0,
+    explanation_vi: "Send + người (me) + vật (the link).",
+  }
+- {
+    slug: g-a1-word-order-7,
+    type: mcq_meaning,
+    cefr: A1,
+    topic: grammar,
+    stem: "Trạng từ với be.",
+    question: "Câu nào đúng?",
+    options:
+      [
+        "The dashboard usually is empty.",
+        "The dashboard is usually empty.",
+        "Usually the dashboard empty is.",
+      ],
+    answer: 1,
+    explanation_vi: "Với be, trạng từ tần suất đứng sau be.",
+  }
+- {
+    slug: g-a1-word-order-8,
+    type: fill_blank,
+    cefr: A1,
+    topic: grammar,
+    skin: pr,
+    sentence: "Tuan reviewed ___ carefully.",
+    options: [my code, code my, my, carefully],
+    answer: 0,
+    explanation_vi: "Tân ngữ my code đứng ngay sau động từ, trạng từ đứng sau tân ngữ.",
+  }
+- {
+    slug: g-a1-questions-1,
+    type: fill_blank,
+    cefr: A1,
+    topic: grammar,
+    skin: jira,
+    sentence: "___ the app support dark mode?",
+    options: [Do, Does, Is, Are],
+    answer: 1,
+    explanation_vi: "The app số ít + động từ thường support → does.",
+  }
+- {
+    slug: g-a1-questions-2,
+    type: fill_blank,
+    cefr: A1,
+    topic: grammar,
+    skin: slack,
+    sentence: "___ you use Docker at work?",
+    options: [Do, Does, Are, Is],
+    answer: 0,
+    explanation_vi: "You đi với do.",
+  }
+- {
+    slug: g-a1-questions-3,
+    type: fill_blank,
+    cefr: A1,
+    topic: grammar,
+    skin: jira,
+    sentence: "The export button doesn't ___ (download) the file.",
+    accepted: [download],
+    explanation_vi: "Sau doesn't động từ về nguyên mẫu: download.",
+  }
+- {
+    slug: g-a1-questions-4,
+    type: mcq_meaning,
+    cefr: A1,
+    topic: grammar,
+    stem: "Chọn câu phủ định đúng.",
+    question: "“Nó không chạy được” là…",
+    options: ["It doesn't works.", "It don't work.", "It doesn't work.", "It isn't work."],
+    answer: 2,
+    explanation_vi: "It → doesn't + động từ nguyên mẫu work.",
+  }
+- {
+    slug: g-a1-questions-5,
+    type: mcq_meaning,
+    cefr: A1,
+    topic: grammar,
+    stem: "Be hay do/does?",
+    question: "Bạn muốn hỏi server có đang sập không.",
+    options:
+      [
+        "Does the server is down?",
+        "Is the server down?",
+        "Does the server down?",
+        "Do the server is down?",
+      ],
+    answer: 1,
+    explanation_vi: "Down đi với be, nên đảo is, không dùng does.",
+  }
+- {
+    slug: g-a1-questions-6,
+    type: fill_blank,
+    cefr: A1,
+    topic: grammar,
+    skin: slack,
+    sentence: "Does the bug happen on Safari? — Yes, it ___.",
+    accepted: [does],
+    explanation_vi: "Trả lời ngắn lặp lại trợ động từ: Yes, it does.",
+  }
+- {
+    slug: g-a1-questions-7,
+    type: fill_blank,
+    cefr: A1,
+    topic: grammar,
+    skin: email,
+    sentence: "We ___ merge without a review.",
+    accepted: ["don't", "do not"],
+    explanation_vi: "We đi với don't / do not.",
+  }
+- {
+    slug: g-a1-questions-8,
+    type: mcq_meaning,
+    cefr: A1,
+    topic: grammar,
+    stem: "Chọn câu đúng.",
+    question: "“Linh không có quyền admin.”",
+    options:
+      [
+        "Linh doesn't has admin rights.",
+        "Linh don't have admin rights.",
+        "Linh doesn't have admin rights.",
+        "Linh isn't have admin rights.",
+      ],
+    answer: 2,
+    explanation_vi: "Linh = she → doesn't; has trở về have.",
+  }
+- {
+    slug: g-a1-wh-questions-1,
+    type: fill_blank,
+    cefr: A1,
+    topic: grammar,
+    skin: jira,
+    sentence: "___ owns this ticket? — Mai does.",
+    options: [Who, Where, When, Why],
+    answer: 0,
+    explanation_vi: "Hỏi người phụ trách → who.",
+  }
+- {
+    slug: g-a1-wh-questions-2,
+    type: fill_blank,
+    cefr: A1,
+    topic: grammar,
+    skin: slack,
+    sentence: "___ is the error log? — In the logs bucket.",
+    options: [What, Where, Who, When],
+    answer: 1,
+    explanation_vi: "Câu trả lời là nơi chốn → where.",
+  }
+- {
+    slug: g-a1-wh-questions-3,
+    type: fill_blank,
+    cefr: A1,
+    topic: grammar,
+    skin: email,
+    sentence: "When ___ you need the report?",
+    options: [do, does, are, is],
+    answer: 0,
+    explanation_vi: "You + động từ thường need → do.",
+  }
+- {
+    slug: g-a1-wh-questions-4,
+    type: mcq_meaning,
+    cefr: A1,
+    topic: grammar,
+    stem: "Chọn câu hỏi đúng.",
+    question: "“Lỗi ở đâu?”",
+    options:
+      ["The bug is where?", "Where is the bug?", "Where the bug is?", "Where does the bug is?"],
+    answer: 1,
+    explanation_vi: "Từ để hỏi đứng đầu, sau đó là be rồi chủ ngữ.",
+  }
+- {
+    slug: g-a1-wh-questions-5,
+    type: mcq_meaning,
+    cefr: A1,
+    topic: grammar,
+    stem: "Hỏi chủ ngữ.",
+    question: "Bạn muốn hỏi ai bảo trì SDK mobile.",
+    options:
+      [
+        "Who does maintain the mobile SDK?",
+        "Who maintains the mobile SDK?",
+        "Who maintain the mobile SDK?",
+        "Who is maintain the mobile SDK?",
+      ],
+    answer: 1,
+    explanation_vi: "Who là chủ ngữ: không dùng does, động từ thêm -s.",
+  }
+- {
+    slug: g-a1-wh-questions-6,
+    type: fill_blank,
+    cefr: A1,
+    topic: grammar,
+    skin: slack,
+    sentence: "What time ___ the stand-up start?",
+    accepted: [does],
+    explanation_vi: "The stand-up số ít + động từ thường → does.",
+  }
+- {
+    slug: g-a1-wh-questions-7,
+    type: mcq_meaning,
+    cefr: A1,
+    topic: grammar,
+    stem: "Chọn câu hỏi đúng.",
+    question: "“Sao build bị lỗi?”",
+    options:
+      [
+        "Why the build fails?",
+        "Why does the build fail?",
+        "Why does the build fails?",
+        "Why is the build fail?",
+      ],
+    answer: 1,
+    explanation_vi: "Why + does + S + V nguyên mẫu.",
+  }
+- {
+    slug: g-a1-wh-questions-8,
+    type: fill_blank,
+    cefr: A1,
+    topic: grammar,
+    skin: vscode,
+    sentence: "___ do I connect to the VPN? — Use the company client.",
+    options: [How, Who, Where, When],
+    answer: 0,
+    explanation_vi: "Hỏi cách làm → how.",
+  }

@@ -4,10 +4,283 @@ sort: 21
 code: T21
 kind: topic
 cefr: B2
-status: draft
-title: { en: "Business & Economy", vi: "Kinh doanh & kinh tế" }
-summary_vi: "Từ vựng về khởi nghiệp, thị trường, doanh thu, lạm phát, đầu tư và cạnh tranh."
+status: published
+title:
+  en: Product Thinking & Business Context
+  vi: Tư duy sản phẩm & bối cảnh kinh doanh
+summary_vi: Hiểu lý do kinh doanh phía sau một yêu cầu kỹ thuật. Luyện hỏi về
+  người dùng, giá trị, chỉ số và giới hạn trước khi chọn giải pháp.
 can_do:
-  - "Mô tả mô hình kinh doanh và thị trường của một công ty"
-  - "Hiểu tin tức kinh tế cơ bản như lạm phát, tăng trưởng"
-lessons: []
+  - Làm rõ vấn đề người dùng và giá trị của tính năng
+  - Trao đổi phạm vi, ưu tiên và chỉ số đánh giá sản phẩm
+lessons:
+  - slug: t21-l1
+    kind: vocab
+    title:
+      en: "Set 1: Users & problems"
+      vi: "Bộ 1: Người dùng & vấn đề"
+    senses:
+      - t21-user-n
+      - t21-customer-n
+      - t21-target-user-n
+      - t21-pain-point-n
+      - t21-use-case-n
+      - t21-problem-statement-n
+      - t21-need-n
+      - t21-goal-n
+      - t21-context-n
+      - t21-value-n
+    questions: []
+  - slug: t21-l2
+    kind: vocab
+    title:
+      en: "Set 2: Customer interviews"
+      vi: "Bộ 2: Phỏng vấn người dùng"
+    senses:
+      - t21-customer-interview-n
+      - t21-open-question-n
+      - t21-leading-question-n
+      - t21-observation-n
+      - t21-evidence-n
+      - t21-assumption-n
+      - t21-validate-v
+      - t21-listen-v
+      - t21-follow-up-n
+      - t21-behaviour-n
+      - t21-quote-v
+      - t21-insight-n
+    questions: []
+  - slug: t21-l3
+    kind: vocab
+    title:
+      en: "Set 3: Requirements & scope"
+      vi: "Bộ 3: Yêu cầu & phạm vi"
+    senses:
+      - t21-requirement-n
+      - t21-scope-n
+      - t21-non-goal-n
+      - t21-acceptance-criteria-n
+      - t21-deliverable-n
+      - t21-constraint-n
+      - t21-dependency-n
+      - t21-stakeholder-n
+      - t21-clarify-v
+      - t21-confirm-v
+      - t21-ambiguity-n
+      - t21-out-of-scope-phr
+      - t21-in-scope-phr
+      - t21-edge-case-n
+    questions: []
+  - slug: t21-l4
+    kind: vocab
+    title:
+      en: "Set 4: Acceptance criteria"
+      vi: "Bộ 4: Điều kiện chấp nhận"
+    senses:
+      - t21-priority-n
+      - t21-prioritize-v
+      - t21-must-have-n
+      - t21-nice-to-have-n
+      - t21-urgency-n
+      - t21-impact-n
+      - t21-effort-n
+      - t21-estimate-v
+      - t21-deadline-n
+      - t21-milestone-n
+      - t21-timeline-n
+      - t21-roadmap-n
+      - t21-backlog-n
+      - t21-defer-v
+      - t21-trade-off-n
+      - t21-opportunity-cost-n
+    questions: []
+  - slug: t21-l5
+    kind: vocab
+    title:
+      en: "Set 5: Priorities & opportunity cost"
+      vi: "Bộ 5: Ưu tiên & chi phí cơ hội"
+    senses:
+      - t21-metric-n
+      - t21-conversion-rate-n
+      - t21-retention-n
+      - t21-engagement-n
+      - t21-cohort-n
+      - t21-baseline-n
+      - t21-target-n
+      - t21-success-criteria-n
+      - t21-guardrail-metric-n
+      - t21-measure-v
+      - t21-trend-n
+      - t21-sample-n
+      - t21-data-point-n
+      - t21-confidence-interval-n
+      - t21-statistically-significant-adj
+      - t21-uplift-n
+      - t21-exposure-n
+      - t21-duration-n
+    questions: []
+  - slug: t21-l6
+    kind: vocab
+    title:
+      en: "Set 6: Product metrics"
+      vi: "Bộ 6: Chỉ số sản phẩm"
+    senses:
+      - t21-feasibility-n
+      - t21-viable-adj
+      - t21-alternative-n
+      - t21-option-n
+      - t21-benefit-n
+      - t21-drawback-n
+      - t21-cost-n
+      - t21-budget-n
+      - t21-capacity-n
+      - t21-available-adj
+      - t21-short-term-adj
+      - t21-long-term-adj
+      - t21-technical-debt-n
+      - t21-maintainability-n
+      - t21-risk-n
+      - t21-uncertainty-n
+      - t21-likelihood-n
+      - t21-mitigation-n
+      - t21-contingency-n
+      - t21-reversible-adj
+    questions: []
+  - slug: t21-l7
+    kind: vocab
+    title:
+      en: "Set 7: Experiments & MVPs"
+      vi: "Bộ 7: Thử nghiệm & sản phẩm tối thiểu"
+    senses:
+      - t21-mvp-n
+      - t21-prototype-n
+      - t21-proof-of-concept-n
+      - t21-hypothesis-n
+      - t21-experiment-n
+      - t21-pilot-n
+      - t21-beta-tester-n
+      - t21-early-adopter-n
+      - t21-holdout-n
+      - t21-variant-n
+      - t21-a-b-test-n
+      - t21-traffic-split-n
+      - t21-randomly-adv
+      - t21-assign-v
+      - t21-ramp-up-pv
+      - t21-feature-flag-n
+      - t21-kill-switch-n
+      - t21-roll-back-pv
+      - t21-iteration-n
+      - t21-learn-v
+      - t21-feedback-n
+      - t21-novelty-effect-n
+    questions: []
+  - slug: t21-l8
+    kind: vocab
+    title:
+      en: "Set 8: Pricing & customer value"
+      vi: "Bộ 8: Giá & giá trị khách hàng"
+    senses:
+      - t21-pricing-plan-n
+      - t21-subscription-n
+      - t21-free-trial-n
+      - t21-renewal-date-n
+      - t21-monthly-adj
+      - t21-annual-adj
+      - t21-seat-n
+      - t21-billing-cycle-n
+      - t21-usage-n
+      - t21-pay-as-you-go-adj
+      - t21-tier-n
+      - t21-quota-n
+      - t21-unit-price-n
+      - t21-flat-rate-n
+      - t21-afford-v
+      - t21-worth-adj
+      - t21-value-for-money-phr
+      - t21-customer-review-n
+      - t21-churn-n
+      - t21-revenue-n
+      - t21-margin-n
+      - t21-break-even-v
+      - t21-payback-period-n
+      - t21-economies-of-scale-n
+    questions: []
+  - slug: t21-l9
+    kind: vocab
+    title:
+      en: "Set 9: Roadmaps & stakeholder updates"
+      vi: "Bộ 9: Lộ trình & cập nhật bên liên quan"
+    senses:
+      - t21-status-update-n
+      - t21-progress-n
+      - t21-owner-n
+      - t21-decision-maker-n
+      - t21-approver-n
+      - t21-sign-off-n
+      - t21-reviewer-n
+      - t21-approval-n
+      - t21-pending-adj
+      - t21-ahead-of-schedule-phr
+      - t21-behind-schedule-phr
+      - t21-extend-a-deadline-phr
+      - t21-last-minute-adj
+      - t21-forecast-n
+      - t21-actuals-n
+      - t21-cost-overrun-n
+      - t21-buffer-v
+      - t21-readiness-n
+      - t21-coverage-n
+      - t21-transition-n
+      - t21-handover-n
+      - t21-announcement-n
+      - t21-advance-notice-n
+      - t21-effective-date-n
+      - t21-go-live-n
+      - t21-communicate-v
+      - t21-transparency-n
+      - t21-expectation-n
+    questions: []
+  - slug: t21-l10
+    kind: vocab
+    title:
+      en: "Set 10: A product trade-off proposal"
+      vi: "Bộ 10: Đề xuất đánh đổi sản phẩm"
+    senses:
+      - t21-proposal-n
+      - t21-rationale-n
+      - t21-consequence-n
+      - t21-premise-n
+      - t21-working-theory-n
+      - t21-unknown-n
+      - t21-falsifiable-adj
+      - t21-sanity-check-n
+      - t21-substantiate-v
+      - t21-disprove-v
+      - t21-counterargument-n
+      - t21-common-ground-n
+      - t21-compromise-n
+      - t21-negotiate-v
+      - t21-consensus-n
+      - t21-buy-in-n
+      - t21-align-v
+      - t21-accountable-adj
+      - t21-take-ownership-phr
+      - t21-follow-through-phr
+      - t21-action-item-n
+      - t21-definition-of-done-n
+      - t21-review-date-n
+      - t21-retrospective-n
+      - t21-lesson-learned-n
+      - t21-data-driven-adj
+      - t21-executive-summary-n
+      - t21-key-takeaway-n
+      - t21-overview-n
+      - t21-findings-n
+      - t21-recommendation-n
+      - t21-way-forward-n
+      - t21-course-correct-v
+      - t21-fine-tune-v
+      - t21-worthwhile-adj
+      - t21-customer-value-n
+    questions: []

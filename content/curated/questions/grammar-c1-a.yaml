@@ -1,0 +1,397 @@
+# Grammar track C1 tests (batch c1-a). Original items; answers stay server-side.
+# --- g-c1-past-perfect-continuous
+- slug: g-c1-past-perfect-continuous-1
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: pr
+  sentence: "The node ran out of disk at 04:12; the log rotator ___ silently since the kernel upgrade."
+  options: [had been failing, has been failing, was failed, had failing]
+  answer: 0
+  explanation_vi: "Quá trình âm thầm kéo dài tới mốc quá khứ (04:12) → had been + V-ing."
+- slug: g-c1-past-perfect-continuous-2
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: email
+  sentence: "We ___ about the licensing risk for months, so the vendor's price rise came as no surprise."
+  options: [had been knowing, had known, have been knowing, were knowing]
+  answer: 1
+  explanation_vi: "Know là động từ trạng thái nên dùng had + V3 (had known), kể cả khi có for months."
+- slug: g-c1-past-perfect-continuous-3
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: slack
+  sentence: "___ on a single replica for weeks, the database had no failover when the zone went down."
+  options: [Having run been, Having been ran, Having been running, Had been running]
+  answer: 2
+  explanation_vi: "Mệnh đề phân từ tiếp diễn chủ động: Having been + V-ing (running)."
+- slug: g-c1-past-perfect-continuous-4
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: jira
+  sentence: "By the time the client escalated, the scheduler ___ (skip – quá khứ hoàn thành tiếp diễn) nightly jobs for a week."
+  accepted: ["had been skipping"]
+  explanation_vi: "Việc lặp lại kéo dài một tuần trước mốc quá khứ (escalated) → had been skipping."
+- slug: g-c1-past-perfect-continuous-5
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: slack
+  sentence: "Nobody was paged because the alert ___ (not / route – quá khứ hoàn thành tiếp diễn) to the on-call channel."
+  accepted: ["hadn't been routing", "had not been routing"]
+  explanation_vi: "Phủ định của quá trình kéo dài trước mốc: hadn't been + V-ing."
+- slug: g-c1-past-perfect-continuous-6
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: pr
+  sentence: "We ___ the hotfix by 9 am, but the stale pods had been serving old code all night."
+  options: [had deployed, had been deploying, have deployed, were deployed]
+  answer: 0
+  explanation_vi: "By 9 am nhấn vào việc đã xong (kết quả) → had + V3; quá trình kéo dài mới dùng had been + V-ing."
+- slug: g-c1-past-perfect-continuous-7
+  type: mcq_meaning
+  cefr: C1
+  topic: grammar
+  stem: "Viết mục Root cause trong postmortem."
+  question: "Câu nào diễn đạt đúng một nguyên nhân tích luỹ dẫn tới sự cố?"
+  options:
+    - "The service crashed because it was leaking memory for days."
+    - "The service crashed because it had been leaking memory for days."
+    - "The service had crashed because it has been leaking memory for days."
+    - "The service crashed because it had leaked memory since days."
+  answer: 1
+  explanation_vi: "For days trước mốc crashed → had been leaking; was leaking không đi với thời lượng trước mốc."
+- slug: g-c1-past-perfect-continuous-8
+  type: mcq_meaning
+  cefr: C1
+  topic: grammar
+  stem: "Giải thích bối cảnh quyết định rewrite."
+  question: "“Tụi mình đã cân nhắc viết lại suốt mấy tháng, nên sự cố chỉ là giọt nước tràn ly.” là…"
+  options:
+    - "We have been considering a rewrite for months, so the outage simply tipped the balance."
+    - "We were considering a rewrite for months, so the outage had simply tipped the balance."
+    - "We had been considering a rewrite for months, so the outage simply tipped the balance."
+    - "We had considered a rewrite since months, so the outage simply tipped the balance."
+  answer: 2
+  explanation_vi: "Quá trình cân nhắc kéo dài trước mốc quá khứ (tipped) → had been considering; dùng for months, không dùng since months."
+# --- g-c1-future-perfect
+- slug: g-c1-future-perfect-1
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: email
+  sentence: "By the time we switch DNS, every tenant ___ and verified."
+  options: [will have migrated, will be migrated, will have been migrated, has been migrated]
+  answer: 2
+  explanation_vi: "Tenant được hệ thống chuyển đi (bị động) và xong trước mốc → will have been + V3."
+- slug: g-c1-future-perfect-2
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: jira
+  sentence: "By the time we ___ the feature flag, the old billing path will have been retired."
+  options: [will flip, flip, will have flipped, are flipping]
+  answer: 1
+  explanation_vi: "Mệnh đề by the time dùng hiện tại đơn (flip), không dùng will."
+- slug: g-c1-future-perfect-3
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: email
+  sentence: "Assuming no throttling, the backfill ___ by Monday, though we can't guarantee it."
+  options: [should have completed, should has completed, must have complete, will completed]
+  answer: 0
+  explanation_vi: "Rào đón dự kiến (chưa cam kết) → should have + V3."
+- slug: g-c1-future-perfect-4
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: email
+  sentence: "Customers are expected ___ to version 4 by the end of March."
+  options: [to upgrade having, having upgraded, to be upgrading, to have upgraded]
+  answer: 3
+  explanation_vi: "Be expected + to have + V3: văn bản chính thức nói việc hoàn tất trước mốc."
+- slug: g-c1-future-perfect-5
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: slack
+  sentence: "By midnight, all API keys ___ (rotate – tương lai hoàn thành, bị động)."
+  accepted: ["will have been rotated"]
+  explanation_vi: "Keys không tự xoay vòng → bị động will have been + V3."
+- slug: g-c1-future-perfect-6
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: jira
+  sentence: "We ___ (not / finish – tương lai hoàn thành) the load tests before the code freeze, so the date is at risk."
+  accepted: ["won't have finished", "will not have finished"]
+  explanation_vi: "Cảnh báo việc chưa xong trước mốc → won't have + V3."
+- slug: g-c1-future-perfect-7
+  type: mcq_meaning
+  cefr: C1
+  topic: grammar
+  stem: "Mở đầu email thông báo cho khách hàng."
+  question: "“Như chắc quý vị đã để ý, môi trường staging được dựng lại qua đêm.” là…"
+  options:
+    - "As you will notice, the staging environment was rebuilt overnight."
+    - "As you will have noticed, the staging environment was rebuilt overnight."
+    - "As you have been noticing, the staging environment was rebuilt overnight."
+    - "As you would notice, the staging environment had rebuilt overnight."
+  answer: 1
+  explanation_vi: "Will have + V3 còn dùng để suy đoán lịch sự về điều người đọc chắc đã thấy."
+- slug: g-c1-future-perfect-8
+  type: mcq_meaning
+  cefr: C1
+  topic: grammar
+  stem: "Kế hoạch cutover trong RFC."
+  question: "Câu nào đúng và phù hợp văn phong RFC?"
+  options:
+    - "Prior to the cutover, all services will have adopted the new auth library."
+    - "Prior to the cutover, all services will adopted the new auth library."
+    - "Prior to the cutover will have, all services adopted the new auth library."
+    - "Prior to the cutover, all services have will adopted the new auth library."
+  answer: 0
+  explanation_vi: "Prior to + mốc, S + will have + V3: trang trọng, nêu điều kiện tiên quyết."
+# --- g-c1-future-perfect-continuous
+- slug: g-c1-future-perfect-continuous-1
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: slack
+  sentence: "By June, the new cluster ___ without an outage for a full year."
+  options: [will be running, will have been running, will have run been, has been running]
+  answer: 1
+  explanation_vi: "Đo thời lượng (for a full year) tính tới mốc tương lai (by June) → will have been + V-ing."
+- slug: g-c1-future-perfect-continuous-2
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: jira
+  sentence: "By Friday, the canary ___ ten million requests, so we'll have plenty of data."
+  options: [will have been serving, will be served, will have served, will serving]
+  answer: 2
+  explanation_vi: "Đếm kết quả hoàn tất (ten million requests) → will have + V3, không phải dạng tiếp diễn."
+- slug: g-c1-future-perfect-continuous-3
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: email
+  sentence: "In October, I ___ this codebase for two years, so I can mentor the new hires."
+  options: [will have known, will have been knowing, will be knowing, have been knowing]
+  answer: 0
+  explanation_vi: "Know là động từ trạng thái → will have known, không dùng tiếp diễn."
+- slug: g-c1-future-perfect-continuous-4
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: slack
+  sentence: "When the review ___, the soak test will have been running for seventy-two hours."
+  options: [will start, will have started, starts, is going to start]
+  answer: 2
+  explanation_vi: "Mệnh đề thời gian với when dùng hiện tại đơn (starts)."
+- slug: g-c1-future-perfect-continuous-5
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: jira
+  sentence: "By the next release, we ___ (wait – tương lai hoàn thành tiếp diễn) on the vendor fix for six months."
+  accepted: ["will have been waiting", "'ll have been waiting"]
+  explanation_vi: "Nhấn mạnh độ dài chờ đợi tính tới mốc → will have been waiting."
+- slug: g-c1-future-perfect-continuous-6
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: slack
+  sentence: "The pilot ___ (not / run – tương lai hoàn thành tiếp diễn) long enough to give us reliable numbers."
+  accepted: ["won't have been running", "will not have been running"]
+  explanation_vi: "Phủ định: won't have been + V-ing."
+- slug: g-c1-future-perfect-continuous-7
+  type: mcq_meaning
+  cefr: C1
+  topic: grammar
+  stem: "Hỏi trong buổi họp lập kế hoạch."
+  question: "Câu hỏi nào đúng ngữ pháp?"
+  options:
+    - "How long will the migration been running by the time the client wakes up?"
+    - "How long will the migration have been running by the time the client wakes up?"
+    - "How long the migration will have been running by the time the client will wake up?"
+    - "How long will have the migration been running by the time the client wakes up?"
+  answer: 1
+  explanation_vi: "How long + will + S + have been + V-ing; mệnh đề by the time dùng hiện tại đơn."
+- slug: g-c1-future-perfect-continuous-8
+  type: mcq_meaning
+  cefr: C1
+  topic: grammar
+  stem: "Giải thích cho quản lý vì sao đồng nghiệp nghỉ sáng mai."
+  question: "“Mai anh ấy sẽ kiệt sức; anh ấy sẽ gỡ lỗi suốt cả đêm.” là…"
+  options:
+    - "He'll be worn out tomorrow; he'll be debugging all night."
+    - "He'll be worn out tomorrow; he has been debugging all night."
+    - "He'll be worn out tomorrow; he'll have debugged all night."
+    - "He'll be worn out tomorrow; he'll have been debugging all night."
+  answer: 3
+  explanation_vi: "Giải thích trạng thái tại mốc tương lai bằng một quá trình kéo dài trước đó → will have been + V-ing."
+# --- g-c1-modal-perfect
+- slug: g-c1-modal-perfect-1
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: pr
+  sentence: "A missing WHERE clause ___ every customer record; luckily the migration ran on staging first."
+  options: [must have deleted, could have deleted, should have deleted, needn't have deleted]
+  answer: 1
+  explanation_vi: "Khả năng đã có nhưng không xảy ra → could have + V3."
+- slug: g-c1-modal-perfect-2
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: slack
+  sentence: "We ___ the whole team; the alert turned out to be a false positive."
+  options: [didn't need to page, mustn't have paged, needn't have paged, couldn't have paged]
+  answer: 2
+  explanation_vi: "Đã gọi cả đội nhưng hoá ra thừa → needn't have + V3."
+- slug: g-c1-modal-perfect-3
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: email
+  sentence: "We ___ from backup, because the replica was intact, so we saved several hours."
+  options: [didn't need to restore, needn't have restored, shouldn't have restored, mustn't restore]
+  answer: 0
+  explanation_vi: "Không cần nên đã không làm (tiết kiệm được thời gian) → didn't need to + V."
+- slug: g-c1-modal-perfect-4
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: pr
+  sentence: "The change ___ by a second engineer, but it was merged at 2 am without approval."
+  options:
+    [must have been reviewed, should have been reviewed, could have reviewed, might be reviewed]
+  answer: 1
+  explanation_vi: "Việc lẽ ra phải làm nhưng không làm, chủ ngữ là change → should have been + V3. Must have là suy luận."
+- slug: g-c1-modal-perfect-5
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: slack
+  sentence: "With the dashboards we had, we ___ (not / can – modal hoàn thành; detect) the outage any sooner."
+  accepted: ["couldn't have detected", "could not have detected"]
+  explanation_vi: "Bất khả thi trong quá khứ → couldn't have + V3."
+- slug: g-c1-modal-perfect-6
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: jira
+  sentence: "We ___ (should – modal hoàn thành; rehearse) the failover before peak season."
+  accepted: ["should have rehearsed", "should've rehearsed"]
+  explanation_vi: "Nhận xét hồi tưởng, lẽ ra nên làm → should have + V3."
+- slug: g-c1-modal-perfect-7
+  type: mcq_meaning
+  cefr: C1
+  topic: grammar
+  stem: "Postmortem: phần What went well."
+  question: "“Nếu không có circuit breaker, cơn bão retry đã làm sập gateway rồi.” là…"
+  options:
+    - "Without the circuit breaker, the retry storm would take down the gateway."
+    - "Without the circuit breaker, the retry storm must have taken down the gateway."
+    - "Without the circuit breaker, the retry storm would have taken down the gateway."
+    - "Without the circuit breaker, the retry storm should have taken down the gateway."
+  answer: 2
+  explanation_vi: "Hệ quả giả định trong quá khứ → would have + V3."
+- slug: g-c1-modal-perfect-8
+  type: mcq_meaning
+  cefr: C1
+  topic: grammar
+  stem: "Chọn câu đúng sắc thái."
+  question: "Câu nào nói rằng việc đã được làm nhưng hoá ra không cần thiết?"
+  options:
+    - "We didn't need to roll back the release."
+    - "We needn't have rolled back the release."
+    - "We shouldn't roll back the release."
+    - "We couldn't have rolled back the release."
+  answer: 1
+  explanation_vi: "Needn't have + V3 luôn ngụ ý việc đã được làm; didn't need to không khẳng định điều đó."
+# --- g-c1-mixed-conditionals
+- slug: g-c1-mixed-conditionals-1
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: pr
+  sentence: "If we had written integration tests back then, we ___ afraid to refactor now."
+  options: [wouldn't have been, wouldn't be, won't be, hadn't been]
+  answer: 1
+  explanation_vi: "Quá khứ (had written) → hiện tại (now) → would + V: wouldn't be."
+- slug: g-c1-mixed-conditionals-2
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: slack
+  sentence: "If our onboarding docs ___ clearer, the new hire wouldn't have broken staging last week."
+  options: [were, had been being, will be, are]
+  answer: 0
+  explanation_vi: "Đặc điểm lâu dài ở hiện tại (docs vẫn chưa rõ) giải thích kết quả quá khứ → If + were, would have + V3."
+- slug: g-c1-mixed-conditionals-3
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: email
+  sentence: "___ we invested in observability, we would know exactly where the latency comes from."
+  options: [If had, Have, Had, Would]
+  answer: 2
+  explanation_vi: "Đảo ngữ trang trọng: Had + S + V3 thay cho If we had invested; bỏ hẳn if."
+- slug: g-c1-mixed-conditionals-4
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: slack
+  sentence: "___ the feature flags, we would still be rolling back this release."
+  options: [Unless, But for, Except, If not]
+  answer: 1
+  explanation_vi: "But for + danh từ = nếu không có/nhờ; Unless và If not cần mệnh đề."
+- slug: g-c1-mixed-conditionals-5
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: jira
+  sentence: "If we ___ (choose – quá khứ hoàn thành) Postgres, we wouldn't need this sync service today."
+  accepted: ["had chosen", "'d chosen"]
+  explanation_vi: "Quyết định trong quá khứ → if + had + V3; kết quả hiện tại (today)."
+- slug: g-c1-mixed-conditionals-6
+  type: fill_blank
+  cefr: C1
+  topic: grammar
+  skin: slack
+  sentence: "If I weren't on call this week, I ___ (join – điều kiện, kết quả quá khứ) the offsite yesterday."
+  accepted: ["would have joined", "'d have joined", "would've joined"]
+  explanation_vi: "Hiện tại (weren't on call) → kết quả quá khứ (yesterday) → would have + V3."
+- slug: g-c1-mixed-conditionals-7
+  type: mcq_meaning
+  cefr: C1
+  topic: grammar
+  stem: "Thảo luận nợ kỹ thuật trong buổi retro."
+  question: "“Nếu hồi đó tụi mình tách monolith, giờ deploy đã nhanh hơn.” là…"
+  options:
+    - "If we split the monolith back then, deploys would have been faster now."
+    - "If we had split the monolith back then, deploys would have been faster now."
+    - "If we have split the monolith back then, deploys will be faster now."
+    - "If we had split the monolith back then, deploys would be faster now."
+  answer: 3
+  explanation_vi: "Back then → had + V3; now → would + V. Đây là điều kiện hỗn hợp quá khứ → hiện tại."
+- slug: g-c1-mixed-conditionals-8
+  type: mcq_meaning
+  cefr: C1
+  topic: grammar
+  stem: "Viết RFC, văn phong trang trọng."
+  question: "Câu đảo ngữ nào đúng?"
+  options:
+    - "Were it not for the read replicas, the launch would have taken the database down."
+    - "Was it not for the read replicas, the launch would have taken the database down."
+    - "If were it not for the read replicas, the launch would have taken the database down."
+    - "Were not it for the read replicas, the launch would have taken the database down."
+  answer: 0
+  explanation_vi: "Cấu trúc cố định: Were it not for + N (luôn là were, không có if)."

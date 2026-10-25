@@ -4,10 +4,286 @@ sort: 19
 code: T19
 kind: topic
 cefr: B1
-status: draft
-title: { en: "Cities & Urban Life", vi: "Thành phố & đời sống đô thị" }
-summary_vi: "Từ vựng về khu phố, tiện ích, chi phí sinh hoạt, dân số và quy hoạch đô thị."
+status: published
+title:
+  en: Developer Communities & Workplace Life
+  vi: Cộng đồng developer & đời sống nơi làm việc
+summary_vi: Nói về nơi sống, đi làm, sự kiện và cộng đồng nghề nghiệp. Luyện
+  giới thiệu dự án và kết nối với người mới bằng những cuộc trao đổi ngắn, có
+  mục đích.
 can_do:
-  - "So sánh cuộc sống ở thành phố và nông thôn"
-  - "Giới thiệu khu mình sống và các tiện ích xung quanh"
-lessons: []
+  - Giới thiệu bản thân và dự án trong một buổi gặp cộng đồng
+  - Trao đổi lịch, địa điểm và nhu cầu khi tham gia sự kiện
+lessons:
+  - slug: t19-l1
+    kind: vocab
+    title: { en: "Set 1: Where you live & work", vi: "Bộ 1: Nơi sống & nơi làm việc" }
+    senses:
+      [
+        neighbourhood-n,
+        apartment-n,
+        suburb-n,
+        city-centre-n,
+        office-n,
+        remote-adj,
+        hybrid-adj,
+        rent-n,
+        nearby-adv,
+        move-to-phr,
+      ]
+    questions: []
+  - slug: t19-l2
+    kind: vocab
+    title: { en: "Set 2: Commuting & schedules", vi: "Bộ 2: Đi lại & lịch làm việc" }
+    senses:
+      [
+        commute-n,
+        traffic-jam-n,
+        rush-hour-n,
+        bus-stop-n,
+        motorbike-n,
+        run-late-phr,
+        delay-n,
+        timetable-n,
+        on-time-phr,
+        push-back-phr,
+        carpool-n,
+        ride-share-n,
+      ]
+    questions: []
+  - slug: t19-l3
+    kind: vocab
+    title:
+      { en: "Set 3: Coworking & local communities", vi: "Bộ 3: Coworking & cộng đồng địa phương" }
+    senses:
+      [
+        coworking-space-n,
+        membership-n,
+        hot-desk-n,
+        phone-booth-n,
+        reserve-v,
+        community-n,
+        member-n,
+        join-v,
+        day-pass-n,
+        local-adj,
+        free-trial-n,
+        amenities-n,
+        quiet-zone-n,
+        front-desk-n,
+      ]
+    questions: []
+  - slug: t19-l4
+    kind: vocab
+    title: { en: "Set 4: Meetup introductions", vi: "Bộ 4: Làm quen tại meetup" }
+    senses:
+      [
+        meetup-n,
+        first-timer-n,
+        introduce-yourself-phr,
+        background-n,
+        interest-n,
+        name-tag-n,
+        mingle-v,
+        icebreaker-n,
+        newcomer-n,
+        regular-n,
+        field-n,
+        lightning-talk-n,
+        venue-n,
+        chat-v,
+        nice-to-meet-you-phr,
+        what-do-you-do-phr,
+      ]
+    questions: []
+  - slug: t19-l5
+    kind: vocab
+    title: { en: "Set 5: Explaining a side project", vi: "Bộ 5: Giới thiệu dự án cá nhân" }
+    senses:
+      [
+        pet-project-n,
+        open-source-adj,
+        prototype-n,
+        proof-of-concept-n,
+        use-case-n,
+        pain-point-n,
+        target-user-n,
+        solve-v,
+        beta-tester-n,
+        traction-n,
+        user-feedback-n,
+        pitch-n,
+        early-stage-adj,
+        hobby-n,
+        passion-n,
+        show-and-tell-n,
+        landing-page-n,
+        tech-stack-n,
+      ]
+    questions: []
+  - slug: t19-l6
+    kind: vocab
+    title: { en: "Set 6: Finding collaborators", vi: "Bộ 6: Tìm người cộng tác" }
+    senses:
+      [
+        collaborator-n,
+        contributor-n,
+        co-founder-n,
+        volunteer-n,
+        contribute-v,
+        good-first-issue-n,
+        core-team-n,
+        help-wanted-phr,
+        newcomer-friendly-adj,
+        chip-in-phr,
+        availability-n,
+        team-up-phr,
+        complementary-adj,
+        seek-v,
+        onboard-v,
+        pair-up-phr,
+        get-involved-phr,
+        lend-a-hand-phr,
+        expertise-n,
+        time-zone-n,
+      ]
+    questions: []
+  - slug: t19-l7
+    kind: vocab
+    title: { en: "Set 7: Event planning", vi: "Bộ 7: Tổ chức sự kiện" }
+    senses:
+      [
+        organiser-n,
+        agenda-n,
+        sponsor-n,
+        catering-n,
+        adapter-n,
+        microphone-n,
+        registration-n,
+        capacity-n,
+        headcount-n,
+        logistics-n,
+        run-of-show-n,
+        rsvp-v,
+        floor-plan-n,
+        host-v,
+        livestream-n,
+        signage-n,
+        badge-n,
+        waitlist-n,
+        giveaway-n,
+        set-up-phr,
+        pack-up-phr,
+        backup-plan-n,
+      ]
+    questions: []
+  - slug: t19-l8
+    kind: vocab
+    title: { en: "Set 8: Community guidelines", vi: "Bộ 8: Nguyên tắc cộng đồng" }
+    senses:
+      [
+        code-of-conduct-n,
+        harassment-n,
+        inclusive-adj,
+        respectful-adj,
+        moderator-n,
+        report-v,
+        ban-v,
+        warning-n,
+        off-topic-adj,
+        self-promotion-n,
+        constructive-adj,
+        tone-n,
+        assume-good-faith-phr,
+        welcoming-adj,
+        enforce-v,
+        violation-n,
+        discrimination-n,
+        safe-space-n,
+        flag-v,
+        derail-v,
+        etiquette-n,
+        consent-n,
+        ground-rules-n,
+        de-escalate-v,
+      ]
+    questions: []
+  - slug: t19-l9
+    kind: vocab
+    title: { en: "Set 9: Following up after an event", vi: "Bộ 9: Liên hệ sau sự kiện" }
+    senses:
+      [
+        follow-up-n,
+        catch-up-n,
+        loop-in-phr-cities,
+        reconnect-v,
+        recap-n,
+        as-promised-phr,
+        great-chatting-phr,
+        business-card-n,
+        contact-details-n,
+        connection-request-n,
+        intro-email-n,
+        warm-introduction-n,
+        cold-message-n,
+        next-step-n,
+        keep-in-touch-phr,
+        drop-a-line-phr,
+        slides-n,
+        highlight-n,
+        thank-you-note-n,
+        mention-v,
+        refer-to-phr,
+        circle-back-phr,
+        prompt-adj,
+        personalised-adj,
+        gesture-n,
+        gratitude-n,
+        nudge-n,
+        attach-v,
+      ]
+    questions: []
+  - slug: t19-l10
+    kind: vocab
+    title:
+      { en: "Set 10: Building a professional network", vi: "Bộ 10: Xây dựng mạng lưới nghề nghiệp" }
+    senses:
+      [
+        contact-n,
+        industry-event-n,
+        acquaintance-n,
+        sounding-board-n,
+        protege-n,
+        peer-n,
+        vouch-for-phr,
+        testimonial-n,
+        put-in-touch-phr,
+        rapport-n,
+        mutual-adj,
+        common-ground-n,
+        reciprocity-n,
+        goodwill-n,
+        nurture-v,
+        cultivate-v,
+        visibility-n,
+        reputation-n,
+        credibility-n,
+        personal-brand-n,
+        thought-leader-n,
+        alumni-n,
+        industry-n,
+        ecosystem-n,
+        grassroots-adj,
+        word-of-mouth-n,
+        influential-adj,
+        genuine-adj,
+        down-to-earth-adj,
+        give-back-phr,
+        pay-it-forward-phr,
+        on-the-radar-phr,
+        hiring-manager-n,
+        recruiter-n,
+        opportunity-n,
+        long-term-adj,
+      ]
+    questions: []

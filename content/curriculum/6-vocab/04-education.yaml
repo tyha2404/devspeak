@@ -4,10 +4,284 @@ sort: 4
 code: T04
 kind: topic
 cefr: B1
-status: draft
-title: { en: "Education & Learning", vi: "Giáo dục & học tập" }
-summary_vi: "Từ vựng về trường lớp, bằng cấp, thi cử, học online và tự học suốt đời."
+status: published
+title:
+  en: Learning, Documentation & Skill Growth
+  vi: Học tập, tài liệu & phát triển kỹ năng
+summary_vi: Học cách hỏi, đọc tài liệu và giải thích điều vừa học. Đi từ
+  tutorial và tài liệu API đến mentoring, kế hoạch kỹ năng và đánh giá nguồn
+  học.
 can_do:
-  - "Nói về quá trình học, bằng cấp và các khoá học đã tham gia"
-  - "Hiểu các từ về thi cử, học bổng và học trực tuyến"
-lessons: []
+  - Tóm tắt một phần tài liệu kỹ thuật và hỏi đúng chỗ chưa rõ
+  - Lập kế hoạch học và chia sẻ kiến thức cho đồng nghiệp
+lessons:
+  - slug: t04-l1
+    kind: vocab
+    title: { en: "Set 1: Learning goals", vi: "Bộ 1: Mục tiêu học tập" }
+    senses:
+      [
+        skill-n,
+        learning-goal-n,
+        beginner-n,
+        improve-v,
+        practise-v,
+        progress-n,
+        level-n,
+        focus-on-phr,
+        achieve-v,
+        by-the-end-of-phr,
+      ]
+    questions: []
+  - slug: t04-l2
+    kind: vocab
+    title: { en: "Set 2: Following a tutorial", vi: "Bộ 2: Làm theo hướng dẫn" }
+    senses:
+      [
+        tutorial-n,
+        step-n,
+        follow-v,
+        instructions-n,
+        skip-v,
+        expected-adj,
+        get-stuck-phr,
+        go-back-pv,
+        exercise-n,
+        copy-and-paste-phr,
+        different-from-phr,
+        prerequisite-n,
+      ]
+    questions: []
+  - slug: t04-l3
+    kind: vocab
+    title: { en: "Set 3: Reading API documentation", vi: "Bộ 3: Đọc tài liệu API" }
+    senses:
+      [
+        documentation-n,
+        parameter-n,
+        return-value-n,
+        optional-adj,
+        required-adj,
+        default-value-n,
+        error-code-n,
+        endpoint-n,
+        deprecated-adj,
+        look-up-pv,
+        section-n,
+        limitation-n,
+        response-body-n,
+        summarise-v,
+      ]
+    questions: []
+  - slug: t04-l4
+    kind: vocab
+    title: { en: "Set 4: Asking useful questions", vi: "Bộ 4: Đặt câu hỏi có ngữ cảnh" }
+    senses:
+      [
+        ask-for-help-phr,
+        context-n,
+        clarify-v,
+        unclear-adj,
+        reproduce-v,
+        attempt-n,
+        confused-adj,
+        specific-adj,
+        assume-v,
+        rephrase-v,
+        follow-up-question-n,
+        hint-n,
+        error-message-n,
+        so-far-phr,
+        misunderstand-v,
+        point-me-to-phr,
+      ]
+    questions: []
+  - slug: t04-l5
+    kind: vocab
+    title: { en: "Set 5: Courses & practice", vi: "Bộ 5: Khoá học & luyện tập" }
+    senses:
+      [
+        coursework-n,
+        certificate-n,
+        enrol-v,
+        module-n,
+        assignment-n,
+        quiz-n,
+        hands-on-adj,
+        self-paced-adj,
+        instructor-n,
+        syllabus-n,
+        tuition-fee-n,
+        scholarship-n,
+        bootcamp-n,
+        pass-v,
+        drop-out-pv,
+        revise-v,
+        side-project-n,
+        time-commitment-n,
+      ]
+    questions: []
+  - slug: t04-l6
+    kind: vocab
+    title: { en: "Set 6: Mentoring a teammate", vi: "Bộ 6: Hướng dẫn đồng đội" }
+    senses:
+      [
+        mentor-n,
+        mentee-n,
+        encourage-v,
+        pair-programming-n,
+        walk-through-pv,
+        figure-out-pv,
+        patient-adj,
+        struggle-v,
+        confidence-n,
+        independent-adj,
+        check-in-n,
+        role-model-n,
+        demonstrate-v,
+        praise-v,
+        ownership-n,
+        shadow-v,
+        give-it-a-try-phr,
+        spoon-feed-v,
+        onboarding-n,
+        open-ended-adj,
+      ]
+    questions: []
+  - slug: t04-l7
+    kind: vocab
+    title: { en: "Set 7: Taking technical notes", vi: "Bộ 7: Ghi chép kỹ thuật" }
+    senses:
+      [
+        note-taking-n,
+        jot-down-pv,
+        summary-n,
+        key-point-n,
+        assumption-n,
+        validate-v,
+        numbered-list-n,
+        annotate-v,
+        diagram-n,
+        outline-n,
+        abbreviation-n,
+        searchable-adj,
+        open-question-n,
+        concise-adj,
+        organise-v,
+        template-n,
+        revisit-v,
+        cheat-sheet-n,
+        takeaway-n,
+        worked-example-n,
+        caveat-n,
+        paraphrase-v,
+      ]
+    questions: []
+  - slug: t04-l8
+    kind: vocab
+    title: { en: "Set 8: Sharing what you learned", vi: "Bộ 8: Chia sẻ điều đã học" }
+    senses:
+      [
+        knowledge-sharing-n,
+        tech-talk-n,
+        slide-n,
+        demo-n,
+        audience-n,
+        illustrate-v,
+        simplify-v,
+        analogy-n,
+        rehearse-v,
+        engage-v,
+        wrap-up-pv,
+        write-up-n,
+        wiki-n,
+        blog-post-n,
+        workshop-n,
+        speaker-n,
+        participant-n,
+        live-coding-n,
+        follow-along-pv,
+        q-and-a-n,
+        recording-n,
+        in-a-nutshell-phr,
+        visual-aid-n,
+        pitch-v,
+      ]
+    questions: []
+  - slug: t04-l9
+    kind: vocab
+    title: { en: "Set 9: Evaluating learning sources", vi: "Bộ 9: Đánh giá nguồn học" }
+    senses:
+      [
+        source-n,
+        credible-adj,
+        outdated-adj,
+        official-adj,
+        vendor-n,
+        author-n,
+        publication-date-n,
+        evidence-n,
+        claim-n,
+        double-check-v,
+        misleading-adj,
+        precise-adj,
+        opinion-n,
+        peer-reviewed-adj,
+        maintainer-n,
+        sponsored-adj,
+        in-depth-adj,
+        superficial-adj,
+        compare-v,
+        changelog-n,
+        benchmark-n,
+        anecdotal-adj,
+        cite-v,
+        primary-source-n,
+        grain-of-salt-phr,
+        cherry-pick-v,
+        verifiable-adj,
+        hype-n,
+      ]
+    questions: []
+  - slug: t04-l10
+    kind: vocab
+    title: { en: "Set 10: A personal development plan", vi: "Bộ 10: Kế hoạch phát triển cá nhân" }
+    senses:
+      [
+        personal-development-plan-n,
+        competency-n,
+        checkpoint-n,
+        career-ladder-n,
+        strength-n,
+        weakness-n,
+        skill-gap-n,
+        self-assessment-n,
+        measurable-adj,
+        realistic-adj,
+        prioritise-v,
+        commit-to-phr,
+        accountability-n,
+        showcase-v,
+        mentorship-n,
+        upskill-v,
+        proficiency-n,
+        long-term-adj-education,
+        growth-mindset-n,
+        stretch-goal-n,
+        set-aside-pv,
+        track-record-n,
+        reflect-on-phr,
+        adjust-v,
+        sustainable-adj,
+        momentum-n,
+        setback-n,
+        aspiration-n,
+        deliberate-practice-n,
+        specialise-v,
+        broaden-v,
+        endorse-v,
+        outcome-n,
+        pace-n,
+        quarterly-review-n,
+        on-track-phr,
+      ]
+    questions: []

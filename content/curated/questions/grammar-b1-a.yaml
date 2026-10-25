@@ -1,0 +1,491 @@
+# Grammar track B1 tests (batch b1-a). Original items; answers stay server-side.
+- {
+    slug: "g-b1-past-continuous-1",
+    type: "fill_blank",
+    cefr: "B1",
+    topic: "grammar",
+    skin: "jira",
+    sentence: "The worker was processing payments when the queue ___.",
+    options: ["was crashing", "crashed", "crashes", "is crashing"],
+    answer: 1,
+    explanation_vi: "Sự kiện ngắn chen ngang việc đang diễn ra → quá khứ đơn crashed.",
+  }
+- {
+    slug: "g-b1-past-continuous-2",
+    type: "fill_blank",
+    cefr: "B1",
+    topic: "grammar",
+    skin: "slack",
+    sentence: "___ I was reviewing your PR, CI started failing on main.",
+    options: ["When", "While", "During", "Until"],
+    answer: 1,
+    explanation_vi: "While + việc kéo dài (was reviewing). During đi với danh từ, không đi với mệnh đề.",
+  }
+- {
+    slug: "g-b1-past-continuous-3",
+    type: "fill_blank",
+    cefr: "B1",
+    topic: "grammar",
+    skin: "email",
+    sentence: "At 3 a.m., our engineers ___ the database cluster.",
+    options: ["was upgrading", "were upgrading", "upgrading", "are upgrade"],
+    answer: 1,
+    explanation_vi: "Our engineers số nhiều → were + V-ing; dựng bối cảnh tại một mốc giờ.",
+  }
+- {
+    slug: "g-b1-past-continuous-4",
+    type: "fill_blank",
+    cefr: "B1",
+    topic: "grammar",
+    skin: "jira",
+    sentence: "While Hai was fixing the CSS, Trang ___ the API tests.",
+    options: ["was writing", "wrote", "writes", "has written"],
+    answer: 0,
+    explanation_vi: "Hai việc song song → cả hai vế đều dùng quá khứ tiếp diễn.",
+  }
+- {
+    slug: "g-b1-past-continuous-5",
+    type: "fill_blank",
+    cefr: "B1",
+    topic: "grammar",
+    skin: "slack",
+    sentence: "What ___ you doing when the alert fired?",
+    accepted: ["were", "Were"],
+    explanation_vi: "Câu hỏi quá khứ tiếp diễn với you → were + you + V-ing.",
+  }
+- {
+    slug: "g-b1-past-continuous-6",
+    type: "fill_blank",
+    cefr: "B1",
+    topic: "grammar",
+    skin: "pr",
+    sentence: "The cache ___ (not / work) when we ran the load test, so the numbers are too high.",
+    accepted: ["wasn't working", "was not working"],
+    explanation_vi: "The cache = it → wasn't + V-ing; việc làm nền lúc chạy load test.",
+  }
+- {
+    slug: "g-b1-past-continuous-7",
+    type: "mcq_meaning",
+    cefr: "B1",
+    topic: "grammar",
+    stem: "Báo cáo sự cố.",
+    question: "Câu nào đúng ngữ pháp?",
+    "options":
+      [
+        "We were knowing the cause at 10 a.m.",
+        "We knew the cause at 10 a.m.",
+        "We was knowing the cause at 10 a.m.",
+        "We are knew the cause at 10 a.m.",
+      ],
+    answer: 1,
+    explanation_vi: "Know là động từ trạng thái → không chia tiếp diễn; dùng quá khứ đơn knew.",
+  }
+- {
+    slug: "g-b1-past-continuous-8",
+    type: "mcq_meaning",
+    cefr: "B1",
+    topic: "grammar",
+    stem: "Kể lại sự cố.",
+    question: "“Mình đang deploy thì server mất kết nối” là…",
+    "options":
+      [
+        "I deployed when the server was losing connection.",
+        "I was deploying when the server lost connection.",
+        "I was deploying while the server lost connection.",
+        "I am deploying when the server lost connection.",
+      ],
+    answer: 1,
+    explanation_vi: "Việc dài (was deploying) + when + sự kiện ngắn (lost).",
+  }
+- {
+    slug: "g-b1-perfect-markers-1",
+    type: "fill_blank",
+    cefr: "B1",
+    topic: "grammar",
+    skin: "slack",
+    sentence: "Good news: the client has ___ signed the contract. It arrived a minute ago.",
+    options: ["yet", "just", "since", "for"],
+    answer: 1,
+    explanation_vi: "Vừa mới xảy ra → just, đứng giữa has và V3.",
+  }
+- {
+    slug: "g-b1-perfect-markers-2",
+    type: "fill_blank",
+    cefr: "B1",
+    topic: "grammar",
+    skin: "jira",
+    sentence: "This bug has been open ___ three sprints.",
+    options: ["since", "for", "from", "ago"],
+    answer: 1,
+    explanation_vi: "Three sprints là khoảng thời gian → for.",
+  }
+- {
+    slug: "g-b1-perfect-markers-3",
+    type: "fill_blank",
+    cefr: "B1",
+    topic: "grammar",
+    skin: "pr",
+    sentence: "Have you updated the API docs ___?",
+    options: ["already", "just", "yet", "still"],
+    answer: 2,
+    explanation_vi: "Yet đứng cuối câu hỏi hiện tại hoàn thành: … chưa?",
+  }
+- {
+    slug: "g-b1-perfect-markers-4",
+    type: "fill_blank",
+    cefr: "B1",
+    topic: "grammar",
+    skin: "email",
+    sentence: "Error rates have dropped since we ___ the new retry logic.",
+    options: ["have added", "add", "added", "were adding"],
+    answer: 2,
+    explanation_vi: "Mệnh đề sau since chỉ mốc đã qua → quá khứ đơn added.",
+  }
+- {
+    slug: "g-b1-perfect-markers-5",
+    type: "fill_blank",
+    cefr: "B1",
+    topic: "grammar",
+    skin: "slack",
+    sentence: "It's been two days and the vendor ___ hasn't replied. I'll call them.",
+    accepted: ["still", "Still"],
+    explanation_vi: "Still + hasn't: vẫn chưa, thể hiện sự sốt ruột.",
+  }
+- {
+    slug: "g-b1-perfect-markers-6",
+    type: "fill_blank",
+    cefr: "B1",
+    topic: "grammar",
+    skin: "jira",
+    sentence: "The staging server has been down ___ 6 a.m.",
+    accepted: ["since", "Since"],
+    explanation_vi: "6 a.m. là mốc bắt đầu → since.",
+  }
+- {
+    slug: "g-b1-perfect-markers-7",
+    type: "mcq_meaning",
+    cefr: "B1",
+    topic: "grammar",
+    stem: "Cập nhật stand-up.",
+    question: "Câu nào đúng ngữ pháp?",
+    "options":
+      [
+        "I've finished yet the login page.",
+        "I've already finished the login page.",
+        "I already have finish the login page.",
+        "I've finished already yet the login page.",
+      ],
+    answer: 1,
+    explanation_vi: "Câu khẳng định, xong rồi → already giữa have và V3. Yet chỉ dùng cho phủ định/câu hỏi.",
+  }
+- {
+    slug: "g-b1-perfect-markers-8",
+    type: "mcq_meaning",
+    cefr: "B1",
+    topic: "grammar",
+    stem: "Báo tiến độ.",
+    question: "“Mình chưa chạy migration” là…",
+    "options":
+      [
+        "I've already run the migration.",
+        "I haven't run the migration yet.",
+        "I haven't run yet the migration.",
+        "I've just not run the migration.",
+      ],
+    answer: 1,
+    explanation_vi: "Chưa làm → haven't + V3 + … + yet (cuối câu).",
+  }
+- {
+    slug: "g-b1-future-continuous-1",
+    type: "fill_blank",
+    cefr: "B1",
+    topic: "grammar",
+    skin: "email",
+    sentence: "Please note that we ___ the servers from 1 to 3 a.m. on Sunday.",
+    options: ["will upgrading", "will be upgrading", "are be upgrading", "will are upgrading"],
+    answer: 1,
+    explanation_vi: "Việc kéo dài trong một khoảng tương lai → will be + V-ing.",
+  }
+- {
+    slug: "g-b1-future-continuous-2",
+    type: "fill_blank",
+    cefr: "B1",
+    topic: "grammar",
+    skin: "slack",
+    sentence: "Don't call me at 2. I'll be ___ the sprint demo then.",
+    options: ["give", "gave", "giving", "given"],
+    answer: 2,
+    explanation_vi: "Will be + V-ing → giving.",
+  }
+- {
+    slug: "g-b1-future-continuous-3",
+    type: "fill_blank",
+    cefr: "B1",
+    topic: "grammar",
+    skin: "slack",
+    sentence: "___ you be using the test device this afternoon?",
+    options: ["Are", "Do", "Will", "Have"],
+    answer: 2,
+    explanation_vi: "Câu hỏi tương lai tiếp diễn: Will + S + be + V-ing?",
+  }
+- {
+    slug: "g-b1-future-continuous-4",
+    type: "fill_blank",
+    cefr: "B1",
+    topic: "grammar",
+    skin: "email",
+    sentence: "I ___ on Friday, so please send questions to Hoa.",
+    options: ["won't be working", "won't working", "am not be working", "don't be working"],
+    answer: 0,
+    explanation_vi: "Phủ định: won't be + V-ing.",
+  }
+- {
+    slug: "g-b1-future-continuous-5",
+    type: "fill_blank",
+    cefr: "B1",
+    topic: "grammar",
+    skin: "jira",
+    sentence: "This time next week, the QA team ___ (test) the new checkout.",
+    accepted: ["will be testing", "'ll be testing"],
+    explanation_vi: "This time next week: đang diễn ra tại thời điểm tương lai → will be testing.",
+  }
+- {
+    slug: "g-b1-future-continuous-6",
+    type: "fill_blank",
+    cefr: "B1",
+    topic: "grammar",
+    skin: "slack",
+    sentence: "At 10 tomorrow, I'll ___ interviewing a backend candidate.",
+    accepted: ["be"],
+    explanation_vi: "Sau will dùng be nguyên mẫu, rồi đến V-ing.",
+  }
+- {
+    slug: "g-b1-future-continuous-7",
+    type: "mcq_meaning",
+    cefr: "B1",
+    topic: "grammar",
+    stem: "Thông báo lịch.",
+    question: "Câu nào đúng ngữ pháp?",
+    "options":
+      [
+        "We will be release nothing during the freeze.",
+        "We won't be releasing anything during the freeze.",
+        "We won't releasing anything during the freeze.",
+        "We will not are releasing anything during the freeze.",
+      ],
+    answer: 1,
+    explanation_vi: "Won't + be + V-ing.",
+  }
+- {
+    slug: "g-b1-future-continuous-8",
+    type: "mcq_meaning",
+    cefr: "B1",
+    topic: "grammar",
+    stem: "Báo vắng.",
+    question: "“Sáng mai mình sẽ đang bay sang Đà Nẵng” là…",
+    "options":
+      [
+        "I fly to Da Nang tomorrow morning.",
+        "I'll be flying to Da Nang tomorrow morning.",
+        "I'm be flying to Da Nang tomorrow morning.",
+        "I'll flying to Da Nang tomorrow morning.",
+      ],
+    answer: 1,
+    explanation_vi: "Việc đang diễn ra trong một khoảng tương lai → will be + V-ing.",
+  }
+- {
+    slug: "g-b1-time-clauses-1",
+    type: "fill_blank",
+    cefr: "B1",
+    topic: "grammar",
+    skin: "slack",
+    sentence: "I'll merge your PR as soon as CI ___ green.",
+    options: ["will be", "is", "was", "be"],
+    answer: 1,
+    explanation_vi: "Vế thời gian (as soon as…) dùng hiện tại đơn, không dùng will.",
+  }
+- {
+    slug: "g-b1-time-clauses-2",
+    type: "fill_blank",
+    cefr: "B1",
+    topic: "grammar",
+    skin: "pr",
+    sentence: "Don't deploy ___ the security review is done.",
+    options: ["until", "while", "since", "during"],
+    answer: 0,
+    explanation_vi: "Không làm cho đến khi điều kiện xảy ra → until.",
+  }
+- {
+    slug: "g-b1-time-clauses-3",
+    type: "fill_blank",
+    cefr: "B1",
+    topic: "grammar",
+    skin: "email",
+    sentence: "After the client ___ the invoice, we'll start phase two.",
+    options: ["will approve", "approves", "approved", "approving"],
+    answer: 1,
+    explanation_vi: "After + hiện tại đơn cho việc tương lai; the client = he/she → approves.",
+  }
+- {
+    slug: "g-b1-time-clauses-4",
+    type: "fill_blank",
+    cefr: "B1",
+    topic: "grammar",
+    skin: "jira",
+    sentence: "Once we ___ all users, we'll shut down the old API.",
+    options: ["will migrate", "have migrated", "migrated", "had migrated"],
+    answer: 1,
+    explanation_vi: "Once + hiện tại hoàn thành: nhấn mạnh việc phải xong hẳn trước.",
+  }
+- {
+    slug: "g-b1-time-clauses-5",
+    type: "fill_blank",
+    cefr: "B1",
+    topic: "grammar",
+    skin: "slack",
+    sentence: "We'll start the retro when everyone ___ (join) the call.",
+    accepted: ["joins"],
+    explanation_vi: "Vế thời gian với when dùng hiện tại đơn; everyone số ít → joins.",
+  }
+- {
+    slug: "g-b1-time-clauses-6",
+    type: "fill_blank",
+    cefr: "B1",
+    topic: "grammar",
+    skin: "pr",
+    sentence: "Back up the database ___ you run the migration script.",
+    accepted: ["before", "Before"],
+    explanation_vi: "Bước sao lưu phải làm trước → before.",
+  }
+- {
+    slug: "g-b1-time-clauses-7",
+    type: "mcq_meaning",
+    cefr: "B1",
+    topic: "grammar",
+    stem: "Quy trình phát hành.",
+    question: "Câu nào đúng ngữ pháp?",
+    "options":
+      [
+        "We'll tag the release when the tests will pass.",
+        "We tag the release when the tests will pass.",
+        "We'll tag the release when the tests pass.",
+        "We'll tag the release when the tests passed.",
+      ],
+    answer: 2,
+    explanation_vi: "Vế chính dùng will; vế when dùng hiện tại đơn.",
+  }
+- {
+    slug: "g-b1-time-clauses-8",
+    type: "mcq_meaning",
+    cefr: "B1",
+    topic: "grammar",
+    stem: "Hứa với khách.",
+    question: "“Chúng tôi sẽ báo anh ngay khi bản sửa được triển khai” là…",
+    "options":
+      [
+        "We'll tell you as soon as the fix will be live.",
+        "We tell you as soon as the fix is live.",
+        "We'll tell you as soon as the fix is live.",
+        "We told you as soon as the fix is live.",
+      ],
+    answer: 2,
+    explanation_vi: "Will ở vế chính; as soon as + hiện tại đơn (is live).",
+  }
+- {
+    slug: "g-b1-ability-permission-1",
+    type: "fill_blank",
+    cefr: "B1",
+    topic: "grammar",
+    skin: "email",
+    sentence: "After the upgrade, the system will ___ handle twice the traffic.",
+    options: ["can", "be able to", "able to", "could"],
+    answer: 1,
+    explanation_vi: "Tương lai của can → will be able to.",
+  }
+- {
+    slug: "g-b1-ability-permission-2",
+    type: "fill_blank",
+    cefr: "B1",
+    topic: "grammar",
+    skin: "jira",
+    sentence: "Free users ___ export reports. It's a premium feature.",
+    options: ["aren't able", "aren't allowed to", "don't allow to", "can't to"],
+    answer: 1,
+    explanation_vi: "Quy định gói dịch vụ = sự cho phép → aren't allowed to.",
+  }
+- {
+    slug: "g-b1-ability-permission-3",
+    type: "fill_blank",
+    cefr: "B1",
+    topic: "grammar",
+    skin: "slack",
+    sentence: "Luckily, we ___ restore everything from last night's backup.",
+    options: ["were able to", "could to", "are able", "was able"],
+    answer: 0,
+    explanation_vi: "Làm được trong một tình huống cụ thể ở quá khứ → were able to.",
+  }
+- {
+    slug: "g-b1-ability-permission-4",
+    type: "fill_blank",
+    cefr: "B1",
+    topic: "grammar",
+    skin: "slack",
+    sentence: "I haven't ___ reach the vendor all week.",
+    options: ["could", "can", "been able to", "able to"],
+    answer: 2,
+    explanation_vi: "Can/could không có dạng V3 → haven't been able to.",
+  }
+- {
+    slug: "g-b1-ability-permission-5",
+    type: "fill_blank",
+    cefr: "B1",
+    topic: "grammar",
+    skin: "pr",
+    sentence: "Before the new policy, developers ___ (allow) to push directly to main.",
+    accepted: ["were allowed"],
+    explanation_vi: "Quá khứ của được phép, chủ ngữ số nhiều → were allowed to.",
+  }
+- {
+    slug: "g-b1-ability-permission-6",
+    type: "fill_blank",
+    cefr: "B1",
+    topic: "grammar",
+    skin: "email",
+    sentence: "We hope to be ___ to ship the mobile app next sprint.",
+    accepted: ["able"],
+    explanation_vi: "Sau hope dùng to be able to + V.",
+  }
+- {
+    slug: "g-b1-ability-permission-7",
+    type: "mcq_meaning",
+    cefr: "B1",
+    topic: "grammar",
+    stem: "Tài liệu phân quyền.",
+    question: "Câu nào đúng ngữ pháp?",
+    "options":
+      [
+        "Guests are not allow to upload files.",
+        "Guests are not allowed to upload files.",
+        "Guests not allowed upload files.",
+        "Guests are not allowed to uploading files.",
+      ],
+    answer: 1,
+    explanation_vi: "Be + allowed (V3) + to + V nguyên mẫu.",
+  }
+- {
+    slug: "g-b1-ability-permission-8",
+    type: "mcq_meaning",
+    cefr: "B1",
+    topic: "grammar",
+    stem: "Mô tả sản phẩm.",
+    question: "“Công cụ có khả năng xóa log cũ, nhưng chỉ admin được phép chạy nó” là…",
+    "options":
+      [
+        "The tool is allowed to delete old logs, but only admins are able to run it.",
+        "The tool is able to delete old logs, but only admins are allowed to run it.",
+        "The tool will can delete old logs, but only admins are allowed to run it.",
+        "The tool is able to deletes old logs, but only admins allowed to run it.",
+      ],
+    answer: 1,
+    explanation_vi: "Khả năng kỹ thuật → able to; quyền hạn → allowed to.",
+  }

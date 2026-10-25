@@ -1,0 +1,317 @@
+# Grammar track C2 tests (batch c2-a). Original items; answers stay server-side.
+# --- g-c2-tense-stance
+- slug: g-c2-tense-stance-1
+  type: fill_blank
+  cefr: C2
+  topic: grammar
+  skin: pr
+  sentence: "The worker ___ to have stalled before the commit step, judging by the last log line."
+  options: [appears, appeared having, is appearing, appears having]
+  answer: 0
+  explanation_vi: "Rào đón một việc đã xảy ra: appear + to have + V3. Appear là động từ trạng thái, không dùng tiếp diễn."
+- slug: g-c2-tense-stance-2
+  type: fill_blank
+  cefr: C2
+  topic: grammar
+  skin: email
+  sentence: "Since we pinned the driver version, the deadlock ___."
+  options: [did not recur, does not recur, has not recurred, had not recurred]
+  answer: 2
+  explanation_vi: "Since + mốc đến nay, kết luận còn đang theo dõi → hiện tại hoàn thành."
+- slug: g-c2-tense-stance-3
+  type: fill_blank
+  cefr: C2
+  topic: grammar
+  skin: pr
+  sentence: "The parser rejects empty input by design; in build 412, however, it ___ on a single newline."
+  options: [crashes, has crashed, crashed, is crashing]
+  answer: 2
+  explanation_vi: "Rejects là tính chất đã xác lập; một lần quan sát cụ thể (build 412) dùng quá khứ đơn."
+- slug: g-c2-tense-stance-4
+  type: fill_blank
+  cefr: C2
+  topic: grammar
+  skin: email
+  sentence: "There is no ___ that customer data was exposed during the incident."
+  options: [evidence, proof of, certainly, doubt]
+  answer: 0
+  explanation_vi: "There is no evidence that…: nói đúng mức bằng chứng. No doubt that sẽ đảo ngược nghĩa thành khẳng định dữ liệu bị lộ."
+- slug: g-c2-tense-stance-5
+  type: fill_blank
+  cefr: C2
+  topic: grammar
+  skin: slack
+  sentence: "The rollback appears ___ (restore – rào đón việc đã xảy ra) the old schema too early."
+  accepted: ["to have restored"]
+  explanation_vi: "Appear + to have + V3 cho suy luận về quá khứ."
+- slug: g-c2-tense-stance-6
+  type: fill_blank
+  cefr: C2
+  topic: grammar
+  skin: jira
+  sentence: "So far, no customer ___ (report – bằng chứng tích luỹ đến nay) data loss."
+  accepted: ["has reported"]
+  explanation_vi: "So far + chủ ngữ số ít → has + V3."
+- slug: g-c2-tense-stance-7
+  type: mcq_meaning
+  cefr: C2
+  topic: grammar
+  stem: "Postmortem chưa xác minh xong nguyên nhân."
+  question: "Câu nào thể hiện đúng mức cam kết?"
+  options:
+    - "The retry storm definitely caused the outage."
+    - "The retry storm appears to have caused the outage."
+    - "The retry storm might perhaps possibly seem to cause the outage."
+    - "The retry storm is appearing to cause the outage."
+  answer: 1
+  explanation_vi: "Một lớp rào đón đúng dạng quá khứ (appears to have + V3). Definitely là quá mức; câu 3 rào đón chồng chất; appear không dùng tiếp diễn."
+- slug: g-c2-tense-stance-8
+  type: mcq_meaning
+  cefr: C2
+  topic: grammar
+  stem: "Phạm vi bằng chứng."
+  question: "Câu nào giới hạn kết luận một cách trung thực?"
+  options:
+    - "The bug affects every platform."
+    - "We reproduce the bug on ARM, so it affects ARM only."
+    - "We have only reproduced the bug on ARM builds, so we cannot yet rule out other platforms."
+    - "The bug was only on ARM and never on other platforms."
+  answer: 2
+  explanation_vi: "Have only reproduced + cannot yet rule out: nói đúng những gì đã thấy, không suy rộng."
+# --- g-c2-register
+- slug: g-c2-register-1
+  type: fill_blank
+  cefr: C2
+  topic: grammar
+  skin: pr
+  sentence: "RFC: It is proposed that the legacy endpoint ___ deprecated in Q3."
+  options: [is going to, be, gonna be, will being]
+  answer: 1
+  explanation_vi: "Proposed that + S + V nguyên mẫu (thức giả định) → be deprecated. Gonna không hợp văn phong RFC."
+- slug: g-c2-register-2
+  type: fill_blank
+  cefr: C2
+  topic: grammar
+  skin: pr
+  sentence: "RFC: The ___ of a write-ahead log would eliminate partial updates."
+  options: [introduce, introducing in, introduction, introduced]
+  answer: 2
+  explanation_vi: "Danh từ hoá: The introduction of… đưa ý tưởng lên làm chủ ngữ, đúng giọng RFC."
+- slug: g-c2-register-3
+  type: fill_blank
+  cefr: C2
+  topic: grammar
+  skin: email
+  sentence: "To the client: ___ made an error in last night's update, and we have already corrected it."
+  options: [Mistakes were, It was, We, Somebody]
+  answer: 2
+  explanation_vi: "Với khách hàng, dùng we chủ động để nhận trách nhiệm; bị động né tránh làm mất lòng tin."
+- slug: g-c2-register-4
+  type: fill_blank
+  cefr: C2
+  topic: grammar
+  skin: email
+  sentence: "___ you need further assistance, our team is available around the clock."
+  options: [Should, Would, Had, Were]
+  answer: 0
+  explanation_vi: "Should you need… = If you need…: đảo ngữ điều kiện trang trọng, hợp thư gửi khách hàng."
+- slug: g-c2-register-5
+  type: fill_blank
+  cefr: C2
+  topic: grammar
+  skin: pr
+  sentence: "RFC: A ___ (reduce – danh từ) in connection churn is expected once pooling is enabled."
+  accepted: ["reduction"]
+  explanation_vi: "Danh từ hoá reduce → a reduction in, giọng khách quan của RFC."
+- slug: g-c2-register-6
+  type: fill_blank
+  cefr: C2
+  topic: grammar
+  skin: email
+  sentence: "To the client: We ___ (resolve – hiện tại hoàn thành) a configuration issue that slowed your reports."
+  accepted: ["have resolved", "'ve resolved"]
+  explanation_vi: "We + have + V3: báo kết quả còn liên quan tới khách; resolve trang trọng hơn fix."
+- slug: g-c2-register-7
+  type: mcq_meaning
+  cefr: C2
+  topic: grammar
+  stem: "Nhắn trong kênh chat của team."
+  question: "Câu nào hợp văn phong chat nhóm nhất?"
+  options:
+    - "Dear colleagues, I hereby inform you that the configuration has been reverted."
+    - "It is proposed that the configuration be reverted."
+    - "Rolled back the config, things look calmer."
+    - "We sincerely apologise for any inconvenience caused by the configuration."
+  answer: 2
+  explanation_vi: "Chat nội bộ: tỉnh lược chủ ngữ, cụm động từ roll back, ngắn gọn. Các câu khác là văn phong thư trang trọng, RFC hoặc khách hàng."
+- slug: g-c2-register-8
+  type: mcq_meaning
+  cefr: C2
+  topic: grammar
+  stem: "Viết lại “prod's flaky again” cho báo cáo chính thức."
+  question: "Phiên bản nào giữ nguyên nghĩa và đúng văn phong?"
+  options:
+    - "Production experienced intermittent failures."
+    - "Production totally broke down forever."
+    - "Prod is gonna be flaky again."
+    - "Production was flaky, kind of."
+  answer: 0
+  explanation_vi: "Intermittent failures giữ đúng nghĩa “chập chờn” và trang trọng; các câu khác hoặc phóng đại, hoặc vẫn là khẩu ngữ."
+# --- g-c2-information-flow
+- slug: g-c2-information-flow-1
+  type: fill_blank
+  cefr: C2
+  topic: grammar
+  skin: pr
+  sentence: "We could cache the whole response. ___, though simple, would serve stale prices."
+  options: [This, This option, It this, Which]
+  answer: 1
+  explanation_vi: "This + danh từ tóm ý câu trước; This trơ trọi mơ hồ."
+- slug: g-c2-information-flow-2
+  type: fill_blank
+  cefr: C2
+  topic: grammar
+  skin: jira
+  sentence: "The flaky test, which we had been debugging for weeks, ___ to a shared temp directory."
+  options: [traced, was traced, has tracing, was tracing]
+  answer: 1
+  explanation_vi: "Bị động giữ chủ đề (bài test) ở đầu, nguyên nhân mới ở cuối: was traced to."
+- slug: g-c2-information-flow-3
+  type: fill_blank
+  cefr: C2
+  topic: grammar
+  skin: slack
+  sentence: "What slows the build down ___ dependency resolution, not compilation."
+  options: [it is, are, is, that is]
+  answer: 2
+  explanation_vi: "Câu chẻ What: mệnh đề What… làm chủ ngữ số ít, nối bằng một động từ is."
+- slug: g-c2-information-flow-4
+  type: fill_blank
+  cefr: C2
+  topic: grammar
+  skin: pr
+  sentence: "It was the missing index, rather than the network, ___ made the dashboard slow."
+  options: [what, which it, who, that]
+  answer: 3
+  explanation_vi: "Câu chẻ It was X that…: dùng that sau tiêu điểm."
+- slug: g-c2-information-flow-5
+  type: fill_blank
+  cefr: C2
+  topic: grammar
+  skin: pr
+  sentence: "Every upload creates a job record. That record ___ (pick up – bị động, hiện tại đơn) by the thumbnail worker."
+  accepted: ["is picked up"]
+  explanation_vi: "Bị động giúp record (thông tin vừa nhắc) đứng đầu câu; tác nhân mới (worker) ở cuối."
+- slug: g-c2-information-flow-6
+  type: fill_blank
+  cefr: C2
+  topic: grammar
+  skin: slack
+  sentence: "___ (Câu chẻ: điều mà) the profiler revealed was that most of the time went into JSON parsing."
+  accepted: ["What"]
+  explanation_vi: "What + S + V + was + thông tin mới: đẩy phát hiện xuống cuối câu."
+- slug: g-c2-information-flow-7
+  type: mcq_meaning
+  cefr: C2
+  topic: grammar
+  stem: "Câu trước: “Tokens are signed by the auth service.”"
+  question: "Câu tiếp theo nào giữ mạch thông tin tốt nhất?"
+  options:
+    - "A five-minute expiry is set on the tokens by default."
+    - "By default, they expire after five minutes."
+    - "Five minutes is the default after which expiry of the tokens happens."
+    - "The auth service, five minutes, expires them by default."
+  answer: 1
+  explanation_vi: "Mở đầu bằng điều vừa nhắc (they = tokens), thông tin mới (five minutes) ở cuối."
+- slug: g-c2-information-flow-8
+  type: mcq_meaning
+  cefr: C2
+  topic: grammar
+  stem: "End-weight: đưa cụm dài xuống cuối."
+  question: "Câu nào dễ đọc nhất?"
+  options:
+    - "Any change that touches the billing schema without a migration plan the review flagged as risky."
+    - "The review flagged any change that touches the billing schema without a migration plan risky as."
+    - "The review flagged as risky any change that touches the billing schema without a migration plan."
+    - "As risky, any change the review flagged that touches the billing schema without a migration plan."
+  answer: 2
+  explanation_vi: "Tân ngữ dài chuyển xuống sau as risky, để câu không nặng đầu và tiêu điểm nằm cuối."
+# --- g-c2-cohesion
+- slug: g-c2-cohesion-1
+  type: fill_blank
+  cefr: C2
+  topic: grammar
+  skin: pr
+  sentence: "We considered a shared cache and a per-node cache. ___ avoids network hops but wastes memory."
+  options: [The latter, The later, Latter, The last one of them]
+  answer: 0
+  explanation_vi: "The latter = cái được nhắc sau (per-node cache). The later là sai từ."
+- slug: g-c2-cohesion-2
+  type: fill_blank
+  cefr: C2
+  topic: grammar
+  skin: pr
+  sentence: "The rewrite would simplify the codebase considerably. ___, it would freeze feature work for a quarter."
+  options: [It follows that, That said, In particular, Consequently]
+  answer: 1
+  explanation_vi: "Thừa nhận lợi ích rồi đưa cân nhắc ngược lại → nhượng bộ: That said."
+- slug: g-c2-cohesion-3
+  type: fill_blank
+  cefr: C2
+  topic: grammar
+  skin: pr
+  sentence: "All calls are idempotent. ___ retries are safe."
+  options: ["By contrast,", "That said,", "It follows that", "Conversely,"]
+  answer: 2
+  explanation_vi: "Retries an toàn là hệ quả logic của idempotent → It follows that."
+- slug: g-c2-cohesion-4
+  type: fill_blank
+  cefr: C2
+  topic: grammar
+  skin: pr
+  sentence: "Services may bypass the gateway for internal traffic, but any service that ___ must use mutual TLS."
+  options: [does it so, does so, makes so, is so]
+  answer: 1
+  explanation_vi: "Do so thay cho cả cụm động từ đã nêu (bypass the gateway…)."
+- slug: g-c2-cohesion-5
+  type: fill_blank
+  cefr: C2
+  topic: grammar
+  skin: pr
+  sentence: "___ (establish – phân từ hoàn thành) that the queue is the bottleneck, we now consider three ways to relieve it."
+  accepted: ["Having established"]
+  explanation_vi: "Having + V3 tóm đoạn trước để chuyển sang đoạn mới; chủ ngữ mệnh đề chính là we."
+- slug: g-c2-cohesion-6
+  type: fill_blank
+  cefr: C2
+  topic: grammar
+  skin: pr
+  sentence: "The real-time path must answer within 50 ms. The reporting path, by ___, can tolerate minutes of delay."
+  accepted: ["contrast"]
+  explanation_vi: "By contrast: đối lập hai đối tượng."
+- slug: g-c2-cohesion-7
+  type: mcq_meaning
+  cefr: C2
+  topic: grammar
+  stem: "Câu trước: “The gateway calls the auth service.”"
+  question: "Câu tiếp theo nào không gây mơ hồ về tham chiếu?"
+  options:
+    - "If it is slow, requests time out."
+    - "If this is slow, requests time out."
+    - "If the auth service is slow, requests time out."
+    - "If they are slow, requests time out."
+  answer: 2
+  explanation_vi: "Có hai ứng viên (gateway, auth service) nên lặp lại danh từ thay vì it/this."
+- slug: g-c2-cohesion-8
+  type: mcq_meaning
+  cefr: C2
+  topic: grammar
+  stem: "Mở đoạn mới trong RFC."
+  question: "Câu chuyển đoạn nào đúng ngữ pháp?"
+  options:
+    - "Having outlined the goals, the rollout is now described."
+    - "Having outlined the goals, we now describe the rollout."
+    - "Having outline the goals, we now describe the rollout."
+    - "Had outlined the goals, we now describe the rollout."
+  answer: 1
+  explanation_vi: "Having + V3, và chủ ngữ mệnh đề chính (we) phải là người thực hiện việc outline."

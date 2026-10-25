@@ -1,0 +1,2259 @@
+- lemma: conference
+  pos: noun
+  vi: hội nghị hoặc hội thảo
+  def: An organised event for talks and professional discussion.
+  examples:
+    - en: I will share our project at the conference.
+  slug: t25-conference-n
+  topic: tourism
+  cefr: A2
+- slug: t25-conference-fee-n
+  lemma: conference fee
+  pos: noun
+  kind: collocation
+  cefr: B2
+  topic: tourism
+  ipa: /ˈkɒnfərəns fiː/
+  def: The price of a ticket to attend a conference.
+  vi: phí tham dự hội thảo
+  examples:
+    - en: The conference fee includes lunch on both days.
+      vi: Phí tham dự hội thảo gồm bữa trưa cả hai ngày.
+- slug: t25-business-purpose-n
+  lemma: business purpose
+  pos: noun
+  kind: collocation
+  cefr: B2
+  topic: tourism
+  ipa: /ˈbɪznəs ˌpɜːpəs/
+  def: The work reason for spending money.
+  vi: mục đích công việc
+  examples:
+    - en: Write the business purpose, for example "client demo".
+      vi: Ghi mục đích công việc, ví dụ "demo cho khách".
+- slug: t25-pre-approval-n
+  lemma: pre-approval
+  pos: noun
+  cefr: C1
+  topic: tourism
+  ipa: /ˌpriː əˈpruːvl/
+  def: Permission you get before you spend money.
+  vi: phê duyệt trước
+  examples:
+    - en: Purchases over 500 dollars need pre-approval.
+      vi: Khoản mua trên 500 đô cần được phê duyệt trước.
+- slug: t25-budget-n
+  lemma: budget
+  pos: noun
+  cefr: B1
+  topic: tourism
+  ipa: /ˈbʌdʒɪt/
+  def: The amount of money you plan to spend on something.
+  vi: ngân sách
+  forms:
+    - budgets
+    - over budget
+    - on budget
+  examples:
+    - en: We can't buy new laptops; the budget for this year is already used.
+      vi: Mình không mua laptop mới được, ngân sách năm nay đã dùng hết rồi.
+- slug: t25-estimate-v
+  lemma: estimate
+  pos: verb
+  cefr: B1
+  topic: tourism
+  ipa: /ˈestɪmeɪt/
+  def: To guess an amount carefully using the facts you have.
+  vi: ước tính
+  examples:
+    - en: I estimate the API costs at three hundred dollars.
+      vi: Mình ước tính chi phí API khoảng ba trăm đô.
+- slug: t25-agenda-n
+  lemma: agenda
+  pos: noun
+  cefr: B2
+  topic: tourism
+  ipa: /əˈdʒendə/
+  def: A list of things that will happen or be discussed at an event.
+  vi: chương trình, lịch trình
+  examples:
+    - en: The agenda has two talks and a Q&A.
+      vi: Chương trình gồm hai bài nói và phần hỏi đáp.
+- slug: t25-registration-n
+  lemma: registration
+  pos: noun
+  cefr: B1
+  topic: tourism
+  ipa: /ˌredʒɪˈstreɪʃn/
+  def: The process of putting your name on a list to attend an event.
+  vi: việc đăng ký
+  examples:
+    - en: Registration closes on Wednesday night.
+      vi: Hạn đăng ký kết thúc vào tối thứ Tư.
+- slug: t25-accommodation-n
+  lemma: accommodation
+  pos: noun
+  cefr: B1
+  topic: tourism
+  ipa: /əˌkɒməˈdeɪʃn/
+  def: A place to stay, such as a hotel room.
+  vi: chỗ ở
+  examples:
+    - en: Book accommodation close to the conference venue.
+      vi: Đặt chỗ ở gần địa điểm hội thảo.
+- lemma: itinerary
+  pos: noun
+  vi: lịch trình chuyến đi
+  def: A plan listing the places and times of a trip.
+  examples:
+    - en: Share the itinerary with the team before travelling.
+  slug: t25-itinerary-n
+  topic: tourism
+  cefr: A2
+- lemma: booking
+  pos: noun
+  vi: việc đặt trước dịch vụ
+  def: An arrangement to reserve a service or place.
+  examples:
+    - en: The booking stays pending until payment succeeds.
+  slug: t25-booking-n
+  topic: tourism
+  cefr: A2
+- slug: t25-reservation-n
+  lemma: reservation
+  pos: noun
+  cefr: B1
+  topic: tourism
+  ipa: /ˌrezəˈveɪʃn/
+  def: An arrangement to keep a table, room or seat for you.
+  vi: sự đặt chỗ
+  examples:
+    - en: I have a reservation under DevQuest for seven.
+      vi: Mình có đặt chỗ tên DevQuest lúc bảy giờ.
+- lemma: departure
+  pos: noun
+  vi: sự khởi hành
+  def: The act or time of leaving a place.
+  examples:
+    - en: Check the departure time before booking the workshop.
+  slug: t25-departure-n
+  topic: tourism
+  cefr: A2
+- lemma: arrival
+  pos: noun
+  vi: sự đến nơi
+  def: The act or time of reaching a place.
+  examples:
+    - en: The app sends a notification before the driver's arrival.
+  slug: t25-arrival-n
+  topic: tourism
+  cefr: A2
+- lemma: destination
+  pos: noun
+  vi: điểm đến
+  def: The place a person or item is travelling to.
+  examples:
+    - en: The driver cannot start without a destination.
+  slug: t25-destination-n
+  topic: tourism
+  cefr: A2
+- lemma: ticket
+  pos: noun
+  vi: vé tham dự hoặc di chuyển
+  def: A document granting travel or admission.
+  examples:
+    - en: Keep the ticket in your phone's offline wallet.
+  slug: t25-ticket-n
+  topic: tourism
+  cefr: A2
+- lemma: boarding pass
+  pos: noun
+  vi: thẻ lên máy bay
+  def: A document allowing a passenger to board a flight.
+  examples:
+    - en: Save your boarding pass before leaving for the airport.
+  slug: t25-boarding-pass-n
+  topic: tourism
+  cefr: A2
+  kind: collocation
+- slug: t25-check-in-n
+  lemma: check-in
+  pos: noun
+  cefr: B2
+  topic: tourism
+  ipa: /ˈtʃek ɪn/
+  def: A short meeting to see how someone is doing.
+  vi: buổi trao đổi nhanh
+  examples:
+    - en: We have a 15-minute check-in every Friday.
+      vi: Thứ Sáu nào bọn mình cũng có buổi trao đổi nhanh 15 phút.
+- lemma: confirmation number
+  pos: noun
+  vi: mã xác nhận
+  def: A code identifying a confirmed reservation or transaction.
+  examples:
+    - en: Include the confirmation number when contacting the hotel.
+  slug: t25-confirmation-number-n
+  topic: tourism
+  cefr: A2
+  kind: collocation
+- lemma: passport
+  pos: noun
+  vi: hộ chiếu
+  def: An official document used for international travel.
+  examples:
+    - en: Check that your passport remains valid for the trip.
+  slug: t25-passport-n
+  topic: tourism
+  cefr: A2
+- lemma: visa
+  pos: noun
+  vi: thị thực
+  def: Official permission to enter or stay in a country.
+  examples:
+    - en: Apply for a visa before confirming the conference trip.
+  slug: t25-visa-n
+  topic: tourism
+  cefr: A2
+- lemma: travel insurance
+  pos: noun
+  vi: bảo hiểm du lịch
+  def: Coverage for certain losses or emergencies during a trip.
+  examples:
+    - en: Check the travel insurance policy before the conference.
+  slug: t25-travel-insurance-n
+  topic: tourism
+  cefr: A2
+  kind: collocation
+- slug: t25-front-desk-n
+  lemma: front desk
+  pos: noun
+  kind: collocation
+  cefr: B1
+  topic: tourism
+  ipa: /ˌfrʌnt ˈdesk/
+  def: The place near the entrance where staff welcome visitors and answer
+    questions.
+  vi: quầy lễ tân
+  examples:
+    - en: Ask the front desk for the Wi-Fi password.
+      vi: Hỏi quầy lễ tân để lấy mật khẩu Wi-Fi.
+- slug: t25-reception-n
+  lemma: reception
+  pos: noun
+  cefr: A2
+  topic: tourism
+  ipa: /rɪˈsepʃn/
+  def: The place near the entrance of an office where visitors are welcomed.
+  vi: quầy lễ tân
+  forms:
+    - receptionist
+    - reception desk
+  examples:
+    - en: Your visitor is waiting at reception.
+      vi: Khách của bạn đang đợi ở quầy lễ tân.
+- slug: t25-name-tag-n
+  lemma: name tag
+  pos: noun
+  kind: collocation
+  cefr: A2
+  topic: tourism
+  ipa: /ˈneɪm tæɡ/
+  def: A small label with your name on it that you wear at an event.
+  vi: thẻ tên
+  examples:
+    - en: Please write your name and favourite language on your name tag.
+      vi: Hãy viết tên và ngôn ngữ yêu thích lên thẻ tên của bạn.
+- slug: t25-badge-n
+  lemma: badge
+  pos: noun
+  cefr: B1
+  topic: tourism
+  ipa: /bædʒ/
+  def: A small card you wear at an event to show your name or role.
+  vi: thẻ đeo
+  examples:
+    - en: Volunteers wear green badges, so ask them if you're lost.
+      vi: Tình nguyện viên đeo thẻ xanh lá, nếu lạc đường cứ hỏi họ.
+- slug: t25-venue-n
+  lemma: venue
+  pos: noun
+  cefr: B2
+  topic: tourism
+  ipa: /ˈvenjuː/
+  def: The place where an event happens.
+  vi: địa điểm (tổ chức)
+  examples:
+    - en: The venue is on the fifth floor, next to the lift.
+      vi: Địa điểm ở tầng năm, cạnh thang máy.
+- slug: t25-floor-plan-n
+  lemma: floor plan
+  pos: noun
+  kind: collocation
+  cefr: B2
+  topic: tourism
+  ipa: /ˈflɔː plæn/
+  def: A drawing that shows where rooms, tables, and doors are in a building.
+  vi: sơ đồ mặt bằng
+  examples:
+    - en: According to the floor plan, the sponsor tables go near the entrance.
+      vi: Theo sơ đồ mặt bằng, bàn của nhà tài trợ đặt gần lối vào.
+- slug: t25-signage-n
+  lemma: signage
+  pos: noun
+  cefr: C1
+  topic: tourism
+  ipa: /ˈsaɪnɪdʒ/
+  def: Signs that show people the way or give information at a place.
+  vi: biển chỉ dẫn
+  examples:
+    - en: Put up some signage in the lobby so guests can find the lift.
+      vi: Dán vài biển chỉ dẫn ở sảnh để khách tìm được thang máy.
+- lemma: directions
+  pos: noun
+  vi: chỉ dẫn đường đi
+  def: Instructions for reaching a place.
+  examples:
+    - en: The venue page includes directions from the station.
+  slug: t25-directions-n
+  topic: tourism
+  cefr: A2
+- slug: t25-entrance-n
+  lemma: entrance
+  pos: noun
+  cefr: A2
+  topic: tourism
+  ipa: /ˈentrəns/
+  def: The door or gate where you go into a building.
+  vi: lối vào
+  examples:
+    - en: Use the side entrance after 7 p.m.
+      vi: Sau 7 giờ tối hãy dùng lối vào bên hông.
+- lemma: exit
+  pos: noun
+  vi: lối ra
+  def: A way out of a building or area.
+  examples:
+    - en: The floor plan shows the nearest exit.
+  slug: t25-exit-n
+  topic: tourism
+  cefr: A2
+- lemma: reception desk
+  pos: noun
+  vi: quầy tiếp tân
+  def: A desk where visitors receive information or assistance.
+  examples:
+    - en: Collect your conference badge at the reception desk.
+  slug: t25-reception-desk-n
+  topic: tourism
+  cefr: A2
+  kind: collocation
+- lemma: queue
+  pos: noun
+  vi: hàng người chờ đến lượt
+  def: People waiting in order to be served.
+  examples:
+    - en: The registration queue moves quickly after the second desk opens.
+  slug: t25-queue-n
+  topic: tourism
+  cefr: A2
+- slug: t25-session-n
+  lemma: session
+  pos: noun
+  cefr: B1
+  topic: tourism
+  ipa: /ˈseʃn/
+  def: A period of time used for one activity.
+  vi: buổi
+  examples:
+    - en: The first session covers the database layer.
+      vi: Buổi đầu nói về lớp database.
+- slug: t25-timetable-n
+  lemma: timetable
+  pos: noun
+  cefr: A2
+  topic: tourism
+  ipa: /ˈtaɪmteɪbl/
+  def: A list that shows the times when buses or trains leave and arrive.
+  vi: lịch chạy (tàu, xe)
+  examples:
+    - en: I checked the bus timetable, and the last bus is at 10 p.m.
+      vi: Mình xem lịch chạy xe buýt rồi, chuyến cuối lúc 10 giờ tối.
+- slug: t25-introduce-yourself-phr
+  lemma: introduce yourself
+  pos: phrase
+  kind: phrase
+  cefr: A2
+  topic: tourism
+  ipa: /ˌɪntrəˈdjuːs jɔːˈself/
+  def: To tell someone your name and a little about you when you first meet.
+  vi: giới thiệu bản thân
+  examples:
+    - en: Let's go around the room and introduce ourselves.
+      vi: Mình đi một vòng và giới thiệu bản thân nhé.
+- slug: t25-background-n
+  lemma: background
+  pos: noun
+  cefr: B1
+  topic: tourism
+  ipa: /ˈbækɡraʊnd/
+  def: Your past education and work experience.
+  vi: nền tảng, xuất thân (học vấn, kinh nghiệm)
+  examples:
+    - en: My background is in mobile, but now I do mostly backend.
+      vi: Mình xuất thân làm mobile nhưng giờ chủ yếu làm backend.
+- slug: t25-field-n
+  lemma: field
+  pos: noun
+  cefr: B1
+  topic: tourism
+  ipa: /fiːld/
+  def: An area of work or study.
+  vi: lĩnh vực
+  examples:
+    - en: What field do you work in — fintech or e-commerce?
+      vi: Bạn làm trong lĩnh vực nào — fintech hay thương mại điện tử?
+- slug: t25-tech-stack-n
+  lemma: tech stack
+  pos: noun
+  kind: collocation
+  cefr: B2
+  topic: tourism
+  ipa: /ˈtek stæk/
+  def: The set of languages, frameworks, and tools used to build a product.
+  vi: bộ công nghệ
+  examples:
+    - en: The tech stack is Next.js, Postgres, and a little Python.
+      vi: Bộ công nghệ là Next.js, Postgres và một chút Python.
+- slug: t25-pet-project-n
+  lemma: pet project
+  pos: noun
+  kind: collocation
+  cefr: B2
+  topic: tourism
+  ipa: /ˌpet ˈprɒdʒekt/
+  def: A personal project you work on because you care about it, not for money.
+  vi: dự án tâm huyết cá nhân
+  examples:
+    - en: My pet project is an app that tracks bus arrival times.
+      vi: Dự án tâm huyết của mình là một app theo dõi giờ xe buýt đến.
+- slug: t25-open-source-adj
+  lemma: open-source
+  pos: adjective
+  cefr: B1
+  topic: tourism
+  ipa: /ˌəʊpən ˈsɔːs/
+  def: With code that anyone can read, use, and change for free.
+  vi: mã nguồn mở
+  examples:
+    - en: The library is open-source, so you can read the code on GitHub.
+      vi: Thư viện này là mã nguồn mở nên bạn có thể đọc code trên GitHub.
+- slug: t25-use-case-n
+  lemma: use case
+  pos: noun
+  kind: collocation
+  cefr: B2
+  topic: tourism
+  ipa: /ˈjuːs keɪs/
+  def: A particular situation in which a product is used.
+  vi: trường hợp sử dụng
+  examples:
+    - en: The main use case is splitting bills after team lunches.
+      vi: Trường hợp sử dụng chính là chia tiền sau các bữa trưa của team.
+- slug: t25-pain-point-n
+  lemma: pain point
+  pos: noun
+  kind: collocation
+  cefr: B2
+  topic: tourism
+  ipa: /ˈpeɪn pɔɪnt/
+  def: A problem that annoys users and that a product can fix.
+  vi: điểm khó chịu (của người dùng)
+  examples:
+    - en: The biggest pain point was finding a quiet place to work.
+      vi: Điểm khó chịu lớn nhất là tìm một chỗ yên tĩnh để làm việc.
+- slug: t25-target-user-n
+  lemma: target user
+  pos: noun
+  kind: collocation
+  cefr: B2
+  topic: tourism
+  ipa: /ˌtɑːɡɪt ˈjuːzə/
+  def: The kind of person a product is mainly made for.
+  vi: người dùng mục tiêu
+  examples:
+    - en: My target users are freelancers who work in cafés.
+      vi: Người dùng mục tiêu của mình là freelancer làm việc ở quán cà phê.
+- slug: t25-prototype-n
+  lemma: prototype
+  pos: noun
+  cefr: B2
+  topic: tourism
+  ipa: /ˈprəʊtətaɪp/
+  def: An early, simple version of a product, made to test an idea.
+  vi: bản mẫu
+  examples:
+    - en: I built a prototype in one weekend to test the idea.
+      vi: Mình làm một bản mẫu trong một cuối tuần để thử ý tưởng.
+- slug: t25-proof-of-concept-n
+  lemma: proof of concept
+  pos: noun
+  kind: collocation
+  cefr: C1
+  topic: tourism
+  ipa: /ˌpruːf əv ˈkɒnsept/
+  def: A small piece of work that shows an idea can really work.
+  vi: bản chứng minh khả thi
+  examples:
+    - en: This is only a proof of concept; it has no login yet.
+      vi: Đây mới là bản chứng minh khả thi; chưa có đăng nhập.
+- slug: t25-pitch-n
+  lemma: pitch
+  pos: noun
+  cefr: B2
+  topic: tourism
+  ipa: /pɪtʃ/
+  def: A short talk that tries to make people interested in an idea.
+  vi: bài thuyết trình ngắn để thuyết phục
+  examples:
+    - en: Keep your pitch under two minutes.
+      vi: Giữ bài giới thiệu của bạn dưới hai phút.
+- slug: t25-landing-page-n
+  lemma: landing page
+  pos: noun
+  kind: collocation
+  cefr: B2
+  topic: tourism
+  ipa: /ˈlændɪŋ peɪdʒ/
+  def: A single web page that explains a product and asks visitors to sign up.
+  vi: trang giới thiệu (landing page)
+  examples:
+    - en: The landing page has a short video and a sign-up form.
+      vi: Trang giới thiệu có một video ngắn và một form đăng ký.
+- slug: t25-contributor-n
+  lemma: contributor
+  pos: noun
+  cefr: B2
+  topic: tourism
+  ipa: /kənˈtrɪbjətə/
+  def: A person who adds work, such as code or docs, to a project.
+  vi: người đóng góp
+  examples:
+    - en: The project has twelve contributors from five countries.
+      vi: Dự án có mười hai người đóng góp từ năm quốc gia.
+- slug: t25-demo-n
+  lemma: demo
+  pos: noun
+  cefr: B1
+  topic: tourism
+  ipa: /ˈdeməʊ/
+  def: A short show of how a product or feature works.
+  vi: bản trình diễn, demo
+  examples:
+    - en: The live demo failed, so I showed a recording.
+      vi: Demo trực tiếp bị lỗi nên mình chiếu bản ghi.
+- slug: t25-traction-n
+  lemma: traction
+  pos: noun
+  cefr: C1
+  topic: tourism
+  ipa: /ˈtrækʃn/
+  def: Early proof that people are starting to use and like a product.
+  vi: sức hút ban đầu
+  examples:
+    - en: The tool got some traction after I posted it on a forum.
+      vi: Công cụ có chút sức hút sau khi mình đăng lên một diễn đàn.
+- lemma: technical talk
+  pos: noun
+  vi: bài trình bày kỹ thuật
+  def: A presentation explaining a technical subject.
+  examples:
+    - en: The technical talk includes a live debugging example.
+  slug: t25-technical-talk-n
+  topic: tourism
+  cefr: A2
+  kind: collocation
+- slug: t25-speaker-n
+  lemma: speaker
+  pos: noun
+  cefr: A2
+  topic: tourism
+  ipa: /ˈspiːkə/
+  def: A person who gives a talk to a group.
+  vi: diễn giả, người nói
+  examples:
+    - en: We need two speakers for next month's meetup.
+      vi: Bọn mình cần hai diễn giả cho buổi meetup tháng sau.
+- lemma: keynote
+  pos: noun
+  vi: bài phát biểu chính
+  def: A main talk setting the theme of an event.
+  examples:
+    - en: The keynote starts before the morning workshops.
+  slug: t25-keynote-n
+  topic: tourism
+  cefr: A2
+- slug: t25-lightning-talk-n
+  lemma: lightning talk
+  pos: noun
+  kind: collocation
+  cefr: B2
+  topic: tourism
+  ipa: /ˈlaɪtnɪŋ tɔːk/
+  def: A very short presentation, usually five minutes, at a tech event.
+  vi: bài nói chớp nhoáng
+  examples:
+    - en: I gave a lightning talk about our test setup.
+      vi: Mình trình bày một bài nói ngắn năm phút về cách tụi mình thiết lập test.
+- lemma: panel discussion
+  pos: noun
+  vi: buổi thảo luận của nhóm diễn giả
+  def: A discussion among invited speakers before an audience.
+  examples:
+    - en: The panel discussion compares approaches to remote engineering.
+  slug: t25-panel-discussion-n
+  topic: tourism
+  cefr: A2
+  kind: collocation
+- slug: t25-slides-n
+  lemma: slides
+  pos: noun
+  cefr: B1
+  topic: tourism
+  ipa: /slaɪdz/
+  def: The pages of a presentation shown on a screen.
+  vi: slide trình chiếu
+  examples:
+    - en: The speakers' slides are now on the meetup page.
+      vi: Slide của các diễn giả đã có trên trang meetup.
+- slug: t25-livestream-n
+  lemma: livestream
+  pos: noun
+  cefr: B1
+  topic: tourism
+  ipa: /ˈlaɪvstriːm/
+  def: Video of an event that is shown on the internet while it is happening.
+  vi: phát trực tiếp
+  examples:
+    - en: The livestream link is in the event description.
+      vi: Đường link phát trực tiếp nằm trong phần mô tả sự kiện.
+- slug: t25-microphone-n
+  lemma: microphone
+  pos: noun
+  cefr: A2
+  topic: tourism
+  ipa: /ˈmaɪkrəfəʊn/
+  def: A device that makes your voice louder or records it.
+  vi: micro
+  examples:
+    - en: Please use the microphone so people online can hear the questions.
+      vi: Vui lòng dùng micro để người xem online nghe được câu hỏi.
+- slug: t25-headset-n
+  lemma: headset
+  pos: noun
+  cefr: B1
+  topic: tourism
+  ipa: /ˈhedset/
+  def: Headphones with a small microphone, used for calls.
+  vi: tai nghe có mic
+  forms:
+    - headsets
+  examples:
+    - en: Please use a headset in online meetings so there's no echo.
+      vi: Họp online nhớ dùng tai nghe có mic để không bị vọng tiếng nhé.
+- slug: t25-note-taking-n
+  lemma: note-taking
+  pos: noun
+  kind: collocation
+  cefr: B1
+  topic: tourism
+  ipa: /ˈnəʊt teɪkɪŋ/
+  def: The activity of writing down information so you can use it later.
+  vi: việc ghi chép
+  examples:
+    - en: Good note-taking saves time when the bug comes back.
+      vi: Ghi chép tốt giúp tiết kiệm thời gian khi lỗi quay lại.
+- slug: t25-key-takeaway-n
+  lemma: key takeaway
+  pos: noun
+  kind: collocation
+  cefr: C1
+  topic: tourism
+  ipa: /kiː ˈteɪkəweɪ/
+  def: The most important point people should remember.
+  vi: điểm mấu chốt cần nhớ
+  examples:
+    - en: "The key takeaway: the bug only affects old clients."
+      vi: "Điểm mấu chốt: lỗi chỉ ảnh hưởng các client cũ."
+- slug: t25-highlight-n
+  lemma: highlight
+  pos: noun
+  cefr: B2
+  topic: tourism
+  ipa: /ˈhaɪlaɪt/
+  def: The best or most interesting part of something.
+  vi: điểm nổi bật
+  examples:
+    - en: The highlight for me was the talk on caching.
+      vi: Điểm nổi bật với mình là bài nói về caching.
+- slug: t25-jargon-n
+  lemma: jargon
+  pos: noun
+  cefr: C1
+  topic: tourism
+  ipa: /ˈdʒɑːɡən/
+  def: Special words that only experts understand.
+  vi: thuật ngữ chuyên môn khó hiểu
+  examples:
+    - en: Avoid jargon in the summary for managers.
+      vi: Tránh thuật ngữ khó hiểu trong phần tóm tắt cho quản lý.
+- slug: t25-acronym-n
+  lemma: acronym
+  pos: noun
+  cefr: B2
+  topic: tourism
+  ipa: /ˈækrənɪm/
+  def: A word made from the first letters of other words, like API.
+  vi: từ viết tắt (ghép chữ đầu)
+  examples:
+    - en: Write out each acronym the first time you use it.
+      vi: Hãy viết đầy đủ mỗi từ viết tắt ở lần đầu dùng.
+- slug: t25-prior-knowledge-n
+  lemma: prior knowledge
+  pos: noun
+  kind: collocation
+  cefr: C1
+  topic: tourism
+  ipa: /ˌpraɪə ˈnɒlɪdʒ/
+  def: What a reader already knows before reading.
+  vi: kiến thức có sẵn
+  examples:
+    - en: This guide needs no prior knowledge of SQL.
+      vi: Hướng dẫn này không cần kiến thức SQL có sẵn.
+- slug: t25-follow-along-pv
+  lemma: follow along
+  pos: phrasal_verb
+  kind: phrasal
+  cefr: B2
+  topic: tourism
+  ipa: /ˌfɒləʊ əˈlɒŋ/
+  def: To do the same steps as the speaker while they show them.
+  vi: làm theo cùng lúc
+  examples:
+    - en: Clone the repo if you want to follow along.
+      vi: Clone repo nếu bạn muốn làm theo cùng.
+- lemma: transcript
+  pos: noun
+  vi: bản ghi lời nói thành văn bản
+  def: A written version of spoken words.
+  examples:
+    - en: Share a transcript for colleagues who cannot listen to the recording.
+  slug: t25-transcript-n
+  topic: tourism
+  cefr: A2
+- slug: t25-recording-n
+  lemma: recording
+  pos: noun
+  cefr: B1
+  topic: tourism
+  ipa: /rɪˈkɔːdɪŋ/
+  def: A video or sound file of an event that you can watch later.
+  vi: bản ghi
+  examples:
+    - en: The recording is in the shared drive.
+      vi: Bản ghi nằm trong ổ chung.
+- lemma: question
+  pos: noun
+  vi: câu hỏi
+  def: A sentence or request seeking information.
+  examples:
+    - en: Keep your question short enough for the speaker to answer.
+  slug: t25-question-n
+  topic: tourism
+  cefr: A2
+- slug: t25-clarify-v
+  lemma: clarify
+  pos: verb
+  cefr: B1
+  topic: tourism
+  ipa: /ˈklærəfaɪ/
+  def: To make something easier to understand by explaining it more.
+  vi: làm rõ
+  examples:
+    - en: Could you clarify what "sync" means in this ticket?
+      vi: Bạn làm rõ giúp "sync" trong ticket này nghĩa là gì?
+- slug: t25-follow-up-n
+  lemma: follow-up
+  pos: noun
+  cefr: B2
+  topic: tourism
+  ipa: /ˈfɒləʊ ʌp/
+  def: A message or action that continues something that happened earlier.
+  vi: sự liên hệ tiếp theo
+  examples:
+    - en: I sent a quick follow-up the morning after the meetup.
+      vi: Mình gửi một tin liên hệ ngắn vào sáng hôm sau buổi meetup.
+- slug: t25-open-question-n
+  lemma: open question
+  pos: noun
+  kind: collocation
+  cefr: B2
+  topic: tourism
+  ipa: /ˌəʊpən ˈkwestʃən/
+  def: A question that has not been answered or decided yet.
+  vi: câu hỏi còn bỏ ngỏ
+  examples:
+    - en: "Open question: do we need to support IE?"
+      vi: "Câu hỏi còn bỏ ngỏ: có cần hỗ trợ IE không?"
+- slug: t25-specific-adj
+  lemma: specific
+  pos: adjective
+  cefr: B1
+  topic: tourism
+  ipa: /spəˈsɪfɪk/
+  def: Exact and detailed, not general.
+  vi: cụ thể
+  examples:
+    - en: A specific question gets a faster answer.
+      vi: Câu hỏi cụ thể sẽ được trả lời nhanh hơn.
+- lemma: relevant
+  pos: adjective
+  vi: có liên quan đến vấn đề
+  def: Closely connected to the topic or task.
+  examples:
+    - en: Ask a relevant question about the speaker's experiment.
+  slug: t25-relevant-adj
+  topic: tourism
+  cefr: A2
+- slug: t25-brief-n
+  lemma: brief
+  pos: noun
+  cefr: B2
+  topic: tourism
+  ipa: /briːf/
+  def: A short document that explains what a piece of work should achieve.
+  vi: bản mô tả yêu cầu
+  examples:
+    - en: The brief lists the users, the data and the alerts.
+      vi: Bản mô tả yêu cầu liệt kê người dùng, dữ liệu và cảnh báo.
+- slug: t25-context-n
+  lemma: context
+  pos: noun
+  cefr: B1
+  topic: tourism
+  ipa: /ˈkɒntekst/
+  def: The background facts that help someone understand a situation.
+  vi: ngữ cảnh, bối cảnh
+  examples:
+    - en: "Add some context: which service, which branch, which command."
+      vi: "Thêm chút ngữ cảnh: service nào, nhánh nào, lệnh nào."
+- slug: t25-assumption-n
+  lemma: assumption
+  pos: noun
+  cefr: B2
+  topic: tourism
+  ipa: /əˈsʌmpʃn/
+  def: Something you believe is true but have not proved.
+  vi: giả định
+  examples:
+    - en: List your assumptions so others can check them.
+      vi: Liệt kê các giả định để người khác kiểm tra.
+- slug: t25-working-theory-n
+  lemma: working theory
+  pos: noun
+  kind: collocation
+  cefr: C1
+  topic: tourism
+  ipa: /ˈwɜːkɪŋ ˈθɪəri/
+  def: The idea you are using for now to explain a problem, until you test it.
+  vi: giả thuyết tạm thời
+  examples:
+    - en: My working theory is that the cache returns old data.
+      vi: Giả thuyết tạm thời của mình là cache trả về dữ liệu cũ.
+- slug: t25-evidence-n
+  lemma: evidence
+  pos: noun
+  cefr: B2
+  topic: tourism
+  ipa: /ˈevɪdəns/
+  def: Facts or results that show something is true.
+  vi: bằng chứng
+  note: 'Không đếm được: "a piece of evidence".'
+  examples:
+    - en: Is there any evidence that this library is faster?
+      vi: Có bằng chứng nào cho thấy thư viện này nhanh hơn không?
+- slug: t25-example-n
+  lemma: example
+  pos: noun
+  cefr: A2
+  topic: tourism
+  ipa: /ɪɡˈzɑːmpl/
+  def: Something that shows how a thing works or is used.
+  vi: ví dụ
+  examples:
+    - en: The README has an example of a simple request.
+      vi: README có ví dụ về một request đơn giản.
+- slug: t25-compare-v
+  lemma: compare
+  pos: verb
+  cefr: A2
+  topic: tourism
+  ipa: /kəmˈpeə/
+  def: To look at how two things are the same or different.
+  vi: so sánh
+  examples:
+    - en: Compare the two answers and test both.
+      vi: So sánh hai câu trả lời và thử cả hai.
+- slug: t25-alternative-n
+  lemma: alternative
+  pos: noun
+  cefr: B2
+  topic: tourism
+  ipa: /ɔːlˈtɜːnətɪv/
+  def: Another possible choice.
+  vi: phương án thay thế
+  examples:
+    - en: We considered Kafka as an alternative but chose SQS.
+      vi: Nhóm đã cân nhắc Kafka làm phương án thay thế nhưng chọn SQS.
+- slug: t25-constraint-n
+  lemma: constraint
+  pos: noun
+  cefr: B2
+  topic: tourism
+  ipa: /kənˈstreɪnt/
+  def: Something that limits what you can do.
+  vi: ràng buộc
+  examples:
+    - en: A key constraint is that the data must stay in Vietnam.
+      vi: Một ràng buộc quan trọng là dữ liệu phải lưu ở Việt Nam.
+- slug: t25-rationale-n
+  lemma: rationale
+  pos: noun
+  cefr: C1
+  topic: tourism
+  ipa: /ˌræʃəˈnɑːl/
+  def: The reasons behind a decision.
+  vi: lý do căn bản
+  examples:
+    - en: Could you share the rationale for merging the teams?
+      vi: Anh chia sẻ lý do của việc gộp nhóm được không?
+- slug: t25-limitation-n
+  lemma: limitation
+  pos: noun
+  cefr: B2
+  topic: tourism
+  ipa: /ˌlɪmɪˈteɪʃn/
+  def: Something that a tool cannot do, or a limit on how it can be used.
+  vi: hạn chế
+  examples:
+    - en: One limitation of the free plan is 100 calls per day.
+      vi: Một hạn chế của gói miễn phí là 100 lượt gọi mỗi ngày.
+- slug: t25-unknown-n
+  lemma: unknown
+  pos: noun
+  cefr: B2
+  topic: tourism
+  ipa: /ˌʌnˈnəʊn/
+  def: Something you do not know yet.
+  vi: điều chưa biết, ẩn số
+  examples:
+    - en: The biggest unknown is how the vendor API handles retries.
+      vi: Điều chưa biết lớn nhất là API của bên cung cấp xử lý retry thế nào.
+- lemma: could you elaborate
+  pos: phrase
+  vi: bạn có thể giải thích thêm không
+  def: A polite request for more detail.
+  examples:
+    - en: Could you elaborate on the trade-off between these options?
+  slug: t25-could-you-elaborate-phr
+  topic: tourism
+  cefr: A2
+  kind: phrase
+- lemma: thank you for sharing
+  pos: phrase
+  vi: cảm ơn bạn đã chia sẻ
+  def: An expression appreciating information or experience offered by someone.
+  examples:
+    - en: Thank you for sharing the results of your migration.
+  slug: t25-thank-you-for-sharing-phr
+  topic: tourism
+  cefr: A2
+  kind: phrase
+- slug: t25-networking-n
+  lemma: networking
+  pos: noun
+  cefr: B2
+  topic: tourism
+  ipa: /ˈnetwɜːkɪŋ/
+  def: Meeting people in your field who may help your career.
+  vi: xây dựng mối quan hệ (nghề nghiệp)
+  forms:
+    - network
+    - networked
+  examples:
+    - en: Tech meetups are great for networking with other developers.
+      vi: Các buổi meetup công nghệ rất hợp để làm quen, kết nối với các developer
+        khác.
+- slug: t25-mingle-v
+  lemma: mingle
+  pos: verb
+  cefr: B2
+  topic: tourism
+  ipa: /ˈmɪŋɡl/
+  def: To move around at an event and talk to many different people.
+  vi: đi giao lưu, trò chuyện với nhiều người
+  examples:
+    - en: After the talks, we stayed to mingle with the other guests.
+      vi: Sau các bài nói, tụi mình ở lại giao lưu với các khách khác.
+- slug: t25-icebreaker-n
+  lemma: icebreaker
+  pos: noun
+  cefr: B2
+  topic: tourism
+  ipa: /ˈaɪsbreɪkə/
+  def: A game or question that helps people who don't know each other start talking.
+  vi: hoạt động làm quen
+  examples:
+    - en: As an icebreaker, everyone shared their worst bug.
+      vi: Để làm quen, mỗi người kể về con bug tệ nhất của mình.
+- slug: t25-small-talk-n
+  lemma: small talk
+  pos: noun
+  kind: collocation
+  cefr: B2
+  topic: tourism
+  ipa: /ˈsmɔːl ˌtɔːk/
+  def: Polite, light conversation about things like the weather or the weekend.
+  vi: chuyện phiếm, nói chuyện xã giao
+  forms:
+    - make small talk
+  examples:
+    - en: Before the call starts, we usually make small talk about the weekend.
+      vi: Trước khi bắt đầu cuộc gọi, bọn mình thường nói chuyện xã giao về cuối tuần.
+- slug: t25-contact-n
+  lemma: contact
+  pos: noun
+  cefr: B1
+  topic: tourism
+  ipa: /ˈkɒntækt/
+  def: A person you know who may be able to help you, especially at work.
+  vi: người quen (trong công việc)
+  examples:
+    - en: She has many contacts in the gaming industry.
+      vi: Cô ấy có nhiều người quen trong ngành game.
+- slug: t25-business-card-n
+  lemma: business card
+  pos: noun
+  kind: collocation
+  cefr: B1
+  topic: tourism
+  ipa: /ˈbɪznəs kɑːd/
+  def: A small card with your name, job, and contact information.
+  vi: danh thiếp
+  examples:
+    - en: Fewer people use business cards now; most share a QR code.
+      vi: Giờ ít người dùng danh thiếp; phần lớn chia sẻ mã QR.
+- slug: t25-contact-details-n
+  lemma: contact details
+  pos: noun
+  kind: collocation
+  cefr: B1
+  topic: tourism
+  ipa: /ˈkɒntækt diːteɪlz/
+  def: Information such as your email or phone number that people use to reach you.
+  vi: thông tin liên hệ
+  examples:
+    - en: Could you send me your contact details?
+      vi: Bạn gửi mình thông tin liên hệ được không?
+- slug: t25-connection-request-n
+  lemma: connection request
+  pos: noun
+  kind: collocation
+  cefr: B2
+  topic: tourism
+  ipa: /kəˈnekʃn rɪˌkwest/
+  def: An invitation on a professional website to join someone's contacts.
+  vi: lời mời kết nối
+  examples:
+    - en: Add a short note to your connection request so they remember you.
+      vi: Thêm một lời nhắn ngắn vào lời mời kết nối để họ nhớ ra bạn.
+- slug: t25-mutual-adj
+  lemma: mutual
+  pos: adjective
+  cefr: B2
+  topic: tourism
+  ipa: /ˈmjuːtʃuəl/
+  def: Shared by two or more people.
+  vi: chung, qua lại
+  examples:
+    - en: We have a mutual friend who works at the same start-up.
+      vi: Tụi mình có một người bạn chung làm ở cùng start-up.
+- slug: t25-common-ground-n
+  lemma: common ground
+  pos: noun
+  kind: collocation
+  cefr: C1
+  topic: tourism
+  ipa: /ˌkɒmən ˈɡraʊnd/
+  def: Interests or opinions that two people share.
+  vi: điểm chung
+  examples:
+    - en: We found common ground in our love of old game consoles.
+      vi: Tụi mình tìm thấy điểm chung là cùng thích máy chơi game cũ.
+- slug: t25-rapport-n
+  lemma: rapport
+  pos: noun
+  cefr: C1
+  topic: tourism
+  ipa: /ræˈpɔː/
+  def: A good, friendly relationship where people understand each other.
+  vi: sự hòa hợp, mối quan hệ tốt
+  examples:
+    - en: Building rapport takes time, not just one coffee.
+      vi: Xây dựng quan hệ tốt cần thời gian, không chỉ một buổi cà phê.
+- slug: t25-respectful-adj
+  lemma: respectful
+  pos: adjective
+  cefr: B1
+  topic: tourism
+  ipa: /rɪˈspektfl/
+  def: Showing that you value other people and their opinions.
+  vi: tôn trọng
+  examples:
+    - en: Please be respectful, even when you disagree.
+      vi: Hãy tôn trọng người khác, kể cả khi bạn không đồng ý.
+- slug: t25-polite-adj
+  lemma: polite
+  pos: adjective
+  cefr: A2
+  topic: tourism
+  ipa: /pəˈlaɪt/
+  def: Behaving in a way that shows respect for other people.
+  vi: lịch sự
+  examples:
+    - en: It's polite to ask how someone's weekend was.
+      vi: Hỏi thăm cuối tuần của người khác là lịch sự.
+- slug: t25-voluntary-adj
+  lemma: voluntary
+  pos: adjective
+  cefr: B2
+  topic: tourism
+  ipa: /ˈvɒləntri/
+  def: Done because you want to, not because you must.
+  vi: tự nguyện
+  examples:
+    - en: The karaoke night is voluntary, so don't feel bad about skipping.
+      vi: Buổi karaoke là tự nguyện, không đi cũng đừng ngại.
+- slug: t25-consent-n
+  lemma: consent
+  pos: noun
+  cefr: C1
+  topic: tourism
+  ipa: /kənˈsent/
+  def: Permission for something to happen.
+  vi: sự đồng ý
+  examples:
+    - en: Ask for consent before taking photos of attendees.
+      vi: Hãy xin sự đồng ý trước khi chụp ảnh người tham dự.
+- slug: t25-personal-question-n
+  lemma: personal question
+  pos: noun
+  kind: collocation
+  cefr: B1
+  topic: tourism
+  ipa: /ˌpɜːsənl ˈkwestʃən/
+  def: A question about someone's private life, such as money or marriage.
+  vi: câu hỏi riêng tư
+  examples:
+    - en: Avoid personal questions like salary or age.
+      vi: Tránh hỏi chuyện riêng như lương hay tuổi.
+- slug: t25-private-adj
+  lemma: private
+  pos: adjective
+  cefr: A2
+  topic: tourism
+  ipa: /ˈpraɪvət/
+  def: Only for you, and not something you want other people to know about.
+  vi: riêng tư
+  examples:
+    - en: Her health is private, so please don't ask about it in the channel.
+      vi: Sức khỏe của chị ấy là chuyện riêng, đừng hỏi trong channel nhé.
+- slug: t25-no-pressure-phr
+  lemma: no pressure
+  pos: phrase
+  kind: phrase
+  cefr: B1
+  topic: tourism
+  ipa: /ˌnəʊ ˈpreʃə(r)/
+  def: Said to show that someone does not have to do something.
+  vi: không sao đâu, không ép
+  examples:
+    - en: No pressure, but I'm free if you want to talk.
+      vi: Không ép đâu, nhưng nếu muốn tâm sự thì mình rảnh.
+- slug: t25-etiquette-n
+  lemma: etiquette
+  pos: noun
+  cefr: C1
+  topic: tourism
+  ipa: /ˈetɪket/
+  def: The accepted rules of polite behaviour in a group.
+  vi: phép lịch sự, nghi thức
+  examples:
+    - en: "Good chat etiquette: reply in threads, not in the main channel."
+      vi: "Phép lịch sự khi chat: trả lời trong thread, không phải kênh chính."
+- slug: t25-nice-to-meet-you-phr
+  lemma: nice to meet you
+  pos: phrase
+  kind: phrase
+  cefr: A1
+  topic: tourism
+  ipa: /naɪs tə ˈmiːt juː/
+  def: A polite thing to say when you meet someone for the first time.
+  vi: rất vui được gặp bạn
+  examples:
+    - en: Hi, I'm Lan from the payments team. Nice to meet you!
+      vi: Chào, mình là Lan bên team thanh toán. Rất vui được gặp bạn!
+- slug: t25-keep-in-touch-phr
+  lemma: keep in touch
+  pos: phrase
+  kind: phrase
+  cefr: B1
+  topic: tourism
+  ipa: /kiːp ɪn ˈtʌtʃ/
+  def: To continue to talk to or write to someone.
+  vi: giữ liên lạc
+  examples:
+    - en: Let's keep in touch — I'll be at the next meetup too.
+      vi: Mình giữ liên lạc nhé — mình cũng sẽ đến buổi meetup tới.
+- slug: t25-get-in-touch-phr
+  lemma: get in touch
+  pos: phrase
+  kind: phrase
+  cefr: B1
+  topic: tourism
+  ipa: /ˌɡet ɪn ˈtʌtʃ/
+  def: To contact someone by email, phone or message.
+  vi: liên lạc, liên hệ
+  forms:
+    - got in touch
+    - getting in touch
+    - gets in touch
+    - be in touch
+  examples:
+    - en: If you have any questions, please get in touch with me.
+      vi: Nếu có câu hỏi gì, anh/chị cứ liên hệ với tôi.
+- slug: t25-delay-n
+  lemma: delay
+  pos: noun
+  cefr: B1
+  topic: tourism
+  ipa: /dɪˈleɪ/
+  def: A period of time when someone or something is later than planned.
+  vi: sự chậm trễ
+  examples:
+    - en: The metro had a twenty-minute delay this morning.
+      vi: Sáng nay metro bị chậm hai mươi phút.
+- lemma: cancel
+  pos: verb
+  vi: huỷ
+  def: To stop a planned action or arrangement.
+  examples:
+    - en: Please cancel the booking if the client cannot travel.
+  slug: t25-cancel-v
+  topic: tourism
+  cefr: A2
+- slug: t25-cancellation-n
+  lemma: cancellation
+  pos: noun
+  cefr: B1
+  topic: tourism
+  ipa: /ˌkænsəˈleɪʃn/
+  def: The act of saying a booking will not happen.
+  vi: sự huỷ
+  examples:
+    - en: Is there a fee for late cancellation?
+      vi: Huỷ muộn có mất phí không?
+- slug: t25-reschedule-v
+  lemma: reschedule
+  pos: verb
+  cefr: B1
+  topic: tourism
+  ipa: /ˌriːˈʃedjuːl/
+  def: To change the time or date of a planned event.
+  vi: dời lịch, đổi giờ (sang thời điểm khác)
+  forms:
+    - reschedules
+    - rescheduled
+    - rescheduling
+  examples:
+    - en: Can we reschedule our call to Wednesday afternoon?
+      vi: Mình dời cuộc gọi sang chiều thứ Tư được không?
+- slug: t25-postpone-v
+  lemma: postpone
+  pos: verb
+  cefr: B1
+  topic: tourism
+  ipa: /pəˈspəʊn/
+  def: To move an event to a later time.
+  vi: hoãn lại
+  forms:
+    - postpones
+    - postponed
+    - postponing
+  examples:
+    - en: The demo was postponed because the server was down.
+      vi: Buổi demo bị hoãn vì server bị sập.
+- slug: t25-traffic-jam-n
+  lemma: traffic jam
+  pos: noun
+  kind: collocation
+  cefr: A2
+  topic: tourism
+  ipa: /ˈtræfɪk dʒæm/
+  def: A long line of vehicles on a road that are moving very slowly or not at all.
+  vi: kẹt xe
+  examples:
+    - en: Sorry, I'm stuck in a traffic jam and will join the stand-up late.
+      vi: Xin lỗi, mình đang kẹt xe nên sẽ vào buổi stand-up trễ.
+- slug: t25-rush-hour-n
+  lemma: rush hour
+  pos: noun
+  kind: collocation
+  cefr: B1
+  topic: tourism
+  ipa: /ˈrʌʃ aʊə/
+  def: The busy time of day when most people are travelling to or from work.
+  vi: giờ cao điểm
+  examples:
+    - en: Let's start the meeting at 9:30 so people can avoid rush hour.
+      vi: Mình bắt đầu họp lúc 9:30 để mọi người tránh giờ cao điểm nhé.
+- slug: t25-disruption-n
+  lemma: disruption
+  pos: noun
+  cefr: C1
+  topic: tourism
+  ipa: /dɪsˈrʌpʃn/
+  def: A problem that stops something from working normally.
+  vi: sự gián đoạn
+  examples:
+    - en: We want minimal disruption to the release schedule.
+      vi: Bọn mình muốn lịch release bị gián đoạn ít nhất.
+- lemma: detour
+  pos: noun
+  vi: đường vòng
+  def: A different route used to avoid a blocked path.
+  examples:
+    - en: The app suggests a detour around the flooded road.
+  slug: t25-detour-n
+  topic: tourism
+  cefr: A2
+- slug: t25-refund-n
+  lemma: refund
+  pos: noun
+  cefr: B1
+  topic: tourism
+  ipa: /ˈriːfʌnd/
+  def: Money that is paid back to you.
+  vi: tiền hoàn lại
+  examples:
+    - en: I asked for a refund for the missing drink.
+      vi: Mình yêu cầu hoàn tiền cho ly nước bị thiếu.
+- slug: t25-eligible-adj
+  lemma: eligible
+  pos: adjective
+  cefr: B2
+  topic: tourism
+  ipa: /ˈelɪdʒəbl/
+  def: Allowed to have something because you meet the rules.
+  vi: đủ điều kiện
+  examples:
+    - en: Annual plans are eligible for a refund within thirty days.
+      vi: Gói năm đủ điều kiện hoàn tiền trong vòng ba mươi ngày.
+- slug: t25-processing-time-n
+  lemma: processing time
+  pos: noun
+  kind: collocation
+  cefr: B2
+  topic: tourism
+  ipa: /ˈprəʊsesɪŋ taɪm/
+  def: How long a request takes to be completed.
+  vi: thời gian xử lý
+  examples:
+    - en: The usual processing time for refunds is five working days.
+      vi: Thời gian xử lý hoàn tiền thường là năm ngày làm việc.
+- slug: t25-proof-of-payment-n
+  lemma: proof of payment
+  pos: noun
+  kind: collocation
+  cefr: B2
+  topic: tourism
+  ipa: /ˌpruːf əv ˈpeɪmənt/
+  def: A document that shows you have paid.
+  vi: bằng chứng thanh toán
+  examples:
+    - en: Please send proof of payment so we can find your order.
+      vi: Vui lòng gửi bằng chứng thanh toán để chúng tôi tìm đơn hàng.
+- slug: t25-receipt-n
+  lemma: receipt
+  pos: noun
+  cefr: A2
+  topic: tourism
+  ipa: /rɪˈsiːt/
+  def: A piece of paper that proves you have paid for something.
+  vi: biên lai
+  examples:
+    - en: Keep the receipt so you can claim the cost.
+      vi: Giữ biên lai để còn thanh toán lại chi phí.
+- slug: t25-invoice-n
+  lemma: invoice
+  pos: noun
+  cefr: B2
+  topic: tourism
+  ipa: /ˈɪnvɔɪs/
+  def: A document that asks a client to pay for work.
+  vi: hoá đơn
+  examples:
+    - en: We send the invoice after the client accepts the milestone.
+      vi: Tụi mình gửi hoá đơn sau khi khách hàng chấp nhận cột mốc.
+- slug: t25-expense-n
+  lemma: expense
+  pos: noun
+  cefr: B1
+  topic: tourism
+  ipa: /ɪkˈspens/
+  def: Money you spend, especially for work.
+  vi: khoản chi
+  examples:
+    - en: Taxi rides to the client are a work expense.
+      vi: Đi taxi tới chỗ khách hàng là khoản chi công tác.
+- slug: t25-reimburse-v
+  lemma: reimburse
+  pos: verb
+  cefr: C1
+  topic: tourism
+  ipa: /ˌriːɪmˈbɜːs/
+  def: To pay back money that someone spent for you or for work.
+  vi: hoàn ứng, hoàn trả
+  examples:
+    - en: The company will reimburse your conference ticket.
+      vi: Công ty sẽ hoàn trả tiền vé hội thảo cho bạn.
+- slug: t25-per-diem-n
+  lemma: per diem
+  pos: noun
+  cefr: C1
+  topic: tourism
+  ipa: /ˌpɜː ˈdiːem/
+  def: A fixed amount of money for each day of a work trip.
+  vi: công tác phí theo ngày
+  examples:
+    - en: The per diem covers meals but not the hotel.
+      vi: Công tác phí theo ngày bao gồm ăn uống nhưng không gồm khách sạn.
+  kind: collocation
+- slug: t25-out-of-pocket-adj
+  lemma: out-of-pocket
+  pos: adjective
+  cefr: C1
+  topic: tourism
+  ipa: /ˌaʊt əv ˈpɒkɪt/
+  def: Paid with your own money.
+  vi: tự bỏ tiền túi
+  examples:
+    - en: I had some out-of-pocket costs during the trip.
+      vi: Mình có vài khoản tự bỏ tiền túi trong chuyến đi.
+- slug: t25-corporate-card-n
+  lemma: corporate card
+  pos: noun
+  kind: collocation
+  cefr: B2
+  topic: tourism
+  ipa: /ˈkɔːpərət kɑːd/
+  def: A card paid by the company that staff use for work costs.
+  vi: thẻ công ty
+  examples:
+    - en: Use the corporate card for software, not your own card.
+      vi: Dùng thẻ công ty để mua phần mềm, đừng dùng thẻ cá nhân.
+- slug: t25-reference-number-n
+  lemma: reference number
+  pos: noun
+  kind: collocation
+  cefr: B1
+  topic: tourism
+  ipa: /ˈrefrəns ˌnʌmbə/
+  def: A number that helps a company find your case or payment.
+  vi: mã tham chiếu
+  examples:
+    - en: Include the reference number in every reply.
+      vi: Ghi mã tham chiếu trong mọi email trả lời.
+- slug: t25-backup-plan-n
+  lemma: backup plan
+  pos: noun
+  kind: collocation
+  cefr: B2
+  topic: tourism
+  ipa: /ˈbækʌp plæn/
+  def: A second plan you can use if the first one fails.
+  vi: phương án dự phòng
+  examples:
+    - en: Our backup plan is to move the talk online if it storms.
+      vi: Phương án dự phòng là chuyển bài nói lên online nếu có bão.
+- slug: t25-emergency-contact-n
+  lemma: emergency contact
+  pos: noun
+  kind: collocation
+  cefr: B1
+  topic: tourism
+  ipa: /ɪˈmɜːdʒənsi ˌkɒntækt/
+  def: A person the company should call if something bad happens to you.
+  vi: người liên hệ khẩn cấp
+  examples:
+    - en: Please update your emergency contact in the HR system.
+      vi: Vui lòng cập nhật người liên hệ khẩn cấp trên hệ thống nhân sự.
+- slug: t25-unforeseen-adj
+  lemma: unforeseen
+  pos: adjective
+  cefr: C1
+  topic: tourism
+  ipa: /ˌʌnfɔːˈsiːn/
+  def: Not expected or planned for.
+  vi: không lường trước
+  examples:
+    - en: An unforeseen spike in traffic raised the bill.
+      vi: Một đợt tăng lưu lượng không lường trước làm hoá đơn tăng.
+- slug: t25-follow-up-email-n
+  lemma: follow-up email
+  pos: noun
+  kind: collocation
+  cefr: B1
+  topic: tourism
+  ipa: /ˈfɒləʊ ʌp iːmeɪl/
+  def: A second email sent after the first to remind or update people.
+  vi: email nhắc lại
+  examples:
+    - en: Send a follow-up email one week before the deadline.
+      vi: Gửi email nhắc lại một tuần trước hạn chót.
+- slug: t25-as-promised-phr
+  lemma: as promised
+  pos: phrase
+  kind: phrase
+  cefr: B2
+  topic: tourism
+  ipa: /æz ˈprɒmɪst/
+  def: Used when you do something you said you would do.
+  vi: như đã hứa
+  examples:
+    - en: As promised, here is the link to the repo.
+      vi: Như đã hứa, đây là link tới repo.
+- slug: t25-it-was-great-chatting-phr
+  lemma: it was great chatting
+  pos: phrase
+  kind: phrase
+  cefr: B1
+  topic: tourism
+  ipa: /ɪt wəz ˌɡreɪt ˈtʃætɪŋ/
+  def: A friendly way to start a message after talking to someone.
+  vi: rất vui được trò chuyện
+  examples:
+    - en: Hi Nam, it was great chatting with you on Saturday!
+      vi: Chào Nam, rất vui được trò chuyện với bạn hôm thứ Bảy!
+- slug: t25-thank-you-note-n
+  lemma: thank-you note
+  pos: noun
+  kind: collocation
+  cefr: B1
+  topic: tourism
+  ipa: /ˈθæŋk juː nəʊt/
+  def: A short message to thank someone.
+  vi: lời nhắn cảm ơn
+  examples:
+    - en: Send a thank-you note to the host within a day.
+      vi: Gửi lời nhắn cảm ơn chủ nhà trong vòng một ngày.
+- slug: t25-attach-v
+  lemma: attach
+  pos: verb
+  cefr: B1
+  topic: tourism
+  ipa: /əˈtætʃ/
+  def: To add a file to an email or message.
+  vi: đính kèm
+  examples:
+    - en: I've attached the photos from the event.
+      vi: Mình đã đính kèm ảnh của sự kiện.
+- slug: t25-reference-n
+  lemma: reference
+  pos: noun
+  cefr: B1
+  topic: tourism
+  ipa: /ˈrefrəns/
+  def: A mention of a source that gives more information.
+  vi: tài liệu tham khảo
+  examples:
+    - en: Put the references at the end of the document.
+      vi: Đặt tài liệu tham khảo ở cuối văn bản.
+- slug: t25-source-link-n
+  lemma: source link
+  pos: noun
+  kind: collocation
+  cefr: B2
+  topic: tourism
+  ipa: /ˈsɔːs lɪŋk/
+  def: A link to the place where information came from.
+  vi: liên kết nguồn
+  examples:
+    - en: Every number in the report has a source link.
+      vi: Mỗi con số trong báo cáo đều có liên kết nguồn.
+- slug: t25-permalink-n
+  lemma: permalink
+  pos: noun
+  cefr: C1
+  topic: tourism
+  ipa: /ˈpɜːməlɪŋk/
+  def: A link that always points to the same exact page or line.
+  vi: liên kết cố định
+  examples:
+    - en: Use a permalink to the line, not to the main branch.
+      vi: Dùng liên kết cố định tới dòng code, đừng trỏ tới nhánh main.
+- slug: t25-broken-link-n
+  lemma: broken link
+  pos: noun
+  kind: collocation
+  cefr: B1
+  topic: tourism
+  ipa: /ˌbrəʊkən ˈlɪŋk/
+  def: A link that no longer opens the right page.
+  vi: liên kết hỏng
+  examples:
+    - en: The docs had three broken links after the move.
+      vi: Tài liệu có ba liên kết hỏng sau khi chuyển chỗ.
+- slug: t25-intro-email-n
+  lemma: intro email
+  pos: noun
+  kind: collocation
+  cefr: B2
+  topic: tourism
+  ipa: /ˈɪntrəʊ iːmeɪl/
+  def: An email that introduces two people who might help each other.
+  vi: email giới thiệu (hai người)
+  examples:
+    - en: I'll write an intro email to you and our tech lead.
+      vi: Mình sẽ viết email giới thiệu bạn với tech lead của tụi mình.
+- slug: t25-warm-introduction-n
+  lemma: warm introduction
+  pos: noun
+  kind: collocation
+  cefr: C1
+  topic: tourism
+  ipa: /ˌwɔːm ˌɪntrəˈdʌkʃn/
+  def: An introduction made by someone who knows both people.
+  vi: lời giới thiệu qua người quen
+  examples:
+    - en: A warm introduction usually gets a faster reply than a cold email.
+      vi: Lời giới thiệu qua người quen thường được trả lời nhanh hơn email lạ.
+- slug: t25-cold-message-n
+  lemma: cold message
+  pos: noun
+  kind: collocation
+  cefr: C1
+  topic: tourism
+  ipa: /ˌkəʊld ˈmesɪdʒ/
+  def: A message to a person you have never met or spoken to.
+  vi: tin nhắn gửi người lạ
+  examples:
+    - en: Keep a cold message short and say why you're writing.
+      vi: Giữ tin nhắn gửi người lạ thật ngắn và nói rõ lý do bạn viết.
+- slug: t25-reconnect-v
+  lemma: reconnect
+  pos: verb
+  cefr: B2
+  topic: tourism
+  ipa: /ˌriːkəˈnekt/
+  def: To contact someone again after some time.
+  vi: kết nối lại
+  examples:
+    - en: It was great to reconnect with old classmates at the conference.
+      vi: Thật vui khi kết nối lại với bạn học cũ ở hội nghị.
+- slug: t25-catch-up-n
+  lemma: catch-up
+  pos: noun
+  cefr: B2
+  topic: tourism
+  ipa: /ˈkætʃ ʌp/
+  def: An informal meeting to talk about what has happened recently.
+  vi: buổi gặp hỏi thăm
+  examples:
+    - en: Would you like a coffee catch-up next week?
+      vi: Tuần sau bạn có muốn đi cà phê trò chuyện không?
+- slug: t25-recap-n
+  lemma: recap
+  pos: noun
+  cefr: B2
+  topic: tourism
+  ipa: /ˈriːkæp/
+  def: A short summary of the main points.
+  vi: bản tóm tắt
+  examples:
+    - en: Here's a quick recap of what we discussed.
+      vi: Đây là tóm tắt nhanh những gì tụi mình đã trao đổi.
+- slug: t25-mention-v
+  lemma: mention
+  pos: verb
+  cefr: B1
+  topic: tourism
+  ipa: /ˈmenʃn/
+  def: To say something briefly.
+  vi: nhắc đến
+  examples:
+    - en: You mentioned a job opening on your team — is it still open?
+      vi: Bạn có nhắc đến một vị trí đang tuyển ở team bạn — còn tuyển không?
+- slug: t25-refer-to-pv
+  lemma: refer to
+  pos: phrasal_verb
+  kind: phrasal
+  cefr: B2
+  topic: tourism
+  ipa: /rɪˈfɜː tə/
+  def: To talk about or point to something.
+  vi: đề cập đến, nhắc tới
+  examples:
+    - en: The article I referred to is linked below.
+      vi: Bài viết mình nhắc tới có link ở bên dưới.
+- slug: t25-next-step-n
+  lemma: next step
+  pos: noun
+  kind: collocation
+  cefr: B1
+  topic: tourism
+  ipa: /ˌnekst ˈstep/
+  def: The thing you will do after what you have just done.
+  vi: bước tiếp theo
+  examples:
+    - en: As a next step, could we schedule a short call?
+      vi: Bước tiếp theo, mình hẹn một cuộc gọi ngắn được không?
+- slug: t25-circle-back-pv
+  lemma: circle back
+  pos: phrasal_verb
+  kind: phrasal
+  cefr: C1
+  topic: tourism
+  ipa: /ˌsɜːkl ˈbæk/
+  def: To return to a subject later (business English).
+  vi: quay lại (vấn đề) sau
+  examples:
+    - en: Let me circle back after I talk to my manager.
+      vi: Để mình quay lại chuyện này sau khi nói với quản lý nhé.
+- slug: t25-drop-someone-a-line-phr
+  lemma: drop someone a line
+  pos: phrase
+  kind: phrase
+  cefr: B2
+  topic: tourism
+  ipa: /drɒp ... ə ˈlaɪn/
+  def: To send someone a short, informal message.
+  vi: nhắn cho ai vài dòng
+  examples:
+    - en: Drop me a line if you ever visit Hanoi.
+      vi: Nhắn mình vài dòng nếu bạn có dịp ra Hà Nội nhé.
+- slug: t25-prompt-adj
+  lemma: prompt
+  pos: adjective
+  cefr: C1
+  topic: tourism
+  ipa: /prɒmpt/
+  def: Done quickly, without delay.
+  vi: nhanh chóng, kịp thời
+  examples:
+    - en: Thanks for the prompt reply!
+      vi: Cảm ơn bạn đã trả lời nhanh!
+- slug: t25-personalised-adj
+  lemma: personalised
+  pos: adjective
+  cefr: B2
+  topic: tourism
+  ipa: /ˈpɜːsənəlaɪzd/
+  def: Written or made for one specific person.
+  vi: được cá nhân hóa
+  examples:
+    - en: A personalised message works better than a copied template.
+      vi: Một tin nhắn cá nhân hóa hiệu quả hơn mẫu sao chép.
+- slug: t25-gesture-n
+  lemma: gesture
+  pos: noun
+  cefr: C1
+  topic: tourism
+  ipa: /ˈdʒestʃə/
+  def: Something you do to show a feeling, such as thanks.
+  vi: cử chỉ (thể hiện thiện ý)
+  examples:
+    - en: Sharing the photos was a kind gesture.
+      vi: Chia sẻ ảnh là một cử chỉ tử tế.
+- slug: t25-gratitude-n
+  lemma: gratitude
+  pos: noun
+  cefr: C1
+  topic: tourism
+  ipa: /ˈɡrætɪtjuːd/
+  def: The feeling of being thankful.
+  vi: lòng biết ơn
+  examples:
+    - en: I want to express my gratitude to all the volunteers.
+      vi: Mình muốn bày tỏ lòng biết ơn tới tất cả tình nguyện viên.
+- slug: t25-nudge-n
+  lemma: nudge
+  pos: noun
+  cefr: C1
+  topic: tourism
+  ipa: /nʌdʒ/
+  def: A gentle reminder.
+  vi: lời nhắc khéo
+  examples:
+    - en: Just a gentle nudge about the slides you offered to share.
+      vi: Chỉ nhắc khéo về bộ slide bạn bảo sẽ chia sẻ thôi.
+- slug: t25-opportunity-n
+  lemma: opportunity
+  pos: noun
+  cefr: B1
+  topic: tourism
+  ipa: /ˌɒpəˈtjuːnəti/
+  def: A chance to do something good, such as a new job.
+  vi: cơ hội
+  examples:
+    - en: Many of the best opportunities are never posted online.
+      vi: Nhiều cơ hội tốt nhất không bao giờ được đăng lên mạng.
+- slug: t25-collaborator-n
+  lemma: collaborator
+  pos: noun
+  cefr: B2
+  topic: tourism
+  ipa: /kəˈlæbəreɪtə/
+  def: A person who works with you on a shared project.
+  vi: người cộng tác
+  examples:
+    - en: I'm looking for a collaborator who knows design.
+      vi: Mình đang tìm một người cộng tác biết thiết kế.
+- slug: t25-time-zone-n
+  lemma: time zone
+  pos: noun
+  kind: collocation
+  cefr: B1
+  topic: tourism
+  ipa: /ˈtaɪm zəʊn/
+  def: An area of the world that uses the same clock time.
+  vi: múi giờ
+  examples:
+    - en: We are in different time zones, so we work mostly in writing.
+      vi: Tụi mình ở khác múi giờ nên chủ yếu làm việc qua tin nhắn.
+- slug: t25-findings-n
+  lemma: findings
+  pos: noun
+  cefr: C1
+  topic: tourism
+  ipa: /ˈfaɪndɪŋz/
+  def: The information you discover after studying or testing something.
+  vi: kết quả tìm hiểu, phát hiện
+  forms:
+    - finding
+  examples:
+    - en: The UX team will present their findings from the user tests.
+      vi: Nhóm UX sẽ trình bày các phát hiện từ đợt thử nghiệm người dùng.
+- slug: t25-overview-n
+  lemma: overview
+  pos: noun
+  cefr: B2
+  topic: tourism
+  ipa: /ˈəʊvəvjuː/
+  def: A short description of the main facts.
+  vi: tổng quan
+  examples:
+    - en: Start with a short overview of the payment flow.
+      vi: Bắt đầu bằng phần tổng quan ngắn về luồng thanh toán.
+- slug: t25-executive-summary-n
+  lemma: executive summary
+  pos: noun
+  kind: collocation
+  cefr: C1
+  topic: tourism
+  ipa: /ɪɡˈzekjətɪv ˈsʌməri/
+  def: A short part at the start that gives the main points.
+  vi: tóm tắt tổng quan
+  examples:
+    - en: Busy readers will only read the executive summary.
+      vi: Người đọc bận rộn chỉ đọc phần tóm tắt tổng quan.
+- slug: t25-insight-n
+  lemma: insight
+  pos: noun
+  cefr: C1
+  topic: tourism
+  ipa: /ˈɪnsaɪt/
+  def: A clear, deep understanding of something.
+  vi: hiểu biết sâu sắc
+  examples:
+    - en: The post gives real insight into how the queue works.
+      vi: Bài viết mang lại hiểu biết sâu về cách hàng đợi vận hành.
+- slug: t25-lesson-learned-n
+  lemma: lesson learned
+  pos: noun
+  kind: collocation
+  cefr: B2
+  topic: tourism
+  ipa: /ˌlesn ˈlɜːnd/
+  def: Useful knowledge you gain from an experience.
+  vi: bài học rút ra
+  examples:
+    - en: One lesson learned is to involve QA earlier.
+      vi: Một bài học rút ra là cần đưa QA vào sớm hơn.
+- slug: t25-recommendation-n
+  lemma: recommendation
+  pos: noun
+  cefr: B2
+  topic: tourism
+  ipa: /ˌrekəmenˈdeɪʃn/
+  def: Advice about what someone should do.
+  vi: khuyến nghị, lời đề xuất
+  forms:
+    - recommendations
+    - recommend
+    - recommended
+  examples:
+    - en: Our main recommendation is to move the images to a CDN.
+      vi: Khuyến nghị chính của bọn mình là chuyển ảnh sang CDN.
+- slug: t25-proposal-n
+  lemma: proposal
+  pos: noun
+  cefr: B1
+  topic: tourism
+  ipa: /prəˈpəʊzl/
+  def: A written plan that asks others to agree to something.
+  vi: đề xuất
+  examples:
+    - en: I wrote a proposal to cut image sizes by half.
+      vi: Mình đã viết một đề xuất giảm một nửa kích thước ảnh.
+- slug: t25-benefit-n
+  lemma: benefit
+  pos: noun
+  cefr: B1
+  topic: tourism
+  ipa: /ˈbenɪfɪt/
+  def: A good result or advantage.
+  vi: lợi ích
+  examples:
+    - en: The main benefit is that juniors can deploy alone.
+      vi: Lợi ích chính là các bạn junior tự deploy được.
+- slug: t25-drawback-n
+  lemma: drawback
+  pos: noun
+  cefr: B2
+  topic: tourism
+  ipa: /ˈdrɔːbæk/
+  def: A disadvantage or problem.
+  vi: nhược điểm
+  examples:
+    - en: The main drawback is that we lose strong typing.
+      vi: Nhược điểm chính là mất kiểu dữ liệu chặt chẽ.
+- slug: t25-trade-off-n
+  lemma: trade-off
+  pos: noun
+  kind: collocation
+  cefr: C1
+  topic: tourism
+  ipa: /ˈtreɪd ɒf/
+  def: Accepting something bad in order to get something good.
+  vi: sự đánh đổi
+  examples:
+    - en: The trade-off is that I'll miss the Friday demo.
+      vi: Đổi lại là mình sẽ lỡ buổi demo thứ Sáu.
+- slug: t25-relevance-n
+  lemma: relevance
+  pos: noun
+  cefr: C1
+  topic: tourism
+  ipa: /ˈreləvəns/
+  def: How useful or connected something is to a person or situation.
+  vi: mức độ liên quan
+  examples:
+    - en: Explain the relevance of the change for each team.
+      vi: Giải thích mức độ liên quan của thay đổi với từng nhóm.
+- slug: t25-applicable-adj
+  lemma: applicable
+  pos: adjective
+  cefr: C1
+  topic: tourism
+  ipa: /əˈplɪkəbl/
+  def: Relevant to a particular situation.
+  vi: áp dụng được
+  examples:
+    - en: Is this rule applicable to internal tools too?
+      vi: Quy tắc này có áp dụng cho công cụ nội bộ không?
+- slug: t25-in-practice-phr
+  lemma: in practice
+  pos: phrase
+  kind: phrase
+  cefr: B2
+  topic: tourism
+  ipa: /ɪn ˈpræktɪs/
+  def: What really happens, as opposed to what should happen.
+  vi: trên thực tế
+  examples:
+    - en: In practice, nobody reads the long checklist.
+      vi: Trên thực tế, không ai đọc danh sách kiểm tra dài đó.
+- slug: t25-actionable-adj
+  lemma: actionable
+  pos: adjective
+  cefr: C1
+  topic: tourism
+  ipa: /ˈækʃənəbl/
+  def: Clear enough that a person knows what to do next.
+  vi: có thể hành động ngay
+  examples:
+    - en: '"Be better" is vague; give one actionable step.'
+      vi: '"Làm tốt hơn" thì mơ hồ; hãy đưa một bước có thể làm ngay.'
+- slug: t25-experiment-n
+  lemma: experiment
+  pos: noun
+  cefr: B1
+  topic: tourism
+  ipa: /ɪkˈsperɪmənt/
+  def: A test done to find out whether an idea works.
+  vi: thử nghiệm
+  examples:
+    - en: Let's run an experiment with dark mode as default.
+      vi: Mình hãy chạy thử nghiệm với chế độ tối làm mặc định.
+- slug: t25-pilot-n
+  lemma: pilot
+  pos: noun
+  cefr: B2
+  topic: tourism
+  ipa: /ˈpaɪlət/
+  def: A small first test before a full launch.
+  vi: chương trình thí điểm
+  examples:
+    - en: We'll start with a pilot in two cities.
+      vi: Bọn mình sẽ bắt đầu với chương trình thí điểm ở hai thành phố.
+- slug: t25-success-criteria-n
+  lemma: success criteria
+  pos: noun
+  kind: collocation
+  cefr: B2
+  topic: tourism
+  ipa: /səkˈses kraɪˌtɪəriə/
+  def: The conditions that show a project has worked.
+  vi: tiêu chí thành công
+  examples:
+    - en: The success criteria must be agreed before we start.
+      vi: Tiêu chí thành công phải được thống nhất trước khi bắt đầu.
+- slug: t25-metric-n
+  lemma: metric
+  pos: noun
+  cefr: B2
+  topic: tourism
+  ipa: /ˈmetrɪk/
+  def: A number used to track how well something is going.
+  vi: chỉ số
+  examples:
+    - en: The main metric is energy per active user.
+      vi: Chỉ số chính là năng lượng trên mỗi người dùng hoạt động.
+- slug: t25-baseline-n
+  lemma: baseline
+  pos: noun
+  cefr: B2
+  topic: tourism
+  ipa: /ˈbeɪslaɪn/
+  def: A starting value used to compare later changes.
+  vi: mức cơ sở
+  examples:
+    - en: Last year's usage is our baseline.
+      vi: Mức sử dụng năm ngoái là mức cơ sở của mình.
+- slug: t25-test-plan-n
+  lemma: test plan
+  pos: noun
+  kind: collocation
+  cefr: B1
+  topic: tourism
+  ipa: /ˈtest plæn/
+  def: A description of how you checked that a change works.
+  vi: kế hoạch kiểm thử
+  examples:
+    - en: My test plan lists the three cases I tried by hand.
+      vi: Kế hoạch kiểm thử của mình liệt kê ba trường hợp mình thử bằng tay.
+- slug: t25-iteration-n
+  lemma: iteration
+  pos: noun
+  cefr: B2
+  topic: tourism
+  ipa: /ˌɪtəˈreɪʃn/
+  def: One repeat of a loop or of a test.
+  vi: vòng lặp, lượt
+  examples:
+    - en: Each iteration inserts 1,000 rows.
+      vi: Mỗi lượt chèn 1.000 dòng.
+- slug: t25-review-date-n
+  lemma: review date
+  pos: noun
+  kind: collocation
+  cefr: B1
+  topic: tourism
+  ipa: /rɪˈvjuː deɪt/
+  def: A planned date to check a decision again.
+  vi: ngày xem xét lại
+  examples:
+    - en: Set a review date three months from now.
+      vi: Hãy đặt ngày xem xét lại sau ba tháng nữa.
+- slug: t25-knowledge-transfer-n
+  lemma: knowledge transfer
+  pos: noun
+  kind: collocation
+  cefr: B2
+  topic: tourism
+  ipa: /ˈnɒlɪdʒ ˌtrænsfɜː/
+  def: The process of teaching another person what you know about a system.
+  vi: chuyển giao kiến thức
+  examples:
+    - en: We have two weeks for knowledge transfer before Huy leaves.
+      vi: Mình có hai tuần chuyển giao kiến thức trước khi Huy nghỉ.
+- slug: t25-handover-document-n
+  lemma: handover document
+  pos: noun
+  kind: collocation
+  cefr: B2
+  topic: tourism
+  ipa: /ˈhændəʊvə ˌdɒkjumənt/
+  def: A document that explains the work being passed to someone else.
+  vi: tài liệu bàn giao
+  examples:
+    - en: The handover document lists every cron job and its owner.
+      vi: Tài liệu bàn giao liệt kê mọi cron job và người phụ trách.
+- slug: t25-runbook-n
+  lemma: runbook
+  pos: noun
+  cefr: C1
+  topic: tourism
+  ipa: /ˈrʌnbʊk/
+  def: A written guide for doing routine or emergency tasks on a system.
+  vi: sổ tay vận hành
+  examples:
+    - en: Follow the runbook if the queue gets stuck.
+      vi: Làm theo sổ tay vận hành nếu hàng đợi bị kẹt.
+- slug: t25-code-snippet-n
+  lemma: code snippet
+  pos: noun
+  kind: collocation
+  cefr: B1
+  topic: tourism
+  ipa: /ˈkəʊd snɪpɪt/
+  def: A short piece of code shown in a text.
+  vi: đoạn mã ngắn
+  examples:
+    - en: Add a code snippet that shows the fix.
+      vi: Thêm một đoạn mã ngắn minh hoạ bản sửa.
+- slug: t25-architecture-diagram-n
+  lemma: architecture diagram
+  pos: noun
+  kind: collocation
+  cefr: B2
+  topic: tourism
+  ipa: /ˈɑːkɪtektʃə daɪəɡræm/
+  def: A picture that shows the main parts of a system and how they connect.
+  vi: sơ đồ kiến trúc
+  examples:
+    - en: An architecture diagram helps readers follow the post.
+      vi: Một sơ đồ kiến trúc giúp người đọc theo kịp bài viết.
+- slug: t25-case-study-n
+  lemma: case study
+  pos: noun
+  kind: collocation
+  cefr: B2
+  topic: tourism
+  ipa: /ˈkeɪs stʌdi/
+  def: A detailed story of how one real project or problem was handled.
+  vi: nghiên cứu tình huống
+  examples:
+    - en: Our case study shows how we cut costs by 30%.
+      vi: Nghiên cứu tình huống cho thấy cách chúng tôi giảm 30% chi phí.
+- slug: t25-workshop-n
+  lemma: workshop
+  pos: noun
+  cefr: B1
+  topic: tourism
+  ipa: /ˈwɜːkʃɒp/
+  def: A session where people learn by doing tasks together.
+  vi: buổi workshop, buổi thực hành
+  examples:
+    - en: In the workshop, everyone writes their first unit test.
+      vi: Trong buổi workshop, ai cũng viết unit test đầu tiên.
+- slug: t25-hands-on-adj
+  lemma: hands-on
+  pos: adjective
+  cefr: B1
+  topic: tourism
+  ipa: /ˌhændz ˈɒn/
+  def: Learning by doing real tasks yourself, not only by reading or watching.
+  vi: thực hành
+  examples:
+    - en: I prefer hands-on courses with real projects.
+      vi: Mình thích khoá học thực hành có dự án thật.
+- slug: t25-peer-n
+  lemma: peer
+  pos: noun
+  cefr: B2
+  topic: tourism
+  ipa: /pɪə/
+  def: A person at the same level as you, in age or work.
+  vi: người ngang hàng, đồng nghiệp cùng cấp
+  examples:
+    - en: Talking to peers at other companies helps me compare salaries.
+      vi: Nói chuyện với người cùng cấp ở công ty khác giúp mình so sánh lương.
+- slug: t25-expertise-n
+  lemma: expertise
+  pos: noun
+  cefr: C1
+  topic: tourism
+  ipa: /ˌekspɜːˈtiːz/
+  def: Special skill or knowledge in a particular area.
+  vi: chuyên môn
+  examples:
+    - en: We need someone with expertise in payments.
+      vi: Tụi mình cần người có chuyên môn về thanh toán.
+- slug: t25-feedback-n
+  lemma: feedback
+  pos: noun
+  cefr: B1
+  topic: tourism
+  ipa: /ˈfiːdbæk/
+  def: Comments about how good something is and how to improve it.
+  vi: góp ý, phản hồi
+  examples:
+    - en: She gave me useful feedback on my design doc.
+      vi: Chị ấy góp ý rất hữu ích cho tài liệu thiết kế của mình.
+- lemma: discussion
+  pos: noun
+  vi: cuộc thảo luận
+  def: An exchange of views about a subject.
+  examples:
+    - en: The discussion ended with an agreed experiment.
+  slug: t25-discussion-n
+  topic: tourism
+  cefr: A2
+- slug: t25-share-v
+  lemma: share
+  pos: verb
+  cefr: A2
+  topic: tourism
+  ipa: /ʃeə/
+  def: To send someone else's post or a link to your friends or followers.
+  vi: chia sẻ (bài viết, đường link)
+  forms:
+    - shares
+    - shared
+    - sharing
+  examples:
+    - en: Please share this post if you know anyone who is looking for a job.
+      vi: Hãy chia sẻ bài này nếu bạn biết ai đang tìm việc nhé.
+- slug: t25-contribute-v
+  lemma: contribute
+  pos: verb
+  cefr: B2
+  topic: tourism
+  ipa: /kənˈtrɪbjuːt/
+  def: To give your work or ideas to help a shared project.
+  vi: đóng góp
+  examples:
+    - en: Anyone can contribute by fixing typos in the README.
+      vi: Ai cũng có thể đóng góp bằng cách sửa lỗi chính tả trong README.

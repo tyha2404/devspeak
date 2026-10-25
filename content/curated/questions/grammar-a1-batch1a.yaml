@@ -1,0 +1,464 @@
+# Grammar track A1 tests (batch 1a). Original items; answers stay server-side.
+- {
+    slug: "g-a1-countability-1",
+    type: "fill_blank",
+    cefr: "A1",
+    topic: "grammar",
+    skin: "slack",
+    sentence: "Can you send me more ___ about the outage?",
+    options: ["information", "informations", "an information", "a information"],
+    answer: 0,
+    explanation_vi: "Information không đếm được: không thêm -s, không dùng a/an.",
+  }
+- {
+    slug: "g-a1-countability-2",
+    type: "fill_blank",
+    cefr: "A1",
+    topic: "grammar",
+    skin: "jira",
+    sentence: "We fixed five ___ in this sprint.",
+    options: ["bug", "bugs", "bug's", "a bug"],
+    answer: 1,
+    explanation_vi: "Sau số đếm five, danh từ đếm được phải ở số nhiều: bugs.",
+  }
+- {
+    slug: "g-a1-countability-3",
+    type: "fill_blank",
+    cefr: "A1",
+    topic: "grammar",
+    skin: "slack",
+    sentence: "The feedback from the client ___ very helpful.",
+    accepted: ["is", "was"],
+    explanation_vi: "Feedback không đếm được nên đi với động từ số ít is/was.",
+  }
+- {
+    slug: "g-a1-countability-4",
+    type: "mcq_meaning",
+    cefr: "A1",
+    topic: "grammar",
+    stem: "Chọn câu đúng.",
+    question: "Câu nào đúng ngữ pháp?",
+    options: ["She gave me an advice.", "She gave me a piece of advice.", "She gave me advices."],
+    answer: 1,
+    explanation_vi: "Advice không đếm được; muốn nói “một lời khuyên” dùng a piece of advice.",
+  }
+- {
+    slug: "g-a1-countability-5",
+    type: "fill_blank",
+    cefr: "A1",
+    topic: "grammar",
+    skin: "jira",
+    sentence: "I have ___ question about the ticket.",
+    options: ["a", "an", "some", "much"],
+    answer: 0,
+    explanation_vi: "Question đếm được, số ít, bắt đầu bằng phụ âm → a.",
+  }
+- {
+    slug: "g-a1-countability-6",
+    type: "mcq_meaning",
+    cefr: "A1",
+    topic: "grammar",
+    stem: "Chọn câu đúng.",
+    question: "Bạn muốn nói “Có nhiều code cũ trong repo này.”",
+    options:
+      [
+        "There are a lot of old codes in this repo.",
+        "There is a lot of old code in this repo.",
+        "There is a lot of old codes in this repo.",
+      ],
+    answer: 1,
+    explanation_vi: "Code (mã nguồn) không đếm được: không -s, dùng there is.",
+  }
+- {
+    slug: "g-a1-countability-7",
+    type: "fill_blank",
+    cefr: "A1",
+    topic: "grammar",
+    skin: "pr",
+    sentence: "Thanks for your ___ on my pull request!",
+    accepted: ["feedback", "comments", "comment"],
+    explanation_vi: "Feedback không đếm được nên không thêm -s; nếu dùng comment thì đếm được.",
+  }
+- {
+    slug: "g-a1-countability-8",
+    type: "fill_blank",
+    cefr: "A1",
+    topic: "grammar",
+    skin: "slack",
+    sentence: "Our ___ on the new feature is slow this week.",
+    options: ["progress", "progresses", "a progress", "progressing"],
+    answer: 0,
+    explanation_vi: "Progress không đếm được: không có dạng số nhiều và không đi với a.",
+  }
+- {
+    slug: "g-a1-quantifiers-1",
+    type: "fill_blank",
+    cefr: "A1",
+    topic: "grammar",
+    skin: "slack",
+    sentence: "How ___ time do we have before the demo?",
+    options: ["much", "many", "any", "a lot"],
+    answer: 0,
+    explanation_vi: "Time không đếm được nên hỏi bằng how much.",
+  }
+- {
+    slug: "g-a1-quantifiers-2",
+    type: "fill_blank",
+    cefr: "A1",
+    topic: "grammar",
+    skin: "jira",
+    sentence: "How ___ tests are failing on main?",
+    options: ["much", "many", "some", "any"],
+    answer: 1,
+    explanation_vi: "Tests là danh từ đếm được số nhiều → how many.",
+  }
+- {
+    slug: "g-a1-quantifiers-3",
+    type: "fill_blank",
+    cefr: "A1",
+    topic: "grammar",
+    skin: "vscode",
+    sentence: "There aren't ___ errors in the log.",
+    accepted: ["any", "many"],
+    explanation_vi: "Câu phủ định dùng any (không lỗi nào) hoặc many (không nhiều lỗi).",
+  }
+- {
+    slug: "g-a1-quantifiers-4",
+    type: "mcq_meaning",
+    cefr: "A1",
+    topic: "grammar",
+    stem: "Chọn câu đúng.",
+    question: "Câu nào đúng ngữ pháp?",
+    options:
+      [
+        "We have much bugs this week.",
+        "We have a lot of bugs this week.",
+        "We have a lot bugs this week.",
+      ],
+    answer: 1,
+    explanation_vi: "Bugs đếm được; câu khẳng định dùng a lot of. Much chỉ đi với danh từ không đếm được.",
+  }
+- {
+    slug: "g-a1-quantifiers-5",
+    type: "fill_blank",
+    cefr: "A1",
+    topic: "grammar",
+    skin: "slack",
+    sentence: "I have ___ questions about the new spec.",
+    options: ["some", "any", "much", "a"],
+    answer: 0,
+    explanation_vi: "Câu khẳng định với danh từ số nhiều dùng some.",
+  }
+- {
+    slug: "g-a1-quantifiers-6",
+    type: "mcq_meaning",
+    cefr: "A1",
+    topic: "grammar",
+    stem: "Chọn câu hỏi đúng.",
+    question: "Bạn muốn hỏi còn ticket nào đang mở không.",
+    options:
+      [
+        "Are there some open ticket?",
+        "Are there any open tickets?",
+        "Is there many open tickets?",
+        "Are there much open tickets?",
+      ],
+    answer: 1,
+    explanation_vi: "Câu hỏi có/không dùng any + danh từ số nhiều, động từ are.",
+  }
+- {
+    slug: "g-a1-quantifiers-7",
+    type: "fill_blank",
+    cefr: "A1",
+    topic: "grammar",
+    skin: "slack",
+    sentence: "The free plan doesn't give us ___ storage.",
+    accepted: ["much", "any", "a lot of"],
+    explanation_vi: "Storage không đếm được; câu phủ định dùng much, any hoặc a lot of.",
+  }
+- {
+    slug: "g-a1-quantifiers-8",
+    type: "fill_blank",
+    cefr: "A1",
+    topic: "grammar",
+    skin: "slack",
+    sentence: "Our app gets ___ traffic in the evening.",
+    options: ["a lot of", "many", "any", "a few"],
+    answer: 0,
+    explanation_vi: "Traffic không đếm được, câu khẳng định → a lot of.",
+  }
+- {
+    slug: "g-a1-adjectives-adverbs-1",
+    type: "fill_blank",
+    cefr: "A1",
+    topic: "grammar",
+    skin: "slack",
+    sentence: "The new cache works ___.",
+    options: ["good", "well", "goodly", "better than"],
+    answer: 1,
+    explanation_vi: "Works là động từ nên cần trạng từ; trạng từ của good là well.",
+  }
+- {
+    slug: "g-a1-adjectives-adverbs-2",
+    type: "fill_blank",
+    cefr: "A1",
+    topic: "grammar",
+    skin: "slack",
+    sentence: "The server is ___ today.",
+    options: ["slow", "slowly", "slowness", "slowed"],
+    answer: 0,
+    explanation_vi: "Sau be dùng tính từ để miêu tả trạng thái của server.",
+  }
+- {
+    slug: "g-a1-adjectives-adverbs-3",
+    type: "fill_blank",
+    cefr: "A1",
+    topic: "grammar",
+    skin: "vscode",
+    sentence: "Please read the error message ___. (careful)",
+    accepted: ["carefully"],
+    explanation_vi: "Miêu tả cách đọc (động từ read) → trạng từ carefully.",
+  }
+- {
+    slug: "g-a1-adjectives-adverbs-4",
+    type: "mcq_meaning",
+    cefr: "A1",
+    topic: "grammar",
+    stem: "Chọn câu đúng.",
+    question: "Câu nào đúng ngữ pháp?",
+    options: ["The app runs very slow.", "The app runs very slowly.", "The app very slowly runs."],
+    answer: 1,
+    explanation_vi: "Runs là động từ nên dùng trạng từ slowly, đặt sau động từ.",
+  }
+- {
+    slug: "g-a1-adjectives-adverbs-5",
+    type: "fill_blank",
+    cefr: "A1",
+    topic: "grammar",
+    skin: "pr",
+    sentence: "Your pull request looks ___.",
+    options: ["clean", "cleanly", "cleaning", "cleans"],
+    answer: 0,
+    explanation_vi: "Sau look (trông có vẻ) dùng tính từ.",
+  }
+- {
+    slug: "g-a1-adjectives-adverbs-6",
+    type: "mcq_meaning",
+    cefr: "A1",
+    topic: "grammar",
+    stem: "Chọn từ đúng.",
+    question: "“Với công cụ mới, chúng ta deploy dễ dàng.”",
+    options:
+      [
+        "We can deploy easy with the new tool.",
+        "We can deploy easily with the new tool.",
+        "We can easy deploy with the new tool.",
+      ],
+    answer: 1,
+    explanation_vi: "Easy → easily (đổi -y thành -ily) để miêu tả động từ deploy.",
+  }
+- {
+    slug: "g-a1-adjectives-adverbs-7",
+    type: "fill_blank",
+    cefr: "A1",
+    topic: "grammar",
+    skin: "jira",
+    sentence: "Minh found a ___ error in the payment module. (strange)",
+    accepted: ["strange"],
+    explanation_vi: "Đứng trước danh từ error nên dùng tính từ strange, không thêm -ly.",
+  }
+- {
+    slug: "g-a1-adjectives-adverbs-8",
+    type: "fill_blank",
+    cefr: "A1",
+    topic: "grammar",
+    skin: "slack",
+    sentence: "Tuan types very ___.",
+    options: ["fast", "fastly", "faster than", "fasting"],
+    answer: 0,
+    explanation_vi: "Fast giữ nguyên khi làm trạng từ; không có fastly.",
+  }
+- {
+    slug: "g-a1-frequency-1",
+    type: "fill_blank",
+    cefr: "A1",
+    topic: "grammar",
+    skin: "pr",
+    sentence: "We ___ run the tests before we merge.",
+    options: ["always", "always are", "are always", "alwayses"],
+    answer: 0,
+    explanation_vi: "Trạng từ tần suất đứng trước động từ thường run.",
+  }
+- {
+    slug: "g-a1-frequency-2",
+    type: "mcq_meaning",
+    cefr: "A1",
+    topic: "grammar",
+    stem: "Chọn câu đúng.",
+    question: "Câu nào đúng vị trí trạng từ?",
+    options:
+      ["The build always is slow.", "The build is always slow.", "Always the build slow is."],
+    answer: 1,
+    explanation_vi: "Với be, trạng từ tần suất đứng sau be.",
+  }
+- {
+    slug: "g-a1-frequency-3",
+    type: "fill_blank",
+    cefr: "A1",
+    topic: "grammar",
+    skin: "slack",
+    sentence: "How ___ do you update the docs?",
+    accepted: ["often"],
+    explanation_vi: "Hỏi tần suất dùng How often.",
+  }
+- {
+    slug: "g-a1-frequency-4",
+    type: "fill_blank",
+    cefr: "A1",
+    topic: "grammar",
+    skin: "slack",
+    sentence: "Linh sometimes ___ the stand-up from home.",
+    options: ["join", "joins", "joining", "to join"],
+    answer: 1,
+    explanation_vi: "Linh là ngôi thứ ba số ít; trạng từ không làm mất -s của động từ.",
+  }
+- {
+    slug: "g-a1-frequency-5",
+    type: "mcq_meaning",
+    cefr: "A1",
+    topic: "grammar",
+    stem: "Chọn câu đúng.",
+    question: "“Cô ấy không bao giờ trễ hạn.”",
+    options:
+      [
+        "She doesn't never miss a deadline.",
+        "She never misses a deadline.",
+        "She never miss a deadline.",
+      ],
+    answer: 1,
+    explanation_vi: "Never đã mang nghĩa phủ định nên bỏ doesn't; she → misses.",
+  }
+- {
+    slug: "g-a1-frequency-6",
+    type: "fill_blank",
+    cefr: "A1",
+    topic: "grammar",
+    skin: "jira",
+    sentence: "The security scan runs once a ___.",
+    options: ["week", "weeks", "weekly", "the week"],
+    answer: 0,
+    explanation_vi: "Cụm tần suất: once a + đơn vị thời gian số ít.",
+  }
+- {
+    slug: "g-a1-frequency-7",
+    type: "fill_blank",
+    cefr: "A1",
+    topic: "grammar",
+    skin: "slack",
+    sentence: "This alert ___ fires on weekends, maybe once a year.",
+    accepted: ["rarely", "seldom", "never"],
+    explanation_vi: "Ngữ cảnh cho thấy gần như không bao giờ → rarely (hiếm khi).",
+  }
+- {
+    slug: "g-a1-frequency-8",
+    type: "fill_blank",
+    cefr: "A1",
+    topic: "grammar",
+    skin: "slack",
+    sentence: "I don't ___ work late on Friday.",
+    options: ["usually", "never", "always don't", "usual"],
+    answer: 0,
+    explanation_vi: "Trạng từ đứng giữa trợ động từ don't và động từ work; never không đi với don't.",
+  }
+- {
+    slug: "g-a1-likes-1",
+    type: "fill_blank",
+    cefr: "A1",
+    topic: "grammar",
+    skin: "slack",
+    sentence: "I want ___ more about Kubernetes.",
+    options: ["learn", "to learn", "learning", "learns"],
+    answer: 1,
+    explanation_vi: "Want luôn đi với to + động từ nguyên mẫu.",
+  }
+- {
+    slug: "g-a1-likes-2",
+    type: "fill_blank",
+    cefr: "A1",
+    topic: "grammar",
+    skin: "pr",
+    sentence: "Nam enjoys ___ old modules.",
+    options: ["refactor", "to refactor", "refactoring", "refactors"],
+    answer: 2,
+    explanation_vi: "Enjoy chỉ đi với V-ing.",
+  }
+- {
+    slug: "g-a1-likes-3",
+    type: "fill_blank",
+    cefr: "A1",
+    topic: "grammar",
+    skin: "slack",
+    sentence: "He doesn't ___ long meetings.",
+    accepted: ["like", "love", "enjoy", "want"],
+    explanation_vi: "Sau doesn't, động từ ở dạng nguyên mẫu, không thêm -s.",
+  }
+- {
+    slug: "g-a1-likes-4",
+    type: "mcq_meaning",
+    cefr: "A1",
+    topic: "grammar",
+    stem: "Chọn câu đúng.",
+    question: "Câu nào đúng ngữ pháp?",
+    options: ["She enjoys to write docs.", "She enjoys writing docs.", "She enjoy writing docs."],
+    answer: 1,
+    explanation_vi: "Enjoy + V-ing; she → enjoys.",
+  }
+- {
+    slug: "g-a1-likes-5",
+    type: "mcq_meaning",
+    cefr: "A1",
+    topic: "grammar",
+    stem: "Chọn lời mời lịch sự.",
+    question: "Bạn mời đồng nghiệp cùng xử lý bug.",
+    options:
+      [
+        "Do you like pair with me?",
+        "Would you like to pair with me?",
+        "Would you like pairing with me?",
+        "You want pair with me?",
+      ],
+    answer: 1,
+    explanation_vi: "Lời mời lịch sự: Would you like to + V?",
+  }
+- {
+    slug: "g-a1-likes-6",
+    type: "fill_blank",
+    cefr: "A1",
+    topic: "grammar",
+    skin: "email",
+    sentence: "We'd like ___ the meeting to Friday.",
+    options: ["move", "to move", "moving", "moved"],
+    answer: 1,
+    explanation_vi: "Would like ('d like) đi với to + V.",
+  }
+- {
+    slug: "g-a1-likes-7",
+    type: "fill_blank",
+    cefr: "A1",
+    topic: "grammar",
+    skin: "slack",
+    sentence: "My lead hates ___ long log files. (read)",
+    accepted: ["reading", "to read"],
+    explanation_vi: "Hate đi được với cả V-ing và to V.",
+  }
+- {
+    slug: "g-a1-likes-8",
+    type: "fill_blank",
+    cefr: "A1",
+    topic: "grammar",
+    skin: "slack",
+    sentence: "Our team ___ sharing tips in the Friday demo.",
+    options: ["love", "loves", "loving", "is love"],
+    answer: 1,
+    explanation_vi: "Team là danh từ số ít → loves; love + V-ing.",
+  }

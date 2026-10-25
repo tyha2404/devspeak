@@ -1,0 +1,1491 @@
+# Original developer-facing roadmap. Source topics are taxonomy references only;
+# learning outcomes and lesson outlines are written for Vietnamese developers.
+- unit: topic-workplace
+  reference_topic: work
+  title: { en: "Developer Workflow & Teamwork", vi: "Công việc & phối hợp trong nhóm dev" }
+  summary_vi: "Từ ngày đầu vào nhóm đến giao việc, họp sprint và trao đổi tiến độ. Tập diễn đạt rõ việc đang làm, điều còn vướng và bước tiếp theo."
+  can_do:
+    [
+      "Cập nhật tiến độ và nêu blocker trong stand-up",
+      "Thống nhất trách nhiệm, thời hạn và cách phối hợp",
+    ]
+  lessons:
+    - [
+        "Daily work & stand-ups",
+        "Công việc hằng ngày & stand-up",
+        "Viết cập nhật gồm việc đã làm, việc sắp làm và blocker.",
+      ]
+    - [
+        "Careers & employment",
+        "Nghề nghiệp & hình thức làm việc",
+        "Hỏi về hình thức làm việc, thời gian thử việc và quyền lợi.",
+      ]
+    - [
+        "Tasks & priorities",
+        "Công việc & ưu tiên",
+        "Trao đổi thứ tự ưu tiên và báo khi cần đổi kế hoạch.",
+      ]
+    - [
+        "Meetings & discussions",
+        "Họp & thảo luận",
+        "Xin lượt phát biểu, làm rõ ý và chốt quyết định cuộc họp.",
+      ]
+    - [
+        "Projects & deadlines",
+        "Dự án & thời hạn",
+        "Thông báo rủi ro trễ hạn kèm đề xuất điều chỉnh phạm vi.",
+      ]
+    - [
+        "Leading a small team",
+        "Dẫn dắt một nhóm nhỏ",
+        "Giao việc, hỗ trợ người thực hiện và ghi nhận đóng góp.",
+      ]
+    - [
+        "Hiring & technical interviews",
+        "Tuyển dụng & phỏng vấn kỹ thuật",
+        "Mô tả kinh nghiệm và đặt câu hỏi về công việc ứng tuyển.",
+      ]
+    - [
+        "Workplace tools & routines",
+        "Công cụ & nếp làm việc",
+        "Hỏi cách dùng thiết bị, đặt lịch và xử lý yêu cầu văn phòng.",
+      ]
+    - [
+        "Written updates & handovers",
+        "Cập nhật bằng văn bản & bàn giao",
+        "Viết bàn giao có trạng thái, người phụ trách và liên kết liên quan.",
+      ]
+    - [
+        "Career growth & collaboration",
+        "Phát triển nghề nghiệp & cộng tác",
+        "Trao đổi mục tiêu phát triển với quản lý và xin phản hồi cụ thể.",
+      ]
+- unit: topic-digital-life
+  reference_topic: technology
+  title: { en: "Development Tools & Digital Systems", vi: "Công cụ lập trình & hệ thống số" }
+  summary_vi: "Dùng tiếng Anh khi cài môi trường, quản lý tài khoản, làm việc với mạng, dịch vụ cloud và công cụ AI. Luôn giải thích tác vụ và giới hạn của công cụ."
+  can_do:
+    [
+      "Mô tả môi trường làm việc và tái hiện lỗi công cụ",
+      "Hỏi quyền truy cập và giải thích cách xử lý dữ liệu an toàn",
+    ]
+  lessons:
+    - [
+        "Devices & accounts",
+        "Thiết bị & tài khoản",
+        "Hướng dẫn đồng nghiệp tạo tài khoản và kiểm tra quyền truy cập.",
+      ]
+    - [
+        "Online collaboration",
+        "Cộng tác trực tuyến",
+        "Chia sẻ liên kết, quyền chỉnh sửa và phiên bản tài liệu đúng.",
+      ]
+    - [
+        "Apps, browsers & permissions",
+        "Ứng dụng, trình duyệt & quyền",
+        "Mô tả một lỗi trình duyệt kèm thao tác và quyền liên quan.",
+      ]
+    - [
+        "Hardware & development setup",
+        "Phần cứng & môi trường dev",
+        "Trao đổi cấu hình máy và yêu cầu cài đặt môi trường.",
+      ]
+    - [
+        "Networks & connectivity",
+        "Mạng & kết nối",
+        "Báo lỗi kết nối và phân biệt vấn đề ở mạng, DNS hay dịch vụ.",
+      ]
+    - [
+        "Developer communities online",
+        "Cộng đồng developer trực tuyến",
+        "Đặt câu hỏi có ngữ cảnh và phản hồi có ích trên diễn đàn.",
+      ]
+    - [
+        "Payments & subscriptions",
+        "Thanh toán & thuê bao",
+        "Trao đổi chu kỳ thanh toán, gói dịch vụ và lỗi giao dịch.",
+      ]
+    - [
+        "Security & privacy",
+        "Bảo mật & quyền riêng tư",
+        "Giải thích cách bảo vệ tài khoản và thông tin nhạy cảm.",
+      ]
+    - [
+        "AI tools & automation",
+        "Công cụ AI & tự động hoá",
+        "Nêu tác vụ đã tự động hoá và phần cần người kiểm tra.",
+      ]
+    - [
+        "Evaluating technical change",
+        "Đánh giá thay đổi công nghệ",
+        "So sánh công cụ mới bằng lợi ích, giới hạn và chi phí chuyển đổi.",
+      ]
+- unit: topic-health
+  reference_topic: health
+  title: { en: "Health & Sustainable Developer Work", vi: "Sức khoẻ & làm việc bền vững" }
+  summary_vi: "Trao đổi về sức khoẻ, nghỉ phép và thói quen làm việc lâu dài. Tình huống gắn với ngồi máy tính, lịch trực, áp lực release và giao tiếp trong môi trường quốc tế."
+  can_do:
+    [
+      "Báo tình trạng sức khoẻ và xin điều chỉnh lịch làm việc",
+      "Trao đổi thói quen nghỉ ngơi, vận động và giới hạn khối lượng việc",
+    ]
+  lessons:
+    - [
+        "Body & daily habits",
+        "Cơ thể & thói quen hằng ngày",
+        "Mô tả thói quen ngủ, nghỉ và làm việc với máy tính.",
+      ]
+    - [
+        "Stress & workload",
+        "Căng thẳng & khối lượng việc",
+        "Nói rõ áp lực công việc và đề nghị hỗ trợ đúng mức.",
+      ]
+    - [
+        "Appointments & sick leave",
+        "Khám bệnh & nghỉ ốm",
+        "Xin nghỉ để đi khám và bàn giao việc cần xử lý.",
+      ]
+    - [
+        "Symptoms & recovery",
+        "Triệu chứng & hồi phục",
+        "Diễn đạt triệu chứng, thời gian bắt đầu và mức ảnh hưởng.",
+      ]
+    - [
+        "Treatment & instructions",
+        "Điều trị & hướng dẫn",
+        "Đọc hướng dẫn cơ bản và hỏi lại điều chưa hiểu.",
+      ]
+    - [
+        "Movement during the workday",
+        "Vận động trong ngày làm việc",
+        "Rủ đồng nghiệp vận động và điều chỉnh thói quen ngồi lâu.",
+      ]
+    - [
+        "Food, water & energy",
+        "Ăn uống, nước & năng lượng",
+        "Trao đổi lựa chọn ăn uống phù hợp với lịch làm việc.",
+      ]
+    - [
+        "Mental health & boundaries",
+        "Sức khoẻ tinh thần & ranh giới",
+        "Từ chối một yêu cầu quá tải bằng cách rõ ràng, tôn trọng.",
+      ]
+    - [
+        "Healthcare & benefits",
+        "Chăm sóc sức khoẻ & phúc lợi",
+        "Hỏi về quyền lợi sức khoẻ và giấy tờ cần chuẩn bị.",
+      ]
+    - [
+        "Healthy team practices",
+        "Nếp làm việc lành mạnh",
+        "Đề xuất một thay đổi giúp nhóm giảm kiệt sức khi trực và release.",
+      ]
+- unit: topic-education
+  reference_topic: education
+  title:
+    { en: "Learning, Documentation & Skill Growth", vi: "Học tập, tài liệu & phát triển kỹ năng" }
+  summary_vi: "Học cách hỏi, đọc tài liệu và giải thích điều vừa học. Đi từ tutorial và tài liệu API đến mentoring, kế hoạch kỹ năng và đánh giá nguồn học."
+  can_do:
+    [
+      "Tóm tắt một phần tài liệu kỹ thuật và hỏi đúng chỗ chưa rõ",
+      "Lập kế hoạch học và chia sẻ kiến thức cho đồng nghiệp",
+    ]
+  lessons:
+    - ["Learning goals", "Mục tiêu học tập", "Viết mục tiêu kỹ năng gắn với một tác vụ cụ thể."]
+    - [
+        "Following a tutorial",
+        "Làm theo hướng dẫn",
+        "Hỏi lại bước thực hiện và mô tả kết quả khác hướng dẫn.",
+      ]
+    - [
+        "Reading API documentation",
+        "Đọc tài liệu API",
+        "Tóm tắt tham số, giá trị trả về và điều kiện lỗi.",
+      ]
+    - [
+        "Asking useful questions",
+        "Đặt câu hỏi có ngữ cảnh",
+        "Nêu điều đã thử và phần còn vướng trước khi xin giúp đỡ.",
+      ]
+    - [
+        "Courses & practice",
+        "Khoá học & luyện tập",
+        "So sánh hai cách học theo mục tiêu, thời gian và bài thực hành.",
+      ]
+    - [
+        "Mentoring a teammate",
+        "Hướng dẫn đồng đội",
+        "Đưa gợi ý từng bước mà vẫn để người học tự giải quyết.",
+      ]
+    - [
+        "Taking technical notes",
+        "Ghi chép kỹ thuật",
+        "Viết ghi chú có giả định, ví dụ và điểm cần kiểm chứng.",
+      ]
+    - [
+        "Sharing what you learned",
+        "Chia sẻ điều đã học",
+        "Chuẩn bị một buổi chia sẻ ngắn có minh hoạ và câu hỏi.",
+      ]
+    - [
+        "Evaluating learning sources",
+        "Đánh giá nguồn học",
+        "Giải thích nguồn nào phù hợp và nguồn nào cần kiểm chứng thêm.",
+      ]
+    - [
+        "A personal development plan",
+        "Kế hoạch phát triển cá nhân",
+        "Thống nhất mục tiêu học, minh chứng và thời điểm xem lại với mentor.",
+      ]
+- unit: topic-travel
+  reference_topic: globalisation
+  title: { en: "Remote Teams & Global Clients", vi: "Nhóm từ xa & khách hàng quốc tế" }
+  summary_vi: "Phối hợp công việc qua múi giờ, khác biệt văn hoá và yêu cầu của khách hàng quốc tế. Ưu tiên sự rõ ràng trong giao việc và làm việc bất đồng bộ."
+  can_do:
+    [
+      "Thống nhất lịch phối hợp giữa các múi giờ",
+      "Làm rõ yêu cầu và giới hạn khi giao việc xuyên biên giới",
+    ]
+  lessons:
+    - [
+        "Introducing a distributed team",
+        "Giới thiệu nhóm phân tán",
+        "Nêu vai trò, địa điểm làm việc và kênh liên lạc của nhóm.",
+      ]
+    - [
+        "Time zones & overlap hours",
+        "Múi giờ & giờ giao nhau",
+        "Đề xuất lịch họp ghi rõ múi giờ và người cần tham gia.",
+      ]
+    - [
+        "Asynchronous updates",
+        "Cập nhật bất đồng bộ",
+        "Viết cập nhật đủ ngữ cảnh để người khác tiếp tục khi mình offline.",
+      ]
+    - [
+        "Clarifying a client request",
+        "Làm rõ yêu cầu khách hàng",
+        "Hỏi phạm vi, ví dụ và điều kiện chấp nhận của yêu cầu.",
+      ]
+    - [
+        "Cross-cultural collaboration",
+        "Phối hợp đa văn hoá",
+        "Kiểm tra lại cách hiểu thay vì suy đoán ý của đồng nghiệp.",
+      ]
+    - [
+        "Working across holidays",
+        "Phối hợp qua kỳ nghỉ",
+        "Thông báo lịch nghỉ và người thay thế trước thời hạn.",
+      ]
+    - [
+        "International delivery",
+        "Bàn giao cho khách quốc tế",
+        "Thống nhất đầu ra, kênh bàn giao và thời điểm phản hồi.",
+      ]
+    - [
+        "Localisation requirements",
+        "Yêu cầu bản địa hoá",
+        "Trao đổi định dạng ngày, tiền tệ, ngôn ngữ và nội dung giao diện.",
+      ]
+    - [
+        "Vendor & partner coordination",
+        "Phối hợp nhà cung cấp",
+        "Theo dõi một phụ thuộc và báo ảnh hưởng khi đối tác chậm tiến độ.",
+      ]
+    - [
+        "A remote collaboration agreement",
+        "Thoả thuận cách làm việc từ xa",
+        "Tóm tắt giờ phản hồi, cách báo gấp và quy tắc bàn giao của nhóm.",
+      ]
+- unit: topic-food
+  reference_topic: food
+  title: { en: "Team Lunches & Everyday Conversation", vi: "Bữa trưa nhóm & giao tiếp thường ngày" }
+  summary_vi: "Dùng những tình huống đời thường để trò chuyện tự nhiên với đồng nghiệp: gọi món, ăn kiêng, đặt chỗ và tổ chức một buổi gặp nhóm."
+  can_do:
+    [
+      "Tham gia cuộc trò chuyện trong bữa trưa với nhóm",
+      "Hỏi nhu cầu ăn uống và tổ chức một buổi gặp phù hợp",
+    ]
+  lessons:
+    - [
+        "Inviting someone to lunch",
+        "Rủ đồng nghiệp ăn trưa",
+        "Đưa lời mời và hỏi thời gian phù hợp.",
+      ]
+    - [
+        "Ordering food & drinks",
+        "Gọi đồ ăn & thức uống",
+        "Gọi món, điều chỉnh đơn và xác nhận lại yêu cầu.",
+      ]
+    - [
+        "Dietary needs & allergies",
+        "Nhu cầu ăn uống & dị ứng",
+        "Hỏi nhu cầu ăn uống một cách tôn trọng và không suy đoán.",
+      ]
+    - [
+        "Food preferences",
+        "Sở thích ăn uống",
+        "Nói món mình thích và giải thích lựa chọn ngắn gọn.",
+      ]
+    - ["Cooking & routines", "Nấu ăn & thói quen", "Kể về một món dễ làm trong ngày làm việc."]
+    - [
+        "Splitting a bill",
+        "Chia hoá đơn",
+        "Thống nhất cách chia tiền và giải thích một khoản cần điều chỉnh.",
+      ]
+    - [
+        "Booking for a team",
+        "Đặt chỗ cho nhóm",
+        "Đặt bàn với số người, giờ đến và yêu cầu ăn uống.",
+      ]
+    - [
+        "Lunch small talk",
+        "Trò chuyện trong bữa trưa",
+        "Tiếp nối câu chuyện bằng câu hỏi mở và phản hồi tự nhiên.",
+      ]
+    - [
+        "Food delivery problems",
+        "Sự cố giao đồ ăn",
+        "Mô tả món thiếu, giao chậm và yêu cầu cách xử lý.",
+      ]
+    - [
+        "Planning a team gathering",
+        "Tổ chức buổi gặp nhóm",
+        "Đề xuất địa điểm, ngân sách và cách lấy ý kiến mọi người.",
+      ]
+- unit: topic-money-shopping
+  reference_topic: personal-finance
+  title:
+    { en: "Budgets, Billing & Developer Purchases", vi: "Ngân sách, hoá đơn & mua sắm công cụ" }
+  summary_vi: "Nói về giá, chi phí sử dụng, hoá đơn và gói dịch vụ. Tình huống gắn với mua thiết bị, thuê công cụ và giải thích chi phí cho một dự án nhỏ."
+  can_do:
+    ["So sánh chi phí công cụ và gói dịch vụ", "Giải thích hoá đơn hoặc yêu cầu thanh toán sai"]
+  lessons:
+    - [
+        "Prices & purchase decisions",
+        "Giá & quyết định mua",
+        "So sánh giá với nhu cầu thực tế trước khi chọn công cụ.",
+      ]
+    - [
+        "Subscriptions & renewals",
+        "Thuê bao & gia hạn",
+        "Hỏi chu kỳ gia hạn và cách thay đổi gói dịch vụ.",
+      ]
+    - [
+        "Invoices & receipts",
+        "Hoá đơn & chứng từ",
+        "Yêu cầu hoá đơn có đúng thông tin và khoản mục.",
+      ]
+    - [
+        "A project budget",
+        "Ngân sách dự án",
+        "Chia ngân sách thành công cụ, hạ tầng và chi phí dự phòng.",
+      ]
+    - [
+        "Usage-based pricing",
+        "Giá theo mức sử dụng",
+        "Giải thích cách lượng sử dụng làm thay đổi số tiền phải trả.",
+      ]
+    - [
+        "Refunds & billing issues",
+        "Hoàn tiền & lỗi tính phí",
+        "Báo một khoản phí không đúng với bằng chứng liên quan.",
+      ]
+    - [
+        "Currencies & payment methods",
+        "Tiền tệ & phương thức thanh toán",
+        "Xác nhận đồng tiền, phí chuyển đổi và phương thức thanh toán.",
+      ]
+    - [
+        "Expenses & reimbursement",
+        "Chi phí & hoàn ứng",
+        "Nộp yêu cầu hoàn ứng với lý do và chứng từ phù hợp.",
+      ]
+    - [
+        "Comparing total cost",
+        "So sánh tổng chi phí",
+        "So sánh chi phí ban đầu với bảo trì và hỗ trợ về sau.",
+      ]
+    - [
+        "Explaining a cost change",
+        "Giải thích thay đổi chi phí",
+        "Viết cập nhật về chi phí tăng và các cách kiểm soát.",
+      ]
+- unit: topic-housing
+  reference_topic: housing
+  title: { en: "Home Office & Developer Workspace", vi: "Góc làm việc & văn phòng cho developer" }
+  summary_vi: "Mô tả không gian làm việc, thiết bị và nhu cầu khi làm việc tại nhà hoặc coworking. Thực hành yêu cầu hỗ trợ rõ vị trí, vấn đề và ảnh hưởng."
+  can_do:
+    [
+      "Mô tả góc làm việc và yêu cầu thiết bị cần thiết",
+      "Báo vấn đề không gian hoặc cơ sở vật chất một cách rõ ràng",
+    ]
+  lessons:
+    - [
+        "Describing a workspace",
+        "Mô tả góc làm việc",
+        "Giới thiệu vị trí làm việc và những gì mình đang có.",
+      ]
+    - [
+        "Desks, chairs & monitors",
+        "Bàn, ghế & màn hình",
+        "Yêu cầu thiết bị phù hợp với nhu cầu công việc.",
+      ]
+    - [
+        "Internet at home",
+        "Kết nối mạng tại nhà",
+        "Báo kết nối không ổn định và ảnh hưởng tới cuộc họp.",
+      ]
+    - [
+        "Noise & interruptions",
+        "Tiếng ồn & gián đoạn",
+        "Xin điều chỉnh lịch hoặc không gian khi bị gián đoạn.",
+      ]
+    - [
+        "Renting a coworking desk",
+        "Thuê chỗ ngồi coworking",
+        "Hỏi giá, tiện ích và điều kiện sử dụng một chỗ làm việc.",
+      ]
+    - [
+        "Meeting rooms & shared spaces",
+        "Phòng họp & không gian chung",
+        "Đặt phòng và giải quyết một lịch sử dụng bị trùng.",
+      ]
+    - [
+        "Maintenance requests",
+        "Yêu cầu sửa chữa",
+        "Mô tả thiết bị hỏng kèm vị trí và mức độ khẩn cấp.",
+      ]
+    - [
+        "Moving & working temporarily",
+        "Chuyển chỗ & làm việc tạm thời",
+        "Thông báo thay đổi chỗ ở và kế hoạch giữ liên lạc.",
+      ]
+    - [
+        "Workspace safety & access",
+        "An toàn & ra vào văn phòng",
+        "Hỏi quy trình ra vào và xử lý thẻ truy cập thất lạc.",
+      ]
+    - [
+        "A practical workspace proposal",
+        "Đề xuất cải thiện chỗ làm",
+        "Đề xuất một cải tiến không gian dựa trên nhu cầu của nhóm.",
+      ]
+- unit: topic-media-news
+  reference_topic: media
+  title:
+    { en: "Technical Writing & Product Communication", vi: "Viết kỹ thuật & truyền đạt sản phẩm" }
+  summary_vi: "Biến thông tin kỹ thuật thành tài liệu dễ dùng: README, ticket, pull request, release note và hướng dẫn hỗ trợ. Luyện nói đúng đối tượng và đủ ngữ cảnh."
+  can_do:
+    [
+      "Viết mô tả thay đổi rõ mục đích, cách dùng và giới hạn",
+      "Chỉnh giọng điệu tài liệu theo người đọc",
+    ]
+  lessons:
+    - [
+        "README essentials",
+        "Nội dung cốt lõi của README",
+        "Viết phần giới thiệu và cách chạy dự án cho người mới.",
+      ]
+    - [
+        "Writing a useful issue",
+        "Viết issue hữu ích",
+        "Nêu kỳ vọng, kết quả thực tế và các bước tái hiện.",
+      ]
+    - [
+        "Pull request descriptions",
+        "Mô tả pull request",
+        "Giải thích thay đổi, lý do và cách kiểm tra một pull request.",
+      ]
+    - [
+        "Release notes",
+        "Ghi chú phát hành",
+        "Tóm tắt điểm mới, lỗi đã sửa và thay đổi ảnh hưởng người dùng.",
+      ]
+    - [
+        "User guides & walkthroughs",
+        "Hướng dẫn sử dụng",
+        "Viết hướng dẫn có điều kiện đầu vào và kết quả mỗi bước.",
+      ]
+    - [
+        "Writing for different readers",
+        "Viết cho từng nhóm người đọc",
+        "Diễn đạt cùng một thay đổi cho developer và người dùng.",
+      ]
+    - [
+        "Technical blog structure",
+        "Bố cục bài viết kỹ thuật",
+        "Lập dàn ý theo vấn đề, cách làm, kết quả và giới hạn.",
+      ]
+    - [
+        "Evidence, screenshots & links",
+        "Bằng chứng, ảnh & liên kết",
+        "Chọn bằng chứng hỗ trợ nhận định trong tài liệu.",
+      ]
+    - [
+        "Editing for clarity",
+        "Biên tập để dễ hiểu",
+        "Rút gọn câu mơ hồ và làm rõ chủ thể hành động.",
+      ]
+    - [
+        "Communicating a breaking change",
+        "Truyền đạt thay đổi không tương thích",
+        "Viết thông báo có ảnh hưởng, mốc thời gian và hướng dẫn chuyển đổi.",
+      ]
+- unit: topic-environment
+  reference_topic: environment
+  title:
+    { en: "Sustainable Software & Climate Products", vi: "Phần mềm bền vững & sản phẩm khí hậu" }
+  summary_vi: "Trao đổi về tác động môi trường bằng ngôn ngữ kỹ thuật có giới hạn rõ ràng. Liên hệ truyền tải dữ liệu, lưu trữ, vòng đời thiết bị và sản phẩm đo lường khí hậu."
+  can_do:
+    [
+      "Mô tả tác động và giới hạn của một chỉ số môi trường",
+      "Đề xuất cải tiến phần mềm có cân nhắc tài nguyên",
+    ]
+  lessons:
+    - [
+        "Environmental product requirements",
+        "Yêu cầu sản phẩm môi trường",
+        "Làm rõ sản phẩm cần đo điều gì và phục vụ ai.",
+      ]
+    - [
+        "Energy & software use",
+        "Năng lượng & sử dụng phần mềm",
+        "Giải thích một tác vụ dùng tài nguyên ở đâu.",
+      ]
+    - [
+        "Storage & retention",
+        "Lưu trữ & thời hạn giữ dữ liệu",
+        "Đề xuất thời hạn lưu dựa trên nhu cầu và giới hạn.",
+      ]
+    - [
+        "Data transfer & efficient delivery",
+        "Truyền dữ liệu & phân phối hiệu quả",
+        "So sánh cách giảm tải dữ liệu khi phục vụ nội dung.",
+      ]
+    - [
+        "Device lifecycles",
+        "Vòng đời thiết bị",
+        "Trao đổi khả năng sửa chữa, nâng cấp và tái sử dụng thiết bị.",
+      ]
+    - [
+        "Emissions & measurement",
+        "Phát thải & đo lường",
+        "Phân biệt số đo trực tiếp với giá trị ước tính.",
+      ]
+    - [
+        "Environmental dashboards",
+        "Dashboard môi trường",
+        "Giải thích đơn vị, phạm vi và thời gian cập nhật của biểu đồ.",
+      ]
+    - [
+        "Trade-offs & rebound effects",
+        "Đánh đổi & tác động phát sinh",
+        "Nêu trường hợp tối ưu một phần nhưng tăng tiêu thụ ở phần khác.",
+      ]
+    - [
+        "Communicating uncertainty",
+        "Truyền đạt độ bất định",
+        "Viết nhận định có giả định và mức tin cậy phù hợp.",
+      ]
+    - [
+        "A sustainable software proposal",
+        "Đề xuất phần mềm bền vững",
+        "Đề xuất thử nghiệm có chỉ số theo dõi và cách đánh giá.",
+      ]
+- unit: topic-science
+  reference_topic: science
+  title:
+    {
+      en: "Debugging, Experiments & Engineering Evidence",
+      vi: "Debug, thử nghiệm & bằng chứng kỹ thuật",
+    }
+  summary_vi: "Dùng tiếng Anh để đặt giả thuyết, tái hiện lỗi và diễn giải bằng chứng. Từ đọc log đến benchmark và kết luận thí nghiệm, luôn tách quan sát khỏi suy đoán."
+  can_do:
+    [
+      "Viết báo cáo điều tra lỗi có bằng chứng và giả thuyết",
+      "Trình bày thử nghiệm, kết quả và giới hạn kết luận",
+    ]
+  lessons:
+    - [
+        "Observations & symptoms",
+        "Quan sát & dấu hiệu lỗi",
+        "Mô tả điều đã quan sát mà chưa khẳng định nguyên nhân.",
+      ]
+    - [
+        "Reproducing a bug",
+        "Tái hiện lỗi",
+        "Viết bước tái hiện với dữ liệu và môi trường cần thiết.",
+      ]
+    - [
+        "Hypotheses & assumptions",
+        "Giả thuyết & giả định",
+        "Nêu giả thuyết cùng điều kiện có thể bác bỏ nó.",
+      ]
+    - ["Logs & traces", "Log & trace", "Trích bằng chứng cần thiết và giải thích thứ tự sự kiện."]
+    - [
+        "A minimal experiment",
+        "Thử nghiệm tối thiểu",
+        "Thiết kế một phép thử chỉ thay đổi yếu tố đang điều tra.",
+      ]
+    - [
+        "Benchmarks & baselines",
+        "Benchmark & đường cơ sở",
+        "So sánh kết quả với đường cơ sở trong điều kiện tương đương.",
+      ]
+    - [
+        "A/B tests & metrics",
+        "Thử nghiệm A/B & chỉ số",
+        "Giải thích nhóm so sánh và chỉ số đánh giá thử nghiệm.",
+      ]
+    - [
+        "Correlation & causation",
+        "Tương quan & quan hệ nhân quả",
+        "Chỉ ra điều dữ liệu hỗ trợ và điều chưa thể kết luận.",
+      ]
+    - [
+        "Root-cause analysis",
+        "Phân tích nguyên nhân gốc",
+        "Liên kết bằng chứng thành một giải thích có thể kiểm chứng.",
+      ]
+    - [
+        "Writing an investigation report",
+        "Viết báo cáo điều tra",
+        "Tóm tắt vấn đề, điều đã thử, kết luận và bước tiếp theo.",
+      ]
+- unit: topic-family
+  reference_topic: family
+  title:
+    { en: "Relationships & Work-Life Boundaries", vi: "Quan hệ đồng nghiệp & ranh giới công việc" }
+  summary_vi: "Nói về cuộc sống cá nhân ở mức phù hợp, xây dựng quan hệ với nhóm và trao đổi các giới hạn về thời gian. Không cần chia sẻ thông tin riêng tư để hợp tác hiệu quả."
+  can_do:
+    [
+      "Trò chuyện thân thiện và tôn trọng riêng tư của đồng nghiệp",
+      "Thống nhất lịch làm việc phù hợp với trách nhiệm cá nhân",
+    ]
+  lessons:
+    - [
+        "Getting to know a teammate",
+        "Làm quen đồng đội",
+        "Giới thiệu bản thân và hỏi chuyện không xâm phạm riêng tư.",
+      ]
+    - [
+        "Family & personal commitments",
+        "Gia đình & việc cá nhân",
+        "Thông báo một cam kết ảnh hưởng lịch làm việc ở mức cần thiết.",
+      ]
+    - [
+        "Availability & boundaries",
+        "Thời gian có thể làm việc",
+        "Nêu thời gian có thể phản hồi và khi nào mình offline.",
+      ]
+    - [
+        "Asking for flexibility",
+        "Xin lịch linh hoạt",
+        "Đề xuất thay đổi lịch kèm cách bảo đảm công việc.",
+      ]
+    - [
+        "Supporting a colleague",
+        "Hỗ trợ đồng nghiệp",
+        "Đưa lời hỗ trợ cụ thể mà không gây áp lực chia sẻ.",
+      ]
+    - [
+        "Respectful small talk",
+        "Trò chuyện tôn trọng",
+        "Chuyển chủ đề khi người khác không muốn nói về việc riêng.",
+      ]
+    - [
+        "Time off & handovers",
+        "Nghỉ phép & bàn giao",
+        "Thông báo lịch nghỉ và các việc đã bàn giao.",
+      ]
+    - ["Social invitations", "Lời mời giao lưu", "Nhận hoặc từ chối lời mời một cách thân thiện."]
+    - [
+        "Resolving misunderstandings",
+        "Giải quyết hiểu nhầm",
+        "Nói lại ý định và hỏi cách hiểu của người còn lại.",
+      ]
+    - [
+        "Healthy team relationships",
+        "Quan hệ nhóm lành mạnh",
+        "Thống nhất cách hỗ trợ và tôn trọng giới hạn giữa đồng đội.",
+      ]
+- unit: topic-emotions
+  reference_topic: population
+  title:
+    { en: "Onboarding, Feedback & Team Change", vi: "Hoà nhập, phản hồi & thay đổi trong nhóm" }
+  summary_vi: "Giao tiếp khi có người mới, thay đổi vai trò hoặc chuyển giao kiến thức. Luyện phản hồi dựa trên hành vi và nhu cầu thay vì gán nhãn con người."
+  can_do:
+    [
+      "Giúp người mới hiểu công việc và tìm đúng người hỗ trợ",
+      "Phản hồi cụ thể và trao đổi thay đổi trong nhóm",
+    ]
+  lessons:
+    - [
+        "Welcoming a new developer",
+        "Chào đón developer mới",
+        "Giới thiệu nhóm, tài liệu và người có thể giúp đỡ.",
+      ]
+    - [
+        "An onboarding checklist",
+        "Checklist hoà nhập",
+        "Hỏi trạng thái quyền truy cập và các bước còn thiếu.",
+      ]
+    - [
+        "Expectations in a new role",
+        "Kỳ vọng với vai trò mới",
+        "Làm rõ đầu ra mong đợi trong giai đoạn đầu.",
+      ]
+    - [
+        "Asking for feedback",
+        "Xin phản hồi",
+        "Xin phản hồi về một tình huống hoặc sản phẩm cụ thể.",
+      ]
+    - [
+        "Giving constructive feedback",
+        "Góp ý có tính xây dựng",
+        "Nêu quan sát, ảnh hưởng và đề nghị thay đổi.",
+      ]
+    - [
+        "Receiving difficult feedback",
+        "Nhận phản hồi khó nghe",
+        "Hỏi ví dụ và thống nhất bước cải thiện có thể thực hiện.",
+      ]
+    - [
+        "Changing responsibilities",
+        "Thay đổi trách nhiệm",
+        "Xác nhận phần việc và quyền quyết định sau thay đổi.",
+      ]
+    - [
+        "Knowledge transfer",
+        "Chuyển giao kiến thức",
+        "Lập lịch và tài liệu để người khác tiếp nhận một hệ thống.",
+      ]
+    - [
+        "Disagreement during change",
+        "Bất đồng khi thay đổi",
+        "Nêu lo ngại mà vẫn tập trung vào mục tiêu chung.",
+      ]
+    - [
+        "A team transition plan",
+        "Kế hoạch chuyển tiếp của nhóm",
+        "Tóm tắt người phụ trách, đầu việc và rủi ro của đợt chuyển tiếp.",
+      ]
+- unit: topic-sports
+  reference_topic: active-life
+  title:
+    { en: "Focus, Movement & Sustainable Routines", vi: "Tập trung, vận động & thói quen bền vững" }
+  summary_vi: "Trao đổi cách giữ năng lượng và tập trung trong ngày làm việc. Dùng tình huống vận động, nghỉ ngắn và lịch trực để thực hành kế hoạch vừa sức."
+  can_do:
+    [
+      "Thống nhất lịch tập trung và giờ có thể bị gián đoạn",
+      "Trao đổi một thay đổi thói quen có thể duy trì",
+    ]
+  lessons:
+    - ["Daily movement", "Vận động hằng ngày", "Kể về cách mình vận động trong một ngày làm việc."]
+    - ["Short breaks", "Nghỉ ngắn", "Đề nghị nghỉ ngắn và thống nhất giờ quay lại."]
+    - ["Focus time", "Thời gian tập trung", "Xin một khoảng tập trung và chỉ rõ kênh báo việc gấp."]
+    - [
+        "Energy & recovery",
+        "Năng lượng & hồi phục",
+        "Điều chỉnh lịch sau một ca trực mà không bỏ sót bàn giao.",
+      ]
+    - [
+        "Setting realistic goals",
+        "Đặt mục tiêu vừa sức",
+        "Chọn một thay đổi nhỏ và cách theo dõi tiến triển.",
+      ]
+    - [
+        "Group activities",
+        "Hoạt động nhóm",
+        "Rủ đồng nghiệp tham gia và cho phép họ tự chọn mức phù hợp.",
+      ]
+    - [
+        "Habits & consistency",
+        "Thói quen & duy trì",
+        "So sánh điều giúp hoặc cản trở việc duy trì một thói quen.",
+      ]
+    - [
+        "Sleep & on-call work",
+        "Giấc ngủ & công việc trực",
+        "Trao đổi lịch trực và thời gian nghỉ hồi phục.",
+      ]
+    - [
+        "Tracking progress",
+        "Theo dõi tiến triển",
+        "Mô tả tiến triển bằng quan sát cụ thể thay vì đánh giá chung.",
+      ]
+    - [
+        "A sustainable weekly routine",
+        "Nhịp làm việc bền vững",
+        "Lập một lịch tuần cân bằng giữa tập trung, họp và nghỉ.",
+      ]
+- unit: topic-arts-culture
+  reference_topic: culture
+  title:
+    {
+      en: "Interface Design & Cross-Cultural UX",
+      vi: "Thiết kế giao diện & trải nghiệm đa văn hoá",
+    }
+  summary_vi: "Trao đổi với designer về bố cục, trạng thái giao diện và cách dùng ngôn ngữ. Chú ý khả năng tiếp cận và khác biệt văn hoá khi xây sản phẩm cho nhiều nhóm người dùng."
+  can_do:
+    [
+      "Phản hồi thiết kế bằng nhu cầu người dùng và trạng thái cụ thể",
+      "Làm rõ nội dung giao diện và yêu cầu bản địa hoá",
+    ]
+  lessons:
+    - [
+        "Layout & visual hierarchy",
+        "Bố cục & thứ bậc thị giác",
+        "Mô tả phần nào của giao diện nên được chú ý trước.",
+      ]
+    - [
+        "Colour, type & spacing",
+        "Màu, chữ & khoảng cách",
+        "Trao đổi thay đổi thiết kế bằng thuật ngữ rõ ràng.",
+      ]
+    - [
+        "Components & design systems",
+        "Component & hệ thống thiết kế",
+        "Hỏi khi nào dùng một component và những biến thể cần hỗ trợ.",
+      ]
+    - [
+        "Interaction states",
+        "Trạng thái tương tác",
+        "Mô tả trạng thái hover, focus, disabled và phản hồi sau thao tác.",
+      ]
+    - [
+        "Loading, empty & error states",
+        "Tải, trống & lỗi",
+        "Đề xuất nội dung giúp người dùng hiểu trạng thái và biết bước tiếp theo.",
+      ]
+    - [
+        "UX writing",
+        "Ngôn ngữ giao diện",
+        "Viết nhãn nút và thông báo theo hành động của người dùng.",
+      ]
+    - [
+        "Accessibility conversations",
+        "Trao đổi về khả năng tiếp cận",
+        "Làm rõ cách sử dụng giao diện bằng bàn phím và công cụ hỗ trợ.",
+      ]
+    - [
+        "Localisation & cultural context",
+        "Bản địa hoá & ngữ cảnh văn hoá",
+        "Chỉ ra chỗ cần đổi cách diễn đạt, biểu tượng hoặc định dạng.",
+      ]
+    - [
+        "Design feedback & handoff",
+        "Phản hồi & bàn giao thiết kế",
+        "Ghi phản hồi có vị trí, vấn đề và đề xuất cụ thể.",
+      ]
+    - [
+        "Explaining a UX trade-off",
+        "Giải thích đánh đổi UX",
+        "Trình bày phương án thiết kế cùng ảnh hưởng tới từng nhóm người dùng.",
+      ]
+- unit: topic-law-crime
+  reference_topic: crime
+  title:
+    {
+      en: "Security, Privacy & Responsible Handling",
+      vi: "Bảo mật, riêng tư & xử lý có trách nhiệm",
+    }
+  summary_vi: "Dùng tiếng Anh khi trao đổi quyền truy cập, dữ liệu nhạy cảm, lỗ hổng và sự cố. Nội dung tập trung vào diễn đạt rõ rủi ro và phối hợp xử lý, không thay cho tư vấn pháp lý."
+  can_do:
+    [
+      "Mô tả rủi ro bảo mật mà không làm lộ dữ liệu nhạy cảm",
+      "Thống nhất phạm vi truy cập và bước xử lý sự cố",
+    ]
+  lessons:
+    - [
+        "Accounts & authentication",
+        "Tài khoản & xác thực",
+        "Giải thích sự khác nhau giữa đăng nhập và quyền sử dụng tài nguyên.",
+      ]
+    - [
+        "Access & least privilege",
+        "Truy cập & quyền tối thiểu",
+        "Yêu cầu quyền đúng phạm vi và thời gian cần thiết.",
+      ]
+    - [
+        "Sensitive data",
+        "Dữ liệu nhạy cảm",
+        "Nhận diện dữ liệu không nên xuất hiện trong log hoặc ticket.",
+      ]
+    - [
+        "Threats & suspicious activity",
+        "Mối đe doạ & dấu hiệu bất thường",
+        "Báo dấu hiệu đáng ngờ bằng thông tin quan sát được.",
+      ]
+    - [
+        "Vulnerability reports",
+        "Báo cáo lỗ hổng",
+        "Viết báo cáo có phạm vi ảnh hưởng và bước tái hiện an toàn.",
+      ]
+    - [
+        "Privacy requirements",
+        "Yêu cầu riêng tư",
+        "Hỏi mục đích thu thập và thời hạn giữ một loại dữ liệu.",
+      ]
+    - [
+        "Encryption & secrets",
+        "Mã hoá & thông tin bí mật",
+        "Trao đổi cách quản lý secret mà không gửi giá trị thật.",
+      ]
+    - [
+        "Incident coordination",
+        "Phối hợp xử lý sự cố",
+        "Xác nhận người phụ trách và cập nhật trạng thái xử lý.",
+      ]
+    - [
+        "Audit trails & evidence",
+        "Dấu vết kiểm tra & bằng chứng",
+        "Mô tả bằng chứng cần giữ và giới hạn quyền xem.",
+      ]
+    - [
+        "A security follow-up",
+        "Theo dõi sau sự cố bảo mật",
+        "Tóm tắt biện pháp đã làm và việc phòng ngừa còn lại.",
+      ]
+- unit: topic-government
+  reference_topic: government
+  title: { en: "Engineering Policies & Decision Making", vi: "Quy tắc kỹ thuật & ra quyết định" }
+  summary_vi: "Đọc và trao đổi về quy tắc nhóm, chuẩn kỹ thuật, người phê duyệt và ngoại lệ. Luyện đề xuất thay đổi bằng lý do, phạm vi và cách kiểm chứng."
+  can_do:
+    [
+      "Giải thích một quy tắc kỹ thuật và hỏi trường hợp ngoại lệ",
+      "Ghi quyết định cùng lý do, người chịu trách nhiệm và điều kiện xem lại",
+    ]
+  lessons:
+    - [
+        "Team working agreements",
+        "Thoả thuận làm việc của nhóm",
+        "Tóm tắt quy tắc phối hợp và cách xử lý việc gấp.",
+      ]
+    - ["Coding standards", "Chuẩn viết mã", "Hỏi lý do của một quy ước và đề xuất ví dụ làm rõ."]
+    - [
+        "Review & approval",
+        "Review & phê duyệt",
+        "Xác nhận thay đổi cần ai xem và điều kiện được thông qua.",
+      ]
+    - [
+        "Ownership & accountability",
+        "Trách nhiệm & quyền quyết định",
+        "Làm rõ ai quyết định và ai cần được tham vấn.",
+      ]
+    - [
+        "Exceptions & escalation",
+        "Ngoại lệ & chuyển cấp xử lý",
+        "Xin một ngoại lệ có phạm vi và thời hạn rõ ràng.",
+      ]
+    - [
+        "Architecture decision records",
+        "Ghi quyết định kiến trúc",
+        "Viết quyết định ngắn có bối cảnh và hệ quả.",
+      ]
+    - [
+        "Proposing a policy change",
+        "Đề xuất đổi quy tắc",
+        "Đưa vấn đề, lựa chọn và cách đánh giá thay đổi.",
+      ]
+    - [
+        "Consensus & disagreement",
+        "Đồng thuận & bất đồng",
+        "Nêu ý kiến khác và xác nhận phần đã thống nhất.",
+      ]
+    - [
+        "Compliance conversations",
+        "Trao đổi yêu cầu tuân thủ",
+        "Hỏi yêu cầu áp dụng cho hệ thống và bằng chứng cần cung cấp.",
+      ]
+    - [
+        "Reviewing a decision",
+        "Xem lại quyết định",
+        "Đối chiếu kết quả thực tế với giả định khi quyết định ban đầu.",
+      ]
+- unit: topic-transport
+  reference_topic: transport
+  title:
+    { en: "Maps, Logistics & Location-Based Products", vi: "Bản đồ, logistics & sản phẩm vị trí" }
+  summary_vi: "Luyện trao đổi yêu cầu bằng một miền sản phẩm cụ thể: bản đồ, đặt chuyến, giao hàng và theo dõi vị trí. Kết hợp ngôn ngữ đời sống với dữ liệu, trạng thái và trường hợp biên."
+  can_do:
+    [
+      "Làm rõ trạng thái và lỗi trong một luồng giao nhận",
+      "Giải thích dữ liệu vị trí và điều kiện hiển thị cho người dùng",
+    ]
+  lessons:
+    - [
+        "Routes & destinations",
+        "Tuyến đường & điểm đến",
+        "Xác nhận điểm đi, điểm đến và điều kiện của hành trình.",
+      ]
+    - [
+        "Addresses & coordinates",
+        "Địa chỉ & toạ độ",
+        "Mô tả lỗi định dạng hoặc vị trí không khớp địa chỉ.",
+      ]
+    - [
+        "Booking & confirmation",
+        "Đặt dịch vụ & xác nhận",
+        "Giải thích trạng thái đặt chỗ và thời điểm xác nhận.",
+      ]
+    - [
+        "Delivery status",
+        "Trạng thái giao hàng",
+        "Thông báo thay đổi trạng thái bằng câu rõ thời điểm.",
+      ]
+    - [
+        "Estimated arrival times",
+        "Thời gian đến dự kiến",
+        "Diễn đạt thời gian ước tính và yếu tố có thể làm thay đổi.",
+      ]
+    - [
+        "Delays & cancellations",
+        "Chậm trễ & huỷ",
+        "Giải thích lựa chọn xử lý khi chuyến hoặc đơn bị huỷ.",
+      ]
+    - [
+        "Location permissions",
+        "Quyền vị trí",
+        "Hỏi mục đích và phạm vi sử dụng vị trí của người dùng.",
+      ]
+    - [
+        "Tracking & event updates",
+        "Theo dõi & cập nhật sự kiện",
+        "Mô tả thứ tự các sự kiện khi dữ liệu tới chậm.",
+      ]
+    - [
+        "Edge cases in logistics",
+        "Trường hợp biên giao nhận",
+        "Làm rõ cách xử lý địa chỉ thiếu hoặc giao lại nhiều lần.",
+      ]
+    - [
+        "A logistics feature brief",
+        "Đề bài tính năng logistics",
+        "Viết luồng chính, lỗi và điều kiện chấp nhận cho một tính năng.",
+      ]
+- unit: topic-cities
+  reference_topic: cities
+  title:
+    {
+      en: "Developer Communities & Workplace Life",
+      vi: "Cộng đồng developer & đời sống nơi làm việc",
+    }
+  summary_vi: "Nói về nơi sống, đi làm, sự kiện và cộng đồng nghề nghiệp. Luyện giới thiệu dự án và kết nối với người mới bằng những cuộc trao đổi ngắn, có mục đích."
+  can_do:
+    [
+      "Giới thiệu bản thân và dự án trong một buổi gặp cộng đồng",
+      "Trao đổi lịch, địa điểm và nhu cầu khi tham gia sự kiện",
+    ]
+  lessons:
+    - [
+        "Where you live & work",
+        "Nơi sống & nơi làm việc",
+        "Mô tả khu vực sống và hình thức làm việc của mình.",
+      ]
+    - [
+        "Commuting & schedules",
+        "Đi lại & lịch làm việc",
+        "Thông báo một thay đổi lịch do việc đi lại.",
+      ]
+    - [
+        "Coworking & local communities",
+        "Coworking & cộng đồng địa phương",
+        "Hỏi cách tham gia một không gian hoặc nhóm nghề nghiệp.",
+      ]
+    - [
+        "Meetup introductions",
+        "Làm quen tại meetup",
+        "Giới thiệu lĩnh vực quan tâm và hỏi về công việc của người khác.",
+      ]
+    - [
+        "Explaining a side project",
+        "Giới thiệu dự án cá nhân",
+        "Giới thiệu người dùng, vấn đề và điều dự án đã làm được.",
+      ]
+    - [
+        "Finding collaborators",
+        "Tìm người cộng tác",
+        "Nêu phần cần hỗ trợ và cách người khác có thể đóng góp.",
+      ]
+    - [
+        "Event planning",
+        "Tổ chức sự kiện",
+        "Thống nhất lịch trình, thiết bị và người hỗ trợ buổi gặp.",
+      ]
+    - [
+        "Community guidelines",
+        "Nguyên tắc cộng đồng",
+        "Trao đổi cách giữ thảo luận có ích và tôn trọng.",
+      ]
+    - [
+        "Following up after an event",
+        "Liên hệ sau sự kiện",
+        "Viết lời nhắn nhắc lại cuộc trao đổi và bước kết nối tiếp theo.",
+      ]
+    - [
+        "Building a professional network",
+        "Xây dựng mạng lưới nghề nghiệp",
+        "Đề xuất cách giữ liên hệ dựa trên mối quan tâm chung.",
+      ]
+- unit: topic-energy
+  reference_topic: energy
+  title:
+    {
+      en: "Cloud Resources, Performance & Capacity",
+      vi: "Tài nguyên cloud, hiệu năng & năng lực hệ thống",
+    }
+  summary_vi: "Mô tả cách hệ thống sử dụng CPU, bộ nhớ, mạng và lưu trữ. Luyện trình bày sự đánh đổi giữa độ trễ, năng lực phục vụ, độ tin cậy và chi phí."
+  can_do:
+    [
+      "Giải thích một vấn đề hiệu năng bằng chỉ số và điều kiện đo",
+      "Đề xuất phương án tối ưu có đánh giá tác động",
+    ]
+  lessons:
+    - ["Compute & memory", "Tính toán & bộ nhớ", "Mô tả tài nguyên một tác vụ cần sử dụng."]
+    - [
+        "Storage & I/O",
+        "Lưu trữ & nhập xuất",
+        "Giải thích ảnh hưởng của truy cập dữ liệu tới thời gian xử lý.",
+      ]
+    - [
+        "Latency & throughput",
+        "Độ trễ & thông lượng",
+        "Phân biệt thời gian chờ của một yêu cầu với số yêu cầu phục vụ.",
+      ]
+    - [
+        "Caching & reuse",
+        "Cache & tái sử dụng",
+        "Trình bày điều kiện cache hợp lệ và cách xử lý hết hạn.",
+      ]
+    - [
+        "Scaling & load",
+        "Mở rộng & tải",
+        "Trao đổi tình huống tăng tải và giới hạn hệ thống hiện tại.",
+      ]
+    - [
+        "Queues & background jobs",
+        "Hàng đợi & tác vụ nền",
+        "Mô tả trạng thái xử lý và thời điểm người dùng nhận kết quả.",
+      ]
+    - [
+        "Resource limits & quotas",
+        "Giới hạn & hạn mức",
+        "Báo một giới hạn bị chạm và đề xuất cách giảm ảnh hưởng.",
+      ]
+    - [
+        "Monitoring capacity",
+        "Theo dõi năng lực hệ thống",
+        "Giải thích tín hiệu cho biết hệ thống cần thêm tài nguyên.",
+      ]
+    - [
+        "Optimisation trade-offs",
+        "Đánh đổi khi tối ưu",
+        "So sánh cải tiến hiệu năng với chi phí bảo trì và vận hành.",
+      ]
+    - [
+        "A performance recommendation",
+        "Đề xuất cải thiện hiệu năng",
+        "Viết đề xuất có số đo trước, cách thử và tiêu chí thành công.",
+      ]
+- unit: topic-business
+  reference_topic: economy
+  title: { en: "Product Thinking & Business Context", vi: "Tư duy sản phẩm & bối cảnh kinh doanh" }
+  summary_vi: "Hiểu lý do kinh doanh phía sau một yêu cầu kỹ thuật. Luyện hỏi về người dùng, giá trị, chỉ số và giới hạn trước khi chọn giải pháp."
+  can_do:
+    [
+      "Làm rõ vấn đề người dùng và giá trị của tính năng",
+      "Trao đổi phạm vi, ưu tiên và chỉ số đánh giá sản phẩm",
+    ]
+  lessons:
+    - ["Users & problems", "Người dùng & vấn đề", "Hỏi ai gặp vấn đề và họ đang xử lý như thế nào."]
+    - [
+        "Customer interviews",
+        "Phỏng vấn người dùng",
+        "Đặt câu hỏi về trải nghiệm thực tế thay vì gợi sẵn đáp án.",
+      ]
+    - [
+        "Requirements & scope",
+        "Yêu cầu & phạm vi",
+        "Tách điều bắt buộc khỏi điều có thể để lại sau.",
+      ]
+    - [
+        "Acceptance criteria",
+        "Điều kiện chấp nhận",
+        "Viết điều kiện có thể kiểm tra cho một hành vi sản phẩm.",
+      ]
+    - [
+        "Priorities & opportunity cost",
+        "Ưu tiên & chi phí cơ hội",
+        "Giải thích việc chọn một tính năng khiến điều gì phải chờ.",
+      ]
+    - [
+        "Product metrics",
+        "Chỉ số sản phẩm",
+        "Phân biệt lượng sử dụng với giá trị người dùng thực sự nhận được.",
+      ]
+    - [
+        "Experiments & MVPs",
+        "Thử nghiệm & sản phẩm tối thiểu",
+        "Đề xuất phạm vi nhỏ nhất để kiểm chứng một giả định.",
+      ]
+    - [
+        "Pricing & customer value",
+        "Giá & giá trị khách hàng",
+        "Trao đổi cách tính năng hỗ trợ một nhóm khách hàng cụ thể.",
+      ]
+    - [
+        "Roadmaps & stakeholder updates",
+        "Lộ trình & cập nhật bên liên quan",
+        "Nói về mục tiêu và rủi ro mà không hứa thời hạn thiếu cơ sở.",
+      ]
+    - [
+        "A product trade-off proposal",
+        "Đề xuất đánh đổi sản phẩm",
+        "Trình bày hai phương án cùng giá trị, chi phí và điều chưa biết.",
+      ]
+- unit: topic-communication
+  reference_topic: communication
+  title:
+    {
+      en: "Developer Conversations & Technical Negotiation",
+      vi: "Giao tiếp developer & trao đổi giải pháp",
+    }
+  summary_vi: "Thực hành ngôn ngữ khi xin giúp đỡ, làm rõ yêu cầu, phản hồi code review và thương lượng một giải pháp. Tập nói thẳng vấn đề nhưng giữ giọng điệu hợp tác."
+  can_do:
+    [
+      "Làm rõ điều chưa hiểu và xác nhận lại quyết định",
+      "Phản biện giải pháp bằng lý do và đề xuất thay thế",
+    ]
+  lessons:
+    - [
+        "Clarifying & confirming",
+        "Làm rõ & xác nhận",
+        "Nhắc lại yêu cầu bằng lời của mình để kiểm tra cách hiểu.",
+      ]
+    - ["Asking for help", "Xin hỗ trợ", "Nêu vấn đề, điều đã thử và phần cần người khác giúp."]
+    - [
+        "Explaining code aloud",
+        "Giải thích mã bằng lời",
+        "Trình bày đầu vào, bước xử lý và kết quả của một đoạn mã.",
+      ]
+    - ["Code review comments", "Nhận xét code review", "Viết góp ý nêu vấn đề, lý do và gợi ý sửa."]
+    - [
+        "Agreeing & disagreeing",
+        "Đồng ý & bất đồng",
+        "Nêu điểm đã đồng ý trước khi trình bày lo ngại cụ thể.",
+      ]
+    - ["Making a request", "Đưa yêu cầu", "Xin một hành động có ngữ cảnh, thời hạn và mức ưu tiên."]
+    - [
+        "Explaining trade-offs",
+        "Giải thích đánh đổi",
+        "So sánh phương án theo các tiêu chí đã thống nhất.",
+      ]
+    - [
+        "Negotiating scope",
+        "Thương lượng phạm vi",
+        "Đề xuất giảm phạm vi để giữ mục tiêu quan trọng nhất.",
+      ]
+    - [
+        "Summarising decisions",
+        "Tóm tắt quyết định",
+        "Chốt quyết định với người phụ trách và bước tiếp theo.",
+      ]
+    - [
+        "A technical discussion from start to finish",
+        "Một cuộc thảo luận kỹ thuật trọn vẹn",
+        "Dẫn dắt từ làm rõ vấn đề đến thống nhất thử nghiệm hoặc quyết định.",
+      ]
+- unit: topic-nature
+  reference_topic: oceans
+  title:
+    {
+      en: "Sensor Data, Water & Environmental Systems",
+      vi: "Dữ liệu cảm biến, nước & hệ thống môi trường",
+    }
+  summary_vi: "Luyện ngôn ngữ yêu cầu sản phẩm qua một miền dữ liệu thực tế: cảm biến, nước và theo dõi môi trường. Chú ý đơn vị, thiếu dữ liệu và giới hạn của phép đo."
+  can_do:
+    [
+      "Làm rõ ý nghĩa, đơn vị và chất lượng một nguồn dữ liệu",
+      "Giải thích cảnh báo và trạng thái thiếu dữ liệu trong dashboard",
+    ]
+  lessons:
+    - [
+        "Sensors & readings",
+        "Cảm biến & số đo",
+        "Hỏi cảm biến đo đại lượng nào và gửi dữ liệu ra sao.",
+      ]
+    - [
+        "Units & measurement ranges",
+        "Đơn vị & khoảng đo",
+        "Xác nhận đơn vị và phạm vi hợp lệ của giá trị.",
+      ]
+    - [
+        "Time series & timestamps",
+        "Chuỗi thời gian & mốc giờ",
+        "Làm rõ thời gian đo, thời gian nhận và múi giờ hiển thị.",
+      ]
+    - [
+        "Missing & stale data",
+        "Dữ liệu thiếu & cũ",
+        "Phân biệt giá trị bằng không với chưa có số đo.",
+      ]
+    - [
+        "Water & resource monitoring",
+        "Theo dõi nước & tài nguyên",
+        "Mô tả dữ liệu người vận hành cần để theo dõi hệ thống.",
+      ]
+    - [
+        "Thresholds & alerts",
+        "Ngưỡng & cảnh báo",
+        "Thống nhất khi nào phát cảnh báo và ai cần nhận.",
+      ]
+    - [
+        "Maps & environmental layers",
+        "Bản đồ & lớp dữ liệu môi trường",
+        "Giải thích phạm vi và thời gian cập nhật của một lớp dữ liệu.",
+      ]
+    - [
+        "Data quality & calibration",
+        "Chất lượng dữ liệu & hiệu chuẩn",
+        "Nêu dấu hiệu dữ liệu sai và thông tin cần kiểm tra.",
+      ]
+    - [
+        "Communicating environmental risk",
+        "Truyền đạt rủi ro môi trường",
+        "Tách điều quan sát được khỏi dự báo hoặc giả định.",
+      ]
+    - [
+        "An environmental dashboard brief",
+        "Đề bài dashboard môi trường",
+        "Viết yêu cầu hiển thị, cảnh báo và xử lý dữ liệu không đầy đủ.",
+      ]
+- unit: topic-society
+  reference_topic: equality
+  title:
+    {
+      en: "Inclusive Products & Responsible Engineering",
+      vi: "Sản phẩm bao trùm & kỹ thuật có trách nhiệm",
+    }
+  summary_vi: "Trao đổi ảnh hưởng của phần mềm tới những nhóm người dùng khác nhau. Luyện làm rõ rào cản tiếp cận, độ công bằng và tác động ngoài ý muốn."
+  can_do:
+    [
+      "Chỉ ra một rào cản sử dụng bằng tình huống cụ thể",
+      "Đề xuất cách đánh giá tác động của quyết định sản phẩm",
+    ]
+  lessons:
+    - [
+        "Different user needs",
+        "Nhu cầu người dùng khác nhau",
+        "Mô tả nhu cầu mà một người dùng cụ thể chưa được đáp ứng.",
+      ]
+    - [
+        "Accessibility barriers",
+        "Rào cản tiếp cận",
+        "Giải thích một thao tác khó dùng và người bị ảnh hưởng.",
+      ]
+    - [
+        "Low-bandwidth experiences",
+        "Trải nghiệm mạng yếu",
+        "Đề xuất hành vi phù hợp khi mạng chậm hoặc mất kết nối.",
+      ]
+    - [
+        "Language & literacy",
+        "Ngôn ngữ & mức dễ hiểu",
+        "Làm rõ cách giảm thuật ngữ và hướng dẫn khó hiểu.",
+      ]
+    - [
+        "Fairness in product rules",
+        "Công bằng trong quy tắc sản phẩm",
+        "Hỏi quy tắc đang gây bất lợi cho nhóm người dùng nào.",
+      ]
+    - [
+        "Bias in data & automation",
+        "Thiên lệch dữ liệu & tự động hoá",
+        "Nêu giới hạn dữ liệu và trường hợp cần người xem lại.",
+      ]
+    - [
+        "User control & consent",
+        "Quyền kiểm soát & đồng ý",
+        "Trao đổi lựa chọn mà người dùng cần hiểu và có thể thay đổi.",
+      ]
+    - [
+        "Unintended consequences",
+        "Hệ quả ngoài ý muốn",
+        "Nêu ảnh hưởng có thể xảy ra ngoài mục tiêu ban đầu.",
+      ]
+    - [
+        "Responsible rollout",
+        "Triển khai có trách nhiệm",
+        "Đề xuất nhóm thử, theo dõi và điều kiện dừng triển khai.",
+      ]
+    - [
+        "An inclusive product review",
+        "Đánh giá sản phẩm bao trùm",
+        "Tổng hợp rào cản, bằng chứng và thay đổi nên ưu tiên.",
+      ]
+- unit: topic-free-time
+  reference_topic: tourism
+  title:
+    {
+      en: "Conferences, Travel & Professional Events",
+      vi: "Hội thảo, công tác & sự kiện nghề nghiệp",
+    }
+  summary_vi: "Chuẩn bị tiếng Anh cho việc đi hội thảo, công tác và giới thiệu dự án. Kết nối kỹ năng đi lại đời thường với thuyết trình, hỏi đáp và theo dõi sau sự kiện."
+  can_do:
+    [
+      "Tự xử lý các trao đổi cơ bản trong chuyến công tác",
+      "Giới thiệu dự án và tham gia hỏi đáp tại một sự kiện kỹ thuật",
+    ]
+  lessons:
+    - [
+        "Planning a conference trip",
+        "Lên kế hoạch đi hội thảo",
+        "Trình bày mục đích, lịch và chi phí dự kiến của chuyến đi.",
+      ]
+    - [
+        "Bookings & travel details",
+        "Đặt chỗ & thông tin hành trình",
+        "Xác nhận lịch trình và xử lý thông tin đặt chỗ sai.",
+      ]
+    - [
+        "Checking in & finding your way",
+        "Làm thủ tục & hỏi đường",
+        "Hỏi đường và thông tin cần thiết tại nơi tổ chức.",
+      ]
+    - [
+        "Introducing your project",
+        "Giới thiệu dự án",
+        "Giới thiệu vấn đề, cách làm và kết quả trong một phút.",
+      ]
+    - [
+        "Listening to a technical talk",
+        "Theo dõi bài nói kỹ thuật",
+        "Ghi lại luận điểm, ví dụ và câu hỏi cần làm rõ.",
+      ]
+    - [
+        "Asking a question after a talk",
+        "Đặt câu hỏi sau bài nói",
+        "Đặt một câu hỏi ngắn có đủ ngữ cảnh.",
+      ]
+    - [
+        "Networking respectfully",
+        "Kết nối nghề nghiệp tôn trọng",
+        "Mở đầu cuộc trò chuyện và xin cách giữ liên hệ phù hợp.",
+      ]
+    - [
+        "Travel changes & disruptions",
+        "Thay đổi & gián đoạn chuyến đi",
+        "Thông báo thay đổi lịch và xin hỗ trợ xử lý.",
+      ]
+    - [
+        "Following up with a contact",
+        "Liên hệ sau hội thảo",
+        "Nhắc lại cuộc trao đổi và đề xuất một bước tiếp nối rõ ràng.",
+      ]
+    - [
+        "Sharing conference takeaways",
+        "Chia sẻ điều rút ra từ hội thảo",
+        "Tóm tắt điều hữu ích và đề xuất áp dụng vào công việc nhóm.",
+      ]

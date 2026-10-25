@@ -1,0 +1,329 @@
+# Grammar track A2 tests (batch a2-b). Original items; answers stay server-side.
+- slug: g-a2-ed-ing-adjectives-1
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: slack
+  sentence: "I'm ___ by this error message. What does it mean?"
+  options: [confuse, confused, confusing, confusion]
+  answer: 1
+  explanation_vi: "Người (I) cảm thấy rối → confused."
+- slug: g-a2-ed-ing-adjectives-2
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: jira
+  sentence: "Users say the new sign-up form is really ___."
+  options: [annoy, annoyed, annoying, annoyance]
+  answer: 2
+  explanation_vi: "Form gây khó chịu cho người dùng → annoying."
+- slug: g-a2-ed-ing-adjectives-3
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: slack
+  sentence: "Three releases in one week. It was a very ___ week."
+  options: [tire, tired, tiring, tires]
+  answer: 2
+  explanation_vi: "Tuần làm việc gây mệt → tiring (đứng trước danh từ week)."
+- slug: g-a2-ed-ing-adjectives-4
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: email
+  sentence: "Are you ___ in joining the mobile team?"
+  options: [interest, interested, interesting, interests]
+  answer: 1
+  explanation_vi: "Người quan tâm đến điều gì: interested in."
+- slug: g-a2-ed-ing-adjectives-5
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: slack
+  sentence: "The load test results were ___ (surprise). We expected much worse."
+  accepted: [surprising]
+  explanation_vi: "Kết quả gây bất ngờ → surprising."
+- slug: g-a2-ed-ing-adjectives-6
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: email
+  sentence: "The client was ___ (disappoint) with the slow search."
+  accepted: [disappointed]
+  explanation_vi: "Khách hàng là người cảm thấy thất vọng → disappointed."
+- slug: g-a2-ed-ing-adjectives-7
+  type: mcq_meaning
+  cefr: A2
+  topic: grammar
+  stem: "Chọn câu đúng."
+  question: "Câu nào đúng ngữ pháp và đúng nghĩa “Mình thấy chán trong buổi họp này”?"
+  options:
+    [
+      "I'm boring in this meeting.",
+      "I'm bored in this meeting.",
+      "I'm bore in this meeting.",
+      "I boring in this meeting.",
+    ]
+  answer: 1
+  explanation_vi: "Người cảm thấy chán → bored. I'm boring nghĩa là mình là người nhạt nhẽo."
+- slug: g-a2-ed-ing-adjectives-8
+  type: mcq_meaning
+  cefr: A2
+  topic: grammar
+  stem: "Phản hồi về giao diện."
+  question: "“Dashboard mới khó hiểu nên người dùng thấy bối rối” là…"
+  options:
+    [
+      "The new dashboard is confused, so users are confusing.",
+      "The new dashboard is confusing, so users are confused.",
+      "The new dashboard is confusing, so users are confusing.",
+      "The new dashboard is confused, so users are confused.",
+    ]
+  answer: 1
+  explanation_vi: "Dashboard gây rối → confusing; người dùng cảm thấy rối → confused."
+- slug: g-a2-adjective-order-1
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: slack
+  sentence: "IT gave me a ___ monitor."
+  options: [black big, big black, black and big, big blacks]
+  answer: 1
+  explanation_vi: "Kích thước (big) trước màu (black)."
+- slug: g-a2-adjective-order-2
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: pr
+  sentence: "This PR adds a ___ feature to the settings page."
+  options: [new useful, useful new, newly useful, use new]
+  answer: 1
+  explanation_vi: "Ý kiến (useful) đứng trước tuổi/độ mới (new)."
+- slug: g-a2-adjective-order-3
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: jira
+  sentence: "The bank still runs an ___ payment system."
+  options: [old Japanese, Japanese old, old Japan, Japan old]
+  answer: 0
+  explanation_vi: "Tuổi (old) trước nguồn gốc (Japanese); dùng tính từ Japanese, không phải Japan."
+- slug: g-a2-adjective-order-4
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: email
+  sentence: "Please order two ___ chairs for the new team."
+  options: [office white, white office, whites office, office whites]
+  answer: 1
+  explanation_vi: "Từ chỉ mục đích (office) đứng sát danh từ; màu (white) đứng trước."
+- slug: g-a2-adjective-order-5
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: slack
+  sentence: "We hired a ___ designer from Berlin. (young / German)"
+  accepted: [young German]
+  explanation_vi: "Tuổi (young) trước nguồn gốc (German); German viết hoa."
+- slug: g-a2-adjective-order-6
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: slack
+  sentence: "Users love the ___ dashboard. (new / beautiful)"
+  accepted: [beautiful new]
+  explanation_vi: "Ý kiến (beautiful) trước tuổi (new)."
+- slug: g-a2-adjective-order-7
+  type: mcq_meaning
+  cefr: A2
+  topic: grammar
+  stem: "Chọn câu đúng."
+  question: "Câu nào đúng trật tự tính từ?"
+  options:
+    [
+      "She bought a silver light laptop.",
+      "She bought a laptop light silver.",
+      "She bought a light silver laptop.",
+      "She bought a light laptop silver.",
+    ]
+  answer: 2
+  explanation_vi: "Tính từ đứng trước danh từ; light (trọng lượng/kích thước) trước silver (màu)."
+- slug: g-a2-adjective-order-8
+  type: mcq_meaning
+  cefr: A2
+  topic: grammar
+  stem: "Mô tả hệ thống."
+  question: "“Một cơ sở dữ liệu cũ và chậm” là…"
+  options:
+    [
+      "an old database slow",
+      "a slow old database",
+      "a database slow old",
+      "a slow and old and database",
+    ]
+  answer: 1
+  explanation_vi: "Slow là đánh giá (ý kiến) nên đứng trước old (tuổi); mạo từ theo từ đầu tiên: a slow."
+- slug: g-a2-so-such-1
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: slack
+  sentence: "The checkout page is ___ slow today."
+  options: [such, so, such a, very a]
+  answer: 1
+  explanation_vi: "Sau slow không có danh từ → so."
+- slug: g-a2-so-such-2
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: jira
+  sentence: "It was ___ strange bug. Nobody could reproduce it."
+  options: [so, so a, such a, such]
+  answer: 2
+  explanation_vi: "Có danh từ số ít bug → such a + adj + N."
+- slug: g-a2-so-such-3
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: pr
+  sentence: "Thanks! These are ___ helpful comments."
+  options: [so, such a, such, so a]
+  answer: 2
+  explanation_vi: "Comments số nhiều → such, không có a."
+- slug: g-a2-so-such-4
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: slack
+  sentence: "The log file was so big ___ my editor froze."
+  options: [that, so, than, because]
+  answer: 0
+  explanation_vi: "So + adj + that + kết quả."
+- slug: g-a2-so-such-5
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: slack
+  sentence: "That was ___ easy question. (such + mạo từ)"
+  accepted: [such an]
+  explanation_vi: "Question số ít, easy bắt đầu bằng nguyên âm → such an."
+- slug: g-a2-so-such-6
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: email
+  sentence: "The outage was ___ serious that we stopped the release."
+  accepted: [so]
+  explanation_vi: "Serious không có danh từ phía sau, có that + kết quả → so."
+- slug: g-a2-so-such-7
+  type: mcq_meaning
+  cefr: A2
+  topic: grammar
+  stem: "Chọn câu đúng."
+  question: "Câu nào đúng ngữ pháp?"
+  options:
+    [
+      "It was so a long meeting.",
+      "It was such long meeting.",
+      "It was such a long meeting.",
+      "It was a so long meeting.",
+    ]
+  answer: 2
+  explanation_vi: "Danh từ số ít meeting → such a + long + meeting."
+- slug: g-a2-so-such-8
+  type: mcq_meaning
+  cefr: A2
+  topic: grammar
+  stem: "Báo cáo sự cố."
+  question: "“Hôm đó bận đến mức mình quên cả stand-up” là…"
+  options:
+    [
+      "It was so a busy day that I forgot the stand-up.",
+      "It was such a busy day so I forgot the stand-up.",
+      "It was such busy day that I forgot the stand-up.",
+      "It was such a busy day that I forgot the stand-up.",
+    ]
+  answer: 3
+  explanation_vi: "Such a + adj + N số ít + that + kết quả."
+- slug: g-a2-linkers-1
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: slack
+  sentence: "The tests failed, ___ I didn't merge the PR."
+  options: [because, so, or, but]
+  answer: 1
+  explanation_vi: "Ý sau là kết quả của ý trước → so."
+- slug: g-a2-linkers-2
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: jira
+  sentence: "The build is red ___ a test timed out."
+  options: [so, and, because, or]
+  answer: 2
+  explanation_vi: "Ý sau là nguyên nhân → because."
+- slug: g-a2-linkers-3
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: slack
+  sentence: "The fix works, ___ it makes the page slower."
+  options: [and, so, but, or]
+  answer: 2
+  explanation_vi: "Hai ý trái ngược (chạy được nhưng chậm hơn) → but."
+- slug: g-a2-linkers-4
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: email
+  sentence: "We can deploy tonight ___ wait until Monday. Which do you prefer?"
+  options: [and, or, so, because]
+  answer: 1
+  explanation_vi: "Đưa ra hai lựa chọn → or."
+- slug: g-a2-linkers-5
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: slack
+  sentence: "Yesterday I reviewed two PRs ___ updated the docs."
+  accepted: [and]
+  explanation_vi: "Thêm một việc cùng chiều → and."
+- slug: g-a2-linkers-6
+  type: fill_blank
+  cefr: A2
+  topic: grammar
+  skin: slack
+  sentence: "I can't join the stand-up ___ I'm at the dentist."
+  accepted: [because]
+  explanation_vi: "Ở nha sĩ là lý do → because."
+- slug: g-a2-linkers-7
+  type: mcq_meaning
+  cefr: A2
+  topic: grammar
+  stem: "Chọn câu đúng."
+  question: "Câu nào đúng ngữ pháp?"
+  options:
+    [
+      "Because the server was down, so we waited.",
+      "Because the server was down, we waited.",
+      "The server was down, because we waited.",
+      "So the server was down, because we waited.",
+    ]
+  answer: 1
+  explanation_vi: "Chỉ dùng một liên từ: because hoặc so, không dùng cả hai như “vì… nên…”."
+- slug: g-a2-linkers-8
+  type: mcq_meaning
+  cefr: A2
+  topic: grammar
+  stem: "Cập nhật công việc."
+  question: "“Cơ sở dữ liệu bị đầy nên việc tải lên bị lỗi” là…"
+  options:
+    [
+      "The database was full, so the uploads failed.",
+      "The database was full because the uploads failed.",
+      "The database was full, but the uploads failed.",
+      "The database was full, or the uploads failed.",
+    ]
+  answer: 0
+  explanation_vi: "Đầy dữ liệu là nguyên nhân, lỗi tải lên là kết quả → so trước kết quả."

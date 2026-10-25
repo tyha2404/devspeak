@@ -4,10 +4,2721 @@ sort: 5
 code: C1
 kind: grammar
 cefr: C1
-status: draft
-title: { en: "Grammar C1", vi: "Ngữ pháp C1" }
-summary_vi: "Đảo ngữ, câu chẻ, điều kiện hỗn hợp và cách rào đón để lập luận thuyết phục, tinh tế như người bản ngữ."
+status: published
+title:
+  en: Grammar C1 — Architecture & Technical Leadership
+  vi: Ngữ pháp C1
+summary_vi: Dẫn dắt thảo luận kỹ thuật bằng lập luận chặt chẽ và văn bản dễ theo
+  dõi. Tập diễn đạt giả định, rủi ro, kiến nghị và quan hệ giữa các ý khi viết
+  RFC hoặc quyết định kiến trúc.
 can_do:
-  - "Nhấn mạnh và cân chỉnh giọng điệu khi đề xuất, phản biện trong thảo luận kỹ thuật"
-  - "Viết email, tài liệu thiết kế với cấu trúc câu đa dạng và chính xác"
-lessons: []
+  - Viết RFC có giả định, phương án và điều kiện xem lại quyết định
+  - Phản biện một thiết kế bằng ngôn ngữ chính xác, hợp tác
+lessons:
+  - slug: g-c1-past-perfect-continuous
+    kind: grammar
+    title:
+      en: Past perfect continuous
+      vi: Thì quá khứ hoàn thành tiếp diễn
+    questions:
+      - g-c1-past-perfect-continuous-1
+      - g-c1-past-perfect-continuous-2
+      - g-c1-past-perfect-continuous-3
+      - g-c1-past-perfect-continuous-4
+      - g-c1-past-perfect-continuous-5
+      - g-c1-past-perfect-continuous-6
+      - g-c1-past-perfect-continuous-7
+      - g-c1-past-perfect-continuous-8
+    grammar:
+      title_vi: Quá khứ hoàn thành tiếp diễn trong postmortem (had been + V-ing)
+      group: Thì động từ
+      overview:
+        focus: "Ở B2 bạn đã biết had been + V-ing là việc kéo dài trước một mốc quá khứ. Ở C1, nó là công cụ kể chuyện nguyên nhân: trong postmortem hay báo cáo sự cố, nó dựng lại một quá trình âm thầm tích luỹ (rò bộ nhớ, hàng đợi phình to, nợ kỹ thuật) cho tới khoảnh khắc mọi thứ vỡ. Cấu trúc còn đi kèm bị động (had been being… hiếm, thường tránh), trạng từ nhấn mạnh (steadily, quietly) và các mệnh đề rút gọn trang trọng."
+        formulas:
+          - S + had been + (adv) + V-ing + (for/since…) + when/before + S + V2
+          - Having been + V-ing… (mệnh đề phân từ, văn viết)
+          - S + had been + V-ing ⇒ nguyên nhân · S + V2 ⇒ hệ quả
+        hook: The cache had been silently serving stale data for weeks before anyone noticed.
+      functions:
+        - title: Dựng lại quá trình tích luỹ dẫn tới sự cố
+          explain: Nhấn mạnh tính liên tục, âm thầm của nguyên nhân trước thời điểm sự cố bùng ra.
+          examples:
+            - Memory usage had been creeping up since the Tuesday deploy when the pods finally crashed.
+            - The queue had been growing steadily all night, so the morning spike tipped it over.
+        - title: Giải thích bối cảnh của một quyết định
+          explain: "Lý do một nhóm chọn hướng đi: điều họ đã trăn trở, cân nhắc suốt một thời gian."
+          examples:
+            - We had been debating a rewrite for months, so the outage simply forced our hand.
+            - The team had been patching the legacy parser for so long that replacing it felt inevitable.
+        - title: Làm rõ bằng chứng còn lại
+          explain: Kết quả nhìn thấy tại mốc quá khứ là dấu vết của một hoạt động trước đó.
+          examples:
+            - The logs were full of retries; a client had been hammering the endpoint.
+            - Her eyes were red because she had been staring at flame graphs since dawn.
+        - title: Rút gọn trang trọng trong văn viết
+          explain: Having been + V-ing mở đầu câu khi chủ ngữ hai vế trùng nhau; hợp với báo cáo chính thức.
+          examples:
+            - Having been running on a single replica for weeks, the database had no failover.
+            - Having been chasing the bug all weekend, the on-call engineer handed over a detailed log.
+      structure:
+        forms:
+          - label: Khẳng định
+            pattern: S + had been + V-ing
+            example: Disk usage had been climbing for days.
+          - label: Phủ định
+            pattern: S + hadn't been + V-ing
+            example: The alerts hadn't been firing, which is why nobody reacted.
+          - label: Nghi vấn
+            pattern: How long + had + S + been + V-ing…?
+            example: How long had the job been failing before we caught it?
+          - label: Mệnh đề phân từ
+            pattern: Having been + V-ing…, S + V2
+            example: Having been throttling requests for hours, the gateway finally gave up.
+        steps:
+          - title: Đặt mốc sự cố bằng quá khứ đơn
+            explain: Thời điểm vỡ (crashed, paged, decided) dùng V2; mọi thứ kéo dài trước đó dùng had been + V-ing.
+            example: The cluster crashed at 3 am; CPU had been spiking since midnight.
+          - title: Chọn hoàn tất hay quá trình
+            explain: Had + V3 khi nhấn vào việc đã xong (had deployed); had been + V-ing khi nhấn vào sự kéo dài, lặp đi lặp lại.
+            example: We had deployed the fix, but the old pods had been serving traffic all along.
+          - title: Tránh động từ trạng thái
+            explain: Know, own, belong, contain… dùng had + V3 thay vì dạng tiếp diễn.
+            example: We had known about the risk for months. (không phải had been knowing)
+      examples:
+        - tag: Nguyên nhân gốc
+          en: The certificate expired at midnight, but the renewal job had been failing quietly for two weeks.
+          vi: Chứng chỉ hết hạn lúc nửa đêm, nhưng job gia hạn đã âm thầm lỗi suốt hai tuần trước đó.
+          note: Expired (mốc) + had been failing (quá trình âm thầm dẫn tới).
+        - tag: Quyết định
+          en: We had been weighing a move to Postgres for a year before the licence costs settled it.
+          vi: Tụi mình đã cân nhắc chuyển sang Postgres cả năm trời trước khi chi phí bản quyền chốt hạ chuyện đó.
+          note: Quá trình cân nhắc kéo dài trước quyết định.
+        - tag: Bằng chứng
+          en: The dashboard looked flat because the exporter had been dropping metrics since the upgrade.
+          vi: Dashboard trông phẳng lì vì exporter đã liên tục làm rơi metric kể từ lần nâng cấp.
+          note: Dấu vết (flat) giải thích bằng hoạt động kéo dài.
+        - tag: Phủ định
+          en: Nobody reacted, since the alert hadn't been routing to the on-call channel.
+          vi: Không ai phản ứng, vì cảnh báo vốn không được chuyển tới kênh trực sự cố.
+          note: "Hadn't been + V-ing: việc lẽ ra diễn ra liên tục nhưng không."
+        - tag: Câu hỏi
+          en: How long had the scheduler been skipping jobs before the client complained?
+          vi: Scheduler đã bỏ sót job bao lâu rồi trước khi khách hàng phàn nàn?
+          note: How long + had + S + been + V-ing.
+        - tag: Phân từ
+          en: Having been running hot all week, the build server finally failed on Friday.
+          vi: Sau cả tuần chạy quá tải, máy build cuối cùng cũng sập vào thứ Sáu.
+          note: "Having been + V-ing: rút gọn khi hai vế cùng chủ ngữ."
+        - tag: Nợ kỹ thuật
+          en: We had been postponing the dependency upgrades, so the security patch took three days instead of one.
+          vi: Tụi mình cứ trì hoãn nâng cấp thư viện, nên bản vá bảo mật mất ba ngày thay vì một.
+          note: Sự trì hoãn tích luỹ dẫn tới hệ quả trong quá khứ.
+        - tag: Trạng từ
+          en: Latency had been steadily rising for a month when the SRE team finally opened an incident.
+          vi: Độ trễ đã tăng đều suốt một tháng thì nhóm SRE mới mở incident.
+          note: Steadily đứng giữa been và V-ing để nhấn mạnh tính tích luỹ.
+      contrast:
+        title: Had + V3, had been + V-ing hay was + V-ing
+        rows:
+          - label: had + V3
+            note: việc đã xong trước mốc quá khứ
+            example: We had rolled back the release by 9 am.
+          - label: had been + V-ing
+            note: quá trình kéo dài, tích luỹ tới mốc
+            example: Errors had been piling up for hours by 9 am.
+          - label: was/were + V-ing
+            note: đang diễn ra đúng tại mốc, không nói thời lượng
+            example: At 9 am, we were rolling back the release.
+        fixes:
+          - wrong: The service crashed because it was leaking memory for days.
+            right: The service crashed because it had been leaking memory for days.
+            why: For days trước một mốc quá khứ đòi hỏi had been + V-ing.
+          - wrong: We had been knowing about the bug since March.
+            right: We had known about the bug since March.
+            why: Know là động từ trạng thái, không dùng tiếp diễn.
+          - wrong: Having been run on one node, the database crashed.
+            right: Having been running on one node, the database crashed.
+            why: Mệnh đề phân từ tiếp diễn chủ động cần V-ing (running), không phải V3.
+  - slug: g-c1-future-perfect
+    kind: grammar
+    title:
+      en: Future perfect
+      vi: Thì tương lai hoàn thành
+    questions:
+      - g-c1-future-perfect-1
+      - g-c1-future-perfect-2
+      - g-c1-future-perfect-3
+      - g-c1-future-perfect-4
+      - g-c1-future-perfect-5
+      - g-c1-future-perfect-6
+      - g-c1-future-perfect-7
+      - g-c1-future-perfect-8
+    grammar:
+      title_vi: Tương lai hoàn thành trong kế hoạch chuyển đổi (will have + V3, bị động, rào đón)
+      group: Thì động từ
+      overview:
+        focus: "Ở B2, will have + V3 là “sẽ xong trước mốc”. Ở C1, bạn dùng nó để viết kế hoạch cutover và RFC một cách chính xác, có trách nhiệm: dạng bị động (will have been migrated), động từ khuyết thiếu thay will để rào đón (should/may/is expected to have…), và cấu trúc trang trọng như By the time…, Prior to…, Once… để khoá điều kiện tiên quyết."
+        formulas:
+          - By/Prior to + mốc, S + will have + V3
+          - S + will have been + V3 (bị động)
+          - S + should/may/is expected to + have + V3 (rào đón)
+          - By the time + S + V (hiện tại), S + will have + V3
+        hook: By the time we switch DNS, every tenant will have been migrated and verified.
+      functions:
+        - title: Cam kết đầu ra trước mốc chuyển đổi
+          explain: Liệt kê những gì chắc chắn xong trước cutover; nhấn vào trạng thái hoàn tất.
+          examples:
+            - Prior to the cutover, we will have frozen all schema changes.
+            - By go-live, the support team will have completed the new runbook training.
+        - title: Bị động để nói về hệ thống, không phải người làm
+          explain: Trong tài liệu kỹ thuật, đối tượng (data, tenants, keys) thường là chủ ngữ.
+          examples:
+            - By 2 am, all customer records will have been copied to the new cluster.
+            - The legacy API keys will have been revoked before the public announcement.
+        - title: Rào đón mức độ chắc chắn
+          explain: Should/ought to/may/is expected to + have + V3 thay will khi chưa thể cam kết tuyệt đối.
+          examples:
+            - The backfill should have finished by Monday, assuming no throttling.
+            - Most clients are expected to have upgraded by the end of the deprecation window.
+        - title: Suy đoán về hiện tại (nghĩa phụ, hơi trang trọng)
+          explain: Will have + V3 còn có nghĩa “chắc đã…” về việc vừa xảy ra; dùng khéo khi trấn an.
+          examples:
+            - You will have seen the maintenance notice in this morning's email.
+            - As you will have noticed, the staging URLs changed overnight.
+      structure:
+        forms:
+          - label: Chủ động
+            pattern: S + will have + V3
+            example: We will have decommissioned the old VMs by Q3.
+          - label: Bị động
+            pattern: S + will have been + V3
+            example: All tokens will have been rotated by then.
+          - label: Rào đón
+            pattern: S + should/may + have + V3
+            example: The export may not have completed by noon.
+          - label: Nghi vấn
+            pattern: Will + S + have + V3 + by…?
+            example: Will QA have signed off by the freeze?
+        steps:
+          - title: Xác định mốc chuyển đổi
+            explain: By/prior to/before + mốc, hoặc by the time/once + mệnh đề hiện tại đơn.
+            example: Once the flag is enabled, the old path will have been removed.
+          - title: Chọn chủ động hay bị động
+            explain: Ai làm không quan trọng hoặc là hệ thống → will have been + V3.
+            example: The indexes will have been rebuilt by the batch job.
+          - title: Chỉnh mức cam kết
+            explain: Will = chắc chắn; should = dự kiến hợp lý; may/might = có thể; is expected to = văn bản chính thức.
+            example: The replicas should have caught up within ten minutes.
+      examples:
+        - tag: Cutover
+          en: By the time we flip the feature flag, the old billing path will have been retired.
+          vi: Lúc tụi mình bật feature flag, luồng billing cũ đã được gỡ bỏ xong.
+          note: By the time + hiện tại đơn; vế chính bị động will have been retired.
+        - tag: Điều kiện tiên quyết
+          en: Prior to the migration, every service will have adopted the new auth library.
+          vi: Trước đợt migration, mọi service đều đã chuyển xong sang thư viện xác thực mới.
+          note: "Prior to: trang trọng hơn before."
+        - tag: Rào đón
+          en: The backfill should have completed by Monday unless the vendor throttles us.
+          vi: Việc backfill dự kiến sẽ xong trước thứ Hai, trừ khi bên cung cấp giới hạn tốc độ tụi mình.
+          note: "Should have + V3: dự kiến, chưa cam kết tuyệt đối."
+        - tag: Bị động
+          en: By midnight, all user sessions will have been invalidated.
+          vi: Trước nửa đêm, mọi phiên đăng nhập của người dùng đều đã bị vô hiệu hoá.
+          note: "Will have been + V3: hệ thống là trọng tâm."
+        - tag: Phủ định
+          en: We won't have finished the load tests before the freeze, so the date is at risk.
+          vi: Tụi mình sẽ chưa chạy xong bài kiểm thử tải trước đợt đóng băng, nên ngày phát hành có rủi ro.
+          note: "Won't have + V3: cảnh báo sớm về tiến độ."
+        - tag: Văn bản chính thức
+          en: Customers are expected to have upgraded to version 4 by the end of March.
+          vi: Khách hàng được kỳ vọng sẽ nâng cấp lên phiên bản 4 trước cuối tháng Ba.
+          note: "Be expected to + have + V3: giọng thông báo chính thức."
+        - tag: Câu hỏi
+          en: Will security have reviewed the new firewall rules by the go-live date?
+          vi: Trước ngày go-live, đội bảo mật sẽ duyệt xong các rule tường lửa mới chứ?
+          note: Will + S + have + V3 + by…?
+        - tag: Suy đoán
+          en: As you will have noticed, the staging environment was rebuilt overnight.
+          vi: Như chắc mọi người đã để ý, môi trường staging được dựng lại qua đêm.
+          note: "Will have noticed: “chắc đã để ý”, cách nói lịch sự."
+      contrast:
+        title: Will have + V3, will have been + V3 hay should have + V3
+        rows:
+          - label: will have + V3
+            note: cam kết người/nhóm làm xong trước mốc
+            example: We will have migrated the data by Friday.
+          - label: will have been + V3
+            note: "bị động: đối tượng được xử lý xong trước mốc"
+            example: The data will have been migrated by Friday.
+          - label: should have + V3 (tương lai)
+            note: dự kiến hợp lý, có rào đón
+            example: The data should have been migrated by Friday.
+        fixes:
+          - wrong: By the time we will switch DNS, the data will have been migrated.
+            right: By the time we switch DNS, the data will have been migrated.
+            why: Mệnh đề by the time dùng hiện tại đơn.
+          - wrong: All keys will have rotated by then.
+            right: All keys will have been rotated by then.
+            why: "Keys không tự xoay vòng: cần bị động will have been + V3."
+          - wrong: The export should has finished by noon.
+            right: The export should have finished by noon.
+            why: Sau động từ khuyết thiếu luôn là have.
+  - slug: g-c1-future-perfect-continuous
+    kind: grammar
+    title:
+      en: Future perfect continuous
+      vi: Thì tương lai hoàn thành tiếp diễn
+    questions:
+      - g-c1-future-perfect-continuous-1
+      - g-c1-future-perfect-continuous-2
+      - g-c1-future-perfect-continuous-3
+      - g-c1-future-perfect-continuous-4
+      - g-c1-future-perfect-continuous-5
+      - g-c1-future-perfect-continuous-6
+      - g-c1-future-perfect-continuous-7
+      - g-c1-future-perfect-continuous-8
+    grammar:
+      title_vi: Tương lai hoàn thành tiếp diễn (will have been + V-ing)
+      group: Thì động từ
+      overview:
+        focus: "Will have been + V-ing nhìn từ một mốc tương lai ngược về quá khứ và đo một quá trình đã kéo dài bao lâu tính tới mốc đó. Với lập trình viên, đây là cách nói về uptime, thời gian chạy thử, pilot hay soak test: “đến tháng Sáu, hệ thống sẽ chạy ổn định tròn một năm”. Nó cũng dùng để biện minh, giải thích trạng thái tại mốc tương lai (mệt, đầy log…)."
+        formulas:
+          - S + will have been + V-ing + for + khoảng thời gian + by/when + mốc
+          - By + mốc, S + will have been + V-ing + for…
+          - How long + will + S + have been + V-ing + by…?
+        hook: By June, the new cluster will have been running without a single outage for a full year.
+      functions:
+        - title: Đo thời lượng vận hành tính tới mốc
+          explain: Uptime, thời gian chạy production, tuổi thọ một hệ thống.
+          examples:
+            - By the next audit, the payment service will have been running on Kubernetes for eighteen months.
+            - In March, this monolith will have been serving traffic for a decade.
+        - title: Thời lượng thử nghiệm trước khi ra quyết định
+          explain: "Soak test, canary, pilot: lập luận rằng đủ dữ liệu để kết luận."
+          examples:
+            - By Friday, the canary will have been handling 5% of traffic for a week.
+            - When the steering committee meets, the pilot will have been running for three sprints.
+        - title: Giải thích trạng thái tại mốc tương lai
+          explain: Kết quả dễ đoán của một quá trình kéo dài (mệt, đầy dữ liệu, có nhiều bằng chứng).
+          examples:
+            - She'll be exhausted on Monday; she'll have been migrating databases all weekend.
+            - The logs will be huge by then, as the debug flag will have been running for days.
+        - title: Nhấn mạnh sự kiên trì hoặc chậm trễ
+          explain: Đặt thời lượng dài cạnh mốc để làm nổi bật vấn đề, thường trong tranh luận ưu tiên.
+          examples:
+            - By the release, we'll have been waiting on that vendor fix for half a year.
+            - If nothing changes, the team will have been firefighting for a month straight.
+      structure:
+        forms:
+          - label: Khẳng định
+            pattern: S + will have been + V-ing
+            example: We'll have been testing it for two weeks by then.
+          - label: Phủ định
+            pattern: S + won't have been + V-ing
+            example: It won't have been running long enough to judge.
+          - label: Nghi vấn
+            pattern: How long + will + S + have been + V-ing?
+            example: How long will the canary have been running by Friday?
+        steps:
+          - title: Tìm mốc tương lai và khoảng thời gian
+            explain: "Cần cả hai: mốc (by Friday, when…, in March) và thời lượng (for a week, since…)."
+            example: By Friday, it will have been running for a week.
+          - title: Phân biệt với will have + V3
+            explain: V3 đếm kết quả hoàn tất (processed 2 million jobs); V-ing đo thời lượng quá trình (been processing for 10 hours).
+            example: By noon, it will have processed 2 million jobs and been processing for ten hours.
+          - title: Không dùng với động từ trạng thái
+            explain: Know, own, belong… dùng will have + V3 kể cả khi có for.
+            example: By June, I'll have known the codebase for two years.
+      examples:
+        - tag: Uptime
+          en: By June, the new cluster will have been running without an outage for a full year.
+          vi: Đến tháng Sáu, cụm máy mới sẽ chạy liên tục không sự cố tròn một năm.
+          note: Will have been running + for + thời lượng + by + mốc.
+        - tag: Canary
+          en: By Friday, the canary will have been handling five percent of traffic for a week.
+          vi: Đến thứ Sáu, bản canary đã xử lý năm phần trăm lưu lượng được tròn một tuần.
+          note: Đủ thời lượng để quyết định rollout.
+        - tag: Soak test
+          en: When the review starts, the soak test will have been running for seventy-two hours.
+          vi: Lúc buổi review bắt đầu, bài soak test sẽ chạy được bảy mươi hai tiếng rồi.
+          note: When + hiện tại đơn; vế chính will have been + V-ing.
+        - tag: Phủ định
+          en: The pilot won't have been running long enough to give us reliable numbers.
+          vi: Dự án thử nghiệm sẽ chưa chạy đủ lâu để cho tụi mình số liệu đáng tin.
+          note: "Won't have been + V-ing: lập luận thiếu dữ liệu."
+        - tag: Câu hỏi
+          en: How long will the migration have been running by the time the client wakes up?
+          vi: Đến lúc khách hàng thức dậy thì việc migration sẽ chạy được bao lâu?
+          note: How long + will + S + have been + V-ing.
+        - tag: Trạng thái
+          en: He'll be worn out tomorrow; he'll have been debugging that race condition all night.
+          vi: Mai anh ấy sẽ kiệt sức; anh ấy sẽ gỡ lỗi race condition đó suốt cả đêm.
+          note: Giải thích trạng thái tại mốc tương lai.
+        - tag: Chậm trễ
+          en: By the next release, we'll have been waiting on the vendor fix for six months.
+          vi: Đến bản phát hành sau, tụi mình sẽ chờ bản vá của nhà cung cấp tròn sáu tháng.
+          note: Nhấn mạnh độ dài để thúc ưu tiên.
+        - tag: In + mốc
+          en: In October, I'll have been maintaining this library for five years.
+          vi: Đến tháng Mười, mình sẽ duy trì thư viện này được năm năm.
+          note: "In + tháng: mốc tương lai."
+      contrast:
+        title: Will have + V3 hay will have been + V-ing
+        rows:
+          - label: will have + V3
+            note: kết quả, số lượng hoàn tất tới mốc
+            example: By Friday, the canary will have served ten million requests.
+          - label: will have been + V-ing
+            note: thời lượng quá trình tính tới mốc
+            example: By Friday, the canary will have been serving traffic for a week.
+          - label: will be + V-ing
+            note: đang diễn ra tại mốc, không đo thời lượng
+            example: On Friday, the canary will be serving traffic.
+        fixes:
+          - wrong: By June, the cluster will be running for a year.
+            right: By June, the cluster will have been running for a year.
+            why: By + mốc + for + thời lượng cần will have been + V-ing.
+          - wrong: By then, I'll have been knowing the system for two years.
+            right: By then, I'll have known the system for two years.
+            why: Know là động từ trạng thái.
+          - wrong: When the review will start, the test will have been running for a day.
+            right: When the review starts, the test will have been running for a day.
+            why: Mệnh đề thời gian dùng hiện tại đơn.
+  - slug: g-c1-modal-perfect
+    kind: grammar
+    title:
+      en: Past modals
+      vi: Động từ khuyết thiếu kết hợp dạng hoàn thành
+    questions:
+      - g-c1-modal-perfect-1
+      - g-c1-modal-perfect-2
+      - g-c1-modal-perfect-3
+      - g-c1-modal-perfect-4
+      - g-c1-modal-perfect-5
+      - g-c1-modal-perfect-6
+      - g-c1-modal-perfect-7
+      - g-c1-modal-perfect-8
+    grammar:
+      title_vi: "Modal + have + V3: khả năng, nghĩa vụ và nhận xét hồi tưởng"
+      group: Động từ khuyết thiếu
+      overview:
+        focus: "Ở B2 bạn dùng must/might/can't have để suy đoán. Ở C1, bộ modal hoàn thành giúp bạn viết postmortem không đổ lỗi mà vẫn chính xác: could have (đã có khả năng nhưng không xảy ra), needn't have vs didn't need to (làm thừa hay không cần làm), should/ought to have (lẽ ra nên), was supposed to (theo quy trình), và would have (hệ quả giả định). Chọn sai modal là đổi hẳn nghĩa: trách nhiệm, may mắn hay suy luận."
+        formulas:
+          - could / might + have + V3 → khả năng đã có (không xảy ra hoặc chưa rõ)
+          - should / ought to + have + V3 → lẽ ra nên (nhận xét hồi tưởng)
+          - needn't have + V3 ≠ didn't need to + V
+          - was/were supposed to + V → theo kế hoạch, quy trình
+        hook: The outage could have been far worse; we should have caught the config drift earlier.
+      functions:
+        - title: Khả năng đã có nhưng không xảy ra
+          explain: "Could have + V3: suýt nữa, hoặc một phương án có thể đã dùng. Couldn't have: bất khả thi."
+          examples:
+            - A single typo could have wiped the production database.
+            - We couldn't have predicted the CDN failure from our own metrics.
+        - title: Nhận xét sau sự kiện, không đổ lỗi
+          explain: Should/ought to have + V3 chỉ ra việc lẽ ra nên làm; dùng we để giữ tinh thần blameless.
+          examples:
+            - We should have added a rate limit before opening the API to partners.
+            - The alert ought to have paged the database team, not the frontend rota.
+        - title: Làm thừa hay không cần làm
+          explain: "Needn't have + V3: đã làm nhưng hoá ra không cần. Didn't need to + V: không cần, (thường) nên đã không làm."
+          examples:
+            - We needn't have rolled back; the errors came from a monitoring bug.
+            - We didn't need to notify customers, as no data was exposed.
+        - title: Quy trình, kế hoạch bị phá vỡ
+          explain: "Was supposed to + V: theo quy trình phải làm nhưng không làm; nhẹ hơn should have, mang tính sự thật."
+          examples:
+            - The release was supposed to go through a second reviewer.
+            - The backup job was supposed to run nightly, but it had been disabled.
+      structure:
+        forms:
+          - label: Khả năng
+            pattern: could/might + have + V3
+            example: The leak might have started earlier than we think.
+          - label: Nghĩa vụ hồi tưởng
+            pattern: should/ought to + have + V3
+            example: We should have tested the failover.
+          - label: Không cần
+            pattern: needn't have + V3 / didn't need to + V
+            example: You needn't have stayed late; the fix was trivial.
+          - label: Bị động
+            pattern: modal + have been + V3
+            example: The incident could have been prevented.
+        steps:
+          - title: "Hỏi: suy luận, khả năng hay đánh giá?"
+            explain: Must/can't have = chắc chắn (suy luận); could/might have = khả năng; should have = đánh giá việc nên làm.
+            example: It must have failed at 2 am (suy luận) · It could have failed (khả năng).
+          - title: Phân biệt needn't have và didn't need to
+            explain: Needn't have + V3 luôn ngụ ý việc đã được làm; didn't need to không khẳng định điều đó.
+            example: I needn't have restarted the server. (đã restart, hoá ra thừa)
+          - title: Dùng bị động để giảm đổ lỗi
+            explain: "Trong postmortem, chủ ngữ là hệ thống/việc: The change should have been reviewed."
+            example: The migration should have been rehearsed on staging.
+      examples:
+        - tag: Suýt nữa
+          en: A missing WHERE clause could have deleted every customer record.
+          vi: Thiếu mệnh đề WHERE có thể đã xoá sạch hồ sơ khách hàng.
+          note: "Could have + V3: khả năng đã có, may mà không xảy ra."
+        - tag: Bất khả thi
+          en: We couldn't have detected the outage sooner with the dashboards we had.
+          vi: Với các dashboard lúc đó, tụi mình không thể phát hiện sự cố sớm hơn.
+          note: "Couldn't have + V3: không có khả năng."
+        - tag: Blameless
+          en: We should have rehearsed the failover before peak season.
+          vi: Lẽ ra tụi mình nên diễn tập failover trước mùa cao điểm.
+          note: "Should have + V3 với we: nhận trách nhiệm chung."
+        - tag: Làm thừa
+          en: We needn't have paged the whole team; the alert was a false positive.
+          vi: Lẽ ra không cần gọi cả đội dậy; cảnh báo đó là báo động giả.
+          note: "Needn't have + V3: đã gọi, hoá ra không cần."
+        - tag: Không cần
+          en: We didn't need to restore from backup, because the replica was intact.
+          vi: Tụi mình không cần khôi phục từ bản sao lưu, vì bản replica vẫn nguyên vẹn.
+          note: "Didn't need to + V: không cần nên đã không làm."
+        - tag: Quy trình
+          en: The hotfix was supposed to go through code review, but it was merged directly.
+          vi: Bản hotfix lẽ ra phải qua code review, nhưng lại được merge thẳng.
+          note: "Was supposed to: theo quy trình, không mang giọng phán xét."
+        - tag: Bị động
+          en: The breach might have been prevented by stricter IAM policies.
+          vi: Vụ rò rỉ có lẽ đã có thể được ngăn chặn bằng chính sách IAM chặt hơn.
+          note: "Might have been + V3: khả năng, giọng thận trọng."
+        - tag: Giả định
+          en: Without the circuit breaker, the retry storm would have taken down the gateway.
+          vi: Nếu không có circuit breaker, cơn bão retry đã làm sập gateway rồi.
+          note: "Would have + V3: hệ quả giả định chắc chắn."
+      contrast:
+        title: Must, could, should, needn't + have + V3
+        rows:
+          - label: must have + V3
+            note: suy luận chắc chắn từ bằng chứng
+            example: The job must have crashed; there's no output file.
+          - label: could have + V3
+            note: khả năng đã có (không xảy ra hoặc chưa rõ)
+            example: The job could have crashed if the disk had filled up.
+          - label: should have + V3
+            note: lẽ ra nên làm (nhưng đã không)
+            example: We should have monitored the job.
+          - label: needn't have + V3
+            note: đã làm nhưng thừa
+            example: We needn't have rerun the job.
+        fixes:
+          - wrong: We should had tested the rollback.
+            right: We should have tested the rollback.
+            why: Sau modal luôn là have, không phải had.
+          - wrong: We didn't need to roll back, but we did it anyway, which wasted an hour.
+            right: We needn't have rolled back; it wasted an hour.
+            why: Đã làm mà thừa → needn't have + V3 gọn và đúng sắc thái hơn.
+          - wrong: The change must have been reviewed, but nobody did it.
+            right: The change should have been reviewed, but nobody did it.
+            why: Must have là suy luận; nói việc lẽ ra phải làm thì dùng should have.
+  - slug: g-c1-mixed-conditionals
+    kind: grammar
+    title:
+      en: Mixed conditionals
+      vi: Câu điều kiện hỗn hợp
+    questions:
+      - g-c1-mixed-conditionals-1
+      - g-c1-mixed-conditionals-2
+      - g-c1-mixed-conditionals-3
+      - g-c1-mixed-conditionals-4
+      - g-c1-mixed-conditionals-5
+      - g-c1-mixed-conditionals-6
+      - g-c1-mixed-conditionals-7
+      - g-c1-mixed-conditionals-8
+    grammar:
+      title_vi: Câu điều kiện hỗn hợp và đảo ngữ (If + had + V3 → would + V)
+      group: Câu điều kiện
+      overview:
+        focus: "Câu điều kiện hỗn hợp nối hai khung thời gian. Kiểu hay gặp nhất: quyết định trong quá khứ (if + had + V3) dẫn tới tình trạng hiện tại khác đi (would + V + now). Kiểu ngược lại: một đặc điểm lâu dài ở hiện tại (if + V2) giải thích một kết quả quá khứ (would have + V3). Đây chính là ngôn ngữ của nợ kỹ thuật: “nếu hồi đó tụi mình viết test, giờ đã không sợ refactor”. Bản trang trọng dùng đảo ngữ: Had we…, Were it not for…"
+        formulas:
+          - If + S + had + V3, S + would/could/might + V (now)
+          - If + S + V2 / were, S + would/could + have + V3
+          - Had + S + V3, S + would + V (đảo ngữ, trang trọng)
+          - Were it not for / But for + N, S + would (have)…
+        hook: If we had written tests back then, we wouldn't be afraid to refactor now.
+      functions:
+        - title: Quyết định quá khứ → hệ quả hiện tại
+          explain: "If + had + V3, would + V: điều đã (không) làm trước đây khiến hiện tại khác đi."
+          examples:
+            - If we had chosen Postgres, we wouldn't need this sync service today.
+            - If the team hadn't skipped the design review, the API would be far more consistent now.
+        - title: Đặc điểm hiện tại → kết quả quá khứ
+          explain: "If + V2/were, would have + V3: một sự thật lâu dài giải thích chuyện đã xảy ra."
+          examples:
+            - If our docs were clearer, the client wouldn't have misused the endpoint.
+            - If I weren't on call this week, I would have joined the offsite.
+        - title: Đảo ngữ trang trọng trong RFC và báo cáo
+          explain: Bỏ if, đưa had/were lên đầu; dùng trong văn viết để lập luận thuyết phục.
+          examples:
+            - Had we invested in observability, we would be able to answer this question now.
+            - Were the schema better documented, the vendor would have integrated faster.
+        - title: Biết ơn quyết định đúng
+          explain: "But for / Were it not for + danh từ: nếu không nhờ…; nhấn mạnh giá trị một quyết định."
+          examples:
+            - But for the feature flags, we would still be rolling back this release.
+            - Were it not for Linh's caching layer, the site would have collapsed on launch day.
+      structure:
+        forms:
+          - label: Quá khứ → hiện tại
+            pattern: If + had + V3, would + V
+            example: If we had split the monolith, deploys would be faster now.
+          - label: Hiện tại → quá khứ
+            pattern: If + V2/were, would have + V3
+            example: If we were less dependent on one vendor, the outage wouldn't have hurt so much.
+          - label: Đảo ngữ
+            pattern: Had + S + V3, S + would + V
+            example: Had we kept the old API, we would still be supporting two clients.
+          - label: Danh từ
+            pattern: But for / Were it not for + N, …
+            example: But for the backups, we would have lost everything.
+        steps:
+          - title: Gắn thời gian cho từng vế
+            explain: Vế điều kiện nói về khi nào? Vế kết quả nói về khi nào? Có now/today/still → hiện tại; back then/last year → quá khứ.
+            example: If we had migrated last year (quá khứ), we wouldn't be stuck now (hiện tại).
+          - title: Chọn dạng động từ theo thời gian
+            explain: "Quá khứ không có thật: had + V3 / would have + V3. Hiện tại không có thật: V2/were / would + V."
+            example: If she were the lead (hiện tại), she would have approved it (quá khứ).
+          - title: "Đảo ngữ: bỏ if, không dùng thêm trợ động từ"
+            explain: Had we known… (không phải Had we have known / If had we known).
+            example: Had we known about the limit, we would be using a different API.
+      examples:
+        - tag: Nợ kỹ thuật
+          en: If we had written integration tests back then, we wouldn't be afraid to refactor now.
+          vi: Nếu hồi đó tụi mình viết integration test, giờ đã không sợ refactor.
+          note: Quá khứ (had written) → hiện tại (wouldn't be).
+        - tag: Kiến trúc
+          en: If we had picked a message queue, the services wouldn't be so tightly coupled today.
+          vi: Nếu tụi mình đã chọn message queue, các service hôm nay đã không dính chặt vào nhau như vậy.
+          note: Today báo hiệu vế kết quả ở hiện tại.
+        - tag: Hiện tại → quá khứ
+          en: If our onboarding docs were better, the new hire wouldn't have broken staging.
+          vi: Nếu tài liệu onboarding của tụi mình tốt hơn, bạn mới vào đã không làm hỏng staging.
+          note: Đặc điểm lâu dài (were) giải thích chuyện đã xảy ra.
+        - tag: Đảo ngữ
+          en: Had we invested in observability, we would know exactly where the latency comes from.
+          vi: Giá như tụi mình đầu tư vào observability, giờ đã biết chính xác độ trễ đến từ đâu.
+          note: Had + S + V3 thay cho If we had invested.
+        - tag: But for
+          en: But for the feature flags, we would still be rolling back this release.
+          vi: Nếu không nhờ feature flag, giờ này tụi mình vẫn còn đang rollback bản phát hành này.
+          note: But for + danh từ = nếu không có.
+        - tag: Were it not for
+          en: Were it not for the read replicas, the launch would have taken the database down.
+          vi: Nếu không có các read replica, đợt ra mắt đã làm sập cơ sở dữ liệu rồi.
+          note: "Were it not for: trang trọng, đứng đầu câu."
+        - tag: Lựa chọn nghề
+          en: If I hadn't joined the platform team, I wouldn't understand our deploy pipeline as well as I do.
+          vi: Nếu mình không vào nhóm platform, giờ mình đã không hiểu pipeline deploy rõ như vậy.
+          note: Quyết định cá nhân trong quá khứ → hiểu biết hiện tại.
+        - tag: Khả năng
+          en: If the client had signed off in March, we could be in production already.
+          vi: Nếu khách hàng duyệt từ tháng Ba, giờ tụi mình có thể đã lên production rồi.
+          note: "Could + V: khả năng ở hiện tại."
+      contrast:
+        title: Loại 2, loại 3 và hỗn hợp
+        rows:
+          - label: Loại 2
+            note: hiện tại → hiện tại
+            example: If we had more tests, we would refactor more often.
+          - label: Loại 3
+            note: quá khứ → quá khứ
+            example: If we had had more tests, we would have caught the bug.
+          - label: Hỗn hợp A
+            note: quá khứ → hiện tại
+            example: If we had written more tests, we would refactor more confidently now.
+          - label: Hỗn hợp B
+            note: hiện tại → quá khứ
+            example: If we were a bigger team, we would have shipped on time.
+        fixes:
+          - wrong: If we chose Go back then, we wouldn't have this memory problem now.
+            right: If we had chosen Go, we wouldn't have this memory problem now.
+            why: Quyết định nằm trong quá khứ nên vế if phải là had + V3, dù kết quả ở hiện tại.
+          - wrong: If we had migrated last year, we would have been faster now.
+            right: If we had migrated last year, we would be faster now.
+            why: "Now là hiện tại: vế kết quả dùng would + V."
+          - wrong: If had we known about the quota, we would use another provider.
+            right: Had we known about the quota, we would be using another provider.
+            why: Đảo ngữ bỏ hẳn if.
+  - slug: g-c1-condition-alternatives
+    kind: grammar
+    title:
+      en: Alternatives to if
+      vi: Các cách diễn đạt điều kiện thay cho if
+    questions:
+      - g-c1-condition-alternatives-1
+      - g-c1-condition-alternatives-2
+      - g-c1-condition-alternatives-3
+      - g-c1-condition-alternatives-4
+      - g-c1-condition-alternatives-5
+      - g-c1-condition-alternatives-6
+      - g-c1-condition-alternatives-7
+      - g-c1-condition-alternatives-8
+    grammar:
+      title_vi: Provided that, unless, as long as, otherwise, supposing, in case, but for
+      group: Câu điều kiện
+      overview:
+        focus: "Ở trình độ C1, if không còn là lựa chọn duy nhất. Mỗi liên từ điều kiện mang một sắc thái riêng: provided/providing (that) và as long as đặt điều kiện bắt buộc, unless nêu ngoại lệ, supposing/suppose đưa ra giả định để bàn, in case nói về phòng hờ, otherwise nói hệ quả nếu điều kiện không được đáp ứng, còn but for / without + danh từ thay cho cả một mệnh đề if. Trong RFC, chọn đúng từ giúp người đọc biết đâu là điều kiện cứng, đâu là ngoại lệ và đâu chỉ là phương án dự phòng."
+        formulas:
+          - Provided (that) / As long as + S + V (hiện tại), S + will…
+          - Unless + S + V khẳng định = if… not
+          - S + V…; otherwise, S + will / would…
+          - But for / Without + N, S + would (have)…
+        hook: We can ship on Friday, provided that the load test passes.
+      functions:
+        - title: "Điều kiện bắt buộc: provided (that), as long as, on condition that"
+          explain: Chỉ khi điều kiện được đáp ứng thì kết quả mới xảy ra. Mạnh và chặt hơn if; on condition that trang trọng nhất.
+          examples:
+            - The vendor may access production logs on condition that all personal data is masked.
+            - As long as the feature flag stays off, users won't notice the new schema.
+        - title: "Ngoại lệ: unless"
+          explain: Unless = trừ khi, tương đương if… not. Mệnh đề sau unless ở dạng khẳng định.
+          examples:
+            - We will keep the legacy endpoint unless traffic to it drops below one percent.
+            - Don't page the on-call engineer unless the error rate exceeds the SLO.
+        - title: "Giả định để thảo luận: supposing, suppose, what if, assuming (that)"
+          explain: Đặt ra một kịch bản để cả nhóm cân nhắc; thường dùng trong phần rủi ro của RFC. Assuming nghe như giả định nền tảng của cả đề xuất.
+          examples:
+            - Supposing the primary region went down, how long would failover take?
+            - Assuming that the queue can absorb the spike, we won't need extra workers.
+        - title: "Phòng hờ và hệ quả ngược: in case, otherwise, but for"
+          explain: In case = phòng khi (làm trước để đề phòng), không phải 'nếu'. Otherwise = nếu không thì. But for + danh từ = nếu không có… (trang trọng).
+          examples:
+            - Keep a snapshot of the table in case the migration needs to be reversed.
+            - But for the canary release, the bug would have reached every customer.
+      structure:
+        forms:
+          - label: Điều kiện chặt
+            pattern: Provided (that) / Providing / As long as + hiện tại đơn
+            example: Provided that reviewers approve it, the patch goes out tonight.
+          - label: Ngoại lệ
+            pattern: Unless + mệnh đề khẳng định
+            example: Unless someone objects, we'll adopt option B.
+          - label: Giả định
+            pattern: Supposing / Suppose / What if + quá khứ (khó xảy ra) hoặc hiện tại
+            example: Suppose the client rejected the estimate — what would we cut?
+          - label: Phòng hờ
+            pattern: S + V + in case + S + V (hiện tại)
+            example: I'll stay online in case the deploy fails.
+          - label: Hệ quả ngược
+            pattern: Mệnh đề 1; otherwise, mệnh đề 2
+            example: Rotate the keys today; otherwise, the old ones will expire mid-release.
+          - label: Rút gọn bằng danh từ
+            pattern: But for / Without + N, S + would (have) + V
+            example: Without automated tests, this refactor would take months.
+        steps:
+          - title: Xác định loại quan hệ
+            explain: Điều kiện bắt buộc → provided/as long as; ngoại lệ → unless; giả định để bàn → supposing; đề phòng → in case.
+            example: "Bắt buộc: as long as CI is green. Phòng hờ: in case CI goes down."
+          - title: Không dùng will trong mệnh đề điều kiện
+            explain: Giống if, sau provided, as long as, unless, in case dùng hiện tại đơn cho tương lai.
+            example: As long as the budget is approved, we'll start in May.
+          - title: Unless không đi với phủ định kép
+            explain: Unless đã mang nghĩa 'nếu không', nên mệnh đề sau nó thường ở dạng khẳng định.
+            example: Unless the tests pass, we won't merge. (không phải unless the tests don't pass)
+          - title: Otherwise đứng ở mệnh đề sau
+            explain: "Otherwise là trạng từ nối, không phải liên từ: dùng dấu chấm phẩy hoặc chấm câu trước nó."
+            example: Pin the dependency version; otherwise, builds may break silently.
+      examples:
+        - tag: Điều kiện cứng
+          en: We will approve the rollout provided that the error budget is still healthy.
+          vi: Chúng ta sẽ duyệt việc triển khai với điều kiện ngân sách lỗi vẫn còn đủ.
+          note: "Provided that + hiện tại đơn: điều kiện bắt buộc, chặt hơn if."
+        - tag: Ngoại lệ
+          en: Unless the security team raises a concern, the new auth flow goes live on Monday.
+          vi: Trừ khi đội bảo mật nêu lo ngại, luồng xác thực mới sẽ chạy chính thức vào thứ Hai.
+          note: Unless = if… not; mệnh đề sau unless ở dạng khẳng định.
+        - tag: Kéo dài điều kiện
+          en: As long as both services share one schema, they can be deployed independently.
+          vi: Miễn là hai service dùng chung một schema, chúng có thể được triển khai độc lập.
+          note: "As long as: điều kiện phải duy trì suốt thời gian đó."
+        - tag: Kịch bản rủi ro
+          en: Supposing the third-party API changed its rate limits overnight, what would break first?
+          vi: Giả sử bên API thứ ba đổi giới hạn tốc độ chỉ sau một đêm, thứ gì sẽ hỏng trước tiên?
+          note: "Supposing + quá khứ: kịch bản giả định để cả nhóm cân nhắc."
+        - tag: Phòng hờ
+          en: We keep a read-only replica in case the primary database becomes unavailable.
+          vi: Chúng tôi giữ một bản sao chỉ đọc để phòng khi cơ sở dữ liệu chính ngừng hoạt động.
+          note: "In case: chuẩn bị trước để đề phòng, không phải 'nếu'."
+        - tag: Hệ quả ngược
+          en: Document the rollback steps before the release; otherwise, nobody on call will know them.
+          vi: Hãy ghi lại các bước rollback trước khi phát hành; nếu không, người trực sẽ không ai biết.
+          note: Otherwise = nếu không làm vậy thì; đứng sau dấu chấm phẩy.
+        - tag: Rút gọn bằng danh từ
+          en: But for the detailed postmortem, the same outage would have happened again in March.
+          vi: Nếu không có bản postmortem chi tiết, sự cố tương tự đã lại xảy ra vào tháng Ba.
+          note: But for + danh từ = if it hadn't been for…, đi với would have + V3.
+        - tag: Giả định nền
+          en: Assuming that the client signs the contract this week, the team can start discovery in November.
+          vi: Giả định khách hàng ký hợp đồng trong tuần này, nhóm có thể bắt đầu giai đoạn khảo sát vào tháng Mười Một.
+          note: "Assuming that: giả định nền tảng mà toàn bộ kế hoạch dựa vào."
+      contrast:
+        title: If, unless, in case hay provided that
+        rows:
+          - label: if
+            note: điều kiện trung tính
+            example: If the build fails, the pipeline stops.
+          - label: provided / as long as
+            note: chỉ khi, điều kiện bắt buộc
+            example: You can merge as long as two people approve.
+          - label: unless
+            note: trừ khi (= if… not)
+            example: We'll merge unless someone objects.
+          - label: in case
+            note: phòng khi, hành động làm trước
+            example: Take a backup in case the script corrupts data.
+          - label: otherwise
+            note: nếu không thì (nối hai mệnh đề)
+            example: Add an index; otherwise, the query will time out.
+        fixes:
+          - wrong: Unless the tests don't pass, we'll release.
+            right: Unless the tests fail, we'll release.
+            why: Unless đã mang nghĩa phủ định; không thêm don't.
+          - wrong: Provided that the client will agree, we'll start next week.
+            right: Provided that the client agrees, we'll start next week.
+            why: Mệnh đề điều kiện dùng hiện tại đơn, không dùng will.
+          - wrong: We'll restart the server in case it crashes now.
+            right: We'll restart the server if it crashes.
+            why: In case là phòng hờ trước; phản ứng sau sự việc phải dùng if.
+          - wrong: Otherwise we add caching, the page will be slow.
+            right: Unless we add caching, the page will be slow.
+            why: Otherwise không phải liên từ; dùng unless/if… not để mở mệnh đề điều kiện.
+  - slug: g-c1-verb-complementation
+    kind: grammar
+    title:
+      en: Verb complementation patterns
+      vi: Mẫu bổ ngữ của động từ
+    questions:
+      - g-c1-verb-complementation-1
+      - g-c1-verb-complementation-2
+      - g-c1-verb-complementation-3
+      - g-c1-verb-complementation-4
+      - g-c1-verb-complementation-5
+      - g-c1-verb-complementation-6
+      - g-c1-verb-complementation-7
+      - g-c1-verb-complementation-8
+    grammar:
+      title_vi: Động từ + tân ngữ + to V, V-ing, that-clause và giả định (insist that he be…)
+      group: Động từ
+      overview:
+        focus: Mỗi động từ quyết định cấu trúc phía sau nó. Expect, require, encourage, urge đi với tân ngữ + to V; suggest, recommend không đi với tân ngữ + to V mà dùng V-ing hoặc that-clause; insist, demand, propose, recommend trong văn trang trọng dùng that + S + V nguyên mẫu (thể giả định). Nắm đúng mẫu giúp câu nói rõ ai là người phải hành động — điều rất quan trọng trong RFC, chính sách và email với khách hàng.
+        formulas:
+          - "V + O + to V: expect / require / encourage / urge / allow someone to do"
+          - "V + V-ing hoặc V + that + S + (should) V: suggest / recommend"
+          - "V + that + S + V nguyên mẫu: insist / demand / require / propose"
+          - "be + V3 + to V (bị động): be expected / required / encouraged to do"
+        hook: The client insisted that every release be signed off by their QA team.
+      functions:
+        - title: "Giao kỳ vọng cho một người cụ thể: V + O + to V"
+          explain: Tân ngữ là người phải hành động. Dùng với expect, require, encourage, urge, ask, advise, allow, enable.
+          examples:
+            - We expect every reviewer to leave a decision within one working day.
+            - The new template encourages authors to state their assumptions explicitly.
+        - title: "Đề xuất không chỉ đích danh: suggest / recommend + V-ing"
+          explain: Suggest và recommend không đi với 'someone to do'. Dùng V-ing khi không nói rõ ai làm.
+          examples:
+            - I'd recommend splitting the migration into three smaller steps.
+            - Minh suggested postponing the demo until the data issue is fixed.
+        - title: "Yêu cầu trang trọng: thể giả định sau that"
+          explain: Sau insist, demand, require, recommend, propose, suggest + that, động từ giữ nguyên mẫu với mọi chủ ngữ (be, have, not + V). Tiếng Anh-Anh hay thêm should.
+          examples:
+            - The auditor demanded that the access logs be retained for seven years.
+            - We propose that each team not deploy on Fridays during the freeze.
+        - title: "Chính sách và quy định: bị động be + V3 + to V"
+          explain: Khi muốn nói chung cho mọi người mà không nêu người đặt ra quy định.
+          examples:
+            - Contractors are required to complete security training before their first commit.
+            - Engineers are encouraged to pair on unfamiliar parts of the codebase.
+      structure:
+        forms:
+          - label: V + O + to V
+            pattern: expect / require / urge / encourage + O + to V
+            example: The lead urged us to write the test first.
+          - label: V + V-ing
+            pattern: suggest / recommend / avoid / consider + V-ing
+            example: She suggested adding a retry with backoff.
+          - label: V + that + giả định
+            pattern: insist / demand / propose + that + S + V nguyên mẫu
+            example: He insisted that the ticket be reopened.
+          - label: Bị động
+            pattern: S + be + expected / required + to V
+            example: All services are required to expose a health check.
+        steps:
+          - title: Động từ có cho phép 'someone to do' không?
+            explain: "Expect, want, require, encourage: có. Suggest, recommend, insist, demand: không — đổi sang V-ing hoặc that-clause."
+            example: I suggest that you reread the spec. (không phải I suggest you to reread)
+          - title: "Sau that trong câu yêu cầu: dùng V nguyên mẫu"
+            explain: "Không chia theo ngôi, không chia thì: that she be, that he have, that it not be."
+            example: The policy requires that every secret be stored in the vault.
+          - title: "Phủ định giả định: not + V"
+            explain: Đặt not trước động từ, không dùng do/does.
+            example: We recommend that the old API not be removed this quarter.
+          - title: Chuyển sang bị động khi nói về quy định chung
+            explain: "Tân ngữ của câu chủ động thành chủ ngữ: X requires us to… → We are required to…"
+            example: New hires are expected to ship a small change in week one.
+      examples:
+        - tag: Kỳ vọng
+          en: The tech lead expects every pull request to include a short testing note.
+          vi: Trưởng nhóm kỹ thuật kỳ vọng mỗi pull request đều kèm một ghi chú ngắn về cách kiểm thử.
+          note: Expect + O (every pull request) + to V.
+        - tag: Đề xuất
+          en: The reviewers recommended moving the retry logic into a shared library.
+          vi: Những người review đề xuất chuyển logic thử lại vào một thư viện dùng chung.
+          note: "Recommend + V-ing: không nói rõ ai sẽ làm."
+        - tag: Giả định
+          en: The client insisted that the invoice export be available before the audit.
+          vi: Khách hàng nhất quyết yêu cầu tính năng xuất hóa đơn phải có trước đợt kiểm toán.
+          note: "Insist that + S + be: thể giả định, không dùng is."
+        - tag: Phủ định giả định
+          en: Security proposed that third-party scripts not run on the payment page.
+          vi: Đội bảo mật đề nghị không chạy script bên thứ ba trên trang thanh toán.
+          note: Not + V nguyên mẫu, không dùng do not hay don't.
+        - tag: Chính sách
+          en: On-call engineers are required to acknowledge a page within five minutes.
+          vi: Kỹ sư trực bắt buộc phải xác nhận cảnh báo trong vòng năm phút.
+          note: "Be required to V: bị động, nói về quy định chung."
+        - tag: Khuyến khích
+          en: Our engineering handbook encourages juniors to ask questions in public channels.
+          vi: Sổ tay kỹ thuật của chúng tôi khuyến khích các bạn junior đặt câu hỏi ở kênh chung.
+          note: Encourage + O + to V.
+        - tag: Thúc giục
+          en: The incident commander urged the database team to stop all schema changes.
+          vi: Người chỉ huy xử lý sự cố khẩn thiết yêu cầu đội cơ sở dữ liệu dừng mọi thay đổi schema.
+          note: "Urge + O + to V: yêu cầu mạnh và gấp."
+        - tag: Gợi ý có chủ thể
+          en: Lan suggested that we rehearse the demo on the staging environment first.
+          vi: Lan gợi ý chúng mình tập dượt buổi demo trên môi trường staging trước.
+          note: "Muốn nói rõ ai làm sau suggest: dùng that + S + V."
+      contrast:
+        title: Expect someone to do, suggest doing hay insist that someone do
+        rows:
+          - label: expect / require / urge + O + to V
+            note: chỉ đích danh người hành động
+            example: We require vendors to sign an NDA.
+          - label: suggest / recommend + V-ing
+            note: đề xuất hành động, không nêu người làm
+            example: I recommend adding an index.
+          - label: suggest / insist / demand + that + S + V
+            note: yêu cầu trang trọng, động từ nguyên mẫu
+            example: They demanded that the bug be fixed today.
+          - label: be + V3 + to V
+            note: quy định chung, bị động
+            example: Staff are expected to use MFA.
+        fixes:
+          - wrong: I suggest you to split the PR.
+            right: I suggest splitting the PR. / I suggest that you split the PR.
+            why: Suggest không đi với tân ngữ + to V.
+          - wrong: The client demanded that the report is sent daily.
+            right: The client demanded that the report be sent daily.
+            why: "Sau demand that dùng thể giả định: be + V3."
+          - wrong: We recommend that he doesn't deploy alone.
+            right: We recommend that he not deploy alone.
+            why: Phủ định giả định là not + V, không dùng doesn't.
+          - wrong: The manager expects that we to finish by Friday.
+            right: The manager expects us to finish by Friday.
+            why: Expect + O + to V; tân ngữ là us, không thêm that.
+  - slug: g-c1-relative-reduction
+    kind: grammar
+    title:
+      en: Reduced relative clauses
+      vi: Rút gọn mệnh đề quan hệ
+    questions:
+      - g-c1-relative-reduction-1
+      - g-c1-relative-reduction-2
+      - g-c1-relative-reduction-3
+      - g-c1-relative-reduction-4
+      - g-c1-relative-reduction-5
+      - g-c1-relative-reduction-6
+      - g-c1-relative-reduction-7
+      - g-c1-relative-reduction-8
+    grammar:
+      title_vi: Rút gọn mệnh đề quan hệ bằng V-ing, V3, to V và cụm tính từ
+      group: Mệnh đề
+      overview:
+        focus: "Mệnh đề quan hệ who/which/that có thể rút gọn khi đại từ quan hệ là chủ ngữ: chủ động → V-ing, bị động → V3, sau first/last/only/số thứ tự → to V, còn which is + tính từ/giới từ → bỏ which is. Văn bản kỹ thuật dùng rất nhiều cách này ('the service handling payments', 'logs stored in S3'). Điều cần giữ: cụm rút gọn phải đứng ngay sau danh từ nó bổ nghĩa, và chọn đúng chủ động/bị động để không đổi nghĩa."
+        formulas:
+          - N + V-ing… = N + who/which + V (chủ động)
+          - N + V3… = N + who/which + be + V3 (bị động)
+          - the first / last / only + N + to V
+          - N + tính từ / giới từ… = N + which is + tính từ / giới từ…
+        hook: Requests exceeding the limit are rejected with a 429.
+      functions:
+        - title: "Chủ động: N + V-ing"
+          explain: Danh từ là người/vật thực hiện hành động. Dùng được cho cả hành động thường xuyên, không chỉ đang diễn ra.
+          examples:
+            - Any service calling the billing API must send an idempotency key.
+            - Engineers joining the rotation next month should shadow a shift first.
+        - title: "Bị động: N + V3"
+          explain: Danh từ là đối tượng chịu tác động. Không thêm being nếu không nhấn việc đang diễn ra.
+          examples:
+            - Files uploaded before March are stored in the old bucket.
+            - The fix proposed in yesterday's review introduced a race condition.
+        - title: "Sau first, last, only, next: to V"
+          explain: The first/last/only one + to V thay cho who/that + V.
+          examples:
+            - Thu was the first engineer to notice the memory leak.
+            - This is the only endpoint to return data in XML.
+        - title: Bỏ which is / who are trước tính từ hoặc giới từ
+          explain: Cụm tính từ dài hoặc cụm giới từ đứng sau danh từ.
+          examples:
+            - Any configuration incompatible with version 3 will be rejected at startup.
+            - The team behind the search feature is hiring two backend engineers.
+      structure:
+        forms:
+          - label: Chủ động
+            pattern: N + V-ing + bổ ngữ
+            example: Jobs running longer than an hour are killed.
+          - label: Bị động
+            pattern: N + V3 + bổ ngữ
+            example: Tickets created by the bot are tagged automatically.
+          - label: To V
+            pattern: the first / last / only + N + to V
+            example: She was the last person to touch that script.
+          - label: Cụm tính từ / giới từ
+            pattern: N + adj / prep phrase
+            example: Services dependent on Redis need a fallback.
+        steps:
+          - title: Chỉ rút gọn khi who/which/that là chủ ngữ
+            explain: Nếu đại từ quan hệ là tân ngữ (the bug that we found), có thể bỏ that nhưng không đổi động từ sang V-ing.
+            example: The bug we found yesterday. (không phải the bug finding yesterday)
+          - title: Chủ động hay bị động?
+            explain: Danh từ làm hành động → V-ing; danh từ bị tác động → V3.
+            example: Logs generated by the app (bị động) / the app generating logs (chủ động)
+          - title: Không dùng V-ing cho một hành động đơn lẻ đã xong
+            explain: Với một sự kiện cụ thể trong quá khứ, giữ mệnh đề đầy đủ.
+            example: The engineer who fixed the outage got a shout-out. (không phải the engineer fixing the outage… nếu muốn nhấn việc đã xong)
+          - title: Đặt cụm rút gọn sát danh từ
+            explain: Đặt xa danh từ dễ khiến người đọc gắn nhầm vào danh từ khác.
+            example: The cache sitting in front of the database was flushed.
+      examples:
+        - tag: Chủ động
+          en: Requests exceeding the rate limit receive a 429 response.
+          vi: Các request vượt quá giới hạn tốc độ sẽ nhận phản hồi 429.
+          note: "Exceeding = which exceed: request thực hiện hành động vượt."
+        - tag: Bị động
+          en: Data collected during the beta will be deleted after ninety days.
+          vi: Dữ liệu thu thập trong giai đoạn beta sẽ bị xóa sau chín mươi ngày.
+          note: "Collected = which is collected: dữ liệu bị thu thập."
+        - tag: Số thứ tự
+          en: Hoang was the first developer to migrate his service to the new cluster.
+          vi: Hoàng là lập trình viên đầu tiên chuyển service của mình sang cụm mới.
+          note: The first + N + to V.
+        - tag: Cụm tính từ
+          en: Any secret visible in the build output must be rotated immediately.
+          vi: Mọi khóa bí mật lộ ra trong output của bản build phải được thay ngay lập tức.
+          note: Visible in… = which is visible in…
+        - tag: Cụm giới từ
+          en: The dashboards on the second monitor show only staging metrics.
+          vi: Các dashboard trên màn hình thứ hai chỉ hiển thị số liệu của staging.
+          note: On the second monitor = which are on the second monitor.
+        - tag: Quy định
+          en: Contributors submitting large patches should open a design issue beforehand.
+          vi: Người đóng góp gửi các bản vá lớn nên mở một issue thiết kế từ trước.
+          note: "Submitting = who submit: áp dụng chung, không chỉ lúc đang gửi."
+        - tag: Bị động kèm tác nhân
+          en: The library maintained by the platform team has no known vulnerabilities.
+          vi: Thư viện do đội platform duy trì hiện không có lỗ hổng nào được biết đến.
+          note: Maintained by… = which is maintained by…
+        - tag: Duy nhất
+          en: This is the only migration script to modify the users table.
+          vi: Đây là script migration duy nhất sửa bảng users.
+          note: The only + N + to V.
+      contrast:
+        title: V-ing, V3 hay to V
+        rows:
+          - label: N + V-ing
+            note: danh từ thực hiện hành động
+            example: the worker processing the queue
+          - label: N + V3
+            note: danh từ chịu tác động
+            example: the messages processed overnight
+          - label: first / last / only + N + to V
+            note: thứ tự hoặc duy nhất
+            example: the first team to adopt Rust
+          - label: mệnh đề đầy đủ
+            note: đại từ quan hệ là tân ngữ hoặc sự việc đơn lẻ đã xong
+            example: the report that Minh wrote last week
+        fixes:
+          - wrong: The images storing in the CDN are compressed.
+            right: The images stored in the CDN are compressed.
+            why: Ảnh bị lưu → bị động, dùng V3.
+          - wrong: Users accessed the admin panel need two-factor login.
+            right: Users accessing the admin panel need two-factor login.
+            why: Người dùng thực hiện việc truy cập → chủ động, dùng V-ing.
+          - wrong: She was the first person noticing the outage.
+            right: She was the first person to notice the outage.
+            why: Sau the first + N dùng to V.
+          - wrong: The PR reviewing Lan yesterday was merged.
+            right: The PR that Lan reviewed yesterday was merged.
+            why: PR là tân ngữ của review; không rút gọn thành V-ing.
+  - slug: g-c1-participle-clauses
+    kind: grammar
+    title:
+      en: Participle clauses
+      vi: Mệnh đề phân từ
+    questions:
+      - g-c1-participle-clauses-1
+      - g-c1-participle-clauses-2
+      - g-c1-participle-clauses-3
+      - g-c1-participle-clauses-4
+      - g-c1-participle-clauses-5
+      - g-c1-participle-clauses-6
+      - g-c1-participle-clauses-7
+      - g-c1-participle-clauses-8
+    grammar:
+      title_vi: Phân từ hoàn thành bị động, phân từ treo và mệnh đề tuyệt đối
+      group: Mệnh đề
+      overview:
+        focus: "Ở B2 bạn đã dùng V-ing, V3 và having + V3. C1 đi xa hơn: having been + V3 (đã bị/được làm xong trước), being + V3 (đang bị/được làm, hoặc lý do bị động), not + phân từ, liên từ + phân từ (once deployed, while being reviewed) và mệnh đề tuyệt đối có chủ ngữ riêng (the migration complete, we…). Lỗi nguy hiểm nhất là phân từ treo (dangling participle): chủ ngữ ngầm của phân từ không trùng với chủ ngữ mệnh đề chính, khiến câu nói sai ai làm gì."
+        formulas:
+          - Having been + V3…, S + V (bị động, xong trước)
+          - Being + V3…, S + V (bị động, lý do hoặc đang diễn ra)
+          - Liên từ (once / when / while / unless) + V3 / V-ing…, S + V
+          - N + V-ing / V3 / adj…, S + V (mệnh đề tuyệt đối, chủ ngữ riêng)
+        hook: Having been tested on staging, the patch was promoted to production.
+      functions:
+        - title: "Xong trước, ở thể bị động: having been + V3"
+          explain: Chủ ngữ chính đã được/bị làm gì trước khi việc trong mệnh đề chính xảy ra.
+          examples:
+            - Having been reviewed by two seniors, the RFC was approved without changes.
+            - Having been warned about the deadline, the client accepted the reduced scope.
+        - title: "Lý do bị động: being + V3"
+          explain: Being + V3 nêu lý do hoặc hoàn cảnh bị động đang diễn ra, thường đứng đầu câu.
+          examples:
+            - Being shared across five teams, the config repo needs strict code owners.
+            - Not being documented anywhere, the flag was removed by mistake.
+        - title: Liên từ + phân từ
+          explain: Giữ liên từ (once, when, while, after, unless, if) để nghĩa thời gian/điều kiện rõ ràng, rồi rút gọn phần còn lại.
+          examples:
+            - Once deployed, the worker polls the queue every two seconds.
+            - While being migrated, the table must not receive any writes.
+        - title: "Mệnh đề tuyệt đối: có chủ ngữ riêng"
+          explain: Khi chủ ngữ của phần phân từ khác chủ ngữ chính, giữ chủ ngữ đó lại (thường kèm with). Đây là cách sửa phân từ treo.
+          examples:
+            - The rollback complete, the team began writing the postmortem.
+            - With all alerts silenced, nobody noticed the disk filling up.
+      structure:
+        forms:
+          - label: Hoàn thành bị động
+            pattern: Having been + V3…, S + V
+            example: Having been rejected twice, the proposal was rewritten.
+          - label: Bị động tiếp diễn / lý do
+            pattern: Being + V3…, S + V
+            example: Being rate-limited, the client retries with backoff.
+          - label: Phủ định
+            pattern: Not + V-ing / Not having + V3…, S + V
+            example: Not having read the spec, I asked a basic question.
+          - label: Liên từ + phân từ
+            pattern: Once / When / Unless + V3 / V-ing…, S + V
+            example: Unless stated otherwise, all times are in UTC.
+          - label: Tuyệt đối
+            pattern: (With) + N + V-ing / V3 / adj…, S + V
+            example: With the cache warmed up, latency dropped sharply.
+        steps:
+          - title: Tìm chủ ngữ ngầm của phân từ
+            explain: "Hỏi: ai/cái gì làm hoặc chịu hành động trong phân từ? Nó phải là chủ ngữ của mệnh đề chính."
+            example: Having been tested, the build… (build được test ✔)
+          - title: Không trùng chủ ngữ → sửa câu
+            explain: Đổi chủ ngữ chính, dùng mệnh đề tuyệt đối, hoặc viết lại mệnh đề đầy đủ.
+            example: After the build had been tested, we deployed it.
+          - title: Chọn chủ động hay bị động, xong trước hay cùng lúc
+            explain: Having + V3 (chủ động, xong trước) khác having been + V3 (bị động, xong trước); being + V3 là bị động cùng lúc.
+            example: Having approved the PR, Minh merged it. / Having been approved, the PR was merged.
+          - title: Not đứng trước phân từ
+            explain: Not having…, not being…; không viết having not trong văn phong chuẩn.
+            example: Not having received a reply, we escalated the ticket.
+      examples:
+        - tag: Hoàn thành bị động
+          en: Having been audited last quarter, the payment service needed only minor fixes.
+          vi: Vì đã được kiểm toán vào quý trước, service thanh toán chỉ cần vài chỉnh sửa nhỏ.
+          note: "Having been + V3: service được kiểm toán xong trước."
+        - tag: Lý do bị động
+          en: Being exposed to the public internet, the admin endpoint requires a VPN.
+          vi: Vì lộ ra internet công cộng, endpoint quản trị yêu cầu dùng VPN.
+          note: Being + V3 nêu lý do; chủ ngữ ngầm là the admin endpoint.
+        - tag: Liên từ + V3
+          en: Once approved, the change request is scheduled for the next maintenance window.
+          vi: Sau khi được duyệt, yêu cầu thay đổi sẽ được xếp lịch vào khung bảo trì kế tiếp.
+          note: Once (approved) = once it is approved.
+        - tag: Phủ định
+          en: Not having received the logs, the vendor could not reproduce the crash.
+          vi: Do chưa nhận được log, bên cung cấp không thể tái hiện lỗi crash.
+          note: Not đứng trước having + V3.
+        - tag: Tuyệt đối
+          en: The migration finished, we reopened the API to external traffic.
+          vi: Khi việc migration đã xong, chúng tôi mở lại API cho lưu lượng bên ngoài.
+          note: "The migration finished: chủ ngữ riêng, khác we."
+        - tag: With + tuyệt đối
+          en: With half the team on leave, the release was pushed back a week.
+          vi: Vì nửa nhóm đang nghỉ phép, đợt phát hành bị lùi lại một tuần.
+          note: "With + N + cụm giới từ: bối cảnh có chủ ngữ riêng."
+        - tag: Sửa phân từ treo
+          en: After reviewing the trace, Lan realised the timeout came from DNS.
+          vi: Sau khi xem trace, Lan nhận ra lỗi timeout đến từ DNS.
+          note: Chủ ngữ Lan thực hiện reviewing; không viết …, the timeout was traced to DNS.
+        - tag: Tài liệu
+          en: Unless configured otherwise, every new bucket is encrypted at rest.
+          vi: Trừ khi được cấu hình khác, mọi bucket mới đều được mã hóa khi lưu trữ.
+          note: Unless + V3 = unless it is configured.
+      contrast:
+        title: Having + V3, having been + V3, being + V3 hay mệnh đề tuyệt đối
+        rows:
+          - label: Having + V3
+            note: chủ động, xong trước
+            example: Having fixed the bug, Tuan closed the ticket.
+          - label: Having been + V3
+            note: bị động, xong trước
+            example: Having been fixed, the bug was closed.
+          - label: Being + V3
+            note: bị động, cùng lúc hoặc lý do
+            example: Being monitored closely, the cluster recovered fast.
+          - label: N + phân từ
+            note: chủ ngữ riêng (mệnh đề tuyệt đối)
+            example: The tests passing, we merged the branch.
+        fixes:
+          - wrong: Having been deployed, we monitored the new version.
+            right: Having deployed the new version, we monitored it.
+            why: "Phân từ treo: we không được deploy; dùng chủ động having + V3."
+          - wrong: Reading the logs, the bug became obvious.
+            right: Reading the logs, I found the bug obvious. / Once I read the logs, the bug became obvious.
+            why: The bug không đọc log; chủ ngữ ngầm phải trùng chủ ngữ chính.
+          - wrong: Having not tested it, we delayed the merge.
+            right: Not having tested it, we delayed the merge.
+            why: Not đứng trước phân từ.
+          - wrong: Once deploying, the service registers itself.
+            right: Once deployed, the service registers itself.
+            why: Service được triển khai → bị động V3.
+  - slug: g-c1-negative-inversion
+    kind: grammar
+    title:
+      en: Negative inversion
+      vi: Đảo ngữ với trạng từ phủ định
+    questions:
+      - g-c1-negative-inversion-1
+      - g-c1-negative-inversion-2
+      - g-c1-negative-inversion-3
+      - g-c1-negative-inversion-4
+      - g-c1-negative-inversion-5
+      - g-c1-negative-inversion-6
+      - g-c1-negative-inversion-7
+      - g-c1-negative-inversion-8
+    grammar:
+      title_vi: Đảo ngữ sau never, rarely, not only, under no circumstances, only when, no sooner…
+      group: Nhấn mạnh
+      overview:
+        focus: "Khi đưa một trạng từ hoặc cụm từ mang nghĩa phủ định/hạn chế lên đầu câu, tiếng Anh đảo trợ động từ lên trước chủ ngữ, giống câu hỏi: Under no circumstances should you… Cách này mang giọng trang trọng, nhấn mạnh mạnh — rất hợp cho chính sách bảo mật, runbook, thông báo sự cố và thư gửi khách hàng. Trong chat thường ngày thì nghe quá nặng."
+        formulas:
+          - "Cụm phủ định + trợ động từ + S + V: Never / Rarely / Seldom / At no time…"
+          - Not only + trợ động từ + S + V, but S + also…
+          - Only when / Only after / Only if + mệnh đề, + trợ động từ + S + V
+          - No sooner + had + S + V3 + than… · Hardly / Scarcely + had + S + V3 + when…
+        hook: Under no circumstances should production credentials be shared over chat.
+      functions:
+        - title: "Cấm tuyệt đối: under no circumstances, on no account, at no time"
+          explain: Dùng cho quy tắc an toàn không có ngoại lệ.
+          examples:
+            - On no account should the migration be run during business hours.
+            - At no time did the attacker gain access to customer data.
+        - title: "Điều kiện duy nhất: only when / only after / only if"
+          explain: Phần đảo ngữ nằm ở mệnh đề chính (sau dấu phẩy), không phải trong mệnh đề only.
+          examples:
+            - Only after the backup is verified can the old cluster be deleted.
+            - Only if both approvers agree will the hotfix bypass the freeze.
+        - title: "Nhấn mạnh mức hiếm hoặc mức độ: never, rarely, seldom, little, not only"
+          explain: Never/rarely/seldom + trợ động từ; little + trợ động từ = hoàn toàn không ngờ; not only… but also nối hai ý tăng dần.
+          examples:
+            - Rarely have we seen a regression this severe after a minor release.
+            - Not only did the patch fix the leak, but it also cut startup time in half.
+        - title: "Chuỗi sự kiện gấp: no sooner… than, hardly… when"
+          explain: Việc thứ hai xảy ra ngay sau việc thứ nhất; thường dùng had + V3.
+          examples:
+            - No sooner had we announced the outage than the status page went down too.
+            - Hardly had the deploy finished when the first alert fired.
+      structure:
+        forms:
+          - label: Trợ động từ có sẵn
+            pattern: Never / Rarely + have / can / should + S + V
+            example: Never have we shipped so many fixes in one week.
+          - label: Không có trợ động từ
+            pattern: Cụm phủ định + do / does / did + S + V nguyên mẫu
+            example: Seldom does the nightly job fail twice.
+          - label: Not only
+            pattern: Not only + trợ + S + V, but S + also + V
+            example: Not only is the API slow, but it also leaks memory.
+          - label: Only + mệnh đề
+            pattern: Only when / after / if + S + V, + trợ + S + V
+            example: Only when the alert clears will we close the incident.
+          - label: No sooner / Hardly
+            pattern: No sooner had + S + V3 + than… · Hardly had + S + V3 + when…
+            example: No sooner had I pushed than CI turned red.
+        steps:
+          - title: Đưa cụm phủ định lên đầu
+            explain: Never, rarely, under no circumstances, only after…, not until…
+            example: You should never share tokens. → Never should you share tokens.
+          - title: Đảo trợ động từ lên trước chủ ngữ
+            explain: Có trợ động từ thì đảo nó; không có thì thêm do/does/did và đưa động từ về nguyên mẫu.
+            example: The job rarely fails. → Rarely does the job fail.
+          - title: "Với only when / not until: đảo ở mệnh đề sau"
+            explain: Mệnh đề only/not until giữ trật tự thường.
+            example: Not until the client signed did we start the build.
+          - title: Cân nhắc giọng điệu
+            explain: Dùng trong văn bản trang trọng hoặc khi cần nhấn mạnh; trong Slack thường ngày, câu thường sẽ tự nhiên hơn.
+            example: "Policy: Under no circumstances may keys be committed. / Slack: Please never commit keys."
+      examples:
+        - tag: Cấm tuyệt đối
+          en: Under no circumstances should API keys be committed to the repository.
+          vi: Trong bất kỳ trường hợp nào cũng không được commit khóa API vào repository.
+          note: Under no circumstances + should + S + V.
+        - tag: Thông báo sự cố
+          en: At no time was any payment information exposed during the incident.
+          vi: Trong suốt sự cố, chưa lúc nào thông tin thanh toán bị lộ ra ngoài.
+          note: "At no time + was + S: nhấn mạnh trấn an khách hàng."
+        - tag: Điều kiện an toàn
+          en: Only after the replica has caught up can traffic be switched to it.
+          vi: Chỉ sau khi bản sao đã đồng bộ kịp thì mới có thể chuyển lưu lượng sang nó.
+          note: "Đảo ngữ ở mệnh đề chính: can traffic be switched."
+        - tag: Hiếm gặp
+          en: Seldom does a single config change take down three regions at once.
+          vi: Hiếm khi một thay đổi cấu hình duy nhất lại làm sập cùng lúc ba region.
+          note: Không có trợ động từ → thêm does, động từ về nguyên mẫu take.
+        - tag: Tăng dần
+          en: Not only did the new index speed up search, but it also reduced our storage costs.
+          vi: Index mới không những tăng tốc tìm kiếm mà còn giảm chi phí lưu trữ.
+          note: Not only + did + S + V, but + S + also + V.
+        - tag: Không ngờ
+          en: Little did we know that the cron job had been silently failing for weeks.
+          vi: Chúng tôi hoàn toàn không ngờ rằng cron job đã âm thầm lỗi suốt nhiều tuần.
+          note: "Little + did + S + know: hoàn toàn không biết."
+        - tag: Nối tiếp ngay
+          en: No sooner had the hotfix gone live than a second bug appeared in checkout.
+          vi: Bản hotfix vừa chạy chính thức thì một lỗi thứ hai xuất hiện ở trang thanh toán.
+          note: No sooner had + S + V3 + than.
+        - tag: Not until
+          en: Not until the vendor shared their logs did we understand the root cause.
+          vi: Mãi đến khi bên cung cấp chia sẻ log, chúng tôi mới hiểu nguyên nhân gốc.
+          note: "Not until + mệnh đề thường, rồi đảo ở mệnh đề chính: did we understand."
+      contrast:
+        title: Câu thường hay đảo ngữ
+        rows:
+          - label: câu thường
+            note: trung tính, hợp với chat và nói
+            example: We have never seen this error before.
+          - label: đảo ngữ có trợ động từ
+            note: trang trọng, nhấn mạnh
+            example: Never before have we seen this error.
+          - label: đảo ngữ thêm do / did
+            note: câu gốc không có trợ động từ
+            example: Rarely did the old system crash.
+          - label: only / not until + mệnh đề
+            note: đảo ở mệnh đề chính
+            example: Only when tests pass do we deploy.
+        fixes:
+          - wrong: Never we have lost data in production.
+            right: Never have we lost data in production.
+            why: "Sau cụm phủ định đầu câu phải đảo trợ động từ: have we."
+          - wrong: Rarely the backup fails.
+            right: Rarely does the backup fail.
+            why: Không có trợ động từ → thêm does, động từ về nguyên mẫu.
+          - wrong: Only after the review is done we can merge.
+            right: Only after the review is done can we merge.
+            why: Đảo ngữ ở mệnh đề chính sau only after.
+          - wrong: No sooner had we deployed when the alert fired.
+            right: No sooner had we deployed than the alert fired.
+            why: No sooner đi với than; hardly / scarcely mới đi với when.
+  - slug: g-c1-correlative-inversion
+    kind: grammar
+    title:
+      en: Hardly, no sooner & not only
+      vi: Đảo ngữ với cặp liên từ tương ứng
+    questions:
+      - g-c1-correlative-inversion-1
+      - g-c1-correlative-inversion-2
+      - g-c1-correlative-inversion-3
+      - g-c1-correlative-inversion-4
+      - g-c1-correlative-inversion-5
+      - g-c1-correlative-inversion-6
+      - g-c1-correlative-inversion-7
+      - g-c1-correlative-inversion-8
+    grammar:
+      title_vi: Đảo ngữ với hardly…when, no sooner…than, not only…but also
+      group: Đảo ngữ
+      overview:
+        focus: Khi đưa hardly, scarcely, no sooner hay not only lên đầu câu, trợ động từ phải đứng trước chủ ngữ như trong câu hỏi. Hardly/No sooner nhấn mạnh việc thứ hai xảy ra gần như ngay sau việc thứ nhất (thường dùng quá khứ hoàn thành); not only…but also nhấn mạnh rằng hai tác động cộng dồn. Đây là giọng văn trang trọng của postmortem, báo cáo kỹ thuật, bài thuyết trình — không phải giọng chat hằng ngày.
+        formulas:
+          - Hardly / Scarcely + had + S + V3 + when + S + V2
+          - No sooner + had + S + V3 + than + S + V2
+          - Not only + trợ động từ + S + V… + but (S) also…
+        hook: No sooner had we merged the hotfix than a second alert fired.
+      functions:
+        - title: Việc B xảy ra ngay sau việc A
+          explain: Hardly/Scarcely…when nhấn mạnh khoảng cách cực ngắn giữa hai sự kiện, thường mang sắc thái bất ngờ hoặc không may.
+          examples:
+            - Hardly had the deploy finished when error rates began to climb.
+            - Scarcely had the vendor patched the library when a new CVE was published.
+        - title: Cùng ý, dùng no sooner…than
+          explain: No sooner đi với than (vì sooner là dạng so sánh), không đi với when.
+          examples:
+            - No sooner had we rolled back than the client reported missing orders.
+            - No sooner had the team frozen the schema than product requested a new field.
+        - title: Cộng dồn hai tác động
+          explain: Not only + đảo ngữ ở vế đầu; vế sau dùng but… also, không đảo.
+          examples:
+            - Not only does the refactor cut build time, but it also removes two dependencies.
+            - Not only did the outage delay billing, but it also corrupted several invoices.
+        - title: Giọng trang trọng, có chủ đích
+          explain: Dùng một hai lần trong báo cáo để nhấn mạnh; lạm dụng sẽ nghe cầu kỳ. Trong chat, dùng as soon as hoặc and also.
+          examples:
+            - As soon as we merged the fix, the alert fired again. (thân mật)
+            - Only later did we realise the cache had never been cleared.
+      structure:
+        forms:
+          - label: Hardly / Scarcely
+            pattern: Hardly + had + S + V3 + when + mệnh đề quá khứ
+            example: Hardly had I logged in when the VPN dropped.
+          - label: No sooner
+            pattern: No sooner + had + S + V3 + than + mệnh đề quá khứ
+            example: No sooner had she pushed than CI failed.
+          - label: Not only
+            pattern: Not only + do/does/did/has/is… + S + V, but S also…
+            example: Not only is the API faster, but it is also cheaper.
+        steps:
+          - title: Viết câu thường trước
+            explain: We had hardly merged the fix when… Sau đó đưa hardly lên đầu.
+            example: We had hardly merged it… → Hardly had we merged it…
+          - title: Đảo trợ động từ lên trước chủ ngữ
+            explain: Không có trợ động từ (hiện tại/quá khứ đơn) thì thêm do/does/did, động từ chính về nguyên mẫu.
+            example: The fix reduces latency → Not only does the fix reduce latency…
+          - title: Ghép đúng cặp
+            explain: Hardly/Scarcely → when; No sooner → than; Not only → but also. Vế thứ hai giữ trật tự thường.
+            example: No sooner had it started than it stopped.
+      examples:
+        - tag: Postmortem
+          en: Hardly had the deploy finished when error rates began to climb.
+          vi: Bản deploy vừa chạy xong thì tỉ lệ lỗi bắt đầu tăng vọt.
+          note: Hardly + had + S + V3 … when + quá khứ đơn.
+        - tag: No sooner
+          en: No sooner had we rolled back than the client reported missing orders.
+          vi: Chúng tôi vừa rollback xong thì khách hàng báo mất đơn hàng.
+          note: No sooner đi với than, không phải when.
+        - tag: Cộng dồn
+          en: Not only does the refactor cut build time, but it also removes two dependencies.
+          vi: Đợt refactor không chỉ rút ngắn thời gian build mà còn bỏ được hai thư viện phụ thuộc.
+          note: Hiện tại đơn → thêm does, động từ chính về nguyên mẫu (cut).
+        - tag: Quá khứ
+          en: Not only did the outage delay billing, but it also corrupted several invoices.
+          vi: Sự cố không chỉ làm chậm việc tính phí mà còn làm hỏng một số hóa đơn.
+          note: Quá khứ đơn → did + V nguyên mẫu (delay).
+        - tag: Scarcely
+          en: Scarcely had the vendor patched the library when a new CVE was published.
+          vi: Nhà cung cấp vừa vá thư viện xong thì lại có một lỗ hổng CVE mới được công bố.
+          note: Scarcely đồng nghĩa với hardly, cũng đi với when.
+        - tag: Yêu cầu dồn dập
+          en: No sooner had the team frozen the schema than product requested a new field.
+          vi: Team vừa chốt schema xong thì bên product lại yêu cầu thêm một trường mới.
+          note: "Sắc thái phàn nàn nhẹ: việc thứ hai đến quá nhanh."
+        - tag: Hiện tại hoàn thành
+          en: Not only has the migration doubled throughput, but it has also lowered our cloud bill.
+          vi: Đợt chuyển đổi không chỉ tăng gấp đôi thông lượng mà còn giảm hóa đơn cloud của chúng tôi.
+          note: Đã có trợ động từ has → chỉ cần đảo has lên trước chủ ngữ.
+        - tag: Bị động
+          en: Hardly had the ticket been closed when the same bug reappeared.
+          vi: Ticket vừa được đóng thì lỗi cũ lại xuất hiện.
+          note: "Bị động: had + S + been + V3."
+      contrast:
+        title: Đảo ngữ trang trọng hay câu thường
+        rows:
+          - label: as soon as (trung tính)
+            note: dùng được ở mọi nơi, kể cả chat
+            example: As soon as we deployed, the alerts fired.
+          - label: hardly / no sooner + đảo ngữ
+            note: trang trọng, nhấn mạnh hai việc sát nhau
+            example: No sooner had we deployed than the alerts fired.
+          - label: not only + đảo ngữ
+            note: nhấn mạnh lợi ích hoặc tác hại cộng dồn
+            example: Not only did it fail, but it also lost data.
+        fixes:
+          - wrong: No sooner had we deployed when the alerts fired.
+            right: No sooner had we deployed than the alerts fired.
+            why: No sooner đi với than; hardly/scarcely mới đi với when.
+          - wrong: Hardly we had merged it when CI failed.
+            right: Hardly had we merged it when CI failed.
+            why: Hardly ở đầu câu → trợ động từ had đứng trước chủ ngữ.
+          - wrong: Not only the refactor cuts build time, but it also helps.
+            right: Not only does the refactor cut build time, but it also helps.
+            why: Hiện tại đơn cần thêm does và đưa động từ về nguyên mẫu.
+  - slug: g-c1-conditional-inversion
+    kind: grammar
+    title:
+      en: Conditional inversion
+      vi: Đảo ngữ trong câu điều kiện
+    questions:
+      - g-c1-conditional-inversion-1
+      - g-c1-conditional-inversion-2
+      - g-c1-conditional-inversion-3
+      - g-c1-conditional-inversion-4
+      - g-c1-conditional-inversion-5
+      - g-c1-conditional-inversion-6
+      - g-c1-conditional-inversion-7
+      - g-c1-conditional-inversion-8
+    grammar:
+      title_vi: Bỏ if, đảo should / were / had lên đầu câu
+      group: Câu điều kiện
+      overview:
+        focus: Trong văn bản trang trọng (runbook, kế hoạch migration, hợp đồng SLA), có thể bỏ if và đưa should, were hoặc had lên đầu mệnh đề điều kiện. Should + S + V cho khả năng ít xảy ra (loại 1, dự phòng); Were + S + to V / Were + S + … cho giả định (loại 2); Had + S + V3 cho điều trái với quá khứ (loại 3). Phủ định đặt not sau chủ ngữ, không rút gọn.
+        formulas:
+          - Should + S + V, S + will/please + V
+          - Were + S + to V / Were + S + adj/N, S + would + V
+          - Had + S + (not) + V3, S + would have + V3
+        hook: Should the primary database fail, traffic will switch to the replica.
+      functions:
+        - title: Kịch bản dự phòng (loại 1)
+          explain: "Should + S + V: “nếu chẳng may…”. Rất hay gặp trong runbook và email gửi khách."
+          examples:
+            - Should the primary database fail, traffic will switch to the replica.
+            - Should you need further access, please contact the platform team.
+        - title: Giả định khó xảy ra (loại 2)
+          explain: Were + S + to V cho hành động giả định; Were + S + … cho trạng thái.
+          examples:
+            - Were the vendor to raise prices again, we would move to self-hosting.
+            - Were latency our only concern, a cache would be enough.
+        - title: Trái với quá khứ (loại 3)
+          explain: Had + S + V3 thay cho If + S + had + V3, thường dùng trong postmortem.
+          examples:
+            - Had we tested the failover, the outage would have lasted minutes.
+            - Had the alert been routed correctly, someone would have responded sooner.
+        - title: Phủ định và hỗn hợp
+          explain: "Not đứng sau chủ ngữ: Had we not… / Were it not for… Có thể kết hợp quá khứ với hiện tại (điều kiện hỗn hợp)."
+          examples:
+            - Had we not pinned the version, the build would be broken now.
+            - Were it not for the feature flag, we would have had to redeploy.
+      structure:
+        forms:
+          - label: Should (loại 1)
+            pattern: Should + S + V, mệnh đề chính
+            example: Should the job time out, retry it once.
+          - label: Were (loại 2)
+            pattern: Were + S + to V / Were + S + …, S + would + V
+            example: Were we to drop IE support, the bundle would shrink.
+          - label: Had (loại 3)
+            pattern: Had + S + V3, S + would have + V3
+            example: Had I known, I would have paused the rollout.
+        steps:
+          - title: Xác định loại điều kiện
+            explain: Dự phòng tương lai → should; giả định hiện tại/tương lai → were; quá khứ → had.
+            example: If we had known… → Had we known…
+          - title: Bỏ if, đảo trợ động từ
+            explain: Không giữ cả if lẫn đảo ngữ. Động từ sau should về nguyên mẫu.
+            example: If the job fails → Should the job fail (không phải fails)
+          - title: "Phủ định: not sau chủ ngữ"
+            explain: Không viết Hadn't we / Shouldn't it trong đảo ngữ điều kiện.
+            example: Had we not checked… (không phải Hadn't we checked…)
+      examples:
+        - tag: Runbook
+          en: Should the primary database fail, traffic will switch to the replica.
+          vi: Nếu chẳng may database chính gặp sự cố, lưu lượng sẽ chuyển sang bản sao.
+          note: Should + S + V nguyên mẫu (fail), không phải fails.
+        - tag: Email khách
+          en: Should you need further access, please contact the platform team.
+          vi: Nếu anh/chị cần thêm quyền truy cập, vui lòng liên hệ đội platform.
+          note: Công thức lịch sự rất phổ biến trong email trang trọng.
+        - tag: Giả định
+          en: Were the vendor to raise prices again, we would move to self-hosting.
+          vi: Giả sử nhà cung cấp lại tăng giá, chúng tôi sẽ chuyển sang tự host.
+          note: "Were + S + to V: giả định khó xảy ra."
+        - tag: Postmortem
+          en: Had we tested the failover, the outage would have lasted minutes.
+          vi: Nếu chúng tôi đã thử cơ chế failover, sự cố đã chỉ kéo dài vài phút.
+          note: Had + S + V3 = If we had tested.
+        - tag: Phủ định
+          en: Had we not pinned the version, the build would be broken now.
+          vi: Nếu hồi đó chúng tôi không cố định phiên bản thì giờ build đã hỏng rồi.
+          note: "Điều kiện hỗn hợp: quá khứ → kết quả hiện tại; not đứng sau we."
+        - tag: Were it not for
+          en: Were it not for the feature flag, we would have had to redeploy.
+          vi: Nếu không nhờ feature flag thì chúng tôi đã phải deploy lại.
+          note: Were it not for + N = nếu không có/nhờ…
+        - tag: Trạng thái
+          en: Were latency our only concern, a cache would be enough.
+          vi: Nếu độ trễ là mối lo duy nhất thì chỉ cần một lớp cache là đủ.
+          note: "Were + S + danh từ: giả định trái với hiện tại."
+        - tag: Bị động
+          en: Had the alert been routed correctly, someone would have responded sooner.
+          vi: Nếu cảnh báo được chuyển đúng người, đã có người phản hồi sớm hơn.
+          note: "Bị động quá khứ: Had + S + been + V3."
+      contrast:
+        title: If thường hay đảo ngữ
+        rows:
+          - label: If + S + V
+            note: trung tính, dùng được ở mọi nơi
+            example: If the job fails, retry it.
+          - label: Should / Were / Had + S
+            note: trang trọng, văn bản chính thức, nghe khách quan
+            example: Should the job fail, retry it.
+          - label: Unless / In case
+            note: không đảo ngữ được theo cách này
+            example: Keep a backup in case the job fails.
+        fixes:
+          - wrong: Should the job fails, retry it once.
+            right: Should the job fail, retry it once.
+            why: Sau should là động từ nguyên mẫu.
+          - wrong: If had we known, we would have paused it.
+            right: Had we known, we would have paused it.
+            why: Đảo ngữ thay cho if, không dùng cả hai.
+          - wrong: Hadn't we checked, we would have lost data.
+            right: Had we not checked, we would have lost data.
+            why: "Phủ định trong đảo ngữ điều kiện: had + S + not, không rút gọn."
+  - slug: g-c1-cleft
+    kind: grammar
+    title:
+      en: Cleft sentences
+      vi: Câu chẻ
+    questions:
+      - g-c1-cleft-1
+      - g-c1-cleft-2
+      - g-c1-cleft-3
+      - g-c1-cleft-4
+      - g-c1-cleft-5
+      - g-c1-cleft-6
+      - g-c1-cleft-7
+      - g-c1-cleft-8
+    grammar:
+      title_vi: Câu chẻ với It is… that và What… is
+      group: Cấu trúc câu
+      overview:
+        focus: "Câu chẻ tách một câu thành hai phần để dồn trọng tâm vào một thông tin: It was the cache that caused the bug (chính cái cache, không phải thứ khác). What + mệnh đề + is/was… đưa phần quan trọng ra cuối câu, chỗ người đọc chú ý nhất: What we need is more test coverage. Rất hữu ích khi sửa hiểu lầm, phản biện trong review hay nêu kết luận của postmortem."
+        formulas:
+          - It + is/was + phần nhấn mạnh + that/who + phần còn lại
+          - What + S + V + is/was + phần nhấn mạnh
+          - All (that) / The thing / The reason (why) + … + is/was…
+        hook: It wasn't the database that failed — it was the DNS.
+      functions:
+        - title: Sửa hiểu lầm, chỉ đúng thủ phạm
+          explain: It was X that… nhấn mạnh X để đối lập ngầm với thứ khác.
+          examples:
+            - It was the expired certificate that took the API down.
+            - It wasn't Minh who approved the PR; it was the bot.
+        - title: Đưa ý chính ra cuối câu
+          explain: What… is… tạo chút hồi hộp, rồi đặt điểm mấu chốt ở cuối.
+          examples:
+            - What we need is a proper staging environment.
+            - What surprised me was how few users noticed the change.
+        - title: Nhấn mạnh thời gian, nơi chốn, lý do
+          explain: It was only when/after… that… ; The reason (why)… is that…
+          examples:
+            - It was only after the rollback that we found the real cause.
+            - The reason the tests are flaky is that they share global state.
+        - title: Thu hẹp phạm vi
+          explain: "All (that) + S + V + is/was + (to) V: “chỉ cần / chỉ làm mỗi…”."
+          examples:
+            - All you have to do is rerun the pipeline.
+            - All I changed was one line of config.
+      structure:
+        forms:
+          - label: It-cleft
+            pattern: It + be + X + that/who + mệnh đề
+            example: It was Lan who spotted the leak.
+          - label: Wh-cleft
+            pattern: What + S + V + be + X
+            example: What I want is a clear owner.
+          - label: Đảo vị trí
+            pattern: X + be + what + S + V
+            example: A clear owner is what I want.
+        steps:
+          - title: Chọn thông tin cần nhấn mạnh
+            explain: Đó là phần bạn muốn người nghe nhớ hoặc phần đang bị hiểu sai.
+            example: The DNS failed. → nhấn mạnh the DNS
+          - title: Chọn khung phù hợp
+            explain: It is/was… that cho danh từ, thời gian, lý do; What… is cho hành động hoặc nhu cầu.
+            example: It was the DNS that failed. / What failed was the DNS.
+          - title: Chia be theo thì của câu gốc
+            explain: Câu gốc ở quá khứ → It was / What … was. What-clause làm chủ ngữ số ít nên dùng is/was.
+            example: What we need is more tests. (không phải are)
+      examples:
+        - tag: Chỉ thủ phạm
+          en: It was the expired certificate that took the API down.
+          vi: Chính cái chứng chỉ hết hạn đã làm sập API.
+          note: "It was + X + that: nhấn mạnh nguyên nhân."
+        - tag: Nêu nhu cầu
+          en: What we need is a proper staging environment.
+          vi: Thứ chúng ta cần là một môi trường staging đàng hoàng.
+          note: What-clause làm chủ ngữ → is.
+        - tag: Sửa hiểu lầm
+          en: It wasn't Minh who approved the PR; it was the bot.
+          vi: Người duyệt PR không phải Minh mà là con bot.
+          note: Với người có thể dùng who thay cho that.
+        - tag: Thời điểm
+          en: It was only after the rollback that we found the real cause.
+          vi: Mãi đến sau khi rollback chúng tôi mới tìm ra nguyên nhân thật.
+          note: It was only after… that… = mãi đến… mới…
+        - tag: Bất ngờ
+          en: What surprised me was how few users noticed the change.
+          vi: Điều làm tôi bất ngờ là có rất ít người dùng nhận ra thay đổi.
+          note: Đưa điều bất ngờ ra cuối câu.
+        - tag: Lý do
+          en: The reason the tests are flaky is that they share global state.
+          vi: Lý do các bài test chập chờn là vì chúng dùng chung trạng thái toàn cục.
+          note: The reason… is that… (không nói is because trong văn trang trọng).
+        - tag: Chỉ cần
+          en: All you have to do is rerun the pipeline.
+          vi: Bạn chỉ cần chạy lại pipeline thôi.
+          note: All + S + V + is + V nguyên mẫu.
+        - tag: Đảo vị trí
+          en: Clear ownership is what this service lacks.
+          vi: Điều dịch vụ này thiếu chính là người chịu trách nhiệm rõ ràng.
+          note: "X + is + what…: đặt ý chính lên đầu."
+      contrast:
+        title: It-cleft hay What-cleft
+        rows:
+          - label: Câu thường
+            note: không nhấn mạnh phần nào
+            example: The cache caused the bug.
+          - label: It was… that
+            note: nhấn mạnh danh từ, thời gian, lý do; hàm ý đối lập
+            example: It was the cache that caused the bug.
+          - label: What… was
+            note: nhấn mạnh hành động hoặc cả mệnh đề, đặt ở cuối
+            example: What caused the bug was the cache.
+        fixes:
+          - wrong: What we need are a staging environment.
+            right: What we need is a staging environment.
+            why: What-clause làm chủ ngữ số ít → is.
+          - wrong: It was the cache what caused the bug.
+            right: It was the cache that caused the bug.
+            why: It-cleft dùng that (hoặc who cho người), không dùng what.
+          - wrong: This was the certificate that took it down.
+            right: It was the certificate that took it down.
+            why: Câu chẻ luôn mở bằng It, không dùng This.
+  - slug: g-c1-subjunctive
+    kind: grammar
+    title:
+      en: Subjunctive mood
+      vi: Thức giả định
+    questions:
+      - g-c1-subjunctive-1
+      - g-c1-subjunctive-2
+      - g-c1-subjunctive-3
+      - g-c1-subjunctive-4
+      - g-c1-subjunctive-5
+      - g-c1-subjunctive-6
+      - g-c1-subjunctive-7
+      - g-c1-subjunctive-8
+    grammar:
+      title_vi: Giả định sau recommend, insist, essential… that
+      group: Thức giả định
+      overview:
+        focus: "Sau các động từ và tính từ chỉ đề nghị, yêu cầu, tầm quan trọng (recommend, propose, insist, require, essential, vital, crucial…), mệnh đề that dùng động từ nguyên mẫu không chia cho mọi chủ ngữ: that every service expose a health check (không có -s), that the key be rotated (không phải is). Phủ định là not + V. Đây là giọng chuẩn của RFC, chính sách bảo mật và biên bản quyết định; tiếng Anh Anh thân mật có thể dùng should + V thay thế."
+        formulas:
+          - S + recommend/propose/insist/require/demand + that + S + (not) + V nguyên mẫu
+          - It is essential/vital/crucial/important + that + S + (not) + V nguyên mẫu
+          - "Bị động: that + S + be + V3"
+        hook: We propose that every service expose a health endpoint.
+      functions:
+        - title: Kiến nghị trong RFC
+          explain: "Recommend/propose that + S + V: đề xuất chính thức, khách quan."
+          examples:
+            - We propose that every service expose a health endpoint.
+            - The review board recommended that the launch be postponed.
+        - title: Yêu cầu bắt buộc
+          explain: "Require/insist/demand that…: quy tắc không thương lượng."
+          examples:
+            - Security requires that each contractor use a hardware key.
+            - The client insisted that the data remain in Vietnam.
+        - title: Tính từ chỉ tầm quan trọng
+          explain: "It is essential/vital/crucial that…: nhấn mạnh điều kiện bắt buộc."
+          examples:
+            - It is essential that the migration be reversible.
+            - It is vital that nobody push directly to main.
+        - title: Phủ định và bị động
+          explain: Not đứng trước động từ nguyên mẫu (không dùng do); bị động là be + V3.
+          examples:
+            - We ask that reviewers not approve their own changes.
+            - The auditor demanded that all logs be kept for a year.
+      structure:
+        forms:
+          - label: Chủ động
+            pattern: … that + S + V nguyên mẫu
+            example: I suggest that she lead the retro.
+          - label: Phủ định
+            pattern: … that + S + not + V nguyên mẫu
+            example: We ask that he not merge yet.
+          - label: Bị động
+            pattern: … that + S + be + V3
+            example: They require that keys be rotated monthly.
+        steps:
+          - title: Nhận diện từ kích hoạt
+            explain: recommend, propose, suggest, insist, require, demand, request; essential, vital, crucial, imperative.
+            example: It is crucial that…
+          - title: Dùng V nguyên mẫu cho mọi chủ ngữ
+            explain: Không thêm -s cho ngôi thứ ba, không lùi thì dù động từ chính ở quá khứ.
+            example: She insisted that he review it. (không phải reviews / reviewed)
+          - title: Be thay cho is/are; not thay cho don't
+            explain: Bị động dùng be + V3; phủ định dùng not + V.
+            example: that the key be rotated · that the team not deploy
+      examples:
+        - tag: RFC
+          en: We propose that every service expose a health endpoint.
+          vi: Chúng tôi đề xuất mọi dịch vụ đều cung cấp một endpoint kiểm tra tình trạng.
+          note: "Every service nhưng expose không có -s: thức giả định."
+        - tag: Bị động
+          en: The review board recommended that the launch be postponed.
+          vi: Hội đồng review đã kiến nghị hoãn đợt ra mắt.
+          note: Be + V3, dù động từ chính ở quá khứ.
+        - tag: Bắt buộc
+          en: Security requires that each contractor use a hardware key.
+          vi: Bộ phận bảo mật yêu cầu mỗi người làm hợp đồng phải dùng khóa bảo mật phần cứng.
+          note: Each contractor + use (không phải uses).
+        - tag: Khách hàng
+          en: The client insisted that the data remain in Vietnam.
+          vi: Khách hàng nhất quyết yêu cầu dữ liệu phải được lưu ở Việt Nam.
+          note: Insisted (quá khứ) nhưng remain không lùi thì.
+        - tag: Điều kiện
+          en: It is essential that the migration be reversible.
+          vi: Điều bắt buộc là đợt migration phải có thể đảo ngược được.
+          note: It is essential that + S + be.
+        - tag: Phủ định
+          en: We ask that reviewers not approve their own changes.
+          vi: Chúng tôi đề nghị người review không tự duyệt thay đổi của chính mình.
+          note: Not + V, không dùng don't.
+        - tag: Quy tắc
+          en: It is vital that nobody push directly to main.
+          vi: Điều cực kỳ quan trọng là không ai được push thẳng lên nhánh main.
+          note: Nobody + push (không phải pushes).
+        - tag: Kiểm toán
+          en: The auditor demanded that all logs be kept for a year.
+          vi: Kiểm toán viên yêu cầu toàn bộ log phải được lưu trong một năm.
+          note: "Bị động giả định: be kept."
+      contrast:
+        title: Thức giả định, should hay câu thường
+        rows:
+          - label: that + S + V nguyên mẫu
+            note: trang trọng, chuẩn trong RFC và văn bản Mỹ
+            example: We recommend that he upgrade.
+          - label: that + S + should + V
+            note: phổ biến trong tiếng Anh Anh, bớt trang trọng
+            example: We recommend that he should upgrade.
+          - label: recommend + V-ing / sb to V
+            note: cấu trúc khác, dùng được trong nói thường
+            example: We recommend upgrading. / We advise him to upgrade.
+        fixes:
+          - wrong: We propose that every service exposes a health endpoint.
+            right: We propose that every service expose a health endpoint.
+            why: "Thức giả định: V nguyên mẫu, không thêm -s."
+          - wrong: It is essential that the migration is reversible.
+            right: It is essential that the migration be reversible.
+            why: Sau essential that dùng be, không dùng is.
+          - wrong: We ask that reviewers don't approve their own changes.
+            right: We ask that reviewers not approve their own changes.
+            why: "Phủ định giả định: not + V, không dùng do."
+  - slug: g-c1-high-time
+    kind: grammar
+    title:
+      en: It's time & would rather
+      vi: Cấu trúc giả định với it's time và would rather
+    questions:
+      - g-c1-high-time-1
+      - g-c1-high-time-2
+      - g-c1-high-time-3
+      - g-c1-high-time-4
+      - g-c1-high-time-5
+      - g-c1-high-time-6
+      - g-c1-high-time-7
+      - g-c1-high-time-8
+    grammar:
+      title_vi: It's (high) time + S + V2 và would rather + S + V2
+      group: Thức giả định
+      overview:
+        focus: "It's time / It's high time + S + V2 nói rằng một việc lẽ ra phải làm từ lâu: dù dùng quá khứ, nghĩa là hiện tại (It's time we upgraded = đã đến lúc nâng cấp, đáng lẽ phải làm rồi). It's time + to V chỉ trung tính “đến lúc làm”. Would rather + V nói ưu tiên của chính mình; would rather + người khác + V2 là cách lịch sự nhờ người khác làm (hoặc đừng làm) điều gì, còn would rather + S + had V3 là tiếc về quá khứ."
+        formulas:
+          - It's (high/about) time + S + V2 (nghĩa hiện tại)
+          - S + would rather + V / would rather not + V (chính mình)
+          - S + would rather + S2 + V2 (hiện tại) / had V3 (quá khứ)
+        hook: It's high time we retired this legacy endpoint.
+      functions:
+        - title: Việc đáng lẽ đã phải làm
+          explain: "It's high time + S + V2: thúc giục, hơi phê phán nhẹ vì đã trễ."
+          examples:
+            - It's high time we retired this legacy endpoint.
+            - It's about time the team wrote some integration tests.
+        - title: Đến lúc làm (trung tính)
+          explain: It's time + to V, hoặc It's time for sb to V, không hàm ý chậm trễ.
+          examples:
+            - It's time to cut the release branch.
+            - It's time for us to review the on-call rota.
+        - title: Ưu tiên của chính mình
+          explain: "Would rather + V (than + V): thích làm gì hơn. Không có to."
+          examples:
+            - I'd rather pair on this than review it asynchronously.
+            - I'd rather not touch the payment module before the audit.
+        - title: Muốn người khác làm khác đi
+          explain: Would rather + S2 + V2 (hiện tại/tương lai) — lịch sự, gián tiếp; would rather + S2 + had V3 cho quá khứ.
+          examples:
+            - I'd rather you didn't merge it until QA signs off.
+            - I'd rather they had told us before changing the API.
+      structure:
+        forms:
+          - label: It's time + S + V2
+            pattern: It's (high/about) time + S + V2
+            example: It's time we moved to TypeScript.
+          - label: Would rather + V
+            pattern: S + would rather (not) + V (than + V)
+            example: I'd rather wait than rush it.
+          - label: Would rather + S2
+            pattern: S + would rather + S2 + V2 / had V3
+            example: I'd rather you asked me first.
+        steps:
+          - title: Chủ ngữ có khác nhau không?
+            explain: Cùng một người → would rather + V; người khác → would rather + S2 + V2.
+            example: I'd rather go. / I'd rather you went.
+          - title: Lùi một thì để nói hiện tại
+            explain: V2 sau it's time / would rather mang nghĩa hiện tại; muốn nói quá khứ thì dùng had + V3.
+            example: It's time we left. · I'd rather you had asked.
+          - title: Phủ định đặt đúng chỗ
+            explain: "Mình: would rather not + V. Người khác: would rather + S2 + didn't + V."
+            example: I'd rather not. / I'd rather you didn't.
+      examples:
+        - tag: Thúc giục
+          en: It's high time we retired this legacy endpoint.
+          vi: Đã đến lúc (từ lâu rồi) chúng ta phải khai tử cái endpoint cũ này.
+          note: High time + S + V2 (retired) nhưng nghĩa là hiện tại.
+        - tag: Phê phán nhẹ
+          en: It's about time the team wrote some integration tests.
+          vi: Team cũng nên viết vài bài integration test đi chứ, trễ lắm rồi.
+          note: "About time: sắc thái sốt ruột."
+        - tag: Trung tính
+          en: It's time to cut the release branch.
+          vi: Đến lúc tách nhánh release rồi.
+          note: "It's time + to V: chỉ đúng lúc, không trách móc."
+        - tag: Ưu tiên
+          en: I'd rather pair on this than review it asynchronously.
+          vi: Mình muốn ngồi code chung việc này hơn là review qua lại không đồng bộ.
+          note: Would rather + V + than + V, không có to.
+        - tag: Từ chối khéo
+          en: I'd rather not touch the payment module before the audit.
+          vi: Mình không muốn động vào module thanh toán trước đợt kiểm toán.
+          note: Would rather not + V.
+        - tag: Nhờ người khác
+          en: I'd rather you didn't merge it until QA signs off.
+          vi: Mình mong bạn đừng merge cho tới khi QA duyệt xong.
+          note: "Would rather + you + didn't + V: nghĩa hiện tại, lịch sự."
+        - tag: Tiếc quá khứ
+          en: I'd rather they had told us before changing the API.
+          vi: Giá mà họ báo cho chúng tôi trước khi thay đổi API.
+          note: "Would rather + S2 + had V3: nói về quá khứ."
+        - tag: Đề xuất
+          en: It's time we moved the cron jobs to a proper scheduler.
+          vi: Đã đến lúc chuyển mấy cron job sang một hệ thống lập lịch tử tế.
+          note: It's time + we + moved (V2).
+      contrast:
+        title: It's time to V hay it's time + S + V2
+        rows:
+          - label: It's time to V
+            note: đúng lúc làm, trung tính
+            example: It's time to upgrade.
+          - label: It's (high) time + S + V2
+            note: lẽ ra đã phải làm, hơi thúc giục
+            example: It's high time we upgraded.
+          - label: would rather + S2 + V2
+            note: mong người khác làm khác đi, rất lịch sự
+            example: I'd rather you upgraded first.
+        fixes:
+          - wrong: It's high time we retire this endpoint.
+            right: It's high time we retired this endpoint.
+            why: Sau it's high time + S dùng V2.
+          - wrong: I'd rather to pair on this.
+            right: I'd rather pair on this.
+            why: Would rather + V nguyên mẫu, không có to.
+          - wrong: I'd rather you don't merge it yet.
+            right: I'd rather you didn't merge it yet.
+            why: "Would rather + người khác → lùi thì: didn't."
+  - slug: g-c1-advanced-passive
+    kind: grammar
+    title:
+      en: Impersonal & perception passives
+      vi: Bị động vô nhân xưng và bị động tri giác
+    questions:
+      - g-c1-advanced-passive-1
+      - g-c1-advanced-passive-2
+      - g-c1-advanced-passive-3
+      - g-c1-advanced-passive-4
+      - g-c1-advanced-passive-5
+      - g-c1-advanced-passive-6
+      - g-c1-advanced-passive-7
+      - g-c1-advanced-passive-8
+    grammar:
+      title_vi: Bị động vô nhân xưng nâng cao (to have V3, to be V-ing) và bị động tri giác (was seen to…)
+      group: Cấu trúc câu
+      overview:
+        focus: "Ở B2 bạn đã dùng It is said that… và He is believed to… Ở C1, điểm khó là chọn đúng dạng nguyên mẫu để giữ đúng mốc thời gian của nhận định (to be V-ing, to have V3, to have been V3), dùng There is thought to be… cho sự tồn tại, và bị động tri giác (was seen to / was heard V-ing) khi thuật lại điều người khác quan sát. Mục tiêu trong báo cáo kỹ thuật: nói rõ đây là nhận định của ai và chắc đến đâu, không biến giả thuyết thành sự thật."
+        formulas:
+          - S + is/was + thought/reported/known + to be V-ing / to have V3 / to have been V3
+          - There is/are + believed/thought + to be / to have been + N
+          - S + was seen/heard/observed + to V (cả quá trình) / V-ing (đang diễn ra)
+          - It has been suggested/argued that + mệnh đề
+        hook: The worker was observed to restart every few minutes, but the cause is not yet known.
+      functions:
+        - title: Nhận định về việc đã xảy ra trước đó
+          explain: "To have + V3 lùi mốc thời gian: nhận định ở hiện tại, việc xảy ra ở quá khứ."
+          examples:
+            - The outage is believed to have started with a misconfigured load balancer.
+            - The attacker is thought to have obtained the token through a leaked log file.
+        - title: Nhận định về việc đang diễn ra
+          explain: "To be + V-ing: nguồn tin cho rằng việc này đang xảy ra ngay lúc này."
+          examples:
+            - Several clients are reported to be experiencing intermittent timeouts.
+            - The vendor is understood to be preparing a patch for next week.
+        - title: Nói về sự tồn tại một cách thận trọng
+          explain: "There is/are + thought/believed + to be: có lẽ tồn tại, nhưng chưa xác minh hết."
+          examples:
+            - There are thought to be around forty services still calling the legacy API.
+            - There is believed to have been a second, smaller spike before midnight.
+        - title: Thuật lại điều người khác quan sát
+          explain: Ở bị động, see/hear/observe + to V (bắt buộc có to) cho hành động trọn vẹn; + V-ing cho cảnh đang diễn ra.
+          examples:
+            - The pod was seen to crash twice during the load test.
+            - The fans were heard running at full speed long after the job had finished.
+      structure:
+        forms:
+          - label: Hiện tại → hiện tại
+            pattern: S + is said + to be / to be V-ing
+            example: The cache is said to be working again.
+          - label: Hiện tại → quá khứ
+            pattern: S + is believed + to have V3
+            example: The bug is believed to have existed since 2023.
+          - label: Bị động lồng bị động
+            pattern: S + is thought + to have been V3
+            example: The keys are thought to have been rotated already.
+          - label: Tồn tại
+            pattern: There + is/are + believed + to be + N
+            example: There are believed to be two root causes.
+          - label: Tri giác
+            pattern: S + was seen/heard + to V / V-ing
+            example: The script was seen to delete the temp folder.
+        steps:
+          - title: So hai mốc thời gian
+            explain: Nhận định lúc nào (is/was)? Sự việc lúc nào? Cùng lúc → to be/to V; sớm hơn → to have V3.
+            example: It was reported that the DB had failed → The DB was reported to have failed.
+          - title: Chủ ngữ có bị tác động không?
+            explain: Nếu chủ ngữ chịu hành động (bị rotate, bị xoá…), dùng to have been V3.
+            example: The data is thought to have been deleted by a cron job.
+          - title: Thêm to sau động từ tri giác ở bị động
+            explain: "Chủ động: We saw it crash. Bị động: It was seen to crash (không phải was seen crash)."
+            example: Two nodes were observed to drop out of the cluster.
+          - title: Ghi rõ giới hạn bằng chứng
+            explain: Bị động vô nhân xưng che người nói; hãy thêm nguồn hoặc mức chắc chắn nếu người đọc cần.
+            example: The fix is reported, by two customers, to have resolved the issue.
+      examples:
+        - tag: Nguyên nhân giả định
+          en: The outage is believed to have started with a misconfigured load balancer.
+          vi: Sự cố được cho là bắt đầu từ một load balancer cấu hình sai.
+          note: Is believed (hiện tại) + to have started (quá khứ).
+        - tag: Đang diễn ra
+          en: Several clients are reported to be experiencing intermittent timeouts.
+          vi: Có báo cáo rằng một số khách hàng đang gặp lỗi timeout chập chờn.
+          note: "To be + V-ing: việc đang xảy ra lúc báo cáo."
+        - tag: Tồn tại
+          en: There are thought to be around forty services still calling the legacy API.
+          vi: Ước tính còn khoảng bốn mươi service vẫn đang gọi API cũ.
+          note: "There are thought to be: thận trọng về con số."
+        - tag: Bị động kép
+          en: The credentials are thought to have been exposed in a public repository.
+          vi: Thông tin đăng nhập được cho là đã bị lộ trong một repo công khai.
+          note: Credentials bị lộ → to have been + V3.
+        - tag: Quan sát trọn vẹn
+          en: The pod was seen to crash twice during the load test.
+          vi: Người ta thấy pod bị sập hai lần trong lúc chạy load test.
+          note: "Bị động của see cần to: was seen to crash."
+        - tag: Quan sát dở dang
+          en: The fans were heard running at full speed long after the job had finished.
+          vi: Người ta nghe quạt vẫn chạy hết tốc lực rất lâu sau khi job đã xong.
+          note: "Heard + V-ing: cảnh đang diễn ra, không cần trọn vẹn."
+        - tag: Quá khứ → xa hơn
+          en: The migration was said to have finished before the alert fired.
+          vi: Lúc đó người ta nói migration đã chạy xong trước khi cảnh báo bật lên.
+          note: Was said (quá khứ) + to have finished (trước đó nữa).
+        - tag: Giới hạn bằng chứng
+          en: It has been suggested, though not confirmed, that the leak comes from the SDK.
+          vi: Có ý kiến cho rằng, dù chưa được xác nhận, rò rỉ bộ nhớ đến từ SDK.
+          note: Chèn though not confirmed để người đọc không hiểu nhầm là kết luận.
+      contrast:
+        title: Chọn dạng nguyên mẫu theo mốc thời gian
+        rows:
+          - label: to be / to V
+            note: cùng thời điểm với nhận định
+            example: He is known to be careful with migrations.
+          - label: to be V-ing
+            note: đang diễn ra lúc nhận định
+            example: The team is said to be rewriting the parser.
+          - label: to have V3
+            note: xảy ra trước lúc nhận định
+            example: The team is said to have rewritten the parser.
+          - label: to have been V3
+            note: trước đó và chủ ngữ bị tác động
+            example: The parser is said to have been rewritten twice.
+        fixes:
+          - wrong: The server was seen restart at 3 am.
+            right: The server was seen to restart at 3 am.
+            why: Bị động của see/hear + nguyên mẫu phải có to.
+          - wrong: The bug is thought to exist since last year.
+            right: The bug is thought to have existed since last year.
+            why: Since last year kéo về quá khứ → to have + V3.
+          - wrong: It is believed to be two root causes.
+            right: There are believed to be two root causes.
+            why: Nói về sự tồn tại dùng There + be + believed + to be.
+  - slug: g-c1-complex-noun-phrase
+    kind: grammar
+    title:
+      en: Complex noun phrases
+      vi: Danh ngữ phức
+    questions:
+      - g-c1-complex-noun-phrase-1
+      - g-c1-complex-noun-phrase-2
+      - g-c1-complex-noun-phrase-3
+      - g-c1-complex-noun-phrase-4
+      - g-c1-complex-noun-phrase-5
+      - g-c1-complex-noun-phrase-6
+      - g-c1-complex-noun-phrase-7
+      - g-c1-complex-noun-phrase-8
+    grammar:
+      title_vi: "Danh ngữ phức: bổ ngữ trước và sau danh từ chính"
+      group: Danh từ
+      overview:
+        focus: "Tài liệu kỹ thuật tiếng Anh dồn nhiều thông tin vào một cụm danh từ: “a read-only replica of the primary database located in Singapore”. Cụm có một danh từ chính (replica), phía trước là từ hạn định, tính từ, danh từ bổ nghĩa; phía sau là cụm giới từ, phân từ, mệnh đề quan hệ, to V. Kỹ năng C1 là biết xếp đúng thứ tự, dùng gạch nối cho tính từ ghép, không chồng quá ba danh từ, và chia động từ theo danh từ chính."
+        formulas:
+          - Hạn định + (trạng từ) + tính từ + danh từ bổ nghĩa + DANH TỪ CHÍNH + bổ ngữ sau
+          - "Tính từ ghép trước danh từ: a two-step process, a long-running job"
+          - "Bổ ngữ sau: of/for/with… · V3/V-ing… · that/which… · to V"
+        hook: The newly added rate-limiting middleware for public endpoints has reduced abuse.
+      functions:
+        - title: Gói thông tin định danh vào trước danh từ
+          explain: Tính từ và danh từ bổ nghĩa cho biết loại, chức năng của đối tượng.
+          examples:
+            - We need a lightweight open-source logging library.
+            - The nightly integration test suite takes forty minutes.
+        - title: Dùng tính từ ghép có gạch nối
+          explain: Số + danh từ số ít, trạng từ + phân từ, danh từ + phân từ khi đứng trước danh từ chính.
+          examples:
+            - It is a three-node cluster with a well-documented failover process.
+            - We replaced the hand-written parser with a generated one.
+        - title: Thêm chi tiết sau danh từ chính
+          explain: Cụm giới từ, phân từ rút gọn, mệnh đề quan hệ giúp tránh chuỗi danh từ khó đọc.
+          examples:
+            - Requests sent from unverified devices are rejected.
+            - The team responsible for billing owns this queue.
+        - title: Tách cụm quá dài
+          explain: Hơn ba danh từ liền nhau thì chuyển bớt ra sau bằng of/for hoặc mệnh đề.
+          examples:
+            - The retry policy for payment webhooks is configurable.
+            - This is a guide to migrating user accounts between regions.
+      structure:
+        forms:
+          - label: Bổ ngữ trước
+            pattern: a/the + adj + N bổ nghĩa + N chính
+            example: a slow database query
+          - label: Tính từ ghép
+            pattern: số-N số ít / adv-V3 / N-V-ing + N
+            example: a five-minute timeout
+          - label: Cụm giới từ
+            pattern: N + of/for/with/in + N
+            example: the timeout for outbound calls
+          - label: Phân từ rút gọn
+            pattern: N + V3/V-ing + …
+            example: the files generated by the build
+          - label: Mệnh đề / to V
+            pattern: N + that/which/who… · N + to V
+            example: the first service to adopt gRPC
+        steps:
+          - title: Tìm danh từ chính
+            explain: Động từ chia theo danh từ chính, không theo danh từ gần nhất.
+            example: The list of failing tests is long. (list → is)
+          - title: Xếp bổ ngữ trước theo trật tự
+            explain: Ý kiến/đánh giá → kích thước/tuổi → nguồn gốc/chất liệu → danh từ bổ nghĩa.
+            example: a reliable new open-source monitoring tool
+          - title: Danh từ bổ nghĩa ở dạng số ít
+            explain: "Danh từ đứng trước làm tính từ thường không thêm -s: a ten-user plan, a password manager."
+            example: a two-factor login flow (không phải two-factors)
+          - title: Quá dài thì đẩy ra sau
+            explain: Một chuỗi bốn, năm danh từ nên viết lại bằng of/for hoặc mệnh đề quan hệ.
+            example: user account region migration guide → a guide to migrating user accounts between regions
+      examples:
+        - tag: Đầy đủ
+          en: The newly added rate-limiting middleware for public endpoints has reduced abuse.
+          vi: Lớp middleware giới hạn tần suất mới thêm cho các endpoint công khai đã giảm được lạm dụng.
+          note: Danh từ chính middleware (số ít) → has reduced.
+        - tag: Tính từ ghép
+          en: It is a three-node cluster with a well-documented failover process.
+          vi: Đó là một cụm ba node, có quy trình failover được tài liệu hoá đầy đủ.
+          note: "Three-node: danh từ số ít sau số; well-documented có gạch nối khi đứng trước danh từ."
+        - tag: Phân từ rút gọn
+          en: Requests sent from unverified devices are rejected at the gateway.
+          vi: Các request gửi từ thiết bị chưa xác minh sẽ bị từ chối ở gateway.
+          note: Sent from… = that are sent from…
+        - tag: Chia theo danh từ chính
+          en: The list of flaky tests in the payment module is getting longer.
+          vi: Danh sách test chập chờn trong module thanh toán ngày càng dài.
+          note: List là danh từ chính → is, dù ngay trước là module.
+        - tag: Trật tự bổ ngữ
+          en: We adopted a lightweight open-source logging library last year.
+          vi: Năm ngoái tụi mình chọn dùng một thư viện ghi log mã nguồn mở, gọn nhẹ.
+          note: Đánh giá (lightweight) → nguồn gốc (open-source) → chức năng (logging).
+        - tag: To V sau danh từ
+          en: Search was the first service to move to the new cluster.
+          vi: Search là service đầu tiên chuyển sang cụm mới.
+          note: The first/last/only + N + to V.
+        - tag: Viết lại cho dễ đọc
+          en: This is a guide to migrating user accounts between regions.
+          vi: Đây là hướng dẫn chuyển tài khoản người dùng giữa các region.
+          note: Thay cho chuỗi user account region migration guide.
+        - tag: Mệnh đề quan hệ
+          en: The engineer who designed the original schema has since left the company.
+          vi: Kỹ sư thiết kế schema ban đầu đã nghỉ việc từ đó đến giờ.
+          note: Who designed… bổ nghĩa cho engineer; động từ chính là has left.
+      contrast:
+        title: Bổ ngữ trước hay bổ ngữ sau
+        rows:
+          - label: Bổ ngữ trước
+            note: ngắn, cố định, mang tính phân loại
+            example: a payment retry policy
+          - label: Cụm giới từ sau
+            note: dễ đọc hơn khi chuỗi dài hoặc cần nói rõ quan hệ
+            example: a retry policy for failed payments
+          - label: Mệnh đề / phân từ sau
+            note: thêm hành động, thời gian, tác nhân
+            example: payments that failed during the outage
+        fixes:
+          - wrong: a two-weeks sprint
+            right: a two-week sprint
+            why: Danh từ trong tính từ ghép trước danh từ ở dạng số ít.
+          - wrong: The logs from the payment services is too noisy.
+            right: The logs from the payment services are too noisy.
+            why: Danh từ chính là logs (số nhiều).
+          - wrong: a documented well process
+            right: a well-documented process
+            why: Trạng từ + phân từ đứng trước danh từ và nối bằng gạch.
+  - slug: g-c1-nominalisation
+    kind: grammar
+    title:
+      en: Nominalisation
+      vi: Danh hoá
+    questions:
+      - g-c1-nominalisation-1
+      - g-c1-nominalisation-2
+      - g-c1-nominalisation-3
+      - g-c1-nominalisation-4
+      - g-c1-nominalisation-5
+      - g-c1-nominalisation-6
+      - g-c1-nominalisation-7
+      - g-c1-nominalisation-8
+    grammar:
+      title_vi: "Danh hoá: biến hành động thành danh từ"
+      group: Từ loại
+      overview:
+        focus: "Danh hoá là biến một động từ hoặc tính từ thành danh từ: we migrated → the migration, the API is slow → the slowness of the API. Văn bản trang trọng (RFC, báo cáo sự cố, đề xuất) dùng nhiều danh hoá để gom ý, đặt hành động làm chủ ngữ và nối ý trước với ý sau. Nhưng lạm dụng sẽ khiến câu nặng nề và giấu mất ai làm gì. Ở C1, bạn cần biết chuyển qua lại và chọn đúng theo mục đích."
+        formulas:
+          - "V → N: migrate → migration, fail → failure, deploy → deployment"
+          - "Adj → N: available → availability, slow → slowness, complex → complexity"
+          - S + V + O → the + N + of + O (+ by + S)
+          - Because S + V → Due to / Following / As a result of + the + N
+        hook: The removal of the legacy endpoint will require a deprecation notice.
+      functions:
+        - title: Làm câu trang trọng, cô đọng
+          explain: Trong RFC hay báo cáo, danh hoá giúp nói nhiều ý trong ít mệnh đề.
+          examples:
+            - The adoption of feature flags reduced the risk of each release.
+            - Approval of the budget is expected by the end of the quarter.
+        - title: Nối ý trước với ý sau
+          explain: Danh hoá ý vừa nói làm chủ ngữ cho câu tiếp theo, tạo mạch lạc.
+          examples:
+            - We rotated all keys. This rotation took six hours.
+            - Traffic doubled overnight. The increase exposed a bottleneck in the queue.
+        - title: Chỉ nguyên nhân, thời điểm bằng cụm giới từ
+          explain: Due to, following, after, prior to + danh hoá thay cho cả một mệnh đề.
+          examples:
+            - Following the upgrade of the cluster, latency dropped by half.
+            - Prior to the deployment, please freeze the main branch.
+        - title: Biết khi nào nên tháo danh hoá
+          explain: Trong hướng dẫn, stand-up, tin nhắn, dùng động từ và chủ ngữ rõ ràng để dễ hiểu và rõ trách nhiệm.
+          examples:
+            - Instead of “Verification of the backup is required”, write “Please verify the backup”.
+            - We decided to delay the launch, not “A decision on launch delay was made”.
+      structure:
+        forms:
+          - label: Động từ → danh từ
+            pattern: the + N + of + O
+            example: the deployment of the new build
+          - label: Có tác nhân
+            pattern: the + N + of + O + by + S / S's + N
+            example: the team's review of the design
+          - label: Tính từ → danh từ
+            pattern: the + N + of + N
+            example: the reliability of the pipeline
+          - label: Cụm giới từ
+            pattern: Due to / Following / Prior to + the + N
+            example: Due to the failure of the primary node, …
+        steps:
+          - title: Đổi động từ hoặc tính từ thành danh từ
+            explain: "Học đuôi thường gặp: -tion, -ment, -ure, -al, -ity, -ness, -ance/-ence."
+            example: approve → approval, rely → reliance, fail → failure
+          - title: Tân ngữ đi sau of
+            explain: We deployed the service → the deployment of the service.
+            example: They reviewed the code → their review of the code
+          - title: Trạng từ thành tính từ
+            explain: Khi động từ thành danh từ, trạng từ bổ nghĩa cũng thành tính từ.
+            example: It failed suddenly → its sudden failure
+          - title: Kiểm tra người đọc có cần biết ai làm không
+            explain: Nếu cần, thêm by + S hoặc sở hữu cách; hoặc quay lại dạng động từ.
+            example: The approval of the RFC by the architecture board
+      examples:
+        - tag: Trang trọng
+          en: The removal of the legacy endpoint will require a deprecation notice.
+          vi: Việc gỡ bỏ endpoint cũ sẽ cần một thông báo ngừng hỗ trợ.
+          note: Remove → removal, làm chủ ngữ của câu.
+        - tag: Nối ý
+          en: Traffic doubled overnight, and the increase exposed a bottleneck in the queue.
+          vi: Lưu lượng tăng gấp đôi chỉ sau một đêm, và chính sự gia tăng đó làm lộ ra điểm nghẽn ở hàng đợi.
+          note: The increase gom lại ý traffic doubled.
+        - tag: Following
+          en: Following the upgrade of the cluster, latency dropped by half.
+          vi: Sau khi nâng cấp cụm, độ trễ giảm một nửa.
+          note: Following + danh hoá thay cho After we upgraded the cluster.
+        - tag: Trạng từ → tính từ
+          en: The sudden failure of the primary node triggered an automatic failover.
+          vi: Việc node chính đột ngột hỏng đã kích hoạt failover tự động.
+          note: It failed suddenly → its sudden failure.
+        - tag: Tính từ → danh từ
+          en: The availability of the service matters more than its raw speed.
+          vi: Độ sẵn sàng của service quan trọng hơn tốc độ thuần của nó.
+          note: Available → availability.
+        - tag: Có tác nhân
+          en: The board's approval of the RFC came after three rounds of review.
+          vi: Hội đồng phê duyệt RFC sau ba vòng review.
+          note: Sở hữu cách cho biết ai phê duyệt.
+        - tag: Prior to
+          en: Prior to the deployment, please freeze the main branch.
+          vi: Trước khi triển khai, vui lòng khoá nhánh main.
+          note: Prior to + danh từ, không dùng prior to deploy.
+        - tag: Tháo danh hoá
+          en: We decided to postpone the launch because the load tests failed.
+          vi: Tụi mình quyết định hoãn ra mắt vì load test thất bại.
+          note: Trong tin nhắn nhóm, câu động từ rõ ràng hơn A decision on the postponement of the launch was made.
+      contrast:
+        title: Câu động từ hay câu danh hoá
+        rows:
+          - label: Câu động từ
+            note: rõ ai làm gì; hợp với hướng dẫn, chat, stand-up
+            example: We migrated the database on Sunday.
+          - label: Danh hoá
+            note: cô đọng, khách quan; hợp với RFC, báo cáo, tài liệu
+            example: The database migration took place on Sunday.
+          - label: Danh hoá quá mức
+            note: nặng nề, mất người chịu trách nhiệm
+            example: The performance of a verification of the backup is required.
+        fixes:
+          - wrong: Prior to deploy, run the smoke tests.
+            right: Prior to deployment, run the smoke tests.
+            why: Prior to là giới từ, theo sau phải là danh từ (hoặc V-ing).
+          - wrong: The quick migrate of the data surprised us.
+            right: The quick migration of the data surprised us.
+            why: Sau the + tính từ cần danh từ migration, không phải động từ.
+          - wrong: Its failure sudden caused the outage.
+            right: Its sudden failure caused the outage.
+            why: Trạng từ suddenly thành tính từ sudden, đứng trước danh từ.
+  - slug: g-c1-ellipsis
+    kind: grammar
+    title:
+      en: Ellipsis & substitution
+      vi: Phép lược và phép thế
+    questions:
+      - g-c1-ellipsis-1
+      - g-c1-ellipsis-2
+      - g-c1-ellipsis-3
+      - g-c1-ellipsis-4
+      - g-c1-ellipsis-5
+      - g-c1-ellipsis-6
+      - g-c1-ellipsis-7
+      - g-c1-ellipsis-8
+    grammar:
+      title_vi: Phép lược (bỏ phần đã rõ) và phép thế (so, not, one, do so)
+      group: Cấu trúc câu
+      overview:
+        focus: "Người bản ngữ hiếm khi lặp lại nguyên một mệnh đề. Họ lược bớt phần đã rõ (I can review it, but Minh can't) hoặc thay bằng từ thế: so/not cho cả mệnh đề (I think so, I hope not), one/ones cho danh từ, do so cho cụm động từ. Lược sai trợ động từ hoặc thế sai từ khiến người nghe không biết bạn đang nói về việc gì, nhất là trong review và thread dài."
+        formulas:
+          - … but S + trợ động từ (can't / did / has / will) — lược phần còn lại
+          - I think / hope / suppose / expect + so · I hope not / I'm afraid not
+          - a / the + adj + one(s) — thay danh từ đếm được
+          - do so — thay cụm động từ trong văn trang trọng
+        hook: Has the hotfix been deployed? — It should have been, but I'll check.
+      functions:
+        - title: Lược sau trợ động từ
+          explain: Giữ trợ động từ đúng thì, bỏ phần động từ đã nhắc.
+          examples:
+            - I haven't reviewed the PR yet, but Lan has.
+            - Nobody expected the job to fail, but it did.
+        - title: Thế cả mệnh đề bằng so / not
+          explain: Dùng sau think, hope, expect, suppose, be afraid; phủ định dùng not hoặc don't think so.
+          examples:
+            - Will the fix be ready by Friday? — I expect so.
+            - Is the old token still valid? — I'm afraid not.
+        - title: Thế danh từ bằng one / ones
+          explain: Tránh lặp danh từ đếm được; không dùng one cho danh từ không đếm được.
+          examples:
+            - The new dashboard is faster than the old one.
+            - We kept the green alerts and removed the noisy ones.
+        - title: Thế cụm động từ bằng do so / do that
+          explain: Do so trang trọng, hay gặp trong tài liệu; do that hay dùng khi nói.
+          examples:
+            - If you need to roll back, please do so before 6 pm.
+            - Teams may opt out of the beta, but few have done so.
+      structure:
+        forms:
+          - label: Lược động từ
+            pattern: …, but S + aux
+            example: I can't make the call, but Duc can.
+          - label: Lược sau to
+            pattern: S + want/need/try + to
+            example: I'll refactor it if you want me to.
+          - label: Thế mệnh đề
+            pattern: think/hope/expect + so / hope + not
+            example: I hope not.
+          - label: Thế danh từ
+            pattern: the + adj + one(s)
+            example: the cheaper ones
+          - label: Thế cụm động từ
+            pattern: do so / have done so
+            example: Only two teams have done so.
+        steps:
+          - title: Tìm trợ động từ khớp thì với câu trước
+            explain: Câu trước hiện tại hoàn thành → has/have; quá khứ đơn → did; bị động → is/was/has been.
+            example: It hasn't been tested, but it should have been.
+          - title: Giữ to khi lược sau want/need/try
+            explain: Không lược luôn cả to.
+            example: I didn't fix it, but I meant to.
+          - title: Phủ định với think và hope khác nhau
+            explain: "Think: I don't think so (tự nhiên hơn I think not). Hope: I hope not (không dùng I don't hope so)."
+            example: Will it break prod? — I hope not.
+          - title: Kiểm tra phần bị lược có rõ không
+            explain: Nếu thread dài hoặc câu trước có hai hành động, nhắc lại động từ cho chắc.
+            example: Has anyone restarted or rolled back the worker? — Minh restarted it.
+      examples:
+        - tag: Lược hoàn thành
+          en: I haven't reviewed the PR yet, but Lan has.
+          vi: Mình chưa review PR, nhưng Lan review rồi.
+          note: Has = has reviewed the PR.
+        - tag: Lược quá khứ
+          en: Nobody expected the nightly job to fail, but it did.
+          vi: Không ai nghĩ job chạy đêm sẽ lỗi, vậy mà nó lỗi thật.
+          note: Did = failed; quá khứ đơn dùng did.
+        - tag: Lược bị động
+          en: The migration hasn't been tested on staging, but it should have been.
+          vi: Migration chưa được test trên staging, mà lẽ ra phải test rồi.
+          note: Should have been = should have been tested.
+        - tag: Thế mệnh đề
+          en: Will the fix be ready by Friday? — I expect so, unless QA finds something.
+          vi: Thứ Sáu bản sửa xong chứ? — Mình nghĩ là có, trừ khi QA phát hiện gì đó.
+          note: So thay cho the fix will be ready by Friday.
+        - tag: Phủ định với hope
+          en: Is this change going to break the mobile app? — I hope not.
+          vi: Thay đổi này có làm hỏng app mobile không? — Mong là không.
+          note: Hope + not; không nói I don't hope so.
+        - tag: Thế danh từ
+          en: We kept the critical alerts and muted the noisy ones.
+          vi: Tụi mình giữ các cảnh báo nghiêm trọng và tắt bớt những cái gây nhiễu.
+          note: Ones = alerts (số nhiều).
+        - tag: Do so
+          en: If you need to roll back, please do so before the traffic peak.
+          vi: Nếu cần rollback thì làm trước giờ cao điểm nhé.
+          note: Do so = roll back; trang trọng, hợp với tài liệu vận hành.
+        - tag: Lược sau to
+          en: I didn't update the changelog, but I meant to.
+          vi: Mình chưa cập nhật changelog, dù đã định làm.
+          note: "Giữ to: meant to = meant to update it."
+      contrast:
+        title: Chọn từ thế nào
+        rows:
+          - label: so / not
+            note: thay cả mệnh đề sau think, hope, expect, be afraid
+            example: I'm afraid not.
+          - label: one / ones
+            note: thay danh từ đếm được
+            example: a smaller one
+          - label: do so / do that
+            note: thay cụm động từ hành động
+            example: Please do so by Monday.
+          - label: trợ động từ
+            note: lược phần động từ, giữ đúng thì
+            example: …, but she hasn't.
+        fixes:
+          - wrong: I don't hope so.
+            right: I hope not.
+            why: Với hope, phủ định dùng hope + not.
+          - wrong: I didn't test it, but Minh tested.
+            right: I didn't test it, but Minh did.
+            why: Lược bằng trợ động từ did; tested đứng một mình thiếu tân ngữ.
+          - wrong: We need more information and a better one.
+            right: We need more information, and better information.
+            why: Information không đếm được, không thay bằng one.
+  - slug: g-c1-punctuation
+    kind: grammar
+    title:
+      en: Punctuation in complex sentences
+      vi: Dấu câu trong câu phức
+    questions:
+      - g-c1-punctuation-1
+      - g-c1-punctuation-2
+      - g-c1-punctuation-3
+      - g-c1-punctuation-4
+      - g-c1-punctuation-5
+      - g-c1-punctuation-6
+      - g-c1-punctuation-7
+      - g-c1-punctuation-8
+    grammar:
+      title_vi: Dấu phẩy, chấm phẩy, hai chấm và gạch ngang trong câu phức
+      group: Cấu trúc câu
+      overview:
+        focus: "Trong tài liệu kỹ thuật, một dấu phẩy sai có thể đổi nghĩa: “Users who have admin rights can delete it” (chỉ admin) khác “Users, who have admin rights, can delete it” (mọi user đều là admin). Bài này luyện bốn quyết định: phẩy sau mệnh đề điều kiện đứng đầu, không dùng phẩy để nối hai câu độc lập (comma splice), chấm phẩy trước however/therefore, hai chấm để giới thiệu chi tiết và gạch ngang (—) để chèn một giới hạn."
+        formulas:
+          - If/Unless/When + mệnh đề, + mệnh đề chính · mệnh đề chính + if… (thường không phẩy)
+          - Câu độc lập; however/therefore, + câu độc lập
+          - "Câu đầy đủ: danh sách / giải thích"
+          - … — giới hạn hoặc chú thích — …
+        hook: The job is idempotent; however, it is not safe to run in parallel.
+      functions:
+        - title: Tách điều kiện đứng đầu câu
+          explain: Mệnh đề if/unless/when đứng trước cần dấu phẩy; đứng sau thường không cần.
+          examples:
+            - If the health check fails twice, the pod is restarted.
+            - The pod is restarted if the health check fails twice.
+        - title: Nối hai câu độc lập có quan hệ gần
+          explain: Dùng chấm phẩy hoặc dấu chấm, không dùng phẩy; trạng từ liên kết đứng sau chấm phẩy và trước phẩy.
+          examples:
+            - The job is idempotent; however, it is not safe to run in parallel.
+            - Staging is down; therefore, today's release is on hold.
+        - title: Giới thiệu chi tiết bằng hai chấm
+          explain: Phần trước hai chấm phải là một câu hoàn chỉnh.
+          examples:
+            - "The fix has one side effect: cached sessions are invalidated."
+            - "We support three regions: Singapore, Tokyo and Frankfurt."
+        - title: Phân biệt xác định và không xác định, chèn giới hạn
+          explain: Cặp phẩy biến mệnh đề thành thông tin phụ; cặp gạch ngang làm nổi một giới hạn.
+          examples:
+            - Engineers who are on call must keep their laptops nearby.
+            - The new API — at least in its current form — does not support pagination.
+      structure:
+        forms:
+          - label: Điều kiện đầu câu
+            pattern: If/Unless + mệnh đề, mệnh đề chính
+            example: Unless the token is refreshed, the call fails.
+          - label: Chấm phẩy
+            pattern: Câu độc lập; câu độc lập
+            example: Reads are cheap; writes are not.
+          - label: Trạng từ liên kết
+            pattern: Câu; however/therefore/otherwise, câu
+            example: Back up first; otherwise, data may be lost.
+          - label: Hai chấm
+            pattern: "Câu hoàn chỉnh: chi tiết"
+            example: "One thing is missing: tests."
+          - label: Gạch ngang
+            pattern: … — chú thích — …
+            example: The limit — 100 requests per minute — applies per key.
+        steps:
+          - title: Đếm số câu độc lập
+            explain: Hai câu có chủ ngữ và động từ riêng không được nối chỉ bằng dấu phẩy.
+            example: The build passed, the deploy failed. → The build passed, but the deploy failed.
+          - title: However giữa hai câu cần chấm phẩy hoặc chấm
+            explain: However không phải liên từ như but; trước nó là ; hoặc ., sau nó là dấu phẩy.
+            example: It works locally; however, it fails in CI.
+          - title: "Hỏi: mệnh đề quan hệ có giới hạn đối tượng không?"
+            explain: Có giới hạn (chỉ những người/cái đó) → không phẩy. Chỉ thêm thông tin → có phẩy.
+            example: Services that use Redis must upgrade. (chỉ những service dùng Redis)
+          - title: Trước hai chấm phải là câu đầy đủ
+            explain: Không đặt hai chấm ngay sau động từ hay giới từ.
+            example: "The causes are memory and disk. (không phải The causes are: memory and disk.)"
+      examples:
+        - tag: Điều kiện
+          en: If the health check fails twice, the pod is restarted automatically.
+          vi: Nếu health check lỗi hai lần, pod sẽ tự khởi động lại.
+          note: Mệnh đề if đứng đầu → có phẩy.
+        - tag: Chấm phẩy + however
+          en: The job is idempotent; however, it is not safe to run in parallel.
+          vi: Job này chạy lại nhiều lần vẫn an toàn; tuy nhiên, chạy song song thì không.
+          note: ; however, nối hai câu độc lập.
+        - tag: Hai chấm
+          en: "The fix has one side effect: all cached sessions are invalidated."
+          vi: "Bản sửa có một tác dụng phụ: mọi session đã cache đều bị vô hiệu."
+          note: Trước hai chấm là câu hoàn chỉnh; sau là chi tiết.
+        - tag: Giới hạn đối tượng
+          en: Engineers who are on call this week must keep their laptops nearby.
+          vi: Những kỹ sư trực tuần này phải để laptop bên cạnh.
+          note: "Không phẩy: chỉ những người đang trực."
+        - tag: Thông tin thêm
+          en: Our CTO, who wrote the first version, still reviews every schema change.
+          vi: CTO của tụi mình, người viết phiên bản đầu tiên, vẫn review mọi thay đổi schema.
+          note: "Cặp phẩy: thông tin phụ, bỏ đi câu vẫn đủ nghĩa."
+        - tag: Gạch ngang
+          en: The new API — at least in its current form — does not support pagination.
+          vi: API mới, ít nhất là ở dạng hiện tại, chưa hỗ trợ phân trang.
+          note: Cặp gạch ngang làm nổi bật giới hạn của nhận định.
+        - tag: Unless
+          en: Unless the token is refreshed, every request after midnight will fail.
+          vi: Nếu token không được làm mới, mọi request sau nửa đêm sẽ lỗi.
+          note: Unless đứng đầu → có phẩy.
+        - tag: Sửa comma splice
+          en: Staging is down; therefore, the release has been moved to Thursday.
+          vi: Staging đang sập, vì vậy bản phát hành đã dời sang thứ Năm.
+          note: Không viết Staging is down, therefore…
+      contrast:
+        title: Phẩy, chấm phẩy hay hai chấm
+        rows:
+          - label: dấu phẩy
+            note: sau mệnh đề phụ đứng đầu; trước and/but/so nối hai câu
+            example: It passed, but it was slow.
+          - label: chấm phẩy
+            note: nối hai câu độc lập liên quan chặt; trước however/therefore
+            example: It passed; however, it was slow.
+          - label: hai chấm
+            note: sau câu hoàn chỉnh, giới thiệu chi tiết hoặc giải thích
+            example: "It passed for one reason: we skipped the slow tests."
+          - label: gạch ngang
+            note: chèn chú thích hoặc giới hạn, mạnh hơn cặp phẩy
+            example: It passed — eventually.
+        fixes:
+          - wrong: The tests passed, however the build failed.
+            right: The tests passed; however, the build failed.
+            why: However nối hai câu độc lập cần chấm phẩy trước và phẩy sau.
+          - wrong: Services, that use Redis, must upgrade.
+            right: Services that use Redis must upgrade.
+            why: Mệnh đề giới hạn đối tượng không dùng phẩy; that không đi với mệnh đề có phẩy.
+          - wrong: "The supported regions are: Tokyo and Frankfurt."
+            right: "We support two regions: Tokyo and Frankfurt."
+            why: Trước hai chấm phải là câu hoàn chỉnh.
+  - slug: g-c1-linkers
+    kind: grammar
+    title:
+      en: Advanced linkers
+      vi: Từ nối và trạng ngữ liên kết nâng cao
+    questions:
+      - g-c1-linkers-1
+      - g-c1-linkers-2
+      - g-c1-linkers-3
+      - g-c1-linkers-4
+      - g-c1-linkers-5
+      - g-c1-linkers-6
+      - g-c1-linkers-7
+      - g-c1-linkers-8
+    grammar:
+      title_vi: "Từ nối nâng cao: notwithstanding, insofar as, that said, conversely, by extension…"
+      group: Liên từ
+      overview:
+        focus: "Ở B2 bạn đã dùng although, despite, however. Ở C1, một đề xuất kiến trúc cần nhiều sắc thái hơn: thừa nhận rồi phản biện (admittedly… that said), so sánh hai chiều (conversely), mở rộng lập luận (by extension, by the same token), giới hạn phạm vi (insofar as, to the extent that) và nhượng bộ trang trọng (notwithstanding, even so). Mỗi từ có vị trí và dấu câu riêng, và chọn sai sẽ làm lập luận lệch nghĩa."
+        formulas:
+          - Câu. That said, / Even so, / Admittedly, + câu
+          - Câu; conversely, / by extension, / by the same token, + câu
+          - Insofar as / To the extent that + mệnh đề, + mệnh đề
+          - Notwithstanding + N, … · Given + N / Given that + mệnh đề, …
+        hook: Admittedly, a monolith is simpler to deploy. That said, it no longer fits our team structure.
+      functions:
+        - title: Thừa nhận rồi phản biện
+          explain: Admittedly / Granted mở đầu điều mình thừa nhận; That said / Even so / Nonetheless đưa lại lập trường.
+          examples:
+            - Admittedly, GraphQL adds complexity. That said, it removes most of our over-fetching.
+            - The benchmark is synthetic. Even so, the gap is too large to ignore.
+        - title: So sánh hai chiều và mở rộng
+          explain: "Conversely: chiều ngược lại cũng đúng. By extension / By the same token: lập luận áp dụng rộng hơn."
+          examples:
+            - Smaller batches lower latency; conversely, larger batches raise throughput.
+            - If one service can own its schema, then by extension every service can.
+        - title: Giới hạn phạm vi nhận định
+          explain: "Insofar as / To the extent that: chỉ đúng trong chừng mực điều kiện đó."
+          examples:
+            - The design is sound insofar as traffic stays below current levels.
+            - To the extent that we can predict load, autoscaling is unnecessary.
+        - title: Nhượng bộ và căn cứ trang trọng
+          explain: "Notwithstanding + N = despite; Given + N / Given that: căn cứ vào điều đó."
+          examples:
+            - Notwithstanding the migration cost, we recommend moving to Postgres.
+            - Given the team's experience with Go, a rewrite in Rust seems risky.
+      structure:
+        forms:
+          - label: Đầu câu mới
+            pattern: Câu. That said, / Even so, + câu
+            example: It is slower. That said, it is cheaper.
+          - label: Sau chấm phẩy
+            pattern: Câu; conversely, + câu
+            example: Caching helps reads; conversely, it complicates writes.
+          - label: Mệnh đề giới hạn
+            pattern: Insofar as + S + V, …
+            example: Insofar as the data is public, encryption is optional.
+          - label: Giới từ + danh từ
+            pattern: Notwithstanding / Given + N, …
+            example: Given the deadline, we will skip the redesign.
+        steps:
+          - title: Xác định quan hệ logic
+            explain: Phản biện, đảo chiều, mở rộng, giới hạn hay căn cứ? Chọn từ theo quan hệ, không theo độ “sang”.
+            example: Đảo chiều → conversely; mở rộng → by extension.
+          - title: Trạng từ liên kết không nối hai câu bằng phẩy
+            explain: That said, conversely, nonetheless… đứng sau dấu chấm hoặc chấm phẩy.
+            example: It is fast; nonetheless, it is fragile.
+          - title: Phân biệt giới từ và liên từ
+            explain: Notwithstanding, given, despite + danh từ; insofar as, given that, although + mệnh đề.
+            example: Given that the team is small, … / Given the small team, …
+          - title: Đừng chồng nhiều từ nối
+            explain: Một ý một từ nối; quá nhiều sẽ làm đề xuất nặng nề.
+            example: Không viết However, that said, nonetheless, …
+      examples:
+        - tag: Thừa nhận
+          en: Admittedly, a monolith is simpler to deploy. That said, it no longer fits our team structure.
+          vi: Phải thừa nhận monolith dễ triển khai hơn. Dù vậy, nó không còn hợp với cách tổ chức team của mình nữa.
+          note: Admittedly thừa nhận, That said quay lại lập trường.
+        - tag: Even so
+          en: The benchmark is synthetic. Even so, the gap is too large to ignore.
+          vi: Benchmark này là giả lập. Dù vậy, khoảng chênh lệch quá lớn để bỏ qua.
+          note: "Even so: dù điều vừa nói là đúng."
+        - tag: Conversely
+          en: Smaller batches lower latency; conversely, larger batches raise throughput.
+          vi: Batch nhỏ giảm độ trễ; ngược lại, batch lớn tăng thông lượng.
+          note: Hai vế đối xứng theo chiều ngược nhau.
+        - tag: By extension
+          en: If the payments team can own its schema, then by extension every team can.
+          vi: Nếu team thanh toán tự quản schema được thì suy rộng ra team nào cũng làm được.
+          note: Lập luận được áp dụng rộng hơn.
+        - tag: Insofar as
+          en: The design is sound insofar as traffic stays below current levels.
+          vi: Thiết kế ổn trong chừng mực lưu lượng còn dưới mức hiện tại.
+          note: Giới hạn phạm vi đúng của nhận định.
+        - tag: Notwithstanding
+          en: Notwithstanding the migration cost, we recommend moving to Postgres.
+          vi: Bất chấp chi phí chuyển đổi, tụi mình vẫn khuyến nghị chuyển sang Postgres.
+          note: Notwithstanding + danh từ, trang trọng như despite.
+        - tag: Given
+          en: Given the team's experience with Go, a rewrite in Rust seems risky.
+          vi: Xét kinh nghiệm của team với Go, viết lại bằng Rust có vẻ rủi ro.
+          note: "Given + danh từ: căn cứ vào điều đó."
+        - tag: By the same token
+          en: We expect clients to version their requests; by the same token, we must version our responses.
+          vi: Mình yêu cầu client đánh version cho request; theo cùng lý lẽ đó, mình cũng phải đánh version cho response.
+          note: Cùng một nguyên tắc áp dụng cho cả hai phía.
+      contrast:
+        title: Nhóm từ nối theo chức năng
+        rows:
+          - label: That said / Even so / Nonetheless
+            note: đưa lại lập trường sau khi thừa nhận
+            example: It is costly. Even so, it is worth it.
+          - label: Conversely
+            note: chiều ngược lại của cùng một quan hệ
+            example: More replicas, less risk; conversely, fewer replicas, more risk.
+          - label: By extension / By the same token
+            note: mở rộng hoặc áp dụng cùng lý lẽ
+            example: By the same token, the CLI needs tests too.
+          - label: Insofar as / To the extent that
+            note: giới hạn phạm vi đúng
+            example: It is secure insofar as the keys stay private.
+        fixes:
+          - wrong: Notwithstanding the cost is high, we recommend it.
+            right: Notwithstanding the high cost, we recommend it.
+            why: Notwithstanding là giới từ, theo sau là danh từ.
+          - wrong: It is fast, conversely it uses more memory.
+            right: It is fast; however, it uses more memory.
+            why: Đây là tương phản thường, không phải đảo chiều; và trạng từ liên kết cần chấm phẩy.
+          - wrong: Insofar the data is public, we can cache it.
+            right: Insofar as the data is public, we can cache it.
+            why: Cụm đầy đủ là insofar as + mệnh đề.

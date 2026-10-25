@@ -11,6 +11,7 @@ import { createHash } from "node:crypto";
 import { createClient } from "@supabase/supabase-js";
 import { toQuestionRow } from "../src/features/content/toQuestionRow";
 import { DEFAULT_MINUTES } from "../src/features/curriculum/schema";
+import { TRACK_TEST_SIZE } from "../src/features/curriculum/autoquiz";
 import { loadCurated, validateCurated } from "./lib/curated";
 import { expandTrackLessons, loadCurriculum, validateCurriculum } from "./lib/curriculum";
 
@@ -144,6 +145,8 @@ console.log(`senses: ${senseIds.size}`);
 let newVersions = 0;
 for (const q of curated.questions) {
   const { prompt, answer, contentHash } = toQuestionRow(q);
+  // The same exercise can appear in separate topics with different question identities.
+  const scopedHash = createHash("sha256").update(`${q.slug}:${contentHash}`).digest("hex");
   const existing = must(
     await db.from("questions").select("id, current_version_id").eq("slug", q.slug).maybeSingle(),
     `question ${q.slug}`,
@@ -179,7 +182,23 @@ for (const q of curated.questions) {
         q.slug,
       ) as { content_hash: string; version: number })
     : null;
-  if (current?.content_hash === contentHash) continue;
+  if (current?.content_hash === contentHash || current?.content_hash === scopedHash) continue;
+
+  const matchingVersions = must(
+    await db
+      .from("question_versions")
+      .select("id, question_id, content_hash")
+      .in("content_hash", [contentHash, scopedHash]),
+    `matching versions ${q.slug}`,
+  );
+  const reusable = matchingVersions.find((v) => v.question_id === question.id);
+  if (reusable) {
+    must(
+      await db.from("questions").update({ current_version_id: reusable.id }).eq("id", question.id),
+      q.slug,
+    );
+    continue;
+  }
 
   const version = must(
     await db
@@ -192,7 +211,7 @@ for (const q of curated.questions) {
         hint_vi: q.hint_vi ?? null,
         explanation_vi: q.explanation_vi,
         explanation_en: q.explanation_en ?? null,
-        content_hash: contentHash,
+        content_hash: matchingVersions.length ? scopedHash : contentHash,
         generator: { source: "curated" },
       })
       .select("id")
@@ -312,7 +331,7 @@ for (const u of curriculum.units) {
             // Best-pass XP (3 stars); every track test passes at 80%.
             xp: 80,
             pass_pct: 80,
-            question_count: l.questions.length,
+            question_count: Math.min(TRACK_TEST_SIZE, l.questions.length),
             body,
           },
           { onConflict: "slug" },

@@ -1,0 +1,317 @@
+# Grammar track B2 tests (batch b). Original items; answers stay server-side.
+# --- g-b2-emphasis-do
+- slug: g-b2-emphasis-do-1
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: pr
+  sentence: "I know it looks risky, but this change ___ fix the race condition."
+  options: [does, is, do, has]
+  answer: 0
+  explanation_vi: "Chủ ngữ số ít ở hiện tại → does + V nguyên mẫu để nhấn mạnh."
+- slug: g-b2-emphasis-do-2
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "You think I skipped it? I did ___ the smoke tests last night."
+  options: [ran, running, run, runs]
+  answer: 2
+  explanation_vi: "Sau did, động từ chính về nguyên mẫu: did run."
+- slug: g-b2-emphasis-do-3
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: email
+  sentence: "We ___ appreciate your patience while we resolve the outage."
+  options: [does, are, do, did be]
+  answer: 2
+  explanation_vi: "Chủ ngữ we ở hiện tại → do + appreciate, lời cảm ơn chân thành hơn."
+- slug: g-b2-emphasis-do-4
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: pr
+  sentence: "Your refactor ___ make the module easier to read, but it breaks two tests."
+  options: [do, does, is, did made]
+  answer: 1
+  explanation_vi: "Thừa nhận điểm tốt trước khi nêu vấn đề: chủ ngữ số ít → does make."
+- slug: g-b2-emphasis-do-5
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "Nobody believed it, but the old cron job ___ (delete – nhấn mạnh, quá khứ) the backups."
+  accepted: ["did delete"]
+  explanation_vi: "Nhấn mạnh việc thật sự đã xảy ra trong quá khứ: did + delete."
+- slug: g-b2-emphasis-do-6
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "The service ___ (support – nhấn mạnh, hiện tại) retries; it's just off by default."
+  accepted: ["does support"]
+  explanation_vi: "Đính chính hiểu lầm: chủ ngữ số ít ở hiện tại → does support."
+- slug: g-b2-emphasis-do-7
+  type: mcq_meaning
+  cefr: B2
+  topic: grammar
+  stem: "Chọn câu đúng."
+  question: "Câu nào đúng ngữ pháp?"
+  options:
+    - "She did reviewed the PR before lunch."
+    - "She did review the PR before lunch."
+    - "She does reviewed the PR before lunch."
+    - "She did reviews the PR before lunch."
+  answer: 1
+  explanation_vi: "Did + V nguyên mẫu (review), không thêm -ed hay -s."
+- slug: g-b2-emphasis-do-8
+  type: mcq_meaning
+  cefr: B2
+  topic: grammar
+  stem: "Nhắc đồng nghiệp một cách thân thiện."
+  question: "“Nhớ ping mình nếu deploy lại lỗi nhé.” là…"
+  options:
+    - "Do ping me if the deploy fails again."
+    - "Does ping me if the deploy fails again."
+    - "Do pinging me if the deploy fails again."
+    - "Did ping me if the deploy fails again."
+  answer: 0
+  explanation_vi: "Do + V nguyên mẫu ở đầu câu mệnh lệnh làm lời nhắc ấm áp hơn."
+# --- g-b2-whatever
+- slug: g-b2-whatever-1
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: jira
+  sentence: "___ framework we choose, the API must stay backward compatible."
+  options: [Whatever, However, Wherever, Whoever]
+  answer: 0
+  explanation_vi: "Bất kể chọn cái gì (framework) → whatever + danh từ."
+- slug: g-b2-whatever-2
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: pr
+  sentence: "___ small the change is, it still needs one approval."
+  options: [Whatever, However, Whichever, Whenever]
+  answer: 1
+  explanation_vi: "Dù nhỏ đến đâu → however + tính từ + S + be."
+- slug: g-b2-whatever-3
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "___ is on call this week should acknowledge alerts within five minutes."
+  options: [Whatever, Wherever, Whoever, However]
+  answer: 2
+  explanation_vi: "Bất kể là ai → whoever, làm chủ ngữ của mệnh đề."
+- slug: g-b2-whatever-4
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: email
+  sentence: "No matter what the vendor ___, we launch on Friday."
+  options: [will decide, decides, decide, deciding]
+  answer: 1
+  explanation_vi: "Mệnh đề “bất kể” dùng hiện tại đơn cho ý tương lai, chủ ngữ số ít → decides."
+- slug: g-b2-whatever-5
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: jira
+  sentence: "No ___ where the request comes from, validate the token first."
+  accepted: ["matter"]
+  explanation_vi: "No matter where = wherever: bất kể từ đâu."
+- slug: g-b2-whatever-6
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "___ the schema changes, regenerate the TypeScript types. (= mỗi khi)"
+  accepted: ["Whenever", "whenever"]
+  explanation_vi: "Bất cứ lúc nào / mỗi khi → whenever."
+- slug: g-b2-whatever-7
+  type: mcq_meaning
+  cefr: B2
+  topic: grammar
+  stem: "Chọn câu đúng."
+  question: "Câu nào đúng ngữ pháp?"
+  options:
+    - "However you are busy, reply to the client today."
+    - "However busy are you, reply to the client today."
+    - "However busy you are, reply to the client today."
+    - "No matter busy you are, reply to the client today."
+  answer: 2
+  explanation_vi: "However + tính từ + S + V; no matter cần thêm how."
+- slug: g-b2-whatever-8
+  type: mcq_meaning
+  cefr: B2
+  topic: grammar
+  stem: "Viết yêu cầu cho RFC."
+  question: "“Dù bạn chọn gói nào, việc chuyển dữ liệu cũng miễn phí.” là…"
+  options:
+    - "Whatever plan you will choose, the migration is free."
+    - "Whichever plan you choose, the migration is free."
+    - "However plan you choose, the migration is free."
+    - "No matter plan you choose, the migration is free."
+  answer: 1
+  explanation_vi: "Chọn trong các gói có sẵn → whichever + danh từ, động từ ở hiện tại đơn."
+# --- g-b2-comparisons
+- slug: g-b2-comparisons-1
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "The new parser is twice ___ fast as the old one."
+  options: [more, as, so, than]
+  answer: 1
+  explanation_vi: "Gấp đôi → twice as + tính từ + as."
+- slug: g-b2-comparisons-2
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: pr
+  sentence: "With the index, the query runs three times ___ than before."
+  options: [fast, as fast, faster, fastest]
+  answer: 2
+  explanation_vi: "N times + so sánh hơn + than → three times faster than."
+- slug: g-b2-comparisons-3
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: email
+  sentence: "Error rates are ___ lower since we added retries."
+  options: [very, far, more, too]
+  answer: 1
+  explanation_vi: "Trước so sánh hơn dùng far/much để nói chênh nhiều; không dùng very."
+- slug: g-b2-comparisons-4
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: jira
+  sentence: "We now handle ten times as ___ requests as last year."
+  options: [much, more, many, most]
+  answer: 2
+  explanation_vi: "Requests đếm được → as many + danh từ + as."
+- slug: g-b2-comparisons-5
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "As the monorepo grows, the CI runs get ___. (slow – lặp so sánh hơn, xu hướng tăng dần)"
+  accepted: ["slower and slower"]
+  explanation_vi: "Xu hướng tăng dần với tính từ ngắn → lặp so sánh hơn: slower and slower."
+- slug: g-b2-comparisons-6
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: email
+  sentence: "The managed service costs twice as much ___ running our own servers."
+  accepted: ["as"]
+  explanation_vi: "As … as đi cặp: twice as much as."
+- slug: g-b2-comparisons-7
+  type: mcq_meaning
+  cefr: B2
+  topic: grammar
+  stem: "Chọn câu đúng."
+  question: "Câu nào đúng ngữ pháp?"
+  options:
+    - "Version 2 is very more stable than version 1."
+    - "Version 2 is much more stable than version 1."
+    - "Version 2 is much stabler as version 1."
+    - "Version 2 is more much stable than version 1."
+  answer: 1
+  explanation_vi: "Much + more + tính từ dài + than."
+- slug: g-b2-comparisons-8
+  type: mcq_meaning
+  cefr: B2
+  topic: grammar
+  stem: "Viết báo cáo xu hướng."
+  question: "“Khách hàng ngày càng lo lắng về quyền riêng tư.” là…"
+  options:
+    - "Clients are increasing worried about privacy."
+    - "Clients are more worried and worried about privacy."
+    - "Clients are increasingly worried about privacy."
+    - "Clients are worrieder and worrieder about privacy."
+  answer: 2
+  explanation_vi: "Increasingly + tính từ: ngày càng …"
+# --- g-b2-phrasal-prepositions
+- slug: g-b2-phrasal-prepositions-1
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "The release depends ___ the security review."
+  options: [of, in, on, from]
+  answer: 2
+  explanation_vi: "Depend đi với giới từ cố định on."
+- slug: g-b2-phrasal-prepositions-2
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: jira
+  sentence: "The import job ran out ___ memory halfway through."
+  options: [from, of, with, off]
+  answer: 1
+  explanation_vi: "Run out of: cụm ba thành phần, nghĩa là hết (tài nguyên)."
+- slug: g-b2-phrasal-prepositions-3
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: pr
+  sentence: "Every service must comply ___ the new logging policy."
+  options: [to, with, for, by]
+  answer: 1
+  explanation_vi: "Comply with: tuân thủ."
+- slug: g-b2-phrasal-prepositions-4
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: email
+  sentence: "The data loss resulted ___ a misconfigured backup script."
+  options: [in, from, on, to]
+  answer: 1
+  explanation_vi: "Result from + nguyên nhân (bắt nguồn từ); result in + kết quả."
+- slug: g-b2-phrasal-prepositions-5
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: slack
+  sentence: "Lan came up ___ a script that halves the setup time."
+  accepted: ["with"]
+  explanation_vi: "Come up with: nghĩ ra, đề xuất."
+- slug: g-b2-phrasal-prepositions-6
+  type: fill_blank
+  cefr: B2
+  topic: grammar
+  skin: pr
+  sentence: "She insisted on ___ (write) integration tests before merging."
+  accepted: ["writing"]
+  explanation_vi: "Sau giới từ (on) dùng V-ing."
+- slug: g-b2-phrasal-prepositions-7
+  type: mcq_meaning
+  cefr: B2
+  topic: grammar
+  stem: "Chọn câu đúng."
+  question: "Câu nào đúng ngữ pháp?"
+  options:
+    - "Let's get the old flags rid of after the rollout."
+    - "Let's get rid the old flags after the rollout."
+    - "Let's get rid of the old flags after the rollout."
+    - "Let's get rid off the old flags after the rollout."
+  answer: 2
+  explanation_vi: "Get rid of + tân ngữ; cụm ba thành phần không tách."
+- slug: g-b2-phrasal-prepositions-8
+  type: mcq_meaning
+  cefr: B2
+  topic: grammar
+  stem: "Cập nhật trong buổi điều tra sự cố."
+  question: "“Nhóm đang tìm hiểu vì sao hàng đợi cứ tăng.” là…"
+  options:
+    - "The team is looking after why the queue keeps growing."
+    - "The team is looking into why the queue keeps growing."
+    - "The team is looking up why the queue keeps growing."
+    - "The team is looking for why the queue keeps growing."
+  answer: 1
+  explanation_vi: "Look into: điều tra, xem xét nguyên nhân."
