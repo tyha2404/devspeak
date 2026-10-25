@@ -73,8 +73,8 @@ export function TestIntro({
           <h2 className="mt-1 text-[1.75rem] leading-tight font-bold">{title}</h2>
           <p className="text-muted mt-2">{text}</p>
           <p className="border-merged/30 bg-merged-soft mt-4 rounded-xl border px-4 py-3 text-sm">
-            <strong>20 giây/câu chọn · 30 giây/câu điền từ.</strong> Mỗi câu chỉ trả lời một lần;
-            câu hết giờ được tính là chưa đúng và bài vẫn tiếp tục đến hết.
+            <strong>Từ 20 giây/câu, câu dài và trình độ cao được thêm giờ.</strong> Mỗi câu chỉ trả
+            lời một lần; câu hết giờ được tính là chưa đúng và bài vẫn tiếp tục đến hết.
           </p>
         </div>
         <dl className="border-line grid grid-cols-2 gap-4 sm:grid-cols-1 sm:border-l sm:pl-6">

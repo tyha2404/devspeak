@@ -12,6 +12,7 @@ import { GrammarStudy } from "./steps/GrammarStudy";
 import { TrackCards } from "./steps/TrackCards";
 import { TestIntro, TrackResult, TrackStepper } from "./TrackParts";
 import { TrackQuiz } from "./TrackQuiz";
+import { LessonPendingState } from "./LessonLoading";
 
 type Phase = "study" | "intro" | "quiz" | "finishing" | "result";
 
@@ -93,7 +94,7 @@ export function TrackLesson({ view, run }: { view: LessonView; run: LessonStart 
             onDone={() => void finish()}
           />
         )}
-        {phase === "finishing" && <p className="text-muted">Đang lưu kết quả…</p>}
+        {phase === "finishing" && !error && <LessonPendingState saving />}
         {phase === "result" && result && (
           <TrackResult
             title={view.title.en}
@@ -117,6 +118,9 @@ export function TrackLesson({ view, run }: { view: LessonView; run: LessonStart 
                     className={btn.primary}
                   >
                     {next?.lesson ? `Bài tiếp: ${next.lesson.title.en} →` : "Tiếp tục lộ trình →"}
+                  </Link>
+                  <Link href={`/lesson/${view.id}/practice`} className={btn.secondary}>
+                    Luyện tập (không tính giờ)
                   </Link>
                   <Link href={trackHref} className={btn.secondary}>
                     Về lộ trình

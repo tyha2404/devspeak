@@ -8,9 +8,7 @@ status: published
 title:
   en: Development Tools & Digital Systems
   vi: Công cụ lập trình & hệ thống số
-summary_vi: Dùng tiếng Anh khi cài môi trường, quản lý tài khoản, làm việc với
-  mạng, dịch vụ cloud và công cụ AI. Luôn giải thích tác vụ và giới hạn của công
-  cụ.
+summary_vi: Dùng tiếng Anh khi cài môi trường, quản lý tài khoản, làm việc với mạng, dịch vụ cloud và công cụ AI. Luôn giải thích tác vụ và giới hạn của công cụ.
 can_do:
   - Mô tả môi trường làm việc và tái hiện lỗi công cụ
   - Hỏi quyền truy cập và giải thích cách xử lý dữ liệu an toàn

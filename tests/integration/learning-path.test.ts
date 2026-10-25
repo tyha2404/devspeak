@@ -42,7 +42,7 @@ describe("lessons", () => {
     );
   });
 
-  it("vocab lesson: adds cards, runs a strict 16-question test and pays by stars on every pass", async () => {
+  it("vocab lesson: adds cards, runs a strict 16-question test and pays full XP on first/improved passes and 30% on replays", async () => {
     const user = await newUser();
     const start = await startLesson(admin, user, await lessonId("t01-l1"));
     // Starting again resumes the same run instead of creating a new test.
@@ -61,17 +61,43 @@ describe("lessons", () => {
 
     // 15/16 = 94% → 2 stars, 35 + 15 × 2 = 65 XP; the next lesson opens.
     await answerSession(user, start.sessionId!, (i) => i !== 0);
+    // Push every card into the future so we can see which ones the mistake makes due again.
+    const later = new Date(Date.now() + 10 * 86_400_000).toISOString();
+    await admin.from("user_cards").update({ due: later }).eq("user_id", user);
     const r = await completeLesson(admin, user, start.runId);
     expect(r).toMatchObject({ passed: true, stars: 2, xp: 65, correct: 15, total: 16 });
     expect(r.next?.lesson.id).toBe(await lessonId("t01-l2"));
     expect(await stateOf(user, "t01-l2")).toBe("available");
 
-    // A perfect replay pays again in full.
+    // The wrong answer's senses are due now in review; the others keep their future date.
+    const { data: missed } = await admin
+      .from("question_deliveries")
+      .select("questions(sense_ids)")
+      .eq("session_id", start.sessionId!)
+      .eq("correct", false);
+    const missedSenses = missed!.flatMap(
+      (d) => (d.questions as unknown as { sense_ids: number[] }).sense_ids,
+    );
+    expect(missedSenses.length).toBeGreaterThan(0);
+    const { data: due } = await admin
+      .from("user_cards")
+      .select("sense_id")
+      .eq("user_id", user)
+      .lte("due", new Date().toISOString());
+    expect(new Set(due!.map((c) => c.sense_id))).toEqual(new Set(missedSenses));
+
+    // A replay that improves the best star count pays in full.
     const again = await startLesson(admin, user, await lessonId("t01-l1"));
     await answerSession(user, again.sessionId!, () => true);
     expect(await completeLesson(admin, user, again.runId)).toMatchObject({ stars: 3, xp: 80 });
     expect(await xpOf(user)).toBe(145);
-  }, 90_000);
+
+    // A replay without a better star count pays 30%: round(0.3 × 80) = 24.
+    const third = await startLesson(admin, user, await lessonId("t01-l1"));
+    await answerSession(user, third.sessionId!, () => true);
+    expect(await completeLesson(admin, user, third.runId)).toMatchObject({ stars: 3, xp: 24 });
+    expect(await xpOf(user)).toBe(169);
+  }, 150_000);
 
   it("a failed test pays nothing and keeps the next lesson locked", async () => {
     const user = await newUser();
@@ -183,7 +209,15 @@ describe("level test-out", () => {
     const a2 = findUnit(path, await unitId("grammar-a2"))!.unit;
     expect(a2.lessons.every((l) => l.state === "available")).toBe(true);
     expect(await stateOf(user, "g-a1-prepositions")).toBe("available");
-  });
+
+    // Passing the same level's test-out again pays nothing.
+    const again = await startTestOut(admin, user, a1);
+    await answerSession(user, again.sessionId, () => true);
+    expect(await finishTestOut(admin, user, again.sessionId)).toMatchObject({
+      passed: true,
+      xp: 0,
+    });
+  }, 60_000);
 });
 
 describe("SRS review", () => {

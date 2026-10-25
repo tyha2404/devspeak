@@ -8,9 +8,7 @@ status: published
 title:
   en: Debugging, Experiments & Engineering Evidence
   vi: Debug, thử nghiệm & bằng chứng kỹ thuật
-summary_vi: Dùng tiếng Anh để đặt giả thuyết, tái hiện lỗi và diễn giải bằng
-  chứng. Từ đọc log đến benchmark và kết luận thí nghiệm, luôn tách quan sát
-  khỏi suy đoán.
+summary_vi: Dùng tiếng Anh để đặt giả thuyết, tái hiện lỗi và diễn giải bằng chứng. Từ đọc log đến benchmark và kết luận thí nghiệm, luôn tách quan sát khỏi suy đoán.
 can_do:
   - Viết báo cáo điều tra lỗi có bằng chứng và giả thuyết
   - Trình bày thử nghiệm, kết quả và giới hạn kết luận
@@ -20,11 +18,11 @@ lessons:
     title: { en: "Set 1: Observations & symptoms", vi: "Bộ 1: Quan sát & dấu hiệu lỗi" }
     senses:
       [
-        observe-v-science,
+        observe-v,
         glitch-n,
         notice-v,
         behaviour-n-science,
-        unexpected-adj-science,
+        unexpected-adj,
         crash-v,
         slow-adj,
         happen-v,
@@ -38,7 +36,7 @@ lessons:
     senses:
       [
         reproducible-adj,
-        steps-to-reproduce-n-science,
+        steps-to-reproduce-n,
         environment-n,
         input-n,
         expected-result-n,
@@ -60,12 +58,12 @@ lessons:
         take-for-granted-phr,
         suspect-v,
         probable-adj,
-        rule-out-phr,
+        rule-out-pv,
         sanity-check-n,
         disprove-v,
         data-point-n,
         possible-cause-n,
-        condition-n-science,
+        condition-n-nature,
         prediction-n,
         falsifiable-adj,
         unknown-n,
@@ -83,8 +81,8 @@ lessons:
         stack-trace-n,
         trace-id-n,
         sequence-n-science,
-        event-n-science,
-        warning-n-science,
+        event-n,
+        warning-n,
         status-code-n,
         verbose-adj,
         grep-v,
@@ -92,7 +90,7 @@ lessons:
         preceding-adj,
         surrounding-lines-n,
         span-n,
-        noise-n-science,
+        noise-n,
       ]
     questions: []
   - slug: t11-l5
@@ -100,9 +98,9 @@ lessons:
     title: { en: "Set 5: A minimal experiment", vi: "Bộ 5: Thử nghiệm tối thiểu" }
     senses:
       [
-        experiment-n,
+        experiment-env-n,
         variable-n,
-        isolate-v-science,
+        isolate-v,
         controlled-adj,
         minimal-adj,
         factor-n,
@@ -110,12 +108,12 @@ lessons:
         repeat-v,
         run-n,
         roll-back-phr,
-        toggle-v-science,
+        toggle-v,
         feature-flag-n,
         scratch-environment-n,
         procedure-n,
         time-v,
-        record-v-science,
+        record-v,
         clean-state-n,
         one-at-a-time-phr,
       ]
@@ -126,22 +124,22 @@ lessons:
     senses:
       [
         micro-benchmark-n,
-        baseline-n-science,
+        baseline-n,
         latency-n,
         throughput-n,
         percentile-n,
         warm-up-n,
-        overhead-n-science,
+        overhead-n,
         slowdown-n,
-        improvement-n-science,
-        average-n-science,
+        improvement-n,
+        average-n,
         median-n,
         variance-n,
-        outlier-n-science,
+        outlier-n,
         comparable-adj,
         under-load-phr,
         profile-v,
-        bottleneck-n-science,
+        bottleneck-n,
         iteration-n,
         hardware-n,
         cold-start-n,
@@ -152,17 +150,17 @@ lessons:
     title: { en: "Set 7: A/B tests & metrics", vi: "Bộ 7: Thử nghiệm A/B & chỉ số" }
     senses:
       [
-        ab-test-n,
+        a-b-test-n,
         holdout-n,
         variant-n,
-        metric-n-science,
+        metric-n,
         conversion-rate-n,
         traffic-split-n,
         randomly-adv,
         assign-v,
         cohort-n,
         statistically-significant-adj,
-        confidence-interval-n-science,
+        confidence-interval-n,
         null-hypothesis-n,
         p-value-n,
         uplift-n,
@@ -192,10 +190,10 @@ lessons:
         imply-v,
         infer-v,
         conclude-v,
-        bear-out-phr-science,
+        bear-out-phr,
         contradict-v,
         observational-adj,
-        sample-n-science,
+        sample-n,
         generalise-v,
         read-too-much-into-phr,
         subtlety-n,
@@ -218,7 +216,7 @@ lessons:
         chain-of-events-n,
         five-whys-n,
         failure-mode-n,
-        quarantine-v-science,
+        quarantine-v,
         remediation-n,
         stopgap-n-science,
         underlying-adj,
@@ -231,12 +229,12 @@ lessons:
         cascade-v,
         blast-radius-n,
         detect-v,
-        recurrence-n-science,
+        recurrence-n,
         circuit-breaker-n,
-        postmortem-n-science,
-        blameless-adj-science,
-        action-item-n-science,
-        corroborate-v-science,
+        postmortem-n,
+        blameless-adj,
+        action-item-n,
+        corroborate-v,
         testable-adj,
         explanation-n,
         consistent-with-phr,
@@ -256,13 +254,13 @@ lessons:
         user-impact-n,
         priority-level-n,
         affected-adj,
-        restore-v-science,
+        restore-v,
         outstanding-adj,
         way-forward-n,
         put-forward-phr,
-        known-issue-n-science,
-        raw-data-n-science,
-        reviewer-n-science,
+        known-issue-n,
+        raw-data-n,
+        reviewer-n,
         jargon-n,
         objective-adj,
         lay-reader-n,
@@ -271,7 +269,7 @@ lessons:
         looking-back-phr,
         to-date-phr,
         disclose-v-science,
-        owner-n-science,
+        owner-n,
         keep-posted-phr,
         evidence-based-adj,
         fact-check-v,
@@ -279,9 +277,9 @@ lessons:
         countersign-v,
         reference-v,
         concede-v,
-        lesson-learned-n-science,
+        lesson-learned-n,
         initial-adj,
         conclusive-adj,
-        attach-v-science,
+        attach-v,
       ]
     questions: []

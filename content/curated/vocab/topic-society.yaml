@@ -290,24 +290,6 @@
       [{ en: "The app freezes on low-end devices.", vi: "App bị đơ trên thiết bị cấu hình thấp." }],
   }
 - {
-    slug: cut-out-pv,
-    lemma: "cut out",
-    pos: phrasal_verb,
-    kind: phrasal,
-    cefr: B1,
-    topic: equality,
-    ipa: "/ˌkʌt ˈaʊt/",
-    def: "To stop working suddenly, especially a connection.",
-    vi: "bị ngắt đột ngột",
-    examples:
-      [
-        {
-          en: "The upload fails when the connection cuts out.",
-          vi: "Việc tải lên thất bại khi kết nối bị ngắt.",
-        },
-      ],
-  }
-- {
     slug: spotty-adj,
     lemma: "spotty",
     pos: adjective,
@@ -1058,23 +1040,6 @@
       ],
   }
 - {
-    slug: proxy-n,
-    lemma: "proxy",
-    pos: noun,
-    cefr: C1,
-    topic: equality,
-    ipa: "/ˈprɒksi/",
-    def: "Something used to stand for another thing that is hard to measure.",
-    vi: "biến thay thế",
-    examples:
-      [
-        {
-          en: "Postcode works as a proxy for income here.",
-          vi: "Mã bưu chính ở đây đóng vai biến thay thế cho thu nhập.",
-        },
-      ],
-  }
-- {
     slug: false-positive-n,
     lemma: "false positive",
     pos: noun,
@@ -1493,23 +1458,6 @@
         {
           en: "The cookie banner has no 'Reject all' button.",
           vi: "Banner cookie không có nút 'Từ chối tất cả'.",
-        },
-      ],
-  }
-- {
-    slug: export-v,
-    lemma: "export",
-    pos: verb,
-    cefr: B1,
-    topic: equality,
-    ipa: "/ɪkˈspɔːt/",
-    def: "To save data from a system so you can use it elsewhere.",
-    vi: "xuất (dữ liệu)",
-    examples:
-      [
-        {
-          en: "Let users export their history as a file.",
-          vi: "Cho người dùng xuất lịch sử ra file.",
         },
       ],
   }
@@ -2308,24 +2256,6 @@
       ],
   }
 - {
-    slug: canary-release-n,
-    lemma: "canary release",
-    pos: noun,
-    kind: collocation,
-    cefr: C1,
-    topic: equality,
-    ipa: "/kəˈneəri rɪˌliːs/",
-    def: "Releasing a change to a tiny group first to catch problems early.",
-    vi: "phát hành canary",
-    examples:
-      [
-        {
-          en: "The canary release found the crash in an hour.",
-          vi: "Bản phát hành canary phát hiện lỗi crash trong một giờ.",
-        },
-      ],
-  }
-- {
     slug: fallback-plan-n,
     lemma: "fallback plan",
     pos: noun,
@@ -2664,23 +2594,6 @@
         {
           en: "Attach supporting data to every barrier you report.",
           vi: "Kèm dữ liệu chứng minh cho mỗi rào cản bạn báo cáo.",
-        },
-      ],
-  }
-- {
-    slug: observation-n,
-    lemma: "observation",
-    pos: noun,
-    cefr: B2,
-    topic: equality,
-    ipa: "/ˌɒbzəˈveɪʃn/",
-    def: "Something you notice by watching carefully.",
-    vi: "điều quan sát được",
-    examples:
-      [
-        {
-          en: "One observation: users zoom in on every price.",
-          vi: "Một điều quan sát được: người dùng phóng to mọi giá tiền.",
         },
       ],
   }

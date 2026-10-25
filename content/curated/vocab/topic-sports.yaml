@@ -2033,23 +2033,6 @@
       ],
   }
 - {
-    slug: "sleepless-adj",
-    lemma: "sleepless",
-    pos: "adjective",
-    cefr: "B2",
-    topic: "active-life",
-    ipa: "/ˈsliːpləs/",
-    def: "Without any sleep.",
-    vi: "mất ngủ, không ngủ",
-    examples:
-      [
-        {
-          en: "After a sleepless night, I asked to swap my shift.",
-          vi: "Sau một đêm không ngủ, mình xin đổi ca.",
-        },
-      ],
-  }
-- {
     slug: "bedtime-n",
     lemma: "bedtime",
     pos: "noun",
@@ -2103,24 +2086,6 @@
       ],
   }
 - {
-    slug: "graveyard-shift-n",
-    lemma: "graveyard shift",
-    pos: "noun",
-    kind: "collocation",
-    cefr: "C1",
-    topic: "active-life",
-    ipa: "/ˈɡreɪvjɑːd ʃɪft/",
-    def: "Work that happens in the middle of the night.",
-    vi: "ca khuya",
-    examples:
-      [
-        {
-          en: "Nobody likes the graveyard shift, so we rotate it.",
-          vi: "Không ai thích ca khuya nên tụi mình xoay vòng.",
-        },
-      ],
-  }
-- {
     slug: "trade-shifts-phr",
     lemma: "trade shifts",
     pos: "phrase",
@@ -2139,24 +2104,6 @@
       ],
   }
 - {
-    slug: "cover-for-phr",
-    lemma: "cover for",
-    pos: "phrasal_verb",
-    kind: "phrasal",
-    cefr: "B2",
-    topic: "active-life",
-    ipa: "/ˈkʌvə fɔː/",
-    def: "To do someone's work while they are away.",
-    vi: "làm thay, trực thay",
-    examples:
-      [
-        {
-          en: "Minh will cover for me while I sleep this afternoon.",
-          vi: "Minh sẽ trực thay mình trong lúc mình ngủ chiều nay.",
-        },
-      ],
-  }
-- {
     slug: "firefight-v",
     lemma: "firefight",
     pos: "verb",
@@ -2170,24 +2117,6 @@
         {
           en: "We spent all week firefighting instead of building features.",
           vi: "Cả tuần tụi mình chữa cháy thay vì làm tính năng.",
-        },
-      ],
-  }
-- {
-    slug: "crash-out-phr",
-    lemma: "crash out",
-    pos: "phrasal_verb",
-    kind: "phrasal",
-    cefr: "C1",
-    topic: "active-life",
-    ipa: "/kræʃ aʊt/",
-    def: "To fall asleep quickly because you are very tired.",
-    vi: "lăn ra ngủ",
-    examples:
-      [
-        {
-          en: "I crashed out on the sofa after my shift.",
-          vi: "Mình lăn ra ngủ trên sofa sau ca trực.",
         },
       ],
   }
@@ -2852,24 +2781,6 @@
       ],
   }
 - {
-    slug: "elbow-room-n",
-    lemma: "elbow room",
-    pos: "noun",
-    kind: "collocation",
-    cefr: "C1",
-    topic: "active-life",
-    ipa: "/ˈelbəʊ ruːm/",
-    def: "Enough space or freedom to do what you need.",
-    vi: "khoảng trống, dư địa",
-    examples:
-      [
-        {
-          en: "Leave some elbow room in the sprint for surprises.",
-          vi: "Chừa chút dư địa trong sprint cho việc phát sinh.",
-        },
-      ],
-  }
-- {
     slug: "me-time-n",
     lemma: "me time",
     pos: "noun",
@@ -3178,19 +3089,6 @@
     vi: "không dùng màn hình",
     examples:
       [{ en: "Sunday is my screen-free day.", vi: "Chủ nhật là ngày không màn hình của mình." }],
-  }
-- {
-    slug: "log-off-phr",
-    lemma: "log off",
-    pos: "phrasal_verb",
-    kind: "phrasal",
-    cefr: "B1",
-    topic: "active-life",
-    ipa: "/lɒɡ ɒf/",
-    def: "To finish using a computer system or end your workday online.",
-    vi: "đăng xuất, nghỉ làm",
-    examples:
-      [{ en: "I log off at six and go for a walk.", vi: "Mình nghỉ làm lúc sáu giờ rồi đi bộ." }],
   }
 - {
     slug: "sabbatical-n",

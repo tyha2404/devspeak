@@ -35,23 +35,6 @@
       ],
   }
 - {
-    slug: "hobby-n-family",
-    lemma: "hobby",
-    pos: "noun",
-    cefr: "A2",
-    topic: "family",
-    ipa: "/ˈhɒbi/",
-    def: "Something you enjoy doing in your free time.",
-    vi: "sở thích",
-    examples:
-      [
-        {
-          en: "Outside work, my main hobby is playing badminton.",
-          vi: "Ngoài giờ làm, sở thích chính của mình là chơi cầu lông.",
-        },
-      ],
-  }
-- {
     slug: "free-time-n",
     lemma: "free time",
     pos: "noun",
@@ -79,23 +62,6 @@
         {
           en: "Our first sprint was a good chance to get to know the new designer.",
           vi: "Sprint đầu tiên là dịp tốt để làm quen với bạn designer mới.",
-        },
-      ],
-  }
-- {
-    slug: "background-n-family",
-    lemma: "background",
-    pos: "noun",
-    cefr: "A2",
-    topic: "family",
-    ipa: "/ˈbækɡraʊnd/",
-    def: "Your past experience, education and work before now.",
-    vi: "xuất thân, kinh nghiệm trước đây",
-    examples:
-      [
-        {
-          en: "I have a background in testing before I moved to backend work.",
-          vi: "Mình từng làm tester trước khi chuyển sang backend.",
         },
       ],
   }
@@ -131,24 +97,6 @@
         {
           en: "Her health is private, so please don't ask about it in the channel.",
           vi: "Sức khỏe của chị ấy là chuyện riêng, đừng hỏi trong channel nhé.",
-        },
-      ],
-  }
-- {
-    slug: "nice-to-meet-you-phr-family",
-    lemma: "nice to meet you",
-    pos: "phrase",
-    kind: "phrase",
-    cefr: "A1",
-    topic: "family",
-    ipa: "/ˌnaɪs tə ˈmiːt juː/",
-    def: "A friendly thing you say when you meet someone for the first time.",
-    vi: "rất vui được gặp bạn",
-    examples:
-      [
-        {
-          en: "Hi Minh, nice to meet you. I'll be reviewing your pull requests.",
-          vi: "Chào Minh, rất vui được gặp bạn. Mình sẽ review pull request của bạn.",
         },
       ],
   }
@@ -377,24 +325,6 @@
         },
       ],
   }
-# Set 3: Availability & boundaries
-- {
-    slug: "availability-n-family",
-    lemma: "availability",
-    pos: "noun",
-    cefr: "B1",
-    topic: "family",
-    ipa: "/əˌveɪləˈbɪləti/",
-    def: "The times when you are free to work, meet or answer.",
-    vi: "thời gian rảnh/có thể làm việc",
-    examples:
-      [
-        {
-          en: "Please add your availability to the shared calendar.",
-          vi: "Bạn thêm thời gian có thể làm việc vào lịch chung nhé.",
-        },
-      ],
-  }
 - {
     slug: "working-hours-n",
     lemma: "working hours",
@@ -479,24 +409,6 @@
         {
           en: "Ping me before six if you need a review today.",
           vi: "Nếu cần review trong hôm nay thì nhắn mình trước sáu giờ.",
-        },
-      ],
-  }
-- {
-    slug: "time-zone-n-family",
-    lemma: "time zone",
-    pos: "noun",
-    kind: "collocation",
-    cefr: "A2",
-    topic: "family",
-    ipa: "/ˈtaɪm zəʊn/",
-    def: "An area of the world that uses the same clock time.",
-    vi: "múi giờ",
-    examples:
-      [
-        {
-          en: "Our client is in a different time zone, so we meet at 8 pm.",
-          vi: "Khách hàng ở múi giờ khác nên tụi mình họp lúc 8 giờ tối.",
         },
       ],
   }
@@ -604,24 +516,6 @@
         },
       ],
   }
-- {
-    slug: "switch-off-pv",
-    lemma: "switch off",
-    pos: "phrasal_verb",
-    kind: "phrasal",
-    cefr: "B1",
-    topic: "family",
-    ipa: "/ˌswɪtʃ ˈɒf/",
-    def: "To stop thinking about work and relax.",
-    vi: "nghỉ ngơi, thôi nghĩ về công việc",
-    examples:
-      [
-        {
-          en: "I go for a walk after work to help me switch off.",
-          vi: "Mình đi bộ sau giờ làm để đầu óc nghỉ ngơi.",
-        },
-      ],
-  }
 # Set 4: Asking for flexibility
 - {
     slug: "flexible-adj",
@@ -637,23 +531,6 @@
         {
           en: "The team is flexible about start times as long as we join stand-up.",
           vi: "Nhóm linh hoạt về giờ bắt đầu, miễn là vào stand-up.",
-        },
-      ],
-  }
-- {
-    slug: "request-v-family",
-    lemma: "request",
-    pos: "verb",
-    cefr: "B1",
-    topic: "family",
-    ipa: "/rɪˈkwest/",
-    def: "To ask for something politely or formally.",
-    vi: "đề nghị, yêu cầu",
-    examples:
-      [
-        {
-          en: "I'd like to request two days of remote work each week.",
-          vi: "Mình muốn đề nghị làm từ xa hai ngày mỗi tuần.",
         },
       ],
   }
@@ -761,23 +638,6 @@
       ],
   }
 - {
-    slug: "approve-v-family",
-    lemma: "approve",
-    pos: "verb",
-    cefr: "B1",
-    topic: "family",
-    ipa: "/əˈpruːv/",
-    def: "To officially say yes to a plan or request.",
-    vi: "phê duyệt",
-    examples:
-      [
-        {
-          en: "My manager approved the new schedule this morning.",
-          vi: "Sáng nay quản lý đã duyệt lịch mới của mình.",
-        },
-      ],
-  }
-- {
     slug: "trial-period-n",
     lemma: "trial period",
     pos: "noun",
@@ -796,24 +656,6 @@
       ],
   }
 - {
-    slug: "push-back-pv-family",
-    lemma: "push back",
-    pos: "phrasal_verb",
-    kind: "phrasal",
-    cefr: "B2",
-    topic: "family",
-    ipa: "/ˌpʊʃ ˈbæk/",
-    def: "To move a meeting or event to a later time.",
-    vi: "lùi lại",
-    examples:
-      [
-        {
-          en: "Can we push back the planning meeting by an hour?",
-          vi: "Mình lùi buổi planning lại một tiếng được không?",
-        },
-      ],
-  }
-- {
     slug: "in-advance-phr",
     lemma: "in advance",
     pos: "phrase",
@@ -828,24 +670,6 @@
         {
           en: "I'll tell the team in advance when I need to leave early.",
           vi: "Khi cần về sớm mình sẽ báo nhóm trước.",
-        },
-      ],
-  }
-- {
-    slug: "trade-off-n-family",
-    lemma: "trade-off",
-    pos: "noun",
-    kind: "collocation",
-    cefr: "C1",
-    topic: "family",
-    ipa: "/ˈtreɪd ɒf/",
-    def: "Accepting something bad in order to get something good.",
-    vi: "sự đánh đổi",
-    examples:
-      [
-        {
-          en: "The trade-off is that I'll miss the Friday demo.",
-          vi: "Đổi lại là mình sẽ lỡ buổi demo thứ Sáu.",
         },
       ],
   }
@@ -1002,24 +826,6 @@
       ],
   }
 - {
-    slug: "take-over-pv-family",
-    lemma: "take over",
-    pos: "phrasal_verb",
-    kind: "phrasal",
-    cefr: "B1",
-    topic: "family",
-    ipa: "/ˌteɪk ˈəʊvə(r)/",
-    def: "To start doing a task that someone else was doing.",
-    vi: "tiếp quản",
-    examples:
-      [
-        {
-          en: "I can take over the release if you need to go home.",
-          vi: "Nếu bạn cần về thì mình tiếp quản bản release.",
-        },
-      ],
-  }
-- {
     slug: "reassure-v",
     lemma: "reassure",
     pos: "verb",
@@ -1159,23 +965,6 @@
       ],
   }
 - {
-    slug: "gesture-n-family",
-    lemma: "gesture",
-    pos: "noun",
-    cefr: "B2",
-    topic: "family",
-    ipa: "/ˈdʒestʃə(r)/",
-    def: "Something you do to show how you feel about someone.",
-    vi: "cử chỉ, hành động thể hiện tình cảm",
-    examples:
-      [
-        {
-          en: "Sending flowers was a kind gesture from the team.",
-          vi: "Gửi hoa là một cử chỉ đẹp của nhóm.",
-        },
-      ],
-  }
-- {
     slug: "appreciate-v-family",
     lemma: "appreciate",
     pos: "verb",
@@ -1209,24 +998,6 @@
         },
       ],
   }
-# Set 6: Respectful small talk
-- {
-    slug: "icebreaker-n-family",
-    lemma: "icebreaker",
-    pos: "noun",
-    cefr: "B2",
-    topic: "family",
-    ipa: "/ˈaɪsbreɪkə(r)/",
-    def: "A short activity or question that helps people feel relaxed together.",
-    vi: "câu/trò làm quen",
-    examples:
-      [
-        {
-          en: "Our icebreaker today is: what was your first computer?",
-          vi: "Câu làm quen hôm nay: máy tính đầu tiên của bạn là gì?",
-        },
-      ],
-  }
 - {
     slug: "weekend-n",
     lemma: "weekend",
@@ -1241,23 +1012,6 @@
         {
           en: "Did you do anything nice at the weekend?",
           vi: "Cuối tuần bạn có làm gì vui không?",
-        },
-      ],
-  }
-- {
-    slug: "chat-v-family",
-    lemma: "chat",
-    pos: "verb",
-    cefr: "A2",
-    topic: "family",
-    ipa: "/tʃæt/",
-    def: "To talk in a friendly, informal way.",
-    vi: "tán gẫu",
-    examples:
-      [
-        {
-          en: "We chatted about coffee while the build was running.",
-          vi: "Tụi mình tán gẫu về cà phê trong lúc build chạy.",
         },
       ],
   }
@@ -1396,23 +1150,6 @@
         {
           en: "Only share what you're comfortable sharing.",
           vi: "Chỉ chia sẻ những gì bạn thấy thoải mái.",
-        },
-      ],
-  }
-- {
-    slug: "mention-v-family",
-    lemma: "mention",
-    pos: "verb",
-    cefr: "B1",
-    topic: "family",
-    ipa: "/ˈmenʃn/",
-    def: "To talk about something briefly.",
-    vi: "nhắc đến",
-    examples:
-      [
-        {
-          en: "You mentioned you like hiking. Where do you usually go?",
-          vi: "Bạn có nhắc là thích leo núi. Bạn hay đi đâu?",
         },
       ],
   }
@@ -1614,23 +1351,6 @@
       ],
   }
 - {
-    slug: "reassign-v-family",
-    lemma: "reassign",
-    pos: "verb",
-    cefr: "B2",
-    topic: "family",
-    ipa: "/ˌriːəˈsaɪn/",
-    def: "To give a task to a different person.",
-    vi: "giao lại (cho người khác)",
-    examples:
-      [
-        {
-          en: "I've reassigned my two open bugs to Phuc.",
-          vi: "Mình đã giao lại hai bug đang mở cho Phúc.",
-        },
-      ],
-  }
-- {
     slug: "backup-n",
     lemma: "backup",
     pos: "noun",
@@ -1644,24 +1364,6 @@
         {
           en: "Long is my backup for payment issues next week.",
           vi: "Tuần sau Long là người dự phòng cho các vấn đề thanh toán.",
-        },
-      ],
-  }
-- {
-    slug: "point-of-contact-n-family",
-    lemma: "point of contact",
-    pos: "noun",
-    kind: "collocation",
-    cefr: "B2",
-    topic: "family",
-    ipa: "/ˌpɔɪnt əv ˈkɒntækt/",
-    def: "The person others should ask about a particular thing.",
-    vi: "đầu mối liên hệ",
-    examples:
-      [
-        {
-          en: "While I'm away, Nga is the point of contact for the client.",
-          vi: "Khi mình vắng, Nga là đầu mối liên hệ với khách.",
         },
       ],
   }
@@ -1743,23 +1445,6 @@
         {
           en: "Can you cover for me at the Friday release?",
           vi: "Bạn làm thay mình buổi release thứ Sáu được không?",
-        },
-      ],
-  }
-- {
-    slug: "pending-adj-family",
-    lemma: "pending",
-    pos: "adjective",
-    cefr: "B2",
-    topic: "family",
-    ipa: "/ˈpendɪŋ/",
-    def: "Not yet finished or decided.",
-    vi: "đang chờ xử lý",
-    examples:
-      [
-        {
-          en: "Three pull requests are still pending review.",
-          vi: "Ba pull request vẫn đang chờ review.",
         },
       ],
   }
@@ -1973,18 +1658,6 @@
       ],
   }
 - {
-    slug: "join-v-family",
-    lemma: "join",
-    pos: "verb",
-    cefr: "A2",
-    topic: "family",
-    ipa: "/dʒɔɪn/",
-    def: "To go somewhere with other people or take part in something.",
-    vi: "tham gia",
-    examples:
-      [{ en: "Would you like to join us for coffee?", vi: "Bạn đi cà phê với tụi mình không?" }],
-  }
-- {
     slug: "decline-v",
     lemma: "decline",
     pos: "verb",
@@ -2106,40 +1779,6 @@
       ],
   }
 - {
-    slug: "host-v-family",
-    lemma: "host",
-    pos: "verb",
-    cefr: "B1",
-    topic: "family",
-    ipa: "/həʊst/",
-    def: "To organise an event and invite people to it.",
-    vi: "tổ chức, làm chủ",
-    examples:
-      [
-        {
-          en: "The Hanoi office is hosting this year's hackathon.",
-          vi: "Văn phòng Hà Nội tổ chức hackathon năm nay.",
-        },
-      ],
-  }
-- {
-    slug: "venue-n-family",
-    lemma: "venue",
-    pos: "noun",
-    cefr: "B2",
-    topic: "family",
-    ipa: "/ˈvenjuː/",
-    def: "The place where an event happens.",
-    vi: "địa điểm",
-    examples:
-      [
-        {
-          en: "The venue has a vegetarian menu, so everyone can eat.",
-          vi: "Địa điểm có thực đơn chay nên ai cũng ăn được.",
-        },
-      ],
-  }
-- {
     slug: "casual-adj",
     lemma: "casual",
     pos: "adjective",
@@ -2153,23 +1792,6 @@
         {
           en: "It's a casual dinner, nothing fancy.",
           vi: "Chỉ là bữa tối thân mật thôi, không cầu kỳ.",
-        },
-      ],
-  }
-- {
-    slug: "rsvp-v-family",
-    lemma: "RSVP",
-    pos: "verb",
-    cefr: "B2",
-    topic: "family",
-    ipa: "/ˌɑːr es viː ˈpiː/",
-    def: "To tell the organiser whether you will come to an event.",
-    vi: "xác nhận tham dự",
-    examples:
-      [
-        {
-          en: "Please RSVP by Wednesday so we can book the table.",
-          vi: "Vui lòng xác nhận tham dự trước thứ Tư để đặt bàn.",
         },
       ],
   }
@@ -2403,41 +2025,6 @@
       ],
   }
 - {
-    slug: "jump-to-conclusions-phr-family",
-    lemma: "jump to conclusions",
-    pos: "phrase",
-    kind: "phrase",
-    cefr: "B2",
-    topic: "family",
-    ipa: "/ˌdʒʌmp tə kənˈkluːʒnz/",
-    def: "To decide something is true before you know all the facts.",
-    vi: "vội kết luận",
-    examples:
-      [
-        {
-          en: "I jumped to conclusions when your PR was late.",
-          vi: "Mình đã vội kết luận khi PR của bạn bị trễ.",
-        },
-      ],
-  }
-- {
-    slug: "tone-n-family",
-    lemma: "tone",
-    pos: "noun",
-    cefr: "B2",
-    topic: "family",
-    ipa: "/təʊn/",
-    def: "The feeling a message gives, such as friendly or angry.",
-    vi: "giọng điệu",
-    examples:
-      [
-        {
-          en: "Short messages can have a cold tone in writing.",
-          vi: "Tin nhắn ngắn có thể có giọng điệu lạnh lùng khi viết.",
-        },
-      ],
-  }
-- {
     slug: "offend-v",
     lemma: "offend",
     pos: "verb",
@@ -2472,23 +2059,6 @@
       ],
   }
 - {
-    slug: "perspective-n-family",
-    lemma: "perspective",
-    pos: "noun",
-    cefr: "B2",
-    topic: "family",
-    ipa: "/pəˈspektɪv/",
-    def: "A way of thinking about something.",
-    vi: "góc nhìn",
-    examples:
-      [
-        {
-          en: "From my perspective, the plan changed without notice.",
-          vi: "Theo góc nhìn của mình, kế hoạch đã đổi mà không báo trước.",
-        },
-      ],
-  }
-- {
     slug: "put-it-another-way-phr",
     lemma: "put it another way",
     pos: "phrase",
@@ -2503,40 +2073,6 @@
         {
           en: "To put it another way: I need help, not a new design.",
           vi: "Nói cách khác: mình cần giúp đỡ, không cần thiết kế mới.",
-        },
-      ],
-  }
-- {
-    slug: "defensive-adj-family",
-    lemma: "defensive",
-    pos: "adjective",
-    cefr: "B2",
-    topic: "family",
-    ipa: "/dɪˈfensɪv/",
-    def: "Reacting as if someone is attacking you.",
-    vi: "phòng thủ",
-    examples:
-      [
-        {
-          en: "I got defensive when you asked about the bug, and I'm sorry.",
-          vi: "Mình đã phản ứng phòng thủ khi bạn hỏi về bug, mình xin lỗi.",
-        },
-      ],
-  }
-- {
-    slug: "admit-v-family",
-    lemma: "admit",
-    pos: "verb",
-    cefr: "B1",
-    topic: "family",
-    ipa: "/ədˈmɪt/",
-    def: "To agree, often unwillingly, that something is true.",
-    vi: "thừa nhận",
-    examples:
-      [
-        {
-          en: "I admit my message sounded rude.",
-          vi: "Mình thừa nhận tin nhắn của mình nghe hơi bất lịch sự.",
         },
       ],
   }
@@ -2664,40 +2200,6 @@
       ],
   }
 - {
-    slug: "constructive-adj-family",
-    lemma: "constructive",
-    pos: "adjective",
-    cefr: "B2",
-    topic: "family",
-    ipa: "/kənˈstrʌktɪv/",
-    def: "Helpful and aimed at making things better.",
-    vi: "mang tính xây dựng",
-    examples:
-      [
-        {
-          en: "Let's keep the discussion constructive.",
-          vi: "Mình giữ cuộc thảo luận mang tính xây dựng nhé.",
-        },
-      ],
-  }
-- {
-    slug: "overreact-v-family",
-    lemma: "overreact",
-    pos: "verb",
-    cefr: "B2",
-    topic: "family",
-    ipa: "/ˌəʊvəriˈækt/",
-    def: "To react more strongly than a situation needs.",
-    vi: "phản ứng thái quá",
-    examples:
-      [
-        {
-          en: "I overreacted in the thread yesterday.",
-          vi: "Hôm qua mình đã phản ứng thái quá trong thread.",
-        },
-      ],
-  }
-- {
     slug: "resolve-v",
     lemma: "resolve",
     pos: "verb",
@@ -2711,23 +2213,6 @@
         {
           en: "We resolved the issue over a coffee.",
           vi: "Tụi mình giải quyết chuyện đó qua một ly cà phê.",
-        },
-      ],
-  }
-- {
-    slug: "compromise-n-family",
-    lemma: "compromise",
-    pos: "noun",
-    cefr: "B2",
-    topic: "family",
-    ipa: "/ˈkɒmprəmaɪz/",
-    def: "An agreement where each side accepts less than it wanted.",
-    vi: "sự thỏa hiệp",
-    examples:
-      [
-        {
-          en: "The compromise is to review PRs in the morning only.",
-          vi: "Thỏa hiệp là chỉ review PR vào buổi sáng.",
         },
       ],
   }
@@ -2837,40 +2322,6 @@
       ],
   }
 - {
-    slug: "rapport-n-family",
-    lemma: "rapport",
-    pos: "noun",
-    cefr: "C1",
-    topic: "family",
-    ipa: "/ræˈpɔː(r)/",
-    def: "A friendly relationship in which people understand each other well.",
-    vi: "sự hòa hợp, mối quan hệ tốt",
-    examples:
-      [
-        {
-          en: "She built good rapport with the client team quickly.",
-          vi: "Chị ấy nhanh chóng tạo quan hệ tốt với nhóm khách hàng.",
-        },
-      ],
-  }
-- {
-    slug: "mutual-adj-family",
-    lemma: "mutual",
-    pos: "adjective",
-    cefr: "B2",
-    topic: "family",
-    ipa: "/ˈmjuːtʃuəl/",
-    def: "Felt or done by two or more people towards each other.",
-    vi: "lẫn nhau",
-    examples:
-      [
-        {
-          en: "Good pairing depends on mutual respect.",
-          vi: "Pair programming tốt dựa trên sự tôn trọng lẫn nhau.",
-        },
-      ],
-  }
-- {
     slug: "respect-n",
     lemma: "respect",
     pos: "noun",
@@ -2902,23 +2353,6 @@
         {
           en: "Psychological safety means juniors can admit mistakes in the retro.",
           vi: "An toàn tâm lý nghĩa là các bạn junior dám nhận lỗi trong buổi retro.",
-        },
-      ],
-  }
-- {
-    slug: "inclusive-adj-family",
-    lemma: "inclusive",
-    pos: "adjective",
-    cefr: "C1",
-    topic: "family",
-    ipa: "/ɪnˈkluːsɪv/",
-    def: "Making everyone feel welcome and part of the group.",
-    vi: "hòa nhập, bao gồm mọi người",
-    examples:
-      [
-        {
-          en: "We keep events inclusive by offering options without alcohol.",
-          vi: "Tụi mình giữ các sự kiện hòa nhập bằng cách có lựa chọn không cồn.",
         },
       ],
   }
@@ -2991,41 +2425,6 @@
       ],
   }
 - {
-    slug: "bond-v",
-    lemma: "bond",
-    pos: "verb",
-    cefr: "B2",
-    topic: "family",
-    ipa: "/bɒnd/",
-    def: "To develop a close feeling with other people.",
-    vi: "gắn bó",
-    examples:
-      [
-        {
-          en: "The team bonded during the hackathon.",
-          vi: "Cả nhóm trở nên gắn bó trong đợt hackathon.",
-        },
-      ],
-  }
-- {
-    slug: "rely-on-pv",
-    lemma: "rely on",
-    pos: "phrasal_verb",
-    kind: "phrasal",
-    cefr: "B2",
-    topic: "family",
-    ipa: "/rɪˈlaɪ ɒn/",
-    def: "To trust someone to do something for you.",
-    vi: "dựa vào",
-    examples:
-      [
-        {
-          en: "I know I can rely on you to finish the migration.",
-          vi: "Mình biết có thể trông cậy vào bạn để hoàn thành migration.",
-        },
-      ],
-  }
-- {
     slug: "transparent-adj",
     lemma: "transparent",
     pos: "adjective",
@@ -3039,23 +2438,6 @@
         {
           en: "Our manager is transparent about why plans change.",
           vi: "Quản lý của mình minh bạch về lý do kế hoạch thay đổi.",
-        },
-      ],
-  }
-- {
-    slug: "supportive-adj-family",
-    lemma: "supportive",
-    pos: "adjective",
-    cefr: "B2",
-    topic: "family",
-    ipa: "/səˈpɔːtɪv/",
-    def: "Giving help and kindness to someone.",
-    vi: "biết hỗ trợ",
-    examples:
-      [
-        {
-          en: "Our lead was very supportive when I was ill.",
-          vi: "Trưởng nhóm rất hỗ trợ khi mình bị ốm.",
         },
       ],
   }
@@ -3077,23 +2459,6 @@
       ],
   }
 - {
-    slug: "recognise-v",
-    lemma: "recognise",
-    pos: "verb",
-    cefr: "B2",
-    topic: "family",
-    ipa: "/ˈrekəɡnaɪz/",
-    def: "To publicly show that you value someone's work.",
-    vi: "ghi nhận",
-    examples:
-      [
-        {
-          en: "The CTO recognised Hanh's work on the outage report.",
-          vi: "CTO đã ghi nhận công sức của Hạnh trong báo cáo sự cố.",
-        },
-      ],
-  }
-- {
     slug: "team-spirit-n",
     lemma: "team spirit",
     pos: "noun",
@@ -3108,40 +2473,6 @@
         {
           en: "The hackathon was great for team spirit.",
           vi: "Hackathon rất tốt cho tinh thần đồng đội.",
-        },
-      ],
-  }
-- {
-    slug: "cohesion-n",
-    lemma: "cohesion",
-    pos: "noun",
-    cefr: "C1",
-    topic: "family",
-    ipa: "/kəʊˈhiːʒn/",
-    def: "The way members of a group stay united and work well together.",
-    vi: "sự gắn kết",
-    examples:
-      [
-        {
-          en: "Regular pairing improved cohesion across the two squads.",
-          vi: "Pair programming thường xuyên giúp hai nhóm gắn kết hơn.",
-        },
-      ],
-  }
-- {
-    slug: "conflict-n-family",
-    lemma: "conflict",
-    pos: "noun",
-    cefr: "B2",
-    topic: "family",
-    ipa: "/ˈkɒnflɪkt/",
-    def: "A serious disagreement between people.",
-    vi: "xung đột",
-    examples:
-      [
-        {
-          en: "Healthy teams talk about conflict early.",
-          vi: "Nhóm lành mạnh nói về xung đột từ sớm.",
         },
       ],
   }
@@ -3369,23 +2700,6 @@
       ],
   }
 - {
-    slug: "harassment-n-family",
-    lemma: "harassment",
-    pos: "noun",
-    cefr: "C1",
-    topic: "family",
-    ipa: "/ˈhærəsmənt/",
-    def: "Repeated behaviour that upsets or threatens someone.",
-    vi: "sự quấy rối",
-    examples:
-      [
-        {
-          en: "Report any harassment to HR, even from a client.",
-          vi: "Báo cho phòng nhân sự mọi hành vi quấy rối, kể cả từ khách hàng.",
-        },
-      ],
-  }
-- {
     slug: "speak-up-pv",
     lemma: "speak up",
     pos: "phrasal_verb",
@@ -3439,3 +2753,15 @@
         },
       ],
   }
+- slug: switch-off-pv
+  lemma: switch off
+  pos: phrasal_verb
+  kind: phrasal
+  cefr: B1
+  topic: family
+  ipa: /ˌswɪtʃ ˈɒf/
+  def: To stop thinking about work and relax.
+  vi: nghỉ ngơi, thôi nghĩ về công việc
+  examples:
+    - en: I go for a walk after work to help me switch off.
+      vi: Mình đi bộ sau giờ làm để đầu óc nghỉ ngơi.

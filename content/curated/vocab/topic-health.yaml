@@ -1458,20 +1458,6 @@
   examples:
     - en: "My app tracks my daily calorie intake, but I often forget to log snacks."
       vi: "Ứng dụng theo dõi lượng calo mình nạp mỗi ngày, nhưng mình hay quên ghi đồ ăn vặt."
-- slug: cut-out-health-phr
-  lemma: cut out
-  pos: phrasal_verb
-  kind: phrasal
-  cefr: B2
-  topic: health
-  ipa: "/ˌkʌt ˈaʊt/"
-  def: "To stop eating or drinking something completely."
-  vi: "bỏ hẳn, kiêng hẳn (món gì)"
-  forms: [cuts out, cutting out]
-  note: 'Khác "cut down on" (ăn/uống ít đi): "cut out" là bỏ hoàn toàn.'
-  examples:
-    - en: "My doctor told me to cut out sugar completely for a month."
-      vi: "Bác sĩ bảo mình bỏ hẳn đường trong một tháng."
 - slug: deficiency-n
   lemma: deficiency
   pos: noun
@@ -2589,3 +2575,19 @@
   examples:
     - en: "Clean water is one of the biggest public health wins of the last century."
       vi: "Nước sạch là một trong những thành tựu y tế công cộng lớn nhất thế kỷ trước."
+- slug: cut-out-health-phr
+  lemma: cut out
+  pos: phrasal_verb
+  kind: phrasal
+  cefr: B2
+  topic: health
+  ipa: /ˌkʌt ˈaʊt/
+  def: To stop eating or drinking something completely.
+  vi: bỏ hẳn, kiêng hẳn (món gì)
+  forms:
+    - cuts out
+    - cutting out
+  note: 'Khác "cut down on" (ăn/uống ít đi): "cut out" là bỏ hoàn toàn.'
+  examples:
+    - en: My doctor told me to cut out sugar completely for a month.
+      vi: Bác sĩ bảo mình bỏ hẳn đường trong một tháng.

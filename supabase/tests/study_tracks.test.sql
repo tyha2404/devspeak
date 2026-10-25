@@ -71,7 +71,7 @@ select is((select (v ->> 'xp')::int from r1), 80, 'and pays 35 + 15 × 3');
 select is((public.svc_complete_lesson('00000000-0000-0000-0000-0000000000a7',
   '00000000-0000-0000-0000-00000000ad01') ->> 'duplicate')::boolean, true, 'completing a run twice is a no-op');
 select is((public.svc_complete_lesson('00000000-0000-0000-0000-0000000000a7',
-  '00000000-0000-0000-0000-00000000ad02') ->> 'xp')::int, 65, 'a replay pays again (90% = 2 stars)');
+  '00000000-0000-0000-0000-00000000ad02') ->> 'xp')::int, 20, 'a replay below the best stars pays 30% (2★: round(0.3 × 65))');
 select is((public.svc_complete_lesson('00000000-0000-0000-0000-0000000000a7',
   '00000000-0000-0000-0000-00000000ad03') ->> 'passed')::boolean, false, '50% does not pass');
 select ok(not exists (select 1 from public.user_unit_progress p join public.units u on u.id = p.unit_id

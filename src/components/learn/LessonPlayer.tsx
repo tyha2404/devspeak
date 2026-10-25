@@ -7,6 +7,7 @@ import { api, ApiError } from "@/lib/client/api";
 import type { LessonStart, LessonView } from "@/lib/contracts/learn";
 import { useMe } from "@/stores/meStore";
 import { TrackLesson } from "./TrackLesson";
+import { LessonLoading } from "./LessonLoading";
 
 /** Loads a lesson and starts (or resumes) its run, then hands over to the track player. */
 export function LessonPlayer({ lessonId }: { lessonId: number }) {
@@ -45,11 +46,6 @@ export function LessonPlayer({ lessonId }: { lessonId: number }) {
         </Link>
       </main>
     );
-  if (!view || !run)
-    return (
-      <main className="mx-auto max-w-2xl px-4 py-16">
-        <p className="text-muted">Đang mở bài học…</p>
-      </main>
-    );
+  if (!view || !run) return <LessonLoading />;
   return <TrackLesson view={view} run={run} />;
 }

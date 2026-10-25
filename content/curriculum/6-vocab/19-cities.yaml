@@ -8,9 +8,7 @@ status: published
 title:
   en: Developer Communities & Workplace Life
   vi: Cộng đồng developer & đời sống nơi làm việc
-summary_vi: Nói về nơi sống, đi làm, sự kiện và cộng đồng nghề nghiệp. Luyện
-  giới thiệu dự án và kết nối với người mới bằng những cuộc trao đổi ngắn, có
-  mục đích.
+summary_vi: Nói về nơi sống, đi làm, sự kiện và cộng đồng nghề nghiệp. Luyện giới thiệu dự án và kết nối với người mới bằng những cuộc trao đổi ngắn, có mục đích.
 can_do:
   - Giới thiệu bản thân và dự án trong một buổi gặp cộng đồng
   - Trao đổi lịch, địa điểm và nhu cầu khi tham gia sự kiện
@@ -86,7 +84,7 @@ lessons:
         name-tag-n,
         mingle-v,
         icebreaker-n,
-        newcomer-n,
+        small-talk-n,
         regular-n,
         field-n,
         lightning-talk-n,
@@ -130,7 +128,7 @@ lessons:
         contributor-n,
         co-founder-n,
         volunteer-n,
-        contribute-v,
+        pull-request-n,
         good-first-issue-n,
         core-team-n,
         help-wanted-phr,
@@ -143,7 +141,7 @@ lessons:
         onboard-v,
         pair-up-phr,
         get-involved-phr,
-        lend-a-hand-phr,
+        mentor-n,
         expertise-n,
         time-zone-n,
       ]
@@ -233,7 +231,7 @@ lessons:
         highlight-n,
         thank-you-note-n,
         mention-v,
-        refer-to-phr,
+        subject-line-n,
         circle-back-phr,
         prompt-adj,
         personalised-adj,
@@ -264,7 +262,7 @@ lessons:
         reciprocity-n,
         goodwill-n,
         nurture-v,
-        cultivate-v,
+        networking-n,
         visibility-n,
         reputation-n,
         credibility-n,

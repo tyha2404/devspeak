@@ -29,8 +29,9 @@ zustand · zod 4 · Vitest · Playwright. Package manager: pnpm (`corepack pnpm@
   confusable words — write examples so that no single swap yields another correct sentence).
 - Rules (ForumFlash): sessions are `strict` — 1 attempt, 20s per choice / 30s per typed answer, enforced
   server-side in `submitAnswer`, options listed alphabetically; pass 80%, 3★ = 100%, 2★ ≥ 90%;
-  XP = 35 + 15 × stars on every pass; a level test-out (16 questions, 80%) pays 120 XP per pass and opens
-  every lesson of the next level. Grammar levels unlock in order; vocabulary topics are all open.
+  XP = 35 + 15 × stars on the first pass or a pass that beats the best stars, 30% of that (rounded) on other
+  replays; a level test-out (16 questions, 80%) pays 120 XP the first time only and opens every lesson of the
+  next level. Missed questions' senses (wrong or timed out) become SRS cards due now. Grammar levels unlock in order; vocabulary topics are all open.
 - Pure roadmap logic is `src/features/curriculum/path.ts`; server flows (roadmap, home, start/complete lesson,
   test-out) are `src/features/curriculum/service.ts`. A lesson only completes through `private.complete_lesson`,
   which grades the run's finished quiz session.

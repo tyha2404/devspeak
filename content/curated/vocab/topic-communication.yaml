@@ -1459,18 +1459,6 @@
       ],
   }
 - {
-    slug: "maintain-v",
-    lemma: "maintain",
-    pos: "verb",
-    cefr: "B2",
-    topic: "communication",
-    ipa: "/meɪnˈteɪn/",
-    def: "To keep code or a system working well over time.",
-    vi: "bảo trì",
-    examples:
-      [{ en: "A custom solution is harder to maintain.", vi: "Giải pháp tự làm khó bảo trì hơn." }],
-  }
-- {
     slug: "sweet-spot-n",
     lemma: "sweet spot",
     pos: "noun",
@@ -1624,24 +1612,6 @@
         {
           en: "I wrote the pros and cons of each approach in the doc.",
           vi: "Mình đã viết ưu nhược điểm của từng cách trong tài liệu.",
-        },
-      ],
-  }
-- {
-    slug: "break-even-n",
-    lemma: "break-even point",
-    pos: "noun",
-    kind: "collocation",
-    cefr: "C1",
-    topic: "communication",
-    ipa: "/ˌbreɪk ˈiːvn pɔɪnt/",
-    def: "The point where gains equal what you spent.",
-    vi: "điểm hòa vốn",
-    examples:
-      [
-        {
-          en: "The break-even point for the new tool is about six months.",
-          vi: "Điểm hòa vốn của công cụ mới là khoảng sáu tháng.",
         },
       ],
   }
@@ -1817,24 +1787,6 @@
         {
           en: "Let's punt the analytics page to the next release.",
           vi: "Mình đẩy trang phân tích sang bản phát hành sau nhé.",
-        },
-      ],
-  }
-- {
-    slug: "mvp-n",
-    lemma: "minimum viable product",
-    pos: "noun",
-    kind: "collocation",
-    cefr: "C1",
-    topic: "communication",
-    ipa: "/ˌmɪnɪməm ˌvaɪəbl ˈprɒdʌkt/",
-    def: "The smallest version of a product that still gives real value.",
-    vi: "sản phẩm khả dụng tối thiểu",
-    examples:
-      [
-        {
-          en: "For the minimum viable product, users only need to upload one file.",
-          vi: "Với sản phẩm khả dụng tối thiểu, người dùng chỉ cần tải lên một tệp.",
         },
       ],
   }
@@ -2219,23 +2171,6 @@
         {
           en: "The only loose end is updating the changelog.",
           vi: "Việc dang dở duy nhất là cập nhật changelog.",
-        },
-      ],
-  }
-- {
-    slug: "dri-n",
-    lemma: "DRI",
-    pos: "noun",
-    cefr: "C1",
-    topic: "communication",
-    ipa: "/ˌdiː ɑːr ˈaɪ/",
-    def: "Directly responsible individual: the one person who drives a task.",
-    vi: "người chịu trách nhiệm trực tiếp",
-    examples:
-      [
-        {
-          en: "Hoa is the DRI for the database upgrade.",
-          vi: "Hoa là người chịu trách nhiệm trực tiếp việc nâng cấp cơ sở dữ liệu.",
         },
       ],
   }

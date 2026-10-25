@@ -193,6 +193,24 @@ describe("timed sessions", () => {
     expect(timeLimitSec(choice.prompt)).toBe(20);
   });
 
+  it("adds time for long prompts and high levels, capped", () => {
+    const long = {
+      ...choice.prompt,
+      sentence: Array.from({ length: 30 }, () => "word").join(" "),
+    } as typeof choice.prompt;
+    // 30 + 3 option words = 33 words → 21 beyond 12 → +2s
+    expect(timeLimitSec(long)).toBe(22);
+    expect(timeLimitSec(choice.prompt, "B2")).toBe(25);
+    expect(timeLimitSec(choice.prompt, "C1")).toBe(30);
+    expect(timeLimitSec(typed.prompt, "C2")).toBe(40);
+    const hugeSentence = Array.from({ length: 400 }, () => "w").join(" ");
+    const huge = { ...long, sentence: hugeSentence } as typeof long;
+    expect(timeLimitSec(huge, "C2")).toBe(45);
+    expect(
+      timeLimitSec({ ...typed.prompt, sentence: hugeSentence } as typeof typed.prompt, "C2"),
+    ).toBe(60);
+  });
+
   it("grades a timeout as wrong", () => {
     expect(grade(typed.prompt, typed.answer, { kind: "timeout" }, {})).toBe(false);
   });

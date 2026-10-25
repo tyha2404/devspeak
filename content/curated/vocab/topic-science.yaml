@@ -1,22 +1,3 @@
-# Vocabulary by topic: Debugging, Experiments & Engineering Evidence (unit T11). Original content.
-# Set 1: Observations & symptoms
-- {
-    "slug": "observe-v-science",
-    "lemma": "observe",
-    "pos": "verb",
-    "cefr": "A2",
-    "topic": "science",
-    "ipa": "/əbˈzɜːv/",
-    "def": "To watch or notice something carefully.",
-    "vi": "quan sát",
-    "examples":
-      [
-        {
-          "en": "I observed the error only when two users saved at the same time.",
-          "vi": "Mình quan sát thấy lỗi chỉ xảy ra khi hai người dùng lưu cùng lúc.",
-        },
-      ],
-  }
 - {
     "slug": "glitch-n",
     "lemma": "glitch",
@@ -66,23 +47,6 @@
         {
           "en": "This behaviour started after yesterday's deploy.",
           "vi": "Hành vi này bắt đầu sau lần deploy hôm qua.",
-        },
-      ],
-  }
-- {
-    "slug": "unexpected-adj-science",
-    "lemma": "unexpected",
-    "pos": "adjective",
-    "cefr": "A2",
-    "topic": "science",
-    "ipa": "/ˌʌnɪkˈspektɪd/",
-    "def": "Not what you thought would happen.",
-    "vi": "bất ngờ, ngoài dự kiến",
-    "examples":
-      [
-        {
-          "en": "The API returned an unexpected empty list.",
-          "vi": "API trả về một danh sách rỗng ngoài dự kiến.",
         },
       ],
   }
@@ -187,25 +151,6 @@
         {
           "en": "The bug is reproducible on Android but not on iOS.",
           "vi": "Lỗi có thể tái hiện trên Android nhưng không trên iOS.",
-        },
-      ],
-  }
-- {
-    "slug": "steps-to-reproduce-n-science",
-    "lemma": "steps to reproduce",
-    "pos": "noun",
-    "kind": "collocation",
-    "cefr": "B1",
-    "topic": "science",
-    "ipa": "/steps tə ˌriːprəˈdjuːs/",
-    "def": "A numbered list of actions that make a bug appear.",
-    "vi": "các bước tái hiện",
-    "note": "Thường dùng số nhiều.",
-    "examples":
-      [
-        {
-          "en": "Add clear steps to reproduce so QA can check the fix.",
-          "vi": "Thêm các bước tái hiện rõ ràng để QA kiểm tra bản sửa.",
         },
       ],
   }
@@ -450,24 +395,6 @@
       ],
   }
 - {
-    "slug": "rule-out-phr",
-    "lemma": "rule out",
-    "pos": "phrasal_verb",
-    "kind": "phrasal",
-    "cefr": "B2",
-    "topic": "science",
-    "ipa": "/ruːl aʊt/",
-    "def": "To decide that something is not possible or not the cause.",
-    "vi": "loại trừ",
-    "examples":
-      [
-        {
-          "en": "We can rule out the network because local calls fail too.",
-          "vi": "Ta có thể loại trừ mạng vì gọi local cũng lỗi.",
-        },
-      ],
-  }
-- {
     "slug": "sanity-check-n",
     "lemma": "sanity check",
     "pos": "noun",
@@ -535,23 +462,6 @@
         {
           "en": "List each possible cause and how to check it.",
           "vi": "Liệt kê từng nguyên nhân có thể và cách kiểm tra.",
-        },
-      ],
-  }
-- {
-    "slug": "condition-n-science",
-    "lemma": "condition",
-    "pos": "noun",
-    "cefr": "B1",
-    "topic": "science",
-    "ipa": "/kənˈdɪʃn/",
-    "def": "A situation that must exist for something else to happen.",
-    "vi": "điều kiện",
-    "examples":
-      [
-        {
-          "en": "The error needs two conditions: an empty cart and a coupon.",
-          "vi": "Lỗi cần hai điều kiện: giỏ hàng trống và một mã giảm giá.",
         },
       ],
   }
@@ -728,40 +638,6 @@
       ],
   }
 - {
-    "slug": "event-n-science",
-    "lemma": "event",
-    "pos": "noun",
-    "cefr": "A2",
-    "topic": "science",
-    "ipa": "/ɪˈvent/",
-    "def": "Something that happens in a system and can be recorded.",
-    "vi": "sự kiện",
-    "examples":
-      [
-        {
-          "en": "The queue received the event but never processed it.",
-          "vi": "Hàng đợi đã nhận sự kiện nhưng không bao giờ xử lý nó.",
-        },
-      ],
-  }
-- {
-    "slug": "warning-n-science",
-    "lemma": "warning",
-    "pos": "noun",
-    "cefr": "A2",
-    "topic": "science",
-    "ipa": "/ˈwɔːnɪŋ/",
-    "def": "A message that says something might be wrong.",
-    "vi": "cảnh báo",
-    "examples":
-      [
-        {
-          "en": "There were hundreds of warnings before the first error.",
-          "vi": "Có hàng trăm cảnh báo trước lỗi đầu tiên.",
-        },
-      ],
-  }
-- {
     "slug": "status-code-n",
     "lemma": "status code",
     "pos": "noun",
@@ -879,42 +755,6 @@
       ],
   }
 - {
-    "slug": "noise-n-science",
-    "lemma": "noise",
-    "pos": "noun",
-    "cefr": "B2",
-    "topic": "science",
-    "ipa": "/nɔɪz/",
-    "def": "Useless information that hides the important parts.",
-    "vi": "nhiễu, thông tin thừa",
-    "note": "Danh từ không đếm được.",
-    "examples":
-      [
-        {
-          "en": "There's so much noise in these logs that the real error is hard to see.",
-          "vi": "Log này nhiều nhiễu quá nên khó thấy lỗi thật.",
-        },
-      ],
-  }
-# Set 5: A minimal experiment
-- {
-    "slug": "experiment-n",
-    "lemma": "experiment",
-    "pos": "noun",
-    "cefr": "B1",
-    "topic": "science",
-    "ipa": "/ɪkˈsperɪmənt/",
-    "def": "A test you do to find out whether an idea is true.",
-    "vi": "thử nghiệm, thí nghiệm",
-    "examples":
-      [
-        {
-          "en": "Let's run a quick experiment with the old driver.",
-          "vi": "Hãy làm một thử nghiệm nhanh với driver cũ.",
-        },
-      ],
-  }
-- {
     "slug": "variable-n",
     "lemma": "variable",
     "pos": "noun",
@@ -928,23 +768,6 @@
         {
           "en": "The only variable I changed was the pool size.",
           "vi": "Biến số duy nhất mình thay đổi là kích thước pool.",
-        },
-      ],
-  }
-- {
-    "slug": "isolate-v-science",
-    "lemma": "isolate",
-    "pos": "verb",
-    "cefr": "B2",
-    "topic": "science",
-    "ipa": "/ˈaɪsəleɪt/",
-    "def": "To separate one thing so you can study it alone.",
-    "vi": "cô lập, tách riêng",
-    "examples":
-      [
-        {
-          "en": "Isolate the function in a small script.",
-          "vi": "Tách riêng hàm đó ra một script nhỏ.",
         },
       ],
   }
@@ -1070,18 +893,6 @@
       ],
   }
 - {
-    "slug": "toggle-v-science",
-    "lemma": "toggle",
-    "pos": "verb",
-    "cefr": "B2",
-    "topic": "science",
-    "ipa": "/ˈtɒɡl/",
-    "def": "To switch something on or off.",
-    "vi": "bật/tắt",
-    "examples":
-      [{ "en": "Toggle compression and measure again.", "vi": "Bật/tắt nén rồi đo lại." }],
-  }
-- {
     "slug": "feature-flag-n",
     "lemma": "feature flag",
     "pos": "noun",
@@ -1152,23 +963,6 @@
       ],
   }
 - {
-    "slug": "record-v-science",
-    "lemma": "record",
-    "pos": "verb",
-    "cefr": "B1",
-    "topic": "science",
-    "ipa": "/rɪˈkɔːd/",
-    "def": "To write down or save information so you can use it later.",
-    "vi": "ghi lại",
-    "examples":
-      [
-        {
-          "en": "Record every result in the spreadsheet, even the failed ones.",
-          "vi": "Ghi lại mọi kết quả vào bảng tính, kể cả lần thất bại.",
-        },
-      ],
-  }
-- {
     "slug": "clean-state-n",
     "lemma": "clean state",
     "pos": "noun",
@@ -1214,23 +1008,6 @@
         {
           "en": "The microbenchmark shows the new parser is twice as fast.",
           "vi": "Benchmark vi mô cho thấy parser mới nhanh gấp đôi.",
-        },
-      ],
-  }
-- {
-    "slug": "baseline-n-science",
-    "lemma": "baseline",
-    "pos": "noun",
-    "cefr": "B2",
-    "topic": "science",
-    "ipa": "/ˈbeɪslaɪn/",
-    "def": "A first measurement that you compare later results with.",
-    "vi": "đường cơ sở, mốc so sánh",
-    "examples":
-      [
-        {
-          "en": "Measure a baseline before you optimise anything.",
-          "vi": "Hãy đo mốc so sánh trước khi tối ưu bất cứ thứ gì.",
         },
       ],
   }
@@ -1303,18 +1080,6 @@
       ],
   }
 - {
-    "slug": "overhead-n-science",
-    "lemma": "overhead",
-    "pos": "noun",
-    "cefr": "C1",
-    "topic": "science",
-    "ipa": "/ˈəʊvəhed/",
-    "def": "Extra time or resources needed beyond the main work.",
-    "vi": "chi phí phụ, overhead",
-    "examples":
-      [{ "en": "Logging adds about 5% overhead.", "vi": "Ghi log thêm khoảng 5% chi phí phụ." }],
-  }
-- {
     "slug": "slowdown-n",
     "lemma": "slowdown",
     "pos": "noun",
@@ -1324,40 +1089,6 @@
     "def": "A drop in speed.",
     "vi": "sự chậm đi",
     "examples": [{ "en": "This PR caused a 15% slowdown.", "vi": "PR này làm chậm đi 15%." }],
-  }
-- {
-    "slug": "improvement-n-science",
-    "lemma": "improvement",
-    "pos": "noun",
-    "cefr": "B1",
-    "topic": "science",
-    "ipa": "/ɪmˈpruːvmənt/",
-    "def": "A change that makes something better.",
-    "vi": "sự cải thiện",
-    "examples":
-      [
-        {
-          "en": "We saw a 20% improvement in load time.",
-          "vi": "Bọn mình thấy thời gian tải cải thiện 20%.",
-        },
-      ],
-  }
-- {
-    "slug": "average-n-science",
-    "lemma": "average",
-    "pos": "noun",
-    "cefr": "A2",
-    "topic": "science",
-    "ipa": "/ˈævərɪdʒ/",
-    "def": "The number you get by adding values and dividing by how many there are.",
-    "vi": "giá trị trung bình",
-    "examples":
-      [
-        {
-          "en": "The average hides a few very slow requests.",
-          "vi": "Giá trị trung bình che mất vài request rất chậm.",
-        },
-      ],
   }
 - {
     "slug": "median-n",
@@ -1390,23 +1121,6 @@
         {
           "en": "The variance between runs is too high to trust.",
           "vi": "Độ biến thiên giữa các lần chạy quá cao để tin được.",
-        },
-      ],
-  }
-- {
-    "slug": "outlier-n-science",
-    "lemma": "outlier",
-    "pos": "noun",
-    "cefr": "C1",
-    "topic": "science",
-    "ipa": "/ˈaʊtlaɪə/",
-    "def": "A result that is very different from the others.",
-    "vi": "giá trị ngoại lai",
-    "examples":
-      [
-        {
-          "en": "One outlier took ten seconds because of a GC pause.",
-          "vi": "Một giá trị ngoại lai mất mười giây vì GC tạm dừng.",
         },
       ],
   }
@@ -1463,23 +1177,6 @@
       ],
   }
 - {
-    "slug": "bottleneck-n-science",
-    "lemma": "bottleneck",
-    "pos": "noun",
-    "cefr": "B2",
-    "topic": "science",
-    "ipa": "/ˈbɒtlnek/",
-    "def": "The slowest part that limits the whole system.",
-    "vi": "điểm nghẽn",
-    "examples":
-      [
-        {
-          "en": "The database is the bottleneck, not the API.",
-          "vi": "Database mới là điểm nghẽn, không phải API.",
-        },
-      ],
-  }
-- {
     "slug": "iteration-n",
     "lemma": "iteration",
     "pos": "noun",
@@ -1525,24 +1222,6 @@
         },
       ],
   }
-# Set 7: A/B tests & metrics
-- {
-    "slug": "ab-test-n",
-    "lemma": "A/B test",
-    "pos": "noun",
-    "cefr": "B2",
-    "topic": "science",
-    "ipa": "/ˌeɪ ˈbiː test/",
-    "def": "An experiment where two groups of users see different versions.",
-    "vi": "thử nghiệm A/B",
-    "examples":
-      [
-        {
-          "en": "We ran an A/B test on the new checkout page.",
-          "vi": "Bọn mình chạy thử nghiệm A/B cho trang thanh toán mới.",
-        },
-      ],
-  }
 - {
     "slug": "holdout-n",
     "lemma": "holdout",
@@ -1565,23 +1244,6 @@
     "def": "One of the different versions tested in an experiment.",
     "vi": "phiên bản thử, biến thể",
     "examples": [{ "en": "Variant B has a shorter form.", "vi": "Biến thể B có form ngắn hơn." }],
-  }
-- {
-    "slug": "metric-n-science",
-    "lemma": "metric",
-    "pos": "noun",
-    "cefr": "B2",
-    "topic": "science",
-    "ipa": "/ˈmetrɪk/",
-    "def": "A number used to measure something.",
-    "vi": "chỉ số",
-    "examples":
-      [
-        {
-          "en": "Our main metric is completed sign-ups.",
-          "vi": "Chỉ số chính của chúng ta là số lượt đăng ký hoàn tất.",
-        },
-      ],
   }
 - {
     "slug": "conversion-rate-n",
@@ -1689,24 +1351,6 @@
       ],
   }
 - {
-    "slug": "confidence-interval-n-science",
-    "lemma": "confidence interval",
-    "pos": "noun",
-    "kind": "collocation",
-    "cefr": "C1",
-    "topic": "science",
-    "ipa": "/ˈkɒnfɪdəns ˈɪntəvl/",
-    "def": "A range that probably contains the true value.",
-    "vi": "khoảng tin cậy",
-    "examples":
-      [
-        {
-          "en": "The confidence interval still includes zero.",
-          "vi": "Khoảng tin cậy vẫn bao gồm số không.",
-        },
-      ],
-  }
-- {
     "slug": "null-hypothesis-n",
     "lemma": "null hypothesis",
     "pos": "noun",
@@ -1777,23 +1421,6 @@
       ],
   }
 - {
-    "slug": "retention-n-science",
-    "lemma": "retention",
-    "pos": "noun",
-    "cefr": "C1",
-    "topic": "science",
-    "ipa": "/rɪˈtenʃn/",
-    "def": "How many users keep using a product over time.",
-    "vi": "tỉ lệ giữ chân",
-    "examples":
-      [
-        {
-          "en": "Day-7 retention did not change.",
-          "vi": "Tỉ lệ giữ chân ngày thứ 7 không thay đổi.",
-        },
-      ],
-  }
-- {
     "slug": "engagement-n",
     "lemma": "engagement",
     "pos": "noun",
@@ -1825,23 +1452,6 @@
         {
           "en": "We'll ramp up the winner to 100% next week.",
           "vi": "Tuần sau ta sẽ tăng dần bản thắng lên 100%.",
-        },
-      ],
-  }
-- {
-    "slug": "exposure-n-science",
-    "lemma": "exposure",
-    "pos": "noun",
-    "cefr": "C1",
-    "topic": "science",
-    "ipa": "/ɪkˈspəʊʒə/",
-    "def": "The moment a user actually sees the tested version.",
-    "vi": "lượt tiếp xúc",
-    "examples":
-      [
-        {
-          "en": "Count exposure only when the page really loads.",
-          "vi": "Chỉ tính lượt tiếp xúc khi trang thật sự tải xong.",
         },
       ],
   }
@@ -2077,24 +1687,6 @@
       [{ "en": "It's too early to conclude anything.", "vi": "Còn quá sớm để kết luận điều gì." }],
   }
 - {
-    "slug": "bear-out-phr-science",
-    "lemma": "bear out",
-    "pos": "phrasal_verb",
-    "kind": "phrasal",
-    "cefr": "C1",
-    "topic": "science",
-    "ipa": "/beər aʊt/",
-    "def": "To show that a claim is true.",
-    "vi": "xác nhận, chứng thực",
-    "examples":
-      [
-        {
-          "en": "The numbers bear out the cache theory.",
-          "vi": "Số liệu xác nhận giả thuyết về cache.",
-        },
-      ],
-  }
-- {
     "slug": "contradict-v",
     "lemma": "contradict",
     "pos": "verb",
@@ -2125,23 +1717,6 @@
         {
           "en": "This is observational data, so we can't prove cause.",
           "vi": "Đây là dữ liệu quan sát nên ta không chứng minh được nguyên nhân.",
-        },
-      ],
-  }
-- {
-    "slug": "sample-n-science",
-    "lemma": "sample",
-    "pos": "noun",
-    "cefr": "B2",
-    "topic": "science",
-    "ipa": "/ˈsɑːmpl/",
-    "def": "A small part of a group that you study.",
-    "vi": "mẫu",
-    "examples":
-      [
-        {
-          "en": "We checked a sample of 200 failed orders.",
-          "vi": "Bọn mình kiểm tra một mẫu gồm 200 đơn hàng lỗi.",
         },
       ],
   }
@@ -2406,18 +1981,6 @@
       ],
   }
 - {
-    "slug": "quarantine-v-science",
-    "lemma": "quarantine",
-    "pos": "verb",
-    "cefr": "C1",
-    "topic": "science",
-    "ipa": "/ˈkwɒrəntiːn/",
-    "def": "To separate something so it cannot harm the rest.",
-    "vi": "cách ly",
-    "examples":
-      [{ "en": "We quarantined the broken node.", "vi": "Bọn mình cách ly node bị lỗi." }],
-  }
-- {
     "slug": "remediation-n",
     "lemma": "remediation",
     "pos": "noun",
@@ -2621,23 +2184,6 @@
       ],
   }
 - {
-    "slug": "recurrence-n-science",
-    "lemma": "recurrence",
-    "pos": "noun",
-    "cefr": "C1",
-    "topic": "science",
-    "ipa": "/rɪˈkʌrəns/",
-    "def": "When something happens again.",
-    "vi": "sự tái diễn",
-    "examples":
-      [
-        {
-          "en": "A new alert should prevent a recurrence.",
-          "vi": "Một cảnh báo mới sẽ ngăn sự cố tái diễn.",
-        },
-      ],
-  }
-- {
     "slug": "circuit-breaker-n",
     "lemma": "circuit breaker",
     "pos": "noun",
@@ -2652,75 +2198,6 @@
         {
           "en": "A circuit breaker would have stopped the cascade.",
           "vi": "Một cơ chế ngắt mạch lẽ ra đã chặn được lỗi lan dây chuyền.",
-        },
-      ],
-  }
-- {
-    "slug": "postmortem-n-science",
-    "lemma": "postmortem",
-    "pos": "noun",
-    "cefr": "C1",
-    "topic": "science",
-    "ipa": "/ˌpəʊstˈmɔːtəm/",
-    "def": "A meeting or document that studies an incident after it ends.",
-    "vi": "buổi/bản phân tích sau sự cố",
-    "examples":
-      [
-        {
-          "en": "The postmortem is on Friday.",
-          "vi": "Buổi phân tích sau sự cố diễn ra vào thứ Sáu.",
-        },
-      ],
-  }
-- {
-    "slug": "blameless-adj-science",
-    "lemma": "blameless",
-    "pos": "adjective",
-    "cefr": "C1",
-    "topic": "science",
-    "ipa": "/ˈbleɪmləs/",
-    "def": "Focusing on the system, not on blaming people.",
-    "vi": "không đổ lỗi",
-    "examples":
-      [
-        {
-          "en": "We keep our postmortems blameless.",
-          "vi": "Bọn mình giữ các buổi phân tích sự cố theo tinh thần không đổ lỗi.",
-        },
-      ],
-  }
-- {
-    "slug": "action-item-n-science",
-    "lemma": "action item",
-    "pos": "noun",
-    "kind": "collocation",
-    "cefr": "B2",
-    "topic": "science",
-    "ipa": "/ˈækʃn ˈaɪtəm/",
-    "def": "A task someone agrees to do after a meeting.",
-    "vi": "việc cần làm",
-    "examples":
-      [
-        {
-          "en": "Each action item needs an owner and a date.",
-          "vi": "Mỗi việc cần làm cần có người phụ trách và hạn chót.",
-        },
-      ],
-  }
-- {
-    "slug": "corroborate-v-science",
-    "lemma": "corroborate",
-    "pos": "verb",
-    "cefr": "C1",
-    "topic": "science",
-    "ipa": "/kəˈrɒbəreɪt/",
-    "def": "To support an idea with more evidence.",
-    "vi": "chứng thực, xác nhận thêm",
-    "examples":
-      [
-        {
-          "en": "The database metrics corroborate what the logs show.",
-          "vi": "Chỉ số database xác nhận thêm điều log cho thấy.",
         },
       ],
   }
@@ -2924,18 +2401,6 @@
       ],
   }
 - {
-    "slug": "restore-v-science",
-    "lemma": "restore",
-    "pos": "verb",
-    "cefr": "B2",
-    "topic": "science",
-    "ipa": "/rɪˈstɔː/",
-    "def": "To make something work again as it did before.",
-    "vi": "khôi phục",
-    "examples":
-      [{ "en": "Service was restored at 14:30.", "vi": "Dịch vụ được khôi phục lúc 14:30." }],
-  }
-- {
     "slug": "outstanding-adj",
     "lemma": "outstanding",
     "pos": "adjective",
@@ -2980,59 +2445,6 @@
         {
           "en": "We put forward two options for a long-term fix.",
           "vi": "Bọn mình đưa ra hai phương án sửa lâu dài.",
-        },
-      ],
-  }
-- {
-    "slug": "known-issue-n-science",
-    "lemma": "known issue",
-    "pos": "noun",
-    "kind": "collocation",
-    "cefr": "B2",
-    "topic": "science",
-    "ipa": "/nəʊn ˈɪʃuː/",
-    "def": "A problem that is already recorded but not fixed yet.",
-    "vi": "lỗi đã biết",
-    "examples":
-      [
-        {
-          "en": "List it as a known issue until the vendor fixes it.",
-          "vi": "Ghi nó là lỗi đã biết cho tới khi bên cung cấp sửa.",
-        },
-      ],
-  }
-- {
-    "slug": "raw-data-n-science",
-    "lemma": "raw data",
-    "pos": "noun",
-    "kind": "collocation",
-    "cefr": "B2",
-    "topic": "science",
-    "ipa": "/rɔː ˈdeɪtə/",
-    "def": "Data that has not been processed or summarised.",
-    "vi": "dữ liệu thô",
-    "examples":
-      [
-        {
-          "en": "Link the raw data at the end of the report.",
-          "vi": "Gắn link dữ liệu thô ở cuối báo cáo.",
-        },
-      ],
-  }
-- {
-    "slug": "reviewer-n-science",
-    "lemma": "reviewer",
-    "pos": "noun",
-    "cefr": "B2",
-    "topic": "science",
-    "ipa": "/rɪˈvjuːə/",
-    "def": "A person who checks a piece of work.",
-    "vi": "người duyệt",
-    "examples":
-      [
-        {
-          "en": "Ask a reviewer from another team to read it.",
-          "vi": "Nhờ một người duyệt từ nhóm khác đọc.",
         },
       ],
   }
@@ -3177,18 +2589,6 @@
       ],
   }
 - {
-    "slug": "owner-n-science",
-    "lemma": "owner",
-    "pos": "noun",
-    "cefr": "B1",
-    "topic": "science",
-    "ipa": "/ˈəʊnə/",
-    "def": "The person responsible for a task or system.",
-    "vi": "người phụ trách",
-    "examples":
-      [{ "en": "Who is the owner of this service?", "vi": "Ai là người phụ trách service này?" }],
-  }
-- {
     "slug": "keep-posted-phr",
     "lemma": "keep someone posted",
     "pos": "phrase",
@@ -3309,24 +2709,6 @@
       ],
   }
 - {
-    "slug": "lesson-learned-n-science",
-    "lemma": "lesson learned",
-    "pos": "noun",
-    "kind": "collocation",
-    "cefr": "C1",
-    "topic": "science",
-    "ipa": "/ˈlesn lɜːnd/",
-    "def": "Useful knowledge gained from an experience, often a bad one.",
-    "vi": "bài học rút ra",
-    "examples":
-      [
-        {
-          "en": "One lesson learned: test backups regularly.",
-          "vi": "Một bài học rút ra: kiểm tra bản sao lưu thường xuyên.",
-        },
-      ],
-  }
-- {
     "slug": "initial-adj",
     "lemma": "initial",
     "pos": "adjective",
@@ -3360,20 +2742,25 @@
         },
       ],
   }
-- {
-    "slug": "attach-v-science",
-    "lemma": "attach",
-    "pos": "verb",
-    "cefr": "B1",
-    "topic": "science",
-    "ipa": "/əˈtætʃ/",
-    "def": "To add a file to an email or document.",
-    "vi": "đính kèm",
-    "examples":
-      [
-        {
-          "en": "I attached the graphs to the report.",
-          "vi": "Mình đã đính kèm các biểu đồ vào báo cáo.",
-        },
-      ],
-  }
+- slug: retention-n-science
+  lemma: retention
+  pos: noun
+  cefr: C1
+  topic: science
+  ipa: /rɪˈtenʃn/
+  def: How many users keep using a product over time.
+  vi: tỉ lệ giữ chân
+  examples:
+    - en: Day-7 retention did not change.
+      vi: Tỉ lệ giữ chân ngày thứ 7 không thay đổi.
+- slug: exposure-n-science
+  lemma: exposure
+  pos: noun
+  cefr: C1
+  topic: science
+  ipa: /ɪkˈspəʊʒə/
+  def: The moment a user actually sees the tested version.
+  vi: lượt tiếp xúc
+  examples:
+    - en: Count exposure only when the page really loads.
+      vi: Chỉ tính lượt tiếp xúc khi trang thật sự tải xong.

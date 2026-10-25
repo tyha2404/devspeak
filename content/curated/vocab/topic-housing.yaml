@@ -431,24 +431,6 @@
       ],
   }
 - {
-    slug: drop-out-phr,
-    lemma: "drop out",
-    pos: phrasal_verb,
-    kind: phrasal,
-    cefr: B1,
-    topic: housing,
-    ipa: "/drɒp ˈaʊt/",
-    def: "To suddenly stop being connected to a call.",
-    vi: "bị rớt (khỏi cuộc gọi)",
-    examples:
-      [
-        {
-          en: "Sorry, I dropped out for a minute. What did I miss?",
-          vi: "Xin lỗi, mình bị rớt mạng một phút. Mình đã bỏ lỡ gì?",
-        },
-      ],
-  }
-- {
     slug: unstable-adj,
     lemma: "unstable",
     pos: adjective,
@@ -586,18 +568,6 @@
           vi: "Thử khởi động lại modem trước khi gọi hỗ trợ.",
         },
       ],
-  }
-- {
-    slug: modem-n,
-    lemma: "modem",
-    pos: noun,
-    cefr: B2,
-    topic: housing,
-    ipa: "/ˈməʊdem/",
-    def: "A device that connects your home to the internet line.",
-    vi: "modem",
-    examples:
-      [{ en: "The light on the modem is blinking red.", vi: "Đèn trên modem đang nhấp nháy đỏ." }],
   }
 - {
     slug: backup-connection-n,
@@ -894,25 +864,6 @@
         {
           en: "I was in the middle of a deploy when the doorbell rang.",
           vi: "Mình đang deploy dở thì chuông cửa reo.",
-        },
-      ],
-  }
-# Set 5: renting a coworking desk
-- {
-    slug: shared-office-n,
-    lemma: "shared office",
-    pos: noun,
-    kind: collocation,
-    cefr: B1,
-    topic: housing,
-    ipa: "/ˌʃeəd ˈɒfɪs/",
-    def: "An office used by people from several companies.",
-    vi: "văn phòng dùng chung",
-    examples:
-      [
-        {
-          en: "I rent a seat in a shared office near my flat.",
-          vi: "Mình thuê một chỗ ở văn phòng dùng chung gần căn hộ.",
         },
       ],
   }
@@ -1529,24 +1480,6 @@
         },
       ],
   }
-- {
-    slug: check-in-phr,
-    lemma: "check in",
-    pos: phrasal_verb,
-    kind: phrasal,
-    cefr: B1,
-    topic: housing,
-    ipa: "/tʃek ˈɪn/",
-    def: "To confirm on a system that you have arrived and are using something.",
-    vi: "xác nhận có mặt",
-    examples:
-      [
-        {
-          en: "You must check in on the tablet within ten minutes or the booking ends.",
-          vi: "Bạn phải xác nhận trên máy tính bảng trong mười phút, nếu không lượt đặt sẽ bị hủy.",
-        },
-      ],
-  }
 # Set 7: maintenance requests
 - {
     slug: handyman-n,
@@ -1903,24 +1836,6 @@
         },
       ],
   }
-- {
-    slug: as-soon-as-possible-phr,
-    lemma: "as soon as possible",
-    pos: phrase,
-    kind: phrase,
-    cefr: A2,
-    topic: housing,
-    ipa: "/əz ˌsuːn əz ˈpɒsəbl/",
-    def: "As quickly as you can.",
-    vi: "càng sớm càng tốt",
-    examples:
-      [
-        {
-          en: "Please send someone as soon as possible.",
-          vi: "Vui lòng cử người đến càng sớm càng tốt.",
-        },
-      ],
-  }
 # Set 8: moving & working temporarily
 - {
     slug: move-house-phr,
@@ -1937,23 +1852,6 @@
         {
           en: "I'm moving house on Saturday, so I'll be offline.",
           vi: "Thứ Bảy mình chuyển nhà nên sẽ không online.",
-        },
-      ],
-  }
-- {
-    slug: relocate-v,
-    lemma: "relocate",
-    pos: verb,
-    cefr: B2,
-    topic: housing,
-    ipa: "/ˌriːləʊˈkeɪt/",
-    def: "To move to a new place to live or work.",
-    vi: "chuyển đến nơi khác",
-    examples:
-      [
-        {
-          en: "She is relocating to Da Nang next month.",
-          vi: "Chị ấy sẽ chuyển ra Đà Nẵng vào tháng sau.",
         },
       ],
   }
@@ -3423,3 +3321,27 @@
         },
       ],
   }
+- slug: drop-out-phr
+  lemma: drop out
+  pos: phrasal_verb
+  kind: phrasal
+  cefr: B1
+  topic: housing
+  ipa: /drɒp ˈaʊt/
+  def: To suddenly stop being connected to a call.
+  vi: bị rớt (khỏi cuộc gọi)
+  examples:
+    - en: Sorry, I dropped out for a minute. What did I miss?
+      vi: Xin lỗi, mình bị rớt mạng một phút. Mình đã bỏ lỡ gì?
+- slug: check-in-phr
+  lemma: check in
+  pos: phrasal_verb
+  kind: phrasal
+  cefr: B1
+  topic: housing
+  ipa: /tʃek ˈɪn/
+  def: To confirm on a system that you have arrived and are using something.
+  vi: xác nhận có mặt
+  examples:
+    - en: You must check in on the tablet within ten minutes or the booking ends.
+      vi: Bạn phải xác nhận trên máy tính bảng trong mười phút, nếu không lượt đặt sẽ bị hủy.

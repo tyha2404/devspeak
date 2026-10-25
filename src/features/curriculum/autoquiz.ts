@@ -61,9 +61,11 @@ export function vocabTest(lessonSlug: string, words: SenseSpec[], size = TRACK_T
       senses: [w.slug],
       explanation_vi: `“${w.lemma}” nghĩa là “${w.vi}”. Ví dụ: ${w.examples[0]!.en}`,
     };
-    // When the cycle wraps onto a word again, move it to a question kind it hasn't had yet.
-    const kind =
-      [0, 1, 2, 3].map((k) => (n + k) % 4).find((k) => !used.has(`${w.slug}:${k}`)) ?? n % 4;
+    // Prefer the planned kind, else one this word hasn't had yet; kind 3 needs an example
+    // that contains the term. The kind actually emitted is what gets recorded.
+    const blanked = blankTerm(w.examples[0]!.en, [w.lemma, ...w.forms]);
+    const order = [0, 1, 2, 3].map((k) => (n + k) % 4).filter((k) => k !== 3 || blanked);
+    const kind = order.find((k) => !used.has(`${w.slug}:${k}`)) ?? order[0]!;
     used.add(`${w.slug}:${kind}`);
     if (kind === 2) {
       out.push({
@@ -76,8 +78,7 @@ export function vocabTest(lessonSlug: string, words: SenseSpec[], size = TRACK_T
       });
       continue;
     }
-    const blanked = kind === 3 ? blankTerm(w.examples[0]!.en, [w.lemma, ...w.forms]) : null;
-    if (blanked) {
+    if (kind === 3 && blanked) {
       const c = choice(
         w.lemma,
         others.map((o) => o.lemma),

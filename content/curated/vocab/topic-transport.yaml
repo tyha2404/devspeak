@@ -1226,19 +1226,6 @@
       ],
   }
 - {
-    slug: push-back-pv,
-    lemma: "push back",
-    pos: phrasal_verb,
-    kind: phrasal,
-    cefr: B2,
-    topic: transport,
-    ipa: "/ˌpʊʃ ˈbæk/",
-    def: "To move an event or time to later than planned.",
-    vi: "lùi lại",
-    examples:
-      [{ en: "The flight was pushed back by two hours.", vi: "Chuyến bay bị lùi lại hai tiếng." }],
-  }
-- {
     slug: engine-failure-n,
     lemma: "engine failure",
     pos: noun,
@@ -1411,24 +1398,6 @@
       ],
   }
 - {
-    slug: travel-credit-n,
-    lemma: "travel credit",
-    pos: noun,
-    kind: collocation,
-    cefr: B2,
-    topic: transport,
-    ipa: "/ˈtrævl ˌkredɪt/",
-    def: "Money in an app account that can be used only for future trips.",
-    vi: "tín dụng đi lại",
-    examples:
-      [
-        {
-          en: "The refund is paid as travel credit, not cash.",
-          vi: "Tiền hoàn được trả dưới dạng tín dụng đi lại, không phải tiền mặt.",
-        },
-      ],
-  }
-- {
     slug: overbooked-adj,
     lemma: "overbooked",
     pos: adjective,
@@ -1532,24 +1501,6 @@
         {
           en: "Riders only need to share location while using the app.",
           vi: "Khách chỉ cần chia sẻ vị trí khi đang dùng ứng dụng.",
-        },
-      ],
-  }
-- {
-    slug: opt-in-pv,
-    lemma: "opt in",
-    pos: phrasal_verb,
-    kind: phrasal,
-    cefr: B2,
-    topic: transport,
-    ipa: "/ˌɒpt ˈɪn/",
-    def: "To choose to take part in something.",
-    vi: "chủ động đồng ý tham gia",
-    examples:
-      [
-        {
-          en: "Drivers must opt in before we record their trips.",
-          vi: "Tài xế phải chủ động đồng ý trước khi tụi mình ghi lại chuyến đi.",
         },
       ],
   }
@@ -1798,23 +1749,6 @@
       ],
   }
 - {
-    slug: disclose-v,
-    lemma: "disclose",
-    pos: verb,
-    cefr: C1,
-    topic: transport,
-    ipa: "/dɪsˈkləʊz/",
-    def: "To make information known to others.",
-    vi: "công bố, tiết lộ",
-    examples:
-      [
-        {
-          en: "The privacy page must disclose who receives location data.",
-          vi: "Trang quyền riêng tư phải công bố ai nhận dữ liệu vị trí.",
-        },
-      ],
-  }
-- {
     slug: usage-description-n,
     lemma: "usage description",
     pos: noun,
@@ -2002,40 +1936,6 @@
         {
           en: "GPS drift makes a parked bike look like it is moving.",
           vi: "Độ trôi GPS khiến chiếc xe đang đỗ trông như đang chạy.",
-        },
-      ],
-  }
-- {
-    slug: sequence-n,
-    lemma: "sequence",
-    pos: noun,
-    cefr: B2,
-    topic: transport,
-    ipa: "/ˈsiːkwəns/",
-    def: "The order in which things happen.",
-    vi: "trình tự",
-    examples:
-      [
-        {
-          en: "The expected sequence is picked up, in transit, then delivered.",
-          vi: "Trình tự mong đợi là đã lấy hàng, đang vận chuyển rồi đã giao.",
-        },
-      ],
-  }
-- {
-    slug: backfill-v,
-    lemma: "backfill",
-    pos: verb,
-    cefr: C1,
-    topic: transport,
-    ipa: "/ˈbækfɪl/",
-    def: "To add missing older data after the time it should have arrived.",
-    vi: "bổ sung dữ liệu cũ",
-    examples:
-      [
-        {
-          en: "We backfill the missing scans once the hub is back online.",
-          vi: "Tụi mình bổ sung các lần quét bị thiếu khi trung tâm có mạng trở lại.",
         },
       ],
   }

@@ -676,23 +676,6 @@
       ],
   }
 - {
-    slug: savoury-adj,
-    lemma: "savoury",
-    pos: adjective,
-    cefr: B2,
-    topic: food,
-    ipa: "/ˈseɪvəri/",
-    def: "Tasting of salt or spices rather than sugar.",
-    vi: "mặn (vị, không phải ngọt)",
-    examples:
-      [
-        {
-          en: "I'd rather have a savoury snack than cake in the afternoon.",
-          vi: "Buổi chiều mình thích ăn vặt vị mặn hơn bánh ngọt.",
-        },
-      ],
-  }
-- {
     slug: bland-adj,
     lemma: "bland",
     pos: adjective,
@@ -1172,7 +1155,7 @@
     topic: food,
     ipa: "/ɡrəˈtjuːəti/",
     def: "A formal word for extra money given to thank staff for their service.",
-    vi: "tiền thưởng phục vụ",
+    vi: "tiền boa, tiền tip",
     examples:
       [
         {
@@ -1324,18 +1307,6 @@
     examples: [{ en: "Keep the change.", vi: "Không cần thối lại đâu." }],
   }
 - {
-    slug: transfer-v-food,
-    lemma: "transfer",
-    pos: verb,
-    cefr: B1,
-    topic: food,
-    ipa: "/trænsˈfɜː/",
-    def: "To move money from one bank account to another.",
-    vi: "chuyển khoản",
-    examples:
-      [{ en: "I'll transfer my share to you now.", vi: "Mình chuyển phần của mình cho bạn ngay." }],
-  }
-- {
     slug: tax-n,
     lemma: "tax",
     pos: noun,
@@ -1429,24 +1400,6 @@
         {
           en: "Can we get an itemised bill so each of us pays for our own dishes?",
           vi: "Cho xin hoá đơn liệt kê từng món để mỗi người trả phần mình nhé?",
-        },
-      ],
-  }
-- {
-    slug: chip-in-pv,
-    lemma: "chip in",
-    pos: phrasal_verb,
-    kind: phrasal,
-    cefr: B2,
-    topic: food,
-    ipa: "/tʃɪp ˈɪn/",
-    def: "To give some money so a group can pay for something together.",
-    vi: "góp tiền",
-    examples:
-      [
-        {
-          en: "Everyone chipped in for Nam's birthday cake.",
-          vi: "Mọi người góp tiền mua bánh sinh nhật cho Nam.",
         },
       ],
   }
@@ -1813,24 +1766,6 @@
         },
       ],
   }
-# Set 8: lunch small talk
-- {
-    slug: catch-up-n-food,
-    lemma: "catch-up",
-    pos: noun,
-    cefr: B1,
-    topic: food,
-    ipa: "/ˈkætʃ ʌp/",
-    def: "An informal meeting to talk about what has happened since you last met.",
-    vi: "buổi hàn huyên, cập nhật",
-    examples:
-      [
-        {
-          en: "Lunch is a good time for a quick catch-up.",
-          vi: "Bữa trưa là lúc hay để hàn huyên nhanh.",
-        },
-      ],
-  }
 - {
     slug: come-to-think-of-it-phr,
     lemma: "come to think of it",
@@ -1909,24 +1844,6 @@
     vi: "bạn quê ở đâu?",
     examples:
       [{ en: "Where are you from originally — Hanoi?", vi: "Bạn quê gốc ở đâu — Hà Nội à?" }],
-  }
-- {
-    slug: traffic-jam-n-food,
-    lemma: "traffic jam",
-    pos: noun,
-    kind: collocation,
-    cefr: A2,
-    topic: food,
-    ipa: "/ˈtræfɪk dʒæm/",
-    def: "A long line of vehicles that cannot move or move very slowly.",
-    vi: "kẹt xe",
-    examples:
-      [
-        {
-          en: "I was stuck in a traffic jam for an hour this morning.",
-          vi: "Sáng nay mình bị kẹt xe cả tiếng.",
-        },
-      ],
   }
 - {
     slug: weekend-plans-n,
@@ -2043,23 +1960,6 @@
         {
           en: '"Mondays are so long." "I know what you mean."',
           vi: '"Thứ Hai dài quá." "Mình hiểu mà."',
-        },
-      ],
-  }
-- {
-    slug: off-topic-adj-food,
-    lemma: "off-topic",
-    pos: adjective,
-    cefr: B2,
-    topic: food,
-    ipa: "/ˌɒf ˈtɒpɪk/",
-    def: "Not connected to what people are talking about.",
-    vi: "lạc đề",
-    examples:
-      [
-        {
-          en: "Sorry, this is a bit off-topic, but who likes durian?",
-          vi: "Xin lỗi hơi lạc đề, nhưng ai thích sầu riêng không?",
         },
       ],
   }
@@ -2257,17 +2157,6 @@
           vi: "Anh shipper đang đợi ở cửa toà nhà.",
         },
       ],
-  }
-- {
-    slug: missing-adj-food,
-    lemma: "missing",
-    pos: adjective,
-    cefr: A2,
-    topic: food,
-    ipa: "/ˈmɪsɪŋ/",
-    def: "Not there when it should be.",
-    vi: "bị thiếu",
-    examples: [{ en: "My drink is missing from the order.", vi: "Đơn của mình bị thiếu đồ uống." }],
   }
 - {
     slug: wrong-order-n,
@@ -2708,23 +2597,6 @@
       ],
   }
 - {
-    slug: catering-n-food,
-    lemma: "catering",
-    pos: noun,
-    cefr: B2,
-    topic: food,
-    ipa: "/ˈkeɪtərɪŋ/",
-    def: "The service of providing food and drinks for an event.",
-    vi: "dịch vụ đồ ăn (tiệc)",
-    examples:
-      [
-        {
-          en: "Catering for forty people needs to be ordered a week ahead.",
-          vi: "Đặt đồ ăn cho bốn mươi người phải đặt trước một tuần.",
-        },
-      ],
-  }
-- {
     slug: buffet-n,
     lemma: "buffet",
     pos: noun,
@@ -3071,23 +2943,6 @@
       [{ en: "Our manager needs to sign off on the budget.", vi: "Quản lý cần duyệt ngân sách." }],
   }
 - {
-    slug: logistics-n-food,
-    lemma: "logistics",
-    pos: noun,
-    cefr: C1,
-    topic: food,
-    ipa: "/ləˈdʒɪstɪks/",
-    def: "The practical planning of how an event will work.",
-    vi: "khâu hậu cần",
-    examples:
-      [
-        {
-          en: "I'll handle the logistics — transport and timing.",
-          vi: "Mình lo khâu hậu cần — đi lại và thời gian.",
-        },
-      ],
-  }
-- {
     slug: liaise-v,
     lemma: "liaise",
     pos: verb,
@@ -3269,3 +3124,26 @@
     examples:
       [{ en: "The off-site includes a cooking class.", vi: "Buổi off-site có cả lớp học nấu ăn." }],
   }
+- slug: transfer-v-food
+  lemma: transfer
+  pos: verb
+  cefr: B1
+  topic: food
+  ipa: /trænsˈfɜː/
+  def: To move money from one bank account to another.
+  vi: chuyển khoản
+  examples:
+    - en: I'll transfer my share to you now.
+      vi: Mình chuyển phần của mình cho bạn ngay.
+- slug: chip-in-pv
+  lemma: chip in
+  pos: phrasal_verb
+  kind: phrasal
+  cefr: B2
+  topic: food
+  ipa: /tʃɪp ˈɪn/
+  def: To give some money so a group can pay for something together.
+  vi: góp tiền
+  examples:
+    - en: Everyone chipped in for Nam's birthday cake.
+      vi: Mọi người góp tiền mua bánh sinh nhật cho Nam.

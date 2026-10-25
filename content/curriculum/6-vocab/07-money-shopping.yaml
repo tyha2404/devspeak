@@ -8,8 +8,7 @@ status: published
 title:
   en: Budgets, Billing & Developer Purchases
   vi: Ngân sách, hoá đơn & mua sắm công cụ
-summary_vi: Nói về giá, chi phí sử dụng, hoá đơn và gói dịch vụ. Tình huống gắn
-  với mua thiết bị, thuê công cụ và giải thích chi phí cho một dự án nhỏ.
+summary_vi: Nói về giá, chi phí sử dụng, hoá đơn và gói dịch vụ. Tình huống gắn với mua thiết bị, thuê công cụ và giải thích chi phí cho một dự án nhỏ.
 can_do:
   - So sánh chi phí công cụ và gói dịch vụ
   - Giải thích hoá đơn hoặc yêu cầu thanh toán sai
@@ -44,7 +43,7 @@ lessons:
         annual-adj,
         auto-renewal-n,
         downgrade-v,
-        free-trial-n-money-shopping,
+        free-trial-n,
         billing-cycle-n,
         sign-up-for-phr,
         lapse-v,
@@ -76,8 +75,8 @@ lessons:
     title: { en: "Set 4: A project budget", vi: "Bộ 4: Ngân sách dự án" }
     senses:
       [
-        earmark-v-money-shopping,
-        ballpark-figure-n,
+        earmark-v,
+        ballpark-n,
         hosting-n,
         software-licence-n,
         contingency-n-money-shopping,
@@ -85,10 +84,10 @@ lessons:
         overspend-v,
         runway-n,
         cost-breakdown-n,
-        one-off-adj-money-shopping,
+        one-off-adj,
         recurring-adj,
         approval-threshold-n,
-        set-aside-phr,
+        set-aside-pv,
         fund-v,
         quarter-n,
         spending-cap-n,
@@ -114,7 +113,7 @@ lessons:
         burst-n,
         rate-card-n,
         flat-rate-n,
-        threshold-n,
+        threshold-env-n,
         billable-adj,
         consumption-n,
       ]
@@ -134,7 +133,7 @@ lessons:
         proof-of-payment-n,
         reference-number-n,
         unpaid-adj,
-        reverse-v-money-shopping,
+        reverse-v,
         account-credit-n,
         unauthorised-adj,
         duplicate-adj,
@@ -163,17 +162,17 @@ lessons:
         swift-code-n,
         checkout-n,
         insufficient-funds-n,
-        expiry-date-n-money-shopping,
+        expiry-date-n,
         security-code-n,
         instalment-n,
-        top-up-v,
+        top-up-phr,
         withdraw-v,
         balance-n,
         fluctuate-v,
         convert-v,
         cardholder-n,
         payment-gateway-n,
-        cross-border-adj-money-shopping,
+        cross-border-adj,
       ]
     questions: []
   - slug: t07-l8
@@ -183,7 +182,7 @@ lessons:
       [
         expense-n,
         reimburse-v,
-        claim-back-phr,
+        receipt-n,
         out-of-pocket-adj,
         allowance-n,
         per-diem-n,
@@ -191,11 +190,11 @@ lessons:
         justification-n,
         business-purpose-n,
         expense-policy-n,
-        approver-n-money-shopping,
+        approver-n,
         cost-centre-n,
         petty-cash-n,
         cash-advance-n,
-        stipend-n,
+        invoice-n,
         claimable-adj,
         tax-deductible-adj,
         accommodation-n,
@@ -230,7 +229,7 @@ lessons:
         self-hosted-adj,
         operational-adj,
         capex-n,
-        opex-n,
+        operating-expense-n,
         amortise-v,
         negligible-adj,
         substantial-adj,
@@ -252,7 +251,7 @@ lessons:
         headroom-n,
         attributable-adj,
         cost-driver-n,
-        streamline-v-money-shopping,
+        streamline-v,
         prudent-adj,
         optimise-v,
         right-size-v,
@@ -279,7 +278,7 @@ lessons:
         spend-n,
         run-rate-n,
         going-forward-phr,
-        pay-off-phr-money-shopping,
+        pay-off-phr,
         unforeseen-adj,
         spending-freeze-n,
         steep-adj-money-shopping,

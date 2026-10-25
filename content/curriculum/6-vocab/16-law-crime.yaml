@@ -44,7 +44,7 @@ lessons:
         time-limited-adj,
         read-access-n,
         least-privilege-n,
-        access-request-n,
+        revoke-v,
         auto-expire-v,
       ]
     questions: []
@@ -62,7 +62,7 @@ lessons:
         remove-v,
         internal-only-adj,
         plain-text-n,
-        black-out-phr,
+        encrypt-v,
         anonymize-v,
         expose-v,
         log-line-n,
@@ -75,7 +75,7 @@ lessons:
       { en: "Set 4: Threats & suspicious activity", vi: "Bộ 4: Mối đe doạ & dấu hiệu bất thường" }
     senses:
       [
-        strange-adj,
+        phishing-n,
         report-phishing-phr,
         login-alert-n,
         attacker-n,
@@ -98,7 +98,7 @@ lessons:
     title: { en: "Set 5: Vulnerability reports", vi: "Bộ 5: Báo cáo lỗ hổng" }
     senses:
       [
-        flaw-n,
+        ransomware-n,
         affect-v,
         version-n,
         severity-n,
@@ -109,7 +109,7 @@ lessons:
         patch-n,
         embargo-n,
         security-advisory-n,
-        security-fix-n,
+        data-breach-n,
         cross-site-scripting-n,
         researcher-n,
         vulnerability-disclosure-n,
@@ -125,7 +125,7 @@ lessons:
       [
         collect-v,
         data-minimization-n,
-        store-v,
+        store-data-v,
         right-to-erasure-n,
         privacy-notice-n,
         opt-in-phr,
@@ -237,7 +237,7 @@ lessons:
         login-history-n,
         download-history-n,
         checksum-n,
-        document-steps-v,
+        document-v-family,
       ]
     questions: []
   - slug: t16-l10
@@ -245,9 +245,9 @@ lessons:
     title: { en: "Set 10: A security follow-up", vi: "Bộ 10: Theo dõi sau sự cố bảo mật" }
     senses:
       [
-        lesson-n,
+        postmortem-n,
         cause-n,
-        repeat-incident-n,
+        root-cause-n,
         security-write-up-n,
         owner-and-due-date-phr,
         detection-gap-n,
@@ -255,11 +255,11 @@ lessons:
         finger-pointing-n,
         safeguard-n,
         recurrence-n,
-        follow-up-phr,
+        follow-up-v,
         remaining-adj,
         measure-n,
         permanent-fix-n,
-        security-review-n,
+        blameless-adj,
         fix-by-date-n,
         assign-an-owner-phr,
         training-n,
@@ -267,7 +267,7 @@ lessons:
         security-playbook-n,
         harden-v,
         monitoring-n,
-        security-alert-n,
+        alert-n,
         lessons-learned-n,
         residual-risk-n,
         security-champion-n,
@@ -277,7 +277,7 @@ lessons:
         supplier-n,
         verify-the-fix-phr,
         close-out-phr,
-        follow-up-task-n,
+        action-item-n,
         tabletop-exercise-n,
         without-delay-phr,
         reassess-v,

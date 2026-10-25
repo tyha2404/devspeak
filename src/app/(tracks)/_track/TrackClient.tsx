@@ -497,6 +497,11 @@ function LessonInfo({
             <button onClick={onClose} className={btn.secondary}>
               Đóng
             </button>
+            {lesson.state === "completed" && (
+              <Link href={`/lesson/${lesson.id}/practice`} className={btn.secondary}>
+                Luyện tập (không tính giờ)
+              </Link>
+            )}
             <Link href={`/lesson/${lesson.id}`} className={btn.primary}>
               {h ? "Học lại từ đầu →" : "Bắt đầu học →"}
             </Link>

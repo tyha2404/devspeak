@@ -139,42 +139,6 @@
         },
       ],
   }
-- {
-    slug: speak-up-phr,
-    lemma: "speak up",
-    pos: phrasal_verb,
-    kind: phrasal,
-    cefr: B1,
-    topic: government,
-    ipa: "/spiːk ˈʌp/",
-    def: "To say clearly what you think, especially about a problem.",
-    vi: "lên tiếng",
-    examples:
-      [
-        {
-          en: "Speak up in stand-up if you are blocked.",
-          vi: "Hãy lên tiếng trong stand-up nếu bạn bị kẹt việc.",
-        },
-      ],
-  }
-- {
-    slug: house-rules-n,
-    lemma: "house rules",
-    pos: noun,
-    kind: collocation,
-    cefr: B2,
-    topic: government,
-    ipa: "/ˈhaʊs ruːlz/",
-    def: "The informal rules a particular group agrees to follow.",
-    vi: "nội quy nhóm",
-    examples:
-      [
-        {
-          en: "House rules: reply in threads, not in the main channel.",
-          vi: "Nội quy nhóm: trả lời trong thread, không phải kênh chính.",
-        },
-      ],
-  }
 # Set 2: Coding standards
 - {
     slug: coding-standard-n,
@@ -732,23 +696,6 @@
       ],
   }
 - {
-    slug: onus-n,
-    lemma: "onus",
-    pos: noun,
-    cefr: C1,
-    topic: government,
-    ipa: "/ˈəʊnəs/",
-    def: "The duty or responsibility to do something.",
-    vi: "trách nhiệm phải làm",
-    examples:
-      [
-        {
-          en: "The onus is on the author to update the docs.",
-          vi: "Trách nhiệm cập nhật tài liệu thuộc về người viết.",
-        },
-      ],
-  }
-- {
     slug: take-ownership-phr,
     lemma: "take ownership",
     pos: phrase,
@@ -1199,24 +1146,6 @@
         {
           en: "Storing card numbers in logs is a red line for us.",
           vi: "Lưu số thẻ trong log là giới hạn đỏ của nhóm.",
-        },
-      ],
-  }
-- {
-    slug: sign-off-on-phr,
-    lemma: "sign off on",
-    pos: phrasal_verb,
-    kind: phrasal,
-    cefr: B2,
-    topic: government,
-    ipa: "/saɪn ˈɒf ɒn/",
-    def: "To give official approval for something.",
-    vi: "ký duyệt",
-    examples:
-      [
-        {
-          en: "The director has to sign off on any exception longer than a month.",
-          vi: "Giám đốc phải ký duyệt mọi ngoại lệ kéo dài quá một tháng.",
         },
       ],
   }
@@ -1865,24 +1794,6 @@
       ],
   }
 - {
-    slug: phase-in-phr,
-    lemma: "phase in",
-    pos: phrasal_verb,
-    kind: phrasal,
-    cefr: C1,
-    topic: government,
-    ipa: "/feɪz ˈɪn/",
-    def: "To start using something gradually over a period.",
-    vi: "áp dụng từng bước",
-    examples:
-      [
-        {
-          en: "We'll phase in the stricter lint rules over three sprints.",
-          vi: "Nhóm sẽ áp dụng từng bước các quy tắc lint chặt hơn trong ba sprint.",
-        },
-      ],
-  }
-- {
     slug: assess-v,
     lemma: "assess",
     pos: verb,
@@ -1896,23 +1807,6 @@
         {
           en: "We'll assess the change after one month.",
           vi: "Nhóm sẽ đánh giá thay đổi sau một tháng.",
-        },
-      ],
-  }
-- {
-    slug: buy-in-n,
-    lemma: "buy-in",
-    pos: noun,
-    cefr: C1,
-    topic: government,
-    ipa: "/ˈbaɪ ɪn/",
-    def: "Agreement and support from the people affected.",
-    vi: "sự ủng hộ",
-    examples:
-      [
-        {
-          en: "We need buy-in from the mobile team before we change the API.",
-          vi: "Cần sự ủng hộ của nhóm mobile trước khi đổi API.",
         },
       ],
   }
@@ -2087,41 +1981,6 @@
         {
           en: "I'll abstain because I don't work on that service.",
           vi: "Mình bỏ phiếu trắng vì không làm ở dịch vụ đó.",
-        },
-      ],
-  }
-- {
-    slug: shared-view-n,
-    lemma: "shared view",
-    pos: noun,
-    kind: collocation,
-    cefr: B2,
-    topic: government,
-    ipa: "/ˌʃeəd ˈvjuː/",
-    def: "An opinion that several people hold.",
-    vi: "quan điểm chung",
-    examples:
-      [
-        {
-          en: "The shared view is that alerts are too noisy.",
-          vi: "Quan điểm chung là cảnh báo đang quá nhiều.",
-        },
-      ],
-  }
-- {
-    slug: viewpoint-n,
-    lemma: "viewpoint",
-    pos: noun,
-    cefr: B2,
-    topic: government,
-    ipa: "/ˈvjuːpɔɪnt/",
-    def: "A way of thinking about a subject.",
-    vi: "quan điểm",
-    examples:
-      [
-        {
-          en: "From a security viewpoint, the plan is risky.",
-          vi: "Từ quan điểm bảo mật, kế hoạch này rủi ro.",
         },
       ],
   }
@@ -3260,40 +3119,6 @@
         {
           en: "The new rule turned out to slow down urgent fixes.",
           vi: "Quy tắc mới hoá ra lại làm chậm các bản sửa gấp.",
-        },
-      ],
-  }
-- {
-    slug: roll-back-v,
-    lemma: "roll back",
-    pos: verb,
-    cefr: B2,
-    topic: government,
-    ipa: "/rəʊl ˈbæk/",
-    def: "To return a system or rule to an earlier version.",
-    vi: "khôi phục về bản cũ",
-    examples:
-      [
-        {
-          en: "If the numbers get worse, we'll roll back the policy.",
-          vi: "Nếu số liệu xấu đi, nhóm sẽ khôi phục quy định cũ.",
-        },
-      ],
-  }
-- {
-    slug: foresee-v,
-    lemma: "foresee",
-    pos: verb,
-    cefr: C1,
-    topic: government,
-    ipa: "/fɔːˈsiː/",
-    def: "To know that something will happen before it does.",
-    vi: "lường trước",
-    examples:
-      [
-        {
-          en: "Nobody foresaw how many teams would ask for exceptions.",
-          vi: "Không ai lường trước được bao nhiêu nhóm sẽ xin ngoại lệ.",
         },
       ],
   }

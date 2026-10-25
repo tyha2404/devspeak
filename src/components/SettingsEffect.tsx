@@ -11,8 +11,10 @@ export function SettingsEffect() {
   const reduced = useSettings((s) => s.reducedMotion);
   const theme = useSettings((s) => s.theme);
   useEffect(() => {
-    if (theme === "system") delete document.documentElement.dataset.theme;
-    else document.documentElement.dataset.theme = theme;
+    // Hydration's first render uses the server default; keep the persisted choice applied in head.
+    const currentTheme = useSettings.getState().theme;
+    if (currentTheme === "system") delete document.documentElement.dataset.theme;
+    else document.documentElement.dataset.theme = currentTheme;
   }, [theme]);
   useEffect(() => {
     document.documentElement.style.setProperty("--dq-font-base", `${FONT_PX[fontScale]}px`);

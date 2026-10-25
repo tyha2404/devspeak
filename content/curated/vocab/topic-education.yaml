@@ -6,14 +6,14 @@
     pos: noun,
     cefr: A2,
     topic: education,
-    ipa: "/sk\u026al/",
+    ipa: "/skɪl/",
     def: "The ability to do something well because you have learned and practised it.",
-    vi: "k\u1ef9 n\u0103ng",
+    vi: "kỹ năng",
     examples:
       [
         {
           en: "Testing is a skill I want to get better at this year.",
-          vi: "Vi\u1ebft test l\u00e0 k\u1ef9 n\u0103ng m\u00ecnh mu\u1ed1n gi\u1ecfi h\u01a1n trong n\u0103m nay.",
+          vi: "Viết test là kỹ năng mình muốn giỏi hơn trong năm nay.",
         },
       ],
   }
@@ -24,14 +24,14 @@
     kind: collocation,
     cefr: A2,
     topic: education,
-    ipa: "/\u02c8l\u025c\u02d0n\u026a\u014b \u0261\u0259\u028al/",
+    ipa: "/ˈlɜːnɪŋ ɡəʊl/",
     def: "Something you plan to be able to do after a period of study.",
-    vi: "m\u1ee5c ti\u00eau h\u1ecdc t\u1eadp",
+    vi: "mục tiêu học tập",
     examples:
       [
         {
           en: "My learning goal is to write a small API in Go by June.",
-          vi: "M\u1ee5c ti\u00eau h\u1ecdc c\u1ee7a m\u00ecnh l\u00e0 vi\u1ebft \u0111\u01b0\u1ee3c m\u1ed9t API nh\u1ecf b\u1eb1ng Go tr\u01b0\u1edbc th\u00e1ng S\u00e1u.",
+          vi: "Mục tiêu học của mình là viết được một API nhỏ bằng Go trước tháng Sáu.",
         },
       ],
   }
@@ -41,14 +41,14 @@
     pos: noun,
     cefr: A2,
     topic: education,
-    ipa: "/b\u026a\u02c8\u0261\u026an\u0259/",
+    ipa: "/bɪˈɡɪnə/",
     def: "A person who has just started learning something.",
-    vi: "ng\u01b0\u1eddi m\u1edbi b\u1eaft \u0111\u1ea7u",
+    vi: "người mới bắt đầu",
     examples:
       [
         {
           en: "I'm a beginner with Docker, so please explain it slowly.",
-          vi: "M\u00ecnh m\u1edbi h\u1ecdc Docker n\u00ean gi\u1ea3i th\u00edch ch\u1eadm gi\u00fap m\u00ecnh nh\u00e9.",
+          vi: "Mình mới học Docker nên giải thích chậm giúp mình nhé.",
         },
       ],
   }
@@ -58,14 +58,14 @@
     pos: verb,
     cefr: A2,
     topic: education,
-    ipa: "/\u026am\u02c8pru\u02d0v/",
+    ipa: "/ɪmˈpruːv/",
     def: "To become better, or to make something better.",
-    vi: "c\u1ea3i thi\u1ec7n, ti\u1ebfn b\u1ed9",
+    vi: "cải thiện, tiến bộ",
     examples:
       [
         {
           en: "I read code reviews every day to improve my English.",
-          vi: "M\u00ecnh \u0111\u1ecdc code review m\u1ed7i ng\u00e0y \u0111\u1ec3 c\u1ea3i thi\u1ec7n ti\u1ebfng Anh.",
+          vi: "Mình đọc code review mỗi ngày để cải thiện tiếng Anh.",
         },
       ],
   }
@@ -75,15 +75,15 @@
     pos: verb,
     cefr: A2,
     topic: education,
-    ipa: "/\u02c8pr\u00e6kt\u026as/",
+    ipa: "/ˈpræktɪs/",
     def: "To do something again and again so that you get better at it.",
-    vi: "luy\u1ec7n t\u1eadp",
-    note: "Anh-M\u1ef9 vi\u1ebft \"practice\" cho c\u1ea3 danh t\u1eeb v\u00e0 \u0111\u1ed9ng t\u1eeb.",
+    vi: "luyện tập",
+    note: 'Anh-Mỹ viết "practice" cho cả danh từ và động từ.',
     examples:
       [
         {
           en: "I practise SQL with a small exercise every morning.",
-          vi: "S\u00e1ng n\u00e0o m\u00ecnh c\u0169ng luy\u1ec7n SQL b\u1eb1ng m\u1ed9t b\u00e0i t\u1eadp nh\u1ecf.",
+          vi: "Sáng nào mình cũng luyện SQL bằng một bài tập nhỏ.",
         },
       ],
   }
@@ -93,15 +93,15 @@
     pos: noun,
     cefr: A2,
     topic: education,
-    ipa: "/\u02c8pr\u0259\u028a\u0261res/",
+    ipa: "/ˈprəʊɡres/",
     def: "The way you move forward and get closer to what you want.",
-    vi: "s\u1ef1 ti\u1ebfn b\u1ed9, ti\u1ebfn \u0111\u1ed9",
-    note: "Danh t\u1eeb kh\u00f4ng \u0111\u1ebfm \u0111\u01b0\u1ee3c: kh\u00f4ng n\u00f3i \"a progress\".",
+    vi: "sự tiến bộ, tiến độ",
+    note: 'Danh từ không đếm được: không nói "a progress".',
     examples:
       [
         {
           en: "I write down my progress at the end of each week.",
-          vi: "Cu\u1ed1i m\u1ed7i tu\u1ea7n m\u00ecnh ghi l\u1ea1i ti\u1ebfn \u0111\u1ed9 c\u1ee7a m\u00ecnh.",
+          vi: "Cuối mỗi tuần mình ghi lại tiến độ của mình.",
         },
       ],
   }
@@ -111,14 +111,14 @@
     pos: noun,
     cefr: A2,
     topic: education,
-    ipa: "/\u02c8levl/",
+    ipa: "/ˈlevl/",
     def: "How good or advanced someone is at something.",
-    vi: "tr\u00ecnh \u0111\u1ed9, m\u1ee9c",
+    vi: "trình độ, mức",
     examples:
       [
         {
           en: "My React level is OK, but my testing level is low.",
-          vi: "Tr\u00ecnh React c\u1ee7a m\u00ecnh \u1ed5n nh\u01b0ng ph\u1ea7n test c\u00f2n y\u1ebfu.",
+          vi: "Trình React của mình ổn nhưng phần test còn yếu.",
         },
       ],
   }
@@ -129,14 +129,14 @@
     kind: phrasal,
     cefr: A2,
     topic: education,
-    ipa: "/\u02c8f\u0259\u028ak\u0259s \u0252n/",
+    ipa: "/ˈfəʊkəs ɒn/",
     def: "To give most of your time and attention to one thing.",
-    vi: "t\u1eadp trung v\u00e0o",
+    vi: "tập trung vào",
     examples:
       [
         {
           en: "This month I want to focus on TypeScript types.",
-          vi: "Th\u00e1ng n\u00e0y m\u00ecnh mu\u1ed1n t\u1eadp trung v\u00e0o ki\u1ec3u d\u1eef li\u1ec7u TypeScript.",
+          vi: "Tháng này mình muốn tập trung vào kiểu dữ liệu TypeScript.",
         },
       ],
   }
@@ -146,14 +146,14 @@
     pos: verb,
     cefr: B1,
     topic: education,
-    ipa: "/\u0259\u02c8t\u0283i\u02d0v/",
+    ipa: "/əˈtʃiːv/",
     def: "To succeed in doing something after working hard for it.",
-    vi: "\u0111\u1ea1t \u0111\u01b0\u1ee3c",
+    vi: "đạt được",
     examples:
       [
         {
           en: "I achieved my goal of passing the cloud exam.",
-          vi: "M\u00ecnh \u0111\u00e3 \u0111\u1ea1t m\u1ee5c ti\u00eau thi \u0111\u1eadu ch\u1ee9ng ch\u1ec9 cloud.",
+          vi: "Mình đã đạt mục tiêu thi đậu chứng chỉ cloud.",
         },
       ],
   }
@@ -164,14 +164,14 @@
     kind: phrase,
     cefr: A2,
     topic: education,
-    ipa: "/ba\u026a \u00f0i \u02c8end \u0259v/",
+    ipa: "/baɪ ði ˈend əv/",
     def: "Not later than the last part of a period of time.",
-    vi: "tr\u01b0\u1edbc khi h\u1ebft, ch\u1eadm nh\u1ea5t l\u00e0 cu\u1ed1i",
+    vi: "trước khi hết, chậm nhất là cuối",
     examples:
       [
         {
           en: "By the end of the sprint, I want to understand the payment module.",
-          vi: "Tr\u01b0\u1edbc khi h\u1ebft sprint, m\u00ecnh mu\u1ed1n hi\u1ec3u module thanh to\u00e1n.",
+          vi: "Trước khi hết sprint, mình muốn hiểu module thanh toán.",
         },
       ],
   }
@@ -182,14 +182,14 @@
     pos: noun,
     cefr: A2,
     topic: education,
-    ipa: "/tju\u02d0\u02c8t\u0254\u02d0ri\u0259l/",
+    ipa: "/tjuːˈtɔːriəl/",
     def: "A lesson, often online, that shows you how to do something step by step.",
-    vi: "b\u00e0i h\u01b0\u1edbng d\u1eabn",
+    vi: "bài hướng dẫn",
     examples:
       [
         {
           en: "I followed a tutorial to set up my first Next.js app.",
-          vi: "M\u00ecnh l\u00e0m theo m\u1ed9t b\u00e0i h\u01b0\u1edbng d\u1eabn \u0111\u1ec3 d\u1ef1ng \u1ee9ng d\u1ee5ng Next.js \u0111\u1ea7u ti\u00ean.",
+          vi: "Mình làm theo một bài hướng dẫn để dựng ứng dụng Next.js đầu tiên.",
         },
       ],
   }
@@ -201,12 +201,12 @@
     topic: education,
     ipa: "/step/",
     def: "One action in a list of actions you do in order.",
-    vi: "b\u01b0\u1edbc",
+    vi: "bước",
     examples:
       [
         {
           en: "I'm stuck on step 4: the server doesn't start.",
-          vi: "M\u00ecnh b\u1ecb k\u1eb9t \u1edf b\u01b0\u1edbc 4: server kh\u00f4ng ch\u1ea1y.",
+          vi: "Mình bị kẹt ở bước 4: server không chạy.",
         },
       ],
   }
@@ -216,14 +216,14 @@
     pos: verb,
     cefr: A2,
     topic: education,
-    ipa: "/\u02c8f\u0252l\u0259\u028a/",
+    ipa: "/ˈfɒləʊ/",
     def: "To do what a guide or set of instructions tells you to do.",
-    vi: "l\u00e0m theo",
+    vi: "làm theo",
     examples:
       [
         {
           en: "I followed every step, but the build still fails.",
-          vi: "M\u00ecnh \u0111\u00e3 l\u00e0m theo t\u1eebng b\u01b0\u1edbc m\u00e0 build v\u1eabn l\u1ed7i.",
+          vi: "Mình đã làm theo từng bước mà build vẫn lỗi.",
         },
       ],
   }
@@ -233,15 +233,15 @@
     pos: noun,
     cefr: A2,
     topic: education,
-    ipa: "/\u026an\u02c8str\u028ck\u0283nz/",
+    ipa: "/ɪnˈstrʌkʃnz/",
     def: "Written information that tells you how to do or use something.",
-    vi: "h\u01b0\u1edbng d\u1eabn (ch\u1ec9 d\u1eabn)",
-    note: "Th\u01b0\u1eddng d\u00f9ng s\u1ed1 nhi\u1ec1u.",
+    vi: "hướng dẫn (chỉ dẫn)",
+    note: "Thường dùng số nhiều.",
     examples:
       [
         {
           en: "The setup instructions are in the README.",
-          vi: "H\u01b0\u1edbng d\u1eabn c\u00e0i \u0111\u1eb7t n\u1eb1m trong README.",
+          vi: "Hướng dẫn cài đặt nằm trong README.",
         },
       ],
   }
@@ -251,14 +251,14 @@
     pos: verb,
     cefr: B1,
     topic: education,
-    ipa: "/sk\u026ap/",
+    ipa: "/skɪp/",
     def: "To not do one part of something and go on to the next part.",
-    vi: "b\u1ecf qua",
+    vi: "bỏ qua",
     examples:
       [
         {
           en: "You can skip the Windows section if you use a Mac.",
-          vi: "N\u1ebfu d\u00f9ng Mac th\u00ec b\u1ea1n c\u00f3 th\u1ec3 b\u1ecf qua ph\u1ea7n Windows.",
+          vi: "Nếu dùng Mac thì bạn có thể bỏ qua phần Windows.",
         },
       ],
   }
@@ -268,14 +268,14 @@
     pos: adjective,
     cefr: B1,
     topic: education,
-    ipa: "/\u026ak\u02c8spekt\u026ad/",
+    ipa: "/ɪkˈspektɪd/",
     def: "What you think should happen, based on the guide.",
-    vi: "nh\u01b0 mong \u0111\u1ee3i, d\u1ef1 ki\u1ebfn",
+    vi: "như mong đợi, dự kiến",
     examples:
       [
         {
           en: "The expected output is a list of users, but I see an empty array.",
-          vi: "K\u1ebft qu\u1ea3 d\u1ef1 ki\u1ebfn l\u00e0 danh s\u00e1ch user nh\u01b0ng m\u00ecnh ch\u1ec9 th\u1ea5y m\u1ea3ng r\u1ed7ng.",
+          vi: "Kết quả dự kiến là danh sách user nhưng mình chỉ thấy mảng rỗng.",
         },
       ],
   }
@@ -286,14 +286,14 @@
     kind: collocation,
     cefr: A2,
     topic: education,
-    ipa: "/\u0261et \u02c8st\u028ck/",
+    ipa: "/ɡet ˈstʌk/",
     def: "To be unable to continue because you do not know what to do next.",
-    vi: "b\u1ecb k\u1eb9t, b\u00ed",
+    vi: "bị kẹt, bí",
     examples:
       [
         {
           en: "I got stuck when the tutorial used an older version of the library.",
-          vi: "M\u00ecnh b\u1ecb k\u1eb9t khi b\u00e0i h\u01b0\u1edbng d\u1eabn d\u00f9ng phi\u00ean b\u1ea3n th\u01b0 vi\u1ec7n c\u0169 h\u01a1n.",
+          vi: "Mình bị kẹt khi bài hướng dẫn dùng phiên bản thư viện cũ hơn.",
         },
       ],
   }
@@ -304,14 +304,14 @@
     kind: phrasal,
     cefr: A2,
     topic: education,
-    ipa: "/\u0261\u0259\u028a \u02c8b\u00e6k/",
+    ipa: "/ɡəʊ ˈbæk/",
     def: "To return to an earlier place or part.",
-    vi: "quay l\u1ea1i",
+    vi: "quay lại",
     examples:
       [
         {
           en: "Go back to step 2 and check the port number.",
-          vi: "Quay l\u1ea1i b\u01b0\u1edbc 2 v\u00e0 ki\u1ec3m tra s\u1ed1 c\u1ed5ng.",
+          vi: "Quay lại bước 2 và kiểm tra số cổng.",
         },
       ],
   }
@@ -321,14 +321,14 @@
     pos: noun,
     cefr: A2,
     topic: education,
-    ipa: "/\u02c8eks\u0259sa\u026az/",
+    ipa: "/ˈeksəsaɪz/",
     def: "A small task that helps you practise what you have just learned.",
-    vi: "b\u00e0i t\u1eadp",
+    vi: "bài tập",
     examples:
       [
         {
           en: "Each chapter ends with an exercise on loops.",
-          vi: "M\u1ed7i ch\u01b0\u01a1ng k\u1ebft th\u00fac b\u1eb1ng m\u1ed9t b\u00e0i t\u1eadp v\u1ec1 v\u00f2ng l\u1eb7p.",
+          vi: "Mỗi chương kết thúc bằng một bài tập về vòng lặp.",
         },
       ],
   }
@@ -339,14 +339,14 @@
     kind: phrase,
     cefr: A2,
     topic: education,
-    ipa: "/\u02cck\u0252pi \u0259n \u02c8pe\u026ast/",
+    ipa: "/ˌkɒpi ən ˈpeɪst/",
     def: "To take text from one place and put the same text in another place.",
-    vi: "sao ch\u00e9p v\u00e0 d\u00e1n",
+    vi: "sao chép và dán",
     examples:
       [
         {
           en: "Don't just copy and paste the code; type it yourself so you remember it.",
-          vi: "\u0110\u1eebng ch\u1ec9 copy r\u1ed3i d\u00e1n code, h\u00e3y t\u1ef1 g\u00f5 \u0111\u1ec3 nh\u1edb l\u00e2u.",
+          vi: "Đừng chỉ copy rồi dán code, hãy tự gõ để nhớ lâu.",
         },
       ],
   }
@@ -357,14 +357,14 @@
     kind: collocation,
     cefr: A2,
     topic: education,
-    ipa: "/\u02c8d\u026afr\u0259nt fr\u0259m/",
+    ipa: "/ˈdɪfrənt frəm/",
     def: "Not the same as something else.",
-    vi: "kh\u00e1c v\u1edbi",
+    vi: "khác với",
     examples:
       [
         {
           en: "My screen looks different from the screenshot in the tutorial.",
-          vi: "M\u00e0n h\u00ecnh c\u1ee7a m\u00ecnh tr\u00f4ng kh\u00e1c v\u1edbi \u1ea3nh ch\u1ee5p trong b\u00e0i h\u01b0\u1edbng d\u1eabn.",
+          vi: "Màn hình của mình trông khác với ảnh chụp trong bài hướng dẫn.",
         },
       ],
   }
@@ -374,14 +374,14 @@
     pos: noun,
     cefr: B2,
     topic: education,
-    ipa: "/pri\u02d0\u02c8rekw\u0259z\u026at/",
+    ipa: "/priːˈrekwəzɪt/",
     def: "Something you must know or have before you can start.",
-    vi: "\u0111i\u1ec1u ki\u1ec7n ti\u00ean quy\u1ebft",
+    vi: "điều kiện tiên quyết",
     examples:
       [
         {
           en: "The only prerequisite is basic JavaScript.",
-          vi: "\u0110i\u1ec1u ki\u1ec7n duy nh\u1ea5t l\u00e0 bi\u1ebft JavaScript c\u01a1 b\u1ea3n.",
+          vi: "Điều kiện duy nhất là biết JavaScript cơ bản.",
         },
       ],
   }
@@ -392,15 +392,15 @@
     pos: noun,
     cefr: B1,
     topic: education,
-    ipa: "/\u02ccd\u0252kjumen\u02c8te\u026a\u0283n/",
+    ipa: "/ˌdɒkjumenˈteɪʃn/",
     def: "Written text that explains how a piece of software works and how to use it.",
-    vi: "t\u00e0i li\u1ec7u (k\u1ef9 thu\u1eadt)",
-    note: "Th\u01b0\u1eddng n\u00f3i t\u1eaft l\u00e0 \"docs\".",
+    vi: "tài liệu (kỹ thuật)",
+    note: 'Thường nói tắt là "docs".',
     examples:
       [
         {
           en: "The documentation says this function is safe to call twice.",
-          vi: "T\u00e0i li\u1ec7u n\u00f3i h\u00e0m n\u00e0y g\u1ecdi hai l\u1ea7n c\u0169ng an to\u00e0n.",
+          vi: "Tài liệu nói hàm này gọi hai lần cũng an toàn.",
         },
       ],
   }
@@ -410,14 +410,14 @@
     pos: noun,
     cefr: B1,
     topic: education,
-    ipa: "/p\u0259\u02c8r\u00e6m\u026at\u0259/",
+    ipa: "/pəˈræmɪtə/",
     def: "A value you pass to a function or request to control what it does.",
-    vi: "tham s\u1ed1",
+    vi: "tham số",
     examples:
       [
         {
           en: "The limit parameter sets how many items come back.",
-          vi: "Tham s\u1ed1 limit quy \u0111\u1ecbnh s\u1ed1 ph\u1ea7n t\u1eed tr\u1ea3 v\u1ec1.",
+          vi: "Tham số limit quy định số phần tử trả về.",
         },
       ],
   }
@@ -428,14 +428,14 @@
     kind: collocation,
     cefr: B1,
     topic: education,
-    ipa: "/r\u026a\u02c8t\u025c\u02d0n \u02ccv\u00e6lju\u02d0/",
+    ipa: "/rɪˈtɜːn ˌvæljuː/",
     def: "The result that a function gives back after it runs.",
-    vi: "gi\u00e1 tr\u1ecb tr\u1ea3 v\u1ec1",
+    vi: "giá trị trả về",
     examples:
       [
         {
           en: "The return value is null when no user is found.",
-          vi: "Gi\u00e1 tr\u1ecb tr\u1ea3 v\u1ec1 l\u00e0 null khi kh\u00f4ng t\u00ecm th\u1ea5y user.",
+          vi: "Giá trị trả về là null khi không tìm thấy user.",
         },
       ],
   }
@@ -445,14 +445,14 @@
     pos: adjective,
     cefr: B1,
     topic: education,
-    ipa: "/\u02c8\u0252p\u0283\u0259nl/",
+    ipa: "/ˈɒpʃənl/",
     def: "Not necessary; you can choose to include it or not.",
-    vi: "kh\u00f4ng b\u1eaft bu\u1ed9c, tu\u1ef3 ch\u1ecdn",
+    vi: "không bắt buộc, tuỳ chọn",
     examples:
       [
         {
           en: "The sort field is optional; by default results are sorted by date.",
-          vi: "Tr\u01b0\u1eddng sort l\u00e0 tu\u1ef3 ch\u1ecdn; m\u1eb7c \u0111\u1ecbnh k\u1ebft qu\u1ea3 s\u1eafp theo ng\u00e0y.",
+          vi: "Trường sort là tuỳ chọn; mặc định kết quả sắp theo ngày.",
         },
       ],
   }
@@ -462,14 +462,14 @@
     pos: adjective,
     cefr: B1,
     topic: education,
-    ipa: "/r\u026a\u02c8kwa\u026a\u0259d/",
+    ipa: "/rɪˈkwaɪəd/",
     def: "Needed; the request will not work without it.",
-    vi: "b\u1eaft bu\u1ed9c",
+    vi: "bắt buộc",
     examples:
       [
         {
           en: "The email field is required, so the API returns 400 without it.",
-          vi: "Tr\u01b0\u1eddng email l\u00e0 b\u1eaft bu\u1ed9c n\u00ean thi\u1ebfu n\u00f3 API tr\u1ea3 v\u1ec1 400.",
+          vi: "Trường email là bắt buộc nên thiếu nó API trả về 400.",
         },
       ],
   }
@@ -480,14 +480,14 @@
     kind: collocation,
     cefr: B1,
     topic: education,
-    ipa: "/d\u026a\u02c8f\u0254\u02d0lt \u02ccv\u00e6lju\u02d0/",
+    ipa: "/dɪˈfɔːlt ˌvæljuː/",
     def: "The value that is used when you do not give one yourself.",
-    vi: "gi\u00e1 tr\u1ecb m\u1eb7c \u0111\u1ecbnh",
+    vi: "giá trị mặc định",
     examples:
       [
         {
           en: "The default value of timeout is 30 seconds.",
-          vi: "Gi\u00e1 tr\u1ecb m\u1eb7c \u0111\u1ecbnh c\u1ee7a timeout l\u00e0 30 gi\u00e2y.",
+          vi: "Giá trị mặc định của timeout là 30 giây.",
         },
       ],
   }
@@ -498,14 +498,14 @@
     kind: collocation,
     cefr: B1,
     topic: education,
-    ipa: "/\u02c8er\u0259 k\u0259\u028ad/",
+    ipa: "/ˈerə kəʊd/",
     def: "A number or short name that tells you what kind of problem happened.",
-    vi: "m\u00e3 l\u1ed7i",
+    vi: "mã lỗi",
     examples:
       [
         {
           en: "Error code 429 means you sent too many requests.",
-          vi: "M\u00e3 l\u1ed7i 429 ngh\u0129a l\u00e0 b\u1ea1n g\u1eedi qu\u00e1 nhi\u1ec1u request.",
+          vi: "Mã lỗi 429 nghĩa là bạn gửi quá nhiều request.",
         },
       ],
   }
@@ -515,14 +515,14 @@
     pos: noun,
     cefr: B1,
     topic: education,
-    ipa: "/\u02c8endp\u0254\u026ant/",
+    ipa: "/ˈendpɔɪnt/",
     def: "A URL in an API that you send requests to for one kind of action.",
-    vi: "endpoint (\u0111i\u1ec3m truy c\u1eadp API)",
+    vi: "endpoint (điểm truy cập API)",
     examples:
       [
         {
           en: "Use the /orders endpoint to list a customer's orders.",
-          vi: "D\u00f9ng endpoint /orders \u0111\u1ec3 l\u1ea5y danh s\u00e1ch \u0111\u01a1n c\u1ee7a kh\u00e1ch.",
+          vi: "Dùng endpoint /orders để lấy danh sách đơn của khách.",
         },
       ],
   }
@@ -532,14 +532,14 @@
     pos: adjective,
     cefr: B2,
     topic: education,
-    ipa: "/\u02c8depr\u0259ke\u026at\u026ad/",
+    ipa: "/ˈdeprəkeɪtɪd/",
     def: "Still working for now, but no longer recommended and likely to be removed.",
-    vi: "kh\u00f4ng c\u00f2n \u0111\u01b0\u1ee3c khuy\u1ebfn ngh\u1ecb (s\u1eafp b\u1ecf)",
+    vi: "không còn được khuyến nghị (sắp bỏ)",
     examples:
       [
         {
           en: "This method is deprecated; the docs suggest using fetchAll instead.",
-          vi: "Ph\u01b0\u01a1ng th\u1ee9c n\u00e0y \u0111\u00e3 b\u1ecb deprecated; t\u00e0i li\u1ec7u g\u1ee3i \u00fd d\u00f9ng fetchAll.",
+          vi: "Phương thức này đã bị deprecated; tài liệu gợi ý dùng fetchAll.",
         },
       ],
   }
@@ -550,14 +550,14 @@
     kind: phrasal,
     cefr: B1,
     topic: education,
-    ipa: "/l\u028ak \u02c8\u028cp/",
+    ipa: "/lʊk ˈʌp/",
     def: "To search for a piece of information in a book, list or website.",
-    vi: "tra c\u1ee9u",
+    vi: "tra cứu",
     examples:
       [
         {
           en: "I looked up the status codes in the API reference.",
-          vi: "M\u00ecnh tra c\u00e1c m\u00e3 tr\u1ea1ng th\u00e1i trong ph\u1ea7n tham chi\u1ebfu API.",
+          vi: "Mình tra các mã trạng thái trong phần tham chiếu API.",
         },
       ],
   }
@@ -567,14 +567,14 @@
     pos: noun,
     cefr: A2,
     topic: education,
-    ipa: "/\u02c8sek\u0283n/",
+    ipa: "/ˈsekʃn/",
     def: "One of the parts that a document is divided into.",
-    vi: "ph\u1ea7n, m\u1ee5c",
+    vi: "phần, mục",
     examples:
       [
         {
           en: "The authentication section explains how to get a token.",
-          vi: "Ph\u1ea7n x\u00e1c th\u1ef1c gi\u1ea3i th\u00edch c\u00e1ch l\u1ea5y token.",
+          vi: "Phần xác thực giải thích cách lấy token.",
         },
       ],
   }
@@ -584,14 +584,14 @@
     pos: noun,
     cefr: B2,
     topic: education,
-    ipa: "/\u02ccl\u026am\u026a\u02c8te\u026a\u0283n/",
+    ipa: "/ˌlɪmɪˈteɪʃn/",
     def: "Something that a tool cannot do, or a limit on how it can be used.",
-    vi: "h\u1ea1n ch\u1ebf",
+    vi: "hạn chế",
     examples:
       [
         {
           en: "One limitation of the free plan is 100 calls per day.",
-          vi: "M\u1ed9t h\u1ea1n ch\u1ebf c\u1ee7a g\u00f3i mi\u1ec5n ph\u00ed l\u00e0 100 l\u01b0\u1ee3t g\u1ecdi m\u1ed7i ng\u00e0y.",
+          vi: "Một hạn chế của gói miễn phí là 100 lượt gọi mỗi ngày.",
         },
       ],
   }
@@ -602,14 +602,14 @@
     kind: collocation,
     cefr: B1,
     topic: education,
-    ipa: "/r\u026a\u02c8sp\u0252ns \u02ccb\u0252di/",
+    ipa: "/rɪˈspɒns ˌbɒdi/",
     def: "The main data a server sends back after a request.",
-    vi: "ph\u1ea7n th\u00e2n ph\u1ea3n h\u1ed3i",
+    vi: "phần thân phản hồi",
     examples:
       [
         {
           en: "The response body contains the new user's id.",
-          vi: "Ph\u1ea7n th\u00e2n ph\u1ea3n h\u1ed3i ch\u1ee9a id c\u1ee7a user m\u1edbi.",
+          vi: "Phần thân phản hồi chứa id của user mới.",
         },
       ],
   }
@@ -619,15 +619,15 @@
     pos: verb,
     cefr: B1,
     topic: education,
-    ipa: "/\u02c8s\u028cm\u0259ra\u026az/",
+    ipa: "/ˈsʌməraɪz/",
     def: "To give the main facts of something in a short way.",
-    vi: "t\u00f3m t\u1eaft",
-    note: "Anh-M\u1ef9 vi\u1ebft \"summarize\".",
+    vi: "tóm tắt",
+    note: 'Anh-Mỹ viết "summarize".',
     examples:
       [
         {
           en: "Can you summarise the rate-limit rules in two lines?",
-          vi: "B\u1ea1n t\u00f3m t\u1eaft quy \u0111\u1ecbnh gi\u1edbi h\u1ea1n t\u1ea7n su\u1ea5t trong hai d\u00f2ng \u0111\u01b0\u1ee3c kh\u00f4ng?",
+          vi: "Bạn tóm tắt quy định giới hạn tần suất trong hai dòng được không?",
         },
       ],
   }
@@ -639,14 +639,14 @@
     kind: collocation,
     cefr: A2,
     topic: education,
-    ipa: "/\u02cc\u0251\u02d0sk f\u0259 \u02c8help/",
+    ipa: "/ˌɑːsk fə ˈhelp/",
     def: "To tell someone that you need them to help you.",
-    vi: "nh\u1edd gi\u00fap \u0111\u1ee1",
+    vi: "nhờ giúp đỡ",
     examples:
       [
         {
           en: "Ask for help after 30 minutes, not after three days.",
-          vi: "H\u00e3y nh\u1edd gi\u00fap sau 30 ph\u00fat, \u0111\u1eebng \u0111\u1ee3i ba ng\u00e0y.",
+          vi: "Hãy nhờ giúp sau 30 phút, đừng đợi ba ngày.",
         },
       ],
   }
@@ -656,14 +656,14 @@
     pos: noun,
     cefr: B1,
     topic: education,
-    ipa: "/\u02c8k\u0252ntekst/",
+    ipa: "/ˈkɒntekst/",
     def: "The background facts that help someone understand a situation.",
-    vi: "ng\u1eef c\u1ea3nh, b\u1ed1i c\u1ea3nh",
+    vi: "ngữ cảnh, bối cảnh",
     examples:
       [
         {
           en: "Add some context: which service, which branch, which command.",
-          vi: "Th\u00eam ch\u00fat ng\u1eef c\u1ea3nh: service n\u00e0o, nh\u00e1nh n\u00e0o, l\u1ec7nh n\u00e0o.",
+          vi: "Thêm chút ngữ cảnh: service nào, nhánh nào, lệnh nào.",
         },
       ],
   }
@@ -673,14 +673,14 @@
     pos: verb,
     cefr: B1,
     topic: education,
-    ipa: "/\u02c8kl\u00e6r\u0259fa\u026a/",
+    ipa: "/ˈklærəfaɪ/",
     def: "To make something easier to understand by explaining it more.",
-    vi: "l\u00e0m r\u00f5",
+    vi: "làm rõ",
     examples:
       [
         {
           en: 'Could you clarify what "sync" means in this ticket?',
-          vi: "B\u1ea1n l\u00e0m r\u00f5 gi\u00fap \"sync\" trong ticket n\u00e0y ngh\u0129a l\u00e0 g\u00ec?",
+          vi: 'Bạn làm rõ giúp "sync" trong ticket này nghĩa là gì?',
         },
       ],
   }
@@ -690,14 +690,14 @@
     pos: adjective,
     cefr: B1,
     topic: education,
-    ipa: "/\u02cc\u028cn\u02c8kl\u026a\u0259/",
+    ipa: "/ˌʌnˈklɪə/",
     def: "Not easy to understand or not known for sure.",
-    vi: "ch\u01b0a r\u00f5",
+    vi: "chưa rõ",
     examples:
       [
         {
           en: "It's unclear to me why the cache is cleared here.",
-          vi: "M\u00ecnh ch\u01b0a r\u00f5 v\u00ec sao ch\u1ed7 n\u00e0y l\u1ea1i xo\u00e1 cache.",
+          vi: "Mình chưa rõ vì sao chỗ này lại xoá cache.",
         },
       ],
   }
@@ -707,14 +707,14 @@
     pos: verb,
     cefr: B2,
     topic: education,
-    ipa: "/\u02ccri\u02d0pr\u0259\u02c8dju\u02d0s/",
+    ipa: "/ˌriːprəˈdjuːs/",
     def: "To make the same problem happen again on purpose so you can study it.",
-    vi: "t\u00e1i hi\u1ec7n (l\u1ed7i)",
+    vi: "tái hiện (lỗi)",
     examples:
       [
         {
           en: "I can reproduce the bug only on Safari.",
-          vi: "M\u00ecnh ch\u1ec9 t\u00e1i hi\u1ec7n \u0111\u01b0\u1ee3c l\u1ed7i tr\u00ean Safari.",
+          vi: "Mình chỉ tái hiện được lỗi trên Safari.",
         },
       ],
   }
@@ -724,14 +724,14 @@
     pos: noun,
     cefr: B1,
     topic: education,
-    ipa: "/\u0259\u02c8tempt/",
+    ipa: "/əˈtempt/",
     def: "An act of trying to do something, often something difficult.",
-    vi: "l\u1ea7n th\u1eed, n\u1ed7 l\u1ef1c",
+    vi: "lần thử, nỗ lực",
     examples:
       [
         {
           en: "My first attempt was to restart the container, but it didn't help.",
-          vi: "L\u1ea7n th\u1eed \u0111\u1ea7u c\u1ee7a m\u00ecnh l\u00e0 kh\u1edfi \u0111\u1ed9ng l\u1ea1i container, nh\u01b0ng kh\u00f4ng \u0103n thua.",
+          vi: "Lần thử đầu của mình là khởi động lại container, nhưng không ăn thua.",
         },
       ],
   }
@@ -741,14 +741,14 @@
     pos: adjective,
     cefr: A2,
     topic: education,
-    ipa: "/k\u0259n\u02c8fju\u02d0zd/",
+    ipa: "/kənˈfjuːzd/",
     def: "Not able to understand something or think clearly about it.",
-    vi: "b\u1ed1i r\u1ed1i, r\u1ed1i",
+    vi: "bối rối, rối",
     examples:
       [
         {
           en: "I'm confused about when to use useMemo.",
-          vi: "M\u00ecnh \u0111ang r\u1ed1i kh\u00f4ng bi\u1ebft khi n\u00e0o d\u00f9ng useMemo.",
+          vi: "Mình đang rối không biết khi nào dùng useMemo.",
         },
       ],
   }
@@ -758,14 +758,14 @@
     pos: adjective,
     cefr: B1,
     topic: education,
-    ipa: "/sp\u0259\u02c8s\u026af\u026ak/",
+    ipa: "/spəˈsɪfɪk/",
     def: "Exact and detailed, not general.",
-    vi: "c\u1ee5 th\u1ec3",
+    vi: "cụ thể",
     examples:
       [
         {
           en: "A specific question gets a faster answer.",
-          vi: "C\u00e2u h\u1ecfi c\u1ee5 th\u1ec3 s\u1ebd \u0111\u01b0\u1ee3c tr\u1ea3 l\u1eddi nhanh h\u01a1n.",
+          vi: "Câu hỏi cụ thể sẽ được trả lời nhanh hơn.",
         },
       ],
   }
@@ -775,14 +775,14 @@
     pos: verb,
     cefr: B1,
     topic: education,
-    ipa: "/\u0259\u02c8sju\u02d0m/",
+    ipa: "/əˈsjuːm/",
     def: "To think something is true without checking it.",
-    vi: "cho r\u1eb1ng, gi\u1ea3 \u0111\u1ecbnh",
+    vi: "cho rằng, giả định",
     examples:
       [
         {
           en: "I assumed the variable was set in production.",
-          vi: "M\u00ecnh c\u1ee9 t\u01b0\u1edfng bi\u1ebfn \u0111\u00f3 \u0111\u00e3 \u0111\u01b0\u1ee3c \u0111\u1eb7t \u1edf production.",
+          vi: "Mình cứ tưởng biến đó đã được đặt ở production.",
         },
       ],
   }
@@ -792,16 +792,10 @@
     pos: verb,
     cefr: B2,
     topic: education,
-    ipa: "/\u02ccri\u02d0\u02c8fre\u026az/",
+    ipa: "/ˌriːˈfreɪz/",
     def: "To say something again using different words so it is clearer.",
-    vi: "n\u00f3i l\u1ea1i theo c\u00e1ch kh\u00e1c",
-    examples:
-      [
-        {
-          en: "Let me rephrase my question.",
-          vi: "\u0110\u1ec3 m\u00ecnh h\u1ecfi l\u1ea1i theo c\u00e1ch kh\u00e1c nh\u00e9.",
-        },
-      ],
+    vi: "nói lại theo cách khác",
+    examples: [{ en: "Let me rephrase my question.", vi: "Để mình hỏi lại theo cách khác nhé." }],
   }
 - {
     slug: follow-up-question-n,
@@ -810,14 +804,14 @@
     kind: collocation,
     cefr: B1,
     topic: education,
-    ipa: "/\u02c8f\u0252l\u0259\u028a \u028cp \u02cckwest\u0283\u0259n/",
+    ipa: "/ˈfɒləʊ ʌp ˌkwestʃən/",
     def: "A question you ask after an answer to learn more about it.",
-    vi: "c\u00e2u h\u1ecfi ti\u1ebfp theo",
+    vi: "câu hỏi tiếp theo",
     examples:
       [
         {
           en: "Quick follow-up question: does this also apply to staging?",
-          vi: "H\u1ecfi th\u00eam ch\u00fat: c\u00e1i n\u00e0y c\u00f3 \u00e1p d\u1ee5ng cho staging kh\u00f4ng?",
+          vi: "Hỏi thêm chút: cái này có áp dụng cho staging không?",
         },
       ],
   }
@@ -827,14 +821,14 @@
     pos: noun,
     cefr: B1,
     topic: education,
-    ipa: "/h\u026ant/",
+    ipa: "/hɪnt/",
     def: "A small piece of help that points you to the answer without giving it.",
-    vi: "g\u1ee3i \u00fd",
+    vi: "gợi ý",
     examples:
       [
         {
           en: "Can you give me a hint instead of the full solution?",
-          vi: "B\u1ea1n cho m\u00ecnh g\u1ee3i \u00fd th\u00f4i, \u0111\u1eebng \u0111\u01b0a c\u1ea3 l\u1eddi gi\u1ea3i nh\u00e9?",
+          vi: "Bạn cho mình gợi ý thôi, đừng đưa cả lời giải nhé?",
         },
       ],
   }
@@ -845,14 +839,14 @@
     kind: collocation,
     cefr: A2,
     topic: education,
-    ipa: "/\u02c8er\u0259 \u02ccmes\u026ad\u0292/",
+    ipa: "/ˈerə ˌmesɪdʒ/",
     def: "Text that a program shows when something goes wrong.",
-    vi: "th\u00f4ng b\u00e1o l\u1ed7i",
+    vi: "thông báo lỗi",
     examples:
       [
         {
           en: "Please paste the full error message, not a photo of the screen.",
-          vi: "D\u00e1n nguy\u00ean th\u00f4ng b\u00e1o l\u1ed7i gi\u00fap m\u00ecnh, \u0111\u1eebng ch\u1ee5p m\u00e0n h\u00ecnh b\u1eb1ng \u0111i\u1ec7n tho\u1ea1i.",
+          vi: "Dán nguyên thông báo lỗi giúp mình, đừng chụp màn hình bằng điện thoại.",
         },
       ],
   }
@@ -863,14 +857,14 @@
     kind: phrase,
     cefr: A2,
     topic: education,
-    ipa: "/\u02c8s\u0259\u028a f\u0251\u02d0/",
+    ipa: "/ˈsəʊ fɑː/",
     def: "Until now.",
-    vi: "cho \u0111\u1ebfn gi\u1edd",
+    vi: "cho đến giờ",
     examples:
       [
         {
           en: "So far I've tried clearing the cache and reinstalling.",
-          vi: "\u0110\u1ebfn gi\u1edd m\u00ecnh \u0111\u00e3 th\u1eed xo\u00e1 cache v\u00e0 c\u00e0i l\u1ea1i.",
+          vi: "Đến giờ mình đã thử xoá cache và cài lại.",
         },
       ],
   }
@@ -880,14 +874,14 @@
     pos: verb,
     cefr: B1,
     topic: education,
-    ipa: "/\u02ccm\u026as\u028cnd\u0259\u02c8st\u00e6nd/",
+    ipa: "/ˌmɪsʌndəˈstænd/",
     def: "To understand something in the wrong way.",
-    vi: "hi\u1ec3u sai, hi\u1ec3u nh\u1ea7m",
+    vi: "hiểu sai, hiểu nhầm",
     examples:
       [
         {
           en: "Sorry, I misunderstood the requirement.",
-          vi: "Xin l\u1ed7i, m\u00ecnh \u0111\u00e3 hi\u1ec3u nh\u1ea7m y\u00eau c\u1ea7u.",
+          vi: "Xin lỗi, mình đã hiểu nhầm yêu cầu.",
         },
       ],
   }
@@ -898,14 +892,14 @@
     kind: phrase,
     cefr: B1,
     topic: education,
-    ipa: "/\u02c8p\u0254\u026ant mi\u02d0 t\u0259/",
+    ipa: "/ˈpɔɪnt miː tə/",
     def: "To show someone where they can find something.",
-    vi: "ch\u1ec9 gi\u00fap ch\u1ed7 (t\u00ecm)",
+    vi: "chỉ giúp chỗ (tìm)",
     examples:
       [
         {
           en: "Could you point me to the docs for the deploy script?",
-          vi: "B\u1ea1n ch\u1ec9 gi\u00fap m\u00ecnh t\u00e0i li\u1ec7u v\u1ec1 script deploy \u1edf \u0111\u00e2u \u0111\u01b0\u1ee3c kh\u00f4ng?",
+          vi: "Bạn chỉ giúp mình tài liệu về script deploy ở đâu được không?",
         },
       ],
   }
@@ -916,14 +910,14 @@
     pos: noun,
     cefr: B1,
     topic: education,
-    ipa: "/\u02c8k\u0254\u02d0sw\u025c\u02d0k/",
+    ipa: "/ˈkɔːswɜːk/",
     def: "The tasks and projects you complete during a course, not the final exam.",
-    vi: "b\u00e0i t\u1eadp trong kho\u00e1",
+    vi: "bài tập trong khoá",
     examples:
       [
         {
           en: "Coursework counts for half of the final grade.",
-          vi: "B\u00e0i t\u1eadp trong kho\u00e1 chi\u1ebfm m\u1ed9t n\u1eeda \u0111i\u1ec3m cu\u1ed1i.",
+          vi: "Bài tập trong khoá chiếm một nửa điểm cuối.",
         },
       ],
   }
@@ -933,14 +927,14 @@
     pos: noun,
     cefr: B1,
     topic: education,
-    ipa: "/s\u0259\u02c8t\u026af\u026ak\u0259t/",
+    ipa: "/səˈtɪfɪkət/",
     def: "An official paper that shows you have finished a course or passed a test.",
-    vi: "ch\u1ee9ng ch\u1ec9, gi\u1ea5y ch\u1ee9ng nh\u1eadn",
+    vi: "chứng chỉ, giấy chứng nhận",
     examples:
       [
         {
           en: "You get a certificate when you finish all the modules.",
-          vi: "H\u1ecdc xong t\u1ea5t c\u1ea3 module b\u1ea1n s\u1ebd nh\u1eadn ch\u1ee9ng ch\u1ec9.",
+          vi: "Học xong tất cả module bạn sẽ nhận chứng chỉ.",
         },
       ],
   }
@@ -950,15 +944,15 @@
     pos: verb,
     cefr: B1,
     topic: education,
-    ipa: "/\u026an\u02c8r\u0259\u028al/",
+    ipa: "/ɪnˈrəʊl/",
     def: "To put your name on the list for a course so you can join it.",
-    vi: "\u0111\u0103ng k\u00fd (kho\u00e1 h\u1ecdc)",
-    note: "Anh-M\u1ef9 vi\u1ebft \"enroll\"; d\u00f9ng \"enrol in/on\".",
+    vi: "đăng ký (khoá học)",
+    note: 'Anh-Mỹ viết "enroll"; dùng "enrol in/on".',
     examples:
       [
         {
           en: "I enrolled in the evening class last week.",
-          vi: "Tu\u1ea7n tr\u01b0\u1edbc m\u00ecnh \u0111\u00e3 \u0111\u0103ng k\u00fd l\u1edbp bu\u1ed5i t\u1ed1i.",
+          vi: "Tuần trước mình đã đăng ký lớp buổi tối.",
         },
       ],
   }
@@ -968,16 +962,11 @@
     pos: noun,
     cefr: B1,
     topic: education,
-    ipa: "/\u02c8m\u0252dju\u02d0l/",
+    ipa: "/ˈmɒdjuːl/",
     def: "One separate part of a course that covers one subject.",
-    vi: "h\u1ecdc ph\u1ea7n",
+    vi: "học phần",
     examples:
-      [
-        {
-          en: "Module 3 is all about databases.",
-          vi: "H\u1ecdc ph\u1ea7n 3 n\u00f3i to\u00e0n v\u1ec1 c\u01a1 s\u1edf d\u1eef li\u1ec7u.",
-        },
-      ],
+      [{ en: "Module 3 is all about databases.", vi: "Học phần 3 nói toàn về cơ sở dữ liệu." }],
   }
 - {
     slug: assignment-n,
@@ -985,14 +974,14 @@
     pos: noun,
     cefr: B1,
     topic: education,
-    ipa: "/\u0259\u02c8sa\u026anm\u0259nt/",
+    ipa: "/əˈsaɪnmənt/",
     def: "A piece of work that a course gives you to do and hand in.",
-    vi: "b\u00e0i t\u1eadp (n\u1ed9p)",
+    vi: "bài tập (nộp)",
     examples:
       [
         {
           en: "The final assignment is to build a to-do app with tests.",
-          vi: "B\u00e0i t\u1eadp cu\u1ed1i kho\u00e1 l\u00e0 l\u00e0m \u1ee9ng d\u1ee5ng to-do c\u00f3 test.",
+          vi: "Bài tập cuối khoá là làm ứng dụng to-do có test.",
         },
       ],
   }
@@ -1002,14 +991,14 @@
     pos: noun,
     cefr: A2,
     topic: education,
-    ipa: "/kw\u026az/",
+    ipa: "/kwɪz/",
     def: "A short test with a few questions.",
-    vi: "b\u00e0i ki\u1ec3m tra ng\u1eafn",
+    vi: "bài kiểm tra ngắn",
     examples:
       [
         {
           en: "There's a five-question quiz after each video.",
-          vi: "Sau m\u1ed7i video c\u00f3 m\u1ed9t b\u00e0i ki\u1ec3m tra n\u0103m c\u00e2u.",
+          vi: "Sau mỗi video có một bài kiểm tra năm câu.",
         },
       ],
   }
@@ -1019,14 +1008,14 @@
     pos: adjective,
     cefr: B1,
     topic: education,
-    ipa: "/\u02cch\u00e6ndz \u02c8\u0252n/",
+    ipa: "/ˌhændz ˈɒn/",
     def: "Learning by doing real tasks yourself, not only by reading or watching.",
-    vi: "th\u1ef1c h\u00e0nh",
+    vi: "thực hành",
     examples:
       [
         {
           en: "I prefer hands-on courses with real projects.",
-          vi: "M\u00ecnh th\u00edch kho\u00e1 h\u1ecdc th\u1ef1c h\u00e0nh c\u00f3 d\u1ef1 \u00e1n th\u1eadt.",
+          vi: "Mình thích khoá học thực hành có dự án thật.",
         },
       ],
   }
@@ -1036,14 +1025,14 @@
     pos: adjective,
     cefr: B2,
     topic: education,
-    ipa: "/\u02ccself \u02c8pe\u026ast/",
+    ipa: "/ˌself ˈpeɪst/",
     def: "Letting you study at the speed and time that suits you.",
-    vi: "t\u1ef1 h\u1ecdc theo t\u1ed1c \u0111\u1ed9 ri\u00eang",
+    vi: "tự học theo tốc độ riêng",
     examples:
       [
         {
           en: "The course is self-paced, so I study on weekends.",
-          vi: "Kho\u00e1 n\u00e0y t\u1ef1 h\u1ecdc theo t\u1ed1c \u0111\u1ed9 ri\u00eang n\u00ean m\u00ecnh h\u1ecdc cu\u1ed1i tu\u1ea7n.",
+          vi: "Khoá này tự học theo tốc độ riêng nên mình học cuối tuần.",
         },
       ],
   }
@@ -1053,14 +1042,14 @@
     pos: noun,
     cefr: B1,
     topic: education,
-    ipa: "/\u026an\u02c8str\u028ckt\u0259/",
+    ipa: "/ɪnˈstrʌktə/",
     def: "A person who teaches a course or a practical skill.",
-    vi: "gi\u1ea3ng vi\u00ean, ng\u01b0\u1eddi h\u01b0\u1edbng d\u1eabn",
+    vi: "giảng viên, người hướng dẫn",
     examples:
       [
         {
           en: "The instructor answers questions in the forum.",
-          vi: "Gi\u1ea3ng vi\u00ean tr\u1ea3 l\u1eddi c\u00e2u h\u1ecfi tr\u00ean di\u1ec5n \u0111\u00e0n.",
+          vi: "Giảng viên trả lời câu hỏi trên diễn đàn.",
         },
       ],
   }
@@ -1070,14 +1059,14 @@
     pos: noun,
     cefr: B2,
     topic: education,
-    ipa: "/\u02c8s\u026al\u0259b\u0259s/",
+    ipa: "/ˈsɪləbəs/",
     def: "The list of topics that a course will cover.",
-    vi: "\u0111\u1ec1 c\u01b0\u01a1ng kho\u00e1 h\u1ecdc",
+    vi: "đề cương khoá học",
     examples:
       [
         {
           en: "Check the syllabus to see if it covers testing.",
-          vi: "Xem \u0111\u1ec1 c\u01b0\u01a1ng \u0111\u1ec3 bi\u1ebft kho\u00e1 c\u00f3 d\u1ea1y test kh\u00f4ng.",
+          vi: "Xem đề cương để biết khoá có dạy test không.",
         },
       ],
   }
@@ -1088,14 +1077,14 @@
     kind: collocation,
     cefr: B1,
     topic: education,
-    ipa: "/tju\u02c8\u026a\u0283n fi\u02d0/",
+    ipa: "/tjuˈɪʃn fiː/",
     def: "The money you pay to take a course.",
-    vi: "h\u1ecdc ph\u00ed",
+    vi: "học phí",
     examples:
       [
         {
           en: "The company pays the tuition fee if you pass.",
-          vi: "C\u00f4ng ty tr\u1ea3 h\u1ecdc ph\u00ed n\u1ebfu b\u1ea1n thi \u0111\u1eadu.",
+          vi: "Công ty trả học phí nếu bạn thi đậu.",
         },
       ],
   }
@@ -1105,14 +1094,14 @@
     pos: noun,
     cefr: B1,
     topic: education,
-    ipa: "/\u02c8sk\u0252l\u0259\u0283\u026ap/",
+    ipa: "/ˈskɒləʃɪp/",
     def: "Money given to a student to help pay for their studies.",
-    vi: "h\u1ecdc b\u1ed5ng",
+    vi: "học bổng",
     examples:
       [
         {
           en: "She got a scholarship for a data science bootcamp.",
-          vi: "C\u00f4 \u1ea5y gi\u00e0nh \u0111\u01b0\u1ee3c h\u1ecdc b\u1ed5ng cho m\u1ed9t bootcamp khoa h\u1ecdc d\u1eef li\u1ec7u.",
+          vi: "Cô ấy giành được học bổng cho một bootcamp khoa học dữ liệu.",
         },
       ],
   }
@@ -1122,14 +1111,14 @@
     pos: noun,
     cefr: B1,
     topic: education,
-    ipa: "/\u02c8bu\u02d0tk\u00e6mp/",
+    ipa: "/ˈbuːtkæmp/",
     def: "A short, intensive course that teaches job skills quickly.",
-    vi: "kho\u00e1 h\u1ecdc c\u1ea5p t\u1ed1c",
+    vi: "khoá học cấp tốc",
     examples:
       [
         {
           en: "He changed careers after a 12-week coding bootcamp.",
-          vi: "Anh \u1ea5y chuy\u1ec3n ngh\u1ec1 sau m\u1ed9t kho\u00e1 l\u1eadp tr\u00ecnh c\u1ea5p t\u1ed1c 12 tu\u1ea7n.",
+          vi: "Anh ấy chuyển nghề sau một khoá lập trình cấp tốc 12 tuần.",
         },
       ],
   }
@@ -1139,14 +1128,14 @@
     pos: verb,
     cefr: A2,
     topic: education,
-    ipa: "/p\u0251\u02d0s/",
+    ipa: "/pɑːs/",
     def: "To get a good enough result in a test.",
-    vi: "thi \u0111\u1eadu, v\u01b0\u1ee3t qua",
+    vi: "thi đậu, vượt qua",
     examples:
       [
         {
           en: "I passed the AWS exam on my second try.",
-          vi: "M\u00ecnh thi \u0111\u1eadu k\u1ef3 thi AWS \u1edf l\u1ea7n th\u1ee9 hai.",
+          vi: "Mình thi đậu kỳ thi AWS ở lần thứ hai.",
         },
       ],
   }
@@ -1157,14 +1146,14 @@
     kind: phrasal,
     cefr: B1,
     topic: education,
-    ipa: "/dr\u0252p \u02c8a\u028at/",
+    ipa: "/drɒp ˈaʊt/",
     def: "To stop doing a course before it is finished.",
-    vi: "b\u1ecf ngang",
+    vi: "bỏ ngang",
     examples:
       [
         {
           en: "Many people drop out of free courses after week two.",
-          vi: "Nhi\u1ec1u ng\u01b0\u1eddi b\u1ecf ngang kho\u00e1 mi\u1ec5n ph\u00ed sau tu\u1ea7n th\u1ee9 hai.",
+          vi: "Nhiều người bỏ ngang khoá miễn phí sau tuần thứ hai.",
         },
       ],
   }
@@ -1174,15 +1163,15 @@
     pos: verb,
     cefr: B1,
     topic: education,
-    ipa: "/r\u026a\u02c8va\u026az/",
+    ipa: "/rɪˈvaɪz/",
     def: "To study again what you have learned, before a test.",
-    vi: "\u00f4n l\u1ea1i",
-    note: "Ngh\u0129a \"\u00f4n b\u00e0i\" l\u00e0 Anh-Anh; Anh-M\u1ef9 d\u00f9ng \"review\".",
+    vi: "ôn lại",
+    note: 'Nghĩa "ôn bài" là Anh-Anh; Anh-Mỹ dùng "review".',
     examples:
       [
         {
           en: "I'm revising networking basics for the exam.",
-          vi: "M\u00ecnh \u0111ang \u00f4n l\u1ea1i ki\u1ebfn th\u1ee9c m\u1ea1ng c\u01a1 b\u1ea3n cho k\u1ef3 thi.",
+          vi: "Mình đang ôn lại kiến thức mạng cơ bản cho kỳ thi.",
         },
       ],
   }
@@ -1193,14 +1182,14 @@
     kind: collocation,
     cefr: B1,
     topic: education,
-    ipa: "/\u02c8sa\u026ad \u02ccpr\u0252d\u0292ekt/",
+    ipa: "/ˈsaɪd ˌprɒdʒekt/",
     def: "A small project you do in your free time, often to learn something.",
-    vi: "d\u1ef1 \u00e1n c\u00e1 nh\u00e2n (ngo\u00e0i gi\u1edd)",
+    vi: "dự án cá nhân (ngoài giờ)",
     examples:
       [
         {
           en: "I learned Rust by building a side project.",
-          vi: "M\u00ecnh h\u1ecdc Rust b\u1eb1ng c\u00e1ch l\u00e0m m\u1ed9t d\u1ef1 \u00e1n c\u00e1 nh\u00e2n.",
+          vi: "Mình học Rust bằng cách làm một dự án cá nhân.",
         },
       ],
   }
@@ -1211,14 +1200,14 @@
     kind: collocation,
     cefr: B2,
     topic: education,
-    ipa: "/\u02c8ta\u026am k\u0259\u02ccm\u026atm\u0259nt/",
+    ipa: "/ˈtaɪm kəˌmɪtmənt/",
     def: "The amount of time that something needs from you.",
-    vi: "th\u1eddi gian c\u1ea7n b\u1ecf ra",
+    vi: "thời gian cần bỏ ra",
     examples:
       [
         {
           en: "The time commitment is about five hours a week.",
-          vi: "Th\u1eddi gian c\u1ea7n b\u1ecf ra kho\u1ea3ng n\u0103m ti\u1ebfng m\u1ed7i tu\u1ea7n.",
+          vi: "Thời gian cần bỏ ra khoảng năm tiếng mỗi tuần.",
         },
       ],
   }
@@ -1229,14 +1218,14 @@
     pos: noun,
     cefr: B1,
     topic: education,
-    ipa: "/\u02c8ment\u0254\u02d0/",
+    ipa: "/ˈmentɔː/",
     def: "An experienced person who gives advice and help to someone with less experience.",
-    vi: "ng\u01b0\u1eddi h\u01b0\u1edbng d\u1eabn, mentor",
+    vi: "người hướng dẫn, mentor",
     examples:
       [
         {
           en: "My mentor reviews my plan once a month.",
-          vi: "Mentor c\u1ee7a m\u00ecnh xem k\u1ebf ho\u1ea1ch c\u1ee7a m\u00ecnh m\u1ed7i th\u00e1ng m\u1ed9t l\u1ea7n.",
+          vi: "Mentor của mình xem kế hoạch của mình mỗi tháng một lần.",
         },
       ],
   }
@@ -1246,14 +1235,14 @@
     pos: noun,
     cefr: B2,
     topic: education,
-    ipa: "/men\u02c8ti\u02d0/",
+    ipa: "/menˈtiː/",
     def: "A person who is being helped and advised by a mentor.",
-    vi: "ng\u01b0\u1eddi \u0111\u01b0\u1ee3c h\u01b0\u1edbng d\u1eabn",
+    vi: "người được hướng dẫn",
     examples:
       [
         {
           en: "I have two mentees on the new team.",
-          vi: "M\u00ecnh c\u00f3 hai ng\u01b0\u1eddi \u0111\u01b0\u1ee3c k\u00e8m trong nh\u00f3m m\u1edbi.",
+          vi: "Mình có hai người được kèm trong nhóm mới.",
         },
       ],
   }
@@ -1263,14 +1252,14 @@
     pos: verb,
     cefr: B1,
     topic: education,
-    ipa: "/\u026an\u02c8k\u028cr\u026ad\u0292/",
+    ipa: "/ɪnˈkʌrɪdʒ/",
     def: "To give someone confidence or hope so they keep trying.",
-    vi: "kh\u00edch l\u1ec7, \u0111\u1ed9ng vi\u00ean",
+    vi: "khích lệ, động viên",
     examples:
       [
         {
           en: "She encouraged me to give my first tech talk.",
-          vi: "Ch\u1ecb \u1ea5y \u0111\u1ed9ng vi\u00ean m\u00ecnh l\u00e0m bu\u1ed5i tech talk \u0111\u1ea7u ti\u00ean.",
+          vi: "Chị ấy động viên mình làm buổi tech talk đầu tiên.",
         },
       ],
   }
@@ -1281,50 +1270,14 @@
     kind: collocation,
     cefr: B1,
     topic: education,
-    ipa: "/\u02ccpe\u0259 \u02c8pr\u0259\u028a\u0261r\u00e6m\u026a\u014b/",
+    ipa: "/ˌpeə ˈprəʊɡræmɪŋ/",
     def: "Two developers working together on the same code at one screen.",
-    vi: "l\u1eadp tr\u00ecnh c\u1eb7p",
+    vi: "lập trình cặp",
     examples:
       [
         {
           en: "We did pair programming to fix the login bug.",
-          vi: "B\u1ecdn m\u00ecnh l\u1eadp tr\u00ecnh c\u1eb7p \u0111\u1ec3 s\u1eeda l\u1ed7i \u0111\u0103ng nh\u1eadp.",
-        },
-      ],
-  }
-- {
-    slug: walk-through-pv,
-    lemma: "walk someone through",
-    pos: phrasal_verb,
-    kind: phrasal,
-    cefr: B2,
-    topic: education,
-    ipa: "/\u02ccw\u0254\u02d0k ... \u02c8\u03b8ru\u02d0/",
-    def: "To explain something to someone slowly, one step at a time.",
-    vi: "h\u01b0\u1edbng d\u1eabn t\u1eebng b\u01b0\u1edbc",
-    examples:
-      [
-        {
-          en: "Can you walk me through the release process?",
-          vi: "Anh h\u01b0\u1edbng d\u1eabn em t\u1eebng b\u01b0\u1edbc quy tr\u00ecnh release \u0111\u01b0\u1ee3c kh\u00f4ng?",
-        },
-      ],
-  }
-- {
-    slug: figure-out-pv,
-    lemma: "figure out",
-    pos: phrasal_verb,
-    kind: phrasal,
-    cefr: B1,
-    topic: education,
-    ipa: "/\u02ccf\u026a\u0261\u0259r \u02c8a\u028at/",
-    def: "To find the answer to a problem by thinking about it.",
-    vi: "t\u1ef1 t\u00ecm ra, hi\u1ec3u ra",
-    examples:
-      [
-        {
-          en: "Try to figure out why the test fails before I tell you.",
-          vi: "Th\u1eed t\u1ef1 t\u00ecm xem v\u00ec sao test l\u1ed7i tr\u01b0\u1edbc khi anh n\u00f3i nh\u00e9.",
+          vi: "Bọn mình lập trình cặp để sửa lỗi đăng nhập.",
         },
       ],
   }
@@ -1334,14 +1287,14 @@
     pos: adjective,
     cefr: B1,
     topic: education,
-    ipa: "/\u02c8pe\u026a\u0283nt/",
+    ipa: "/ˈpeɪʃnt/",
     def: "Able to wait or deal with problems calmly, without getting angry.",
-    vi: "ki\u00ean nh\u1eabn",
+    vi: "kiên nhẫn",
     examples:
       [
         {
           en: "Be patient with new joiners; the codebase is big.",
-          vi: "H\u00e3y ki\u00ean nh\u1eabn v\u1edbi ng\u01b0\u1eddi m\u1edbi; codebase l\u1edbn l\u1eafm.",
+          vi: "Hãy kiên nhẫn với người mới; codebase lớn lắm.",
         },
       ],
   }
@@ -1351,16 +1304,11 @@
     pos: verb,
     cefr: B1,
     topic: education,
-    ipa: "/\u02c8str\u028c\u0261l/",
+    ipa: "/ˈstrʌɡl/",
     def: "To try very hard to do something that is difficult for you.",
-    vi: "v\u1eadt l\u1ed9n, g\u1eb7p kh\u00f3",
+    vi: "vật lộn, gặp khó",
     examples:
-      [
-        {
-          en: "He's struggling with async code.",
-          vi: "C\u1eadu \u1ea5y \u0111ang v\u1eadt l\u1ed9n v\u1edbi code b\u1ea5t \u0111\u1ed3ng b\u1ed9.",
-        },
-      ],
+      [{ en: "He's struggling with async code.", vi: "Cậu ấy đang vật lộn với code bất đồng bộ." }],
   }
 - {
     slug: confidence-n,
@@ -1368,16 +1316,11 @@
     pos: noun,
     cefr: B1,
     topic: education,
-    ipa: "/\u02c8k\u0252nf\u026ad\u0259ns/",
+    ipa: "/ˈkɒnfɪdəns/",
     def: "The feeling that you can do something well.",
-    vi: "s\u1ef1 t\u1ef1 tin",
+    vi: "sự tự tin",
     examples:
-      [
-        {
-          en: "Small wins build confidence.",
-          vi: "Nh\u1eefng th\u00e0nh c\u00f4ng nh\u1ecf gi\u00fap x\u00e2y d\u1ef1ng s\u1ef1 t\u1ef1 tin.",
-        },
-      ],
+      [{ en: "Small wins build confidence.", vi: "Những thành công nhỏ giúp xây dựng sự tự tin." }],
   }
 - {
     slug: independent-adj,
@@ -1385,14 +1328,14 @@
     pos: adjective,
     cefr: B1,
     topic: education,
-    ipa: "/\u02cc\u026and\u026a\u02c8pend\u0259nt/",
+    ipa: "/ˌɪndɪˈpendənt/",
     def: "Able to work or decide without help from others.",
-    vi: "t\u1ef1 l\u1eadp, \u0111\u1ed9c l\u1eadp",
+    vi: "tự lập, độc lập",
     examples:
       [
         {
           en: "After three months, she was fully independent on the backend.",
-          vi: "Sau ba th\u00e1ng c\u00f4 \u1ea5y \u0111\u00e3 t\u1ef1 l\u00e0m ph\u1ea7n backend ho\u00e0n to\u00e0n.",
+          vi: "Sau ba tháng cô ấy đã tự làm phần backend hoàn toàn.",
         },
       ],
   }
@@ -1402,14 +1345,14 @@
     pos: noun,
     cefr: B2,
     topic: education,
-    ipa: "/\u02c8t\u0283ek \u026an/",
+    ipa: "/ˈtʃek ɪn/",
     def: "A short meeting to see how someone is doing.",
-    vi: "bu\u1ed5i trao \u0111\u1ed5i nhanh",
+    vi: "buổi trao đổi nhanh",
     examples:
       [
         {
           en: "We have a 15-minute check-in every Friday.",
-          vi: "Th\u1ee9 S\u00e1u n\u00e0o b\u1ecdn m\u00ecnh c\u0169ng c\u00f3 bu\u1ed5i trao \u0111\u1ed5i nhanh 15 ph\u00fat.",
+          vi: "Thứ Sáu nào bọn mình cũng có buổi trao đổi nhanh 15 phút.",
         },
       ],
   }
@@ -1420,14 +1363,14 @@
     kind: collocation,
     cefr: B1,
     topic: education,
-    ipa: "/\u02c8r\u0259\u028al \u02ccm\u0252dl/",
+    ipa: "/ˈrəʊl ˌmɒdl/",
     def: "A person whose behaviour others admire and copy.",
-    vi: "h\u00ecnh m\u1eabu",
+    vi: "hình mẫu",
     examples:
       [
         {
           en: "Our tech lead is a role model for the juniors.",
-          vi: "Tech lead c\u1ee7a b\u1ecdn m\u00ecnh l\u00e0 h\u00ecnh m\u1eabu cho c\u00e1c b\u1ea1n junior.",
+          vi: "Tech lead của bọn mình là hình mẫu cho các bạn junior.",
         },
       ],
   }
@@ -1437,14 +1380,14 @@
     pos: verb,
     cefr: B2,
     topic: education,
-    ipa: "/\u02c8dem\u0259nstre\u026at/",
+    ipa: "/ˈdemənstreɪt/",
     def: "To show how something works by doing it.",
-    vi: "minh ho\u1ea1, tr\u00ecnh di\u1ec5n",
+    vi: "minh hoạ, trình diễn",
     examples:
       [
         {
           en: "Let me demonstrate how to use the debugger.",
-          vi: "\u0110\u1ec3 anh minh ho\u1ea1 c\u00e1ch d\u00f9ng debugger.",
+          vi: "Để anh minh hoạ cách dùng debugger.",
         },
       ],
   }
@@ -1454,14 +1397,14 @@
     pos: verb,
     cefr: B1,
     topic: education,
-    ipa: "/pre\u026az/",
+    ipa: "/preɪz/",
     def: "To say that someone has done something well.",
     vi: "khen",
     examples:
       [
         {
           en: "Praise good work in public and give criticism in private.",
-          vi: "Khen tr\u01b0\u1edbc m\u1ecdi ng\u01b0\u1eddi, g\u00f3p \u00fd ri\u00eang.",
+          vi: "Khen trước mọi người, góp ý riêng.",
         },
       ],
   }
@@ -1471,14 +1414,14 @@
     pos: noun,
     cefr: B2,
     topic: education,
-    ipa: "/\u02c8\u0259\u028an\u0259\u0283\u026ap/",
+    ipa: "/ˈəʊnəʃɪp/",
     def: "Feeling and acting responsible for a piece of work.",
-    vi: "tinh th\u1ea7n l\u00e0m ch\u1ee7",
+    vi: "tinh thần làm chủ",
     examples:
       [
         {
           en: "Give juniors ownership of a small feature.",
-          vi: "H\u00e3y giao cho junior l\u00e0m ch\u1ee7 m\u1ed9t t\u00ednh n\u0103ng nh\u1ecf.",
+          vi: "Hãy giao cho junior làm chủ một tính năng nhỏ.",
         },
       ],
   }
@@ -1488,14 +1431,14 @@
     pos: verb,
     cefr: B2,
     topic: education,
-    ipa: "/\u02c8\u0283\u00e6d\u0259\u028a/",
+    ipa: "/ˈʃædəʊ/",
     def: "To follow and watch an experienced person at work so you can learn from them.",
-    vi: "\u0111i theo quan s\u00e1t (\u0111\u1ec3 h\u1ecdc)",
+    vi: "đi theo quan sát (để học)",
     examples:
       [
         {
           en: "You'll shadow Minh during his on-call week.",
-          vi: "Em s\u1ebd \u0111i theo quan s\u00e1t Minh trong tu\u1ea7n tr\u1ef1c c\u1ee7a anh \u1ea5y.",
+          vi: "Em sẽ đi theo quan sát Minh trong tuần trực của anh ấy.",
         },
       ],
   }
@@ -1506,14 +1449,14 @@
     kind: phrase,
     cefr: A2,
     topic: education,
-    ipa: "/\u02cc\u0261\u026av \u026at \u0259 \u02c8tra\u026a/",
+    ipa: "/ˌɡɪv ɪt ə ˈtraɪ/",
     def: "To try something to see if it works.",
-    vi: "th\u1eed xem",
+    vi: "thử xem",
     examples:
       [
         {
           en: "Give it a try and tell me where you get lost.",
-          vi: "Em th\u1eed xem r\u1ed3i n\u00f3i anh ch\u1ed7 n\u00e0o b\u1ecb l\u1ea1c.",
+          vi: "Em thử xem rồi nói anh chỗ nào bị lạc.",
         },
       ],
   }
@@ -1523,14 +1466,14 @@
     pos: verb,
     cefr: C1,
     topic: education,
-    ipa: "/\u02c8spu\u02d0n fi\u02d0d/",
+    ipa: "/ˈspuːn fiːd/",
     def: "To give someone all the answers so they do not need to think.",
-    vi: "m\u1edbm s\u1eb5n, l\u00e0m h\u1ed9",
+    vi: "mớm sẵn, làm hộ",
     examples:
       [
         {
           en: "I don't want to spoon-feed you; let's look at the logs together.",
-          vi: "Anh kh\u00f4ng mu\u1ed1n m\u1edbm s\u1eb5n; m\u00ecnh c\u00f9ng xem log nh\u00e9.",
+          vi: "Anh không muốn mớm sẵn; mình cùng xem log nhé.",
         },
       ],
   }
@@ -1540,14 +1483,14 @@
     pos: noun,
     cefr: B2,
     topic: education,
-    ipa: "/\u02c8\u0252nb\u0254\u02d0d\u026a\u014b/",
+    ipa: "/ˈɒnbɔːdɪŋ/",
     def: "The process of helping a new team member start work.",
-    vi: "qu\u00e1 tr\u00ecnh h\u1ed9i nh\u1eadp (ng\u01b0\u1eddi m\u1edbi)",
+    vi: "quá trình hội nhập (người mới)",
     examples:
       [
         {
           en: "Your onboarding buddy will help you set up the laptop.",
-          vi: "B\u1ea1n \u0111\u1ed3ng h\u00e0nh h\u1ed9i nh\u1eadp s\u1ebd gi\u00fap b\u1ea1n c\u00e0i \u0111\u1eb7t laptop.",
+          vi: "Bạn đồng hành hội nhập sẽ giúp bạn cài đặt laptop.",
         },
       ],
   }
@@ -1557,14 +1500,14 @@
     pos: adjective,
     cefr: C1,
     topic: education,
-    ipa: "/\u02cc\u0259\u028ap\u0259n \u02c8end\u026ad/",
+    ipa: "/ˌəʊpən ˈendɪd/",
     def: "Having no single fixed answer, so people can think freely.",
-    vi: "m\u1edf (kh\u00f4ng c\u00f3 \u0111\u00e1p \u00e1n c\u1ed1 \u0111\u1ecbnh)",
+    vi: "mở (không có đáp án cố định)",
     examples:
       [
         {
           en: 'Ask open-ended questions like "What would you try next?"',
-          vi: "H\u00e3y h\u1ecfi c\u00e2u m\u1edf nh\u01b0 \"Em s\u1ebd th\u1eed g\u00ec ti\u1ebfp?\"",
+          vi: 'Hãy hỏi câu mở như "Em sẽ thử gì tiếp?"',
         },
       ],
   }
@@ -1576,32 +1519,14 @@
     kind: collocation,
     cefr: B1,
     topic: education,
-    ipa: "/\u02c8n\u0259\u028at te\u026ak\u026a\u014b/",
+    ipa: "/ˈnəʊt teɪkɪŋ/",
     def: "The activity of writing down information so you can use it later.",
-    vi: "vi\u1ec7c ghi ch\u00e9p",
+    vi: "việc ghi chép",
     examples:
       [
         {
           en: "Good note-taking saves time when the bug comes back.",
-          vi: "Ghi ch\u00e9p t\u1ed1t gi\u00fap ti\u1ebft ki\u1ec7m th\u1eddi gian khi l\u1ed7i quay l\u1ea1i.",
-        },
-      ],
-  }
-- {
-    slug: jot-down-pv,
-    lemma: "jot down",
-    pos: phrasal_verb,
-    kind: phrasal,
-    cefr: B2,
-    topic: education,
-    ipa: "/d\u0292\u0252t \u02c8da\u028an/",
-    def: "To write something quickly in a few words.",
-    vi: "ghi nhanh",
-    examples:
-      [
-        {
-          en: "I jot down every command I run during an incident.",
-          vi: "M\u00ecnh ghi nhanh m\u1ecdi l\u1ec7nh \u0111\u00e3 ch\u1ea1y trong l\u00fac x\u1eed l\u00fd s\u1ef1 c\u1ed1.",
+          vi: "Ghi chép tốt giúp tiết kiệm thời gian khi lỗi quay lại.",
         },
       ],
   }
@@ -1611,14 +1536,14 @@
     pos: noun,
     cefr: B1,
     topic: education,
-    ipa: "/\u02c8s\u028cm\u0259ri/",
+    ipa: "/ˈsʌməri/",
     def: "A short text that gives only the main points.",
-    vi: "b\u1ea3n t\u00f3m t\u1eaft",
+    vi: "bản tóm tắt",
     examples:
       [
         {
           en: "Start your notes with a three-line summary.",
-          vi: "M\u1edf \u0111\u1ea7u ghi ch\u00fa b\u1eb1ng b\u1ea3n t\u00f3m t\u1eaft ba d\u00f2ng.",
+          vi: "Mở đầu ghi chú bằng bản tóm tắt ba dòng.",
         },
       ],
   }
@@ -1629,14 +1554,14 @@
     kind: collocation,
     cefr: B1,
     topic: education,
-    ipa: "/\u02ccki\u02d0 \u02c8p\u0254\u026ant/",
+    ipa: "/ˌkiː ˈpɔɪnt/",
     def: "One of the most important ideas or facts.",
-    vi: "\u00fd ch\u00ednh",
+    vi: "ý chính",
     examples:
       [
         {
           en: "The key point is that tokens expire after one hour.",
-          vi: "\u00dd ch\u00ednh l\u00e0 token h\u1ebft h\u1ea1n sau m\u1ed9t gi\u1edd.",
+          vi: "Ý chính là token hết hạn sau một giờ.",
         },
       ],
   }
@@ -1646,14 +1571,14 @@
     pos: noun,
     cefr: B2,
     topic: education,
-    ipa: "/\u0259\u02c8s\u028cmp\u0283n/",
+    ipa: "/əˈsʌmpʃn/",
     def: "Something you believe is true but have not proved.",
-    vi: "gi\u1ea3 \u0111\u1ecbnh",
+    vi: "giả định",
     examples:
       [
         {
           en: "List your assumptions so others can check them.",
-          vi: "Li\u1ec7t k\u00ea c\u00e1c gi\u1ea3 \u0111\u1ecbnh \u0111\u1ec3 ng\u01b0\u1eddi kh\u00e1c ki\u1ec3m tra.",
+          vi: "Liệt kê các giả định để người khác kiểm tra.",
         },
       ],
   }
@@ -1663,14 +1588,14 @@
     pos: verb,
     cefr: B2,
     topic: education,
-    ipa: "/\u02c8v\u00e6l\u026ade\u026at/",
+    ipa: "/ˈvælɪdeɪt/",
     def: "To test an idea or result to prove it is correct.",
-    vi: "x\u00e1c th\u1ef1c, ki\u1ec3m ch\u1ee9ng",
+    vi: "xác thực, kiểm chứng",
     examples:
       [
         {
           en: "Validate the fix on staging before you write it up.",
-          vi: "Ki\u1ec3m ch\u1ee9ng b\u1ea3n s\u1eeda tr\u00ean staging tr\u01b0\u1edbc khi vi\u1ebft l\u1ea1i.",
+          vi: "Kiểm chứng bản sửa trên staging trước khi viết lại.",
         },
       ],
   }
@@ -1681,14 +1606,14 @@
     kind: collocation,
     cefr: B1,
     topic: education,
-    ipa: "/\u02ccn\u028cmb\u0259d \u02c8l\u026ast/",
+    ipa: "/ˌnʌmbəd ˈlɪst/",
     def: "A list where each item has a number, used when order matters.",
-    vi: "danh s\u00e1ch \u0111\u00e1nh s\u1ed1",
+    vi: "danh sách đánh số",
     examples:
       [
         {
           en: "Write the setup as a numbered list.",
-          vi: "Vi\u1ebft ph\u1ea7n c\u00e0i \u0111\u1eb7t d\u01b0\u1edbi d\u1ea1ng danh s\u00e1ch \u0111\u00e1nh s\u1ed1.",
+          vi: "Viết phần cài đặt dưới dạng danh sách đánh số.",
         },
       ],
   }
@@ -1698,14 +1623,14 @@
     pos: verb,
     cefr: C1,
     topic: education,
-    ipa: "/\u02c8\u00e6n\u0259te\u026at/",
+    ipa: "/ˈænəteɪt/",
     def: "To add short comments to a text or picture to explain it.",
-    vi: "ch\u00fa th\u00edch",
+    vi: "chú thích",
     examples:
       [
         {
           en: "I annotated the screenshot with arrows.",
-          vi: "M\u00ecnh ch\u00fa th\u00edch \u1ea3nh ch\u1ee5p m\u00e0n h\u00ecnh b\u1eb1ng m\u0169i t\u00ean.",
+          vi: "Mình chú thích ảnh chụp màn hình bằng mũi tên.",
         },
       ],
   }
@@ -1715,14 +1640,14 @@
     pos: noun,
     cefr: B1,
     topic: education,
-    ipa: "/\u02c8da\u026a\u0259\u0261r\u00e6m/",
+    ipa: "/ˈdaɪəɡræm/",
     def: "A simple drawing that shows how parts connect or work.",
-    vi: "s\u01a1 \u0111\u1ed3",
+    vi: "sơ đồ",
     examples:
       [
         {
           en: "A quick diagram explains the data flow better than words.",
-          vi: "M\u1ed9t s\u01a1 \u0111\u1ed3 nhanh gi\u1ea3i th\u00edch lu\u1ed3ng d\u1eef li\u1ec7u t\u1ed1t h\u01a1n l\u1eddi n\u00f3i.",
+          vi: "Một sơ đồ nhanh giải thích luồng dữ liệu tốt hơn lời nói.",
         },
       ],
   }
@@ -1732,14 +1657,14 @@
     pos: noun,
     cefr: B2,
     topic: education,
-    ipa: "/\u02c8a\u028atla\u026an/",
+    ipa: "/ˈaʊtlaɪn/",
     def: "A list of the main parts of something, without the details.",
-    vi: "d\u00e0n \u00fd",
+    vi: "dàn ý",
     examples:
       [
         {
           en: "Write an outline before you write the whole page.",
-          vi: "Vi\u1ebft d\u00e0n \u00fd tr\u01b0\u1edbc khi vi\u1ebft c\u1ea3 trang.",
+          vi: "Viết dàn ý trước khi viết cả trang.",
         },
       ],
   }
@@ -1749,14 +1674,14 @@
     pos: noun,
     cefr: B2,
     topic: education,
-    ipa: "/\u0259\u02ccbri\u02d0vi\u02c8e\u026a\u0283n/",
+    ipa: "/əˌbriːviˈeɪʃn/",
     def: "A short form of a word or phrase.",
-    vi: "ch\u1eef vi\u1ebft t\u1eaft",
+    vi: "chữ viết tắt",
     examples:
       [
         {
           en: "Explain each abbreviation the first time you use it.",
-          vi: "Gi\u1ea3i th\u00edch m\u1ed7i ch\u1eef vi\u1ebft t\u1eaft \u1edf l\u1ea7n \u0111\u1ea7u d\u00f9ng.",
+          vi: "Giải thích mỗi chữ viết tắt ở lần đầu dùng.",
         },
       ],
   }
@@ -1766,14 +1691,14 @@
     pos: adjective,
     cefr: B2,
     topic: education,
-    ipa: "/\u02c8s\u025c\u02d0t\u0283\u0259bl/",
+    ipa: "/ˈsɜːtʃəbl/",
     def: "Easy to find by typing words into a search box.",
-    vi: "t\u00ecm ki\u1ebfm \u0111\u01b0\u1ee3c",
+    vi: "tìm kiếm được",
     examples:
       [
         {
           en: "Put notes in the wiki so they are searchable.",
-          vi: "\u0110\u01b0a ghi ch\u00fa l\u00ean wiki \u0111\u1ec3 t\u00ecm ki\u1ebfm \u0111\u01b0\u1ee3c.",
+          vi: "Đưa ghi chú lên wiki để tìm kiếm được.",
         },
       ],
   }
@@ -1784,14 +1709,14 @@
     kind: collocation,
     cefr: B2,
     topic: education,
-    ipa: "/\u02cc\u0259\u028ap\u0259n \u02c8kwest\u0283\u0259n/",
+    ipa: "/ˌəʊpən ˈkwestʃən/",
     def: "A question that has not been answered or decided yet.",
-    vi: "c\u00e2u h\u1ecfi c\u00f2n b\u1ecf ng\u1ecf",
+    vi: "câu hỏi còn bỏ ngỏ",
     examples:
       [
         {
           en: "Open question: do we need to support IE?",
-          vi: "C\u00e2u h\u1ecfi c\u00f2n b\u1ecf ng\u1ecf: c\u00f3 c\u1ea7n h\u1ed7 tr\u1ee3 IE kh\u00f4ng?",
+          vi: "Câu hỏi còn bỏ ngỏ: có cần hỗ trợ IE không?",
         },
       ],
   }
@@ -1801,14 +1726,14 @@
     pos: adjective,
     cefr: C1,
     topic: education,
-    ipa: "/k\u0259n\u02c8sa\u026as/",
+    ipa: "/kənˈsaɪs/",
     def: "Short and clear, using no extra words.",
-    vi: "ng\u1eafn g\u1ecdn, s\u00fac t\u00edch",
+    vi: "ngắn gọn, súc tích",
     examples:
       [
         {
           en: "Keep the note concise: what, why, how to check.",
-          vi: "Gi\u1eef ghi ch\u00fa s\u00fac t\u00edch: c\u00e1i g\u00ec, v\u00ec sao, ki\u1ec3m tra th\u1ebf n\u00e0o.",
+          vi: "Giữ ghi chú súc tích: cái gì, vì sao, kiểm tra thế nào.",
         },
       ],
   }
@@ -1818,15 +1743,15 @@
     pos: verb,
     cefr: B1,
     topic: education,
-    ipa: "/\u02c8\u0254\u02d0\u0261\u0259na\u026az/",
+    ipa: "/ˈɔːɡənaɪz/",
     def: "To put things in a clear order or system.",
-    vi: "s\u1eafp x\u1ebfp",
-    note: "Anh-M\u1ef9 vi\u1ebft \"organize\".",
+    vi: "sắp xếp",
+    note: 'Anh-Mỹ viết "organize".',
     examples:
       [
         {
           en: "I organise my notes by project, not by date.",
-          vi: "M\u00ecnh s\u1eafp x\u1ebfp ghi ch\u00fa theo d\u1ef1 \u00e1n, kh\u00f4ng theo ng\u00e0y.",
+          vi: "Mình sắp xếp ghi chú theo dự án, không theo ngày.",
         },
       ],
   }
@@ -1836,14 +1761,14 @@
     pos: noun,
     cefr: B1,
     topic: education,
-    ipa: "/\u02c8temple\u026at/",
+    ipa: "/ˈtempleɪt/",
     def: "A ready-made layout you copy and fill in.",
-    vi: "m\u1eabu (c\u00f3 s\u1eb5n)",
+    vi: "mẫu (có sẵn)",
     examples:
       [
         {
           en: "Use the incident template for every outage note.",
-          vi: "D\u00f9ng m\u1eabu s\u1ef1 c\u1ed1 cho m\u1ecdi ghi ch\u00fa v\u1ec1 s\u1ef1 c\u1ed1.",
+          vi: "Dùng mẫu sự cố cho mọi ghi chú về sự cố.",
         },
       ],
   }
@@ -1853,14 +1778,14 @@
     pos: verb,
     cefr: B2,
     topic: education,
-    ipa: "/\u02ccri\u02d0\u02c8v\u026az\u026at/",
+    ipa: "/ˌriːˈvɪzɪt/",
     def: "To come back to something and think about it again.",
-    vi: "xem l\u1ea1i",
+    vi: "xem lại",
     examples:
       [
         {
           en: "Let's revisit this note after the upgrade.",
-          vi: "M\u00ecnh xem l\u1ea1i ghi ch\u00fa n\u00e0y sau khi n\u00e2ng c\u1ea5p nh\u00e9.",
+          vi: "Mình xem lại ghi chú này sau khi nâng cấp nhé.",
         },
       ],
   }
@@ -1871,14 +1796,14 @@
     kind: collocation,
     cefr: B1,
     topic: education,
-    ipa: "/\u02c8t\u0283i\u02d0t \u0283i\u02d0t/",
+    ipa: "/ˈtʃiːt ʃiːt/",
     def: "A short page with the most useful facts or commands.",
-    vi: "b\u1ea3ng tra nhanh",
+    vi: "bảng tra nhanh",
     examples:
       [
         {
           en: "I keep a Git cheat sheet next to my monitor.",
-          vi: "M\u00ecnh \u0111\u1ec3 m\u1ed9t b\u1ea3ng tra nhanh Git c\u1ea1nh m\u00e0n h\u00ecnh.",
+          vi: "Mình để một bảng tra nhanh Git cạnh màn hình.",
         },
       ],
   }
@@ -1888,14 +1813,14 @@
     pos: noun,
     cefr: B2,
     topic: education,
-    ipa: "/\u02c8te\u026ak\u0259we\u026a/",
+    ipa: "/ˈteɪkəweɪ/",
     def: "The main idea or lesson you remember from something.",
-    vi: "\u0111i\u1ec1u r\u00fat ra",
+    vi: "điều rút ra",
     examples:
       [
         {
           en: "My main takeaway: always read the migration guide first.",
-          vi: "\u0110i\u1ec1u m\u00ecnh r\u00fat ra: lu\u00f4n \u0111\u1ecdc h\u01b0\u1edbng d\u1eabn n\u00e2ng c\u1ea5p tr\u01b0\u1edbc.",
+          vi: "Điều mình rút ra: luôn đọc hướng dẫn nâng cấp trước.",
         },
       ],
   }
@@ -1906,14 +1831,14 @@
     kind: collocation,
     cefr: B2,
     topic: education,
-    ipa: "/\u02ccw\u025c\u02d0kt \u026a\u0261\u02c8z\u0251\u02d0mpl/",
+    ipa: "/ˌwɜːkt ɪɡˈzɑːmpl/",
     def: "An example that shows every step of solving a problem.",
-    vi: "v\u00ed d\u1ee5 gi\u1ea3i chi ti\u1ebft",
+    vi: "ví dụ giải chi tiết",
     examples:
       [
         {
           en: "Add a worked example with real input and output.",
-          vi: "Th\u00eam m\u1ed9t v\u00ed d\u1ee5 gi\u1ea3i chi ti\u1ebft c\u00f3 input v\u00e0 output th\u1eadt.",
+          vi: "Thêm một ví dụ giải chi tiết có input và output thật.",
         },
       ],
   }
@@ -1923,14 +1848,14 @@
     pos: noun,
     cefr: C1,
     topic: education,
-    ipa: "/\u02c8k\u00e6vi\u00e6t/",
+    ipa: "/ˈkæviæt/",
     def: "A warning that something is only true in some cases.",
-    vi: "l\u01b0u \u00fd, \u0111i\u1ec1u ki\u1ec7n k\u00e8m theo",
+    vi: "lưu ý, điều kiện kèm theo",
     examples:
       [
         {
           en: "One caveat: this only works on Node 20 or later.",
-          vi: "M\u1ed9t l\u01b0u \u00fd: c\u00e1ch n\u00e0y ch\u1ec9 ch\u1ea1y tr\u00ean Node 20 tr\u1edf l\u00ean.",
+          vi: "Một lưu ý: cách này chỉ chạy trên Node 20 trở lên.",
         },
       ],
   }
@@ -1940,14 +1865,14 @@
     pos: verb,
     cefr: C1,
     topic: education,
-    ipa: "/\u02c8p\u00e6r\u0259fre\u026az/",
+    ipa: "/ˈpærəfreɪz/",
     def: "To write someone's idea in your own words.",
-    vi: "di\u1ec5n \u0111\u1ea1t l\u1ea1i b\u1eb1ng l\u1eddi m\u00ecnh",
+    vi: "diễn đạt lại bằng lời mình",
     examples:
       [
         {
           en: "Paraphrase the docs instead of copying them.",
-          vi: "H\u00e3y di\u1ec5n \u0111\u1ea1t l\u1ea1i t\u00e0i li\u1ec7u b\u1eb1ng l\u1eddi m\u00ecnh thay v\u00ec ch\u00e9p.",
+          vi: "Hãy diễn đạt lại tài liệu bằng lời mình thay vì chép.",
         },
       ],
   }
@@ -1959,14 +1884,14 @@
     kind: collocation,
     cefr: B1,
     topic: education,
-    ipa: "/\u02c8n\u0252l\u026ad\u0292 \u02cc\u0283e\u0259r\u026a\u014b/",
+    ipa: "/ˈnɒlɪdʒ ˌʃeərɪŋ/",
     def: "Giving the things you know to other people in your team.",
-    vi: "chia s\u1ebb ki\u1ebfn th\u1ee9c",
+    vi: "chia sẻ kiến thức",
     examples:
       [
         {
           en: "We have a knowledge sharing session every second Thursday.",
-          vi: "B\u1ecdn m\u00ecnh c\u00f3 bu\u1ed5i chia s\u1ebb ki\u1ebfn th\u1ee9c v\u00e0o th\u1ee9 N\u0103m c\u00e1ch tu\u1ea7n.",
+          vi: "Bọn mình có buổi chia sẻ kiến thức vào thứ Năm cách tuần.",
         },
       ],
   }
@@ -1977,14 +1902,14 @@
     kind: collocation,
     cefr: B1,
     topic: education,
-    ipa: "/\u02c8tek t\u0254\u02d0k/",
+    ipa: "/ˈtek tɔːk/",
     def: "A short presentation about a technical topic.",
-    vi: "bu\u1ed5i n\u00f3i chuy\u1ec7n k\u1ef9 thu\u1eadt",
+    vi: "buổi nói chuyện kỹ thuật",
     examples:
       [
         {
           en: "My first tech talk was about caching.",
-          vi: "Bu\u1ed5i tech talk \u0111\u1ea7u ti\u00ean c\u1ee7a m\u00ecnh n\u00f3i v\u1ec1 caching.",
+          vi: "Buổi tech talk đầu tiên của mình nói về caching.",
         },
       ],
   }
@@ -1994,16 +1919,10 @@
     pos: noun,
     cefr: A2,
     topic: education,
-    ipa: "/sla\u026ad/",
+    ipa: "/slaɪd/",
     def: "One page of a presentation shown on a screen.",
-    vi: "trang chi\u1ebfu, slide",
-    examples:
-      [
-        {
-          en: "Keep one idea per slide.",
-          vi: "M\u1ed7i slide ch\u1ec9 n\u00ean c\u00f3 m\u1ed9t \u00fd.",
-        },
-      ],
+    vi: "trang chiếu, slide",
+    examples: [{ en: "Keep one idea per slide.", vi: "Mỗi slide chỉ nên có một ý." }],
   }
 - {
     slug: demo-n,
@@ -2011,14 +1930,14 @@
     pos: noun,
     cefr: B1,
     topic: education,
-    ipa: "/\u02c8dem\u0259\u028a/",
+    ipa: "/ˈdeməʊ/",
     def: "A short show of how a product or feature works.",
-    vi: "b\u1ea3n tr\u00ecnh di\u1ec5n, demo",
+    vi: "bản trình diễn, demo",
     examples:
       [
         {
           en: "The live demo failed, so I showed a recording.",
-          vi: "Demo tr\u1ef1c ti\u1ebfp b\u1ecb l\u1ed7i n\u00ean m\u00ecnh chi\u1ebfu b\u1ea3n ghi.",
+          vi: "Demo trực tiếp bị lỗi nên mình chiếu bản ghi.",
         },
       ],
   }
@@ -2028,14 +1947,14 @@
     pos: noun,
     cefr: B1,
     topic: education,
-    ipa: "/\u02c8\u0254\u02d0di\u0259ns/",
+    ipa: "/ˈɔːdiəns/",
     def: "The people who watch or listen to a talk.",
-    vi: "kh\u00e1n gi\u1ea3, ng\u01b0\u1eddi nghe",
+    vi: "khán giả, người nghe",
     examples:
       [
         {
           en: "Know your audience: are they backend or design people?",
-          vi: "Hi\u1ec3u ng\u01b0\u1eddi nghe: h\u1ecd l\u00e0 d\u00e2n backend hay thi\u1ebft k\u1ebf?",
+          vi: "Hiểu người nghe: họ là dân backend hay thiết kế?",
         },
       ],
   }
@@ -2045,14 +1964,14 @@
     pos: verb,
     cefr: B2,
     topic: education,
-    ipa: "/\u02c8\u026al\u0259stre\u026at/",
+    ipa: "/ˈɪləstreɪt/",
     def: "To make an idea clearer by using examples or pictures.",
-    vi: "minh ho\u1ea1",
+    vi: "minh hoạ",
     examples:
       [
         {
           en: "I illustrated the race condition with two timelines.",
-          vi: "M\u00ecnh minh ho\u1ea1 l\u1ed7i race condition b\u1eb1ng hai d\u00f2ng th\u1eddi gian.",
+          vi: "Mình minh hoạ lỗi race condition bằng hai dòng thời gian.",
         },
       ],
   }
@@ -2062,14 +1981,14 @@
     pos: verb,
     cefr: B1,
     topic: education,
-    ipa: "/\u02c8s\u026ampl\u026afa\u026a/",
+    ipa: "/ˈsɪmplɪfaɪ/",
     def: "To make something easier to do or understand.",
-    vi: "\u0111\u01a1n gi\u1ea3n ho\u00e1",
+    vi: "đơn giản hoá",
     examples:
       [
         {
           en: "I simplified the example to ten lines.",
-          vi: "M\u00ecnh \u0111\u01a1n gi\u1ea3n ho\u00e1 v\u00ed d\u1ee5 c\u00f2n m\u01b0\u1eddi d\u00f2ng.",
+          vi: "Mình đơn giản hoá ví dụ còn mười dòng.",
         },
       ],
   }
@@ -2079,14 +1998,14 @@
     pos: noun,
     cefr: C1,
     topic: education,
-    ipa: "/\u0259\u02c8n\u00e6l\u0259d\u0292i/",
+    ipa: "/əˈnælədʒi/",
     def: "A comparison that explains one thing by showing it is like another.",
-    vi: "ph\u00e9p so s\u00e1nh",
+    vi: "phép so sánh",
     examples:
       [
         {
           en: "A queue is like a line at a coffee shop; that analogy helps beginners.",
-          vi: "H\u00e0ng \u0111\u1ee3i gi\u1ed1ng h\u00e0ng x\u1ebfp \u1edf qu\u00e1n c\u00e0 ph\u00ea; ph\u00e9p so s\u00e1nh \u0111\u00f3 gi\u00fap ng\u01b0\u1eddi m\u1edbi.",
+          vi: "Hàng đợi giống hàng xếp ở quán cà phê; phép so sánh đó giúp người mới.",
         },
       ],
   }
@@ -2096,14 +2015,14 @@
     pos: verb,
     cefr: B2,
     topic: education,
-    ipa: "/r\u026a\u02c8h\u025c\u02d0s/",
+    ipa: "/rɪˈhɜːs/",
     def: "To practise a talk before you give it for real.",
-    vi: "t\u1eadp d\u01b0\u1ee3t",
+    vi: "tập dượt",
     examples:
       [
         {
           en: "I rehearsed the talk twice with my team.",
-          vi: "M\u00ecnh t\u1eadp d\u01b0\u1ee3t b\u00e0i n\u00f3i hai l\u1ea7n v\u1edbi nh\u00f3m.",
+          vi: "Mình tập dượt bài nói hai lần với nhóm.",
         },
       ],
   }
@@ -2113,14 +2032,14 @@
     pos: verb,
     cefr: C1,
     topic: education,
-    ipa: "/\u026an\u02c8\u0261e\u026ad\u0292/",
+    ipa: "/ɪnˈɡeɪdʒ/",
     def: "To get and keep someone's interest and attention.",
-    vi: "thu h\u00fat, l\u00f4i cu\u1ed1n",
+    vi: "thu hút, lôi cuốn",
     examples:
       [
         {
           en: "Start with a real bug story to engage the audience.",
-          vi: "M\u1edf \u0111\u1ea7u b\u1eb1ng c\u00e2u chuy\u1ec7n bug th\u1eadt \u0111\u1ec3 thu h\u00fat ng\u01b0\u1eddi nghe.",
+          vi: "Mở đầu bằng câu chuyện bug thật để thu hút người nghe.",
         },
       ],
   }
@@ -2131,14 +2050,14 @@
     kind: phrasal,
     cefr: B2,
     topic: education,
-    ipa: "/r\u00e6p \u02c8\u028cp/",
+    ipa: "/ræp ˈʌp/",
     def: "To finish something, often a talk or meeting.",
-    vi: "k\u1ebft th\u00fac, t\u1ed5ng k\u1ebft",
+    vi: "kết thúc, tổng kết",
     examples:
       [
         {
           en: "Let's wrap up with three key lessons.",
-          vi: "M\u00ecnh t\u1ed5ng k\u1ebft b\u1eb1ng ba b\u00e0i h\u1ecdc ch\u00ednh nh\u00e9.",
+          vi: "Mình tổng kết bằng ba bài học chính nhé.",
         },
       ],
   }
@@ -2148,14 +2067,14 @@
     pos: noun,
     cefr: B2,
     topic: education,
-    ipa: "/\u02c8ra\u026at \u028cp/",
+    ipa: "/ˈraɪt ʌp/",
     def: "A written report about something that happened or was learned.",
-    vi: "b\u00e0i vi\u1ebft t\u1ed5ng k\u1ebft",
+    vi: "bài viết tổng kết",
     examples:
       [
         {
           en: "I posted a write-up of the outage on the wiki.",
-          vi: "M\u00ecnh \u0111\u00e3 \u0111\u0103ng b\u00e0i t\u1ed5ng k\u1ebft s\u1ef1 c\u1ed1 l\u00ean wiki.",
+          vi: "Mình đã đăng bài tổng kết sự cố lên wiki.",
         },
       ],
   }
@@ -2165,14 +2084,14 @@
     pos: noun,
     cefr: B1,
     topic: education,
-    ipa: "/\u02c8w\u026aki/",
+    ipa: "/ˈwɪki/",
     def: "A website that a team can edit together to store information.",
-    vi: "wiki (trang t\u00e0i li\u1ec7u chung)",
+    vi: "wiki (trang tài liệu chung)",
     examples:
       [
         {
           en: "Put the setup steps on the team wiki.",
-          vi: "\u0110\u01b0a c\u00e1c b\u01b0\u1edbc c\u00e0i \u0111\u1eb7t l\u00ean wiki c\u1ee7a nh\u00f3m.",
+          vi: "Đưa các bước cài đặt lên wiki của nhóm.",
         },
       ],
   }
@@ -2183,14 +2102,14 @@
     kind: collocation,
     cefr: A2,
     topic: education,
-    ipa: "/\u02c8bl\u0252\u0261 p\u0259\u028ast/",
+    ipa: "/ˈblɒɡ pəʊst/",
     def: "One article on a blog.",
-    vi: "b\u00e0i blog",
+    vi: "bài blog",
     examples:
       [
         {
           en: "She wrote a blog post about migrating to Postgres.",
-          vi: "C\u00f4 \u1ea5y vi\u1ebft m\u1ed9t b\u00e0i blog v\u1ec1 vi\u1ec7c chuy\u1ec3n sang Postgres.",
+          vi: "Cô ấy viết một bài blog về việc chuyển sang Postgres.",
         },
       ],
   }
@@ -2200,14 +2119,14 @@
     pos: noun,
     cefr: B1,
     topic: education,
-    ipa: "/\u02c8w\u025c\u02d0k\u0283\u0252p/",
+    ipa: "/ˈwɜːkʃɒp/",
     def: "A session where people learn by doing tasks together.",
-    vi: "bu\u1ed5i workshop, bu\u1ed5i th\u1ef1c h\u00e0nh",
+    vi: "buổi workshop, buổi thực hành",
     examples:
       [
         {
           en: "In the workshop, everyone writes their first unit test.",
-          vi: "Trong bu\u1ed5i workshop, ai c\u0169ng vi\u1ebft unit test \u0111\u1ea7u ti\u00ean.",
+          vi: "Trong buổi workshop, ai cũng viết unit test đầu tiên.",
         },
       ],
   }
@@ -2217,14 +2136,14 @@
     pos: noun,
     cefr: A2,
     topic: education,
-    ipa: "/\u02c8spi\u02d0k\u0259/",
+    ipa: "/ˈspiːkə/",
     def: "A person who gives a talk to a group.",
-    vi: "di\u1ec5n gi\u1ea3, ng\u01b0\u1eddi n\u00f3i",
+    vi: "diễn giả, người nói",
     examples:
       [
         {
           en: "We need two speakers for next month's meetup.",
-          vi: "B\u1ecdn m\u00ecnh c\u1ea7n hai di\u1ec5n gi\u1ea3 cho bu\u1ed5i meetup th\u00e1ng sau.",
+          vi: "Bọn mình cần hai diễn giả cho buổi meetup tháng sau.",
         },
       ],
   }
@@ -2234,14 +2153,14 @@
     pos: noun,
     cefr: B1,
     topic: education,
-    ipa: "/p\u0251\u02d0\u02c8t\u026as\u026ap\u0259nt/",
+    ipa: "/pɑːˈtɪsɪpənt/",
     def: "A person who takes part in an activity.",
-    vi: "ng\u01b0\u1eddi tham gia",
+    vi: "người tham gia",
     examples:
       [
         {
           en: "Every participant writes one question on a sticky note.",
-          vi: "M\u1ed7i ng\u01b0\u1eddi tham gia vi\u1ebft m\u1ed9t c\u00e2u h\u1ecfi l\u00ean gi\u1ea5y nh\u1edb.",
+          vi: "Mỗi người tham gia viết một câu hỏi lên giấy nhớ.",
         },
       ],
   }
@@ -2252,14 +2171,14 @@
     kind: collocation,
     cefr: B2,
     topic: education,
-    ipa: "/\u02ccla\u026av \u02c8k\u0259\u028ad\u026a\u014b/",
+    ipa: "/ˌlaɪv ˈkəʊdɪŋ/",
     def: "Writing code in front of people while they watch.",
-    vi: "vi\u1ebft code tr\u1ef1c ti\u1ebfp",
+    vi: "viết code trực tiếp",
     examples:
       [
         {
           en: "Live coding is risky, so prepare a backup branch.",
-          vi: "Vi\u1ebft code tr\u1ef1c ti\u1ebfp d\u1ec5 r\u1ee7i ro n\u00ean chu\u1ea9n b\u1ecb nh\u00e1nh d\u1ef1 ph\u00f2ng.",
+          vi: "Viết code trực tiếp dễ rủi ro nên chuẩn bị nhánh dự phòng.",
         },
       ],
   }
@@ -2270,14 +2189,14 @@
     kind: phrasal,
     cefr: B2,
     topic: education,
-    ipa: "/\u02ccf\u0252l\u0259\u028a \u0259\u02c8l\u0252\u014b/",
+    ipa: "/ˌfɒləʊ əˈlɒŋ/",
     def: "To do the same steps as the speaker while they show them.",
-    vi: "l\u00e0m theo c\u00f9ng l\u00fac",
+    vi: "làm theo cùng lúc",
     examples:
       [
         {
           en: "Clone the repo if you want to follow along.",
-          vi: "Clone repo n\u1ebfu b\u1ea1n mu\u1ed1n l\u00e0m theo c\u00f9ng.",
+          vi: "Clone repo nếu bạn muốn làm theo cùng.",
         },
       ],
   }
@@ -2287,14 +2206,14 @@
     pos: noun,
     cefr: B1,
     topic: education,
-    ipa: "/\u02cckju\u02d0 \u0259n \u02c8e\u026a/",
+    ipa: "/ˌkjuː ən ˈeɪ/",
     def: "A part of an event when the audience can ask questions.",
-    vi: "ph\u1ea7n h\u1ecfi \u0111\u00e1p",
+    vi: "phần hỏi đáp",
     examples:
       [
         {
           en: "We'll keep ten minutes for Q&A at the end.",
-          vi: "B\u1ecdn m\u00ecnh \u0111\u1ec3 m\u01b0\u1eddi ph\u00fat h\u1ecfi \u0111\u00e1p \u1edf cu\u1ed1i.",
+          vi: "Bọn mình để mười phút hỏi đáp ở cuối.",
         },
       ],
   }
@@ -2304,16 +2223,10 @@
     pos: noun,
     cefr: B1,
     topic: education,
-    ipa: "/r\u026a\u02c8k\u0254\u02d0d\u026a\u014b/",
+    ipa: "/rɪˈkɔːdɪŋ/",
     def: "A video or sound file of an event that you can watch later.",
-    vi: "b\u1ea3n ghi",
-    examples:
-      [
-        {
-          en: "The recording is in the shared drive.",
-          vi: "B\u1ea3n ghi n\u1eb1m trong \u1ed5 chung.",
-        },
-      ],
+    vi: "bản ghi",
+    examples: [{ en: "The recording is in the shared drive.", vi: "Bản ghi nằm trong ổ chung." }],
   }
 - {
     slug: in-a-nutshell-phr,
@@ -2322,14 +2235,14 @@
     kind: phrase,
     cefr: B2,
     topic: education,
-    ipa: "/\u026an \u0259 \u02c8n\u028ct\u0283el/",
+    ipa: "/ɪn ə ˈnʌtʃel/",
     def: "Said before you explain something in very few words.",
-    vi: "t\u00f3m l\u1ea1i, n\u00f3i ng\u1eafn g\u1ecdn",
+    vi: "tóm lại, nói ngắn gọn",
     examples:
       [
         {
           en: "In a nutshell, the cache sits between the app and the database.",
-          vi: "N\u00f3i ng\u1eafn g\u1ecdn, cache n\u1eb1m gi\u1eefa \u1ee9ng d\u1ee5ng v\u00e0 c\u01a1 s\u1edf d\u1eef li\u1ec7u.",
+          vi: "Nói ngắn gọn, cache nằm giữa ứng dụng và cơ sở dữ liệu.",
         },
       ],
   }
@@ -2340,14 +2253,14 @@
     kind: collocation,
     cefr: B2,
     topic: education,
-    ipa: "/\u02ccv\u026a\u0292u\u0259l \u02c8e\u026ad/",
+    ipa: "/ˌvɪʒuəl ˈeɪd/",
     def: "A picture, chart or object that helps people understand a talk.",
-    vi: "c\u00f4ng c\u1ee5 tr\u1ef1c quan",
+    vi: "công cụ trực quan",
     examples:
       [
         {
           en: "A simple chart is a good visual aid.",
-          vi: "M\u1ed9t bi\u1ec3u \u0111\u1ed3 \u0111\u01a1n gi\u1ea3n l\u00e0 c\u00f4ng c\u1ee5 tr\u1ef1c quan t\u1ed1t.",
+          vi: "Một biểu đồ đơn giản là công cụ trực quan tốt.",
         },
       ],
   }
@@ -2357,14 +2270,14 @@
     pos: verb,
     cefr: C1,
     topic: education,
-    ipa: "/p\u026at\u0283/",
+    ipa: "/pɪtʃ/",
     def: "To present an idea so that people agree to it.",
-    vi: "\u0111\u1ec1 xu\u1ea5t, thuy\u1ebft ph\u1ee5c",
+    vi: "đề xuất, thuyết phục",
     examples:
       [
         {
           en: "I pitched a monthly reading club to my manager.",
-          vi: "M\u00ecnh \u0111\u1ec1 xu\u1ea5t v\u1edbi qu\u1ea3n l\u00fd m\u1ed9t c\u00e2u l\u1ea1c b\u1ed9 \u0111\u1ecdc h\u1eb1ng th\u00e1ng.",
+          vi: "Mình đề xuất với quản lý một câu lạc bộ đọc hằng tháng.",
         },
       ],
   }
@@ -2375,14 +2288,14 @@
     pos: noun,
     cefr: B1,
     topic: education,
-    ipa: "/s\u0254\u02d0s/",
+    ipa: "/sɔːs/",
     def: "A place, person or document where information comes from.",
-    vi: "ngu\u1ed3n",
+    vi: "nguồn",
     examples:
       [
         {
           en: "Always note the source of a code snippet.",
-          vi: "Lu\u00f4n ghi l\u1ea1i ngu\u1ed3n c\u1ee7a \u0111o\u1ea1n code.",
+          vi: "Luôn ghi lại nguồn của đoạn code.",
         },
       ],
   }
@@ -2392,14 +2305,14 @@
     pos: adjective,
     cefr: C1,
     topic: education,
-    ipa: "/\u02c8kred\u0259bl/",
+    ipa: "/ˈkredəbl/",
     def: "Able to be believed and trusted.",
-    vi: "\u0111\u00e1ng tin",
+    vi: "đáng tin",
     examples:
       [
         {
           en: "A credible source shows how it tested its claims.",
-          vi: "Ngu\u1ed3n \u0111\u00e1ng tin cho th\u1ea5y h\u1ecd ki\u1ec3m ch\u1ee9ng nh\u01b0 th\u1ebf n\u00e0o.",
+          vi: "Nguồn đáng tin cho thấy họ kiểm chứng như thế nào.",
         },
       ],
   }
@@ -2409,14 +2322,14 @@
     pos: adjective,
     cefr: B1,
     topic: education,
-    ipa: "/\u02cca\u028at\u02c8de\u026at\u026ad/",
+    ipa: "/ˌaʊtˈdeɪtɪd/",
     def: "Old and no longer correct for the current version.",
-    vi: "l\u1ed7i th\u1eddi",
+    vi: "lỗi thời",
     examples:
       [
         {
           en: "That answer is outdated; the API changed in v3.",
-          vi: "C\u00e2u tr\u1ea3 l\u1eddi \u0111\u00f3 l\u1ed7i th\u1eddi r\u1ed3i; API \u0111\u00e3 \u0111\u1ed5i \u1edf v3.",
+          vi: "Câu trả lời đó lỗi thời rồi; API đã đổi ở v3.",
         },
       ],
   }
@@ -2426,14 +2339,14 @@
     pos: adjective,
     cefr: B1,
     topic: education,
-    ipa: "/\u0259\u02c8f\u026a\u0283l/",
+    ipa: "/əˈfɪʃl/",
     def: "Made or approved by the people who own the product.",
-    vi: "ch\u00ednh th\u1ee9c",
+    vi: "chính thức",
     examples:
       [
         {
           en: "Check the official changelog, not a forum post.",
-          vi: "Xem changelog ch\u00ednh th\u1ee9c, \u0111\u1eebng xem b\u00e0i tr\u00ean di\u1ec5n \u0111\u00e0n.",
+          vi: "Xem changelog chính thức, đừng xem bài trên diễn đàn.",
         },
       ],
   }
@@ -2443,14 +2356,14 @@
     pos: noun,
     cefr: B2,
     topic: education,
-    ipa: "/\u02c8vend\u0259/",
+    ipa: "/ˈvendə/",
     def: "A company that sells a product or service.",
-    vi: "nh\u00e0 cung c\u1ea5p",
+    vi: "nhà cung cấp",
     examples:
       [
         {
           en: "A vendor's case study shows only good results.",
-          vi: "B\u00e0i case study c\u1ee7a nh\u00e0 cung c\u1ea5p ch\u1ec9 cho th\u1ea5y k\u1ebft qu\u1ea3 t\u1ed1t.",
+          vi: "Bài case study của nhà cung cấp chỉ cho thấy kết quả tốt.",
         },
       ],
   }
@@ -2460,14 +2373,14 @@
     pos: noun,
     cefr: B1,
     topic: education,
-    ipa: "/\u02c8\u0254\u02d0\u03b8\u0259/",
+    ipa: "/ˈɔːθə/",
     def: "The person who wrote something.",
-    vi: "t\u00e1c gi\u1ea3",
+    vi: "tác giả",
     examples:
       [
         {
           en: "Check who the author is and what they work on.",
-          vi: "Ki\u1ec3m tra t\u00e1c gi\u1ea3 l\u00e0 ai v\u00e0 h\u1ecd l\u00e0m g\u00ec.",
+          vi: "Kiểm tra tác giả là ai và họ làm gì.",
         },
       ],
   }
@@ -2478,14 +2391,14 @@
     kind: collocation,
     cefr: B2,
     topic: education,
-    ipa: "/\u02ccp\u028cbl\u026a\u02c8ke\u026a\u0283n de\u026at/",
+    ipa: "/ˌpʌblɪˈkeɪʃn deɪt/",
     def: "The day something was first published.",
-    vi: "ng\u00e0y xu\u1ea5t b\u1ea3n",
+    vi: "ngày xuất bản",
     examples:
       [
         {
           en: "Look at the publication date before you trust a tutorial.",
-          vi: "Xem ng\u00e0y \u0111\u0103ng tr\u01b0\u1edbc khi tin m\u1ed9t b\u00e0i h\u01b0\u1edbng d\u1eabn.",
+          vi: "Xem ngày đăng trước khi tin một bài hướng dẫn.",
         },
       ],
   }
@@ -2495,15 +2408,15 @@
     pos: noun,
     cefr: B2,
     topic: education,
-    ipa: "/\u02c8ev\u026ad\u0259ns/",
+    ipa: "/ˈevɪdəns/",
     def: "Facts or results that show something is true.",
-    vi: "b\u1eb1ng ch\u1ee9ng",
-    note: "Kh\u00f4ng \u0111\u1ebfm \u0111\u01b0\u1ee3c: \"a piece of evidence\".",
+    vi: "bằng chứng",
+    note: 'Không đếm được: "a piece of evidence".',
     examples:
       [
         {
           en: "Is there any evidence that this library is faster?",
-          vi: "C\u00f3 b\u1eb1ng ch\u1ee9ng n\u00e0o cho th\u1ea5y th\u01b0 vi\u1ec7n n\u00e0y nhanh h\u01a1n kh\u00f4ng?",
+          vi: "Có bằng chứng nào cho thấy thư viện này nhanh hơn không?",
         },
       ],
   }
@@ -2513,14 +2426,14 @@
     pos: noun,
     cefr: B2,
     topic: education,
-    ipa: "/kle\u026am/",
+    ipa: "/kleɪm/",
     def: "A statement that something is true, which may not be proved.",
-    vi: "l\u1eddi kh\u1eb3ng \u0111\u1ecbnh",
+    vi: "lời khẳng định",
     examples:
       [
         {
           en: "The article makes big claims but shows no benchmarks.",
-          vi: "B\u00e0i vi\u1ebft kh\u1eb3ng \u0111\u1ecbnh nhi\u1ec1u \u0111i\u1ec1u nh\u01b0ng kh\u00f4ng c\u00f3 s\u1ed1 \u0111o.",
+          vi: "Bài viết khẳng định nhiều điều nhưng không có số đo.",
         },
       ],
   }
@@ -2530,14 +2443,14 @@
     pos: verb,
     cefr: B1,
     topic: education,
-    ipa: "/\u02ccd\u028cbl \u02c8t\u0283ek/",
+    ipa: "/ˌdʌbl ˈtʃek/",
     def: "To check something a second time to be sure.",
-    vi: "ki\u1ec3m tra l\u1ea1i",
+    vi: "kiểm tra lại",
     examples:
       [
         {
           en: "Double-check the version number before you copy the command.",
-          vi: "Ki\u1ec3m tra l\u1ea1i s\u1ed1 phi\u00ean b\u1ea3n tr\u01b0\u1edbc khi copy l\u1ec7nh.",
+          vi: "Kiểm tra lại số phiên bản trước khi copy lệnh.",
         },
       ],
   }
@@ -2547,14 +2460,14 @@
     pos: adjective,
     cefr: B2,
     topic: education,
-    ipa: "/\u02ccm\u026as\u02c8li\u02d0d\u026a\u014b/",
+    ipa: "/ˌmɪsˈliːdɪŋ/",
     def: "Making people believe something that is not true.",
-    vi: "g\u00e2y hi\u1ec3u l\u1ea7m",
+    vi: "gây hiểu lầm",
     examples:
       [
         {
           en: "The title is misleading; the tool is not free for teams.",
-          vi: "Ti\u00eau \u0111\u1ec1 g\u00e2y hi\u1ec3u l\u1ea7m; c\u00f4ng c\u1ee5 kh\u00f4ng mi\u1ec5n ph\u00ed cho nh\u00f3m.",
+          vi: "Tiêu đề gây hiểu lầm; công cụ không miễn phí cho nhóm.",
         },
       ],
   }
@@ -2564,14 +2477,14 @@
     pos: adjective,
     cefr: B2,
     topic: education,
-    ipa: "/pr\u026a\u02c8sa\u026as/",
+    ipa: "/prɪˈsaɪs/",
     def: "Exact and careful about small details.",
-    vi: "ch\u00ednh x\u00e1c, t\u1ec9 m\u1ec9",
+    vi: "chính xác, tỉ mỉ",
     examples:
       [
         {
           en: "The docs give precise limits: 5 MB per file.",
-          vi: "T\u00e0i li\u1ec7u \u0111\u01b0a gi\u1edbi h\u1ea1n r\u1ea5t c\u1ee5 th\u1ec3: 5 MB m\u1ed7i file.",
+          vi: "Tài liệu đưa giới hạn rất cụ thể: 5 MB mỗi file.",
         },
       ],
   }
@@ -2581,14 +2494,14 @@
     pos: noun,
     cefr: A2,
     topic: education,
-    ipa: "/\u0259\u02c8p\u026anj\u0259n/",
+    ipa: "/əˈpɪnjən/",
     def: "What a person thinks about something, not a proven fact.",
-    vi: "\u00fd ki\u1ebfn, quan \u0111i\u1ec3m",
+    vi: "ý kiến, quan điểm",
     examples:
       [
         {
           en: "That's just one developer's opinion.",
-          vi: "\u0110\u00f3 ch\u1ec9 l\u00e0 \u00fd ki\u1ebfn c\u1ee7a m\u1ed9t l\u1eadp tr\u00ecnh vi\u00ean.",
+          vi: "Đó chỉ là ý kiến của một lập trình viên.",
         },
       ],
   }
@@ -2598,14 +2511,14 @@
     pos: adjective,
     cefr: C1,
     topic: education,
-    ipa: "/\u02ccp\u026a\u0259 r\u026a\u02c8vju\u02d0d/",
+    ipa: "/ˌpɪə rɪˈvjuːd/",
     def: "Checked by other experts before it was published.",
-    vi: "\u0111\u01b0\u1ee3c b\u00ecnh duy\u1ec7t",
+    vi: "được bình duyệt",
     examples:
       [
         {
           en: "The paper is peer-reviewed, so the method is solid.",
-          vi: "B\u00e0i b\u00e1o \u0111\u00e3 \u0111\u01b0\u1ee3c b\u00ecnh duy\u1ec7t n\u00ean ph\u01b0\u01a1ng ph\u00e1p ch\u1eafc ch\u1eafn.",
+          vi: "Bài báo đã được bình duyệt nên phương pháp chắc chắn.",
         },
       ],
   }
@@ -2615,14 +2528,14 @@
     pos: noun,
     cefr: B2,
     topic: education,
-    ipa: "/me\u026an\u02c8te\u026an\u0259/",
+    ipa: "/meɪnˈteɪnə/",
     def: "A person who looks after an open-source project.",
-    vi: "ng\u01b0\u1eddi duy tr\u00ec (d\u1ef1 \u00e1n)",
+    vi: "người duy trì (dự án)",
     examples:
       [
         {
           en: "A maintainer replied to the issue within a day.",
-          vi: "Ng\u01b0\u1eddi duy tr\u00ec d\u1ef1 \u00e1n tr\u1ea3 l\u1eddi issue trong v\u00f2ng m\u1ed9t ng\u00e0y.",
+          vi: "Người duy trì dự án trả lời issue trong vòng một ngày.",
         },
       ],
   }
@@ -2632,14 +2545,14 @@
     pos: adjective,
     cefr: B2,
     topic: education,
-    ipa: "/\u02c8sp\u0252ns\u0259d/",
+    ipa: "/ˈspɒnsəd/",
     def: "Paid for by a company, often to promote its product.",
-    vi: "\u0111\u01b0\u1ee3c t\u00e0i tr\u1ee3",
+    vi: "được tài trợ",
     examples:
       [
         {
           en: "This video is sponsored, so watch it with care.",
-          vi: "Video n\u00e0y c\u00f3 t\u00e0i tr\u1ee3 n\u00ean xem c\u1ea9n th\u1eadn.",
+          vi: "Video này có tài trợ nên xem cẩn thận.",
         },
       ],
   }
@@ -2649,14 +2562,14 @@
     pos: adjective,
     cefr: B2,
     topic: education,
-    ipa: "/\u02cc\u026an \u02c8dep\u03b8/",
+    ipa: "/ˌɪn ˈdepθ/",
     def: "Covering a subject in great detail.",
-    vi: "chuy\u00ean s\u00e2u",
+    vi: "chuyên sâu",
     examples:
       [
         {
           en: "I need an in-depth guide, not a quick intro.",
-          vi: "M\u00ecnh c\u1ea7n h\u01b0\u1edbng d\u1eabn chuy\u00ean s\u00e2u, kh\u00f4ng ph\u1ea3i gi\u1edbi thi\u1ec7u nhanh.",
+          vi: "Mình cần hướng dẫn chuyên sâu, không phải giới thiệu nhanh.",
         },
       ],
   }
@@ -2666,14 +2579,14 @@
     pos: adjective,
     cefr: C1,
     topic: education,
-    ipa: "/\u02ccsu\u02d0p\u0259\u02c8f\u026a\u0283l/",
+    ipa: "/ˌsuːpəˈfɪʃl/",
     def: "Only looking at the surface, without real detail.",
-    vi: "h\u1eddi h\u1ee3t, s\u01a1 s\u00e0i",
+    vi: "hời hợt, sơ sài",
     examples:
       [
         {
           en: "The review was superficial; it never ran the code.",
-          vi: "B\u00e0i \u0111\u00e1nh gi\u00e1 s\u01a1 s\u00e0i; h\u1ecd ch\u01b0a t\u1eebng ch\u1ea1y code.",
+          vi: "Bài đánh giá sơ sài; họ chưa từng chạy code.",
         },
       ],
   }
@@ -2683,14 +2596,14 @@
     pos: verb,
     cefr: A2,
     topic: education,
-    ipa: "/k\u0259m\u02c8pe\u0259/",
+    ipa: "/kəmˈpeə/",
     def: "To look at how two things are the same or different.",
-    vi: "so s\u00e1nh",
+    vi: "so sánh",
     examples:
       [
         {
           en: "Compare the two answers and test both.",
-          vi: "So s\u00e1nh hai c\u00e2u tr\u1ea3 l\u1eddi v\u00e0 th\u1eed c\u1ea3 hai.",
+          vi: "So sánh hai câu trả lời và thử cả hai.",
         },
       ],
   }
@@ -2700,14 +2613,14 @@
     pos: noun,
     cefr: B2,
     topic: education,
-    ipa: "/\u02c8t\u0283e\u026and\u0292l\u0252\u0261/",
+    ipa: "/ˈtʃeɪndʒlɒɡ/",
     def: "A list of the changes made in each version of a product.",
-    vi: "nh\u1eadt k\u00fd thay \u0111\u1ed5i",
+    vi: "nhật ký thay đổi",
     examples:
       [
         {
           en: "The changelog says the flag was renamed.",
-          vi: "Changelog ghi l\u00e0 c\u1edd \u0111\u00f3 \u0111\u00e3 \u0111\u1ed5i t\u00ean.",
+          vi: "Changelog ghi là cờ đó đã đổi tên.",
         },
       ],
   }
@@ -2717,14 +2630,14 @@
     pos: noun,
     cefr: B2,
     topic: education,
-    ipa: "/\u02c8bent\u0283m\u0251\u02d0k/",
+    ipa: "/ˈbentʃmɑːk/",
     def: "A test that measures how fast or well something performs.",
-    vi: "ph\u00e9p \u0111o hi\u1ec7u n\u0103ng",
+    vi: "phép đo hiệu năng",
     examples:
       [
         {
           en: "Run your own benchmark with your real data.",
-          vi: "T\u1ef1 ch\u1ea1y ph\u00e9p \u0111o hi\u1ec7u n\u0103ng v\u1edbi d\u1eef li\u1ec7u th\u1eadt c\u1ee7a b\u1ea1n.",
+          vi: "Tự chạy phép đo hiệu năng với dữ liệu thật của bạn.",
         },
       ],
   }
@@ -2734,14 +2647,14 @@
     pos: adjective,
     cefr: C1,
     topic: education,
-    ipa: "/\u02cc\u00e6n\u026ak\u02c8d\u0259\u028atl/",
+    ipa: "/ˌænɪkˈdəʊtl/",
     def: "Based on personal stories, not on careful study.",
-    vi: "d\u1ef1a tr\u00ean kinh nghi\u1ec7m c\u00e1 nh\u00e2n (thi\u1ebfu ki\u1ec3m ch\u1ee9ng)",
+    vi: "dựa trên kinh nghiệm cá nhân (thiếu kiểm chứng)",
     examples:
       [
         {
           en: '"It worked for me" is anecdotal evidence.',
-          vi: "\"M\u00e1y t\u00f4i ch\u1ea1y \u0111\u01b0\u1ee3c\" ch\u1ec9 l\u00e0 b\u1eb1ng ch\u1ee9ng c\u00e1 nh\u00e2n.",
+          vi: '"Máy tôi chạy được" chỉ là bằng chứng cá nhân.',
         },
       ],
   }
@@ -2751,14 +2664,14 @@
     pos: verb,
     cefr: C1,
     topic: education,
-    ipa: "/sa\u026at/",
+    ipa: "/saɪt/",
     def: "To mention a source as proof of what you say.",
-    vi: "tr\u00edch d\u1eabn",
+    vi: "trích dẫn",
     examples:
       [
         {
           en: "Cite the doc page when you suggest a change.",
-          vi: "Tr\u00edch d\u1eabn trang t\u00e0i li\u1ec7u khi b\u1ea1n \u0111\u1ec1 xu\u1ea5t thay \u0111\u1ed5i.",
+          vi: "Trích dẫn trang tài liệu khi bạn đề xuất thay đổi.",
         },
       ],
   }
@@ -2769,14 +2682,14 @@
     kind: collocation,
     cefr: C1,
     topic: education,
-    ipa: "/\u02ccpra\u026am\u0259ri \u02c8s\u0254\u02d0s/",
+    ipa: "/ˌpraɪməri ˈsɔːs/",
     def: "The original place information comes from, not a copy or retelling.",
-    vi: "ngu\u1ed3n g\u1ed1c (ngu\u1ed3n s\u01a1 c\u1ea5p)",
+    vi: "nguồn gốc (nguồn sơ cấp)",
     examples:
       [
         {
           en: "The RFC is the primary source for this protocol.",
-          vi: "RFC l\u00e0 ngu\u1ed3n g\u1ed1c cho giao th\u1ee9c n\u00e0y.",
+          vi: "RFC là nguồn gốc cho giao thức này.",
         },
       ],
   }
@@ -2787,15 +2700,15 @@
     kind: phrase,
     cefr: C1,
     topic: education,
-    ipa: "/\u0259 \u02cc\u0261re\u026an \u0259v \u02c8s\u0254\u02d0lt/",
+    ipa: "/ə ˌɡreɪn əv ˈsɔːlt/",
     def: "To not fully believe something because it may not be true.",
-    vi: "nghe nh\u01b0ng \u0111\u1eebng tin h\u1eb3n",
-    note: "Anh-Anh hay n\u00f3i \"with a pinch of salt\".",
+    vi: "nghe nhưng đừng tin hẳn",
+    note: 'Anh-Anh hay nói "with a pinch of salt".',
     examples:
       [
         {
           en: "Take old forum answers with a grain of salt.",
-          vi: "C\u00e2u tr\u1ea3 l\u1eddi c\u0169 tr\u00ean di\u1ec5n \u0111\u00e0n th\u00ec \u0111\u1eebng tin h\u1eb3n.",
+          vi: "Câu trả lời cũ trên diễn đàn thì đừng tin hẳn.",
         },
       ],
   }
@@ -2805,15 +2718,15 @@
     pos: verb,
     cefr: C1,
     topic: education,
-    ipa: "/\u02c8t\u0283eri p\u026ak/",
+    ipa: "/ˈtʃeri pɪk/",
     def: "To choose only the facts that support your idea and ignore the rest.",
-    vi: "ch\u1ecdn l\u1ecdc c\u00f3 l\u1ee3i",
-    note: "Trong Git, \"cherry-pick\" c\u00f2n l\u00e0 l\u1ea5y m\u1ed9t commit sang nh\u00e1nh kh\u00e1c.",
+    vi: "chọn lọc có lợi",
+    note: 'Trong Git, "cherry-pick" còn là lấy một commit sang nhánh khác.',
     examples:
       [
         {
           en: "The blog cherry-picks results to make its tool look fast.",
-          vi: "Blog \u0111\u00f3 ch\u1ecdn l\u1ecdc k\u1ebft qu\u1ea3 \u0111\u1ec3 c\u00f4ng c\u1ee5 c\u1ee7a h\u1ecd tr\u00f4ng nhanh.",
+          vi: "Blog đó chọn lọc kết quả để công cụ của họ trông nhanh.",
         },
       ],
   }
@@ -2823,14 +2736,14 @@
     pos: adjective,
     cefr: C1,
     topic: education,
-    ipa: "/\u02c8ver\u026afa\u026a\u0259bl/",
+    ipa: "/ˈverɪfaɪəbl/",
     def: "Possible to check and prove true.",
-    vi: "ki\u1ec3m ch\u1ee9ng \u0111\u01b0\u1ee3c",
+    vi: "kiểm chứng được",
     examples:
       [
         {
           en: "Prefer verifiable numbers over vague words like 'blazing fast'.",
-          vi: "\u01afu ti\u00ean s\u1ed1 li\u1ec7u ki\u1ec3m ch\u1ee9ng \u0111\u01b0\u1ee3c h\u01a1n nh\u1eefng t\u1eeb m\u01a1 h\u1ed3 nh\u01b0 'si\u00eau nhanh'.",
+          vi: "Ưu tiên số liệu kiểm chứng được hơn những từ mơ hồ như 'siêu nhanh'.",
         },
       ],
   }
@@ -2840,14 +2753,14 @@
     pos: noun,
     cefr: B2,
     topic: education,
-    ipa: "/ha\u026ap/",
+    ipa: "/haɪp/",
     def: "Too much excited talk about something, making it seem better than it is.",
-    vi: "s\u1ef1 th\u1ed5i ph\u1ed3ng",
+    vi: "sự thổi phồng",
     examples:
       [
         {
           en: "Ignore the hype and read the limitations section.",
-          vi: "B\u1ecf qua s\u1ef1 th\u1ed5i ph\u1ed3ng, \u0111\u1ecdc ph\u1ea7n h\u1ea1n ch\u1ebf.",
+          vi: "Bỏ qua sự thổi phồng, đọc phần hạn chế.",
         },
       ],
   }
@@ -2859,14 +2772,14 @@
     kind: collocation,
     cefr: B2,
     topic: education,
-    ipa: "/\u02ccp\u025c\u02d0s\u0259nl d\u026a\u02c8vel\u0259pm\u0259nt pl\u00e6n/",
+    ipa: "/ˌpɜːsənl dɪˈveləpmənt plæn/",
     def: "A written plan of the skills you want to grow and how you will do it.",
-    vi: "k\u1ebf ho\u1ea1ch ph\u00e1t tri\u1ec3n c\u00e1 nh\u00e2n",
+    vi: "kế hoạch phát triển cá nhân",
     examples:
       [
         {
           en: "My personal development plan has three goals for this year.",
-          vi: "K\u1ebf ho\u1ea1ch ph\u00e1t tri\u1ec3n c\u00e1 nh\u00e2n c\u1ee7a m\u00ecnh c\u00f3 ba m\u1ee5c ti\u00eau cho n\u0103m nay.",
+          vi: "Kế hoạch phát triển cá nhân của mình có ba mục tiêu cho năm nay.",
         },
       ],
   }
@@ -2876,14 +2789,14 @@
     pos: noun,
     cefr: C1,
     topic: education,
-    ipa: "/\u02c8k\u0252mp\u026at\u0259nsi/",
+    ipa: "/ˈkɒmpɪtənsi/",
     def: "A skill or ability that a job needs, often listed in a framework.",
-    vi: "n\u0103ng l\u1ef1c (theo khung)",
+    vi: "năng lực (theo khung)",
     examples:
       [
         {
           en: "System design is a key competency for senior engineers.",
-          vi: "Thi\u1ebft k\u1ebf h\u1ec7 th\u1ed1ng l\u00e0 n\u0103ng l\u1ef1c then ch\u1ed1t c\u1ee7a k\u1ef9 s\u01b0 senior.",
+          vi: "Thiết kế hệ thống là năng lực then chốt của kỹ sư senior.",
         },
       ],
   }
@@ -2893,14 +2806,14 @@
     pos: noun,
     cefr: B2,
     topic: education,
-    ipa: "/\u02c8t\u0283ekp\u0254\u026ant/",
+    ipa: "/ˈtʃekpɔɪnt/",
     def: "A planned time to stop and check how things are going.",
-    vi: "\u0111i\u1ec3m ki\u1ec3m tra",
+    vi: "điểm kiểm tra",
     examples:
       [
         {
           en: "Our next checkpoint is at the end of March.",
-          vi: "\u0110i\u1ec3m ki\u1ec3m tra ti\u1ebfp theo l\u00e0 cu\u1ed1i th\u00e1ng Ba.",
+          vi: "Điểm kiểm tra tiếp theo là cuối tháng Ba.",
         },
       ],
   }
@@ -2911,14 +2824,14 @@
     kind: collocation,
     cefr: B2,
     topic: education,
-    ipa: "/k\u0259\u02c8r\u026a\u0259 \u02ccl\u00e6d\u0259/",
+    ipa: "/kəˈrɪə ˌlædə/",
     def: "The levels of jobs in a company, from junior to senior and higher.",
-    vi: "n\u1ea5c thang s\u1ef1 nghi\u1ec7p",
+    vi: "nấc thang sự nghiệp",
     examples:
       [
         {
           en: "Our career ladder lists what each level is expected to do.",
-          vi: "N\u1ea5c thang s\u1ef1 nghi\u1ec7p c\u1ee7a c\u00f4ng ty li\u1ec7t k\u00ea vi\u1ec7c c\u1ea7n l\u00e0m \u1edf t\u1eebng c\u1ea5p.",
+          vi: "Nấc thang sự nghiệp của công ty liệt kê việc cần làm ở từng cấp.",
         },
       ],
   }
@@ -2928,14 +2841,14 @@
     pos: noun,
     cefr: B1,
     topic: education,
-    ipa: "/stre\u014b\u03b8/",
+    ipa: "/streŋθ/",
     def: "Something you are especially good at.",
-    vi: "\u0111i\u1ec3m m\u1ea1nh",
+    vi: "điểm mạnh",
     examples:
       [
         {
           en: "Debugging is one of my strengths.",
-          vi: "Debug l\u00e0 m\u1ed9t trong nh\u1eefng \u0111i\u1ec3m m\u1ea1nh c\u1ee7a m\u00ecnh.",
+          vi: "Debug là một trong những điểm mạnh của mình.",
         },
       ],
   }
@@ -2945,14 +2858,14 @@
     pos: noun,
     cefr: B1,
     topic: education,
-    ipa: "/\u02c8wi\u02d0kn\u0259s/",
+    ipa: "/ˈwiːknəs/",
     def: "Something you are not good at yet.",
-    vi: "\u0111i\u1ec3m y\u1ebfu",
+    vi: "điểm yếu",
     examples:
       [
         {
           en: "My weakness is estimating how long tasks take.",
-          vi: "\u0110i\u1ec3m y\u1ebfu c\u1ee7a m\u00ecnh l\u00e0 \u01b0\u1edbc l\u01b0\u1ee3ng th\u1eddi gian l\u00e0m vi\u1ec7c.",
+          vi: "Điểm yếu của mình là ước lượng thời gian làm việc.",
         },
       ],
   }
@@ -2963,14 +2876,14 @@
     kind: collocation,
     cefr: B2,
     topic: education,
-    ipa: "/\u02c8sk\u026al \u0261\u00e6p/",
+    ipa: "/ˈskɪl ɡæp/",
     def: "The difference between the skills you have and the skills you need.",
-    vi: "kho\u1ea3ng tr\u1ed1ng k\u1ef9 n\u0103ng",
+    vi: "khoảng trống kỹ năng",
     examples:
       [
         {
           en: "We found a skill gap in cloud security.",
-          vi: "B\u1ecdn m\u00ecnh th\u1ea5y c\u00f3 kho\u1ea3ng tr\u1ed1ng k\u1ef9 n\u0103ng v\u1ec1 b\u1ea3o m\u1eadt cloud.",
+          vi: "Bọn mình thấy có khoảng trống kỹ năng về bảo mật cloud.",
         },
       ],
   }
@@ -2980,14 +2893,14 @@
     pos: noun,
     cefr: C1,
     topic: education,
-    ipa: "/\u02ccself \u0259\u02c8sesm\u0259nt/",
+    ipa: "/ˌself əˈsesmənt/",
     def: "Judging your own work and skills honestly.",
-    vi: "t\u1ef1 \u0111\u00e1nh gi\u00e1",
+    vi: "tự đánh giá",
     examples:
       [
         {
           en: "Fill in the self-assessment before your review meeting.",
-          vi: "\u0110i\u1ec1n b\u1ea3n t\u1ef1 \u0111\u00e1nh gi\u00e1 tr\u01b0\u1edbc bu\u1ed5i review.",
+          vi: "Điền bản tự đánh giá trước buổi review.",
         },
       ],
   }
@@ -2997,14 +2910,14 @@
     pos: adjective,
     cefr: B2,
     topic: education,
-    ipa: "/\u02c8me\u0292\u0259r\u0259bl/",
+    ipa: "/ˈmeʒərəbl/",
     def: "Able to be counted or checked with numbers or clear results.",
-    vi: "\u0111o l\u01b0\u1eddng \u0111\u01b0\u1ee3c",
+    vi: "đo lường được",
     examples:
       [
         {
           en: '"Get better at SQL" is not measurable; "write five reports" is.',
-          vi: "\"Gi\u1ecfi SQL h\u01a1n\" th\u00ec kh\u00f4ng \u0111o \u0111\u01b0\u1ee3c; \"vi\u1ebft n\u0103m b\u00e1o c\u00e1o\" th\u00ec \u0111o \u0111\u01b0\u1ee3c.",
+          vi: '"Giỏi SQL hơn" thì không đo được; "viết năm báo cáo" thì đo được.',
         },
       ],
   }
@@ -3014,14 +2927,14 @@
     pos: adjective,
     cefr: B1,
     topic: education,
-    ipa: "/\u02ccri\u02d0\u0259\u02c8l\u026ast\u026ak/",
+    ipa: "/ˌriːəˈlɪstɪk/",
     def: "Possible to do, given your time and situation.",
-    vi: "th\u1ef1c t\u1ebf, kh\u1ea3 thi",
+    vi: "thực tế, khả thi",
     examples:
       [
         {
           en: "Two hours a week is a realistic target for me.",
-          vi: "Hai ti\u1ebfng m\u1ed7i tu\u1ea7n l\u00e0 m\u1ee5c ti\u00eau kh\u1ea3 thi v\u1edbi m\u00ecnh.",
+          vi: "Hai tiếng mỗi tuần là mục tiêu khả thi với mình.",
         },
       ],
   }
@@ -3031,15 +2944,15 @@
     pos: verb,
     cefr: B2,
     topic: education,
-    ipa: "/pra\u026a\u02c8\u0252r\u0259ta\u026az/",
+    ipa: "/praɪˈɒrətaɪz/",
     def: "To decide which things are most important and do them first.",
-    vi: "\u01b0u ti\u00ean",
-    note: "Anh-M\u1ef9 vi\u1ebft \"prioritize\".",
+    vi: "ưu tiên",
+    note: 'Anh-Mỹ viết "prioritize".',
     examples:
       [
         {
           en: "I'll prioritise testing over a new framework this quarter.",
-          vi: "Qu\u00fd n\u00e0y m\u00ecnh \u01b0u ti\u00ean vi\u1ec7c test h\u01a1n l\u00e0 h\u1ecdc framework m\u1edbi.",
+          vi: "Quý này mình ưu tiên việc test hơn là học framework mới.",
         },
       ],
   }
@@ -3050,14 +2963,14 @@
     kind: collocation,
     cefr: B2,
     topic: education,
-    ipa: "/k\u0259\u02c8m\u026at t\u0259/",
+    ipa: "/kəˈmɪt tə/",
     def: "To promise to give your time or effort to something.",
-    vi: "cam k\u1ebft v\u1edbi",
+    vi: "cam kết với",
     examples:
       [
         {
           en: "I committed to one tech talk per quarter.",
-          vi: "M\u00ecnh cam k\u1ebft m\u1ed7i qu\u00fd l\u00e0m m\u1ed9t bu\u1ed5i tech talk.",
+          vi: "Mình cam kết mỗi quý làm một buổi tech talk.",
         },
       ],
   }
@@ -3067,14 +2980,14 @@
     pos: noun,
     cefr: C1,
     topic: education,
-    ipa: "/\u0259\u02ccka\u028ant\u0259\u02c8b\u026al\u0259ti/",
+    ipa: "/əˌkaʊntəˈbɪləti/",
     def: "Being responsible for what you promised and explaining the results.",
-    vi: "tr\u00e1ch nhi\u1ec7m gi\u1ea3i tr\u00ecnh",
+    vi: "trách nhiệm giải trình",
     examples:
       [
         {
           en: "Sharing my plan with my mentor gives me accountability.",
-          vi: "Chia s\u1ebb k\u1ebf ho\u1ea1ch v\u1edbi mentor khi\u1ebfn m\u00ecnh c\u00f3 tr\u00e1ch nhi\u1ec7m h\u01a1n.",
+          vi: "Chia sẻ kế hoạch với mentor khiến mình có trách nhiệm hơn.",
         },
       ],
   }
@@ -3084,14 +2997,14 @@
     pos: verb,
     cefr: C1,
     topic: education,
-    ipa: "/\u02c8\u0283\u0259\u028ake\u026as/",
+    ipa: "/ˈʃəʊkeɪs/",
     def: "To show the best parts of something so people notice it.",
-    vi: "tr\u01b0ng b\u00e0y, gi\u1edbi thi\u1ec7u n\u1ed5i b\u1eadt",
+    vi: "trưng bày, giới thiệu nổi bật",
     examples:
       [
         {
           en: "Use the demo day to showcase what you built.",
-          vi: "D\u00f9ng ng\u00e0y demo \u0111\u1ec3 gi\u1edbi thi\u1ec7u nh\u1eefng g\u00ec b\u1ea1n l\u00e0m \u0111\u01b0\u1ee3c.",
+          vi: "Dùng ngày demo để giới thiệu những gì bạn làm được.",
         },
       ],
   }
@@ -3101,31 +3014,14 @@
     pos: noun,
     cefr: B2,
     topic: education,
-    ipa: "/\u02c8ment\u0254\u02d0\u0283\u026ap/",
+    ipa: "/ˈmentɔːʃɪp/",
     def: "The help and advice a mentor gives over a period of time.",
-    vi: "s\u1ef1 k\u00e8m c\u1eb7p",
+    vi: "sự kèm cặp",
     examples:
       [
         {
           en: "Six months of mentorship helped me lead my first project.",
-          vi: "S\u00e1u th\u00e1ng \u0111\u01b0\u1ee3c k\u00e8m c\u1eb7p gi\u00fap m\u00ecnh d\u1eabn d\u1eaft d\u1ef1 \u00e1n \u0111\u1ea7u ti\u00ean.",
-        },
-      ],
-  }
-- {
-    slug: upskill-v,
-    lemma: "upskill",
-    pos: verb,
-    cefr: C1,
-    topic: education,
-    ipa: "/\u02c8\u028cpsk\u026al/",
-    def: "To learn new skills that your job now needs.",
-    vi: "n\u00e2ng cao k\u1ef9 n\u0103ng",
-    examples:
-      [
-        {
-          en: "The company pays for courses to upskill the QA team.",
-          vi: "C\u00f4ng ty tr\u1ea3 ti\u1ec1n kho\u00e1 h\u1ecdc \u0111\u1ec3 n\u00e2ng k\u1ef9 n\u0103ng cho \u0111\u1ed9i QA.",
+          vi: "Sáu tháng được kèm cặp giúp mình dẫn dắt dự án đầu tiên.",
         },
       ],
   }
@@ -3135,31 +3031,14 @@
     pos: noun,
     cefr: C1,
     topic: education,
-    ipa: "/pr\u0259\u02c8f\u026a\u0283nsi/",
+    ipa: "/prəˈfɪʃnsi/",
     def: "A high level of skill in something.",
-    vi: "s\u1ef1 th\u00e0nh th\u1ea1o",
+    vi: "sự thành thạo",
     examples:
       [
         {
           en: "The role needs proficiency in at least one cloud platform.",
-          vi: "V\u1ecb tr\u00ed n\u00e0y c\u1ea7n th\u00e0nh th\u1ea1o \u00edt nh\u1ea5t m\u1ed9t n\u1ec1n t\u1ea3ng cloud.",
-        },
-      ],
-  }
-- {
-    slug: long-term-adj-education,
-    lemma: "long-term",
-    pos: adjective,
-    cefr: B2,
-    topic: education,
-    ipa: "/\u02ccl\u0252\u014b \u02c8t\u025c\u02d0m/",
-    def: "Continuing for, or about, a long time in the future.",
-    vi: "d\u00e0i h\u1ea1n",
-    examples:
-      [
-        {
-          en: "My long-term goal is to become an architect.",
-          vi: "M\u1ee5c ti\u00eau d\u00e0i h\u1ea1n c\u1ee7a m\u00ecnh l\u00e0 tr\u1edf th\u00e0nh ki\u1ebfn tr\u00fac s\u01b0 ph\u1ea7n m\u1ec1m.",
+          vi: "Vị trí này cần thành thạo ít nhất một nền tảng cloud.",
         },
       ],
   }
@@ -3170,14 +3049,14 @@
     kind: collocation,
     cefr: C1,
     topic: education,
-    ipa: "/\u02cc\u0261r\u0259\u028a\u03b8 \u02c8ma\u026andset/",
+    ipa: "/ˌɡrəʊθ ˈmaɪndset/",
     def: "The belief that you can get better at things through effort.",
-    vi: "t\u01b0 duy ph\u00e1t tri\u1ec3n",
+    vi: "tư duy phát triển",
     examples:
       [
         {
           en: "With a growth mindset, a failed test is just feedback.",
-          vi: "V\u1edbi t\u01b0 duy ph\u00e1t tri\u1ec3n, m\u1ed9t test th\u1ea5t b\u1ea1i ch\u1ec9 l\u00e0 ph\u1ea3n h\u1ed3i.",
+          vi: "Với tư duy phát triển, một test thất bại chỉ là phản hồi.",
         },
       ],
   }
@@ -3188,14 +3067,14 @@
     kind: collocation,
     cefr: C1,
     topic: education,
-    ipa: "/\u02c8stret\u0283 \u0261\u0259\u028al/",
+    ipa: "/ˈstretʃ ɡəʊl/",
     def: "A goal that is harder than usual and pushes you to grow.",
-    vi: "m\u1ee5c ti\u00eau v\u01b0\u1ee3t s\u1ee9c",
+    vi: "mục tiêu vượt sức",
     examples:
       [
         {
           en: "My stretch goal is to give a talk at a public conference.",
-          vi: "M\u1ee5c ti\u00eau v\u01b0\u1ee3t s\u1ee9c c\u1ee7a m\u00ecnh l\u00e0 n\u00f3i \u1edf m\u1ed9t h\u1ed9i ngh\u1ecb c\u00f4ng khai.",
+          vi: "Mục tiêu vượt sức của mình là nói ở một hội nghị công khai.",
         },
       ],
   }
@@ -3206,14 +3085,14 @@
     kind: phrasal,
     cefr: B2,
     topic: education,
-    ipa: "/set \u0259\u02c8sa\u026ad/",
+    ipa: "/set əˈsaɪd/",
     def: "To keep time or money for one special purpose.",
-    vi: "d\u00e0nh ri\u00eang ra",
+    vi: "dành riêng ra",
     examples:
       [
         {
           en: "I set aside Friday afternoons for learning.",
-          vi: "M\u00ecnh d\u00e0nh ri\u00eang chi\u1ec1u th\u1ee9 S\u00e1u \u0111\u1ec3 h\u1ecdc.",
+          vi: "Mình dành riêng chiều thứ Sáu để học.",
         },
       ],
   }
@@ -3224,14 +3103,14 @@
     kind: collocation,
     cefr: C1,
     topic: education,
-    ipa: "/\u02c8tr\u00e6k \u02ccrek\u0254\u02d0d/",
+    ipa: "/ˈtræk ˌrekɔːd/",
     def: "What someone has done well or badly in the past.",
-    vi: "th\u00e0nh t\u00edch (\u0111\u00e3 c\u00f3)",
+    vi: "thành tích (đã có)",
     examples:
       [
         {
           en: "He has a strong track record of shipping on time.",
-          vi: "Anh \u1ea5y c\u00f3 th\u00e0nh t\u00edch t\u1ed1t v\u1ec1 giao h\u00e0ng \u0111\u00fang h\u1ea1n.",
+          vi: "Anh ấy có thành tích tốt về giao hàng đúng hạn.",
         },
       ],
   }
@@ -3242,14 +3121,14 @@
     kind: collocation,
     cefr: C1,
     topic: education,
-    ipa: "/r\u026a\u02c8flekt \u0252n/",
+    ipa: "/rɪˈflekt ɒn/",
     def: "To think carefully about something you did or learned.",
-    vi: "suy ng\u1eabm v\u1ec1",
+    vi: "suy ngẫm về",
     examples:
       [
         {
           en: "Every month I reflect on what went well and what didn't.",
-          vi: "M\u1ed7i th\u00e1ng m\u00ecnh suy ng\u1eabm \u0111i\u1ec1u g\u00ec t\u1ed1t v\u00e0 \u0111i\u1ec1u g\u00ec ch\u01b0a.",
+          vi: "Mỗi tháng mình suy ngẫm điều gì tốt và điều gì chưa.",
         },
       ],
   }
@@ -3259,14 +3138,14 @@
     pos: verb,
     cefr: B1,
     topic: education,
-    ipa: "/\u0259\u02c8d\u0292\u028cst/",
+    ipa: "/əˈdʒʌst/",
     def: "To change something a little so that it works better.",
-    vi: "\u0111i\u1ec1u ch\u1ec9nh",
+    vi: "điều chỉnh",
     examples:
       [
         {
           en: "We adjusted the plan after the team changed.",
-          vi: "B\u1ecdn m\u00ecnh \u0111i\u1ec1u ch\u1ec9nh k\u1ebf ho\u1ea1ch sau khi nh\u00f3m thay \u0111\u1ed5i.",
+          vi: "Bọn mình điều chỉnh kế hoạch sau khi nhóm thay đổi.",
         },
       ],
   }
@@ -3276,14 +3155,14 @@
     pos: adjective,
     cefr: C1,
     topic: education,
-    ipa: "/s\u0259\u02c8ste\u026an\u0259bl/",
+    ipa: "/səˈsteɪnəbl/",
     def: "Able to continue for a long time without causing problems.",
-    vi: "b\u1ec1n v\u1eefng, duy tr\u00ec \u0111\u01b0\u1ee3c",
+    vi: "bền vững, duy trì được",
     examples:
       [
         {
           en: "Thirty minutes a day is more sustainable than ten hours on Sunday.",
-          vi: "Ba m\u01b0\u01a1i ph\u00fat m\u1ed7i ng\u00e0y b\u1ec1n v\u1eefng h\u01a1n m\u01b0\u1eddi ti\u1ebfng ng\u00e0y Ch\u1ee7 nh\u1eadt.",
+          vi: "Ba mươi phút mỗi ngày bền vững hơn mười tiếng ngày Chủ nhật.",
         },
       ],
   }
@@ -3293,14 +3172,14 @@
     pos: noun,
     cefr: C1,
     topic: education,
-    ipa: "/m\u0259\u02c8ment\u0259m/",
+    ipa: "/məˈmentəm/",
     def: "The energy that keeps progress going once it has started.",
-    vi: "\u0111\u00e0 (ti\u1ebfn tri\u1ec3n)",
+    vi: "đà (tiến triển)",
     examples:
       [
         {
           en: "Don't lose momentum; finish one small chapter today.",
-          vi: "\u0110\u1eebng \u0111\u1ec3 m\u1ea5t \u0111\u00e0; h\u00f4m nay xong m\u1ed9t ch\u01b0\u01a1ng nh\u1ecf.",
+          vi: "Đừng để mất đà; hôm nay xong một chương nhỏ.",
         },
       ],
   }
@@ -3310,14 +3189,14 @@
     pos: noun,
     cefr: B2,
     topic: education,
-    ipa: "/\u02c8setb\u00e6k/",
+    ipa: "/ˈsetbæk/",
     def: "A problem that stops progress or makes it slower.",
-    vi: "tr\u1edf ng\u1ea1i, b\u01b0\u1edbc l\u00f9i",
+    vi: "trở ngại, bước lùi",
     examples:
       [
         {
           en: "Failing the exam was a setback, not the end.",
-          vi: "Thi tr\u01b0\u1ee3t l\u00e0 m\u1ed9t tr\u1edf ng\u1ea1i, kh\u00f4ng ph\u1ea3i d\u1ea5u ch\u1ea5m h\u1ebft.",
+          vi: "Thi trượt là một trở ngại, không phải dấu chấm hết.",
         },
       ],
   }
@@ -3327,14 +3206,14 @@
     pos: noun,
     cefr: C1,
     topic: education,
-    ipa: "/\u02cc\u00e6sp\u0259\u02c8re\u026a\u0283n/",
+    ipa: "/ˌæspəˈreɪʃn/",
     def: "A strong hope to achieve something important in the future.",
-    vi: "kh\u00e1t v\u1ecdng, nguy\u1ec7n v\u1ecdng",
+    vi: "khát vọng, nguyện vọng",
     examples:
       [
         {
           en: "Tell your manager about your aspirations, not only your tasks.",
-          vi: "H\u00e3y k\u1ec3 v\u1edbi qu\u1ea3n l\u00fd v\u1ec1 nguy\u1ec7n v\u1ecdng c\u1ee7a b\u1ea1n, kh\u00f4ng ch\u1ec9 \u0111\u1ea7u vi\u1ec7c.",
+          vi: "Hãy kể với quản lý về nguyện vọng của bạn, không chỉ đầu việc.",
         },
       ],
   }
@@ -3345,14 +3224,14 @@
     kind: collocation,
     cefr: C1,
     topic: education,
-    ipa: "/d\u026a\u02ccl\u026ab\u0259r\u0259t \u02c8pr\u00e6kt\u026as/",
+    ipa: "/dɪˌlɪbərət ˈpræktɪs/",
     def: "Practice that targets your weak points on purpose, with feedback.",
-    vi: "luy\u1ec7n t\u1eadp c\u00f3 ch\u1ee7 \u0111\u00edch",
+    vi: "luyện tập có chủ đích",
     examples:
       [
         {
           en: "Deliberate practice means solving problems that feel a bit too hard.",
-          vi: "Luy\u1ec7n t\u1eadp c\u00f3 ch\u1ee7 \u0111\u00edch l\u00e0 gi\u1ea3i nh\u1eefng b\u00e0i h\u01a1i qu\u00e1 s\u1ee9c m\u1ed9t ch\u00fat.",
+          vi: "Luyện tập có chủ đích là giải những bài hơi quá sức một chút.",
         },
       ],
   }
@@ -3362,15 +3241,15 @@
     pos: verb,
     cefr: B2,
     topic: education,
-    ipa: "/\u02c8spe\u0283\u0259la\u026az/",
+    ipa: "/ˈspeʃəlaɪz/",
     def: "To focus your work or study on one particular area.",
-    vi: "chuy\u00ean s\u00e2u (v\u00e0o m\u1ed9t l\u0129nh v\u1ef1c)",
-    note: "D\u00f9ng \"specialise in\"; Anh-M\u1ef9 vi\u1ebft \"specialize\".",
+    vi: "chuyên sâu (vào một lĩnh vực)",
+    note: 'Dùng "specialise in"; Anh-Mỹ viết "specialize".',
     examples:
       [
         {
           en: "I want to specialise in performance tuning.",
-          vi: "M\u00ecnh mu\u1ed1n chuy\u00ean s\u00e2u v\u1ec1 t\u1ed1i \u01b0u hi\u1ec7u n\u0103ng.",
+          vi: "Mình muốn chuyên sâu về tối ưu hiệu năng.",
         },
       ],
   }
@@ -3380,14 +3259,14 @@
     pos: verb,
     cefr: C1,
     topic: education,
-    ipa: "/\u02c8br\u0254\u02d0dn/",
+    ipa: "/ˈbrɔːdn/",
     def: "To make your knowledge or experience cover more areas.",
-    vi: "m\u1edf r\u1ed9ng",
+    vi: "mở rộng",
     examples:
       [
         {
           en: "Working on the mobile app broadened my skills.",
-          vi: "L\u00e0m app di \u0111\u1ed9ng \u0111\u00e3 m\u1edf r\u1ed9ng k\u1ef9 n\u0103ng c\u1ee7a m\u00ecnh.",
+          vi: "Làm app di động đã mở rộng kỹ năng của mình.",
         },
       ],
   }
@@ -3397,14 +3276,14 @@
     pos: verb,
     cefr: C1,
     topic: education,
-    ipa: "/\u026an\u02c8d\u0254\u02d0s/",
+    ipa: "/ɪnˈdɔːs/",
     def: "To say publicly that you support someone or something.",
-    vi: "\u1ee7ng h\u1ed9, x\u00e1c nh\u1eadn",
+    vi: "ủng hộ, xác nhận",
     examples:
       [
         {
           en: "My lead endorsed my plan in the review.",
-          vi: "Tr\u01b0\u1edfng nh\u00f3m \u0111\u00e3 \u1ee7ng h\u1ed9 k\u1ebf ho\u1ea1ch c\u1ee7a m\u00ecnh trong bu\u1ed5i review.",
+          vi: "Trưởng nhóm đã ủng hộ kế hoạch của mình trong buổi review.",
         },
       ],
   }
@@ -3414,14 +3293,14 @@
     pos: noun,
     cefr: B2,
     topic: education,
-    ipa: "/\u02c8a\u028atk\u028cm/",
+    ipa: "/ˈaʊtkʌm/",
     def: "The final result of an action or process.",
-    vi: "k\u1ebft qu\u1ea3",
+    vi: "kết quả",
     examples:
       [
         {
           en: "Write the outcome you want, not just the course name.",
-          vi: "Vi\u1ebft k\u1ebft qu\u1ea3 b\u1ea1n mu\u1ed1n \u0111\u1ea1t, kh\u00f4ng ch\u1ec9 t\u00ean kho\u00e1 h\u1ecdc.",
+          vi: "Viết kết quả bạn muốn đạt, không chỉ tên khoá học.",
         },
       ],
   }
@@ -3431,14 +3310,14 @@
     pos: noun,
     cefr: B2,
     topic: education,
-    ipa: "/pe\u026as/",
+    ipa: "/peɪs/",
     def: "How fast something happens or moves forward.",
-    vi: "nh\u1ecbp \u0111\u1ed9, t\u1ed1c \u0111\u1ed9",
+    vi: "nhịp độ, tốc độ",
     examples:
       [
         {
           en: "Keep a steady pace instead of studying in bursts.",
-          vi: "Gi\u1eef nh\u1ecbp \u0111\u1ed9 \u0111\u1ec1u thay v\u00ec h\u1ecdc d\u1ed3n t\u1eebng \u0111\u1ee3t.",
+          vi: "Giữ nhịp độ đều thay vì học dồn từng đợt.",
         },
       ],
   }
@@ -3449,14 +3328,14 @@
     kind: collocation,
     cefr: B2,
     topic: education,
-    ipa: "/\u02cckw\u0254\u02d0t\u0259li r\u026a\u02c8vju\u02d0/",
+    ipa: "/ˌkwɔːtəli rɪˈvjuː/",
     def: "A meeting every three months to check progress against goals.",
-    vi: "bu\u1ed5i \u0111\u00e1nh gi\u00e1 h\u1eb1ng qu\u00fd",
+    vi: "buổi đánh giá hằng quý",
     examples:
       [
         {
           en: "We'll check the milestones at the quarterly review.",
-          vi: "B\u1ecdn m\u00ecnh s\u1ebd xem c\u00e1c c\u1ed9t m\u1ed1c \u1edf bu\u1ed5i \u0111\u00e1nh gi\u00e1 h\u1eb1ng qu\u00fd.",
+          vi: "Bọn mình sẽ xem các cột mốc ở buổi đánh giá hằng quý.",
         },
       ],
   }
@@ -3467,14 +3346,14 @@
     kind: phrase,
     cefr: B2,
     topic: education,
-    ipa: "/\u0252n \u02c8tr\u00e6k/",
+    ipa: "/ɒn ˈtræk/",
     def: "Making the progress that was planned.",
-    vi: "\u0111\u00fang ti\u1ebfn \u0111\u1ed9",
+    vi: "đúng tiến độ",
     examples:
       [
         {
           en: "Am I on track for the senior level by next year?",
-          vi: "Em c\u00f3 \u0111ang \u0111\u00fang ti\u1ebfn \u0111\u1ed9 \u0111\u1ec3 l\u00ean senior v\u00e0o n\u0103m sau kh\u00f4ng?",
+          vi: "Em có đang đúng tiến độ để lên senior vào năm sau không?",
         },
       ],
   }

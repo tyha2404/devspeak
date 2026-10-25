@@ -54,7 +54,15 @@ export const viewport: Viewport = { themeColor: "#f7f4ed", width: "device-width"
 
 export default function RootLayout({ children }: Readonly<{ children: React.ReactNode }>) {
   return (
-    <html lang="vi">
+    <html lang="vi" suppressHydrationWarning>
+      <head>
+        {/* Apply the saved theme before the first paint, including before React loads. */}
+        <script
+          dangerouslySetInnerHTML={{
+            __html: `try{const theme=JSON.parse(localStorage.getItem("dq:settings")||"null")?.state?.theme;if(theme==="light"||theme==="dark")document.documentElement.dataset.theme=theme;}catch{}`,
+          }}
+        />
+      </head>
       <body className={`${body.variable} ${heading.variable} ${mono.variable} antialiased`}>
         <SettingsEffect />
         <Analytics />

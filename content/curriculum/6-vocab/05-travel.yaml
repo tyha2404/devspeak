@@ -43,7 +43,7 @@ lessons:
         bring-forward-pv,
         organiser-n,
         ahead-of-phr,
-        daylight-saving-time-n,
+        daylight-saving-n,
         early-bird-n,
       ]
     questions: []
@@ -74,7 +74,7 @@ lessons:
     senses:
       [
         client-n,
-        requirement-n,
+        requirement-env-n,
         client-portal-n,
         acceptance-criteria-n,
         use-case-n,
@@ -160,7 +160,7 @@ lessons:
         ship-v,
         on-schedule-phr,
         revision-n,
-        go-live-n,
+        go-live-n-nature,
         file-transfer-n,
         shared-drive-n,
         download-link-n,
@@ -218,7 +218,7 @@ lessons:
         affected-users-n,
         shim-n,
         fall-behind-pv,
-        chase-up-pv,
+        chase-up-phr,
         account-manager-n,
         escalation-path-n,
         status-page-n,
@@ -272,7 +272,7 @@ lessons:
         alternate-v,
         handover-checklist-n,
         spare-capacity-n,
-        loop-in-pv,
+        loop-in-phr-cities,
         quiet-hours-n,
         flag-v,
         in-writing-phr,

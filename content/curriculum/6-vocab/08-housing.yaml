@@ -8,8 +8,7 @@ status: published
 title:
   en: Home Office & Developer Workspace
   vi: Góc làm việc & văn phòng cho developer
-summary_vi: Mô tả không gian làm việc, thiết bị và nhu cầu khi làm việc tại nhà
-  hoặc coworking. Thực hành yêu cầu hỗ trợ rõ vị trí, vấn đề và ảnh hưởng.
+summary_vi: Mô tả không gian làm việc, thiết bị và nhu cầu khi làm việc tại nhà hoặc coworking. Thực hành yêu cầu hỗ trợ rõ vị trí, vấn đề và ảnh hưởng.
 can_do:
   - Mô tả góc làm việc và yêu cầu thiết bị cần thiết
   - Báo vấn đề không gian hoặc cơ sở vật chất một cách rõ ràng
@@ -67,7 +66,7 @@ lessons:
         upload-speed-n,
         data-plan-n,
         reboot-v,
-        modem-n,
+        router-n,
         backup-connection-n,
       ]
     questions: []
@@ -99,7 +98,7 @@ lessons:
     title: { en: "Set 5: Renting a coworking desk", vi: "Bộ 5: Thuê chỗ ngồi coworking" }
     senses:
       [
-        shared-office-n,
+        coworking-space-n,
         rent-v,
         rolling-contract-n,
         dedicated-desk-n,
@@ -172,7 +171,7 @@ lessons:
         health-hazard-n,
         temporary-fix-n,
         ventilation-n,
-        as-soon-as-possible-phr,
+        asap-phr,
       ]
     questions: []
   - slug: t08-l8
@@ -181,7 +180,7 @@ lessons:
     senses:
       [
         move-house-phr,
-        relocate-v,
+        hotspot-n,
         temporarily-adv,
         unpack-v,
         storage-unit-n,

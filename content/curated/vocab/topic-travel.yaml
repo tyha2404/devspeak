@@ -351,24 +351,6 @@
       ],
   }
 - {
-    slug: daylight-saving-time-n,
-    lemma: "daylight saving time",
-    pos: noun,
-    kind: collocation,
-    cefr: B1,
-    topic: globalisation,
-    ipa: "/ˌdeɪlaɪt ˈseɪvɪŋ taɪm/",
-    def: "The months when some countries move their clocks one hour forward.",
-    vi: "giờ mùa hè",
-    examples:
-      [
-        {
-          en: "Remember that the US starts daylight saving time in March.",
-          vi: "Nhớ là Mỹ bắt đầu giờ mùa hè vào tháng Ba.",
-        },
-      ],
-  }
-- {
     slug: early-bird-n,
     lemma: "early bird",
     pos: noun,
@@ -645,23 +627,6 @@
         {
           en: "The client wants the new dashboard by the end of the month.",
           vi: "Khách hàng muốn có dashboard mới trước cuối tháng.",
-        },
-      ],
-  }
-- {
-    slug: requirement-n,
-    lemma: "requirement",
-    pos: noun,
-    cefr: B1,
-    topic: globalisation,
-    ipa: "/rɪˈkwaɪəmənt/",
-    def: "Something a product must do or have.",
-    vi: "yêu cầu",
-    examples:
-      [
-        {
-          en: "One requirement is that the page loads in under two seconds.",
-          vi: "Một yêu cầu là trang phải tải dưới hai giây.",
         },
       ],
   }
@@ -1788,23 +1753,6 @@
       ],
   }
 - {
-    slug: go-live-n,
-    lemma: "go-live",
-    pos: noun,
-    cefr: B2,
-    topic: globalisation,
-    ipa: "/ˌɡəʊ ˈlaɪv/",
-    def: "The moment a system starts being used for real.",
-    vi: "thời điểm chạy thật",
-    examples:
-      [
-        {
-          en: "The go-live is planned for Monday morning, client time.",
-          vi: "Thời điểm chạy thật dự kiến vào sáng thứ Hai giờ khách hàng.",
-        },
-      ],
-  }
-- {
     slug: file-transfer-n,
     lemma: "file transfer",
     pos: noun,
@@ -2563,24 +2511,6 @@
       ],
   }
 - {
-    slug: chase-up-pv,
-    lemma: "chase up",
-    pos: phrasal_verb,
-    kind: phrasal,
-    cefr: B2,
-    topic: globalisation,
-    ipa: "/tʃeɪs ʌp/",
-    def: "To remind someone to do something they promised.",
-    vi: "nhắc, hối thúc",
-    examples:
-      [
-        {
-          en: "Can you chase up the vendor about the missing API keys?",
-          vi: "Bạn nhắc nhà cung cấp về API key còn thiếu giúp mình nhé?",
-        },
-      ],
-  }
-- {
     slug: account-manager-n,
     lemma: "account manager",
     pos: noun,
@@ -3310,24 +3240,6 @@
         {
           en: "Tell the lead if you have spare capacity this sprint.",
           vi: "Báo trưởng nhóm nếu sprint này bạn còn dư thời gian.",
-        },
-      ],
-  }
-- {
-    slug: loop-in-pv,
-    lemma: "loop in",
-    pos: phrasal_verb,
-    kind: phrasal,
-    cefr: C1,
-    topic: globalisation,
-    ipa: "/luːp ɪn/",
-    def: "To include someone in a conversation so they know what is happening.",
-    vi: "kéo vào cuộc trao đổi",
-    examples:
-      [
-        {
-          en: "Please loop in QA before you change the release date.",
-          vi: "Hãy kéo QA vào trước khi đổi ngày phát hành.",
         },
       ],
   }

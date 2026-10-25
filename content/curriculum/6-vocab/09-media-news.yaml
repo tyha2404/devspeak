@@ -8,9 +8,7 @@ status: published
 title:
   en: Technical Writing & Product Communication
   vi: Viết kỹ thuật & truyền đạt sản phẩm
-summary_vi: "Biến thông tin kỹ thuật thành tài liệu dễ dùng: README, ticket,
-  pull request, release note và hướng dẫn hỗ trợ. Luyện nói đúng đối tượng và đủ
-  ngữ cảnh."
+summary_vi: "Biến thông tin kỹ thuật thành tài liệu dễ dùng: README, ticket, pull request, release note và hướng dẫn hỗ trợ. Luyện nói đúng đối tượng và đủ ngữ cảnh."
 can_do:
   - Viết mô tả thay đổi rõ mục đích, cách dùng và giới hạn
   - Chỉnh giọng điệu tài liệu theo người đọc
@@ -29,7 +27,7 @@ lessons:
         "command-n",
         "example-n",
         "license-n",
-        "contributor-n-media-news",
+        "contributor-n",
       ]
     questions: []
   - slug: t09-l2
@@ -47,7 +45,7 @@ lessons:
         "flaky-adj",
         "label-n",
         "close-v",
-        "triage-v-media-news",
+        "triage-v",
         "upvote-v",
       ]
     questions: []
@@ -66,7 +64,7 @@ lessons:
         "test-plan-n",
         "refactor-v",
         "address-feedback-phr",
-        "request-changes-phr-media-news",
+        "request-changes-phr",
         "checklist-n-media-news",
         "related-adj",
         "link-to-phr",
@@ -87,8 +85,8 @@ lessons:
         "sneak-peek-n",
         "minor-adj",
         "major-adj",
-        "patch-n-media-news",
-        "roll-out-pv",
+        "patch-n",
+        "roll-out-phr",
         "generally-available-adj",
         "enhancement-n",
         "compatibility-n",
@@ -101,7 +99,7 @@ lessons:
     senses:
       [
         "user-guide-n",
-        "walkthrough-n-media-news",
+        "walkthrough-n",
         "before-you-begin-phr",
         "make-sure-phr",
         "click-v",
@@ -184,7 +182,7 @@ lessons:
     senses:
       [
         "animated-gif-n",
-        "dashboard-n",
+        "dashboard-env-n",
         "graph-n",
         "hyperlink-n",
         "reference-n",
@@ -194,7 +192,7 @@ lessons:
         "crop-v",
         "zoom-in-pv",
         "sensitive-information-n",
-        "redact-v-media-news",
+        "redact-v",
         "log-excerpt-n",
         "before-and-after-phr",
         "paste-v",
@@ -225,13 +223,13 @@ lessons:
         "trim-v",
         "reword-v",
         "readability-n",
-        "consistent-adj-media-news",
+        "consistent-adj",
         "terminology-n",
         "filler-word-n",
         "run-on-sentence-n",
         "line-break-n",
         "break-up-pv",
-        "spell-out-pv",
+        "spell-out-phr",
         "edit-v",
         "editor-n",
         "coherent-adj",
@@ -240,7 +238,7 @@ lessons:
         "typo-n",
         "punctuation-n",
         "style-guide-n",
-        "nitpick-n-media-news",
+        "nitpick-n",
         "grammar-n",
       ]
     questions: []
@@ -260,7 +258,7 @@ lessons:
         "deprecation-n",
         "end-of-life-n",
         "roadmap-n",
-        "deadline-n-media-news",
+        "deadline-n",
         "advance-notice-n",
         "maintenance-window-n",
         "opt-in-v",
@@ -269,14 +267,14 @@ lessons:
         "transition-period-n",
         "phase-out-pv-media-news",
         "rename-v",
-        "mandatory-adj-media-news",
+        "mandatory-adj",
         "version-bump-n",
         "semantic-versioning-n",
         "action-required-phr",
         "customer-facing-adj",
         "internal-adj",
         "sync-up-pv",
-        "regret-v-media-news",
+        "regret-v",
         "inconvenience-n",
         "minimise-v",
         "dry-run-n",
@@ -287,7 +285,7 @@ lessons:
         "client-library-n",
         "kill-switch-n",
         "incremental-adj",
-        "communicate-v-media-news",
-        "office-hours-n-media-news",
+        "communicate-v",
+        "office-hours-n",
       ]
     questions: []

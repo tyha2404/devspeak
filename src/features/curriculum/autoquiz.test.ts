@@ -129,3 +129,31 @@ describe("grammar helpers", () => {
     expect(order.slice(10)).toEqual(t.slice(0, 6));
   });
 });
+
+describe("vocabTest over the real curriculum", () => {
+  it("never repeats a prompt inside one lesson bank", async () => {
+    const { loadCurated } = await import("../../../scripts/lib/curated");
+    const { loadCurriculum, expandTrackLessons } = await import("../../../scripts/lib/curriculum");
+    const content = loadCurated();
+    const c = loadCurriculum();
+    expandTrackLessons(c, content);
+    const bySlug = new Map(content.questions.map((q) => [q.slug, q as Record<string, unknown>]));
+    const dupes: string[] = [];
+    for (const u of c.units)
+      for (const l of u.lessons) {
+        const seen = new Map<string, string>();
+        for (const slug of l.questions) {
+          const q = bySlug.get(slug);
+          if (!q) continue;
+          const opts = Array.isArray(q.options)
+            ? [...(q.options as unknown[]).map(String)].sort()
+            : [];
+          const key = JSON.stringify([q.type, q.stem, q.question, q.context, q.sentence, opts]);
+          const prev = seen.get(key);
+          if (prev) dupes.push(`${prev} = ${slug}`);
+          else seen.set(key, slug);
+        }
+      }
+    expect(dupes).toEqual([]);
+  });
+});

@@ -8,8 +8,7 @@ status: published
 title:
   en: Team Lunches & Everyday Conversation
   vi: Bữa trưa nhóm & giao tiếp thường ngày
-summary_vi: "Dùng những tình huống đời thường để trò chuyện tự nhiên với đồng
-  nghiệp: gọi món, ăn kiêng, đặt chỗ và tổ chức một buổi gặp nhóm."
+summary_vi: "Dùng những tình huống đời thường để trò chuyện tự nhiên với đồng nghiệp: gọi món, ăn kiêng, đặt chỗ và tổ chức một buổi gặp nhóm."
 can_do:
   - Tham gia cuộc trò chuyện trong bữa trưa với nhóm
   - Hỏi nhu cầu ăn uống và tổ chức một buổi gặp phù hợp
@@ -82,7 +81,7 @@ lessons:
         sour-adj,
         bitter-adj,
         salty-adj,
-        savoury-adj,
+        nutritious-adj,
         bland-adj,
         crispy-adj,
         greasy-adj,
@@ -180,13 +179,13 @@ lessons:
     title: { en: "Set 8: Lunch small talk", vi: "Bộ 8: Trò chuyện trong bữa trưa" }
     senses:
       [
-        catch-up-n-food,
+        catch-up-n,
         come-to-think-of-it-phr,
         speaking-of-phr,
         what-about-you-phr,
         pastime-n,
         where-are-you-from-phr,
-        traffic-jam-n-food,
+        traffic-jam-n,
         weekend-plans-n,
         binge-watch-v,
         small-world-phr,
@@ -194,7 +193,7 @@ lessons:
         nosy-adj,
         how-come-phr,
         i-know-what-you-mean-phr,
-        off-topic-adj-food,
+        off-topic-adj,
         awkward-silence-n,
         conversation-starter-n,
         anecdote-n,
@@ -213,7 +212,7 @@ lessons:
       [
         delivery-app-n,
         courier-n,
-        missing-adj-food,
+        missing-adj,
         wrong-order-n,
         running-late-phr,
         estimated-time-of-arrival-n,
@@ -248,7 +247,7 @@ lessons:
       [
         year-end-party-n,
         picnic-n,
-        catering-n-food,
+        catering-n,
         buffet-n,
         finger-food-n,
         refreshments-n,
@@ -270,7 +269,7 @@ lessons:
         price-range-n,
         expense-claim-n,
         sign-off-pv,
-        logistics-n-food,
+        logistics-n,
         liaise-v,
         take-charge-of-phr,
         preference-n,

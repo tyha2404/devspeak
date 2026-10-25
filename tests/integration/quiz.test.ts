@@ -38,6 +38,31 @@ describe("quiz flow", () => {
     expect(JSON.stringify(delivery.prompt)).not.toMatch(/answer|correct/);
   });
 
+  it("never serves an answered question again after a concurrent double delivery", async () => {
+    const user = await newUser();
+    const ids = await questionIdsBySlug(admin, ["g-a1-be-1", "g-a1-be-2"]);
+    const s = await createSession(admin, user, { kind: "lesson", questionIds: ids });
+    // Two parallel requests both find nothing pending and each deliver the first question.
+    const [a] = await Promise.all([
+      nextDelivery(admin, user, s.id),
+      nextDelivery(admin, user, s.id),
+    ]);
+    if ("done" in a) throw new Error("unexpected done");
+    await humanPause();
+    await submitAnswer(admin, user, a.deliveryId, {
+      kind: "choice",
+      optionId: await correctChoice(a.deliveryId),
+    });
+    const next = await nextDelivery(admin, user, s.id);
+    if ("done" in next) throw new Error("unexpected done");
+    const { data } = await admin
+      .from("question_deliveries")
+      .select("question_id")
+      .in("id", [a.deliveryId, next.deliveryId]);
+    expect(new Set(data!.map((d) => d.question_id)).size).toBe(2);
+    expect(next.index).toBe(2);
+  });
+
   it("hints on the first miss, reveals on the second, and pays no XP", async () => {
     const user = await newUser();
     const { delivery } = await deliverOne(user, "g-a1-be-1");

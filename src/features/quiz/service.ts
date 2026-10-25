@@ -18,7 +18,7 @@ export class QuizError extends Error {
 }
 
 /** Lesson tests, level test-outs and the quick check behind a verified SRS review. */
-export type SessionKind = "lesson" | "test_out" | "review_verify";
+export type SessionKind = "lesson" | "test_out" | "review_verify" | "lesson_practice";
 
 /** Network slack before a late answer counts as a timeout. */
 const TIME_GRACE_MS = 3000;
@@ -33,6 +33,8 @@ export async function createSession(
     questionIds: string[];
     /** Exam mode (study tracks): one answer per question, each against the clock. */
     strict?: boolean;
+    /** Override attempts per question (untimed practice still answers once). */
+    maxAttempts?: number;
   },
 ) {
   if (!opts.questionIds.length) throw new QuizError("EMPTY", "No questions available");
@@ -44,7 +46,7 @@ export async function createSession(
       ref: opts.ref ?? null,
       question_ids: opts.questionIds,
       planned_count: opts.questionIds.length,
-      max_attempts: opts.strict ? 1 : 2,
+      max_attempts: opts.maxAttempts ?? (opts.strict ? 1 : 2),
       time_limited: !!opts.strict,
     })
     .select("id, planned_count")
@@ -102,22 +104,42 @@ export async function nextDelivery(
     };
   }
 
-  const { data: pending } = await db
+  // Questions already answered in this session are never served again.
+  const { data: delivered } = await db
+    .from("question_deliveries")
+    .select("question_id, answered_at")
+    .eq("session_id", sessionId);
+  const answered = new Set(
+    (delivered ?? []).filter((d) => d.answered_at).map((d) => d.question_id as string),
+  );
+
+  const { data: open } = await db
     .from("question_deliveries")
     .select(
-      "id, question_id, client_prompt, expires_at, served_at, question_versions(hint_vi, prompt)",
+      "id, question_id, client_prompt, expires_at, served_at, question_versions(hint_vi, prompt), questions(cefr)",
     )
     .eq("session_id", sessionId)
     .is("answered_at", null)
     .gt("expires_at", new Date().toISOString())
-    .order("served_at", { ascending: false })
-    .limit(1)
-    .maybeSingle();
+    .order("served_at", { ascending: false });
+  // Two concurrent requests (e.g. a double-run effect) can deliver the same question twice;
+  // once one copy is answered, close the leftover instead of serving it as the next question.
+  const stale = (open ?? []).filter((d) => answered.has(d.question_id as string));
+  if (stale.length)
+    await db
+      .from("question_deliveries")
+      .update({ expires_at: new Date().toISOString() })
+      .in(
+        "id",
+        stale.map((d) => d.id),
+      );
+  const pending = (open ?? []).find((d) => !answered.has(d.question_id as string));
   if (pending) {
     const v = pending.question_versions as unknown as {
       hint_vi: string | null;
       prompt: StoredPrompt;
     };
+    const pq = pending.questions as unknown as { cefr: string | null } | null;
     return {
       deliveryId: pending.id,
       index: session.answered_count + 1,
@@ -126,7 +148,7 @@ export async function nextDelivery(
       prompt: pending.client_prompt as ClientPrompt,
       hasHint: !!v.hint_vi,
       expiresAt: pending.expires_at,
-      ...timing(session.time_limited, v.prompt, pending.served_at),
+      ...timing(session.time_limited, v.prompt, pending.served_at, pq?.cefr),
     };
   }
 
@@ -139,21 +161,13 @@ export async function nextDelivery(
   if ((count ?? 0) >= MAX_OPEN_DELIVERIES)
     throw new QuizError("TOO_MANY_OPEN", "Finish your open questions first");
 
-  // Questions already delivered (answered or expired) in this session are skipped.
-  const { data: delivered } = await db
-    .from("question_deliveries")
-    .select("question_id, answered_at")
-    .eq("session_id", sessionId);
-  const answered = new Set(
-    (delivered ?? []).filter((d) => d.answered_at).map((d) => d.question_id as string),
-  );
   const questionId = (session.question_ids as string[]).find((id) => !answered.has(id));
   if (!questionId) throw new QuizError("NOT_FOUND", "Nothing left in this session");
 
   const { data: q, error: qErr } = await db
     .from("questions")
     .select(
-      "id, current_version_id, question_versions!questions_current_version_fk(id, prompt, hint_vi)",
+      "id, cefr, current_version_id, question_versions!questions_current_version_fk(id, prompt, hint_vi)",
     )
     .eq("id", questionId)
     .single();
@@ -192,13 +206,13 @@ export async function nextDelivery(
     prompt: client,
     hasHint: !!version.hint_vi,
     expiresAt,
-    ...timing(session.time_limited, version.prompt, d.served_at),
+    ...timing(session.time_limited, version.prompt, d.served_at, q.cefr as string | null),
   };
 }
 
-function timing(timed: boolean, prompt: StoredPrompt, servedAt: string) {
+function timing(timed: boolean, prompt: StoredPrompt, servedAt: string, cefr?: string | null) {
   if (!timed) return { deadline: null, timeLimitSec: null };
-  const sec = timeLimitSec(prompt);
+  const sec = timeLimitSec(prompt, cefr);
   return { deadline: new Date(Date.parse(servedAt) + sec * 1000).toISOString(), timeLimitSec: sec };
 }
 
@@ -206,7 +220,7 @@ async function loadDelivery(db: SupabaseClient, userId: string, deliveryId: stri
   const { data, error } = await db
     .from("question_deliveries")
     .select(
-      "id, user_id, option_map, answered_at, attempts, served_at, quiz_sessions(max_attempts, time_limited), question_versions(prompt, answer, hint_vi, explanation_vi, explanation_en)",
+      "id, user_id, option_map, answered_at, attempts, served_at, quiz_sessions(max_attempts, time_limited), questions(cefr), question_versions(prompt, answer, hint_vi, explanation_vi, explanation_en)",
     )
     .eq("id", deliveryId)
     .maybeSingle();
@@ -219,6 +233,7 @@ async function loadDelivery(db: SupabaseClient, userId: string, deliveryId: stri
     attempts: number;
     served_at: string;
     quiz_sessions: { max_attempts: number; time_limited: boolean } | null;
+    questions: { cefr: string | null } | null;
     question_versions: {
       prompt: StoredPrompt;
       answer: StoredAnswer;
@@ -242,7 +257,8 @@ export async function submitAnswer(
   // A timed question answered after its deadline counts as wrong, whatever was sent.
   const late =
     !!s?.time_limited &&
-    Date.now() > Date.parse(d.served_at) + timeLimitSec(v.prompt) * 1000 + TIME_GRACE_MS;
+    Date.now() >
+      Date.parse(d.served_at) + timeLimitSec(v.prompt, d.questions?.cefr) * 1000 + TIME_GRACE_MS;
   const correct = !late && grade(v.prompt, v.answer, response, d.option_map);
 
   const { data, error } = await db.rpc("svc_record_attempt", {

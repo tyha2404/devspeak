@@ -8,9 +8,7 @@ status: published
 title:
   en: Learning, Documentation & Skill Growth
   vi: Học tập, tài liệu & phát triển kỹ năng
-summary_vi: Học cách hỏi, đọc tài liệu và giải thích điều vừa học. Đi từ
-  tutorial và tài liệu API đến mentoring, kế hoạch kỹ năng và đánh giá nguồn
-  học.
+summary_vi: Học cách hỏi, đọc tài liệu và giải thích điều vừa học. Đi từ tutorial và tài liệu API đến mentoring, kế hoạch kỹ năng và đánh giá nguồn học.
 can_do:
   - Tóm tắt một phần tài liệu kỹ thuật và hỏi đúng chỗ chưa rõ
   - Lập kế hoạch học và chia sẻ kiến thức cho đồng nghiệp
@@ -129,8 +127,8 @@ lessons:
         mentee-n,
         encourage-v,
         pair-programming-n,
-        walk-through-pv,
-        figure-out-pv,
+        walk-through-phr,
+        figure-out-phr,
         patient-adj,
         struggle-v,
         confidence-n,
@@ -153,7 +151,7 @@ lessons:
     senses:
       [
         note-taking-n,
-        jot-down-pv,
+        jot-down-phr,
         summary-n,
         key-point-n,
         assumption-n,
@@ -262,9 +260,9 @@ lessons:
         accountability-n,
         showcase-v,
         mentorship-n,
-        upskill-v,
+        upskill-digital-life-v,
         proficiency-n,
-        long-term-adj-education,
+        long-term-adj,
         growth-mindset-n,
         stretch-goal-n,
         set-aside-pv,

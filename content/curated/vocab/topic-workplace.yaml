@@ -65,24 +65,6 @@
       ],
   }
 - {
-    slug: workload-n,
-    lemma: workload,
-    pos: noun,
-    cefr: B1,
-    topic: workplace,
-    ipa: /ˈwɜːkləʊd/,
-    def: "The amount of work a person or team has to do.",
-    vi: "khối lượng công việc",
-    forms: [workloads],
-    examples:
-      [
-        {
-          en: "My workload is heavy this sprint, so I can't take new tickets.",
-          vi: "Sprint này khối lượng việc của mình nặng nên mình không nhận thêm ticket được.",
-        },
-      ],
-  }
-- {
     slug: overtime-n,
     lemma: overtime,
     pos: noun,
@@ -135,25 +117,6 @@
         {
           en: "In this team, all developers report to the engineering manager.",
           vi: "Ở team này, tất cả developer đều báo cáo cho engineering manager.",
-        },
-      ],
-  }
-- {
-    slug: hand-over-phr,
-    lemma: hand over,
-    pos: phrasal_verb,
-    kind: phrasal,
-    cefr: B1,
-    topic: workplace,
-    ipa: /hænd ˈəʊvə/,
-    def: "To give your work or responsibility to another person.",
-    vi: "bàn giao",
-    forms: [hands over, handed over, handing over, handover],
-    examples:
-      [
-        {
-          en: "Before my leave, I'll hand over the release tasks to Nam.",
-          vi: "Trước khi nghỉ phép, mình sẽ bàn giao việc release cho Nam.",
         },
       ],
   }
@@ -508,19 +471,6 @@
   examples:
     - en: "The QA team will carry out the tests next week."
       vi: "Nhóm QA sẽ tiến hành kiểm thử vào tuần sau."
-- slug: fall-behind-phr
-  lemma: fall behind
-  pos: phrasal_verb
-  kind: phrasal
-  cefr: B1
-  topic: workplace
-  ipa: "/ˌfɔːl bɪˈhaɪnd/"
-  def: "To not do work as fast as planned, so you are late."
-  vi: "bị chậm tiến độ, tụt lại"
-  forms: [falls behind, fell behind, falling behind, fallen behind]
-  examples:
-    - en: "We fell behind because two people were sick last sprint."
-      vi: "Bọn mình bị chậm tiến độ vì sprint trước có hai người ốm."
 - slug: chair-a-meeting-phr
   lemma: chair a meeting
   pos: phrase
@@ -609,19 +559,6 @@
   examples:
     - en: "The demo was postponed because the server was down."
       vi: "Buổi demo bị hoãn vì server bị sập."
-- slug: call-off-phr
-  lemma: call off
-  pos: phrasal_verb
-  kind: phrasal
-  cefr: B2
-  topic: workplace
-  ipa: "/ˌkɔːl ˈɒf/"
-  def: "To decide that a planned event will not happen."
-  vi: "huỷ bỏ (sự kiện đã lên kế hoạch)"
-  forms: [calls off, called off, calling off]
-  examples:
-    - en: "They called off the workshop because only three people signed up."
-      vi: "Họ huỷ buổi workshop vì chỉ có ba người đăng ký."
 - slug: bring-up-phr
   lemma: bring up
   pos: phrasal_verb
@@ -788,31 +725,6 @@
   examples:
     - en: "We have a conference call with the Tokyo and Hanoi offices at four."
       vi: "Bốn giờ bọn mình có cuộc gọi hội nghị với văn phòng Tokyo và Hà Nội."
-# Set 5: projects & deadlines
-- slug: milestone-n
-  lemma: milestone
-  pos: noun
-  cefr: B2
-  topic: workplace
-  ipa: "/ˈmaɪlstəʊn/"
-  def: "An important point or stage in a project."
-  vi: "cột mốc (của dự án)"
-  forms: [milestones]
-  examples:
-    - en: "The first milestone is a working login page by the end of May."
-      vi: "Cột mốc đầu tiên là trang đăng nhập chạy được vào cuối tháng Năm."
-- slug: timeline-n
-  lemma: timeline
-  pos: noun
-  cefr: B2
-  topic: workplace
-  ipa: "/ˈtaɪmlaɪn/"
-  def: "A plan that shows when each part of a project will happen."
-  vi: "mốc thời gian, lịch trình dự án"
-  forms: [timelines]
-  examples:
-    - en: "The timeline looks tight, but we can do it if nobody is sick."
-      vi: "Lịch trình khá gấp, nhưng nếu không ai ốm thì bọn mình làm kịp."
 - slug: kick-off-n
   lemma: kick-off
   pos: noun
@@ -825,18 +737,6 @@
   examples:
     - en: "The project kick-off is on Monday with the whole team and the client."
       vi: "Buổi khởi động dự án diễn ra vào thứ Hai với cả team và khách hàng."
-- slug: stakeholder-n
-  lemma: stakeholder
-  pos: noun
-  cefr: C1
-  topic: workplace
-  ipa: "/ˈsteɪkhəʊldə/"
-  def: "A person or group who cares about a project and is affected by its result."
-  vi: "bên liên quan"
-  forms: [stakeholders]
-  examples:
-    - en: "We should show the prototype to the main stakeholders first."
-      vi: "Mình nên cho các bên liên quan chính xem bản prototype trước."
 - slug: deliverable-n
   lemma: deliverable
   pos: noun
@@ -887,18 +787,6 @@
   examples:
     - en: "The client agreed to extend the deadline by one week."
       vi: "Khách hàng đồng ý gia hạn hạn chót thêm một tuần."
-- slug: budget-n
-  lemma: budget
-  pos: noun
-  cefr: B1
-  topic: workplace
-  ipa: "/ˈbʌdʒɪt/"
-  def: "The amount of money you plan to spend on something."
-  vi: "ngân sách"
-  forms: [budgets, over budget, on budget]
-  examples:
-    - en: "We can't buy new laptops; the budget for this year is already used."
-      vi: "Mình không mua laptop mới được, ngân sách năm nay đã dùng hết rồi."
 - slug: allocate-v
   lemma: allocate
   pos: verb
@@ -935,19 +823,6 @@
   examples:
     - en: "We plan to launch the new app before Tet."
       vi: "Bọn mình định ra mắt ứng dụng mới trước Tết."
-- slug: wrap-up-phr
-  lemma: wrap up
-  pos: phrasal_verb
-  kind: phrasal
-  cefr: B2
-  topic: workplace
-  ipa: "/ˌræp ˈʌp/"
-  def: "To finish a task, meeting or project."
-  vi: "kết thúc, hoàn tất"
-  forms: [wraps up, wrapped up, wrapping up]
-  examples:
-    - en: "Let's wrap up this sprint and start planning the next one."
-      vi: "Mình kết thúc sprint này rồi bắt đầu lên kế hoạch cho sprint sau nhé."
 - slug: set-a-goal-phr
   lemma: set a goal
   pos: phrase
@@ -974,18 +849,6 @@
   examples:
     - en: "We use a Kanban board to keep track of every task."
       vi: "Bọn mình dùng bảng Kanban để theo dõi từng đầu việc."
-- slug: risk-n
-  lemma: risk
-  pos: noun
-  cefr: B1
-  topic: workplace
-  ipa: "/rɪsk/"
-  def: "The chance that something bad may happen."
-  vi: "rủi ro"
-  forms: [risks, risky]
-  examples:
-    - en: "The biggest risk is that the payment partner changes its API."
-      vi: "Rủi ro lớn nhất là đối tác thanh toán thay đổi API."
 - slug: contingency-plan-n
   lemma: contingency plan
   pos: noun
@@ -1025,18 +888,6 @@
   examples:
     - en: "A senior engineer supervises the interns during their first month."
       vi: "Một kỹ sư senior kèm các bạn thực tập trong tháng đầu tiên."
-- slug: oversee-v
-  lemma: oversee
-  pos: verb
-  cefr: C1
-  topic: workplace
-  ipa: "/ˌəʊvəˈsiː/"
-  def: "To be in charge of a big piece of work and check that it goes well."
-  vi: "phụ trách tổng thể, chỉ đạo chung"
-  forms: [oversees, oversaw, overseen, overseeing]
-  examples:
-    - en: "Ms Thu oversees all projects in the Ho Chi Minh City office."
-      vi: "Chị Thu phụ trách chung mọi dự án ở văn phòng TP.HCM."
 - slug: motivate-v
   lemma: motivate
   pos: verb
@@ -1246,18 +1097,6 @@
   examples:
     - en: "Ask your line manager before you book your holiday."
       vi: "Hãy hỏi quản lý trực tiếp trước khi đặt lịch nghỉ."
-- slug: recognition-n
-  lemma: recognition
-  pos: noun
-  cefr: B2
-  topic: workplace
-  ipa: "/ˌrekəɡˈnɪʃn/"
-  def: "Praise or thanks for something good that someone has done."
-  vi: "sự công nhận, khen thưởng"
-  forms: [recognize, recognized]
-  examples:
-    - en: "People stay longer when their work gets recognition."
-      vi: "Mọi người gắn bó lâu hơn khi công sức được công nhận."
 # Set 7: hiring & HR
 - slug: recruit-v
   lemma: recruit
@@ -1951,19 +1790,6 @@
   examples:
     - en: "If you have any questions, please get in touch with me."
       vi: "Nếu có câu hỏi gì, anh/chị cứ liên hệ với tôi."
-- slug: reach-out-workplace-phr
-  lemma: reach out
-  pos: phrasal_verb
-  kind: phrasal
-  cefr: B2
-  topic: workplace
-  ipa: "/ˌriːtʃ ˈaʊt/"
-  def: "To contact someone, often to offer or ask for help."
-  vi: "chủ động liên hệ, ngỏ lời"
-  forms: [reaches out, reached out, reaching out, reach out to]
-  examples:
-    - en: "Feel free to reach out to me on Slack if you get stuck."
-      vi: "Nếu bị vướng, cứ chủ động nhắn mình trên Slack nhé."
 - slug: touch-base-phr
   lemma: touch base
   pos: phrase
@@ -2061,19 +1887,6 @@
   examples:
     - en: "Just a heads-up: the office will be closed on Friday."
       vi: "Báo trước nhé: thứ Sáu văn phòng đóng cửa."
-- slug: loop-in-phr
-  lemma: loop in
-  pos: phrasal_verb
-  kind: phrasal
-  cefr: C1
-  topic: workplace
-  ipa: "/ˌluːp ˈɪn/"
-  def: "To include someone in a conversation or email so they know what is happening."
-  vi: "kéo (ai) vào cuộc trao đổi để nắm thông tin"
-  forms: [loops in, looped in, looping in, keep in the loop]
-  examples:
-    - en: "I've looped in Duc from the security team."
-      vi: "Mình đã kéo anh Đức bên team bảo mật vào cuộc trao đổi."
 - slug: on-behalf-of-phr
   lemma: on behalf of
   pos: phrase
@@ -2136,18 +1949,6 @@
   examples:
     - en: "The UX team will present their findings from the user tests."
       vi: "Nhóm UX sẽ trình bày các phát hiện từ đợt thử nghiệm người dùng."
-- slug: recommendation-n
-  lemma: recommendation
-  pos: noun
-  cefr: B2
-  topic: workplace
-  ipa: "/ˌrekəmenˈdeɪʃn/"
-  def: "Advice about what someone should do."
-  vi: "khuyến nghị, lời đề xuất"
-  forms: [recommendations, recommend, recommended]
-  examples:
-    - en: "Our main recommendation is to move the images to a CDN."
-      vi: "Khuyến nghị chính của bọn mình là chuyển ảnh sang CDN."
 - slug: bullet-point-n
   lemma: bullet point
   pos: noun
@@ -2350,18 +2151,6 @@
   examples:
     - en: "Rust has a steep learning curve, but it's worth it."
       vi: "Rust khá khó học lúc đầu, nhưng rất đáng công."
-- slug: upskill-workplace-v
-  lemma: upskill
-  pos: verb
-  cefr: C1
-  topic: workplace
-  ipa: "/ˈʌpskɪl/"
-  def: "To learn new skills, or to teach workers new skills, for a job."
-  vi: "nâng cao kỹ năng"
-  forms: [upskills, upskilled, upskilling]
-  examples:
-    - en: "The company pays for courses to upskill its testers in automation."
-      vi: "Công ty trả tiền khoá học để nâng cao kỹ năng tự động hoá cho tester."
 - slug: climb-the-career-ladder-phr
   lemma: climb the career ladder
   pos: phrase
@@ -2562,32 +2351,6 @@
   examples:
     - en: "Small talk at the start of a call helps build rapport with clients."
       vi: "Nói chuyện xã giao đầu cuộc gọi giúp tạo thiện cảm với khách hàng."
-- slug: keep-up-with-workplace-phr
-  lemma: keep up with
-  pos: phrasal_verb
-  kind: phrasal
-  cefr: B2
-  topic: workplace
-  ipa: "/ˌkiːp ˈʌp wɪð/"
-  def: "To learn about new things so you do not fall out of date."
-  vi: "theo kịp, cập nhật (cái mới)"
-  forms: [keeps up with, kept up with, keeping up with]
-  examples:
-    - en: "I read tech blogs to keep up with new frameworks."
-      vi: "Mình đọc blog công nghệ để cập nhật các framework mới."
-- slug: pick-up-a-skill-phr
-  lemma: pick up
-  pos: phrasal_verb
-  kind: phrasal
-  cefr: B2
-  topic: workplace
-  ipa: "/ˌpɪk ˈʌp/"
-  def: "To learn a skill or language without much formal study."
-  vi: "học lỏm, học được (kỹ năng) một cách tự nhiên"
-  forms: [picks up, picked up, picking up]
-  examples:
-    - en: "I picked up some Japanese while working with the Osaka team."
-      vi: "Mình học được ít tiếng Nhật khi làm với team Osaka."
 - slug: get-ahead-phr
   lemma: get ahead
   pos: phrasal_verb
@@ -2638,3 +2401,32 @@
   examples:
     - en: "Be assertive and say no when the scope keeps growing."
       vi: "Hãy quyết đoán nói không khi phạm vi công việc cứ phình ra."
+- slug: workload-n
+  lemma: workload
+  pos: noun
+  cefr: B1
+  topic: workplace
+  ipa: /ˈwɜːkləʊd/
+  def: The amount of work a person or team has to do.
+  vi: khối lượng công việc
+  forms:
+    - workloads
+  examples:
+    - en: My workload is heavy this sprint, so I can't take new tickets.
+      vi: Sprint này khối lượng việc của mình nặng nên mình không nhận thêm ticket được.
+- slug: pick-up-a-skill-phr
+  lemma: pick up
+  pos: phrasal_verb
+  kind: phrasal
+  cefr: B2
+  topic: workplace
+  ipa: /ˌpɪk ˈʌp/
+  def: To learn a skill or language without much formal study.
+  vi: học lỏm, học được (kỹ năng) một cách tự nhiên
+  forms:
+    - picks up
+    - picked up
+    - picking up
+  examples:
+    - en: I picked up some Japanese while working with the Osaka team.
+      vi: Mình học được ít tiếng Nhật khi làm với team Osaka.

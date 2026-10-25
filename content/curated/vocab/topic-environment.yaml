@@ -70,24 +70,6 @@
       ],
   }
 - {
-    slug: target-user-n-environment,
-    lemma: "target user",
-    pos: noun,
-    kind: collocation,
-    cefr: B1,
-    topic: environment,
-    ipa: "/ˈtɑːɡɪt ˈjuːzə/",
-    def: "The kind of person a product is mainly built for.",
-    vi: "người dùng mục tiêu",
-    examples:
-      [
-        {
-          en: "Our target user is a factory manager, not a scientist.",
-          vi: "Người dùng mục tiêu của mình là quản lý nhà máy, không phải nhà khoa học.",
-        },
-      ],
-  }
-- {
     slug: waste-n,
     lemma: "waste",
     pos: noun,
@@ -597,23 +579,6 @@
         {
           en: "Our storage footprint has doubled in a year.",
           vi: "Dung lượng chiếm dụng của bọn mình đã tăng gấp đôi trong một năm.",
-        },
-      ],
-  }
-- {
-    slug: justify-v-environment,
-    lemma: "justify",
-    pos: verb,
-    cefr: B2,
-    topic: environment,
-    ipa: "/ˈdʒʌstɪfaɪ/",
-    def: "To give a good reason for a decision.",
-    vi: "biện minh, giải thích lý do",
-    examples:
-      [
-        {
-          en: "Can we justify keeping raw data forever?",
-          vi: "Mình có lý do chính đáng để giữ dữ liệu thô mãi mãi không?",
         },
       ],
   }
@@ -1329,23 +1294,6 @@
       ],
   }
 - {
-    slug: baseline-env-n,
-    lemma: "baseline",
-    pos: noun,
-    cefr: B2,
-    topic: environment,
-    ipa: "/ˈbeɪslaɪn/",
-    def: "A starting value used to compare later changes.",
-    vi: "mức cơ sở",
-    examples:
-      [
-        {
-          en: "Last year's usage is our baseline.",
-          vi: "Mức sử dụng năm ngoái là mức cơ sở của mình.",
-        },
-      ],
-  }
-- {
     slug: greenhouse-gas-n,
     lemma: "greenhouse gas",
     pos: noun,
@@ -1449,23 +1397,6 @@
       ],
   }
 - {
-    slug: scope-env-n,
-    lemma: "scope",
-    pos: noun,
-    cefr: B2,
-    topic: environment,
-    ipa: "/skəʊp/",
-    def: "The range of sources a measurement includes.",
-    vi: "phạm vi",
-    examples:
-      [
-        {
-          en: "Supplier emissions are outside the scope of this report.",
-          vi: "Phát thải của nhà cung cấp nằm ngoài phạm vi báo cáo này.",
-        },
-      ],
-  }
-- {
     slug: attribute-v,
     lemma: "attribute",
     pos: verb,
@@ -1513,23 +1444,6 @@
         {
           en: "The provider only gives monthly granularity.",
           vi: "Nhà cung cấp chỉ cho độ chi tiết theo tháng.",
-        },
-      ],
-  }
-- {
-    slug: verify-env-v,
-    lemma: "verify",
-    pos: verb,
-    cefr: B2,
-    topic: environment,
-    ipa: "/ˈverɪfaɪ/",
-    def: "To check that something is true or correct.",
-    vi: "xác minh",
-    examples:
-      [
-        {
-          en: "An outside auditor verifies our numbers each year.",
-          vi: "Một đơn vị kiểm toán bên ngoài xác minh số liệu mỗi năm.",
         },
       ],
   }
@@ -1909,24 +1823,6 @@
         },
       ],
   }
-# Set 8
-- {
-    slug: trade-off-env-n,
-    lemma: "trade-off",
-    pos: noun,
-    cefr: B2,
-    topic: environment,
-    ipa: "/ˈtreɪd ɒf/",
-    def: "A balance between two things you cannot fully have together.",
-    vi: "sự đánh đổi",
-    examples:
-      [
-        {
-          en: "There is a trade-off between speed and energy here.",
-          vi: "Ở đây có sự đánh đổi giữa tốc độ và năng lượng.",
-        },
-      ],
-  }
 - {
     slug: rebound-effect-n,
     lemma: "rebound effect",
@@ -2258,24 +2154,6 @@
       ],
   }
 - {
-    slug: in-exchange-for-phr,
-    lemma: "in exchange for",
-    pos: phrase,
-    kind: phrase,
-    cefr: B2,
-    topic: environment,
-    ipa: "/ɪn ɪksˈtʃeɪndʒ fə/",
-    def: "Giving one thing to get another.",
-    vi: "để đổi lấy",
-    examples:
-      [
-        {
-          en: "We accept slower builds in exchange for smaller bundles.",
-          vi: "Bọn mình chấp nhận build chậm hơn để đổi lấy bundle nhỏ hơn.",
-        },
-      ],
-  }
-- {
     slug: carbon-aware-adj,
     lemma: "carbon-aware",
     pos: adjective,
@@ -2462,23 +2340,6 @@
       ],
   }
 - {
-    slug: suggest-env-v,
-    lemma: "suggest",
-    pos: verb,
-    cefr: B1,
-    topic: environment,
-    ipa: "/səˈdʒest/",
-    def: "To show that something is probably true.",
-    vi: "cho thấy",
-    examples:
-      [
-        {
-          en: "The data suggests that nights are cleaner.",
-          vi: "Dữ liệu cho thấy ban đêm sạch hơn.",
-        },
-      ],
-  }
-- {
     slug: indicate-v,
     lemma: "indicate",
     pos: verb,
@@ -2550,23 +2411,6 @@
         {
           en: "Calling the app carbon-free would be greenwashing.",
           vi: "Gọi ứng dụng là không phát thải sẽ là tẩy xanh.",
-        },
-      ],
-  }
-- {
-    slug: evidence-env-n,
-    lemma: "evidence",
-    pos: noun,
-    cefr: B1,
-    topic: environment,
-    ipa: "/ˈevɪdəns/",
-    def: "Facts that show something is true.",
-    vi: "bằng chứng",
-    examples:
-      [
-        {
-          en: "We need more evidence before we change the default.",
-          vi: "Mình cần thêm bằng chứng trước khi đổi mặc định.",
         },
       ],
   }
@@ -2659,24 +2503,6 @@
       ],
   }
 - {
-    slug: blind-spot-n-environment,
-    lemma: "blind spot",
-    pos: noun,
-    kind: collocation,
-    cefr: B2,
-    topic: environment,
-    ipa: "/blaɪnd spɒt/",
-    def: "An area you cannot see or have no data about.",
-    vi: "điểm mù",
-    examples:
-      [
-        {
-          en: "Supplier emissions are a blind spot in our report.",
-          vi: "Phát thải của nhà cung cấp là điểm mù trong báo cáo.",
-        },
-      ],
-  }
-- {
     slug: caution-n,
     lemma: "caution",
     pos: noun,
@@ -2764,23 +2590,6 @@
       ],
   }
 - {
-    slug: probably-adv,
-    lemma: "probably",
-    pos: adverb,
-    cefr: A2,
-    topic: environment,
-    ipa: "/ˈprɒbəbli/",
-    def: "Almost certainly, but not completely.",
-    vi: "có lẽ",
-    examples:
-      [
-        {
-          en: "The real number is probably a bit higher.",
-          vi: "Con số thực có lẽ cao hơn một chút.",
-        },
-      ],
-  }
-- {
     slug: speculative-adj,
     lemma: "speculative",
     pos: adjective,
@@ -2794,24 +2603,6 @@
         {
           en: "Savings from the new chip are still speculative.",
           vi: "Khoản tiết kiệm từ chip mới vẫn mang tính suy đoán.",
-        },
-      ],
-  }
-# Set 10
-- {
-    slug: proposal-env-n,
-    lemma: "proposal",
-    pos: noun,
-    cefr: B1,
-    topic: environment,
-    ipa: "/prəˈpəʊzl/",
-    def: "A written plan that asks others to agree to something.",
-    vi: "đề xuất",
-    examples:
-      [
-        {
-          en: "I wrote a proposal to cut image sizes by half.",
-          vi: "Mình đã viết một đề xuất giảm một nửa kích thước ảnh.",
         },
       ],
   }
@@ -2863,23 +2654,6 @@
         {
           en: "Our hypothesis is that smaller images won't hurt sales.",
           vi: "Giả thuyết của mình là ảnh nhỏ hơn không ảnh hưởng doanh số.",
-        },
-      ],
-  }
-- {
-    slug: metric-env-n,
-    lemma: "metric",
-    pos: noun,
-    cefr: B2,
-    topic: environment,
-    ipa: "/ˈmetrɪk/",
-    def: "A number used to track how well something is going.",
-    vi: "chỉ số",
-    examples:
-      [
-        {
-          en: "The main metric is energy per active user.",
-          vi: "Chỉ số chính là năng lượng trên mỗi người dùng hoạt động.",
         },
       ],
   }
@@ -2972,23 +2746,6 @@
       ],
   }
 - {
-    slug: impact-env-n,
-    lemma: "impact",
-    pos: noun,
-    cefr: B1,
-    topic: environment,
-    ipa: "/ˈɪmpækt/",
-    def: "A strong effect that something has.",
-    vi: "tác động",
-    examples:
-      [
-        {
-          en: "What is the impact on users with slow networks?",
-          vi: "Tác động lên người dùng mạng chậm là gì?",
-        },
-      ],
-  }
-- {
     slug: budget-env-n,
     lemma: "budget",
     pos: noun,
@@ -3040,23 +2797,6 @@
       ],
   }
 - {
-    slug: rationale-n-environment,
-    lemma: "rationale",
-    pos: noun,
-    cefr: C1,
-    topic: environment,
-    ipa: "/ˌræʃəˈnɑːl/",
-    def: "The reasons behind a decision or plan.",
-    vi: "lý do căn bản",
-    examples:
-      [
-        {
-          en: "The rationale section explains why we chose this region.",
-          vi: "Phần lý do giải thích vì sao bọn mình chọn khu vực này.",
-        },
-      ],
-  }
-- {
     slug: achievable-adj,
     lemma: "achievable",
     pos: adjective,
@@ -3070,23 +2810,6 @@
         {
           en: "Is a 20% cut achievable by June?",
           vi: "Cắt giảm 20% trước tháng Sáu có đạt được không?",
-        },
-      ],
-  }
-- {
-    slug: benchmark-env-n,
-    lemma: "benchmark",
-    pos: noun,
-    cefr: B2,
-    topic: environment,
-    ipa: "/ˈbentʃmɑːk/",
-    def: "A standard test used to compare performance.",
-    vi: "bài đo chuẩn",
-    examples:
-      [
-        {
-          en: "We ran the benchmark before and after the change.",
-          vi: "Bọn mình chạy bài đo chuẩn trước và sau thay đổi.",
         },
       ],
   }
@@ -3157,23 +2880,6 @@
         {
           en: "Changing the default setting has the biggest effect.",
           vi: "Thay đổi cài đặt mặc định có tác động lớn nhất.",
-        },
-      ],
-  }
-- {
-    slug: monitor-env-v,
-    lemma: "monitor",
-    pos: verb,
-    cefr: B2,
-    topic: environment,
-    ipa: "/ˈmɒnɪtə/",
-    def: "To watch and check something over time.",
-    vi: "theo dõi",
-    examples:
-      [
-        {
-          en: "We will monitor energy use for three months.",
-          vi: "Bọn mình sẽ theo dõi mức dùng năng lượng trong ba tháng.",
         },
       ],
   }
@@ -3384,23 +3090,6 @@
       ],
   }
 - {
-    slug: follow-up-n-environment,
-    lemma: "follow-up",
-    pos: noun,
-    cefr: B2,
-    topic: environment,
-    ipa: "/ˈfɒləʊ ʌp/",
-    def: "Something done later to continue earlier work.",
-    vi: "bước tiếp theo",
-    examples:
-      [
-        {
-          en: "The follow-up is a review meeting in March.",
-          vi: "Bước tiếp theo là một buổi họp đánh giá vào tháng Ba.",
-        },
-      ],
-  }
-- {
     slug: work-package-n,
     lemma: "work package",
     pos: noun,
@@ -3418,3 +3107,14 @@
         },
       ],
   }
+- slug: suggest-env-v
+  lemma: suggest
+  pos: verb
+  cefr: B1
+  topic: environment
+  ipa: /səˈdʒest/
+  def: To show that something is probably true.
+  vi: cho thấy
+  examples:
+    - en: The data suggests that nights are cleaner.
+      vi: Dữ liệu cho thấy ban đêm sạch hơn.

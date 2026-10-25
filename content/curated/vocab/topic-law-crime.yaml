@@ -348,24 +348,6 @@
       ],
   }
 - {
-    "slug": "access-request-n",
-    "lemma": "access request",
-    "pos": "noun",
-    "kind": "collocation",
-    "cefr": "B1",
-    "topic": "crime",
-    "ipa": "/ˈækses rɪˌkwest/",
-    "def": "A formal ask for permission to use a system.",
-    "vi": "yêu cầu truy cập",
-    "examples":
-      [
-        {
-          "en": "Your access request is waiting for approval.",
-          "vi": "Yêu cầu truy cập của bạn đang chờ duyệt.",
-        },
-      ],
-  }
-- {
     "slug": "auto-expire-v",
     "lemma": "auto-expire",
     "pos": "verb",
@@ -541,24 +523,6 @@
       ],
   }
 - {
-    "slug": "black-out-phr",
-    "lemma": "black out",
-    "pos": "phrasal_verb",
-    "kind": "phrasal",
-    "cefr": "C1",
-    "topic": "crime",
-    "ipa": "/ˌblæk ˈaʊt/",
-    "def": "To cover words with a dark block so they cannot be read.",
-    "vi": "bôi đen",
-    "examples":
-      [
-        {
-          "en": "Black out the email addresses in the PDF.",
-          "vi": "Hãy bôi đen các địa chỉ email trong file PDF.",
-        },
-      ],
-  }
-- {
     "slug": "anonymize-v",
     "lemma": "anonymize",
     "pos": "verb",
@@ -624,24 +588,6 @@
         {
           "en": "Incident details are on a need-to-know basis for now.",
           "vi": "Chi tiết sự cố hiện chỉ chia sẻ cho người cần biết.",
-        },
-      ],
-  }
-# Set 4: Threats & suspicious activity
-- {
-    "slug": "strange-adj",
-    "lemma": "strange",
-    "pos": "adjective",
-    "cefr": "A2",
-    "topic": "crime",
-    "ipa": "/streɪndʒ/",
-    "def": "Unusual and not expected.",
-    "vi": "lạ",
-    "examples":
-      [
-        {
-          "en": "I saw a strange login from another country last night.",
-          "vi": "Mình thấy một lần đăng nhập lạ từ nước khác tối qua.",
         },
       ],
   }
@@ -906,24 +852,6 @@
         },
       ],
   }
-# Set 5: Vulnerability reports
-- {
-    "slug": "flaw-n",
-    "lemma": "flaw",
-    "pos": "noun",
-    "cefr": "B2",
-    "topic": "crime",
-    "ipa": "/flɔː/",
-    "def": "A mistake or fault that makes something less safe or good.",
-    "vi": "lỗi thiết kế",
-    "examples":
-      [
-        {
-          "en": "The flaw lets any user change another user's email.",
-          "vi": "Lỗi này cho phép bất kỳ ai đổi email của người khác.",
-        },
-      ],
-  }
 - {
     "slug": "affect-v",
     "lemma": "affect",
@@ -1098,24 +1026,6 @@
       ],
   }
 - {
-    "slug": "security-fix-n",
-    "lemma": "security fix",
-    "pos": "noun",
-    "kind": "collocation",
-    "cefr": "B1",
-    "topic": "crime",
-    "ipa": "/sɪˈkjʊərəti fɪks/",
-    "def": "A code change that closes a security problem.",
-    "vi": "bản sửa bảo mật",
-    "examples":
-      [
-        {
-          "en": "The security fix is in version 2.4.1.",
-          "vi": "Bản sửa bảo mật có trong phiên bản 2.4.1.",
-        },
-      ],
-  }
-- {
     "slug": "cross-site-scripting-n",
     "lemma": "cross-site scripting",
     "pos": "noun",
@@ -1254,23 +1164,6 @@
         {
           "en": "Data minimization means we drop the birthday field.",
           "vi": "Tối thiểu hoá dữ liệu nghĩa là bỏ trường ngày sinh.",
-        },
-      ],
-  }
-- {
-    "slug": "store-v",
-    "lemma": "store",
-    "pos": "verb",
-    "cefr": "A2",
-    "topic": "crime",
-    "ipa": "/stɔː/",
-    "def": "To keep something somewhere so it can be used later.",
-    "vi": "lưu trữ",
-    "examples":
-      [
-        {
-          "en": "We store chat logs for ninety days.",
-          "vi": "Chúng tôi lưu trữ log chat trong chín mươi ngày.",
         },
       ],
   }
@@ -1716,23 +1609,6 @@
         {
           "en": "Create a new key pair for the deploy user.",
           "vi": "Tạo một cặp khoá mới cho user deploy.",
-        },
-      ],
-  }
-- {
-    "slug": "commit-secret-v",
-    "lemma": "commit",
-    "pos": "verb",
-    "cefr": "B1",
-    "topic": "crime",
-    "ipa": "/kəˈmɪt/",
-    "def": "To save a set of changes into a code repository.",
-    "vi": "commit (lưu thay đổi)",
-    "examples":
-      [
-        {
-          "en": "Someone committed a key to the public repo by mistake.",
-          "vi": "Có người lỡ commit một khoá lên repo công khai.",
         },
       ],
   }
@@ -2835,41 +2711,6 @@
       ],
   }
 - {
-    "slug": "document-steps-v",
-    "lemma": "document",
-    "pos": "verb",
-    "cefr": "B1",
-    "topic": "crime",
-    "ipa": "/ˈdɒkjument/",
-    "def": "To write down details about something as a record.",
-    "vi": "ghi chép lại",
-    "examples":
-      [
-        {
-          "en": "Document every step you take on the server.",
-          "vi": "Hãy ghi chép lại mọi bước bạn làm trên máy chủ.",
-        },
-      ],
-  }
-# Set 10: A security follow-up
-- {
-    "slug": "lesson-n",
-    "lemma": "lesson",
-    "pos": "noun",
-    "cefr": "A2",
-    "topic": "crime",
-    "ipa": "/ˈlesn/",
-    "def": "Something useful you learn from an experience.",
-    "vi": "bài học",
-    "examples":
-      [
-        {
-          "en": "The main lesson is to review public links every month.",
-          "vi": "Bài học chính là rà soát link công khai mỗi tháng.",
-        },
-      ],
-  }
-- {
     "slug": "cause-n",
     "lemma": "cause",
     "pos": "noun",
@@ -2883,24 +2724,6 @@
         {
           "en": "The cause was an old test account with admin rights.",
           "vi": "Nguyên nhân là một tài khoản test cũ có quyền admin.",
-        },
-      ],
-  }
-- {
-    "slug": "repeat-incident-n",
-    "lemma": "repeat incident",
-    "pos": "noun",
-    "kind": "collocation",
-    "cefr": "B2",
-    "topic": "crime",
-    "ipa": "/rɪˌpiːt ˈɪnsɪdənt/",
-    "def": "A problem that happens again after it was fixed.",
-    "vi": "sự cố lặp lại",
-    "examples":
-      [
-        {
-          "en": "This check should stop a repeat incident.",
-          "vi": "Kiểm tra này sẽ ngăn sự cố lặp lại.",
         },
       ],
   }
@@ -3028,24 +2851,6 @@
       ],
   }
 - {
-    "slug": "follow-up-phr",
-    "lemma": "follow up",
-    "pos": "phrasal_verb",
-    "kind": "phrasal",
-    "cefr": "B1",
-    "topic": "crime",
-    "ipa": "/ˌfɒləʊ ˈʌp/",
-    "def": "To do more work later to finish something.",
-    "vi": "theo dõi tiếp",
-    "examples":
-      [
-        {
-          "en": "I'll follow up with the vendor about their fix.",
-          "vi": "Mình sẽ theo dõi tiếp với nhà cung cấp về bản sửa của họ.",
-        },
-      ],
-  }
-- {
     "slug": "remaining-adj",
     "lemma": "remaining",
     "pos": "adjective",
@@ -3094,23 +2899,6 @@
         {
           "en": "The permanent fix ships next sprint.",
           "vi": "Bản sửa triệt để sẽ ra trong sprint tới.",
-        },
-      ],
-  }
-- {
-    "slug": "security-review-n",
-    "lemma": "review",
-    "pos": "noun",
-    "cefr": "B1",
-    "topic": "crime",
-    "ipa": "/rɪˈvjuː/",
-    "def": "A careful look at something to judge it.",
-    "vi": "buổi rà soát",
-    "examples":
-      [
-        {
-          "en": "The quarterly access review starts on Monday.",
-          "vi": "Buổi rà soát quyền hàng quý bắt đầu vào thứ Hai.",
         },
       ],
   }
@@ -3233,23 +3021,6 @@
         {
           "en": "Better monitoring would have caught this in minutes.",
           "vi": "Giám sát tốt hơn đã có thể phát hiện việc này trong vài phút.",
-        },
-      ],
-  }
-- {
-    "slug": "security-alert-n",
-    "lemma": "alert",
-    "pos": "noun",
-    "cefr": "B1",
-    "topic": "crime",
-    "ipa": "/əˈlɜːt/",
-    "def": "An automatic message that warns about a problem.",
-    "vi": "cảnh báo tự động",
-    "examples":
-      [
-        {
-          "en": "We added an alert for logins from new countries.",
-          "vi": "Chúng tôi thêm cảnh báo tự động cho đăng nhập từ quốc gia mới.",
         },
       ],
   }
@@ -3414,24 +3185,6 @@
       ],
   }
 - {
-    "slug": "follow-up-task-n",
-    "lemma": "follow-up task",
-    "pos": "noun",
-    "kind": "collocation",
-    "cefr": "B1",
-    "topic": "crime",
-    "ipa": "/ˈfɒləʊ ʌp tɑːsk/",
-    "def": "Work that must be done later because of an earlier event.",
-    "vi": "việc cần làm tiếp",
-    "examples":
-      [
-        {
-          "en": "Create a follow-up task for the missing alert.",
-          "vi": "Tạo việc cần làm tiếp cho cảnh báo còn thiếu.",
-        },
-      ],
-  }
-- {
     "slug": "tabletop-exercise-n",
     "lemma": "tabletop exercise",
     "pos": "noun",
@@ -3484,3 +3237,14 @@
         },
       ],
   }
+- slug: commit-secret-v
+  lemma: commit
+  pos: verb
+  cefr: B1
+  topic: crime
+  ipa: /kəˈmɪt/
+  def: To save a set of changes into a code repository.
+  vi: commit (lưu thay đổi)
+  examples:
+    - en: Someone committed a key to the public repo by mistake.
+      vi: Có người lỡ commit một khoá lên repo công khai.

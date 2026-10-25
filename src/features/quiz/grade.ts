@@ -88,7 +88,29 @@ export function revealAnswer(answer: StoredAnswer, optionMap: Record<string, str
   }
 }
 
-/** Seconds a timed session allows per question: typed answers get longer than choices. */
-export function timeLimitSec(prompt: StoredPrompt) {
-  return prompt.type === "fill_blank" && !prompt.options?.length ? 30 : 20;
+function promptWords(prompt: StoredPrompt) {
+  const texts: string[] = [];
+  const walk = (v: unknown, key?: string) => {
+    if (typeof v === "string") {
+      if (key !== "skin" && key !== "id" && key !== "type" && key !== "voice" && key !== "speaker")
+        texts.push(v);
+    } else if (Array.isArray(v)) v.forEach((x) => walk(x));
+    else if (v && typeof v === "object") for (const [k, x] of Object.entries(v)) walk(x, k);
+  };
+  walk(prompt);
+  return texts.join(" ").split(/\s+/).filter(Boolean).length;
+}
+
+/**
+ * Seconds a timed session allows per question: 20s for choices / 30s for typed answers,
+ * +1s per 8 words beyond 12 (stem, sentence, options…), +5s at B2 and +10s at C1/C2,
+ * capped at 45s / 60s.
+ */
+export function timeLimitSec(prompt: StoredPrompt, cefr?: string | null) {
+  const typed = prompt.type === "fill_blank" && !prompt.options?.length;
+  const base = typed ? 30 : 20;
+  const cap = typed ? 60 : 45;
+  const extraWords = Math.max(0, promptWords(prompt) - 12);
+  const level = cefr === "B2" ? 5 : cefr === "C1" || cefr === "C2" ? 10 : 0;
+  return Math.min(cap, base + Math.floor(extraWords / 8) + level);
 }

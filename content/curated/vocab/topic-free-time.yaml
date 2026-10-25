@@ -630,24 +630,6 @@
         },
       ],
   }
-# Set 4: Introducing your project
-- {
-    slug: introduce-v,
-    lemma: "introduce",
-    pos: verb,
-    cefr: A2,
-    topic: tourism,
-    ipa: "/ˌɪntrəˈdjuːs/",
-    def: "To tell people about something for the first time.",
-    vi: "giới thiệu",
-    examples:
-      [
-        {
-          en: "Let me introduce our project in one minute.",
-          vi: "Cho mình giới thiệu dự án của bọn mình trong một phút.",
-        },
-      ],
-  }
 - {
     slug: user-base-n,
     lemma: "user base",
@@ -1082,24 +1064,6 @@
       ],
   }
 - {
-    slug: follow-along-phr,
-    lemma: "follow along",
-    pos: phrasal_verb,
-    kind: phrasal,
-    cefr: B1,
-    topic: tourism,
-    ipa: "/ˌfɒləʊ əˈlɒŋ/",
-    def: "To do or read something at the same time as someone shows it.",
-    vi: "làm theo cùng lúc",
-    examples:
-      [
-        {
-          en: "Open the repo if you want to follow along with the demo.",
-          vi: "Mở repo nếu bạn muốn làm theo cùng demo.",
-        },
-      ],
-  }
-- {
     slug: wonder-v,
     lemma: "wonder",
     pos: verb,
@@ -1312,23 +1276,6 @@
       ],
   }
 - {
-    slug: appreciate-v,
-    lemma: "appreciate",
-    pos: verb,
-    cefr: B1,
-    topic: tourism,
-    ipa: "/əˈpriːʃieɪt/",
-    def: "To be thankful for something.",
-    vi: "cảm kích, trân trọng",
-    examples:
-      [
-        {
-          en: "I really appreciate how honest you were about the outage.",
-          vi: "Mình rất trân trọng việc bạn nói thẳng thắn về sự cố.",
-        },
-      ],
-  }
-- {
     slug: time-is-up-phr,
     lemma: "time is up",
     pos: phrase,
@@ -1525,24 +1472,6 @@
       ],
   }
 - {
-    slug: wonder-aloud-phr,
-    lemma: "wonder aloud",
-    pos: phrase,
-    kind: collocation,
-    cefr: C1,
-    topic: tourism,
-    ipa: "/ˌwʌndər əˈlaʊd/",
-    def: "To say a question you are thinking about out loud.",
-    vi: "nói ra điều mình thắc mắc",
-    examples:
-      [
-        {
-          en: "Someone wondered aloud whether it works on Windows.",
-          vi: "Có người nói ra thắc mắc liệu nó có chạy trên Windows không.",
-        },
-      ],
-  }
-- {
     slug: talk-title-n,
     lemma: "talk title",
     pos: noun,
@@ -1623,24 +1552,6 @@
         {
           en: "Excuse me, are you the speaker from the data talk?",
           vi: "Xin lỗi, bạn có phải diễn giả của bài nói về dữ liệu không?",
-        },
-      ],
-  }
-- {
-    slug: nametag-n,
-    lemma: "name tag",
-    pos: noun,
-    kind: collocation,
-    cefr: A2,
-    topic: tourism,
-    ipa: "/ˈneɪm tæɡ/",
-    def: "A small label with your name that you wear at an event.",
-    vi: "bảng tên",
-    examples:
-      [
-        {
-          en: "I read his name tag and remembered his blog.",
-          vi: "Mình đọc bảng tên và nhớ ra blog của anh ấy.",
         },
       ],
   }
@@ -2654,24 +2565,6 @@
       ],
   }
 - {
-    slug: quick-sync-n,
-    lemma: "quick sync",
-    pos: noun,
-    kind: collocation,
-    cefr: B2,
-    topic: tourism,
-    ipa: "/ˌkwɪk ˈsɪŋk/",
-    def: "A short meeting to share updates.",
-    vi: "buổi trao đổi nhanh",
-    examples:
-      [
-        {
-          en: "A fifteen-minute quick sync is enough.",
-          vi: "Một buổi trao đổi nhanh mười lăm phút là đủ.",
-        },
-      ],
-  }
-- {
     slug: shared-doc-n,
     lemma: "shared doc",
     pos: noun,
@@ -2791,18 +2684,6 @@
     examples: [{ en: "Thanks again, speak soon!", vi: "Cảm ơn lần nữa, sớm nói chuyện nhé!" }],
   }
 - {
-    slug: warm-regards-phr,
-    lemma: "warm regards",
-    pos: phrase,
-    kind: phrase,
-    cefr: B1,
-    topic: tourism,
-    ipa: "/ˌwɔːm rɪˈɡɑːdz/",
-    def: "A friendly way to end an email.",
-    vi: "thân mến (cuối thư)",
-    examples: [{ en: "Warm regards, Khoa.", vi: "Thân mến, Khoa." }],
-  }
-- {
     slug: ball-in-your-court-phr,
     lemma: "the ball is in your court",
     pos: phrase,
@@ -2889,23 +2770,6 @@
         {
           en: "Several speakers called small pull requests a best practice.",
           vi: "Nhiều diễn giả coi pull request nhỏ là một thông lệ tốt nhất.",
-        },
-      ],
-  }
-- {
-    slug: adopt-v,
-    lemma: "adopt",
-    pos: verb,
-    cefr: B2,
-    topic: tourism,
-    ipa: "/əˈdɒpt/",
-    def: "To start using a new method, tool or idea.",
-    vi: "áp dụng, chấp nhận dùng",
-    examples:
-      [
-        {
-          en: "Should we adopt the same alerting rules they showed?",
-          vi: "Mình có nên áp dụng các quy tắc cảnh báo họ trình bày không?",
         },
       ],
   }
@@ -3416,23 +3280,6 @@
         {
           en: "Let's hold off on the migration until the next version.",
           vi: "Mình tạm hoãn việc chuyển đổi đến bản tiếp theo.",
-        },
-      ],
-  }
-- {
-    slug: learning-n,
-    lemma: "learning",
-    pos: noun,
-    cefr: B1,
-    topic: tourism,
-    ipa: "/ˈlɜːnɪŋ/",
-    def: "Something you have found out from an experience.",
-    vi: "điều học được",
-    examples:
-      [
-        {
-          en: "My main learning was how they test on real devices.",
-          vi: "Điều học được chính là cách họ test trên thiết bị thật.",
         },
       ],
   }

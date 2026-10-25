@@ -7,6 +7,30 @@ test.beforeEach(async ({ context }) => {
 
 const escapeRe = (s: string) => s.replace(/[.*+?^${}()|[\]\\]/g, "\\$&");
 
+test("lesson loading stays visible until the lesson is ready", async ({ page }) => {
+  let release!: () => void;
+  const pending = new Promise<void>((resolve) => {
+    release = resolve;
+  });
+  await page.route("**/api/lessons?*", async (route) => {
+    await pending;
+    await route.continue();
+  });
+  await startOnHome(page);
+  await page.goto("/grammar");
+  await page.getByRole("button", { name: /To be & subject pronouns/ }).click();
+  await page.getByRole("dialog").getByRole("link", { name: "Bắt đầu học →" }).click();
+  try {
+    await expect(page.getByRole("status")).toContainText("Đang chuẩn bị bài học");
+    await expect(page.locator("main")).toHaveAttribute("aria-busy", "true");
+    await page.screenshot({ path: test.info().outputPath("lesson-loading.png"), fullPage: true });
+  } finally {
+    release();
+  }
+  await expect(page.getByRole("button", { name: "Tiếp tục →" })).toBeVisible({ timeout: 20_000 });
+  await expect(page.getByRole("heading", { name: "Đang chuẩn bị bài học" })).toHaveCount(0);
+});
+
 /**
  * Answers a study-track test through the real UI: right answers from the server-only key,
  * except question numbers in `wrong` (answered wrongly) and `timeout` (left to run out).
@@ -87,13 +111,29 @@ test("grammar track: lesson info → five study screens → timed test → stars
   await expect(page.getByRole("button", { name: "Tiếp tục →" })).toBeVisible({ timeout: 20_000 });
   for (let i = 0; i < 5; i++) await page.getByRole("button", { name: "Tiếp tục →" }).click();
   await expect(page.getByRole("heading", { name: "Bài kiểm tra ngữ pháp" })).toBeVisible();
-  await expect(page.getByText("20 giây/câu chọn · 30 giây/câu điền từ.")).toBeVisible();
+  await expect(
+    page.getByText("Từ 20 giây/câu, câu dài và trình độ cao được thêm giờ."),
+  ).toBeVisible();
 
+  let releaseSave!: () => void;
+  const pendingSave = new Promise<void>((resolve) => {
+    releaseSave = resolve;
+  });
+  await page.route("**/api/lessons/complete", async (route) => {
+    await pendingSave;
+    await route.continue();
+  });
   await answerTrackQuiz(page, async () => {
     await page.getByRole("button", { name: "Làm bài kiểm tra →" }).click();
     await expect(page.getByRole("timer")).toBeVisible();
     await page.screenshot({ path: test.info().outputPath("question.png") });
   });
+  try {
+    await expect(page.getByRole("status")).toContainText("Đang lưu kết quả");
+    await page.screenshot({ path: test.info().outputPath("lesson-saving.png"), fullPage: true });
+  } finally {
+    releaseSave();
+  }
   await expect(page.getByText("Đã qua màn")).toBeVisible();
   await expect(page.getByLabel("3/3 sao")).toBeVisible();
   await expect(page.getByText("+80")).toBeVisible();

@@ -8,8 +8,7 @@ status: published
 title:
   en: Developer Workflow & Teamwork
   vi: Công việc & phối hợp trong nhóm dev
-summary_vi: Từ ngày đầu vào nhóm đến giao việc, họp sprint và trao đổi tiến độ.
-  Tập diễn đạt rõ việc đang làm, điều còn vướng và bước tiếp theo.
+summary_vi: Từ ngày đầu vào nhóm đến giao việc, họp sprint và trao đổi tiến độ. Tập diễn đạt rõ việc đang làm, điều còn vướng và bước tiếp theo.
 can_do:
   - Cập nhật tiến độ và nêu blocker trong stand-up
   - Thống nhất trách nhiệm, thời hạn và cách phối hợp
@@ -26,7 +25,7 @@ lessons:
         overtime-n,
         take-on-phr,
         report-to-phr,
-        hand-over-phr,
+        hand-over-pv,
         flexible-hours-n,
         set-up-a-meeting-phr,
       ]
@@ -63,7 +62,7 @@ lessons:
         team-player-n,
         to-do-list-n,
         carry-out-phr,
-        fall-behind-phr,
+        fall-behind-pv,
         chair-a-meeting-phr,
         productive-adj,
         punctual-adj,
@@ -78,7 +77,7 @@ lessons:
       [
         reschedule-v,
         postpone-v,
-        call-off-phr,
+        call-off-pv,
         bring-up-phr,
         go-over-phr,
         minutes-n,
@@ -99,22 +98,22 @@ lessons:
     title: { en: "Set 5: Projects & deadlines", vi: "Bộ 5: Dự án & tiến độ" }
     senses:
       [
-        milestone-n,
-        timeline-n,
+        milestone-env-n,
+        timeline-env-n,
         kick-off-n,
-        stakeholder-n,
+        stakeholder-env-n,
         deliverable-n,
         behind-schedule-phr,
         ahead-of-schedule-phr,
         extend-a-deadline-phr,
-        budget-n,
+        budget-env-n,
         allocate-v,
         phase-n,
         launch-v,
-        wrap-up-phr,
+        wrap-up-pv,
         set-a-goal-phr,
         keep-track-of-phr,
-        risk-n,
+        risk-env-n,
         contingency-plan-n,
         last-minute-adj,
       ]
@@ -125,7 +124,7 @@ lessons:
     senses:
       [
         supervise-v,
-        oversee-v,
+        ownership-n,
         motivate-v,
         micromanage-v,
         empower-v,
@@ -143,7 +142,7 @@ lessons:
         approachable-adj,
         one-on-one-n,
         line-manager-n,
-        recognition-n,
+        psychological-safety-n,
       ]
     questions: []
   - slug: t01-l7
@@ -220,7 +219,7 @@ lessons:
         look-forward-to-phr,
         kind-regards-phr,
         get-in-touch-phr,
-        reach-out-workplace-phr,
+        reach-out-phr,
         touch-base-phr,
         confirm-v,
         acknowledge-v,
@@ -229,13 +228,13 @@ lessons:
         proofread-v,
         recipient-n,
         heads-up-n,
-        loop-in-phr,
+        loop-in-phr-cities,
         on-behalf-of-phr,
         at-your-earliest-convenience-phr,
         quarterly-report-n,
         highlight-v,
         findings-n,
-        recommendation-n,
+        recommendation-digital-life-n,
         bullet-point-n,
         appendix-n,
         submit-v,
@@ -260,7 +259,7 @@ lessons:
         take-the-initiative-phr,
         comfort-zone-n,
         learning-curve-n,
-        upskill-workplace-v,
+        upskill-digital-life-v,
         climb-the-career-ladder-phr,
         switch-careers-phr,
         networking-n,
@@ -277,7 +276,7 @@ lessons:
         meet-expectations-phr,
         stand-out-phr,
         build-rapport-phr,
-        keep-up-with-workplace-phr,
+        keep-up-with-digital-life-phr,
         pick-up-a-skill-phr,
         get-ahead-phr,
         transferable-skills-n,

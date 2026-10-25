@@ -142,23 +142,6 @@
     vi: "giấy phép",
     examples: [{ en: "This project uses the MIT license.", vi: "Dự án này dùng giấy phép MIT." }],
   }
-- {
-    slug: contributor-n-media-news,
-    lemma: contributor,
-    pos: noun,
-    cefr: B1,
-    topic: media,
-    ipa: "/kənˈtrɪbjətə/",
-    def: "A person who adds work, such as code or text, to a project.",
-    vi: "người đóng góp",
-    examples:
-      [
-        {
-          en: "We thank every contributor at the end of the README.",
-          vi: "Chúng tôi cảm ơn mọi người đóng góp ở cuối README.",
-        },
-      ],
-  }
 # Set 2: Writing a useful issue
 - {
     slug: bug-report-n,
@@ -332,23 +315,6 @@
         {
           en: "I'll close this issue because the fix is live.",
           vi: "Mình sẽ đóng issue này vì bản sửa đã chạy rồi.",
-        },
-      ],
-  }
-- {
-    slug: triage-v-media-news,
-    lemma: triage,
-    pos: verb,
-    cefr: C1,
-    topic: media,
-    ipa: "/ˈtriːɑːʒ/",
-    def: "To look at new issues and decide how urgent each one is.",
-    vi: "phân loại mức ưu tiên",
-    examples:
-      [
-        {
-          en: "We triage new issues every Monday morning.",
-          vi: "Sáng thứ Hai nào tụi mình cũng phân loại issue mới.",
         },
       ],
   }
@@ -541,24 +507,6 @@
         {
           en: "I addressed all the feedback in the last commit.",
           vi: "Mình đã xử lý hết góp ý trong commit cuối.",
-        },
-      ],
-  }
-- {
-    slug: request-changes-phr-media-news,
-    lemma: "request changes",
-    pos: phrase,
-    kind: phrase,
-    cefr: B1,
-    topic: media,
-    ipa: "/rɪˌkwest ˈtʃeɪndʒɪz/",
-    def: "To ask the author to fix things before a change can be merged.",
-    vi: "yêu cầu chỉnh sửa",
-    examples:
-      [
-        {
-          en: "The reviewer requested changes because a test was missing.",
-          vi: "Reviewer yêu cầu chỉnh sửa vì thiếu một test.",
         },
       ],
   }
@@ -781,41 +729,6 @@
       ],
   }
 - {
-    slug: patch-n-media-news,
-    lemma: patch,
-    pos: noun,
-    cefr: B1,
-    topic: media,
-    ipa: "/pætʃ/",
-    def: "A small update that fixes a problem.",
-    vi: "bản vá",
-    examples:
-      [
-        {
-          en: "We shipped a patch for the login bug this morning.",
-          vi: "Sáng nay chúng tôi đã tung bản vá cho lỗi đăng nhập.",
-        },
-      ],
-  }
-- {
-    slug: roll-out-pv,
-    lemma: "roll out",
-    pos: phrasal_verb,
-    kind: phrasal,
-    cefr: B2,
-    topic: media,
-    ipa: "/ˌrəʊl ˈaʊt/",
-    def: "To make something available to users, often step by step.",
-    vi: "triển khai dần",
-    examples:
-      [
-        {
-          en: "We will roll out the new dashboard to all users next week.",
-          vi: "Tuần sau chúng tôi sẽ triển khai bảng điều khiển mới cho mọi người dùng.",
-        },
-      ],
-  }
-- {
     slug: generally-available-adj,
     lemma: "generally available",
     pos: adjective,
@@ -903,23 +816,6 @@
       ],
   }
 - {
-    slug: walkthrough-n-media-news,
-    lemma: walkthrough,
-    pos: noun,
-    cefr: B2,
-    topic: media,
-    ipa: "/ˈwɔːkθruː/",
-    def: "A guide that takes you through a task one step at a time.",
-    vi: "bài hướng dẫn từng bước",
-    examples:
-      [
-        {
-          en: "This walkthrough shows how to connect your bank account.",
-          vi: "Bài hướng dẫn này chỉ cách kết nối tài khoản ngân hàng.",
-        },
-      ],
-  }
-- {
     slug: before-you-begin-phr,
     lemma: "before you begin",
     pos: phrase,
@@ -989,17 +885,6 @@
     vi: "nhập (thông tin)",
     examples:
       [{ en: "Enter your email address and press Next.", vi: "Nhập địa chỉ email rồi bấm Tiếp." }],
-  }
-- {
-    slug: field-n-media-news,
-    lemma: field,
-    pos: noun,
-    cefr: A2,
-    topic: media,
-    ipa: "/fiːld/",
-    def: "A box in a form where you type information.",
-    vi: "ô nhập liệu",
-    examples: [{ en: "The name field cannot be empty.", vi: "Ô tên không được để trống." }],
   }
 - {
     slug: button-n,
@@ -1885,23 +1770,6 @@
       ],
   }
 - {
-    slug: dashboard-n,
-    lemma: dashboard,
-    pos: noun,
-    cefr: B2,
-    topic: media,
-    ipa: "/ˈdæʃbɔːd/",
-    def: "A screen that shows important numbers in one place.",
-    vi: "bảng điều khiển",
-    examples:
-      [
-        {
-          en: "Link the dashboard so readers can see live numbers.",
-          vi: "Gắn liên kết bảng điều khiển để người đọc xem số liệu trực tiếp.",
-        },
-      ],
-  }
-- {
     slug: graph-n,
     lemma: graph,
     pos: noun,
@@ -2045,23 +1913,6 @@
         {
           en: "Check screenshots for sensitive information before posting.",
           vi: "Kiểm tra ảnh chụp có thông tin nhạy cảm không trước khi đăng.",
-        },
-      ],
-  }
-- {
-    slug: redact-v-media-news,
-    lemma: redact,
-    pos: verb,
-    cefr: C1,
-    topic: media,
-    ipa: "/rɪˈdækt/",
-    def: "To hide private parts of a document before others see it.",
-    vi: "che, xoá phần nhạy cảm",
-    examples:
-      [
-        {
-          en: "Redact the customer's email in the log.",
-          vi: "Che email của khách hàng trong log.",
         },
       ],
   }
@@ -2443,23 +2294,6 @@
       [{ en: "Short paragraphs improve readability.", vi: "Đoạn văn ngắn giúp tăng độ dễ đọc." }],
   }
 - {
-    slug: consistent-adj-media-news,
-    lemma: consistent,
-    pos: adjective,
-    cefr: B2,
-    topic: media,
-    ipa: "/kənˈsɪstənt/",
-    def: "Always the same in style or meaning.",
-    vi: "nhất quán",
-    examples:
-      [
-        {
-          en: 'Be consistent: say "sign in" everywhere, not "log on".',
-          vi: 'Hãy nhất quán: dùng "sign in" ở mọi chỗ, không dùng "log on".',
-        },
-      ],
-  }
-- {
     slug: terminology-n,
     lemma: terminology,
     pos: noun,
@@ -2539,24 +2373,6 @@
         {
           en: "Break up the long section into short steps.",
           vi: "Chia nhỏ phần dài thành các bước ngắn.",
-        },
-      ],
-  }
-- {
-    slug: spell-out-pv,
-    lemma: "spell out",
-    pos: phrasal_verb,
-    kind: phrasal,
-    cefr: B2,
-    topic: media,
-    ipa: "/ˌspel ˈaʊt/",
-    def: "To explain something clearly and in detail.",
-    vi: "nói rõ, giải thích cặn kẽ",
-    examples:
-      [
-        {
-          en: "Spell out what happens if the payment fails.",
-          vi: "Nói rõ điều gì xảy ra nếu thanh toán thất bại.",
         },
       ],
   }
@@ -2694,23 +2510,6 @@
         {
           en: 'Our style guide says to use "you", not "the user".',
           vi: 'Hướng dẫn văn phong của chúng tôi bảo dùng "bạn", không dùng "người dùng".',
-        },
-      ],
-  }
-- {
-    slug: nitpick-n-media-news,
-    lemma: nitpick,
-    pos: noun,
-    cefr: C1,
-    topic: media,
-    ipa: "/ˈnɪtpɪk/",
-    def: "A very small comment about a detail that is not important.",
-    vi: "góp ý vụn vặt",
-    examples:
-      [
-        {
-          en: "Just a nitpick: add a full stop here.",
-          vi: "Góp ý nhỏ thôi: thêm dấu chấm ở đây nhé.",
         },
       ],
   }
@@ -2855,18 +2654,6 @@
       ],
   }
 - {
-    slug: deadline-n-media-news,
-    lemma: deadline,
-    pos: noun,
-    cefr: B1,
-    topic: media,
-    ipa: "/ˈdedlaɪn/",
-    def: "The last time or date by which something must be done.",
-    vi: "hạn chót",
-    examples:
-      [{ en: "The deadline to update is 30 June.", vi: "Hạn chót để cập nhật là 30 tháng Sáu." }],
-  }
-- {
     slug: advance-notice-n,
     lemma: "advance notice",
     pos: noun,
@@ -3009,23 +2796,6 @@
       ],
   }
 - {
-    slug: mandatory-adj-media-news,
-    lemma: mandatory,
-    pos: adjective,
-    cefr: C1,
-    topic: media,
-    ipa: "/ˈmændətəri/",
-    def: "Something you must do; not optional.",
-    vi: "bắt buộc",
-    examples:
-      [
-        {
-          en: "Two-step login becomes mandatory for admins.",
-          vi: "Đăng nhập hai bước trở thành bắt buộc với quản trị viên.",
-        },
-      ],
-  }
-- {
     slug: version-bump-n,
     lemma: "version bump",
     pos: noun,
@@ -3123,23 +2893,6 @@
         {
           en: "Let's sync up with support before we send the email.",
           vi: "Mình họp nhanh với bộ phận hỗ trợ trước khi gửi email nhé.",
-        },
-      ],
-  }
-- {
-    slug: regret-v-media-news,
-    lemma: regret,
-    pos: verb,
-    cefr: B2,
-    topic: media,
-    ipa: "/rɪˈɡret/",
-    def: "To feel or say you are sorry about something.",
-    vi: "lấy làm tiếc",
-    examples:
-      [
-        {
-          en: "We regret the short notice for this change.",
-          vi: "Chúng tôi lấy làm tiếc vì thông báo thay đổi này hơi gấp.",
         },
       ],
   }
@@ -3313,38 +3066,14 @@
         },
       ],
   }
-- {
-    slug: communicate-v-media-news,
-    lemma: communicate,
-    pos: verb,
-    cefr: B1,
-    topic: media,
-    ipa: "/kəˈmjuːnɪkeɪt/",
-    def: "To share information with other people.",
-    vi: "truyền đạt",
-    examples:
-      [
-        {
-          en: "Communicate the change in the app and by email.",
-          vi: "Truyền đạt thay đổi trong ứng dụng và qua email.",
-        },
-      ],
-  }
-- {
-    slug: office-hours-n-media-news,
-    lemma: "office hours",
-    pos: noun,
-    kind: collocation,
-    cefr: B2,
-    topic: media,
-    ipa: "/ˈɒfɪs aʊəz/",
-    def: "Set times when a team is free to answer people's questions.",
-    vi: "giờ hỗ trợ giải đáp",
-    examples:
-      [
-        {
-          en: "We will hold office hours every Tuesday for teams moving to v3.",
-          vi: "Thứ Ba nào chúng tôi cũng có giờ giải đáp cho các nhóm chuyển sang v3.",
-        },
-      ],
-  }
+- slug: field-n-media-news
+  lemma: field
+  pos: noun
+  cefr: A2
+  topic: media
+  ipa: /fiːld/
+  def: A box in a form where you type information.
+  vi: ô nhập liệu
+  examples:
+    - en: The name field cannot be empty.
+      vi: Ô tên không được để trống.

@@ -1536,24 +1536,6 @@
       ],
   }
 - {
-    slug: "own-up-to-pv",
-    lemma: "own up to",
-    pos: "verb",
-    kind: "phrasal",
-    cefr: "B2",
-    topic: "population",
-    ipa: "/ˌəʊn ˈʌp tə/",
-    def: "To admit that you are responsible for something bad.",
-    vi: "nhận trách nhiệm về",
-    examples:
-      [
-        {
-          en: "He owned up to the broken migration in the retro.",
-          vi: "Anh ấy đã nhận trách nhiệm về migration lỗi trong buổi retro.",
-        },
-      ],
-  }
-- {
     slug: "look-back-on-pv",
     lemma: "look back on",
     pos: "verb",
@@ -1604,23 +1586,6 @@
         {
           en: "Linh will take over the search service from Monday.",
           vi: "Từ thứ Hai, Linh sẽ tiếp quản service tìm kiếm.",
-        },
-      ],
-  }
-- {
-    slug: "relinquish-v",
-    lemma: "relinquish",
-    pos: "verb",
-    cefr: "C1",
-    topic: "population",
-    ipa: "/rɪˈlɪŋkwɪʃ/",
-    def: "To give up control of something.",
-    vi: "từ bỏ (quyền kiểm soát)",
-    examples:
-      [
-        {
-          en: "Huy relinquished control of the release process.",
-          vi: "Huy từ bỏ quyền kiểm soát quy trình release.",
         },
       ],
   }
@@ -2808,24 +2773,6 @@
         {
           en: "Can we look at hard data instead of opinions?",
           vi: "Mình xem số liệu thực thay vì ý kiến được không?",
-        },
-      ],
-  }
-- {
-    slug: "shared-interest-n",
-    lemma: "shared interest",
-    pos: "noun",
-    kind: "collocation",
-    cefr: "B2",
-    topic: "population",
-    ipa: "/ˌʃeəd ˈɪntrəst/",
-    def: "Something that matters to everyone in a discussion.",
-    vi: "lợi ích chung",
-    examples:
-      [
-        {
-          en: "Start from a shared interest: we all want fewer outages.",
-          vi: "Bắt đầu từ lợi ích chung: ai cũng muốn ít sự cố hơn.",
         },
       ],
   }

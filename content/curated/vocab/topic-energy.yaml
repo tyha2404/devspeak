@@ -1401,23 +1401,6 @@
       ],
   }
 - {
-    slug: cap-n,
-    lemma: "cap",
-    pos: noun,
-    cefr: B2,
-    topic: energy,
-    ipa: "/kæp/",
-    def: "An upper limit placed on an amount, such as spending.",
-    vi: "mức giới hạn trên",
-    examples:
-      [
-        {
-          en: "We put a monthly cap on cloud spending.",
-          vi: "Bọn mình đặt mức giới hạn trên cho chi phí cloud hằng tháng.",
-        },
-      ],
-  }
-- {
     slug: degrade-v,
     lemma: "degrade",
     pos: verb,
@@ -1519,23 +1502,6 @@
         {
           en: "Video calls use far more data transfer than chat.",
           vi: "Gọi video tốn lưu lượng truyền dữ liệu hơn chat nhiều.",
-        },
-      ],
-  }
-- {
-    slug: increase-n,
-    lemma: "increase",
-    pos: noun,
-    cefr: B1,
-    topic: energy,
-    ipa: "/ˈɪŋkriːs/",
-    def: "A rise in the number or amount of something.",
-    vi: "sự gia tăng",
-    examples:
-      [
-        {
-          en: "We asked the provider for a quota increase.",
-          vi: "Bọn mình đã xin nhà cung cấp tăng hạn mức.",
         },
       ],
   }
@@ -2077,7 +2043,7 @@
     topic: energy,
     ipa: "/prɪˈsɪʒn/",
     def: "How exact a value or result is.",
-    vi: "độ chính xác",
+    vi: "độ chính xác chi tiết (số chữ số, độ chụm)",
     examples:
       [
         {

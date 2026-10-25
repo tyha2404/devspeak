@@ -1171,23 +1171,6 @@
       ],
   }
 - {
-    "slug": "contribute-v",
-    "lemma": "contribute",
-    "pos": "verb",
-    "cefr": "B2",
-    "topic": "cities",
-    "ipa": "/kənˈtrɪbjuːt/",
-    "def": "To give your work or ideas to help a shared project.",
-    "vi": "đóng góp",
-    "examples":
-      [
-        {
-          "en": "Anyone can contribute by fixing typos in the README.",
-          "vi": "Ai cũng có thể đóng góp bằng cách sửa lỗi chính tả trong README.",
-        },
-      ],
-  }
-- {
     "slug": "good-first-issue-n",
     "lemma": "good first issue",
     "pos": "noun",
@@ -1395,24 +1378,6 @@
         {
           "en": "The easiest way to get involved is to review pull requests.",
           "vi": "Cách dễ nhất để tham gia là review pull request.",
-        },
-      ],
-  }
-- {
-    "slug": "lend-a-hand-phr",
-    "lemma": "lend a hand",
-    "pos": "phrase",
-    "kind": "phrase",
-    "cefr": "B2",
-    "topic": "cities",
-    "ipa": "/lend ə ˈhænd/",
-    "def": "To help someone (informal).",
-    "vi": "giúp một tay",
-    "examples":
-      [
-        {
-          "en": "Could you lend a hand with the database migration?",
-          "vi": "Bạn giúp mình một tay phần migration database được không?",
         },
       ],
   }
@@ -2460,24 +2425,6 @@
       ],
   }
 - {
-    "slug": "refer-to-phr",
-    "lemma": "refer to",
-    "pos": "phrasal_verb",
-    "kind": "phrasal",
-    "cefr": "B2",
-    "topic": "cities",
-    "ipa": "/rɪˈfɜː tə/",
-    "def": "To talk about or point to something.",
-    "vi": "đề cập đến, nhắc tới",
-    "examples":
-      [
-        {
-          "en": "The article I referred to is linked below.",
-          "vi": "Bài viết mình nhắc tới có link ở bên dưới.",
-        },
-      ],
-  }
-- {
     "slug": "circle-back-phr",
     "lemma": "circle back",
     "pos": "phrasal_verb",
@@ -2815,23 +2762,6 @@
         {
           "en": "Nurture your contacts by sharing useful articles now and then.",
           "vi": "Vun đắp các mối quan hệ bằng cách thỉnh thoảng chia sẻ bài viết hữu ích.",
-        },
-      ],
-  }
-- {
-    "slug": "cultivate-v",
-    "lemma": "cultivate",
-    "pos": "verb",
-    "cefr": "C1",
-    "topic": "cities",
-    "ipa": "/ˈkʌltɪveɪt/",
-    "def": "To try hard to develop a relationship or skill.",
-    "vi": "xây dựng, trau dồi (có chủ đích)",
-    "examples":
-      [
-        {
-          "en": "He cultivated ties with local universities to find interns.",
-          "vi": "Anh ấy chủ động xây dựng quan hệ với các trường đại học để tìm thực tập sinh.",
         },
       ],
   }

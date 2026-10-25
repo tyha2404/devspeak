@@ -8,9 +8,7 @@ status: published
 title:
   en: Sustainable Software & Climate Products
   vi: Phần mềm bền vững & sản phẩm khí hậu
-summary_vi: Trao đổi về tác động môi trường bằng ngôn ngữ kỹ thuật có giới hạn
-  rõ ràng. Liên hệ truyền tải dữ liệu, lưu trữ, vòng đời thiết bị và sản phẩm đo
-  lường khí hậu.
+summary_vi: Trao đổi về tác động môi trường bằng ngôn ngữ kỹ thuật có giới hạn rõ ràng. Liên hệ truyền tải dữ liệu, lưu trữ, vòng đời thiết bị và sản phẩm đo lường khí hậu.
 can_do:
   - Mô tả tác động và giới hạn của một chỉ số môi trường
   - Đề xuất cải tiến phần mềm có cân nhắc tài nguyên
@@ -25,7 +23,7 @@ lessons:
         climate-n,
         pollution-n,
         measure-v,
-        target-user-n-environment,
+        target-user-n,
         waste-n,
         recycle-v,
         green-adj,
@@ -70,7 +68,7 @@ lessons:
         compress-v,
         legal-obligation-n,
         storage-footprint-n,
-        justify-v-environment,
+        justify-v,
       ]
     questions: []
   - slug: t10-l4
@@ -137,18 +135,18 @@ lessons:
         sensor-n,
         reading-n,
         emission-factor-n,
-        baseline-env-n,
+        baseline-n,
         greenhouse-gas-n,
         methodology-n,
         kilowatt-hour-n,
         approximate-adj,
         calibrate-v,
         offset-n,
-        scope-env-n,
+        scope-n,
         attribute-v,
         proxy-env-n,
         granularity-n,
-        verify-env-v,
+        verify-v,
         per-unit-adj,
       ]
     questions: []
@@ -186,7 +184,7 @@ lessons:
     title: { en: "Set 8: Trade-offs & rebound effects", vi: "Bộ 8: Đánh đổi & tác động phát sinh" }
     senses:
       [
-        trade-off-env-n,
+        trade-off-n,
         rebound-effect-n,
         knock-on-effect-n-environment,
         efficient-adj,
@@ -206,7 +204,7 @@ lessons:
         weigh-up-phr,
         diminishing-returns-n,
         hidden-cost-n,
-        in-exchange-for-phr,
+        in-exchange-phr,
         carbon-aware-adj,
         peak-hours-n,
         holistic-adj,
@@ -231,19 +229,19 @@ lessons:
         overstate-v,
         assertion-n,
         greenwashing-n,
-        evidence-env-n,
+        evidence-n,
         sample-size-n,
         as-far-as-we-know-phr,
         subject-to-change-phr,
         conservative-adj,
         plausible-adj,
-        blind-spot-n-environment,
+        blind-spot-n,
         caution-n,
         unverified-adj,
         hedge-v,
         best-guess-n,
         error-bar-n,
-        probably-adv,
+        data-point-n,
         speculative-adj,
       ]
     questions: []
@@ -252,28 +250,28 @@ lessons:
     title: { en: "Set 10: A sustainable software proposal", vi: "Bộ 10: Đề xuất phần mềm bền vững" }
     senses:
       [
-        proposal-env-n,
+        proposal-n,
         eco-friendly-adj,
         experiment-env-n,
         hypothesis-n,
-        metric-env-n,
+        metric-n,
         success-criteria-n,
         control-group-n,
         pilot-n,
         roll-out-phr,
         reduce-v,
-        impact-env-n,
+        impact-n,
         budget-env-n,
         timeline-env-n,
         milestone-env-n,
-        rationale-n-environment,
+        rationale-n,
         achievable-adj,
-        benchmark-env-n,
+        benchmark-n,
         evaluate-v,
         scale-up-phr,
         opt-in-adj,
         default-setting-n,
-        monitor-env-v,
+        monitor-v,
         revert-v,
         end-result-n,
         green-light-n,
@@ -286,7 +284,7 @@ lessons:
         answerable-adj,
         stakeholder-buy-in-n,
         auditable-adj,
-        follow-up-n-environment,
+        follow-up-n,
         work-package-n,
       ]
     questions: []
