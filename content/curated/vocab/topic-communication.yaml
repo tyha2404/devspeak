@@ -53,23 +53,6 @@
       ],
   }
 - {
-    slug: "repeat-v-t22",
-    lemma: "repeat",
-    pos: "verb",
-    cefr: "A2",
-    topic: "communication",
-    ipa: "/rɪˈpiːt/",
-    def: "To say something again.",
-    vi: "nhắc lại",
-    examples:
-      [
-        {
-          en: "Sorry, could you repeat the last part? My audio cut out.",
-          vi: "Xin lỗi, bạn nhắc lại phần cuối được không? Âm thanh của mình bị mất.",
-        },
-      ],
-  }
-- {
     slug: "understand-v",
     lemma: "understand",
     pos: "verb",
@@ -157,24 +140,6 @@
         },
       ],
   }
-- {
-    slug: "sanity-check-n-t22",
-    lemma: "sanity check",
-    pos: "noun",
-    kind: "collocation",
-    cefr: "B2",
-    topic: "communication",
-    ipa: "/ˈsænəti tʃek/",
-    def: "A quick check that something makes basic sense.",
-    vi: "kiểm tra nhanh cho chắc",
-    examples:
-      [
-        {
-          en: "Just a sanity check: the price is in dollars, right?",
-          vi: "Kiểm tra nhanh cho chắc: giá tính bằng đô la đúng không?",
-        },
-      ],
-  }
 # Set 2: asking for help
 - {
     slug: "help-n",
@@ -224,24 +189,6 @@
         {
           en: "I tried restarting the server, but nothing changed.",
           vi: "Mình đã thử khởi động lại server nhưng không có gì thay đổi.",
-        },
-      ],
-  }
-- {
-    slug: "stack-trace-n-t22",
-    lemma: "stack trace",
-    pos: "noun",
-    kind: "collocation",
-    cefr: "B2",
-    topic: "communication",
-    ipa: "/ˈstæk treɪs/",
-    def: "A list of the function calls that were running when an error happened.",
-    vi: "vết ngăn xếp (stack trace)",
-    examples:
-      [
-        {
-          en: "I pasted the full stack trace in the thread.",
-          vi: "Mình đã dán toàn bộ stack trace vào thread.",
         },
       ],
   }
@@ -383,19 +330,6 @@
         },
       ],
   }
-# Set 3: explaining code aloud
-- {
-    slug: "input-n-t22",
-    lemma: "input",
-    pos: "noun",
-    cefr: "B1",
-    topic: "communication",
-    ipa: "/ˈɪnpʊt/",
-    def: "Data that you give to a function or program.",
-    vi: "đầu vào",
-    examples:
-      [{ en: "The input is a list of user IDs.", vi: "Đầu vào là một danh sách ID người dùng." }],
-  }
 - {
     slug: "output-n",
     lemma: "output",
@@ -459,23 +393,6 @@
         {
           en: "Here we loop through every order and add up the totals.",
           vi: "Ở đây mình lặp qua từng đơn hàng và cộng tổng lại.",
-        },
-      ],
-  }
-- {
-    slug: "return-v-t22",
-    lemma: "return",
-    pos: "verb",
-    cefr: "A2",
-    topic: "communication",
-    ipa: "/rɪˈtɜːn/",
-    def: "For a function, to give back a value when it ends.",
-    vi: "trả về",
-    examples:
-      [
-        {
-          en: "If the user is missing, it returns null.",
-          vi: "Nếu không có người dùng, nó trả về null.",
         },
       ],
   }
@@ -654,23 +571,6 @@
       ],
   }
 - {
-    slug: "readable-adj-t22",
-    lemma: "readable",
-    pos: "adjective",
-    cefr: "B1",
-    topic: "communication",
-    ipa: "/ˈriːdəbl/",
-    def: "Easy to read and understand.",
-    vi: "dễ đọc",
-    examples:
-      [
-        {
-          en: "Splitting this function would make it more readable.",
-          vi: "Tách hàm này ra sẽ làm nó dễ đọc hơn.",
-        },
-      ],
-  }
-- {
     slug: "dead-code-n",
     lemma: "dead code",
     pos: "noun",
@@ -721,23 +621,6 @@
         {
           en: "I requested changes because the migration has no rollback.",
           vi: "Mình yêu cầu chỉnh sửa vì migration không có rollback.",
-        },
-      ],
-  }
-- {
-    slug: "inline-adj-t22",
-    lemma: "inline",
-    pos: "adjective",
-    cefr: "B2",
-    topic: "communication",
-    ipa: "/ˌɪnˈlaɪn/",
-    def: "Placed directly next to the related line or text.",
-    vi: "ngay tại dòng",
-    examples:
-      [
-        {
-          en: "I left inline notes on the lines that need tests.",
-          vi: "Mình để ghi chú ngay tại những dòng cần test.",
         },
       ],
   }
@@ -825,23 +708,6 @@
         {
           en: "TL;DR: the logic is fine, but the tests are missing.",
           vi: "Tóm nhanh: logic ổn nhưng thiếu test.",
-        },
-      ],
-  }
-- {
-    slug: "consistent-adj-t22",
-    lemma: "consistent",
-    pos: "adjective",
-    cefr: "B2",
-    topic: "communication",
-    ipa: "/kənˈsɪstənt/",
-    def: "Following the same style or rules everywhere.",
-    vi: "nhất quán",
-    examples:
-      [
-        {
-          en: "Let's keep the error format consistent with the other endpoints.",
-          vi: "Mình giữ định dạng lỗi nhất quán với các endpoint khác nhé.",
         },
       ],
   }
@@ -1068,24 +934,6 @@
       ],
   }
 - {
-    slug: "push-back-phr-t22",
-    lemma: "push back",
-    pos: "phrasal_verb",
-    kind: "phrasal",
-    cefr: "B2",
-    topic: "communication",
-    ipa: "/pʊʃ ˈbæk/",
-    def: "To argue against an idea or request.",
-    vi: "phản bác, phản đối",
-    examples:
-      [
-        {
-          en: "I want to push back on adding another config flag.",
-          vi: "Mình muốn phản bác việc thêm một cờ cấu hình nữa.",
-        },
-      ],
-  }
-- {
     slug: "valid-adj",
     lemma: "valid",
     pos: "adjective",
@@ -1225,23 +1073,6 @@
       ],
   }
 - {
-    slug: "urgent-adj-t22",
-    lemma: "urgent",
-    pos: "adjective",
-    cefr: "B1",
-    topic: "communication",
-    ipa: "/ˈɜːdʒənt/",
-    def: "Needing attention very soon.",
-    vi: "khẩn cấp",
-    examples:
-      [
-        {
-          en: "This is urgent: customers cannot log in.",
-          vi: "Việc này khẩn cấp: khách hàng không đăng nhập được.",
-        },
-      ],
-  }
-- {
     slug: "deadline-n",
     lemma: "deadline",
     pos: "noun",
@@ -1312,18 +1143,6 @@
       ],
   }
 - {
-    slug: "ping-v-t22",
-    lemma: "ping",
-    pos: "verb",
-    cefr: "B2",
-    topic: "communication",
-    ipa: "/pɪŋ/",
-    def: "To send someone a short message to get their attention.",
-    vi: "nhắn nhanh",
-    examples:
-      [{ "en": "Ping me when the build is green.", "vi": "Nhắn mình khi bản build xanh nhé." }],
-  }
-- {
     slug: "favour-n",
     lemma: "favour",
     pos: "noun",
@@ -1357,18 +1176,6 @@
           vi: "Mình cần bản sửa nóng càng sớm càng tốt.",
         },
       ],
-  }
-- {
-    slug: "availability-n-t22",
-    lemma: "availability",
-    pos: "noun",
-    cefr: "B2",
-    topic: "communication",
-    ipa: "/əˌveɪləˈbɪləti/",
-    def: "When someone is free to do something.",
-    vi: "thời gian rảnh",
-    examples:
-      [{ en: "What's your availability for a call tomorrow?", vi: "Mai bạn rảnh lúc nào để gọi?" }],
   }
 - {
     slug: "reminder-n",
@@ -1438,23 +1245,6 @@
         {
           en: "I'll sound out the team lead before I ask for budget.",
           vi: "Mình sẽ thăm dò ý trưởng nhóm trước khi xin ngân sách.",
-        },
-      ],
-  }
-- {
-    slug: "handover-n-t22",
-    lemma: "handover",
-    pos: "noun",
-    cefr: "B2",
-    topic: "communication",
-    ipa: "/ˈhændəʊvə/",
-    def: "Passing work and information to another person.",
-    vi: "sự bàn giao",
-    examples:
-      [
-        {
-          en: "Please write a handover note before your holiday.",
-          vi: "Hãy viết ghi chú bàn giao trước kỳ nghỉ nhé.",
         },
       ],
   }
@@ -1544,24 +1334,6 @@
         {
           en: "A quick cost-benefit analysis favours the hosted option.",
           vi: "Phân tích chi phí - lợi ích nhanh nghiêng về phương án có sẵn.",
-        },
-      ],
-  }
-- {
-    slug: "cold-start-n-t22",
-    lemma: "cold start",
-    pos: "noun",
-    kind: "collocation",
-    cefr: "C1",
-    topic: "communication",
-    ipa: "/ˌkəʊld ˈstɑːt/",
-    def: "The extra delay when a service runs for the first time after being idle.",
-    vi: "khởi động nguội",
-    examples:
-      [
-        {
-          en: "Serverless is cheap, but cold starts slow the first request.",
-          vi: "Serverless rẻ nhưng khởi động nguội làm chậm request đầu tiên.",
         },
       ],
   }
@@ -2049,23 +1821,6 @@
       ],
   }
 - {
-    slug: "propose-v-t22",
-    lemma: "propose",
-    pos: "verb",
-    cefr: "B2",
-    topic: "communication",
-    ipa: "/prəˈpəʊz/",
-    def: "To formally suggest a plan or idea.",
-    vi: "đề xuất",
-    examples:
-      [
-        {
-          en: "I propose we launch with email login only.",
-          vi: "Mình đề xuất ra mắt chỉ với đăng nhập bằng email.",
-        },
-      ],
-  }
-- {
     slug: "mvp-n",
     lemma: "minimum viable product",
     pos: "noun",
@@ -2097,23 +1852,6 @@
         {
           en: "The animations are gold-plating; drop them for now.",
           vi: "Mấy hiệu ứng động là làm thừa, tạm bỏ đi nhé.",
-        },
-      ],
-  }
-- {
-    slug: "flexible-adj-t22",
-    lemma: "flexible",
-    pos: "adjective",
-    cefr: "B1",
-    topic: "communication",
-    ipa: "/ˈfleksəbl/",
-    def: "Able to change easily.",
-    vi: "linh hoạt",
-    examples:
-      [
-        {
-          en: "We're flexible on the design but not on the date.",
-          vi: "Mình linh hoạt về thiết kế nhưng không linh hoạt về ngày.",
         },
       ],
   }
@@ -2258,23 +1996,6 @@
       ],
   }
 - {
-    slug: "iteration-n-t22",
-    lemma: "iteration",
-    pos: "noun",
-    cefr: "C1",
-    topic: "communication",
-    ipa: "/ˌɪtəˈreɪʃn/",
-    def: "One version in a series of small improvements.",
-    vi: "vòng lặp phát triển, phiên bản",
-    examples:
-      [
-        {
-          en: "Let's improve the UI in the next iteration.",
-          vi: "Mình cải thiện giao diện ở phiên bản tiếp theo nhé.",
-        },
-      ],
-  }
-- {
     slug: "leeway-n",
     lemma: "leeway",
     pos: "noun",
@@ -2342,41 +2063,6 @@
         {
           en: "We decided to keep the old API for now.",
           vi: "Mình đã quyết định giữ API cũ trong lúc này.",
-        },
-      ],
-  }
-- {
-    slug: "agenda-n-t22",
-    lemma: "agenda",
-    pos: "noun",
-    cefr: "B1",
-    topic: "communication",
-    ipa: "/əˈdʒendə/",
-    def: "A list of topics to discuss in a meeting.",
-    vi: "chương trình họp",
-    examples:
-      [
-        {
-          en: "The last item on the agenda is the release date.",
-          vi: "Mục cuối trong chương trình họp là ngày phát hành.",
-        },
-      ],
-  }
-- {
-    slug: "next-step-n-t22",
-    lemma: "next step",
-    pos: "noun",
-    kind: "collocation",
-    cefr: "B1",
-    topic: "communication",
-    ipa: "/ˌnekst ˈstep/",
-    def: "The action that should happen after this one.",
-    vi: "bước tiếp theo",
-    examples:
-      [
-        {
-          en: "The next step is to test it with five users.",
-          vi: "Bước tiếp theo là test với năm người dùng.",
         },
       ],
   }
@@ -2533,77 +2219,6 @@
         {
           en: "The only loose end is updating the changelog.",
           vi: "Việc dang dở duy nhất là cập nhật changelog.",
-        },
-      ],
-  }
-- {
-    slug: "due-date-n-t22",
-    lemma: "due date",
-    pos: "noun",
-    kind: "collocation",
-    cefr: "B1",
-    topic: "communication",
-    ipa: "/ˈdjuː deɪt/",
-    def: "The day by which something should be finished.",
-    vi: "ngày đến hạn",
-    examples:
-      [
-        {
-          en: "The due date for the security fix is the 15th.",
-          vi: "Ngày đến hạn của bản sửa bảo mật là ngày 15.",
-        },
-      ],
-  }
-- {
-    slug: "align-v-t22",
-    lemma: "align",
-    pos: "verb",
-    cefr: "C1",
-    topic: "communication",
-    ipa: "/əˈlaɪn/",
-    def: "To agree on the same goals or plan.",
-    vi: "thống nhất, đồng bộ",
-    examples:
-      [
-        {
-          en: "Let's align with the design team before we build it.",
-          vi: "Mình thống nhất với đội thiết kế trước khi làm nhé.",
-        },
-      ],
-  }
-- {
-    slug: "final-say-n-t22",
-    lemma: "final say",
-    pos: "noun",
-    kind: "collocation",
-    cefr: "C1",
-    topic: "communication",
-    ipa: "/ˌfaɪnl ˈseɪ/",
-    def: "The right to make the last decision.",
-    vi: "quyền quyết định cuối",
-    examples:
-      [
-        {
-          en: "The product manager has the final say on scope.",
-          vi: "Product manager có quyền quyết định cuối về phạm vi.",
-        },
-      ],
-  }
-- {
-    slug: "circle-back-phr-t22",
-    lemma: "circle back",
-    pos: "phrasal_verb",
-    kind: "phrasal",
-    cefr: "C1",
-    topic: "communication",
-    ipa: "/ˌsɜːkl ˈbæk/",
-    def: "To return to a topic later.",
-    vi: "quay lại (chủ đề) sau",
-    examples:
-      [
-        {
-          en: "We'll circle back to pricing next week.",
-          vi: "Tuần sau mình sẽ quay lại chuyện giá.",
         },
       ],
   }
@@ -2852,24 +2467,6 @@
       ],
   }
 - {
-    slug: "proof-of-concept-n-t22",
-    lemma: "proof of concept",
-    pos: "noun",
-    kind: "collocation",
-    cefr: "C1",
-    topic: "communication",
-    ipa: "/ˌpruːf əv ˈkɒnsept/",
-    def: "A small piece of work that shows an idea can really work.",
-    vi: "bản chứng minh khái niệm",
-    examples:
-      [
-        {
-          en: "The proof of concept shows WebSockets can handle the load.",
-          vi: "Bản chứng minh khái niệm cho thấy WebSocket chịu được tải.",
-        },
-      ],
-  }
-- {
     slug: "whiteboarding-n",
     lemma: "whiteboarding",
     pos: "noun",
@@ -2956,24 +2553,6 @@
       ],
   }
 - {
-    slug: "a-b-test-n-t22",
-    lemma: "A/B test",
-    pos: "noun",
-    kind: "collocation",
-    cefr: "B2",
-    topic: "communication",
-    ipa: "/ˌeɪ ˈbiː test/",
-    def: "A test that shows two versions to different users to compare results.",
-    vi: "thử nghiệm A/B",
-    examples:
-      [
-        {
-          en: "An A/B test will show which checkout page works better.",
-          vi: "Thử nghiệm A/B sẽ cho thấy trang thanh toán nào tốt hơn.",
-        },
-      ],
-  }
-- {
     slug: "chime-in-phr",
     lemma: "chime in",
     pos: "phrasal_verb",
@@ -3006,24 +2585,6 @@
         {
           en: "Our north star is fewer clicks to pay.",
           vi: "Kim chỉ nam của mình là ít cú nhấp hơn để thanh toán.",
-        },
-      ],
-  }
-- {
-    slug: "blast-radius-n-t22",
-    lemma: "blast radius",
-    pos: "noun",
-    kind: "collocation",
-    cefr: "C1",
-    topic: "communication",
-    ipa: "/ˈblɑːst ˌreɪdiəs/",
-    def: "How much of a system is affected if a change goes wrong.",
-    vi: "phạm vi ảnh hưởng khi lỗi",
-    examples:
-      [
-        {
-          en: "A feature flag keeps the blast radius small.",
-          vi: "Feature flag giữ phạm vi ảnh hưởng khi lỗi ở mức nhỏ.",
         },
       ],
   }
@@ -3108,23 +2669,6 @@
         {
           en: "The migration plan is still a bit hand-wavy.",
           vi: "Kế hoạch migration vẫn còn hơi mơ hồ.",
-        },
-      ],
-  }
-- {
-    slug: "mitigate-v-t22",
-    lemma: "mitigate",
-    pos: "verb",
-    cefr: "C1",
-    topic: "communication",
-    ipa: "/ˈmɪtɪɡeɪt/",
-    def: "To make a risk or problem less serious.",
-    vi: "giảm thiểu",
-    examples:
-      [
-        {
-          en: "We can mitigate the risk with a feature flag.",
-          vi: "Mình có thể giảm thiểu rủi ro bằng feature flag.",
         },
       ],
   }
@@ -3270,23 +2814,6 @@
       ],
   }
 - {
-    slug: "tone-n-t22",
-    lemma: "tone",
-    pos: "noun",
-    cefr: "B2",
-    topic: "communication",
-    ipa: "/təʊn/",
-    def: "The feeling or attitude that your words show.",
-    vi: "giọng điệu",
-    examples:
-      [
-        {
-          en: "Keep the tone friendly, even when you disagree.",
-          vi: "Giữ giọng điệu thân thiện, kể cả khi bạn không đồng ý.",
-        },
-      ],
-  }
-- {
     slug: "yak-shaving-n",
     lemma: "yak shaving",
     pos: "noun",
@@ -3422,24 +2949,6 @@
         {
           en: "Can I bounce a few ideas off you about the schema?",
           vi: "Mình trao đổi vài ý về schema với bạn được không?",
-        },
-      ],
-  }
-- {
-    slug: "common-ground-n-t22",
-    lemma: "common ground",
-    pos: "noun",
-    kind: "collocation",
-    cefr: "C1",
-    topic: "communication",
-    ipa: "/ˌkɒmən ˈɡraʊnd/",
-    def: "Ideas or interests that different people share.",
-    vi: "điểm chung",
-    examples:
-      [
-        {
-          en: "Let's start from common ground: we all want fewer outages.",
-          vi: "Mình bắt đầu từ điểm chung: ai cũng muốn ít sự cố hơn.",
         },
       ],
   }

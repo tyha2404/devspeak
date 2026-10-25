@@ -408,23 +408,6 @@
       ],
   }
 - {
-    slug: "variant-n-t15",
-    lemma: "variant",
-    pos: "noun",
-    cefr: "B2",
-    topic: "culture",
-    ipa: "/ˈveəriənt/",
-    def: "A slightly different version of the same thing.",
-    vi: "biến thể",
-    examples:
-      [
-        {
-          en: "The button has three variants: primary, secondary and link.",
-          vi: "Nút có ba biến thể: chính, phụ và dạng liên kết.",
-        },
-      ],
-  }
-- {
     slug: "radio-button-n",
     lemma: "radio button",
     pos: "noun",
@@ -1279,23 +1262,6 @@
         {
           en: "Keep the reading level low so new users understand the help pages.",
           vi: "Giữ văn bản dễ đọc để người dùng mới hiểu được trang trợ giúp.",
-        },
-      ],
-  }
-- {
-    slug: "jargon-n-t15",
-    lemma: "jargon",
-    pos: "noun",
-    cefr: "B2",
-    topic: "culture",
-    ipa: "/ˈdʒɑːɡən/",
-    def: "Special words used by a group that other people may not understand.",
-    vi: "thuật ngữ chuyên môn khó hiểu",
-    examples:
-      [
-        {
-          en: '"Invalid token" is jargon for most of our users.',
-          vi: '"Invalid token" là thuật ngữ khó hiểu với đa số người dùng mình.',
         },
       ],
   }
@@ -3160,24 +3126,6 @@
       ],
   }
 - {
-    slug: "conversion-rate-n-t15",
-    lemma: "conversion rate",
-    pos: "noun",
-    kind: "collocation",
-    cefr: "C1",
-    topic: "culture",
-    ipa: "/kənˈvɜːʃn reɪt/",
-    def: "The percentage of users who complete a goal, such as buying or signing up.",
-    vi: "tỉ lệ chuyển đổi",
-    examples:
-      [
-        {
-          en: "The shorter form raised the conversion rate by 8%.",
-          vi: "Form ngắn hơn đã tăng tỉ lệ chuyển đổi 8%.",
-        },
-      ],
-  }
-- {
     slug: "abandonment-n",
     lemma: "abandonment",
     pos: "noun",
@@ -3212,23 +3160,6 @@
       ],
   }
 - {
-    slug: "engagement-n-t15",
-    lemma: "engagement",
-    pos: "noun",
-    cefr: "B2",
-    topic: "culture",
-    ipa: "/ɪnˈɡeɪdʒmənt/",
-    def: "How much and how often users interact with a product.",
-    vi: "mức độ tương tác",
-    examples:
-      [
-        {
-          en: "More notifications raise engagement in the short term only.",
-          vi: "Thêm thông báo chỉ tăng mức độ tương tác trong ngắn hạn.",
-        },
-      ],
-  }
-- {
     slug: "a-b-test-n",
     lemma: "A/B test",
     pos: "noun",
@@ -3243,24 +3174,6 @@
         {
           en: "Let's run an A/B test instead of arguing about the button colour.",
           vi: "Mình chạy thử nghiệm A/B thay vì tranh cãi về màu nút nhé.",
-        },
-      ],
-  }
-- {
-    slug: "statistically-significant-adj-t15",
-    lemma: "statistically significant",
-    pos: "adjective",
-    kind: "collocation",
-    cefr: "C1",
-    topic: "culture",
-    ipa: "/stəˈtɪstɪkli sɪɡˈnɪfɪkənt/",
-    def: "(of a result) Large enough that it is probably not just luck.",
-    vi: "có ý nghĩa thống kê",
-    examples:
-      [
-        {
-          en: "A 1% change with 200 users isn't statistically significant.",
-          vi: "Mức thay đổi 1% với 200 người dùng chưa có ý nghĩa thống kê.",
         },
       ],
   }

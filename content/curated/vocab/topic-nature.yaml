@@ -377,42 +377,6 @@
         },
       ],
   }
-# Set 3: time series & timestamps
-- {
-    "slug": "time-series-n-t23",
-    "lemma": "time series",
-    "pos": "noun",
-    "kind": "collocation",
-    "cefr": "B1",
-    "topic": "oceans",
-    "ipa": "/ˈtaɪm sɪəriːz/",
-    "def": "A list of values recorded one after another over time.",
-    "vi": "chuỗi thời gian",
-    "examples":
-      [
-        {
-          "en": "We store each station's data as a time series.",
-          "vi": "Bọn mình lưu dữ liệu mỗi trạm dưới dạng chuỗi thời gian.",
-        },
-      ],
-  }
-- {
-    "slug": "utc-n-t23",
-    "lemma": "UTC",
-    "pos": "noun",
-    "cefr": "B1",
-    "topic": "oceans",
-    "ipa": "/ˌjuː tiː ˈsiː/",
-    "def": "The world standard time that other time zones are counted from.",
-    "vi": "giờ UTC (giờ chuẩn quốc tế)",
-    "examples":
-      [
-        {
-          "en": "Store every time in UTC and convert it only for display.",
-          "vi": "Lưu mọi thời gian theo UTC và chỉ chuyển đổi khi hiển thị.",
-        },
-      ],
-  }
 - {
     "slug": "interval-n",
     "lemma": "interval",
@@ -534,23 +498,6 @@
       ],
   }
 - {
-    "slug": "peak-n-t23",
-    "lemma": "peak",
-    "pos": "noun",
-    "cefr": "B1",
-    "topic": "oceans",
-    "ipa": "/piːk/",
-    "def": "The highest point or value in a period.",
-    "vi": "đỉnh, giá trị cao nhất",
-    "examples":
-      [
-        {
-          "en": "The flood peak arrived at 3 a.m. local time.",
-          "vi": "Đỉnh lũ đến lúc 3 giờ sáng giờ địa phương.",
-        },
-      ],
-  }
-- {
     "slug": "delay-n-nature",
     "lemma": "delay",
     "pos": "noun",
@@ -564,23 +511,6 @@
         {
           "en": "There is a five-minute delay between measurement and display.",
           "vi": "Có độ trễ năm phút giữa lúc đo và lúc hiển thị.",
-        },
-      ],
-  }
-- {
-    "slug": "sequence-n-t23",
-    "lemma": "sequence",
-    "pos": "noun",
-    "cefr": "B1",
-    "topic": "oceans",
-    "ipa": "/ˈsiːkwəns/",
-    "def": "A series of things in a particular order.",
-    "vi": "trình tự, chuỗi",
-    "examples":
-      [
-        {
-          "en": "Data can arrive out of sequence, so sort it by measured time.",
-          "vi": "Dữ liệu có thể đến không theo trình tự, nên hãy sắp xếp theo thời gian đo.",
         },
       ],
   }
@@ -652,23 +582,6 @@
         {
           "en": "Mark a value as stale if it is more than an hour old.",
           "vi": "Đánh dấu giá trị là cũ nếu nó đã quá một giờ.",
-        },
-      ],
-  }
-- {
-    "slug": "gap-n-t23",
-    "lemma": "gap",
-    "pos": "noun",
-    "cefr": "B1",
-    "topic": "oceans",
-    "ipa": "/ɡæp/",
-    "def": "A period where there is no data between two points.",
-    "vi": "khoảng trống",
-    "examples":
-      [
-        {
-          "en": "Don't draw a line across the gap; leave it empty.",
-          "vi": "Đừng nối đường qua khoảng trống; cứ để trống.",
         },
       ],
   }
@@ -875,23 +788,6 @@
         {
           "en": 'Use a grey "no data" label, not a red error.',
           "vi": 'Dùng nhãn "không có dữ liệu" màu xám, không phải lỗi màu đỏ.',
-        },
-      ],
-  }
-- {
-    "slug": "resume-v-t23",
-    "lemma": "resume",
-    "pos": "verb",
-    "cefr": "B2",
-    "topic": "oceans",
-    "ipa": "/rɪˈzjuːm/",
-    "def": "To start again after a pause.",
-    "vi": "tiếp tục lại",
-    "examples":
-      [
-        {
-          "en": "Reporting resumed at 9:40 after the battery was changed.",
-          "vi": "Việc gửi số đo tiếp tục lại lúc 9:40 sau khi thay pin.",
         },
       ],
   }
@@ -1219,23 +1115,6 @@
       [{ "en": "Who sets the threshold for each station?", "vi": "Ai đặt ngưỡng cho từng trạm?" }],
   }
 - {
-    "slug": "alert-n-t23",
-    "lemma": "alert",
-    "pos": "noun",
-    "cefr": "B1",
-    "topic": "oceans",
-    "ipa": "/əˈlɜːt/",
-    "def": "A message that warns people about a problem.",
-    "vi": "cảnh báo",
-    "examples":
-      [
-        {
-          "en": "Send an alert when the river rises above 3 metres.",
-          "vi": "Gửi cảnh báo khi mực sông lên quá 3 mét.",
-        },
-      ],
-  }
-- {
     "slug": "exceed-v-nature",
     "lemma": "exceed",
     "pos": "verb",
@@ -1249,23 +1128,6 @@
         {
           "en": "The alert fires when turbidity exceeds the limit.",
           "vi": "Cảnh báo bật khi độ đục vượt quá giới hạn.",
-        },
-      ],
-  }
-- {
-    "slug": "trigger-v-t23",
-    "lemma": "trigger",
-    "pos": "verb",
-    "cefr": "B2",
-    "topic": "oceans",
-    "ipa": "/ˈtrɪɡə/",
-    "def": "To make something start to happen.",
-    "vi": "kích hoạt",
-    "examples":
-      [
-        {
-          "en": "One bad reading should not trigger an alarm.",
-          "vi": "Một số đo sai không nên kích hoạt báo động.",
         },
       ],
   }
@@ -1615,57 +1477,6 @@
       ],
   }
 - {
-    "slug": "coordinates-n-t23",
-    "lemma": "coordinates",
-    "pos": "noun",
-    "cefr": "B2",
-    "topic": "oceans",
-    "ipa": "/kəʊˈɔːdɪnəts/",
-    "def": "A pair of numbers that shows an exact position on a map.",
-    "vi": "tọa độ",
-    "examples":
-      [
-        {
-          "en": "Check that the coordinates are not swapped.",
-          "vi": "Kiểm tra xem tọa độ có bị đảo ngược không.",
-        },
-      ],
-  }
-- {
-    "slug": "latitude-n-t23",
-    "lemma": "latitude",
-    "pos": "noun",
-    "cefr": "B2",
-    "topic": "oceans",
-    "ipa": "/ˈlætɪtjuːd/",
-    "def": "The distance of a place north or south of the equator.",
-    "vi": "vĩ độ",
-    "examples":
-      [
-        {
-          "en": "Latitude must be between minus 90 and 90.",
-          "vi": "Vĩ độ phải nằm trong khoảng âm 90 đến 90.",
-        },
-      ],
-  }
-- {
-    "slug": "longitude-n-t23",
-    "lemma": "longitude",
-    "pos": "noun",
-    "cefr": "B2",
-    "topic": "oceans",
-    "ipa": "/ˈlɒŋɡɪtjuːd/",
-    "def": "The distance of a place east or west of Greenwich in London.",
-    "vi": "kinh độ",
-    "examples":
-      [
-        {
-          "en": "Vietnam's longitude is around 102 to 110 degrees east.",
-          "vi": "Kinh độ của Việt Nam khoảng từ 102 đến 110 độ Đông.",
-        },
-      ],
-  }
-- {
     "slug": "satellite-n",
     "lemma": "satellite",
     "pos": "noun",
@@ -1815,23 +1626,6 @@
       ],
   }
 - {
-    "slug": "grid-n-t23",
-    "lemma": "grid",
-    "pos": "noun",
-    "cefr": "B1",
-    "topic": "oceans",
-    "ipa": "/ɡrɪd/",
-    "def": "A pattern of equal squares that divides an area.",
-    "vi": "lưới ô",
-    "examples":
-      [
-        {
-          "en": "The forecast is given for each 5 km grid cell.",
-          "vi": "Dự báo được đưa ra cho mỗi ô lưới 5 km.",
-        },
-      ],
-  }
-- {
     "slug": "update-frequency-n",
     "lemma": "update frequency",
     "pos": "noun",
@@ -1932,57 +1726,6 @@
         {
           "en": "The sensors are calibrated every six months.",
           "vi": "Các cảm biến được hiệu chuẩn sáu tháng một lần.",
-        },
-      ],
-  }
-- {
-    "slug": "accuracy-n-t23",
-    "lemma": "accuracy",
-    "pos": "noun",
-    "cefr": "B2",
-    "topic": "oceans",
-    "ipa": "/ˈækjərəsi/",
-    "def": "How close a measurement is to the true value.",
-    "vi": "độ chính xác",
-    "examples":
-      [
-        {
-          "en": "The accuracy of this probe is plus or minus 0.5 degrees.",
-          "vi": "Độ chính xác của đầu đo này là cộng trừ 0,5 độ.",
-        },
-      ],
-  }
-- {
-    "slug": "precision-n-t23",
-    "lemma": "precision",
-    "pos": "noun",
-    "cefr": "C1",
-    "topic": "oceans",
-    "ipa": "/prɪˈsɪʒn/",
-    "def": "How finely a value is measured or shown, such as the number of decimals.",
-    "vi": "độ chi tiết (số chữ số)",
-    "examples":
-      [
-        {
-          "en": "Don't show more precision than the sensor really has.",
-          "vi": "Đừng hiển thị nhiều chữ số hơn mức cảm biến thực sự đo được.",
-        },
-      ],
-  }
-- {
-    "slug": "drift-n-t23",
-    "lemma": "drift",
-    "pos": "noun",
-    "cefr": "C1",
-    "topic": "oceans",
-    "ipa": "/drɪft/",
-    "def": "A slow change in a sensor's readings away from the true value over time.",
-    "vi": "độ trôi",
-    "examples":
-      [
-        {
-          "en": "Compare with the reference station to detect drift.",
-          "vi": "So sánh với trạm chuẩn để phát hiện độ trôi.",
         },
       ],
   }
@@ -3015,42 +2758,6 @@
       ],
   }
 - {
-    "slug": "loading-state-n-t23",
-    "lemma": "loading state",
-    "pos": "noun",
-    "kind": "collocation",
-    "cefr": "B2",
-    "topic": "oceans",
-    "ipa": "/ˈləʊdɪŋ steɪt/",
-    "def": "What a screen shows while it is waiting for data.",
-    "vi": "trạng thái đang tải",
-    "examples":
-      [
-        {
-          "en": "The loading state should keep the layout from jumping.",
-          "vi": "Trạng thái đang tải nên giữ bố cục không bị nhảy.",
-        },
-      ],
-  }
-- {
-    "slug": "empty-state-n-t23",
-    "lemma": "empty state",
-    "pos": "noun",
-    "kind": "collocation",
-    "cefr": "B2",
-    "topic": "oceans",
-    "ipa": "/ˈempti steɪt/",
-    "def": "What a screen shows when there is no data to display.",
-    "vi": "trạng thái trống",
-    "examples":
-      [
-        {
-          "en": "Write a helpful empty state for new stations with no history.",
-          "vi": "Viết trạng thái trống hữu ích cho trạm mới chưa có lịch sử.",
-        },
-      ],
-  }
-- {
     "slug": "tooltip-n-nature",
     "lemma": "tooltip",
     "pos": "noun",
@@ -3223,24 +2930,6 @@
       ],
   }
 - {
-    "slug": "corner-case-n-t23",
-    "lemma": "corner case",
-    "pos": "noun",
-    "kind": "collocation",
-    "cefr": "C1",
-    "topic": "oceans",
-    "ipa": "/ˈkɔːnə keɪs/",
-    "def": "A rare situation where several unusual conditions happen together.",
-    "vi": "tình huống hiếm gặp",
-    "examples":
-      [
-        {
-          "en": "A station moved to a new time zone is a corner case worth testing.",
-          "vi": "Trạm chuyển sang múi giờ mới là tình huống hiếm đáng để test.",
-        },
-      ],
-  }
-- {
     "slug": "rank-v",
     "lemma": "rank",
     "pos": "verb",
@@ -3254,23 +2943,6 @@
         {
           "en": "Rank the alerts by severity, then by time.",
           "vi": "Xếp hạng cảnh báo theo mức nghiêm trọng, rồi theo thời gian.",
-        },
-      ],
-  }
-- {
-    "slug": "wireframe-n-t23",
-    "lemma": "wireframe",
-    "pos": "noun",
-    "cefr": "C1",
-    "topic": "oceans",
-    "ipa": "/ˈwaɪəfreɪm/",
-    "def": "A simple drawing of a screen's layout without final design.",
-    "vi": "wireframe (khung bố cục)",
-    "examples":
-      [
-        {
-          "en": "Attach a wireframe of the station page to the brief.",
-          "vi": "Đính kèm wireframe của trang trạm vào bản mô tả.",
         },
       ],
   }
@@ -3357,23 +3029,6 @@
         {
           "en": "Historical data older than five years lives in cold storage.",
           "vi": "Dữ liệu lịch sử hơn năm năm được lưu ở kho lưu trữ lạnh.",
-        },
-      ],
-  }
-- {
-    "slug": "real-time-adj-t23",
-    "lemma": "real-time",
-    "pos": "adjective",
-    "cefr": "B2",
-    "topic": "oceans",
-    "ipa": "/ˌrɪəl ˈtaɪm/",
-    "def": "Happening or updated at almost the same moment as events happen.",
-    "vi": "thời gian thực",
-    "examples":
-      [
-        {
-          "en": '"Real-time" here means within five minutes, not instantly.',
-          "vi": '"Thời gian thực" ở đây nghĩa là trong vòng năm phút, không phải tức thì.',
         },
       ],
   }

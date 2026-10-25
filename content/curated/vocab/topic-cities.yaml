@@ -87,23 +87,6 @@
       ],
   }
 - {
-    "slug": "remote-adj-t19",
-    "lemma": "remote",
-    "pos": "adjective",
-    "cefr": "B1",
-    "topic": "cities",
-    "ipa": "/rɪˈməʊt/",
-    "def": "Done from home or another place, not from the company's office.",
-    "vi": "từ xa",
-    "examples":
-      [
-        {
-          "en": "Our team is fully remote, so we meet on video calls.",
-          "vi": "Team mình làm việc từ xa hoàn toàn nên họp qua video call.",
-        },
-      ],
-  }
-- {
     "slug": "hybrid-adj",
     "lemma": "hybrid",
     "pos": "adjective",
@@ -209,24 +192,6 @@
       ],
   }
 - {
-    "slug": "rush-hour-n-t19",
-    "lemma": "rush hour",
-    "pos": "noun",
-    "kind": "collocation",
-    "cefr": "B1",
-    "topic": "cities",
-    "ipa": "/ˈrʌʃ aʊə/",
-    "def": "The busy time of day when most people are travelling to or from work.",
-    "vi": "giờ cao điểm",
-    "examples":
-      [
-        {
-          "en": "Let's start the meeting at 9:30 so people can avoid rush hour.",
-          "vi": "Mình bắt đầu họp lúc 9:30 để mọi người tránh giờ cao điểm nhé.",
-        },
-      ],
-  }
-- {
     "slug": "bus-stop-n",
     "lemma": "bus stop",
     "pos": "noun",
@@ -293,23 +258,6 @@
         {
           "en": "The metro had a twenty-minute delay this morning.",
           "vi": "Sáng nay metro bị chậm hai mươi phút.",
-        },
-      ],
-  }
-- {
-    "slug": "timetable-n-t19",
-    "lemma": "timetable",
-    "pos": "noun",
-    "cefr": "A2",
-    "topic": "cities",
-    "ipa": "/ˈtaɪmteɪbl/",
-    "def": "A list that shows the times when buses or trains leave and arrive.",
-    "vi": "lịch chạy (tàu, xe)",
-    "examples":
-      [
-        {
-          "en": "I checked the bus timetable, and the last bus is at 10 p.m.",
-          "vi": "Mình xem lịch chạy xe buýt rồi, chuyến cuối lúc 10 giờ tối.",
         },
       ],
   }
@@ -452,23 +400,6 @@
         {
           "en": "I'll take the client call in the phone booth so I don't disturb anyone.",
           "vi": "Mình nghe cuộc gọi khách hàng trong phòng gọi riêng để không làm phiền ai.",
-        },
-      ],
-  }
-- {
-    "slug": "reserve-v-t19",
-    "lemma": "reserve",
-    "pos": "verb",
-    "cefr": "B1",
-    "topic": "cities",
-    "ipa": "/rɪˈzɜːv/",
-    "def": "To arrange for a seat, room, or table to be kept for you.",
-    "vi": "đặt trước",
-    "examples":
-      [
-        {
-          "en": "You can reserve a desk for tomorrow in the app.",
-          "vi": "Bạn có thể đặt trước bàn cho ngày mai trên app.",
         },
       ],
   }
@@ -769,23 +700,6 @@
       ],
   }
 - {
-    "slug": "newcomer-n-t19",
-    "lemma": "newcomer",
-    "pos": "noun",
-    "cefr": "B2",
-    "topic": "cities",
-    "ipa": "/ˈnjuːkʌmə/",
-    "def": "A person who has recently arrived in a place or joined a group.",
-    "vi": "người mới",
-    "examples":
-      [
-        {
-          "en": "We pair each newcomer with someone who has been here a while.",
-          "vi": "Tụi mình ghép mỗi người mới với một người đã ở đây lâu.",
-        },
-      ],
-  }
-- {
     "slug": "regular-n",
     "lemma": "regular",
     "pos": "noun",
@@ -979,24 +893,6 @@
       ],
   }
 - {
-    "slug": "use-case-n-t19",
-    "lemma": "use case",
-    "pos": "noun",
-    "kind": "collocation",
-    "cefr": "B2",
-    "topic": "cities",
-    "ipa": "/ˈjuːs keɪs/",
-    "def": "A particular situation in which a product is used.",
-    "vi": "trường hợp sử dụng",
-    "examples":
-      [
-        {
-          "en": "The main use case is splitting bills after team lunches.",
-          "vi": "Trường hợp sử dụng chính là chia tiền sau các bữa trưa của team.",
-        },
-      ],
-  }
-- {
     "slug": "pain-point-n",
     "lemma": "pain point",
     "pos": "noun",
@@ -1011,24 +907,6 @@
         {
           "en": "The biggest pain point was finding a quiet place to work.",
           "vi": "Điểm khó chịu lớn nhất là tìm một chỗ yên tĩnh để làm việc.",
-        },
-      ],
-  }
-- {
-    "slug": "target-user-n-t19",
-    "lemma": "target user",
-    "pos": "noun",
-    "kind": "collocation",
-    "cefr": "B2",
-    "topic": "cities",
-    "ipa": "/ˌtɑːɡɪt ˈjuːzə/",
-    "def": "The kind of person a product is mainly made for.",
-    "vi": "người dùng mục tiêu",
-    "examples":
-      [
-        {
-          "en": "My target users are freelancers who work in cafés.",
-          "vi": "Người dùng mục tiêu của mình là freelancer làm việc ở quán cà phê.",
         },
       ],
   }
@@ -1556,42 +1434,6 @@
       ],
   }
 - {
-    "slug": "time-zone-n-t19",
-    "lemma": "time zone",
-    "pos": "noun",
-    "kind": "collocation",
-    "cefr": "B1",
-    "topic": "cities",
-    "ipa": "/ˈtaɪm zəʊn/",
-    "def": "An area of the world that uses the same clock time.",
-    "vi": "múi giờ",
-    "examples":
-      [
-        {
-          "en": "We are in different time zones, so we work mostly in writing.",
-          "vi": "Tụi mình ở khác múi giờ nên chủ yếu làm việc qua tin nhắn.",
-        },
-      ],
-  }
-# Set 7: Event planning
-- {
-    "slug": "organiser-n-t19",
-    "lemma": "organiser",
-    "pos": "noun",
-    "cefr": "B1",
-    "topic": "cities",
-    "ipa": "/ˈɔːɡənaɪzə/",
-    "def": "A person who plans and arranges an event.",
-    "vi": "người tổ chức",
-    "examples":
-      [
-        {
-          "en": "Contact the organisers if you want to give a talk.",
-          "vi": "Liên hệ người tổ chức nếu bạn muốn trình bày.",
-        },
-      ],
-  }
-- {
     "slug": "agenda-n",
     "lemma": "agenda",
     "pos": "noun",
@@ -1866,23 +1708,6 @@
       ],
   }
 - {
-    "slug": "waitlist-n-t19",
-    "lemma": "waitlist",
-    "pos": "noun",
-    "cefr": "B2",
-    "topic": "cities",
-    "ipa": "/ˈweɪtlɪst/",
-    "def": "A list of people who will get a place if someone else cancels.",
-    "vi": "danh sách chờ",
-    "examples":
-      [
-        {
-          "en": "The event is full, but you can join the waitlist.",
-          "vi": "Sự kiện đã đủ chỗ nhưng bạn có thể vào danh sách chờ.",
-        },
-      ],
-  }
-- {
     "slug": "giveaway-n",
     "lemma": "giveaway",
     "pos": "noun",
@@ -1990,40 +1815,6 @@
       ],
   }
 - {
-    "slug": "inclusive-adj-t19",
-    "lemma": "inclusive",
-    "pos": "adjective",
-    "cefr": "C1",
-    "topic": "cities",
-    "ipa": "/ɪnˈkluːsɪv/",
-    "def": "Making everyone feel they are welcome and can take part.",
-    "vi": "hòa nhập, bao trùm",
-    "examples":
-      [
-        {
-          "en": "We use inclusive language in our docs and talks.",
-          "vi": "Tụi mình dùng ngôn ngữ hòa nhập trong tài liệu và bài nói.",
-        },
-      ],
-  }
-- {
-    "slug": "respectful-adj-t19",
-    "lemma": "respectful",
-    "pos": "adjective",
-    "cefr": "B1",
-    "topic": "cities",
-    "ipa": "/rɪˈspektfl/",
-    "def": "Showing that you value other people and their opinions.",
-    "vi": "tôn trọng",
-    "examples":
-      [
-        {
-          "en": "Please be respectful, even when you disagree.",
-          "vi": "Hãy tôn trọng người khác, kể cả khi bạn không đồng ý.",
-        },
-      ],
-  }
-- {
     "slug": "moderator-n",
     "lemma": "moderator",
     "pos": "noun",
@@ -2071,23 +1862,6 @@
         {
           "en": "Users who keep posting ads will be banned.",
           "vi": "Người dùng cứ đăng quảng cáo sẽ bị cấm.",
-        },
-      ],
-  }
-- {
-    "slug": "warning-n-t19",
-    "lemma": "warning",
-    "pos": "noun",
-    "cefr": "B1",
-    "topic": "cities",
-    "ipa": "/ˈwɔːnɪŋ/",
-    "def": "A message telling someone that they will be punished if they do something again.",
-    "vi": "lời cảnh cáo",
-    "examples":
-      [
-        {
-          "en": "First, we give a private warning.",
-          "vi": "Đầu tiên, tụi mình gửi một lời cảnh cáo riêng.",
         },
       ],
   }
@@ -2260,23 +2034,6 @@
         {
           "en": "The beginners' channel is a safe space for any question.",
           "vi": "Kênh cho người mới là không gian an toàn cho mọi câu hỏi.",
-        },
-      ],
-  }
-- {
-    "slug": "flag-v-t19",
-    "lemma": "flag",
-    "pos": "verb",
-    "cefr": "B2",
-    "topic": "cities",
-    "ipa": "/flæɡ/",
-    "def": "To mark a post so that moderators will look at it.",
-    "vi": "gắn cờ, đánh dấu (để xem xét)",
-    "examples":
-      [
-        {
-          "en": "I flagged the comment because it included a personal attack.",
-          "vi": "Mình đã gắn cờ bình luận vì nó có công kích cá nhân.",
         },
       ],
   }
@@ -2598,24 +2355,6 @@
       ],
   }
 - {
-    "slug": "next-step-n-t19",
-    "lemma": "next step",
-    "pos": "noun",
-    "kind": "collocation",
-    "cefr": "B1",
-    "topic": "cities",
-    "ipa": "/ˌnekst ˈstep/",
-    "def": "The thing you will do after what you have just done.",
-    "vi": "bước tiếp theo",
-    "examples":
-      [
-        {
-          "en": "As a next step, could we schedule a short call?",
-          "vi": "Bước tiếp theo, mình hẹn một cuộc gọi ngắn được không?",
-        },
-      ],
-  }
-- {
     "slug": "keep-in-touch-phr",
     "lemma": "keep in touch",
     "pos": "phrase",
@@ -2781,23 +2520,6 @@
         {
           "en": "A personalised message works better than a copied template.",
           "vi": "Một tin nhắn cá nhân hóa hiệu quả hơn mẫu sao chép.",
-        },
-      ],
-  }
-- {
-    "slug": "gesture-n-t19",
-    "lemma": "gesture",
-    "pos": "noun",
-    "cefr": "C1",
-    "topic": "cities",
-    "ipa": "/ˈdʒestʃə/",
-    "def": "Something you do to show a feeling, such as thanks.",
-    "vi": "cử chỉ (thể hiện thiện ý)",
-    "examples":
-      [
-        {
-          "en": "Sharing the photos was a kind gesture.",
-          "vi": "Chia sẻ ảnh là một cử chỉ tử tế.",
         },
       ],
   }
@@ -3076,23 +2798,6 @@
         {
           "en": "Good networks are built on reciprocity, not only on asking.",
           "vi": "Mạng lưới tốt được xây trên sự có qua có lại, không chỉ là nhờ vả.",
-        },
-      ],
-  }
-- {
-    "slug": "goodwill-n-t19",
-    "lemma": "goodwill",
-    "pos": "noun",
-    "cefr": "C1",
-    "topic": "cities",
-    "ipa": "/ˌɡʊdˈwɪl/",
-    "def": "Friendly feelings and trust toward a person or group.",
-    "vi": "thiện chí",
-    "examples":
-      [
-        {
-          "en": "Answering questions on the forum built a lot of goodwill.",
-          "vi": "Việc trả lời câu hỏi trên diễn đàn tạo được rất nhiều thiện chí.",
         },
       ],
   }

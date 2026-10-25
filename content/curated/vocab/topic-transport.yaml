@@ -497,23 +497,6 @@
       ],
   }
 - {
-    slug: assign-v-t18,
-    lemma: "assign",
-    pos: verb,
-    cefr: B1,
-    topic: transport,
-    ipa: "/əˈsaɪn/",
-    def: "To give a job or a person to someone or something.",
-    vi: "phân công, gán",
-    examples:
-      [
-        {
-          en: "The server assigns the nearest free driver to the trip.",
-          vi: "Máy chủ gán tài xế rảnh gần nhất cho chuyến đi.",
-        },
-      ],
-  }
-- {
     slug: surge-pricing-n,
     lemma: "surge pricing",
     pos: noun,
@@ -580,24 +563,6 @@
         {
           en: "When the shuttle is full, riders can join the waitlist.",
           vi: "Khi xe đưa đón đầy, khách có thể vào danh sách chờ.",
-        },
-      ],
-  }
-- {
-    slug: in-advance-phr-t18,
-    lemma: "in advance",
-    pos: phrase,
-    kind: phrase,
-    cefr: B1,
-    topic: transport,
-    ipa: "/ɪn ədˈvɑːns/",
-    def: "Before a certain time or event.",
-    vi: "trước, đặt trước",
-    examples:
-      [
-        {
-          en: "Airport rides can be booked up to a week in advance.",
-          vi: "Chuyến ra sân bay có thể đặt trước tối đa một tuần.",
         },
       ],
   }
@@ -1261,23 +1226,6 @@
       ],
   }
 - {
-    slug: reimburse-v-t18,
-    lemma: "reimburse",
-    pos: verb,
-    cefr: C1,
-    topic: transport,
-    ipa: "/ˌriːɪmˈbɜːs/",
-    def: "To pay back money that someone has spent or lost.",
-    vi: "hoàn trả, bồi hoàn",
-    examples:
-      [
-        {
-          en: "We reimburse the rider if the driver never arrives.",
-          vi: "Tụi mình hoàn tiền cho khách nếu tài xế không bao giờ tới.",
-        },
-      ],
-  }
-- {
     slug: push-back-pv,
     lemma: "push back",
     pos: phrasal_verb,
@@ -1358,41 +1306,6 @@
         {
           en: "The van was towed to a garage, so the parcels will be late.",
           vi: "Xe tải nhỏ bị kéo về gara nên các gói hàng sẽ đến trễ.",
-        },
-      ],
-  }
-- {
-    slug: waive-v-t18,
-    lemma: "waive",
-    pos: verb,
-    cefr: C1,
-    topic: transport,
-    ipa: "/weɪv/",
-    def: "To choose not to make someone pay or follow a rule.",
-    vi: "miễn (phí, quy định)",
-    examples:
-      [
-        {
-          en: "We waive the fee when the cancellation is our fault.",
-          vi: "Tụi mình miễn phí khi lỗi huỷ là của tụi mình.",
-        },
-      ],
-  }
-- {
-    slug: grace-period-n-t18,
-    lemma: "grace period",
-    pos: noun,
-    kind: collocation,
-    cefr: C1,
-    topic: transport,
-    ipa: "/ˈɡreɪs ˌpɪəriəd/",
-    def: "Extra time allowed before a rule or charge starts.",
-    vi: "thời gian ân hạn",
-    examples:
-      [
-        {
-          en: "Riders have a three-minute grace period before waiting time is charged.",
-          vi: "Khách có ba phút ân hạn trước khi bị tính phí chờ.",
         },
       ],
   }
@@ -1565,23 +1478,6 @@
         {
           en: 'Ask for location access only when the user taps "Find drivers".',
           vi: 'Chỉ xin quyền vị trí khi người dùng bấm "Tìm tài xế".',
-        },
-      ],
-  }
-- {
-    slug: pinpoint-v-t18,
-    lemma: "pinpoint",
-    pos: verb,
-    cefr: C1,
-    topic: transport,
-    ipa: "/ˈpɪnpɔɪnt/",
-    def: "To find or show the exact position of something.",
-    vi: "xác định chính xác vị trí",
-    examples:
-      [
-        {
-          en: "GPS can pinpoint the phone to within five metres.",
-          vi: "GPS có thể xác định vị trí điện thoại chính xác trong vòng năm mét.",
         },
       ],
   }
@@ -2162,24 +2058,6 @@
       ],
   }
 - {
-    slug: status-update-n-t18,
-    lemma: "status update",
-    pos: noun,
-    kind: collocation,
-    cefr: B1,
-    topic: transport,
-    ipa: "/ˈsteɪtəs ˌʌpdeɪt/",
-    def: "A message that tells people about a change in state.",
-    vi: "cập nhật trạng thái",
-    examples:
-      [
-        {
-          en: "Customers get a status update at every important step.",
-          vi: "Khách nhận cập nhật trạng thái ở mỗi bước quan trọng.",
-        },
-      ],
-  }
-- {
     slug: arrival-scan-n,
     lemma: "arrival scan",
     pos: noun,
@@ -2282,24 +2160,6 @@
         {
           en: "Remove the ghost location if no new ping comes for two minutes.",
           vi: "Xoá vị trí ảo nếu không có tín hiệu mới trong hai phút.",
-        },
-      ],
-  }
-- {
-    slug: catch-up-pv-t18,
-    lemma: "catch up",
-    pos: phrasal_verb,
-    kind: phrasal,
-    cefr: B1,
-    topic: transport,
-    ipa: "/ˌkætʃ ˈʌp/",
-    def: "To reach the same point as others after being behind.",
-    vi: "bắt kịp",
-    examples:
-      [
-        {
-          en: "The map catches up once the phone reconnects.",
-          vi: "Bản đồ bắt kịp khi điện thoại kết nối lại.",
         },
       ],
   }
@@ -3272,24 +3132,6 @@
       ],
   }
 - {
-    slug: rate-card-n-t18,
-    lemma: "rate card",
-    pos: noun,
-    kind: collocation,
-    cefr: C1,
-    topic: transport,
-    ipa: "/ˈreɪt kɑːd/",
-    def: "A list of a company's prices for different services.",
-    vi: "bảng giá",
-    examples:
-      [
-        {
-          en: "Load the carrier's rate card from a config file.",
-          vi: "Nạp bảng giá của hãng vận chuyển từ file cấu hình.",
-        },
-      ],
-  }
-- {
     slug: on-time-rate-n,
     lemma: "on-time rate",
     pos: noun,
@@ -3304,23 +3146,6 @@
         {
           en: "Success means an on-time rate above ninety-five per cent.",
           vi: "Thành công nghĩa là tỷ lệ đúng giờ trên chín mươi lăm phần trăm.",
-        },
-      ],
-  }
-- {
-    slug: boundary-n-t18,
-    lemma: "boundary",
-    pos: noun,
-    cefr: B2,
-    topic: transport,
-    ipa: "/ˈbaʊndri/",
-    def: "A line that marks the edge of an area.",
-    vi: "ranh giới",
-    examples:
-      [
-        {
-          en: "Orders right on the zone boundary use the cheaper price.",
-          vi: "Đơn nằm ngay ranh giới vùng sẽ dùng giá rẻ hơn.",
         },
       ],
   }
@@ -3409,23 +3234,6 @@
         {
           en: "Snap the points to the road before you draw the route.",
           vi: "Khớp các điểm vào đường trước khi vẽ tuyến.",
-        },
-      ],
-  }
-- {
-    slug: eligible-adj-t18,
-    lemma: "eligible",
-    pos: adjective,
-    cefr: C1,
-    topic: transport,
-    ipa: "/ˈelɪdʒəbl/",
-    def: "Allowed to get or do something because you meet the conditions.",
-    vi: "đủ điều kiện",
-    examples:
-      [
-        {
-          en: "Only orders under five kilograms are eligible for express delivery.",
-          vi: "Chỉ đơn dưới năm ký mới đủ điều kiện giao hoả tốc.",
         },
       ],
   }

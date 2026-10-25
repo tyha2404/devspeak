@@ -7,14 +7,14 @@
     kind: collocation,
     cefr: A2,
     topic: equality,
-    ipa: "/\u02cc\u0259\u028ald\u0259r \u02c8\u00e6d\u028clt/",
+    ipa: "/ˌəʊldər ˈædʌlt/",
     def: "A person who is no longer young, usually over sixty-five.",
-    vi: "ng\u01b0\u1eddi cao tu\u1ed5i",
+    vi: "người cao tuổi",
     examples:
       [
         {
           en: "Many older adults use our banking app on a tablet.",
-          vi: "Nhi\u1ec1u ng\u01b0\u1eddi cao tu\u1ed5i d\u00f9ng app ng\u00e2n h\u00e0ng c\u1ee7a m\u00ecnh tr\u00ean m\u00e1y t\u00ednh b\u1ea3ng.",
+          vi: "Nhiều người cao tuổi dùng app ngân hàng của mình trên máy tính bảng.",
         },
       ],
   }
@@ -24,14 +24,14 @@
     pos: noun,
     cefr: B1,
     topic: equality,
-    ipa: "/\u026am\u02c8pe\u0259m\u0259nt/",
+    ipa: "/ɪmˈpeəmənt/",
     def: "A condition that makes part of the body or mind work less well.",
-    vi: "s\u1ef1 suy gi\u1ea3m (ch\u1ee9c n\u0103ng)",
+    vi: "sự suy giảm (chức năng)",
     examples:
       [
         {
           en: "Users with a visual impairment cannot see the small grey icons.",
-          vi: "Ng\u01b0\u1eddi d\u00f9ng suy gi\u1ea3m th\u1ecb l\u1ef1c kh\u00f4ng th\u1ea5y \u0111\u01b0\u1ee3c c\u00e1c icon x\u00e1m nh\u1ecf.",
+          vi: "Người dùng suy giảm thị lực không thấy được các icon xám nhỏ.",
         },
       ],
   }
@@ -41,14 +41,14 @@
     pos: noun,
     cefr: B1,
     topic: equality,
-    ipa: "/\u02c8ke\u0259\u0261\u026av\u0259/",
+    ipa: "/ˈkeəɡɪvə/",
     def: "A person who looks after someone who is ill, old or disabled.",
-    vi: "ng\u01b0\u1eddi ch\u0103m s\u00f3c",
+    vi: "người chăm sóc",
     examples:
       [
         {
           en: "A caregiver often books doctor visits for a parent in our app.",
-          vi: "Ng\u01b0\u1eddi ch\u0103m s\u00f3c th\u01b0\u1eddng \u0111\u1eb7t l\u1ecbch kh\u00e1m cho b\u1ed1 m\u1eb9 trong app c\u1ee7a m\u00ecnh.",
+          vi: "Người chăm sóc thường đặt lịch khám cho bố mẹ trong app của mình.",
         },
       ],
   }
@@ -58,14 +58,14 @@
     pos: adjective,
     cefr: A2,
     topic: equality,
-    ipa: "/\u02ccleft \u02c8h\u00e6nd\u026ad/",
+    ipa: "/ˌleft ˈhændɪd/",
     def: "Using your left hand more easily than your right hand.",
-    vi: "thu\u1eadn tay tr\u00e1i",
+    vi: "thuận tay trái",
     examples:
       [
         {
           en: "The swipe button is hard to reach for left-handed users.",
-          vi: "N\u00fat vu\u1ed1t kh\u00f3 v\u1edbi t\u1edbi v\u1edbi ng\u01b0\u1eddi d\u00f9ng thu\u1eadn tay tr\u00e1i.",
+          vi: "Nút vuốt khó với tới với người dùng thuận tay trái.",
         },
       ],
   }
@@ -75,14 +75,14 @@
     pos: noun,
     cefr: A2,
     topic: equality,
-    ipa: "/\u02c8a\u026asa\u026at/",
+    ipa: "/ˈaɪsaɪt/",
     def: "Your ability to see.",
-    vi: "th\u1ecb l\u1ef1c",
+    vi: "thị lực",
     examples:
       [
         {
           en: "My dad has poor eyesight, so he makes the text bigger.",
-          vi: "B\u1ed1 m\u00ecnh th\u1ecb l\u1ef1c k\u00e9m n\u00ean \u00f4ng ph\u00f3ng to ch\u1eef.",
+          vi: "Bố mình thị lực kém nên ông phóng to chữ.",
         },
       ],
   }
@@ -92,14 +92,14 @@
     pos: noun,
     cefr: A2,
     topic: equality,
-    ipa: "/\u02c8h\u026a\u0259r\u026a\u014b/",
+    ipa: "/ˈhɪərɪŋ/",
     def: "Your ability to hear sounds.",
-    vi: "th\u00ednh gi\u00e1c",
+    vi: "thính giác",
     examples:
       [
         {
           en: "Don't use only a sound alert; some users have weak hearing.",
-          vi: "\u0110\u1eebng ch\u1ec9 d\u00f9ng \u00e2m b\u00e1o; m\u1ed9t s\u1ed1 ng\u01b0\u1eddi d\u00f9ng th\u00ednh gi\u00e1c y\u1ebfu.",
+          vi: "Đừng chỉ dùng âm báo; một số người dùng thính giác yếu.",
         },
       ],
   }
@@ -109,14 +109,14 @@
     pos: noun,
     cefr: A2,
     topic: equality,
-    ipa: "/\u02c8k\u028cntrisa\u026ad/",
+    ipa: "/ˈkʌntrisaɪd/",
     def: "Land outside towns and cities, with fields and villages.",
-    vi: "v\u00f9ng n\u00f4ng th\u00f4n",
+    vi: "vùng nông thôn",
     examples:
       [
         {
           en: "Users in the countryside often share one phone in a family.",
-          vi: "Ng\u01b0\u1eddi d\u00f9ng \u1edf n\u00f4ng th\u00f4n th\u01b0\u1eddng d\u00f9ng chung m\u1ed9t \u0111i\u1ec7n tho\u1ea1i trong gia \u0111\u00ecnh.",
+          vi: "Người dùng ở nông thôn thường dùng chung một điện thoại trong gia đình.",
         },
       ],
   }
@@ -127,14 +127,14 @@
     kind: collocation,
     cefr: B1,
     topic: equality,
-    ipa: "/\u02c8\u0283\u026aft \u02ccw\u025c\u02d0k\u0259/",
+    ipa: "/ˈʃɪft ˌwɜːkə/",
     def: "A person whose working hours change, for example nights one week and days the next.",
-    vi: "ng\u01b0\u1eddi l\u00e0m theo ca",
+    vi: "người làm theo ca",
     examples:
       [
         {
           en: "Shift workers need reminders that are not tied to office hours.",
-          vi: "Ng\u01b0\u1eddi l\u00e0m theo ca c\u1ea7n nh\u1eafc nh\u1edf kh\u00f4ng g\u1eafn v\u1edbi gi\u1edd h\u00e0nh ch\u00ednh.",
+          vi: "Người làm theo ca cần nhắc nhở không gắn với giờ hành chính.",
         },
       ],
   }
@@ -145,14 +145,14 @@
     kind: collocation,
     cefr: A2,
     topic: equality,
-    ipa: "/\u02ccf\u025c\u02d0st ta\u026am \u02c8ju\u02d0z\u0259/",
+    ipa: "/ˌfɜːst taɪm ˈjuːzə/",
     def: "Someone who is using a product for the very first time.",
-    vi: "ng\u01b0\u1eddi d\u00f9ng l\u1ea7n \u0111\u1ea7u",
+    vi: "người dùng lần đầu",
     examples:
       [
         {
           en: "A first-time user doesn't know what this icon means.",
-          vi: "Ng\u01b0\u1eddi d\u00f9ng l\u1ea7n \u0111\u1ea7u kh\u00f4ng bi\u1ebft icon n\u00e0y ngh\u0129a l\u00e0 g\u00ec.",
+          vi: "Người dùng lần đầu không biết icon này nghĩa là gì.",
         },
       ],
   }
@@ -162,67 +162,14 @@
     pos: adjective,
     cefr: B2,
     topic: equality,
-    ipa: "/\u028cn\u02c8met/",
+    ipa: "/ʌnˈmet/",
     def: "Not yet satisfied or dealt with.",
-    vi: "ch\u01b0a \u0111\u01b0\u1ee3c \u0111\u00e1p \u1ee9ng",
+    vi: "chưa được đáp ứng",
     examples:
       [
         {
           en: "The survey shows an unmet need for offline receipts.",
-          vi: "Kh\u1ea3o s\u00e1t cho th\u1ea5y nhu c\u1ea7u xem ho\u00e1 \u0111\u01a1n offline ch\u01b0a \u0111\u01b0\u1ee3c \u0111\u00e1p \u1ee9ng.",
-        },
-      ],
-  }
-# Set 2: Accessibility barriers
-- {
-    slug: accessibility-n-t24,
-    lemma: "accessibility",
-    pos: noun,
-    cefr: B1,
-    topic: equality,
-    ipa: "/\u0259k\u02ccses\u0259\u02c8b\u026al\u0259ti/",
-    def: "How easy it is for everyone, including disabled people, to use something.",
-    vi: "kh\u1ea3 n\u0103ng ti\u1ebfp c\u1eadn",
-    examples:
-      [
-        {
-          en: "We check accessibility before every release.",
-          vi: "B\u1ecdn m\u00ecnh ki\u1ec3m tra kh\u1ea3 n\u0103ng ti\u1ebfp c\u1eadn tr\u01b0\u1edbc m\u1ed7i l\u1ea7n release.",
-        },
-      ],
-  }
-- {
-    slug: screen-reader-n-t24,
-    lemma: "screen reader",
-    pos: noun,
-    kind: collocation,
-    cefr: B1,
-    topic: equality,
-    ipa: "/\u02c8skri\u02d0n \u02ccri\u02d0d\u0259/",
-    def: "Software that reads the text on a screen aloud for blind users.",
-    vi: "tr\u00ecnh \u0111\u1ecdc m\u00e0n h\u00ecnh",
-    examples:
-      [
-        {
-          en: "The screen reader says 'button' but not what the button does.",
-          vi: "Tr\u00ecnh \u0111\u1ecdc m\u00e0n h\u00ecnh \u0111\u1ecdc 'n\u00fat' nh\u01b0ng kh\u00f4ng n\u00f3i n\u00fat l\u00e0m g\u00ec.",
-        },
-      ],
-  }
-- {
-    slug: contrast-n-t24,
-    lemma: "contrast",
-    pos: noun,
-    cefr: B1,
-    topic: equality,
-    ipa: "/\u02c8k\u0252ntr\u0251\u02d0st/",
-    def: "The difference in brightness between text and its background.",
-    vi: "\u0111\u1ed9 t\u01b0\u01a1ng ph\u1ea3n",
-    examples:
-      [
-        {
-          en: "Light grey on white has too little contrast.",
-          vi: "Ch\u1eef x\u00e1m nh\u1ea1t tr\u00ean n\u1ec1n tr\u1eafng c\u00f3 \u0111\u1ed9 t\u01b0\u01a1ng ph\u1ea3n qu\u00e1 th\u1ea5p.",
+          vi: "Khảo sát cho thấy nhu cầu xem hoá đơn offline chưa được đáp ứng.",
         },
       ],
   }
@@ -233,14 +180,14 @@
     kind: collocation,
     cefr: B1,
     topic: equality,
-    ipa: "/\u02ccki\u02d0b\u0254\u02d0d \u02c8\u0259\u028anli/",
+    ipa: "/ˌkiːbɔːd ˈəʊnli/",
     def: "Using a computer with the keyboard and no mouse.",
-    vi: "ch\u1ec9 d\u00f9ng b\u00e0n ph\u00edm",
+    vi: "chỉ dùng bàn phím",
     examples:
       [
         {
           en: "Keyboard-only users cannot open this menu.",
-          vi: "Ng\u01b0\u1eddi ch\u1ec9 d\u00f9ng b\u00e0n ph\u00edm kh\u00f4ng m\u1edf \u0111\u01b0\u1ee3c menu n\u00e0y.",
+          vi: "Người chỉ dùng bàn phím không mở được menu này.",
         },
       ],
   }
@@ -251,49 +198,14 @@
     kind: collocation,
     cefr: A2,
     topic: equality,
-    ipa: "/\u02c8sa\u026an \u02ccl\u00e6\u014b\u0261w\u026ad\u0292/",
+    ipa: "/ˈsaɪn ˌlæŋɡwɪdʒ/",
     def: "A language that uses hand movements instead of spoken words.",
-    vi: "ng\u00f4n ng\u1eef k\u00fd hi\u1ec7u",
+    vi: "ngôn ngữ ký hiệu",
     examples:
       [
         {
           en: "The help videos should offer a sign language version.",
-          vi: "Video h\u01b0\u1edbng d\u1eabn n\u00ean c\u00f3 phi\u00ean b\u1ea3n ng\u00f4n ng\u1eef k\u00fd hi\u1ec7u.",
-        },
-      ],
-  }
-- {
-    slug: image-description-n-t24,
-    lemma: "image description",
-    pos: noun,
-    kind: collocation,
-    cefr: B1,
-    topic: equality,
-    ipa: "/\u02c8\u026am\u026ad\u0292 d\u026a\u02ccskr\u026ap\u0283n/",
-    def: "A short text that says what a picture shows.",
-    vi: "m\u00f4 t\u1ea3 h\u00ecnh \u1ea3nh",
-    examples:
-      [
-        {
-          en: "Every product photo needs an image description.",
-          vi: "M\u1ed7i \u1ea3nh s\u1ea3n ph\u1ea9m c\u1ea7n c\u00f3 m\u00f4 t\u1ea3 h\u00ecnh \u1ea3nh.",
-        },
-      ],
-  }
-- {
-    slug: colour-blind-adj-t24,
-    lemma: "colour-blind",
-    pos: adjective,
-    cefr: B1,
-    topic: equality,
-    ipa: "/\u02c8k\u028cl\u0259 bla\u026and/",
-    def: "Unable to see the difference between some colours, such as red and green.",
-    vi: "m\u00f9 m\u00e0u",
-    examples:
-      [
-        {
-          en: "Colour-blind users can't tell the red and green states apart.",
-          vi: "Ng\u01b0\u1eddi m\u00f9 m\u00e0u kh\u00f4ng ph\u00e2n bi\u1ec7t \u0111\u01b0\u1ee3c tr\u1ea1ng th\u00e1i \u0111\u1ecf v\u00e0 xanh.",
+          vi: "Video hướng dẫn nên có phiên bản ngôn ngữ ký hiệu.",
         },
       ],
   }
@@ -304,33 +216,11 @@
     kind: collocation,
     cefr: B2,
     topic: equality,
-    ipa: "/\u02c8t\u00e6p \u02cct\u0251\u02d0\u0261\u026at/",
+    ipa: "/ˈtæp ˌtɑːɡɪt/",
     def: "The area on a touch screen that reacts when you touch it.",
-    vi: "v\u00f9ng ch\u1ea1m",
+    vi: "vùng chạm",
     examples:
-      [
-        {
-          en: "The close icon has a tiny tap target.",
-          vi: "Icon \u0111\u00f3ng c\u00f3 v\u00f9ng ch\u1ea1m qu\u00e1 nh\u1ecf.",
-        },
-      ],
-  }
-- {
-    slug: barrier-n-t24,
-    lemma: "barrier",
-    pos: noun,
-    cefr: B1,
-    topic: equality,
-    ipa: "/\u02c8b\u00e6ri\u0259/",
-    def: "Something that stops people from doing or getting something.",
-    vi: "r\u00e0o c\u1ea3n",
-    examples:
-      [
-        {
-          en: "A long sign-up form is a real barrier for new users.",
-          vi: "Form \u0111\u0103ng k\u00fd d\u00e0i l\u00e0 r\u00e0o c\u1ea3n th\u1eadt s\u1ef1 v\u1edbi ng\u01b0\u1eddi d\u00f9ng m\u1edbi.",
-        },
-      ],
+      [{ en: "The close icon has a tiny tap target.", vi: "Icon đóng có vùng chạm quá nhỏ." }],
   }
 - {
     slug: assistive-adj,
@@ -338,31 +228,14 @@
     pos: adjective,
     cefr: B2,
     topic: equality,
-    ipa: "/\u0259\u02c8s\u026ast\u026av/",
+    ipa: "/əˈsɪstɪv/",
     def: "Designed to help disabled people do things.",
-    vi: "h\u1ed7 tr\u1ee3 (cho ng\u01b0\u1eddi khuy\u1ebft t\u1eadt)",
+    vi: "hỗ trợ (cho người khuyết tật)",
     examples:
       [
         {
           en: "Test the page with assistive tools, not just your eyes.",
-          vi: "H\u00e3y test trang b\u1eb1ng c\u00f4ng c\u1ee5 h\u1ed7 tr\u1ee3, kh\u00f4ng ch\u1ec9 b\u1eb1ng m\u1eaft.",
-        },
-      ],
-  }
-- {
-    slug: magnifier-n-t24,
-    lemma: "magnifier",
-    pos: noun,
-    cefr: B1,
-    topic: equality,
-    ipa: "/\u02c8m\u00e6\u0261n\u026afa\u026a\u0259/",
-    def: "A tool that makes part of the screen look bigger.",
-    vi: "k\u00ednh l\u00fap (ph\u00f3ng to)",
-    examples:
-      [
-        {
-          en: "With the magnifier on, the popup goes off the screen.",
-          vi: "Khi b\u1eadt k\u00ednh l\u00fap, popup b\u1ecb tr\u00e0n ra ngo\u00e0i m\u00e0n h\u00ecnh.",
+          vi: "Hãy test trang bằng công cụ hỗ trợ, không chỉ bằng mắt.",
         },
       ],
   }
@@ -373,14 +246,14 @@
     kind: collocation,
     cefr: B2,
     topic: equality,
-    ipa: "/\u02c8f\u0259\u028ak\u0259s \u02cc\u0254\u02d0d\u0259/",
+    ipa: "/ˈfəʊkəs ˌɔːdə/",
     def: "The order in which items are selected when you press Tab.",
-    vi: "th\u1ee9 t\u1ef1 focus",
+    vi: "thứ tự focus",
     examples:
       [
         {
           en: "The focus order jumps from the header to the footer.",
-          vi: "Th\u1ee9 t\u1ef1 focus nh\u1ea3y t\u1eeb header xu\u1ed1ng footer.",
+          vi: "Thứ tự focus nhảy từ header xuống footer.",
         },
       ],
   }
@@ -392,32 +265,14 @@
     kind: collocation,
     cefr: B1,
     topic: equality,
-    ipa: "/\u02ccl\u0259\u028a \u02c8b\u00e6ndw\u026ad\u03b8/",
+    ipa: "/ˌləʊ ˈbændwɪdθ/",
     def: "Having or using only a slow internet connection.",
-    vi: "b\u0103ng th\u00f4ng th\u1ea5p",
+    vi: "băng thông thấp",
     examples:
       [
         {
           en: "We built a low-bandwidth mode with no videos.",
-          vi: "B\u1ecdn m\u00ecnh l\u00e0m ch\u1ebf \u0111\u1ed9 b\u0103ng th\u00f4ng th\u1ea5p kh\u00f4ng c\u00f3 video.",
-        },
-      ],
-  }
-- {
-    slug: pay-as-you-go-adj-t24,
-    lemma: "pay-as-you-go",
-    pos: adjective,
-    kind: phrase,
-    cefr: B1,
-    topic: equality,
-    ipa: "/\u02ccpe\u026a \u0259z ju\u02d0 \u02c8\u0261\u0259\u028a/",
-    def: "Paying only for what you use, before you use it.",
-    vi: "tr\u1ea3 tr\u01b0\u1edbc theo m\u1ee9c d\u00f9ng",
-    examples:
-      [
-        {
-          en: "Pay-as-you-go users worry about every megabyte.",
-          vi: "Ng\u01b0\u1eddi d\u00f9ng tr\u1ea3 tr\u01b0\u1edbc lo l\u1eafng t\u1eebng megabyte.",
+          vi: "Bọn mình làm chế độ băng thông thấp không có video.",
         },
       ],
   }
@@ -428,16 +283,11 @@
     kind: collocation,
     cefr: B1,
     topic: equality,
-    ipa: "/\u02ccl\u0259\u028a end d\u026a\u02c8va\u026as/",
+    ipa: "/ˌləʊ end dɪˈvaɪs/",
     def: "A cheap phone or computer with little memory and a slow processor.",
-    vi: "thi\u1ebft b\u1ecb c\u1ea5u h\u00ecnh th\u1ea5p",
+    vi: "thiết bị cấu hình thấp",
     examples:
-      [
-        {
-          en: "The app freezes on low-end devices.",
-          vi: "App b\u1ecb \u0111\u01a1 tr\u00ean thi\u1ebft b\u1ecb c\u1ea5u h\u00ecnh th\u1ea5p.",
-        },
-      ],
+      [{ en: "The app freezes on low-end devices.", vi: "App bị đơ trên thiết bị cấu hình thấp." }],
   }
 - {
     slug: cut-out-pv,
@@ -446,14 +296,14 @@
     kind: phrasal,
     cefr: B1,
     topic: equality,
-    ipa: "/\u02cck\u028ct \u02c8a\u028at/",
+    ipa: "/ˌkʌt ˈaʊt/",
     def: "To stop working suddenly, especially a connection.",
-    vi: "b\u1ecb ng\u1eaft \u0111\u1ed9t ng\u1ed9t",
+    vi: "bị ngắt đột ngột",
     examples:
       [
         {
           en: "The upload fails when the connection cuts out.",
-          vi: "Vi\u1ec7c t\u1ea3i l\u00ean th\u1ea5t b\u1ea1i khi k\u1ebft n\u1ed1i b\u1ecb ng\u1eaft.",
+          vi: "Việc tải lên thất bại khi kết nối bị ngắt.",
         },
       ],
   }
@@ -463,16 +313,10 @@
     pos: adjective,
     cefr: B2,
     topic: equality,
-    ipa: "/\u02c8sp\u0252ti/",
+    ipa: "/ˈspɒti/",
     def: "Not good everywhere or all the time; sometimes working and sometimes not.",
-    vi: "ch\u1eadp ch\u1eddn",
-    examples:
-      [
-        {
-          en: "Wi-Fi on the train is spotty.",
-          vi: "Wi-Fi tr\u00ean t\u00e0u ch\u1eadp ch\u1eddn.",
-        },
-      ],
+    vi: "chập chờn",
+    examples: [{ en: "Wi-Fi on the train is spotty.", vi: "Wi-Fi trên tàu chập chờn." }],
   }
 - {
     slug: lightweight-adj,
@@ -480,14 +324,14 @@
     pos: adjective,
     cefr: B1,
     topic: equality,
-    ipa: "/\u02c8la\u026atwe\u026at/",
+    ipa: "/ˈlaɪtweɪt/",
     def: "Small and quick to download or run.",
-    vi: "nh\u1eb9",
+    vi: "nhẹ",
     examples:
       [
         {
           en: "We need a lightweight version of the home page.",
-          vi: "B\u1ecdn m\u00ecnh c\u1ea7n m\u1ed9t phi\u00ean b\u1ea3n nh\u1eb9 c\u1ee7a trang ch\u1ee7.",
+          vi: "Bọn mình cần một phiên bản nhẹ của trang chủ.",
         },
       ],
   }
@@ -497,32 +341,14 @@
     pos: verb,
     cefr: B1,
     topic: equality,
-    ipa: "/\u0283r\u026a\u014bk/",
+    ipa: "/ʃrɪŋk/",
     def: "To become or make something smaller.",
-    vi: "thu nh\u1ecf",
+    vi: "thu nhỏ",
     examples:
       [
         {
           en: "We shrank the images from 2 MB to 200 KB.",
-          vi: "B\u1ecdn m\u00ecnh thu nh\u1ecf \u1ea3nh t\u1eeb 2 MB xu\u1ed1ng 200 KB.",
-        },
-      ],
-  }
-- {
-    slug: skeleton-screen-n-t24,
-    lemma: "skeleton screen",
-    pos: noun,
-    kind: collocation,
-    cefr: B2,
-    topic: equality,
-    ipa: "/\u02c8skel\u026atn \u02ccskri\u02d0n/",
-    def: "A simple grey outline of a page shown while the real content loads.",
-    vi: "m\u00e0n h\u00ecnh khung (skeleton)",
-    examples:
-      [
-        {
-          en: "Show a skeleton screen instead of a blank page.",
-          vi: "Hi\u1ec7n m\u00e0n h\u00ecnh khung thay v\u00ec trang tr\u1eafng.",
+          vi: "Bọn mình thu nhỏ ảnh từ 2 MB xuống 200 KB.",
         },
       ],
   }
@@ -532,14 +358,14 @@
     pos: noun,
     cefr: B1,
     topic: equality,
-    ipa: "/s\u026a\u014bk/",
+    ipa: "/sɪŋk/",
     def: "The process of making data the same on a device and a server.",
-    vi: "\u0111\u1ed3ng b\u1ed9",
+    vi: "đồng bộ",
     examples:
       [
         {
           en: "The sync runs when the phone is back online.",
-          vi: "Vi\u1ec7c \u0111\u1ed3ng b\u1ed9 ch\u1ea1y khi \u0111i\u1ec7n tho\u1ea1i c\u00f3 m\u1ea1ng l\u1ea1i.",
+          vi: "Việc đồng bộ chạy khi điện thoại có mạng lại.",
         },
       ],
   }
@@ -550,14 +376,14 @@
     kind: phrasal,
     cefr: B2,
     topic: equality,
-    ipa: "/\u02cckju\u02d0 \u02c8\u028cp/",
+    ipa: "/ˌkjuː ˈʌp/",
     def: "To put things in a line to be dealt with later.",
-    vi: "x\u1ebfp h\u00e0ng ch\u1edd",
+    vi: "xếp hàng chờ",
     examples:
       [
         {
           en: "The app queues up messages and sends them later.",
-          vi: "App x\u1ebfp c\u00e1c tin nh\u1eafn ch\u1edd v\u00e0 g\u1eedi sau.",
+          vi: "App xếp các tin nhắn chờ và gửi sau.",
         },
       ],
   }
@@ -568,14 +394,14 @@
     kind: collocation,
     cefr: B1,
     topic: equality,
-    ipa: "/\u02cctekst \u02c8\u0259\u028anli/",
+    ipa: "/ˌtekst ˈəʊnli/",
     def: "Showing words and no pictures or video.",
-    vi: "ch\u1ec9 c\u00f3 ch\u1eef",
+    vi: "chỉ có chữ",
     examples:
       [
         {
           en: "On slow networks the news page switches to a text-only view.",
-          vi: "Tr\u00ean m\u1ea1ng ch\u1eadm, trang tin chuy\u1ec3n sang ch\u1ebf \u0111\u1ed9 ch\u1ec9 c\u00f3 ch\u1eef.",
+          vi: "Trên mạng chậm, trang tin chuyển sang chế độ chỉ có chữ.",
         },
       ],
   }
@@ -586,14 +412,14 @@
     kind: collocation,
     cefr: B1,
     topic: equality,
-    ipa: "/\u02cc\u0252fla\u026an \u02c8m\u0259\u028ad/",
+    ipa: "/ˌɒflaɪn ˈməʊd/",
     def: "A way of using an app without an internet connection.",
-    vi: "ch\u1ebf \u0111\u1ed9 ngo\u1ea1i tuy\u1ebfn",
+    vi: "chế độ ngoại tuyến",
     examples:
       [
         {
           en: "In offline mode, users can still read saved orders.",
-          vi: "\u1ede ch\u1ebf \u0111\u1ed9 ngo\u1ea1i tuy\u1ebfn, ng\u01b0\u1eddi d\u00f9ng v\u1eabn \u0111\u1ecdc \u0111\u01b0\u1ee3c \u0111\u01a1n \u0111\u00e3 l\u01b0u.",
+          vi: "Ở chế độ ngoại tuyến, người dùng vẫn đọc được đơn đã lưu.",
         },
       ],
   }
@@ -604,16 +430,11 @@
     kind: collocation,
     cefr: B1,
     topic: equality,
-    ipa: "/\u02c8s\u026a\u0261n\u0259l \u02ccstre\u014b\u03b8/",
+    ipa: "/ˈsɪɡnəl ˌstreŋθ/",
     def: "How strong a mobile or wireless connection is.",
-    vi: "c\u01b0\u1eddng \u0111\u1ed9 s\u00f3ng",
+    vi: "cường độ sóng",
     examples:
-      [
-        {
-          en: "Signal strength drops in the basement car park.",
-          vi: "S\u00f3ng y\u1ebfu h\u1eb3n \u1edf h\u1ea7m g\u1eedi xe.",
-        },
-      ],
+      [{ en: "Signal strength drops in the basement car park.", vi: "Sóng yếu hẳn ở hầm gửi xe." }],
   }
 - {
     slug: prefetch-v,
@@ -621,14 +442,14 @@
     pos: verb,
     cefr: C1,
     topic: equality,
-    ipa: "/\u02ccpri\u02d0\u02c8fet\u0283/",
+    ipa: "/ˌpriːˈfetʃ/",
     def: "To download data before the user asks for it.",
-    vi: "t\u1ea3i tr\u01b0\u1edbc",
+    vi: "tải trước",
     examples:
       [
         {
           en: "We prefetch the next lesson while on Wi-Fi.",
-          vi: "B\u1ecdn m\u00ecnh t\u1ea3i tr\u01b0\u1edbc b\u00e0i ti\u1ebfp theo khi c\u00f3 Wi-Fi.",
+          vi: "Bọn mình tải trước bài tiếp theo khi có Wi-Fi.",
         },
       ],
   }
@@ -639,14 +460,14 @@
     pos: noun,
     cefr: B2,
     topic: equality,
-    ipa: "/\u02c8l\u026at\u0259r\u0259si/",
+    ipa: "/ˈlɪtərəsi/",
     def: "The ability to read and write.",
-    vi: "kh\u1ea3 n\u0103ng \u0111\u1ecdc vi\u1ebft",
+    vi: "khả năng đọc viết",
     examples:
       [
         {
           en: "Low literacy users rely on icons and voice.",
-          vi: "Ng\u01b0\u1eddi d\u00f9ng \u0111\u1ecdc vi\u1ebft k\u00e9m d\u1ef1a v\u00e0o icon v\u00e0 gi\u1ecdng n\u00f3i.",
+          vi: "Người dùng đọc viết kém dựa vào icon và giọng nói.",
         },
       ],
   }
@@ -657,14 +478,14 @@
     kind: collocation,
     cefr: C1,
     topic: equality,
-    ipa: "/\u02c8\u026ansa\u026ad\u0259 \u02cct\u025c\u02d0m/",
+    ipa: "/ˈɪnsaɪdə ˌtɜːm/",
     def: "A word only people inside a team or field understand.",
-    vi: "t\u1eeb n\u1ed9i b\u1ed9, thu\u1eadt ng\u1eef trong ngh\u1ec1",
+    vi: "từ nội bộ, thuật ngữ trong nghề",
     examples:
       [
         {
           en: "'Token expired' is an insider term to most customers.",
-          vi: "'Token expired' l\u00e0 thu\u1eadt ng\u1eef n\u1ed9i b\u1ed9 v\u1edbi \u0111a s\u1ed1 kh\u00e1ch h\u00e0ng.",
+          vi: "'Token expired' là thuật ngữ nội bộ với đa số khách hàng.",
         },
       ],
   }
@@ -675,31 +496,14 @@
     kind: collocation,
     cefr: A2,
     topic: equality,
-    ipa: "/\u02ccevride\u026a \u02c8w\u025c\u02d0d/",
+    ipa: "/ˌevrideɪ ˈwɜːd/",
     def: "A simple word that people use in normal life.",
-    vi: "t\u1eeb th\u00f4ng d\u1ee5ng",
+    vi: "từ thông dụng",
     examples:
       [
         {
           en: "Use an everyday word like 'save', not 'persist'.",
-          vi: "D\u00f9ng t\u1eeb th\u00f4ng d\u1ee5ng nh\u01b0 'l\u01b0u', \u0111\u1eebng d\u00f9ng 'persist'.",
-        },
-      ],
-  }
-- {
-    slug: wording-n-t24,
-    lemma: "wording",
-    pos: noun,
-    cefr: B2,
-    topic: equality,
-    ipa: "/\u02c8w\u025c\u02d0d\u026a\u014b/",
-    def: "The words chosen to say something.",
-    vi: "c\u00e1ch d\u00f9ng t\u1eeb",
-    examples:
-      [
-        {
-          en: "The wording of this error makes users panic.",
-          vi: "C\u00e1ch d\u00f9ng t\u1eeb trong l\u1ed7i n\u00e0y l\u00e0m ng\u01b0\u1eddi d\u00f9ng ho\u1ea3ng.",
+          vi: "Dùng từ thông dụng như 'lưu', đừng dùng 'persist'.",
         },
       ],
   }
@@ -709,14 +513,14 @@
     pos: verb,
     cefr: C1,
     topic: equality,
-    ipa: "/\u02ccri\u02d0\u02c8ste\u026at/",
+    ipa: "/ˌriːˈsteɪt/",
     def: "To say something again, often in a clearer way.",
-    vi: "n\u00f3i l\u1ea1i (r\u00f5 h\u01a1n)",
+    vi: "nói lại (rõ hơn)",
     examples:
       [
         {
           en: "Restate the rule in one short sentence.",
-          vi: "H\u00e3y n\u00f3i l\u1ea1i quy t\u1eafc trong m\u1ed9t c\u00e2u ng\u1eafn.",
+          vi: "Hãy nói lại quy tắc trong một câu ngắn.",
         },
       ],
   }
@@ -726,14 +530,14 @@
     pos: noun,
     cefr: B1,
     topic: equality,
-    ipa: "/\u026an\u02c8t\u025c\u02d0pr\u026at\u0259/",
+    ipa: "/ɪnˈtɜːprɪtə/",
     def: "A person who changes spoken words into another language.",
-    vi: "phi\u00ean d\u1ecbch vi\u00ean",
+    vi: "phiên dịch viên",
     examples:
       [
         {
           en: "We used an interpreter for the user interviews in Khmer.",
-          vi: "B\u1ecdn m\u00ecnh d\u00f9ng phi\u00ean d\u1ecbch vi\u00ean cho c\u00e1c bu\u1ed5i ph\u1ecfng v\u1ea5n b\u1eb1ng ti\u1ebfng Khmer.",
+          vi: "Bọn mình dùng phiên dịch viên cho các buổi phỏng vấn bằng tiếng Khmer.",
         },
       ],
   }
@@ -743,32 +547,14 @@
     pos: verb,
     cefr: B2,
     topic: equality,
-    ipa: "/\u02c8l\u0259\u028ak\u0259la\u026az/",
+    ipa: "/ˈləʊkəlaɪz/",
     def: "To change a product so it suits the language and customs of a country.",
-    vi: "b\u1ea3n \u0111\u1ecba ho\u00e1",
+    vi: "bản địa hoá",
     examples:
       [
         {
           en: "We need to localise dates and prices, not just words.",
-          vi: "C\u1ea7n b\u1ea3n \u0111\u1ecba ho\u00e1 c\u1ea3 ng\u00e0y th\u00e1ng v\u00e0 gi\u00e1, kh\u00f4ng ch\u1ec9 ch\u1eef.",
-        },
-      ],
-  }
-- {
-    slug: reading-level-n-t24,
-    lemma: "reading level",
-    pos: noun,
-    kind: collocation,
-    cefr: B2,
-    topic: equality,
-    ipa: "/\u02c8ri\u02d0d\u026a\u014b \u02cclevl/",
-    def: "How hard a text is to read, often given as a school grade.",
-    vi: "m\u1ee9c \u0111\u1ed9 kh\u00f3 \u0111\u1ecdc",
-    examples:
-      [
-        {
-          en: "Keep help pages at a reading level of about grade 6.",
-          vi: "Gi\u1eef trang tr\u1ee3 gi\u00fap \u1edf m\u1ee9c \u0111\u1ecdc kho\u1ea3ng l\u1edbp 6.",
+          vi: "Cần bản địa hoá cả ngày tháng và giá, không chỉ chữ.",
         },
       ],
   }
@@ -779,14 +565,14 @@
     kind: collocation,
     cefr: B2,
     topic: equality,
-    ipa: "/\u02cc\u026anla\u026an \u02c8h\u026ant/",
+    ipa: "/ˌɪnlaɪn ˈhɪnt/",
     def: "A short help text shown next to a field.",
-    vi: "g\u1ee3i \u00fd t\u1ea1i ch\u1ed7",
+    vi: "gợi ý tại chỗ",
     examples:
       [
         {
           en: "Add an inline hint under the password field.",
-          vi: "Th\u00eam g\u1ee3i \u00fd t\u1ea1i ch\u1ed7 d\u01b0\u1edbi \u00f4 m\u1eadt kh\u1ea9u.",
+          vi: "Thêm gợi ý tại chỗ dưới ô mật khẩu.",
         },
       ],
   }
@@ -796,14 +582,14 @@
     pos: adjective,
     cefr: A2,
     topic: equality,
-    ipa: "/k\u0259n\u02c8fju\u02d0z\u026a\u014b/",
+    ipa: "/kənˈfjuːzɪŋ/",
     def: "Difficult to understand.",
-    vi: "kh\u00f3 hi\u1ec3u",
+    vi: "khó hiểu",
     examples:
       [
         {
           en: "Two buttons called 'OK' and 'Done' are confusing.",
-          vi: "Hai n\u00fat t\u00ean 'OK' v\u00e0 'Done' r\u1ea5t kh\u00f3 hi\u1ec3u.",
+          vi: "Hai nút tên 'OK' và 'Done' rất khó hiểu.",
         },
       ],
   }
@@ -813,14 +599,14 @@
     pos: verb,
     cefr: B2,
     topic: equality,
-    ipa: "/\u02ccm\u026as\u02c8ri\u02d0d/",
+    ipa: "/ˌmɪsˈriːd/",
     def: "To read or understand something wrongly.",
-    vi: "\u0111\u1ecdc nh\u1ea7m",
+    vi: "đọc nhầm",
     examples:
       [
         {
           en: "Many users misread the fee as a discount.",
-          vi: "Nhi\u1ec1u ng\u01b0\u1eddi d\u00f9ng \u0111\u1ecdc nh\u1ea7m ph\u00ed th\u00e0nh gi\u1ea3m gi\u00e1.",
+          vi: "Nhiều người dùng đọc nhầm phí thành giảm giá.",
         },
       ],
   }
@@ -831,14 +617,14 @@
     kind: phrase,
     cefr: B1,
     topic: equality,
-    ipa: "/\u02ccstep ba\u026a \u02c8step/",
+    ipa: "/ˌstep baɪ ˈstep/",
     def: "Done or explained one small stage at a time.",
-    vi: "t\u1eebng b\u01b0\u1edbc",
+    vi: "từng bước",
     examples:
       [
         {
           en: "Give new users a step-by-step guide.",
-          vi: "Cho ng\u01b0\u1eddi d\u00f9ng m\u1edbi m\u1ed9t h\u01b0\u1edbng d\u1eabn t\u1eebng b\u01b0\u1edbc.",
+          vi: "Cho người dùng mới một hướng dẫn từng bước.",
         },
       ],
   }
@@ -849,14 +635,14 @@
     kind: collocation,
     cefr: B1,
     topic: equality,
-    ipa: "/\u02ccsek\u0259nd \u02c8l\u00e6\u014b\u0261w\u026ad\u0292/",
+    ipa: "/ˌsekənd ˈlæŋɡwɪdʒ/",
     def: "A language you speak that is not your first language.",
-    vi: "ng\u00f4n ng\u1eef th\u1ee9 hai",
+    vi: "ngôn ngữ thứ hai",
     examples:
       [
         {
           en: "For many users, English is a second language.",
-          vi: "V\u1edbi nhi\u1ec1u ng\u01b0\u1eddi d\u00f9ng, ti\u1ebfng Anh l\u00e0 ng\u00f4n ng\u1eef th\u1ee9 hai.",
+          vi: "Với nhiều người dùng, tiếng Anh là ngôn ngữ thứ hai.",
         },
       ],
   }
@@ -867,14 +653,14 @@
     kind: collocation,
     cefr: B1,
     topic: equality,
-    ipa: "/\u02c8sent\u0259ns \u02ccle\u014b\u03b8/",
+    ipa: "/ˈsentəns ˌleŋθ/",
     def: "How many words a sentence has.",
-    vi: "\u0111\u1ed9 d\u00e0i c\u00e2u",
+    vi: "độ dài câu",
     examples:
       [
         {
           en: "Keep sentence length under twenty words in the onboarding.",
-          vi: "Gi\u1eef \u0111\u1ed9 d\u00e0i c\u00e2u d\u01b0\u1edbi hai m\u01b0\u01a1i t\u1eeb trong ph\u1ea7n onboarding.",
+          vi: "Giữ độ dài câu dưới hai mươi từ trong phần onboarding.",
         },
       ],
   }
@@ -885,14 +671,14 @@
     kind: collocation,
     cefr: B2,
     topic: equality,
-    ipa: "/\u02c8ra\u026at\u026a\u014b \u02ccs\u026ast\u0259m/",
+    ipa: "/ˈraɪtɪŋ ˌsɪstəm/",
     def: "A set of letters or symbols used to write a language.",
-    vi: "h\u1ec7 ch\u1eef vi\u1ebft",
+    vi: "hệ chữ viết",
     examples:
       [
         {
           en: "Test the layout with every writing system we support.",
-          vi: "Test b\u1ed1 c\u1ee5c v\u1edbi m\u1ecdi h\u1ec7 ch\u1eef vi\u1ebft b\u1ecdn m\u00ecnh h\u1ed7 tr\u1ee3.",
+          vi: "Test bố cục với mọi hệ chữ viết bọn mình hỗ trợ.",
         },
       ],
   }
@@ -903,32 +689,14 @@
     kind: phrasal,
     cefr: B1,
     topic: equality,
-    ipa: "/\u02ccbre\u026ak \u02c8da\u028an/",
+    ipa: "/ˌbreɪk ˈdaʊn/",
     def: "To divide information into smaller parts so it is easier to understand.",
-    vi: "chia nh\u1ecf",
+    vi: "chia nhỏ",
     examples:
       [
         {
           en: "Break down the long form into three short screens.",
-          vi: "Chia nh\u1ecf form d\u00e0i th\u00e0nh ba m\u00e0n h\u00ecnh ng\u1eafn.",
-        },
-      ],
-  }
-# Set 5: Fairness in product rules
-- {
-    slug: fairness-n-t24,
-    lemma: "fairness",
-    pos: noun,
-    cefr: B1,
-    topic: equality,
-    ipa: "/\u02c8fe\u0259n\u0259s/",
-    def: "The quality of treating people equally and reasonably.",
-    vi: "s\u1ef1 c\u00f4ng b\u1eb1ng",
-    examples:
-      [
-        {
-          en: "We should review the fairness of the refund rule.",
-          vi: "M\u00ecnh n\u00ean xem l\u1ea1i t\u00ednh c\u00f4ng b\u1eb1ng c\u1ee7a quy t\u1eafc ho\u00e0n ti\u1ec1n.",
+          vi: "Chia nhỏ form dài thành ba màn hình ngắn.",
         },
       ],
   }
@@ -938,14 +706,14 @@
     pos: noun,
     cefr: C1,
     topic: equality,
-    ipa: "/\u02ccel\u026ad\u0292\u0259\u02c8b\u026al\u0259ti/",
+    ipa: "/ˌelɪdʒəˈbɪləti/",
     def: "The state of being allowed to have or do something.",
-    vi: "\u0111i\u1ec1u ki\u1ec7n \u0111\u01b0\u1ee3c h\u01b0\u1edfng",
+    vi: "điều kiện được hưởng",
     examples:
       [
         {
           en: "Loan eligibility depends on a fixed address.",
-          vi: "\u0110i\u1ec1u ki\u1ec7n vay ph\u1ee5 thu\u1ed9c v\u00e0o \u0111\u1ecba ch\u1ec9 c\u1ed1 \u0111\u1ecbnh.",
+          vi: "Điều kiện vay phụ thuộc vào địa chỉ cố định.",
         },
       ],
   }
@@ -955,14 +723,14 @@
     pos: noun,
     cefr: B1,
     topic: equality,
-    ipa: "/\u02ccd\u026as\u0259d\u02c8v\u0251\u02d0nt\u026ad\u0292/",
+    ipa: "/ˌdɪsədˈvɑːntɪdʒ/",
     def: "Something that makes it harder for someone to succeed.",
-    vi: "b\u1ea5t l\u1ee3i",
+    vi: "bất lợi",
     examples:
       [
         {
           en: "Users without a bank card are at a disadvantage.",
-          vi: "Ng\u01b0\u1eddi d\u00f9ng kh\u00f4ng c\u00f3 th\u1ebb ng\u00e2n h\u00e0ng b\u1ecb b\u1ea5t l\u1ee3i.",
+          vi: "Người dùng không có thẻ ngân hàng bị bất lợi.",
         },
       ],
   }
@@ -972,14 +740,14 @@
     pos: verb,
     cefr: B2,
     topic: equality,
-    ipa: "/\u02c8pi\u02d0n\u0259la\u026az/",
+    ipa: "/ˈpiːnəlaɪz/",
     def: "To treat someone badly or punish them, often unfairly.",
-    vi: "ph\u1ea1t, g\u00e2y thi\u1ec7t",
+    vi: "phạt, gây thiệt",
     examples:
       [
         {
           en: "The rating rule penalises drivers in rainy areas.",
-          vi: "Quy t\u1eafc ch\u1ea5m \u0111i\u1ec3m g\u00e2y thi\u1ec7t cho t\u00e0i x\u1ebf \u1edf v\u00f9ng hay m\u01b0a.",
+          vi: "Quy tắc chấm điểm gây thiệt cho tài xế ở vùng hay mưa.",
         },
       ],
   }
@@ -989,14 +757,14 @@
     pos: verb,
     cefr: B1,
     topic: equality,
-    ipa: "/\u026ak\u02c8sklu\u02d0d/",
+    ipa: "/ɪkˈskluːd/",
     def: "To keep someone out of something.",
-    vi: "lo\u1ea1i tr\u1eeb",
+    vi: "loại trừ",
     examples:
       [
         {
           en: "A phone-only login excludes people without a smartphone.",
-          vi: "\u0110\u0103ng nh\u1eadp ch\u1ec9 qua \u0111i\u1ec7n tho\u1ea1i lo\u1ea1i tr\u1eeb ng\u01b0\u1eddi kh\u00f4ng c\u00f3 smartphone.",
+          vi: "Đăng nhập chỉ qua điện thoại loại trừ người không có smartphone.",
         },
       ],
   }
@@ -1006,14 +774,14 @@
     pos: noun,
     cefr: B2,
     topic: equality,
-    ipa: "/kra\u026a\u02c8t\u026a\u0259ri\u0259/",
+    ipa: "/kraɪˈtɪəriə/",
     def: "The standards used to judge or decide something.",
-    vi: "ti\u00eau ch\u00ed",
+    vi: "tiêu chí",
     examples:
       [
         {
           en: "Who decided the criteria for a 'trusted seller'?",
-          vi: "Ai quy\u1ebft \u0111\u1ecbnh ti\u00eau ch\u00ed cho 'ng\u01b0\u1eddi b\u00e1n uy t\u00edn'?",
+          vi: "Ai quyết định tiêu chí cho 'người bán uy tín'?",
         },
       ],
   }
@@ -1023,14 +791,14 @@
     pos: noun,
     cefr: C1,
     topic: equality,
-    ipa: "/\u02c8k\u028ct \u0252f/",
+    ipa: "/ˈkʌt ɒf/",
     def: "A fixed limit where something starts or stops.",
-    vi: "ng\u01b0\u1ee1ng c\u1eaft",
+    vi: "ngưỡng cắt",
     examples:
       [
         {
           en: "The fraud cut-off blocks many small shops.",
-          vi: "Ng\u01b0\u1ee1ng ch\u1ed1ng gian l\u1eadn ch\u1eb7n nhi\u1ec1u c\u1eeda h\u00e0ng nh\u1ecf.",
+          vi: "Ngưỡng chống gian lận chặn nhiều cửa hàng nhỏ.",
         },
       ],
   }
@@ -1040,16 +808,10 @@
     pos: adjective,
     cefr: C1,
     topic: equality,
-    ipa: "/\u02c8\u0251\u02d0b\u026atr\u0259ri/",
+    ipa: "/ˈɑːbɪtrəri/",
     def: "Chosen without a good reason.",
-    vi: "tu\u1ef3 ti\u1ec7n",
-    examples:
-      [
-        {
-          en: "The 30-day limit seems arbitrary.",
-          vi: "Gi\u1edbi h\u1ea1n 30 ng\u00e0y c\u00f3 v\u1ebb tu\u1ef3 ti\u1ec7n.",
-        },
-      ],
+    vi: "tuỳ tiện",
+    examples: [{ en: "The 30-day limit seems arbitrary.", vi: "Giới hạn 30 ngày có vẻ tuỳ tiện." }],
   }
 - {
     slug: uneven-adj,
@@ -1057,14 +819,14 @@
     pos: adjective,
     cefr: B2,
     topic: equality,
-    ipa: "/\u028cn\u02c8i\u02d0vn/",
+    ipa: "/ʌnˈiːvn/",
     def: "Not the same for everyone or everywhere.",
-    vi: "kh\u00f4ng \u0111\u1ed3ng \u0111\u1ec1u",
+    vi: "không đồng đều",
     examples:
       [
         {
           en: "Delivery times are uneven across provinces.",
-          vi: "Th\u1eddi gian giao h\u00e0ng kh\u00f4ng \u0111\u1ed3ng \u0111\u1ec1u gi\u1eefa c\u00e1c t\u1ec9nh.",
+          vi: "Thời gian giao hàng không đồng đều giữa các tỉnh.",
         },
       ],
   }
@@ -1074,14 +836,14 @@
     pos: noun,
     cefr: B2,
     topic: equality,
-    ipa: "/\u0259\u02c8pi\u02d0l/",
+    ipa: "/əˈpiːl/",
     def: "A request to change a decision you think is wrong.",
-    vi: "khi\u1ebfu n\u1ea1i, kh\u00e1ng ngh\u1ecb",
+    vi: "khiếu nại, kháng nghị",
     examples:
       [
         {
           en: "Blocked users need a simple way to make an appeal.",
-          vi: "Ng\u01b0\u1eddi b\u1ecb kho\u00e1 c\u1ea7n c\u00e1ch khi\u1ebfu n\u1ea1i \u0111\u01a1n gi\u1ea3n.",
+          vi: "Người bị khoá cần cách khiếu nại đơn giản.",
         },
       ],
   }
@@ -1091,14 +853,14 @@
     pos: noun,
     cefr: C1,
     topic: equality,
-    ipa: "/\u026a\u0261\u02c8zemp\u0283n/",
+    ipa: "/ɪɡˈzempʃn/",
     def: "Permission not to follow a rule.",
-    vi: "s\u1ef1 mi\u1ec5n tr\u1eeb",
+    vi: "sự miễn trừ",
     examples:
       [
         {
           en: "Students get an exemption from the monthly fee.",
-          vi: "Sinh vi\u00ean \u0111\u01b0\u1ee3c mi\u1ec5n ph\u00ed h\u1eb1ng th\u00e1ng.",
+          vi: "Sinh viên được miễn phí hằng tháng.",
         },
       ],
   }
@@ -1109,14 +871,14 @@
     kind: phrasal,
     cefr: B2,
     topic: equality,
-    ipa: "/\u02cclet \u02c8\u0252f/",
+    ipa: "/ˌlet ˈɒf/",
     def: "To not punish or charge someone.",
-    vi: "b\u1ecf qua, mi\u1ec5n",
+    vi: "bỏ qua, miễn",
     examples:
       [
         {
           en: "We let users off the late fee during floods.",
-          vi: "B\u1ecdn m\u00ecnh mi\u1ec5n ph\u00ed tr\u1ec5 h\u1ea1n trong m\u00f9a l\u0169.",
+          vi: "Bọn mình miễn phí trễ hạn trong mùa lũ.",
         },
       ],
   }
@@ -1127,14 +889,14 @@
     kind: collocation,
     cefr: B2,
     topic: equality,
-    ipa: "/\u02cci\u02d0kw\u0259l \u02c8tri\u02d0tm\u0259nt/",
+    ipa: "/ˌiːkwəl ˈtriːtmənt/",
     def: "Treating all people in the same way.",
-    vi: "\u0111\u1ed1i x\u1eed b\u00ecnh \u0111\u1eb3ng",
+    vi: "đối xử bình đẳng",
     examples:
       [
         {
           en: "Equal treatment means the same price for every region.",
-          vi: "\u0110\u1ed1i x\u1eed b\u00ecnh \u0111\u1eb3ng ngh\u0129a l\u00e0 c\u00f9ng m\u1ed9t gi\u00e1 cho m\u1ecdi v\u00f9ng.",
+          vi: "Đối xử bình đẳng nghĩa là cùng một giá cho mọi vùng.",
         },
       ],
   }
@@ -1144,14 +906,14 @@
     pos: noun,
     cefr: B2,
     topic: equality,
-    ipa: "/ma\u026a\u02c8n\u0252r\u0259ti/",
+    ipa: "/maɪˈnɒrəti/",
     def: "A small group that is different from the larger group.",
-    vi: "thi\u1ec3u s\u1ed1",
+    vi: "thiểu số",
     examples:
       [
         {
           en: "Ethnic minority users often have names our form rejects.",
-          vi: "Ng\u01b0\u1eddi d\u00f9ng d\u00e2n t\u1ed9c thi\u1ec3u s\u1ed1 th\u01b0\u1eddng c\u00f3 t\u00ean m\u00e0 form c\u1ee7a m\u00ecnh t\u1eeb ch\u1ed1i.",
+          vi: "Người dùng dân tộc thiểu số thường có tên mà form của mình từ chối.",
         },
       ],
   }
@@ -1161,14 +923,14 @@
     pos: adjective,
     cefr: C1,
     topic: equality,
-    ipa: "/\u02c8m\u0251\u02d0d\u0292\u026an\u0259la\u026azd/",
+    ipa: "/ˈmɑːdʒɪnəlaɪzd/",
     def: "Treated as unimportant and kept outside the main group.",
-    vi: "b\u1ecb g\u1ea1t ra l\u1ec1",
+    vi: "bị gạt ra lề",
     examples:
       [
         {
           en: "Marginalised groups rarely join our beta tests.",
-          vi: "C\u00e1c nh\u00f3m b\u1ecb g\u1ea1t ra l\u1ec1 hi\u1ebfm khi tham gia beta test.",
+          vi: "Các nhóm bị gạt ra lề hiếm khi tham gia beta test.",
         },
       ],
   }
@@ -1178,14 +940,14 @@
     pos: noun,
     cefr: C1,
     topic: equality,
-    ipa: "/\u02c8lu\u02d0phu\u02d0l/",
+    ipa: "/ˈluːphuːl/",
     def: "A small mistake in a rule that lets people avoid it.",
-    vi: "k\u1ebd h\u1edf",
+    vi: "kẽ hở",
     examples:
       [
         {
           en: "Some sellers use a loophole to get free promotion.",
-          vi: "M\u1ed9t s\u1ed1 ng\u01b0\u1eddi b\u00e1n l\u1ee3i d\u1ee5ng k\u1ebd h\u1edf \u0111\u1ec3 \u0111\u01b0\u1ee3c qu\u1ea3ng b\u00e1 mi\u1ec5n ph\u00ed.",
+          vi: "Một số người bán lợi dụng kẽ hở để được quảng bá miễn phí.",
         },
       ],
   }
@@ -1195,14 +957,14 @@
     pos: verb,
     cefr: B2,
     topic: equality,
-    ipa: "/d\u026a\u02c8skr\u026am\u026ane\u026at/",
+    ipa: "/dɪˈskrɪmɪneɪt/",
     def: "To treat a person or group worse than others.",
-    vi: "ph\u00e2n bi\u1ec7t \u0111\u1ed1i x\u1eed",
+    vi: "phân biệt đối xử",
     examples:
       [
         {
           en: "The rule doesn't mean to discriminate, but it does.",
-          vi: "Quy t\u1eafc kh\u00f4ng c\u1ed1 \u00fd ph\u00e2n bi\u1ec7t \u0111\u1ed1i x\u1eed, nh\u01b0ng th\u1ef1c t\u1ebf l\u00e0 c\u00f3.",
+          vi: "Quy tắc không cố ý phân biệt đối xử, nhưng thực tế là có.",
         },
       ],
   }
@@ -1213,14 +975,14 @@
     kind: phrase,
     cefr: C1,
     topic: equality,
-    ipa: "/\u0259 \u02cclevl \u02c8ple\u026a\u026a\u014b fi\u02d0ld/",
+    ipa: "/ə ˌlevl ˈpleɪɪŋ fiːld/",
     def: "A situation where everyone has the same chance.",
-    vi: "s\u00e2n ch\u01a1i b\u00ecnh \u0111\u1eb3ng",
+    vi: "sân chơi bình đẳng",
     examples:
       [
         {
           en: "New sellers need a level playing field in search.",
-          vi: "Ng\u01b0\u1eddi b\u00e1n m\u1edbi c\u1ea7n s\u00e2n ch\u01a1i b\u00ecnh \u0111\u1eb3ng trong t\u00ecm ki\u1ebfm.",
+          vi: "Người bán mới cần sân chơi bình đẳng trong tìm kiếm.",
         },
       ],
   }
@@ -1231,14 +993,14 @@
     pos: adjective,
     cefr: B2,
     topic: equality,
-    ipa: "/\u02c8ba\u026a\u0259st/",
+    ipa: "/ˈbaɪəst/",
     def: "Unfairly favouring one group over another.",
-    vi: "thi\u00ean l\u1ec7ch",
+    vi: "thiên lệch",
     examples:
       [
         {
           en: "The model is biased against older applicants.",
-          vi: "M\u00f4 h\u00ecnh thi\u00ean l\u1ec7ch b\u1ea5t l\u1ee3i cho ng\u01b0\u1eddi n\u1ed9p h\u1ed3 s\u01a1 l\u1edbn tu\u1ed5i.",
+          vi: "Mô hình thiên lệch bất lợi cho người nộp hồ sơ lớn tuổi.",
         },
       ],
   }
@@ -1249,14 +1011,14 @@
     kind: collocation,
     cefr: C1,
     topic: equality,
-    ipa: "/\u02c8k\u0252nf\u026ad\u0259ns \u02ccsk\u0254\u02d0/",
+    ipa: "/ˈkɒnfɪdəns ˌskɔː/",
     def: "A number that shows how sure a model is about its answer.",
-    vi: "\u0111i\u1ec3m tin c\u1eady",
+    vi: "điểm tin cậy",
     examples:
       [
         {
           en: "Send results with a low confidence score to a person.",
-          vi: "Chuy\u1ec3n k\u1ebft qu\u1ea3 c\u00f3 \u0111i\u1ec3m tin c\u1eady th\u1ea5p cho ng\u01b0\u1eddi xem.",
+          vi: "Chuyển kết quả có điểm tin cậy thấp cho người xem.",
         },
       ],
   }
@@ -1266,14 +1028,14 @@
     pos: adjective,
     cefr: C1,
     topic: equality,
-    ipa: "/\u02cc\u028cnd\u0259\u02ccrepr\u026a\u02c8zent\u026ad/",
+    ipa: "/ˌʌndəˌreprɪˈzentɪd/",
     def: "Present in smaller numbers than is fair or expected.",
-    vi: "\u00edt \u0111\u01b0\u1ee3c \u0111\u1ea1i di\u1ec7n",
+    vi: "ít được đại diện",
     examples:
       [
         {
           en: "Southern accents are underrepresented in our voice data.",
-          vi: "Gi\u1ecdng mi\u1ec1n Nam \u00edt \u0111\u01b0\u1ee3c \u0111\u1ea1i di\u1ec7n trong d\u1eef li\u1ec7u gi\u1ecdng n\u00f3i.",
+          vi: "Giọng miền Nam ít được đại diện trong dữ liệu giọng nói.",
         },
       ],
   }
@@ -1284,14 +1046,14 @@
     kind: collocation,
     cefr: B2,
     topic: equality,
-    ipa: "/\u02c8tre\u026an\u026a\u014b \u02ccde\u026at\u0259/",
+    ipa: "/ˈtreɪnɪŋ ˌdeɪtə/",
     def: "The examples used to teach a machine learning model.",
-    vi: "d\u1eef li\u1ec7u hu\u1ea5n luy\u1ec7n",
+    vi: "dữ liệu huấn luyện",
     examples:
       [
         {
           en: "Most of the training data came from big cities.",
-          vi: "Ph\u1ea7n l\u1edbn d\u1eef li\u1ec7u hu\u1ea5n luy\u1ec7n \u0111\u1ebfn t\u1eeb th\u00e0nh ph\u1ed1 l\u1edbn.",
+          vi: "Phần lớn dữ liệu huấn luyện đến từ thành phố lớn.",
         },
       ],
   }
@@ -1301,14 +1063,14 @@
     pos: noun,
     cefr: C1,
     topic: equality,
-    ipa: "/\u02c8pr\u0252ksi/",
+    ipa: "/ˈprɒksi/",
     def: "Something used to stand for another thing that is hard to measure.",
-    vi: "bi\u1ebfn thay th\u1ebf",
+    vi: "biến thay thế",
     examples:
       [
         {
           en: "Postcode works as a proxy for income here.",
-          vi: "M\u00e3 b\u01b0u ch\u00ednh \u1edf \u0111\u00e2y \u0111\u00f3ng vai bi\u1ebfn thay th\u1ebf cho thu nh\u1eadp.",
+          vi: "Mã bưu chính ở đây đóng vai biến thay thế cho thu nhập.",
         },
       ],
   }
@@ -1319,14 +1081,14 @@
     kind: collocation,
     cefr: C1,
     topic: equality,
-    ipa: "/\u02ccf\u0254\u02d0ls \u02c8p\u0252z\u0259t\u026av/",
+    ipa: "/ˌfɔːls ˈpɒzətɪv/",
     def: "A result that wrongly says something is true.",
-    vi: "d\u01b0\u01a1ng t\u00ednh gi\u1ea3",
+    vi: "dương tính giả",
     examples:
       [
         {
           en: "Too many false positives block honest buyers.",
-          vi: "Qu\u00e1 nhi\u1ec1u d\u01b0\u01a1ng t\u00ednh gi\u1ea3 ch\u1eb7n ng\u01b0\u1eddi mua trung th\u1ef1c.",
+          vi: "Quá nhiều dương tính giả chặn người mua trung thực.",
         },
       ],
   }
@@ -1336,14 +1098,14 @@
     pos: verb,
     cefr: C1,
     topic: equality,
-    ipa: "/\u02ccm\u026as\u02c8kl\u00e6s\u026afa\u026a/",
+    ipa: "/ˌmɪsˈklæsɪfaɪ/",
     def: "To put something in the wrong group.",
-    vi: "ph\u00e2n lo\u1ea1i sai",
+    vi: "phân loại sai",
     examples:
       [
         {
           en: "The filter misclassifies dialect words as spam.",
-          vi: "B\u1ed9 l\u1ecdc ph\u00e2n lo\u1ea1i sai t\u1eeb \u0111\u1ecba ph\u01b0\u01a1ng th\u00e0nh spam.",
+          vi: "Bộ lọc phân loại sai từ địa phương thành spam.",
         },
       ],
   }
@@ -1354,14 +1116,14 @@
     kind: phrase,
     cefr: C1,
     topic: equality,
-    ipa: "/\u02cchju\u02d0m\u0259n \u026an \u00f0\u0259 \u02c8lu\u02d0p/",
+    ipa: "/ˌhjuːmən ɪn ðə ˈluːp/",
     def: "A system where a person checks or approves automatic decisions.",
-    vi: "c\u00f3 con ng\u01b0\u1eddi tham gia ki\u1ec3m duy\u1ec7t",
+    vi: "có con người tham gia kiểm duyệt",
     examples:
       [
         {
           en: "Account bans must keep a human in the loop.",
-          vi: "Vi\u1ec7c kho\u00e1 t\u00e0i kho\u1ea3n ph\u1ea3i c\u00f3 con ng\u01b0\u1eddi ki\u1ec3m duy\u1ec7t.",
+          vi: "Việc khoá tài khoản phải có con người kiểm duyệt.",
         },
       ],
   }
@@ -1371,14 +1133,14 @@
     pos: noun,
     cefr: B2,
     topic: equality,
-    ipa: "/\u02c8s\u028cb\u0261ru\u02d0p/",
+    ipa: "/ˈsʌbɡruːp/",
     def: "A smaller group inside a larger group.",
-    vi: "nh\u00f3m con",
+    vi: "nhóm con",
     examples:
       [
         {
           en: "Check accuracy for each subgroup, not just the average.",
-          vi: "Ki\u1ec3m tra \u0111\u1ed9 ch\u00ednh x\u00e1c theo t\u1eebng nh\u00f3m con, kh\u00f4ng ch\u1ec9 trung b\u00ecnh.",
+          vi: "Kiểm tra độ chính xác theo từng nhóm con, không chỉ trung bình.",
         },
       ],
   }
@@ -1388,14 +1150,14 @@
     pos: noun,
     cefr: C1,
     topic: equality,
-    ipa: "/\u02ccdem\u0259\u02c8\u0261r\u00e6f\u026ak/",
+    ipa: "/ˌdeməˈɡræfɪk/",
     def: "A group of people of a similar age, income, location, etc.",
-    vi: "nh\u00f3m nh\u00e2n kh\u1ea9u",
+    vi: "nhóm nhân khẩu",
     examples:
       [
         {
           en: "Which demographic gets the most rejections?",
-          vi: "Nh\u00f3m nh\u00e2n kh\u1ea9u n\u00e0o b\u1ecb t\u1eeb ch\u1ed1i nhi\u1ec1u nh\u1ea5t?",
+          vi: "Nhóm nhân khẩu nào bị từ chối nhiều nhất?",
         },
       ],
   }
@@ -1405,14 +1167,14 @@
     pos: noun,
     cefr: B2,
     topic: equality,
-    ipa: "/\u02c8steri\u0259ta\u026ap/",
+    ipa: "/ˈsteriətaɪp/",
     def: "A fixed, too simple idea about a type of person.",
-    vi: "\u0111\u1ecbnh ki\u1ebfn, khu\u00f4n m\u1eabu",
+    vi: "định kiến, khuôn mẫu",
     examples:
       [
         {
           en: "The image generator repeats a stereotype about nurses.",
-          vi: "B\u1ed9 t\u1ea1o \u1ea3nh l\u1eb7p l\u1ea1i khu\u00f4n m\u1eabu v\u1ec1 y t\u00e1.",
+          vi: "Bộ tạo ảnh lặp lại khuôn mẫu về y tá.",
         },
       ],
   }
@@ -1422,14 +1184,14 @@
     pos: verb,
     cefr: C1,
     topic: equality,
-    ipa: "/\u02cc\u0259\u028av\u0259\u02c8ru\u02d0l/",
+    ipa: "/ˌəʊvəˈruːl/",
     def: "To change a decision made by someone or something else.",
-    vi: "b\u00e1c b\u1ecf (quy\u1ebft \u0111\u1ecbnh)",
+    vi: "bác bỏ (quyết định)",
     examples:
       [
         {
           en: "Support staff can overrule the automatic ban.",
-          vi: "Nh\u00e2n vi\u00ean h\u1ed7 tr\u1ee3 c\u00f3 th\u1ec3 b\u00e1c b\u1ecf l\u1ec7nh kho\u00e1 t\u1ef1 \u0111\u1ed9ng.",
+          vi: "Nhân viên hỗ trợ có thể bác bỏ lệnh khoá tự động.",
         },
       ],
   }
@@ -1439,31 +1201,14 @@
     pos: verb,
     cefr: C1,
     topic: equality,
-    ipa: "/pr\u026a\u02c8zju\u02d0m/",
+    ipa: "/prɪˈzjuːm/",
     def: "To think something is true without proof.",
-    vi: "m\u1eb7c \u0111\u1ecbnh cho l\u00e0",
+    vi: "mặc định cho là",
     examples:
       [
         {
           en: "The form presumes everyone has a family name.",
-          vi: "Form m\u1eb7c \u0111\u1ecbnh cho r\u1eb1ng ai c\u0169ng c\u00f3 h\u1ecd.",
-        },
-      ],
-  }
-- {
-    slug: outlier-n-t24,
-    lemma: "outlier",
-    pos: noun,
-    cefr: C1,
-    topic: equality,
-    ipa: "/\u02c8a\u028atla\u026a\u0259/",
-    def: "A value or person very different from the rest.",
-    vi: "gi\u00e1 tr\u1ecb ngo\u1ea1i lai",
-    examples:
-      [
-        {
-          en: "Don't drop the outliers; they may be real users.",
-          vi: "\u0110\u1eebng b\u1ecf gi\u00e1 tr\u1ecb ngo\u1ea1i lai; h\u1ecd c\u00f3 th\u1ec3 l\u00e0 ng\u01b0\u1eddi d\u00f9ng th\u1eadt.",
+          vi: "Form mặc định cho rằng ai cũng có họ.",
         },
       ],
   }
@@ -1473,14 +1218,14 @@
     pos: verb,
     cefr: C1,
     topic: equality,
-    ipa: "/\u02c8k\u0252r\u0259le\u026at/",
+    ipa: "/ˈkɒrəleɪt/",
     def: "To have a connection where one thing changes with another.",
-    vi: "t\u01b0\u01a1ng quan",
+    vi: "tương quan",
     examples:
       [
         {
           en: "Phone brand correlates with approval rate.",
-          vi: "H\u00e3ng \u0111i\u1ec7n tho\u1ea1i t\u01b0\u01a1ng quan v\u1edbi t\u1ec9 l\u1ec7 duy\u1ec7t.",
+          vi: "Hãng điện thoại tương quan với tỉ lệ duyệt.",
         },
       ],
   }
@@ -1491,14 +1236,14 @@
     kind: collocation,
     cefr: B2,
     topic: equality,
-    ipa: "/\u02c8fe\u0259n\u0259s \u02cct\u0283ek/",
+    ipa: "/ˈfeənəs ˌtʃek/",
     def: "A test of whether a system treats groups equally.",
-    vi: "ki\u1ec3m tra c\u00f4ng b\u1eb1ng",
+    vi: "kiểm tra công bằng",
     examples:
       [
         {
           en: "We run a fairness check before each model update.",
-          vi: "B\u1ecdn m\u00ecnh ch\u1ea1y ki\u1ec3m tra c\u00f4ng b\u1eb1ng tr\u01b0\u1edbc m\u1ed7i l\u1ea7n c\u1eadp nh\u1eadt m\u00f4 h\u00ecnh.",
+          vi: "Bọn mình chạy kiểm tra công bằng trước mỗi lần cập nhật mô hình.",
         },
       ],
   }
@@ -1508,14 +1253,14 @@
     pos: adjective,
     cefr: C1,
     topic: equality,
-    ipa: "/\u026am\u02c8p\u0251\u02d0\u0283l/",
+    ipa: "/ɪmˈpɑːʃl/",
     def: "Not supporting any side; neutral.",
-    vi: "kh\u00e1ch quan, v\u00f4 t\u01b0",
+    vi: "khách quan, vô tư",
     examples:
       [
         {
           en: "An impartial reviewer should check the disputed cases.",
-          vi: "M\u1ed9t ng\u01b0\u1eddi x\u00e9t duy\u1ec7t kh\u00e1ch quan n\u00ean ki\u1ec3m tra c\u00e1c ca tranh ch\u1ea5p.",
+          vi: "Một người xét duyệt khách quan nên kiểm tra các ca tranh chấp.",
         },
       ],
   }
@@ -1526,14 +1271,14 @@
     kind: collocation,
     cefr: C1,
     topic: equality,
-    ipa: "/\u02cc\u0261ra\u028and \u02c8tru\u02d0\u03b8/",
+    ipa: "/ˌɡraʊnd ˈtruːθ/",
     def: "The real, checked answers used to measure a model.",
-    vi: "d\u1eef li\u1ec7u chu\u1ea9n (ground truth)",
+    vi: "dữ liệu chuẩn (ground truth)",
     examples:
       [
         {
           en: "Our ground truth was labelled by only two people.",
-          vi: "D\u1eef li\u1ec7u chu\u1ea9n c\u1ee7a m\u00ecnh ch\u1ec9 do hai ng\u01b0\u1eddi g\u00e1n nh\u00e3n.",
+          vi: "Dữ liệu chuẩn của mình chỉ do hai người gán nhãn.",
         },
       ],
   }
@@ -1543,14 +1288,14 @@
     pos: noun,
     cefr: C1,
     topic: equality,
-    ipa: "/\u02c8pr\u0259\u028afa\u026al\u026a\u014b/",
+    ipa: "/ˈprəʊfaɪlɪŋ/",
     def: "Judging people by features such as age or race.",
-    vi: "l\u1eadp h\u1ed3 s\u01a1 (\u0111\u00e1nh gi\u00e1 theo \u0111\u1eb7c \u0111i\u1ec3m)",
+    vi: "lập hồ sơ (đánh giá theo đặc điểm)",
     examples:
       [
         {
           en: "Using names for risk scores is a kind of profiling.",
-          vi: "D\u00f9ng t\u00ean \u0111\u1ec3 ch\u1ea5m r\u1ee7i ro l\u00e0 m\u1ed9t ki\u1ec3u l\u1eadp h\u1ed3 s\u01a1.",
+          vi: "Dùng tên để chấm rủi ro là một kiểu lập hồ sơ.",
         },
       ],
   }
@@ -1561,14 +1306,14 @@
     kind: collocation,
     cefr: B2,
     topic: equality,
-    ipa: "/\u02c8er\u0259 \u02ccre\u026at/",
+    ipa: "/ˈerə ˌreɪt/",
     def: "How often a system gives a wrong result.",
-    vi: "t\u1ec9 l\u1ec7 l\u1ed7i",
+    vi: "tỉ lệ lỗi",
     examples:
       [
         {
           en: "The error rate is twice as high for women's voices.",
-          vi: "T\u1ec9 l\u1ec7 l\u1ed7i cao g\u1ea5p \u0111\u00f4i v\u1edbi gi\u1ecdng n\u1eef.",
+          vi: "Tỉ lệ lỗi cao gấp đôi với giọng nữ.",
         },
       ],
   }
@@ -1580,14 +1325,14 @@
     kind: collocation,
     cefr: B2,
     topic: equality,
-    ipa: "/\u02c8de\u026at\u0259 \u02cc\u0283e\u0259r\u026a\u014b/",
+    ipa: "/ˈdeɪtə ˌʃeərɪŋ/",
     def: "Giving your information to another company or person.",
-    vi: "chia s\u1ebb d\u1eef li\u1ec7u",
+    vi: "chia sẻ dữ liệu",
     examples:
       [
         {
           en: "Ask clearly before any data sharing with partners.",
-          vi: "H\u1ecfi r\u00f5 tr\u01b0\u1edbc khi chia s\u1ebb d\u1eef li\u1ec7u v\u1edbi \u0111\u1ed1i t\u00e1c.",
+          vi: "Hỏi rõ trước khi chia sẻ dữ liệu với đối tác.",
         },
       ],
   }
@@ -1598,32 +1343,14 @@
     kind: collocation,
     cefr: B2,
     topic: equality,
-    ipa: "/\u02c8\u0252pt \u026an/",
+    ipa: "/ˈɒpt ɪn/",
     def: "A choice where nothing happens unless the user agrees.",
-    vi: "l\u1ef1a ch\u1ecdn ch\u1ee7 \u0111\u1ed9ng \u0111\u1ed3ng \u00fd",
+    vi: "lựa chọn chủ động đồng ý",
     examples:
       [
         {
           en: "Marketing emails should be an opt-in.",
-          vi: "Email marketing n\u00ean l\u00e0 l\u1ef1a ch\u1ecdn ng\u01b0\u1eddi d\u00f9ng ch\u1ee7 \u0111\u1ed9ng \u0111\u1ed3ng \u00fd.",
-        },
-      ],
-  }
-- {
-    slug: switch-off-pv-t24,
-    lemma: "switch off",
-    pos: phrasal_verb,
-    kind: phrasal,
-    cefr: A2,
-    topic: equality,
-    ipa: "/\u02ccsw\u026at\u0283 \u02c8\u0252f/",
-    def: "To turn something off.",
-    vi: "t\u1eaft",
-    examples:
-      [
-        {
-          en: "Users can switch off data collection in settings.",
-          vi: "Ng\u01b0\u1eddi d\u00f9ng c\u00f3 th\u1ec3 t\u1eaft thu th\u1eadp d\u1eef li\u1ec7u trong c\u00e0i \u0111\u1eb7t.",
+          vi: "Email marketing nên là lựa chọn người dùng chủ động đồng ý.",
         },
       ],
   }
@@ -1634,14 +1361,14 @@
     kind: collocation,
     cefr: B1,
     topic: equality,
-    ipa: "/\u02c8pr\u026av\u0259si \u02ccset\u026a\u014b/",
+    ipa: "/ˈprɪvəsi ˌsetɪŋ/",
     def: "An option that controls who can see your information.",
-    vi: "c\u00e0i \u0111\u1eb7t quy\u1ec1n ri\u00eang t\u01b0",
+    vi: "cài đặt quyền riêng tư",
     examples:
       [
         {
           en: "The privacy settings are hidden three menus deep.",
-          vi: "C\u00e0i \u0111\u1eb7t quy\u1ec1n ri\u00eang t\u01b0 b\u1ecb gi\u1ea5u s\u00e2u ba t\u1ea7ng menu.",
+          vi: "Cài đặt quyền riêng tư bị giấu sâu ba tầng menu.",
         },
       ],
   }
@@ -1652,14 +1379,14 @@
     kind: phrasal,
     cefr: B1,
     topic: equality,
-    ipa: "/\u02ccte\u026ak \u02c8b\u00e6k/",
+    ipa: "/ˌteɪk ˈbæk/",
     def: "To cancel something you gave or allowed earlier.",
-    vi: "r\u00fat l\u1ea1i",
+    vi: "rút lại",
     examples:
       [
         {
           en: "Users can take back camera access at any time.",
-          vi: "Ng\u01b0\u1eddi d\u00f9ng c\u00f3 th\u1ec3 r\u00fat l\u1ea1i quy\u1ec1n camera b\u1ea5t k\u1ef3 l\u00fac n\u00e0o.",
+          vi: "Người dùng có thể rút lại quyền camera bất kỳ lúc nào.",
         },
       ],
   }
@@ -1669,14 +1396,14 @@
     pos: verb,
     cefr: B2,
     topic: equality,
-    ipa: "/r\u026a\u02c8vi\u02d0l/",
+    ipa: "/rɪˈviːl/",
     def: "To make something known that was secret or hidden.",
-    vi: "ti\u1ebft l\u1ed9",
+    vi: "tiết lộ",
     examples:
       [
         {
           en: "The app must reveal which partners receive the data.",
-          vi: "App ph\u1ea3i ti\u1ebft l\u1ed9 \u0111\u1ed1i t\u00e1c n\u00e0o nh\u1eadn d\u1eef li\u1ec7u.",
+          vi: "App phải tiết lộ đối tác nào nhận dữ liệu.",
         },
       ],
   }
@@ -1686,14 +1413,14 @@
     pos: noun,
     cefr: B1,
     topic: equality,
-    ipa: "/\u02c8tr\u00e6k\u026a\u014b/",
+    ipa: "/ˈtrækɪŋ/",
     def: "Recording what people do or where they go.",
-    vi: "theo d\u00f5i",
+    vi: "theo dõi",
     examples:
       [
         {
           en: "Turn off tracking for users under sixteen.",
-          vi: "T\u1eaft theo d\u00f5i v\u1edbi ng\u01b0\u1eddi d\u00f9ng d\u01b0\u1edbi m\u01b0\u1eddi s\u00e1u tu\u1ed5i.",
+          vi: "Tắt theo dõi với người dùng dưới mười sáu tuổi.",
         },
       ],
   }
@@ -1704,14 +1431,14 @@
     kind: collocation,
     cefr: B2,
     topic: equality,
-    ipa: "/\u02ccsens\u0259t\u026av \u02c8de\u026at\u0259/",
+    ipa: "/ˌsensətɪv ˈdeɪtə/",
     def: "Private information such as health or religion that needs extra care.",
-    vi: "d\u1eef li\u1ec7u nh\u1ea1y c\u1ea3m",
+    vi: "dữ liệu nhạy cảm",
     examples:
       [
         {
           en: "Health notes count as sensitive data.",
-          vi: "Ghi ch\u00fa s\u1ee9c kho\u1ebb \u0111\u01b0\u1ee3c t\u00ednh l\u00e0 d\u1eef li\u1ec7u nh\u1ea1y c\u1ea3m.",
+          vi: "Ghi chú sức khoẻ được tính là dữ liệu nhạy cảm.",
         },
       ],
   }
@@ -1722,14 +1449,14 @@
     kind: phrase,
     cefr: B2,
     topic: equality,
-    ipa: "/\u02cc\u0252n ba\u026a d\u026a\u02c8f\u0254\u02d0lt/",
+    ipa: "/ˌɒn baɪ dɪˈfɔːlt/",
     def: "Switched on unless the user changes it.",
-    vi: "b\u1eadt s\u1eb5n m\u1eb7c \u0111\u1ecbnh",
+    vi: "bật sẵn mặc định",
     examples:
       [
         {
           en: "Location sharing should not be on by default.",
-          vi: "Chia s\u1ebb v\u1ecb tr\u00ed kh\u00f4ng n\u00ean b\u1eadt s\u1eb5n m\u1eb7c \u0111\u1ecbnh.",
+          vi: "Chia sẻ vị trí không nên bật sẵn mặc định.",
         },
       ],
   }
@@ -1740,14 +1467,14 @@
     kind: collocation,
     cefr: C1,
     topic: equality,
-    ipa: "/\u02ccd\u0251\u02d0k \u02c8p\u00e6tn/",
+    ipa: "/ˌdɑːk ˈpætn/",
     def: "A design that tricks users into doing something they didn't want.",
-    vi: "thi\u1ebft k\u1ebf l\u1eeba ng\u01b0\u1eddi d\u00f9ng",
+    vi: "thiết kế lừa người dùng",
     examples:
       [
         {
           en: "Hiding the cancel button is a dark pattern.",
-          vi: "Gi\u1ea5u n\u00fat hu\u1ef7 l\u00e0 m\u1ed9t ki\u1ec3u thi\u1ebft k\u1ebf l\u1eeba ng\u01b0\u1eddi d\u00f9ng.",
+          vi: "Giấu nút huỷ là một kiểu thiết kế lừa người dùng.",
         },
       ],
   }
@@ -1758,14 +1485,14 @@
     kind: collocation,
     cefr: B2,
     topic: equality,
-    ipa: "/\u02c8k\u028aki \u02ccb\u00e6n\u0259/",
+    ipa: "/ˈkʊki ˌbænə/",
     def: "A message on a website asking users to accept or refuse cookies.",
     vi: "banner cookie",
     examples:
       [
         {
           en: "The cookie banner has no 'Reject all' button.",
-          vi: "Banner cookie kh\u00f4ng c\u00f3 n\u00fat 'T\u1eeb ch\u1ed1i t\u1ea5t c\u1ea3'.",
+          vi: "Banner cookie không có nút 'Từ chối tất cả'.",
         },
       ],
   }
@@ -1775,14 +1502,14 @@
     pos: verb,
     cefr: B1,
     topic: equality,
-    ipa: "/\u026ak\u02c8sp\u0254\u02d0t/",
+    ipa: "/ɪkˈspɔːt/",
     def: "To save data from a system so you can use it elsewhere.",
-    vi: "xu\u1ea5t (d\u1eef li\u1ec7u)",
+    vi: "xuất (dữ liệu)",
     examples:
       [
         {
           en: "Let users export their history as a file.",
-          vi: "Cho ng\u01b0\u1eddi d\u00f9ng xu\u1ea5t l\u1ecbch s\u1eed ra file.",
+          vi: "Cho người dùng xuất lịch sử ra file.",
         },
       ],
   }
@@ -1793,33 +1520,11 @@
     kind: collocation,
     cefr: B2,
     topic: equality,
-    ipa: "/\u02cct\u025c\u02d0mz \u0259v \u02c8s\u025c\u02d0v\u026as/",
+    ipa: "/ˌtɜːmz əv ˈsɜːvɪs/",
     def: "The rules users must accept to use a service.",
-    vi: "\u0111i\u1ec1u kho\u1ea3n d\u1ecbch v\u1ee5",
+    vi: "điều khoản dịch vụ",
     examples:
-      [
-        {
-          en: "Nobody reads the terms of service.",
-          vi: "Kh\u00f4ng ai \u0111\u1ecdc \u0111i\u1ec1u kho\u1ea3n d\u1ecbch v\u1ee5.",
-        },
-      ],
-  }
-- {
-    slug: granular-adj-t24,
-    lemma: "granular",
-    pos: adjective,
-    cefr: C1,
-    topic: equality,
-    ipa: "/\u02c8\u0261r\u00e6nj\u0259l\u0259/",
-    def: "Divided into small, detailed parts.",
-    vi: "chi ti\u1ebft, t\u1eebng ph\u1ea7n",
-    examples:
-      [
-        {
-          en: "Give granular choices: ads, analytics, and emails.",
-          vi: "Cho l\u1ef1a ch\u1ecdn chi ti\u1ebft: qu\u1ea3ng c\u00e1o, ph\u00e2n t\u00edch v\u00e0 email.",
-        },
-      ],
+      [{ en: "Nobody reads the terms of service.", vi: "Không ai đọc điều khoản dịch vụ." }],
   }
 - {
     slug: fine-print-n,
@@ -1828,14 +1533,14 @@
     kind: collocation,
     cefr: C1,
     topic: equality,
-    ipa: "/\u00f0\u0259 \u02ccfa\u026an \u02c8pr\u026ant/",
+    ipa: "/ðə ˌfaɪn ˈprɪnt/",
     def: "Important details written in small text that people often miss.",
-    vi: "ph\u1ea7n ch\u1eef nh\u1ecf (\u0111i\u1ec1u ki\u1ec7n k\u00e8m theo)",
+    vi: "phần chữ nhỏ (điều kiện kèm theo)",
     examples:
       [
         {
           en: "The auto-renewal is hidden in the fine print.",
-          vi: "Vi\u1ec7c t\u1ef1 gia h\u1ea1n b\u1ecb gi\u1ea5u trong ph\u1ea7n ch\u1eef nh\u1ecf.",
+          vi: "Việc tự gia hạn bị giấu trong phần chữ nhỏ.",
         },
       ],
   }
@@ -1845,14 +1550,14 @@
     pos: adjective,
     cefr: B2,
     topic: equality,
-    ipa: "/\u026an\u02c8f\u0254\u02d0md/",
+    ipa: "/ɪnˈfɔːmd/",
     def: "Based on a good understanding of the facts.",
-    vi: "c\u00f3 hi\u1ec3u bi\u1ebft \u0111\u1ea7y \u0111\u1ee7",
+    vi: "có hiểu biết đầy đủ",
     examples:
       [
         {
           en: "Users can't make an informed choice from one vague line.",
-          vi: "Ng\u01b0\u1eddi d\u00f9ng kh\u00f4ng th\u1ec3 ch\u1ecdn c\u00f3 hi\u1ec3u bi\u1ebft t\u1eeb m\u1ed9t d\u00f2ng m\u01a1 h\u1ed3.",
+          vi: "Người dùng không thể chọn có hiểu biết từ một dòng mơ hồ.",
         },
       ],
   }
@@ -1863,14 +1568,14 @@
     kind: collocation,
     cefr: C1,
     topic: equality,
-    ipa: "/\u02c8de\u026at\u0259 r\u026a\u02ccten\u0283n/",
+    ipa: "/ˈdeɪtə rɪˌtenʃn/",
     def: "How long a company keeps stored information.",
-    vi: "l\u01b0u gi\u1eef d\u1eef li\u1ec7u",
+    vi: "lưu giữ dữ liệu",
     examples:
       [
         {
           en: "Our data retention period is ninety days.",
-          vi: "Th\u1eddi gian l\u01b0u gi\u1eef d\u1eef li\u1ec7u l\u00e0 ch\u00edn m\u01b0\u01a1i ng\u00e0y.",
+          vi: "Thời gian lưu giữ dữ liệu là chín mươi ngày.",
         },
       ],
   }
@@ -1880,14 +1585,14 @@
     pos: verb,
     cefr: C1,
     topic: equality,
-    ipa: "/\u02ccdi\u02d0 a\u026a\u02c8dent\u026afa\u026a/",
+    ipa: "/ˌdiː aɪˈdentɪfaɪ/",
     def: "To remove details that show who a person is.",
-    vi: "kh\u1eed \u0111\u1ecbnh danh",
+    vi: "khử định danh",
     examples:
       [
         {
           en: "De-identify the logs before sharing them.",
-          vi: "Kh\u1eed \u0111\u1ecbnh danh log tr\u01b0\u1edbc khi chia s\u1ebb.",
+          vi: "Khử định danh log trước khi chia sẻ.",
         },
       ],
   }
@@ -1897,14 +1602,14 @@
     pos: verb,
     cefr: B2,
     topic: equality,
-    ipa: "/\u026a\u02c8re\u026az/",
+    ipa: "/ɪˈreɪz/",
     def: "To remove something completely.",
-    vi: "xo\u00e1 h\u1eb3n",
+    vi: "xoá hẳn",
     examples:
       [
         {
           en: "The delete button must erase the account, not hide it.",
-          vi: "N\u00fat xo\u00e1 ph\u1ea3i xo\u00e1 h\u1eb3n t\u00e0i kho\u1ea3n, kh\u00f4ng ch\u1ec9 \u1ea9n \u0111i.",
+          vi: "Nút xoá phải xoá hẳn tài khoản, không chỉ ẩn đi.",
         },
       ],
   }
@@ -1915,14 +1620,14 @@
     kind: phrase,
     cefr: A2,
     topic: equality,
-    ipa: "/\u0259\u02c8\u0261ri\u02d0 t\u0259/",
+    ipa: "/əˈɡriː tə/",
     def: "To say yes to a plan or request.",
-    vi: "\u0111\u1ed3ng \u00fd v\u1edbi",
+    vi: "đồng ý với",
     examples:
       [
         {
           en: "Users agree to one thing and get three.",
-          vi: "Ng\u01b0\u1eddi d\u00f9ng \u0111\u1ed3ng \u00fd m\u1ed9t vi\u1ec7c m\u00e0 nh\u1eadn ba vi\u1ec7c.",
+          vi: "Người dùng đồng ý một việc mà nhận ba việc.",
         },
       ],
   }
@@ -1933,14 +1638,14 @@
     kind: phrase,
     cefr: B1,
     topic: equality,
-    ipa: "/k\u0259n\u02c8tr\u0259\u028al \u02cc\u0259\u028av\u0259/",
+    ipa: "/kənˈtrəʊl ˌəʊvə/",
     def: "The power to decide what happens to something.",
-    vi: "quy\u1ec1n ki\u1ec3m so\u00e1t \u0111\u1ed1i v\u1edbi",
+    vi: "quyền kiểm soát đối với",
     examples:
       [
         {
           en: "Give people control over who sees their posts.",
-          vi: "Cho m\u1ecdi ng\u01b0\u1eddi quy\u1ec1n ki\u1ec3m so\u00e1t ai th\u1ea5y b\u00e0i \u0111\u0103ng c\u1ee7a h\u1ecd.",
+          vi: "Cho mọi người quyền kiểm soát ai thấy bài đăng của họ.",
         },
       ],
   }
@@ -1951,32 +1656,14 @@
     kind: collocation,
     cefr: B2,
     topic: equality,
-    ipa: "/p\u0259\u02c8m\u026a\u0283n \u02ccpr\u0252mpt/",
+    ipa: "/pəˈmɪʃn ˌprɒmpt/",
     def: "A pop-up asking the user to allow access to something.",
-    vi: "h\u1ed9p tho\u1ea1i xin quy\u1ec1n",
+    vi: "hộp thoại xin quyền",
     examples:
       [
         {
           en: "Show the permission prompt only when the feature is used.",
-          vi: "Ch\u1ec9 hi\u1ec7n h\u1ed9p tho\u1ea1i xin quy\u1ec1n khi d\u00f9ng t\u00ednh n\u0103ng.",
-        },
-      ],
-  }
-# Set 8: Unintended consequences
-- {
-    slug: unforeseen-adj-t24,
-    lemma: "unforeseen",
-    pos: adjective,
-    cefr: C1,
-    topic: equality,
-    ipa: "/\u02cc\u028cnf\u0254\u02d0\u02c8si\u02d0n/",
-    def: "Not expected or planned for.",
-    vi: "kh\u00f4ng l\u01b0\u1eddng tr\u01b0\u1edbc",
-    examples:
-      [
-        {
-          en: "The streak feature had an unforeseen effect on sleep.",
-          vi: "T\u00ednh n\u0103ng chu\u1ed7i ng\u00e0y c\u00f3 t\u00e1c \u0111\u1ed9ng kh\u00f4ng l\u01b0\u1eddng tr\u01b0\u1edbc t\u1edbi gi\u1ea5c ng\u1ee7.",
+          vi: "Chỉ hiện hộp thoại xin quyền khi dùng tính năng.",
         },
       ],
   }
@@ -1986,14 +1673,14 @@
     pos: noun,
     cefr: C1,
     topic: equality,
-    ipa: "/\u02c8ba\u026a pr\u0252d\u028ckt/",
+    ipa: "/ˈbaɪ prɒdʌkt/",
     def: "Something that happens as an extra result of something else.",
-    vi: "s\u1ea3n ph\u1ea9m ph\u1ee5, h\u1ec7 qu\u1ea3 ph\u1ee5",
+    vi: "sản phẩm phụ, hệ quả phụ",
     examples:
       [
         {
           en: "Long queues were a by-product of the new lottery.",
-          vi: "H\u00e0ng ch\u1edd d\u00e0i l\u00e0 h\u1ec7 qu\u1ea3 ph\u1ee5 c\u1ee7a c\u00e1ch b\u1ed1c th\u0103m m\u1edbi.",
+          vi: "Hàng chờ dài là hệ quả phụ của cách bốc thăm mới.",
         },
       ],
   }
@@ -2003,14 +1690,14 @@
     pos: verb,
     cefr: C1,
     topic: equality,
-    ipa: "/\u02ccb\u00e6k\u02c8fa\u026a\u0259/",
+    ipa: "/ˌbækˈfaɪə/",
     def: "To have the opposite result to the one you wanted.",
-    vi: "ph\u1ea3n t\u00e1c d\u1ee5ng",
+    vi: "phản tác dụng",
     examples:
       [
         {
           en: "The reward points backfired and caused fake reviews.",
-          vi: "\u0110i\u1ec3m th\u01b0\u1edfng ph\u1ea3n t\u00e1c d\u1ee5ng v\u00e0 g\u00e2y ra \u0111\u00e1nh gi\u00e1 gi\u1ea3.",
+          vi: "Điểm thưởng phản tác dụng và gây ra đánh giá giả.",
         },
       ],
   }
@@ -2020,31 +1707,14 @@
     pos: noun,
     cefr: B2,
     topic: equality,
-    ipa: "/\u02ccm\u026as\u02c8ju\u02d0s/",
+    ipa: "/ˌmɪsˈjuːs/",
     def: "Using something in a wrong or harmful way.",
-    vi: "s\u1ef1 l\u1ea1m d\u1ee5ng",
+    vi: "sự lạm dụng",
     examples:
       [
         {
           en: "Plan for misuse of the share feature.",
-          vi: "T\u00ednh \u0111\u1ebfn kh\u1ea3 n\u0103ng l\u1ea1m d\u1ee5ng t\u00ednh n\u0103ng chia s\u1ebb.",
-        },
-      ],
-  }
-- {
-    slug: harassment-n-t24,
-    lemma: "harassment",
-    pos: noun,
-    cefr: C1,
-    topic: equality,
-    ipa: "/\u02c8h\u00e6r\u0259sm\u0259nt/",
-    def: "Behaviour that annoys or threatens a person again and again.",
-    vi: "qu\u1ea5y r\u1ed1i",
-    examples:
-      [
-        {
-          en: "Public profiles led to harassment of drivers.",
-          vi: "H\u1ed3 s\u01a1 c\u00f4ng khai d\u1eabn \u0111\u1ebfn vi\u1ec7c t\u00e0i x\u1ebf b\u1ecb qu\u1ea5y r\u1ed1i.",
+          vi: "Tính đến khả năng lạm dụng tính năng chia sẻ.",
         },
       ],
   }
@@ -2054,14 +1724,14 @@
     pos: adjective,
     cefr: C1,
     topic: equality,
-    ipa: "/k\u0259m\u02c8p\u028cls\u026av/",
+    ipa: "/kəmˈpʌlsɪv/",
     def: "Hard to stop doing.",
-    vi: "kh\u00f4ng ki\u1ec3m so\u00e1t \u0111\u01b0\u1ee3c (th\u00e0nh th\u00f3i)",
+    vi: "không kiểm soát được (thành thói)",
     examples:
       [
         {
           en: "Endless scroll encourages compulsive use.",
-          vi: "Cu\u1ed9n v\u00f4 t\u1eadn khuy\u1ebfn kh\u00edch s\u1eed d\u1ee5ng kh\u00f4ng ki\u1ec3m so\u00e1t.",
+          vi: "Cuộn vô tận khuyến khích sử dụng không kiểm soát.",
         },
       ],
   }
@@ -2072,14 +1742,14 @@
     kind: collocation,
     cefr: C1,
     topic: equality,
-    ipa: "/\u02c8r\u026apl \u026a\u02ccfekt/",
+    ipa: "/ˈrɪpl ɪˌfekt/",
     def: "A spreading series of effects caused by one event.",
-    vi: "hi\u1ec7u \u1ee9ng lan to\u1ea3",
+    vi: "hiệu ứng lan toả",
     examples:
       [
         {
           en: "A price change has a ripple effect on small sellers.",
-          vi: "Thay \u0111\u1ed5i gi\u00e1 c\u00f3 hi\u1ec7u \u1ee9ng lan to\u1ea3 t\u1edbi ng\u01b0\u1eddi b\u00e1n nh\u1ecf.",
+          vi: "Thay đổi giá có hiệu ứng lan toả tới người bán nhỏ.",
         },
       ],
   }
@@ -2089,31 +1759,14 @@
     pos: noun,
     cefr: C1,
     topic: equality,
-    ipa: "/\u02c8d\u0252ks\u026a\u014b/",
+    ipa: "/ˈdɒksɪŋ/",
     def: "Publishing someone's private details online to harm them.",
-    vi: "tung th\u00f4ng tin c\u00e1 nh\u00e2n",
+    vi: "tung thông tin cá nhân",
     examples:
       [
         {
           en: "Showing exact addresses could enable doxxing.",
-          vi: "Hi\u1ec7n \u0111\u1ecba ch\u1ec9 ch\u00ednh x\u00e1c c\u00f3 th\u1ec3 d\u1eabn t\u1edbi vi\u1ec7c tung th\u00f4ng tin c\u00e1 nh\u00e2n.",
-        },
-      ],
-  }
-- {
-    slug: vulnerable-adj-t24,
-    lemma: "vulnerable",
-    pos: adjective,
-    cefr: B2,
-    topic: equality,
-    ipa: "/\u02c8v\u028cln\u0259r\u0259bl/",
-    def: "Easily hurt or harmed.",
-    vi: "d\u1ec5 b\u1ecb t\u1ed5n th\u01b0\u01a1ng",
-    examples:
-      [
-        {
-          en: "Scammers target vulnerable users through chat.",
-          vi: "K\u1ebb l\u1eeba \u0111\u1ea3o nh\u1eafm v\u00e0o ng\u01b0\u1eddi d\u00f9ng d\u1ec5 b\u1ecb t\u1ed5n th\u01b0\u01a1ng qua chat.",
+          vi: "Hiện địa chỉ chính xác có thể dẫn tới việc tung thông tin cá nhân.",
         },
       ],
   }
@@ -2123,14 +1776,14 @@
     pos: adjective,
     cefr: C1,
     topic: equality,
-    ipa: "/f\u0254\u02d0\u02c8si\u02d0\u0259bl/",
+    ipa: "/fɔːˈsiːəbl/",
     def: "Possible to know about before it happens.",
-    vi: "c\u00f3 th\u1ec3 l\u01b0\u1eddng tr\u01b0\u1edbc",
+    vi: "có thể lường trước",
     examples:
       [
         {
           en: "This abuse was foreseeable from the start.",
-          vi: "Vi\u1ec7c l\u1ea1m d\u1ee5ng n\u00e0y c\u00f3 th\u1ec3 l\u01b0\u1eddng tr\u01b0\u1edbc t\u1eeb \u0111\u1ea7u.",
+          vi: "Việc lạm dụng này có thể lường trước từ đầu.",
         },
       ],
   }
@@ -2141,16 +1794,11 @@
     kind: collocation,
     cefr: C1,
     topic: equality,
-    ipa: "/\u02c8ek\u0259\u028a \u02cct\u0283e\u026amb\u0259/",
+    ipa: "/ˈekəʊ ˌtʃeɪmbə/",
     def: "A place where people only hear opinions like their own.",
-    vi: "bu\u1ed3ng vang (ch\u1ec9 nghe \u00fd ki\u1ebfn gi\u1ed1ng m\u00ecnh)",
+    vi: "buồng vang (chỉ nghe ý kiến giống mình)",
     examples:
-      [
-        {
-          en: "The feed turned into an echo chamber.",
-          vi: "B\u1ea3ng tin bi\u1ebfn th\u00e0nh bu\u1ed3ng vang.",
-        },
-      ],
+      [{ en: "The feed turned into an echo chamber.", vi: "Bảng tin biến thành buồng vang." }],
   }
 - {
     slug: displace-v,
@@ -2158,14 +1806,14 @@
     pos: verb,
     cefr: C1,
     topic: equality,
-    ipa: "/d\u026as\u02c8ple\u026as/",
+    ipa: "/dɪsˈpleɪs/",
     def: "To force people out of their place, job or position.",
-    vi: "thay th\u1ebf, \u0111\u1ea9y ra",
+    vi: "thay thế, đẩy ra",
     examples:
       [
         {
           en: "Auto-replies may displace part-time support staff.",
-          vi: "Tr\u1ea3 l\u1eddi t\u1ef1 \u0111\u1ed9ng c\u00f3 th\u1ec3 \u0111\u1ea9y nh\u00e2n vi\u00ean h\u1ed7 tr\u1ee3 b\u00e1n th\u1eddi gian ra kh\u1ecfi vi\u1ec7c.",
+          vi: "Trả lời tự động có thể đẩy nhân viên hỗ trợ bán thời gian ra khỏi việc.",
         },
       ],
   }
@@ -2176,32 +1824,14 @@
     kind: collocation,
     cefr: C1,
     topic: equality,
-    ipa: "/pr\u0259\u02cctekt\u026av \u02c8me\u0292\u0259/",
+    ipa: "/prəˌtektɪv ˈmeʒə/",
     def: "An action taken to stop harm.",
-    vi: "bi\u1ec7n ph\u00e1p b\u1ea3o v\u1ec7",
+    vi: "biện pháp bảo vệ",
     examples:
       [
         {
           en: "Add a protective measure before money is sent.",
-          vi: "Th\u00eam bi\u1ec7n ph\u00e1p b\u1ea3o v\u1ec7 tr\u01b0\u1edbc khi g\u1eedi ti\u1ec1n.",
-        },
-      ],
-  }
-- {
-    slug: balancing-act-n-t24,
-    lemma: "balancing act",
-    pos: noun,
-    kind: collocation,
-    cefr: C1,
-    topic: equality,
-    ipa: "/\u02c8b\u00e6l\u0259ns\u026a\u014b \u02cc\u00e6kt/",
-    def: "A situation where you must keep two needs in balance.",
-    vi: "s\u1ef1 c\u00e2n b\u1eb1ng kh\u00f3 kh\u0103n",
-    examples:
-      [
-        {
-          en: "Speed versus safety is a balancing act here.",
-          vi: "T\u1ed1c \u0111\u1ed9 v\u00e0 an to\u00e0n \u1edf \u0111\u00e2y l\u00e0 b\u00e0i to\u00e1n c\u00e2n b\u1eb1ng.",
+          vi: "Thêm biện pháp bảo vệ trước khi gửi tiền.",
         },
       ],
   }
@@ -2212,14 +1842,14 @@
     kind: phrase,
     cefr: B1,
     topic: equality,
-    ipa: "/\u02cc\u0259\u028av\u0259 \u02c8ta\u026am/",
+    ipa: "/ˌəʊvə ˈtaɪm/",
     def: "Slowly, during a long period.",
-    vi: "theo th\u1eddi gian",
+    vi: "theo thời gian",
     examples:
       [
         {
           en: "Over time, small fees add up for poor users.",
-          vi: "Theo th\u1eddi gian, ph\u00ed nh\u1ecf c\u1ed9ng d\u1ed3n v\u1edbi ng\u01b0\u1eddi d\u00f9ng ngh\u00e8o.",
+          vi: "Theo thời gian, phí nhỏ cộng dồn với người dùng nghèo.",
         },
       ],
   }
@@ -2229,14 +1859,14 @@
     pos: noun,
     cefr: B2,
     topic: equality,
-    ipa: "/\u02cca\u026as\u0259\u02c8le\u026a\u0283n/",
+    ipa: "/ˌaɪsəˈleɪʃn/",
     def: "Being alone and without contact with others.",
-    vi: "s\u1ef1 c\u00f4 l\u1eadp",
+    vi: "sự cô lập",
     examples:
       [
         {
           en: "Remote-only events can increase isolation.",
-          vi: "S\u1ef1 ki\u1ec7n ch\u1ec9 online c\u00f3 th\u1ec3 l\u00e0m t\u0103ng s\u1ef1 c\u00f4 l\u1eadp.",
+          vi: "Sự kiện chỉ online có thể làm tăng sự cô lập.",
         },
       ],
   }
@@ -2246,14 +1876,14 @@
     pos: noun,
     cefr: C1,
     topic: equality,
-    ipa: "/\u02ccm\u026as\u026anf\u0259\u02c8me\u026a\u0283n/",
+    ipa: "/ˌmɪsɪnfəˈmeɪʃn/",
     def: "Wrong information, often spread without meaning to.",
-    vi: "th\u00f4ng tin sai l\u1ec7ch",
+    vi: "thông tin sai lệch",
     examples:
       [
         {
           en: "Forwarding without limits spreads misinformation.",
-          vi: "Chuy\u1ec3n ti\u1ebfp kh\u00f4ng gi\u1edbi h\u1ea1n l\u00e0m lan th\u00f4ng tin sai l\u1ec7ch.",
+          vi: "Chuyển tiếp không giới hạn làm lan thông tin sai lệch.",
         },
       ],
   }
@@ -2263,14 +1893,14 @@
     pos: verb,
     cefr: C1,
     topic: equality,
-    ipa: "/\u02c8\u00e6mpl\u026afa\u026a/",
+    ipa: "/ˈæmplɪfaɪ/",
     def: "To make something stronger or reach more people.",
-    vi: "khu\u1ebfch \u0111\u1ea1i",
+    vi: "khuếch đại",
     examples:
       [
         {
           en: "The ranking amplifies angry posts.",
-          vi: "Thu\u1eadt to\u00e1n x\u1ebfp h\u1ea1ng khu\u1ebfch \u0111\u1ea1i c\u00e1c b\u00e0i gi\u1eadn d\u1eef.",
+          vi: "Thuật toán xếp hạng khuếch đại các bài giận dữ.",
         },
       ],
   }
@@ -2280,14 +1910,14 @@
     pos: verb,
     cefr: C1,
     topic: equality,
-    ipa: "/\u02c8p\u0259\u028al\u0259ra\u026az/",
+    ipa: "/ˈpəʊləraɪz/",
     def: "To divide people into two opposite groups.",
-    vi: "ph\u00e2n c\u1ef1c",
+    vi: "phân cực",
     examples:
       [
         {
           en: "Comment sorting can polarise a community.",
-          vi: "C\u00e1ch s\u1eafp x\u1ebfp b\u00ecnh lu\u1eadn c\u00f3 th\u1ec3 l\u00e0m c\u1ed9ng \u0111\u1ed3ng ph\u00e2n c\u1ef1c.",
+          vi: "Cách sắp xếp bình luận có thể làm cộng đồng phân cực.",
         },
       ],
   }
@@ -2298,14 +1928,14 @@
     kind: collocation,
     cefr: B2,
     topic: equality,
-    ipa: "/\u02c8\u0261\u026a\u0261 \u02ccw\u025c\u02d0k\u0259/",
+    ipa: "/ˈɡɪɡ ˌwɜːkə/",
     def: "A person paid for each short job, often through an app.",
-    vi: "lao \u0111\u1ed9ng t\u1ef1 do qua n\u1ec1n t\u1ea3ng",
+    vi: "lao động tự do qua nền tảng",
     examples:
       [
         {
           en: "Gig workers lose income when the algorithm changes.",
-          vi: "Lao \u0111\u1ed9ng qua n\u1ec1n t\u1ea3ng m\u1ea5t thu nh\u1eadp khi thu\u1eadt to\u00e1n thay \u0111\u1ed5i.",
+          vi: "Lao động qua nền tảng mất thu nhập khi thuật toán thay đổi.",
         },
       ],
   }
@@ -2315,14 +1945,14 @@
     pos: noun,
     cefr: C1,
     topic: equality,
-    ipa: "/\u02c8la\u026avlih\u028ad/",
+    ipa: "/ˈlaɪvlihʊd/",
     def: "The way a person earns money to live.",
-    vi: "sinh k\u1ebf",
+    vi: "sinh kế",
     examples:
       [
         {
           en: "For these sellers, the app is their livelihood.",
-          vi: "V\u1edbi nh\u1eefng ng\u01b0\u1eddi b\u00e1n n\u00e0y, app l\u00e0 sinh k\u1ebf c\u1ee7a h\u1ecd.",
+          vi: "Với những người bán này, app là sinh kế của họ.",
         },
       ],
   }
@@ -2332,49 +1962,14 @@
     pos: noun,
     cefr: C1,
     topic: equality,
-    ipa: "/\u02c8st\u0254\u02d0k\u026a\u014b/",
+    ipa: "/ˈstɔːkɪŋ/",
     def: "Following or watching someone in a frightening way.",
-    vi: "theo d\u00f5i, r\u00ecnh r\u1eadp",
+    vi: "theo dõi, rình rập",
     examples:
       [
         {
           en: "Live location could be used for stalking.",
-          vi: "V\u1ecb tr\u00ed tr\u1ef1c ti\u1ebfp c\u00f3 th\u1ec3 b\u1ecb d\u00f9ng \u0111\u1ec3 r\u00ecnh r\u1eadp.",
-        },
-      ],
-  }
-- {
-    slug: downstream-adj-t24,
-    lemma: "downstream",
-    pos: adjective,
-    cefr: C1,
-    topic: equality,
-    ipa: "/\u02ccda\u028an\u02c8stri\u02d0m/",
-    def: "Happening later, as a result of an earlier step.",
-    vi: "ph\u00eda sau, h\u1ea1 ngu\u1ed3n",
-    examples:
-      [
-        {
-          en: "Think about the downstream effects on partners.",
-          vi: "H\u00e3y ngh\u0129 t\u1edbi t\u00e1c \u0111\u1ed9ng ph\u00eda sau l\u00ean \u0111\u1ed1i t\u00e1c.",
-        },
-      ],
-  }
-- {
-    slug: worst-case-adj-t24,
-    lemma: "worst-case",
-    pos: adjective,
-    kind: collocation,
-    cefr: B2,
-    topic: equality,
-    ipa: "/\u02ccw\u025c\u02d0st \u02c8ke\u026as/",
-    def: "Describing the worst thing that could happen.",
-    vi: "t\u00ecnh hu\u1ed1ng x\u1ea5u nh\u1ea5t",
-    examples:
-      [
-        {
-          en: "What is the worst-case outcome for a child user?",
-          vi: "K\u1ebft qu\u1ea3 x\u1ea5u nh\u1ea5t v\u1edbi ng\u01b0\u1eddi d\u00f9ng tr\u1ebb em l\u00e0 g\u00ec?",
+          vi: "Vị trí trực tiếp có thể bị dùng để rình rập.",
         },
       ],
   }
@@ -2386,14 +1981,14 @@
     kind: collocation,
     cefr: B2,
     topic: equality,
-    ipa: "/\u02c8l\u0254\u02d0nt\u0283 \u02ccpl\u00e6n/",
+    ipa: "/ˈlɔːntʃ ˌplæn/",
     def: "A plan for how and when to release a product.",
-    vi: "k\u1ebf ho\u1ea1ch ra m\u1eaft",
+    vi: "kế hoạch ra mắt",
     examples:
       [
         {
           en: "The launch plan starts with 5% of users.",
-          vi: "K\u1ebf ho\u1ea1ch ra m\u1eaft b\u1eaft \u0111\u1ea7u v\u1edbi 5% ng\u01b0\u1eddi d\u00f9ng.",
+          vi: "Kế hoạch ra mắt bắt đầu với 5% người dùng.",
         },
       ],
   }
@@ -2404,14 +1999,14 @@
     kind: collocation,
     cefr: B1,
     topic: equality,
-    ipa: "/\u02c8test \u02cc\u0261ru\u02d0p/",
+    ipa: "/ˈtest ˌɡruːp/",
     def: "A small set of users who get a new feature first.",
-    vi: "nh\u00f3m th\u1eed nghi\u1ec7m",
+    vi: "nhóm thử nghiệm",
     examples:
       [
         {
           en: "Start with one school as the test group.",
-          vi: "B\u1eaft \u0111\u1ea7u v\u1edbi m\u1ed9t tr\u01b0\u1eddng l\u00e0m nh\u00f3m th\u1eed nghi\u1ec7m.",
+          vi: "Bắt đầu với một trường làm nhóm thử nghiệm.",
         },
       ],
   }
@@ -2421,31 +2016,14 @@
     pos: adjective,
     cefr: C1,
     topic: equality,
-    ipa: "/fe\u026azd/",
+    ipa: "/feɪzd/",
     def: "Done in stages, one after another.",
-    vi: "theo giai \u0111o\u1ea1n",
+    vi: "theo giai đoạn",
     examples:
       [
         {
           en: "We prefer a phased launch by region.",
-          vi: "B\u1ecdn m\u00ecnh th\u00edch ra m\u1eaft theo giai \u0111o\u1ea1n t\u1eebng v\u00f9ng.",
-        },
-      ],
-  }
-- {
-    slug: cohort-n-t24,
-    lemma: "cohort",
-    pos: noun,
-    cefr: C1,
-    topic: equality,
-    ipa: "/\u02c8k\u0259\u028ah\u0254\u02d0t/",
-    def: "A group of users who share something, such as their start date.",
-    vi: "nh\u00f3m (ng\u01b0\u1eddi d\u00f9ng)",
-    examples:
-      [
-        {
-          en: "Compare the new cohort with last month's.",
-          vi: "So s\u00e1nh nh\u00f3m m\u1edbi v\u1edbi nh\u00f3m th\u00e1ng tr\u01b0\u1edbc.",
+          vi: "Bọn mình thích ra mắt theo giai đoạn từng vùng.",
         },
       ],
   }
@@ -2456,14 +2034,14 @@
     kind: collocation,
     cefr: C1,
     topic: equality,
-    ipa: "/\u02c8ju\u02d0s\u026ad\u0292 \u02cck\u00e6p/",
+    ipa: "/ˈjuːsɪdʒ ˌkæp/",
     def: "A limit on how much something can be used.",
-    vi: "gi\u1edbi h\u1ea1n s\u1eed d\u1ee5ng",
+    vi: "giới hạn sử dụng",
     examples:
       [
         {
           en: "Add a usage cap: no more than three messages a day.",
-          vi: "Th\u00eam gi\u1edbi h\u1ea1n: kh\u00f4ng qu\u00e1 ba tin nh\u1eafn m\u1ed9t ng\u00e0y.",
+          vi: "Thêm giới hạn: không quá ba tin nhắn một ngày.",
         },
       ],
   }
@@ -2473,14 +2051,14 @@
     pos: verb,
     cefr: B2,
     topic: equality,
-    ipa: "/h\u0254\u02d0lt/",
+    ipa: "/hɔːlt/",
     def: "To stop something.",
-    vi: "d\u1eebng l\u1ea1i",
+    vi: "dừng lại",
     examples:
       [
         {
           en: "We will halt the rollout if complaints double.",
-          vi: "M\u00ecnh s\u1ebd d\u1eebng tri\u1ec3n khai n\u1ebfu khi\u1ebfu n\u1ea1i t\u0103ng g\u1ea5p \u0111\u00f4i.",
+          vi: "Mình sẽ dừng triển khai nếu khiếu nại tăng gấp đôi.",
         },
       ],
   }
@@ -2491,14 +2069,14 @@
     kind: collocation,
     cefr: B2,
     topic: equality,
-    ipa: "/\u02c8st\u0252p k\u0259n\u02ccd\u026a\u0283n/",
+    ipa: "/ˈstɒp kənˌdɪʃn/",
     def: "A rule that says when to stop a test or release.",
-    vi: "\u0111i\u1ec1u ki\u1ec7n d\u1eebng",
+    vi: "điều kiện dừng",
     examples:
       [
         {
           en: "Agree the stop condition before launch.",
-          vi: "Th\u1ed1ng nh\u1ea5t \u0111i\u1ec1u ki\u1ec7n d\u1eebng tr\u01b0\u1edbc khi ra m\u1eaft.",
+          vi: "Thống nhất điều kiện dừng trước khi ra mắt.",
         },
       ],
   }
@@ -2509,14 +2087,14 @@
     kind: phrasal,
     cefr: B2,
     topic: equality,
-    ipa: "/\u02ccw\u0252t\u0283 \u02c8\u0259\u028av\u0259/",
+    ipa: "/ˌwɒtʃ ˈəʊvə/",
     def: "To watch something carefully so nothing goes wrong.",
-    vi: "tr\u00f4ng ch\u1eebng, theo s\u00e1t",
+    vi: "trông chừng, theo sát",
     examples:
       [
         {
           en: "Someone must watch over refund requests this week.",
-          vi: "Ph\u1ea3i c\u00f3 ng\u01b0\u1eddi theo s\u00e1t y\u00eau c\u1ea7u ho\u00e0n ti\u1ec1n tu\u1ea7n n\u00e0y.",
+          vi: "Phải có người theo sát yêu cầu hoàn tiền tuần này.",
         },
       ],
   }
@@ -2526,14 +2104,14 @@
     pos: verb,
     cefr: B2,
     topic: equality,
-    ipa: "/r\u026a\u02c8ta\u026a\u0259/",
+    ipa: "/rɪˈtaɪə/",
     def: "To stop using or offering something old.",
-    vi: "ng\u1eebng d\u00f9ng, khai t\u1eed",
+    vi: "ngừng dùng, khai tử",
     examples:
       [
         {
           en: "We'll retire the old flow once the new one is stable.",
-          vi: "M\u00ecnh s\u1ebd khai t\u1eed lu\u1ed3ng c\u0169 khi lu\u1ed3ng m\u1edbi \u1ed5n \u0111\u1ecbnh.",
+          vi: "Mình sẽ khai tử luồng cũ khi luồng mới ổn định.",
         },
       ],
   }
@@ -2544,14 +2122,14 @@
     kind: collocation,
     cefr: C1,
     topic: equality,
-    ipa: "/\u02c8\u026amp\u00e6kt \u0259\u02ccsesm\u0259nt/",
+    ipa: "/ˈɪmpækt əˌsesmənt/",
     def: "A study of how a change may affect people.",
-    vi: "\u0111\u00e1nh gi\u00e1 t\u00e1c \u0111\u1ed9ng",
+    vi: "đánh giá tác động",
     examples:
       [
         {
           en: "Write an impact assessment for the pricing change.",
-          vi: "Vi\u1ebft \u0111\u00e1nh gi\u00e1 t\u00e1c \u0111\u1ed9ng cho thay \u0111\u1ed5i gi\u00e1.",
+          vi: "Viết đánh giá tác động cho thay đổi giá.",
         },
       ],
   }
@@ -2562,14 +2140,14 @@
     kind: collocation,
     cefr: C1,
     topic: equality,
-    ipa: "/\u0259\u02ccfekt\u026ad \u02c8p\u0251\u02d0ti/",
+    ipa: "/əˌfektɪd ˈpɑːti/",
     def: "A person or group touched by a decision.",
-    vi: "b\u00ean b\u1ecb \u1ea3nh h\u01b0\u1edfng",
+    vi: "bên bị ảnh hưởng",
     examples:
       [
         {
           en: "List every affected party, including drivers.",
-          vi: "Li\u1ec7t k\u00ea m\u1ecdi b\u00ean b\u1ecb \u1ea3nh h\u01b0\u1edfng, k\u1ec3 c\u1ea3 t\u00e0i x\u1ebf.",
+          vi: "Liệt kê mọi bên bị ảnh hưởng, kể cả tài xế.",
         },
       ],
   }
@@ -2579,32 +2157,14 @@
     pos: noun,
     cefr: B2,
     topic: equality,
-    ipa: "/\u02c8\u0261\u0259\u028a \u0259hed/",
+    ipa: "/ˈɡəʊ əhed/",
     def: "Permission to start something.",
-    vi: "s\u1ef1 cho ph\u00e9p b\u1eaft \u0111\u1ea7u",
+    vi: "sự cho phép bắt đầu",
     examples:
       [
         {
           en: "Legal gave us the go-ahead on Friday.",
-          vi: "B\u1ed9 ph\u1eadn ph\u00e1p l\u00fd cho ph\u00e9p b\u1eaft \u0111\u1ea7u v\u00e0o th\u1ee9 S\u00e1u.",
-        },
-      ],
-  }
-- {
-    slug: flag-up-pv-t24,
-    lemma: "flag up",
-    pos: phrasal_verb,
-    kind: phrasal,
-    cefr: B2,
-    topic: equality,
-    ipa: "/\u02ccfl\u00e6\u0261 \u02c8\u028cp/",
-    def: "To bring a problem to someone's attention.",
-    vi: "b\u00e1o l\u00ean, n\u00eau ra",
-    examples:
-      [
-        {
-          en: "Flag up any safety report to the on-call lead.",
-          vi: "B\u00e1o m\u1ecdi ph\u1ea3n \u00e1nh an to\u00e0n l\u00ean tr\u01b0\u1edfng ca tr\u1ef1c.",
+          vi: "Bộ phận pháp lý cho phép bắt đầu vào thứ Sáu.",
         },
       ],
   }
@@ -2614,14 +2174,14 @@
     pos: noun,
     cefr: B2,
     topic: equality,
-    ipa: "/\u02c8\u026ans\u026ad\u0259nt/",
+    ipa: "/ˈɪnsɪdənt/",
     def: "An unexpected event that causes a problem.",
-    vi: "s\u1ef1 c\u1ed1",
+    vi: "sự cố",
     examples:
       [
         {
           en: "Log every incident with the time and the users affected.",
-          vi: "Ghi l\u1ea1i m\u1ecdi s\u1ef1 c\u1ed1 k\u00e8m th\u1eddi gian v\u00e0 ng\u01b0\u1eddi b\u1ecb \u1ea3nh h\u01b0\u1edfng.",
+          vi: "Ghi lại mọi sự cố kèm thời gian và người bị ảnh hưởng.",
         },
       ],
   }
@@ -2631,14 +2191,14 @@
     pos: verb,
     cefr: C1,
     topic: equality,
-    ipa: "/\u02c8lesn/",
+    ipa: "/ˈlesn/",
     def: "To make something smaller or weaker.",
-    vi: "gi\u1ea3m b\u1edbt",
+    vi: "giảm bớt",
     examples:
       [
         {
           en: "A clear warning will lessen the harm.",
-          vi: "M\u1ed9t c\u1ea3nh b\u00e1o r\u00f5 r\u00e0ng s\u1ebd gi\u1ea3m b\u1edbt thi\u1ec7t h\u1ea1i.",
+          vi: "Một cảnh báo rõ ràng sẽ giảm bớt thiệt hại.",
         },
       ],
   }
@@ -2649,31 +2209,14 @@
     kind: collocation,
     cefr: C1,
     topic: equality,
-    ipa: "/\u02ccli\u02d0\u0261\u0259li r\u026a\u02c8sp\u0252ns\u0259bl/",
+    ipa: "/ˌliːɡəli rɪˈspɒnsəbl/",
     def: "Having to answer to the law for something.",
-    vi: "ch\u1ecbu tr\u00e1ch nhi\u1ec7m ph\u00e1p l\u00fd",
+    vi: "chịu trách nhiệm pháp lý",
     examples:
       [
         {
           en: "The company is legally responsible if data leaks.",
-          vi: "C\u00f4ng ty ch\u1ecbu tr\u00e1ch nhi\u1ec7m ph\u00e1p l\u00fd n\u1ebfu l\u1ed9 d\u1eef li\u1ec7u.",
-        },
-      ],
-  }
-- {
-    slug: oversight-n-t24,
-    lemma: "oversight",
-    pos: noun,
-    cefr: C1,
-    topic: equality,
-    ipa: "/\u02c8\u0259\u028av\u0259sa\u026at/",
-    def: "The job of watching and checking that work is done properly.",
-    vi: "s\u1ef1 gi\u00e1m s\u00e1t",
-    examples:
-      [
-        {
-          en: "The AI feature needs oversight from a review board.",
-          vi: "T\u00ednh n\u0103ng AI c\u1ea7n s\u1ef1 gi\u00e1m s\u00e1t c\u1ee7a h\u1ed9i \u0111\u1ed3ng x\u00e9t duy\u1ec7t.",
+          vi: "Công ty chịu trách nhiệm pháp lý nếu lộ dữ liệu.",
         },
       ],
   }
@@ -2684,14 +2227,14 @@
     kind: collocation,
     cefr: C1,
     topic: equality,
-    ipa: "/\u02c8e\u03b8\u026aks r\u026a\u02ccvju\u02d0/",
+    ipa: "/ˈeθɪks rɪˌvjuː/",
     def: "A check that a project treats people in a right and fair way.",
-    vi: "x\u00e9t duy\u1ec7t \u0111\u1ea1o \u0111\u1ee9c",
+    vi: "xét duyệt đạo đức",
     examples:
       [
         {
           en: "Face matching must pass an ethics review.",
-          vi: "Nh\u1eadn di\u1ec7n khu\u00f4n m\u1eb7t ph\u1ea3i qua x\u00e9t duy\u1ec7t \u0111\u1ea1o \u0111\u1ee9c.",
+          vi: "Nhận diện khuôn mặt phải qua xét duyệt đạo đức.",
         },
       ],
   }
@@ -2701,14 +2244,14 @@
     pos: adjective,
     cefr: B2,
     topic: equality,
-    ipa: "/\u02c8e\u03b8\u026akl/",
+    ipa: "/ˈeθɪkl/",
     def: "Morally right.",
-    vi: "c\u00f3 \u0111\u1ea1o \u0111\u1ee9c",
+    vi: "có đạo đức",
     examples:
       [
         {
           en: "Is it ethical to test prices on poor users?",
-          vi: "Th\u1eed gi\u00e1 tr\u00ean ng\u01b0\u1eddi d\u00f9ng ngh\u00e8o c\u00f3 \u0111\u1ea1o \u0111\u1ee9c kh\u00f4ng?",
+          vi: "Thử giá trên người dùng nghèo có đạo đức không?",
         },
       ],
   }
@@ -2718,14 +2261,14 @@
     pos: noun,
     cefr: C1,
     topic: equality,
-    ipa: "/\u02c8re\u0261jule\u026at\u0259/",
+    ipa: "/ˈreɡjuleɪtə/",
     def: "An official organisation that makes sure rules are followed.",
-    vi: "c\u01a1 quan qu\u1ea3n l\u00fd",
+    vi: "cơ quan quản lý",
     examples:
       [
         {
           en: "The regulator asked how we store ID photos.",
-          vi: "C\u01a1 quan qu\u1ea3n l\u00fd h\u1ecfi b\u1ecdn m\u00ecnh l\u01b0u \u1ea3nh CCCD th\u1ebf n\u00e0o.",
+          vi: "Cơ quan quản lý hỏi bọn mình lưu ảnh CCCD thế nào.",
         },
       ],
   }
@@ -2736,14 +2279,14 @@
     kind: collocation,
     cefr: B2,
     topic: equality,
-    ipa: "/\u02ccli\u02d0\u0261l r\u026a\u02c8kwa\u026a\u0259m\u0259nt/",
+    ipa: "/ˌliːɡl rɪˈkwaɪəmənt/",
     def: "Something the law says you must do.",
-    vi: "y\u00eau c\u1ea7u ph\u00e1p l\u00fd",
+    vi: "yêu cầu pháp lý",
     examples:
       [
         {
           en: "Age checks are a legal requirement here.",
-          vi: "Ki\u1ec3m tra tu\u1ed5i l\u00e0 y\u00eau c\u1ea7u ph\u00e1p l\u00fd \u1edf \u0111\u00e2y.",
+          vi: "Kiểm tra tuổi là yêu cầu pháp lý ở đây.",
         },
       ],
   }
@@ -2753,32 +2296,14 @@
     pos: noun,
     cefr: C1,
     topic: equality,
-    ipa: "/\u02c8redin\u0259s/",
+    ipa: "/ˈredinəs/",
     def: "The state of being fully prepared.",
-    vi: "s\u1ef1 s\u1eb5n s\u00e0ng",
+    vi: "sự sẵn sàng",
     examples:
       [
         {
           en: "Support readiness is part of the launch checklist.",
-          vi: "S\u1ef1 s\u1eb5n s\u00e0ng c\u1ee7a \u0111\u1ed9i h\u1ed7 tr\u1ee3 n\u1eb1m trong checklist ra m\u1eaft.",
-        },
-      ],
-  }
-- {
-    slug: beta-tester-n-t24,
-    lemma: "beta tester",
-    pos: noun,
-    kind: collocation,
-    cefr: B1,
-    topic: equality,
-    ipa: "/\u02c8bi\u02d0t\u0259 \u02cctest\u0259/",
-    def: "A person who tries a product before its official release.",
-    vi: "ng\u01b0\u1eddi th\u1eed nghi\u1ec7m b\u1ea3n beta",
-    examples:
-      [
-        {
-          en: "Recruit beta testers from rural provinces too.",
-          vi: "Tuy\u1ec3n c\u1ea3 ng\u01b0\u1eddi th\u1eed b\u1ea3n beta t\u1eeb c\u00e1c t\u1ec9nh n\u00f4ng th\u00f4n.",
+          vi: "Sự sẵn sàng của đội hỗ trợ nằm trong checklist ra mắt.",
         },
       ],
   }
@@ -2789,31 +2314,14 @@
     kind: collocation,
     cefr: C1,
     topic: equality,
-    ipa: "/k\u0259\u02c8ne\u0259ri r\u026a\u02ccli\u02d0s/",
+    ipa: "/kəˈneəri rɪˌliːs/",
     def: "Releasing a change to a tiny group first to catch problems early.",
-    vi: "ph\u00e1t h\u00e0nh canary",
+    vi: "phát hành canary",
     examples:
       [
         {
           en: "The canary release found the crash in an hour.",
-          vi: "B\u1ea3n ph\u00e1t h\u00e0nh canary ph\u00e1t hi\u1ec7n l\u1ed7i crash trong m\u1ed9t gi\u1edd.",
-        },
-      ],
-  }
-- {
-    slug: undo-v-t24,
-    lemma: "undo",
-    pos: verb,
-    cefr: B1,
-    topic: equality,
-    ipa: "/\u028cn\u02c8du\u02d0/",
-    def: "To reverse a change.",
-    vi: "ho\u00e0n t\u00e1c",
-    examples:
-      [
-        {
-          en: "Be ready to undo the release within ten minutes.",
-          vi: "S\u1eb5n s\u00e0ng ho\u00e0n t\u00e1c b\u1ea3n ph\u00e1t h\u00e0nh trong m\u01b0\u1eddi ph\u00fat.",
+          vi: "Bản phát hành canary phát hiện lỗi crash trong một giờ.",
         },
       ],
   }
@@ -2824,14 +2332,14 @@
     kind: collocation,
     cefr: B2,
     topic: equality,
-    ipa: "/\u02c8f\u0254\u02d0lb\u00e6k \u02ccpl\u00e6n/",
+    ipa: "/ˈfɔːlbæk ˌplæn/",
     def: "A plan to use if the main one fails.",
-    vi: "ph\u01b0\u01a1ng \u00e1n d\u1ef1 ph\u00f2ng",
+    vi: "phương án dự phòng",
     examples:
       [
         {
           en: "Our fallback plan is manual approval by staff.",
-          vi: "Ph\u01b0\u01a1ng \u00e1n d\u1ef1 ph\u00f2ng l\u00e0 nh\u00e2n vi\u00ean duy\u1ec7t th\u1ee7 c\u00f4ng.",
+          vi: "Phương án dự phòng là nhân viên duyệt thủ công.",
         },
       ],
   }
@@ -2842,14 +2350,14 @@
     kind: collocation,
     cefr: B2,
     topic: equality,
-    ipa: "/s\u0259k\u02c8ses \u02ccmetr\u026ak/",
+    ipa: "/səkˈses ˌmetrɪk/",
     def: "A number used to decide whether something worked.",
-    vi: "ch\u1ec9 s\u1ed1 th\u00e0nh c\u00f4ng",
+    vi: "chỉ số thành công",
     examples:
       [
         {
           en: "Add a success metric for users with disabilities.",
-          vi: "Th\u00eam ch\u1ec9 s\u1ed1 th\u00e0nh c\u00f4ng cho ng\u01b0\u1eddi d\u00f9ng khuy\u1ebft t\u1eadt.",
+          vi: "Thêm chỉ số thành công cho người dùng khuyết tật.",
         },
       ],
   }
@@ -2860,32 +2368,14 @@
     kind: collocation,
     cefr: B2,
     topic: equality,
-    ipa: "/\u02ccred \u02c8fl\u00e6\u0261/",
+    ipa: "/ˌred ˈflæɡ/",
     def: "A sign that something is wrong.",
-    vi: "d\u1ea5u hi\u1ec7u c\u1ea3nh b\u00e1o",
+    vi: "dấu hiệu cảnh báo",
     examples:
       [
         {
           en: "A jump in support tickets is a red flag.",
-          vi: "Ticket h\u1ed7 tr\u1ee3 t\u0103ng v\u1ecdt l\u00e0 d\u1ea5u hi\u1ec7u c\u1ea3nh b\u00e1o.",
-        },
-      ],
-  }
-# Set 10: An inclusive product review
-- {
-    slug: inclusive-adj-t24,
-    lemma: "inclusive",
-    pos: adjective,
-    cefr: B2,
-    topic: equality,
-    ipa: "/\u026an\u02c8klu\u02d0s\u026av/",
-    def: "Including everyone and not leaving any group out.",
-    vi: "bao tr\u00f9m, ho\u00e0 nh\u1eadp",
-    examples:
-      [
-        {
-          en: "An inclusive form accepts names of any length.",
-          vi: "M\u1ed9t form bao tr\u00f9m ch\u1ea5p nh\u1eadn t\u00ean v\u1edbi m\u1ecdi \u0111\u1ed9 d\u00e0i.",
+          vi: "Ticket hỗ trợ tăng vọt là dấu hiệu cảnh báo.",
         },
       ],
   }
@@ -2895,14 +2385,14 @@
     pos: noun,
     cefr: C1,
     topic: equality,
-    ipa: "/\u02c8ekw\u0259ti/",
+    ipa: "/ˈekwəti/",
     def: "Giving people what they need so their chances are fair.",
-    vi: "s\u1ef1 c\u00f4ng b\u1eb1ng (theo nhu c\u1ea7u)",
+    vi: "sự công bằng (theo nhu cầu)",
     examples:
       [
         {
           en: "Equity may mean extra help for slow connections.",
-          vi: "C\u00f4ng b\u1eb1ng c\u00f3 th\u1ec3 ngh\u0129a l\u00e0 h\u1ed7 tr\u1ee3 th\u00eam cho k\u1ebft n\u1ed1i ch\u1eadm.",
+          vi: "Công bằng có thể nghĩa là hỗ trợ thêm cho kết nối chậm.",
         },
       ],
   }
@@ -2912,16 +2402,11 @@
     pos: noun,
     cefr: B2,
     topic: equality,
-    ipa: "/da\u026a\u02c8v\u025c\u02d0s\u0259ti/",
+    ipa: "/daɪˈvɜːsəti/",
     def: "Having many different types of people.",
-    vi: "s\u1ef1 \u0111a d\u1ea1ng",
+    vi: "sự đa dạng",
     examples:
-      [
-        {
-          en: "Our test panel lacks diversity.",
-          vi: "Nh\u00f3m th\u1eed nghi\u1ec7m c\u1ee7a m\u00ecnh thi\u1ebfu \u0111a d\u1ea1ng.",
-        },
-      ],
+      [{ en: "Our test panel lacks diversity.", vi: "Nhóm thử nghiệm của mình thiếu đa dạng." }],
   }
 - {
     slug: representation-n,
@@ -2929,14 +2414,14 @@
     pos: noun,
     cefr: C1,
     topic: equality,
-    ipa: "/\u02ccrepr\u026azen\u02c8te\u026a\u0283n/",
+    ipa: "/ˌreprɪzenˈteɪʃn/",
     def: "How a group is shown or included.",
-    vi: "s\u1ef1 \u0111\u1ea1i di\u1ec7n",
+    vi: "sự đại diện",
     examples:
       [
         {
           en: "Check the representation of women in our ads.",
-          vi: "Ki\u1ec3m tra s\u1ef1 \u0111\u1ea1i di\u1ec7n c\u1ee7a ph\u1ee5 n\u1eef trong qu\u1ea3ng c\u00e1o.",
+          vi: "Kiểm tra sự đại diện của phụ nữ trong quảng cáo.",
         },
       ],
   }
@@ -2946,31 +2431,14 @@
     pos: noun,
     cefr: C1,
     topic: equality,
-    ipa: "/\u02cc\u026ant\u0259\u02ccsek\u0283\u0259\u02c8n\u00e6l\u0259ti/",
+    ipa: "/ˌɪntəˌsekʃəˈnæləti/",
     def: "The way different parts of who you are, such as gender and income, combine to affect you.",
-    vi: "t\u00ednh giao thoa",
+    vi: "tính giao thoa",
     examples:
       [
         {
           en: "Intersectionality matters: older rural women face both problems.",
-          vi: "T\u00ednh giao thoa quan tr\u1ecdng: ph\u1ee5 n\u1eef l\u1edbn tu\u1ed5i \u1edf n\u00f4ng th\u00f4n g\u1eb7p c\u1ea3 hai v\u1ea5n \u0111\u1ec1.",
-        },
-      ],
-  }
-- {
-    slug: empathy-n-t24,
-    lemma: "empathy",
-    pos: noun,
-    cefr: B2,
-    topic: equality,
-    ipa: "/\u02c8emp\u0259\u03b8i/",
-    def: "The ability to understand how another person feels.",
-    vi: "s\u1ef1 th\u1ea5u c\u1ea3m",
-    examples:
-      [
-        {
-          en: "Watching real sessions builds empathy in the team.",
-          vi: "Xem phi\u00ean d\u00f9ng th\u1eadt gi\u00fap nh\u00f3m th\u1ea5u c\u1ea3m h\u01a1n.",
+          vi: "Tính giao thoa quan trọng: phụ nữ lớn tuổi ở nông thôn gặp cả hai vấn đề.",
         },
       ],
   }
@@ -2981,14 +2449,14 @@
     kind: collocation,
     cefr: C1,
     topic: equality,
-    ipa: "/\u02ccl\u026avd \u026ak\u02c8sp\u026a\u0259ri\u0259ns/",
+    ipa: "/ˌlɪvd ɪkˈspɪəriəns/",
     def: "Knowledge that comes from living through something yourself.",
-    vi: "tr\u1ea3i nghi\u1ec7m th\u1ef1c t\u1ebf b\u1ea3n th\u00e2n",
+    vi: "trải nghiệm thực tế bản thân",
     examples:
       [
         {
           en: "Invite people with lived experience of blindness.",
-          vi: "M\u1eddi nh\u1eefng ng\u01b0\u1eddi t\u1eebng tr\u1ea3i nghi\u1ec7m th\u1ef1c t\u1ebf vi\u1ec7c khi\u1ebfm th\u1ecb.",
+          vi: "Mời những người từng trải nghiệm thực tế việc khiếm thị.",
         },
       ],
   }
@@ -2998,14 +2466,14 @@
     pos: noun,
     cefr: C1,
     topic: equality,
-    ipa: "/\u02c8\u00e6dv\u0259k\u0259t/",
+    ipa: "/ˈædvəkət/",
     def: "A person who speaks up for a group or idea.",
-    vi: "ng\u01b0\u1eddi b\u00eanh v\u1ef1c, ng\u01b0\u1eddi \u1ee7ng h\u1ed9",
+    vi: "người bênh vực, người ủng hộ",
     examples:
       [
         {
           en: "Mai is the accessibility advocate on our team.",
-          vi: "Mai l\u00e0 ng\u01b0\u1eddi \u1ee7ng h\u1ed9 kh\u1ea3 n\u0103ng ti\u1ebfp c\u1eadn trong nh\u00f3m.",
+          vi: "Mai là người ủng hộ khả năng tiếp cận trong nhóm.",
         },
       ],
   }
@@ -3015,14 +2483,14 @@
     pos: adjective,
     cefr: C1,
     topic: equality,
-    ipa: "/\u02cc\u028cnd\u0259\u02c8s\u025c\u02d0vd/",
+    ipa: "/ˌʌndəˈsɜːvd/",
     def: "Not given enough services or help.",
-    vi: "ch\u01b0a \u0111\u01b0\u1ee3c ph\u1ee5c v\u1ee5 \u0111\u1ea7y \u0111\u1ee7",
+    vi: "chưa được phục vụ đầy đủ",
     examples:
       [
         {
           en: "Mountain districts are underserved by delivery apps.",
-          vi: "C\u00e1c huy\u1ec7n mi\u1ec1n n\u00fai ch\u01b0a \u0111\u01b0\u1ee3c app giao h\u00e0ng ph\u1ee5c v\u1ee5 \u0111\u1ea7y \u0111\u1ee7.",
+          vi: "Các huyện miền núi chưa được app giao hàng phục vụ đầy đủ.",
         },
       ],
   }
@@ -3032,14 +2500,14 @@
     pos: adjective,
     cefr: C1,
     topic: equality,
-    ipa: "/\u02ccs\u0259\u028asi\u0259\u028a\u02cci\u02d0k\u0259\u02c8n\u0252m\u026ak/",
+    ipa: "/ˌsəʊsiəʊˌiːkəˈnɒmɪk/",
     def: "Related to both social position and money.",
-    vi: "kinh t\u1ebf - x\u00e3 h\u1ed9i",
+    vi: "kinh tế - xã hội",
     examples:
       [
         {
           en: "Socioeconomic background affects which phone people have.",
-          vi: "Ho\u00e0n c\u1ea3nh kinh t\u1ebf - x\u00e3 h\u1ed9i \u1ea3nh h\u01b0\u1edfng t\u1edbi \u0111i\u1ec7n tho\u1ea1i m\u1ecdi ng\u01b0\u1eddi d\u00f9ng.",
+          vi: "Hoàn cảnh kinh tế - xã hội ảnh hưởng tới điện thoại mọi người dùng.",
         },
       ],
   }
@@ -3050,14 +2518,14 @@
     kind: collocation,
     cefr: C1,
     topic: equality,
-    ipa: "/\u02c8\u00e6kses \u02cc\u0261\u00e6p/",
+    ipa: "/ˈækses ˌɡæp/",
     def: "The difference between groups who can and cannot use something.",
-    vi: "kho\u1ea3ng c\u00e1ch ti\u1ebfp c\u1eadn",
+    vi: "khoảng cách tiếp cận",
     examples:
       [
         {
           en: "The access gap is widest among people over seventy.",
-          vi: "Kho\u1ea3ng c\u00e1ch ti\u1ebfp c\u1eadn l\u1edbn nh\u1ea5t \u1edf ng\u01b0\u1eddi tr\u00ean b\u1ea3y m\u01b0\u01a1i.",
+          vi: "Khoảng cách tiếp cận lớn nhất ở người trên bảy mươi.",
         },
       ],
   }
@@ -3067,14 +2535,14 @@
     pos: noun,
     cefr: C1,
     topic: equality,
-    ipa: "/\u0259\u02ccf\u0254\u02d0d\u0259\u02c8b\u026al\u0259ti/",
+    ipa: "/əˌfɔːdəˈbɪləti/",
     def: "How cheap enough something is for people to pay for.",
-    vi: "kh\u1ea3 n\u0103ng chi tr\u1ea3",
+    vi: "khả năng chi trả",
     examples:
       [
         {
           en: "Affordability is the top reason people cancel.",
-          vi: "Kh\u1ea3 n\u0103ng chi tr\u1ea3 l\u00e0 l\u00fd do h\u00e0ng \u0111\u1ea7u khi\u1ebfn ng\u01b0\u1eddi d\u00f9ng hu\u1ef7.",
+          vi: "Khả năng chi trả là lý do hàng đầu khiến người dùng huỷ.",
         },
       ],
   }
@@ -3084,14 +2552,14 @@
     pos: noun,
     cefr: C1,
     topic: equality,
-    ipa: "/\u02c8d\u026a\u0261n\u0259ti/",
+    ipa: "/ˈdɪɡnəti/",
     def: "Being treated with respect.",
-    vi: "ph\u1ea9m gi\u00e1",
+    vi: "phẩm giá",
     examples:
       [
         {
           en: "Error messages should protect the user's dignity.",
-          vi: "Th\u00f4ng b\u00e1o l\u1ed7i n\u00ean t\u00f4n tr\u1ecdng ph\u1ea9m gi\u00e1 ng\u01b0\u1eddi d\u00f9ng.",
+          vi: "Thông báo lỗi nên tôn trọng phẩm giá người dùng.",
         },
       ],
   }
@@ -3101,14 +2569,14 @@
     pos: noun,
     cefr: C1,
     topic: equality,
-    ipa: "/\u02ccself d\u026a\u02cct\u025c\u02d0m\u026a\u02c8ne\u026a\u0283n/",
+    ipa: "/ˌself dɪˌtɜːmɪˈneɪʃn/",
     def: "The right to make your own choices.",
-    vi: "quy\u1ec1n t\u1ef1 quy\u1ebft",
+    vi: "quyền tự quyết",
     examples:
       [
         {
           en: "Caregiver mode must respect self-determination.",
-          vi: "Ch\u1ebf \u0111\u1ed9 ng\u01b0\u1eddi ch\u0103m s\u00f3c ph\u1ea3i t\u00f4n tr\u1ecdng quy\u1ec1n t\u1ef1 quy\u1ebft.",
+          vi: "Chế độ người chăm sóc phải tôn trọng quyền tự quyết.",
         },
       ],
   }
@@ -3118,14 +2586,14 @@
     pos: noun,
     cefr: B2,
     topic: equality,
-    ipa: "/\u02cc\u026an\u026a\u02c8kw\u0252l\u0259ti/",
+    ipa: "/ˌɪnɪˈkwɒləti/",
     def: "An unfair difference between groups.",
-    vi: "b\u1ea5t b\u00ecnh \u0111\u1eb3ng",
+    vi: "bất bình đẳng",
     examples:
       [
         {
           en: "The new fee could deepen inequality.",
-          vi: "M\u1ee9c ph\u00ed m\u1edbi c\u00f3 th\u1ec3 l\u00e0m b\u1ea5t b\u00ecnh \u0111\u1eb3ng s\u00e2u h\u01a1n.",
+          vi: "Mức phí mới có thể làm bất bình đẳng sâu hơn.",
         },
       ],
   }
@@ -3135,14 +2603,14 @@
     pos: adjective,
     cefr: C1,
     topic: equality,
-    ipa: "/s\u026a\u02c8stem\u026ak/",
+    ipa: "/sɪˈstemɪk/",
     def: "Affecting a whole system, not just one part.",
-    vi: "mang t\u00ednh h\u1ec7 th\u1ed1ng",
+    vi: "mang tính hệ thống",
     examples:
       [
         {
           en: "This is a systemic problem, not one bad screen.",
-          vi: "\u0110\u00e2y l\u00e0 v\u1ea5n \u0111\u1ec1 h\u1ec7 th\u1ed1ng, kh\u00f4ng ph\u1ea3i m\u1ed9t m\u00e0n h\u00ecnh l\u1ed7i.",
+          vi: "Đây là vấn đề hệ thống, không phải một màn hình lỗi.",
         },
       ],
   }
@@ -3152,14 +2620,14 @@
     pos: adjective,
     cefr: C1,
     topic: equality,
-    ipa: "/s\u0259\u02c8sa\u026a\u0259tl/",
+    ipa: "/səˈsaɪətl/",
     def: "Related to society as a whole.",
-    vi: "thu\u1ed9c v\u1ec1 x\u00e3 h\u1ed9i",
+    vi: "thuộc về xã hội",
     examples:
       [
         {
           en: "We should consider the societal impact of face search.",
-          vi: "M\u00ecnh n\u00ean c\u00e2n nh\u1eafc t\u00e1c \u0111\u1ed9ng x\u00e3 h\u1ed9i c\u1ee7a t\u00ecm ki\u1ebfm khu\u00f4n m\u1eb7t.",
+          vi: "Mình nên cân nhắc tác động xã hội của tìm kiếm khuôn mặt.",
         },
       ],
   }
@@ -3170,14 +2638,14 @@
     kind: collocation,
     cefr: B1,
     topic: equality,
-    ipa: "/s\u0259\u02ccd\u0292est\u026ad \u02c8t\u0283e\u026and\u0292/",
+    ipa: "/səˌdʒestɪd ˈtʃeɪndʒ/",
     def: "An idea for how to make something different or better.",
-    vi: "\u0111\u1ec1 xu\u1ea5t thay \u0111\u1ed5i",
+    vi: "đề xuất thay đổi",
     examples:
       [
         {
           en: "Each suggested change has an owner and a date.",
-          vi: "M\u1ed7i \u0111\u1ec1 xu\u1ea5t thay \u0111\u1ed5i c\u00f3 ng\u01b0\u1eddi ph\u1ee5 tr\u00e1ch v\u00e0 h\u1ea1n.",
+          vi: "Mỗi đề xuất thay đổi có người phụ trách và hạn.",
         },
       ],
   }
@@ -3188,14 +2656,14 @@
     kind: collocation,
     cefr: B2,
     topic: equality,
-    ipa: "/s\u0259\u02ccp\u0254\u02d0t\u026a\u014b \u02c8de\u026at\u0259/",
+    ipa: "/səˌpɔːtɪŋ ˈdeɪtə/",
     def: "Numbers or facts that show a claim is true.",
-    vi: "d\u1eef li\u1ec7u ch\u1ee9ng minh",
+    vi: "dữ liệu chứng minh",
     examples:
       [
         {
           en: "Attach supporting data to every barrier you report.",
-          vi: "K\u00e8m d\u1eef li\u1ec7u ch\u1ee9ng minh cho m\u1ed7i r\u00e0o c\u1ea3n b\u1ea1n b\u00e1o c\u00e1o.",
+          vi: "Kèm dữ liệu chứng minh cho mỗi rào cản bạn báo cáo.",
         },
       ],
   }
@@ -3205,31 +2673,14 @@
     pos: noun,
     cefr: B2,
     topic: equality,
-    ipa: "/\u02cc\u0252bz\u0259\u02c8ve\u026a\u0283n/",
+    ipa: "/ˌɒbzəˈveɪʃn/",
     def: "Something you notice by watching carefully.",
-    vi: "\u0111i\u1ec1u quan s\u00e1t \u0111\u01b0\u1ee3c",
+    vi: "điều quan sát được",
     examples:
       [
         {
           en: "One observation: users zoom in on every price.",
-          vi: "M\u1ed9t \u0111i\u1ec1u quan s\u00e1t \u0111\u01b0\u1ee3c: ng\u01b0\u1eddi d\u00f9ng ph\u00f3ng to m\u1ecdi gi\u00e1 ti\u1ec1n.",
-        },
-      ],
-  }
-- {
-    slug: rank-v-t24,
-    lemma: "rank",
-    pos: verb,
-    cefr: B2,
-    topic: equality,
-    ipa: "/r\u00e6\u014bk/",
-    def: "To put things in order of importance.",
-    vi: "x\u1ebfp h\u1ea1ng",
-    examples:
-      [
-        {
-          en: "Rank the barriers by how many users they block.",
-          vi: "X\u1ebfp h\u1ea1ng r\u00e0o c\u1ea3n theo s\u1ed1 ng\u01b0\u1eddi d\u00f9ng b\u1ecb ch\u1eb7n.",
+          vi: "Một điều quan sát được: người dùng phóng to mọi giá tiền.",
         },
       ],
   }
@@ -3240,48 +2691,14 @@
     kind: phrase,
     cefr: C1,
     topic: equality,
-    ipa: "/\u02ccl\u0259\u028a \u02cch\u00e6\u014b\u026a\u014b \u02c8fru\u02d0t/",
+    ipa: "/ˌləʊ ˌhæŋɪŋ ˈfruːt/",
     def: "Easy tasks that bring results quickly.",
-    vi: "vi\u1ec7c d\u1ec5 l\u00e0m m\u00e0 hi\u1ec7u qu\u1ea3",
+    vi: "việc dễ làm mà hiệu quả",
     examples:
       [
         {
           en: "Bigger text on buttons is low-hanging fruit.",
-          vi: "Ch\u1eef to h\u01a1n tr\u00ean n\u00fat l\u00e0 vi\u1ec7c d\u1ec5 l\u00e0m m\u00e0 hi\u1ec7u qu\u1ea3.",
-        },
-      ],
-  }
-- {
-    slug: underlying-adj-t24,
-    lemma: "underlying",
-    pos: adjective,
-    cefr: C1,
-    topic: equality,
-    ipa: "/\u02cc\u028cnd\u0259\u02c8la\u026a\u026a\u014b/",
-    def: "Real but not easy to see at first.",
-    vi: "ti\u1ec1m \u1ea9n, g\u1ed1c r\u1ec5",
-    examples:
-      [
-        {
-          en: "The underlying issue is that the form assumes one name format.",
-          vi: "V\u1ea5n \u0111\u1ec1 g\u1ed1c l\u00e0 form gi\u1ea3 \u0111\u1ecbnh m\u1ed9t ki\u1ec3u t\u00ean.",
-        },
-      ],
-  }
-- {
-    slug: recurring-adj-t24,
-    lemma: "recurring",
-    pos: adjective,
-    cefr: C1,
-    topic: equality,
-    ipa: "/r\u026a\u02c8k\u025c\u02d0r\u026a\u014b/",
-    def: "Happening again and again.",
-    vi: "l\u1eb7p l\u1ea1i",
-    examples:
-      [
-        {
-          en: "Login failures are a recurring theme in interviews.",
-          vi: "L\u1ed7i \u0111\u0103ng nh\u1eadp l\u00e0 ch\u1ee7 \u0111\u1ec1 l\u1eb7p l\u1ea1i trong c\u00e1c bu\u1ed5i ph\u1ecfng v\u1ea5n.",
+          vi: "Chữ to hơn trên nút là việc dễ làm mà hiệu quả.",
         },
       ],
   }
@@ -3291,14 +2708,14 @@
     pos: noun,
     cefr: C1,
     topic: equality,
-    ipa: "/\u02c8h\u026a\u0259se\u026a/",
+    ipa: "/ˈhɪəseɪ/",
     def: "Information you heard from others but cannot prove.",
-    vi: "tin \u0111\u1ed3n, nghe n\u00f3i",
+    vi: "tin đồn, nghe nói",
     examples:
       [
         {
           en: "That claim is hearsay until we test it.",
-          vi: "Kh\u1eb3ng \u0111\u1ecbnh \u0111\u00f3 ch\u1ec9 l\u00e0 nghe n\u00f3i cho t\u1edbi khi m\u00ecnh test.",
+          vi: "Khẳng định đó chỉ là nghe nói cho tới khi mình test.",
         },
       ],
   }
@@ -3308,14 +2725,14 @@
     pos: adjective,
     cefr: C1,
     topic: equality,
-    ipa: "/\u02c8tr\u00e6k\u0259bl/",
+    ipa: "/ˈtrækəbl/",
     def: "Possible to follow and measure over time.",
-    vi: "theo d\u00f5i \u0111\u01b0\u1ee3c",
+    vi: "theo dõi được",
     examples:
       [
         {
           en: "Make each goal trackable on the dashboard.",
-          vi: "L\u00e0m cho m\u1ed7i m\u1ee5c ti\u00eau theo d\u00f5i \u0111\u01b0\u1ee3c tr\u00ean dashboard.",
+          vi: "Làm cho mỗi mục tiêu theo dõi được trên dashboard.",
         },
       ],
   }
@@ -3326,14 +2743,14 @@
     kind: collocation,
     cefr: B2,
     topic: equality,
-    ipa: "/\u02c8refr\u0259ns \u02ccp\u0254\u026ant/",
+    ipa: "/ˈrefrəns ˌpɔɪnt/",
     def: "A starting measurement you compare later results with.",
-    vi: "\u0111i\u1ec3m m\u1ed1c so s\u00e1nh",
+    vi: "điểm mốc so sánh",
     examples:
       [
         {
           en: "Record a reference point before changing the checkout.",
-          vi: "Ghi \u0111i\u1ec3m m\u1ed1c tr\u01b0\u1edbc khi \u0111\u1ed5i trang thanh to\u00e1n.",
+          vi: "Ghi điểm mốc trước khi đổi trang thanh toán.",
         },
       ],
   }
@@ -3344,14 +2761,14 @@
     kind: collocation,
     cefr: C1,
     topic: equality,
-    ipa: "/m\u0259\u02c8d\u0292\u0252r\u0259ti \u02ccvju\u02d0/",
+    ipa: "/məˈdʒɒrəti ˌvjuː/",
     def: "The opinion held by most people in a group.",
-    vi: "\u00fd ki\u1ebfn \u0111a s\u1ed1",
+    vi: "ý kiến đa số",
     examples:
       [
         {
           en: "The majority view is to fix sign-up first.",
-          vi: "\u00dd ki\u1ebfn \u0111a s\u1ed1 l\u00e0 s\u1eeda ph\u1ea7n \u0111\u0103ng k\u00fd tr\u01b0\u1edbc.",
+          vi: "Ý kiến đa số là sửa phần đăng ký trước.",
         },
       ],
   }
@@ -3362,14 +2779,14 @@
     kind: collocation,
     cefr: C1,
     topic: equality,
-    ipa: "/\u02ccri\u02d0zn\u0259bl \u0259\u02c8d\u0292\u028cstm\u0259nt/",
+    ipa: "/ˌriːznəbl əˈdʒʌstmənt/",
     def: "A change made so that a disabled person can take part fairly.",
-    vi: "\u0111i\u1ec1u ch\u1ec9nh h\u1ee3p l\u00fd",
+    vi: "điều chỉnh hợp lý",
     examples:
       [
         {
           en: "Offer extra time as a reasonable adjustment in the quiz.",
-          vi: "Cho th\u00eam th\u1eddi gian nh\u01b0 m\u1ed9t \u0111i\u1ec1u ch\u1ec9nh h\u1ee3p l\u00fd trong b\u00e0i ki\u1ec3m tra.",
+          vi: "Cho thêm thời gian như một điều chỉnh hợp lý trong bài kiểm tra.",
         },
       ],
   }
@@ -3379,14 +2796,14 @@
     pos: verb,
     cefr: C1,
     topic: equality,
-    ipa: "/\u02cck\u0259\u028a d\u026a\u02c8za\u026an/",
+    ipa: "/ˌkəʊ dɪˈzaɪn/",
     def: "To design something together with the people who will use it.",
-    vi: "\u0111\u1ed3ng thi\u1ebft k\u1ebf",
+    vi: "đồng thiết kế",
     examples:
       [
         {
           en: "We co-designed the menu with deaf users.",
-          vi: "B\u1ecdn m\u00ecnh \u0111\u1ed3ng thi\u1ebft k\u1ebf menu v\u1edbi ng\u01b0\u1eddi d\u00f9ng khi\u1ebfm th\u00ednh.",
+          vi: "Bọn mình đồng thiết kế menu với người dùng khiếm thính.",
         },
       ],
   }
@@ -3397,14 +2814,14 @@
     kind: collocation,
     cefr: B2,
     topic: equality,
-    ipa: "/\u02c8ju\u02d0z\u0259 r\u026a\u02ccs\u025c\u02d0t\u0283/",
+    ipa: "/ˈjuːzə rɪˌsɜːtʃ/",
     def: "Studying how real people use a product.",
-    vi: "nghi\u00ean c\u1ee9u ng\u01b0\u1eddi d\u00f9ng",
+    vi: "nghiên cứu người dùng",
     examples:
       [
         {
           en: "User research showed the icons were unclear.",
-          vi: "Nghi\u00ean c\u1ee9u ng\u01b0\u1eddi d\u00f9ng cho th\u1ea5y icon ch\u01b0a r\u00f5.",
+          vi: "Nghiên cứu người dùng cho thấy icon chưa rõ.",
         },
       ],
   }
@@ -3414,14 +2831,14 @@
     pos: noun,
     cefr: B2,
     topic: equality,
-    ipa: "/\u02cc\u026ant\u0259vju\u02d0\u02c8i\u02d0/",
+    ipa: "/ˌɪntəvjuːˈiː/",
     def: "A person who answers questions in an interview.",
-    vi: "ng\u01b0\u1eddi \u0111\u01b0\u1ee3c ph\u1ecfng v\u1ea5n",
+    vi: "người được phỏng vấn",
     examples:
       [
         {
           en: "Pay each interviewee for their time.",
-          vi: "Tr\u1ea3 ti\u1ec1n cho m\u1ed7i ng\u01b0\u1eddi \u0111\u01b0\u1ee3c ph\u1ecfng v\u1ea5n v\u00ec th\u1eddi gian c\u1ee7a h\u1ecd.",
+          vi: "Trả tiền cho mỗi người được phỏng vấn vì thời gian của họ.",
         },
       ],
   }
@@ -3431,14 +2848,14 @@
     pos: noun,
     cefr: C1,
     topic: equality,
-    ipa: "/p\u0259\u02c8s\u0259\u028an\u0259/",
+    ipa: "/pəˈsəʊnə/",
     def: "An imagined user that represents a real group.",
-    vi: "ch\u00e2n dung ng\u01b0\u1eddi d\u00f9ng",
+    vi: "chân dung người dùng",
     examples:
       [
         {
           en: "Add a persona for a farmer with an old phone.",
-          vi: "Th\u00eam ch\u00e2n dung ng\u01b0\u1eddi d\u00f9ng l\u00e0 n\u00f4ng d\u00e2n d\u00f9ng \u0111i\u1ec7n tho\u1ea1i c\u0169.",
+          vi: "Thêm chân dung người dùng là nông dân dùng điện thoại cũ.",
         },
       ],
   }
@@ -3448,14 +2865,14 @@
     pos: noun,
     cefr: C1,
     topic: equality,
-    ipa: "/d\u0292\u026ast/",
+    ipa: "/dʒɪst/",
     def: "The main idea of something.",
-    vi: "\u00fd ch\u00ednh",
+    vi: "ý chính",
     examples:
       [
         {
           en: "The gist of the review: most barriers are in sign-up.",
-          vi: "\u00dd ch\u00ednh c\u1ee7a \u0111\u00e1nh gi\u00e1: h\u1ea7u h\u1ebft r\u00e0o c\u1ea3n n\u1eb1m \u1edf \u0111\u0103ng k\u00fd.",
+          vi: "Ý chính của đánh giá: hầu hết rào cản nằm ở đăng ký.",
         },
       ],
   }
@@ -3466,14 +2883,14 @@
     kind: collocation,
     cefr: B2,
     topic: equality,
-    ipa: "/\u02c8\u00e6k\u0283n \u02ccpl\u00e6n/",
+    ipa: "/ˈækʃn ˌplæn/",
     def: "A list of steps to reach a goal.",
-    vi: "k\u1ebf ho\u1ea1ch h\u00e0nh \u0111\u1ed9ng",
+    vi: "kế hoạch hành động",
     examples:
       [
         {
           en: "Share the action plan with design and support.",
-          vi: "Chia s\u1ebb k\u1ebf ho\u1ea1ch h\u00e0nh \u0111\u1ed9ng v\u1edbi \u0111\u1ed9i thi\u1ebft k\u1ebf v\u00e0 h\u1ed7 tr\u1ee3.",
+          vi: "Chia sẻ kế hoạch hành động với đội thiết kế và hỗ trợ.",
         },
       ],
   }
@@ -3483,14 +2900,14 @@
     pos: verb,
     cefr: C1,
     topic: equality,
-    ipa: "/\u02ccri\u02d0 \u026a\u0261\u02c8z\u00e6m\u026an/",
+    ipa: "/ˌriː ɪɡˈzæmɪn/",
     def: "To look at something carefully again.",
-    vi: "xem x\u00e9t l\u1ea1i",
+    vi: "xem xét lại",
     examples:
       [
         {
           en: "Re-examine the results after three months.",
-          vi: "Xem x\u00e9t l\u1ea1i k\u1ebft qu\u1ea3 sau ba th\u00e1ng.",
+          vi: "Xem xét lại kết quả sau ba tháng.",
         },
       ],
   }
