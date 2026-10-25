@@ -379,7 +379,7 @@
   }
 # Set 3: time series & timestamps
 - {
-    "slug": "time-series-n",
+    "slug": "time-series-n-t23",
     "lemma": "time series",
     "pos": "noun",
     "kind": "collocation",
@@ -397,7 +397,7 @@
       ],
   }
 - {
-    "slug": "utc-n",
+    "slug": "utc-n-t23",
     "lemma": "UTC",
     "pos": "noun",
     "cefr": "B1",
@@ -534,7 +534,7 @@
       ],
   }
 - {
-    "slug": "peak-n",
+    "slug": "peak-n-t23",
     "lemma": "peak",
     "pos": "noun",
     "cefr": "B1",
@@ -568,7 +568,7 @@
       ],
   }
 - {
-    "slug": "sequence-n",
+    "slug": "sequence-n-t23",
     "lemma": "sequence",
     "pos": "noun",
     "cefr": "B1",
@@ -656,7 +656,7 @@
       ],
   }
 - {
-    "slug": "gap-n",
+    "slug": "gap-n-t23",
     "lemma": "gap",
     "pos": "noun",
     "cefr": "B1",
@@ -879,7 +879,7 @@
       ],
   }
 - {
-    "slug": "resume-v",
+    "slug": "resume-v-t23",
     "lemma": "resume",
     "pos": "verb",
     "cefr": "B2",
@@ -1219,7 +1219,7 @@
       [{ "en": "Who sets the threshold for each station?", "vi": "Ai đặt ngưỡng cho từng trạm?" }],
   }
 - {
-    "slug": "alert-n",
+    "slug": "alert-n-t23",
     "lemma": "alert",
     "pos": "noun",
     "cefr": "B1",
@@ -1253,7 +1253,7 @@
       ],
   }
 - {
-    "slug": "trigger-v",
+    "slug": "trigger-v-t23",
     "lemma": "trigger",
     "pos": "verb",
     "cefr": "B2",
@@ -1615,7 +1615,7 @@
       ],
   }
 - {
-    "slug": "coordinates-n",
+    "slug": "coordinates-n-t23",
     "lemma": "coordinates",
     "pos": "noun",
     "cefr": "B2",
@@ -1632,7 +1632,7 @@
       ],
   }
 - {
-    "slug": "latitude-n",
+    "slug": "latitude-n-t23",
     "lemma": "latitude",
     "pos": "noun",
     "cefr": "B2",
@@ -1649,7 +1649,7 @@
       ],
   }
 - {
-    "slug": "longitude-n",
+    "slug": "longitude-n-t23",
     "lemma": "longitude",
     "pos": "noun",
     "cefr": "B2",
@@ -1815,7 +1815,7 @@
       ],
   }
 - {
-    "slug": "grid-n",
+    "slug": "grid-n-t23",
     "lemma": "grid",
     "pos": "noun",
     "cefr": "B1",
@@ -1936,7 +1936,7 @@
       ],
   }
 - {
-    "slug": "accuracy-n",
+    "slug": "accuracy-n-t23",
     "lemma": "accuracy",
     "pos": "noun",
     "cefr": "B2",
@@ -1953,7 +1953,7 @@
       ],
   }
 - {
-    "slug": "precision-n",
+    "slug": "precision-n-t23",
     "lemma": "precision",
     "pos": "noun",
     "cefr": "C1",
@@ -1970,7 +1970,7 @@
       ],
   }
 - {
-    "slug": "drift-n",
+    "slug": "drift-n-t23",
     "lemma": "drift",
     "pos": "noun",
     "cefr": "C1",
@@ -3015,7 +3015,7 @@
       ],
   }
 - {
-    "slug": "loading-state-n",
+    "slug": "loading-state-n-t23",
     "lemma": "loading state",
     "pos": "noun",
     "kind": "collocation",
@@ -3033,7 +3033,7 @@
       ],
   }
 - {
-    "slug": "empty-state-n",
+    "slug": "empty-state-n-t23",
     "lemma": "empty state",
     "pos": "noun",
     "kind": "collocation",
@@ -3223,7 +3223,7 @@
       ],
   }
 - {
-    "slug": "corner-case-n",
+    "slug": "corner-case-n-t23",
     "lemma": "corner case",
     "pos": "noun",
     "kind": "collocation",
@@ -3258,7 +3258,7 @@
       ],
   }
 - {
-    "slug": "wireframe-n",
+    "slug": "wireframe-n-t23",
     "lemma": "wireframe",
     "pos": "noun",
     "cefr": "C1",
@@ -3361,7 +3361,7 @@
       ],
   }
 - {
-    "slug": "real-time-adj",
+    "slug": "real-time-adj-t23",
     "lemma": "real-time",
     "pos": "adjective",
     "cefr": "B2",

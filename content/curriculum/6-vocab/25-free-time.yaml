@@ -6,282 +6,283 @@ kind: topic
 cefr: A2
 status: published
 title:
-  en: Conferences, Travel & Professional Events
-  vi: Hội thảo, công tác & sự kiện nghề nghiệp
-summary_vi: Chuẩn bị tiếng Anh cho việc đi hội thảo, công tác và giới thiệu dự
-  án. Kết nối kỹ năng đi lại đời thường với thuyết trình, hỏi đáp và theo dõi
-  sau sự kiện.
+  {
+    en: "Conferences, Travel & Professional Events",
+    vi: "Hội thảo, công tác & sự kiện nghề nghiệp",
+  }
+summary_vi: "Chuẩn bị tiếng Anh cho việc đi hội thảo, công tác và giới thiệu dự án. Kết nối kỹ năng đi lại đời thường với thuyết trình, hỏi đáp và theo dõi sau sự kiện."
 can_do:
-  - Tự xử lý các trao đổi cơ bản trong chuyến công tác
-  - Giới thiệu dự án và tham gia hỏi đáp tại một sự kiện kỹ thuật
+  - "Tự xử lý các trao đổi cơ bản trong chuyến công tác"
+  - "Giới thiệu dự án và tham gia hỏi đáp tại một sự kiện kỹ thuật"
 lessons:
   - slug: t25-l1
     kind: vocab
-    title:
-      en: "Set 1: Planning a conference trip"
-      vi: "Bộ 1: Lên kế hoạch đi hội thảo"
+    title: { en: "Set 1: Planning a conference trip", vi: "Bộ 1: Lên kế hoạch đi hội thảo" }
     senses:
-      - t25-conference-n
-      - t25-conference-fee-n
-      - t25-business-purpose-n
-      - t25-pre-approval-n
-      - t25-budget-n
-      - t25-estimate-v
-      - t25-agenda-n
-      - t25-registration-n
-      - t25-accommodation-n
-      - t25-itinerary-n
+      [
+        conference-n,
+        business-trip-n,
+        ticket-price-n,
+        schedule-n,
+        travel-request-n,
+        registration-fee-n,
+        conference-pass-n,
+        early-bird-ticket-n,
+        sponsor-v,
+        visa-letter-n,
+      ]
     questions: []
   - slug: t25-l2
     kind: vocab
-    title:
-      en: "Set 2: Bookings & travel details"
-      vi: "Bộ 2: Đặt chỗ & thông tin hành trình"
+    title: { en: "Set 2: Bookings & travel details", vi: "Bộ 2: Đặt chỗ & thông tin hành trình" }
     senses:
-      - t25-booking-n
-      - t25-reservation-n
-      - t25-departure-n
-      - t25-arrival-n
-      - t25-destination-n
-      - t25-ticket-n
-      - t25-boarding-pass-n
-      - t25-check-in-n
-      - t25-confirmation-number-n
-      - t25-passport-n
-      - t25-visa-n
-      - t25-travel-insurance-n
+      [
+        reservation-number-n,
+        itinerary-n,
+        departure-n,
+        arrival-n,
+        misspelled-adj,
+        passport-n,
+        layover-n,
+        boarding-pass-n,
+        window-seat-n,
+        aisle-seat-n,
+        room-rate-n,
+        travel-adapter-n,
+      ]
     questions: []
   - slug: t25-l3
     kind: vocab
-    title:
-      en: "Set 3: Checking in & finding your way"
-      vi: "Bộ 3: Làm thủ tục & hỏi đường"
+    title: { en: "Set 3: Checking in & finding your way", vi: "Bộ 3: Làm thủ tục & hỏi đường" }
     senses:
-      - t25-front-desk-n
-      - t25-reception-n
-      - t25-name-tag-n
-      - t25-badge-n
-      - t25-venue-n
-      - t25-floor-plan-n
-      - t25-signage-n
-      - t25-directions-n
-      - t25-entrance-n
-      - t25-exit-n
-      - t25-reception-desk-n
-      - t25-queue-n
-      - t25-session-n
-      - t25-timetable-n
+      [
+        registration-desk-n,
+        directions-n,
+        upstairs-adv,
+        opposite-prep,
+        wi-fi-password-n,
+        cloakroom-n,
+        get-to-phr,
+        signpost-n,
+        ground-floor-n,
+        shuttle-bus-n,
+        room-key-n,
+        info-desk-n,
+        breakout-room-n,
+        wristband-n,
+      ]
     questions: []
   - slug: t25-l4
     kind: vocab
-    title:
-      en: "Set 4: Introducing your project"
-      vi: "Bộ 4: Giới thiệu dự án"
+    title: { en: "Set 4: Introducing your project", vi: "Bộ 4: Giới thiệu dự án" }
     senses:
-      - t25-introduce-yourself-phr
-      - t25-background-n
-      - t25-field-n
-      - t25-tech-stack-n
-      - t25-pet-project-n
-      - t25-open-source-adj
-      - t25-use-case-n
-      - t25-pain-point-n
-      - t25-target-user-n
-      - t25-prototype-n
-      - t25-proof-of-concept-n
-      - t25-pitch-n
-      - t25-landing-page-n
-      - t25-contributor-n
-      - t25-demo-n
-      - t25-traction-n
+      [
+        introduce-v,
+        user-base-n,
+        slide-deck-n,
+        team-of-phr,
+        founder-n,
+        elevator-pitch-n,
+        tagline-n,
+        repo-n,
+        key-feature-n,
+        built-with-phr,
+        github-star-n,
+        demo-video-n,
+        hackathon-n,
+        one-liner-n,
+        monthly-users-n,
+        founding-story-n,
+      ]
     questions: []
   - slug: t25-l5
     kind: vocab
-    title:
-      en: "Set 5: Listening to a technical talk"
-      vi: "Bộ 5: Theo dõi bài nói kỹ thuật"
+    title: { en: "Set 5: Listening to a technical talk", vi: "Bộ 5: Theo dõi bài nói kỹ thuật" }
     senses:
-      - t25-technical-talk-n
-      - t25-speaker-n
-      - t25-keynote-n
-      - t25-lightning-talk-n
-      - t25-panel-discussion-n
-      - t25-slides-n
-      - t25-livestream-n
-      - t25-microphone-n
-      - t25-headset-n
-      - t25-note-taking-n
-      - t25-key-takeaway-n
-      - t25-highlight-n
-      - t25-jargon-n
-      - t25-acronym-n
-      - t25-prior-knowledge-n
-      - t25-follow-along-pv
-      - t25-transcript-n
-      - t25-recording-n
+      [
+        talk-n,
+        keynote-n,
+        main-point-n,
+        take-notes-phr,
+        session-n,
+        track-n,
+        abstract-n,
+        argument-n,
+        handout-n,
+        slot-n,
+        follow-along-phr,
+        wonder-v,
+        counterpoint-n,
+        speaker-notes-n,
+        speaking-pace-n,
+        live-poll-n,
+        big-picture-n,
+        wrap-up-n,
+      ]
     questions: []
   - slug: t25-l6
     kind: vocab
-    title:
-      en: "Set 6: Asking a question after a talk"
-      vi: "Bộ 6: Đặt câu hỏi sau bài nói"
+    title: { en: "Set 6: Asking a question after a talk", vi: "Bộ 6: Đặt câu hỏi sau bài nói" }
     senses:
-      - t25-question-n
-      - t25-clarify-v
-      - t25-follow-up-n
-      - t25-open-question-n
-      - t25-specific-adj
-      - t25-relevant-adj
-      - t25-brief-n
-      - t25-context-n
-      - t25-assumption-n
-      - t25-working-theory-n
-      - t25-evidence-n
-      - t25-example-n
-      - t25-compare-v
-      - t25-alternative-n
-      - t25-constraint-n
-      - t25-rationale-n
-      - t25-limitation-n
-      - t25-unknown-n
-      - t25-could-you-elaborate-phr
-      - t25-thank-you-for-sharing-phr
+      [
+        question-n,
+        raise-your-hand-phr,
+        briefly-adv,
+        in-your-experience-phr,
+        correct-me-if-im-wrong-phr,
+        appreciate-v,
+        time-is-up-phr,
+        i-was-wondering-phr,
+        thanks-for-the-talk-phr,
+        quick-question-n,
+        stage-n,
+        expand-on-phr,
+        ask-about-phr,
+        mic-runner-n,
+        fair-question-phr,
+        good-point-phr,
+        broad-adj,
+        wonder-aloud-phr,
+        talk-title-n,
+        slide-number-n,
+      ]
     questions: []
   - slug: t25-l7
     kind: vocab
-    title:
-      en: "Set 7: Networking respectfully"
-      vi: "Bộ 7: Kết nối nghề nghiệp tôn trọng"
+    title: { en: "Set 7: Networking respectfully", vi: "Bộ 7: Kết nối nghề nghiệp tôn trọng" }
     senses:
-      - t25-networking-n
-      - t25-mingle-v
-      - t25-icebreaker-n
-      - t25-small-talk-n
-      - t25-contact-n
-      - t25-business-card-n
-      - t25-contact-details-n
-      - t25-connection-request-n
-      - t25-mutual-adj
-      - t25-common-ground-n
-      - t25-rapport-n
-      - t25-respectful-adj
-      - t25-polite-adj
-      - t25-voluntary-adj
-      - t25-consent-n
-      - t25-personal-question-n
-      - t25-private-adj
-      - t25-no-pressure-phr
-      - t25-etiquette-n
-      - t25-nice-to-meet-you-phr
-      - t25-keep-in-touch-phr
-      - t25-get-in-touch-phr
+      [
+        connect-on-phr,
+        booth-n,
+        excuse-me-phr,
+        nametag-n,
+        say-hello-phr,
+        career-fair-n,
+        exchange-v,
+        handle-n,
+        hallway-track-n,
+        hobby-project-n,
+        ask-for-advice-phr,
+        social-event-n,
+        after-party-n,
+        drinks-reception-n,
+        pleasantry-n,
+        opening-line-n,
+        first-name-n,
+        how-about-you-phr,
+        join-a-group-phr,
+        shake-hands-phr,
+        personal-space-n,
+        so-what-brings-you-phr,
+      ]
     questions: []
   - slug: t25-l8
     kind: vocab
-    title:
-      en: "Set 8: Travel changes & disruptions"
-      vi: "Bộ 8: Thay đổi & gián đoạn chuyến đi"
+    title: { en: "Set 8: Travel changes & disruptions", vi: "Bộ 8: Thay đổi & gián đoạn chuyến đi" }
     senses:
-      - t25-delay-n
-      - t25-cancel-v
-      - t25-cancellation-n
-      - t25-reschedule-v
-      - t25-postpone-v
-      - t25-traffic-jam-n
-      - t25-rush-hour-n
-      - t25-disruption-n
-      - t25-detour-n
-      - t25-refund-n
-      - t25-eligible-adj
-      - t25-processing-time-n
-      - t25-proof-of-payment-n
-      - t25-receipt-n
-      - t25-invoice-n
-      - t25-expense-n
-      - t25-reimburse-v
-      - t25-per-diem-n
-      - t25-out-of-pocket-adj
-      - t25-corporate-card-n
-      - t25-reference-number-n
-      - t25-backup-plan-n
-      - t25-emergency-contact-n
-      - t25-unforeseen-adj
+      [
+        cancel-v,
+        rebook-v,
+        luggage-n,
+        remotely-adv,
+        let-know-phr,
+        gate-change-n,
+        travel-insurance-n,
+        assistance-n,
+        make-it-phr,
+        miss-v,
+        delayed-adj,
+        baggage-claim-n,
+        airline-n,
+        transfer-desk-n,
+        rail-strike-n,
+        terminal-n,
+        taxi-rank-n,
+        overnight-adv,
+        lost-property-n,
+        flight-status-n,
+        connecting-flight-n,
+        red-eye-flight-n,
+        missing-bag-n,
+        airport-lounge-n,
+      ]
     questions: []
   - slug: t25-l9
     kind: vocab
-    title:
-      en: "Set 9: Following up with a contact"
-      vi: "Bộ 9: Liên hệ sau hội thảo"
+    title: { en: "Set 9: Following up with a contact", vi: "Bộ 9: Liên hệ sau hội thảo" }
     senses:
-      - t25-follow-up-email-n
-      - t25-as-promised-phr
-      - t25-it-was-great-chatting-phr
-      - t25-thank-you-note-n
-      - t25-attach-v
-      - t25-reference-n
-      - t25-source-link-n
-      - t25-permalink-n
-      - t25-broken-link-n
-      - t25-intro-email-n
-      - t25-warm-introduction-n
-      - t25-cold-message-n
-      - t25-reconnect-v
-      - t25-catch-up-n
-      - t25-recap-n
-      - t25-mention-v
-      - t25-refer-to-pv
-      - t25-next-step-n
-      - t25-circle-back-pv
-      - t25-drop-someone-a-line-phr
-      - t25-prompt-adj
-      - t25-personalised-adj
-      - t25-gesture-n
-      - t25-gratitude-n
-      - t25-nudge-n
-      - t25-opportunity-n
-      - t25-collaborator-n
-      - t25-time-zone-n
+      [
+        conversation-n,
+        specifically-adv,
+        promptly-adv,
+        best-regards-phr,
+        partnership-n,
+        pick-up-where-left-off-phr,
+        intro-call-n,
+        warm-intro-n,
+        cold-email-n,
+        schedule-a-call-phr,
+        great-meeting-you-phr,
+        open-to-phr,
+        on-my-end-phr,
+        gentle-reminder-n,
+        suggest-a-time-phr,
+        free-slot-n,
+        catch-up-call-n,
+        quick-sync-n,
+        shared-doc-n,
+        demo-link-n,
+        wrap-up-email-n,
+        note-v,
+        per-our-chat-phr,
+        happy-to-help-phr,
+        speak-soon-phr,
+        warm-regards-phr,
+        ball-in-your-court-phr,
+        unresolved-point-n,
+      ]
     questions: []
   - slug: t25-l10
     kind: vocab
     title:
-      en: "Set 10: Sharing conference takeaways"
-      vi: "Bộ 10: Chia sẻ điều rút ra từ hội thảo"
+      { en: "Set 10: Sharing conference takeaways", vi: "Bộ 10: Chia sẻ điều rút ra từ hội thảo" }
     senses:
-      - t25-findings-n
-      - t25-overview-n
-      - t25-executive-summary-n
-      - t25-insight-n
-      - t25-lesson-learned-n
-      - t25-recommendation-n
-      - t25-proposal-n
-      - t25-benefit-n
-      - t25-drawback-n
-      - t25-trade-off-n
-      - t25-relevance-n
-      - t25-applicable-adj
-      - t25-in-practice-phr
-      - t25-actionable-adj
-      - t25-experiment-n
-      - t25-pilot-n
-      - t25-success-criteria-n
-      - t25-metric-n
-      - t25-baseline-n
-      - t25-test-plan-n
-      - t25-iteration-n
-      - t25-review-date-n
-      - t25-knowledge-transfer-n
-      - t25-handover-document-n
-      - t25-runbook-n
-      - t25-code-snippet-n
-      - t25-architecture-diagram-n
-      - t25-case-study-n
-      - t25-workshop-n
-      - t25-hands-on-adj
-      - t25-peer-n
-      - t25-expertise-n
-      - t25-feedback-n
-      - t25-discussion-n
-      - t25-share-v
-      - t25-contribute-v
+      [
+        apply-v,
+        trip-report-n,
+        best-practice-n,
+        adopt-v,
+        relevant-adj,
+        inspiring-adj,
+        key-lesson-n,
+        return-on-investment-n,
+        eye-opening-adj,
+        scale-v,
+        draw-a-conclusion-phr,
+        state-of-the-art-adj,
+        underestimate-v,
+        counterintuitive-adj,
+        worth-a-try-phr,
+        debrief-n,
+        game-changer-n,
+        bleeding-edge-adj,
+        tangible-adj,
+        sceptical-adj,
+        make-a-case-phr,
+        far-reaching-adj,
+        hot-take-n,
+        low-hanging-fruit-n,
+        tech-radar-n,
+        call-for-papers-n,
+        team-briefing-n,
+        one-page-summary-n,
+        highlight-reel-n,
+        budget-request-n,
+        next-edition-n,
+        hands-on-lab-n,
+        hold-off-phr,
+        learning-n,
+        game-plan-n,
+        proof-point-n,
+      ]
     questions: []

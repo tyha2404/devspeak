@@ -1,3455 +1,3474 @@
 # Vocabulary by topic: Engineering Policies & Decision Making (unit T17). Original content.
 # Set 1: Team working agreements
 - {
-    "slug": "team-agreement-n",
-    "lemma": "team agreement",
-    "pos": "noun",
-    "kind": "collocation",
-    "cefr": "A2",
-    "topic": "government",
-    "ipa": "/tiːm əˈɡriːmənt/",
-    "def": "A short list of rules that a team writes together about how they work.",
-    "vi": "thoả thuận nhóm",
-    "examples":
+    slug: team-agreement-n,
+    lemma: "team agreement",
+    pos: noun,
+    kind: collocation,
+    cefr: A2,
+    topic: government,
+    ipa: "/tiːm əˈɡriːmənt/",
+    def: "A short list of rules that a team writes together about how they work.",
+    vi: "thoả thuận nhóm",
+    examples:
       [
         {
-          "en": "Our team agreement says we reply to messages within one working day.",
-          "vi": "Thoả thuận nhóm của mình ghi là trả lời tin nhắn trong vòng một ngày làm việc.",
+          en: "Our team agreement says we reply to messages within one working day.",
+          vi: "Thoả thuận nhóm của mình ghi là trả lời tin nhắn trong vòng một ngày làm việc.",
         },
       ],
   }
 - {
-    "slug": "urgent-adj-government",
-    "lemma": "urgent",
-    "pos": "adjective",
-    "cefr": "A2",
-    "topic": "government",
-    "ipa": "/ˈɜːdʒənt/",
-    "def": "Needing attention or action immediately.",
-    "vi": "khẩn cấp, gấp",
-    "examples":
+    slug: top-priority-adj,
+    lemma: "top-priority",
+    pos: adjective,
+    cefr: B1,
+    topic: government,
+    ipa: "/ˌtɒp praɪˈɒrəti/",
+    def: "More important than anything else right now.",
+    vi: "ưu tiên hàng đầu",
+    examples:
       [
         {
-          "en": "If a request is urgent, please call me instead of sending an email.",
-          "vi": "Nếu yêu cầu gấp, hãy gọi cho mình thay vì gửi email.",
+          en: "A broken login page is top-priority work for the whole team.",
+          vi: "Trang đăng nhập bị lỗi là việc ưu tiên hàng đầu của cả nhóm.",
         },
       ],
   }
 - {
-    "slug": "core-hours-n-government",
-    "lemma": "core hours",
-    "pos": "noun",
-    "kind": "collocation",
-    "cefr": "B1",
-    "topic": "government",
-    "ipa": "/kɔː ˈaʊəz/",
-    "def": "The part of the day when everyone on a team should be available.",
-    "vi": "giờ làm việc chung",
-    "examples":
+    slug: overlap-hours-n,
+    lemma: "overlap hours",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: government,
+    ipa: "/ˈəʊvəlæp ˈaʊəz/",
+    def: "The hours when people in different time zones are all working.",
+    vi: "giờ làm trùng nhau",
+    examples:
       [
         {
-          "en": "Our core hours are 10 a.m. to 3 p.m., so meetings go in that window.",
-          "vi": "Giờ làm chung của nhóm là 10 giờ sáng đến 3 giờ chiều, nên họp được xếp trong khung đó.",
+          en: "We have two overlap hours with the team in Berlin.",
+          vi: "Nhóm có hai giờ làm trùng với nhóm ở Berlin.",
         },
       ],
   }
 - {
-    "slug": "respond-v-government",
-    "lemma": "respond",
-    "pos": "verb",
-    "cefr": "A2",
-    "topic": "government",
-    "ipa": "/rɪˈspɒnd/",
-    "def": "To answer a message, question or request.",
-    "vi": "phản hồi, trả lời",
-    "examples":
+    slug: out-of-hours-adj,
+    lemma: "out-of-hours",
+    pos: adjective,
+    cefr: B1,
+    topic: government,
+    ipa: "/ˌaʊt əv ˈaʊəz/",
+    def: "Happening outside normal working time.",
+    vi: "ngoài giờ làm việc",
+    examples:
       [
         {
-          "en": "Please respond to review requests before the end of the day.",
-          "vi": "Hãy phản hồi các yêu cầu review trước khi hết ngày.",
+          en: "Out-of-hours messages can wait until the morning.",
+          vi: "Tin nhắn ngoài giờ có thể đợi đến sáng hôm sau.",
         },
       ],
   }
 - {
-    "slug": "agree-on-phr-government",
-    "lemma": "agree on",
-    "pos": "phrasal_verb",
-    "kind": "phrasal",
-    "cefr": "A2",
-    "topic": "government",
-    "ipa": "/əˈɡriː ɒn/",
-    "def": "To decide something together after discussing it.",
-    "vi": "thống nhất về",
-    "examples":
+    slug: working-norm-n,
+    lemma: "working norm",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: government,
+    ipa: "/ˈwɜːkɪŋ nɔːm/",
+    def: "A habit a team expects everyone to follow.",
+    vi: "chuẩn mực làm việc",
+    examples:
       [
         {
-          "en": "We agreed on one channel for all incident updates.",
-          "vi": "Nhóm đã thống nhất dùng một kênh cho mọi cập nhật sự cố.",
+          en: "One working norm is to keep cameras on in planning.",
+          vi: "Một chuẩn mực làm việc là bật camera khi họp lên kế hoạch.",
         },
       ],
   }
 - {
-    "slug": "remind-v",
-    "lemma": "remind",
-    "pos": "verb",
-    "cefr": "A2",
-    "topic": "government",
-    "ipa": "/rɪˈmaɪnd/",
-    "def": "To help someone remember something they should do.",
-    "vi": "nhắc nhở",
-    "examples":
+    slug: remind-v,
+    lemma: "remind",
+    pos: verb,
+    cefr: A2,
+    topic: government,
+    ipa: "/rɪˈmaɪnd/",
+    def: "To help someone remember something they should do.",
+    vi: "nhắc nhở",
+    examples:
       [
         {
-          "en": "The bot reminds us to update our tickets every Friday.",
-          "vi": "Con bot nhắc nhóm cập nhật ticket vào mỗi thứ Sáu.",
+          en: "The bot reminds us to update our tickets every Friday.",
+          vi: "Con bot nhắc nhóm cập nhật ticket vào mỗi thứ Sáu.",
         },
       ],
   }
 - {
-    "slug": "on-time-phr-government",
-    "lemma": "on time",
-    "pos": "phrase",
-    "kind": "phrase",
-    "cefr": "A2",
-    "topic": "government",
-    "ipa": "/ɒn ˈtaɪm/",
-    "def": "At the planned time, not late.",
-    "vi": "đúng giờ",
-    "examples":
+    slug: timebox-v,
+    lemma: "timebox",
+    pos: verb,
+    cefr: B2,
+    topic: government,
+    ipa: "/ˈtaɪmbɒks/",
+    def: "To give a task or meeting a fixed amount of time.",
+    vi: "giới hạn thời gian",
+    examples:
       [
         {
-          "en": "Let's start stand-up on time even if someone is missing.",
-          "vi": "Hãy bắt đầu stand-up đúng giờ kể cả khi còn thiếu người.",
+          en: "Let's timebox the discussion to ten minutes.",
+          vi: "Hãy giới hạn cuộc thảo luận trong mười phút.",
         },
       ],
   }
 - {
-    "slug": "available-adj",
-    "lemma": "available",
-    "pos": "adjective",
-    "cefr": "A2",
-    "topic": "government",
-    "ipa": "/əˈveɪləbl/",
-    "def": "Free to talk, help or work at a particular time.",
-    "vi": "rảnh, có mặt",
-    "examples":
+    slug: available-adj,
+    lemma: "available",
+    pos: adjective,
+    cefr: A2,
+    topic: government,
+    ipa: "/əˈveɪləbl/",
+    def: "Free to talk, help or work at a particular time.",
+    vi: "rảnh, có mặt",
+    examples:
       [
         {
-          "en": "I'm available after lunch if you want to pair on the bug.",
-          "vi": "Sau bữa trưa mình rảnh nếu bạn muốn cùng sửa lỗi.",
+          en: "I'm available after lunch if you want to pair on the bug.",
+          vi: "Sau bữa trưa mình rảnh nếu bạn muốn cùng sửa lỗi.",
         },
       ],
   }
 - {
-    "slug": "speak-up-phr",
-    "lemma": "speak up",
-    "pos": "phrasal_verb",
-    "kind": "phrasal",
-    "cefr": "B1",
-    "topic": "government",
-    "ipa": "/spiːk ˈʌp/",
-    "def": "To say clearly what you think, especially about a problem.",
-    "vi": "lên tiếng",
-    "examples":
+    slug: speak-up-phr,
+    lemma: "speak up",
+    pos: phrasal_verb,
+    kind: phrasal,
+    cefr: B1,
+    topic: government,
+    ipa: "/spiːk ˈʌp/",
+    def: "To say clearly what you think, especially about a problem.",
+    vi: "lên tiếng",
+    examples:
       [
         {
-          "en": "Speak up in stand-up if you are blocked.",
-          "vi": "Hãy lên tiếng trong stand-up nếu bạn bị kẹt việc.",
+          en: "Speak up in stand-up if you are blocked.",
+          vi: "Hãy lên tiếng trong stand-up nếu bạn bị kẹt việc.",
         },
       ],
   }
 - {
-    "slug": "behaviour-n-government",
-    "lemma": "behaviour",
-    "pos": "noun",
-    "cefr": "B1",
-    "topic": "government",
-    "ipa": "/bɪˈheɪvjə/",
-    "def": "The way a person acts, especially towards other people.",
-    "vi": "cách cư xử, hành vi",
-    "examples":
+    slug: house-rules-n,
+    lemma: "house rules",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: government,
+    ipa: "/ˈhaʊs ruːlz/",
+    def: "The informal rules a particular group agrees to follow.",
+    vi: "nội quy nhóm",
+    examples:
       [
         {
-          "en": "Interrupting people in meetings is behaviour we want to avoid.",
-          "vi": "Ngắt lời người khác trong cuộc họp là cách cư xử nhóm muốn tránh.",
+          en: "House rules: reply in threads, not in the main channel.",
+          vi: "Nội quy nhóm: trả lời trong thread, không phải kênh chính.",
         },
       ],
   }
 # Set 2: Coding standards
 - {
-    "slug": "coding-standard-n",
-    "lemma": "coding standard",
-    "pos": "noun",
-    "kind": "collocation",
-    "cefr": "B1",
-    "topic": "government",
-    "ipa": "/ˈkəʊdɪŋ ˈstændəd/",
-    "def": "An agreed set of rules for how code should be written in a project.",
-    "vi": "chuẩn viết mã",
-    "examples":
+    slug: coding-standard-n,
+    lemma: "coding standard",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: government,
+    ipa: "/ˈkəʊdɪŋ ˈstændəd/",
+    def: "An agreed set of rules for how code should be written in a project.",
+    vi: "chuẩn viết mã",
+    examples:
       [
         {
-          "en": "Our coding standard asks for one class per file.",
-          "vi": "Chuẩn viết mã của nhóm yêu cầu mỗi file chỉ có một class.",
+          en: "Our coding standard asks for one class per file.",
+          vi: "Chuẩn viết mã của nhóm yêu cầu mỗi file chỉ có một class.",
         },
       ],
   }
 - {
-    "slug": "naming-convention-n",
-    "lemma": "naming convention",
-    "pos": "noun",
-    "kind": "collocation",
-    "cefr": "B1",
-    "topic": "government",
-    "ipa": "/ˈneɪmɪŋ kənˈvenʃn/",
-    "def": "An agreed way of choosing names for files, variables or functions.",
-    "vi": "quy ước đặt tên",
-    "examples":
+    slug: naming-convention-n,
+    lemma: "naming convention",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: government,
+    ipa: "/ˈneɪmɪŋ kənˈvenʃn/",
+    def: "An agreed way of choosing names for files, variables or functions.",
+    vi: "quy ước đặt tên",
+    examples:
       [
         {
-          "en": "The naming convention is camelCase for variables and PascalCase for types.",
-          "vi": "Quy ước đặt tên là camelCase cho biến và PascalCase cho kiểu.",
+          en: "The naming convention is camelCase for variables and PascalCase for types.",
+          vi: "Quy ước đặt tên là camelCase cho biến và PascalCase cho kiểu.",
         },
       ],
   }
 - {
-    "slug": "consistent-adj",
-    "lemma": "consistent",
-    "pos": "adjective",
-    "cefr": "B1",
-    "topic": "government",
-    "ipa": "/kənˈsɪstənt/",
-    "def": "Always done in the same way.",
-    "vi": "nhất quán",
-    "examples":
+    slug: uniform-adj,
+    lemma: "uniform",
+    pos: adjective,
+    cefr: B2,
+    topic: government,
+    ipa: "/ˈjuːnɪfɔːm/",
+    def: "The same everywhere, without differences.",
+    vi: "đồng nhất",
+    examples:
       [
         {
-          "en": "Consistent error messages make the logs easier to search.",
-          "vi": "Thông báo lỗi nhất quán giúp tìm trong log dễ hơn.",
+          en: "A uniform folder layout helps new people find tests quickly.",
+          vi: "Cấu trúc thư mục đồng nhất giúp người mới tìm test nhanh.",
         },
       ],
   }
 - {
-    "slug": "readable-adj",
-    "lemma": "readable",
-    "pos": "adjective",
-    "cefr": "B1",
-    "topic": "government",
-    "ipa": "/ˈriːdəbl/",
-    "def": "Easy to read and understand.",
-    "vi": "dễ đọc",
-    "examples":
+    slug: lint-rule-n,
+    lemma: "lint rule",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: government,
+    ipa: "/ˈlɪnt ruːl/",
+    def: "One check that a linter runs on the code.",
+    vi: "quy tắc lint",
+    examples:
       [
         {
-          "en": "Split this function so it is more readable.",
-          "vi": "Hãy tách hàm này ra để dễ đọc hơn.",
+          en: "We added a lint rule that bans console.log in production code.",
+          vi: "Nhóm thêm một quy tắc lint cấm console.log trong code production.",
         },
       ],
   }
 - {
-    "slug": "indentation-n",
-    "lemma": "indentation",
-    "pos": "noun",
-    "cefr": "B1",
-    "topic": "government",
-    "ipa": "/ˌɪndenˈteɪʃn/",
-    "def": "Space at the start of a line of code that shows its structure.",
-    "vi": "thụt lề",
-    "examples":
+    slug: indentation-n,
+    lemma: "indentation",
+    pos: noun,
+    cefr: B1,
+    topic: government,
+    ipa: "/ˌɪndenˈteɪʃn/",
+    def: "Space at the start of a line of code that shows its structure.",
+    vi: "thụt lề",
+    examples:
       [
         {
-          "en": "The formatter fixes indentation automatically when you save.",
-          "vi": "Trình định dạng tự sửa thụt lề khi bạn lưu file.",
+          en: "The formatter fixes indentation automatically when you save.",
+          vi: "Trình định dạng tự sửa thụt lề khi bạn lưu file.",
         },
       ],
   }
 - {
-    "slug": "linter-n",
-    "lemma": "linter",
-    "pos": "noun",
-    "cefr": "B1",
-    "topic": "government",
-    "ipa": "/ˈlɪntə/",
-    "def": "A tool that checks code for style problems and common mistakes.",
-    "vi": "công cụ kiểm tra mã (linter)",
-    "examples":
+    slug: linter-n,
+    lemma: "linter",
+    pos: noun,
+    cefr: B1,
+    topic: government,
+    ipa: "/ˈlɪntə/",
+    def: "A tool that checks code for style problems and common mistakes.",
+    vi: "công cụ kiểm tra mã (linter)",
+    examples:
       [
         {
-          "en": "The linter fails the build if you leave an unused import.",
-          "vi": "Linter sẽ làm build lỗi nếu bạn để lại import không dùng.",
+          en: "The linter fails the build if you leave an unused import.",
+          vi: "Linter sẽ làm build lỗi nếu bạn để lại import không dùng.",
         },
       ],
   }
 - {
-    "slug": "enforce-v-government",
-    "lemma": "enforce",
-    "pos": "verb",
-    "cefr": "B2",
-    "topic": "government",
-    "ipa": "/ɪnˈfɔːs/",
-    "def": "To make sure that people follow a rule.",
-    "vi": "bắt buộc tuân theo, thực thi",
-    "examples":
+    slug: codify-v,
+    lemma: "codify",
+    pos: verb,
+    cefr: C1,
+    topic: government,
+    ipa: "/ˈkəʊdɪfaɪ/",
+    def: "To write rules down in a clear, official form.",
+    vi: "hệ thống hoá thành quy tắc",
+    examples:
       [
         {
-          "en": "We enforce the rule with a pre-commit hook.",
-          "vi": "Nhóm thực thi quy tắc này bằng một pre-commit hook.",
+          en: "Let's codify the import order in the linter config.",
+          vi: "Hãy hệ thống hoá thứ tự import trong cấu hình linter.",
         },
       ],
   }
 - {
-    "slug": "spell-out-phr",
-    "lemma": "spell out",
-    "pos": "phrasal_verb",
-    "kind": "phrasal",
-    "cefr": "B2",
-    "topic": "government",
-    "ipa": "/spel ˈaʊt/",
-    "def": "To explain something in clear and simple detail.",
-    "vi": "nói rõ, giải thích cụ thể",
-    "examples":
+    slug: write-down-phr,
+    lemma: "write down",
+    pos: phrasal_verb,
+    kind: phrasal,
+    cefr: A2,
+    topic: government,
+    ipa: "/raɪt ˈdaʊn/",
+    def: "To record something on paper or in a document.",
+    vi: "ghi lại",
+    examples:
       [
         {
-          "en": "Can the guide spell out when a comment is required?",
-          "vi": "Hướng dẫn có thể nói rõ khi nào bắt buộc phải có comment không?",
+          en: "Write down the rule in the contributing guide.",
+          vi: "Hãy ghi lại quy tắc vào hướng dẫn đóng góp.",
         },
       ],
   }
 - {
-    "slug": "discourage-v",
-    "lemma": "discourage",
-    "pos": "verb",
-    "cefr": "B2",
-    "topic": "government",
-    "ipa": "/dɪsˈkʌrɪdʒ/",
-    "def": "To try to stop people from doing something, without forbidding it.",
-    "vi": "khuyến khích không nên",
-    "examples":
+    slug: discourage-v,
+    lemma: "discourage",
+    pos: verb,
+    cefr: B2,
+    topic: government,
+    ipa: "/dɪsˈkʌrɪdʒ/",
+    def: "To try to stop people from doing something, without forbidding it.",
+    vi: "khuyến khích không nên",
+    examples:
       [
         {
-          "en": "We discourage long comments that repeat what the code does.",
-          "vi": "Nhóm khuyên không nên viết comment dài lặp lại điều code đã làm.",
+          en: "We discourage long comments that repeat what the code does.",
+          vi: "Nhóm khuyên không nên viết comment dài lặp lại điều code đã làm.",
         },
       ],
   }
 - {
-    "slug": "recommended-adj",
-    "lemma": "recommended",
-    "pos": "adjective",
-    "cefr": "B1",
-    "topic": "government",
-    "ipa": "/ˌrekəˈmendɪd/",
-    "def": "Suggested as the best choice, but not required.",
-    "vi": "được khuyến nghị",
-    "examples":
+    slug: recommended-adj,
+    lemma: "recommended",
+    pos: adjective,
+    cefr: B1,
+    topic: government,
+    ipa: "/ˌrekəˈmendɪd/",
+    def: "Suggested as the best choice, but not required.",
+    vi: "được khuyến nghị",
+    examples:
       [
         {
-          "en": "The recommended way to fetch data is the shared client.",
-          "vi": "Cách được khuyến nghị để lấy dữ liệu là dùng client chung.",
+          en: "The recommended way to fetch data is the shared client.",
+          vi: "Cách được khuyến nghị để lấy dữ liệu là dùng client chung.",
         },
       ],
   }
 - {
-    "slug": "violation-n-government",
-    "lemma": "violation",
-    "pos": "noun",
-    "cefr": "B2",
-    "topic": "government",
-    "ipa": "/ˌvaɪəˈleɪʃn/",
-    "def": "An action that breaks a rule.",
-    "vi": "vi phạm",
-    "examples":
+    slug: infraction-n,
+    lemma: "infraction",
+    pos: noun,
+    cefr: C1,
+    topic: government,
+    ipa: "/ɪnˈfrækʃn/",
+    def: "A small break of a rule.",
+    vi: "lỗi vi phạm nhỏ",
+    examples:
       [
         {
-          "en": "The report lists every style violation in the pull request.",
-          "vi": "Báo cáo liệt kê mọi vi phạm về style trong pull request.",
+          en: "The bot comments on every style infraction it finds.",
+          vi: "Con bot bình luận mỗi lỗi vi phạm style mà nó tìm thấy.",
         },
       ],
   }
 - {
-    "slug": "exempt-adj",
-    "lemma": "exempt",
-    "pos": "adjective",
-    "cefr": "C1",
-    "topic": "government",
-    "ipa": "/ɪɡˈzempt/",
-    "def": "Not required to follow a rule that others must follow.",
-    "vi": "được miễn",
-    "examples":
+    slug: exempt-adj,
+    lemma: "exempt",
+    pos: adjective,
+    cefr: C1,
+    topic: government,
+    ipa: "/ɪɡˈzempt/",
+    def: "Not required to follow a rule that others must follow.",
+    vi: "được miễn",
+    examples:
       [
         {
-          "en": "Generated files are exempt from the line-length rule.",
-          "vi": "Các file sinh tự động được miễn quy tắc độ dài dòng.",
+          en: "Generated files are exempt from the line-length rule.",
+          vi: "Các file sinh tự động được miễn quy tắc độ dài dòng.",
         },
       ],
   }
 # Set 3: Review & approval
 - {
-    "slug": "approve-v-government",
-    "lemma": "approve",
-    "pos": "verb",
-    "cefr": "B1",
-    "topic": "government",
-    "ipa": "/əˈpruːv/",
-    "def": "To officially agree that something is good enough or allowed.",
-    "vi": "phê duyệt, chấp thuận",
-    "examples":
+    slug: skim-v,
+    lemma: "skim",
+    pos: verb,
+    cefr: B2,
+    topic: government,
+    ipa: "/skɪm/",
+    def: "To read something quickly without looking at the details.",
+    vi: "đọc lướt",
+    examples:
       [
         {
-          "en": "Two people must approve a change before it can be merged.",
-          "vi": "Phải có hai người phê duyệt thì thay đổi mới được merge.",
+          en: "Don't just skim a migration; read every line.",
+          vi: "Đừng chỉ đọc lướt migration; hãy đọc từng dòng.",
         },
       ],
   }
 - {
-    "slug": "approver-n",
-    "lemma": "approver",
-    "pos": "noun",
-    "cefr": "B2",
-    "topic": "government",
-    "ipa": "/əˈpruːvə/",
-    "def": "A person who has the right to approve something.",
-    "vi": "người phê duyệt",
-    "examples":
+    slug: approver-n,
+    lemma: "approver",
+    pos: noun,
+    cefr: B2,
+    topic: government,
+    ipa: "/əˈpruːvə/",
+    def: "A person who has the right to approve something.",
+    vi: "người phê duyệt",
+    examples:
       [
         {
-          "en": "Add someone from the data team as an approver.",
-          "vi": "Hãy thêm một người bên nhóm dữ liệu làm người phê duyệt.",
+          en: "Add someone from the data team as an approver.",
+          vi: "Hãy thêm một người bên nhóm dữ liệu làm người phê duyệt.",
         },
       ],
   }
 - {
-    "slug": "reviewer-n",
-    "lemma": "reviewer",
-    "pos": "noun",
-    "cefr": "B1",
-    "topic": "government",
-    "ipa": "/rɪˈvjuːə/",
-    "def": "A person who checks someone else's work and gives feedback.",
-    "vi": "người review",
-    "examples":
+    slug: reviewer-n,
+    lemma: "reviewer",
+    pos: noun,
+    cefr: B1,
+    topic: government,
+    ipa: "/rɪˈvjuːə/",
+    def: "A person who checks someone else's work and gives feedback.",
+    vi: "người review",
+    examples:
       [
         {
-          "en": "The reviewer left three comments on the migration file.",
-          "vi": "Người review để lại ba bình luận trong file migration.",
+          en: "The reviewer left three comments on the migration file.",
+          vi: "Người review để lại ba bình luận trong file migration.",
         },
       ],
   }
 - {
-    "slug": "sign-off-n-government",
-    "lemma": "sign-off",
-    "pos": "noun",
-    "cefr": "B2",
-    "topic": "government",
-    "ipa": "/ˈsaɪn ɒf/",
-    "def": "Final permission from a responsible person before work goes ahead.",
-    "vi": "sự chấp thuận cuối cùng",
-    "examples":
+    slug: approval-gate-n,
+    lemma: "approval gate",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: government,
+    ipa: "/əˈpruːvl ɡeɪt/",
+    def: "A step in a pipeline that waits for someone to approve before continuing.",
+    vi: "cổng phê duyệt",
+    examples:
       [
         {
-          "en": "We need sign-off from security before the release.",
-          "vi": "Nhóm cần security chấp thuận cuối trước khi release.",
+          en: "The production deploy has an approval gate for the lead.",
+          vi: "Bước deploy production có cổng phê duyệt dành cho trưởng nhóm.",
         },
       ],
   }
 - {
-    "slug": "request-changes-phr",
-    "lemma": "request changes",
-    "pos": "phrase",
-    "kind": "collocation",
-    "cefr": "B1",
-    "topic": "government",
-    "ipa": "/rɪˈkwest ˈtʃeɪndʒɪz/",
-    "def": "To ask the author to fix things before a review can pass.",
-    "vi": "yêu cầu chỉnh sửa",
-    "examples":
+    slug: approve-with-comments-phr,
+    lemma: "approve with comments",
+    pos: phrase,
+    kind: collocation,
+    cefr: B2,
+    topic: government,
+    ipa: "/əˈpruːv wɪð ˈkɒments/",
+    def: "To accept a change but leave small notes the author may fix later.",
+    vi: "duyệt kèm góp ý",
+    examples:
       [
         {
-          "en": "I requested changes because the tests don't cover the error path.",
-          "vi": "Mình yêu cầu chỉnh sửa vì test chưa bao phủ nhánh lỗi.",
+          en: "I approved with comments, so you can merge after a quick look.",
+          vi: "Mình đã duyệt kèm góp ý, bạn xem qua rồi merge được.",
         },
       ],
   }
 - {
-    "slug": "requirement-n",
-    "lemma": "requirement",
-    "pos": "noun",
-    "cefr": "B1",
-    "topic": "government",
-    "ipa": "/rɪˈkwaɪəmənt/",
-    "def": "Something that must be done or must be true.",
-    "vi": "yêu cầu, điều kiện bắt buộc",
-    "examples":
+    slug: code-owner-n,
+    lemma: "code owner",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: government,
+    ipa: "/ˈkəʊd ˌəʊnə/",
+    def: "A person or team that must review changes to certain files.",
+    vi: "người sở hữu mã",
+    examples:
       [
         {
-          "en": "A passing build is a requirement for every merge.",
-          "vi": "Build xanh là điều kiện bắt buộc cho mọi lần merge.",
+          en: "The code owner for the payments folder is the billing team.",
+          vi: "Người sở hữu mã của thư mục payments là nhóm tính tiền.",
         },
       ],
   }
 - {
-    "slug": "reject-v",
-    "lemma": "reject",
-    "pos": "verb",
-    "cefr": "B1",
-    "topic": "government",
-    "ipa": "/rɪˈdʒekt/",
-    "def": "To refuse to accept something.",
-    "vi": "từ chối, bác bỏ",
-    "examples":
+    slug: gatekeeper-n,
+    lemma: "gatekeeper",
+    pos: noun,
+    cefr: C1,
+    topic: government,
+    ipa: "/ˈɡeɪtkiːpə/",
+    def: "A person who controls whether something is allowed to go ahead.",
+    vi: "người gác cổng",
+    examples:
       [
         {
-          "en": "The pipeline rejects commits without a ticket number.",
-          "vi": "Pipeline từ chối các commit không có mã ticket.",
+          en: "We don't want one gatekeeper for every release.",
+          vi: "Nhóm không muốn một người gác cổng cho mọi bản release.",
         },
       ],
   }
 - {
-    "slug": "pending-adj-government",
-    "lemma": "pending",
-    "pos": "adjective",
-    "cefr": "B2",
-    "topic": "government",
-    "ipa": "/ˈpendɪŋ/",
-    "def": "Waiting for a decision or action.",
-    "vi": "đang chờ xử lý",
-    "examples":
+    slug: in-review-phr,
+    lemma: "in review",
+    pos: phrase,
+    kind: phrase,
+    cefr: B1,
+    topic: government,
+    ipa: "/ɪn rɪˈvjuː/",
+    def: "Being checked by reviewers at the moment.",
+    vi: "đang được review",
+    examples:
+      [{ en: "Three of my PRs are still in review.", vi: "Ba PR của mình vẫn đang được review." }],
+  }
+- {
+    slug: provided-that-phr,
+    lemma: "provided that",
+    pos: phrase,
+    kind: phrase,
+    cefr: B2,
+    topic: government,
+    ipa: "/prəˈvaɪdɪd ðæt/",
+    def: "Only if a certain thing happens or is true.",
+    vi: "với điều kiện là",
+    examples:
       [
         {
-          "en": "The pull request is still pending review from the lead.",
-          "vi": "Pull request vẫn đang chờ trưởng nhóm review.",
+          en: "You can merge on Friday provided that the feature flag is off.",
+          vi: "Bạn có thể merge vào thứ Sáu với điều kiện feature flag đang tắt.",
         },
       ],
   }
 - {
-    "slug": "condition-n",
-    "lemma": "condition",
-    "pos": "noun",
-    "cefr": "B1",
-    "topic": "government",
-    "ipa": "/kənˈdɪʃn/",
-    "def": "Something that must happen before something else can happen.",
-    "vi": "điều kiện",
-    "examples":
+    slug: compulsory-adj,
+    lemma: "compulsory",
+    pos: adjective,
+    cefr: B2,
+    topic: government,
+    ipa: "/kəmˈpʌlsəri/",
+    def: "Required by a rule, so you have no choice.",
+    vi: "bắt buộc",
+    examples:
       [
         {
-          "en": "We can merge on one condition: the feature flag stays off.",
-          "vi": "Có thể merge với một điều kiện: feature flag vẫn tắt.",
+          en: "A second review is compulsory for database migrations.",
+          vi: "Lượt review thứ hai là bắt buộc với migration cơ sở dữ liệu.",
         },
       ],
   }
 - {
-    "slug": "mandatory-adj",
-    "lemma": "mandatory",
-    "pos": "adjective",
-    "cefr": "B2",
-    "topic": "government",
-    "ipa": "/ˈmændətəri/",
-    "def": "Required by a rule; you must do it.",
-    "vi": "bắt buộc",
-    "examples":
+    slug: allowed-adj,
+    lemma: "allowed",
+    pos: adjective,
+    cefr: A2,
+    topic: government,
+    ipa: "/əˈlaʊd/",
+    def: "Permitted by the rules.",
+    vi: "được phép",
+    examples:
       [
         {
-          "en": "Code review is mandatory for changes to the payment service.",
-          "vi": "Review code là bắt buộc với thay đổi ở dịch vụ thanh toán.",
+          en: "Force-pushing to main is not allowed.",
+          vi: "Không được phép force-push lên nhánh main.",
         },
       ],
   }
 - {
-    "slug": "allowed-adj",
-    "lemma": "allowed",
-    "pos": "adjective",
-    "cefr": "A2",
-    "topic": "government",
-    "ipa": "/əˈlaʊd/",
-    "def": "Permitted by the rules.",
-    "vi": "được phép",
-    "examples":
+    slug: nonblocking-adj,
+    lemma: "non-blocking",
+    pos: adjective,
+    cefr: B2,
+    topic: government,
+    ipa: "/ˌnɒn ˈblɒkɪŋ/",
+    def: "Describing a review comment that does not stop the change from being merged.",
+    vi: "không chặn merge",
+    examples:
       [
         {
-          "en": "Force-pushing to main is not allowed.",
-          "vi": "Không được phép force-push lên nhánh main.",
+          en: "This comment is non-blocking; fix it in a later PR if you like.",
+          vi: "Bình luận này không chặn merge; bạn có thể sửa ở PR sau.",
         },
       ],
   }
 - {
-    "slug": "nitpick-n",
-    "lemma": "nitpick",
-    "pos": "noun",
-    "cefr": "B2",
-    "topic": "government",
-    "ipa": "/ˈnɪtpɪk/",
-    "def": "A comment about a very small detail that is not important.",
-    "vi": "góp ý vụn vặt",
-    "examples":
+    slug: pre-merge-check-n,
+    lemma: "pre-merge check",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: government,
+    ipa: "/ˌpriː ˈmɜːdʒ tʃek/",
+    def: "An automatic test that must pass before code is merged.",
+    vi: "kiểm tra trước khi merge",
+    examples:
       [
         {
-          "en": "This is just a nitpick, so feel free to merge without it.",
-          "vi": "Đây chỉ là góp ý vụn vặt, bạn cứ merge mà không cần sửa.",
+          en: "The pre-merge check runs unit tests and the linter.",
+          vi: "Bước kiểm tra trước khi merge chạy unit test và linter.",
         },
       ],
   }
 - {
-    "slug": "checklist-n-government",
-    "lemma": "checklist",
-    "pos": "noun",
-    "cefr": "B1",
-    "topic": "government",
-    "ipa": "/ˈtʃeklɪst/",
-    "def": "A list of things you must check or do.",
-    "vi": "danh sách kiểm tra",
-    "examples":
+    slug: thorough-adj,
+    lemma: "thorough",
+    pos: adjective,
+    cefr: B2,
+    topic: government,
+    ipa: "/ˈθʌrə/",
+    def: "Careful and complete, checking every detail.",
+    vi: "kỹ lưỡng",
+    examples:
       [
         {
-          "en": "Tick every item on the release checklist first.",
-          "vi": "Hãy đánh dấu hết mục trong danh sách kiểm tra release trước.",
-        },
-      ],
-  }
-- {
-    "slug": "thorough-adj",
-    "lemma": "thorough",
-    "pos": "adjective",
-    "cefr": "B2",
-    "topic": "government",
-    "ipa": "/ˈθʌrə/",
-    "def": "Careful and complete, checking every detail.",
-    "vi": "kỹ lưỡng",
-    "examples":
-      [
-        {
-          "en": "Thanks for the thorough review; I fixed every point.",
-          "vi": "Cảm ơn bạn đã review kỹ; mình đã sửa hết các điểm.",
+          en: "Thanks for the thorough review; I fixed every point.",
+          vi: "Cảm ơn bạn đã review kỹ; mình đã sửa hết các điểm.",
         },
       ],
   }
 # Set 4: Ownership & accountability
 - {
-    "slug": "owner-n-government",
-    "lemma": "owner",
-    "pos": "noun",
-    "cefr": "A2",
-    "topic": "government",
-    "ipa": "/ˈəʊnə/",
-    "def": "The person or team responsible for something.",
-    "vi": "người phụ trách, chủ sở hữu",
-    "examples":
+    slug: owning-team-n,
+    lemma: "owning team",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: government,
+    ipa: "/ˈəʊnɪŋ tiːm/",
+    def: "The team that is responsible for a service or component.",
+    vi: "nhóm phụ trách",
+    examples:
       [
         {
-          "en": "Who is the owner of the search service?",
-          "vi": "Ai là người phụ trách dịch vụ tìm kiếm?",
+          en: "Open the ticket against the owning team, not against us.",
+          vi: "Hãy mở ticket cho nhóm phụ trách, không phải cho nhóm mình.",
         },
       ],
   }
 - {
-    "slug": "responsible-for-phr",
-    "lemma": "responsible for",
-    "pos": "phrase",
-    "kind": "phrase",
-    "cefr": "B1",
-    "topic": "government",
-    "ipa": "/rɪˈspɒnsəbl fɔː/",
-    "def": "Having the duty to deal with something.",
-    "vi": "chịu trách nhiệm về",
-    "examples":
+    slug: responsible-for-phr,
+    lemma: "responsible for",
+    pos: phrase,
+    kind: phrase,
+    cefr: B1,
+    topic: government,
+    ipa: "/rɪˈspɒnsəbl fɔː/",
+    def: "Having the duty to deal with something.",
+    vi: "chịu trách nhiệm về",
+    examples:
       [
         {
-          "en": "Our team is responsible for the login flow.",
-          "vi": "Nhóm mình chịu trách nhiệm về luồng đăng nhập.",
+          en: "Our team is responsible for the login flow.",
+          vi: "Nhóm mình chịu trách nhiệm về luồng đăng nhập.",
         },
       ],
   }
 - {
-    "slug": "decision-maker-n-government",
-    "lemma": "decision-maker",
-    "pos": "noun",
-    "cefr": "B2",
-    "topic": "government",
-    "ipa": "/dɪˈsɪʒn ˌmeɪkə/",
-    "def": "The person who makes the final choice.",
-    "vi": "người ra quyết định",
-    "examples":
+    slug: arbiter-n,
+    lemma: "arbiter",
+    pos: noun,
+    cefr: C1,
+    topic: government,
+    ipa: "/ˈɑːbɪtə/",
+    def: "A person who settles a disagreement by deciding.",
+    vi: "người phân xử",
+    examples:
       [
         {
-          "en": "The product lead is the decision-maker for the roadmap.",
-          "vi": "Trưởng nhóm sản phẩm là người ra quyết định về roadmap.",
+          en: "The architect acts as arbiter when teams can't agree.",
+          vi: "Kiến trúc sư làm người phân xử khi các nhóm không thống nhất.",
         },
       ],
   }
 - {
-    "slug": "consult-v",
-    "lemma": "consult",
-    "pos": "verb",
-    "cefr": "B2",
-    "topic": "government",
-    "ipa": "/kənˈsʌlt/",
-    "def": "To ask someone for their opinion before you decide.",
-    "vi": "tham vấn, hỏi ý kiến",
-    "examples":
+    slug: run-by-phr,
+    lemma: "run by",
+    pos: phrasal_verb,
+    kind: phrasal,
+    cefr: B2,
+    topic: government,
+    ipa: "/rʌn baɪ/",
+    def: "To tell someone about an idea to get their opinion.",
+    vi: "hỏi ý kiến, trình bày qua",
+    examples:
       [
         {
-          "en": "Please consult the platform team before you change the base image.",
-          "vi": "Hãy hỏi ý kiến nhóm platform trước khi đổi base image.",
+          en: "Run the plan by the DBA before you touch the indexes.",
+          vi: "Hãy trình kế hoạch cho DBA trước khi đụng tới index.",
         },
       ],
   }
 - {
-    "slug": "inform-v",
-    "lemma": "inform",
-    "pos": "verb",
-    "cefr": "B1",
-    "topic": "government",
-    "ipa": "/ɪnˈfɔːm/",
-    "def": "To tell someone about something officially.",
-    "vi": "thông báo",
-    "examples":
+    slug: inform-v,
+    lemma: "inform",
+    pos: verb,
+    cefr: B1,
+    topic: government,
+    ipa: "/ɪnˈfɔːm/",
+    def: "To tell someone about something officially.",
+    vi: "thông báo",
+    examples:
       [
         {
-          "en": "We inform support whenever an API changes.",
-          "vi": "Nhóm thông báo cho bộ phận hỗ trợ mỗi khi API thay đổi.",
+          en: "We inform support whenever an API changes.",
+          vi: "Nhóm thông báo cho bộ phận hỗ trợ mỗi khi API thay đổi.",
         },
       ],
   }
 - {
-    "slug": "custodian-n-government",
-    "lemma": "custodian",
-    "pos": "noun",
-    "cefr": "C1",
-    "topic": "government",
-    "ipa": "/kʌˈstəʊdiən/",
-    "def": "A person who is responsible for looking after something.",
-    "vi": "người quản lý, người trông giữ",
-    "examples":
+    slug: point-person-n,
+    lemma: "point person",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: government,
+    ipa: "/ˈpɔɪnt ˌpɜːsn/",
+    def: "The one person others go to about a topic.",
+    vi: "đầu mối",
+    examples:
       [
         {
-          "en": "The data team is the custodian of the customer tables.",
-          "vi": "Nhóm dữ liệu là người quản lý các bảng khách hàng.",
+          en: "Minh is the point person for anything about payments.",
+          vi: "Minh là đầu mối cho mọi việc về thanh toán.",
         },
       ],
   }
 - {
-    "slug": "mandate-n-government",
-    "lemma": "mandate",
-    "pos": "noun",
-    "cefr": "C1",
-    "topic": "government",
-    "ipa": "/ˈmændeɪt/",
-    "def": "The official right to do something, given by a group or leader.",
-    "vi": "sự uỷ nhiệm, quyền hạn được giao",
-    "examples":
+    slug: onus-n,
+    lemma: "onus",
+    pos: noun,
+    cefr: C1,
+    topic: government,
+    ipa: "/ˈəʊnəs/",
+    def: "The duty or responsibility to do something.",
+    vi: "trách nhiệm phải làm",
+    examples:
       [
         {
-          "en": "The platform team has a mandate to set CI rules for everyone.",
-          "vi": "Nhóm platform được giao quyền đặt quy tắc CI cho tất cả.",
+          en: "The onus is on the author to update the docs.",
+          vi: "Trách nhiệm cập nhật tài liệu thuộc về người viết.",
         },
       ],
   }
 - {
-    "slug": "take-ownership-phr",
-    "lemma": "take ownership",
-    "pos": "phrase",
-    "kind": "collocation",
-    "cefr": "B2",
-    "topic": "government",
-    "ipa": "/teɪk ˈəʊnəʃɪp/",
-    "def": "To accept that a task or problem is yours to solve.",
-    "vi": "nhận trách nhiệm",
-    "examples":
+    slug: take-ownership-phr,
+    lemma: "take ownership",
+    pos: phrase,
+    kind: collocation,
+    cefr: B2,
+    topic: government,
+    ipa: "/teɪk ˈəʊnəʃɪp/",
+    def: "To accept that a task or problem is yours to solve.",
+    vi: "nhận trách nhiệm",
+    examples:
       [
         {
-          "en": "I'll take ownership of the flaky tests this sprint.",
-          "vi": "Sprint này mình sẽ nhận trách nhiệm xử lý các test chập chờn.",
+          en: "I'll take ownership of the flaky tests this sprint.",
+          vi: "Sprint này mình sẽ nhận trách nhiệm xử lý các test chập chờn.",
         },
       ],
   }
 - {
-    "slug": "bottleneck-n-government",
-    "lemma": "bottleneck",
-    "pos": "noun",
-    "cefr": "B2",
-    "topic": "government",
-    "ipa": "/ˈbɒtlnek/",
-    "def": "A point where work slows down because it waits for one person or step.",
-    "vi": "điểm nghẽn",
-    "examples":
+    slug: chokepoint-n,
+    lemma: "chokepoint",
+    pos: noun,
+    cefr: C1,
+    topic: government,
+    ipa: "/ˈtʃəʊkpɔɪnt/",
+    def: "A place where everything must pass through and gets slowed down.",
+    vi: "điểm thắt",
+    examples:
       [
         {
-          "en": "With only one approver, the lead became a bottleneck.",
-          "vi": "Chỉ có một người duyệt nên trưởng nhóm trở thành điểm nghẽn.",
+          en: "The single release manager is a chokepoint for every team.",
+          vi: "Một người quản lý release duy nhất là điểm thắt cho mọi nhóm.",
         },
       ],
   }
 - {
-    "slug": "handover-n-government",
-    "lemma": "handover",
-    "pos": "noun",
-    "cefr": "B2",
-    "topic": "government",
-    "ipa": "/ˈhændəʊvə/",
-    "def": "The act of passing work or responsibility to another person.",
-    "vi": "bàn giao",
-    "examples":
+    slug: transition-plan-n,
+    lemma: "transition plan",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: government,
+    ipa: "/trænˈzɪʃn plæn/",
+    def: "A plan for moving responsibility from one person or team to another.",
+    vi: "kế hoạch chuyển giao",
+    examples:
       [
         {
-          "en": "Write a handover note before you move to the new team.",
-          "vi": "Viết ghi chú bàn giao trước khi bạn chuyển sang nhóm mới.",
+          en: "Write a transition plan before the service moves teams.",
+          vi: "Hãy viết kế hoạch chuyển giao trước khi dịch vụ đổi nhóm.",
         },
       ],
   }
 - {
-    "slug": "role-n-government",
-    "lemma": "role",
-    "pos": "noun",
-    "cefr": "A2",
-    "topic": "government",
-    "ipa": "/rəʊl/",
-    "def": "The job or position someone has in a group.",
-    "vi": "vai trò",
-    "examples":
+    slug: purview-n,
+    lemma: "purview",
+    pos: noun,
+    cefr: C1,
+    topic: government,
+    ipa: "/ˈpɜːvjuː/",
+    def: "The range of things a person or group has authority over.",
+    vi: "phạm vi thẩm quyền",
+    examples:
       [
         {
-          "en": "My role in this project is to review the database changes.",
-          "vi": "Vai trò của mình trong dự án là review thay đổi cơ sở dữ liệu.",
+          en: "Pricing rules are outside our purview.",
+          vi: "Quy tắc tính giá nằm ngoài phạm vi thẩm quyền của nhóm.",
         },
       ],
   }
 - {
-    "slug": "vague-adj",
-    "lemma": "vague",
-    "pos": "adjective",
-    "cefr": "B2",
-    "topic": "government",
-    "ipa": "/veɪɡ/",
-    "def": "Not clear or detailed enough.",
-    "vi": "mơ hồ",
-    "examples":
+    slug: cross-team-adj,
+    lemma: "cross-team",
+    pos: adjective,
+    cefr: B2,
+    topic: government,
+    ipa: "/ˌkrɒs ˈtiːm/",
+    def: "Involving more than one team.",
+    vi: "liên nhóm",
+    examples:
       [
         {
-          "en": "The ticket is vague about who owns the cleanup.",
-          "vi": "Ticket còn mơ hồ về việc ai phụ trách dọn dẹp.",
+          en: "Cross-team changes need a named owner on each side.",
+          vi: "Thay đổi liên nhóm cần có người phụ trách cụ thể ở mỗi bên.",
         },
       ],
   }
 - {
-    "slug": "answer-to-phr",
-    "lemma": "answer to",
-    "pos": "phrasal_verb",
-    "kind": "phrasal",
-    "cefr": "B2",
-    "topic": "government",
-    "ipa": "/ˈɑːnsə tuː/",
-    "def": "To report to someone who is in charge of you.",
-    "vi": "chịu sự quản lý của, báo cáo cho",
-    "examples":
+    slug: answer-to-phr,
+    lemma: "answer to",
+    pos: phrasal_verb,
+    kind: phrasal,
+    cefr: B2,
+    topic: government,
+    ipa: "/ˈɑːnsə tuː/",
+    def: "To report to someone who is in charge of you.",
+    vi: "chịu sự quản lý của, báo cáo cho",
+    examples:
       [
         {
-          "en": "The QA leads answer to the head of engineering.",
-          "vi": "Các trưởng QA báo cáo cho trưởng bộ phận kỹ thuật.",
+          en: "The QA leads answer to the head of engineering.",
+          vi: "Các trưởng QA báo cáo cho trưởng bộ phận kỹ thuật.",
         },
       ],
   }
 - {
-    "slug": "blame-v-government",
-    "lemma": "blame",
-    "pos": "verb",
-    "cefr": "B1",
-    "topic": "government",
-    "ipa": "/bleɪm/",
-    "def": "To say that someone is the cause of a problem.",
-    "vi": "đổ lỗi",
-    "examples":
+    slug: culpable-adj,
+    lemma: "culpable",
+    pos: adjective,
+    cefr: C1,
+    topic: government,
+    ipa: "/ˈkʌlpəbl/",
+    def: "Deserving blame for something bad.",
+    vi: "có lỗi",
+    examples:
       [
         {
-          "en": "Our postmortems never blame one person for an outage.",
-          "vi": "Các buổi postmortem của nhóm không bao giờ đổ lỗi cho một người.",
+          en: "The goal is to fix the process, not to find who is culpable.",
+          vi: "Mục tiêu là sửa quy trình, không phải tìm ai có lỗi.",
         },
       ],
   }
 - {
-    "slug": "duty-n",
-    "lemma": "duty",
-    "pos": "noun",
-    "cefr": "B1",
-    "topic": "government",
-    "ipa": "/ˈdjuːti/",
-    "def": "Something you must do because of your job.",
-    "vi": "nhiệm vụ, bổn phận",
-    "examples":
+    slug: duty-n,
+    lemma: "duty",
+    pos: noun,
+    cefr: B1,
+    topic: government,
+    ipa: "/ˈdjuːti/",
+    def: "Something you must do because of your job.",
+    vi: "nhiệm vụ, bổn phận",
+    examples:
       [
         {
-          "en": "Checking the alerts is the first duty of the on-call person.",
-          "vi": "Kiểm tra cảnh báo là nhiệm vụ đầu tiên của người trực.",
+          en: "Checking the alerts is the first duty of the on-call person.",
+          vi: "Kiểm tra cảnh báo là nhiệm vụ đầu tiên của người trực.",
         },
       ],
   }
 - {
-    "slug": "ultimately-adv",
-    "lemma": "ultimately",
-    "pos": "adverb",
-    "cefr": "B2",
-    "topic": "government",
-    "ipa": "/ˈʌltɪmətli/",
-    "def": "In the end, after everything else has been considered.",
-    "vi": "rốt cuộc, cuối cùng",
-    "examples":
+    slug: ultimately-adv,
+    lemma: "ultimately",
+    pos: adverb,
+    cefr: B2,
+    topic: government,
+    ipa: "/ˈʌltɪmətli/",
+    def: "In the end, after everything else has been considered.",
+    vi: "rốt cuộc, cuối cùng",
+    examples:
       [
         {
-          "en": "Ultimately, the service owner decides when to deploy.",
-          "vi": "Rốt cuộc, người phụ trách dịch vụ quyết định khi nào deploy.",
+          en: "Ultimately, the service owner decides when to deploy.",
+          vi: "Rốt cuộc, người phụ trách dịch vụ quyết định khi nào deploy.",
         },
       ],
   }
 # Set 5: Exceptions & escalation
 - {
-    "slug": "exception-n",
-    "lemma": "exception",
-    "pos": "noun",
-    "cefr": "B1",
-    "topic": "government",
-    "ipa": "/ɪkˈsepʃn/",
-    "def": "A case where a rule is not followed, usually with permission.",
-    "vi": "ngoại lệ",
-    "examples":
+    slug: special-case-n,
+    lemma: "special case",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: government,
+    ipa: "/ˌspeʃl ˈkeɪs/",
+    def: "A situation treated differently from the usual rule.",
+    vi: "trường hợp đặc biệt",
+    examples:
       [
         {
-          "en": "Can we get an exception to the freeze for this hotfix?",
-          "vi": "Bản hotfix này có được ngoại lệ trong thời gian đóng băng không?",
+          en: "Treat the bank integration as a special case.",
+          vi: "Hãy coi tích hợp ngân hàng là trường hợp đặc biệt.",
         },
       ],
   }
 - {
-    "slug": "escalate-v-government",
-    "lemma": "escalate",
-    "pos": "verb",
-    "cefr": "B2",
-    "topic": "government",
-    "ipa": "/ˈeskəleɪt/",
-    "def": "To pass a problem to someone with more authority.",
-    "vi": "chuyển lên cấp cao hơn",
-    "examples":
+    slug: refer-up-phr,
+    lemma: "refer up",
+    pos: phrasal_verb,
+    kind: phrasal,
+    cefr: C1,
+    topic: government,
+    ipa: "/rɪˈfɜːr ʌp/",
+    def: "To send a question to someone more senior to decide.",
+    vi: "chuyển lên cấp trên",
+    examples:
       [
         {
-          "en": "If the vendor doesn't reply by noon, escalate it to the manager.",
-          "vi": "Nếu nhà cung cấp không trả lời trước trưa, hãy chuyển lên quản lý.",
+          en: "If it costs more than budget, refer it up to the director.",
+          vi: "Nếu vượt ngân sách, hãy chuyển lên giám đốc.",
         },
       ],
   }
 - {
-    "slug": "waiver-n",
-    "lemma": "waiver",
-    "pos": "noun",
-    "cefr": "C1",
-    "topic": "government",
-    "ipa": "/ˈweɪvə/",
-    "def": "Official permission not to follow a rule.",
-    "vi": "giấy miễn trừ, sự miễn",
-    "examples":
+    slug: waiver-n,
+    lemma: "waiver",
+    pos: noun,
+    cefr: C1,
+    topic: government,
+    ipa: "/ˈweɪvə/",
+    def: "Official permission not to follow a rule.",
+    vi: "giấy miễn trừ, sự miễn",
+    examples:
       [
         {
-          "en": "Security gave us a 30-day waiver for the old TLS version.",
-          "vi": "Bộ phận bảo mật cho nhóm miễn trừ 30 ngày với phiên bản TLS cũ.",
+          en: "Security gave us a 30-day waiver for the old TLS version.",
+          vi: "Bộ phận bảo mật cho nhóm miễn trừ 30 ngày với phiên bản TLS cũ.",
         },
       ],
   }
 - {
-    "slug": "temporary-adj-government",
-    "lemma": "temporary",
-    "pos": "adjective",
-    "cefr": "B1",
-    "topic": "government",
-    "ipa": "/ˈtemprəri/",
-    "def": "Lasting only for a limited time.",
-    "vi": "tạm thời",
-    "examples":
+    slug: short-lived-adj,
+    lemma: "short-lived",
+    pos: adjective,
+    cefr: B2,
+    topic: government,
+    ipa: "/ˌʃɔːt ˈlɪvd/",
+    def: "Lasting only a short time.",
+    vi: "ngắn ngủi, tồn tại ngắn",
+    examples:
       [
         {
-          "en": "This is a temporary fix until the library is updated.",
-          "vi": "Đây là cách sửa tạm thời cho đến khi thư viện được cập nhật.",
+          en: "Short-lived branches cause fewer merge conflicts.",
+          vi: "Các nhánh tồn tại ngắn gây ít xung đột merge hơn.",
         },
       ],
   }
 - {
-    "slug": "expiry-date-n",
-    "lemma": "expiry date",
-    "pos": "noun",
-    "kind": "collocation",
-    "cefr": "B1",
-    "topic": "government",
-    "ipa": "/ɪkˈspaɪəri deɪt/",
-    "def": "The date when something stops being valid.",
-    "vi": "ngày hết hạn",
-    "examples":
+    slug: expiry-date-n,
+    lemma: "expiry date",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: government,
+    ipa: "/ɪkˈspaɪəri deɪt/",
+    def: "The date when something stops being valid.",
+    vi: "ngày hết hạn",
+    examples:
       [
         {
-          "en": "Every exception must have an expiry date.",
-          "vi": "Mọi ngoại lệ phải có ngày hết hạn.",
+          en: "Every exception must have an expiry date.",
+          vi: "Mọi ngoại lệ phải có ngày hết hạn.",
         },
       ],
   }
 - {
-    "slug": "scope-n-government",
-    "lemma": "scope",
-    "pos": "noun",
-    "cefr": "B2",
-    "topic": "government",
-    "ipa": "/skəʊp/",
-    "def": "The range of things that something covers.",
-    "vi": "phạm vi",
-    "examples":
+    slug: bounded-adj,
+    lemma: "bounded",
+    pos: adjective,
+    cefr: C1,
+    topic: government,
+    ipa: "/ˈbaʊndɪd/",
+    def: "Having clear limits.",
+    vi: "có giới hạn rõ",
+    examples:
       [
         {
-          "en": "The scope of the exception is the billing service only.",
-          "vi": "Phạm vi ngoại lệ chỉ là dịch vụ tính tiền.",
+          en: "Keep the exception bounded: one service, two weeks.",
+          vi: "Hãy giữ ngoại lệ có giới hạn rõ: một dịch vụ, hai tuần.",
         },
       ],
   }
 - {
-    "slug": "justify-v-government",
-    "lemma": "justify",
-    "pos": "verb",
-    "cefr": "B2",
-    "topic": "government",
-    "ipa": "/ˈdʒʌstɪfaɪ/",
-    "def": "To give good reasons for something.",
-    "vi": "biện minh, giải thích lý do",
-    "examples":
+    slug: warrant-v,
+    lemma: "warrant",
+    pos: verb,
+    cefr: C1,
+    topic: government,
+    ipa: "/ˈwɒrənt/",
+    def: "To make an action seem necessary or reasonable.",
+    vi: "đáng để, làm cho hợp lý",
+    examples:
       [
         {
-          "en": "Please justify why the test can't run in CI.",
-          "vi": "Hãy giải thích lý do vì sao test không chạy được trong CI.",
+          en: "Does a typo really warrant a hotfix?",
+          vi: "Một lỗi chính tả có thực sự đáng để làm hotfix không?",
         },
       ],
   }
 - {
-    "slug": "workaround-n",
-    "lemma": "workaround",
-    "pos": "noun",
-    "cefr": "B2",
-    "topic": "government",
-    "ipa": "/ˈwɜːkəraʊnd/",
-    "def": "A way to avoid a problem without really fixing it.",
-    "vi": "cách xử lý tạm",
-    "examples":
+    slug: stopgap-fix-n,
+    lemma: "stopgap fix",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: government,
+    ipa: "/ˈstɒpɡæp fɪks/",
+    def: "A quick solution used only until a proper one is ready.",
+    vi: "bản sửa tạm bợ",
+    examples:
       [
         {
-          "en": "The workaround is to clear the cache after each deploy.",
-          "vi": "Cách xử lý tạm là xoá cache sau mỗi lần deploy.",
+          en: "The stopgap fix is allowed for one sprint only.",
+          vi: "Bản sửa tạm bợ chỉ được phép trong một sprint.",
         },
       ],
   }
 - {
-    "slug": "deadline-n",
-    "lemma": "deadline",
-    "pos": "noun",
-    "cefr": "B1",
-    "topic": "government",
-    "ipa": "/ˈdedlaɪn/",
-    "def": "The time by which something must be finished.",
-    "vi": "hạn chót",
-    "examples":
+    slug: hard-deadline-n,
+    lemma: "hard deadline",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: government,
+    ipa: "/ˌhɑːd ˈdedlaɪn/",
+    def: "A date that cannot be moved.",
+    vi: "hạn chót cố định",
+    examples:
       [
         {
-          "en": "The deadline for the audit fixes is next Friday.",
-          "vi": "Hạn chót sửa các lỗi kiểm toán là thứ Sáu tuần sau.",
+          en: "The certificate expires on the 30th, so that is a hard deadline.",
+          vi: "Chứng chỉ hết hạn ngày 30, nên đó là hạn chót không thể dời.",
         },
       ],
   }
 - {
-    "slug": "impact-n-government",
-    "lemma": "impact",
-    "pos": "noun",
-    "cefr": "B1",
-    "topic": "government",
-    "ipa": "/ˈɪmpækt/",
-    "def": "The effect that something has.",
-    "vi": "ảnh hưởng, tác động",
-    "examples":
+    slug: repercussion-n,
+    lemma: "repercussion",
+    pos: noun,
+    cefr: C1,
+    topic: government,
+    ipa: "/ˌriːpəˈkʌʃn/",
+    def: "An unwanted effect that comes later.",
+    vi: "hậu quả",
+    examples:
       [
         {
-          "en": "What is the impact if we skip the load test?",
-          "vi": "Nếu bỏ qua bài kiểm tra tải thì ảnh hưởng là gì?",
+          en: "Skipping the audit could have serious repercussions.",
+          vi: "Bỏ qua kiểm toán có thể gây hậu quả nghiêm trọng.",
         },
       ],
   }
 - {
-    "slug": "grant-v",
-    "lemma": "grant",
-    "pos": "verb",
-    "cefr": "B2",
-    "topic": "government",
-    "ipa": "/ɡrɑːnt/",
-    "def": "To officially give something that was asked for.",
-    "vi": "cấp, chấp thuận",
-    "examples":
+    slug: grant-v,
+    lemma: "grant",
+    pos: verb,
+    cefr: B2,
+    topic: government,
+    ipa: "/ɡrɑːnt/",
+    def: "To officially give something that was asked for.",
+    vi: "cấp, chấp thuận",
+    examples:
       [
         {
-          "en": "The CTO granted the exception for two weeks.",
-          "vi": "CTO chấp thuận ngoại lệ trong hai tuần.",
+          en: "The CTO granted the exception for two weeks.",
+          vi: "CTO chấp thuận ngoại lệ trong hai tuần.",
         },
       ],
   }
 - {
-    "slug": "one-off-adj",
-    "lemma": "one-off",
-    "pos": "adjective",
-    "cefr": "B2",
-    "topic": "government",
-    "ipa": "/ˌwʌn ˈɒf/",
-    "def": "Happening only once.",
-    "vi": "chỉ một lần",
-    "examples":
+    slug: one-off-adj,
+    lemma: "one-off",
+    pos: adjective,
+    cefr: B2,
+    topic: government,
+    ipa: "/ˌwʌn ˈɒf/",
+    def: "Happening only once.",
+    vi: "chỉ một lần",
+    examples:
       [
         {
-          "en": "This is a one-off export; don't add it to the schedule.",
-          "vi": "Đây là lần xuất dữ liệu một lần thôi, đừng thêm vào lịch.",
+          en: "This is a one-off export; don't add it to the schedule.",
+          vi: "Đây là lần xuất dữ liệu một lần thôi, đừng thêm vào lịch.",
         },
       ],
   }
 - {
-    "slug": "bypass-v",
-    "lemma": "bypass",
-    "pos": "verb",
-    "cefr": "C1",
-    "topic": "government",
-    "ipa": "/ˈbaɪpɑːs/",
-    "def": "To go around a rule or process instead of through it.",
-    "vi": "bỏ qua, đi vòng",
-    "examples":
+    slug: bypass-v,
+    lemma: "bypass",
+    pos: verb,
+    cefr: C1,
+    topic: government,
+    ipa: "/ˈbaɪpɑːs/",
+    def: "To go around a rule or process instead of through it.",
+    vi: "bỏ qua, đi vòng",
+    examples:
       [
         {
-          "en": "Never bypass the review step, even for a small change.",
-          "vi": "Đừng bao giờ bỏ qua bước review, kể cả với thay đổi nhỏ.",
+          en: "Never bypass the review step, even for a small change.",
+          vi: "Đừng bao giờ bỏ qua bước review, kể cả với thay đổi nhỏ.",
         },
       ],
   }
 - {
-    "slug": "mitigation-n-government",
-    "lemma": "mitigation",
-    "pos": "noun",
-    "cefr": "C1",
-    "topic": "government",
-    "ipa": "/ˌmɪtɪˈɡeɪʃn/",
-    "def": "An action that makes a risk less serious.",
-    "vi": "biện pháp giảm thiểu",
-    "examples":
+    slug: risk-reduction-n,
+    lemma: "risk reduction",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: government,
+    ipa: "/ˈrɪsk rɪˌdʌkʃn/",
+    def: "Actions that make a danger less likely or less serious.",
+    vi: "giảm rủi ro",
+    examples:
       [
         {
-          "en": "As a mitigation, we will monitor the endpoint every hour.",
-          "vi": "Để giảm thiểu rủi ro, nhóm sẽ theo dõi endpoint mỗi giờ.",
+          en: "Extra monitoring is our risk reduction for the exception.",
+          vi: "Theo dõi thêm là biện pháp giảm rủi ro cho ngoại lệ này.",
         },
       ],
   }
 - {
-    "slug": "chain-of-command-n",
-    "lemma": "chain of command",
-    "pos": "noun",
-    "kind": "collocation",
-    "cefr": "C1",
-    "topic": "government",
-    "ipa": "/ˌtʃeɪn əv kəˈmɑːnd/",
-    "def": "The order of people who have authority over others.",
-    "vi": "hệ thống cấp bậc",
-    "examples":
+    slug: chain-of-command-n,
+    lemma: "chain of command",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: government,
+    ipa: "/ˌtʃeɪn əv kəˈmɑːnd/",
+    def: "The order of people who have authority over others.",
+    vi: "hệ thống cấp bậc",
+    examples:
       [
         {
-          "en": "Follow the chain of command: team lead first, then the director.",
-          "vi": "Hãy theo đúng cấp bậc: trưởng nhóm trước rồi mới đến giám đốc.",
+          en: "Follow the chain of command: team lead first, then the director.",
+          vi: "Hãy theo đúng cấp bậc: trưởng nhóm trước rồi mới đến giám đốc.",
         },
       ],
   }
 - {
-    "slug": "case-by-case-adj",
-    "lemma": "case-by-case",
-    "pos": "adjective",
-    "cefr": "C1",
-    "topic": "government",
-    "ipa": "/ˌkeɪs baɪ ˈkeɪs/",
-    "def": "Judged separately each time, not by one general rule.",
-    "vi": "xét từng trường hợp",
-    "examples":
+    slug: case-by-case-adj,
+    lemma: "case-by-case",
+    pos: adjective,
+    cefr: C1,
+    topic: government,
+    ipa: "/ˌkeɪs baɪ ˈkeɪs/",
+    def: "Judged separately each time, not by one general rule.",
+    vi: "xét từng trường hợp",
+    examples:
       [
         {
-          "en": "Late changes are approved on a case-by-case basis.",
-          "vi": "Thay đổi muộn được duyệt theo từng trường hợp.",
+          en: "Late changes are approved on a case-by-case basis.",
+          vi: "Thay đổi muộn được duyệt theo từng trường hợp.",
         },
       ],
   }
 - {
-    "slug": "non-negotiable-adj",
-    "lemma": "non-negotiable",
-    "pos": "adjective",
-    "cefr": "C1",
-    "topic": "government",
-    "ipa": "/ˌnɒn nɪˈɡəʊʃiəbl/",
-    "def": "Not able to be changed or discussed.",
-    "vi": "không thể thương lượng",
-    "examples":
+    slug: red-line-n,
+    lemma: "red line",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: government,
+    ipa: "/ˌred ˈlaɪn/",
+    def: "A limit that must never be crossed in a discussion or decision.",
+    vi: "giới hạn đỏ",
+    examples:
       [
         {
-          "en": "Encrypting user data is non-negotiable.",
-          "vi": "Mã hoá dữ liệu người dùng là điều không thể thương lượng.",
+          en: "Storing card numbers in logs is a red line for us.",
+          vi: "Lưu số thẻ trong log là giới hạn đỏ của nhóm.",
         },
       ],
   }
 - {
-    "slug": "sign-off-on-phr",
-    "lemma": "sign off on",
-    "pos": "phrasal_verb",
-    "kind": "phrasal",
-    "cefr": "B2",
-    "topic": "government",
-    "ipa": "/saɪn ˈɒf ɒn/",
-    "def": "To give official approval for something.",
-    "vi": "ký duyệt",
-    "examples":
+    slug: sign-off-on-phr,
+    lemma: "sign off on",
+    pos: phrasal_verb,
+    kind: phrasal,
+    cefr: B2,
+    topic: government,
+    ipa: "/saɪn ˈɒf ɒn/",
+    def: "To give official approval for something.",
+    vi: "ký duyệt",
+    examples:
       [
         {
-          "en": "The director has to sign off on any exception longer than a month.",
-          "vi": "Giám đốc phải ký duyệt mọi ngoại lệ kéo dài quá một tháng.",
+          en: "The director has to sign off on any exception longer than a month.",
+          vi: "Giám đốc phải ký duyệt mọi ngoại lệ kéo dài quá một tháng.",
         },
       ],
   }
 # Set 6: Architecture decision records
 - {
-    "slug": "decision-record-n",
-    "lemma": "decision record",
-    "pos": "noun",
-    "kind": "collocation",
-    "cefr": "B2",
-    "topic": "government",
-    "ipa": "/dɪˈsɪʒn ˈrekɔːd/",
-    "def": "A short document that explains a decision and why it was made.",
-    "vi": "bản ghi quyết định",
-    "examples":
+    slug: decision-record-n,
+    lemma: "decision record",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: government,
+    ipa: "/dɪˈsɪʒn ˈrekɔːd/",
+    def: "A short document that explains a decision and why it was made.",
+    vi: "bản ghi quyết định",
+    examples:
       [
         {
-          "en": "Link the decision record in the README so new people find it.",
-          "vi": "Hãy dẫn link bản ghi quyết định trong README để người mới tìm thấy.",
+          en: "Link the decision record in the README so new people find it.",
+          vi: "Hãy dẫn link bản ghi quyết định trong README để người mới tìm thấy.",
         },
       ],
   }
 - {
-    "slug": "background-n-government",
-    "lemma": "background",
-    "pos": "noun",
-    "cefr": "B1",
-    "topic": "government",
-    "ipa": "/ˈbækɡraʊnd/",
-    "def": "Facts about what happened before, which help explain a situation.",
-    "vi": "bối cảnh",
-    "examples":
+    slug: prior-art-n,
+    lemma: "prior art",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: government,
+    ipa: "/ˌpraɪər ˈɑːt/",
+    def: "Earlier solutions to the same problem that already exist.",
+    vi: "giải pháp đã có trước",
+    examples:
       [
         {
-          "en": "In the background section, explain why the old queue failed.",
-          "vi": "Ở phần bối cảnh, hãy giải thích vì sao hàng đợi cũ bị lỗi.",
+          en: "List the prior art before designing our own scheduler.",
+          vi: "Hãy liệt kê các giải pháp đã có trước khi tự thiết kế scheduler.",
         },
       ],
   }
 - {
-    "slug": "consequence-n",
-    "lemma": "consequence",
-    "pos": "noun",
-    "cefr": "B2",
-    "topic": "government",
-    "ipa": "/ˈkɒnsɪkwəns/",
-    "def": "A result of a decision or action.",
-    "vi": "hệ quả",
-    "examples":
+    slug: implication-n,
+    lemma: "implication",
+    pos: noun,
+    cefr: C1,
+    topic: government,
+    ipa: "/ˌɪmplɪˈkeɪʃn/",
+    def: "A possible effect that a decision will have later.",
+    vi: "hệ luỵ",
+    examples:
       [
         {
-          "en": "One consequence of this choice is a longer build time.",
-          "vi": "Một hệ quả của lựa chọn này là thời gian build lâu hơn.",
+          en: "One implication is that every service must handle retries.",
+          vi: "Một hệ luỵ là mọi dịch vụ phải tự xử lý việc thử lại.",
         },
       ],
   }
 - {
-    "slug": "alternative-n",
-    "lemma": "alternative",
-    "pos": "noun",
-    "cefr": "B2",
-    "topic": "government",
-    "ipa": "/ɔːlˈtɜːnətɪv/",
-    "def": "Another possible choice.",
-    "vi": "phương án thay thế",
-    "examples":
+    slug: choice-n,
+    lemma: "choice",
+    pos: noun,
+    cefr: A2,
+    topic: government,
+    ipa: "/tʃɔɪs/",
+    def: "The act of choosing, or the thing that is chosen.",
+    vi: "sự lựa chọn",
+    examples:
       [
         {
-          "en": "We considered Kafka as an alternative but chose SQS.",
-          "vi": "Nhóm đã cân nhắc Kafka làm phương án thay thế nhưng chọn SQS.",
+          en: "Postgres was the obvious choice for this service.",
+          vi: "Postgres là lựa chọn hiển nhiên cho dịch vụ này.",
         },
       ],
   }
 - {
-    "slug": "rationale-n-government",
-    "lemma": "rationale",
-    "pos": "noun",
-    "cefr": "C1",
-    "topic": "government",
-    "ipa": "/ˌræʃəˈnɑːl/",
-    "def": "The reasons behind a decision.",
-    "vi": "lý do căn bản",
-    "examples":
+    slug: grounds-n,
+    lemma: "grounds",
+    pos: noun,
+    cefr: C1,
+    topic: government,
+    ipa: "/ɡraʊndz/",
+    def: "Reasons that make a decision fair or justified.",
+    vi: "căn cứ",
+    examples:
       [
         {
-          "en": "The rationale is that the team already knows Postgres well.",
-          "vi": "Lý do căn bản là nhóm đã rành Postgres.",
+          en: "On what grounds did we drop the second region?",
+          vi: "Nhóm bỏ vùng thứ hai dựa trên căn cứ nào?",
         },
       ],
   }
 - {
-    "slug": "status-n",
-    "lemma": "status",
-    "pos": "noun",
-    "cefr": "B1",
-    "topic": "government",
-    "ipa": "/ˈsteɪtəs/",
-    "def": "The current state of something, for example draft or accepted.",
-    "vi": "trạng thái",
-    "examples":
+    slug: status-n,
+    lemma: "status",
+    pos: noun,
+    cefr: B1,
+    topic: government,
+    ipa: "/ˈsteɪtəs/",
+    def: "The current state of something, for example draft or accepted.",
+    vi: "trạng thái",
+    examples:
       [
         {
-          "en": "The status of this record is 'proposed' until Thursday.",
-          "vi": "Trạng thái của bản ghi này là 'đề xuất' cho đến thứ Năm.",
+          en: "The status of this record is 'proposed' until Thursday.",
+          vi: "Trạng thái của bản ghi này là 'đề xuất' cho đến thứ Năm.",
         },
       ],
   }
 - {
-    "slug": "supersede-v",
-    "lemma": "supersede",
-    "pos": "verb",
-    "cefr": "C1",
-    "topic": "government",
-    "ipa": "/ˌsuːpəˈsiːd/",
-    "def": "To replace an older thing with a newer one.",
-    "vi": "thay thế (cái cũ)",
-    "examples":
+    slug: supersede-v,
+    lemma: "supersede",
+    pos: verb,
+    cefr: C1,
+    topic: government,
+    ipa: "/ˌsuːpəˈsiːd/",
+    def: "To replace an older thing with a newer one.",
+    vi: "thay thế (cái cũ)",
+    examples:
       [
         {
-          "en": "This record supersedes the one about REST pagination.",
-          "vi": "Bản ghi này thay thế bản ghi về phân trang REST.",
+          en: "This record supersedes the one about REST pagination.",
+          vi: "Bản ghi này thay thế bản ghi về phân trang REST.",
         },
       ],
   }
 - {
-    "slug": "drawback-n",
-    "lemma": "drawback",
-    "pos": "noun",
-    "cefr": "B2",
-    "topic": "government",
-    "ipa": "/ˈdrɔːbæk/",
-    "def": "A disadvantage or problem.",
-    "vi": "nhược điểm",
-    "examples":
+    slug: sound-adj,
+    lemma: "sound",
+    pos: adjective,
+    cefr: B2,
+    topic: government,
+    ipa: "/saʊnd/",
+    def: "Based on good reasoning and likely to be right.",
+    vi: "vững chắc, hợp lý",
+    examples:
       [
         {
-          "en": "The main drawback is that we lose strong typing.",
-          "vi": "Nhược điểm chính là mất kiểu dữ liệu chặt chẽ.",
+          en: "The reasoning in this record is sound, so I'll approve it.",
+          vi: "Lập luận trong bản ghi này vững chắc nên mình sẽ duyệt.",
         },
       ],
   }
 - {
-    "slug": "premise-n-government",
-    "lemma": "premise",
-    "pos": "noun",
-    "cefr": "C1",
-    "topic": "government",
-    "ipa": "/ˈpremɪs/",
-    "def": "An idea that a decision or argument is based on.",
-    "vi": "tiền đề",
-    "examples":
+    slug: guiding-principle-n,
+    lemma: "guiding principle",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: government,
+    ipa: "/ˌɡaɪdɪŋ ˈprɪnsəpl/",
+    def: "A basic idea that shapes many decisions.",
+    vi: "nguyên tắc chỉ đạo",
+    examples:
       [
         {
-          "en": "The premise of this design is that reads are far more common than writes.",
-          "vi": "Tiền đề của thiết kế này là việc đọc nhiều hơn ghi rất nhiều.",
+          en: "Our guiding principle is to prefer boring technology.",
+          vi: "Nguyên tắc chỉ đạo của nhóm là ưu tiên công nghệ quen thuộc.",
         },
       ],
   }
 - {
-    "slug": "constraint-n",
-    "lemma": "constraint",
-    "pos": "noun",
-    "cefr": "B2",
-    "topic": "government",
-    "ipa": "/kənˈstreɪnt/",
-    "def": "Something that limits what you can do.",
-    "vi": "ràng buộc",
-    "examples":
+    slug: hard-limit-n,
+    lemma: "hard limit",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: government,
+    ipa: "/ˌhɑːd ˈlɪmɪt/",
+    def: "A fixed maximum that cannot be exceeded.",
+    vi: "giới hạn cứng",
+    examples:
       [
         {
-          "en": "A key constraint is that the data must stay in Vietnam.",
-          "vi": "Một ràng buộc quan trọng là dữ liệu phải lưu ở Việt Nam.",
+          en: "The provider has a hard limit of 1,000 requests per second.",
+          vi: "Nhà cung cấp có giới hạn cứng 1.000 request mỗi giây.",
         },
       ],
   }
 - {
-    "slug": "accepted-adj",
-    "lemma": "accepted",
-    "pos": "adjective",
-    "cefr": "B1",
-    "topic": "government",
-    "ipa": "/əkˈseptɪd/",
-    "def": "Agreed and approved by the group.",
-    "vi": "đã được chấp nhận",
-    "examples":
+    slug: accepted-adj,
+    lemma: "accepted",
+    pos: adjective,
+    cefr: B1,
+    topic: government,
+    ipa: "/əkˈseptɪd/",
+    def: "Agreed and approved by the group.",
+    vi: "đã được chấp nhận",
+    examples:
       [
         {
-          "en": "Once the record is accepted, we start the migration.",
-          "vi": "Khi bản ghi được chấp nhận, nhóm bắt đầu chuyển đổi.",
+          en: "Once the record is accepted, we start the migration.",
+          vi: "Khi bản ghi được chấp nhận, nhóm bắt đầu chuyển đổi.",
         },
       ],
   }
 - {
-    "slug": "legacy-adj-government",
-    "lemma": "legacy",
-    "pos": "adjective",
-    "cefr": "B2",
-    "topic": "government",
-    "ipa": "/ˈleɡəsi/",
-    "def": "Old but still in use, often hard to change.",
-    "vi": "cũ, kế thừa",
-    "examples":
+    slug: homegrown-adj,
+    lemma: "homegrown",
+    pos: adjective,
+    cefr: C1,
+    topic: government,
+    ipa: "/ˌhəʊmˈɡrəʊn/",
+    def: "Built inside the company rather than bought.",
+    vi: "tự phát triển nội bộ",
+    examples:
       [
         {
-          "en": "The legacy billing code still runs on PHP 5.",
-          "vi": "Mã tính tiền cũ vẫn chạy trên PHP 5.",
+          en: "We replaced our homegrown job runner with a managed service.",
+          vi: "Nhóm thay trình chạy job tự viết bằng một dịch vụ được quản lý.",
         },
       ],
   }
 - {
-    "slug": "short-term-adj-government",
-    "lemma": "short-term",
-    "pos": "adjective",
-    "cefr": "B1",
-    "topic": "government",
-    "ipa": "/ˌʃɔːt ˈtɜːm/",
-    "def": "Lasting or having effects for a short time.",
-    "vi": "ngắn hạn",
-    "examples":
+    slug: for-now-phr,
+    lemma: "for now",
+    pos: phrase,
+    kind: phrase,
+    cefr: A2,
+    topic: government,
+    ipa: "/fə ˈnaʊ/",
+    def: "At the present time, but maybe not later.",
+    vi: "tạm thời lúc này",
+    examples:
       [
         {
-          "en": "This is a short-term choice; we expect to replace it next year.",
-          "vi": "Đây là lựa chọn ngắn hạn; dự kiến năm sau sẽ thay.",
+          en: "For now, we store files on one server.",
+          vi: "Lúc này nhóm tạm lưu file trên một máy chủ.",
         },
       ],
   }
 - {
-    "slug": "document-v-government",
-    "lemma": "document",
-    "pos": "verb",
-    "cefr": "B1",
-    "topic": "government",
-    "ipa": "/ˈdɒkjument/",
-    "def": "To write down information so it can be used later.",
-    "vi": "ghi lại thành tài liệu",
-    "examples":
+    slug: capture-v,
+    lemma: "capture",
+    pos: verb,
+    cefr: B2,
+    topic: government,
+    ipa: "/ˈkæptʃə/",
+    def: "To record ideas or information so they are not lost.",
+    vi: "ghi nhận lại",
+    examples:
       [
         {
-          "en": "Please document why we turned off retries.",
-          "vi": "Hãy ghi lại vì sao nhóm tắt cơ chế thử lại.",
+          en: "Capture the options we rejected, not just the winner.",
+          vi: "Hãy ghi lại cả các lựa chọn bị loại, không chỉ phương án được chọn.",
         },
       ],
   }
 - {
-    "slug": "reversible-adj",
-    "lemma": "reversible",
-    "pos": "adjective",
-    "cefr": "C1",
-    "topic": "government",
-    "ipa": "/rɪˈvɜːsəbl/",
-    "def": "Able to be changed back to how it was before.",
-    "vi": "có thể đảo ngược",
-    "examples":
+    slug: undoable-adj,
+    lemma: "undoable",
+    pos: adjective,
+    cefr: C1,
+    topic: government,
+    ipa: "/ʌnˈduːəbl/",
+    def: "Able to be undone or changed back easily.",
+    vi: "có thể hoàn tác",
+    examples:
       [
         {
-          "en": "Choosing a log format is reversible, so decide quickly.",
-          "vi": "Chọn định dạng log có thể đảo ngược, nên hãy quyết nhanh.",
+          en: "A config change is undoable in seconds, so decide fast.",
+          vi: "Đổi cấu hình có thể hoàn tác trong vài giây nên cứ quyết nhanh.",
         },
       ],
   }
 - {
-    "slug": "upshot-n",
-    "lemma": "upshot",
-    "pos": "noun",
-    "cefr": "C1",
-    "topic": "government",
-    "ipa": "/ˈʌpʃɒt/",
-    "def": "The final result of a discussion or series of events.",
-    "vi": "kết cục, kết quả cuối",
-    "examples":
+    slug: upshot-n,
+    lemma: "upshot",
+    pos: noun,
+    cefr: C1,
+    topic: government,
+    ipa: "/ˈʌpʃɒt/",
+    def: "The final result of a discussion or series of events.",
+    vi: "kết cục, kết quả cuối",
+    examples:
       [
         {
-          "en": "The upshot was that we kept one shared database.",
-          "vi": "Kết cục là nhóm giữ một cơ sở dữ liệu dùng chung.",
+          en: "The upshot was that we kept one shared database.",
+          vi: "Kết cục là nhóm giữ một cơ sở dữ liệu dùng chung.",
         },
       ],
   }
 - {
-    "slug": "at-the-time-phr",
-    "lemma": "at the time",
-    "pos": "phrase",
-    "kind": "phrase",
-    "cefr": "B1",
-    "topic": "government",
-    "ipa": "/ət ðə ˈtaɪm/",
-    "def": "At the moment in the past that you are talking about.",
-    "vi": "vào thời điểm đó",
-    "examples":
+    slug: at-the-time-phr,
+    lemma: "at the time",
+    pos: phrase,
+    kind: phrase,
+    cefr: B1,
+    topic: government,
+    ipa: "/ət ðə ˈtaɪm/",
+    def: "At the moment in the past that you are talking about.",
+    vi: "vào thời điểm đó",
+    examples:
       [
         {
-          "en": "At the time, we only had one region.",
-          "vi": "Vào thời điểm đó nhóm chỉ có một vùng.",
+          en: "At the time, we only had one region.",
+          vi: "Vào thời điểm đó nhóm chỉ có một vùng.",
         },
       ],
   }
 - {
-    "slug": "lock-in-n",
-    "lemma": "lock-in",
-    "pos": "noun",
-    "cefr": "C1",
-    "topic": "government",
-    "ipa": "/ˈlɒk ɪn/",
-    "def": "A situation where it is very hard or costly to change to another supplier or tool.",
-    "vi": "sự phụ thuộc khó thoát",
-    "examples":
+    slug: tie-in-n,
+    lemma: "tie-in",
+    pos: noun,
+    cefr: C1,
+    topic: government,
+    ipa: "/ˈtaɪ ɪn/",
+    def: "A close link to one product that makes it hard to switch.",
+    vi: "sự ràng buộc vào một sản phẩm",
+    examples:
       [
         {
-          "en": "Using this proprietary queue creates vendor lock-in.",
-          "vi": "Dùng hàng đợi độc quyền này sẽ tạo ra sự phụ thuộc vào nhà cung cấp.",
+          en: "Using that proprietary queue creates a strong tie-in to one vendor.",
+          vi: "Dùng hàng đợi độc quyền đó tạo ràng buộc chặt với một nhà cung cấp.",
         },
       ],
   }
 - {
-    "slug": "reconsider-v",
-    "lemma": "reconsider",
-    "pos": "verb",
-    "cefr": "B2",
-    "topic": "government",
-    "ipa": "/ˌriːkənˈsɪdə/",
-    "def": "To think again about a decision, perhaps to change it.",
-    "vi": "cân nhắc lại",
-    "examples":
+    slug: reconsider-v,
+    lemma: "reconsider",
+    pos: verb,
+    cefr: B2,
+    topic: government,
+    ipa: "/ˌriːkənˈsɪdə/",
+    def: "To think again about a decision, perhaps to change it.",
+    vi: "cân nhắc lại",
+    examples:
       [
         {
-          "en": "We'll reconsider this choice when we reach a million users.",
-          "vi": "Nhóm sẽ cân nhắc lại lựa chọn này khi đạt một triệu người dùng.",
+          en: "We'll reconsider this choice when we reach a million users.",
+          vi: "Nhóm sẽ cân nhắc lại lựa chọn này khi đạt một triệu người dùng.",
         },
       ],
   }
 - {
-    "slug": "boilerplate-n",
-    "lemma": "boilerplate",
-    "pos": "noun",
-    "cefr": "B2",
-    "topic": "government",
-    "ipa": "/ˈbɔɪləpleɪt/",
-    "def": "Standard text or code that is copied with few changes.",
-    "vi": "đoạn mẫu soạn sẵn",
-    "examples":
+    slug: boilerplate-n,
+    lemma: "boilerplate",
+    pos: noun,
+    cefr: B2,
+    topic: government,
+    ipa: "/ˈbɔɪləpleɪt/",
+    def: "Standard text or code that is copied with few changes.",
+    vi: "đoạn mẫu soạn sẵn",
+    examples:
       [
         {
-          "en": "Delete the boilerplate headings you don't use.",
-          "vi": "Hãy xoá các tiêu đề mẫu soạn sẵn mà bạn không dùng.",
+          en: "Delete the boilerplate headings you don't use.",
+          vi: "Hãy xoá các tiêu đề mẫu soạn sẵn mà bạn không dùng.",
         },
       ],
   }
 # Set 7: Proposing a policy change
 - {
-    "slug": "propose-v-government",
-    "lemma": "propose",
-    "pos": "verb",
-    "cefr": "B1",
-    "topic": "government",
-    "ipa": "/prəˈpəʊz/",
-    "def": "To suggest a plan or idea for others to consider.",
-    "vi": "đề xuất",
-    "examples":
+    slug: table-v,
+    lemma: "table",
+    pos: verb,
+    cefr: C1,
+    topic: government,
+    ipa: "/ˈteɪbl/",
+    def: "To formally present a plan for discussion.",
+    vi: "đưa ra bàn bạc",
+    examples:
       [
         {
-          "en": "I propose that we allow merges on Friday mornings.",
-          "vi": "Mình đề xuất cho phép merge vào sáng thứ Sáu.",
+          en: "I'd like to table a change to our release policy.",
+          vi: "Mình muốn đưa ra bàn bạc một thay đổi trong chính sách release.",
         },
       ],
   }
 - {
-    "slug": "proposal-n",
-    "lemma": "proposal",
-    "pos": "noun",
-    "cefr": "B1",
-    "topic": "government",
-    "ipa": "/prəˈpəʊzl/",
-    "def": "A written plan or suggestion.",
-    "vi": "bản đề xuất",
-    "examples":
+    slug: design-doc-n,
+    lemma: "design doc",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: government,
+    ipa: "/dɪˈzaɪn dɒk/",
+    def: "A document that describes a planned technical change.",
+    vi: "tài liệu thiết kế",
+    examples:
       [
         {
-          "en": "Please read the proposal and comment by Wednesday.",
-          "vi": "Hãy đọc bản đề xuất và góp ý trước thứ Tư.",
+          en: "Add the policy change to the design doc for review.",
+          vi: "Hãy thêm thay đổi quy định vào tài liệu thiết kế để review.",
         },
       ],
   }
 - {
-    "slug": "policy-n",
-    "lemma": "policy",
-    "pos": "noun",
-    "cefr": "B1",
-    "topic": "government",
-    "ipa": "/ˈpɒləsi/",
-    "def": "An official rule or plan about how things should be done.",
-    "vi": "chính sách, quy định",
-    "examples":
+    slug: policy-n,
+    lemma: "policy",
+    pos: noun,
+    cefr: B1,
+    topic: government,
+    ipa: "/ˈpɒləsi/",
+    def: "An official rule or plan about how things should be done.",
+    vi: "chính sách, quy định",
+    examples:
       [
         {
-          "en": "Our policy is to keep logs for 90 days.",
-          "vi": "Quy định của nhóm là lưu log trong 90 ngày.",
+          en: "Our policy is to keep logs for 90 days.",
+          vi: "Quy định của nhóm là lưu log trong 90 ngày.",
         },
       ],
   }
 - {
-    "slug": "pain-point-n-government",
-    "lemma": "pain point",
-    "pos": "noun",
-    "kind": "collocation",
-    "cefr": "B2",
-    "topic": "government",
-    "ipa": "/ˈpeɪn pɔɪnt/",
-    "def": "A problem that annoys people again and again.",
-    "vi": "điểm gây khó chịu",
-    "examples":
+    slug: friction-point-n,
+    lemma: "friction point",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: government,
+    ipa: "/ˈfrɪkʃn pɔɪnt/",
+    def: "A step that slows people down or annoys them.",
+    vi: "điểm vướng",
+    examples:
       [
         {
-          "en": "The biggest pain point is waiting a day for approval.",
-          "vi": "Điểm khó chịu nhất là phải chờ một ngày để được duyệt.",
+          en: "The manual sign-up form is a friction point for new hires.",
+          vi: "Biểu mẫu đăng ký thủ công là điểm vướng với nhân viên mới.",
         },
       ],
   }
 - {
-    "slug": "option-n",
-    "lemma": "option",
-    "pos": "noun",
-    "cefr": "A2",
-    "topic": "government",
-    "ipa": "/ˈɒpʃn/",
-    "def": "One of the things you can choose.",
-    "vi": "lựa chọn",
-    "examples":
+    slug: strawman-n,
+    lemma: "strawman",
+    pos: noun,
+    cefr: C1,
+    topic: government,
+    ipa: "/ˈstrɔːmæn/",
+    def: "A rough first version of a plan, made so people can criticise and improve it.",
+    vi: "bản phác thảo để góp ý",
+    examples:
       [
         {
-          "en": "Option B is cheaper but slower to set up.",
-          "vi": "Lựa chọn B rẻ hơn nhưng cài đặt lâu hơn.",
+          en: "Here's a strawman; please tear it apart.",
+          vi: "Đây là bản phác thảo để góp ý; cứ phản biện thoải mái nhé.",
         },
       ],
   }
 - {
-    "slug": "pilot-n-government",
-    "lemma": "pilot",
-    "pos": "noun",
-    "cefr": "B2",
-    "topic": "government",
-    "ipa": "/ˈpaɪlət/",
-    "def": "A small test of a new idea before using it everywhere.",
-    "vi": "thí điểm",
-    "examples":
+    slug: pilot-group-n,
+    lemma: "pilot group",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: government,
+    ipa: "/ˈpaɪlət ɡruːp/",
+    def: "A small set of people who try a change first.",
+    vi: "nhóm thí điểm",
+    examples:
       [
         {
-          "en": "Let's run a pilot with one team for a month.",
-          "vi": "Hãy chạy thí điểm với một nhóm trong một tháng.",
+          en: "The web team will be the pilot group for the new rule.",
+          vi: "Nhóm web sẽ là nhóm thí điểm cho quy tắc mới.",
         },
       ],
   }
 - {
-    "slug": "measure-v-government",
-    "lemma": "measure",
-    "pos": "verb",
-    "cefr": "B1",
-    "topic": "government",
-    "ipa": "/ˈmeʒə/",
-    "def": "To find the size or amount of something.",
-    "vi": "đo lường",
-    "examples":
+    slug: instrument-v,
+    lemma: "instrument",
+    pos: verb,
+    cefr: C1,
+    topic: government,
+    ipa: "/ˈɪnstrəment/",
+    def: "To add code that collects measurements from a system.",
+    vi: "gắn đo lường",
+    examples:
       [
         {
-          "en": "We'll measure lead time before and after the change.",
-          "vi": "Nhóm sẽ đo thời gian giao hàng trước và sau thay đổi.",
+          en: "Instrument the review queue so we can see wait times.",
+          vi: "Hãy gắn đo lường cho hàng chờ review để xem thời gian chờ.",
         },
       ],
   }
 - {
-    "slug": "success-criteria-n-government",
-    "lemma": "success criteria",
-    "pos": "noun",
-    "kind": "collocation",
-    "cefr": "B2",
-    "topic": "government",
-    "ipa": "/səkˈses kraɪˈtɪəriə/",
-    "def": "The conditions that show a change has worked.",
-    "vi": "tiêu chí thành công",
-    "examples":
+    slug: exit-criteria-n,
+    lemma: "exit criteria",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: government,
+    ipa: "/ˈeksɪt kraɪˌtɪəriə/",
+    def: "Conditions that tell you a trial can end or move to the next stage.",
+    vi: "tiêu chí kết thúc",
+    examples:
       [
         {
-          "en": "The success criteria are fewer rollbacks and faster reviews.",
-          "vi": "Tiêu chí thành công là ít rollback hơn và review nhanh hơn.",
+          en: "The exit criteria are two weeks without a failed deploy.",
+          vi: "Tiêu chí kết thúc là hai tuần không có lần deploy thất bại.",
         },
       ],
   }
 - {
-    "slug": "benefit-n",
-    "lemma": "benefit",
-    "pos": "noun",
-    "cefr": "B1",
-    "topic": "government",
-    "ipa": "/ˈbenɪfɪt/",
-    "def": "A good result or advantage.",
-    "vi": "lợi ích",
-    "examples":
+    slug: merit-n,
+    lemma: "merit",
+    pos: noun,
+    cefr: C1,
+    topic: government,
+    ipa: "/ˈmerɪt/",
+    def: "A good quality that makes something worth considering.",
+    vi: "giá trị, ưu điểm",
+    examples:
       [
         {
-          "en": "The main benefit is that juniors can deploy alone.",
-          "vi": "Lợi ích chính là các bạn junior tự deploy được.",
+          en: "The idea has merit, but the timing is wrong.",
+          vi: "Ý tưởng có giá trị nhưng thời điểm chưa phù hợp.",
         },
       ],
   }
 - {
-    "slug": "cost-n",
-    "lemma": "cost",
-    "pos": "noun",
-    "cefr": "A2",
-    "topic": "government",
-    "ipa": "/kɒst/",
-    "def": "The money, time or effort needed for something.",
-    "vi": "chi phí",
-    "examples":
+    slug: incentive-n,
+    lemma: "incentive",
+    pos: noun,
+    cefr: B2,
+    topic: government,
+    ipa: "/ɪnˈsentɪv/",
+    def: "Something that encourages people to act in a certain way.",
+    vi: "động lực khuyến khích",
+    examples:
       [
         {
-          "en": "The cost is about two hours of setup per team.",
-          "vi": "Chi phí khoảng hai giờ cài đặt cho mỗi nhóm.",
+          en: "Fast reviews give people an incentive to make small PRs.",
+          vi: "Review nhanh tạo động lực để mọi người làm PR nhỏ.",
         },
       ],
   }
 - {
-    "slug": "current-adj",
-    "lemma": "current",
-    "pos": "adjective",
-    "cefr": "B1",
-    "topic": "government",
-    "ipa": "/ˈkʌrənt/",
-    "def": "Happening or used now.",
-    "vi": "hiện tại",
-    "examples":
+    slug: current-adj,
+    lemma: "current",
+    pos: adjective,
+    cefr: B1,
+    topic: government,
+    ipa: "/ˈkʌrənt/",
+    def: "Happening or used now.",
+    vi: "hiện tại",
+    examples:
       [
         {
-          "en": "The current process needs three approvals.",
-          "vi": "Quy trình hiện tại cần ba lượt duyệt.",
+          en: "The current process needs three approvals.",
+          vi: "Quy trình hiện tại cần ba lượt duyệt.",
         },
       ],
   }
 - {
-    "slug": "roll-out-phr-government",
-    "lemma": "roll out",
-    "pos": "phrasal_verb",
-    "kind": "phrasal",
-    "cefr": "B2",
-    "topic": "government",
-    "ipa": "/rəʊl ˈaʊt/",
-    "def": "To introduce something new to people step by step.",
-    "vi": "triển khai dần",
-    "examples":
+    slug: go-live-date-n,
+    lemma: "go-live date",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: government,
+    ipa: "/ˌɡəʊ ˈlaɪv deɪt/",
+    def: "The day a new system or rule starts being used.",
+    vi: "ngày áp dụng chính thức",
+    examples:
       [
         {
-          "en": "We'll roll out the new rule to all teams in March.",
-          "vi": "Nhóm sẽ triển khai quy tắc mới cho tất cả các nhóm vào tháng Ba.",
+          en: "The go-live date for the new policy is 1 March.",
+          vi: "Ngày áp dụng chính thức của quy định mới là 1 tháng Ba.",
         },
       ],
   }
 - {
-    "slug": "feedback-period-n",
-    "lemma": "feedback period",
-    "pos": "noun",
-    "kind": "collocation",
-    "cefr": "B2",
-    "topic": "government",
-    "ipa": "/ˈfiːdbæk ˈpɪəriəd/",
-    "def": "A fixed time when people can comment on a plan.",
-    "vi": "thời gian góp ý",
-    "examples":
+    slug: feedback-period-n,
+    lemma: "feedback period",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: government,
+    ipa: "/ˈfiːdbæk ˈpɪəriəd/",
+    def: "A fixed time when people can comment on a plan.",
+    vi: "thời gian góp ý",
+    examples:
       [
         {
-          "en": "The feedback period ends on the 15th.",
-          "vi": "Thời gian góp ý kết thúc vào ngày 15.",
+          en: "The feedback period ends on the 15th.",
+          vi: "Thời gian góp ý kết thúc vào ngày 15.",
         },
       ],
   }
 - {
-    "slug": "motivation-n",
-    "lemma": "motivation",
-    "pos": "noun",
-    "cefr": "B2",
-    "topic": "government",
-    "ipa": "/ˌməʊtɪˈveɪʃn/",
-    "def": "The reason why someone wants to do something.",
-    "vi": "động lực, lý do",
-    "examples":
+    slug: guardrail-n,
+    lemma: "guardrail",
+    pos: noun,
+    cefr: C1,
+    topic: government,
+    ipa: "/ˈɡɑːdreɪl/",
+    def: "A rule or check that keeps people from making serious mistakes.",
+    vi: "rào chắn an toàn",
+    examples:
       [
         {
-          "en": "The motivation for this change is a recent security incident.",
-          "vi": "Lý do của thay đổi này là một sự cố bảo mật gần đây.",
+          en: "Instead of approvals, we propose automated guardrails.",
+          vi: "Thay vì phê duyệt, nhóm đề xuất các rào chắn tự động.",
         },
       ],
   }
 - {
-    "slug": "out-of-date-adj",
-    "lemma": "out of date",
-    "pos": "adjective",
-    "cefr": "B1",
-    "topic": "government",
-    "ipa": "/ˌaʊt əv ˈdeɪt/",
-    "def": "No longer correct or useful because things have changed.",
-    "vi": "lỗi thời",
-    "examples":
+    slug: out-of-date-adj,
+    lemma: "out of date",
+    pos: adjective,
+    cefr: B1,
+    topic: government,
+    ipa: "/ˌaʊt əv ˈdeɪt/",
+    def: "No longer correct or useful because things have changed.",
+    vi: "lỗi thời",
+    examples:
       [
         {
-          "en": "The deploy guide is out of date since we moved to Kubernetes.",
-          "vi": "Hướng dẫn deploy đã lỗi thời từ khi chuyển sang Kubernetes.",
+          en: "The deploy guide is out of date since we moved to Kubernetes.",
+          vi: "Hướng dẫn deploy đã lỗi thời từ khi chuyển sang Kubernetes.",
         },
       ],
   }
 - {
-    "slug": "overhead-n",
-    "lemma": "overhead",
-    "pos": "noun",
-    "cefr": "C1",
-    "topic": "government",
-    "ipa": "/ˈəʊvəhed/",
-    "def": "Extra work or cost that does not directly produce results.",
-    "vi": "chi phí phụ, gánh nặng thêm",
-    "examples":
+    slug: red-tape-n,
+    lemma: "red tape",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: government,
+    ipa: "/ˌred ˈteɪp/",
+    def: "Official rules and paperwork that seem unnecessary and slow things down.",
+    vi: "thủ tục rườm rà",
+    examples:
       [
         {
-          "en": "Weekly reports add overhead without helping anyone.",
-          "vi": "Báo cáo hàng tuần tạo thêm gánh nặng mà không giúp ai.",
+          en: "This change removes red tape for small config edits.",
+          vi: "Thay đổi này bỏ bớt thủ tục rườm rà cho chỉnh sửa cấu hình nhỏ.",
         },
       ],
   }
 - {
-    "slug": "streamline-v",
-    "lemma": "streamline",
-    "pos": "verb",
-    "cefr": "C1",
-    "topic": "government",
-    "ipa": "/ˈstriːmlaɪn/",
-    "def": "To make a process simpler and more efficient.",
-    "vi": "tinh giản",
-    "examples":
+    slug: streamline-v,
+    lemma: "streamline",
+    pos: verb,
+    cefr: C1,
+    topic: government,
+    ipa: "/ˈstriːmlaɪn/",
+    def: "To make a process simpler and more efficient.",
+    vi: "tinh giản",
+    examples:
       [
         {
-          "en": "This change streamlines how we request test accounts.",
-          "vi": "Thay đổi này tinh giản cách xin tài khoản test.",
+          en: "This change streamlines how we request test accounts.",
+          vi: "Thay đổi này tinh giản cách xin tài khoản test.",
         },
       ],
   }
 - {
-    "slug": "phase-in-phr",
-    "lemma": "phase in",
-    "pos": "phrasal_verb",
-    "kind": "phrasal",
-    "cefr": "C1",
-    "topic": "government",
-    "ipa": "/feɪz ˈɪn/",
-    "def": "To start using something gradually over a period.",
-    "vi": "áp dụng từng bước",
-    "examples":
+    slug: phase-in-phr,
+    lemma: "phase in",
+    pos: phrasal_verb,
+    kind: phrasal,
+    cefr: C1,
+    topic: government,
+    ipa: "/feɪz ˈɪn/",
+    def: "To start using something gradually over a period.",
+    vi: "áp dụng từng bước",
+    examples:
       [
         {
-          "en": "We'll phase in the stricter lint rules over three sprints.",
-          "vi": "Nhóm sẽ áp dụng từng bước các quy tắc lint chặt hơn trong ba sprint.",
+          en: "We'll phase in the stricter lint rules over three sprints.",
+          vi: "Nhóm sẽ áp dụng từng bước các quy tắc lint chặt hơn trong ba sprint.",
         },
       ],
   }
 - {
-    "slug": "evaluate-v-government",
-    "lemma": "evaluate",
-    "pos": "verb",
-    "cefr": "B2",
-    "topic": "government",
-    "ipa": "/ɪˈvæljueɪt/",
-    "def": "To judge how good or useful something is.",
-    "vi": "đánh giá",
-    "examples":
+    slug: assess-v,
+    lemma: "assess",
+    pos: verb,
+    cefr: B2,
+    topic: government,
+    ipa: "/əˈses/",
+    def: "To judge the quality or effect of something.",
+    vi: "đánh giá",
+    examples:
       [
         {
-          "en": "After a month we'll evaluate whether the pilot worked.",
-          "vi": "Sau một tháng nhóm sẽ đánh giá thí điểm có hiệu quả không.",
+          en: "We'll assess the change after one month.",
+          vi: "Nhóm sẽ đánh giá thay đổi sau một tháng.",
         },
       ],
   }
 - {
-    "slug": "buy-in-n",
-    "lemma": "buy-in",
-    "pos": "noun",
-    "cefr": "C1",
-    "topic": "government",
-    "ipa": "/ˈbaɪ ɪn/",
-    "def": "Agreement and support from the people affected.",
-    "vi": "sự ủng hộ",
-    "examples":
+    slug: buy-in-n,
+    lemma: "buy-in",
+    pos: noun,
+    cefr: C1,
+    topic: government,
+    ipa: "/ˈbaɪ ɪn/",
+    def: "Agreement and support from the people affected.",
+    vi: "sự ủng hộ",
+    examples:
       [
         {
-          "en": "We need buy-in from the mobile team before we change the API.",
-          "vi": "Cần sự ủng hộ của nhóm mobile trước khi đổi API.",
+          en: "We need buy-in from the mobile team before we change the API.",
+          vi: "Cần sự ủng hộ của nhóm mobile trước khi đổi API.",
         },
       ],
   }
 - {
-    "slug": "in-practice-phr",
-    "lemma": "in practice",
-    "pos": "phrase",
-    "kind": "phrase",
-    "cefr": "B2",
-    "topic": "government",
-    "ipa": "/ɪn ˈpræktɪs/",
-    "def": "What really happens, as opposed to what should happen.",
-    "vi": "trên thực tế",
-    "examples":
+    slug: in-practice-phr,
+    lemma: "in practice",
+    pos: phrase,
+    kind: phrase,
+    cefr: B2,
+    topic: government,
+    ipa: "/ɪn ˈpræktɪs/",
+    def: "What really happens, as opposed to what should happen.",
+    vi: "trên thực tế",
+    examples:
       [
         {
-          "en": "In practice, nobody reads the long checklist.",
-          "vi": "Trên thực tế, không ai đọc danh sách kiểm tra dài đó.",
+          en: "In practice, nobody reads the long checklist.",
+          vi: "Trên thực tế, không ai đọc danh sách kiểm tra dài đó.",
         },
       ],
   }
 - {
-    "slug": "pros-and-cons-n",
-    "lemma": "pros and cons",
-    "pos": "noun",
-    "kind": "collocation",
-    "cefr": "B1",
-    "topic": "government",
-    "ipa": "/ˌprəʊz ən ˈkɒnz/",
-    "def": "The good and bad points of something.",
-    "vi": "ưu và nhược điểm",
-    "examples":
+    slug: precursor-n,
+    lemma: "precursor",
+    pos: noun,
+    cefr: C1,
+    topic: government,
+    ipa: "/priˈkɜːsə/",
+    def: "Something that came before and led to a later thing.",
+    vi: "tiền thân",
+    examples:
       [
         {
-          "en": "List the pros and cons of each option in a table.",
-          "vi": "Hãy liệt kê ưu nhược điểm của từng lựa chọn trong một bảng.",
+          en: "This record is a precursor to the event-sourcing decision.",
+          vi: "Bản ghi này là tiền thân của quyết định dùng event sourcing.",
         },
       ],
   }
 # Set 8: Consensus & disagreement
 - {
-    "slug": "consensus-n-government",
-    "lemma": "consensus",
-    "pos": "noun",
-    "cefr": "C1",
-    "topic": "government",
-    "ipa": "/kənˈsensəs/",
-    "def": "General agreement among everyone in a group.",
-    "vi": "sự đồng thuận",
-    "examples":
+    slug: concur-v,
+    lemma: "concur",
+    pos: verb,
+    cefr: C1,
+    topic: government,
+    ipa: "/kənˈkɜː/",
+    def: "To agree with someone or something.",
+    vi: "đồng tình",
+    examples:
       [
         {
-          "en": "We reached consensus on using one monorepo.",
-          "vi": "Nhóm đã đạt đồng thuận về việc dùng một monorepo.",
+          en: "I concur with Lan; let's ship behind a flag.",
+          vi: "Mình đồng tình với Lan; hãy phát hành sau một flag.",
         },
       ],
   }
 - {
-    "slug": "disagree-v-government",
-    "lemma": "disagree",
-    "pos": "verb",
-    "cefr": "A2",
-    "topic": "government",
-    "ipa": "/ˌdɪsəˈɡriː/",
-    "def": "To have a different opinion from someone.",
-    "vi": "không đồng ý",
-    "examples":
+    slug: oppose-v,
+    lemma: "oppose",
+    pos: verb,
+    cefr: B2,
+    topic: government,
+    ipa: "/əˈpəʊz/",
+    def: "To be against a plan and try to stop it.",
+    vi: "phản đối",
+    examples:
       [
         {
-          "en": "I disagree; caching here could show old prices.",
-          "vi": "Mình không đồng ý; cache ở đây có thể hiện giá cũ.",
+          en: "Two members oppose moving to a monorepo.",
+          vi: "Hai thành viên phản đối việc chuyển sang monorepo.",
         },
       ],
   }
 - {
-    "slug": "concern-n-government",
-    "lemma": "concern",
-    "pos": "noun",
-    "cefr": "B1",
-    "topic": "government",
-    "ipa": "/kənˈsɜːn/",
-    "def": "A worry about something.",
-    "vi": "mối lo ngại",
-    "examples":
+    slug: misgiving-n,
+    lemma: "misgiving",
+    pos: noun,
+    cefr: C1,
+    topic: government,
+    ipa: "/ˌmɪsˈɡɪvɪŋ/",
+    def: "A feeling of doubt about whether something is right.",
+    vi: "sự e ngại",
+    examples:
       [
         {
-          "en": "My main concern is the extra load on the database.",
-          "vi": "Mối lo ngại chính của mình là tải thêm lên cơ sở dữ liệu.",
+          en: "I have misgivings about dropping the staging environment.",
+          vi: "Mình e ngại việc bỏ môi trường staging.",
         },
       ],
   }
 - {
-    "slug": "point-of-view-n",
-    "lemma": "point of view",
-    "pos": "noun",
-    "kind": "collocation",
-    "cefr": "B1",
-    "topic": "government",
-    "ipa": "/ˌpɔɪnt əv ˈvjuː/",
-    "def": "A particular way of thinking about a situation.",
-    "vi": "quan điểm",
-    "examples":
+    slug: point-of-view-n,
+    lemma: "point of view",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: government,
+    ipa: "/ˌpɔɪnt əv ˈvjuː/",
+    def: "A particular way of thinking about a situation.",
+    vi: "quan điểm",
+    examples:
       [
         {
-          "en": "From a support point of view, the error message is confusing.",
-          "vi": "Từ quan điểm hỗ trợ khách hàng, thông báo lỗi này gây khó hiểu.",
+          en: "From a support point of view, the error message is confusing.",
+          vi: "Từ quan điểm hỗ trợ khách hàng, thông báo lỗi này gây khó hiểu.",
         },
       ],
   }
 - {
-    "slug": "compromise-n-government",
-    "lemma": "compromise",
-    "pos": "noun",
-    "cefr": "B2",
-    "topic": "government",
-    "ipa": "/ˈkɒmprəmaɪz/",
-    "def": "An agreement where each side accepts less than it wanted.",
-    "vi": "sự thoả hiệp",
-    "examples":
+    slug: horse-trading-n,
+    lemma: "horse-trading",
+    pos: noun,
+    cefr: C1,
+    topic: government,
+    ipa: "/ˈhɔːs ˌtreɪdɪŋ/",
+    def: "Hard bargaining in which each side gives something to get something.",
+    vi: "mặc cả qua lại",
+    examples:
       [
         {
-          "en": "As a compromise, we'll keep the old endpoint for one more month.",
-          "vi": "Để thoả hiệp, nhóm giữ endpoint cũ thêm một tháng.",
+          en: "After some horse-trading, both teams accepted the API shape.",
+          vi: "Sau một hồi mặc cả qua lại, hai nhóm chấp nhận dạng API.",
         },
       ],
   }
 - {
-    "slug": "objection-n",
-    "lemma": "objection",
-    "pos": "noun",
-    "cefr": "B2",
-    "topic": "government",
-    "ipa": "/əbˈdʒekʃn/",
-    "def": "A reason you give for not agreeing with a plan.",
-    "vi": "sự phản đối",
-    "examples":
+    slug: dissent-n,
+    lemma: "dissent",
+    pos: noun,
+    cefr: C1,
+    topic: government,
+    ipa: "/dɪˈsent/",
+    def: "Disagreement with an official or popular opinion.",
+    vi: "ý kiến bất đồng",
+    examples:
       [
         {
-          "en": "Does anyone have an objection before we merge?",
-          "vi": "Có ai phản đối trước khi merge không?",
+          en: "Record any dissent in the meeting notes.",
+          vi: "Hãy ghi lại mọi ý kiến bất đồng trong biên bản họp.",
         },
       ],
   }
 - {
-    "slug": "fair-point-phr",
-    "lemma": "fair point",
-    "pos": "phrase",
-    "kind": "phrase",
-    "cefr": "B1",
-    "topic": "government",
-    "ipa": "/ˌfeə ˈpɔɪnt/",
-    "def": "Something you say to accept that another person's idea is reasonable.",
-    "vi": "ý hợp lý",
-    "examples":
+    slug: fair-point-phr,
+    lemma: "fair point",
+    pos: phrase,
+    kind: phrase,
+    cefr: B1,
+    topic: government,
+    ipa: "/ˌfeə ˈpɔɪnt/",
+    def: "Something you say to accept that another person's idea is reasonable.",
+    vi: "ý hợp lý",
+    examples:
       [
         {
-          "en": "Fair point, I didn't think about offline users.",
-          "vi": "Ý hợp lý đấy, mình chưa nghĩ đến người dùng ngoại tuyến.",
+          en: "Fair point, I didn't think about offline users.",
+          vi: "Ý hợp lý đấy, mình chưa nghĩ đến người dùng ngoại tuyến.",
         },
       ],
   }
 - {
-    "slug": "vote-v",
-    "lemma": "vote",
-    "pos": "verb",
-    "cefr": "A2",
-    "topic": "government",
-    "ipa": "/vəʊt/",
-    "def": "To show your choice, for example by raising your hand.",
-    "vi": "bỏ phiếu",
-    "examples":
-      [{ "en": "Let's vote on the sprint length.", "vi": "Hãy bỏ phiếu về độ dài sprint." }],
-  }
-- {
-    "slug": "common-ground-n-government",
-    "lemma": "common ground",
-    "pos": "noun",
-    "kind": "collocation",
-    "cefr": "C1",
-    "topic": "government",
-    "ipa": "/ˌkɒmən ˈɡraʊnd/",
-    "def": "Ideas or opinions that different people share.",
-    "vi": "điểm chung",
-    "examples":
+    slug: abstain-v,
+    lemma: "abstain",
+    pos: verb,
+    cefr: C1,
+    topic: government,
+    ipa: "/əbˈsteɪn/",
+    def: "To choose not to vote for or against something.",
+    vi: "bỏ phiếu trắng",
+    examples:
       [
         {
-          "en": "The common ground is that both of us want fewer alerts.",
-          "vi": "Điểm chung là cả hai đều muốn ít cảnh báo hơn.",
+          en: "I'll abstain because I don't work on that service.",
+          vi: "Mình bỏ phiếu trắng vì không làm ở dịch vụ đó.",
         },
       ],
   }
 - {
-    "slug": "perspective-n-government",
-    "lemma": "perspective",
-    "pos": "noun",
-    "cefr": "B2",
-    "topic": "government",
-    "ipa": "/pəˈspektɪv/",
-    "def": "A way of seeing a problem from a certain position.",
-    "vi": "góc nhìn",
-    "examples":
+    slug: shared-view-n,
+    lemma: "shared view",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: government,
+    ipa: "/ˌʃeəd ˈvjuː/",
+    def: "An opinion that several people hold.",
+    vi: "quan điểm chung",
+    examples:
       [
         {
-          "en": "Can you share the perspective of the mobile developers?",
-          "vi": "Bạn chia sẻ góc nhìn của các lập trình viên mobile được không?",
+          en: "The shared view is that alerts are too noisy.",
+          vi: "Quan điểm chung là cảnh báo đang quá nhiều.",
         },
       ],
   }
 - {
-    "slug": "persuade-v-government",
-    "lemma": "persuade",
-    "pos": "verb",
-    "cefr": "B1",
-    "topic": "government",
-    "ipa": "/pəˈsweɪd/",
-    "def": "To make someone agree by giving good reasons.",
-    "vi": "thuyết phục",
-    "examples":
+    slug: viewpoint-n,
+    lemma: "viewpoint",
+    pos: noun,
+    cefr: B2,
+    topic: government,
+    ipa: "/ˈvjuːpɔɪnt/",
+    def: "A way of thinking about a subject.",
+    vi: "quan điểm",
+    examples:
       [
         {
-          "en": "The benchmark persuaded the lead to switch libraries.",
-          "vi": "Kết quả benchmark đã thuyết phục trưởng nhóm đổi thư viện.",
+          en: "From a security viewpoint, the plan is risky.",
+          vi: "Từ quan điểm bảo mật, kế hoạch này rủi ro.",
         },
       ],
   }
 - {
-    "slug": "disagree-and-commit-phr-government",
-    "lemma": "disagree and commit",
-    "pos": "phrase",
-    "kind": "phrase",
-    "cefr": "C1",
-    "topic": "government",
-    "ipa": "/ˌdɪsəˈɡriː ənd kəˈmɪt/",
-    "def": "To support a group decision fully even if you argued against it.",
-    "vi": "không đồng ý nhưng vẫn cam kết thực hiện",
-    "examples":
+    slug: win-over-phr,
+    lemma: "win over",
+    pos: phrasal_verb,
+    kind: phrasal,
+    cefr: B2,
+    topic: government,
+    ipa: "/wɪn ˈəʊvə/",
+    def: "To make someone support you after they were against you.",
+    vi: "thuyết phục được",
+    examples:
       [
         {
-          "en": "I'd choose differently, but I'll disagree and commit.",
-          "vi": "Mình sẽ chọn khác, nhưng mình vẫn cam kết làm theo quyết định chung.",
+          en: "The demo won over the sceptics on the team.",
+          vi: "Buổi demo đã thuyết phục được những người còn nghi ngờ.",
         },
       ],
   }
 - {
-    "slug": "tension-n-government",
-    "lemma": "tension",
-    "pos": "noun",
-    "cefr": "B2",
-    "topic": "government",
-    "ipa": "/ˈtenʃn/",
-    "def": "A feeling of conflict between people or goals.",
-    "vi": "căng thẳng, mâu thuẫn",
-    "examples":
+    slug: hold-firm-phr,
+    lemma: "hold firm",
+    pos: phrase,
+    kind: phrase,
+    cefr: C1,
+    topic: government,
+    ipa: "/ˌhəʊld ˈfɜːm/",
+    def: "To refuse to change your position.",
+    vi: "giữ vững lập trường",
+    examples:
       [
         {
-          "en": "There's a tension between shipping fast and testing well.",
-          "vi": "Có mâu thuẫn giữa việc ra sản phẩm nhanh và test kỹ.",
+          en: "The lead held firm on keeping the tests mandatory.",
+          vi: "Trưởng nhóm giữ vững lập trường giữ test bắt buộc.",
         },
       ],
   }
 - {
-    "slug": "on-the-same-page-phr",
-    "lemma": "on the same page",
-    "pos": "phrase",
-    "kind": "phrase",
-    "cefr": "B2",
-    "topic": "government",
-    "ipa": "/ɒn ðə ˌseɪm ˈpeɪdʒ/",
-    "def": "Having the same understanding of something.",
-    "vi": "hiểu giống nhau",
-    "examples":
+    slug: clash-v,
+    lemma: "clash",
+    pos: verb,
+    cefr: B2,
+    topic: government,
+    ipa: "/klæʃ/",
+    def: "To disagree strongly.",
+    vi: "va chạm, bất đồng gay gắt",
+    examples:
       [
         {
-          "en": "Just to be on the same page: the deadline is Friday, right?",
-          "vi": "Để hiểu giống nhau: hạn chót là thứ Sáu đúng không?",
+          en: "Product and engineering clashed over the deadline.",
+          vi: "Bên sản phẩm và kỹ thuật bất đồng gay gắt về hạn chót.",
         },
       ],
   }
 - {
-    "slug": "respectful-adj-government",
-    "lemma": "respectful",
-    "pos": "adjective",
-    "cefr": "B1",
-    "topic": "government",
-    "ipa": "/rɪˈspektfl/",
-    "def": "Polite and showing that you value other people.",
-    "vi": "tôn trọng, lịch sự",
-    "examples":
+    slug: see-eye-to-eye-phr,
+    lemma: "see eye to eye",
+    pos: phrase,
+    kind: phrase,
+    cefr: C1,
+    topic: government,
+    ipa: "/ˌsiː ˌaɪ tə ˈaɪ/",
+    def: "To agree completely with someone.",
+    vi: "hoàn toàn đồng quan điểm",
+    examples:
       [
         {
-          "en": "Keep review comments respectful, even when you disagree.",
-          "vi": "Hãy giữ bình luận review lịch sự kể cả khi bạn không đồng ý.",
+          en: "We don't see eye to eye on testing, but we agree on the goal.",
+          vi: "Hai bên không hoàn toàn đồng quan điểm về test, nhưng thống nhất mục tiêu.",
         },
       ],
   }
 - {
-    "slug": "deadlock-n",
-    "lemma": "deadlock",
-    "pos": "noun",
-    "cefr": "C1",
-    "topic": "government",
-    "ipa": "/ˈdedlɒk/",
-    "def": "A situation where people cannot agree and nothing moves forward.",
-    "vi": "bế tắc",
-    "examples":
+    slug: candid-adj,
+    lemma: "candid",
+    pos: adjective,
+    cefr: C1,
+    topic: government,
+    ipa: "/ˈkændɪd/",
+    def: "Honest and direct, even about difficult things.",
+    vi: "thẳng thắn",
+    examples:
       [
         {
-          "en": "The architect broke the deadlock by choosing the simpler design.",
-          "vi": "Kiến trúc sư phá thế bế tắc bằng cách chọn thiết kế đơn giản hơn.",
+          en: "Thanks for the candid feedback on my proposal.",
+          vi: "Cảm ơn góp ý thẳng thắn cho đề xuất của mình.",
         },
       ],
   }
 - {
-    "slug": "counterargument-n",
-    "lemma": "counterargument",
-    "pos": "noun",
-    "cefr": "C1",
-    "topic": "government",
-    "ipa": "/ˈkaʊntərˌɑːɡjumənt/",
-    "def": "A reason that argues against another idea.",
-    "vi": "lập luận phản bác",
-    "examples":
+    slug: deadlock-n,
+    lemma: "deadlock",
+    pos: noun,
+    cefr: C1,
+    topic: government,
+    ipa: "/ˈdedlɒk/",
+    def: "A situation where people cannot agree and nothing moves forward.",
+    vi: "bế tắc",
+    examples:
       [
         {
-          "en": "The strongest counterargument is the cost of retraining.",
-          "vi": "Lập luận phản bác mạnh nhất là chi phí đào tạo lại.",
+          en: "The architect broke the deadlock by choosing the simpler design.",
+          vi: "Kiến trúc sư phá thế bế tắc bằng cách chọn thiết kế đơn giản hơn.",
         },
       ],
   }
 - {
-    "slug": "push-back-phr-government",
-    "lemma": "push back",
-    "pos": "phrasal_verb",
-    "kind": "phrasal",
-    "cefr": "B2",
-    "topic": "government",
-    "ipa": "/pʊʃ ˈbæk/",
-    "def": "To resist or argue against a request or plan.",
-    "vi": "phản đối, đẩy lại",
-    "examples":
+    slug: counterargument-n,
+    lemma: "counterargument",
+    pos: noun,
+    cefr: C1,
+    topic: government,
+    ipa: "/ˈkaʊntərˌɑːɡjumənt/",
+    def: "A reason that argues against another idea.",
+    vi: "lập luận phản bác",
+    examples:
       [
         {
-          "en": "Don't be afraid to push back if the estimate is unrealistic.",
-          "vi": "Đừng ngại phản đối nếu ước lượng không thực tế.",
+          en: "The strongest counterargument is the cost of retraining.",
+          vi: "Lập luận phản bác mạnh nhất là chi phí đào tạo lại.",
         },
       ],
   }
 - {
-    "slug": "align-v",
-    "lemma": "align",
-    "pos": "verb",
-    "cefr": "B2",
-    "topic": "government",
-    "ipa": "/əˈlaɪn/",
-    "def": "To agree and work towards the same goal.",
-    "vi": "thống nhất, đồng bộ",
-    "examples":
+    slug: rebut-v,
+    lemma: "rebut",
+    pos: verb,
+    cefr: C1,
+    topic: government,
+    ipa: "/rɪˈbʌt/",
+    def: "To argue that a claim is false.",
+    vi: "bác bỏ",
+    examples:
       [
         {
-          "en": "Let's align with the design team before the demo.",
-          "vi": "Hãy thống nhất với nhóm thiết kế trước buổi demo.",
+          en: "He rebutted the idea that Rust would slow us down.",
+          vi: "Anh ấy bác bỏ ý kiến rằng Rust sẽ làm nhóm chậm lại.",
         },
       ],
   }
 - {
-    "slug": "heated-adj",
-    "lemma": "heated",
-    "pos": "adjective",
-    "cefr": "B2",
-    "topic": "government",
-    "ipa": "/ˈhiːtɪd/",
-    "def": "Full of strong feelings and anger.",
-    "vi": "gay gắt",
-    "examples":
+    slug: deliberate-v,
+    lemma: "deliberate",
+    pos: verb,
+    cefr: C1,
+    topic: government,
+    ipa: "/dɪˈlɪbəreɪt/",
+    def: "To think about or discuss something carefully before deciding.",
+    vi: "cân nhắc kỹ, thảo luận kỹ",
+    examples:
       [
         {
-          "en": "The discussion got heated, so we took a short break.",
-          "vi": "Cuộc thảo luận trở nên gay gắt nên mọi người nghỉ một chút.",
+          en: "The leads deliberated for an hour before choosing a framework.",
+          vi: "Các trưởng nhóm thảo luận kỹ một tiếng trước khi chọn framework.",
         },
       ],
   }
 - {
-    "slug": "settle-v",
-    "lemma": "settle",
-    "pos": "verb",
-    "cefr": "B2",
-    "topic": "government",
-    "ipa": "/ˈsetl/",
-    "def": "To end an argument by reaching a decision.",
-    "vi": "giải quyết dứt điểm",
-    "examples":
+    slug: heated-adj,
+    lemma: "heated",
+    pos: adjective,
+    cefr: B2,
+    topic: government,
+    ipa: "/ˈhiːtɪd/",
+    def: "Full of strong feelings and anger.",
+    vi: "gay gắt",
+    examples:
       [
         {
-          "en": "We settled the debate with a quick prototype.",
-          "vi": "Nhóm giải quyết dứt điểm tranh luận bằng một bản thử nhanh.",
+          en: "The discussion got heated, so we took a short break.",
+          vi: "Cuộc thảo luận trở nên gay gắt nên mọi người nghỉ một chút.",
         },
       ],
   }
 - {
-    "slug": "middle-ground-n-government",
-    "lemma": "middle ground",
-    "pos": "noun",
-    "kind": "collocation",
-    "cefr": "B2",
-    "topic": "government",
-    "ipa": "/ˌmɪdl ˈɡraʊnd/",
-    "def": "A position between two opposite opinions.",
-    "vi": "điểm trung dung",
-    "examples":
+    slug: settle-v,
+    lemma: "settle",
+    pos: verb,
+    cefr: B2,
+    topic: government,
+    ipa: "/ˈsetl/",
+    def: "To end an argument by reaching a decision.",
+    vi: "giải quyết dứt điểm",
+    examples:
       [
         {
-          "en": "A middle ground is to run the job nightly instead of hourly.",
-          "vi": "Điểm trung dung là chạy job mỗi đêm thay vì mỗi giờ.",
+          en: "We settled the debate with a quick prototype.",
+          vi: "Nhóm giải quyết dứt điểm tranh luận bằng một bản thử nhanh.",
         },
       ],
   }
 - {
-    "slug": "voice-v-government",
-    "lemma": "voice",
-    "pos": "verb",
-    "cefr": "B2",
-    "topic": "government",
-    "ipa": "/vɔɪs/",
-    "def": "To say your opinion or feeling openly.",
-    "vi": "bày tỏ",
-    "examples":
+    slug: tiebreaker-n,
+    lemma: "tiebreaker",
+    pos: noun,
+    cefr: C1,
+    topic: government,
+    ipa: "/ˈtaɪbreɪkə/",
+    def: "A rule or person that decides when votes are equal.",
+    vi: "yếu tố quyết định khi hoà",
+    examples:
       [
         {
-          "en": "Several people voiced doubts about the new tool.",
-          "vi": "Nhiều người đã bày tỏ nghi ngờ về công cụ mới.",
+          en: "If the vote is split, the lead is the tiebreaker.",
+          vi: "Nếu phiếu chia đều, trưởng nhóm là người quyết định.",
         },
       ],
   }
 - {
-    "slug": "unanimous-adj",
-    "lemma": "unanimous",
-    "pos": "adjective",
-    "cefr": "C1",
-    "topic": "government",
-    "ipa": "/juˈnænɪməs/",
-    "def": "Agreed by everyone in a group.",
-    "vi": "nhất trí hoàn toàn",
-    "examples":
+    slug: express-v,
+    lemma: "express",
+    pos: verb,
+    cefr: B1,
+    topic: government,
+    ipa: "/ɪkˈspres/",
+    def: "To show a feeling or opinion in words.",
+    vi: "bày tỏ",
+    examples:
       [
         {
-          "en": "The vote was unanimous: we drop support for IE.",
-          "vi": "Cuộc bỏ phiếu nhất trí hoàn toàn: bỏ hỗ trợ IE.",
+          en: "Feel free to express doubts in the RFC thread.",
+          vi: "Cứ thoải mái bày tỏ nghi ngờ trong luồng thảo luận.",
+        },
+      ],
+  }
+- {
+    slug: quorum-n,
+    lemma: "quorum",
+    pos: noun,
+    cefr: C1,
+    topic: government,
+    ipa: "/ˈkwɔːrəm/",
+    def: "The smallest number of people needed for a group decision to be valid.",
+    vi: "số người tối thiểu để biểu quyết",
+    examples:
+      [
+        {
+          en: "We need a quorum of three maintainers to accept the RFC.",
+          vi: "Cần ít nhất ba maintainer để chấp nhận RFC.",
         },
       ],
   }
 # Set 9: Compliance conversations
 - {
-    "slug": "compliance-n",
-    "lemma": "compliance",
-    "pos": "noun",
-    "cefr": "C1",
-    "topic": "government",
-    "ipa": "/kəmˈplaɪəns/",
-    "def": "The practice of following laws, rules or standards.",
-    "vi": "sự tuân thủ",
-    "examples":
+    slug: regulatory-adj,
+    lemma: "regulatory",
+    pos: adjective,
+    cefr: C1,
+    topic: government,
+    ipa: "/ˈreɡjələtəri/",
+    def: "Connected with official rules made by a government.",
+    vi: "thuộc về quản lý, pháp quy",
+    examples:
       [
         {
-          "en": "Compliance asked how long we keep payment logs.",
-          "vi": "Bộ phận tuân thủ hỏi nhóm lưu log thanh toán bao lâu.",
+          en: "Regulatory checks must pass before we launch in a new country.",
+          vi: "Các kiểm tra pháp quy phải đạt trước khi ra mắt ở nước mới.",
         },
       ],
   }
 - {
-    "slug": "regulation-n",
-    "lemma": "regulation",
-    "pos": "noun",
-    "cefr": "B2",
-    "topic": "government",
-    "ipa": "/ˌreɡjuˈleɪʃn/",
-    "def": "An official rule made by a government or authority.",
-    "vi": "quy định pháp lý",
-    "examples":
+    slug: regulation-n,
+    lemma: "regulation",
+    pos: noun,
+    cefr: B2,
+    topic: government,
+    ipa: "/ˌreɡjuˈleɪʃn/",
+    def: "An official rule made by a government or authority.",
+    vi: "quy định pháp lý",
+    examples:
       [
         {
-          "en": "The new regulation requires data to stay in the country.",
-          "vi": "Quy định mới yêu cầu dữ liệu phải lưu trong nước.",
+          en: "The new regulation requires data to stay in the country.",
+          vi: "Quy định mới yêu cầu dữ liệu phải lưu trong nước.",
         },
       ],
   }
 - {
-    "slug": "audit-n",
-    "lemma": "audit",
-    "pos": "noun",
-    "cefr": "B2",
-    "topic": "government",
-    "ipa": "/ˈɔːdɪt/",
-    "def": "An official check of records or systems.",
-    "vi": "cuộc kiểm toán",
-    "examples":
+    slug: audit-n,
+    lemma: "audit",
+    pos: noun,
+    cefr: B2,
+    topic: government,
+    ipa: "/ˈɔːdɪt/",
+    def: "An official check of records or systems.",
+    vi: "cuộc kiểm toán",
+    examples:
       [
         {
-          "en": "The yearly audit starts next month.",
-          "vi": "Cuộc kiểm toán hằng năm bắt đầu vào tháng sau.",
+          en: "The yearly audit starts next month.",
+          vi: "Cuộc kiểm toán hằng năm bắt đầu vào tháng sau.",
         },
       ],
   }
 - {
-    "slug": "auditor-n",
-    "lemma": "auditor",
-    "pos": "noun",
-    "cefr": "B2",
-    "topic": "government",
-    "ipa": "/ˈɔːdɪtə/",
-    "def": "A person whose job is to officially check records or systems.",
-    "vi": "kiểm toán viên",
-    "examples":
+    slug: auditor-n,
+    lemma: "auditor",
+    pos: noun,
+    cefr: B2,
+    topic: government,
+    ipa: "/ˈɔːdɪtə/",
+    def: "A person whose job is to officially check records or systems.",
+    vi: "kiểm toán viên",
+    examples:
       [
         {
-          "en": "The auditor wants a list of everyone with admin access.",
-          "vi": "Kiểm toán viên muốn có danh sách những người có quyền admin.",
+          en: "The auditor wants a list of everyone with admin access.",
+          vi: "Kiểm toán viên muốn có danh sách những người có quyền admin.",
         },
       ],
   }
 - {
-    "slug": "proof-n",
-    "lemma": "proof",
-    "pos": "noun",
-    "cefr": "B1",
-    "topic": "government",
-    "ipa": "/pruːf/",
-    "def": "Facts or documents that show something is true.",
-    "vi": "bằng chứng, chứng cứ",
-    "examples":
+    slug: proof-n,
+    lemma: "proof",
+    pos: noun,
+    cefr: B1,
+    topic: government,
+    ipa: "/pruːf/",
+    def: "Facts or documents that show something is true.",
+    vi: "bằng chứng, chứng cứ",
+    examples:
       [
         {
-          "en": "Screenshots of the access review are enough proof.",
-          "vi": "Ảnh chụp màn hình phần rà soát quyền là đủ bằng chứng.",
+          en: "Screenshots of the access review are enough proof.",
+          vi: "Ảnh chụp màn hình phần rà soát quyền là đủ bằng chứng.",
         },
       ],
   }
 - {
-    "slug": "redact-v",
-    "lemma": "redact",
-    "pos": "verb",
-    "cefr": "C1",
-    "topic": "government",
-    "ipa": "/rɪˈdækt/",
-    "def": "To hide or remove secret parts of a document before sharing it.",
-    "vi": "che, xoá thông tin nhạy cảm",
-    "examples":
+    slug: redact-v,
+    lemma: "redact",
+    pos: verb,
+    cefr: C1,
+    topic: government,
+    ipa: "/rɪˈdækt/",
+    def: "To hide or remove secret parts of a document before sharing it.",
+    vi: "che, xoá thông tin nhạy cảm",
+    examples:
       [
         {
-          "en": "Redact the API keys before you attach the logs.",
-          "vi": "Hãy che các API key trước khi đính kèm log.",
+          en: "Redact the API keys before you attach the logs.",
+          vi: "Hãy che các API key trước khi đính kèm log.",
         },
       ],
   }
 - {
-    "slug": "consent-n-government",
-    "lemma": "consent",
-    "pos": "noun",
-    "cefr": "B2",
-    "topic": "government",
-    "ipa": "/kənˈsent/",
-    "def": "Permission that someone gives for something to happen.",
-    "vi": "sự đồng ý",
-    "examples":
+    slug: tracking-consent-n,
+    lemma: "tracking consent",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: government,
+    ipa: "/ˈtrækɪŋ kənˌsent/",
+    def: "A user's permission for a website to follow what they do.",
+    vi: "sự đồng ý cho theo dõi",
+    examples:
       [
         {
-          "en": "We need the user's consent before sending marketing emails.",
-          "vi": "Nhóm cần sự đồng ý của người dùng trước khi gửi email marketing.",
+          en: "Analytics must stay off until we have tracking consent.",
+          vi: "Analytics phải tắt cho đến khi có sự đồng ý cho theo dõi.",
         },
       ],
   }
 - {
-    "slug": "retention-n",
-    "lemma": "retention",
-    "pos": "noun",
-    "cefr": "C1",
-    "topic": "government",
-    "ipa": "/rɪˈtenʃn/",
-    "def": "Keeping data for a set period of time.",
-    "vi": "việc lưu giữ (dữ liệu)",
-    "examples":
+    slug: log-retention-n,
+    lemma: "log retention",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: government,
+    ipa: "/ˈlɒɡ rɪˌtenʃn/",
+    def: "How long log data is kept before it is deleted.",
+    vi: "thời hạn lưu log",
+    examples:
       [
         {
-          "en": "The retention period for invoices is ten years.",
-          "vi": "Thời gian lưu giữ hoá đơn là mười năm.",
+          en: "Our log retention is 90 days for application logs.",
+          vi: "Thời hạn lưu log ứng dụng của nhóm là 90 ngày.",
         },
       ],
   }
 - {
-    "slug": "applicable-adj",
-    "lemma": "applicable",
-    "pos": "adjective",
-    "cefr": "C1",
-    "topic": "government",
-    "ipa": "/əˈplɪkəbl/",
-    "def": "Relevant to a particular situation.",
-    "vi": "áp dụng được",
-    "examples":
+    slug: applicable-adj,
+    lemma: "applicable",
+    pos: adjective,
+    cefr: C1,
+    topic: government,
+    ipa: "/əˈplɪkəbl/",
+    def: "Relevant to a particular situation.",
+    vi: "áp dụng được",
+    examples:
       [
         {
-          "en": "Is this rule applicable to internal tools too?",
-          "vi": "Quy tắc này có áp dụng cho công cụ nội bộ không?",
+          en: "Is this rule applicable to internal tools too?",
+          vi: "Quy tắc này có áp dụng cho công cụ nội bộ không?",
         },
       ],
   }
 - {
-    "slug": "legal-adj",
-    "lemma": "legal",
-    "pos": "adjective",
-    "cefr": "B1",
-    "topic": "government",
-    "ipa": "/ˈliːɡl/",
-    "def": "Connected with the law, or allowed by law.",
-    "vi": "pháp lý, hợp pháp",
-    "examples":
+    slug: legal-adj,
+    lemma: "legal",
+    pos: adjective,
+    cefr: B1,
+    topic: government,
+    ipa: "/ˈliːɡl/",
+    def: "Connected with the law, or allowed by law.",
+    vi: "pháp lý, hợp pháp",
+    examples:
       [
         {
-          "en": "Ask the legal team before you change the terms page.",
-          "vi": "Hãy hỏi nhóm pháp lý trước khi đổi trang điều khoản.",
+          en: "Ask the legal team before you change the terms page.",
+          vi: "Hãy hỏi nhóm pháp lý trước khi đổi trang điều khoản.",
         },
       ],
   }
 - {
-    "slug": "access-log-n",
-    "lemma": "access log",
-    "pos": "noun",
-    "kind": "collocation",
-    "cefr": "B2",
-    "topic": "government",
-    "ipa": "/ˈækses lɒɡ/",
-    "def": "A record of who used a system and when.",
-    "vi": "nhật ký truy cập",
-    "examples":
+    slug: access-log-n,
+    lemma: "access log",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: government,
+    ipa: "/ˈækses lɒɡ/",
+    def: "A record of who used a system and when.",
+    vi: "nhật ký truy cập",
+    examples:
       [
         {
-          "en": "Keep access logs for at least a year.",
-          "vi": "Hãy giữ nhật ký truy cập ít nhất một năm.",
+          en: "Keep access logs for at least a year.",
+          vi: "Hãy giữ nhật ký truy cập ít nhất một năm.",
         },
       ],
   }
 - {
-    "slug": "certify-v",
-    "lemma": "certify",
-    "pos": "verb",
-    "cefr": "C1",
-    "topic": "government",
-    "ipa": "/ˈsɜːtɪfaɪ/",
-    "def": "To state officially that something meets a standard.",
-    "vi": "chứng nhận",
-    "examples":
+    slug: certify-v,
+    lemma: "certify",
+    pos: verb,
+    cefr: C1,
+    topic: government,
+    ipa: "/ˈsɜːtɪfaɪ/",
+    def: "To state officially that something meets a standard.",
+    vi: "chứng nhận",
+    examples:
       [
         {
-          "en": "An external firm will certify our security controls.",
-          "vi": "Một công ty bên ngoài sẽ chứng nhận các biện pháp bảo mật của nhóm.",
+          en: "An external firm will certify our security controls.",
+          vi: "Một công ty bên ngoài sẽ chứng nhận các biện pháp bảo mật của nhóm.",
         },
       ],
   }
 - {
-    "slug": "control-n",
-    "lemma": "control",
-    "pos": "noun",
-    "cefr": "B2",
-    "topic": "government",
-    "ipa": "/kənˈtrəʊl/",
-    "def": "A rule or check that reduces a risk.",
-    "vi": "biện pháp kiểm soát",
-    "examples":
+    slug: control-n,
+    lemma: "control",
+    pos: noun,
+    cefr: B2,
+    topic: government,
+    ipa: "/kənˈtrəʊl/",
+    def: "A rule or check that reduces a risk.",
+    vi: "biện pháp kiểm soát",
+    examples:
       [
         {
-          "en": "Two-factor login is a required control for production.",
-          "vi": "Đăng nhập hai lớp là biện pháp kiểm soát bắt buộc cho production.",
+          en: "Two-factor login is a required control for production.",
+          vi: "Đăng nhập hai lớp là biện pháp kiểm soát bắt buộc cho production.",
         },
       ],
   }
 - {
-    "slug": "breach-n",
-    "lemma": "breach",
-    "pos": "noun",
-    "cefr": "C1",
-    "topic": "government",
-    "ipa": "/briːtʃ/",
-    "def": "A case where rules are broken or data is accessed without permission.",
-    "vi": "sự vi phạm, rò rỉ",
-    "examples":
+    slug: breach-n,
+    lemma: "breach",
+    pos: noun,
+    cefr: C1,
+    topic: government,
+    ipa: "/briːtʃ/",
+    def: "A case where rules are broken or data is accessed without permission.",
+    vi: "sự vi phạm, rò rỉ",
+    examples:
       [
         {
-          "en": "Report any data breach within 72 hours.",
-          "vi": "Hãy báo cáo mọi vụ rò rỉ dữ liệu trong vòng 72 giờ.",
+          en: "Report any data breach within 72 hours.",
+          vi: "Hãy báo cáo mọi vụ rò rỉ dữ liệu trong vòng 72 giờ.",
         },
       ],
   }
 - {
-    "slug": "confidential-adj",
-    "lemma": "confidential",
-    "pos": "adjective",
-    "cefr": "B2",
-    "topic": "government",
-    "ipa": "/ˌkɒnfɪˈdenʃl/",
-    "def": "Meant to be kept secret.",
-    "vi": "bảo mật, mật",
-    "examples":
+    slug: confidential-adj,
+    lemma: "confidential",
+    pos: adjective,
+    cefr: B2,
+    topic: government,
+    ipa: "/ˌkɒnfɪˈdenʃl/",
+    def: "Meant to be kept secret.",
+    vi: "bảo mật, mật",
+    examples:
       [
         {
-          "en": "Salary data is confidential; don't copy it to test databases.",
-          "vi": "Dữ liệu lương là thông tin mật; đừng chép sang cơ sở dữ liệu test.",
+          en: "Salary data is confidential; don't copy it to test databases.",
+          vi: "Dữ liệu lương là thông tin mật; đừng chép sang cơ sở dữ liệu test.",
         },
       ],
   }
 - {
-    "slug": "anonymise-v",
-    "lemma": "anonymise",
-    "pos": "verb",
-    "cefr": "C1",
-    "topic": "government",
-    "ipa": "/əˈnɒnɪmaɪz/",
-    "def": "To remove details that show who a person is.",
-    "vi": "ẩn danh hoá",
-    "examples":
+    slug: anonymise-v,
+    lemma: "anonymise",
+    pos: verb,
+    cefr: C1,
+    topic: government,
+    ipa: "/əˈnɒnɪmaɪz/",
+    def: "To remove details that show who a person is.",
+    vi: "ẩn danh hoá",
+    examples:
       [
         {
-          "en": "Anonymise the export before you share it with the vendor.",
-          "vi": "Hãy ẩn danh hoá dữ liệu xuất trước khi gửi cho nhà cung cấp.",
+          en: "Anonymise the export before you share it with the vendor.",
+          vi: "Hãy ẩn danh hoá dữ liệu xuất trước khi gửi cho nhà cung cấp.",
         },
       ],
   }
 - {
-    "slug": "in-scope-phr",
-    "lemma": "in scope",
-    "pos": "phrase",
-    "kind": "phrase",
-    "cefr": "B2",
-    "topic": "government",
-    "ipa": "/ɪn ˈskəʊp/",
-    "def": "Included in what a review or project covers.",
-    "vi": "nằm trong phạm vi",
-    "examples":
+    slug: in-scope-phr,
+    lemma: "in scope",
+    pos: phrase,
+    kind: phrase,
+    cefr: B2,
+    topic: government,
+    ipa: "/ɪn ˈskəʊp/",
+    def: "Included in what a review or project covers.",
+    vi: "nằm trong phạm vi",
+    examples:
       [
         {
-          "en": "Only the payment system is in scope for this audit.",
-          "vi": "Chỉ hệ thống thanh toán nằm trong phạm vi đợt kiểm toán này.",
+          en: "Only the payment system is in scope for this audit.",
+          vi: "Chỉ hệ thống thanh toán nằm trong phạm vi đợt kiểm toán này.",
         },
       ],
   }
 - {
-    "slug": "obligation-n",
-    "lemma": "obligation",
-    "pos": "noun",
-    "cefr": "B2",
-    "topic": "government",
-    "ipa": "/ˌɒblɪˈɡeɪʃn/",
-    "def": "Something you must do because of a law or agreement.",
-    "vi": "nghĩa vụ",
-    "examples":
+    slug: obligation-n,
+    lemma: "obligation",
+    pos: noun,
+    cefr: B2,
+    topic: government,
+    ipa: "/ˌɒblɪˈɡeɪʃn/",
+    def: "Something you must do because of a law or agreement.",
+    vi: "nghĩa vụ",
+    examples:
       [
         {
-          "en": "We have an obligation to delete data when a user asks.",
-          "vi": "Nhóm có nghĩa vụ xoá dữ liệu khi người dùng yêu cầu.",
+          en: "We have an obligation to delete data when a user asks.",
+          vi: "Nhóm có nghĩa vụ xoá dữ liệu khi người dùng yêu cầu.",
         },
       ],
   }
 - {
-    "slug": "penalty-n",
-    "lemma": "penalty",
-    "pos": "noun",
-    "cefr": "B2",
-    "topic": "government",
-    "ipa": "/ˈpenəlti/",
-    "def": "A punishment for breaking a rule or law.",
-    "vi": "hình phạt, tiền phạt",
-    "examples":
+    slug: penalty-n,
+    lemma: "penalty",
+    pos: noun,
+    cefr: B2,
+    topic: government,
+    ipa: "/ˈpenəlti/",
+    def: "A punishment for breaking a rule or law.",
+    vi: "hình phạt, tiền phạt",
+    examples:
       [
         {
-          "en": "The penalty for losing customer data can be very large.",
-          "vi": "Tiền phạt cho việc làm mất dữ liệu khách hàng có thể rất lớn.",
+          en: "The penalty for losing customer data can be very large.",
+          vi: "Tiền phạt cho việc làm mất dữ liệu khách hàng có thể rất lớn.",
         },
       ],
   }
 - {
-    "slug": "accessibility-n",
-    "lemma": "accessibility",
-    "pos": "noun",
-    "cefr": "B2",
-    "topic": "government",
-    "ipa": "/əkˌsesəˈbɪləti/",
-    "def": "How easily people with disabilities can use something.",
-    "vi": "khả năng tiếp cận",
-    "examples":
+    slug: jurisdiction-n,
+    lemma: "jurisdiction",
+    pos: noun,
+    cefr: C1,
+    topic: government,
+    ipa: "/ˌdʒʊərɪsˈdɪkʃn/",
+    def: "The area or country where a set of laws applies.",
+    vi: "khu vực tài phán",
+    examples:
       [
         {
-          "en": "The contract requires accessibility checks on every page.",
-          "vi": "Hợp đồng yêu cầu kiểm tra khả năng tiếp cận ở mọi trang.",
+          en: "Which jurisdiction's rules apply to users in Europe?",
+          vi: "Quy định của khu vực tài phán nào áp dụng cho người dùng ở châu Âu?",
         },
       ],
   }
 - {
-    "slug": "risk-assessment-n",
-    "lemma": "risk assessment",
-    "pos": "noun",
-    "kind": "collocation",
-    "cefr": "B2",
-    "topic": "government",
-    "ipa": "/ˈrɪsk əˌsesmənt/",
-    "def": "A study of what could go wrong and how serious it would be.",
-    "vi": "đánh giá rủi ro",
-    "examples":
+    slug: risk-assessment-n,
+    lemma: "risk assessment",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: government,
+    ipa: "/ˈrɪsk əˌsesmənt/",
+    def: "A study of what could go wrong and how serious it would be.",
+    vi: "đánh giá rủi ro",
+    examples:
       [
         {
-          "en": "Fill in a risk assessment before using a new AI service.",
-          "vi": "Hãy làm đánh giá rủi ro trước khi dùng một dịch vụ AI mới.",
+          en: "Fill in a risk assessment before using a new AI service.",
+          vi: "Hãy làm đánh giá rủi ro trước khi dùng một dịch vụ AI mới.",
         },
       ],
   }
 - {
-    "slug": "attest-v",
-    "lemma": "attest",
-    "pos": "verb",
-    "cefr": "C1",
-    "topic": "government",
-    "ipa": "/əˈtest/",
-    "def": "To state formally that something is true.",
-    "vi": "xác nhận chính thức",
-    "examples":
+    slug: attest-v,
+    lemma: "attest",
+    pos: verb,
+    cefr: C1,
+    topic: government,
+    ipa: "/əˈtest/",
+    def: "To state formally that something is true.",
+    vi: "xác nhận chính thức",
+    examples:
       [
         {
-          "en": "Each manager must attest that access was reviewed.",
-          "vi": "Mỗi quản lý phải xác nhận chính thức rằng quyền truy cập đã được rà soát.",
+          en: "Each manager must attest that access was reviewed.",
+          vi: "Mỗi quản lý phải xác nhận chính thức rằng quyền truy cập đã được rà soát.",
         },
       ],
   }
 - {
-    "slug": "paper-trail-n",
-    "lemma": "paper trail",
-    "pos": "noun",
-    "kind": "collocation",
-    "cefr": "C1",
-    "topic": "government",
-    "ipa": "/ˈpeɪpə treɪl/",
-    "def": "A series of records that shows what was done and when.",
-    "vi": "dấu vết hồ sơ",
-    "examples":
+    slug: paper-trail-n,
+    lemma: "paper trail",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: government,
+    ipa: "/ˈpeɪpə treɪl/",
+    def: "A series of records that shows what was done and when.",
+    vi: "dấu vết hồ sơ",
+    examples:
       [
         {
-          "en": "Approvals in the ticket give us a clear paper trail.",
-          "vi": "Các lượt duyệt trong ticket tạo ra dấu vết hồ sơ rõ ràng.",
+          en: "Approvals in the ticket give us a clear paper trail.",
+          vi: "Các lượt duyệt trong ticket tạo ra dấu vết hồ sơ rõ ràng.",
         },
       ],
   }
 - {
-    "slug": "non-compliant-adj",
-    "lemma": "non-compliant",
-    "pos": "adjective",
-    "cefr": "C1",
-    "topic": "government",
-    "ipa": "/ˌnɒn kəmˈplaɪənt/",
-    "def": "Not following the required rules or standards.",
-    "vi": "không tuân thủ",
-    "examples":
+    slug: non-compliant-adj,
+    lemma: "non-compliant",
+    pos: adjective,
+    cefr: C1,
+    topic: government,
+    ipa: "/ˌnɒn kəmˈplaɪənt/",
+    def: "Not following the required rules or standards.",
+    vi: "không tuân thủ",
+    examples:
       [
         {
-          "en": "Three old servers are non-compliant and must be patched.",
-          "vi": "Ba máy chủ cũ không tuân thủ và phải được vá.",
+          en: "Three old servers are non-compliant and must be patched.",
+          vi: "Ba máy chủ cũ không tuân thủ và phải được vá.",
         },
       ],
   }
 - {
-    "slug": "comply-with-phr",
-    "lemma": "comply with",
-    "pos": "phrasal_verb",
-    "kind": "phrasal",
-    "cefr": "B2",
-    "topic": "government",
-    "ipa": "/kəmˈplaɪ wɪð/",
-    "def": "To follow a rule, law or request.",
-    "vi": "tuân theo",
-    "examples":
+    slug: comply-with-phr,
+    lemma: "comply with",
+    pos: phrasal_verb,
+    kind: phrasal,
+    cefr: B2,
+    topic: government,
+    ipa: "/kəmˈplaɪ wɪð/",
+    def: "To follow a rule, law or request.",
+    vi: "tuân theo",
+    examples:
       [
         {
-          "en": "All vendors must comply with our security policy.",
-          "vi": "Mọi nhà cung cấp phải tuân theo chính sách bảo mật của công ty.",
+          en: "All vendors must comply with our security policy.",
+          vi: "Mọi nhà cung cấp phải tuân theo chính sách bảo mật của công ty.",
         },
       ],
   }
 - {
-    "slug": "data-residency-n",
-    "lemma": "data residency",
-    "pos": "noun",
-    "kind": "collocation",
-    "cefr": "C1",
-    "topic": "government",
-    "ipa": "/ˈdeɪtə ˈrezɪdənsi/",
-    "def": "The rule about which country data must be physically stored in.",
-    "vi": "yêu cầu lưu trữ dữ liệu theo quốc gia",
-    "examples":
+    slug: data-residency-n,
+    lemma: "data residency",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: government,
+    ipa: "/ˈdeɪtə ˈrezɪdənsi/",
+    def: "The rule about which country data must be physically stored in.",
+    vi: "yêu cầu lưu trữ dữ liệu theo quốc gia",
+    examples:
       [
         {
-          "en": "Data residency rules mean we need a region in Singapore.",
-          "vi": "Quy định lưu trữ dữ liệu theo quốc gia khiến nhóm cần một vùng ở Singapore.",
+          en: "Data residency rules mean we need a region in Singapore.",
+          vi: "Quy định lưu trữ dữ liệu theo quốc gia khiến nhóm cần một vùng ở Singapore.",
         },
       ],
   }
 - {
-    "slug": "data-protection-n",
-    "lemma": "data protection",
-    "pos": "noun",
-    "kind": "collocation",
-    "cefr": "B2",
-    "topic": "government",
-    "ipa": "/ˈdeɪtə prəˌtekʃn/",
-    "def": "Laws and practices that keep personal information safe.",
-    "vi": "bảo vệ dữ liệu",
-    "examples":
+    slug: data-protection-n,
+    lemma: "data protection",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: government,
+    ipa: "/ˈdeɪtə prəˌtekʃn/",
+    def: "Laws and practices that keep personal information safe.",
+    vi: "bảo vệ dữ liệu",
+    examples:
       [
         {
-          "en": "The data protection officer reviews every new form.",
-          "vi": "Cán bộ bảo vệ dữ liệu rà soát mọi biểu mẫu mới.",
+          en: "The data protection officer reviews every new form.",
+          vi: "Cán bộ bảo vệ dữ liệu rà soát mọi biểu mẫu mới.",
         },
       ],
   }
 - {
-    "slug": "questionnaire-n",
-    "lemma": "questionnaire",
-    "pos": "noun",
-    "cefr": "B2",
-    "topic": "government",
-    "ipa": "/ˌkwestʃəˈneə/",
-    "def": "A written list of questions that people answer.",
-    "vi": "bảng câu hỏi",
-    "examples":
+    slug: questionnaire-n,
+    lemma: "questionnaire",
+    pos: noun,
+    cefr: B2,
+    topic: government,
+    ipa: "/ˌkwestʃəˈneə/",
+    def: "A written list of questions that people answer.",
+    vi: "bảng câu hỏi",
+    examples:
       [
         {
-          "en": "The client sent a 60-item security questionnaire.",
-          "vi": "Khách hàng gửi một bảng câu hỏi bảo mật 60 mục.",
+          en: "The client sent a 60-item security questionnaire.",
+          vi: "Khách hàng gửi một bảng câu hỏi bảo mật 60 mục.",
         },
       ],
   }
 # Set 10: Reviewing a decision
 - {
-    "slug": "retrospective-n",
-    "lemma": "retrospective",
-    "pos": "noun",
-    "cefr": "B2",
-    "topic": "government",
-    "ipa": "/ˌretrəˈspektɪv/",
-    "def": "A meeting to look back at work and decide what to improve.",
-    "vi": "buổi nhìn lại",
-    "examples":
+    slug: readout-n,
+    lemma: "readout",
+    pos: noun,
+    cefr: C1,
+    topic: government,
+    ipa: "/ˈriːdaʊt/",
+    def: "A short report that shares the results of a review or test.",
+    vi: "bản báo cáo kết quả",
+    examples:
       [
         {
-          "en": "In the retrospective we'll check if the new rule helped.",
-          "vi": "Trong buổi nhìn lại, nhóm sẽ xem quy tắc mới có giúp ích không.",
+          en: "Send a readout of the pilot to all team leads.",
+          vi: "Gửi bản báo cáo kết quả thí điểm cho mọi trưởng nhóm.",
         },
       ],
   }
 - {
-    "slug": "in-hindsight-phr-government",
-    "lemma": "in hindsight",
-    "pos": "phrase",
-    "kind": "phrase",
-    "cefr": "C1",
-    "topic": "government",
-    "ipa": "/ɪn ˈhaɪndsaɪt/",
-    "def": "Looking back with knowledge you did not have before.",
-    "vi": "nhìn lại thì",
-    "examples":
+    slug: rethink-v,
+    lemma: "rethink",
+    pos: verb,
+    cefr: B2,
+    topic: government,
+    ipa: "/ˌriːˈθɪŋk/",
+    def: "To think again about something in order to change it.",
+    vi: "nghĩ lại",
+    examples:
       [
         {
-          "en": "In hindsight, we should have tested with real data.",
-          "vi": "Nhìn lại thì lẽ ra nhóm nên test với dữ liệu thật.",
+          en: "After the incident, we had to rethink the freeze rule.",
+          vi: "Sau sự cố, nhóm phải nghĩ lại quy tắc đóng băng.",
         },
       ],
   }
 - {
-    "slug": "expectation-n-government",
-    "lemma": "expectation",
-    "pos": "noun",
-    "cefr": "B2",
-    "topic": "government",
-    "ipa": "/ˌekspekˈteɪʃn/",
-    "def": "A belief about what will happen.",
-    "vi": "kỳ vọng",
-    "examples":
+    slug: anticipate-v,
+    lemma: "anticipate",
+    pos: verb,
+    cefr: B2,
+    topic: government,
+    ipa: "/ænˈtɪsɪpeɪt/",
+    def: "To expect something and prepare for it.",
+    vi: "dự đoán, lường trước",
+    examples:
       [
         {
-          "en": "The result was below our expectation of 20% faster builds.",
-          "vi": "Kết quả thấp hơn kỳ vọng build nhanh hơn 20%.",
+          en: "We anticipated faster builds, but they stayed the same.",
+          vi: "Nhóm dự đoán build sẽ nhanh hơn nhưng vẫn như cũ.",
         },
       ],
   }
 - {
-    "slug": "actual-adj",
-    "lemma": "actual",
-    "pos": "adjective",
-    "cefr": "B1",
-    "topic": "government",
-    "ipa": "/ˈæktʃuəl/",
-    "def": "Real, as opposed to planned or expected.",
-    "vi": "thực tế",
-    "examples":
+    slug: actual-adj,
+    lemma: "actual",
+    pos: adjective,
+    cefr: B1,
+    topic: government,
+    ipa: "/ˈæktʃuəl/",
+    def: "Real, as opposed to planned or expected.",
+    vi: "thực tế",
+    examples:
+      [{ en: "The actual cost was twice the estimate.", vi: "Chi phí thực tế gấp đôi ước tính." }],
+  }
+- {
+    slug: kpi-n,
+    lemma: "KPI",
+    pos: noun,
+    cefr: B2,
+    topic: government,
+    ipa: "/ˌkeɪ piː ˈaɪ/",
+    def: "Short for 'key performance indicator': a main number used to judge success.",
+    vi: "chỉ số hiệu suất chính (KPI)",
+    examples:
       [
         {
-          "en": "The actual cost was twice the estimate.",
-          "vi": "Chi phí thực tế gấp đôi ước tính.",
+          en: "Our KPI for this change is time to first review.",
+          vi: "KPI cho thay đổi này là thời gian đến lượt review đầu tiên.",
         },
       ],
   }
 - {
-    "slug": "metric-n",
-    "lemma": "metric",
-    "pos": "noun",
-    "cefr": "B2",
-    "topic": "government",
-    "ipa": "/ˈmetrɪk/",
-    "def": "A number used to measure progress or performance.",
-    "vi": "chỉ số",
-    "examples":
+    slug: lesson-learned-n,
+    lemma: "lesson learned",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: government,
+    ipa: "/ˌlesn ˈlɜːnd/",
+    def: "Useful knowledge you gain from an experience.",
+    vi: "bài học rút ra",
+    examples:
       [
         {
-          "en": "Which metric tells us the change worked?",
-          "vi": "Chỉ số nào cho biết thay đổi đã hiệu quả?",
+          en: "One lesson learned is to involve QA earlier.",
+          vi: "Một bài học rút ra là cần đưa QA vào sớm hơn.",
         },
       ],
   }
 - {
-    "slug": "lesson-learned-n",
-    "lemma": "lesson learned",
-    "pos": "noun",
-    "kind": "collocation",
-    "cefr": "B2",
-    "topic": "government",
-    "ipa": "/ˌlesn ˈlɜːnd/",
-    "def": "Useful knowledge you gain from an experience.",
-    "vi": "bài học rút ra",
-    "examples":
+    slug: reverse-v,
+    lemma: "reverse",
+    pos: verb,
+    cefr: B2,
+    topic: government,
+    ipa: "/rɪˈvɜːs/",
+    def: "To change a decision to the opposite.",
+    vi: "đảo ngược",
+    examples:
       [
         {
-          "en": "One lesson learned is to involve QA earlier.",
-          "vi": "Một bài học rút ra là cần đưa QA vào sớm hơn.",
+          en: "We reversed the decision after two weeks of slow reviews.",
+          vi: "Nhóm đã đảo ngược quyết định sau hai tuần review chậm.",
         },
       ],
   }
 - {
-    "slug": "reverse-v",
-    "lemma": "reverse",
-    "pos": "verb",
-    "cefr": "B2",
-    "topic": "government",
-    "ipa": "/rɪˈvɜːs/",
-    "def": "To change a decision to the opposite.",
-    "vi": "đảo ngược",
-    "examples":
+    slug: corroborate-v,
+    lemma: "corroborate",
+    pos: verb,
+    cefr: C1,
+    topic: government,
+    ipa: "/kəˈrɒbəreɪt/",
+    def: "To support an idea with new facts.",
+    vi: "củng cố, xác thực thêm",
+    examples:
       [
         {
-          "en": "We reversed the decision after two weeks of slow reviews.",
-          "vi": "Nhóm đã đảo ngược quyết định sau hai tuần review chậm.",
+          en: "User interviews corroborate what the dashboard shows.",
+          vi: "Các buổi phỏng vấn người dùng củng cố điều dashboard cho thấy.",
         },
       ],
   }
 - {
-    "slug": "corroborate-v",
-    "lemma": "corroborate",
-    "pos": "verb",
-    "cefr": "C1",
-    "topic": "government",
-    "ipa": "/kəˈrɒbəreɪt/",
-    "def": "To support an idea with new facts.",
-    "vi": "củng cố, xác thực thêm",
-    "examples":
+    slug: unexpected-adj,
+    lemma: "unexpected",
+    pos: adjective,
+    cefr: B1,
+    topic: government,
+    ipa: "/ˌʌnɪkˈspektɪd/",
+    def: "Surprising because you did not think it would happen.",
+    vi: "bất ngờ, ngoài dự kiến",
+    examples:
       [
         {
-          "en": "User interviews corroborate what the dashboard shows.",
-          "vi": "Các buổi phỏng vấn người dùng củng cố điều dashboard cho thấy.",
+          en: "An unexpected result was fewer support tickets.",
+          vi: "Một kết quả bất ngờ là số ticket hỗ trợ giảm.",
         },
       ],
   }
 - {
-    "slug": "unexpected-adj",
-    "lemma": "unexpected",
-    "pos": "adjective",
-    "cefr": "B1",
-    "topic": "government",
-    "ipa": "/ˌʌnɪkˈspektɪd/",
-    "def": "Surprising because you did not think it would happen.",
-    "vi": "bất ngờ, ngoài dự kiến",
-    "examples":
+    slug: spillover-n,
+    lemma: "spillover",
+    pos: noun,
+    cefr: C1,
+    topic: government,
+    ipa: "/ˈspɪləʊvə/",
+    def: "An effect that spreads from one area to another.",
+    vi: "tác động lan sang",
+    examples:
       [
         {
-          "en": "An unexpected result was fewer support tickets.",
-          "vi": "Một kết quả bất ngờ là số ticket hỗ trợ giảm.",
+          en: "There was a spillover onto the support team's workload.",
+          vi: "Có tác động lan sang khối lượng việc của nhóm hỗ trợ.",
         },
       ],
   }
 - {
-    "slug": "knock-on-effect-n-government",
-    "lemma": "knock-on effect",
-    "pos": "noun",
-    "kind": "collocation",
-    "cefr": "C1",
-    "topic": "government",
-    "ipa": "/ˌnɒk ɒn ɪˈfekt/",
-    "def": "An indirect result that causes other things to happen.",
-    "vi": "hiệu ứng dây chuyền",
-    "examples":
+    slug: action-point-n,
+    lemma: "action point",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: government,
+    ipa: "/ˈækʃn pɔɪnt/",
+    def: "A task agreed in a meeting that someone must do.",
+    vi: "việc cần làm",
+    examples:
       [
         {
-          "en": "The freeze had a knock-on effect on the mobile release.",
-          "vi": "Đợt đóng băng gây hiệu ứng dây chuyền lên bản release mobile.",
+          en: "Each action point needs an owner and a date.",
+          vi: "Mỗi việc cần làm phải có người phụ trách và ngày hạn.",
         },
       ],
   }
 - {
-    "slug": "follow-up-n-government",
-    "lemma": "follow-up",
-    "pos": "noun",
-    "cefr": "B2",
-    "topic": "government",
-    "ipa": "/ˈfɒləʊ ʌp/",
-    "def": "An action done after something to continue or check it.",
-    "vi": "việc theo dõi tiếp",
-    "examples":
+    slug: leading-indicator-n,
+    lemma: "leading indicator",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: government,
+    ipa: "/ˌliːdɪŋ ˈɪndɪkeɪtə/",
+    def: "A sign that shows early whether something will succeed.",
+    vi: "chỉ báo sớm",
+    examples:
       [
         {
-          "en": "Create a follow-up ticket to remove the old flag.",
-          "vi": "Hãy tạo ticket theo dõi tiếp để gỡ flag cũ.",
+          en: "PR size is a leading indicator of review speed.",
+          vi: "Kích thước PR là chỉ báo sớm cho tốc độ review.",
         },
       ],
   }
 - {
-    "slug": "review-date-n",
-    "lemma": "review date",
-    "pos": "noun",
-    "kind": "collocation",
-    "cefr": "B1",
-    "topic": "government",
-    "ipa": "/rɪˈvjuː deɪt/",
-    "def": "A planned date to check a decision again.",
-    "vi": "ngày xem xét lại",
-    "examples":
+    slug: lagging-indicator-n,
+    lemma: "lagging indicator",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: government,
+    ipa: "/ˌlæɡɪŋ ˈɪndɪkeɪtə/",
+    def: "A measure that shows results only after some time.",
+    vi: "chỉ báo trễ",
+    examples:
       [
         {
-          "en": "Set a review date three months from now.",
-          "vi": "Hãy đặt ngày xem xét lại sau ba tháng nữa.",
+          en: "Customer churn is a lagging indicator, so check it next quarter.",
+          vi: "Tỉ lệ rời bỏ của khách là chỉ báo trễ, nên quý sau hãy xem.",
         },
       ],
   }
 - {
-    "slug": "baseline-n",
-    "lemma": "baseline",
-    "pos": "noun",
-    "cefr": "C1",
-    "topic": "government",
-    "ipa": "/ˈbeɪslaɪn/",
-    "def": "A starting measurement used to compare later results.",
-    "vi": "mức cơ sở",
-    "examples":
+    slug: data-driven-adj,
+    lemma: "data-driven",
+    pos: adjective,
+    cefr: C1,
+    topic: government,
+    ipa: "/ˌdeɪtə ˈdrɪvn/",
+    def: "Based on facts and numbers rather than opinions.",
+    vi: "dựa trên dữ liệu",
+    examples:
       [
         {
-          "en": "Compare the error rate against last month's baseline.",
-          "vi": "So sánh tỉ lệ lỗi với mức cơ sở của tháng trước.",
+          en: "Let's keep this review data-driven, not based on feelings.",
+          vi: "Hãy để buổi xem lại này dựa trên dữ liệu, không theo cảm tính.",
         },
       ],
   }
 - {
-    "slug": "data-driven-adj",
-    "lemma": "data-driven",
-    "pos": "adjective",
-    "cefr": "C1",
-    "topic": "government",
-    "ipa": "/ˌdeɪtə ˈdrɪvn/",
-    "def": "Based on facts and numbers rather than opinions.",
-    "vi": "dựa trên dữ liệu",
-    "examples":
+    slug: fine-tune-v,
+    lemma: "fine-tune",
+    pos: verb,
+    cefr: B2,
+    topic: government,
+    ipa: "/ˌfaɪn ˈtjuːn/",
+    def: "To make small changes to get the best result.",
+    vi: "tinh chỉnh",
+    examples:
       [
         {
-          "en": "Let's keep this review data-driven, not based on feelings.",
-          "vi": "Hãy để buổi xem lại này dựa trên dữ liệu, không theo cảm tính.",
+          en: "We fine-tuned the rule so small fixes need only one approval.",
+          vi: "Nhóm tinh chỉnh quy tắc để sửa nhỏ chỉ cần một lượt duyệt.",
         },
       ],
   }
 - {
-    "slug": "fine-tune-v",
-    "lemma": "fine-tune",
-    "pos": "verb",
-    "cefr": "B2",
-    "topic": "government",
-    "ipa": "/ˌfaɪn ˈtjuːn/",
-    "def": "To make small changes to get the best result.",
-    "vi": "tinh chỉnh",
-    "examples":
+    slug: hold-up-phr,
+    lemma: "hold up",
+    pos: phrasal_verb,
+    kind: phrasal,
+    cefr: C1,
+    topic: government,
+    ipa: "/həʊld ˈʌp/",
+    def: "To remain true or valid when examined.",
+    vi: "vẫn đứng vững, vẫn đúng",
+    examples:
       [
         {
-          "en": "We fine-tuned the rule so small fixes need only one approval.",
-          "vi": "Nhóm tinh chỉnh quy tắc để sửa nhỏ chỉ cần một lượt duyệt.",
+          en: "Our traffic forecast didn't hold up after the launch.",
+          vi: "Dự báo lưu lượng của nhóm không còn đúng sau khi ra mắt.",
         },
       ],
   }
 - {
-    "slug": "hold-up-phr",
-    "lemma": "hold up",
-    "pos": "phrasal_verb",
-    "kind": "phrasal",
-    "cefr": "C1",
-    "topic": "government",
-    "ipa": "/həʊld ˈʌp/",
-    "def": "To remain true or valid when examined.",
-    "vi": "vẫn đứng vững, vẫn đúng",
-    "examples":
+    slug: worthwhile-adj,
+    lemma: "worthwhile",
+    pos: adjective,
+    cefr: B2,
+    topic: government,
+    ipa: "/ˌwɜːθˈwaɪl/",
+    def: "Worth the time, money or effort spent.",
+    vi: "đáng giá",
+    examples:
       [
         {
-          "en": "Our traffic forecast didn't hold up after the launch.",
-          "vi": "Dự báo lưu lượng của nhóm không còn đúng sau khi ra mắt.",
+          en: "The extra test stage was worthwhile; it caught two bugs.",
+          vi: "Bước test thêm thật đáng giá; nó bắt được hai lỗi.",
         },
       ],
   }
 - {
-    "slug": "worthwhile-adj",
-    "lemma": "worthwhile",
-    "pos": "adjective",
-    "cefr": "B2",
-    "topic": "government",
-    "ipa": "/ˌwɜːθˈwaɪl/",
-    "def": "Worth the time, money or effort spent.",
-    "vi": "đáng giá",
-    "examples":
+    slug: sunset-v,
+    lemma: "sunset",
+    pos: verb,
+    cefr: C1,
+    topic: government,
+    ipa: "/ˈsʌnset/",
+    def: "To plan to stop using a product, feature or rule.",
+    vi: "ngừng dần",
+    examples:
       [
         {
-          "en": "The extra test stage was worthwhile; it caught two bugs.",
-          "vi": "Bước test thêm thật đáng giá; nó bắt được hai lỗi.",
+          en: "We'll sunset the manual approval form next quarter.",
+          vi: "Nhóm sẽ ngừng dần biểu mẫu duyệt thủ công vào quý sau.",
         },
       ],
   }
 - {
-    "slug": "sunset-v",
-    "lemma": "sunset",
-    "pos": "verb",
-    "cefr": "C1",
-    "topic": "government",
-    "ipa": "/ˈsʌnset/",
-    "def": "To plan to stop using a product, feature or rule.",
-    "vi": "ngừng dần",
-    "examples":
+    slug: blameless-adj,
+    lemma: "blameless",
+    pos: adjective,
+    cefr: C1,
+    topic: government,
+    ipa: "/ˈbleɪmləs/",
+    def: "Focused on causes and systems, not on who made a mistake.",
+    vi: "không quy lỗi cá nhân",
+    examples:
       [
         {
-          "en": "We'll sunset the manual approval form next quarter.",
-          "vi": "Nhóm sẽ ngừng dần biểu mẫu duyệt thủ công vào quý sau.",
+          en: "We run a blameless review after every incident.",
+          vi: "Nhóm tổ chức buổi xem lại không quy lỗi cá nhân sau mỗi sự cố.",
         },
       ],
   }
 - {
-    "slug": "blameless-adj",
-    "lemma": "blameless",
-    "pos": "adjective",
-    "cefr": "C1",
-    "topic": "government",
-    "ipa": "/ˈbleɪmləs/",
-    "def": "Focused on causes and systems, not on who made a mistake.",
-    "vi": "không quy lỗi cá nhân",
-    "examples":
+    slug: underlying-cause-n,
+    lemma: "underlying cause",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: government,
+    ipa: "/ˌʌndəˈlaɪɪŋ kɔːz/",
+    def: "The real, deeper reason for a problem.",
+    vi: "nguyên nhân sâu xa",
+    examples:
       [
         {
-          "en": "We run a blameless review after every incident.",
-          "vi": "Nhóm tổ chức buổi xem lại không quy lỗi cá nhân sau mỗi sự cố.",
+          en: "The underlying cause was unclear ownership.",
+          vi: "Nguyên nhân sâu xa là trách nhiệm không rõ ràng.",
         },
       ],
   }
 - {
-    "slug": "root-cause-n",
-    "lemma": "root cause",
-    "pos": "noun",
-    "kind": "collocation",
-    "cefr": "B2",
-    "topic": "government",
-    "ipa": "/ˌruːt ˈkɔːz/",
-    "def": "The main reason a problem happened.",
-    "vi": "nguyên nhân gốc",
-    "examples":
+    slug: precedent-n,
+    lemma: "precedent",
+    pos: noun,
+    cefr: C1,
+    topic: government,
+    ipa: "/ˈpresɪdənt/",
+    def: "An earlier decision used as an example for later ones.",
+    vi: "tiền lệ",
+    examples:
       [
         {
-          "en": "The root cause was a missing index, not the new rule.",
-          "vi": "Nguyên nhân gốc là thiếu index, không phải do quy tắc mới.",
+          en: "Granting this exception sets a precedent for other teams.",
+          vi: "Chấp thuận ngoại lệ này sẽ tạo tiền lệ cho các nhóm khác.",
         },
       ],
   }
 - {
-    "slug": "precedent-n",
-    "lemma": "precedent",
-    "pos": "noun",
-    "cefr": "C1",
-    "topic": "government",
-    "ipa": "/ˈpresɪdənt/",
-    "def": "An earlier decision used as an example for later ones.",
-    "vi": "tiền lệ",
-    "examples":
+    slug: course-correct-v,
+    lemma: "course-correct",
+    pos: verb,
+    cefr: C1,
+    topic: government,
+    ipa: "/ˌkɔːs kəˈrekt/",
+    def: "To change direction after seeing that a plan is not working.",
+    vi: "điều chỉnh hướng đi",
+    examples:
       [
         {
-          "en": "Granting this exception sets a precedent for other teams.",
-          "vi": "Chấp thuận ngoại lệ này sẽ tạo tiền lệ cho các nhóm khác.",
+          en: "It's fine to course-correct early if the numbers look bad.",
+          vi: "Điều chỉnh hướng sớm là bình thường nếu số liệu xấu.",
         },
       ],
   }
 - {
-    "slug": "course-correct-v",
-    "lemma": "course-correct",
-    "pos": "verb",
-    "cefr": "C1",
-    "topic": "government",
-    "ipa": "/ˌkɔːs kəˈrekt/",
-    "def": "To change direction after seeing that a plan is not working.",
-    "vi": "điều chỉnh hướng đi",
-    "examples":
+    slug: sacrifice-n,
+    lemma: "sacrifice",
+    pos: noun,
+    cefr: B2,
+    topic: government,
+    ipa: "/ˈsækrɪfaɪs/",
+    def: "Something valuable you give up to get something else.",
+    vi: "sự hy sinh, đánh đổi",
+    examples:
       [
         {
-          "en": "It's fine to course-correct early if the numbers look bad.",
-          "vi": "Điều chỉnh hướng sớm là bình thường nếu số liệu xấu.",
+          en: "Slower releases were a sacrifice we made for safety.",
+          vi: "Release chậm hơn là sự hy sinh nhóm chấp nhận để an toàn.",
         },
       ],
   }
 - {
-    "slug": "trade-off-n-government",
-    "lemma": "trade-off",
-    "pos": "noun",
-    "cefr": "B2",
-    "topic": "government",
-    "ipa": "/ˈtreɪd ɒf/",
-    "def": "A balance between two things you cannot have at the same time.",
-    "vi": "sự đánh đổi",
-    "examples":
+    slug: turn-out-phr,
+    lemma: "turn out",
+    pos: phrasal_verb,
+    kind: phrasal,
+    cefr: B1,
+    topic: government,
+    ipa: "/tɜːn ˈaʊt/",
+    def: "To happen or be found in the end in a particular way.",
+    vi: "hoá ra",
+    examples:
       [
         {
-          "en": "The trade-off was speed for safety, and it was the right one.",
-          "vi": "Sự đánh đổi là tốc độ lấy an toàn, và đó là lựa chọn đúng.",
+          en: "The new rule turned out to slow down urgent fixes.",
+          vi: "Quy tắc mới hoá ra lại làm chậm các bản sửa gấp.",
         },
       ],
   }
 - {
-    "slug": "viable-adj",
-    "lemma": "viable",
-    "pos": "adjective",
-    "cefr": "C1",
-    "topic": "government",
-    "ipa": "/ˈvaɪəbl/",
-    "def": "Able to work successfully.",
-    "vi": "khả thi",
-    "examples":
+    slug: roll-back-v,
+    lemma: "roll back",
+    pos: verb,
+    cefr: B2,
+    topic: government,
+    ipa: "/rəʊl ˈbæk/",
+    def: "To return a system or rule to an earlier version.",
+    vi: "khôi phục về bản cũ",
+    examples:
       [
         {
-          "en": "Is a weekly release still viable with only three engineers?",
-          "vi": "Release hàng tuần còn khả thi khi chỉ có ba kỹ sư không?",
+          en: "If the numbers get worse, we'll roll back the policy.",
+          vi: "Nếu số liệu xấu đi, nhóm sẽ khôi phục quy định cũ.",
         },
       ],
   }
 - {
-    "slug": "revert-v-government",
-    "lemma": "revert",
-    "pos": "verb",
-    "cefr": "B2",
-    "topic": "government",
-    "ipa": "/rɪˈvɜːt/",
-    "def": "To go back to an earlier state or version.",
-    "vi": "quay về (trạng thái cũ)",
-    "examples":
+    slug: foresee-v,
+    lemma: "foresee",
+    pos: verb,
+    cefr: C1,
+    topic: government,
+    ipa: "/fɔːˈsiː/",
+    def: "To know that something will happen before it does.",
+    vi: "lường trước",
+    examples:
       [
         {
-          "en": "If the metric doesn't improve, we'll revert to weekly releases.",
-          "vi": "Nếu chỉ số không cải thiện, nhóm sẽ quay về release hàng tuần.",
+          en: "Nobody foresaw how many teams would ask for exceptions.",
+          vi: "Không ai lường trước được bao nhiêu nhóm sẽ xin ngoại lệ.",
         },
       ],
   }
 - {
-    "slug": "foresee-v",
-    "lemma": "foresee",
-    "pos": "verb",
-    "cefr": "C1",
-    "topic": "government",
-    "ipa": "/fɔːˈsiː/",
-    "def": "To know that something will happen before it does.",
-    "vi": "lường trước",
-    "examples":
+    slug: bear-out-phr,
+    lemma: "bear out",
+    pos: phrasal_verb,
+    kind: phrasal,
+    cefr: C1,
+    topic: government,
+    ipa: "/beər ˈaʊt/",
+    def: "To show that an idea or claim is true.",
+    vi: "chứng minh là đúng",
+    examples:
       [
         {
-          "en": "Nobody foresaw how many teams would ask for exceptions.",
-          "vi": "Không ai lường trước được bao nhiêu nhóm sẽ xin ngoại lệ.",
+          en: "The numbers bear out our hope that reviews would get faster.",
+          vi: "Số liệu chứng minh kỳ vọng rằng review sẽ nhanh hơn là đúng.",
         },
       ],
   }
 - {
-    "slug": "bear-out-phr",
-    "lemma": "bear out",
-    "pos": "phrasal_verb",
-    "kind": "phrasal",
-    "cefr": "C1",
-    "topic": "government",
-    "ipa": "/beər ˈaʊt/",
-    "def": "To show that an idea or claim is true.",
-    "vi": "chứng minh là đúng",
-    "examples":
+    slug: misjudge-v,
+    lemma: "misjudge",
+    pos: verb,
+    cefr: C1,
+    topic: government,
+    ipa: "/ˌmɪsˈdʒʌdʒ/",
+    def: "To form a wrong opinion about something.",
+    vi: "đánh giá sai",
+    examples:
       [
         {
-          "en": "The numbers bear out our hope that reviews would get faster.",
-          "vi": "Số liệu chứng minh kỳ vọng rằng review sẽ nhanh hơn là đúng.",
+          en: "We misjudged how many people would need exceptions.",
+          vi: "Nhóm đã đánh giá sai số người cần xin ngoại lệ.",
         },
       ],
   }
 - {
-    "slug": "shortcoming-n-government",
-    "lemma": "shortcoming",
-    "pos": "noun",
-    "cefr": "C1",
-    "topic": "government",
-    "ipa": "/ˈʃɔːtkʌmɪŋ/",
-    "def": "A weakness or fault in something.",
-    "vi": "thiếu sót",
-    "examples":
+    slug: rough-estimate-n,
+    lemma: "rough estimate",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: government,
+    ipa: "/ˌrʌf ˈestɪmət/",
+    def: "A quick guess about size, time or cost that is not exact.",
+    vi: "ước tính sơ bộ",
+    examples:
       [
         {
-          "en": "One shortcoming of the policy is that it ignores night shifts.",
-          "vi": "Một thiếu sót của quy định là bỏ qua ca đêm.",
+          en: "The original number was only a rough estimate.",
+          vi: "Con số ban đầu chỉ là ước tính sơ bộ.",
         },
       ],
   }
 - {
-    "slug": "gut-feeling-n",
-    "lemma": "gut feeling",
-    "pos": "noun",
-    "kind": "collocation",
-    "cefr": "B2",
-    "topic": "government",
-    "ipa": "/ˌɡʌt ˈfiːlɪŋ/",
-    "def": "A belief based on instinct rather than facts.",
-    "vi": "linh cảm",
-    "examples":
+    slug: wishful-thinking-n,
+    lemma: "wishful thinking",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: government,
+    ipa: "/ˌwɪʃfl ˈθɪŋkɪŋ/",
+    def: "Believing something because you want it to be true.",
+    vi: "suy nghĩ viển vông",
+    examples:
       [
         {
-          "en": "We chose the vendor on a gut feeling, and it didn't work out.",
-          "vi": "Nhóm chọn nhà cung cấp theo linh cảm và kết quả không tốt.",
+          en: "Expecting zero bugs after the rewrite was wishful thinking.",
+          vi: "Mong không có lỗi nào sau khi viết lại là suy nghĩ viển vông.",
         },
       ],
   }
 - {
-    "slug": "wishful-thinking-n",
-    "lemma": "wishful thinking",
-    "pos": "noun",
-    "kind": "collocation",
-    "cefr": "C1",
-    "topic": "government",
-    "ipa": "/ˌwɪʃfl ˈθɪŋkɪŋ/",
-    "def": "Believing something because you want it to be true.",
-    "vi": "suy nghĩ viển vông",
-    "examples":
+    slug: second-guess-v,
+    lemma: "second-guess",
+    pos: verb,
+    cefr: C1,
+    topic: government,
+    ipa: "/ˌsekənd ˈɡes/",
+    def: "To doubt or question a decision after it has been made.",
+    vi: "nghi ngờ lại (quyết định)",
+    examples:
       [
         {
-          "en": "Expecting zero bugs after the rewrite was wishful thinking.",
-          "vi": "Mong không có lỗi nào sau khi viết lại là suy nghĩ viển vông.",
+          en: "Let's not second-guess the choice until we have data.",
+          vi: "Đừng nghi ngờ lại lựa chọn khi chưa có số liệu.",
         },
       ],
   }
 - {
-    "slug": "second-guess-v",
-    "lemma": "second-guess",
-    "pos": "verb",
-    "cefr": "C1",
-    "topic": "government",
-    "ipa": "/ˌsekənd ˈɡes/",
-    "def": "To doubt or question a decision after it has been made.",
-    "vi": "nghi ngờ lại (quyết định)",
-    "examples":
+    slug: postmortem-n,
+    lemma: "postmortem",
+    pos: noun,
+    cefr: B2,
+    topic: government,
+    ipa: "/ˌpəʊstˈmɔːtəm/",
+    def: "A written review of what went wrong after an incident or project.",
+    vi: "bản phân tích sau sự cố",
+    examples:
       [
         {
-          "en": "Let's not second-guess the choice until we have data.",
-          "vi": "Đừng nghi ngờ lại lựa chọn khi chưa có số liệu.",
+          en: "Link the postmortem in the decision record.",
+          vi: "Hãy dẫn link bản phân tích sau sự cố trong bản ghi quyết định.",
         },
       ],
   }
 - {
-    "slug": "postmortem-n",
-    "lemma": "postmortem",
-    "pos": "noun",
-    "cefr": "B2",
-    "topic": "government",
-    "ipa": "/ˌpəʊstˈmɔːtəm/",
-    "def": "A written review of what went wrong after an incident or project.",
-    "vi": "bản phân tích sau sự cố",
-    "examples":
+    slug: pay-off-phr,
+    lemma: "pay off",
+    pos: phrasal_verb,
+    kind: phrasal,
+    cefr: B2,
+    topic: government,
+    ipa: "/peɪ ˈɒf/",
+    def: "To bring good results after effort.",
+    vi: "mang lại kết quả, đáng công",
+    examples:
       [
         {
-          "en": "Link the postmortem in the decision record.",
-          "vi": "Hãy dẫn link bản phân tích sau sự cố trong bản ghi quyết định.",
+          en: "Moving to typed APIs paid off in fewer production bugs.",
+          vi: "Việc chuyển sang API có kiểu đã đáng công với ít lỗi production hơn.",
         },
       ],
   }
 - {
-    "slug": "pay-off-phr",
-    "lemma": "pay off",
-    "pos": "phrasal_verb",
-    "kind": "phrasal",
-    "cefr": "B2",
-    "topic": "government",
-    "ipa": "/peɪ ˈɒf/",
-    "def": "To bring good results after effort.",
-    "vi": "mang lại kết quả, đáng công",
-    "examples":
+    slug: regret-v,
+    lemma: "regret",
+    pos: verb,
+    cefr: B1,
+    topic: government,
+    ipa: "/rɪˈɡret/",
+    def: "To feel sorry about something you did or decided.",
+    vi: "hối tiếc",
+    examples:
       [
         {
-          "en": "Moving to typed APIs paid off in fewer production bugs.",
-          "vi": "Việc chuyển sang API có kiểu đã đáng công với ít lỗi production hơn.",
+          en: "We don't regret dropping the old framework.",
+          vi: "Nhóm không hối tiếc khi bỏ framework cũ.",
         },
       ],
   }
 - {
-    "slug": "regret-v",
-    "lemma": "regret",
-    "pos": "verb",
-    "cefr": "B1",
-    "topic": "government",
-    "ipa": "/rɪˈɡret/",
-    "def": "To feel sorry about something you did or decided.",
-    "vi": "hối tiếc",
-    "examples":
+    slug: teething-problems-n,
+    lemma: "teething problems",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: government,
+    ipa: "/ˈtiːðɪŋ ˌprɒbləmz/",
+    def: "Small problems at the start of something new.",
+    vi: "trục trặc ban đầu",
+    examples:
       [
         {
-          "en": "We don't regret dropping the old framework.",
-          "vi": "Nhóm không hối tiếc khi bỏ framework cũ.",
+          en: "The new approval bot had some teething problems in week one.",
+          vi: "Con bot duyệt mới gặp vài trục trặc ban đầu trong tuần đầu.",
         },
       ],
   }
 - {
-    "slug": "teething-problems-n",
-    "lemma": "teething problems",
-    "pos": "noun",
-    "kind": "collocation",
-    "cefr": "C1",
-    "topic": "government",
-    "ipa": "/ˈtiːðɪŋ ˌprɒbləmz/",
-    "def": "Small problems at the start of something new.",
-    "vi": "trục trặc ban đầu",
-    "examples":
+    slug: uphold-v,
+    lemma: "uphold",
+    pos: verb,
+    cefr: C1,
+    topic: government,
+    ipa: "/ʌpˈhəʊld/",
+    def: "To keep a decision or rule after checking it again.",
+    vi: "giữ nguyên",
+    examples:
       [
         {
-          "en": "The new approval bot had some teething problems in week one.",
-          "vi": "Con bot duyệt mới gặp vài trục trặc ban đầu trong tuần đầu.",
-        },
-      ],
-  }
-- {
-    "slug": "uphold-v",
-    "lemma": "uphold",
-    "pos": "verb",
-    "cefr": "C1",
-    "topic": "government",
-    "ipa": "/ʌpˈhəʊld/",
-    "def": "To keep a decision or rule after checking it again.",
-    "vi": "giữ nguyên",
-    "examples":
-      [
-        {
-          "en": "After the review, we upheld the rule on two approvals.",
-          "vi": "Sau khi xem lại, nhóm giữ nguyên quy tắc hai lượt duyệt.",
+          en: "After the review, we upheld the rule on two approvals.",
+          vi: "Sau khi xem lại, nhóm giữ nguyên quy tắc hai lượt duyệt.",
         },
       ],
   }

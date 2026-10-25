@@ -87,7 +87,7 @@
       ],
   }
 - {
-    "slug": "remote-adj",
+    "slug": "remote-adj-t19",
     "lemma": "remote",
     "pos": "adjective",
     "cefr": "B1",
@@ -209,7 +209,7 @@
       ],
   }
 - {
-    "slug": "rush-hour-n",
+    "slug": "rush-hour-n-t19",
     "lemma": "rush hour",
     "pos": "noun",
     "kind": "collocation",
@@ -297,7 +297,7 @@
       ],
   }
 - {
-    "slug": "timetable-n",
+    "slug": "timetable-n-t19",
     "lemma": "timetable",
     "pos": "noun",
     "cefr": "A2",
@@ -456,7 +456,7 @@
       ],
   }
 - {
-    "slug": "reserve-v",
+    "slug": "reserve-v-t19",
     "lemma": "reserve",
     "pos": "verb",
     "cefr": "B1",
@@ -769,7 +769,7 @@
       ],
   }
 - {
-    "slug": "newcomer-n",
+    "slug": "newcomer-n-t19",
     "lemma": "newcomer",
     "pos": "noun",
     "cefr": "B2",
@@ -979,7 +979,7 @@
       ],
   }
 - {
-    "slug": "use-case-n",
+    "slug": "use-case-n-t19",
     "lemma": "use case",
     "pos": "noun",
     "kind": "collocation",
@@ -1015,7 +1015,7 @@
       ],
   }
 - {
-    "slug": "target-user-n",
+    "slug": "target-user-n-t19",
     "lemma": "target user",
     "pos": "noun",
     "kind": "collocation",
@@ -1556,7 +1556,7 @@
       ],
   }
 - {
-    "slug": "time-zone-n",
+    "slug": "time-zone-n-t19",
     "lemma": "time zone",
     "pos": "noun",
     "kind": "collocation",
@@ -1575,7 +1575,7 @@
   }
 # Set 7: Event planning
 - {
-    "slug": "organiser-n",
+    "slug": "organiser-n-t19",
     "lemma": "organiser",
     "pos": "noun",
     "cefr": "B1",
@@ -1866,7 +1866,7 @@
       ],
   }
 - {
-    "slug": "waitlist-n",
+    "slug": "waitlist-n-t19",
     "lemma": "waitlist",
     "pos": "noun",
     "cefr": "B2",
@@ -1990,7 +1990,7 @@
       ],
   }
 - {
-    "slug": "inclusive-adj",
+    "slug": "inclusive-adj-t19",
     "lemma": "inclusive",
     "pos": "adjective",
     "cefr": "C1",
@@ -2007,7 +2007,7 @@
       ],
   }
 - {
-    "slug": "respectful-adj",
+    "slug": "respectful-adj-t19",
     "lemma": "respectful",
     "pos": "adjective",
     "cefr": "B1",
@@ -2075,7 +2075,7 @@
       ],
   }
 - {
-    "slug": "warning-n",
+    "slug": "warning-n-t19",
     "lemma": "warning",
     "pos": "noun",
     "cefr": "B1",
@@ -2264,7 +2264,7 @@
       ],
   }
 - {
-    "slug": "flag-v",
+    "slug": "flag-v-t19",
     "lemma": "flag",
     "pos": "verb",
     "cefr": "B2",
@@ -2598,7 +2598,7 @@
       ],
   }
 - {
-    "slug": "next-step-n",
+    "slug": "next-step-n-t19",
     "lemma": "next step",
     "pos": "noun",
     "kind": "collocation",
@@ -2785,7 +2785,7 @@
       ],
   }
 - {
-    "slug": "gesture-n",
+    "slug": "gesture-n-t19",
     "lemma": "gesture",
     "pos": "noun",
     "cefr": "C1",
@@ -3080,7 +3080,7 @@
       ],
   }
 - {
-    "slug": "goodwill-n",
+    "slug": "goodwill-n-t19",
     "lemma": "goodwill",
     "pos": "noun",
     "cefr": "C1",

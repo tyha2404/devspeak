@@ -1,2194 +1,3483 @@
-# Developer vocabulary: Maps, Logistics & Location-Based Products. Original definitions and curated examples.
-- lemma: route
-  pos: noun
-  vi: tuyến đường
-  def: A path connecting a starting point and a destination.
-  examples:
-    - en: Calculate the route after both addresses are confirmed.
-  slug: t18-route-n
-  topic: transport
-  cefr: B1
-- lemma: destination
-  pos: noun
-  vi: điểm đến
-  def: The place a person or item is travelling to.
-  examples:
-    - en: The driver cannot start without a destination.
-  slug: t18-destination-n
-  topic: transport
-  cefr: B1
-- lemma: origin
-  pos: noun
-  vi: điểm xuất phát
-  def: The place where a journey or transfer begins.
-  examples:
-    - en: The origin must be different from the destination.
-  slug: t18-origin-n
-  topic: transport
-  cefr: B1
-- lemma: journey
-  pos: noun
-  vi: hành trình
-  def: Travel from one place to another.
-  examples:
-    - en: The journey includes two stops before the final destination.
-  slug: t18-journey-n
-  topic: transport
-  cefr: B1
-- lemma: departure
-  pos: noun
-  vi: sự khởi hành
-  def: The act or time of leaving a place.
-  examples:
-    - en: Check the departure time before booking the workshop.
-  slug: t18-departure-n
-  topic: transport
-  cefr: B1
-- lemma: arrival
-  pos: noun
-  vi: sự đến nơi
-  def: The act or time of reaching a place.
-  examples:
-    - en: The app sends a notification before the driver's arrival.
-  slug: t18-arrival-n
-  topic: transport
-  cefr: B1
-- lemma: distance
-  pos: noun
-  vi: khoảng cách
-  def: The length between two places or points.
-  examples:
-    - en: The map shows the distance between pickup and delivery.
-  slug: t18-distance-n
-  topic: transport
-  cefr: B1
-- lemma: map
-  pos: noun
-  vi: bản đồ
-  def: A visual representation of an area and its features.
-  examples:
-    - en: The map shows the pickup point and the destination.
-  slug: t18-map-n
-  topic: transport
-  cefr: B1
-- lemma: direction
-  pos: noun
-  vi: hướng di chuyển
-  def: The way in which something moves or points.
-  examples:
-    - en: Check the direction of travel before drawing the arrow.
-  slug: t18-direction-n
-  topic: transport
-  cefr: B1
-- lemma: waypoint
-  pos: noun
-  vi: điểm trung gian trên hành trình
-  def: An intermediate point on a planned route.
-  examples:
-    - en: Add a waypoint when the driver needs another pickup.
-  slug: t18-waypoint-n
-  topic: transport
-  cefr: B1
-- lemma: address
-  pos: noun
-  vi: địa chỉ
-  def: Details identifying a building or delivery location.
-  examples:
-    - en: Please confirm the address before dispatching the parcel.
-  slug: t18-address-n
-  topic: transport
-  cefr: B1
-- slug: t18-coordinates-n
-  lemma: coordinates
-  pos: noun
-  cefr: B2
-  topic: transport
-  ipa: /kəʊˈɔːdɪnəts/
-  def: A pair of numbers that shows an exact position on a map.
-  vi: tọa độ
-  examples:
-    - en: Check that the coordinates are not swapped.
-      vi: Kiểm tra xem tọa độ có bị đảo ngược không.
-- slug: t18-latitude-n
-  lemma: latitude
-  pos: noun
-  cefr: B2
-  topic: transport
-  ipa: /ˈlætɪtjuːd/
-  def: The distance of a place north or south of the equator.
-  vi: vĩ độ
-  examples:
-    - en: Latitude must be between minus 90 and 90.
-      vi: Vĩ độ phải nằm trong khoảng âm 90 đến 90.
-- slug: t18-longitude-n
-  lemma: longitude
-  pos: noun
-  cefr: B2
-  topic: transport
-  ipa: /ˈlɒŋɡɪtjuːd/
-  def: The distance of a place east or west of Greenwich in London.
-  vi: kinh độ
-  examples:
-    - en: Vietnam's longitude is around 102 to 110 degrees east.
-      vi: Kinh độ của Việt Nam khoảng từ 102 đến 110 độ Đông.
-- lemma: postcode
-  pos: noun
-  vi: mã bưu chính
-  def: A code identifying a postal delivery area.
-  examples:
-    - en: The postcode must match the selected province.
-  slug: t18-postcode-n
-  topic: transport
-  cefr: B1
-- lemma: street
-  pos: noun
-  vi: đường phố
-  def: A road in a town or city, usually with buildings.
-  examples:
-    - en: The street name is missing from this address.
-  slug: t18-street-n
-  topic: transport
-  cefr: B1
-- lemma: district
-  pos: noun
-  vi: quận hoặc huyện
-  def: An administrative area within a city or region.
-  examples:
-    - en: The district field is required for this address.
-  slug: t18-district-n
-  topic: transport
-  cefr: B1
-- slug: t18-province-n
-  lemma: province
-  pos: noun
-  cefr: B1
-  topic: transport
-  ipa: /ˈprɒvɪns/
-  def: One of the large areas a country is divided into for government.
-  vi: tỉnh
-  examples:
-    - en: Let users filter stations by province.
-      vi: Cho phép người dùng lọc trạm theo tỉnh.
-- slug: t18-location-n
-  lemma: location
-  pos: noun
-  cefr: A2
-  topic: transport
-  ipa: /ləʊˈkeɪʃn/
-  def: The place where someone or something is.
-  vi: địa điểm, vị trí
-  examples:
-    - en: Please add your location to your profile so people know your time zone.
-      vi: Hãy thêm địa điểm vào hồ sơ để mọi người biết múi giờ của bạn.
-- slug: t18-marker-n
-  lemma: marker
-  pos: noun
-  cefr: B1
-  topic: transport
-  ipa: /ˈmɑːkə/
-  def: A small symbol that shows a place on a map.
-  vi: điểm đánh dấu
-  examples:
-    - en: Clicking a marker opens the station details.
-      vi: Bấm vào điểm đánh dấu sẽ mở chi tiết trạm.
-- lemma: pin
-  pos: noun
-  vi: dấu ghim vị trí
-  def: A symbol marking a specific point on a map.
-  examples:
-    - en: Move the pin to the building entrance.
-  slug: t18-pin-n
-  topic: transport
-  cefr: B1
-- lemma: geocode
-  pos: verb
-  vi: chuyển địa chỉ thành toạ độ
-  def: To convert an address into geographic coordinates.
-  examples:
-    - en: Geocode the address before placing a marker on the map.
-  slug: t18-geocode-v
-  topic: transport
-  cefr: B1
-- lemma: booking
-  pos: noun
-  vi: việc đặt trước dịch vụ
-  def: An arrangement to reserve a service or place.
-  examples:
-    - en: The booking stays pending until payment succeeds.
-  slug: t18-booking-n
-  topic: transport
-  cefr: B1
-- slug: t18-reservation-n
-  lemma: reservation
-  pos: noun
-  cefr: B1
-  topic: transport
-  ipa: /ˌrezəˈveɪʃn/
-  def: An arrangement to keep a table, room or seat for you.
-  vi: sự đặt chỗ
-  examples:
-    - en: I have a reservation under DevQuest for seven.
-      vi: Mình có đặt chỗ tên DevQuest lúc bảy giờ.
-- slug: t18-confirm-v
-  lemma: confirm
-  pos: verb
-  cefr: A2
-  topic: transport
-  ipa: /kənˈfɜːm/
-  def: To say or show that something is true or certain.
-  vi: xác nhận
-  examples:
-    - en: Can you confirm that the old key no longer works?
-      vi: Bạn xác nhận giúp khoá cũ không còn hoạt động được không?
-- lemma: confirmation number
-  pos: noun
-  vi: mã xác nhận
-  def: A code identifying a confirmed reservation or transaction.
-  examples:
-    - en: Include the confirmation number when contacting the hotel.
-  slug: t18-confirmation-number-n
-  topic: transport
-  cefr: B1
-  kind: collocation
-- slug: t18-available-adj
-  lemma: available
-  pos: adjective
-  cefr: A2
-  topic: transport
-  ipa: /əˈveɪləbl/
-  def: Free to talk, help or work at a particular time.
-  vi: rảnh, có mặt
-  examples:
-    - en: I'm available after lunch if you want to pair on the bug.
-      vi: Sau bữa trưa mình rảnh nếu bạn muốn cùng sửa lỗi.
-- slug: t18-unavailable-adj
-  lemma: unavailable
-  pos: adjective
-  cefr: B1
-  topic: transport
-  ipa: /ˌʌnəˈveɪləbl/
-  def: Not able to be contacted or to work.
-  vi: không liên lạc được, vắng
-  examples:
-    - en: I'm unavailable during Tet, from the 8th to the 15th.
-      vi: Mình vắng dịp Tết, từ ngày 8 đến ngày 15.
-- slug: t18-capacity-n
-  lemma: capacity
-  pos: noun
-  cefr: B2
-  topic: transport
-  ipa: /kəˈpæsəti/
-  def: The largest number of people a place can hold.
-  vi: sức chứa
-  examples:
-    - en: The room has a capacity of sixty people.
-      vi: Phòng có sức chứa sáu mươi người.
-- lemma: seat
-  pos: noun
-  vi: chỗ ngồi
-  def: A place for one person to sit in a vehicle.
-  examples:
-    - en: The passenger can reserve a seat before departure.
-  slug: t18-seat-n
-  topic: transport
-  cefr: B1
-- lemma: passenger
-  pos: noun
-  vi: hành khách
-  def: A person travelling in a vehicle without driving it.
-  examples:
-    - en: The passenger receives the driver's arrival notification.
-  slug: t18-passenger-n
-  topic: transport
-  cefr: B1
-- lemma: driver
-  pos: noun
-  vi: tài xế
-  def: A person who operates a vehicle.
-  examples:
-    - en: The driver receives the updated pickup point.
-  slug: t18-driver-n
-  topic: transport
-  cefr: B1
-- slug: t18-reference-number-n
-  lemma: reference number
-  pos: noun
-  kind: collocation
-  cefr: B1
-  topic: transport
-  ipa: /ˈrefrəns ˌnʌmbə/
-  def: A number that helps a company find your case or payment.
-  vi: mã tham chiếu
-  examples:
-    - en: Include the reference number in every reply.
-      vi: Ghi mã tham chiếu trong mọi email trả lời.
-- slug: t18-payment-method-n
-  lemma: payment method
-  pos: noun
-  kind: collocation
-  cefr: B1
-  topic: transport
-  ipa: /ˈpeɪmənt ˌmeθəd/
-  def: The way you choose to pay, such as a card or transfer.
-  vi: phương thức thanh toán
-  examples:
-    - en: Please add a payment method before the trial ends.
-      vi: Vui lòng thêm phương thức thanh toán trước khi hết bản dùng thử.
-- slug: t18-pending-adj
-  lemma: pending
-  pos: adjective
-  cefr: B2
-  topic: transport
-  ipa: /ˈpendɪŋ/
-  def: Waiting for a decision or an action.
-  vi: đang chờ xử lý
-  examples:
-    - en: My GitHub invite is still pending.
-      vi: Lời mời GitHub của mình vẫn đang chờ.
-- slug: t18-expire-v
-  lemma: expire
-  pos: verb
-  cefr: B1
-  topic: transport
-  ipa: /ɪkˈspaɪə/
-  def: To stop being valid after a set time.
-  vi: hết hạn
-  examples:
-    - en: Temporary files expire after one week.
-      vi: File tạm hết hạn sau một tuần.
-- lemma: delivery
-  pos: noun
-  vi: việc giao hàng
-  def: The transport of goods to a recipient.
-  examples:
-    - en: The customer can change the delivery address before dispatch.
-  slug: t18-delivery-n
-  topic: transport
-  cefr: B1
-- lemma: parcel
-  pos: noun
-  vi: bưu kiện
-  def: A wrapped package sent or delivered to someone.
-  examples:
-    - en: The parcel is waiting at the collection point.
-  slug: t18-parcel-n
-  topic: transport
-  cefr: B1
-- slug: t18-courier-n
-  lemma: courier
-  pos: noun
-  cefr: B1
-  topic: transport
-  ipa: /ˈkʊriə/
-  def: A person whose job is to carry and deliver things.
-  vi: người giao hàng
-  examples:
-    - en: The courier is waiting at the building entrance.
-      vi: Anh shipper đang đợi ở cửa toà nhà.
-- lemma: dispatch
-  pos: verb
-  vi: gửi đi để giao
-  def: To send goods or a vehicle to a destination.
-  examples:
-    - en: We dispatch the parcel after confirming payment.
-  slug: t18-dispatch-v
-  topic: transport
-  cefr: B1
-- slug: t18-in-transit-phr
-  lemma: in transit
-  pos: phrase
-  kind: phrase
-  cefr: C1
-  topic: transport
-  ipa: /ɪn ˈtrænzɪt/
-  def: While data is moving across a network.
-  vi: khi đang truyền
-  examples:
-    - en: Data is encrypted in transit and at rest.
-      vi: Dữ liệu được mã hoá khi đang truyền và khi lưu trữ.
-- lemma: out for delivery
-  pos: phrase
-  vi: đang được đưa đi giao
-  def: Being carried to the recipient for final delivery.
-  examples:
-    - en: The parcel is out for delivery this afternoon.
-  slug: t18-out-for-delivery-phr
-  topic: transport
-  cefr: B1
-  kind: phrase
-- lemma: delivered
-  pos: adjective
-  vi: đã giao đến nơi
-  def: Having reached the intended recipient.
-  examples:
-    - en: The parcel is marked delivered after the recipient signs.
-  slug: t18-delivered-adj
-  topic: transport
-  cefr: B1
-- slug: t18-recipient-n
-  lemma: recipient
-  pos: noun
-  cefr: C1
-  topic: transport
-  ipa: /rɪˈsɪpiənt/
-  def: A person who receives something, such as an email.
-  vi: người nhận
-  forms:
-    - recipients
-  examples:
-    - en: Check the recipient list before you send the salary file.
-      vi: Kiểm tra danh sách người nhận trước khi gửi file lương nhé.
-- slug: t18-tracking-number-n
-  lemma: tracking number
-  pos: noun
-  kind: collocation
-  cefr: B2
-  topic: transport
-  ipa: /ˈtrækɪŋ ˌnʌmbə/
-  def: A number that lets you follow where your package is on its way to you.
-  vi: mã vận đơn
-  forms:
-    - tracking numbers
-    - track an order
-  examples:
-    - en: Use the tracking number to see where your package is.
-      vi: Dùng mã vận đơn để xem gói hàng của bạn đang ở đâu.
-- lemma: proof of delivery
-  pos: noun
-  vi: bằng chứng đã giao hàng
-  def: A record confirming that goods reached the recipient.
-  examples:
-    - en: Store the signature as proof of delivery.
-  slug: t18-proof-of-delivery-n
-  topic: transport
-  cefr: B1
-  kind: collocation
-- slug: t18-pick-up-pv
-  lemma: pick up
-  pos: phrasal_verb
-  kind: phrasal
-  cefr: A2
-  topic: transport
-  ipa: /ˌpɪk ˈʌp/
-  def: To go somewhere in a car or on a bike to collect a person.
-  vi: đón (ai đó)
-  examples:
-    - en: I have to pick up my son at four, but I'll finish the review tonight.
-      vi: Mình phải đón con lúc bốn giờ, nhưng tối nay mình sẽ review xong.
-- lemma: drop off
-  pos: phrase
-  vi: đưa đến và giao tại điểm đến
-  def: To leave someone or something at a destination.
-  examples:
-    - en: Please drop off the package at reception.
-  slug: t18-drop-off-phr
-  topic: transport
-  cefr: B1
-  kind: phrase
-- lemma: warehouse
-  pos: noun
-  vi: kho hàng
-  def: A building where goods are stored before distribution.
-  examples:
-    - en: The parcel leaves the warehouse after scanning.
-  slug: t18-warehouse-n
-  topic: transport
-  cefr: B1
-- lemma: shipment
-  pos: noun
-  vi: lô hàng được gửi đi
-  def: Goods sent together to a destination.
-  examples:
-    - en: The shipment contains equipment for the new office.
-  slug: t18-shipment-n
-  topic: transport
-  cefr: B1
-- slug: t18-status-n
-  lemma: status
-  pos: noun
-  cefr: B1
-  topic: transport
-  ipa: /ˈsteɪtəs/
-  def: The current state of something, for example draft or accepted.
-  vi: trạng thái
-  examples:
-    - en: The status of this record is 'proposed' until Thursday.
-      vi: Trạng thái của bản ghi này là 'đề xuất' cho đến thứ Năm.
-- slug: t18-timestamp-n
-  lemma: timestamp
-  pos: noun
-  cefr: B1
-  topic: transport
-  ipa: /ˈtaɪmstæmp/
-  def: The date and time recorded for a message or event.
-  vi: dấu thời gian
-  examples:
-    - en: Check the timestamp to see when the error started.
-      vi: Xem dấu thời gian để biết lỗi bắt đầu lúc nào.
-- lemma: estimated arrival
-  pos: noun
-  vi: thời điểm đến ước tính
-  def: The predicted time when a person or item will arrive.
-  examples:
-    - en: The estimated arrival changes when traffic slows down.
-  slug: t18-estimated-arrival-n
-  topic: transport
-  cefr: B1
-  kind: collocation
-- slug: t18-estimate-v
-  lemma: estimate
-  pos: verb
-  cefr: B1
-  topic: transport
-  ipa: /ˈestɪmeɪt/
-  def: To guess a value using the information you have.
-  vi: ước tính
-  examples:
-    - en: If you estimate a value, label it clearly as estimated.
-      vi: Nếu ước tính một giá trị, hãy ghi rõ là ước tính.
-- slug: t18-delay-n
-  lemma: delay
-  pos: noun
-  cefr: A2
-  topic: transport
-  ipa: /dɪˈleɪ/
-  def: The extra time before something arrives or happens.
-  vi: độ trễ
-  examples:
-    - en: There is a five-minute delay between measurement and display.
-      vi: Có độ trễ năm phút giữa lúc đo và lúc hiển thị.
-- slug: t18-traffic-jam-n
-  lemma: traffic jam
-  pos: noun
-  kind: collocation
-  cefr: A2
-  topic: transport
-  ipa: /ˈtræfɪk dʒæm/
-  def: A long line of vehicles on a road that are moving very slowly or not at all.
-  vi: kẹt xe
-  examples:
-    - en: Sorry, I'm stuck in a traffic jam and will join the stand-up late.
-      vi: Xin lỗi, mình đang kẹt xe nên sẽ vào buổi stand-up trễ.
-- slug: t18-rush-hour-n
-  lemma: rush hour
-  pos: noun
-  kind: collocation
-  cefr: B1
-  topic: transport
-  ipa: /ˈrʌʃ aʊə/
-  def: The busy time of day when most people are travelling to or from work.
-  vi: giờ cao điểm
-  examples:
-    - en: Let's start the meeting at 9:30 so people can avoid rush hour.
-      vi: Mình bắt đầu họp lúc 9:30 để mọi người tránh giờ cao điểm nhé.
-- slug: t18-timetable-n
-  lemma: timetable
-  pos: noun
-  cefr: A2
-  topic: transport
-  ipa: /ˈtaɪmteɪbl/
-  def: A list that shows the times when buses or trains leave and arrive.
-  vi: lịch chạy (tàu, xe)
-  examples:
-    - en: I checked the bus timetable, and the last bus is at 10 p.m.
-      vi: Mình xem lịch chạy xe buýt rồi, chuyến cuối lúc 10 giờ tối.
-- slug: t18-on-time-phr
-  lemma: on time
-  pos: phrase
-  kind: phrase
-  cefr: A2
-  topic: transport
-  ipa: /ɒn ˈtaɪm/
-  def: At the planned time, not late.
-  vi: đúng giờ
-  examples:
-    - en: The demo started on time even though it was raining.
-      vi: Buổi demo bắt đầu đúng giờ dù trời mưa.
-- slug: t18-behind-schedule-phr
-  lemma: behind schedule
-  pos: phrase
-  kind: phrase
-  cefr: B2
-  topic: transport
-  ipa: /bɪˌhaɪnd ˈʃedjuːl/
-  def: Later than planned.
-  vi: chậm so với kế hoạch
-  forms:
-    - running behind schedule
-  examples:
-    - en: The mobile app is two weeks behind schedule.
-      vi: Ứng dụng di động đang chậm hai tuần so với kế hoạch.
-- slug: t18-buffer-v
-  lemma: buffer
-  pos: verb
-  cefr: B2
-  topic: transport
-  ipa: /ˈbʌfə/
-  def: When a video stops for a moment because it is still getting data.
-  vi: (video) bị đứng để tải, quay vòng vòng
-  forms:
-    - buffers
-    - buffered
-    - buffering
-  examples:
-    - en: The film kept buffering, so we gave up and read a book.
-      vi: Phim cứ đứng hình quay vòng vòng nên bọn mình bỏ cuộc và đọc sách.
-- slug: t18-interval-n
-  lemma: interval
-  pos: noun
-  cefr: B1
-  topic: transport
-  ipa: /ˈɪntəvl/
-  def: The period of time between two events or measurements.
-  vi: khoảng thời gian (giữa hai lần)
-  examples:
-    - en: The sensor reports at a ten-minute interval.
-      vi: Cảm biến gửi số đo cách nhau mười phút.
-- slug: t18-duration-n
-  lemma: duration
-  pos: noun
-  cefr: B2
-  topic: transport
-  ipa: /djuˈreɪʃn/
-  def: How long something lasts.
-  vi: thời lượng
-  examples:
-    - en: Decide the test duration before you start.
-      vi: Quyết định thời lượng thử nghiệm trước khi bắt đầu.
-- slug: t18-real-time-adj
-  lemma: real-time
-  pos: adjective
-  cefr: B2
-  topic: transport
-  ipa: /ˌrɪəl ˈtaɪm/
-  def: Happening or updated at almost the same moment as events happen.
-  vi: thời gian thực
-  examples:
-    - en: '"Real-time" here means within five minutes, not instantly.'
-      vi: '"Thời gian thực" ở đây nghĩa là trong vòng năm phút, không phải tức thì.'
-- slug: t18-last-seen-n
-  lemma: last seen
-  pos: noun
-  kind: collocation
-  cefr: B1
-  topic: transport
-  ipa: /ˌlɑːst ˈsiːn/
-  def: The most recent time a device contacted the system.
-  vi: lần cuối hoạt động
-  examples:
-    - en: Add a "last seen" column so operators can spot silent devices.
-      vi: Thêm cột "lần cuối hoạt động" để người vận hành phát hiện thiết bị im lặng.
-- slug: t18-refresh-rate-n
-  lemma: refresh rate
-  pos: noun
-  kind: collocation
-  cefr: B2
-  topic: transport
-  ipa: /rɪˈfreʃ reɪt/
-  def: How often a screen gets new data automatically.
-  vi: tần suất làm mới
-  examples:
-    - en: A one-minute refresh rate is enough for river levels.
-      vi: Tần suất làm mới một phút là đủ cho mực nước sông.
-- slug: t18-uncertainty-n
-  lemma: uncertainty
-  pos: noun
-  cefr: C1
-  topic: transport
-  ipa: /ʌnˈsɜːtnti/
-  def: A state of not knowing exactly what is true or what will happen.
-  vi: độ bất định
-  examples:
-    - en: The shaded band shows the uncertainty of the forecast.
-      vi: Dải tô màu thể hiện độ bất định của dự báo.
-- slug: t18-forecast-n
-  lemma: forecast
-  pos: noun
-  cefr: B1
-  topic: transport
-  ipa: /ˈfɔːkɑːst/
-  def: A statement about what is expected to happen, especially with the weather.
-  vi: dự báo
-  examples:
-    - en: Show the forecast as a dashed line after the last reading.
-      vi: Hiển thị dự báo bằng đường nét đứt sau số đo cuối cùng.
-- slug: t18-update-frequency-n
-  lemma: update frequency
-  pos: noun
-  kind: collocation
-  cefr: B2
-  topic: transport
-  ipa: /ˈʌpdeɪt ˌfriːkwənsi/
-  def: How often new data is added to a layer or source.
-  vi: tần suất cập nhật
-  examples:
-    - en: Show each layer's update frequency in its info panel.
-      vi: Hiển thị tần suất cập nhật của mỗi lớp trong bảng thông tin.
-- slug: t18-notify-v
-  lemma: notify
-  pos: verb
-  cefr: B1
-  topic: transport
-  ipa: /ˈnəʊtɪfaɪ/
-  def: To tell someone officially about something.
-  vi: thông báo
-  examples:
-    - en: Notify the duty engineer by SMS and email.
-      vi: Thông báo cho kỹ sư trực qua SMS và email.
-- lemma: cancel
-  pos: verb
-  vi: huỷ
-  def: To stop a planned action or arrangement.
-  examples:
-    - en: Please cancel the booking if the client cannot travel.
-  slug: t18-cancel-v
-  topic: transport
-  cefr: B1
-- slug: t18-cancellation-n
-  lemma: cancellation
-  pos: noun
-  cefr: B1
-  topic: transport
-  ipa: /ˌkænsəˈleɪʃn/
-  def: The act of saying a booking will not happen.
-  vi: sự huỷ
-  examples:
-    - en: Is there a fee for late cancellation?
-      vi: Huỷ muộn có mất phí không?
-- slug: t18-reschedule-v
-  lemma: reschedule
-  pos: verb
-  cefr: B1
-  topic: transport
-  ipa: /ˌriːˈʃedjuːl/
-  def: To change the time or date of a planned event.
-  vi: dời lịch, đổi giờ (sang thời điểm khác)
-  forms:
-    - reschedules
-    - rescheduled
-    - rescheduling
-  examples:
-    - en: Can we reschedule our call to Wednesday afternoon?
-      vi: Mình dời cuộc gọi sang chiều thứ Tư được không?
-- slug: t18-postpone-v
-  lemma: postpone
-  pos: verb
-  cefr: B1
-  topic: transport
-  ipa: /pəˈspəʊn/
-  def: To move an event to a later time.
-  vi: hoãn lại
-  forms:
-    - postpones
-    - postponed
-    - postponing
-  examples:
-    - en: The demo was postponed because the server was down.
-      vi: Buổi demo bị hoãn vì server bị sập.
-- slug: t18-refund-n
-  lemma: refund
-  pos: noun
-  cefr: B1
-  topic: transport
-  ipa: /ˈriːfʌnd/
-  def: Money that is paid back to you.
-  vi: tiền hoàn lại
-  examples:
-    - en: I asked for a refund for the missing drink.
-      vi: Mình yêu cầu hoàn tiền cho ly nước bị thiếu.
-- slug: t18-compensate-v
-  lemma: compensate
-  pos: verb
-  cefr: C1
-  topic: transport
-  ipa: /ˈkɒmpenseɪt/
-  def: To give someone something because they suffered a loss.
-  vi: đền bù
-  examples:
-    - en: They compensated us with a free month after the outage.
-      vi: Họ đền bù cho mình một tháng miễn phí sau sự cố ngừng dịch vụ.
-- slug: t18-disruption-n
-  lemma: disruption
-  pos: noun
-  cefr: C1
-  topic: transport
-  ipa: /dɪsˈrʌpʃn/
-  def: A problem that stops something from working normally.
-  vi: sự gián đoạn
-  examples:
-    - en: We want minimal disruption to the release schedule.
-      vi: Bọn mình muốn lịch release bị gián đoạn ít nhất.
-- lemma: detour
-  pos: noun
-  vi: đường vòng
-  def: A different route used to avoid a blocked path.
-  examples:
-    - en: The app suggests a detour around the flooded road.
-  slug: t18-detour-n
-  topic: transport
-  cefr: B1
-- lemma: alternative route
-  pos: noun
-  vi: tuyến đường thay thế
-  def: Another way to reach the same destination.
-  examples:
-    - en: Show an alternative route when the main road closes.
-  slug: t18-alternative-route-n
-  topic: transport
-  cefr: B1
-  kind: collocation
-- lemma: road closure
-  pos: noun
-  vi: việc đóng đường
-  def: A period when a road cannot be used.
-  examples:
-    - en: A road closure changes the delivery estimate.
-  slug: t18-road-closure-n
-  topic: transport
-  cefr: B1
-  kind: collocation
-- slug: t18-unforeseen-adj
-  lemma: unforeseen
-  pos: adjective
-  cefr: C1
-  topic: transport
-  ipa: /ˌʌnfɔːˈsiːn/
-  def: Not expected or planned for.
-  vi: không lường trước
-  examples:
-    - en: An unforeseen spike in traffic raised the bill.
-      vi: Một đợt tăng lưu lượng không lường trước làm hoá đơn tăng.
-- slug: t18-unfortunately-adv
-  lemma: unfortunately
-  pos: adverb
-  cefr: B1
-  topic: transport
-  ipa: /ʌnˈfɔːtʃənətli/
-  def: Used to say that you are sorry about something.
-  vi: tiếc là
-  examples:
-    - en: Unfortunately, I have family plans that evening.
-      vi: Tiếc là tối hôm đó mình có việc gia đình.
-- slug: t18-inconvenience-n
-  lemma: inconvenience
-  pos: noun
-  cefr: B2
-  topic: transport
-  ipa: /ˌɪnkənˈviːniəns/
-  def: A small problem or trouble that something causes.
-  vi: sự bất tiện
-  examples:
-    - en: Sorry for any inconvenience this may cause.
-      vi: Xin lỗi vì mọi bất tiện có thể xảy ra.
-- slug: t18-partial-adj
-  lemma: partial
-  pos: adjective
-  cefr: B2
-  topic: transport
-  ipa: /ˈpɑːʃl/
-  def: Not complete; only including some parts.
-  vi: một phần
-  examples:
-    - en: Mark today's bar as partial until the day ends.
-      vi: Đánh dấu cột hôm nay là một phần cho đến hết ngày.
-- slug: t18-eligible-adj
-  lemma: eligible
-  pos: adjective
-  cefr: B2
-  topic: transport
-  ipa: /ˈelɪdʒəbl/
-  def: Allowed to have something because you meet the rules.
-  vi: đủ điều kiện
-  examples:
-    - en: Annual plans are eligible for a refund within thirty days.
-      vi: Gói năm đủ điều kiện hoàn tiền trong vòng ba mươi ngày.
-- slug: t18-processing-time-n
-  lemma: processing time
-  pos: noun
-  kind: collocation
-  cefr: B2
-  topic: transport
-  ipa: /ˈprəʊsesɪŋ taɪm/
-  def: How long a request takes to be completed.
-  vi: thời gian xử lý
-  examples:
-    - en: The usual processing time for refunds is five working days.
-      vi: Thời gian xử lý hoàn tiền thường là năm ngày làm việc.
-- slug: t18-service-credit-n
-  lemma: service credit
-  pos: noun
-  kind: collocation
-  cefr: C1
-  topic: transport
-  ipa: /ˈsɜːvɪs ˌkredɪt/
-  def: A discount a provider gives when it fails to deliver what it promised.
-  vi: tín dụng bồi thường dịch vụ
-  examples:
-    - en: After the outage, we claimed a service credit under the contract.
-      vi: Sau sự cố, mình yêu cầu tín dụng bồi thường theo hợp đồng.
-- slug: t18-contingency-plan-n
-  lemma: contingency plan
-  pos: noun
-  kind: collocation
-  cefr: C1
-  topic: transport
-  ipa: /kənˈtɪndʒənsi ˌplæn/
-  def: A plan you will use if your main plan fails or something goes wrong.
-  vi: kế hoạch dự phòng
-  forms:
-    - contingency plans
-    - backup plan
-    - plan B
-  examples:
-    - en: If the vendor is late, our contingency plan is to build the feature
-        ourselves.
-      vi: Nếu nhà cung cấp trễ, kế hoạch dự phòng của mình là tự làm tính năng đó.
-- slug: t18-backup-plan-n
-  lemma: backup plan
-  pos: noun
-  kind: collocation
-  cefr: B2
-  topic: transport
-  ipa: /ˈbækʌp plæn/
-  def: A second plan you can use if the first one fails.
-  vi: phương án dự phòng
-  examples:
-    - en: Our backup plan is to move the talk online if it storms.
-      vi: Phương án dự phòng là chuyển bài nói lên online nếu có bão.
-- slug: t18-customer-facing-adj
-  lemma: customer-facing
-  pos: adjective
-  cefr: C1
-  topic: transport
-  ipa: /ˈkʌstəmə feɪsɪŋ/
-  def: Seen or used directly by customers.
-  vi: hướng tới khách hàng
-  examples:
-    - en: This is a customer-facing change, so support must know.
-      vi: Đây là thay đổi khách hàng thấy được nên bộ phận hỗ trợ phải biết.
-- slug: t18-permission-n
-  lemma: permission
-  pos: noun
-  cefr: B1
-  topic: transport
-  ipa: /pəˈmɪʃn/
-  def: Access that you allow an app to have, for example to your camera or contacts.
-  vi: quyền truy cập (của ứng dụng)
-  forms:
-    - permissions
-    - allow access
-  examples:
-    - en: This game asks for permission to read my contacts. No way!
-      vi: Trò chơi này xin quyền truy cập danh bạ của mình. Không đời nào!
-- slug: t18-consent-n
-  lemma: consent
-  pos: noun
-  cefr: C1
-  topic: transport
-  ipa: /kənˈsent/
-  def: Permission for something to happen.
-  vi: sự đồng ý
-  examples:
-    - en: Ask for consent before taking photos of attendees.
-      vi: Hãy xin sự đồng ý trước khi chụp ảnh người tham dự.
-- slug: t18-opt-in-v
-  lemma: opt in
-  pos: verb
-  kind: phrasal
-  cefr: C1
-  topic: transport
-  ipa: /ˌɒpt ˈɪn/
-  def: To choose to take part in something.
-  vi: chủ động tham gia
-  examples:
-    - en: You can opt in to the new API early.
-      vi: Bạn có thể chủ động dùng thử API mới sớm.
-- slug: t18-opt-out-v
-  lemma: opt out
-  pos: verb
-  kind: collocation
-  cefr: C1
-  topic: transport
-  ipa: /ˌɒpt ˈaʊt/
-  def: To choose not to take part in something.
-  vi: chọn không tham gia
-  examples:
-    - en: Anyone can opt out of the optional social call.
-      vi: Ai cũng có thể chọn không tham gia cuộc gọi giao lưu tuỳ chọn.
-- slug: t18-track-v
-  lemma: track
-  pos: verb
-  cefr: B2
-  topic: transport
-  ipa: /træk/
-  def: To follow and record where someone goes or what they do online.
-  vi: theo dõi, thu thập dấu vết (người dùng)
-  forms:
-    - tracks
-    - tracked
-    - tracking
-    - tracker
-  examples:
-    - en: Many apps track your location even when you're not using them.
-      vi: Nhiều ứng dụng theo dõi vị trí của bạn ngay cả khi bạn không dùng chúng.
-- slug: t18-privacy-policy-n
-  lemma: privacy policy
-  pos: noun
-  kind: collocation
-  cefr: B2
-  topic: transport
-  ipa: /ˈprɪvəsi ˌpɒləsi/
-  def: A document that explains how a company collects and uses your information.
-  vi: chính sách bảo mật
-  forms:
-    - privacy policies
-  examples:
-    - en: Nobody reads the privacy policy, but maybe we should.
-      vi: Chẳng ai đọc chính sách bảo mật cả, nhưng có lẽ chúng ta nên đọc.
-- slug: t18-personal-data-n
-  lemma: personal data
-  pos: noun
-  kind: collocation
-  cefr: B2
-  topic: transport
-  ipa: /ˌpɜːsənl ˈdeɪtə/
-  def: Information about you, such as your name, address, phone number or ID.
-  vi: dữ liệu cá nhân
-  forms:
-    - personal information
-  examples:
-    - en: Why does a flashlight app need my personal data?
-      vi: Tại sao một ứng dụng đèn pin lại cần dữ liệu cá nhân của mình?
-- slug: t18-sensitive-information-n
-  lemma: sensitive information
-  pos: noun
-  kind: collocation
-  cefr: B2
-  topic: transport
-  ipa: /ˌsensətɪv ɪnfəˈmeɪʃn/
-  def: Private data, like passwords or names, that should not be shared.
-  vi: thông tin nhạy cảm
-  examples:
-    - en: Check screenshots for sensitive information before posting.
-      vi: Kiểm tra ảnh chụp có thông tin nhạy cảm không trước khi đăng.
-- slug: t18-access-level-n
-  lemma: access level
-  pos: noun
-  kind: collocation
-  cefr: B2
-  topic: transport
-  ipa: /ˈækses levl/
-  def: The amount of a system that a user is allowed to see or change.
-  vi: cấp quyền truy cập
-  examples:
-    - en: Public viewers get a lower access level than operators.
-      vi: Người xem công khai có cấp quyền truy cập thấp hơn người vận hành.
-- slug: t18-anonymous-adj
-  lemma: anonymous
-  pos: adjective
-  cefr: B2
-  topic: transport
-  ipa: /əˈnɒnɪməs/
-  def: Done or written by someone whose name is not known or not shown.
-  vi: ẩn danh
-  forms:
-    - anonymously
-    - anonymity
-  examples:
-    - en: The survey is anonymous, so please be honest.
-      vi: Khảo sát này là ẩn danh nên mọi người cứ trả lời thật lòng.
-- slug: t18-anonymise-v
-  lemma: anonymise
-  pos: verb
-  cefr: C1
-  topic: transport
-  ipa: /əˈnɒnɪmaɪz/
-  def: To remove details that show who a person is.
-  vi: ẩn danh hoá
-  examples:
-    - en: Anonymise the export before you share it with the vendor.
-      vi: Hãy ẩn danh hoá dữ liệu xuất trước khi gửi cho nhà cung cấp.
-- slug: t18-data-protection-n
-  lemma: data protection
-  pos: noun
-  kind: collocation
-  cefr: B2
-  topic: transport
-  ipa: /ˈdeɪtə prəˌtekʃn/
-  def: Laws and practices that keep personal information safe.
-  vi: bảo vệ dữ liệu
-  examples:
-    - en: The data protection officer reviews every new form.
-      vi: Cán bộ bảo vệ dữ liệu rà soát mọi biểu mẫu mới.
-- slug: t18-data-residency-n
-  lemma: data residency
-  pos: noun
-  kind: collocation
-  cefr: C1
-  topic: transport
-  ipa: /ˈdeɪtə ˈrezɪdənsi/
-  def: The rule about which country data must be physically stored in.
-  vi: yêu cầu lưu trữ dữ liệu theo quốc gia
-  examples:
-    - en: Data residency rules mean we need a region in Singapore.
-      vi: Quy định lưu trữ dữ liệu theo quốc gia khiến nhóm cần một vùng ở Singapore.
-- slug: t18-retention-n
-  lemma: retention
-  pos: noun
-  cefr: C1
-  topic: transport
-  ipa: /rɪˈtenʃn/
-  def: Keeping data for a set period of time.
-  vi: việc lưu giữ (dữ liệu)
-  examples:
-    - en: The retention period for invoices is ten years.
-      vi: Thời gian lưu giữ hoá đơn là mười năm.
-- lemma: location permission
-  pos: noun
-  vi: quyền truy cập vị trí
-  def: Permission for an app to obtain a device's location.
-  examples:
-    - en: Ask for location permission when users request nearby drivers.
-  slug: t18-location-permission-n
-  topic: transport
-  cefr: B1
-  kind: collocation
-- lemma: precise location
-  pos: noun
-  vi: vị trí chính xác
-  def: A location detailed enough to identify a small area or point.
-  examples:
-    - en: Turn-by-turn navigation may need a precise location.
-  slug: t18-precise-location-n
-  topic: transport
-  cefr: B1
-  kind: collocation
-- lemma: approximate location
-  pos: noun
-  vi: vị trí gần đúng
-  def: A general area rather than an exact position.
-  examples:
-    - en: Weather updates only need an approximate location.
-  slug: t18-approximate-location-n
-  topic: transport
-  cefr: B1
-  kind: collocation
-- lemma: background tracking
-  pos: noun
-  vi: theo dõi vị trí khi ứng dụng ở nền
-  def: Collecting location while an app is not actively used.
-  examples:
-    - en: Background tracking stops when the driver ends the delivery.
-  slug: t18-background-tracking-n
-  topic: transport
-  cefr: B1
-  kind: collocation
-- lemma: foreground
-  pos: noun
-  vi: trạng thái ứng dụng đang được dùng
-  def: The active state of an app currently used by a person.
-  examples:
-    - en: Request location access when the app is in the foreground.
-  slug: t18-foreground-n
-  topic: transport
-  cefr: B1
-- slug: t18-deny-v
-  lemma: deny
-  pos: verb
-  cefr: B1
-  topic: transport
-  ipa: /dɪˈnaɪ/
-  def: To refuse to let someone do or have something.
-  vi: từ chối
-  examples:
-    - en: The gateway will deny any request without a valid token.
-      vi: Gateway sẽ từ chối mọi request không có token hợp lệ.
-- slug: t18-grant-v
-  lemma: grant
-  pos: verb
-  cefr: B2
-  topic: transport
-  ipa: /ɡrɑːnt/
-  def: To officially give something that was asked for.
-  vi: cấp, chấp thuận
-  examples:
-    - en: The CTO granted the exception for two weeks.
-      vi: CTO chấp thuận ngoại lệ trong hai tuần.
-- slug: t18-revoke-v
-  lemma: revoke
-  pos: verb
-  cefr: B2
-  topic: transport
-  ipa: /rɪˈvəʊk/
-  def: To officially take back a right that was given.
-  vi: thu hồi
-  examples:
-    - en: We revoke all keys on a person's last working day.
-      vi: Chúng tôi thu hồi mọi khoá vào ngày làm việc cuối của một người.
-- slug: t18-event-n
-  lemma: event
-  pos: noun
-  cefr: A2
-  topic: transport
-  ipa: /ɪˈvent/
-  def: A single thing that happens and is recorded.
-  vi: sự kiện
-  examples:
-    - en: Each login creates an event in the log.
-      vi: Mỗi lần đăng nhập tạo ra một sự kiện trong log.
-- slug: t18-sequence-n
-  lemma: sequence
-  pos: noun
-  cefr: B1
-  topic: transport
-  ipa: /ˈsiːkwəns/
-  def: A series of things in a particular order.
-  vi: trình tự, chuỗi
-  examples:
-    - en: Data can arrive out of sequence, so sort it by measured time.
-      vi: Dữ liệu có thể đến không theo trình tự, nên hãy sắp xếp theo thời gian đo.
-- slug: t18-time-series-n
-  lemma: time series
-  pos: noun
-  kind: collocation
-  cefr: B1
-  topic: transport
-  ipa: /ˈtaɪm sɪəriːz/
-  def: A list of values recorded one after another over time.
-  vi: chuỗi thời gian
-  examples:
-    - en: We store each station's data as a time series.
-      vi: Bọn mình lưu dữ liệu mỗi trạm dưới dạng chuỗi thời gian.
-- slug: t18-utc-n
-  lemma: UTC
-  pos: noun
-  cefr: B1
-  topic: transport
-  ipa: /ˌjuː tiː ˈsiː/
-  def: The world standard time that other time zones are counted from.
-  vi: giờ UTC (giờ chuẩn quốc tế)
-  examples:
-    - en: Store every time in UTC and convert it only for display.
-      vi: Lưu mọi thời gian theo UTC và chỉ chuyển đổi khi hiển thị.
-- slug: t18-daylight-saving-time-n
-  lemma: daylight saving time
-  pos: noun
-  kind: collocation
-  cefr: B2
-  topic: transport
-  ipa: /ˌdeɪlaɪt ˈseɪvɪŋ taɪm/
-  def: The practice in some countries of moving clocks forward one hour in summer.
-  vi: giờ mùa hè
-  examples:
-    - en: Our partners in Europe use daylight saving time, so check the offset.
-      vi: Đối tác ở châu Âu dùng giờ mùa hè, nên hãy kiểm tra độ lệch giờ.
-- slug: t18-ingestion-time-n
-  lemma: ingestion time
-  pos: noun
-  kind: collocation
-  cefr: B2
-  topic: transport
-  ipa: /ɪnˈdʒestʃən taɪm/
-  def: The moment a system receives and saves data, which may be later than when
-    it was measured.
-  vi: thời điểm nhận dữ liệu
-  examples:
-    - en: Ingestion time is useful for debugging, but users need measured time.
-      vi: Thời điểm nhận dữ liệu có ích khi debug, nhưng người dùng cần thời gian đo.
-- slug: t18-sync-v
-  lemma: sync
-  pos: verb
-  cefr: B1
-  topic: transport
-  it: true
-  ipa: /sɪŋk/
-  def: To make the same data appear on two or more devices.
-  vi: đồng bộ (dữ liệu)
-  forms:
-    - syncs
-    - synced
-    - syncing
-    - synchronize
-  examples:
-    - en: My notes sync between my laptop and my phone.
-      vi: Ghi chú của mình được đồng bộ giữa laptop và điện thoại.
-- slug: t18-duplicate-n
-  lemma: duplicate
-  pos: noun
-  cefr: B2
-  topic: transport
-  ipa: /ˈdjuːplɪkət/
-  def: An exact copy of something that already exists.
-  vi: bản trùng lặp
-  examples:
-    - en: Group duplicates so operators get one message, not ten.
-      vi: Gộp các bản trùng lặp để người vận hành nhận một tin, không phải mười.
-- slug: t18-stale-adj
-  lemma: stale
-  pos: adjective
-  cefr: B2
-  topic: transport
-  ipa: /steɪl/
-  def: No longer fresh; old enough that it may not be true any more.
-  vi: cũ, quá hạn
-  examples:
-    - en: Mark a value as stale if it is more than an hour old.
-      vi: Đánh dấu giá trị là cũ nếu nó đã quá một giờ.
-- slug: t18-gap-n
-  lemma: gap
-  pos: noun
-  cefr: B1
-  topic: transport
-  ipa: /ɡæp/
-  def: A period where there is no data between two points.
-  vi: khoảng trống
-  examples:
-    - en: Don't draw a line across the gap; leave it empty.
-      vi: Đừng nối đường qua khoảng trống; cứ để trống.
-- slug: t18-disconnected-adj
-  lemma: disconnected
-  pos: adjective
-  cefr: B1
-  topic: transport
-  ipa: /ˌdɪskəˈnektɪd/
-  def: No longer joined to a network or power supply.
-  vi: mất kết nối
-  examples:
-    - en: Three stations have been disconnected since the storm.
-      vi: Ba trạm đã mất kết nối từ sau cơn bão.
-- slug: t18-outage-n
-  lemma: outage
-  pos: noun
-  cefr: B2
-  topic: transport
-  ipa: /ˈaʊtɪdʒ/
-  def: A period when a service or power supply stops working.
-  vi: sự cố ngừng hoạt động
-  examples:
-    - en: A power outage stopped the pumps for two hours.
-      vi: Sự cố mất điện làm máy bơm ngừng hai tiếng.
-- slug: t18-reconnect-v
-  lemma: reconnect
-  pos: verb
-  cefr: B1
-  topic: transport
-  ipa: /ˌriːkəˈnekt/
-  def: To join a network again after being cut off.
-  vi: kết nối lại
-  examples:
-    - en: When the station reconnects, it uploads the stored values.
-      vi: Khi trạm kết nối lại, nó tải lên các giá trị đã lưu.
-- slug: t18-resume-v
-  lemma: resume
-  pos: verb
-  cefr: B2
-  topic: transport
-  ipa: /rɪˈzjuːm/
-  def: To start again after a pause.
-  vi: tiếp tục lại
-  examples:
-    - en: Reporting resumed at 9:40 after the battery was changed.
-      vi: Việc gửi số đo tiếp tục lại lúc 9:40 sau khi thay pin.
-- lemma: retry policy
-  pos: noun
-  vi: quy tắc thử lại
-  def: Rules describing when and how an operation is attempted again.
-  examples:
-    - en: The retry policy uses increasing delays after network failures.
-  slug: t18-retry-policy-n
-  topic: transport
-  cefr: B1
-  kind: collocation
-- lemma: event update
-  pos: noun
-  vi: thông tin cập nhật sự kiện
-  def: A message describing a new event or change.
-  examples:
-    - en: Each event update includes a timestamp and a tracking ID.
-  slug: t18-event-update-n
-  topic: transport
-  cefr: B1
-  kind: collocation
-- lemma: push notification
-  pos: noun
-  vi: thông báo đẩy
-  def: A message sent to a device without an active request.
-  examples:
-    - en: Send a push notification when the parcel arrives.
-  slug: t18-push-notification-n
-  topic: transport
-  cefr: B1
-  kind: collocation
-- slug: t18-polling-n
-  lemma: polling
-  pos: noun
-  cefr: B2
-  topic: transport
-  ipa: /ˈpəʊlɪŋ/
-  def: Asking a server again and again whether anything has changed.
-  vi: hỏi vòng
-  examples:
-    - en: Polling every five seconds keeps the radio awake.
-      vi: Hỏi vòng mỗi năm giây khiến sóng mạng luôn bật.
-- lemma: webhook
-  pos: noun
-  vi: thông báo HTTP khi có sự kiện
-  def: An HTTP notification sent when an event occurs.
-  examples:
-    - en: The carrier sends a webhook when delivery succeeds.
-  slug: t18-webhook-n
-  topic: transport
-  cefr: B1
-- lemma: idempotent
-  pos: adjective
-  vi: lặp lại mà không tạo tác động thêm
-  def: Producing the same effect when repeated as when performed once.
-  examples:
-    - en: Make the delivery update idempotent to handle duplicate events.
-  slug: t18-idempotent-adj
-  topic: transport
-  cefr: B1
-- slug: t18-out-of-order-phr
-  lemma: out of order
-  pos: phrase
-  kind: phrase
-  cefr: B1
-  topic: transport
-  ipa: /ˌaʊt əv ˈɔːdə/
-  def: (of a machine) not working.
-  vi: không hoạt động
-  examples:
-    - en: The lift is out of order, so take the stairs.
-      vi: Thang máy đang hỏng, bạn đi cầu thang nhé.
-- lemma: event history
-  pos: noun
-  vi: lịch sử sự kiện
-  def: An ordered record of changes that have occurred.
-  examples:
-    - en: The event history shows when the parcel changed hands.
-  slug: t18-event-history-n
-  topic: transport
-  cefr: B1
-  kind: collocation
-- slug: t18-audit-trail-n
-  lemma: audit trail
-  pos: noun
-  kind: collocation
-  cefr: C1
-  topic: transport
-  ipa: /ˈɔːdɪt treɪl/
-  def: A list of records that shows every action taken in a system.
-  vi: dấu vết kiểm tra
-  examples:
-    - en: The audit trail shows the export ran at 2:14 a.m.
-      vi: Dấu vết kiểm tra cho thấy lệnh xuất chạy lúc 2:14 sáng.
-- lemma: eventual consistency
-  pos: noun
-  vi: tính nhất quán cuối cùng
-  def: A model in which copies become consistent after updates propagate.
-  examples:
-    - en: Eventual consistency means the tracking page may update after a short delay.
-  slug: t18-eventual-consistency-n
-  topic: transport
-  cefr: B1
-  kind: collocation
-- slug: t18-exception-n
-  lemma: exception
-  pos: noun
-  cefr: B2
-  topic: transport
-  ipa: /ɪkˈsepʃn/
-  def: A case where a usual rule does not apply.
-  vi: ngoại lệ
-  examples:
-    - en: Production incidents are an exception to the quiet-hours rule.
-      vi: Sự cố production là ngoại lệ của quy tắc giờ yên lặng.
-- slug: t18-failure-mode-n
-  lemma: failure mode
-  pos: noun
-  kind: collocation
-  cefr: C1
-  topic: transport
-  ipa: /ˈfeɪljə məʊd/
-  def: One specific way in which something can fail.
-  vi: kiểu hỏng hóc
-  examples:
-    - en: A full disk is a failure mode we never tested.
-      vi: Ổ đĩa đầy là một kiểu hỏng mà ta chưa từng test.
-- slug: t18-edge-case-n
-  lemma: edge case
-  pos: noun
-  kind: collocation
-  cefr: B2
-  topic: transport
-  ipa: /ˈedʒ keɪs/
-  def: An unusual situation that happens only at the limits of normal use.
-  vi: trường hợp biên
-  examples:
-    - en: What should happen in the edge case where the cart is empty?
-      vi: Trong trường hợp biên giỏ hàng trống thì nên xử lý thế nào?
-- lemma: mismatch
-  pos: noun
-  vi: sự không khớp
-  def: A difference between things expected to match.
-  examples:
-    - en: Flag a mismatch between the address and the map pin.
-  slug: t18-mismatch-n
-  topic: transport
-  cefr: B1
-- lemma: invalid address
-  pos: noun
-  vi: địa chỉ không hợp lệ
-  def: An address that does not meet required rules.
-  examples:
-    - en: Ask the customer to correct an invalid address before dispatch.
-  slug: t18-invalid-address-n
-  topic: transport
-  cefr: B1
-  kind: collocation
-- slug: t18-missing-adj
-  lemma: missing
-  pos: adjective
-  cefr: A2
-  topic: transport
-  ipa: /ˈmɪsɪŋ/
-  def: Not there when it should be.
-  vi: bị thiếu
-  examples:
-    - en: Two steps are missing from the setup guide.
-      vi: Hướng dẫn cài đặt bị thiếu hai bước.
-- slug: t18-incomplete-adj
-  lemma: incomplete
-  pos: adjective
-  cefr: B1
-  topic: transport
-  ipa: /ˌɪnkəmˈpliːt/
-  def: Not having all the parts that it should have.
-  vi: không đầy đủ
-  examples:
-    - en: Today's total is incomplete until midnight.
-      vi: Tổng hôm nay chưa đầy đủ cho đến nửa đêm.
-- lemma: incorrect
-  pos: adjective
-  vi: không chính xác
-  def: Not matching the truth or the required result.
-  examples:
-    - en: Show which part of the address is incorrect.
-  slug: t18-incorrect-adj
-  topic: transport
-  cefr: B1
-- lemma: out of range
-  pos: phrase
-  vi: nằm ngoài phạm vi hợp lệ
-  def: Outside the allowed or expected limits.
-  examples:
-    - en: Reject coordinates that are out of range.
-  slug: t18-out-of-range-phr
-  topic: transport
-  cefr: B1
-  kind: phrase
-- slug: t18-ambiguous-adj
-  lemma: ambiguous
-  pos: adjective
-  cefr: B2
-  topic: transport
-  ipa: /æmˈbɪɡjuəs/
-  def: Able to be understood in more than one way.
-  vi: mơ hồ, đa nghĩa
-  examples:
-    - en: "The word 'recent' in the ticket is ambiguous: one week or one month?"
-      vi: "Chữ 'gần đây' trong ticket hơi mơ hồ: một tuần hay một tháng?"
-- lemma: manual review
-  pos: noun
-  vi: kiểm tra thủ công
-  def: A check performed by a person rather than automatically.
-  examples:
-    - en: Send an ambiguous address for manual review.
-  slug: t18-manual-review-n
-  topic: transport
-  cefr: B1
-  kind: collocation
-- slug: t18-escalate-v
-  lemma: escalate
-  pos: verb
-  cefr: C1
-  topic: transport
-  ipa: /ˈeskəleɪt/
-  def: To take a problem to a more senior person.
-  vi: đưa lên cấp trên
-  examples:
-    - en: If we can't agree, we'll escalate it to the CTO.
-      vi: Nếu không thống nhất được, mình sẽ đưa lên CTO.
-- slug: t18-workaround-n
-  lemma: workaround
-  pos: noun
-  cefr: B2
-  topic: transport
-  ipa: /ˈwɜːkəraʊnd/
-  def: A temporary way to avoid a problem without fixing it.
-  vi: cách xử lý tạm
-  examples:
-    - en: As a workaround, we cache the partner's data for an hour.
-      vi: Để xử lý tạm, tụi mình cache dữ liệu của đối tác trong một giờ.
-- slug: t18-investigation-n
-  lemma: investigation
-  pos: noun
-  cefr: B2
-  topic: transport
-  ipa: /ɪnˌvestɪˈɡeɪʃn/
-  def: A careful search for the facts about a problem.
-  vi: cuộc điều tra
-  examples:
-    - en: The investigation took two days.
-      vi: Cuộc điều tra mất hai ngày.
-- slug: t18-log-entry-n
-  lemma: log entry
-  pos: noun
-  kind: collocation
-  cefr: B1
-  topic: transport
-  ipa: /lɒɡ ˈentri/
-  def: One line or record in a log.
-  vi: một dòng log
-  examples:
-    - en: This log entry shows the payment was sent twice.
-      vi: Dòng log này cho thấy thanh toán bị gửi hai lần.
-- slug: t18-trace-id-n
-  lemma: trace ID
-  pos: noun
-  kind: collocation
-  cefr: C1
-  topic: transport
-  ipa: /treɪs aɪ ˈdiː/
-  def: A unique code that lets you follow one request through many services.
-  vi: mã trace
-  examples:
-    - en: Search all logs for this trace ID.
-      vi: Tìm mã trace này trong tất cả log.
-- slug: t18-status-code-n
-  lemma: status code
-  pos: noun
-  kind: collocation
-  cefr: B1
-  topic: transport
-  ipa: /ˈsteɪtəs kəʊd/
-  def: A number in an HTTP response that shows the result, such as 404.
-  vi: mã trạng thái
-  examples:
-    - en: The status code 503 means the service was unavailable.
-      vi: Mã trạng thái 503 nghĩa là service không sẵn sàng.
-- slug: t18-reproducible-adj
-  lemma: reproducible
-  pos: adjective
-  cefr: B1
-  topic: transport
-  ipa: /ˌriːprəˈdjuːsəbl/
-  def: Able to happen again when you repeat the same steps.
-  vi: có thể tái hiện
-  examples:
-    - en: The bug is reproducible on Android but not on iOS.
-      vi: Lỗi có thể tái hiện trên Android nhưng không trên iOS.
-- slug: t18-steps-to-reproduce-n
-  lemma: steps to reproduce
-  pos: noun
-  kind: collocation
-  cefr: B2
-  topic: transport
-  ipa: /ˌsteps tə ˌriːprəˈdjuːs/
-  def: A list of actions that make a problem happen again.
-  vi: các bước tái hiện
-  examples:
-    - en: Add clear steps to reproduce, using only test accounts.
-      vi: Thêm các bước tái hiện rõ ràng, chỉ dùng tài khoản test.
-- slug: t18-test-data-n
-  lemma: test data
-  pos: noun
-  kind: collocation
-  cefr: B1
-  topic: transport
-  ipa: /test ˈdeɪtə/
-  def: Example data made for checking software.
-  vi: dữ liệu kiểm thử
-  examples:
-    - en: Use the test data in the seed file, not real customer data.
-      vi: Hãy dùng dữ liệu kiểm thử trong file seed, đừng dùng dữ liệu khách hàng
-        thật.
-- slug: t18-expected-result-n
-  lemma: expected result
-  pos: noun
-  kind: collocation
-  cefr: B1
-  topic: transport
-  ipa: /ɪkˈspektɪd rɪˈzʌlt/
-  def: What should happen if the software works correctly.
-  vi: kết quả mong đợi
-  examples:
-    - en: "Expected result: the order appears in the list."
-      vi: "Kết quả mong đợi: đơn hàng hiện trong danh sách."
-- lemma: actual behaviour
-  pos: noun
-  vi: hành vi thực tế
-  def: What a system really does during use.
-  examples:
-    - en: Record the actual behaviour before changing the code.
-  slug: t18-actual-behaviour-n
-  topic: transport
-  cefr: B1
-  kind: collocation
-- slug: t18-user-impact-n
-  lemma: user impact
-  pos: noun
-  kind: collocation
-  cefr: B2
-  topic: transport
-  ipa: /ˈjuːzə ˈɪmpækt/
-  def: How a problem affected the people using the product.
-  vi: ảnh hưởng tới người dùng
-  examples:
-    - en: "User impact: about 2% could not log in."
-      vi: "Ảnh hưởng người dùng: khoảng 2% không đăng nhập được."
-- slug: t18-restore-v
-  lemma: restore
-  pos: verb
-  cefr: B2
-  topic: transport
-  ipa: /rɪˈstɔː/
-  def: To bring something back to how it was before.
-  vi: khôi phục
-  examples:
-    - en: We restored the service from a clean backup.
-      vi: Chúng tôi đã khôi phục dịch vụ từ một bản sao lưu sạch.
-- slug: t18-remediation-n
-  lemma: remediation
-  pos: noun
-  cefr: C1
-  topic: transport
-  ipa: /rɪˌmiːdiˈeɪʃn/
-  def: Work done to fix a problem properly.
-  vi: khắc phục triệt để
-  examples:
-    - en: The remediation plan includes a schema change.
-      vi: Kế hoạch khắc phục bao gồm một thay đổi schema.
-- slug: t18-root-cause-n
-  lemma: root cause
-  pos: noun
-  kind: collocation
-  cefr: C1
-  topic: transport
-  ipa: /ˌruːt ˈkɔːz/
-  def: The main reason a problem happened.
-  vi: nguyên nhân gốc
-  examples:
-    - en: The vendor promised a report on the root cause of the outage.
-      vi: Nhà cung cấp hứa gửi báo cáo về nguyên nhân gốc của sự cố.
-- slug: t18-follow-up-n
-  lemma: follow-up
-  pos: noun
-  cefr: B2
-  topic: transport
-  ipa: /ˈfɒləʊ ʌp/
-  def: A message or action that continues something that happened earlier.
-  vi: sự liên hệ tiếp theo
-  examples:
-    - en: I sent a quick follow-up the morning after the meetup.
-      vi: Mình gửi một tin liên hệ ngắn vào sáng hôm sau buổi meetup.
-- slug: t18-resolve-v
-  lemma: resolve
-  pos: verb
-  cefr: B2
-  topic: transport
-  ipa: /rɪˈzɒlv/
-  def: To find a solution to a problem or disagreement.
-  vi: giải quyết
-  examples:
-    - en: We resolved the issue over a coffee.
-      vi: Tụi mình giải quyết chuyện đó qua một ly cà phê.
-- lemma: workflow
-  pos: noun
-  vi: luồng công việc
-  def: A sequence of activities needed to complete a task.
-  examples:
-    - en: The delivery workflow starts after payment confirmation.
-  slug: t18-workflow-n
-  topic: transport
-  cefr: B1
-- lemma: state machine
-  pos: noun
-  vi: mô hình trạng thái và chuyển đổi
-  def: A model describing states and the transitions between them.
-  examples:
-    - en: The state machine prevents a delivered parcel from returning to pending.
-  slug: t18-state-machine-n
-  topic: transport
-  cefr: B1
-  kind: collocation
-- slug: t18-transition-n
-  lemma: transition
-  pos: noun
-  cefr: B2
-  topic: transport
-  ipa: /trænˈzɪʃn/
-  def: The process of changing from one state to another.
-  vi: sự chuyển tiếp
-  examples:
-    - en: The transition to the new team will take a month.
-      vi: Quá trình chuyển sang nhóm mới sẽ mất một tháng.
-- slug: t18-milestone-n
-  lemma: milestone
-  pos: noun
-  cefr: B2
-  topic: transport
-  ipa: /ˈmaɪlstəʊn/
-  def: An important point in a project's progress.
-  vi: cột mốc
-  examples:
-    - en: The first milestone is a working energy report.
-      vi: Cột mốc đầu tiên là một báo cáo năng lượng chạy được.
-- slug: t18-acceptance-criteria-n
-  lemma: acceptance criteria
-  pos: noun
-  kind: collocation
-  cefr: B2
-  topic: transport
-  ipa: /əkˈseptəns kraɪˌtɪəriə/
-  def: The conditions a feature must meet to be accepted as done.
-  vi: tiêu chí chấp nhận
-  examples:
-    - en: Can you share the acceptance criteria for the export feature?
-      vi: Bạn gửi giúp tiêu chí chấp nhận cho tính năng xuất file được không?
-- slug: t18-definition-of-done-n
-  lemma: definition of done
-  pos: noun
-  kind: phrase
-  cefr: C1
-  topic: transport
-  ipa: /ˌdefɪˈnɪʃn əv ˈdʌn/
-  def: A shared list of checks that work must pass before it counts as finished.
-  vi: định nghĩa hoàn thành
-  examples:
-    - en: Our definition of done includes testing with missing data.
-      vi: Định nghĩa hoàn thành của bọn mình gồm cả việc test với dữ liệu thiếu.
-- slug: t18-non-goal-n
-  lemma: non-goal
-  pos: noun
-  cefr: C1
-  topic: transport
-  ipa: /ˌnɒn ˈɡəʊl/
-  def: Something a project clearly says it will not try to do.
-  vi: điều không nằm trong mục tiêu
-  examples:
-    - en: Predicting floods is a non-goal for version one.
-      vi: Dự đoán lũ không nằm trong mục tiêu của phiên bản một.
-- slug: t18-requirement-n
-  lemma: requirement
-  pos: noun
-  cefr: B1
-  topic: transport
-  ipa: /rɪˈkwaɪəmənt/
-  def: Something a product must do or have.
-  vi: yêu cầu
-  examples:
-    - en: One requirement is that the page loads in under two seconds.
-      vi: Một yêu cầu là trang phải tải dưới hai giây.
-- slug: t18-dependency-n
-  lemma: dependency
-  pos: noun
-  cefr: B2
-  topic: transport
-  ipa: /dɪˈpendənsi/
-  def: Something your work needs from someone else before it can continue.
-  vi: sự phụ thuộc
-  examples:
-    - en: The map feature has a dependency on the partner's location API.
-      vi: Tính năng bản đồ phụ thuộc vào API vị trí của đối tác.
-- slug: t18-scope-n
-  lemma: scope
-  pos: noun
-  cefr: B1
-  topic: transport
-  ipa: /skəʊp/
-  def: The amount of work that a project includes.
-  vi: phạm vi
-  examples:
-    - en: Let's agree on the scope before we estimate.
-      vi: Mình thống nhất phạm vi trước khi ước lượng nhé.
-- slug: t18-constraint-n
-  lemma: constraint
-  pos: noun
-  cefr: B2
-  topic: transport
-  ipa: /kənˈstreɪnt/
-  def: Something that limits what you can do.
-  vi: ràng buộc
-  examples:
-    - en: A key constraint is that the data must stay in Vietnam.
-      vi: Một ràng buộc quan trọng là dữ liệu phải lưu ở Việt Nam.
-- slug: t18-assumption-n
-  lemma: assumption
-  pos: noun
-  cefr: B2
-  topic: transport
-  ipa: /əˈsʌmpʃn/
-  def: Something you believe is true but have not proved.
-  vi: giả định
-  examples:
-    - en: List your assumptions so others can check them.
-      vi: Liệt kê các giả định để người khác kiểm tra.
-- lemma: happy path
-  pos: noun
-  vi: luồng xử lý thuận lợi
-  def: The normal successful sequence without errors or exceptions.
-  examples:
-    - en: Test a cancellation as well as the happy path.
-  slug: t18-happy-path-n
-  topic: transport
-  cefr: B1
-  kind: collocation
-- lemma: retry limit
-  pos: noun
-  vi: số lần thử lại tối đa
-  def: The maximum number of repeated attempts allowed.
-  examples:
-    - en: Set a retry limit before moving the message to manual review.
-  slug: t18-retry-limit-n
-  topic: transport
-  cefr: B1
-  kind: collocation
-- slug: t18-fallback-n
-  lemma: fallback
-  pos: noun
-  cefr: C1
-  topic: transport
-  ipa: /ˈfɔːlbæk/
-  def: Something used when the first choice is not available.
-  vi: phương án dự phòng
-  examples:
-    - en: English is the fallback when a translation is missing.
-      vi: Tiếng Anh là phương án dự phòng khi thiếu bản dịch.
-- lemma: timeout
-  pos: noun
-  vi: sự hết thời gian chờ
-  def: The end of a waiting period without the expected result.
-  examples:
-    - en: A timeout should display a useful recovery action.
-  slug: t18-timeout-n
-  topic: transport
-  cefr: B1
-- slug: t18-rate-limit-n
-  lemma: rate limit
-  pos: noun
-  kind: collocation
-  cefr: B2
-  topic: transport
-  ipa: /ˈreɪt ˌlɪmɪt/
-  def: The largest number of requests an API allows in a period of time.
-  vi: giới hạn tần suất
-  examples:
-    - en: We hit the partner's rate limit during the import.
-      vi: Tụi mình chạm giới hạn tần suất của đối tác khi import.
-- lemma: batch
-  pos: noun
-  vi: lô xử lý
-  def: A group of items processed together.
-  examples:
-    - en: Process the images in a small batch.
-  slug: t18-batch-n
-  topic: transport
-  cefr: B1
-- lemma: queue
-  pos: noun
-  vi: hàng đợi
-  def: Items or people waiting to be served in order.
-  examples:
-    - en: The queue grows when workers cannot process jobs fast enough.
-  slug: t18-queue-n
-  topic: transport
-  cefr: B1
-- slug: t18-handover-n
-  lemma: handover
-  pos: noun
-  cefr: B2
-  topic: transport
-  ipa: /ˈhændəʊvə(r)/
-  def: Passing your work and information to someone else.
-  vi: sự bàn giao
-  examples:
-    - en: I wrote a handover doc with all open tickets.
-      vi: Mình đã viết tài liệu bàn giao kèm mọi ticket đang mở.
-- slug: t18-owner-n
-  lemma: owner
-  pos: noun
-  cefr: B1
-  topic: transport
-  ipa: /ˈəʊnə/
-  def: The person responsible for a task or a system.
-  vi: người phụ trách
-  examples:
-    - en: Every task in the plan needs one owner.
-      vi: Mỗi đầu việc trong kế hoạch cần một người phụ trách.
-- slug: t18-point-of-contact-n
-  lemma: point of contact
-  pos: noun
-  kind: collocation
-  cefr: B2
-  topic: transport
-  ipa: /ˌpɔɪnt əv ˈkɒntækt/
-  def: The one person others should talk to about a subject.
-  vi: đầu mối liên hệ
-  examples:
-    - en: Lan is now the point of contact for the payment API.
-      vi: Lan giờ là đầu mối liên hệ cho API thanh toán.
-- slug: t18-priority-n
-  lemma: priority
-  pos: noun
-  cefr: B1
-  topic: transport
-  ipa: /praɪˈɒrəti/
-  def: Something that is more important and should be done first.
-  vi: ưu tiên
-  examples:
-    - en: Mobile support is the top priority for this sprint.
-      vi: Hỗ trợ mobile là ưu tiên hàng đầu của sprint này.
-- slug: t18-severity-n
-  lemma: severity
-  pos: noun
-  cefr: B2
-  topic: transport
-  ipa: /sɪˈverəti/
-  def: How serious a problem is.
-  vi: mức độ nghiêm trọng
-  examples:
-    - en: Each alert has a severity from low to high.
-      vi: Mỗi cảnh báo có mức độ nghiêm trọng từ thấp đến cao.
-- slug: t18-monitoring-n
-  lemma: monitoring
-  pos: noun
-  cefr: B2
-  topic: transport
-  ipa: /ˈmɒnɪtərɪŋ/
-  def: Watching a system all the time to notice problems.
-  vi: giám sát
-  examples:
-    - en: Better monitoring would have caught this in minutes.
-      vi: Giám sát tốt hơn đã có thể phát hiện việc này trong vài phút.
-- slug: t18-alert-n
-  lemma: alert
-  pos: noun
-  cefr: B1
-  topic: transport
-  ipa: /əˈlɜːt/
-  def: A message that warns people about a problem.
-  vi: cảnh báo
-  examples:
-    - en: Send an alert when the river rises above 3 metres.
-      vi: Gửi cảnh báo khi mực sông lên quá 3 mét.
-- slug: t18-threshold-n
-  lemma: threshold
-  pos: noun
-  cefr: B2
-  topic: transport
-  ipa: /ˈθreʃhəʊld/
-  def: The level at which something starts to happen, such as an alert.
-  vi: ngưỡng
-  examples:
-    - en: Who sets the threshold for each station?
-      vi: Ai đặt ngưỡng cho từng trạm?
-- slug: t18-dashboard-n
-  lemma: dashboard
-  pos: noun
-  cefr: B1
-  topic: transport
-  ipa: /ˈdæʃbɔːd/
-  def: A screen that shows key numbers and charts together.
-  vi: bảng điều khiển
-  examples:
-    - en: The dashboard updates once a day.
-      vi: Dashboard cập nhật mỗi ngày một lần.
-- slug: t18-filter-n
-  lemma: filter
-  pos: noun
-  cefr: B1
-  topic: transport
-  ipa: /ˈfɪltə/
-  def: A control that shows only the items that match certain conditions.
-  vi: bộ lọc
-  examples:
-    - en: Add a filter for station type and status.
-      vi: Thêm bộ lọc theo loại trạm và trạng thái.
-- slug: t18-drill-down-pv
-  lemma: drill down
-  pos: phrasal_verb
-  kind: phrasal
-  cefr: C1
-  topic: transport
-  ipa: /ˌdrɪl ˈdaʊn/
-  def: To move from a summary to more detailed data.
-  vi: đi sâu vào chi tiết
-  examples:
-    - en: Users can drill down from a province to a single station.
-      vi: Người dùng có thể đi sâu từ một tỉnh đến từng trạm.
-- slug: t18-aggregate-v
-  lemma: aggregate
-  pos: verb
-  cefr: C1
-  topic: transport
-  ipa: /ˈæɡrɪɡeɪt/
-  def: To combine many values into one, such as a sum or average.
-  vi: tổng hợp
-  examples:
-    - en: Aggregate the data by day for views longer than a month.
-      vi: Tổng hợp dữ liệu theo ngày cho các khung xem dài hơn một tháng.
-- slug: t18-historical-adj
-  lemma: historical
-  pos: adjective
-  cefr: B2
-  topic: transport
-  ipa: /hɪˈstɒrɪkl/
-  def: Relating to the past.
-  vi: lịch sử, trong quá khứ
-  examples:
-    - en: Historical data older than five years lives in cold storage.
-      vi: Dữ liệu lịch sử hơn năm năm được lưu ở kho lưu trữ lạnh.
-- slug: t18-summary-view-n
-  lemma: summary view
-  pos: noun
-  kind: collocation
-  cefr: B2
-  topic: transport
-  ipa: /ˈsʌməri vjuː/
-  def: A screen that shows the most important information at a glance.
-  vi: màn hình tổng quan
-  examples:
-    - en: The summary view lists only stations that need attention.
-      vi: Màn hình tổng quan chỉ liệt kê các trạm cần chú ý.
-- slug: t18-visibility-n
-  lemma: visibility
-  pos: noun
-  cefr: C1
-  topic: transport
-  ipa: /ˌvɪzəˈbɪləti/
-  def: How much other people notice you and your work.
-  vi: mức độ được biết đến
-  examples:
-    - en: Giving talks increased my visibility in the community.
-      vi: Việc trình bày giúp mình được cộng đồng biết đến nhiều hơn.
-- lemma: reliability
-  pos: noun
-  vi: độ tin cậy hoạt động
-  def: The ability to work correctly and consistently over time.
-  examples:
-    - en: Track reliability as well as response time.
-  slug: t18-reliability-n
-  topic: transport
-  cefr: B1
-- slug: t18-go-live-n
-  lemma: go-live
-  pos: noun
-  cefr: C1
-  topic: transport
-  ipa: /ˌɡəʊ ˈlaɪv/
-  def: The moment a system starts being used for real.
-  vi: thời điểm đưa vào vận hành
-  examples:
-    - en: Go-live is planned before the rainy season.
-      vi: Thời điểm đưa vào vận hành dự kiến trước mùa mưa.
+# Vocabulary by topic: Maps, Logistics & Location-Based Products (unit T18). Original content.
+# Set 1: routes & destinations
+- {
+    slug: route-n,
+    lemma: "route",
+    pos: noun,
+    cefr: A2,
+    topic: transport,
+    ipa: "/ruːt/",
+    def: "The way you go from one place to another.",
+    vi: "tuyến đường",
+    examples:
+      [
+        {
+          en: "The app shows the fastest route from the office to the airport.",
+          vi: "Ứng dụng hiển thị tuyến đường nhanh nhất từ văn phòng ra sân bay.",
+        },
+      ],
+  }
+- {
+    slug: destination-n,
+    lemma: "destination",
+    pos: noun,
+    cefr: A2,
+    topic: transport,
+    ipa: "/ˌdestɪˈneɪʃn/",
+    def: "The place a person or a parcel is going to.",
+    vi: "điểm đến",
+    examples:
+      [
+        {
+          en: "The user must enter a destination before the price appears.",
+          vi: "Người dùng phải nhập điểm đến trước khi giá hiện ra.",
+        },
+      ],
+  }
+- {
+    slug: pickup-point-n,
+    lemma: "pickup point",
+    pos: noun,
+    kind: collocation,
+    cefr: A2,
+    topic: transport,
+    ipa: "/ˈpɪkʌp pɔɪnt/",
+    def: "The place where a driver meets a passenger or collects goods.",
+    vi: "điểm đón",
+    examples:
+      [
+        {
+          en: "Please move the pickup point to the main gate of the building.",
+          vi: "Vui lòng dời điểm đón ra cổng chính của toà nhà.",
+        },
+      ],
+  }
+- {
+    slug: terminus-n,
+    lemma: "terminus",
+    pos: noun,
+    cefr: C1,
+    topic: transport,
+    ipa: "/ˈtɜːmɪnəs/",
+    def: "The last stop at the end of a bus or train line.",
+    vi: "bến cuối, điểm cuối tuyến",
+    examples:
+      [
+        {
+          en: "Line 12 now ends at a new terminus near the tech park.",
+          vi: "Tuyến 12 giờ kết thúc ở bến cuối mới gần khu công nghệ.",
+        },
+      ],
+  }
+- {
+    slug: journey-n,
+    lemma: "journey",
+    pos: noun,
+    cefr: A2,
+    topic: transport,
+    ipa: "/ˈdʒɜːni/",
+    def: "A trip from one place to another, especially a long one.",
+    vi: "hành trình",
+    examples:
+      [
+        {
+          en: "Each journey is saved so riders can check it later.",
+          vi: "Mỗi hành trình đều được lưu để khách xem lại sau.",
+        },
+      ],
+  }
+- {
+    slug: waypoint-n,
+    lemma: "waypoint",
+    pos: noun,
+    cefr: B1,
+    topic: transport,
+    ipa: "/ˈweɪpɔɪnt/",
+    def: "A point you stop at or pass through on the way to the end.",
+    vi: "điểm dừng giữa đường",
+    examples:
+      [
+        {
+          en: "Users can add up to three waypoints to one trip.",
+          vi: "Người dùng có thể thêm tối đa ba điểm dừng cho một chuyến.",
+        },
+      ],
+  }
+- {
+    slug: distance-n,
+    lemma: "distance",
+    pos: noun,
+    cefr: A2,
+    topic: transport,
+    ipa: "/ˈdɪstəns/",
+    def: "How far it is between two places.",
+    vi: "khoảng cách",
+    examples:
+      [
+        {
+          en: "We calculate the fare from the distance and the time.",
+          vi: "Tụi mình tính giá cước theo khoảng cách và thời gian.",
+        },
+      ],
+  }
+- {
+    slug: via-prep,
+    lemma: "via",
+    pos: preposition,
+    cefr: B1,
+    topic: transport,
+    ipa: "/ˈvaɪə/",
+    def: "Going through a place on the way to another place.",
+    vi: "qua, đi qua",
+    examples:
+      [
+        {
+          en: "The bus goes to the city centre via the university.",
+          vi: "Xe buýt vào trung tâm qua ngả trường đại học.",
+        },
+      ],
+  }
+- {
+    slug: detour-n,
+    lemma: "detour",
+    pos: noun,
+    cefr: B1,
+    topic: transport,
+    ipa: "/ˈdiːtʊə/",
+    def: "A longer way you take because the usual road is blocked.",
+    vi: "đường vòng",
+    examples:
+      [
+        {
+          en: "The driver took a detour because the bridge was closed.",
+          vi: "Tài xế đi đường vòng vì cầu bị đóng.",
+        },
+      ],
+  }
+- {
+    slug: one-way-adj,
+    lemma: "one-way",
+    pos: adjective,
+    cefr: B1,
+    topic: transport,
+    ipa: "/ˌwʌn ˈweɪ/",
+    def: "Describing a street where cars may drive in only one direction.",
+    vi: "một chiều",
+    examples:
+      [
+        {
+          en: "The map must not send bikes the wrong way down a one-way street.",
+          vi: "Bản đồ không được dẫn xe máy đi ngược chiều vào đường một chiều.",
+        },
+      ],
+  }
+# Set 2: addresses & coordinates
+- {
+    slug: street-address-n,
+    lemma: "street address",
+    pos: noun,
+    kind: collocation,
+    cefr: A2,
+    topic: transport,
+    ipa: "/ˈstriːt əˌdres/",
+    def: "The number and street name where a building is.",
+    vi: "địa chỉ nhà, số nhà và tên đường",
+    examples:
+      [
+        {
+          en: "The street address field is empty for many old orders.",
+          vi: "Trường địa chỉ nhà bị trống ở nhiều đơn cũ.",
+        },
+      ],
+  }
+- {
+    slug: postcode-n,
+    lemma: "postcode",
+    pos: noun,
+    cefr: A2,
+    topic: transport,
+    ipa: "/ˈpəʊstkəʊd/",
+    def: "A group of letters or numbers added to an address to help sort mail.",
+    vi: "mã bưu chính",
+    examples:
+      [
+        {
+          en: "The form rejects postcodes that have a space in them.",
+          vi: "Form từ chối các mã bưu chính có chứa dấu cách.",
+        },
+      ],
+  }
+- {
+    slug: latitude-n,
+    lemma: "latitude",
+    pos: noun,
+    cefr: B1,
+    topic: transport,
+    ipa: "/ˈlætɪtjuːd/",
+    def: "The position of a place north or south of the equator, given in degrees.",
+    vi: "vĩ độ",
+    examples:
+      [
+        {
+          en: "Latitude must be a number between minus ninety and ninety.",
+          vi: "Vĩ độ phải là số trong khoảng âm chín mươi đến chín mươi.",
+        },
+      ],
+  }
+- {
+    slug: longitude-n,
+    lemma: "longitude",
+    pos: noun,
+    cefr: B1,
+    topic: transport,
+    ipa: "/ˈlɒŋɡɪtjuːd/",
+    def: "The position of a place east or west of a fixed line, given in degrees.",
+    vi: "kinh độ",
+    examples:
+      [
+        {
+          en: "The bug happened because longitude and latitude were swapped.",
+          vi: "Lỗi xảy ra vì kinh độ và vĩ độ bị đảo chỗ.",
+        },
+      ],
+  }
+- {
+    slug: coordinates-n,
+    lemma: "coordinates",
+    pos: noun,
+    cefr: B1,
+    topic: transport,
+    ipa: "/kəʊˈɔːdɪnəts/",
+    def: "The pair of numbers that shows an exact place on a map.",
+    vi: "toạ độ",
+    examples:
+      [
+        {
+          en: "We store the coordinates with six decimal places.",
+          vi: "Tụi mình lưu toạ độ với sáu chữ số thập phân.",
+        },
+      ],
+  }
+- {
+    slug: map-pin-n,
+    lemma: "map pin",
+    pos: noun,
+    kind: collocation,
+    cefr: A2,
+    topic: transport,
+    ipa: "/ˈmæp pɪn/",
+    def: "A small marker that shows a place on a digital map.",
+    vi: "ghim bản đồ",
+    examples:
+      [
+        {
+          en: "The map pin appears in the sea when the address is unclear.",
+          vi: "Ghim bản đồ hiện ở giữa biển khi địa chỉ không rõ.",
+        },
+      ],
+  }
+- {
+    slug: geocode-v,
+    lemma: "geocode",
+    pos: verb,
+    cefr: B2,
+    topic: transport,
+    ipa: "/ˈdʒiːəʊkəʊd/",
+    def: "To turn a written address into map coordinates.",
+    vi: "chuyển địa chỉ thành toạ độ",
+    examples:
+      [
+        {
+          en: "We geocode every new address before saving the order.",
+          vi: "Tụi mình chuyển mọi địa chỉ mới thành toạ độ trước khi lưu đơn.",
+        },
+      ],
+  }
+- {
+    slug: district-n,
+    lemma: "district",
+    pos: noun,
+    cefr: A2,
+    topic: transport,
+    ipa: "/ˈdɪstrɪkt/",
+    def: "An area of a city or country with its own name.",
+    vi: "quận, huyện",
+    examples:
+      [
+        {
+          en: "Some users choose the old district name after the merge.",
+          vi: "Một số người dùng chọn tên quận cũ sau khi sáp nhập.",
+        },
+      ],
+  }
+- {
+    slug: landmark-n,
+    lemma: "landmark",
+    pos: noun,
+    cefr: B1,
+    topic: transport,
+    ipa: "/ˈlændmɑːk/",
+    def: "A building or place that is easy to see and helps you find your way.",
+    vi: "địa danh, điểm mốc",
+    examples:
+      [
+        {
+          en: "Riders often write a landmark, like a market, instead of a number.",
+          vi: "Khách hay ghi một điểm mốc, như cái chợ, thay vì số nhà.",
+        },
+      ],
+  }
+- {
+    slug: misplaced-adj,
+    lemma: "misplaced",
+    pos: adjective,
+    cefr: B2,
+    topic: transport,
+    ipa: "/ˌmɪsˈpleɪst/",
+    def: "Put in the wrong position.",
+    vi: "đặt sai chỗ",
+    examples:
+      [
+        {
+          en: "The misplaced pin sent the driver to the next street.",
+          vi: "Cái ghim đặt sai chỗ khiến tài xế chạy sang đường bên cạnh.",
+        },
+      ],
+  }
+- {
+    slug: building-number-n,
+    lemma: "building number",
+    pos: noun,
+    kind: collocation,
+    cefr: A2,
+    topic: transport,
+    ipa: "/ˈbɪldɪŋ ˌnʌmbə/",
+    def: "The number that shows which building on a street it is.",
+    vi: "số nhà",
+    examples:
+      [
+        {
+          en: "Alleys make the building number hard to find in Hanoi.",
+          vi: "Ngõ hẻm khiến số nhà ở Hà Nội khó tìm.",
+        },
+      ],
+  }
+- {
+    slug: autocomplete-n,
+    lemma: "autocomplete",
+    pos: noun,
+    cefr: B1,
+    topic: transport,
+    ipa: "/ˈɔːtəʊkəmpliːt/",
+    def: "A feature that suggests the rest of what you are typing.",
+    vi: "tự động gợi ý hoàn thành",
+    examples:
+      [
+        {
+          en: "Address autocomplete is slow on mobile data.",
+          vi: "Gợi ý địa chỉ tự động chạy chậm khi dùng dữ liệu di động.",
+        },
+      ],
+  }
+# Set 3: booking & confirmation
+- {
+    slug: booking-n,
+    lemma: "booking",
+    pos: noun,
+    cefr: A2,
+    topic: transport,
+    ipa: "/ˈbʊkɪŋ/",
+    def: "An arrangement to have a seat, room or service at a certain time.",
+    vi: "lượt đặt chỗ",
+    examples:
+      [
+        {
+          en: "The booking stays open until a driver accepts it.",
+          vi: "Lượt đặt chỗ vẫn mở cho đến khi có tài xế nhận.",
+        },
+      ],
+  }
+- {
+    slug: reserve-v,
+    lemma: "reserve",
+    pos: verb,
+    cefr: B1,
+    topic: transport,
+    ipa: "/rɪˈzɜːv/",
+    def: "To keep something for a person to use later.",
+    vi: "giữ chỗ, đặt trước",
+    examples:
+      [
+        {
+          en: "The system reserves the seat for ten minutes during payment.",
+          vi: "Hệ thống giữ ghế trong mười phút khi thanh toán.",
+        },
+      ],
+  }
+- {
+    slug: confirmation-code-n,
+    lemma: "confirmation code",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: transport,
+    ipa: "/ˌkɒnfəˈmeɪʃn kəʊd/",
+    def: "A short code that proves a booking has been made.",
+    vi: "mã xác nhận",
+    examples:
+      [
+        {
+          en: "Show the confirmation code in large text on the ticket screen.",
+          vi: "Hiện mã xác nhận chữ to trên màn hình vé.",
+        },
+      ],
+  }
+- {
+    slug: fare-n,
+    lemma: "fare",
+    pos: noun,
+    cefr: A2,
+    topic: transport,
+    ipa: "/feə/",
+    def: "The money you pay for a trip by bus, taxi, train or plane.",
+    vi: "giá vé, cước",
+    examples:
+      [
+        {
+          en: "The fare changes if the rider adds another stop.",
+          vi: "Giá cước thay đổi nếu khách thêm điểm dừng.",
+        },
+      ],
+  }
+- {
+    slug: passenger-n,
+    lemma: "passenger",
+    pos: noun,
+    cefr: A2,
+    topic: transport,
+    ipa: "/ˈpæsɪndʒə/",
+    def: "A person travelling in a vehicle who is not driving it.",
+    vi: "hành khách",
+    examples:
+      [{ en: "Each car can take up to four passengers.", vi: "Mỗi xe chở tối đa bốn hành khách." }],
+  }
+- {
+    slug: ride-hailing-n,
+    lemma: "ride-hailing",
+    pos: noun,
+    cefr: B2,
+    topic: transport,
+    ipa: "/ˈraɪd ˌheɪlɪŋ/",
+    def: "A service where you book a car and driver through an app.",
+    vi: "gọi xe công nghệ",
+    examples:
+      [
+        {
+          en: "Our ride-hailing app is busiest on rainy evenings.",
+          vi: "Ứng dụng gọi xe của tụi mình đông nhất vào tối mưa.",
+        },
+      ],
+  }
+- {
+    slug: awaiting-payment-phr,
+    lemma: "awaiting payment",
+    pos: phrase,
+    kind: phrase,
+    cefr: B1,
+    topic: transport,
+    ipa: "/əˌweɪtɪŋ ˈpeɪmənt/",
+    def: "Not yet paid, so not yet complete.",
+    vi: "đang chờ thanh toán",
+    examples:
+      [
+        {
+          en: "The booking shows awaiting payment until the bank replies.",
+          vi: "Lượt đặt hiện đang chờ thanh toán cho đến khi ngân hàng phản hồi.",
+        },
+      ],
+  }
+- {
+    slug: assign-v-t18,
+    lemma: "assign",
+    pos: verb,
+    cefr: B1,
+    topic: transport,
+    ipa: "/əˈsaɪn/",
+    def: "To give a job or a person to someone or something.",
+    vi: "phân công, gán",
+    examples:
+      [
+        {
+          en: "The server assigns the nearest free driver to the trip.",
+          vi: "Máy chủ gán tài xế rảnh gần nhất cho chuyến đi.",
+        },
+      ],
+  }
+- {
+    slug: surge-pricing-n,
+    lemma: "surge pricing",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: transport,
+    ipa: "/ˈsɜːdʒ ˌpraɪsɪŋ/",
+    def: "Higher prices that apply when many people want a service at once.",
+    vi: "giá tăng giờ cao điểm",
+    examples:
+      [
+        {
+          en: "Tell the user clearly when surge pricing is on.",
+          vi: "Hãy báo rõ cho người dùng khi đang áp dụng giá cao điểm.",
+        },
+      ],
+  }
+- {
+    slug: seat-map-n,
+    lemma: "seat map",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: transport,
+    ipa: "/ˈsiːt mæp/",
+    def: "A plan of a vehicle that shows which seats are free.",
+    vi: "sơ đồ ghế",
+    examples:
+      [
+        {
+          en: "The seat map does not refresh after another user books.",
+          vi: "Sơ đồ ghế không làm mới sau khi người khác đặt.",
+        },
+      ],
+  }
+- {
+    slug: vacancy-n,
+    lemma: "vacancy",
+    pos: noun,
+    cefr: B2,
+    topic: transport,
+    ipa: "/ˈveɪkənsi/",
+    def: "A free room or place that someone can still book.",
+    vi: "chỗ trống",
+    examples:
+      [
+        {
+          en: "The shuttle shows no vacancies after eight people book.",
+          vi: "Xe đưa đón báo hết chỗ trống sau khi tám người đặt.",
+        },
+      ],
+  }
+- {
+    slug: waitlist-n,
+    lemma: "waitlist",
+    pos: noun,
+    cefr: B2,
+    topic: transport,
+    ipa: "/ˈweɪtlɪst/",
+    def: "A list of people who want a place if one becomes free.",
+    vi: "danh sách chờ",
+    examples:
+      [
+        {
+          en: "When the shuttle is full, riders can join the waitlist.",
+          vi: "Khi xe đưa đón đầy, khách có thể vào danh sách chờ.",
+        },
+      ],
+  }
+- {
+    slug: in-advance-phr-t18,
+    lemma: "in advance",
+    pos: phrase,
+    kind: phrase,
+    cefr: B1,
+    topic: transport,
+    ipa: "/ɪn ədˈvɑːns/",
+    def: "Before a certain time or event.",
+    vi: "trước, đặt trước",
+    examples:
+      [
+        {
+          en: "Airport rides can be booked up to a week in advance.",
+          vi: "Chuyến ra sân bay có thể đặt trước tối đa một tuần.",
+        },
+      ],
+  }
+- {
+    slug: e-ticket-n,
+    lemma: "e-ticket",
+    pos: noun,
+    cefr: B1,
+    topic: transport,
+    ipa: "/ˈiː ˌtɪkɪt/",
+    def: "A ticket that you keep on your phone or computer, not on paper.",
+    vi: "vé điện tử",
+    examples:
+      [
+        {
+          en: "The e-ticket is emailed as soon as the booking is confirmed.",
+          vi: "Vé điện tử được gửi qua email ngay khi đặt chỗ được xác nhận.",
+        },
+      ],
+  }
+# Set 4: delivery status
+- {
+    slug: parcel-n,
+    lemma: "parcel",
+    pos: noun,
+    cefr: A2,
+    topic: transport,
+    ipa: "/ˈpɑːsl/",
+    def: "A thing wrapped in paper or a box so it can be sent.",
+    vi: "bưu kiện, gói hàng",
+    examples:
+      [
+        {
+          en: "The parcel is still at the sorting centre.",
+          vi: "Gói hàng vẫn đang ở trung tâm phân loại.",
+        },
+      ],
+  }
+- {
+    slug: postal-service-n,
+    lemma: "postal service",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: transport,
+    ipa: "/ˈpəʊstl ˌsɜːvɪs/",
+    def: "The national system that collects and delivers letters and parcels.",
+    vi: "dịch vụ bưu chính",
+    examples:
+      [
+        {
+          en: "Small towns are covered only by the postal service.",
+          vi: "Các thị trấn nhỏ chỉ có dịch vụ bưu chính phục vụ.",
+        },
+      ],
+  }
+- {
+    slug: dispatch-v,
+    lemma: "dispatch",
+    pos: verb,
+    cefr: B2,
+    topic: transport,
+    ipa: "/dɪˈspætʃ/",
+    def: "To send goods or a person somewhere for a purpose.",
+    vi: "gửi đi, điều đi",
+    examples:
+      [
+        {
+          en: "Orders placed before noon are dispatched the same day.",
+          vi: "Đơn đặt trước trưa sẽ được gửi đi trong ngày.",
+        },
+      ],
+  }
+- {
+    slug: in-transit-phr,
+    lemma: "in transit",
+    pos: phrase,
+    kind: phrase,
+    cefr: B2,
+    topic: transport,
+    ipa: "/ɪn ˈtrænzɪt/",
+    def: "Being moved from one place to another at the moment.",
+    vi: "đang vận chuyển",
+    examples:
+      [
+        {
+          en: 'The status changes to "in transit" when the truck leaves.',
+          vi: 'Trạng thái chuyển sang "đang vận chuyển" khi xe tải rời kho.',
+        },
+      ],
+  }
+- {
+    slug: out-for-delivery-phr,
+    lemma: "out for delivery",
+    pos: phrase,
+    kind: phrase,
+    cefr: B1,
+    topic: transport,
+    ipa: "/aʊt fə dɪˈlɪvəri/",
+    def: "Being carried by the driver on the last trip to the customer.",
+    vi: "đang đi giao",
+    examples:
+      [
+        {
+          en: "Send a push message when the order is out for delivery.",
+          vi: "Gửi thông báo khi đơn đang đi giao.",
+        },
+      ],
+  }
+- {
+    slug: delivered-adj,
+    lemma: "delivered",
+    pos: adjective,
+    cefr: A2,
+    topic: transport,
+    ipa: "/dɪˈlɪvəd/",
+    def: "Already brought to the person it was sent to.",
+    vi: "đã giao",
+    examples:
+      [
+        {
+          en: 'The order showed "delivered" but the box never arrived.',
+          vi: 'Đơn hiện "đã giao" nhưng hộp chưa bao giờ tới.',
+        },
+      ],
+  }
+- {
+    slug: sign-for-pv,
+    lemma: "sign for",
+    pos: phrasal_verb,
+    kind: phrasal,
+    cefr: B1,
+    topic: transport,
+    ipa: "/ˈsaɪn fɔː/",
+    def: "To write your name to show you have received something.",
+    vi: "ký nhận",
+    examples:
+      [
+        {
+          en: "Expensive items must be signed for by the buyer.",
+          vi: "Hàng đắt tiền phải được người mua ký nhận.",
+        },
+      ],
+  }
+- {
+    slug: warehouse-n,
+    lemma: "warehouse",
+    pos: noun,
+    cefr: B1,
+    topic: transport,
+    ipa: "/ˈweəhaʊs/",
+    def: "A large building where goods are stored before they are sent.",
+    vi: "nhà kho",
+    examples:
+      [
+        {
+          en: "Stock levels are synced from the warehouse every hour.",
+          vi: "Số tồn kho được đồng bộ từ nhà kho mỗi giờ.",
+        },
+      ],
+  }
+- {
+    slug: shipment-n,
+    lemma: "shipment",
+    pos: noun,
+    cefr: B2,
+    topic: transport,
+    ipa: "/ˈʃɪpmənt/",
+    def: "A group of goods that are sent together.",
+    vi: "lô hàng",
+    examples:
+      [{ en: "One shipment can contain several orders.", vi: "Một lô hàng có thể gồm nhiều đơn." }],
+  }
+- {
+    slug: hand-over-pv,
+    lemma: "hand over",
+    pos: phrasal_verb,
+    kind: phrasal,
+    cefr: B1,
+    topic: transport,
+    ipa: "/ˌhænd ˈəʊvə/",
+    def: "To give something to another person so they are now responsible.",
+    vi: "bàn giao",
+    examples:
+      [
+        {
+          en: "The shop hands over the package to the driver at 9 a.m.",
+          vi: "Cửa hàng bàn giao gói hàng cho tài xế lúc 9 giờ sáng.",
+        },
+      ],
+  }
+- {
+    slug: front-gate-n,
+    lemma: "front gate",
+    pos: noun,
+    kind: collocation,
+    cefr: A2,
+    topic: transport,
+    ipa: "/ˌfrʌnt ˈɡeɪt/",
+    def: "The main gate at the entrance of a house or building.",
+    vi: "cổng trước",
+    examples:
+      [
+        {
+          en: "The driver waited at the front gate for five minutes.",
+          vi: "Tài xế đợi ở cổng trước năm phút.",
+        },
+      ],
+  }
+- {
+    slug: proof-of-delivery-n,
+    lemma: "proof of delivery",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: transport,
+    ipa: "/ˌpruːf əv dɪˈlɪvəri/",
+    def: "A photo, signature or code that shows an item was received.",
+    vi: "bằng chứng giao hàng",
+    examples:
+      [
+        {
+          en: "Proof of delivery is required before we pay the courier.",
+          vi: "Cần có bằng chứng giao hàng trước khi trả tiền cho đơn vị giao.",
+        },
+      ],
+  }
+- {
+    slug: failed-attempt-n,
+    lemma: "failed attempt",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: transport,
+    ipa: "/ˌfeɪld əˈtempt/",
+    def: "A try that did not succeed, such as a delivery nobody received.",
+    vi: "lần giao không thành công",
+    examples:
+      [
+        {
+          en: "After a failed attempt, the app asks for a new time.",
+          vi: "Sau một lần giao không thành công, ứng dụng hỏi giờ giao mới.",
+        },
+      ],
+  }
+- {
+    slug: addressee-n,
+    lemma: "addressee",
+    pos: noun,
+    cefr: C1,
+    topic: transport,
+    ipa: "/ˌædreˈsiː/",
+    def: "The person whose name is on a letter or parcel.",
+    vi: "người nhận (ghi trên bưu kiện)",
+    examples:
+      [
+        {
+          en: "Only the addressee can change the delivery address.",
+          vi: "Chỉ người nhận ghi trên đơn mới được đổi địa chỉ giao.",
+        },
+      ],
+  }
+- {
+    slug: sender-n,
+    lemma: "sender",
+    pos: noun,
+    cefr: B1,
+    topic: transport,
+    ipa: "/ˈsendə/",
+    def: "The person or company that sends something.",
+    vi: "người gửi",
+    examples:
+      [
+        {
+          en: "The sender gets an email when the parcel arrives.",
+          vi: "Người gửi nhận email khi gói hàng tới nơi.",
+        },
+      ],
+  }
+- {
+    slug: shipping-label-n,
+    lemma: "shipping label",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: transport,
+    ipa: "/ˈʃɪpɪŋ ˌleɪbl/",
+    def: "A sticker on a package with the address and a barcode.",
+    vi: "nhãn vận chuyển",
+    examples:
+      [
+        {
+          en: "The shipping label prints the wrong phone number.",
+          vi: "Nhãn vận chuyển in sai số điện thoại.",
+        },
+      ],
+  }
+# Set 5: estimated arrival times
+- {
+    slug: eta-n,
+    lemma: "ETA",
+    pos: noun,
+    cefr: B1,
+    topic: transport,
+    ipa: "/ˌiː tiː ˈeɪ/",
+    def: "The time when someone or something is expected to arrive.",
+    vi: "giờ đến dự kiến",
+    examples:
+      [
+        {
+          en: "The ETA jumps from five to fifteen minutes in heavy rain.",
+          vi: "Giờ đến dự kiến nhảy từ năm lên mười lăm phút khi mưa to.",
+        },
+      ],
+  }
+- {
+    slug: arrive-v,
+    lemma: "arrive",
+    pos: verb,
+    cefr: A1,
+    topic: transport,
+    ipa: "/əˈraɪv/",
+    def: "To reach a place at the end of a trip.",
+    vi: "đến nơi",
+    examples:
+      [
+        {
+          en: "The driver will arrive in about three minutes.",
+          vi: "Tài xế sẽ đến trong khoảng ba phút.",
+        },
+      ],
+  }
+- {
+    slug: depart-v,
+    lemma: "depart",
+    pos: verb,
+    cefr: B1,
+    topic: transport,
+    ipa: "/dɪˈpɑːt/",
+    def: "To leave a place, especially to start a trip.",
+    vi: "khởi hành",
+    examples:
+      [
+        {
+          en: "Show the time the train departs, not when boarding starts.",
+          vi: "Hiển thị giờ tàu khởi hành, không phải giờ bắt đầu lên tàu.",
+        },
+      ],
+  }
+- {
+    slug: rush-hour-n,
+    lemma: "rush hour",
+    pos: noun,
+    kind: collocation,
+    cefr: A2,
+    topic: transport,
+    ipa: "/ˈrʌʃ aʊə/",
+    def: "The busy time of day when many people travel to or from work.",
+    vi: "giờ cao điểm",
+    examples:
+      [
+        {
+          en: "Our ETA model is least accurate during rush hour.",
+          vi: "Mô hình ETA của tụi mình kém chính xác nhất vào giờ cao điểm.",
+        },
+      ],
+  }
+- {
+    slug: bus-lane-n,
+    lemma: "bus lane",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: transport,
+    ipa: "/ˈbʌs leɪn/",
+    def: "A part of a road that only buses may use.",
+    vi: "làn xe buýt",
+    examples:
+      [
+        {
+          en: "Routing must not send cars into the bus lane.",
+          vi: "Định tuyến không được đưa ô tô vào làn xe buýt.",
+        },
+      ],
+  }
+- {
+    slug: give-or-take-phr,
+    lemma: "give or take",
+    pos: phrase,
+    kind: phrase,
+    cefr: B2,
+    topic: transport,
+    ipa: "/ˌɡɪv ɔː ˈteɪk/",
+    def: "Used to say a number may be a little more or less.",
+    vi: "xê dịch chút ít",
+    examples:
+      [
+        {
+          en: "The bus comes every ten minutes, give or take.",
+          vi: "Xe buýt tới khoảng mười phút một chuyến, xê dịch chút ít.",
+        },
+      ],
+  }
+- {
+    slug: on-the-dot-phr,
+    lemma: "on the dot",
+    pos: phrase,
+    kind: phrase,
+    cefr: B2,
+    topic: transport,
+    ipa: "/ˌɒn ðə ˈdɒt/",
+    def: "At exactly the stated time.",
+    vi: "đúng giờ chính xác",
+    examples:
+      [
+        {
+          en: "The airport shuttle leaves at 7 a.m. on the dot.",
+          vi: "Xe ra sân bay chạy đúng 7 giờ sáng.",
+        },
+      ],
+  }
+- {
+    slug: timetable-n,
+    lemma: "timetable",
+    pos: noun,
+    cefr: A2,
+    topic: transport,
+    ipa: "/ˈtaɪmteɪbl/",
+    def: "A list of the times when buses, trains or planes leave and arrive.",
+    vi: "lịch chạy, thời gian biểu",
+    examples:
+      [
+        {
+          en: "We import the bus timetable from the city every night.",
+          vi: "Tụi mình nhập lịch chạy xe buýt từ thành phố mỗi đêm.",
+        },
+      ],
+  }
+- {
+    slug: frequency-n,
+    lemma: "frequency",
+    pos: noun,
+    cefr: B2,
+    topic: transport,
+    ipa: "/ˈfriːkwənsi/",
+    def: "How often something happens, for example how often a bus comes.",
+    vi: "tần suất",
+    examples:
+      [
+        {
+          en: "The app shows the frequency of each line, such as every ten minutes.",
+          vi: "Ứng dụng hiển thị tần suất từng tuyến, ví dụ mười phút một chuyến.",
+        },
+      ],
+  }
+- {
+    slug: off-peak-adj,
+    lemma: "off-peak",
+    pos: adjective,
+    cefr: B2,
+    topic: transport,
+    ipa: "/ˌɒf ˈpiːk/",
+    def: "Happening at a time when fewer people travel and prices are lower.",
+    vi: "ngoài giờ cao điểm",
+    examples:
+      [
+        {
+          en: "Off-peak fares start after 8 p.m.",
+          vi: "Giá vé ngoài giờ cao điểm bắt đầu sau 8 giờ tối.",
+        },
+      ],
+  }
+- {
+    slug: travel-time-n,
+    lemma: "travel time",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: transport,
+    ipa: "/ˈtrævl taɪm/",
+    def: "How long it takes to go from one place to another.",
+    vi: "thời gian di chuyển",
+    examples:
+      [
+        {
+          en: "Travel time depends on the traffic, not only the distance.",
+          vi: "Thời gian di chuyển phụ thuộc vào giao thông, không chỉ quãng đường.",
+        },
+      ],
+  }
+- {
+    slug: live-traffic-n,
+    lemma: "live traffic",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: transport,
+    ipa: "/ˌlaɪv ˈtræfɪk/",
+    def: "Information about road conditions that updates as things happen.",
+    vi: "giao thông trực tiếp",
+    examples:
+      [
+        {
+          en: "The ETA uses live traffic data from a partner API.",
+          vi: "ETA dùng dữ liệu giao thông trực tiếp từ API của đối tác.",
+        },
+      ],
+  }
+- {
+    slug: recalculate-v,
+    lemma: "recalculate",
+    pos: verb,
+    cefr: B2,
+    topic: transport,
+    ipa: "/ˌriːˈkælkjuleɪt/",
+    def: "To work out a number or a route again.",
+    vi: "tính lại",
+    examples:
+      [
+        {
+          en: "The route is recalculated when the driver misses a turn.",
+          vi: "Tuyến đường được tính lại khi tài xế bỏ lỡ chỗ rẽ.",
+        },
+      ],
+  }
+- {
+    slug: buffer-n,
+    lemma: "buffer",
+    pos: noun,
+    cefr: B2,
+    topic: transport,
+    ipa: "/ˈbʌfə/",
+    def: "Extra time added to a plan in case something goes wrong.",
+    vi: "thời gian dự phòng",
+    examples:
+      [
+        {
+          en: "We add a five-minute buffer to every airport ETA.",
+          vi: "Tụi mình cộng năm phút dự phòng vào mọi ETA ra sân bay.",
+        },
+      ],
+  }
+- {
+    slug: speed-limit-n,
+    lemma: "speed limit",
+    pos: noun,
+    kind: collocation,
+    cefr: A2,
+    topic: transport,
+    ipa: "/ˈspiːd ˌlɪmɪt/",
+    def: "The fastest speed that is allowed on a road.",
+    vi: "giới hạn tốc độ",
+    examples:
+      [
+        {
+          en: "The app warns drivers when they go over the speed limit.",
+          vi: "Ứng dụng cảnh báo tài xế khi chạy quá tốc độ cho phép.",
+        },
+      ],
+  }
+- {
+    slug: intersection-n,
+    lemma: "intersection",
+    pos: noun,
+    cefr: B1,
+    topic: transport,
+    ipa: "/ˌɪntəˈsekʃn/",
+    def: "A place where two or more roads cross.",
+    vi: "giao lộ, ngã tư",
+    examples:
+      [
+        {
+          en: "Waiting at a busy intersection adds a minute to the ETA.",
+          vi: "Chờ ở một giao lộ đông xe làm ETA tăng thêm một phút.",
+        },
+      ],
+  }
+- {
+    slug: road-closure-n,
+    lemma: "road closure",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: transport,
+    ipa: "/ˈrəʊd ˌkləʊʒə/",
+    def: "A time when a road cannot be used, for example because of works.",
+    vi: "cấm đường",
+    examples:
+      [
+        {
+          en: "Road closures for the marathon are loaded into the map on Friday.",
+          vi: "Lịch cấm đường cho giải marathon được nạp vào bản đồ hôm thứ Sáu.",
+        },
+      ],
+  }
+- {
+    slug: hold-up-n,
+    lemma: "hold-up",
+    pos: noun,
+    cefr: B2,
+    topic: transport,
+    ipa: "/ˈhəʊld ʌp/",
+    def: "Something that makes you late, such as heavy traffic.",
+    vi: "sự cản trở, chậm trễ",
+    examples:
+      [
+        {
+          en: "There's a hold-up on the bridge, so expect a later ETA.",
+          vi: "Trên cầu đang ùn, nên ETA sẽ muộn hơn.",
+        },
+      ],
+  }
+# Set 6: delays & cancellations
+- {
+    slug: late-departure-n,
+    lemma: "late departure",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: transport,
+    ipa: "/ˌleɪt dɪˈpɑːtʃə/",
+    def: "A bus, train or plane leaving after its planned time.",
+    vi: "khởi hành muộn",
+    examples:
+      [
+        {
+          en: "Send riders a message about any late departure over ten minutes.",
+          vi: "Gửi tin cho khách về mọi chuyến khởi hành muộn quá mười phút.",
+        },
+      ],
+  }
+- {
+    slug: call-off-pv,
+    lemma: "call off",
+    pos: phrasal_verb,
+    kind: phrasal,
+    cefr: B1,
+    topic: transport,
+    ipa: "/ˌkɔːl ˈɒf/",
+    def: "To decide that a planned event or trip will not happen.",
+    vi: "huỷ bỏ (sự kiện, chuyến)",
+    examples:
+      [{ en: "The ferry was called off because of the storm.", vi: "Chuyến phà bị huỷ vì bão." }],
+  }
+- {
+    slug: cancellation-fee-n,
+    lemma: "cancellation fee",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: transport,
+    ipa: "/ˌkænsəˈleɪʃn fiː/",
+    def: "Money you pay if you cancel a booking late.",
+    vi: "phí huỷ",
+    examples:
+      [
+        {
+          en: "No cancellation fee is charged in the first two minutes.",
+          vi: "Không tính phí huỷ trong hai phút đầu.",
+        },
+      ],
+  }
+- {
+    slug: reimburse-v-t18,
+    lemma: "reimburse",
+    pos: verb,
+    cefr: C1,
+    topic: transport,
+    ipa: "/ˌriːɪmˈbɜːs/",
+    def: "To pay back money that someone has spent or lost.",
+    vi: "hoàn trả, bồi hoàn",
+    examples:
+      [
+        {
+          en: "We reimburse the rider if the driver never arrives.",
+          vi: "Tụi mình hoàn tiền cho khách nếu tài xế không bao giờ tới.",
+        },
+      ],
+  }
+- {
+    slug: push-back-pv,
+    lemma: "push back",
+    pos: phrasal_verb,
+    kind: phrasal,
+    cefr: B2,
+    topic: transport,
+    ipa: "/ˌpʊʃ ˈbæk/",
+    def: "To move an event or time to later than planned.",
+    vi: "lùi lại",
+    examples:
+      [{ en: "The flight was pushed back by two hours.", vi: "Chuyến bay bị lùi lại hai tiếng." }],
+  }
+- {
+    slug: engine-failure-n,
+    lemma: "engine failure",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: transport,
+    ipa: "/ˈendʒɪn ˌfeɪljə/",
+    def: "A situation in which a vehicle's motor stops working.",
+    vi: "hỏng động cơ",
+    examples:
+      [
+        {
+          en: "The trip ended early because of an engine failure.",
+          vi: "Chuyến đi kết thúc sớm vì xe hỏng động cơ.",
+        },
+      ],
+  }
+- {
+    slug: flat-tyre-n,
+    lemma: "flat tyre",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: transport,
+    ipa: "/ˌflæt ˈtaɪə/",
+    def: "A wheel with no air in it.",
+    vi: "lốp xẹp, thủng lốp",
+    examples:
+      [
+        {
+          en: "The driver reported a flat tyre and asked us to reassign the order.",
+          vi: "Tài xế báo thủng lốp và nhờ tụi mình chuyển đơn cho người khác.",
+        },
+      ],
+  }
+- {
+    slug: goodwill-credit-n,
+    lemma: "goodwill credit",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: transport,
+    ipa: "/ˌɡʊdwɪl ˈkredɪt/",
+    def: "Money added to a user's account to say sorry for a problem.",
+    vi: "tín dụng xin lỗi khách",
+    examples:
+      [
+        {
+          en: "Support can add goodwill credit after a very late trip.",
+          vi: "Bộ phận hỗ trợ có thể cộng tín dụng xin lỗi sau một chuyến quá trễ.",
+        },
+      ],
+  }
+- {
+    slug: tow-v,
+    lemma: "tow",
+    pos: verb,
+    cefr: B2,
+    topic: transport,
+    ipa: "/təʊ/",
+    def: "To pull a car or other vehicle behind another one.",
+    vi: "kéo (xe)",
+    examples:
+      [
+        {
+          en: "The van was towed to a garage, so the parcels will be late.",
+          vi: "Xe tải nhỏ bị kéo về gara nên các gói hàng sẽ đến trễ.",
+        },
+      ],
+  }
+- {
+    slug: waive-v-t18,
+    lemma: "waive",
+    pos: verb,
+    cefr: C1,
+    topic: transport,
+    ipa: "/weɪv/",
+    def: "To choose not to make someone pay or follow a rule.",
+    vi: "miễn (phí, quy định)",
+    examples:
+      [
+        {
+          en: "We waive the fee when the cancellation is our fault.",
+          vi: "Tụi mình miễn phí khi lỗi huỷ là của tụi mình.",
+        },
+      ],
+  }
+- {
+    slug: grace-period-n-t18,
+    lemma: "grace period",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: transport,
+    ipa: "/ˈɡreɪs ˌpɪəriəd/",
+    def: "Extra time allowed before a rule or charge starts.",
+    vi: "thời gian ân hạn",
+    examples:
+      [
+        {
+          en: "Riders have a three-minute grace period before waiting time is charged.",
+          vi: "Khách có ba phút ân hạn trước khi bị tính phí chờ.",
+        },
+      ],
+  }
+- {
+    slug: free-of-charge-phr,
+    lemma: "free of charge",
+    pos: phrase,
+    kind: phrase,
+    cefr: B1,
+    topic: transport,
+    ipa: "/ˌfriː əv ˈtʃɑːdʒ/",
+    def: "Without having to pay.",
+    vi: "miễn phí",
+    examples:
+      [{ en: "Changing the pickup time is free of charge.", vi: "Đổi giờ đón được miễn phí." }],
+  }
+- {
+    slug: disruption-n,
+    lemma: "disruption",
+    pos: noun,
+    cefr: B2,
+    topic: transport,
+    ipa: "/dɪsˈrʌpʃn/",
+    def: "A problem that stops a service from working as usual.",
+    vi: "sự gián đoạn",
+    examples:
+      [
+        {
+          en: "There is disruption on the metro line this morning.",
+          vi: "Sáng nay tuyến metro đang bị gián đoạn.",
+        },
+      ],
+  }
+- {
+    slug: strike-n,
+    lemma: "strike",
+    pos: noun,
+    cefr: B2,
+    topic: transport,
+    ipa: "/straɪk/",
+    def: "A time when workers stop working to protest.",
+    vi: "cuộc đình công",
+    examples:
+      [
+        {
+          en: "The train strike doubled the number of ride requests.",
+          vi: "Cuộc đình công đường sắt làm lượng gọi xe tăng gấp đôi.",
+        },
+      ],
+  }
+- {
+    slug: weather-warning-n,
+    lemma: "weather warning",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: transport,
+    ipa: "/ˈweðə ˌwɔːnɪŋ/",
+    def: "An official message that bad weather is coming.",
+    vi: "cảnh báo thời tiết",
+    examples:
+      [
+        {
+          en: "Show a banner when there is a weather warning in the city.",
+          vi: "Hiển thị banner khi thành phố có cảnh báo thời tiết.",
+        },
+      ],
+  }
+- {
+    slug: missed-connection-n,
+    lemma: "missed connection",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: transport,
+    ipa: "/ˌmɪst kəˈnekʃn/",
+    def: "A second bus, train or flight you could not catch because the first was late.",
+    vi: "lỡ chuyến nối",
+    examples:
+      [
+        {
+          en: "The app suggests a new train after a missed connection.",
+          vi: "Ứng dụng gợi ý chuyến tàu mới khi khách lỡ chuyến nối.",
+        },
+      ],
+  }
+- {
+    slug: alternative-route-n,
+    lemma: "alternative route",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: transport,
+    ipa: "/ɔːlˌtɜːnətɪv ˈruːt/",
+    def: "A different way to reach the same place.",
+    vi: "tuyến đường thay thế",
+    examples:
+      [
+        {
+          en: "Offer an alternative route when the main road is flooded.",
+          vi: "Đề xuất tuyến đường thay thế khi đường chính bị ngập.",
+        },
+      ],
+  }
+- {
+    slug: travel-credit-n,
+    lemma: "travel credit",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: transport,
+    ipa: "/ˈtrævl ˌkredɪt/",
+    def: "Money in an app account that can be used only for future trips.",
+    vi: "tín dụng đi lại",
+    examples:
+      [
+        {
+          en: "The refund is paid as travel credit, not cash.",
+          vi: "Tiền hoàn được trả dưới dạng tín dụng đi lại, không phải tiền mặt.",
+        },
+      ],
+  }
+- {
+    slug: overbooked-adj,
+    lemma: "overbooked",
+    pos: adjective,
+    cefr: B2,
+    topic: transport,
+    ipa: "/ˌəʊvəˈbʊkt/",
+    def: "Having more bookings than there are seats or places.",
+    vi: "bán quá số chỗ",
+    examples:
+      [
+        {
+          en: "The bus was overbooked because two servers sold the same seat.",
+          vi: "Xe buýt bị bán quá chỗ vì hai máy chủ cùng bán một ghế.",
+        },
+      ],
+  }
+- {
+    slug: stranded-adj,
+    lemma: "stranded",
+    pos: adjective,
+    cefr: B2,
+    topic: transport,
+    ipa: "/ˈstrændɪd/",
+    def: "Unable to leave a place because there is no transport.",
+    vi: "mắc kẹt",
+    examples:
+      [
+        {
+          en: "Riders were stranded at the airport when the app went down.",
+          vi: "Khách bị mắc kẹt ở sân bay khi ứng dụng sập.",
+        },
+      ],
+  }
+# Set 7: location permissions
+- {
+    slug: location-access-n,
+    lemma: "location access",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: transport,
+    ipa: "/ləʊˈkeɪʃn ˌækses/",
+    def: "Permission for an app to know where the device is.",
+    vi: "quyền truy cập vị trí",
+    examples:
+      [
+        {
+          en: 'Ask for location access only when the user taps "Find drivers".',
+          vi: 'Chỉ xin quyền vị trí khi người dùng bấm "Tìm tài xế".',
+        },
+      ],
+  }
+- {
+    slug: pinpoint-v-t18,
+    lemma: "pinpoint",
+    pos: verb,
+    cefr: C1,
+    topic: transport,
+    ipa: "/ˈpɪnpɔɪnt/",
+    def: "To find or show the exact position of something.",
+    vi: "xác định chính xác vị trí",
+    examples:
+      [
+        {
+          en: "GPS can pinpoint the phone to within five metres.",
+          vi: "GPS có thể xác định vị trí điện thoại chính xác trong vòng năm mét.",
+        },
+      ],
+  }
+- {
+    slug: approximate-location-n,
+    lemma: "approximate location",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: transport,
+    ipa: "/əˌprɒksɪmət ləʊˈkeɪʃn/",
+    def: "A location that is only near the real one, not exact.",
+    vi: "vị trí gần đúng",
+    examples:
+      [
+        {
+          en: "With approximate location, we can show the city but not the street.",
+          vi: "Với vị trí gần đúng, mình hiển thị được thành phố nhưng không ra đường.",
+        },
+      ],
+  }
+- {
+    slug: background-location-n,
+    lemma: "background location",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: transport,
+    ipa: "/ˌbækɡraʊnd ləʊˈkeɪʃn/",
+    def: "Location data an app collects while it is not open on the screen.",
+    vi: "vị trí khi chạy nền",
+    examples:
+      [
+        {
+          en: "Store reviewers ask why we need background location.",
+          vi: "Đội duyệt của store hỏi vì sao mình cần vị trí khi chạy nền.",
+        },
+      ],
+  }
+- {
+    slug: while-using-phr,
+    lemma: "while using the app",
+    pos: phrase,
+    kind: phrase,
+    cefr: B1,
+    topic: transport,
+    ipa: "/waɪl ˈjuːzɪŋ ði æp/",
+    def: "Only when the app is open and being used.",
+    vi: "khi đang dùng ứng dụng",
+    examples:
+      [
+        {
+          en: "Riders only need to share location while using the app.",
+          vi: "Khách chỉ cần chia sẻ vị trí khi đang dùng ứng dụng.",
+        },
+      ],
+  }
+- {
+    slug: opt-in-pv,
+    lemma: "opt in",
+    pos: phrasal_verb,
+    kind: phrasal,
+    cefr: B2,
+    topic: transport,
+    ipa: "/ˌɒpt ˈɪn/",
+    def: "To choose to take part in something.",
+    vi: "chủ động đồng ý tham gia",
+    examples:
+      [
+        {
+          en: "Drivers must opt in before we record their trips.",
+          vi: "Tài xế phải chủ động đồng ý trước khi tụi mình ghi lại chuyến đi.",
+        },
+      ],
+  }
+- {
+    slug: geofence-n,
+    lemma: "geofence",
+    pos: noun,
+    cefr: C1,
+    topic: transport,
+    ipa: "/ˈdʒiːəʊfens/",
+    def: "An invisible border on a map that triggers an action when crossed.",
+    vi: "hàng rào địa lý",
+    examples:
+      [
+        {
+          en: "A notification fires when the driver enters the airport geofence.",
+          vi: "Thông báo được bắn ra khi tài xế đi vào hàng rào địa lý của sân bay.",
+        },
+      ],
+  }
+- {
+    slug: proximity-n,
+    lemma: "proximity",
+    pos: noun,
+    cefr: C1,
+    topic: transport,
+    ipa: "/prɒkˈsɪməti/",
+    def: "How near something is.",
+    vi: "sự gần, độ gần",
+    examples:
+      [
+        {
+          en: "Drivers are ranked by proximity to the pickup point.",
+          vi: "Tài xế được xếp hạng theo độ gần với điểm đón.",
+        },
+      ],
+  }
+- {
+    slug: accuracy-n,
+    lemma: "accuracy",
+    pos: noun,
+    cefr: B2,
+    topic: transport,
+    ipa: "/ˈækjərəsi/",
+    def: "How correct or exact something is.",
+    vi: "độ chính xác",
+    examples:
+      [
+        {
+          en: "Location accuracy drops inside tall buildings.",
+          vi: "Độ chính xác vị trí giảm khi ở trong toà nhà cao.",
+        },
+      ],
+  }
+- {
+    slug: gps-n,
+    lemma: "GPS",
+    pos: noun,
+    cefr: B1,
+    topic: transport,
+    ipa: "/ˌdʒiː piː ˈes/",
+    def: "A system that uses satellites to show where you are.",
+    vi: "hệ thống định vị GPS",
+    examples:
+      [
+        {
+          en: "Turn on GPS to see the driver on the map.",
+          vi: "Hãy bật GPS để thấy tài xế trên bản đồ.",
+        },
+      ],
+  }
+- {
+    slug: weak-signal-n,
+    lemma: "weak signal",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: transport,
+    ipa: "/ˌwiːk ˈsɪɡnəl/",
+    def: "A connection that is poor, so data arrives slowly or not at all.",
+    vi: "sóng yếu",
+    examples:
+      [
+        {
+          en: "In the tunnel, a weak signal makes the car jump on the map.",
+          vi: "Trong hầm, sóng yếu làm chiếc xe nhảy lung tung trên bản đồ.",
+        },
+      ],
+  }
+- {
+    slug: battery-drain-n,
+    lemma: "battery drain",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: transport,
+    ipa: "/ˈbætri dreɪn/",
+    def: "The way an app uses up a phone's battery quickly.",
+    vi: "hao pin",
+    examples:
+      [
+        {
+          en: "Drivers complain about battery drain from constant tracking.",
+          vi: "Tài xế phàn nàn về chuyện hao pin do theo dõi liên tục.",
+        },
+      ],
+  }
+- {
+    slug: permission-dialog-n,
+    lemma: "permission dialog",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: transport,
+    ipa: "/pəˈmɪʃn ˌdaɪəlɒɡ/",
+    def: "The system pop-up that asks the user to allow access.",
+    vi: "hộp thoại xin quyền",
+    examples:
+      [
+        {
+          en: "Explain the benefit before the permission dialog appears.",
+          vi: "Giải thích lợi ích trước khi hộp thoại xin quyền hiện ra.",
+        },
+      ],
+  }
+- {
+    slug: revoke-v,
+    lemma: "revoke",
+    pos: verb,
+    cefr: C1,
+    topic: transport,
+    ipa: "/rɪˈvəʊk/",
+    def: "To officially take back a permission or right.",
+    vi: "thu hồi",
+    examples:
+      [
+        {
+          en: "If the user revokes access, show the map without their dot.",
+          vi: "Nếu người dùng thu hồi quyền, hiển thị bản đồ không có chấm vị trí của họ.",
+        },
+      ],
+  }
+- {
+    slug: share-location-phr,
+    lemma: "share your location",
+    pos: phrase,
+    kind: phrase,
+    cefr: A2,
+    topic: transport,
+    ipa: "/ˌʃeə jɔː ləʊˈkeɪʃn/",
+    def: "To let other people or an app see where you are.",
+    vi: "chia sẻ vị trí",
+    examples:
+      [
+        {
+          en: "You can share your location with a friend during the trip.",
+          vi: "Bạn có thể chia sẻ vị trí với bạn bè trong suốt chuyến đi.",
+        },
+      ],
+  }
+- {
+    slug: whereabouts-n,
+    lemma: "whereabouts",
+    pos: noun,
+    cefr: C1,
+    topic: transport,
+    ipa: "/ˈweərəbaʊts/",
+    def: "The place where a person or thing is.",
+    vi: "nơi ở, tung tích",
+    examples:
+      [
+        {
+          en: "We never show a driver's whereabouts after the trip ends.",
+          vi: "Tụi mình không bao giờ hiển thị vị trí của tài xế sau khi chuyến kết thúc.",
+        },
+      ],
+  }
+- {
+    slug: within-walking-distance-phr,
+    lemma: "within walking distance",
+    pos: phrase,
+    kind: phrase,
+    cefr: B1,
+    topic: transport,
+    ipa: "/wɪˌðɪn ˈwɔːkɪŋ ˌdɪstəns/",
+    def: "Close enough to walk to.",
+    vi: "trong tầm đi bộ",
+    examples:
+      [
+        {
+          en: "Show stations that are within walking distance of the user.",
+          vi: "Hiển thị các ga nằm trong tầm đi bộ từ chỗ người dùng.",
+        },
+      ],
+  }
+- {
+    slug: radius-n,
+    lemma: "radius",
+    pos: noun,
+    cefr: B2,
+    topic: transport,
+    ipa: "/ˈreɪdiəs/",
+    def: "The distance from the centre of a circle to its edge.",
+    vi: "bán kính",
+    examples:
+      [
+        {
+          en: "Search for drivers within a two-kilometre radius.",
+          vi: "Tìm tài xế trong bán kính hai cây số.",
+        },
+      ],
+  }
+- {
+    slug: indoor-adj,
+    lemma: "indoor",
+    pos: adjective,
+    cefr: B1,
+    topic: transport,
+    ipa: "/ˈɪndɔː/",
+    def: "Inside a building.",
+    vi: "trong nhà",
+    examples:
+      [
+        {
+          en: "Indoor maps of the mall are not ready yet.",
+          vi: "Bản đồ trong nhà của trung tâm thương mại chưa xong.",
+        },
+      ],
+  }
+- {
+    slug: low-power-mode-n,
+    lemma: "low power mode",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: transport,
+    ipa: "/ˌləʊ ˈpaʊə məʊd/",
+    def: "A phone setting that saves battery by limiting what apps can do.",
+    vi: "chế độ tiết kiệm pin",
+    examples:
+      [
+        {
+          en: "Location updates slow down in low power mode.",
+          vi: "Cập nhật vị trí chậm lại khi bật chế độ tiết kiệm pin.",
+        },
+      ],
+  }
+- {
+    slug: disclose-v,
+    lemma: "disclose",
+    pos: verb,
+    cefr: C1,
+    topic: transport,
+    ipa: "/dɪsˈkləʊz/",
+    def: "To make information known to others.",
+    vi: "công bố, tiết lộ",
+    examples:
+      [
+        {
+          en: "The privacy page must disclose who receives location data.",
+          vi: "Trang quyền riêng tư phải công bố ai nhận dữ liệu vị trí.",
+        },
+      ],
+  }
+- {
+    slug: usage-description-n,
+    lemma: "usage description",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: transport,
+    ipa: "/ˈjuːsɪdʒ dɪˌskrɪpʃn/",
+    def: "The short text that tells users why an app needs a permission.",
+    vi: "mô tả mục đích sử dụng",
+    examples:
+      [
+        {
+          en: "Rewrite the usage description so it says what we do with the data.",
+          vi: "Viết lại phần mô tả mục đích để nói rõ mình làm gì với dữ liệu.",
+        },
+      ],
+  }
+# Set 8: tracking & event updates
+- {
+    slug: waybill-n,
+    lemma: "waybill",
+    pos: noun,
+    cefr: C1,
+    topic: transport,
+    ipa: "/ˈweɪbɪl/",
+    def: "A document with the details of goods being sent and their number.",
+    vi: "vận đơn",
+    examples:
+      [
+        {
+          en: "Each waybill has a unique number that customers can search.",
+          vi: "Mỗi vận đơn có một mã riêng mà khách có thể tra cứu.",
+        },
+      ],
+  }
+- {
+    slug: transit-point-n,
+    lemma: "transit point",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: transport,
+    ipa: "/ˈtrænzɪt pɔɪnt/",
+    def: "A place a package passes through on the way to its final stop.",
+    vi: "điểm trung chuyển",
+    examples:
+      [
+        {
+          en: "The parcel has passed two transit points so far.",
+          vi: "Gói hàng đã qua hai điểm trung chuyển tới giờ.",
+        },
+      ],
+  }
+- {
+    slug: timestamp-n,
+    lemma: "timestamp",
+    pos: noun,
+    cefr: B2,
+    topic: transport,
+    ipa: "/ˈtaɪmstæmp/",
+    def: "A record of the exact date and time something happened.",
+    vi: "dấu thời gian",
+    examples:
+      [
+        {
+          en: "Sort events by their timestamp, not by when we received them.",
+          vi: "Sắp xếp sự kiện theo dấu thời gian, không theo lúc mình nhận được.",
+        },
+      ],
+  }
+- {
+    slug: chronological-adj,
+    lemma: "chronological",
+    pos: adjective,
+    cefr: C1,
+    topic: transport,
+    ipa: "/ˌkrɒnəˈlɒdʒɪkl/",
+    def: "Arranged in the order in which things happened.",
+    vi: "theo trình tự thời gian",
+    examples:
+      [
+        {
+          en: "The timeline lists events in chronological order.",
+          vi: "Dòng thời gian liệt kê sự kiện theo trình tự thời gian.",
+        },
+      ],
+  }
+- {
+    slug: barcode-n,
+    lemma: "barcode",
+    pos: noun,
+    cefr: B1,
+    topic: transport,
+    ipa: "/ˈbɑːkəʊd/",
+    def: "A pattern of lines on a product that a machine can read.",
+    vi: "mã vạch",
+    examples:
+      [
+        {
+          en: "If the barcode is torn, staff type the number by hand.",
+          vi: "Nếu mã vạch bị rách, nhân viên gõ số bằng tay.",
+        },
+      ],
+  }
+- {
+    slug: hub-n,
+    lemma: "hub",
+    pos: noun,
+    cefr: B2,
+    topic: transport,
+    ipa: "/hʌb/",
+    def: "A central place where goods are collected and sent on.",
+    vi: "trung tâm phân phối",
+    examples:
+      [
+        {
+          en: "All northern orders go through the Hanoi hub.",
+          vi: "Mọi đơn miền Bắc đều đi qua trung tâm Hà Nội.",
+        },
+      ],
+  }
+- {
+    slug: ping-n,
+    lemma: "ping",
+    pos: noun,
+    cefr: B2,
+    topic: transport,
+    ipa: "/pɪŋ/",
+    def: "A short signal a device sends to say where it is or that it is alive.",
+    vi: "tín hiệu ping",
+    examples:
+      [
+        {
+          en: "The driver app sends a location ping every five seconds.",
+          vi: "Ứng dụng tài xế gửi tín hiệu vị trí mỗi năm giây.",
+        },
+      ],
+  }
+- {
+    slug: last-known-location-n,
+    lemma: "last known location",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: transport,
+    ipa: "/ˌlɑːst nəʊn ləʊˈkeɪʃn/",
+    def: "The most recent place a device reported before it went quiet.",
+    vi: "vị trí cuối cùng ghi nhận",
+    examples:
+      [
+        {
+          en: "When the signal drops, show the last known location in grey.",
+          vi: "Khi mất sóng, hiển thị vị trí cuối cùng ghi nhận màu xám.",
+        },
+      ],
+  }
+- {
+    slug: real-time-adj,
+    lemma: "real-time",
+    pos: adjective,
+    cefr: B2,
+    topic: transport,
+    ipa: "/ˌrɪəl ˈtaɪm/",
+    def: "Happening or shown at the same moment it occurs.",
+    vi: "thời gian thực",
+    examples:
+      [
+        {
+          en: "Customers expect real-time tracking, not updates every hour.",
+          vi: "Khách mong được theo dõi thời gian thực, không phải mỗi giờ mới cập nhật.",
+        },
+      ],
+  }
+- {
+    slug: drift-n,
+    lemma: "drift",
+    pos: noun,
+    cefr: C1,
+    topic: transport,
+    ipa: "/drɪft/",
+    def: "A slow, wrong movement of a GPS position when the device is still.",
+    vi: "độ trôi (vị trí)",
+    examples:
+      [
+        {
+          en: "GPS drift makes a parked bike look like it is moving.",
+          vi: "Độ trôi GPS khiến chiếc xe đang đỗ trông như đang chạy.",
+        },
+      ],
+  }
+- {
+    slug: sequence-n,
+    lemma: "sequence",
+    pos: noun,
+    cefr: B2,
+    topic: transport,
+    ipa: "/ˈsiːkwəns/",
+    def: "The order in which things happen.",
+    vi: "trình tự",
+    examples:
+      [
+        {
+          en: "The expected sequence is picked up, in transit, then delivered.",
+          vi: "Trình tự mong đợi là đã lấy hàng, đang vận chuyển rồi đã giao.",
+        },
+      ],
+  }
+- {
+    slug: backfill-v,
+    lemma: "backfill",
+    pos: verb,
+    cefr: C1,
+    topic: transport,
+    ipa: "/ˈbækfɪl/",
+    def: "To add missing older data after the time it should have arrived.",
+    vi: "bổ sung dữ liệu cũ",
+    examples:
+      [
+        {
+          en: "We backfill the missing scans once the hub is back online.",
+          vi: "Tụi mình bổ sung các lần quét bị thiếu khi trung tâm có mạng trở lại.",
+        },
+      ],
+  }
+- {
+    slug: duplicate-event-n,
+    lemma: "duplicate event",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: transport,
+    ipa: "/ˌdjuːplɪkət ɪˈvent/",
+    def: "The same event received more than once.",
+    vi: "sự kiện trùng lặp",
+    examples:
+      [
+        {
+          en: "Ignore duplicate events that have the same ID.",
+          vi: "Bỏ qua các sự kiện trùng lặp có cùng ID.",
+        },
+      ],
+  }
+- {
+    slug: status-update-n-t18,
+    lemma: "status update",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: transport,
+    ipa: "/ˈsteɪtəs ˌʌpdeɪt/",
+    def: "A message that tells people about a change in state.",
+    vi: "cập nhật trạng thái",
+    examples:
+      [
+        {
+          en: "Customers get a status update at every important step.",
+          vi: "Khách nhận cập nhật trạng thái ở mỗi bước quan trọng.",
+        },
+      ],
+  }
+- {
+    slug: arrival-scan-n,
+    lemma: "arrival scan",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: transport,
+    ipa: "/əˈraɪvl skæn/",
+    def: "The scan done when a package reaches a new place.",
+    vi: "lần quét khi hàng đến",
+    examples:
+      [
+        {
+          en: "The arrival scan at the hub came in two hours late.",
+          vi: "Lần quét nhận hàng ở trung tâm tới trễ hai tiếng.",
+        },
+      ],
+  }
+- {
+    slug: en-route-phr,
+    lemma: "en route",
+    pos: phrase,
+    kind: phrase,
+    cefr: C1,
+    topic: transport,
+    ipa: "/ˌɒn ˈruːt/",
+    def: "On the way to a place.",
+    vi: "đang trên đường",
+    examples:
+      [
+        {
+          en: "The driver is en route to the restaurant.",
+          vi: "Tài xế đang trên đường tới nhà hàng.",
+        },
+      ],
+  }
+- {
+    slug: webhook-n,
+    lemma: "webhook",
+    pos: noun,
+    cefr: C1,
+    topic: transport,
+    ipa: "/ˈwebhʊk/",
+    def: "A message one system sends to another automatically when something happens.",
+    vi: "webhook",
+    examples:
+      [
+        {
+          en: "The carrier calls our webhook every time a parcel is scanned.",
+          vi: "Hãng vận chuyển gọi webhook của tụi mình mỗi lần gói hàng được quét.",
+        },
+      ],
+  }
+- {
+    slug: push-notification-n,
+    lemma: "push notification",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: transport,
+    ipa: "/ˈpʊʃ nəʊtɪfɪˌkeɪʃn/",
+    def: "A message that appears on a phone even when the app is closed.",
+    vi: "thông báo đẩy",
+    examples:
+      [
+        {
+          en: "Send a push notification when the driver is two minutes away.",
+          vi: "Gửi thông báo đẩy khi tài xế còn cách hai phút.",
+        },
+      ],
+  }
+- {
+    slug: heartbeat-n,
+    lemma: "heartbeat",
+    pos: noun,
+    cefr: C1,
+    topic: transport,
+    ipa: "/ˈhɑːtbiːt/",
+    def: "A regular signal that shows a device or service is still working.",
+    vi: "tín hiệu duy trì",
+    examples:
+      [
+        {
+          en: "If no heartbeat arrives for a minute, mark the driver offline.",
+          vi: "Nếu không có tín hiệu duy trì trong một phút, đánh dấu tài xế ngoại tuyến.",
+        },
+      ],
+  }
+- {
+    slug: ghost-location-n,
+    lemma: "ghost location",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: transport,
+    ipa: "/ˌɡəʊst ləʊˈkeɪʃn/",
+    def: "A position still shown on a map after the device has stopped reporting.",
+    vi: "vị trí ảo còn sót",
+    examples:
+      [
+        {
+          en: "Remove the ghost location if no new ping comes for two minutes.",
+          vi: "Xoá vị trí ảo nếu không có tín hiệu mới trong hai phút.",
+        },
+      ],
+  }
+- {
+    slug: catch-up-pv-t18,
+    lemma: "catch up",
+    pos: phrasal_verb,
+    kind: phrasal,
+    cefr: B1,
+    topic: transport,
+    ipa: "/ˌkætʃ ˈʌp/",
+    def: "To reach the same point as others after being behind.",
+    vi: "bắt kịp",
+    examples:
+      [
+        {
+          en: "The map catches up once the phone reconnects.",
+          vi: "Bản đồ bắt kịp khi điện thoại kết nối lại.",
+        },
+      ],
+  }
+- {
+    slug: deduplicate-v,
+    lemma: "deduplicate",
+    pos: verb,
+    cefr: C1,
+    topic: transport,
+    ipa: "/diːˈdjuːplɪkeɪt/",
+    def: "To remove copies so that each item appears only once.",
+    vi: "loại bỏ trùng lặp",
+    examples:
+      [
+        {
+          en: "We deduplicate scans by waybill number and time.",
+          vi: "Tụi mình loại bỏ lượt quét trùng theo mã vận đơn và thời gian.",
+        },
+      ],
+  }
+- {
+    slug: gap-n,
+    lemma: "gap",
+    pos: noun,
+    cefr: B1,
+    topic: transport,
+    ipa: "/ɡæp/",
+    def: "A space or missing period where there should be something.",
+    vi: "khoảng trống",
+    examples:
+      [
+        {
+          en: "There is a two-hour gap in the tracking history.",
+          vi: "Có một khoảng trống hai tiếng trong lịch sử theo dõi.",
+        },
+      ],
+  }
+- {
+    slug: breadcrumb-trail-n,
+    lemma: "breadcrumb trail",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: transport,
+    ipa: "/ˈbredkrʌm treɪl/",
+    def: "A line on a map made of the points a vehicle has passed.",
+    vi: "vệt đường đã đi",
+    examples:
+      [
+        {
+          en: "The breadcrumb trail shows the driver went around the block twice.",
+          vi: "Vệt đường cho thấy tài xế đã chạy vòng quanh dãy nhà hai lần.",
+        },
+      ],
+  }
+# Set 9: edge cases in logistics
+- {
+    slug: incomplete-address-n,
+    lemma: "incomplete address",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: transport,
+    ipa: "/ˌɪnkəmpliːt əˈdres/",
+    def: "An address that is missing important parts.",
+    vi: "địa chỉ thiếu",
+    examples:
+      [
+        {
+          en: "Flag orders with an incomplete address before they leave the warehouse.",
+          vi: "Đánh dấu các đơn có địa chỉ thiếu trước khi rời kho.",
+        },
+      ],
+  }
+- {
+    slug: redeliver-v,
+    lemma: "redeliver",
+    pos: verb,
+    cefr: C1,
+    topic: transport,
+    ipa: "/ˌriːdɪˈlɪvə/",
+    def: "To try to bring something again after the first try failed.",
+    vi: "giao lại",
+    examples:
+      [
+        {
+          en: "We redeliver at no extra cost up to two times.",
+          vi: "Tụi mình giao lại miễn phí tối đa hai lần.",
+        },
+      ],
+  }
+- {
+    slug: return-to-sender-phr,
+    lemma: "return to sender",
+    pos: phrase,
+    kind: phrase,
+    cefr: B2,
+    topic: transport,
+    ipa: "/rɪˌtɜːn tə ˈsendə/",
+    def: "To send an item back to the person who sent it.",
+    vi: "hoàn về người gửi",
+    examples:
+      [
+        {
+          en: "After three failed tries, the parcel is returned to sender.",
+          vi: "Sau ba lần giao thất bại, gói hàng được hoàn về người gửi.",
+        },
+      ],
+  }
+- {
+    slug: unreachable-adj,
+    lemma: "unreachable",
+    pos: adjective,
+    cefr: C1,
+    topic: transport,
+    ipa: "/ʌnˈriːtʃəbl/",
+    def: "Not possible to contact or get to.",
+    vi: "không liên lạc được",
+    examples:
+      [
+        {
+          en: "Mark the customer as unreachable after three missed calls.",
+          vi: "Đánh dấu khách không liên lạc được sau ba cuộc gọi nhỡ.",
+        },
+      ],
+  }
+- {
+    slug: rural-adj,
+    lemma: "rural",
+    pos: adjective,
+    cefr: B2,
+    topic: transport,
+    ipa: "/ˈrʊərəl/",
+    def: "In the countryside, not in a town.",
+    vi: "nông thôn",
+    examples:
+      [
+        {
+          en: "Rural deliveries can take two extra days.",
+          vi: "Giao hàng ở nông thôn có thể mất thêm hai ngày.",
+        },
+      ],
+  }
+- {
+    slug: gated-community-n,
+    lemma: "gated community",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: transport,
+    ipa: "/ˌɡeɪtɪd kəˈmjuːnəti/",
+    def: "A group of houses with a wall and a guarded entrance.",
+    vi: "khu dân cư có cổng bảo vệ",
+    examples:
+      [
+        {
+          en: "Drivers need a gate code to enter some gated communities.",
+          vi: "Tài xế cần mã cổng để vào một số khu dân cư có bảo vệ.",
+        },
+      ],
+  }
+- {
+    slug: apartment-block-n,
+    lemma: "apartment block",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: transport,
+    ipa: "/əˈpɑːtmənt blɒk/",
+    def: "A large building divided into many homes.",
+    vi: "chung cư",
+    examples:
+      [
+        {
+          en: "Ask for the tower and floor when the address is an apartment block.",
+          vi: "Hỏi toà và tầng khi địa chỉ là chung cư.",
+        },
+      ],
+  }
+- {
+    slug: leave-with-neighbour-phr,
+    lemma: "leave it with a neighbour",
+    pos: phrase,
+    kind: phrase,
+    cefr: B1,
+    topic: transport,
+    ipa: "/ˌliːv ɪt wɪð ə ˈneɪbə/",
+    def: "To give a parcel to the person next door when the buyer is out.",
+    vi: "gửi hàng nhờ hàng xóm",
+    examples:
+      [
+        {
+          en: "Customers can tick a box to let us leave it with a neighbour.",
+          vi: "Khách có thể đánh dấu ô để cho phép mình gửi hàng nhờ hàng xóm.",
+        },
+      ],
+  }
+- {
+    slug: safe-place-n,
+    lemma: "safe place",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: transport,
+    ipa: "/ˈseɪf pleɪs/",
+    def: "A spot chosen by the customer where a parcel can be left.",
+    vi: "chỗ để hàng an toàn",
+    examples:
+      [
+        {
+          en: "The customer chose the shoe cabinet as a safe place.",
+          vi: "Khách chọn tủ giày làm chỗ để hàng an toàn.",
+        },
+      ],
+  }
+- {
+    slug: fragile-adj,
+    lemma: "fragile",
+    pos: adjective,
+    cefr: B2,
+    topic: transport,
+    ipa: "/ˈfrædʒaɪl/",
+    def: "Easily broken or damaged.",
+    vi: "dễ vỡ",
+    examples:
+      [
+        {
+          en: "Fragile items cannot go in the motorbike box.",
+          vi: "Hàng dễ vỡ không được để vào thùng xe máy.",
+        },
+      ],
+  }
+- {
+    slug: damaged-in-transit-phr,
+    lemma: "damaged in transit",
+    pos: phrase,
+    kind: phrase,
+    cefr: C1,
+    topic: transport,
+    ipa: "/ˌdæmɪdʒd ɪn ˈtrænzɪt/",
+    def: "Broken while being carried from one place to another.",
+    vi: "hư hỏng khi vận chuyển",
+    examples:
+      [
+        {
+          en: "Items damaged in transit are refunded after a photo check.",
+          vi: "Hàng hư hỏng khi vận chuyển được hoàn tiền sau khi kiểm tra ảnh.",
+        },
+      ],
+  }
+- {
+    slug: lost-parcel-n,
+    lemma: "lost parcel",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: transport,
+    ipa: "/ˌlɒst ˈpɑːsl/",
+    def: "A package that nobody can find.",
+    vi: "bưu kiện thất lạc",
+    examples:
+      [
+        {
+          en: "Open a lost parcel case if there is no scan for five days.",
+          vi: "Mở hồ sơ thất lạc nếu không có lượt quét nào trong năm ngày.",
+        },
+      ],
+  }
+- {
+    slug: pay-on-delivery-phr,
+    lemma: "pay on delivery",
+    pos: phrase,
+    kind: phrase,
+    cefr: B1,
+    topic: transport,
+    ipa: "/ˌpeɪ ɒn dɪˈlɪvəri/",
+    def: "To pay for goods at the moment you receive them.",
+    vi: "thanh toán khi nhận hàng",
+    examples:
+      [
+        {
+          en: "Most of our customers still pay on delivery.",
+          vi: "Đa số khách của tụi mình vẫn trả tiền khi nhận hàng.",
+        },
+      ],
+  }
+- {
+    slug: partial-delivery-n,
+    lemma: "partial delivery",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: transport,
+    ipa: "/ˌpɑːʃl dɪˈlɪvəri/",
+    def: "A delivery where only some of the ordered items arrive.",
+    vi: "giao một phần",
+    examples:
+      [
+        {
+          en: "The status page must explain a partial delivery clearly.",
+          vi: "Trang trạng thái phải giải thích rõ trường hợp giao một phần.",
+        },
+      ],
+  }
+- {
+    slug: signature-required-phr,
+    lemma: "signature required",
+    pos: phrase,
+    kind: phrase,
+    cefr: B2,
+    topic: transport,
+    ipa: "/ˌsɪɡnətʃə rɪˈkwaɪəd/",
+    def: "A rule that the receiver must sign before the item is handed over.",
+    vi: "yêu cầu chữ ký",
+    examples:
+      [
+        {
+          en: 'Phones over ten million dong are marked "signature required".',
+          vi: 'Điện thoại trên mười triệu đồng được gắn nhãn "yêu cầu chữ ký".',
+        },
+      ],
+  }
+- {
+    slug: oversized-adj,
+    lemma: "oversized",
+    pos: adjective,
+    cefr: C1,
+    topic: transport,
+    ipa: "/ˌəʊvəˈsaɪzd/",
+    def: "Bigger than the normal size allowed.",
+    vi: "quá khổ",
+    examples:
+      [
+        {
+          en: "Oversized orders are sent by truck, not by motorbike.",
+          vi: "Đơn quá khổ được gửi bằng xe tải, không phải xe máy.",
+        },
+      ],
+  }
+- {
+    slug: restricted-item-n,
+    lemma: "restricted item",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: transport,
+    ipa: "/rɪˌstrɪktɪd ˈaɪtəm/",
+    def: "A product that cannot be sent, or only under special rules.",
+    vi: "hàng hạn chế vận chuyển",
+    examples:
+      [
+        {
+          en: "Batteries are a restricted item for air delivery.",
+          vi: "Pin là hàng hạn chế khi gửi bằng đường hàng không.",
+        },
+      ],
+  }
+- {
+    slug: customs-n,
+    lemma: "customs",
+    pos: noun,
+    cefr: B1,
+    topic: transport,
+    ipa: "/ˈkʌstəmz/",
+    def: "The government office that checks goods coming into a country.",
+    vi: "hải quan",
+    examples:
+      [
+        {
+          en: "The parcel has been held at customs for a week.",
+          vi: "Gói hàng bị giữ ở hải quan một tuần nay.",
+        },
+      ],
+  }
+- {
+    slug: storage-fee-n,
+    lemma: "storage fee",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: transport,
+    ipa: "/ˈstɔːrɪdʒ fiː/",
+    def: "Money charged for keeping goods in a place for a long time.",
+    vi: "phí lưu kho",
+    examples:
+      [
+        {
+          en: "A storage fee applies after seven days at the post office.",
+          vi: "Phí lưu kho được áp dụng sau bảy ngày ở bưu cục.",
+        },
+      ],
+  }
+- {
+    slug: collection-point-n,
+    lemma: "collection point",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: transport,
+    ipa: "/kəˈlekʃn pɔɪnt/",
+    def: "A shop or office where you can pick up your parcel yourself.",
+    vi: "điểm nhận hàng",
+    examples:
+      [
+        {
+          en: "The customer can pick it up at a collection point near work.",
+          vi: "Khách có thể tới lấy ở điểm nhận hàng gần chỗ làm.",
+        },
+      ],
+  }
+- {
+    slug: parcel-locker-n,
+    lemma: "parcel locker",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: transport,
+    ipa: "/ˈpɑːsl ˌlɒkə/",
+    def: "A metal box that opens with a code so you can collect a package.",
+    vi: "tủ nhận hàng",
+    examples:
+      [
+        {
+          en: "The parcel locker code expires after forty-eight hours.",
+          vi: "Mã tủ nhận hàng hết hạn sau bốn mươi tám giờ.",
+        },
+      ],
+  }
+- {
+    slug: retry-limit-n,
+    lemma: "retry limit",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: transport,
+    ipa: "/ˈriːtraɪ ˌlɪmɪt/",
+    def: "The highest number of times the system will try again.",
+    vi: "giới hạn thử lại",
+    examples:
+      [
+        {
+          en: "When the retry limit is reached, the order needs a human.",
+          vi: "Khi chạm giới hạn thử lại, đơn cần có người xử lý.",
+        },
+      ],
+  }
+- {
+    slug: unclaimed-adj,
+    lemma: "unclaimed",
+    pos: adjective,
+    cefr: C1,
+    topic: transport,
+    ipa: "/ˌʌnˈkleɪmd/",
+    def: "Not collected by the person it belongs to.",
+    vi: "không có người nhận",
+    examples:
+      [
+        {
+          en: "Unclaimed parcels go back to the seller after a week.",
+          vi: "Gói hàng không ai nhận sẽ quay về người bán sau một tuần.",
+        },
+      ],
+  }
+- {
+    slug: dispute-n,
+    lemma: "dispute",
+    pos: noun,
+    cefr: C1,
+    topic: transport,
+    ipa: "/dɪˈspjuːt/",
+    def: "A disagreement, for example about whether something was received.",
+    vi: "khiếu nại, tranh chấp",
+    examples:
+      [
+        {
+          en: "The customer opened a dispute saying the box was empty.",
+          vi: "Khách mở khiếu nại nói rằng hộp trống không.",
+        },
+      ],
+  }
+- {
+    slug: mislabelled-adj,
+    lemma: "mislabelled",
+    pos: adjective,
+    cefr: C1,
+    topic: transport,
+    ipa: "/ˌmɪsˈleɪbld/",
+    def: "Having the wrong name or information on it.",
+    vi: "dán nhãn sai",
+    examples:
+      [
+        {
+          en: "A mislabelled box went to Da Nang instead of Hue.",
+          vi: "Một thùng bị dán nhãn sai đã đi Đà Nẵng thay vì Huế.",
+        },
+      ],
+  }
+- {
+    slug: time-window-n,
+    lemma: "time window",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: transport,
+    ipa: "/ˈtaɪm ˌwɪndəʊ/",
+    def: "A period of time during which something should happen.",
+    vi: "khung giờ",
+    examples:
+      [
+        {
+          en: "The customer picked a delivery time window of 2 to 4 p.m.",
+          vi: "Khách chọn khung giờ giao từ 2 đến 4 giờ chiều.",
+        },
+      ],
+  }
+- {
+    slug: last-mile-n,
+    lemma: "last mile",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: transport,
+    ipa: "/ˌlɑːst ˈmaɪl/",
+    def: "The final step of delivery, from a local hub to the customer's door.",
+    vi: "chặng cuối",
+    examples:
+      [
+        {
+          en: "Most failed deliveries happen in the last mile.",
+          vi: "Phần lớn đơn giao thất bại xảy ra ở chặng cuối.",
+        },
+      ],
+  }
+- {
+    slug: reroute-v,
+    lemma: "reroute",
+    pos: verb,
+    cefr: C1,
+    topic: transport,
+    ipa: "/ˌriːˈruːt/",
+    def: "To send something by a different way than planned.",
+    vi: "đổi tuyến",
+    examples:
+      [
+        {
+          en: "We reroute parcels to a locker when the street is closed.",
+          vi: "Tụi mình chuyển gói hàng sang tủ nhận khi đường bị cấm.",
+        },
+      ],
+  }
+# Set 10: a logistics feature brief
+- {
+    slug: fleet-n,
+    lemma: "fleet",
+    pos: noun,
+    cefr: B2,
+    topic: transport,
+    ipa: "/fliːt/",
+    def: "All the vehicles owned or run by one company.",
+    vi: "đội xe",
+    examples:
+      [
+        {
+          en: "Our fleet has two hundred electric scooters.",
+          vi: "Đội xe của tụi mình có hai trăm xe máy điện.",
+        },
+      ],
+  }
+- {
+    slug: dispatcher-n,
+    lemma: "dispatcher",
+    pos: noun,
+    cefr: C1,
+    topic: transport,
+    ipa: "/dɪˈspætʃə/",
+    def: "A person whose job is to send drivers to where they are needed.",
+    vi: "điều phối viên",
+    examples:
+      [
+        {
+          en: "Dispatchers need a screen to move orders between drivers.",
+          vi: "Điều phối viên cần một màn hình để chuyển đơn giữa các tài xế.",
+        },
+      ],
+  }
+- {
+    slug: cargo-space-n,
+    lemma: "cargo space",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: transport,
+    ipa: "/ˈkɑːɡəʊ speɪs/",
+    def: "The room in a vehicle for carrying goods.",
+    vi: "khoang chở hàng",
+    examples:
+      [
+        {
+          en: "A small van has enough cargo space for forty boxes.",
+          vi: "Một xe tải nhỏ đủ khoang chở bốn mươi thùng.",
+        },
+      ],
+  }
+- {
+    slug: route-optimisation-n,
+    lemma: "route optimisation",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: transport,
+    ipa: "/ˈruːt ˌɒptɪmaɪˌzeɪʃn/",
+    def: "Finding the best order of stops so trips are short and cheap.",
+    vi: "tối ưu tuyến đường",
+    examples:
+      [
+        {
+          en: "Route optimisation should run before drivers start their day.",
+          vi: "Tối ưu tuyến nên chạy trước khi tài xế bắt đầu ngày làm việc.",
+        },
+      ],
+  }
+- {
+    slug: batching-n,
+    lemma: "batching",
+    pos: noun,
+    cefr: C1,
+    topic: transport,
+    ipa: "/ˈbætʃɪŋ/",
+    def: "Grouping several orders so one driver can take them together.",
+    vi: "gom đơn",
+    examples:
+      [
+        {
+          en: "Batching two food orders saves the driver one trip.",
+          vi: "Gom hai đơn đồ ăn giúp tài xế bớt được một chuyến.",
+        },
+      ],
+  }
+- {
+    slug: driver-app-n,
+    lemma: "driver app",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: transport,
+    ipa: "/ˈdraɪvə æp/",
+    def: "The mobile app used by drivers to accept and complete jobs.",
+    vi: "ứng dụng tài xế",
+    examples:
+      [
+        {
+          en: "The new step must also appear in the driver app.",
+          vi: "Bước mới cũng phải xuất hiện trong ứng dụng tài xế.",
+        },
+      ],
+  }
+- {
+    slug: service-area-n,
+    lemma: "service area",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: transport,
+    ipa: "/ˈsɜːvɪs ˌeəriə/",
+    def: "The places where a company offers its service.",
+    vi: "khu vực phục vụ",
+    examples:
+      [
+        {
+          en: "Show a clear message if the address is outside the service area.",
+          vi: "Hiển thị thông báo rõ ràng nếu địa chỉ nằm ngoài khu vực phục vụ.",
+        },
+      ],
+  }
+- {
+    slug: zone-n,
+    lemma: "zone",
+    pos: noun,
+    cefr: B2,
+    topic: transport,
+    ipa: "/zəʊn/",
+    def: "An area with its own rules or prices.",
+    vi: "vùng, khu",
+    examples:
+      [
+        {
+          en: "Prices differ by zone, so the zone ID must be saved on the order.",
+          vi: "Giá khác nhau theo vùng nên mã vùng phải được lưu vào đơn.",
+        },
+      ],
+  }
+- {
+    slug: surcharge-n,
+    lemma: "surcharge",
+    pos: noun,
+    cefr: C1,
+    topic: transport,
+    ipa: "/ˈsɜːtʃɑːdʒ/",
+    def: "An extra amount added to the normal price.",
+    vi: "phụ phí",
+    examples:
+      [
+        {
+          en: "A night surcharge applies after 10 p.m.",
+          vi: "Phụ phí đêm áp dụng sau 10 giờ tối.",
+        },
+      ],
+  }
+- {
+    slug: minimum-order-n,
+    lemma: "minimum order",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: transport,
+    ipa: "/ˌmɪnɪməm ˈɔːdə/",
+    def: "The smallest amount a customer must buy to use the service.",
+    vi: "giá trị đơn tối thiểu",
+    examples:
+      [
+        {
+          en: "Free delivery needs a minimum order of 150,000 dong.",
+          vi: "Miễn phí giao hàng cần đơn tối thiểu 150.000 đồng.",
+        },
+      ],
+  }
+- {
+    slug: delivery-slot-n,
+    lemma: "delivery slot",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: transport,
+    ipa: "/dɪˈlɪvəri slɒt/",
+    def: "One of the fixed time periods a customer can choose for delivery.",
+    vi: "khung giao hàng",
+    examples:
+      [
+        {
+          en: "Full delivery slots must be greyed out.",
+          vi: "Các khung giao hàng đã đầy phải chuyển màu xám.",
+        },
+      ],
+  }
+- {
+    slug: cut-off-time-n,
+    lemma: "cut-off time",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: transport,
+    ipa: "/ˈkʌt ɒf taɪm/",
+    def: "The latest time to do something so that it is handled today.",
+    vi: "giờ chốt đơn",
+    examples:
+      [
+        {
+          en: "Orders after the 3 p.m. cut-off time ship tomorrow.",
+          vi: "Đơn sau giờ chốt 3 giờ chiều sẽ gửi vào ngày mai.",
+        },
+      ],
+  }
+- {
+    slug: sorting-centre-n,
+    lemma: "sorting centre",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: transport,
+    ipa: "/ˈsɔːtɪŋ ˌsentə/",
+    def: "A large building where parcels are sorted by where they are going.",
+    vi: "trung tâm phân loại",
+    examples:
+      [
+        {
+          en: "The new sorting centre handles five thousand parcels an hour.",
+          vi: "Trung tâm phân loại mới xử lý năm nghìn gói mỗi giờ.",
+        },
+      ],
+  }
+- {
+    slug: dead-mileage-n,
+    lemma: "dead mileage",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: transport,
+    ipa: "/ˌded ˈmaɪlɪdʒ/",
+    def: "Distance a vehicle drives with no passenger or load.",
+    vi: "quãng đường chạy rỗng",
+    examples:
+      [
+        {
+          en: "Batching orders cuts dead mileage for our drivers.",
+          vi: "Gom đơn giúp giảm quãng đường chạy rỗng cho tài xế.",
+        },
+      ],
+  }
+- {
+    slug: standby-n,
+    lemma: "standby",
+    pos: noun,
+    cefr: C1,
+    topic: transport,
+    ipa: "/ˈstændbaɪ/",
+    def: "The state of being ready to work if needed.",
+    vi: "chế độ chờ, sẵn sàng",
+    examples:
+      [
+        {
+          en: "Two drivers stay on standby near the hospital at night.",
+          vi: "Ban đêm có hai tài xế túc trực sẵn gần bệnh viện.",
+        },
+      ],
+  }
+- {
+    slug: vehicle-type-n,
+    lemma: "vehicle type",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: transport,
+    ipa: "/ˈviːəkl taɪp/",
+    def: "The kind of vehicle, such as a bike, car or van.",
+    vi: "loại phương tiện",
+    examples:
+      [
+        {
+          en: "Filter jobs by vehicle type so vans don't get small orders.",
+          vi: "Lọc việc theo loại phương tiện để xe tải không nhận đơn nhỏ.",
+        },
+      ],
+  }
+- {
+    slug: handoff-n,
+    lemma: "handoff",
+    pos: noun,
+    cefr: C1,
+    topic: transport,
+    ipa: "/ˈhændɒf/",
+    def: "The moment when responsibility passes from one person or system to another.",
+    vi: "bàn giao, chuyển giao",
+    examples:
+      [
+        {
+          en: "The handoff between the shop and the driver needs a code.",
+          vi: "Việc chuyển giao giữa cửa hàng và tài xế cần một mã.",
+        },
+      ],
+  }
+- {
+    slug: fulfilment-n,
+    lemma: "fulfilment",
+    pos: noun,
+    cefr: C1,
+    topic: transport,
+    ipa: "/fʊlˈfɪlmənt/",
+    def: "The work of getting an order packed and sent to the customer.",
+    vi: "xử lý đơn hàng",
+    examples:
+      [
+        {
+          en: "Fulfilment starts as soon as payment is captured.",
+          vi: "Việc xử lý đơn bắt đầu ngay khi thanh toán được ghi nhận.",
+        },
+      ],
+  }
+- {
+    slug: inventory-n,
+    lemma: "inventory",
+    pos: noun,
+    cefr: B2,
+    topic: transport,
+    ipa: "/ˈɪnvəntri/",
+    def: "All the goods a business has in stock.",
+    vi: "hàng tồn kho",
+    examples:
+      [
+        {
+          en: "Inventory is checked before the order can be confirmed.",
+          vi: "Hàng tồn kho được kiểm tra trước khi đơn được xác nhận.",
+        },
+      ],
+  }
+- {
+    slug: backorder-n,
+    lemma: "backorder",
+    pos: noun,
+    cefr: C1,
+    topic: transport,
+    ipa: "/ˈbækɔːdə/",
+    def: "An order for goods that are not in stock yet.",
+    vi: "đơn chờ hàng",
+    examples:
+      [
+        {
+          en: "Backorders ship when new stock arrives.",
+          vi: "Đơn chờ hàng sẽ được gửi khi hàng mới về.",
+        },
+      ],
+  }
+- {
+    slug: dimensions-n,
+    lemma: "dimensions",
+    pos: noun,
+    cefr: B2,
+    topic: transport,
+    ipa: "/daɪˈmenʃnz/",
+    def: "The length, width and height of something.",
+    vi: "kích thước",
+    examples:
+      [
+        {
+          en: "The seller must enter the box dimensions in centimetres.",
+          vi: "Người bán phải nhập kích thước thùng theo xăng-ti-mét.",
+        },
+      ],
+  }
+- {
+    slug: weight-limit-n,
+    lemma: "weight limit",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: transport,
+    ipa: "/ˈweɪt ˌlɪmɪt/",
+    def: "The heaviest amount that is allowed.",
+    vi: "giới hạn trọng lượng",
+    examples:
+      [
+        {
+          en: "Show an error when a parcel is over the weight limit.",
+          vi: "Báo lỗi khi gói hàng vượt giới hạn trọng lượng.",
+        },
+      ],
+  }
+- {
+    slug: carrier-n,
+    lemma: "carrier",
+    pos: noun,
+    cefr: B2,
+    topic: transport,
+    ipa: "/ˈkæriə/",
+    def: "A company that moves goods or people for money.",
+    vi: "hãng vận chuyển",
+    examples:
+      [
+        {
+          en: "We pick the cheapest carrier that can deliver on time.",
+          vi: "Tụi mình chọn hãng vận chuyển rẻ nhất mà vẫn giao đúng hạn.",
+        },
+      ],
+  }
+- {
+    slug: integrate-with-phr,
+    lemma: "integrate with",
+    pos: phrase,
+    kind: phrase,
+    cefr: B2,
+    topic: transport,
+    ipa: "/ˈɪntɪɡreɪt wɪð/",
+    def: "To connect one system to another so they work together.",
+    vi: "tích hợp với",
+    examples:
+      [
+        {
+          en: "Phase one will integrate with two local carriers.",
+          vi: "Giai đoạn một sẽ tích hợp với hai hãng vận chuyển nội địa.",
+        },
+      ],
+  }
+- {
+    slug: rate-card-n-t18,
+    lemma: "rate card",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: transport,
+    ipa: "/ˈreɪt kɑːd/",
+    def: "A list of a company's prices for different services.",
+    vi: "bảng giá",
+    examples:
+      [
+        {
+          en: "Load the carrier's rate card from a config file.",
+          vi: "Nạp bảng giá của hãng vận chuyển từ file cấu hình.",
+        },
+      ],
+  }
+- {
+    slug: on-time-rate-n,
+    lemma: "on-time rate",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: transport,
+    ipa: "/ˌɒn ˈtaɪm reɪt/",
+    def: "The percentage of trips or deliveries that arrive when promised.",
+    vi: "tỷ lệ đúng giờ",
+    examples:
+      [
+        {
+          en: "Success means an on-time rate above ninety-five per cent.",
+          vi: "Thành công nghĩa là tỷ lệ đúng giờ trên chín mươi lăm phần trăm.",
+        },
+      ],
+  }
+- {
+    slug: boundary-n-t18,
+    lemma: "boundary",
+    pos: noun,
+    cefr: B2,
+    topic: transport,
+    ipa: "/ˈbaʊndri/",
+    def: "A line that marks the edge of an area.",
+    vi: "ranh giới",
+    examples:
+      [
+        {
+          en: "Orders right on the zone boundary use the cheaper price.",
+          vi: "Đơn nằm ngay ranh giới vùng sẽ dùng giá rẻ hơn.",
+        },
+      ],
+  }
+- {
+    slug: heatmap-n,
+    lemma: "heatmap",
+    pos: noun,
+    cefr: C1,
+    topic: transport,
+    ipa: "/ˈhiːtmæp/",
+    def: "A map that uses colours to show where something happens most.",
+    vi: "bản đồ nhiệt",
+    examples:
+      [
+        {
+          en: "The demand heatmap helps drivers decide where to wait.",
+          vi: "Bản đồ nhiệt nhu cầu giúp tài xế quyết định chờ ở đâu.",
+        },
+      ],
+  }
+- {
+    slug: map-tile-n,
+    lemma: "map tile",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: transport,
+    ipa: "/ˈmæp taɪl/",
+    def: "One small square image that is joined with others to make a map.",
+    vi: "ô bản đồ",
+    examples:
+      [
+        {
+          en: "Cache map tiles so the app works on slow networks.",
+          vi: "Lưu cache các ô bản đồ để ứng dụng chạy được khi mạng chậm.",
+        },
+      ],
+  }
+- {
+    slug: zoom-level-n,
+    lemma: "zoom level",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: transport,
+    ipa: "/ˈzuːm ˌlevl/",
+    def: "How close or far the view of a map is.",
+    vi: "mức thu phóng",
+    examples:
+      [
+        {
+          en: "Hide driver icons below zoom level ten.",
+          vi: "Ẩn biểu tượng tài xế khi mức thu phóng dưới mười.",
+        },
+      ],
+  }
+- {
+    slug: cluster-v,
+    lemma: "cluster",
+    pos: verb,
+    cefr: C1,
+    topic: transport,
+    ipa: "/ˈklʌstə/",
+    def: "To group things that are close together.",
+    vi: "gom cụm",
+    examples:
+      [
+        {
+          en: "Cluster nearby markers so the map is easy to read.",
+          vi: "Gom cụm các điểm đánh dấu gần nhau để bản đồ dễ đọc.",
+        },
+      ],
+  }
+- {
+    slug: snap-to-road-phr,
+    lemma: "snap to the road",
+    pos: phrase,
+    kind: phrase,
+    cefr: C1,
+    topic: transport,
+    ipa: "/ˌsnæp tə ðə ˈrəʊd/",
+    def: "To move GPS points onto the nearest real road on the map.",
+    vi: "khớp vào đường",
+    examples:
+      [
+        {
+          en: "Snap the points to the road before you draw the route.",
+          vi: "Khớp các điểm vào đường trước khi vẽ tuyến.",
+        },
+      ],
+  }
+- {
+    slug: eligible-adj-t18,
+    lemma: "eligible",
+    pos: adjective,
+    cefr: C1,
+    topic: transport,
+    ipa: "/ˈelɪdʒəbl/",
+    def: "Allowed to get or do something because you meet the conditions.",
+    vi: "đủ điều kiện",
+    examples:
+      [
+        {
+          en: "Only orders under five kilograms are eligible for express delivery.",
+          vi: "Chỉ đơn dưới năm ký mới đủ điều kiện giao hoả tốc.",
+        },
+      ],
+  }
+- {
+    slug: pilot-city-n,
+    lemma: "pilot city",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: transport,
+    ipa: "/ˈpaɪlət ˌsɪti/",
+    def: "The first city where a new feature is tried before a wider launch.",
+    vi: "thành phố thử nghiệm",
+    examples:
+      [
+        {
+          en: "Da Nang will be the pilot city for parcel lockers.",
+          vi: "Đà Nẵng sẽ là thành phố thử nghiệm tủ nhận hàng.",
+        },
+      ],
+  }
+- {
+    slug: toll-n,
+    lemma: "toll",
+    pos: noun,
+    cefr: B2,
+    topic: transport,
+    ipa: "/təʊl/",
+    def: "Money you pay to use a road or bridge.",
+    vi: "phí cầu đường",
+    examples:
+      [
+        {
+          en: "Add highway tolls to the fare estimate.",
+          vi: "Cộng phí cầu đường cao tốc vào giá ước tính.",
+        },
+      ],
+  }
+- {
+    slug: geocoder-n,
+    lemma: "geocoder",
+    pos: noun,
+    cefr: C1,
+    topic: transport,
+    ipa: "/ˈdʒiːəʊkəʊdə/",
+    def: "A service that turns addresses into map positions.",
+    vi: "dịch vụ mã hoá địa chỉ",
+    examples:
+      [
+        {
+          en: "Switch to a backup geocoder if the main one times out.",
+          vi: "Chuyển sang dịch vụ geocoder dự phòng nếu dịch vụ chính quá thời gian.",
+        },
+      ],
+  }

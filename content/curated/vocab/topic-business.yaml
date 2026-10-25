@@ -1,2282 +1,3508 @@
-# Developer vocabulary: Product Thinking & Business Context. Original definitions and curated examples.
-- lemma: user
-  pos: noun
-  vi: người sử dụng
-  def: A person who interacts with a product or system.
-  examples:
-    - en: The user can download previous invoices from the account page.
-  slug: t21-user-n
-  topic: economy
-  cefr: B2
-- lemma: customer
-  pos: noun
-  vi: khách hàng
-  def: A person or organisation that buys a product or service.
-  examples:
-    - en: The customer needs an invoice for this subscription.
-  slug: t21-customer-n
-  topic: economy
-  cefr: B2
-- slug: t21-target-user-n
-  lemma: target user
-  pos: noun
-  kind: collocation
-  cefr: B2
-  topic: economy
-  ipa: /ˌtɑːɡɪt ˈjuːzə/
-  def: The kind of person a product is mainly made for.
-  vi: người dùng mục tiêu
-  examples:
-    - en: My target users are freelancers who work in cafés.
-      vi: Người dùng mục tiêu của mình là freelancer làm việc ở quán cà phê.
-- slug: t21-pain-point-n
-  lemma: pain point
-  pos: noun
-  kind: collocation
-  cefr: B2
-  topic: economy
-  ipa: /ˈpeɪn pɔɪnt/
-  def: A problem that annoys users and that a product can fix.
-  vi: điểm khó chịu (của người dùng)
-  examples:
-    - en: The biggest pain point was finding a quiet place to work.
-      vi: Điểm khó chịu lớn nhất là tìm một chỗ yên tĩnh để làm việc.
-- slug: t21-use-case-n
-  lemma: use case
-  pos: noun
-  kind: collocation
-  cefr: B2
-  topic: economy
-  ipa: /ˈjuːs keɪs/
-  def: A particular situation in which a product is used.
-  vi: trường hợp sử dụng
-  examples:
-    - en: The main use case is splitting bills after team lunches.
-      vi: Trường hợp sử dụng chính là chia tiền sau các bữa trưa của team.
-- slug: t21-problem-statement-n
-  lemma: problem statement
-  pos: noun
-  kind: collocation
-  cefr: B2
-  topic: economy
-  ipa: /ˈprɒbləm steɪtmənt/
-  def: A short, clear description of the problem you want to solve.
-  vi: mô tả vấn đề
-  examples:
-    - en: The problem statement fits in two sentences.
-      vi: Phần mô tả vấn đề gói gọn trong hai câu.
-- lemma: need
-  pos: noun
-  vi: nhu cầu cần được đáp ứng
-  def: Something necessary to achieve a goal or solve a problem.
-  examples:
-    - en: The user need is faster access to previous invoices.
-  slug: t21-need-n
-  topic: economy
-  cefr: B2
-- lemma: goal
-  pos: noun
-  vi: mục tiêu mong muốn
-  def: An outcome that someone wants to achieve.
-  examples:
-    - en: The goal is to reduce failed bookings.
-  slug: t21-goal-n
-  topic: economy
-  cefr: B2
-- slug: t21-context-n
-  lemma: context
-  pos: noun
-  cefr: B1
-  topic: economy
-  ipa: /ˈkɒntekst/
-  def: The background facts that help someone understand a situation.
-  vi: ngữ cảnh, bối cảnh
-  examples:
-    - en: "Add some context: which service, which branch, which command."
-      vi: "Thêm chút ngữ cảnh: service nào, nhánh nào, lệnh nào."
-- lemma: value
-  pos: noun
-  vi: giá trị mang lại
-  def: The usefulness or benefit provided to someone.
-  examples:
-    - en: Explain the value of this feature to the customer.
-  slug: t21-value-n
-  topic: economy
-  cefr: B2
-- lemma: customer interview
-  pos: noun
-  vi: buổi phỏng vấn khách hàng
-  def: A conversation to understand a customer's needs and experiences.
-  examples:
-    - en: Start the customer interview with a question about their current workflow.
-  slug: t21-customer-interview-n
-  topic: economy
-  cefr: B2
-  kind: collocation
-- slug: t21-open-question-n
-  lemma: open question
-  pos: noun
-  kind: collocation
-  cefr: B2
-  topic: economy
-  ipa: /ˌəʊpən ˈkwestʃən/
-  def: A question that has not been answered or decided yet.
-  vi: câu hỏi còn bỏ ngỏ
-  examples:
-    - en: "Open question: do we need to support IE?"
-      vi: "Câu hỏi còn bỏ ngỏ: có cần hỗ trợ IE không?"
-- lemma: leading question
-  pos: noun
-  vi: câu hỏi dẫn dắt câu trả lời
-  def: A question that suggests the answer the speaker expects.
-  examples:
-    - en: Avoid a leading question when interviewing a customer.
-  slug: t21-leading-question-n
-  topic: economy
-  cefr: B2
-  kind: collocation
-- slug: t21-observation-n
-  lemma: observation
-  pos: noun
-  cefr: B2
-  topic: economy
-  ipa: /ˌɒbzəˈveɪʃn/
-  def: A fact you noticed by watching carefully.
-  vi: điều quan sát được
-  examples:
-    - en: My observation is that the stand-ups often run over time.
-      vi: Mình quan sát thấy các buổi stand-up thường bị quá giờ.
-- slug: t21-evidence-n
-  lemma: evidence
-  pos: noun
-  cefr: B2
-  topic: economy
-  ipa: /ˈevɪdəns/
-  def: Facts or results that show something is true.
-  vi: bằng chứng
-  note: 'Không đếm được: "a piece of evidence".'
-  examples:
-    - en: Is there any evidence that this library is faster?
-      vi: Có bằng chứng nào cho thấy thư viện này nhanh hơn không?
-- slug: t21-assumption-n
-  lemma: assumption
-  pos: noun
-  cefr: B2
-  topic: economy
-  ipa: /əˈsʌmpʃn/
-  def: Something you believe is true but have not proved.
-  vi: giả định
-  examples:
-    - en: List your assumptions so others can check them.
-      vi: Liệt kê các giả định để người khác kiểm tra.
-- slug: t21-validate-v
-  lemma: validate
-  pos: verb
-  cefr: B2
-  topic: economy
-  ipa: /ˈvælɪdeɪt/
-  def: To test an idea or result to prove it is correct.
-  vi: xác thực, kiểm chứng
-  examples:
-    - en: Validate the fix on staging before you write it up.
-      vi: Kiểm chứng bản sửa trên staging trước khi viết lại.
-- slug: t21-listen-v
-  lemma: listen
-  pos: verb
-  cefr: A2
-  topic: economy
-  ipa: /ˈlɪsn/
-  def: To pay attention to what someone is saying.
-  vi: lắng nghe
-  examples:
-    - en: Sometimes the best help is to listen and not give advice.
-      vi: Đôi khi cách giúp tốt nhất là lắng nghe và không khuyên gì.
-- slug: t21-follow-up-n
-  lemma: follow-up
-  pos: noun
-  cefr: B2
-  topic: economy
-  ipa: /ˈfɒləʊ ʌp/
-  def: A message or action that continues something that happened earlier.
-  vi: sự liên hệ tiếp theo
-  examples:
-    - en: I sent a quick follow-up the morning after the meetup.
-      vi: Mình gửi một tin liên hệ ngắn vào sáng hôm sau buổi meetup.
-- slug: t21-behaviour-n
-  lemma: behaviour
-  pos: noun
-  cefr: B1
-  topic: economy
-  ipa: /bɪˈheɪvjə/
-  def: The way a program or system acts.
-  vi: hành vi, cách hoạt động
-  note: Anh-Mỹ viết "behavior".
-  examples:
-    - en: This behaviour started after yesterday's deploy.
-      vi: Hành vi này bắt đầu sau lần deploy hôm qua.
-- slug: t21-quote-v
-  lemma: quote
-  pos: verb
-  cefr: B1
-  topic: economy
-  ipa: /kwəʊt/
-  def: To repeat someone's exact words.
-  vi: trích dẫn
-  examples:
-    - en: Quote the user's message in the ticket.
-      vi: Trích dẫn tin nhắn của người dùng trong ticket.
-- slug: t21-insight-n
-  lemma: insight
-  pos: noun
-  cefr: C1
-  topic: economy
-  ipa: /ˈɪnsaɪt/
-  def: A clear, deep understanding of something.
-  vi: hiểu biết sâu sắc
-  examples:
-    - en: The post gives real insight into how the queue works.
-      vi: Bài viết mang lại hiểu biết sâu về cách hàng đợi vận hành.
-- slug: t21-requirement-n
-  lemma: requirement
-  pos: noun
-  cefr: B1
-  topic: economy
-  ipa: /rɪˈkwaɪəmənt/
-  def: Something that must be done or must be true.
-  vi: yêu cầu, điều kiện bắt buộc
-  examples:
-    - en: A passing build is a requirement for every merge.
-      vi: Build xanh là điều kiện bắt buộc cho mọi lần merge.
-- slug: t21-scope-n
-  lemma: scope
-  pos: noun
-  cefr: B2
-  topic: economy
-  ipa: /skəʊp/
-  def: The range of things that something covers.
-  vi: phạm vi
-  examples:
-    - en: The scope of the exception is the billing service only.
-      vi: Phạm vi ngoại lệ chỉ là dịch vụ tính tiền.
-- slug: t21-non-goal-n
-  lemma: non-goal
-  pos: noun
-  cefr: C1
-  topic: economy
-  ipa: /ˌnɒn ˈɡəʊl/
-  def: Something a project clearly says it will not try to do.
-  vi: điều không nằm trong mục tiêu
-  examples:
-    - en: Predicting floods is a non-goal for version one.
-      vi: Dự đoán lũ không nằm trong mục tiêu của phiên bản một.
-- slug: t21-acceptance-criteria-n
-  lemma: acceptance criteria
-  pos: noun
-  kind: collocation
-  cefr: B2
-  topic: economy
-  ipa: /əkˈseptəns kraɪˌtɪəriə/
-  def: The conditions a feature must meet to be accepted as done.
-  vi: tiêu chí chấp nhận
-  examples:
-    - en: Can you share the acceptance criteria for the export feature?
-      vi: Bạn gửi giúp tiêu chí chấp nhận cho tính năng xuất file được không?
-- slug: t21-deliverable-n
-  lemma: deliverable
-  pos: noun
-  cefr: C1
-  topic: economy
-  ipa: /dɪˈlɪvərəbl/
-  def: A finished piece of work that you must give to a client or manager.
-  vi: sản phẩm bàn giao (theo cam kết)
-  forms:
-    - deliverables
-  examples:
-    - en: The main deliverable for this month is the admin dashboard.
-      vi: Sản phẩm bàn giao chính tháng này là trang quản trị.
-- slug: t21-constraint-n
-  lemma: constraint
-  pos: noun
-  cefr: B2
-  topic: economy
-  ipa: /kənˈstreɪnt/
-  def: Something that limits what you can do.
-  vi: ràng buộc
-  examples:
-    - en: A key constraint is that the data must stay in Vietnam.
-      vi: Một ràng buộc quan trọng là dữ liệu phải lưu ở Việt Nam.
-- slug: t21-dependency-n
-  lemma: dependency
-  pos: noun
-  cefr: C1
-  topic: economy
-  ipa: /dɪˈpendənsi/
-  def: Something that a system needs in order to work.
-  vi: phụ thuộc
-  examples:
-    - en: Write down every external dependency of the service.
-      vi: Hãy ghi lại mọi phụ thuộc bên ngoài của service.
-- slug: t21-stakeholder-n
-  lemma: stakeholder
-  pos: noun
-  cefr: C1
-  topic: economy
-  ipa: /ˈsteɪkhəʊldə/
-  def: A person or group who cares about a project and is affected by its result.
-  vi: bên liên quan
-  forms:
-    - stakeholders
-  examples:
-    - en: We should show the prototype to the main stakeholders first.
-      vi: Mình nên cho các bên liên quan chính xem bản prototype trước.
-- slug: t21-clarify-v
-  lemma: clarify
-  pos: verb
-  cefr: B1
-  topic: economy
-  ipa: /ˈklærəfaɪ/
-  def: To make something easier to understand by explaining it more.
-  vi: làm rõ
-  examples:
-    - en: Could you clarify what "sync" means in this ticket?
-      vi: Bạn làm rõ giúp "sync" trong ticket này nghĩa là gì?
-- slug: t21-confirm-v
-  lemma: confirm
-  pos: verb
-  cefr: B1
-  topic: economy
-  ipa: /kənˈfɜːm/
-  def: To say that something is true or that a plan will definitely happen.
-  vi: xác nhận
-  forms:
-    - confirms
-    - confirmed
-    - confirming
-    - confirmation
-  examples:
-    - en: Could you confirm the meeting time by email?
-      vi: Anh/chị xác nhận giờ họp qua email giúp tôi được không?
-- lemma: ambiguity
-  pos: noun
-  vi: sự mơ hồ
-  def: A lack of clarity that allows different interpretations.
-  examples:
-    - en: A concrete example removes ambiguity from the requirement.
-  slug: t21-ambiguity-n
-  topic: economy
-  cefr: B2
-- slug: t21-out-of-scope-phr
-  lemma: out of scope
-  pos: phrase
-  kind: phrase
-  cefr: B2
-  topic: economy
-  ipa: /aʊt əv skəʊp/
-  def: Not included in the work that was agreed.
-  vi: ngoài phạm vi
-  examples:
-    - en: Dark mode is out of scope for the first version.
-      vi: Chế độ tối nằm ngoài phạm vi của phiên bản đầu.
-- slug: t21-in-scope-phr
-  lemma: in scope
-  pos: phrase
-  kind: phrase
-  cefr: B2
-  topic: economy
-  ipa: /ɪn ˈskəʊp/
-  def: Included in what a review or project covers.
-  vi: nằm trong phạm vi
-  examples:
-    - en: Only the payment system is in scope for this audit.
-      vi: Chỉ hệ thống thanh toán nằm trong phạm vi đợt kiểm toán này.
-- slug: t21-edge-case-n
-  lemma: edge case
-  pos: noun
-  kind: collocation
-  cefr: C1
-  topic: economy
-  ipa: /ˈedʒ keɪs/
-  def: An unusual situation at the limit of what a system expects.
-  vi: trường hợp biên
-  examples:
-    - en: Explain the edge cases, not only the happy path.
-      vi: Hãy giải thích các trường hợp biên, không chỉ luồng bình thường.
-- slug: t21-priority-n
-  lemma: priority
-  pos: noun
-  cefr: B1
-  topic: economy
-  ipa: /praɪˈɒrəti/
-  def: Something that is more important than other things and should be done first.
-  vi: ưu tiên
-  examples:
-    - en: Your first priority is to learn the release process.
-      vi: Ưu tiên đầu tiên của bạn là nắm quy trình release.
-- slug: t21-prioritize-v
-  lemma: prioritize
-  pos: verb
-  cefr: B1
-  topic: economy
-  ipa: /praɪˈɒrətaɪz/
-  def: To decide which things are most important and do them first.
-  vi: ưu tiên, sắp xếp thứ tự ưu tiên
-  forms:
-    - prioritizes
-    - prioritized
-    - prioritizing
-    - prioritise
-  examples:
-    - en: We need to prioritize the payment bug over the new design.
-      vi: Mình cần ưu tiên lỗi thanh toán trước thiết kế mới.
-- lemma: must-have
-  pos: noun
-  vi: yêu cầu bắt buộc phải có
-  def: Something essential for the intended result.
-  examples:
-    - en: Accessible checkout is a must-have for this release.
-  slug: t21-must-have-n
-  topic: economy
-  cefr: B2
-- lemma: nice-to-have
-  pos: noun
-  vi: tính năng có thì tốt nhưng chưa bắt buộc
-  def: Something useful but not essential.
-  examples:
-    - en: Custom themes are a nice-to-have for the first release.
-  slug: t21-nice-to-have-n
-  topic: economy
-  cefr: B2
-- slug: t21-urgency-n
-  lemma: urgency
-  pos: noun
-  cefr: B2
-  topic: economy
-  ipa: /ˈɜːdʒənsi/
-  def: How quickly something needs to be done.
-  vi: mức độ khẩn
-  examples:
-    - en: Mark the urgency in the first line of your message.
-      vi: Ghi mức độ khẩn ở dòng đầu tin nhắn.
-- slug: t21-impact-n
-  lemma: impact
-  pos: noun
-  cefr: B1
-  topic: economy
-  ipa: /ˈɪmpækt/
-  def: The effect that something has.
-  vi: ảnh hưởng, tác động
-  examples:
-    - en: What is the impact if we skip the load test?
-      vi: Nếu bỏ qua bài kiểm tra tải thì ảnh hưởng là gì?
-- lemma: effort
-  pos: noun
-  vi: công sức cần bỏ ra
-  def: The work or energy needed to complete a task.
-  examples:
-    - en: Estimate the effort before promising a release date.
-  slug: t21-effort-n
-  topic: economy
-  cefr: B2
-- slug: t21-estimate-v
-  lemma: estimate
-  pos: verb
-  cefr: B1
-  topic: economy
-  ipa: /ˈestɪmeɪt/
-  def: To guess an amount carefully using the facts you have.
-  vi: ước tính
-  examples:
-    - en: I estimate the API costs at three hundred dollars.
-      vi: Mình ước tính chi phí API khoảng ba trăm đô.
-- slug: t21-deadline-n
-  lemma: deadline
-  pos: noun
-  cefr: B1
-  topic: economy
-  ipa: /ˈdedlaɪn/
-  def: The time by which something must be finished.
-  vi: hạn chót
-  examples:
-    - en: The deadline for the audit fixes is next Friday.
-      vi: Hạn chót sửa các lỗi kiểm toán là thứ Sáu tuần sau.
-- slug: t21-milestone-n
-  lemma: milestone
-  pos: noun
-  cefr: B2
-  topic: economy
-  ipa: /ˈmaɪlstəʊn/
-  def: An important point or stage in a project.
-  vi: cột mốc (của dự án)
-  forms:
-    - milestones
-  examples:
-    - en: The first milestone is a working login page by the end of May.
-      vi: Cột mốc đầu tiên là trang đăng nhập chạy được vào cuối tháng Năm.
-- slug: t21-timeline-n
-  lemma: timeline
-  pos: noun
-  cefr: B2
-  topic: economy
-  ipa: /ˈtaɪmlaɪn/
-  def: A plan that shows when each part of a project will happen.
-  vi: mốc thời gian, lịch trình dự án
-  forms:
-    - timelines
-  examples:
-    - en: The timeline looks tight, but we can do it if nobody is sick.
-      vi: Lịch trình khá gấp, nhưng nếu không ai ốm thì bọn mình làm kịp.
-- slug: t21-roadmap-n
-  lemma: roadmap
-  pos: noun
-  cefr: B2
-  topic: economy
-  ipa: /ˈrəʊdmæp/
-  def: A plan that shows future changes and when they will come.
-  vi: lộ trình
-  examples:
-    - en: The roadmap shows v2 being removed next spring.
-      vi: Lộ trình cho thấy v2 sẽ bị gỡ vào mùa xuân tới.
-- lemma: backlog
-  pos: noun
-  vi: danh sách công việc chưa xử lý
-  def: A list of work waiting to be prioritised or completed.
-  examples:
-    - en: Put the optional export feature in the backlog.
-  slug: t21-backlog-n
-  topic: economy
-  cefr: B2
-- lemma: defer
-  pos: verb
-  vi: hoãn sang thời điểm sau
-  def: To postpone a task or decision.
-  examples:
-    - en: We can defer the dashboard redesign until next month.
-  slug: t21-defer-v
-  topic: economy
-  cefr: B2
-- slug: t21-trade-off-n
-  lemma: trade-off
-  pos: noun
-  cefr: B2
-  topic: economy
-  ipa: /ˈtreɪd ɒf/
-  def: A balance between two things you cannot have at the same time.
-  vi: sự đánh đổi
-  examples:
-    - en: The trade-off was speed for safety, and it was the right one.
-      vi: Sự đánh đổi là tốc độ lấy an toàn, và đó là lựa chọn đúng.
-- slug: t21-opportunity-cost-n
-  lemma: opportunity cost
-  pos: noun
-  kind: collocation
-  cefr: C1
-  topic: economy
-  ipa: /ˌɒpəˈtjuːnəti kɒst/
-  def: What you lose by choosing one option instead of another.
-  vi: chi phí cơ hội
-  examples:
-    - en: Building it ourselves has an opportunity cost in delayed features.
-      vi: Tự làm có chi phí cơ hội là các tính năng bị chậm.
-- slug: t21-metric-n
-  lemma: metric
-  pos: noun
-  cefr: B2
-  topic: economy
-  ipa: /ˈmetrɪk/
-  def: A number used to measure something.
-  vi: chỉ số
-  examples:
-    - en: Our main metric is completed sign-ups.
-      vi: Chỉ số chính của chúng ta là số lượt đăng ký hoàn tất.
-- slug: t21-conversion-rate-n
-  lemma: conversion rate
-  pos: noun
-  kind: collocation
-  cefr: C1
-  topic: economy
-  ipa: /kənˈvɜːʃn reɪt/
-  def: The percent of users who complete a goal, like buying.
-  vi: tỉ lệ chuyển đổi
-  examples:
-    - en: The conversion rate rose from 3% to 3.4%.
-      vi: Tỉ lệ chuyển đổi tăng từ 3% lên 3,4%.
-- slug: t21-retention-n
-  lemma: retention
-  pos: noun
-  cefr: C1
-  topic: economy
-  ipa: /rɪˈtenʃn/
-  def: How many users keep using a product over time.
-  vi: tỉ lệ giữ chân
-  examples:
-    - en: Day-7 retention did not change.
-      vi: Tỉ lệ giữ chân ngày thứ 7 không thay đổi.
-- slug: t21-engagement-n
-  lemma: engagement
-  pos: noun
-  cefr: B2
-  topic: economy
-  ipa: /ɪnˈɡeɪdʒmənt/
-  def: How much users interact with a product.
-  vi: mức độ tương tác
-  examples:
-    - en: Engagement went up, but so did support tickets.
-      vi: Mức tương tác tăng, nhưng ticket hỗ trợ cũng tăng.
-- slug: t21-cohort-n
-  lemma: cohort
-  pos: noun
-  cefr: C1
-  topic: economy
-  ipa: /ˈkəʊhɔːt/
-  def: A group of users who share something, like their join month.
-  vi: nhóm người dùng (cohort)
-  examples:
-    - en: The March cohort stayed longer than February's.
-      vi: Nhóm tháng Ba ở lại lâu hơn nhóm tháng Hai.
-- slug: t21-baseline-n
-  lemma: baseline
-  pos: noun
-  cefr: B2
-  topic: economy
-  ipa: /ˈbeɪslaɪn/
-  def: A first measurement that you compare later results with.
-  vi: đường cơ sở, mốc so sánh
-  examples:
-    - en: Measure a baseline before you optimise anything.
-      vi: Hãy đo mốc so sánh trước khi tối ưu bất cứ thứ gì.
-- lemma: target
-  pos: noun
-  vi: mức hoặc kết quả đặt ra
-  def: A result or level someone aims to reach.
-  examples:
-    - en: Set a realistic target for the next iteration.
-  slug: t21-target-n
-  topic: economy
-  cefr: B2
-- slug: t21-success-criteria-n
-  lemma: success criteria
-  pos: noun
-  kind: collocation
-  cefr: B2
-  topic: economy
-  ipa: /səkˈses kraɪˈtɪəriə/
-  def: The conditions that show a change has worked.
-  vi: tiêu chí thành công
-  examples:
-    - en: The success criteria are fewer rollbacks and faster reviews.
-      vi: Tiêu chí thành công là ít rollback hơn và review nhanh hơn.
-- slug: t21-guardrail-metric-n
-  lemma: guardrail metric
-  pos: noun
-  kind: collocation
-  cefr: C1
-  topic: economy
-  ipa: /ˈɡɑːdreɪl ˈmetrɪk/
-  def: A metric you watch to make sure a test does not cause harm.
-  vi: chỉ số bảo vệ
-  examples:
-    - en: Error rate is our guardrail metric for this test.
-      vi: Tỉ lệ lỗi là chỉ số bảo vệ cho thử nghiệm này.
-- slug: t21-measure-v
-  lemma: measure
-  pos: verb
-  cefr: B1
-  topic: economy
-  ipa: /ˈmeʒə/
-  def: To find the size or amount of something.
-  vi: đo lường
-  examples:
-    - en: We'll measure lead time before and after the change.
-      vi: Nhóm sẽ đo thời gian giao hàng trước và sau thay đổi.
-- slug: t21-trend-n
-  lemma: trend
-  pos: noun
-  cefr: B1
-  topic: economy
-  ipa: /trend/
-  def: A general direction in which numbers are changing.
-  vi: xu hướng
-  examples:
-    - en: The trend is going down since we moved regions.
-      vi: Xu hướng đang giảm kể từ khi bọn mình chuyển khu vực.
-- slug: t21-sample-n
-  lemma: sample
-  pos: noun
-  cefr: B2
-  topic: economy
-  ipa: /ˈsɑːmpl/
-  def: A small part of a group that you study.
-  vi: mẫu
-  examples:
-    - en: We checked a sample of 200 failed orders.
-      vi: Bọn mình kiểm tra một mẫu gồm 200 đơn hàng lỗi.
-- slug: t21-data-point-n
-  lemma: data point
-  pos: noun
-  kind: collocation
-  cefr: B2
-  topic: economy
-  ipa: /ˈdeɪtə pɔɪnt/
-  def: One single fact or measurement.
-  vi: điểm dữ liệu
-  examples:
-    - en: "One more data point: it also fails on Firefox."
-      vi: "Thêm một điểm dữ liệu: nó cũng lỗi trên Firefox."
-- slug: t21-confidence-interval-n
-  lemma: confidence interval
-  pos: noun
-  kind: collocation
-  cefr: C1
-  topic: economy
-  ipa: /ˈkɒnfɪdəns ˈɪntəvl/
-  def: A range that probably contains the true value.
-  vi: khoảng tin cậy
-  examples:
-    - en: The confidence interval still includes zero.
-      vi: Khoảng tin cậy vẫn bao gồm số không.
-- slug: t21-statistically-significant-adj
-  lemma: statistically significant
-  pos: adjective
-  kind: collocation
-  cefr: C1
-  topic: economy
-  ipa: /stəˈtɪstɪkli sɪɡˈnɪfɪkənt/
-  def: Unlikely to be caused only by chance.
-  vi: có ý nghĩa thống kê
-  examples:
-    - en: The difference is small but statistically significant.
-      vi: Khác biệt nhỏ nhưng có ý nghĩa thống kê.
-- slug: t21-uplift-n
-  lemma: uplift
-  pos: noun
-  cefr: C1
-  topic: economy
-  ipa: /ˈʌplɪft/
-  def: An increase in a metric caused by a change.
-  vi: mức tăng
-  examples:
-    - en: The new layout gave a 2% uplift in clicks.
-      vi: Bố cục mới giúp lượt nhấp tăng 2%.
-- slug: t21-exposure-n
-  lemma: exposure
-  pos: noun
-  cefr: C1
-  topic: economy
-  ipa: /ɪkˈspəʊʒə/
-  def: The moment a user actually sees the tested version.
-  vi: lượt tiếp xúc
-  examples:
-    - en: Count exposure only when the page really loads.
-      vi: Chỉ tính lượt tiếp xúc khi trang thật sự tải xong.
-- slug: t21-duration-n
-  lemma: duration
-  pos: noun
-  cefr: B2
-  topic: economy
-  ipa: /djuˈreɪʃn/
-  def: How long something lasts.
-  vi: thời lượng
-  examples:
-    - en: Decide the test duration before you start.
-      vi: Quyết định thời lượng thử nghiệm trước khi bắt đầu.
-- lemma: feasibility
-  pos: noun
-  vi: tính khả thi
-  def: Whether something can be done within practical constraints.
-  examples:
-    - en: Check the feasibility of migrating before the deadline.
-  slug: t21-feasibility-n
-  topic: economy
-  cefr: B2
-- slug: t21-viable-adj
-  lemma: viable
-  pos: adjective
-  cefr: C1
-  topic: economy
-  ipa: /ˈvaɪəbl/
-  def: Able to work successfully.
-  vi: khả thi
-  examples:
-    - en: Is a weekly release still viable with only three engineers?
-      vi: Release hàng tuần còn khả thi khi chỉ có ba kỹ sư không?
-- slug: t21-alternative-n
-  lemma: alternative
-  pos: noun
-  cefr: B2
-  topic: economy
-  ipa: /ɔːlˈtɜːnətɪv/
-  def: Another possible choice.
-  vi: phương án thay thế
-  examples:
-    - en: We considered Kafka as an alternative but chose SQS.
-      vi: Nhóm đã cân nhắc Kafka làm phương án thay thế nhưng chọn SQS.
-- slug: t21-option-n
-  lemma: option
-  pos: noun
-  cefr: A2
-  topic: economy
-  ipa: /ˈɒpʃn/
-  def: One of the things you can choose.
-  vi: lựa chọn
-  examples:
-    - en: Option B is cheaper but slower to set up.
-      vi: Lựa chọn B rẻ hơn nhưng cài đặt lâu hơn.
-- slug: t21-benefit-n
-  lemma: benefit
-  pos: noun
-  cefr: B1
-  topic: economy
-  ipa: /ˈbenɪfɪt/
-  def: A good result or advantage.
-  vi: lợi ích
-  examples:
-    - en: The main benefit is that juniors can deploy alone.
-      vi: Lợi ích chính là các bạn junior tự deploy được.
-- slug: t21-drawback-n
-  lemma: drawback
-  pos: noun
-  cefr: B2
-  topic: economy
-  ipa: /ˈdrɔːbæk/
-  def: A disadvantage or problem.
-  vi: nhược điểm
-  examples:
-    - en: The main drawback is that we lose strong typing.
-      vi: Nhược điểm chính là mất kiểu dữ liệu chặt chẽ.
-- slug: t21-cost-n
-  lemma: cost
-  pos: noun
-  cefr: A2
-  topic: economy
-  ipa: /kɒst/
-  def: The money, time or effort needed for something.
-  vi: chi phí
-  examples:
-    - en: The cost is about two hours of setup per team.
-      vi: Chi phí khoảng hai giờ cài đặt cho mỗi nhóm.
-- slug: t21-budget-n
-  lemma: budget
-  pos: noun
-  cefr: B1
-  topic: economy
-  ipa: /ˈbʌdʒɪt/
-  def: The amount of money you plan to spend on something.
-  vi: ngân sách
-  forms:
-    - budgets
-    - over budget
-    - on budget
-  examples:
-    - en: We can't buy new laptops; the budget for this year is already used.
-      vi: Mình không mua laptop mới được, ngân sách năm nay đã dùng hết rồi.
-- slug: t21-capacity-n
-  lemma: capacity
-  pos: noun
-  cefr: B2
-  topic: economy
-  ipa: /kəˈpæsəti/
-  def: The largest number of people a place can hold.
-  vi: sức chứa
-  examples:
-    - en: The room has a capacity of sixty people.
-      vi: Phòng có sức chứa sáu mươi người.
-- slug: t21-available-adj
-  lemma: available
-  pos: adjective
-  cefr: A2
-  topic: economy
-  ipa: /əˈveɪləbl/
-  def: Free to talk, help or work at a particular time.
-  vi: rảnh, có mặt
-  examples:
-    - en: I'm available after lunch if you want to pair on the bug.
-      vi: Sau bữa trưa mình rảnh nếu bạn muốn cùng sửa lỗi.
-- slug: t21-short-term-adj
-  lemma: short-term
-  pos: adjective
-  cefr: B1
-  topic: economy
-  ipa: /ˌʃɔːt ˈtɜːm/
-  def: Lasting or having effects for a short time.
-  vi: ngắn hạn
-  examples:
-    - en: This is a short-term choice; we expect to replace it next year.
-      vi: Đây là lựa chọn ngắn hạn; dự kiến năm sau sẽ thay.
-- slug: t21-long-term-adj
-  lemma: long-term
-  pos: adjective
-  cefr: B2
-  topic: economy
-  ipa: /ˌlɒŋ ˈtɜːm/
-  def: Lasting or planned for a long time in the future.
-  vi: lâu dài
-  examples:
-    - en: Think of networking as a long-term habit, not a quick fix.
-      vi: Hãy xem việc kết nối là thói quen lâu dài, không phải giải pháp tức thời.
-- lemma: technical debt
-  pos: noun
-  vi: nợ kỹ thuật
-  def: Future maintenance work caused by shortcuts or outdated decisions.
-  examples:
-    - en: Record the technical debt created by this temporary workaround.
-  slug: t21-technical-debt-n
-  topic: economy
-  cefr: B2
-  kind: collocation
-- lemma: maintainability
-  pos: noun
-  vi: mức dễ bảo trì
-  def: How easily a system can be understood and changed.
-  examples:
-    - en: A simpler design often improves maintainability.
-  slug: t21-maintainability-n
-  topic: economy
-  cefr: B2
-- slug: t21-risk-n
-  lemma: risk
-  pos: noun
-  cefr: B1
-  topic: economy
-  ipa: /rɪsk/
-  def: The chance that something bad may happen.
-  vi: rủi ro
-  forms:
-    - risks
-    - risky
-  examples:
-    - en: The biggest risk is that the payment partner changes its API.
-      vi: Rủi ro lớn nhất là đối tác thanh toán thay đổi API.
-- slug: t21-uncertainty-n
-  lemma: uncertainty
-  pos: noun
-  cefr: B2
-  topic: economy
-  ipa: /ʌnˈsɜːtnti/
-  def: A feeling of not knowing what will happen.
-  vi: sự bất định
-  examples:
-    - en: The reorg created a lot of uncertainty in the team.
-      vi: Đợt tái cơ cấu tạo ra nhiều bất định trong nhóm.
-- slug: t21-likelihood-n
-  lemma: likelihood
-  pos: noun
-  cefr: C1
-  topic: economy
-  ipa: /ˈlaɪklihʊd/
-  def: How probable it is that something will happen.
-  vi: khả năng xảy ra
-  examples:
-    - en: Say the likelihood in words, like "likely" or "unlikely".
-      vi: Diễn đạt khả năng xảy ra bằng chữ, như "có khả năng" hay "khó xảy ra".
-- slug: t21-mitigation-n
-  lemma: mitigation
-  pos: noun
-  cefr: C1
-  topic: economy
-  ipa: /ˌmɪtɪˈɡeɪʃn/
-  def: An action that makes a risk less serious.
-  vi: biện pháp giảm thiểu
-  examples:
-    - en: As a mitigation, we will monitor the endpoint every hour.
-      vi: Để giảm thiểu rủi ro, nhóm sẽ theo dõi endpoint mỗi giờ.
-- slug: t21-contingency-n
-  lemma: contingency
-  pos: noun
-  cefr: C1
-  topic: economy
-  ipa: /kənˈtɪndʒənsi/
-  def: Money kept aside in case something goes wrong.
-  vi: khoản dự phòng
-  examples:
-    - en: Keep ten percent as a contingency for surprises.
-      vi: Giữ mười phần trăm làm khoản dự phòng cho bất ngờ.
-- slug: t21-reversible-adj
-  lemma: reversible
-  pos: adjective
-  cefr: C1
-  topic: economy
-  ipa: /rɪˈvɜːsəbl/
-  def: Able to be changed back to how it was before.
-  vi: có thể đảo ngược
-  examples:
-    - en: Choosing a log format is reversible, so decide quickly.
-      vi: Chọn định dạng log có thể đảo ngược, nên hãy quyết nhanh.
-- lemma: MVP
-  pos: noun
-  vi: sản phẩm khả dụng tối thiểu
-  def: A small usable product for testing a key assumption.
-  examples:
-    - en: Our MVP lets customers book one appointment.
-  slug: t21-mvp-n
-  topic: economy
-  cefr: B2
-- slug: t21-prototype-n
-  lemma: prototype
-  pos: noun
-  cefr: B2
-  topic: economy
-  ipa: /ˈprəʊtətaɪp/
-  def: An early, simple version of a product, made to test an idea.
-  vi: bản mẫu
-  examples:
-    - en: I built a prototype in one weekend to test the idea.
-      vi: Mình làm một bản mẫu trong một cuối tuần để thử ý tưởng.
-- slug: t21-proof-of-concept-n
-  lemma: proof of concept
-  pos: noun
-  kind: collocation
-  cefr: C1
-  topic: economy
-  ipa: /ˌpruːf əv ˈkɒnsept/
-  def: A small piece of work that shows an idea can really work.
-  vi: bản chứng minh khả thi
-  examples:
-    - en: This is only a proof of concept; it has no login yet.
-      vi: Đây mới là bản chứng minh khả thi; chưa có đăng nhập.
-- slug: t21-hypothesis-n
-  lemma: hypothesis
-  pos: noun
-  cefr: C1
-  topic: economy
-  ipa: /haɪˈpɒθəsɪs/
-  def: An idea that you plan to test.
-  vi: giả thuyết
-  examples:
-    - en: Our hypothesis is that smaller images won't hurt sales.
-      vi: Giả thuyết của mình là ảnh nhỏ hơn không ảnh hưởng doanh số.
-- slug: t21-experiment-n
-  lemma: experiment
-  pos: noun
-  cefr: B1
-  topic: economy
-  ipa: /ɪkˈsperɪmənt/
-  def: A test you do to find out whether an idea is true.
-  vi: thử nghiệm, thí nghiệm
-  examples:
-    - en: Let's run a quick experiment with the old driver.
-      vi: Hãy làm một thử nghiệm nhanh với driver cũ.
-- slug: t21-pilot-n
-  lemma: pilot
-  pos: noun
-  cefr: B2
-  topic: economy
-  ipa: /ˈpaɪlət/
-  def: A small test of a new idea before using it everywhere.
-  vi: thí điểm
-  examples:
-    - en: Let's run a pilot with one team for a month.
-      vi: Hãy chạy thí điểm với một nhóm trong một tháng.
-- slug: t21-beta-tester-n
-  lemma: beta tester
-  pos: noun
-  kind: collocation
-  cefr: B2
-  topic: economy
-  ipa: /ˈbiːtə ˌtestə/
-  def: A person who tries a product before it is finished and reports problems.
-  vi: người dùng thử bản beta
-  examples:
-    - en: I'm looking for ten beta testers from the meetup.
-      vi: Mình đang tìm mười người dùng thử bản beta từ buổi meetup.
-- slug: t21-early-adopter-n
-  lemma: early adopter
-  pos: noun
-  kind: collocation
-  cefr: C1
-  topic: economy
-  ipa: /ˌɜːli əˈdɒptə/
-  def: A person who starts using a new product or technology before most other
-    people.
-  vi: người dùng tiên phong
-  forms:
-    - early adopters
-  examples:
-    - en: As an early adopter, he had an electric car before anyone on our street.
-      vi: Là người dùng tiên phong, anh ấy có xe điện trước cả con phố.
-- slug: t21-holdout-n
-  lemma: holdout
-  pos: noun
-  cefr: C1
-  topic: economy
-  ipa: /ˈhəʊldaʊt/
-  def: A group of users kept on the old version for comparison.
-  vi: nhóm giữ lại để đối chứng
-  examples:
-    - en: The holdout still sees the old button.
-      vi: Nhóm đối chứng vẫn thấy nút cũ.
-- slug: t21-variant-n
-  lemma: variant
-  pos: noun
-  cefr: C1
-  topic: economy
-  ipa: /ˈveəriənt/
-  def: One of the different versions tested in an experiment.
-  vi: phiên bản thử, biến thể
-  examples:
-    - en: Variant B has a shorter form.
-      vi: Biến thể B có form ngắn hơn.
-- slug: t21-a-b-test-n
-  lemma: A/B test
-  pos: noun
-  cefr: B2
-  topic: economy
-  ipa: /ˌeɪ ˈbiː test/
-  def: An experiment where two groups of users see different versions.
-  vi: thử nghiệm A/B
-  examples:
-    - en: We ran an A/B test on the new checkout page.
-      vi: Bọn mình chạy thử nghiệm A/B cho trang thanh toán mới.
-  kind: collocation
-- slug: t21-traffic-split-n
-  lemma: traffic split
-  pos: noun
-  kind: collocation
-  cefr: C1
-  topic: economy
-  ipa: /ˈtræfɪk splɪt/
-  def: How users are divided between versions, such as 50/50.
-  vi: tỉ lệ chia lưu lượng
-  examples:
-    - en: We used a 90/10 traffic split to limit risk.
-      vi: Bọn mình chia lưu lượng 90/10 để hạn chế rủi ro.
-- slug: t21-randomly-adv
-  lemma: randomly
-  pos: adverb
-  cefr: B1
-  topic: economy
-  ipa: /ˈrændəmli/
-  def: By chance, without a plan or pattern.
-  vi: một cách ngẫu nhiên
-  examples:
-    - en: Users are randomly put into one of two groups.
-      vi: Người dùng được xếp ngẫu nhiên vào một trong hai nhóm.
-- slug: t21-assign-v
-  lemma: assign
-  pos: verb
-  cefr: B2
-  topic: economy
-  ipa: /əˈsaɪn/
-  def: To put someone into a group or give them a task.
-  vi: phân vào, gán
-  examples:
-    - en: Each new user is assigned to a group at sign-up.
-      vi: Mỗi người dùng mới được phân vào một nhóm khi đăng ký.
-- slug: t21-ramp-up-pv
-  lemma: ramp up
-  pos: phrasal_verb
-  kind: phrasal
-  cefr: C1
-  topic: economy
-  ipa: /ræmp ʌp/
-  def: To increase something step by step.
-  vi: tăng dần
-  examples:
-    - en: We'll ramp up the winner to 100% next week.
-      vi: Tuần sau ta sẽ tăng dần bản thắng lên 100%.
-- slug: t21-feature-flag-n
-  lemma: feature flag
-  pos: noun
-  kind: collocation
-  cefr: B2
-  topic: economy
-  ipa: /ˈfiːtʃə flæɡ/
-  def: A setting that turns a feature on or off without a new deploy.
-  vi: cờ tính năng
-  examples:
-    - en: Turn off the feature flag for half of the servers.
-      vi: Tắt cờ tính năng trên một nửa số server.
-- slug: t21-kill-switch-n
-  lemma: kill switch
-  pos: noun
-  kind: collocation
-  cefr: C1
-  topic: economy
-  ipa: /ˈkɪl swɪtʃ/
-  def: A setting that turns a feature off quickly in an emergency.
-  vi: công tắc tắt khẩn cấp
-  examples:
-    - en: We added a kill switch in case the new format fails.
-      vi: Chúng tôi thêm công tắc tắt khẩn cấp phòng khi định dạng mới bị lỗi.
-- slug: t21-roll-back-pv
-  lemma: roll back
-  pos: phrasal_verb
-  kind: phrasal
-  cefr: B2
-  topic: economy
-  ipa: /rəʊl bæk/
-  def: To return a system to an earlier version.
-  vi: quay lui phiên bản
-  examples:
-    - en: Roll back the commit and see if the error goes away.
-      vi: Quay lui commit đó và xem lỗi có hết không.
-- slug: t21-iteration-n
-  lemma: iteration
-  pos: noun
-  cefr: B2
-  topic: economy
-  ipa: /ˌɪtəˈreɪʃn/
-  def: One repeat of a loop or of a test.
-  vi: vòng lặp, lượt
-  examples:
-    - en: Each iteration inserts 1,000 rows.
-      vi: Mỗi lượt chèn 1.000 dòng.
-- lemma: learn
-  pos: verb
-  vi: học và rút ra điều mới
-  def: To gain knowledge or skill through experience or study.
-  examples:
-    - en: We want to learn why customers abandon the booking.
-  slug: t21-learn-v
-  topic: economy
-  cefr: B2
-- slug: t21-feedback-n
-  lemma: feedback
-  pos: noun
-  cefr: B1
-  topic: economy
-  ipa: /ˈfiːdbæk/
-  def: Comments about how well someone did something, given so they can improve.
-  vi: phản hồi, góp ý
-  examples:
-    - en: Could you give me feedback on my design doc?
-      vi: Anh cho em góp ý về tài liệu thiết kế được không?
-- slug: t21-novelty-effect-n
-  lemma: novelty effect
-  pos: noun
-  kind: collocation
-  cefr: C1
-  topic: economy
-  ipa: /ˈnɒvlti ɪˈfekt/
-  def: When users react to something only because it is new.
-  vi: hiệu ứng mới lạ
-  examples:
-    - en: The early uplift may be a novelty effect.
-      vi: Mức tăng ban đầu có thể chỉ là hiệu ứng mới lạ.
-- slug: t21-pricing-plan-n
-  lemma: pricing plan
-  pos: noun
-  kind: collocation
-  cefr: B1
-  topic: economy
-  ipa: /ˈpraɪsɪŋ plæn/
-  def: One of the options a company offers, each with its own price and features.
-  vi: gói giá, gói dịch vụ
-  examples:
-    - en: Which pricing plan includes single sign-on?
-      vi: Gói dịch vụ nào có đăng nhập một lần (SSO)?
-- slug: t21-subscription-n
-  lemma: subscription
-  pos: noun
-  cefr: B1
-  topic: economy
-  ipa: /səbˈskrɪpʃn/
-  def: Money you pay regularly to keep using a service.
-  vi: gói thuê bao, gói đăng ký trả phí
-  forms:
-    - subscriptions
-    - subscribe
-  examples:
-    - en: I cancelled two subscriptions that I never use.
-      vi: Mình đã huỷ hai gói trả phí mà mình không bao giờ dùng.
-- slug: t21-free-trial-n
-  lemma: free trial
-  pos: noun
-  kind: collocation
-  cefr: B1
-  topic: economy
-  ipa: /ˌfriː ˈtraɪəl/
-  def: A short time when you can use a product or service without paying.
-  vi: dùng thử miễn phí
-  examples:
-    - en: The space offers a one-week free trial for new members.
-      vi: Không gian này cho thành viên mới dùng thử miễn phí một tuần.
-- slug: t21-renewal-date-n
-  lemma: renewal date
-  pos: noun
-  kind: collocation
-  cefr: B1
-  topic: economy
-  ipa: /rɪˈnjuːəl deɪt/
-  def: The day when a subscription starts its next paid period.
-  vi: ngày gia hạn
-  examples:
-    - en: Please put the renewal date in the team calendar.
-      vi: Bạn ghi ngày gia hạn vào lịch chung của nhóm nhé.
-- slug: t21-monthly-adj
-  lemma: monthly
-  pos: adjective
-  cefr: A2
-  topic: economy
-  ipa: /ˈmʌnθli/
-  def: Happening or paid once every month.
-  vi: hằng tháng
-  examples:
-    - en: The monthly fee is ten dollars per user.
-      vi: Phí hằng tháng là mười đô mỗi người dùng.
-- slug: t21-annual-adj
-  lemma: annual
-  pos: adjective
-  cefr: B1
-  topic: economy
-  ipa: /ˈænjuəl/
-  def: Happening or paid once every year.
-  vi: hằng năm
-  examples:
-    - en: An annual plan saves us two months of fees.
-      vi: Gói năm giúp mình tiết kiệm hai tháng phí.
-- slug: t21-seat-n
-  lemma: seat
-  pos: noun
-  cefr: B1
-  topic: economy
-  ipa: /siːt/
-  def: One user's place in a paid team plan.
-  vi: chỗ (người dùng trong gói)
-  examples:
-    - en: We pay for eight seats but only six people log in.
-      vi: Mình trả tiền cho tám chỗ nhưng chỉ có sáu người đăng nhập.
-- slug: t21-billing-cycle-n
-  lemma: billing cycle
-  pos: noun
-  kind: collocation
-  cefr: B1
-  topic: economy
-  ipa: /ˈbɪlɪŋ ˌsaɪkl/
-  def: The regular period after which a service charges you again.
-  vi: chu kỳ thanh toán
-  examples:
-    - en: Changes to your plan start at the next billing cycle.
-      vi: Thay đổi gói sẽ áp dụng từ chu kỳ thanh toán kế tiếp.
-- slug: t21-usage-n
-  lemma: usage
-  pos: noun
-  cefr: B1
-  topic: economy
-  ipa: /ˈjuːsɪdʒ/
-  def: How much of a service you use.
-  vi: mức sử dụng
-  examples:
-    - en: Our usage doubled after the marketing email.
-      vi: Mức sử dụng của mình tăng gấp đôi sau email marketing.
-- slug: t21-pay-as-you-go-adj
-  lemma: pay-as-you-go
-  pos: adjective
-  cefr: B2
-  topic: economy
-  ipa: /ˌpeɪ əz juː ˈɡəʊ/
-  def: Paying only for what you use, with no fixed fee.
-  vi: dùng bao nhiêu trả bấy nhiêu
-  examples:
-    - en: A pay-as-you-go plan suits our small side project.
-      vi: Gói dùng bao nhiêu trả bấy nhiêu hợp với dự án phụ nhỏ của mình.
-- slug: t21-tier-n
-  lemma: tier
-  pos: noun
-  cefr: B2
-  topic: economy
-  ipa: /tɪə/
-  def: One level in a set of prices or features.
-  vi: bậc, hạng
-  examples:
-    - en: The free tier allows a thousand requests a day.
-      vi: Bậc miễn phí cho phép một nghìn request mỗi ngày.
-- slug: t21-quota-n
-  lemma: quota
-  pos: noun
-  cefr: B2
-  topic: economy
-  ipa: /ˈkwəʊtə/
-  def: The largest amount you are allowed to use in a period.
-  vi: hạn mức
-  examples:
-    - en: We hit our email quota before lunch.
-      vi: Mình dùng hết hạn mức email trước giờ trưa.
-- slug: t21-unit-price-n
-  lemma: unit price
-  pos: noun
-  kind: collocation
-  cefr: B2
-  topic: economy
-  ipa: /ˈjuːnɪt praɪs/
-  def: The price of one single item or unit.
-  vi: đơn giá
-  examples:
-    - en: The unit price falls when you buy more seats.
-      vi: Đơn giá giảm khi mua nhiều chỗ hơn.
-- slug: t21-flat-rate-n
-  lemma: flat rate
-  pos: noun
-  kind: collocation
-  cefr: B2
-  topic: economy
-  ipa: /ˌflæt ˈreɪt/
-  def: One fixed price that does not change with usage.
-  vi: giá cố định
-  examples:
-    - en: A flat rate is easier to plan for than per-request pricing.
-      vi: Giá cố định dễ lên kế hoạch hơn tính theo từng request.
-- slug: t21-afford-v
-  lemma: afford
-  pos: verb
-  cefr: B1
-  topic: economy
-  ipa: /əˈfɔːd/
-  def: To have enough money to pay for something.
-  vi: đủ tiền mua, chi trả được
-  examples:
-    - en: We can't afford a new server until next quarter.
-      vi: Chúng ta chưa đủ tiền mua server mới cho tới quý sau.
-  note: Thường đi với can / can't.
-- slug: t21-worth-adj
-  lemma: worth
-  pos: adjective
-  cefr: B1
-  topic: economy
-  ipa: /wɜːθ/
-  def: Having a value that makes the money or effort a good idea.
-  vi: đáng (tiền, công sức)
-  examples:
-    - en: A good chair is worth the money if you sit all day.
-      vi: Một cái ghế tốt đáng tiền nếu bạn ngồi cả ngày.
-  note: "Cấu trúc: be worth + danh từ / V-ing."
-- slug: t21-value-for-money-phr
-  lemma: value for money
-  pos: phrase
-  kind: phrase
-  cefr: B1
-  topic: economy
-  ipa: /ˌvæljuː fə ˈmʌni/
-  def: Good quality or usefulness compared with the price you pay.
-  vi: đáng đồng tiền
-  examples:
-    - en: The basic plan is the best value for money for small projects.
-      vi: Gói cơ bản là đáng đồng tiền nhất cho dự án nhỏ.
-- slug: t21-customer-review-n
-  lemma: customer review
-  pos: noun
-  kind: collocation
-  cefr: B1
-  topic: economy
-  ipa: /ˌkʌstəmə rɪˈvjuː/
-  def: A short opinion that a buyer writes about a product or shop.
-  vi: đánh giá của khách hàng
-  forms:
-    - customer reviews
-    - review
-  examples:
-    - en: I always read the customer reviews before I buy anything online.
-      vi: Mình luôn đọc đánh giá của khách hàng trước khi mua gì trên mạng.
-- lemma: churn
-  pos: noun
-  vi: tỷ lệ khách ngừng sử dụng
-  def: The rate at which customers stop using a service.
-  examples:
-    - en: Measure churn after changing the pricing plan.
-  slug: t21-churn-n
-  topic: economy
-  cefr: B2
-- lemma: revenue
-  pos: noun
-  vi: doanh thu
-  def: Money received from selling products or services.
-  examples:
-    - en: Compare subscription revenue with support costs.
-  slug: t21-revenue-n
-  topic: economy
-  cefr: B2
-- lemma: margin
-  pos: noun
-  vi: biên lợi nhuận
-  def: The share of revenue left after relevant costs.
-  examples:
-    - en: Higher hosting costs reduce our margin.
-  slug: t21-margin-n
-  topic: economy
-  cefr: B2
-- slug: t21-break-even-v
-  lemma: break even
-  pos: verb
-  kind: phrase
-  cefr: C1
-  topic: economy
-  ipa: /ˌbreɪk ˈiːvn/
-  def: To earn as much as you spent, with no profit or loss.
-  vi: hoà vốn
-  examples:
-    - en: The new plan breaks even after eight months.
-      vi: Gói mới hoà vốn sau tám tháng.
-- slug: t21-payback-period-n
-  lemma: payback period
-  pos: noun
-  kind: collocation
-  cefr: C1
-  topic: economy
-  ipa: /ˈpeɪbæk ˌpɪəriəd/
-  def: The time it takes for savings to cover what you spent.
-  vi: thời gian hoàn vốn
-  examples:
-    - en: The payback period for the test automation tool was four months.
-      vi: Thời gian hoàn vốn của công cụ tự động hoá test là bốn tháng.
-- slug: t21-economies-of-scale-n
-  lemma: economies of scale
-  pos: noun
-  kind: collocation
-  cefr: C1
-  topic: economy
-  ipa: /ɪˌkɒnəmiz əv ˈskeɪl/
-  def: Lower costs per unit that come from doing or buying more.
-  vi: lợi thế kinh tế theo quy mô
-  examples:
-    - en: Big providers have economies of scale we can't match.
-      vi: Nhà cung cấp lớn có lợi thế quy mô mà mình không sánh được.
-- slug: t21-status-update-n
-  lemma: status update
-  pos: noun
-  kind: collocation
-  cefr: B1
-  topic: economy
-  ipa: /ˈsteɪtəs ˌʌpdeɪt/
-  def: A short report on how work is going.
-  vi: cập nhật tình hình
-  examples:
-    - en: I'll post a status update before I log off.
-      vi: Mình sẽ đăng cập nhật tình hình trước khi offline.
-- slug: t21-progress-n
-  lemma: progress
-  pos: noun
-  cefr: A2
-  topic: economy
-  ipa: /ˈprəʊɡres/
-  def: The way you move forward and get closer to what you want.
-  vi: sự tiến bộ, tiến độ
-  note: 'Danh từ không đếm được: không nói "a progress".'
-  examples:
-    - en: I write down my progress at the end of each week.
-      vi: Cuối mỗi tuần mình ghi lại tiến độ của mình.
-- slug: t21-owner-n
-  lemma: owner
-  pos: noun
-  cefr: B1
-  topic: economy
-  ipa: /ˈəʊnə/
-  def: The person responsible for a task or system.
-  vi: người phụ trách
-  examples:
-    - en: Who is the owner of this service?
-      vi: Ai là người phụ trách service này?
-- slug: t21-decision-maker-n
-  lemma: decision-maker
-  pos: noun
-  cefr: B2
-  topic: economy
-  ipa: /dɪˈsɪʒn ˌmeɪkə/
-  def: The person who makes the final choice.
-  vi: người ra quyết định
-  examples:
-    - en: The product lead is the decision-maker for the roadmap.
-      vi: Trưởng nhóm sản phẩm là người ra quyết định về roadmap.
-- slug: t21-approver-n
-  lemma: approver
-  pos: noun
-  cefr: B2
-  topic: economy
-  ipa: /əˈpruːvə/
-  def: A person who has the right to approve something.
-  vi: người phê duyệt
-  examples:
-    - en: Add someone from the data team as an approver.
-      vi: Hãy thêm một người bên nhóm dữ liệu làm người phê duyệt.
-- slug: t21-sign-off-n
-  lemma: sign-off
-  pos: noun
-  cefr: B2
-  topic: economy
-  ipa: /ˈsaɪn ɒf/
-  def: Final permission from a responsible person before work goes ahead.
-  vi: sự chấp thuận cuối cùng
-  examples:
-    - en: We need sign-off from security before the release.
-      vi: Nhóm cần security chấp thuận cuối trước khi release.
-- slug: t21-reviewer-n
-  lemma: reviewer
-  pos: noun
-  cefr: B2
-  topic: economy
-  ipa: /rɪˈvjuːə/
-  def: A person who checks a piece of work.
-  vi: người duyệt
-  examples:
-    - en: Ask a reviewer from another team to read it.
-      vi: Nhờ một người duyệt từ nhóm khác đọc.
-- slug: t21-approval-n
-  lemma: approval
-  pos: noun
-  cefr: B2
-  topic: economy
-  ipa: /əˈpruːvl/
-  def: Official permission for something.
-  vi: sự phê duyệt
-  examples:
-    - en: Schema changes still need approval from the architect.
-      vi: Thay đổi schema vẫn cần kiến trúc sư phê duyệt.
-- slug: t21-pending-adj
-  lemma: pending
-  pos: adjective
-  cefr: B2
-  topic: economy
-  ipa: /ˈpendɪŋ/
-  def: Waiting for a decision or action.
-  vi: đang chờ xử lý
-  examples:
-    - en: The pull request is still pending review from the lead.
-      vi: Pull request vẫn đang chờ trưởng nhóm review.
-- slug: t21-ahead-of-schedule-phr
-  lemma: ahead of schedule
-  pos: phrase
-  kind: phrase
-  cefr: B2
-  topic: economy
-  ipa: /əˌhed əv ˈʃedjuːl/
-  def: Earlier than planned.
-  vi: sớm hơn kế hoạch
-  examples:
-    - en: "Good news: the database migration finished ahead of schedule."
-      vi: "Tin vui: việc chuyển đổi cơ sở dữ liệu xong sớm hơn kế hoạch."
-- slug: t21-behind-schedule-phr
-  lemma: behind schedule
-  pos: phrase
-  kind: phrase
-  cefr: B2
-  topic: economy
-  ipa: /bɪˌhaɪnd ˈʃedjuːl/
-  def: Later than planned.
-  vi: chậm so với kế hoạch
-  forms:
-    - running behind schedule
-  examples:
-    - en: The mobile app is two weeks behind schedule.
-      vi: Ứng dụng di động đang chậm hai tuần so với kế hoạch.
-- slug: t21-extend-a-deadline-phr
-  lemma: extend a deadline
-  pos: phrase
-  kind: phrase
-  cefr: B2
-  topic: economy
-  ipa: /ɪkˌstend ə ˈdedlaɪn/
-  def: To give more time to finish a piece of work.
-  vi: gia hạn hạn chót
-  forms:
-    - extend the deadline
-    - extended the deadline
-    - extending the deadline
-    - deadline extension
-  examples:
-    - en: The client agreed to extend the deadline by one week.
-      vi: Khách hàng đồng ý gia hạn hạn chót thêm một tuần.
-- slug: t21-last-minute-adj
-  lemma: last-minute
-  pos: adjective
-  kind: collocation
-  cefr: B2
-  topic: economy
-  ipa: /ˌlɑːst ˈmɪnɪt/
-  def: Done or happening very close to the time something must be finished.
-  vi: vào phút chót
-  forms:
-    - at the last minute
-  examples:
-    - en: Please avoid last-minute changes on release day.
-      vi: Mọi người tránh sửa vào phút chót trong ngày release nhé.
-- slug: t21-forecast-n
-  lemma: forecast
-  pos: noun
-  cefr: B2
-  topic: economy
-  ipa: /ˈfɔːkɑːst/
-  def: A statement of what you expect to happen in the future.
-  vi: dự báo
-  examples:
-    - en: The forecast shows costs flattening by June.
-      vi: Dự báo cho thấy chi phí đi ngang vào tháng Sáu.
-- slug: t21-actuals-n
-  lemma: actuals
-  pos: noun
-  cefr: C1
-  topic: economy
-  ipa: /ˈæktʃuəlz/
-  def: The real amounts spent, compared with the plan.
-  vi: số thực chi
-  examples:
-    - en: Our actuals were ten percent above the forecast.
-      vi: Số thực chi của mình cao hơn dự báo mười phần trăm.
-  note: Luôn dùng số nhiều.
-- slug: t21-cost-overrun-n
-  lemma: cost overrun
-  pos: noun
-  kind: collocation
-  cefr: C1
-  topic: economy
-  ipa: /ˈkɒst ˌəʊvərʌn/
-  def: When a project costs more than planned.
-  vi: vượt chi phí
-  examples:
-    - en: The cost overrun came from extra load testing.
-      vi: Phần vượt chi phí đến từ việc kiểm thử tải thêm.
-- slug: t21-buffer-v
-  lemma: buffer
-  pos: verb
-  cefr: B2
-  topic: economy
-  ipa: /ˈbʌfə/
-  def: When a video stops for a moment because it is still getting data.
-  vi: (video) bị đứng để tải, quay vòng vòng
-  forms:
-    - buffers
-    - buffered
-    - buffering
-  examples:
-    - en: The film kept buffering, so we gave up and read a book.
-      vi: Phim cứ đứng hình quay vòng vòng nên bọn mình bỏ cuộc và đọc sách.
-- slug: t21-readiness-n
-  lemma: readiness
-  pos: noun
-  cefr: C1
-  topic: economy
-  ipa: /ˈredinəs/
-  def: The state of being prepared.
-  vi: mức độ sẵn sàng
-  examples:
-    - en: We'll check team readiness a week before cutover.
-      vi: Mình sẽ kiểm tra mức độ sẵn sàng của nhóm một tuần trước khi chuyển.
-- slug: t21-coverage-n
-  lemma: coverage
-  pos: noun
-  cefr: B2
-  topic: economy
-  ipa: /ˈkʌvərɪdʒ/
-  def: Having enough people to handle work at all needed times.
-  vi: sự bao phủ (nhân lực)
-  examples:
-    - en: We need on-call coverage during the holiday week.
-      vi: Mình cần đủ người trực trong tuần lễ.
-- slug: t21-transition-n
-  lemma: transition
-  pos: noun
-  cefr: B2
-  topic: economy
-  ipa: /trænˈzɪʃn/
-  def: The process of changing from one state to another.
-  vi: sự chuyển tiếp
-  examples:
-    - en: The transition to the new team will take a month.
-      vi: Quá trình chuyển sang nhóm mới sẽ mất một tháng.
-- slug: t21-handover-n
-  lemma: handover
-  pos: noun
-  cefr: B2
-  topic: economy
-  ipa: /ˈhændəʊvə/
-  def: The act of passing work or responsibility to another person.
-  vi: bàn giao
-  examples:
-    - en: Write a handover note before you move to the new team.
-      vi: Viết ghi chú bàn giao trước khi bạn chuyển sang nhóm mới.
-- slug: t21-announcement-n
-  lemma: announcement
-  pos: noun
-  cefr: B1
-  topic: economy
-  ipa: /əˈnaʊnsmənt/
-  def: An official statement that tells people about something.
-  vi: thông báo
-  examples:
-    - en: The announcement goes out to the whole company on Monday.
-      vi: Thông báo sẽ gửi tới toàn công ty vào thứ Hai.
-- slug: t21-advance-notice-n
-  lemma: advance notice
-  pos: noun
-  kind: collocation
-  cefr: C1
-  topic: economy
-  ipa: /ədˌvɑːns ˈnəʊtɪs/
-  def: A warning given some time before something happens.
-  vi: thông báo trước
-  examples:
-    - en: We give customers 90 days' advance notice.
-      vi: Chúng tôi thông báo trước cho khách hàng 90 ngày.
-- slug: t21-effective-date-n
-  lemma: effective date
-  pos: noun
-  kind: collocation
-  cefr: C1
-  topic: economy
-  ipa: /ɪˈfektɪv deɪt/
-  def: The date when a change starts to apply.
-  vi: ngày có hiệu lực
-  examples:
-    - en: The effective date of the new limits is 1 July.
-      vi: Ngày giới hạn mới có hiệu lực là 1 tháng Bảy.
-- slug: t21-go-live-n
-  lemma: go-live
-  pos: noun
-  cefr: C1
-  topic: economy
-  ipa: /ˌɡəʊ ˈlaɪv/
-  def: The moment a new system or process starts being used for real.
-  vi: thời điểm đưa vào hoạt động
-  examples:
-    - en: The new support process has a go-live date of 1 July.
-      vi: Quy trình hỗ trợ mới có ngày đưa vào hoạt động là 1 tháng 7.
-- slug: t21-communicate-v
-  lemma: communicate
-  pos: verb
-  cefr: B1
-  topic: economy
-  ipa: /kəˈmjuːnɪkeɪt/
-  def: To share information with others.
-  vi: truyền đạt, thông báo
-  examples:
-    - en: Communicate each step of the plan to the support team.
-      vi: Hãy thông báo từng bước của kế hoạch cho nhóm hỗ trợ.
-- slug: t21-transparency-n
-  lemma: transparency
-  pos: noun
-  cefr: C1
-  topic: economy
-  ipa: /trænsˈpærənsi/
-  def: Being open and honest so people know what is happening.
-  vi: sự minh bạch
-  examples:
-    - en: Transparency about the plan reduces rumours.
-      vi: Minh bạch về kế hoạch giúp bớt tin đồn.
-- slug: t21-expectation-n
-  lemma: expectation
-  pos: noun
-  cefr: B2
-  topic: economy
-  ipa: /ˌekspekˈteɪʃn/
-  def: A belief about what will happen.
-  vi: kỳ vọng
-  examples:
-    - en: The result was below our expectation of 20% faster builds.
-      vi: Kết quả thấp hơn kỳ vọng build nhanh hơn 20%.
-- slug: t21-proposal-n
-  lemma: proposal
-  pos: noun
-  cefr: B1
-  topic: economy
-  ipa: /prəˈpəʊzl/
-  def: A written plan or suggestion.
-  vi: bản đề xuất
-  examples:
-    - en: Please read the proposal and comment by Wednesday.
-      vi: Hãy đọc bản đề xuất và góp ý trước thứ Tư.
-- slug: t21-rationale-n
-  lemma: rationale
-  pos: noun
-  cefr: C1
-  topic: economy
-  ipa: /ˌræʃəˈnɑːl/
-  def: The reasons behind a decision.
-  vi: lý do căn bản
-  examples:
-    - en: The rationale is that the team already knows Postgres well.
-      vi: Lý do căn bản là nhóm đã rành Postgres.
-- slug: t21-consequence-n
-  lemma: consequence
-  pos: noun
-  cefr: B2
-  topic: economy
-  ipa: /ˈkɒnsɪkwəns/
-  def: A result of a decision or action.
-  vi: hệ quả
-  examples:
-    - en: One consequence of this choice is a longer build time.
-      vi: Một hệ quả của lựa chọn này là thời gian build lâu hơn.
-- slug: t21-premise-n
-  lemma: premise
-  pos: noun
-  cefr: C1
-  topic: economy
-  ipa: /ˈpremɪs/
-  def: An idea that a decision or argument is based on.
-  vi: tiền đề
-  examples:
-    - en: The premise of this design is that reads are far more common than writes.
-      vi: Tiền đề của thiết kế này là việc đọc nhiều hơn ghi rất nhiều.
-- slug: t21-working-theory-n
-  lemma: working theory
-  pos: noun
-  kind: collocation
-  cefr: C1
-  topic: economy
-  ipa: /ˈwɜːkɪŋ ˈθɪəri/
-  def: The idea you are using for now to explain a problem, until you test it.
-  vi: giả thuyết tạm thời
-  examples:
-    - en: My working theory is that the cache returns old data.
-      vi: Giả thuyết tạm thời của mình là cache trả về dữ liệu cũ.
-- slug: t21-unknown-n
-  lemma: unknown
-  pos: noun
-  cefr: B2
-  topic: economy
-  ipa: /ˌʌnˈnəʊn/
-  def: Something you do not know yet.
-  vi: điều chưa biết, ẩn số
-  examples:
-    - en: The biggest unknown is how the vendor API handles retries.
-      vi: Điều chưa biết lớn nhất là API của bên cung cấp xử lý retry thế nào.
-- slug: t21-falsifiable-adj
-  lemma: falsifiable
-  pos: adjective
-  cefr: C1
-  topic: economy
-  ipa: /ˈfɔːlsɪfaɪəbl/
-  def: Possible to prove wrong with a test.
-  vi: có thể bác bỏ bằng kiểm chứng
-  examples:
-    - en: "Make the hypothesis falsifiable: say what result would prove it wrong."
-      vi: "Hãy làm cho giả thuyết có thể bác bỏ: nói rõ kết quả nào sẽ chứng minh nó
-        sai."
-- slug: t21-sanity-check-n
-  lemma: sanity check
-  pos: noun
-  kind: collocation
-  cefr: B2
-  topic: economy
-  ipa: /ˈsænəti tʃek/
-  def: A quick, simple check that something is basically correct.
-  vi: kiểm tra nhanh cơ bản
-  examples:
-    - en: As a sanity check, print the config value before changing code.
-      vi: Để kiểm tra nhanh, hãy in giá trị config trước khi sửa code.
-- slug: t21-substantiate-v
-  lemma: substantiate
-  pos: verb
-  cefr: C1
-  topic: economy
-  ipa: /səbˈstænʃieɪt/
-  def: To show with facts that something is true.
-  vi: chứng minh, minh chứng
-  examples:
-    - en: Substantiate the claim with test results.
-      vi: Hãy chứng minh nhận định bằng kết quả kiểm thử.
-- slug: t21-disprove-v
-  lemma: disprove
-  pos: verb
-  cefr: C1
-  topic: economy
-  ipa: /dɪsˈpruːv/
-  def: To show that an idea is false.
-  vi: bác bỏ, chứng minh là sai
-  examples:
-    - en: One clean run on the old version would disprove my idea.
-      vi: Chỉ một lần chạy sạch trên bản cũ là đủ bác bỏ ý mình.
-- slug: t21-counterargument-n
-  lemma: counterargument
-  pos: noun
-  cefr: C1
-  topic: economy
-  ipa: /ˈkaʊntərˌɑːɡjumənt/
-  def: A reason that argues against another idea.
-  vi: lập luận phản bác
-  examples:
-    - en: The strongest counterargument is the cost of retraining.
-      vi: Lập luận phản bác mạnh nhất là chi phí đào tạo lại.
-- slug: t21-common-ground-n
-  lemma: common ground
-  pos: noun
-  kind: collocation
-  cefr: C1
-  topic: economy
-  ipa: /ˌkɒmən ˈɡraʊnd/
-  def: Interests or opinions that two people share.
-  vi: điểm chung
-  examples:
-    - en: We found common ground in our love of old game consoles.
-      vi: Tụi mình tìm thấy điểm chung là cùng thích máy chơi game cũ.
-- slug: t21-compromise-n
-  lemma: compromise
-  pos: noun
-  cefr: B2
-  topic: economy
-  ipa: /ˈkɒmprəmaɪz/
-  def: An agreement where each side accepts less than it wanted.
-  vi: sự thoả hiệp
-  examples:
-    - en: As a compromise, we'll keep the old endpoint for one more month.
-      vi: Để thoả hiệp, nhóm giữ endpoint cũ thêm một tháng.
-- slug: t21-negotiate-v
-  lemma: negotiate
-  pos: verb
-  cefr: B2
-  topic: economy
-  ipa: /nɪˈɡəʊʃieɪt/
-  def: To discuss something to reach an agreement, for example about pay.
-  vi: đàm phán, thương lượng
-  forms:
-    - negotiates
-    - negotiated
-    - negotiating
-    - negotiation
-  examples:
-    - en: Don't be afraid to negotiate your salary before you sign.
-      vi: Đừng ngại thương lượng lương trước khi ký.
-- slug: t21-consensus-n
-  lemma: consensus
-  pos: noun
-  cefr: C1
-  topic: economy
-  ipa: /kənˈsensəs/
-  def: General agreement among everyone in a group.
-  vi: sự đồng thuận
-  examples:
-    - en: We reached consensus on using one monorepo.
-      vi: Nhóm đã đạt đồng thuận về việc dùng một monorepo.
-- slug: t21-buy-in-n
-  lemma: buy-in
-  pos: noun
-  cefr: C1
-  topic: economy
-  ipa: /ˈbaɪ ɪn/
-  def: Agreement and support from the people affected.
-  vi: sự ủng hộ
-  examples:
-    - en: We need buy-in from the mobile team before we change the API.
-      vi: Cần sự ủng hộ của nhóm mobile trước khi đổi API.
-- slug: t21-align-v
-  lemma: align
-  pos: verb
-  cefr: B2
-  topic: economy
-  ipa: /əˈlaɪn/
-  def: To agree and work towards the same goal.
-  vi: thống nhất, đồng bộ
-  examples:
-    - en: Let's align with the design team before the demo.
-      vi: Hãy thống nhất với nhóm thiết kế trước buổi demo.
-- slug: t21-accountable-adj
-  lemma: accountable
-  pos: adjective
-  cefr: C1
-  topic: economy
-  ipa: /əˈkaʊntəbl/
-  def: Expected to explain your actions and accept the results.
-  vi: chịu trách nhiệm giải trình
-  forms:
-    - accountability
-    - hold someone accountable
-  examples:
-    - en: Each team is accountable for the uptime of its own services.
-      vi: Mỗi team phải chịu trách nhiệm về thời gian hoạt động của dịch vụ mình.
-- slug: t21-take-ownership-phr
-  lemma: take ownership
-  pos: phrase
-  kind: phrase
-  cefr: B2
-  topic: economy
-  ipa: /teɪk ˈəʊnəʃɪp/
-  def: To accept that a task or problem is yours to solve.
-  vi: nhận trách nhiệm
-  examples:
-    - en: I'll take ownership of the flaky tests this sprint.
-      vi: Sprint này mình sẽ nhận trách nhiệm xử lý các test chập chờn.
-- lemma: follow through
-  pos: phrase
-  vi: thực hiện đến cùng điều đã hứa
-  def: To complete an action that was promised or started.
-  examples:
-    - en: We need to follow through on the agreed improvements.
-  slug: t21-follow-through-phr
-  topic: economy
-  cefr: B2
-  kind: phrase
-- slug: t21-action-item-n
-  lemma: action item
-  pos: noun
-  kind: collocation
-  cefr: B2
-  topic: economy
-  ipa: /ˈækʃn ˈaɪtəm/
-  def: A task someone agrees to do after a meeting.
-  vi: việc cần làm
-  examples:
-    - en: Each action item needs an owner and a date.
-      vi: Mỗi việc cần làm cần có người phụ trách và hạn chót.
-- slug: t21-definition-of-done-n
-  lemma: definition of done
-  pos: noun
-  kind: phrase
-  cefr: C1
-  topic: economy
-  ipa: /ˌdefɪˈnɪʃn əv ˈdʌn/
-  def: A shared list of checks that work must pass before it counts as finished.
-  vi: định nghĩa hoàn thành
-  examples:
-    - en: Our definition of done includes testing with missing data.
-      vi: Định nghĩa hoàn thành của bọn mình gồm cả việc test với dữ liệu thiếu.
-- slug: t21-review-date-n
-  lemma: review date
-  pos: noun
-  kind: collocation
-  cefr: B1
-  topic: economy
-  ipa: /rɪˈvjuː deɪt/
-  def: A planned date to check a decision again.
-  vi: ngày xem xét lại
-  examples:
-    - en: Set a review date three months from now.
-      vi: Hãy đặt ngày xem xét lại sau ba tháng nữa.
-- slug: t21-retrospective-n
-  lemma: retrospective
-  pos: noun
-  cefr: B2
-  topic: economy
-  ipa: /ˌretrəˈspektɪv/
-  def: A meeting to look back at work and decide what to improve.
-  vi: buổi nhìn lại
-  examples:
-    - en: In the retrospective we'll check if the new rule helped.
-      vi: Trong buổi nhìn lại, nhóm sẽ xem quy tắc mới có giúp ích không.
-- slug: t21-lesson-learned-n
-  lemma: lesson learned
-  pos: noun
-  kind: collocation
-  cefr: C1
-  topic: economy
-  ipa: /ˈlesn lɜːnd/
-  def: Useful knowledge gained from an experience, often a bad one.
-  vi: bài học rút ra
-  examples:
-    - en: "One lesson learned: test backups regularly."
-      vi: "Một bài học rút ra: kiểm tra bản sao lưu thường xuyên."
-- slug: t21-data-driven-adj
-  lemma: data-driven
-  pos: adjective
-  cefr: C1
-  topic: economy
-  ipa: /ˌdeɪtə ˈdrɪvn/
-  def: Based on facts and numbers rather than opinions.
-  vi: dựa trên dữ liệu
-  examples:
-    - en: Let's keep this review data-driven, not based on feelings.
-      vi: Hãy để buổi xem lại này dựa trên dữ liệu, không theo cảm tính.
-- slug: t21-executive-summary-n
-  lemma: executive summary
-  pos: noun
-  kind: collocation
-  cefr: C1
-  topic: economy
-  ipa: /ɪɡˈzekjətɪv ˈsʌməri/
-  def: A short part at the start that gives the main points.
-  vi: tóm tắt tổng quan
-  examples:
-    - en: Busy readers will only read the executive summary.
-      vi: Người đọc bận rộn chỉ đọc phần tóm tắt tổng quan.
-- slug: t21-key-takeaway-n
-  lemma: key takeaway
-  pos: noun
-  kind: collocation
-  cefr: C1
-  topic: economy
-  ipa: /kiː ˈteɪkəweɪ/
-  def: The most important point people should remember.
-  vi: điểm mấu chốt cần nhớ
-  examples:
-    - en: "The key takeaway: the bug only affects old clients."
-      vi: "Điểm mấu chốt: lỗi chỉ ảnh hưởng các client cũ."
-- slug: t21-overview-n
-  lemma: overview
-  pos: noun
-  cefr: B2
-  topic: economy
-  ipa: /ˈəʊvəvjuː/
-  def: A short description of the main facts.
-  vi: tổng quan
-  examples:
-    - en: Start with a short overview of the payment flow.
-      vi: Bắt đầu bằng phần tổng quan ngắn về luồng thanh toán.
-- slug: t21-findings-n
-  lemma: findings
-  pos: noun
-  cefr: C1
-  topic: economy
-  ipa: /ˈfaɪndɪŋz/
-  def: The information you discover after studying or testing something.
-  vi: kết quả tìm hiểu, phát hiện
-  forms:
-    - finding
-  examples:
-    - en: The UX team will present their findings from the user tests.
-      vi: Nhóm UX sẽ trình bày các phát hiện từ đợt thử nghiệm người dùng.
-- slug: t21-recommendation-n
-  lemma: recommendation
-  pos: noun
-  cefr: B2
-  topic: economy
-  ipa: /ˌrekəmenˈdeɪʃn/
-  def: Advice about what someone should do.
-  vi: khuyến nghị, lời đề xuất
-  forms:
-    - recommendations
-    - recommend
-    - recommended
-  examples:
-    - en: Our main recommendation is to move the images to a CDN.
-      vi: Khuyến nghị chính của bọn mình là chuyển ảnh sang CDN.
-- slug: t21-way-forward-n
-  lemma: way forward
-  pos: noun
-  kind: collocation
-  cefr: C1
-  topic: economy
-  ipa: /weɪ ˈfɔːwəd/
-  def: The plan for what to do from now on.
-  vi: hướng đi tiếp theo
-  examples:
-    - en: The way forward is to add a test and update the runbook.
-      vi: Hướng đi tiếp theo là thêm test và cập nhật runbook.
-- slug: t21-course-correct-v
-  lemma: course-correct
-  pos: verb
-  cefr: C1
-  topic: economy
-  ipa: /ˌkɔːs kəˈrekt/
-  def: To change direction after seeing that a plan is not working.
-  vi: điều chỉnh hướng đi
-  examples:
-    - en: It's fine to course-correct early if the numbers look bad.
-      vi: Điều chỉnh hướng sớm là bình thường nếu số liệu xấu.
-- slug: t21-fine-tune-v
-  lemma: fine-tune
-  pos: verb
-  cefr: B2
-  topic: economy
-  ipa: /ˌfaɪn ˈtjuːn/
-  def: To make small changes to get the best result.
-  vi: tinh chỉnh
-  examples:
-    - en: We fine-tuned the rule so small fixes need only one approval.
-      vi: Nhóm tinh chỉnh quy tắc để sửa nhỏ chỉ cần một lượt duyệt.
-- slug: t21-worthwhile-adj
-  lemma: worthwhile
-  pos: adjective
-  cefr: B2
-  topic: economy
-  ipa: /ˌwɜːθˈwaɪl/
-  def: Worth the time, money or effort spent.
-  vi: đáng giá
-  examples:
-    - en: The extra test stage was worthwhile; it caught two bugs.
-      vi: Bước test thêm thật đáng giá; nó bắt được hai lỗi.
-- lemma: customer value
-  pos: noun
-  vi: giá trị mang lại cho khách hàng
-  def: The benefit a customer gets from a product or service.
-  examples:
-    - en: Connect this feature to measurable customer value.
-  slug: t21-customer-value-n
-  topic: economy
-  cefr: B2
-  kind: collocation
+# Vocabulary by topic: Product Thinking & Business Context (unit T21). Original content.
+# Set 1
+- {
+    slug: customer-n,
+    lemma: "customer",
+    pos: noun,
+    cefr: A2,
+    topic: economy,
+    ipa: "/ˈkʌstəmə/",
+    def: "A person or company that buys or uses what a business sells.",
+    vi: "khách hàng",
+    examples:
+      [
+        {
+          en: "Our biggest customer uses the export feature every day.",
+          vi: "Khách hàng lớn nhất của mình dùng tính năng xuất dữ liệu mỗi ngày.",
+        },
+      ],
+  }
+- {
+    slug: need-n,
+    lemma: "need",
+    pos: noun,
+    cefr: A2,
+    topic: economy,
+    ipa: "/niːd/",
+    def: "Something a person must have or wants to get done.",
+    vi: "nhu cầu",
+    examples:
+      [
+        {
+          en: "Before we build anything, let's write down the user's real need.",
+          vi: "Trước khi làm gì, mình ghi lại nhu cầu thật của người dùng đã.",
+        },
+      ],
+  }
+- {
+    slug: complain-v,
+    lemma: "complain",
+    pos: verb,
+    cefr: A2,
+    topic: economy,
+    ipa: "/kəmˈpleɪn/",
+    def: "To say that you are unhappy about something.",
+    vi: "phàn nàn",
+    examples:
+      [
+        {
+          en: "Several shop owners complain that the app is slow at lunchtime.",
+          vi: "Nhiều chủ cửa hàng phàn nàn app chạy chậm vào giờ trưa.",
+        },
+      ],
+  }
+- {
+    slug: address-a-need-phr,
+    lemma: "address a need",
+    pos: phrase,
+    kind: phrase,
+    cefr: B2,
+    topic: economy,
+    ipa: "/əˈdres ə niːd/",
+    def: "To provide something that deals with what people require.",
+    vi: "đáp ứng nhu cầu",
+    examples:
+      [
+        {
+          en: "This feature should address a need: orders that get lost.",
+          vi: "Tính năng này nên đáp ứng một nhu cầu: đơn hàng bị thất lạc.",
+        },
+      ],
+  }
+- {
+    slug: annoyance-n,
+    lemma: "annoyance",
+    pos: noun,
+    cefr: B2,
+    topic: economy,
+    ipa: "/əˈnɔɪəns/",
+    def: "Something small that makes people slightly angry, again and again.",
+    vi: "sự phiền toái",
+    examples:
+      [
+        {
+          en: "Typing the same address twice is a daily annoyance for drivers.",
+          vi: "Phải gõ địa chỉ hai lần là sự phiền toái hằng ngày với tài xế.",
+        },
+      ],
+  }
+- {
+    slug: workaround-n,
+    lemma: "workaround",
+    pos: noun,
+    cefr: B1,
+    topic: economy,
+    ipa: "/ˈwɜːkəraʊnd/",
+    def: "A temporary way of doing something when the normal way does not work.",
+    vi: "cách xử lý tạm",
+    examples:
+      [
+        {
+          en: "Right now users copy data into Excel as a workaround.",
+          vi: "Hiện giờ người dùng chép dữ liệu sang Excel như một cách xử lý tạm.",
+        },
+      ],
+  }
+- {
+    slug: frustrated-adj,
+    lemma: "frustrated",
+    pos: adjective,
+    cefr: B1,
+    topic: economy,
+    ipa: "/frʌˈstreɪtɪd/",
+    def: "Annoyed because you cannot do what you want.",
+    vi: "bực bội",
+    examples:
+      [
+        {
+          en: "Users get frustrated when the payment page times out.",
+          vi: "Người dùng bực bội khi trang thanh toán bị hết thời gian chờ.",
+        },
+      ],
+  }
+- {
+    slug: intended-audience-n,
+    lemma: "intended audience",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: economy,
+    ipa: "/ɪnˈtendɪd ˈɔːdiəns/",
+    def: "The people a product is mainly made for.",
+    vi: "đối tượng hướng tới",
+    examples:
+      [
+        {
+          en: "Our intended audience is small café owners with one phone.",
+          vi: "Đối tượng hướng tới là chủ quán cà phê nhỏ chỉ có một chiếc điện thoại.",
+        },
+      ],
+  }
+- {
+    slug: daily-routine-n,
+    lemma: "daily routine",
+    pos: noun,
+    kind: collocation,
+    cefr: A2,
+    topic: economy,
+    ipa: "/ˈdeɪli ruːˈtiːn/",
+    def: "The things a person usually does every day, in the same order.",
+    vi: "thói quen hằng ngày",
+    examples:
+      [
+        {
+          en: "We watched the accountant's daily routine to see where time is lost.",
+          vi: "Mình quan sát công việc hằng ngày của kế toán để xem thời gian bị mất ở đâu.",
+        },
+      ],
+  }
+- {
+    slug: how-often-phr,
+    lemma: "how often",
+    pos: phrase,
+    kind: phrase,
+    cefr: A2,
+    topic: economy,
+    ipa: "/haʊ ˈɒfn/",
+    def: "A question about the number of times something happens.",
+    vi: "bao lâu một lần",
+    examples:
+      [
+        {
+          en: "How often do you have to reset your password?",
+          vi: "Bao lâu bạn phải đặt lại mật khẩu một lần?",
+        },
+      ],
+  }
+# Set 2
+- {
+    slug: interview-v,
+    lemma: "interview",
+    pos: verb,
+    cefr: A2,
+    topic: economy,
+    ipa: "/ˈɪntəvjuː/",
+    def: "To ask someone questions to learn about their experience.",
+    vi: "phỏng vấn",
+    examples:
+      [
+        {
+          en: "We will interview five clinic staff next week.",
+          vi: "Tuần sau mình sẽ phỏng vấn năm nhân viên phòng khám.",
+        },
+      ],
+  }
+- {
+    slug: research-participant-n,
+    lemma: "research participant",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: economy,
+    ipa: "/rɪˈsɜːtʃ pɑːˈtɪsɪpənt/",
+    def: "A person who takes part in a user study.",
+    vi: "người tham gia nghiên cứu",
+    examples:
+      [
+        {
+          en: "Let the research participant talk and don't fill the silence.",
+          vi: "Hãy để người tham gia nghiên cứu nói và đừng lấp khoảng lặng.",
+        },
+      ],
+  }
+- {
+    slug: open-ended-prompt-n,
+    lemma: "open-ended prompt",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: economy,
+    ipa: "/ˌəʊpən ˈendɪd prɒmpt/",
+    def: "A question or request that invites a long answer, not just yes or no.",
+    vi: "câu gợi mở",
+    examples:
+      [
+        {
+          en: 'Start with an open-ended prompt like "Tell me about last Monday."',
+          vi: 'Bắt đầu bằng một câu gợi mở như "Kể mình nghe về thứ Hai tuần trước."',
+        },
+      ],
+  }
+- {
+    slug: leading-question-n,
+    lemma: "leading question",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: economy,
+    ipa: "/ˈliːdɪŋ ˈkwestʃən/",
+    def: "A question that pushes people towards the answer you want.",
+    vi: "câu hỏi dẫn dắt",
+    examples:
+      [
+        {
+          en: '"You''d love a dark mode, right?" is a leading question.',
+          vi: '"Bạn sẽ thích chế độ tối đúng không?" là một câu hỏi dẫn dắt.',
+        },
+      ],
+  }
+- {
+    slug: recall-v,
+    lemma: "recall",
+    pos: verb,
+    cefr: B1,
+    topic: economy,
+    ipa: "/rɪˈkɔːl/",
+    def: "To remember a past event and describe it.",
+    vi: "nhớ lại",
+    examples:
+      [
+        {
+          en: "Can you recall the last time the report was wrong?",
+          vi: "Bạn nhớ lại lần gần nhất báo cáo bị sai không?",
+        },
+      ],
+  }
+- {
+    slug: experience-n,
+    lemma: "experience",
+    pos: noun,
+    cefr: A2,
+    topic: economy,
+    ipa: "/ɪkˈspɪəriəns/",
+    def: "Something that happened to you and affected you.",
+    vi: "trải nghiệm",
+    examples:
+      [
+        {
+          en: "Tell me about your experience with the old booking system.",
+          vi: "Kể mình nghe trải nghiệm của bạn với hệ thống đặt lịch cũ.",
+        },
+      ],
+  }
+- {
+    slug: shadow-a-user-phr,
+    lemma: "shadow a user",
+    pos: phrase,
+    kind: phrase,
+    cefr: C1,
+    topic: economy,
+    ipa: "/ˈʃædəʊ ə ˈjuːzə/",
+    def: "To follow and watch a user while they do their normal work.",
+    vi: "đi theo quan sát người dùng",
+    examples:
+      [
+        {
+          en: "We shadowed a user at the pharmacy for a whole morning.",
+          vi: "Mình đi theo quan sát một người dùng ở nhà thuốc cả buổi sáng.",
+        },
+      ],
+  }
+- {
+    slug: quote-n,
+    lemma: "quote",
+    pos: noun,
+    cefr: B1,
+    topic: economy,
+    ipa: "/kwəʊt/",
+    def: "Words someone said, repeated exactly.",
+    vi: "câu trích dẫn",
+    examples:
+      [
+        {
+          en: "Put the best user quotes at the top of the research notes.",
+          vi: "Đặt những câu trích dẫn hay nhất của người dùng lên đầu ghi chú nghiên cứu.",
+        },
+      ],
+  }
+- {
+    slug: probe-v,
+    lemma: "probe",
+    pos: verb,
+    cefr: B2,
+    topic: economy,
+    ipa: "/prəʊb/",
+    def: "To ask more questions to find out details.",
+    vi: "hỏi sâu",
+    examples:
+      [
+        {
+          en: 'When she said "it''s annoying", I probed for a real example.',
+          vi: 'Khi chị ấy nói "phiền lắm", mình hỏi sâu để có ví dụ thật.',
+        },
+      ],
+  }
+- {
+    slug: selection-bias-n,
+    lemma: "selection bias",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: economy,
+    ipa: "/sɪˈlekʃn ˈbaɪəs/",
+    def: "An error that happens when the people you study are not typical of all users.",
+    vi: "thiên lệch chọn mẫu",
+    examples:
+      [
+        {
+          en: "Interviewing only our fans gives us selection bias.",
+          vi: "Chỉ phỏng vấn fan của mình sẽ gây thiên lệch chọn mẫu.",
+        },
+      ],
+  }
+- {
+    slug: recording-permission-n,
+    lemma: "recording permission",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: economy,
+    ipa: "/rɪˈkɔːdɪŋ pəˈmɪʃn/",
+    def: "Agreement from a person that you may record what they say.",
+    vi: "sự cho phép ghi âm",
+    examples:
+      [
+        {
+          en: "Ask for recording permission before the interview starts.",
+          vi: "Hãy xin phép ghi âm trước khi buổi phỏng vấn bắt đầu.",
+        },
+      ],
+  }
+- {
+    slug: walk-me-through-phr,
+    lemma: "walk me through",
+    pos: phrase,
+    kind: phrase,
+    cefr: B1,
+    topic: economy,
+    ipa: "/wɔːk miː θruː/",
+    def: "A request to explain something step by step.",
+    vi: "kể/chỉ mình từng bước",
+    examples:
+      [
+        {
+          en: "Walk me through how you create an invoice today.",
+          vi: "Chỉ mình từng bước cách bạn tạo hoá đơn hiện nay.",
+        },
+      ],
+  }
+# Set 3
+- {
+    slug: project-scope-n,
+    lemma: "project scope",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: economy,
+    ipa: "/ˈprɒdʒekt skəʊp/",
+    def: "The full range of work a project includes.",
+    vi: "phạm vi dự án",
+    examples:
+      [
+        {
+          en: "Offline mode is not in the project scope of this release.",
+          vi: "Chế độ ngoại tuyến không nằm trong phạm vi dự án bản này.",
+        },
+      ],
+  }
+- {
+    slug: business-rule-n,
+    lemma: "business rule",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: economy,
+    ipa: "/ˈbɪznəs ruːl/",
+    def: "A rule about how the company works that the software must follow.",
+    vi: "quy tắc nghiệp vụ",
+    examples:
+      [
+        {
+          en: "One business rule: refunds over a million dong need a manager.",
+          vi: "Một quy tắc nghiệp vụ: hoàn tiền trên một triệu đồng cần quản lý duyệt.",
+        },
+      ],
+  }
+- {
+    slug: nice-to-have-n,
+    lemma: "nice-to-have",
+    pos: noun,
+    cefr: B1,
+    topic: economy,
+    ipa: "/ˌnaɪs tə ˈhæv/",
+    def: "Something useful that the product can launch without and add later.",
+    vi: "tính năng có thì tốt (không bắt buộc)",
+    examples:
+      [
+        {
+          en: "Dark mode is a nice-to-have, so we can ship the first version without it.",
+          vi: "Chế độ tối là thứ có thì tốt, nên bản đầu tiên có thể ra mắt mà chưa cần.",
+        },
+      ],
+  }
+- {
+    slug: optional-extra-n,
+    lemma: "optional extra",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: economy,
+    ipa: "/ˈɒpʃənl ˈekstrə/",
+    def: "Something added if there is time, but not needed.",
+    vi: "phần thêm tuỳ chọn",
+    examples:
+      [
+        {
+          en: "Custom themes are an optional extra, so they can wait.",
+          vi: "Giao diện tuỳ chỉnh là phần thêm tuỳ chọn, nên có thể để sau.",
+        },
+      ],
+  }
+- {
+    slug: core-feature-n,
+    lemma: "core feature",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: economy,
+    ipa: "/kɔː ˈfiːtʃə/",
+    def: "One of the main functions a product cannot work without.",
+    vi: "tính năng cốt lõi",
+    examples:
+      [
+        {
+          en: "Taking orders is the core feature; everything else is extra.",
+          vi: "Nhận đơn là tính năng cốt lõi; còn lại là phần thêm.",
+        },
+      ],
+  }
+- {
+    slug: feature-creep-n,
+    lemma: "feature creep",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: economy,
+    ipa: "/ˈfiːtʃə kriːp/",
+    def: "The slow addition of more and more features to a product.",
+    vi: "phình tính năng",
+    examples:
+      [
+        {
+          en: 'Five "tiny" extra requests later, we had serious feature creep.',
+          vi: 'Sau năm yêu cầu "nhỏ xíu", tính năng đã phình to nghiêm trọng.',
+        },
+      ],
+  }
+- {
+    slug: first-release-n,
+    lemma: "first release",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: economy,
+    ipa: "/fɜːst rɪˈliːs/",
+    def: "The earliest version of a product given to users.",
+    vi: "bản phát hành đầu tiên",
+    examples:
+      [
+        {
+          en: "The first release only supports cash and bank transfer.",
+          vi: "Bản phát hành đầu tiên chỉ hỗ trợ tiền mặt và chuyển khoản.",
+        },
+      ],
+  }
+- {
+    slug: defer-v,
+    lemma: "defer",
+    pos: verb,
+    cefr: B2,
+    topic: economy,
+    ipa: "/dɪˈfɜː/",
+    def: "To decide to do something later.",
+    vi: "hoãn lại",
+    examples:
+      [
+        {
+          en: "Let's defer bulk import until we see real demand.",
+          vi: "Mình hoãn tính năng nhập hàng loạt đến khi thấy nhu cầu thật.",
+        },
+      ],
+  }
+- {
+    slug: fixed-requirement-n,
+    lemma: "fixed requirement",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: economy,
+    ipa: "/fɪkst rɪˈkwaɪəmənt/",
+    def: "A need that cannot be changed or removed.",
+    vi: "yêu cầu cố định",
+    examples:
+      [
+        {
+          en: "Working on 3G is a fixed requirement for this market.",
+          vi: "Chạy được trên 3G là yêu cầu cố định ở thị trường này.",
+        },
+      ],
+  }
+- {
+    slug: mandatory-adj,
+    lemma: "mandatory",
+    pos: adjective,
+    cefr: B2,
+    topic: economy,
+    ipa: "/ˈmændətəri/",
+    def: "Required by a rule or law.",
+    vi: "bắt buộc (theo quy định)",
+    examples:
+      [
+        {
+          en: "E-invoices are mandatory for these shops by law.",
+          vi: "Hoá đơn điện tử là bắt buộc với các cửa hàng này theo luật.",
+        },
+      ],
+  }
+- {
+    slug: settle-on-phr,
+    lemma: "settle on",
+    pos: phrase,
+    kind: phrase,
+    cefr: B2,
+    topic: economy,
+    ipa: "/ˈsetl ɒn/",
+    def: "To finally choose something after discussion.",
+    vi: "chốt lại",
+    examples:
+      [
+        {
+          en: "We need to settle on the scope before Friday.",
+          vi: "Mình cần chốt phạm vi trước thứ Sáu.",
+        },
+      ],
+  }
+- {
+    slug: drop-a-feature-phr,
+    lemma: "drop a feature",
+    pos: phrase,
+    kind: phrase,
+    cefr: B1,
+    topic: economy,
+    ipa: "/drɒp ə ˈfiːtʃə/",
+    def: "To remove a function from the plan.",
+    vi: "bỏ một tính năng",
+    examples:
+      [
+        {
+          en: "We dropped a feature, chat, to ship on time.",
+          vi: "Mình bỏ một tính năng là chat để phát hành kịp.",
+        },
+      ],
+  }
+- {
+    slug: draw-the-line-phr,
+    lemma: "draw the line",
+    pos: phrase,
+    kind: phrase,
+    cefr: B2,
+    topic: economy,
+    ipa: "/drɔː ðə laɪn/",
+    def: "To decide clearly where something stops.",
+    vi: "vạch ranh giới",
+    examples:
+      [
+        {
+          en: "We have to draw the line somewhere, or this sprint never ends.",
+          vi: "Mình phải vạch ranh giới ở đâu đó, không thì sprint này không bao giờ xong.",
+        },
+      ],
+  }
+- {
+    slug: primary-flow-n,
+    lemma: "primary flow",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: economy,
+    ipa: "/ˈpraɪməri fləʊ/",
+    def: "The main sequence of steps users take to finish a job.",
+    vi: "luồng chính",
+    examples:
+      [
+        {
+          en: "The primary flow is a nurse booking a follow-up visit.",
+          vi: "Luồng chính là y tá đặt lịch tái khám.",
+        },
+      ],
+  }
+# Set 4
+- {
+    slug: pass-condition-n,
+    lemma: "pass condition",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: economy,
+    ipa: "/pɑːs kənˈdɪʃn/",
+    def: "A rule that says what result counts as a successful test.",
+    vi: "điều kiện đạt",
+    examples:
+      [
+        {
+          en: "The pass condition is that the receipt arrives within one minute.",
+          vi: "Điều kiện đạt là hoá đơn đến trong vòng một phút.",
+        },
+      ],
+  }
+- {
+    slug: precondition-n,
+    lemma: "precondition",
+    pos: noun,
+    cefr: C1,
+    topic: economy,
+    ipa: "/ˌpriːkənˈdɪʃn/",
+    def: "Something that must be true before an action can happen.",
+    vi: "điều kiện tiên quyết",
+    examples:
+      [
+        {
+          en: "A precondition is that the user has verified their phone.",
+          vi: "Điều kiện tiên quyết là người dùng đã xác minh số điện thoại.",
+        },
+      ],
+  }
+- {
+    slug: given-prep,
+    lemma: "given",
+    pos: preposition,
+    cefr: B2,
+    topic: economy,
+    ipa: "/ˈɡɪvn/",
+    def: "Used at the start of a test rule to state the starting situation.",
+    vi: "cho trước (là)",
+    examples:
+      [
+        {
+          en: "Given a logged-in user, when they tap Pay, then the order is saved.",
+          vi: "Cho trước người dùng đã đăng nhập, khi họ bấm Thanh toán thì đơn được lưu.",
+        },
+      ],
+  }
+- {
+    slug: desired-outcome-n,
+    lemma: "desired outcome",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: economy,
+    ipa: "/dɪˈzaɪəd ˈaʊtkʌm/",
+    def: "The result you want a feature to produce.",
+    vi: "kết quả mong muốn",
+    examples:
+      [
+        {
+          en: "The desired outcome is a green message and an email receipt.",
+          vi: "Kết quả mong muốn là thông báo màu xanh và hoá đơn qua email.",
+        },
+      ],
+  }
+- {
+    slug: odd-scenario-n,
+    lemma: "odd scenario",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: economy,
+    ipa: "/ɒd sɪˈnɑːriəʊ/",
+    def: "An unusual situation that may not be covered by the normal rules.",
+    vi: "tình huống bất thường",
+    examples:
+      [
+        {
+          en: "What about the odd scenario of an empty cart on a slow network?",
+          vi: "Còn tình huống bất thường giỏ trống trên mạng chậm thì sao?",
+        },
+      ],
+  }
+- {
+    slug: checkable-adj,
+    lemma: "checkable",
+    pos: adjective,
+    cefr: B2,
+    topic: economy,
+    ipa: "/ˈtʃekəbl/",
+    def: "Able to be checked as true or false.",
+    vi: "kiểm chứng được",
+    examples:
+      [
+        {
+          en: '"Fast" is not checkable, but "under two seconds" is.',
+          vi: '"Nhanh" thì không kiểm chứng được, còn "dưới hai giây" thì được.',
+        },
+      ],
+  }
+- {
+    slug: ambiguous-wording-n,
+    lemma: "ambiguous wording",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: economy,
+    ipa: "/æmˈbɪɡjuəs ˈwɜːdɪŋ/",
+    def: "Words that people can understand in more than one way.",
+    vi: "cách diễn đạt nước đôi",
+    examples:
+      [
+        {
+          en: 'The ambiguous wording "make it better" can''t be tested.',
+          vi: 'Cách diễn đạt nước đôi "làm cho tốt hơn" thì không test được.',
+        },
+      ],
+  }
+- {
+    slug: behave-v,
+    lemma: "behave",
+    pos: verb,
+    cefr: B1,
+    topic: economy,
+    ipa: "/bɪˈheɪv/",
+    def: "To act or work in a particular way.",
+    vi: "hoạt động, phản ứng",
+    examples:
+      [
+        {
+          en: "How should the form behave when the network drops?",
+          vi: "Form nên phản ứng thế nào khi mất mạng?",
+        },
+      ],
+  }
+- {
+    slug: show-up-pv,
+    lemma: "show up",
+    pos: phrasal_verb,
+    kind: phrasal,
+    cefr: B1,
+    topic: economy,
+    ipa: "/ʃəʊ ʌp/",
+    def: "To appear, for example on a screen.",
+    vi: "hiện ra",
+    examples:
+      [
+        {
+          en: "The total should show up in dong under the cart.",
+          vi: "Tổng tiền nên hiện ra bằng đồng dưới giỏ hàng.",
+        },
+      ],
+  }
+- {
+    slug: product-owner-approval-n,
+    lemma: "product owner approval",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: economy,
+    ipa: "/ˈprɒdʌkt ˌəʊnə əˈpruːvl/",
+    def: "Agreement from the product owner that a feature can be released.",
+    vi: "sự duyệt của product owner",
+    examples:
+      [
+        {
+          en: "We need product owner approval before release.",
+          vi: "Mình cần product owner duyệt trước khi phát hành.",
+        },
+      ],
+  }
+- {
+    slug: done-criteria-n,
+    lemma: "done criteria",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: economy,
+    ipa: "/dʌn kraɪˈtɪəriə/",
+    def: "A team's shared checklist for when any task counts as finished.",
+    vi: "tiêu chí hoàn thành",
+    examples:
+      [
+        {
+          en: "Our done criteria include tests and updated docs.",
+          vi: "Tiêu chí hoàn thành của nhóm gồm test và tài liệu đã cập nhật.",
+        },
+      ],
+  }
+- {
+    slug: happy-path-n,
+    lemma: "happy path",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: economy,
+    ipa: "/ˈhæpi pɑːθ/",
+    def: "The normal flow where nothing goes wrong.",
+    vi: "luồng suôn sẻ",
+    examples:
+      [
+        {
+          en: "The happy path works, but we haven't tested failed payments.",
+          vi: "Luồng suôn sẻ chạy được, nhưng mình chưa test thanh toán lỗi.",
+        },
+      ],
+  }
+- {
+    slug: unambiguous-adj,
+    lemma: "unambiguous",
+    pos: adjective,
+    cefr: C1,
+    topic: economy,
+    ipa: "/ˌʌnæmˈbɪɡjuəs/",
+    def: "Having only one possible meaning.",
+    vi: "rõ ràng, không thể hiểu sai",
+    examples:
+      [
+        {
+          en: "Each rule should be unambiguous so dev and QA read it the same way.",
+          vi: "Mỗi điều kiện phải rõ ràng để dev và QA hiểu giống nhau.",
+        },
+      ],
+  }
+- {
+    slug: meet-the-criteria-phr,
+    lemma: "meet the criteria",
+    pos: phrase,
+    kind: phrase,
+    cefr: B2,
+    topic: economy,
+    ipa: "/miːt ðə kraɪˈtɪəriə/",
+    def: "To satisfy all the required conditions.",
+    vi: "đáp ứng tiêu chí",
+    examples:
+      [
+        {
+          en: "The build doesn't meet the criteria yet: the error text is missing.",
+          vi: "Bản build chưa đáp ứng tiêu chí: còn thiếu thông báo lỗi.",
+        },
+      ],
+  }
+- {
+    slug: failure-message-n,
+    lemma: "failure message",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: economy,
+    ipa: "/ˈfeɪljə ˈmesɪdʒ/",
+    def: "Text shown to the user when an action does not succeed.",
+    vi: "thông báo thất bại",
+    examples:
+      [
+        {
+          en: "The design has no failure message for a declined card.",
+          vi: "Thiết kế chưa có thông báo thất bại khi thẻ bị từ chối.",
+        },
+      ],
+  }
+- {
+    slug: disallow-v,
+    lemma: "disallow",
+    pos: verb,
+    cefr: C1,
+    topic: economy,
+    ipa: "/ˌdɪsəˈlaʊ/",
+    def: "To not allow something to be accepted.",
+    vi: "không cho phép",
+    examples:
+      [
+        {
+          en: "The form must disallow phone numbers with letters.",
+          vi: "Form phải không cho phép số điện thoại có chữ cái.",
+        },
+      ],
+  }
+# Set 5
+- {
+    slug: foregone-benefit-n,
+    lemma: "foregone benefit",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: economy,
+    ipa: "/fɔːˈɡɒn ˈbenɪfɪt/",
+    def: "A gain you miss because you chose something else.",
+    vi: "lợi ích bị bỏ lỡ",
+    examples:
+      [
+        {
+          en: "The foregone benefit of building chat is a later search feature.",
+          vi: "Lợi ích bị bỏ lỡ khi làm chat là tính năng tìm kiếm đến muộn.",
+        },
+      ],
+  }
+- {
+    slug: triage-v,
+    lemma: "triage",
+    pos: verb,
+    cefr: C1,
+    topic: economy,
+    ipa: "/ˈtriːɑːʒ/",
+    def: "To sort requests by how serious or urgent they are.",
+    vi: "phân loại ưu tiên",
+    examples:
+      [
+        {
+          en: "Let's triage these ten requests by customer impact.",
+          vi: "Mình phân loại ưu tiên mười yêu cầu này theo ảnh hưởng tới khách hàng.",
+        },
+      ],
+  }
+- {
+    slug: customer-impact-n,
+    lemma: "customer impact",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: economy,
+    ipa: "/ˈkʌstəmə ˈɪmpækt/",
+    def: "How much a change affects the people who use the product.",
+    vi: "ảnh hưởng tới khách hàng",
+    examples:
+      [
+        {
+          en: "Fixing checkout bugs has the biggest customer impact.",
+          vi: "Sửa lỗi thanh toán có ảnh hưởng lớn nhất tới khách hàng.",
+        },
+      ],
+  }
+- {
+    slug: effort-n,
+    lemma: "effort",
+    pos: noun,
+    cefr: B1,
+    topic: economy,
+    ipa: "/ˈefət/",
+    def: "The amount of work needed to do something.",
+    vi: "công sức",
+    examples:
+      [
+        {
+          en: "This change needs little effort but helps many users.",
+          vi: "Thay đổi này tốn ít công sức mà giúp được nhiều người dùng.",
+        },
+      ],
+  }
+- {
+    slug: top-priority-n,
+    lemma: "top priority",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: economy,
+    ipa: "/tɒp praɪˈɒrəti/",
+    def: "The most important thing to do first.",
+    vi: "ưu tiên hàng đầu",
+    examples:
+      [
+        {
+          en: "The broken login is our top priority; the new icon is not.",
+          vi: "Lỗi đăng nhập là ưu tiên hàng đầu; icon mới thì không.",
+        },
+      ],
+  }
+- {
+    slug: cap-the-time-phr,
+    lemma: "cap the time",
+    pos: phrase,
+    kind: phrase,
+    cefr: C1,
+    topic: economy,
+    ipa: "/kæp ðə taɪm/",
+    def: "To set a maximum amount of time for a task.",
+    vi: "giới hạn thời gian",
+    examples:
+      [
+        {
+          en: "Let's cap the time for research at two days.",
+          vi: "Mình giới hạn thời gian nghiên cứu ở hai ngày.",
+        },
+      ],
+  }
+- {
+    slug: wish-list-n,
+    lemma: "wish list",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: economy,
+    ipa: "/ˈwɪʃ lɪst/",
+    def: "A list of things people would like to have one day.",
+    vi: "danh sách mong muốn",
+    examples:
+      [
+        {
+          en: "Sales keeps a wish list of over two hundred ideas.",
+          vi: "Sales giữ một danh sách mong muốn hơn hai trăm ý tưởng.",
+        },
+      ],
+  }
+- {
+    slug: small-win-n,
+    lemma: "small win",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: economy,
+    ipa: "/smɔːl wɪn/",
+    def: "A minor success that shows progress quickly.",
+    vi: "thắng lợi nhỏ",
+    examples:
+      [
+        {
+          en: "Adding a search box is a small win for support staff.",
+          vi: "Thêm ô tìm kiếm là thắng lợi nhỏ cho nhân viên hỗ trợ.",
+        },
+      ],
+  }
+- {
+    slug: come-at-a-price-phr,
+    lemma: "come at a price",
+    pos: phrase,
+    kind: phrase,
+    cefr: C1,
+    topic: economy,
+    ipa: "/kʌm ət ə praɪs/",
+    def: "To bring a benefit but also a cost or loss.",
+    vi: "phải trả giá",
+    examples:
+      [
+        {
+          en: "Shipping so fast came at a price: fewer tests.",
+          vi: "Phát hành nhanh như vậy phải trả giá: ít test hơn.",
+        },
+      ],
+  }
+- {
+    slug: resource-n,
+    lemma: "resource",
+    pos: noun,
+    cefr: B1,
+    topic: economy,
+    ipa: "/rɪˈsɔːs/",
+    def: "People, money or time available for work.",
+    vi: "nguồn lực",
+    examples:
+      [
+        {
+          en: "We only have resources for one big project this month.",
+          vi: "Tháng này mình chỉ có nguồn lực cho một dự án lớn.",
+        },
+      ],
+  }
+- {
+    slug: competing-adj,
+    lemma: "competing",
+    pos: adjective,
+    cefr: B2,
+    topic: economy,
+    ipa: "/kəmˈpiːtɪŋ/",
+    def: "Wanting the same limited thing as something else.",
+    vi: "cạnh tranh nhau",
+    examples:
+      [
+        {
+          en: "Sales and support have competing requests for the same sprint.",
+          vi: "Sales và hỗ trợ có những yêu cầu cạnh tranh nhau cho cùng một sprint.",
+        },
+      ],
+  }
+- {
+    slug: put-on-hold-phr,
+    lemma: "put on hold",
+    pos: phrase,
+    kind: phrase,
+    cefr: B2,
+    topic: economy,
+    ipa: "/pʊt ɒn həʊld/",
+    def: "To stop something for a while, planning to continue later.",
+    vi: "tạm gác lại",
+    examples:
+      [
+        {
+          en: "The loyalty program is put on hold until the payment fix ships.",
+          vi: "Chương trình khách hàng thân thiết tạm gác lại đến khi bản sửa thanh toán ra mắt.",
+        },
+      ],
+  }
+- {
+    slug: make-the-case-phr,
+    lemma: "make the case",
+    pos: phrase,
+    kind: phrase,
+    cefr: C1,
+    topic: economy,
+    ipa: "/meɪk ðə keɪs/",
+    def: "To give strong reasons why something should happen.",
+    vi: "đưa lý lẽ thuyết phục",
+    examples:
+      [
+        {
+          en: "She made the case for fixing search before adding chat.",
+          vi: "Chị ấy đưa lý lẽ để sửa tìm kiếm trước khi thêm chat.",
+        },
+      ],
+  }
+- {
+    slug: think-through-pv,
+    lemma: "think through",
+    pos: phrasal_verb,
+    kind: phrasal,
+    cefr: B2,
+    topic: economy,
+    ipa: "/θɪŋk θruː/",
+    def: "To consider all the results of a choice carefully.",
+    vi: "nghĩ thấu đáo",
+    examples:
+      [
+        {
+          en: "Let's think through what happens if we delay search.",
+          vi: "Mình nghĩ thấu đáo xem chuyện gì xảy ra nếu dời tìm kiếm.",
+        },
+      ],
+  }
+- {
+    slug: value-n,
+    lemma: "value",
+    pos: noun,
+    cefr: B1,
+    topic: economy,
+    ipa: "/ˈvæljuː/",
+    def: "How useful or important something is to someone.",
+    vi: "giá trị",
+    examples:
+      [
+        {
+          en: "What value does this report give the shop owner?",
+          vi: "Báo cáo này mang lại giá trị gì cho chủ cửa hàng?",
+        },
+      ],
+  }
+- {
+    slug: cheap-fix-n,
+    lemma: "cheap fix",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: economy,
+    ipa: "/tʃiːp fɪks/",
+    def: "A repair that costs little time or money.",
+    vi: "bản sửa rẻ",
+    examples:
+      [
+        {
+          en: "Fix the cheap fixes first, like typos on the pricing page.",
+          vi: "Làm các bản sửa rẻ trước, như lỗi chính tả trên trang giá.",
+        },
+      ],
+  }
+- {
+    slug: pinch-point-n,
+    lemma: "pinch point",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: economy,
+    ipa: "/ˈpɪntʃ pɔɪnt/",
+    def: "A place in a process where there is too little capacity.",
+    vi: "điểm thắt",
+    examples:
+      [
+        {
+          en: "Manual approval is the pinch point in the refund process.",
+          vi: "Duyệt thủ công là điểm thắt trong quy trình hoàn tiền.",
+        },
+      ],
+  }
+- {
+    slug: sacrifice-v,
+    lemma: "sacrifice",
+    pos: verb,
+    cefr: B2,
+    topic: economy,
+    ipa: "/ˈsækrɪfaɪs/",
+    def: "To give up something valuable to get something else.",
+    vi: "hy sinh",
+    examples:
+      [
+        {
+          en: "We sacrificed some polish to meet the Tết deadline.",
+          vi: "Mình hy sinh độ hoàn thiện để kịp hạn trước Tết.",
+        },
+      ],
+  }
+# Set 6
+- {
+    slug: key-performance-indicator-n,
+    lemma: "key performance indicator",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: economy,
+    ipa: "/kiː pəˈfɔːməns ˈɪndɪkeɪtə/",
+    def: "An important number used to judge progress towards a goal (KPI).",
+    vi: "chỉ số hiệu suất chính (KPI)",
+    examples:
+      [
+        {
+          en: "Which key performance indicator tells us the feature is useful?",
+          vi: "Chỉ số KPI nào cho biết tính năng hữu ích?",
+        },
+      ],
+  }
+- {
+    slug: active-user-n,
+    lemma: "active user",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: economy,
+    ipa: "/ˈæktɪv ˈjuːzə/",
+    def: "A person who used the product during a given period.",
+    vi: "người dùng hoạt động",
+    examples:
+      [
+        {
+          en: "We have 12,000 monthly active users.",
+          vi: "Mình có 12.000 người dùng hoạt động mỗi tháng.",
+        },
+      ],
+  }
+- {
+    slug: stickiness-n,
+    lemma: "stickiness",
+    pos: noun,
+    cefr: C1,
+    topic: economy,
+    ipa: "/ˈstɪkinəs/",
+    def: "How strongly a product makes users come back.",
+    vi: "độ bám dính",
+    examples:
+      [
+        {
+          en: "Daily reminders improved stickiness among new users.",
+          vi: "Nhắc nhở hằng ngày tăng độ bám dính của người dùng mới.",
+        },
+      ],
+  }
+- {
+    slug: churn-rate-n,
+    lemma: "churn rate",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: economy,
+    ipa: "/ˈtʃɜːn reɪt/",
+    def: "The share of customers who stop paying in a period.",
+    vi: "tỷ lệ khách rời bỏ",
+    examples:
+      [
+        {
+          en: "The churn rate went up after we changed the pricing.",
+          vi: "Tỷ lệ khách rời bỏ tăng sau khi đổi giá.",
+        },
+      ],
+  }
+- {
+    slug: sign-up-rate-n,
+    lemma: "sign-up rate",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: economy,
+    ipa: "/ˈsaɪn ʌp reɪt/",
+    def: "The share of visitors who create an account.",
+    vi: "tỷ lệ đăng ký",
+    examples:
+      [
+        {
+          en: "The new landing page raised the sign-up rate by 3 percent.",
+          vi: "Landing page mới tăng tỷ lệ đăng ký thêm 3 phần trăm.",
+        },
+      ],
+  }
+- {
+    slug: funnel-n,
+    lemma: "funnel",
+    pos: noun,
+    cefr: B2,
+    topic: economy,
+    ipa: "/ˈfʌnl/",
+    def: "The steps users go through, with fewer people at each step.",
+    vi: "phễu",
+    examples:
+      [
+        {
+          en: "Most people leave the funnel at the sign-up form.",
+          vi: "Phần lớn người dùng rời phễu ở form đăng ký.",
+        },
+      ],
+  }
+- {
+    slug: onboarding-completion-n,
+    lemma: "onboarding completion",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: economy,
+    ipa: "/ˈɒnbɔːdɪŋ kəmˈpliːʃn/",
+    def: "How many new users finish all the first setup steps.",
+    vi: "tỷ lệ hoàn tất onboarding",
+    examples:
+      [
+        {
+          en: "Onboarding completion is lowest on the ID photo step.",
+          vi: "Tỷ lệ hoàn tất onboarding thấp nhất ở bước chụp ảnh CMND.",
+        },
+      ],
+  }
+- {
+    slug: vanity-metric-n,
+    lemma: "vanity metric",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: economy,
+    ipa: "/ˈvænəti ˈmetrɪk/",
+    def: "A number that looks good but does not show real value.",
+    vi: "chỉ số phù phiếm",
+    examples:
+      [
+        {
+          en: "Downloads are a vanity metric if nobody opens the app.",
+          vi: "Lượt tải là chỉ số phù phiếm nếu không ai mở app.",
+        },
+      ],
+  }
+- {
+    slug: repeat-purchase-n,
+    lemma: "repeat purchase",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: economy,
+    ipa: "/rɪˈpiːt ˈpɜːtʃəs/",
+    def: "A second or later order from the same customer.",
+    vi: "lần mua lại",
+    examples:
+      [{ en: "Repeat purchases are high on weekends.", vi: "Lượt mua lại cao vào cuối tuần." }],
+  }
+- {
+    slug: lift-n,
+    lemma: "lift",
+    pos: noun,
+    cefr: C1,
+    topic: economy,
+    ipa: "/lɪft/",
+    def: "An increase in a number caused by a change.",
+    vi: "mức tăng",
+    examples:
+      [
+        {
+          en: "We saw a 5 percent lift in orders after the fix.",
+          vi: "Đơn hàng tăng 5 phần trăm sau bản sửa.",
+        },
+      ],
+  }
+- {
+    slug: trend-downward-phr,
+    lemma: "trend downward",
+    pos: phrase,
+    kind: phrase,
+    cefr: C1,
+    topic: economy,
+    ipa: "/trend ˈdaʊnwəd/",
+    def: "To keep getting lower over a period.",
+    vi: "có xu hướng giảm",
+    examples:
+      [
+        {
+          en: "Weekly sign-ups trended downward for three weeks.",
+          vi: "Lượt đăng ký hằng tuần có xu hướng giảm ba tuần liền.",
+        },
+      ],
+  }
+- {
+    slug: month-on-month-adj,
+    lemma: "month-on-month",
+    pos: adjective,
+    cefr: C1,
+    topic: economy,
+    ipa: "/ˌmʌnθ ɒn ˈmʌnθ/",
+    def: "Compared with the month before.",
+    vi: "so với tháng trước",
+    examples:
+      [
+        {
+          en: "Month-on-month revenue grew 6 percent.",
+          vi: "Doanh thu tăng 6 phần trăm so với tháng trước.",
+        },
+      ],
+  }
+- {
+    slug: cohort-analysis-n,
+    lemma: "cohort analysis",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: economy,
+    ipa: "/ˈkəʊhɔːt əˈnæləsɪs/",
+    def: "Comparing groups of users who joined in the same period.",
+    vi: "phân tích theo nhóm",
+    examples:
+      [
+        {
+          en: "Cohort analysis shows March users stayed longer.",
+          vi: "Phân tích theo nhóm cho thấy người dùng tháng Ba ở lại lâu hơn.",
+        },
+      ],
+  }
+- {
+    slug: time-on-task-n,
+    lemma: "time on task",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: economy,
+    ipa: "/taɪm ɒn tɑːsk/",
+    def: "How long a user needs to finish a job in the product.",
+    vi: "thời gian hoàn thành tác vụ",
+    examples:
+      [
+        {
+          en: "Time on task for creating an invoice fell from 4 to 2 minutes.",
+          vi: "Thời gian tạo hoá đơn giảm từ 4 xuống 2 phút.",
+        },
+      ],
+  }
+- {
+    slug: paying-customer-n,
+    lemma: "paying customer",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: economy,
+    ipa: "/ˈpeɪɪŋ ˈkʌstəmə/",
+    def: "A customer who has actually paid, not just tried the product.",
+    vi: "khách trả tiền",
+    examples:
+      [
+        {
+          en: "Only 300 of our users are paying customers.",
+          vi: "Chỉ 300 người dùng của mình là khách trả tiền.",
+        },
+      ],
+  }
+- {
+    slug: guiding-metric-n,
+    lemma: "guiding metric",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: economy,
+    ipa: "/ˈɡaɪdɪŋ ˈmetrɪk/",
+    def: "The single main number a product team tries to improve.",
+    vi: "chỉ số dẫn đường",
+    examples:
+      [
+        {
+          en: "Our guiding metric is orders completed per week.",
+          vi: "Chỉ số dẫn đường của mình là số đơn hoàn tất mỗi tuần.",
+        },
+      ],
+  }
+- {
+    slug: put-a-number-on-phr,
+    lemma: "put a number on",
+    pos: phrase,
+    kind: phrase,
+    cefr: C1,
+    topic: economy,
+    ipa: "/pʊt ə ˈnʌmbə ɒn/",
+    def: "To describe something exactly as an amount.",
+    vi: "lượng hoá",
+    examples:
+      [
+        {
+          en: "Can we put a number on how much time this saves?",
+          vi: "Mình lượng hoá được việc này tiết kiệm bao nhiêu thời gian không?",
+        },
+      ],
+  }
+- {
+    slug: proportion-n,
+    lemma: "proportion",
+    pos: noun,
+    cefr: B2,
+    topic: economy,
+    ipa: "/prəˈpɔːʃn/",
+    def: "A part of a whole, compared with the whole.",
+    vi: "tỷ lệ, phần",
+    examples:
+      [
+        {
+          en: "A large proportion of orders come from mobile.",
+          vi: "Một phần lớn đơn hàng đến từ điện thoại.",
+        },
+      ],
+  }
+- {
+    slug: surge-n,
+    lemma: "surge",
+    pos: noun,
+    cefr: C1,
+    topic: economy,
+    ipa: "/sɜːdʒ/",
+    def: "A sudden large increase.",
+    vi: "sự tăng vọt",
+    examples:
+      [
+        {
+          en: "We saw a surge in sign-ups on payday.",
+          vi: "Lượt đăng ký tăng vọt vào ngày lĩnh lương.",
+        },
+      ],
+  }
+- {
+    slug: meaningful-adj,
+    lemma: "meaningful",
+    pos: adjective,
+    cefr: B2,
+    topic: economy,
+    ipa: "/ˈmiːnɪŋfl/",
+    def: "Important and useful; showing something real.",
+    vi: "có ý nghĩa",
+    examples:
+      [
+        {
+          en: "Two extra clicks per day is not a meaningful change.",
+          vi: "Thêm hai lượt bấm mỗi ngày không phải thay đổi có ý nghĩa.",
+        },
+      ],
+  }
+# Set 7
+- {
+    slug: growth-experiment-n,
+    lemma: "growth experiment",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: economy,
+    ipa: "/ɡrəʊθ ɪkˈsperɪmənt/",
+    def: "A small test meant to find ways to get more users or sales.",
+    vi: "thử nghiệm tăng trưởng",
+    examples:
+      [
+        {
+          en: "Our growth experiment tried a referral bonus.",
+          vi: "Thử nghiệm tăng trưởng của mình thử thưởng giới thiệu bạn bè.",
+        },
+      ],
+  }
+- {
+    slug: educated-guess-n,
+    lemma: "educated guess",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: economy,
+    ipa: "/ˌedʒukeɪtɪd ˈɡes/",
+    def: "A guess based on some knowledge or facts.",
+    vi: "phỏng đoán có cơ sở",
+    examples:
+      [
+        {
+          en: "It's an educated guess, so let's test it this week.",
+          vi: "Đây là phỏng đoán có cơ sở, nên tuần này mình kiểm tra.",
+        },
+      ],
+  }
+- {
+    slug: minimum-viable-product-n,
+    lemma: "minimum viable product",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: economy,
+    ipa: "/ˌmɪnɪməm ˌvaɪəbl ˈprɒdʌkt/",
+    def: "The smallest version of a product that can test a real idea with users.",
+    vi: "sản phẩm khả dụng tối thiểu (MVP)",
+    examples:
+      [
+        {
+          en: "Our minimum viable product is just a form and a spreadsheet.",
+          vi: "Sản phẩm khả dụng tối thiểu của mình chỉ là một form và một bảng tính.",
+        },
+      ],
+  }
+- {
+    slug: clickable-mockup-n,
+    lemma: "clickable mockup",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: economy,
+    ipa: "/ˈklɪkəbl ˈmɒkʌp/",
+    def: "A design that users can tap through, without real code behind it.",
+    vi: "bản thiết kế bấm thử được",
+    examples:
+      [
+        {
+          en: "We showed a clickable mockup to three restaurant owners.",
+          vi: "Mình đưa bản thiết kế bấm thử được cho ba chủ nhà hàng xem.",
+        },
+      ],
+  }
+- {
+    slug: revenue-target-n,
+    lemma: "revenue target",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: economy,
+    ipa: "/ˈrevənjuː ˈtɑːɡɪt/",
+    def: "The amount of sales money a team aims to reach.",
+    vi: "mục tiêu doanh thu",
+    examples:
+      [
+        {
+          en: "The experiment must help us reach the Q3 revenue target.",
+          vi: "Thử nghiệm phải giúp mình đạt mục tiêu doanh thu quý 3.",
+        },
+      ],
+  }
+- {
+    slug: test-cohort-n,
+    lemma: "test cohort",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: economy,
+    ipa: "/test ˈkəʊhɔːt/",
+    def: "The group of users who see the new version in a test.",
+    vi: "nhóm thử nghiệm",
+    examples:
+      [{ en: "The test cohort saw a shorter form.", vi: "Nhóm thử nghiệm thấy form ngắn hơn." }],
+  }
+- {
+    slug: concierge-test-n,
+    lemma: "concierge test",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: economy,
+    ipa: "/ˈkɒnsieəʒ test/",
+    def: "Doing a service by hand for a few customers before building software.",
+    vi: "thử nghiệm làm tay",
+    examples:
+      [
+        {
+          en: "In the concierge test, we sent reminders by hand.",
+          vi: "Trong thử nghiệm làm tay, mình gửi nhắc lịch thủ công.",
+        },
+      ],
+  }
+- {
+    slug: gradual-release-n,
+    lemma: "gradual release",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: economy,
+    ipa: "/ˈɡrædʒuəl rɪˈliːs/",
+    def: "Giving a feature to more users step by step.",
+    vi: "phát hành từng bước",
+    examples:
+      [
+        {
+          en: "A gradual release lets us watch errors before everyone gets it.",
+          vi: "Phát hành từng bước giúp mình theo dõi lỗi trước khi mọi người nhận được.",
+        },
+      ],
+  }
+- {
+    slug: phase-in-pv,
+    lemma: "phase in",
+    pos: phrasal_verb,
+    kind: phrasal,
+    cefr: C1,
+    topic: economy,
+    ipa: "/feɪz ɪn/",
+    def: "To introduce something slowly, in stages.",
+    vi: "đưa vào dần",
+    examples:
+      [
+        {
+          en: "We'll phase in the new fees over three months.",
+          vi: "Mình sẽ đưa mức phí mới vào dần trong ba tháng.",
+        },
+      ],
+  }
+- {
+    slug: learn-v,
+    lemma: "learn",
+    pos: verb,
+    cefr: A2,
+    topic: economy,
+    ipa: "/lɜːn/",
+    def: "To get new knowledge from experience or study.",
+    vi: "học được, rút ra",
+    examples:
+      [
+        {
+          en: "What did we learn from last month's test?",
+          vi: "Mình rút ra được gì từ thử nghiệm tháng trước?",
+        },
+      ],
+  }
+- {
+    slug: product-market-fit-n,
+    lemma: "product-market fit",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: economy,
+    ipa: "/ˌprɒdʌkt ˈmɑːkɪt fɪt/",
+    def: "When a product clearly meets the needs of a strong market.",
+    vi: "độ khớp sản phẩm - thị trường",
+    examples:
+      [
+        {
+          en: "We had product-market fit in Cần Thơ before Hồ Chí Minh City.",
+          vi: "Mình đạt độ khớp sản phẩm - thị trường ở Cần Thơ trước TP.HCM.",
+        },
+      ],
+  }
+- {
+    slug: fake-door-test-n,
+    lemma: "fake door test",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: economy,
+    ipa: "/ˌfeɪk ˈdɔː test/",
+    def: "Showing a button for a feature that doesn't exist yet to see who clicks.",
+    vi: "thử nghiệm cửa giả",
+    examples:
+      [
+        {
+          en: "A fake door test showed few people wanted the export button.",
+          vi: "Thử nghiệm cửa giả cho thấy ít người muốn nút xuất dữ liệu.",
+        },
+      ],
+  }
+- {
+    slug: soft-launch-n,
+    lemma: "soft launch",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: economy,
+    ipa: "/ˌsɒft ˈlɔːntʃ/",
+    def: "A quiet release to a small audience before the big announcement.",
+    vi: "ra mắt thử lặng lẽ",
+    examples:
+      [
+        {
+          en: "We did a soft launch in Huế before telling the press.",
+          vi: "Mình ra mắt thử lặng lẽ ở Huế trước khi báo chí biết.",
+        },
+      ],
+  }
+- {
+    slug: throwaway-adj,
+    lemma: "throwaway",
+    pos: adjective,
+    cefr: C1,
+    topic: economy,
+    ipa: "/ˈθrəʊəweɪ/",
+    def: "Made to be used briefly and then deleted.",
+    vi: "dùng một lần rồi bỏ",
+    examples:
+      [
+        {
+          en: "This is throwaway code, so don't polish it.",
+          vi: "Đây là code dùng xong rồi bỏ, nên đừng chau chuốt.",
+        },
+      ],
+  }
+- {
+    slug: bucket-v,
+    lemma: "bucket",
+    pos: verb,
+    cefr: C1,
+    topic: economy,
+    ipa: "/ˈbʌkɪt/",
+    def: "To put users into groups, for example for a test.",
+    vi: "chia nhóm",
+    examples:
+      [
+        {
+          en: "We bucket users randomly into A and B.",
+          vi: "Mình chia người dùng ngẫu nhiên vào nhóm A và B.",
+        },
+      ],
+  }
+- {
+    slug: early-access-n,
+    lemma: "early access",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: economy,
+    ipa: "/ˌɜːli ˈækses/",
+    def: "A chance for some users to try a product before the public.",
+    vi: "quyền dùng sớm",
+    examples:
+      [
+        {
+          en: "Shops with early access found three bugs in refunds.",
+          vi: "Các cửa hàng được dùng sớm tìm ra ba lỗi trong hoàn tiền.",
+        },
+      ],
+  }
+- {
+    slug: rule-out-pv,
+    lemma: "rule out",
+    pos: phrasal_verb,
+    kind: phrasal,
+    cefr: B2,
+    topic: economy,
+    ipa: "/ruːl aʊt/",
+    def: "To decide that something is not possible or not the cause.",
+    vi: "loại trừ",
+    examples:
+      [
+        {
+          en: "The data ruled out price as the main issue.",
+          vi: "Dữ liệu loại trừ giá là vấn đề chính.",
+        },
+      ],
+  }
+- {
+    slug: representative-adj,
+    lemma: "representative",
+    pos: adjective,
+    cefr: C1,
+    topic: economy,
+    ipa: "/ˌreprɪˈzentətɪv/",
+    def: "Typical of a larger group.",
+    vi: "mang tính đại diện",
+    examples:
+      [
+        {
+          en: "Five users from one office are not representative.",
+          vi: "Năm người dùng cùng một văn phòng không mang tính đại diện.",
+        },
+      ],
+  }
+- {
+    slug: in-the-wild-phr,
+    lemma: "in the wild",
+    pos: phrase,
+    kind: phrase,
+    cefr: C1,
+    topic: economy,
+    ipa: "/ɪn ðə waɪld/",
+    def: "In real use, outside a test setting.",
+    vi: "ngoài thực tế",
+    examples:
+      [
+        {
+          en: "The flow worked in the lab but failed in the wild.",
+          vi: "Luồng chạy tốt trong phòng thử nhưng lỗi ngoài thực tế.",
+        },
+      ],
+  }
+- {
+    slug: change-direction-phr,
+    lemma: "change direction",
+    pos: phrase,
+    kind: phrase,
+    cefr: B2,
+    topic: economy,
+    ipa: "/tʃeɪndʒ dəˈrekʃn/",
+    def: "To start doing something very different from before.",
+    vi: "đổi hướng",
+    examples:
+      [
+        {
+          en: "After the pilot, the startup changed direction from B2C to B2B.",
+          vi: "Sau đợt thí điểm, startup đổi hướng từ B2C sang B2B.",
+        },
+      ],
+  }
+- {
+    slug: test-the-waters-phr,
+    lemma: "test the waters",
+    pos: phrase,
+    kind: phrase,
+    cefr: B2,
+    topic: economy,
+    ipa: "/test ðə ˈwɔːtəz/",
+    def: "To try something in a small way to see how people react.",
+    vi: "thăm dò phản ứng",
+    examples:
+      [
+        {
+          en: "Let's test the waters with a landing page first.",
+          vi: "Mình thăm dò phản ứng bằng một landing page trước.",
+        },
+      ],
+  }
+- {
+    slug: scrappy-adj,
+    lemma: "scrappy",
+    pos: adjective,
+    cefr: C1,
+    topic: economy,
+    ipa: "/ˈskræpi/",
+    def: "Done quickly and cheaply, without polish.",
+    vi: "làm tạm, tuềnh toàng",
+    examples:
+      [
+        {
+          en: "A scrappy test this week beats a perfect one next quarter.",
+          vi: "Một thử nghiệm tuềnh toàng tuần này còn hơn một bản hoàn hảo quý sau.",
+        },
+      ],
+  }
+# Set 8
+- {
+    slug: pricing-n,
+    lemma: "pricing",
+    pos: noun,
+    cefr: B2,
+    topic: economy,
+    ipa: "/ˈpraɪsɪŋ/",
+    def: "The way a company decides the prices of its products.",
+    vi: "chính sách giá",
+    examples:
+      [
+        {
+          en: "Our pricing is based on the number of staff accounts.",
+          vi: "Chính sách giá dựa trên số tài khoản nhân viên.",
+        },
+      ],
+  }
+- {
+    slug: entry-level-plan-n,
+    lemma: "entry-level plan",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: economy,
+    ipa: "/ˌentri ˈlevl plæn/",
+    def: "The cheapest paid plan with basic features.",
+    vi: "gói cơ bản",
+    examples: [{ en: "The entry-level plan has no reports.", vi: "Gói cơ bản không có báo cáo." }],
+  }
+- {
+    slug: test-drive-n,
+    lemma: "test drive",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: economy,
+    ipa: "/ˈtest draɪv/",
+    def: "A chance to try something before you decide to buy it.",
+    vi: "dùng thử",
+    examples:
+      [
+        {
+          en: "The 14-day test drive turns many shops into customers.",
+          vi: "14 ngày dùng thử giúp nhiều cửa hàng trở thành khách.",
+        },
+      ],
+  }
+- {
+    slug: freemium-n,
+    lemma: "freemium",
+    pos: noun,
+    cefr: B2,
+    topic: economy,
+    ipa: "/ˈfriːmiəm/",
+    def: "A model where basic use is free but extra features cost money.",
+    vi: "mô hình miễn phí cơ bản",
+    examples:
+      [
+        {
+          en: "In a freemium model, most users never pay.",
+          vi: "Trong mô hình freemium, phần lớn người dùng không bao giờ trả tiền.",
+        },
+      ],
+  }
+- {
+    slug: revenue-n,
+    lemma: "revenue",
+    pos: noun,
+    cefr: B2,
+    topic: economy,
+    ipa: "/ˈrevənjuː/",
+    def: "The money a business receives from sales.",
+    vi: "doanh thu",
+    examples:
+      [
+        {
+          en: "Monthly revenue grew 8 percent after the new plan.",
+          vi: "Doanh thu hằng tháng tăng 8 phần trăm sau gói mới.",
+        },
+      ],
+  }
+- {
+    slug: profit-n,
+    lemma: "profit",
+    pos: noun,
+    cefr: B1,
+    topic: economy,
+    ipa: "/ˈprɒfɪt/",
+    def: "The money left after paying all costs.",
+    vi: "lợi nhuận",
+    examples:
+      [
+        {
+          en: "We have revenue but no profit yet.",
+          vi: "Mình có doanh thu nhưng chưa có lợi nhuận.",
+        },
+      ],
+  }
+- {
+    slug: willingness-to-pay-n,
+    lemma: "willingness to pay",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: economy,
+    ipa: "/ˈwɪlɪŋnəs tə peɪ/",
+    def: "The highest price a customer would accept.",
+    vi: "mức sẵn lòng chi trả",
+    examples:
+      [
+        {
+          en: "Willingness to pay is low among street vendors.",
+          vi: "Mức sẵn lòng chi trả của người bán hàng rong thấp.",
+        },
+      ],
+  }
+- {
+    slug: segment-n,
+    lemma: "segment",
+    pos: noun,
+    cefr: B2,
+    topic: economy,
+    ipa: "/ˈseɡmənt/",
+    def: "A group of customers with similar needs.",
+    vi: "phân khúc",
+    examples:
+      [
+        {
+          en: "The enterprise segment needs invoices and user roles.",
+          vi: "Phân khúc doanh nghiệp cần hoá đơn và phân quyền người dùng.",
+        },
+      ],
+  }
+- {
+    slug: upsell-v,
+    lemma: "upsell",
+    pos: verb,
+    cefr: C1,
+    topic: economy,
+    ipa: "/ˈʌpsel/",
+    def: "To persuade a customer to buy a more expensive plan.",
+    vi: "bán nâng cấp",
+    examples:
+      [
+        {
+          en: "We can upsell clinics to the plan with SMS reminders.",
+          vi: "Mình có thể bán nâng cấp cho phòng khám lên gói có nhắc lịch SMS.",
+        },
+      ],
+  }
+- {
+    slug: coupon-n,
+    lemma: "coupon",
+    pos: noun,
+    cefr: B1,
+    topic: economy,
+    ipa: "/ˈkuːpɒn/",
+    def: "A code or ticket that gives a lower price.",
+    vi: "phiếu giảm giá",
+    examples:
+      [{ en: "Enter the coupon at checkout.", vi: "Nhập phiếu giảm giá ở bước thanh toán." }],
+  }
+- {
+    slug: budget-friendly-adj,
+    lemma: "budget-friendly",
+    pos: adjective,
+    cefr: B2,
+    topic: economy,
+    ipa: "/ˈbʌdʒɪt ˌfrendli/",
+    def: "Cheap enough for people with little money.",
+    vi: "tiết kiệm, giá mềm",
+    examples:
+      [
+        {
+          en: "We need a budget-friendly plan for street vendors.",
+          vi: "Mình cần một gói giá mềm cho người bán hàng rong.",
+        },
+      ],
+  }
+- {
+    slug: competitor-n,
+    lemma: "competitor",
+    pos: noun,
+    cefr: B2,
+    topic: economy,
+    ipa: "/kəmˈpetɪtə/",
+    def: "A company that sells similar things to the same customers.",
+    vi: "đối thủ cạnh tranh",
+    examples:
+      [
+        {
+          en: "Our main competitor charges per transaction.",
+          vi: "Đối thủ chính của mình tính phí theo giao dịch.",
+        },
+      ],
+  }
+- {
+    slug: value-proposition-n,
+    lemma: "value proposition",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: economy,
+    ipa: "/ˈvæljuː ˌprɒpəˈzɪʃn/",
+    def: "A clear statement of why a customer should choose your product.",
+    vi: "tuyên bố giá trị",
+    examples:
+      [
+        {
+          en: "Our value proposition: close the shop's books in five minutes.",
+          vi: "Tuyên bố giá trị: chốt sổ cửa hàng trong năm phút.",
+        },
+      ],
+  }
+- {
+    slug: annual-plan-n,
+    lemma: "annual plan",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: economy,
+    ipa: "/ˈænjuəl plæn/",
+    def: "A subscription paid once for a whole year.",
+    vi: "gói năm",
+    examples:
+      [
+        {
+          en: "The annual plan makes planning much easier.",
+          vi: "Gói năm giúp lập kế hoạch dễ hơn nhiều.",
+        },
+      ],
+  }
+- {
+    slug: billing-n,
+    lemma: "billing",
+    pos: noun,
+    cefr: B2,
+    topic: economy,
+    ipa: "/ˈbɪlɪŋ/",
+    def: "The process of sending bills and collecting payment.",
+    vi: "thanh toán, tính cước",
+    examples:
+      [
+        {
+          en: "The billing page shows the next payment date.",
+          vi: "Trang tính cước hiển thị ngày thanh toán tiếp theo.",
+        },
+      ],
+  }
+- {
+    slug: unit-cost-n,
+    lemma: "unit cost",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: economy,
+    ipa: "/ˈjuːnɪt kɒst/",
+    def: "The cost of producing or serving one item or customer.",
+    vi: "chi phí đơn vị",
+    examples:
+      [
+        {
+          en: "The unit cost per shop is about 5,000 dong a month.",
+          vi: "Chi phí đơn vị mỗi cửa hàng khoảng 5.000 đồng một tháng.",
+        },
+      ],
+  }
+- {
+    slug: gross-margin-n,
+    lemma: "gross margin",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: economy,
+    ipa: "/ɡrəʊs ˈmɑːdʒɪn/",
+    def: "Revenue minus the direct cost of what you sold, often as a percentage.",
+    vi: "biên lợi nhuận gộp",
+    examples:
+      [
+        {
+          en: "SMS fees are eating our gross margin.",
+          vi: "Phí SMS đang ăn mòn biên lợi nhuận gộp.",
+        },
+      ],
+  }
+- {
+    slug: usage-based-adj,
+    lemma: "usage-based",
+    pos: adjective,
+    cefr: C1,
+    topic: economy,
+    ipa: "/ˈjuːsɪdʒ beɪst/",
+    def: "Charging according to how much is used.",
+    vi: "tính theo mức sử dụng",
+    examples:
+      [
+        {
+          en: "A usage-based plan suits seasonal shops.",
+          vi: "Gói tính theo mức sử dụng hợp với cửa hàng theo mùa.",
+        },
+      ],
+  }
+- {
+    slug: lifetime-value-n,
+    lemma: "lifetime value",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: economy,
+    ipa: "/ˈlaɪftaɪm ˈvæljuː/",
+    def: "The total money a customer brings during the whole relationship.",
+    vi: "giá trị vòng đời khách hàng",
+    examples:
+      [
+        {
+          en: "Clinics have a higher lifetime value than cafés.",
+          vi: "Phòng khám có giá trị vòng đời cao hơn quán cà phê.",
+        },
+      ],
+  }
+- {
+    slug: target-market-n,
+    lemma: "target market",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: economy,
+    ipa: "/ˈtɑːɡɪt ˈmɑːkɪt/",
+    def: "The group of customers a company plans to sell to.",
+    vi: "thị trường mục tiêu",
+    examples:
+      [
+        {
+          en: "Our target market is clinics in Vietnam's big cities.",
+          vi: "Thị trường mục tiêu là phòng khám ở các thành phố lớn.",
+        },
+      ],
+  }
+- {
+    slug: bang-for-the-buck-phr,
+    lemma: "bang for the buck",
+    pos: phrase,
+    kind: phrase,
+    cefr: C1,
+    topic: economy,
+    ipa: "/ˌbæŋ fə ðə ˈbʌk/",
+    def: "Value received for the money spent.",
+    vi: "đáng đồng tiền",
+    examples:
+      [
+        {
+          en: "Customers say the premium plan gives real bang for the buck.",
+          vi: "Khách nói gói cao cấp thật sự đáng đồng tiền.",
+        },
+      ],
+  }
+- {
+    slug: pay-for-itself-phr,
+    lemma: "pay for itself",
+    pos: phrase,
+    kind: phrase,
+    cefr: C1,
+    topic: economy,
+    ipa: "/peɪ fər ɪtˈself/",
+    def: "To save as much money as it costs.",
+    vi: "tự hoàn vốn",
+    examples:
+      [
+        {
+          en: "The tool pays for itself in one month of saved staff hours.",
+          vi: "Công cụ tự hoàn vốn sau một tháng nhờ giờ công tiết kiệm được.",
+        },
+      ],
+  }
+- {
+    slug: price-rise-n,
+    lemma: "price rise",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: economy,
+    ipa: "/ˈpraɪs raɪz/",
+    def: "An increase in what something costs.",
+    vi: "tăng giá",
+    examples:
+      [
+        {
+          en: "Customers complained about the price rise in January.",
+          vi: "Khách phàn nàn về đợt tăng giá hồi tháng Một.",
+        },
+      ],
+  }
+- {
+    slug: bundle-n,
+    lemma: "bundle",
+    pos: noun,
+    cefr: B2,
+    topic: economy,
+    ipa: "/ˈbʌndl/",
+    def: "Several products sold together for one price.",
+    vi: "gói kết hợp",
+    examples:
+      [
+        {
+          en: "The POS and inventory bundle is our best seller.",
+          vi: "Gói kết hợp bán hàng và quản lý kho là gói bán chạy nhất.",
+        },
+      ],
+  }
+# Set 9
+- {
+    slug: product-roadmap-n,
+    lemma: "product roadmap",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: economy,
+    ipa: "/ˈprɒdʌkt ˈrəʊdmæp/",
+    def: "A plan showing what a product team will work on over time.",
+    vi: "lộ trình sản phẩm",
+    examples:
+      [
+        {
+          en: "The product roadmap shows themes, not exact dates.",
+          vi: "Lộ trình sản phẩm thể hiện các chủ đề, không phải ngày chính xác.",
+        },
+      ],
+  }
+- {
+    slug: key-date-n,
+    lemma: "key date",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: economy,
+    ipa: "/kiː deɪt/",
+    def: "An important day in a plan.",
+    vi: "mốc thời gian quan trọng",
+    examples:
+      [
+        {
+          en: "The key date is the bank audit on 15 May.",
+          vi: "Mốc quan trọng là đợt kiểm tra của ngân hàng ngày 15/5.",
+        },
+      ],
+  }
+- {
+    slug: weekly-update-n,
+    lemma: "weekly update",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: economy,
+    ipa: "/ˈwiːkli ˈʌpdeɪt/",
+    def: "A short report on progress sent every week.",
+    vi: "cập nhật hằng tuần",
+    examples:
+      [
+        {
+          en: "I send a weekly update to the CEO every Friday.",
+          vi: "Mình gửi cập nhật hằng tuần cho CEO mỗi thứ Sáu.",
+        },
+      ],
+  }
+- {
+    slug: hit-the-date-phr,
+    lemma: "hit the date",
+    pos: phrase,
+    kind: phrase,
+    cefr: C1,
+    topic: economy,
+    ipa: "/hɪt ðə deɪt/",
+    def: "To finish by the planned day.",
+    vi: "kịp ngày dự kiến",
+    examples:
+      [{ en: "The payment work will hit the date.", vi: "Phần thanh toán sẽ kịp ngày dự kiến." }],
+  }
+- {
+    slug: ahead-of-plan-phr,
+    lemma: "ahead of plan",
+    pos: phrase,
+    kind: phrase,
+    cefr: B2,
+    topic: economy,
+    ipa: "/əˈhed əv plæn/",
+    def: "Earlier or better than planned.",
+    vi: "vượt kế hoạch",
+    examples:
+      [
+        {
+          en: "The design work is a week ahead of plan.",
+          vi: "Phần thiết kế đang vượt kế hoạch một tuần.",
+        },
+      ],
+  }
+- {
+    slug: firm-date-n,
+    lemma: "firm date",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: economy,
+    ipa: "/fɜːm deɪt/",
+    def: "A date that has been fixed and promised.",
+    vi: "ngày chốt cứng",
+    examples:
+      [
+        {
+          en: "A roadmap item is a goal, not a firm date.",
+          vi: "Một mục trên lộ trình là mục tiêu, không phải ngày chốt cứng.",
+        },
+      ],
+  }
+- {
+    slug: overpromise-v,
+    lemma: "overpromise",
+    pos: verb,
+    cefr: C1,
+    topic: economy,
+    ipa: "/ˌəʊvəˈprɒmɪs/",
+    def: "To promise more than you can really deliver.",
+    vi: "hứa quá sức",
+    examples:
+      [
+        {
+          en: "Don't overpromise a date before we know the API limits.",
+          vi: "Đừng hứa quá sức về ngày khi chưa biết giới hạn API.",
+        },
+      ],
+  }
+- {
+    slug: showstopper-n,
+    lemma: "showstopper",
+    pos: noun,
+    cefr: C1,
+    topic: economy,
+    ipa: "/ˈʃəʊstɒpə/",
+    def: "A problem so serious that it stops a launch.",
+    vi: "vấn đề chặn phát hành",
+    examples:
+      [
+        {
+          en: "Missing tax invoices is a showstopper for launch.",
+          vi: "Thiếu hoá đơn thuế là vấn đề chặn việc ra mắt.",
+        },
+      ],
+  }
+- {
+    slug: status-dashboard-n,
+    lemma: "status dashboard",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: economy,
+    ipa: "/ˈsteɪtəs ˈdæʃbɔːd/",
+    def: "A screen that shows the current state of projects at a glance.",
+    vi: "bảng trạng thái",
+    examples:
+      [
+        {
+          en: "The status dashboard shows each project as green, yellow or red.",
+          vi: "Bảng trạng thái hiển thị mỗi dự án màu xanh, vàng hoặc đỏ.",
+        },
+      ],
+  }
+- {
+    slug: flag-a-risk-phr,
+    lemma: "flag a risk",
+    pos: phrase,
+    kind: phrase,
+    cefr: B2,
+    topic: economy,
+    ipa: "/flæɡ ə rɪsk/",
+    def: "To tell people early that something might go wrong.",
+    vi: "báo trước rủi ro",
+    examples:
+      [
+        {
+          en: "I want to flag a risk: the release may move a week.",
+          vi: "Mình muốn báo trước một rủi ro: bản phát hành có thể dời một tuần.",
+        },
+      ],
+  }
+- {
+    slug: miss-a-deadline-phr,
+    lemma: "miss a deadline",
+    pos: phrase,
+    kind: phrase,
+    cefr: B1,
+    topic: economy,
+    ipa: "/mɪs ə ˈdedlaɪn/",
+    def: "To fail to finish something by the agreed time.",
+    vi: "trễ hạn",
+    examples:
+      [
+        {
+          en: "We missed a deadline because of the tax rule change.",
+          vi: "Mình trễ hạn vì thay đổi quy định thuế.",
+        },
+      ],
+  }
+- {
+    slug: fiscal-year-n,
+    lemma: "fiscal year",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: economy,
+    ipa: "/ˌfɪskl ˈjɪə/",
+    def: "The 12-month period a company uses for its accounts.",
+    vi: "năm tài chính",
+    examples:
+      [
+        {
+          en: "We plan the roadmap for the whole fiscal year.",
+          vi: "Mình lên lộ trình cho cả năm tài chính.",
+        },
+      ],
+  }
+- {
+    slug: focus-area-n,
+    lemma: "focus area",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: economy,
+    ipa: "/ˈfəʊkəs ˌeəriə/",
+    def: "A main subject a team puts its effort into.",
+    vi: "trọng tâm",
+    examples:
+      [
+        {
+          en: "This quarter's focus area is faster checkout.",
+          vi: "Trọng tâm quý này là thanh toán nhanh hơn.",
+        },
+      ],
+  }
+- {
+    slug: contain-the-risk-phr,
+    lemma: "contain the risk",
+    pos: phrase,
+    kind: phrase,
+    cefr: C1,
+    topic: economy,
+    ipa: "/kənˈteɪn ðə rɪsk/",
+    def: "To stop a possible problem from spreading or growing.",
+    vi: "khoanh vùng rủi ro",
+    examples:
+      [
+        {
+          en: "We contain the risk by launching in one city first.",
+          vi: "Mình khoanh vùng rủi ro bằng cách ra mắt ở một thành phố trước.",
+        },
+      ],
+  }
+- {
+    slug: rescope-v,
+    lemma: "rescope",
+    pos: verb,
+    cefr: C1,
+    topic: economy,
+    ipa: "/ˌriːˈskəʊp/",
+    def: "To change the planned size of a piece of work.",
+    vi: "điều chỉnh phạm vi",
+    examples:
+      [
+        {
+          en: "We rescoped the release after losing a developer.",
+          vi: "Mình điều chỉnh phạm vi bản phát hành sau khi thiếu một dev.",
+        },
+      ],
+  }
+- {
+    slug: manage-expectations-phr,
+    lemma: "manage expectations",
+    pos: phrase,
+    kind: phrase,
+    cefr: C1,
+    topic: economy,
+    ipa: "/ˈmænɪdʒ ˌekspekˈteɪʃnz/",
+    def: "To make sure people don't expect more than will happen.",
+    vi: "kiểm soát kỳ vọng",
+    examples:
+      [
+        {
+          en: "Tell the client early to manage expectations.",
+          vi: "Báo khách sớm để kiểm soát kỳ vọng.",
+        },
+      ],
+  }
+- {
+    slug: provisional-adj,
+    lemma: "provisional",
+    pos: adjective,
+    cefr: C1,
+    topic: economy,
+    ipa: "/prəˈvɪʒənl/",
+    def: "Agreed for now but likely to change.",
+    vi: "tạm thời",
+    examples:
+      [
+        {
+          en: "The date is provisional until the bank confirms.",
+          vi: "Ngày này là tạm thời cho đến khi ngân hàng xác nhận.",
+        },
+      ],
+  }
+- {
+    slug: progress-report-n,
+    lemma: "progress report",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: economy,
+    ipa: "/ˈprəʊɡres rɪˈpɔːt/",
+    def: "A written summary of what has been done so far.",
+    vi: "báo cáo tiến triển",
+    examples:
+      [
+        {
+          en: "The monthly progress report goes to the investors.",
+          vi: "Báo cáo tiến triển hằng tháng được gửi cho nhà đầu tư.",
+        },
+      ],
+  }
+- {
+    slug: alignment-n,
+    lemma: "alignment",
+    pos: noun,
+    cefr: C1,
+    topic: economy,
+    ipa: "/əˈlaɪnmənt/",
+    def: "Agreement between people about goals and plans.",
+    vi: "sự đồng thuận",
+    examples:
+      [
+        {
+          en: "We need alignment between product and sales before we commit.",
+          vi: "Cần đồng thuận giữa sản phẩm và sales trước khi cam kết.",
+        },
+      ],
+  }
+- {
+    slug: open-risk-n,
+    lemma: "open risk",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: economy,
+    ipa: "/ˈəʊpən rɪsk/",
+    def: "A possible problem that has not been solved yet.",
+    vi: "rủi ro còn mở",
+    examples:
+      [
+        {
+          en: "There are two open risks: bank approval and the tax rule.",
+          vi: "Có hai rủi ro còn mở: ngân hàng duyệt và quy định thuế.",
+        },
+      ],
+  }
+- {
+    slug: reprioritise-v,
+    lemma: "reprioritise",
+    pos: verb,
+    cefr: C1,
+    topic: economy,
+    ipa: "/ˌriːpraɪˈɒrətaɪz/",
+    def: "To change the order of importance of tasks.",
+    vi: "sắp xếp lại ưu tiên",
+    examples:
+      [
+        {
+          en: "After the outage, we reprioritised the whole quarter.",
+          vi: "Sau sự cố, mình sắp xếp lại ưu tiên cả quý.",
+        },
+      ],
+  }
+- {
+    slug: ballpark-adj,
+    lemma: "ballpark",
+    pos: adjective,
+    cefr: C1,
+    topic: economy,
+    ipa: "/ˈbɔːlpɑːk/",
+    def: "Approximate, not exact.",
+    vi: "ước chừng",
+    examples:
+      [
+        {
+          en: "Can you give me a ballpark figure for the cost?",
+          vi: "Bạn cho mình con số ước chừng về chi phí được không?",
+        },
+      ],
+  }
+- {
+    slug: keep-in-the-loop-phr,
+    lemma: "keep in the loop",
+    pos: phrase,
+    kind: phrase,
+    cefr: B2,
+    topic: economy,
+    ipa: "/kiːp ɪn ðə luːp/",
+    def: "To keep someone informed about something.",
+    vi: "cập nhật thông tin cho ai",
+    examples:
+      [
+        {
+          en: "Please keep finance in the loop about the delay.",
+          vi: "Nhớ cập nhật cho bộ phận tài chính về việc trễ.",
+        },
+      ],
+  }
+- {
+    slug: long-shot-n,
+    lemma: "long shot",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: economy,
+    ipa: "/ˌlɒŋ ˈʃɒt/",
+    def: "Something that is unlikely to succeed.",
+    vi: "khả năng thấp",
+    examples:
+      [{ en: "Finishing before Tết is a long shot.", vi: "Xong trước Tết là khả năng thấp." }],
+  }
+- {
+    slug: upcoming-adj,
+    lemma: "upcoming",
+    pos: adjective,
+    cefr: B1,
+    topic: economy,
+    ipa: "/ˈʌpkʌmɪŋ/",
+    def: "Happening soon.",
+    vi: "sắp tới",
+    examples:
+      [
+        {
+          en: "Here are the upcoming features for Q3.",
+          vi: "Đây là các tính năng sắp tới cho quý 3.",
+        },
+      ],
+  }
+- {
+    slug: release-candidate-n,
+    lemma: "release candidate",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: economy,
+    ipa: "/rɪˈliːs ˌkændɪdət/",
+    def: "A version that may become the final release if no big bugs are found.",
+    vi: "bản ứng viên phát hành",
+    examples:
+      [
+        {
+          en: "The release candidate goes to the client on Monday.",
+          vi: "Bản ứng viên phát hành sẽ gửi khách vào thứ Hai.",
+        },
+      ],
+  }
+- {
+    slug: uncertainty-n,
+    lemma: "uncertainty",
+    pos: noun,
+    cefr: B2,
+    topic: economy,
+    ipa: "/ʌnˈsɜːtnti/",
+    def: "A situation where you don't know what will happen.",
+    vi: "sự không chắc chắn",
+    examples:
+      [
+        {
+          en: "There's a lot of uncertainty around the new tax law.",
+          vi: "Có nhiều điều chưa chắc chắn quanh luật thuế mới.",
+        },
+      ],
+  }
+- {
+    slug: biweekly-adj,
+    lemma: "biweekly",
+    pos: adjective,
+    cefr: C1,
+    topic: economy,
+    ipa: "/baɪˈwiːkli/",
+    def: "Happening every two weeks.",
+    vi: "hai tuần một lần",
+    examples:
+      [
+        {
+          en: "We hold a biweekly review with the sales team.",
+          vi: "Mình họp đánh giá hai tuần một lần với đội sales.",
+        },
+      ],
+  }
+# Set 10
+- {
+    slug: happy-medium-n,
+    lemma: "happy medium",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: economy,
+    ipa: "/ˌhæpi ˈmiːdiəm/",
+    def: "A good balance between two choices.",
+    vi: "điểm cân bằng hợp lý",
+    examples:
+      [
+        {
+          en: "The happy medium is a simple report now and charts later.",
+          vi: "Điểm cân bằng là báo cáo đơn giản trước, biểu đồ sau.",
+        },
+      ],
+  }
+- {
+    slug: cost-of-delay-n,
+    lemma: "cost of delay",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: economy,
+    ipa: "/ˌkɒst əv dɪˈleɪ/",
+    def: "The value a team loses for each week or month that a feature ships later.",
+    vi: "chi phí của việc chậm trễ",
+    examples:
+      [
+        {
+          en: "The cost of delay on the checkout fix is higher than on the new dashboard, so it goes first.",
+          vi: "Chi phí chậm trễ của bản sửa thanh toán cao hơn dashboard mới, nên làm nó trước.",
+        },
+      ],
+  }
+- {
+    slug: path-forward-n,
+    lemma: "path forward",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: economy,
+    ipa: "/ˌpɑːθ ˈfɔːwəd/",
+    def: "A way to make progress from the current situation.",
+    vi: "hướng đi tiếp",
+    examples:
+      [
+        {
+          en: "I see two possible paths forward: rebuild or migrate.",
+          vi: "Mình thấy hai hướng đi tiếp: viết lại hoặc chuyển đổi.",
+        },
+      ],
+  }
+- {
+    slug: upfront-cost-n,
+    lemma: "upfront cost",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: economy,
+    ipa: "/ˌʌpfrʌnt ˈkɒst/",
+    def: "Money you must pay at the start.",
+    vi: "chi phí ban đầu",
+    examples:
+      [{ en: "Building in-house has a high upfront cost.", vi: "Tự xây có chi phí ban đầu cao." }],
+  }
+- {
+    slug: weak-spot-n,
+    lemma: "weak spot",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: economy,
+    ipa: "/ˈwiːk spɒt/",
+    def: "The part of a plan that is most likely to fail.",
+    vi: "điểm yếu",
+    examples:
+      [
+        {
+          en: "The weak spot is that we depend on one vendor.",
+          vi: "Điểm yếu là mình phụ thuộc vào một nhà cung cấp.",
+        },
+      ],
+  }
+- {
+    slug: build-vs-buy-n,
+    lemma: "build versus buy",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: economy,
+    ipa: "/bɪld ˈvɜːsəs baɪ/",
+    def: "The choice between making a tool yourself or paying for one.",
+    vi: "tự xây hay đi mua",
+    examples:
+      [
+        {
+          en: "For SMS, the build versus buy choice is easy: buy.",
+          vi: "Với SMS, chuyện tự xây hay đi mua rất dễ: mua.",
+        },
+      ],
+  }
+- {
+    slug: advocate-for-phr,
+    lemma: "advocate for",
+    pos: phrase,
+    kind: phrase,
+    cefr: C1,
+    topic: economy,
+    ipa: "/ˈædvəkeɪt fɔː/",
+    def: "To publicly support a plan or idea.",
+    vi: "ủng hộ, bênh vực",
+    examples:
+      [
+        {
+          en: "I advocate for option B because it's easier to change later.",
+          vi: "Mình ủng hộ phương án B vì sau này dễ thay đổi hơn.",
+        },
+      ],
+  }
+- {
+    slug: one-pager-n,
+    lemma: "one-pager",
+    pos: noun,
+    cefr: C1,
+    topic: economy,
+    ipa: "/ˌwʌn ˈpeɪdʒə/",
+    def: "A short summary document that fits on a single page.",
+    vi: "bản tóm tắt một trang",
+    examples:
+      [
+        {
+          en: "Please attach a one-pager so new team members understand the choice.",
+          vi: "Hãy đính kèm bản tóm tắt một trang để thành viên mới hiểu lựa chọn.",
+        },
+      ],
+  }
+- {
+    slug: big-unknown-n,
+    lemma: "big unknown",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: economy,
+    ipa: "/bɪɡ ʌnˈnəʊn/",
+    def: "An important fact that nobody knows yet.",
+    vi: "ẩn số lớn",
+    examples:
+      [
+        {
+          en: "The big unknown is how many shops will migrate.",
+          vi: "Ẩn số lớn là bao nhiêu cửa hàng sẽ chuyển sang.",
+        },
+      ],
+  }
+- {
+    slug: break-even-point-n,
+    lemma: "break-even point",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: economy,
+    ipa: "/ˌbreɪk ˈiːvn pɔɪnt/",
+    def: "When income becomes equal to what you spent.",
+    vi: "điểm hoà vốn",
+    examples:
+      [
+        {
+          en: "We reach the break-even point after eight months.",
+          vi: "Mình đạt điểm hoà vốn sau tám tháng.",
+        },
+      ],
+  }
+- {
+    slug: investment-n,
+    lemma: "investment",
+    pos: noun,
+    cefr: B2,
+    topic: economy,
+    ipa: "/ɪnˈvestmənt/",
+    def: "Money or time put into something to get a benefit later.",
+    vi: "khoản đầu tư",
+    examples:
+      [
+        {
+          en: "A test framework is an investment that saves time later.",
+          vi: "Framework test là khoản đầu tư giúp tiết kiệm thời gian sau này.",
+        },
+      ],
+  }
+- {
+    slug: operating-expense-n,
+    lemma: "operating expense",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: economy,
+    ipa: "/ˈɒpəreɪtɪŋ ɪkˈspens/",
+    def: "Money spent regularly to keep a business or system running.",
+    vi: "chi phí vận hành",
+    examples:
+      [
+        {
+          en: "Self-hosting raises our monthly operating expense.",
+          vi: "Tự host làm tăng chi phí vận hành hằng tháng.",
+        },
+      ],
+  }
+- {
+    slug: reversible-adj,
+    lemma: "reversible",
+    pos: adjective,
+    cefr: C1,
+    topic: economy,
+    ipa: "/rɪˈvɜːsəbl/",
+    def: "Able to be changed back.",
+    vi: "có thể đảo ngược",
+    examples:
+      [
+        {
+          en: "This decision is reversible, so let's decide fast.",
+          vi: "Quyết định này đảo ngược được nên mình quyết nhanh.",
+        },
+      ],
+  }
+- {
+    slug: vendor-dependence-n,
+    lemma: "vendor dependence",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: economy,
+    ipa: "/ˈvendə dɪˈpendəns/",
+    def: "Relying so much on one supplier that it is hard to switch.",
+    vi: "phụ thuộc nhà cung cấp",
+    examples:
+      [
+        {
+          en: "Using their data format creates vendor dependence.",
+          vi: "Dùng định dạng dữ liệu của họ tạo ra sự phụ thuộc nhà cung cấp.",
+        },
+      ],
+  }
+- {
+    slug: ongoing-support-n,
+    lemma: "ongoing support",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: economy,
+    ipa: "/ˈɒnɡəʊɪŋ səˈpɔːt/",
+    def: "Help and fixes that continue after a product is delivered.",
+    vi: "hỗ trợ lâu dài",
+    examples:
+      [
+        {
+          en: "Option A needs more ongoing support every month.",
+          vi: "Phương án A cần hỗ trợ lâu dài nhiều hơn mỗi tháng.",
+        },
+      ],
+  }
+- {
+    slug: time-to-market-n,
+    lemma: "time to market",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: economy,
+    ipa: "/ˌtaɪm tə ˈmɑːkɪt/",
+    def: "How long it takes to get a product to customers.",
+    vi: "thời gian đưa ra thị trường",
+    examples:
+      [
+        {
+          en: "Buying cuts our time to market from three months to three weeks.",
+          vi: "Mua giúp rút thời gian đưa ra thị trường từ ba tháng xuống ba tuần.",
+        },
+      ],
+  }
+- {
+    slug: long-lived-adj,
+    lemma: "long-lived",
+    pos: adjective,
+    cefr: C1,
+    topic: economy,
+    ipa: "/ˌlɒŋ ˈlɪvd/",
+    def: "Lasting and useful for a long time.",
+    vi: "bền lâu",
+    examples:
+      [
+        {
+          en: "The cheaper option is less long-lived.",
+          vi: "Phương án rẻ hơn kém bền vững về lâu dài.",
+        },
+      ],
+  }
+- {
+    slug: workable-adj,
+    lemma: "workable",
+    pos: adjective,
+    cefr: C1,
+    topic: economy,
+    ipa: "/ˈwɜːkəbl/",
+    def: "Practical and able to succeed.",
+    vi: "khả thi",
+    examples:
+      [
+        {
+          en: "Both options are workable for the first year.",
+          vi: "Cả hai phương án đều khả thi trong năm đầu.",
+        },
+      ],
+  }
+- {
+    slug: rough-figure-n,
+    lemma: "rough figure",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: economy,
+    ipa: "/rʌf ˈfɪɡə/",
+    def: "A number that is close but not exact.",
+    vi: "con số sơ bộ",
+    examples:
+      [
+        {
+          en: "My rough figure is four to six weeks.",
+          vi: "Con số sơ bộ của mình là bốn đến sáu tuần.",
+        },
+      ],
+  }
+- {
+    slug: on-balance-phr,
+    lemma: "on balance",
+    pos: phrase,
+    kind: phrase,
+    cefr: C1,
+    topic: economy,
+    ipa: "/ɒn ˈbæləns/",
+    def: "After thinking about all the points.",
+    vi: "cân nhắc mọi mặt",
+    examples:
+      [
+        {
+          en: "On balance, I'd go with the hosted service.",
+          vi: "Cân nhắc mọi mặt, mình chọn dịch vụ có sẵn.",
+        },
+      ],
+  }
+- {
+    slug: compensate-for-phr,
+    lemma: "compensate for",
+    pos: phrase,
+    kind: phrase,
+    cefr: C1,
+    topic: economy,
+    ipa: "/ˈkɒmpenseɪt fɔː/",
+    def: "To reduce the bad effect of something by having something good.",
+    vi: "bù đắp cho",
+    examples:
+      [
+        {
+          en: "Faster delivery compensates for the higher price.",
+          vi: "Giao nhanh hơn bù đắp cho mức giá cao hơn.",
+        },
+      ],
+  }
+- {
+    slug: working-assumption-n,
+    lemma: "working assumption",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: economy,
+    ipa: "/ˌwɜːkɪŋ əˈsʌmpʃn/",
+    def: "An idea you treat as true for now until you learn more.",
+    vi: "giả định tạm thời",
+    examples:
+      [
+        {
+          en: "Our working assumption is that traffic doubles this year.",
+          vi: "Giả định tạm thời của mình là lưu lượng tăng gấp đôi năm nay.",
+        },
+      ],
+  }
+- {
+    slug: budget-holder-n,
+    lemma: "budget holder",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: economy,
+    ipa: "/ˈbʌdʒɪt ˌhəʊldə/",
+    def: "The person who controls how a sum of money is spent.",
+    vi: "người nắm ngân sách",
+    examples:
+      [
+        {
+          en: "Who is the budget holder for this tool?",
+          vi: "Ai là người nắm ngân sách cho công cụ này?",
+        },
+      ],
+  }
+- {
+    slug: on-the-table-phr,
+    lemma: "on the table",
+    pos: phrase,
+    kind: phrase,
+    cefr: C1,
+    topic: economy,
+    ipa: "/ɒn ðə ˈteɪbl/",
+    def: "Offered or available to be discussed.",
+    vi: "đang được cân nhắc",
+    examples:
+      [
+        {
+          en: "Two options are on the table: rebuild or migrate.",
+          vi: "Có hai phương án đang được cân nhắc: viết lại hoặc chuyển đổi.",
+        },
+      ],
+  }
+- {
+    slug: domino-effect-n,
+    lemma: "domino effect",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: economy,
+    ipa: "/dəˈmɪnəʊ ɪˌfekt/",
+    def: "When one event causes a series of similar events after it.",
+    vi: "hiệu ứng domino",
+    examples:
+      [
+        {
+          en: "Delaying the API causes a domino effect on the mobile release.",
+          vi: "Trễ API gây hiệu ứng domino lên bản phát hành di động.",
+        },
+      ],
+  }
+- {
+    slug: benefits-and-risks-n,
+    lemma: "benefits and risks",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: economy,
+    ipa: "/ˈbenɪfɪts ən rɪsks/",
+    def: "The good results and possible dangers of a choice.",
+    vi: "lợi ích và rủi ro",
+    examples:
+      [
+        {
+          en: "I listed the benefits and risks of each option in a table.",
+          vi: "Mình liệt kê lợi ích và rủi ro của từng phương án trong một bảng.",
+        },
+      ],
+  }
+- {
+    slug: sticking-plaster-n,
+    lemma: "sticking plaster",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: economy,
+    ipa: "/ˈstɪkɪŋ ˌplɑːstə/",
+    def: "A quick fix that hides a problem without really solving it.",
+    vi: "giải pháp tạm bợ",
+    examples:
+      [
+        {
+          en: "The quick fix is only a sticking plaster.",
+          vi: "Bản sửa nhanh chỉ là giải pháp tạm bợ.",
+        },
+      ],
+  }
+- {
+    slug: technical-debt-n,
+    lemma: "technical debt",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: economy,
+    ipa: "/ˈteknɪkl det/",
+    def: "Future extra work caused by choosing a quick solution now.",
+    vi: "nợ kỹ thuật",
+    examples:
+      [
+        {
+          en: "The quick option adds technical debt we'll pay later.",
+          vi: "Phương án nhanh tạo nợ kỹ thuật mà sau này mình phải trả.",
+        },
+      ],
+  }
+- {
+    slug: risk-appetite-n,
+    lemma: "risk appetite",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: economy,
+    ipa: "/ˈrɪsk ˌæpɪtaɪt/",
+    def: "How much risk a company is willing to accept.",
+    vi: "khẩu vị rủi ro",
+    examples:
+      [
+        {
+          en: "Our risk appetite is low during the Tết sales season.",
+          vi: "Khẩu vị rủi ro của mình thấp trong mùa bán Tết.",
+        },
+      ],
+  }
+- {
+    slug: go-with-phr,
+    lemma: "go with",
+    pos: phrasal_verb,
+    kind: phrasal,
+    cefr: B1,
+    topic: economy,
+    ipa: "/ɡəʊ wɪð/",
+    def: "To choose a plan or option.",
+    vi: "chọn",
+    examples:
+      [
+        {
+          en: "Let's go with the simpler option for now.",
+          vi: "Giờ mình chọn phương án đơn giản hơn.",
+        },
+      ],
+  }
+- {
+    slug: backup-option-n,
+    lemma: "backup option",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: economy,
+    ipa: "/ˈbækʌp ˈɒpʃn/",
+    def: "A second choice to use if the first one fails.",
+    vi: "phương án dự phòng",
+    examples:
+      [
+        {
+          en: "Our backup option is to keep the old system for a month.",
+          vi: "Phương án dự phòng là giữ hệ thống cũ thêm một tháng.",
+        },
+      ],
+  }
+- {
+    slug: economy-n,
+    lemma: "economy",
+    pos: noun,
+    cefr: B1,
+    topic: economy,
+    ipa: "/ɪˈkɒnəmi/",
+    def: "The system of trade, money and jobs in a country.",
+    vi: "nền kinh tế",
+    examples:
+      [
+        {
+          en: "If the economy slows down, shops will cut software spending.",
+          vi: "Nếu kinh tế chậm lại, cửa hàng sẽ cắt chi tiêu phần mềm.",
+        },
+      ],
+  }
+- {
+    slug: growth-n,
+    lemma: "growth",
+    pos: noun,
+    cefr: B1,
+    topic: economy,
+    ipa: "/ɡrəʊθ/",
+    def: "An increase in size or amount.",
+    vi: "sự tăng trưởng",
+    examples:
+      [
+        {
+          en: "We expect 30 percent growth if we add the clinic market.",
+          vi: "Mình kỳ vọng tăng trưởng 30 phần trăm nếu thêm thị trường phòng khám.",
+        },
+      ],
+  }
+- {
+    slug: gut-feeling-n,
+    lemma: "gut feeling",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: economy,
+    ipa: "/ˌɡʌt ˈfiːlɪŋ/",
+    def: "A belief based on instinct, not facts.",
+    vi: "cảm tính",
+    examples:
+      [
+        {
+          en: "That's my gut feeling, but the data may disagree.",
+          vi: "Đó là cảm tính của mình, nhưng dữ liệu có thể nói khác.",
+        },
+      ],
+  }
+- {
+    slug: down-the-road-phr,
+    lemma: "down the road",
+    pos: phrase,
+    kind: phrase,
+    cefr: C1,
+    topic: economy,
+    ipa: "/daʊn ðə rəʊd/",
+    def: "At some time in the future.",
+    vi: "về sau",
+    examples:
+      [
+        {
+          en: "Down the road, building our own engine costs less.",
+          vi: "Về sau, tự xây engine sẽ rẻ hơn.",
+        },
+      ],
+  }
+- {
+    slug: sunk-cost-n,
+    lemma: "sunk cost",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: economy,
+    ipa: "/ˌsʌŋk ˈkɒst/",
+    def: "Money or time already spent that you cannot get back.",
+    vi: "chi phí chìm",
+    examples:
+      [
+        {
+          en: "Six months of work is a sunk cost; don't let it decide for us.",
+          vi: "Sáu tháng làm việc là chi phí chìm; đừng để nó quyết thay mình.",
+        },
+      ],
+  }

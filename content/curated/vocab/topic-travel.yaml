@@ -71,24 +71,25 @@
       ],
   }
 - {
-    slug: role-n-travel,
-    lemma: "role",
+    slug: org-chart-n,
+    lemma: "org chart",
     pos: noun,
-    cefr: A2,
+    kind: collocation,
+    cefr: B1,
     topic: globalisation,
-    ipa: "/rəʊl/",
-    def: "The job or position someone has in a team.",
-    vi: "vai trò",
+    ipa: "/ˈɔːɡ tʃɑːt/",
+    def: "A diagram that shows who works in which team and who they report to.",
+    vi: "sơ đồ tổ chức",
     examples:
       [
         {
-          en: "My role on this project is backend developer.",
-          vi: "Vai trò của mình trong dự án này là lập trình viên backend.",
+          en: "Check the org chart to see who leads the data team.",
+          vi: "Xem sơ đồ tổ chức để biết ai phụ trách nhóm dữ liệu.",
         },
       ],
   }
 - {
-    slug: welcome-v-travel,
+    slug: welcome-v,
     lemma: "welcome",
     pos: verb,
     cefr: A2,
@@ -105,7 +106,7 @@
       ],
   }
 - {
-    slug: remote-adj-travel,
+    slug: remote-adj,
     lemma: "remote",
     pos: adjective,
     cefr: A2,
@@ -174,7 +175,7 @@
   }
 # Set 2: Time zones & overlap hours
 - {
-    slug: utc-n-travel,
+    slug: utc-n,
     lemma: "UTC",
     pos: noun,
     cefr: B1,
@@ -227,7 +228,7 @@
       ],
   }
 - {
-    slug: schedule-v-travel,
+    slug: schedule-v,
     lemma: "schedule",
     pos: verb,
     cefr: A2,
@@ -315,7 +316,7 @@
       ],
   }
 - {
-    slug: organiser-n-travel,
+    slug: organiser-n,
     lemma: "organiser",
     pos: noun,
     cefr: B1,
@@ -439,7 +440,7 @@
       ],
   }
 - {
-    slug: resume-v-travel,
+    slug: resume-v,
     lemma: "resume",
     pos: verb,
     cefr: B2,
@@ -490,36 +491,37 @@
       ],
   }
 - {
-    slug: notify-v-travel,
-    lemma: "notify",
-    pos: verb,
+    slug: unread-adj,
+    lemma: "unread",
+    pos: adjective,
     cefr: B1,
     topic: globalisation,
-    ipa: "/ˈnəʊtɪfaɪ/",
-    def: "To tell someone about something officially or by an alert.",
-    vi: "thông báo",
+    ipa: "/ˌʌnˈred/",
+    def: "Not opened or read yet.",
+    vi: "chưa đọc",
     examples:
       [
         {
-          en: "The bot will notify the channel when the build is ready.",
-          vi: "Bot sẽ thông báo cho kênh khi build xong.",
+          en: "I start each morning with my unread messages.",
+          vi: "Mỗi sáng mình bắt đầu với các tin nhắn chưa đọc.",
         },
       ],
   }
 - {
-    slug: timestamp-n-travel,
-    lemma: "timestamp",
+    slug: read-receipt-n,
+    lemma: "read receipt",
     pos: noun,
-    cefr: B1,
+    kind: collocation,
+    cefr: B2,
     topic: globalisation,
-    ipa: "/ˈtaɪmstæmp/",
-    def: "The date and time recorded for a message or event.",
-    vi: "dấu thời gian",
+    ipa: "/ˈriːd rɪˌsiːt/",
+    def: "A sign that shows someone has opened your message.",
+    vi: "thông báo đã xem",
     examples:
       [
         {
-          en: "Check the timestamp to see when the error started.",
-          vi: "Xem dấu thời gian để biết lỗi bắt đầu lúc nào.",
+          en: "The read receipt shows he saw my update at midnight.",
+          vi: "Thông báo đã xem cho thấy anh ấy đọc cập nhật của mình lúc nửa đêm.",
         },
       ],
   }
@@ -647,7 +649,7 @@
       ],
   }
 - {
-    slug: requirement-n-travel,
+    slug: requirement-n,
     lemma: "requirement",
     pos: noun,
     cefr: B1,
@@ -664,19 +666,20 @@
       ],
   }
 - {
-    slug: scope-n-travel,
-    lemma: "scope",
+    slug: client-portal-n,
+    lemma: "client portal",
     pos: noun,
-    cefr: B1,
+    kind: collocation,
+    cefr: B2,
     topic: globalisation,
-    ipa: "/skəʊp/",
-    def: "The amount of work that a project includes.",
-    vi: "phạm vi",
+    ipa: "/ˈklaɪənt ˌpɔːtl/",
+    def: "A website where a client sees project files, tickets and reports.",
+    vi: "cổng thông tin khách hàng",
     examples:
       [
         {
-          en: "Let's agree on the scope before we estimate.",
-          vi: "Mình thống nhất phạm vi trước khi ước lượng nhé.",
+          en: "The client can file new requests in the client portal.",
+          vi: "Khách hàng có thể gửi yêu cầu mới trên cổng thông tin khách hàng.",
         },
       ],
   }
@@ -699,7 +702,7 @@
       ],
   }
 - {
-    slug: use-case-n-travel,
+    slug: use-case-n,
     lemma: "use case",
     pos: noun,
     kind: collocation,
@@ -735,7 +738,7 @@
       ],
   }
 - {
-    slug: wireframe-n-travel,
+    slug: wireframe-n,
     lemma: "wireframe",
     pos: noun,
     cefr: B2,
@@ -752,7 +755,7 @@
       ],
   }
 - {
-    slug: edge-case-n-travel,
+    slug: edge-case-n,
     lemma: "edge case",
     pos: noun,
     kind: collocation,
@@ -770,36 +773,38 @@
       ],
   }
 - {
-    slug: priority-n-travel,
-    lemma: "priority",
+    slug: sample-data-n,
+    lemma: "sample data",
     pos: noun,
+    kind: collocation,
     cefr: B1,
     topic: globalisation,
-    ipa: "/praɪˈɒrəti/",
-    def: "Something that is more important and should be done first.",
-    vi: "ưu tiên",
+    ipa: "/ˈsɑːmpl ˌdeɪtə/",
+    def: "Example data used to show or test how something works.",
+    vi: "dữ liệu mẫu",
     examples:
       [
         {
-          en: "Mobile support is the top priority for this sprint.",
-          vi: "Hỗ trợ mobile là ưu tiên hàng đầu của sprint này.",
+          en: "Could you send sample data so we can test the import?",
+          vi: "Bạn gửi dữ liệu mẫu để nhóm thử chức năng import được không?",
         },
       ],
   }
 - {
-    slug: sign-off-n-travel,
-    lemma: "sign-off",
+    slug: test-account-n,
+    lemma: "test account",
     pos: noun,
-    cefr: B2,
+    kind: collocation,
+    cefr: B1,
     topic: globalisation,
-    ipa: "/ˈsaɪn ɒf/",
-    def: "Official approval that work is finished and accepted.",
-    vi: "sự phê duyệt cuối",
+    ipa: "/ˈtest əˌkaʊnt/",
+    def: "A login made only for trying a system, not for real use.",
+    vi: "tài khoản thử nghiệm",
     examples:
       [
         {
-          en: "We need the client's sign-off before we go live.",
-          vi: "Tụi mình cần khách hàng phê duyệt cuối trước khi chạy thật.",
+          en: "Please create a test account for us on your platform.",
+          vi: "Vui lòng tạo cho nhóm một tài khoản thử nghiệm trên nền tảng của bạn.",
         },
       ],
   }
@@ -1014,7 +1019,7 @@
       ],
   }
 - {
-    slug: feedback-n-travel,
+    slug: feedback-n,
     lemma: "feedback",
     pos: noun,
     cefr: B1,
@@ -1031,7 +1036,7 @@
       ],
   }
 - {
-    slug: respectful-adj-travel,
+    slug: respectful-adj,
     lemma: "respectful",
     pos: adjective,
     cefr: B1,
@@ -1428,19 +1433,20 @@
       ],
   }
 - {
-    slug: on-call-adj-travel,
-    lemma: "on-call",
-    pos: adjective,
+    slug: duty-roster-n,
+    lemma: "duty roster",
+    pos: noun,
+    kind: collocation,
     cefr: B2,
     topic: globalisation,
-    ipa: "/ˌɒn ˈkɔːl/",
-    def: "Ready to be contacted and fix urgent problems outside normal hours.",
-    vi: "trực sự cố",
+    ipa: "/ˈdjuːti ˌrɒstə/",
+    def: "A list showing who works or is responsible on which days.",
+    vi: "lịch phân công trực",
     examples:
       [
         {
-          en: "Tuan is on-call during the holiday weekend.",
-          vi: "Tuấn trực sự cố trong cuối tuần nghỉ lễ.",
+          en: "Check the duty roster to see who watches the servers at Tet.",
+          vi: "Xem lịch phân công trực để biết ai trông server dịp Tết.",
         },
       ],
   }
@@ -1695,7 +1701,7 @@
       ],
   }
 - {
-    slug: approval-n-travel,
+    slug: approval-n,
     lemma: "approval",
     pos: noun,
     cefr: B1,
@@ -1782,7 +1788,7 @@
       ],
   }
 - {
-    slug: go-live-n-travel,
+    slug: go-live-n,
     lemma: "go-live",
     pos: noun,
     cefr: B2,
@@ -1835,19 +1841,20 @@
       ],
   }
 - {
-    slug: version-n-travel,
-    lemma: "version",
+    slug: download-link-n,
+    lemma: "download link",
     pos: noun,
+    kind: collocation,
     cefr: A2,
     topic: globalisation,
-    ipa: "/ˈvɜːʃn/",
-    def: "One form of a product that is a little different from earlier ones.",
-    vi: "phiên bản",
+    ipa: "/ˈdaʊnləʊd lɪŋk/",
+    def: "A web address you click to get a file.",
+    vi: "đường dẫn tải về",
     examples:
       [
         {
-          en: "Version 2.1 fixes the bugs the client reported.",
-          vi: "Phiên bản 2.1 sửa các lỗi khách hàng đã báo.",
+          en: "The download link for the build expires in seven days.",
+          vi: "Đường dẫn tải bản build sẽ hết hạn sau bảy ngày.",
         },
       ],
   }
@@ -2118,19 +2125,20 @@
       ],
   }
 - {
-    slug: placeholder-n-travel,
-    lemma: "placeholder",
+    slug: string-variable-n,
+    lemma: "string variable",
     pos: noun,
+    kind: collocation,
     cefr: B2,
     topic: globalisation,
-    ipa: "/ˈpleɪshəʊldə/",
-    def: "A marker in text that is replaced by a real value later.",
-    vi: "biến giữ chỗ",
+    ipa: "/ˈstrɪŋ ˌveəriəbl/",
+    def: "A named slot in a text that is filled with a value, like {name}.",
+    vi: "biến trong chuỗi",
     examples:
       [
         {
-          en: "Keep the {name} placeholder when you translate the greeting.",
-          vi: "Giữ biến {name} khi bạn dịch câu chào.",
+          en: "Keep the {name} string variable when you translate the greeting.",
+          vi: "Giữ biến {name} trong chuỗi khi bạn dịch câu chào.",
         },
       ],
   }
@@ -2433,7 +2441,7 @@
       ],
   }
 - {
-    slug: dependency-n-travel,
+    slug: dependency-n,
     lemma: "dependency",
     pos: noun,
     cefr: B2,
@@ -2502,36 +2510,37 @@
       ],
   }
 - {
-    slug: impact-n-travel,
-    lemma: "impact",
+    slug: affected-users-n,
+    lemma: "affected users",
     pos: noun,
+    kind: collocation,
     cefr: B2,
     topic: globalisation,
-    ipa: "/ˈɪmpækt/",
-    def: "The effect that something has on people or work.",
-    vi: "tác động, ảnh hưởng",
+    ipa: "/əˌfektɪd ˈjuːzəz/",
+    def: "The people who have a problem because of an issue.",
+    vi: "người dùng bị ảnh hưởng",
     examples:
       [
         {
-          en: "The delay has a big impact on our launch date.",
-          vi: "Sự chậm trễ tác động lớn đến ngày ra mắt.",
+          en: "Tell the partner how many affected users we have.",
+          vi: "Báo cho đối tác số người dùng bị ảnh hưởng.",
         },
       ],
   }
 - {
-    slug: workaround-n-travel,
-    lemma: "workaround",
+    slug: shim-n,
+    lemma: "shim",
     pos: noun,
-    cefr: B2,
+    cefr: C1,
     topic: globalisation,
-    ipa: "/ˈwɜːkəraʊnd/",
-    def: "A temporary way to avoid a problem without fixing it.",
-    vi: "cách xử lý tạm",
+    ipa: "/ʃɪm/",
+    def: "A small piece of code that sits between two systems to make them fit.",
+    vi: "lớp đệm tương thích",
     examples:
       [
         {
-          en: "As a workaround, we cache the partner's data for an hour.",
-          vi: "Để xử lý tạm, tụi mình cache dữ liệu của đối tác trong một giờ.",
+          en: "We wrote a shim until the partner fixes their date format.",
+          vi: "Nhóm viết một lớp đệm tạm cho đến khi đối tác sửa định dạng ngày.",
         },
       ],
   }
@@ -2697,7 +2706,7 @@
       ],
   }
 - {
-    slug: single-point-of-failure-n-travel,
+    slug: single-point-of-failure-n,
     lemma: "single point of failure",
     pos: noun,
     kind: collocation,
@@ -2715,19 +2724,19 @@
       ],
   }
 - {
-    slug: mitigate-v-travel,
-    lemma: "mitigate",
-    pos: verb,
+    slug: failover-n,
+    lemma: "failover",
+    pos: noun,
     cefr: C1,
     topic: globalisation,
-    ipa: "/ˈmɪtɪɡeɪt/",
-    def: "To make a problem or its effects less serious.",
-    vi: "giảm thiểu",
+    ipa: "/ˈfeɪləʊvə/",
+    def: "Switching automatically to a backup system when the main one fails.",
+    vi: "chuyển đổi dự phòng",
     examples:
       [
         {
-          en: "Retries help mitigate short network failures.",
-          vi: "Cơ chế thử lại giúp giảm thiểu lỗi mạng ngắn.",
+          en: "Failover to the second region took less than a minute.",
+          vi: "Chuyển sang khu vực dự phòng mất chưa đến một phút.",
         },
       ],
   }
@@ -2835,37 +2844,37 @@
       ],
   }
 - {
-    slug: audit-v-travel,
-    lemma: "audit",
+    slug: vet-v,
+    lemma: "vet",
     pos: verb,
     cefr: C1,
     topic: globalisation,
-    ipa: "/ˈɔːdɪt/",
-    def: "To check carefully how a company or system follows the rules.",
-    vi: "kiểm tra, đánh giá",
+    ipa: "/vet/",
+    def: "To check a company or person carefully before you work with them.",
+    vi: "thẩm định, sàng lọc",
     examples:
       [
         {
-          en: "We audit each vendor's security once a year.",
-          vi: "Mỗi năm tụi mình đánh giá bảo mật của từng nhà cung cấp một lần.",
+          en: "We vet every new vendor for security and privacy.",
+          vi: "Nhóm thẩm định mọi nhà cung cấp mới về bảo mật và quyền riêng tư.",
         },
       ],
   }
 - {
-    slug: root-cause-n-travel,
-    lemma: "root cause",
+    slug: incident-report-n,
+    lemma: "incident report",
     pos: noun,
     kind: collocation,
-    cefr: C1,
+    cefr: B2,
     topic: globalisation,
-    ipa: "/ˌruːt ˈkɔːz/",
-    def: "The main reason a problem happened.",
-    vi: "nguyên nhân gốc",
+    ipa: "/ˈɪnsɪdənt rɪˌpɔːt/",
+    def: "A document that explains what went wrong, why, and what will change.",
+    vi: "báo cáo sự cố",
     examples:
       [
         {
-          en: "The vendor promised a report on the root cause of the outage.",
-          vi: "Nhà cung cấp hứa gửi báo cáo về nguyên nhân gốc của sự cố.",
+          en: "The vendor promised an incident report by Friday.",
+          vi: "Nhà cung cấp hứa gửi báo cáo sự cố trước thứ Sáu.",
         },
       ],
   }
@@ -3047,7 +3056,7 @@
       ],
   }
 - {
-    slug: transparency-n-travel,
+    slug: transparency-n,
     lemma: "transparency",
     pos: noun,
     cefr: C1,
@@ -3064,7 +3073,7 @@
       ],
   }
 - {
-    slug: goodwill-n-travel,
+    slug: goodwill-n,
     lemma: "goodwill",
     pos: noun,
     cefr: C1,
@@ -3169,7 +3178,7 @@
       ],
   }
 - {
-    slug: retrospective-n-travel,
+    slug: retrospective-n,
     lemma: "retrospective",
     pos: noun,
     cefr: B2,
@@ -3186,7 +3195,7 @@
       ],
   }
 - {
-    slug: agree-on-phr-travel,
+    slug: agree-on-phr,
     lemma: "agree on",
     pos: phrase,
     kind: phrase,
@@ -3252,19 +3261,19 @@
       ],
   }
 - {
-    slug: rotate-v-travel,
-    lemma: "rotate",
+    slug: alternate-v,
+    lemma: "alternate",
     pos: verb,
     cefr: B2,
     topic: globalisation,
-    ipa: "/rəʊˈteɪt/",
-    def: "To change something in turns so it is fair to everyone.",
-    vi: "luân phiên",
+    ipa: "/ˈɔːltəneɪt/",
+    def: "To change between two things again and again in turns.",
+    vi: "xen kẽ, luân phiên",
     examples:
       [
         {
-          en: "We rotate the meeting time so no region always stays late.",
-          vi: "Tụi mình luân phiên giờ họp để không khu vực nào luôn phải thức khuya.",
+          en: "We alternate the meeting time so no region always stays late.",
+          vi: "Nhóm xen kẽ giờ họp để không khu vực nào luôn phải thức khuya.",
         },
       ],
   }
@@ -3341,7 +3350,7 @@
       ],
   }
 - {
-    slug: flag-v-travel,
+    slug: flag-v,
     lemma: "flag",
     pos: verb,
     cefr: B2,
@@ -3411,19 +3420,20 @@
       ],
   }
 - {
-    slug: blameless-adj-travel,
-    lemma: "blameless",
-    pos: adjective,
+    slug: async-by-default-phr,
+    lemma: "async by default",
+    pos: phrase,
+    kind: phrase,
     cefr: C1,
     topic: globalisation,
-    ipa: "/ˈbleɪmləs/",
-    def: "Focusing on fixing a problem, not on punishing a person.",
-    vi: "không đổ lỗi",
+    ipa: "/ˌeɪsɪŋk baɪ dɪˈfɔːlt/",
+    def: "Using written, non-live communication first unless a call is really needed.",
+    vi: "mặc định bất đồng bộ",
     examples:
       [
         {
-          en: "We write blameless post-mortems after every incident.",
-          vi: "Tụi mình viết báo cáo sự cố không đổ lỗi sau mỗi sự cố.",
+          en: "We work async by default and book calls only for hard decisions.",
+          vi: "Nhóm mặc định làm việc bất đồng bộ, chỉ đặt cuộc gọi cho quyết định khó.",
         },
       ],
   }
@@ -3462,7 +3472,7 @@
       ],
   }
 - {
-    slug: exception-n-travel,
+    slug: exception-n,
     lemma: "exception",
     pos: noun,
     cefr: B2,

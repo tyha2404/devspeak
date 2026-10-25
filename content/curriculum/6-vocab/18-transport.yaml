@@ -6,282 +6,279 @@ kind: topic
 cefr: B1
 status: published
 title:
-  en: Maps, Logistics & Location-Based Products
-  vi: Bản đồ, logistics & sản phẩm vị trí
-summary_vi: "Luyện trao đổi yêu cầu bằng một miền sản phẩm cụ thể: bản đồ, đặt
-  chuyến, giao hàng và theo dõi vị trí. Kết hợp ngôn ngữ đời sống với dữ liệu,
-  trạng thái và trường hợp biên."
+  { en: "Maps, Logistics & Location-Based Products", vi: "Bản đồ, logistics & sản phẩm vị trí" }
+summary_vi: "Luyện trao đổi yêu cầu bằng một miền sản phẩm cụ thể: bản đồ, đặt chuyến, giao hàng và theo dõi vị trí. Kết hợp ngôn ngữ đời sống với dữ liệu, trạng thái và trường hợp biên."
 can_do:
-  - Làm rõ trạng thái và lỗi trong một luồng giao nhận
-  - Giải thích dữ liệu vị trí và điều kiện hiển thị cho người dùng
+  - "Làm rõ trạng thái và lỗi trong một luồng giao nhận"
+  - "Giải thích dữ liệu vị trí và điều kiện hiển thị cho người dùng"
 lessons:
   - slug: t18-l1
     kind: vocab
-    title:
-      en: "Set 1: Routes & destinations"
-      vi: "Bộ 1: Tuyến đường & điểm đến"
+    title: { en: "Set 1: Routes & destinations", vi: "Bộ 1: Tuyến đường & điểm đến" }
     senses:
-      - t18-route-n
-      - t18-destination-n
-      - t18-origin-n
-      - t18-journey-n
-      - t18-departure-n
-      - t18-arrival-n
-      - t18-distance-n
-      - t18-map-n
-      - t18-direction-n
-      - t18-waypoint-n
+      [
+        route-n,
+        destination-n,
+        pickup-point-n,
+        terminus-n,
+        journey-n,
+        waypoint-n,
+        distance-n,
+        via-prep,
+        detour-n,
+        one-way-adj,
+      ]
     questions: []
   - slug: t18-l2
     kind: vocab
-    title:
-      en: "Set 2: Addresses & coordinates"
-      vi: "Bộ 2: Địa chỉ & toạ độ"
+    title: { en: "Set 2: Addresses & coordinates", vi: "Bộ 2: Địa chỉ & toạ độ" }
     senses:
-      - t18-address-n
-      - t18-coordinates-n
-      - t18-latitude-n
-      - t18-longitude-n
-      - t18-postcode-n
-      - t18-street-n
-      - t18-district-n
-      - t18-province-n
-      - t18-location-n
-      - t18-marker-n
-      - t18-pin-n
-      - t18-geocode-v
+      [
+        street-address-n,
+        postcode-n,
+        latitude-n,
+        longitude-n,
+        coordinates-n,
+        map-pin-n,
+        geocode-v,
+        district-n,
+        landmark-n,
+        misplaced-adj,
+        building-number-n,
+        autocomplete-n,
+      ]
     questions: []
   - slug: t18-l3
     kind: vocab
-    title:
-      en: "Set 3: Booking & confirmation"
-      vi: "Bộ 3: Đặt dịch vụ & xác nhận"
+    title: { en: "Set 3: Booking & confirmation", vi: "Bộ 3: Đặt dịch vụ & xác nhận" }
     senses:
-      - t18-booking-n
-      - t18-reservation-n
-      - t18-confirm-v
-      - t18-confirmation-number-n
-      - t18-available-adj
-      - t18-unavailable-adj
-      - t18-capacity-n
-      - t18-seat-n
-      - t18-passenger-n
-      - t18-driver-n
-      - t18-reference-number-n
-      - t18-payment-method-n
-      - t18-pending-adj
-      - t18-expire-v
+      [
+        booking-n,
+        reserve-v,
+        confirmation-code-n,
+        fare-n,
+        passenger-n,
+        ride-hailing-n,
+        awaiting-payment-phr,
+        assign-v-t18,
+        surge-pricing-n,
+        seat-map-n,
+        vacancy-n,
+        waitlist-n,
+        in-advance-phr-t18,
+        e-ticket-n,
+      ]
     questions: []
   - slug: t18-l4
     kind: vocab
-    title:
-      en: "Set 4: Delivery status"
-      vi: "Bộ 4: Trạng thái giao hàng"
+    title: { en: "Set 4: Delivery status", vi: "Bộ 4: Trạng thái giao hàng" }
     senses:
-      - t18-delivery-n
-      - t18-parcel-n
-      - t18-courier-n
-      - t18-dispatch-v
-      - t18-in-transit-phr
-      - t18-out-for-delivery-phr
-      - t18-delivered-adj
-      - t18-recipient-n
-      - t18-tracking-number-n
-      - t18-proof-of-delivery-n
-      - t18-pick-up-pv
-      - t18-drop-off-phr
-      - t18-warehouse-n
-      - t18-shipment-n
-      - t18-status-n
-      - t18-timestamp-n
+      [
+        parcel-n,
+        postal-service-n,
+        dispatch-v,
+        in-transit-phr,
+        out-for-delivery-phr,
+        delivered-adj,
+        sign-for-pv,
+        warehouse-n,
+        shipment-n,
+        hand-over-pv,
+        front-gate-n,
+        proof-of-delivery-n,
+        failed-attempt-n,
+        addressee-n,
+        sender-n,
+        shipping-label-n,
+      ]
     questions: []
   - slug: t18-l5
     kind: vocab
-    title:
-      en: "Set 5: Estimated arrival times"
-      vi: "Bộ 5: Thời gian đến dự kiến"
+    title: { en: "Set 5: Estimated arrival times", vi: "Bộ 5: Thời gian đến dự kiến" }
     senses:
-      - t18-estimated-arrival-n
-      - t18-estimate-v
-      - t18-delay-n
-      - t18-traffic-jam-n
-      - t18-rush-hour-n
-      - t18-timetable-n
-      - t18-on-time-phr
-      - t18-behind-schedule-phr
-      - t18-buffer-v
-      - t18-interval-n
-      - t18-duration-n
-      - t18-real-time-adj
-      - t18-last-seen-n
-      - t18-refresh-rate-n
-      - t18-uncertainty-n
-      - t18-forecast-n
-      - t18-update-frequency-n
-      - t18-notify-v
+      [
+        eta-n,
+        arrive-v,
+        depart-v,
+        rush-hour-n,
+        bus-lane-n,
+        give-or-take-phr,
+        on-the-dot-phr,
+        timetable-n,
+        frequency-n,
+        off-peak-adj,
+        travel-time-n,
+        live-traffic-n,
+        recalculate-v,
+        buffer-n,
+        speed-limit-n,
+        intersection-n,
+        road-closure-n,
+        hold-up-n,
+      ]
     questions: []
   - slug: t18-l6
     kind: vocab
-    title:
-      en: "Set 6: Delays & cancellations"
-      vi: "Bộ 6: Chậm trễ & huỷ"
+    title: { en: "Set 6: Delays & cancellations", vi: "Bộ 6: Chậm trễ & huỷ" }
     senses:
-      - t18-cancel-v
-      - t18-cancellation-n
-      - t18-reschedule-v
-      - t18-postpone-v
-      - t18-refund-n
-      - t18-compensate-v
-      - t18-disruption-n
-      - t18-detour-n
-      - t18-alternative-route-n
-      - t18-road-closure-n
-      - t18-unforeseen-adj
-      - t18-unfortunately-adv
-      - t18-inconvenience-n
-      - t18-partial-adj
-      - t18-eligible-adj
-      - t18-processing-time-n
-      - t18-service-credit-n
-      - t18-contingency-plan-n
-      - t18-backup-plan-n
-      - t18-customer-facing-adj
+      [
+        late-departure-n,
+        call-off-pv,
+        cancellation-fee-n,
+        reimburse-v-t18,
+        push-back-pv,
+        engine-failure-n,
+        flat-tyre-n,
+        goodwill-credit-n,
+        tow-v,
+        waive-v-t18,
+        grace-period-n-t18,
+        free-of-charge-phr,
+        disruption-n,
+        strike-n,
+        weather-warning-n,
+        missed-connection-n,
+        alternative-route-n,
+        travel-credit-n,
+        overbooked-adj,
+        stranded-adj,
+      ]
     questions: []
   - slug: t18-l7
     kind: vocab
-    title:
-      en: "Set 7: Location permissions"
-      vi: "Bộ 7: Quyền vị trí"
+    title: { en: "Set 7: Location permissions", vi: "Bộ 7: Quyền vị trí" }
     senses:
-      - t18-permission-n
-      - t18-consent-n
-      - t18-opt-in-v
-      - t18-opt-out-v
-      - t18-track-v
-      - t18-privacy-policy-n
-      - t18-personal-data-n
-      - t18-sensitive-information-n
-      - t18-access-level-n
-      - t18-anonymous-adj
-      - t18-anonymise-v
-      - t18-data-protection-n
-      - t18-data-residency-n
-      - t18-retention-n
-      - t18-location-permission-n
-      - t18-precise-location-n
-      - t18-approximate-location-n
-      - t18-background-tracking-n
-      - t18-foreground-n
-      - t18-deny-v
-      - t18-grant-v
-      - t18-revoke-v
+      [
+        location-access-n,
+        pinpoint-v-t18,
+        approximate-location-n,
+        background-location-n,
+        while-using-phr,
+        opt-in-pv,
+        geofence-n,
+        proximity-n,
+        accuracy-n,
+        gps-n,
+        weak-signal-n,
+        battery-drain-n,
+        permission-dialog-n,
+        revoke-v,
+        share-location-phr,
+        whereabouts-n,
+        within-walking-distance-phr,
+        radius-n,
+        indoor-adj,
+        low-power-mode-n,
+        disclose-v,
+        usage-description-n,
+      ]
     questions: []
   - slug: t18-l8
     kind: vocab
-    title:
-      en: "Set 8: Tracking & event updates"
-      vi: "Bộ 8: Theo dõi & cập nhật sự kiện"
+    title: { en: "Set 8: Tracking & event updates", vi: "Bộ 8: Theo dõi & cập nhật sự kiện" }
     senses:
-      - t18-event-n
-      - t18-sequence-n
-      - t18-time-series-n
-      - t18-utc-n
-      - t18-daylight-saving-time-n
-      - t18-ingestion-time-n
-      - t18-sync-v
-      - t18-duplicate-n
-      - t18-stale-adj
-      - t18-gap-n
-      - t18-disconnected-adj
-      - t18-outage-n
-      - t18-reconnect-v
-      - t18-resume-v
-      - t18-retry-policy-n
-      - t18-event-update-n
-      - t18-push-notification-n
-      - t18-polling-n
-      - t18-webhook-n
-      - t18-idempotent-adj
-      - t18-out-of-order-phr
-      - t18-event-history-n
-      - t18-audit-trail-n
-      - t18-eventual-consistency-n
+      [
+        waybill-n,
+        transit-point-n,
+        timestamp-n,
+        chronological-adj,
+        barcode-n,
+        hub-n,
+        ping-n,
+        last-known-location-n,
+        real-time-adj,
+        drift-n,
+        sequence-n,
+        backfill-v,
+        duplicate-event-n,
+        status-update-n-t18,
+        arrival-scan-n,
+        en-route-phr,
+        webhook-n,
+        push-notification-n,
+        heartbeat-n,
+        ghost-location-n,
+        catch-up-pv-t18,
+        deduplicate-v,
+        gap-n,
+        breadcrumb-trail-n,
+      ]
     questions: []
   - slug: t18-l9
     kind: vocab
-    title:
-      en: "Set 9: Edge cases in logistics"
-      vi: "Bộ 9: Trường hợp biên giao nhận"
+    title: { en: "Set 9: Edge cases in logistics", vi: "Bộ 9: Trường hợp biên giao nhận" }
     senses:
-      - t18-exception-n
-      - t18-failure-mode-n
-      - t18-edge-case-n
-      - t18-mismatch-n
-      - t18-invalid-address-n
-      - t18-missing-adj
-      - t18-incomplete-adj
-      - t18-incorrect-adj
-      - t18-out-of-range-phr
-      - t18-ambiguous-adj
-      - t18-manual-review-n
-      - t18-escalate-v
-      - t18-workaround-n
-      - t18-investigation-n
-      - t18-log-entry-n
-      - t18-trace-id-n
-      - t18-status-code-n
-      - t18-reproducible-adj
-      - t18-steps-to-reproduce-n
-      - t18-test-data-n
-      - t18-expected-result-n
-      - t18-actual-behaviour-n
-      - t18-user-impact-n
-      - t18-restore-v
-      - t18-remediation-n
-      - t18-root-cause-n
-      - t18-follow-up-n
-      - t18-resolve-v
+      [
+        incomplete-address-n,
+        redeliver-v,
+        return-to-sender-phr,
+        unreachable-adj,
+        rural-adj,
+        gated-community-n,
+        apartment-block-n,
+        leave-with-neighbour-phr,
+        safe-place-n,
+        fragile-adj,
+        damaged-in-transit-phr,
+        lost-parcel-n,
+        pay-on-delivery-phr,
+        partial-delivery-n,
+        signature-required-phr,
+        oversized-adj,
+        restricted-item-n,
+        customs-n,
+        storage-fee-n,
+        collection-point-n,
+        parcel-locker-n,
+        retry-limit-n,
+        unclaimed-adj,
+        dispute-n,
+        mislabelled-adj,
+        time-window-n,
+        last-mile-n,
+        reroute-v,
+      ]
     questions: []
   - slug: t18-l10
     kind: vocab
-    title:
-      en: "Set 10: A logistics feature brief"
-      vi: "Bộ 10: Đề bài tính năng logistics"
+    title: { en: "Set 10: A logistics feature brief", vi: "Bộ 10: Đề bài tính năng logistics" }
     senses:
-      - t18-workflow-n
-      - t18-state-machine-n
-      - t18-transition-n
-      - t18-milestone-n
-      - t18-acceptance-criteria-n
-      - t18-definition-of-done-n
-      - t18-non-goal-n
-      - t18-requirement-n
-      - t18-dependency-n
-      - t18-scope-n
-      - t18-constraint-n
-      - t18-assumption-n
-      - t18-happy-path-n
-      - t18-retry-limit-n
-      - t18-fallback-n
-      - t18-timeout-n
-      - t18-rate-limit-n
-      - t18-batch-n
-      - t18-queue-n
-      - t18-handover-n
-      - t18-owner-n
-      - t18-point-of-contact-n
-      - t18-priority-n
-      - t18-severity-n
-      - t18-monitoring-n
-      - t18-alert-n
-      - t18-threshold-n
-      - t18-dashboard-n
-      - t18-filter-n
-      - t18-drill-down-pv
-      - t18-aggregate-v
-      - t18-historical-adj
-      - t18-summary-view-n
-      - t18-visibility-n
-      - t18-reliability-n
-      - t18-go-live-n
+      [
+        fleet-n,
+        dispatcher-n,
+        cargo-space-n,
+        route-optimisation-n,
+        batching-n,
+        driver-app-n,
+        service-area-n,
+        zone-n,
+        surcharge-n,
+        minimum-order-n,
+        delivery-slot-n,
+        cut-off-time-n,
+        sorting-centre-n,
+        dead-mileage-n,
+        standby-n,
+        vehicle-type-n,
+        handoff-n,
+        fulfilment-n,
+        inventory-n,
+        backorder-n,
+        dimensions-n,
+        weight-limit-n,
+        carrier-n,
+        integrate-with-phr,
+        rate-card-n-t18,
+        on-time-rate-n,
+        boundary-n-t18,
+        heatmap-n,
+        map-tile-n,
+        zoom-level-n,
+        cluster-v,
+        snap-to-road-phr,
+        eligible-adj-t18,
+        pilot-city-n,
+        toll-n,
+        geocoder-n,
+      ]
     questions: []

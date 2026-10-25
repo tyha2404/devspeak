@@ -6,281 +6,279 @@ kind: topic
 cefr: B1
 status: published
 title:
-  en: Focus, Movement & Sustainable Routines
-  vi: Tập trung, vận động & thói quen bền vững
-summary_vi: Trao đổi cách giữ năng lượng và tập trung trong ngày làm việc. Dùng
-  tình huống vận động, nghỉ ngắn và lịch trực để thực hành kế hoạch vừa sức.
+  { en: "Focus, Movement & Sustainable Routines", vi: "Tập trung, vận động & thói quen bền vững" }
+summary_vi: "Trao đổi cách giữ năng lượng và tập trung trong ngày làm việc. Dùng tình huống vận động, nghỉ ngắn và lịch trực để thực hành kế hoạch vừa sức."
 can_do:
-  - Thống nhất lịch tập trung và giờ có thể bị gián đoạn
-  - Trao đổi một thay đổi thói quen có thể duy trì
+  - "Thống nhất lịch tập trung và giờ có thể bị gián đoạn"
+  - "Trao đổi một thay đổi thói quen có thể duy trì"
 lessons:
   - slug: t14-l1
     kind: vocab
-    title:
-      en: "Set 1: Daily movement"
-      vi: "Bộ 1: Vận động hằng ngày"
+    title: { en: "Set 1: Daily movement", vi: "Bộ 1: Vận động hằng ngày" }
     senses:
-      - t14-warm-up-pv
-      - t14-stretch-v
-      - t14-jog-v
-      - t14-take-the-stairs-phr
-      - t14-sedentary-adj
-      - t14-posture-n
-      - t14-muscle-n
-      - t14-in-shape-phr
-      - t14-work-out-pv
-      - t14-fitness-tracker-n
+      [
+        "dance-v",
+        "stairs-n",
+        "treadmill-n",
+        "step-count-n",
+        "cycle-v",
+        "lunchtime-walk-n",
+        "swim-v",
+        "sit-still-phr",
+        "gym-n",
+        "active-adj",
+      ]
     questions: []
   - slug: t14-l2
     kind: vocab
-    title:
-      en: "Set 2: Short breaks"
-      vi: "Bộ 2: Nghỉ ngắn"
+    title: { en: "Set 2: Short breaks", vi: "Bộ 2: Nghỉ ngắn" }
     senses:
-      - t14-take-a-break-phr
-      - t14-lunch-break-n
-      - t14-screen-time-n
-      - t14-eye-strain-n
-      - t14-headache-n
-      - t14-stay-hydrated-phr
-      - t14-notification-n
-      - t14-mute-v
-      - t14-wind-down-pv
-      - t14-disconnect-v
-      - t14-short-break-n
-      - t14-rest-n
+      [
+        "coffee-run-n",
+        "step-away-phr",
+        "be-right-back-phr",
+        "refill-v",
+        "snack-n",
+        "fresh-air-n",
+        "timer-n",
+        "stiff-adj",
+        "recharge-v",
+        "yawn-v",
+        "pop-out-phr",
+        "kettle-n",
+      ]
     questions: []
   - slug: t14-l3
     kind: vocab
-    title:
-      en: "Set 3: Focus time"
-      vi: "Bộ 3: Thời gian tập trung"
+    title: { en: "Set 3: Focus time", vi: "Bộ 3: Thời gian tập trung" }
     senses:
-      - t14-focus-time-n
-      - t14-do-not-disturb-n
-      - t14-attention-span-n
-      - t14-distraction-n
-      - t14-interrupt-v
-      - t14-urgent-adj
-      - t14-core-hours-n
-      - t14-availability-n
-      - t14-reachable-adj
-      - t14-ping-v
-      - t14-time-management-n
-      - t14-prioritize-v
-      - t14-to-do-list-n
-      - t14-productive-adj
+      [
+        "focus-time-n",
+        "flow-state-n",
+        "rabbit-hole-n",
+        "focus-block-n",
+        "lo-fi-music-n",
+        "heads-down-adj",
+        "drop-everything-phr",
+        "disturb-v",
+        "block-out-phr",
+        "zone-in-phr",
+        "uninterrupted-adj",
+        "tap-on-the-shoulder-phr",
+        "hotline-n",
+        "context-switch-n",
+      ]
     questions: []
   - slug: t14-l4
     kind: vocab
-    title:
-      en: "Set 4: Energy & recovery"
-      vi: "Bộ 4: Năng lượng & hồi phục"
+    title: { en: "Set 4: Energy & recovery", vi: "Bộ 4: Năng lượng & hồi phục" }
     senses:
-      - t14-exhausted-adj
-      - t14-recover-v
-      - t14-recovery-n
-      - t14-sleep-deprived-adj
-      - t14-burnout-n
-      - t14-overwork-v
-      - t14-downtime-n
-      - t14-well-being-n
-      - t14-work-life-balance-n
-      - t14-pressure-n
-      - t14-cope-with-pv
-      - t14-self-care-n
-      - t14-support-network-n
-      - t14-stamina-n
-      - t14-bounce-back-pv
-      - t14-on-call-adj
+      [
+        "energy-level-n",
+        "worn-out-adj",
+        "perk-up-phr",
+        "nap-n",
+        "energy-dip-n",
+        "hydrated-adj",
+        "second-wind-n",
+        "catch-up-phr",
+        "time-off-n",
+        "rested-adj",
+        "sluggish-adj",
+        "lie-in-n",
+        "rest-up-phr",
+        "take-it-easy-phr",
+        "pace-oneself-phr",
+        "refuel-v",
+      ]
     questions: []
   - slug: t14-l5
     kind: vocab
-    title:
-      en: "Set 5: Setting realistic goals"
-      vi: "Bộ 5: Đặt mục tiêu vừa sức"
+    title: { en: "Set 5: Setting realistic goals", vi: "Bộ 5: Đặt mục tiêu vừa sức" }
     senses:
-      - t14-set-a-goal-phr
-      - t14-realistic-adj
-      - t14-achievable-adj
-      - t14-milestone-n
-      - t14-timeline-n
-      - t14-commitment-n
-      - t14-small-step-n
-      - t14-starting-point-n
-      - t14-target-n
-      - t14-consistent-adj
-      - t14-in-moderation-phr
-      - t14-keep-track-of-phr
-      - t14-motivation-n
-      - t14-trial-period-n
-      - t14-flexible-adj
-      - t14-adjust-v
-      - t14-short-term-adj
-      - t14-long-term-goal-n
+      [
+        "doable-adj",
+        "step-goal-n",
+        "mini-goal-n",
+        "couch-to-5k-n",
+        "bite-sized-adj",
+        "ambitious-adj",
+        "promise-yourself-phr",
+        "keep-tabs-on-phr",
+        "tweak-v",
+        "overcommit-v",
+        "thirty-day-challenge-n",
+        "hiccup-n",
+        "kickstart-v",
+        "scale-back-phr",
+        "habit-tracker-n",
+        "sense-of-achievement-n",
+        "step-by-step-phr",
+        "gradual-adj",
+      ]
     questions: []
   - slug: t14-l6
     kind: vocab
-    title:
-      en: "Set 6: Group activities"
-      vi: "Bộ 6: Hoạt động nhóm"
+    title: { en: "Set 6: Group activities", vi: "Bộ 6: Hoạt động nhóm" }
     senses:
-      - t14-invite-v
-      - t14-invitation-n
-      - t14-join-v
-      - t14-decline-v
-      - t14-accept-v
-      - t14-voluntary-adj
-      - t14-team-building-n
-      - t14-team-spirit-n
-      - t14-group-activity-n
-      - t14-participate-v
-      - t14-at-your-own-pace-phr
-      - t14-no-pressure-phr
-      - t14-considerate-adj
-      - t14-encourage-v
-      - t14-supportive-adj
-      - t14-team-up-pv
-      - t14-calendar-n
-      - t14-book-a-room-phr
-      - t14-reschedule-v
-      - t14-rsvp-v
+      [
+        "team-sport-n",
+        "join-in-phr",
+        "put-your-name-down-phr",
+        "sit-out-phr",
+        "badminton-n",
+        "goalkeeper-n",
+        "cool-down-n",
+        "match-n",
+        "tournament-n",
+        "league-n",
+        "referee-n",
+        "score-v",
+        "cheer-on-phr",
+        "low-impact-adj",
+        "fitness-level-n",
+        "beginner-friendly-adj",
+        "captain-n",
+        "court-n",
+        "starting-whistle-n",
+        "futsal-n",
+      ]
     questions: []
   - slug: t14-l7
     kind: vocab
-    title:
-      en: "Set 7: Habits & consistency"
-      vi: "Bộ 7: Thói quen & duy trì"
+    title: { en: "Set 7: Habits & consistency", vi: "Bộ 7: Thói quen & duy trì" }
     senses:
-      - t14-habit-n
-      - t14-healthy-lifestyle-n
-      - t14-quit-smoking-phr
-      - t14-cut-down-on-pv
-      - t14-balanced-diet-n
-      - t14-nutrition-n
-      - t14-skip-a-meal-phr
-      - t14-portion-size-n
-      - t14-self-motivated-adj
-      - t14-routine-n
-      - t14-consistency-n
-      - t14-maintain-v
-      - t14-reminder-n
-      - t14-follow-through-phr
-      - t14-regularly-adv
-      - t14-gradually-adv
-      - t14-obstacle-n
-      - t14-fallback-n
-      - t14-temptation-n
-      - t14-momentum-n
-      - t14-make-time-for-phr
-      - t14-stick-to-phr
+      [
+        "habit-n",
+        "routine-n",
+        "day-in-day-out-phr",
+        "stick-to-phr",
+        "miss-a-day-phr",
+        "streak-n",
+        "sticky-note-n",
+        "habit-stack-n",
+        "reward-n",
+        "willpower-n",
+        "lose-track-phr",
+        "obstacle-n",
+        "discipline-n",
+        "build-up-phr",
+        "repetition-n",
+        "automatic-adj",
+        "break-a-habit-phr",
+        "excuse-n",
+        "workout-buddy-n",
+        "persevere-v",
+        "keep-going-phr",
+        "twice-weekly-adj",
+      ]
     questions: []
   - slug: t14-l8
     kind: vocab
-    title:
-      en: "Set 8: Sleep & on-call work"
-      vi: "Bộ 8: Giấc ngủ & công việc trực"
+    title: { en: "Set 8: Sleep & on-call work", vi: "Bộ 8: Giấc ngủ & công việc trực" }
     senses:
-      - t14-get-enough-sleep-phr
-      - t14-insomnia-n
-      - t14-irritable-adj
-      - t14-mental-health-n
-      - t14-anxious-adj
-      - t14-overwhelmed-adj
-      - t14-mindfulness-n
-      - t14-meditate-v
-      - t14-sleep-schedule-n
-      - t14-night-shift-n
-      - t14-rota-n
-      - t14-handover-n
-      - t14-coverage-n
-      - t14-backup-n
-      - t14-emergency-contact-n
-      - t14-sick-leave-n
-      - t14-day-off-n
-      - t14-annual-leave-n
-      - t14-return-v
-      - t14-in-my-absence-phr
-      - t14-unplug-v
-      - t14-sleep-quality-n
-      - t14-rested-adj
-      - t14-fatigue-n
+      [
+        "on-duty-adj",
+        "backup-person-n",
+        "pager-n",
+        "buzz-v",
+        "short-on-sleep-phr",
+        "sleepless-adj",
+        "bedtime-n",
+        "wake-up-phr",
+        "night-shift-n",
+        "graveyard-shift-n",
+        "trade-shifts-phr",
+        "cover-for-phr",
+        "firefight-v",
+        "crash-out-phr",
+        "groggy-adj",
+        "jet-lag-n",
+        "doze-off-phr",
+        "restorative-adj",
+        "blackout-curtains-n",
+        "rest-day-n",
+        "fatigue-n",
+        "circadian-rhythm-n",
+        "through-the-night-phr",
+        "melatonin-n",
+      ]
     questions: []
   - slug: t14-l9
     kind: vocab
-    title:
-      en: "Set 9: Tracking progress"
-      vi: "Bộ 9: Theo dõi tiến triển"
+    title: { en: "Set 9: Tracking progress", vi: "Bộ 9: Theo dõi tiến triển" }
     senses:
-      - t14-observe-v
-      - t14-record-v
-      - t14-measure-v
-      - t14-baseline-n
-      - t14-improvement-n
-      - t14-progress-n
-      - t14-frequency-n
-      - t14-duration-n
-      - t14-weekly-adj
-      - t14-daily-adj
-      - t14-pattern-n
-      - t14-trend-n
-      - t14-average-n
-      - t14-reflection-n
-      - t14-feedback-n
-      - t14-check-in-n
-      - t14-checklist-n
-      - t14-evidence-n
-      - t14-compare-v
-      - t14-review-date-n
-      - t14-fine-tune-v
-      - t14-setback-n
-      - t14-recognise-v
-      - t14-achievement-n
-      - t14-strengths-n
-      - t14-weaknesses-n
-      - t14-self-assessment-n
-      - t14-celebrate-v
+      [
+        "clock-v",
+        "scribble-v",
+        "log-n",
+        "upswing-n",
+        "lap-n",
+        "side-by-side-adv",
+        "achy-adj",
+        "plateau-n",
+        "personal-best-n",
+        "heart-rate-n",
+        "endurance-n",
+        "mobility-n",
+        "upper-body-n",
+        "weekly-review-n",
+        "kilometre-n",
+        "exact-adj",
+        "woolly-adj",
+        "guesswork-n",
+        "plank-n",
+        "observable-adj",
+        "yardstick-n",
+        "yo-yo-v",
+        "off-day-n",
+        "progressive-overload-n",
+        "tally-v",
+        "perceived-effort-n",
+        "leaderboard-n",
+        "spot-a-pattern-phr",
+      ]
     questions: []
   - slug: t14-l10
     kind: vocab
-    title:
-      en: "Set 10: A sustainable weekly routine"
-      vi: "Bộ 10: Nhịp làm việc bền vững"
+    title: { en: "Set 10: A sustainable weekly routine", vi: "Bộ 10: Nhịp làm việc bền vững" }
     senses:
-      - t14-working-hours-n
-      - t14-flexible-hours-n
-      - t14-work-remotely-phr
-      - t14-commute-v
-      - t14-workload-n
-      - t14-overtime-n
-      - t14-boundary-n
-      - t14-after-hours-adv
-      - t14-log-off-pv
-      - t14-switch-off-pv
-      - t14-healthy-adj
-      - t14-resilient-adj
-      - t14-adaptable-adj
-      - t14-proactive-adj
-      - t14-reliable-adj
-      - t14-self-discipline-n
-      - t14-sustainable-adj
-      - t14-balance-n
-      - t14-energy-n
-      - t14-personal-time-n
-      - t14-protected-time-n
-      - t14-meeting-free-adj
-      - t14-time-block-n
-      - t14-buffer-n
-      - t14-contingency-n
-      - t14-break-up-pv
-      - t14-allocate-v
-      - t14-plan-ahead-phr
-      - t14-review-n
-      - t14-revise-v
-      - t14-prevent-v
-      - t14-risk-factor-n
-      - t14-team-agreement-n
-      - t14-on-time-phr
-      - t14-accountable-adj
-      - t14-work-ethic-n
+      [
+        "steady-pace-n",
+        "elbow-room-n",
+        "me-time-n",
+        "hard-stop-n",
+        "extra-hours-n",
+        "rhythm-n",
+        "fortnightly-adj",
+        "planner-n",
+        "pencil-in-phr",
+        "breathing-space-n",
+        "movable-adj",
+        "unwind-v",
+        "desk-bound-adj",
+        "moderate-adj",
+        "intense-adj",
+        "marathon-not-a-sprint-phr",
+        "put-first-phr",
+        "share-the-load-phr",
+        "say-no-phr",
+        "screen-free-adj",
+        "log-off-phr",
+        "sabbatical-n",
+        "weekly-sync-n",
+        "take-stock-phr",
+        "fitness-n",
+        "longevity-n",
+        "well-rounded-adj",
+        "fair-share-n",
+        "burn-the-candle-phr",
+        "spread-too-thin-phr",
+        "carve-out-phr",
+        "leisure-n",
+        "rock-climbing-n",
+        "prior-engagement-n",
+        "protect-v",
+        "rest-week-n",
+      ]
     questions: []

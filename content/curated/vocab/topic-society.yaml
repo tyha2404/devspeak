@@ -1,2254 +1,3496 @@
-- slug: t24-end-user-n
-  lemma: end user
-  pos: noun
-  kind: collocation
-  cefr: B2
-  topic: equality
-  ipa: /ˌend ˈjuːzə/
-  def: The person who finally uses a product, not the people who build it.
-  vi: người dùng cuối
-  examples:
-    - en: End users only need to know that login is faster.
-      vi: Người dùng cuối chỉ cần biết đăng nhập đã nhanh hơn.
-- slug: t24-target-user-n
-  lemma: target user
-  pos: noun
-  kind: collocation
-  cefr: B2
-  topic: equality
-  ipa: /ˌtɑːɡɪt ˈjuːzə/
-  def: The kind of person a product is mainly made for.
-  vi: người dùng mục tiêu
-  examples:
-    - en: My target users are freelancers who work in cafés.
-      vi: Người dùng mục tiêu của mình là freelancer làm việc ở quán cà phê.
-- lemma: need
-  pos: noun
-  vi: nhu cầu cần được đáp ứng
-  def: Something necessary to achieve a goal or solve a problem.
-  examples:
-    - en: The user need is faster access to previous invoices.
-  slug: t24-need-n
-  topic: equality
-  cefr: B2
-- slug: t24-context-n
-  lemma: context
-  pos: noun
-  cefr: B1
-  topic: equality
-  ipa: /ˈkɒntekst/
-  def: The background facts that help someone understand a situation.
-  vi: ngữ cảnh, bối cảnh
-  examples:
-    - en: "Add some context: which service, which branch, which command."
-      vi: "Thêm chút ngữ cảnh: service nào, nhánh nào, lệnh nào."
-- slug: t24-background-n
-  lemma: background
-  pos: noun
-  cefr: A2
-  topic: equality
-  ipa: /ˈbækɡraʊnd/
-  def: Your past experience, education and work before now.
-  vi: xuất thân, kinh nghiệm trước đây
-  examples:
-    - en: I have a background in testing before I moved to backend work.
-      vi: Mình từng làm tester trước khi chuyển sang backend.
-- slug: t24-digital-literacy-n
-  lemma: digital literacy
-  pos: noun
-  kind: collocation
-  cefr: C1
-  topic: equality
-  ipa: /ˌdɪdʒɪtl ˈlɪtərəsi/
-  def: The skills you need to use technology well and judge what you find online.
-  vi: năng lực số, kỹ năng sử dụng công nghệ
-  examples:
-    - en: Schools should teach digital literacy as early as primary level.
-      vi: Trường học nên dạy kỹ năng số ngay từ bậc tiểu học.
-- slug: t24-disability-n
-  lemma: disability
-  pos: noun
-  cefr: B2
-  topic: equality
-  ipa: /ˌdɪsəˈbɪləti/
-  def: A physical or mental condition that makes some activities difficult for a
-    person.
-  vi: khuyết tật
-  forms:
-    - disabilities
-  examples:
-    - en: Our website should work for users with a visual disability.
-      vi: Trang web của tụi mình phải dùng được cho người khiếm thị.
-- slug: t24-accessibility-n
-  lemma: accessibility
-  pos: noun
-  cefr: B2
-  topic: equality
-  ipa: /əkˌsesəˈbɪləti/
-  def: How easily people with disabilities can use something.
-  vi: khả năng tiếp cận
-  examples:
-    - en: The contract requires accessibility checks on every page.
-      vi: Hợp đồng yêu cầu kiểm tra khả năng tiếp cận ở mọi trang.
-- slug: t24-inclusive-adj
-  lemma: inclusive
-  pos: adjective
-  cefr: C1
-  topic: equality
-  ipa: /ɪnˈkluːsɪv/
-  def: Making everyone feel welcome and part of the group.
-  vi: hòa nhập, bao gồm mọi người
-  examples:
-    - en: We keep events inclusive by offering options without alcohol.
-      vi: Tụi mình giữ các sự kiện hòa nhập bằng cách có lựa chọn không cồn.
-- slug: t24-empathy-n
-  lemma: empathy
-  pos: noun
-  cefr: C1
-  topic: equality
-  ipa: /ˈempəθi/
-  def: The ability to understand how another person feels.
-  vi: sự thấu cảm
-  examples:
-    - en: A little empathy goes a long way when someone misses a deadline.
-      vi: Một chút thấu cảm giúp ích rất nhiều khi ai đó trễ deadline.
-- lemma: barrier
-  pos: noun
-  vi: rào cản
-  def: Something that prevents or makes an action difficult.
-  examples:
-    - en: A tiny button is a barrier for some users.
-  slug: t24-barrier-n
-  topic: equality
-  cefr: B2
-- slug: t24-accessible-adj
-  lemma: accessible
-  pos: adjective
-  cefr: B2
-  topic: equality
-  ipa: /əkˈsesəbl/
-  def: Easy for many different people to understand or use.
-  vi: dễ tiếp cận
-  examples:
-    - en: Short sentences make the guide more accessible.
-      vi: Câu ngắn giúp hướng dẫn dễ tiếp cận hơn.
-- lemma: screen reader
-  pos: noun
-  vi: phần mềm đọc màn hình
-  def: Software that presents screen content through speech or braille.
-  examples:
-    - en: A screen reader needs a meaningful label for each input.
-  slug: t24-screen-reader-n
-  topic: equality
-  cefr: B2
-  kind: collocation
-- lemma: keyboard navigation
-  pos: noun
-  vi: điều hướng bằng bàn phím
-  def: Moving through an interface using keys instead of a pointer.
-  examples:
-    - en: Test keyboard navigation through the entire checkout form.
-  slug: t24-keyboard-navigation-n
-  topic: equality
-  cefr: B2
-  kind: collocation
-- slug: t24-alt-text-n
-  lemma: alt text
-  pos: noun
-  kind: collocation
-  cefr: B2
-  topic: equality
-  ipa: /ˈɔːlt tekst/
-  def: A short description of an image for people who cannot see it.
-  vi: văn bản thay thế cho ảnh
-  examples:
-    - en: Add alt text to every image in the docs.
-      vi: Thêm văn bản thay thế cho mọi ảnh trong tài liệu.
-- slug: t24-caption-n
-  lemma: caption
-  pos: noun
-  cefr: B2
-  topic: equality
-  ipa: /ˈkæpʃn/
-  def: The short text that goes with a photo or video.
-  vi: chú thích (ảnh, video), dòng trạng thái kèm ảnh
-  forms:
-    - captions
-  examples:
-    - en: I spent longer writing the caption than taking the photo.
-      vi: Mình mất nhiều thời gian viết chú thích hơn là chụp ảnh.
-- slug: t24-touchscreen-n
-  lemma: touchscreen
-  pos: noun
-  cefr: B1
-  topic: equality
-  ipa: /ˈtʌtʃskriːn/
-  def: A screen that you control by touching it with your finger.
-  vi: màn hình cảm ứng
-  forms:
-    - touchscreens
-    - touch screen
-  examples:
-    - en: The touchscreen doesn't work when my hands are wet.
-      vi: Màn hình cảm ứng không nhạy khi tay mình bị ướt.
-- lemma: contrast
-  pos: noun
-  vi: độ tương phản
-  def: The visible difference between colours or tones.
-  examples:
-    - en: Increase the contrast between the text and its background.
-  slug: t24-contrast-n
-  topic: equality
-  cefr: B2
-- slug: t24-legibility-n
-  lemma: legibility
-  pos: noun
-  cefr: C1
-  topic: equality
-  ipa: /ˌledʒəˈbɪləti/
-  def: How easy text or numbers are to read.
-  vi: độ dễ đọc
-  examples:
-    - en: Check legibility on a phone screen in bright sunlight.
-      vi: Kiểm tra độ dễ đọc trên màn hình điện thoại dưới nắng gắt.
-- lemma: font size
-  pos: noun
-  vi: cỡ chữ
-  def: The displayed size of text characters.
-  examples:
-    - en: Let users increase the font size without losing content.
-  slug: t24-font-size-n
-  topic: equality
-  cefr: B2
-  kind: collocation
-- lemma: focus indicator
-  pos: noun
-  vi: dấu hiệu hiển thị vị trí focus
-  def: A visible mark showing which element receives keyboard input.
-  examples:
-    - en: The focus indicator must remain visible on dark backgrounds.
-  slug: t24-focus-indicator-n
-  topic: equality
-  cefr: B2
-  kind: collocation
-- lemma: assistive technology
-  pos: noun
-  vi: công nghệ hỗ trợ người khuyết tật
-  def: Tools that help people perform tasks they find difficult.
-  examples:
-    - en: Test whether assistive technology can read this form.
-  slug: t24-assistive-technology-n
-  topic: equality
-  cefr: B2
-  kind: collocation
-- slug: t24-bandwidth-n
-  lemma: bandwidth
-  pos: noun
-  cefr: B2
-  topic: equality
-  ipa: /ˈbændwɪdθ/
-  def: How much data an internet connection can carry at one time.
-  vi: băng thông
-  note: 'Nghĩa bóng (thân mật): "I don''t have the bandwidth" = mình không còn
-    sức/thời gian.'
-  examples:
-    - en: Four people streaming videos at once uses a lot of bandwidth.
-      vi: Bốn người cùng xem video một lúc sẽ tốn rất nhiều băng thông.
-- slug: t24-mobile-data-n
-  lemma: mobile data
-  pos: noun
-  kind: collocation
-  cefr: B1
-  topic: equality
-  ipa: /ˌməʊbaɪl ˈdeɪtə/
-  def: Internet on your phone that comes from your phone company, not from Wi-Fi.
-  vi: dữ liệu di động (3G/4G)
-  examples:
-    - en: I used all my mobile data watching videos on the bus.
-      vi: Mình xài hết dữ liệu di động vì xem video trên xe buýt.
-- slug: t24-connection-n
-  lemma: connection
-  pos: noun
-  cefr: B1
-  topic: equality
-  ipa: /kəˈnekʃn/
-  def: A link to the internet or a network that lets your device send and get data.
-  vi: kết nối (mạng)
-  forms:
-    - connections
-    - connect
-    - connected
-  examples:
-    - en: Sorry, my connection is bad. Can you say that again?
-      vi: Xin lỗi, kết nối của mình kém. Bạn nói lại được không?
-- slug: t24-offline-adj
-  lemma: offline
-  pos: adjective
-  cefr: B1
-  topic: equality
-  it: true
-  ipa: /ˌɒfˈlaɪn/
-  def: Not connected to the internet.
-  vi: ngoại tuyến, không có mạng
-  forms:
-    - go offline
-    - went offline
-  examples:
-    - en: You can read the maps offline, even on the plane.
-      vi: Bạn có thể xem bản đồ khi không có mạng, kể cả trên máy bay.
-- slug: t24-lag-n
-  lemma: lag
-  pos: noun
-  cefr: B2
-  topic: equality
-  ipa: /læɡ/
-  def: A short delay between when you do something and when it happens on screen.
-  vi: độ trễ, hiện tượng giật lag
-  forms:
-    - lags
-    - lagged
-    - lagging
-    - laggy
-  examples:
-    - en: There's a lot of lag in this online game tonight.
-      vi: Tối nay trò chơi trực tuyến này giật lag quá.
-- slug: t24-load-v
-  lemma: load
-  pos: verb
-  cefr: B1
-  topic: equality
-  ipa: /ləʊd/
-  def: To appear on the screen, or to make a page or app appear and be ready.
-  vi: tải (trang, ứng dụng hiện lên)
-  forms:
-    - loads
-    - loaded
-    - loading
-  examples:
-    - en: The page is still loading. The Wi-Fi here is really slow.
-      vi: Trang vẫn đang tải. Wifi ở đây chậm thật.
-- slug: t24-buffer-v
-  lemma: buffer
-  pos: verb
-  cefr: B2
-  topic: equality
-  ipa: /ˈbʌfə/
-  def: When a video stops for a moment because it is still getting data.
-  vi: (video) bị đứng để tải, quay vòng vòng
-  forms:
-    - buffers
-    - buffered
-    - buffering
-  examples:
-    - en: The film kept buffering, so we gave up and read a book.
-      vi: Phim cứ đứng hình quay vòng vòng nên bọn mình bỏ cuộc và đọc sách.
-- lemma: retry
-  pos: verb
-  vi: thử thực hiện lại
-  def: To attempt an operation again after failure.
-  examples:
-    - en: Retry the upload when the connection returns.
-  slug: t24-retry-v
-  topic: equality
-  cefr: B2
-- slug: t24-disconnected-adj
-  lemma: disconnected
-  pos: adjective
-  cefr: B1
-  topic: equality
-  ipa: /ˌdɪskəˈnektɪd/
-  def: No longer joined to a network or power supply.
-  vi: mất kết nối
-  examples:
-    - en: Three stations have been disconnected since the storm.
-      vi: Ba trạm đã mất kết nối từ sau cơn bão.
-- slug: t24-outage-n
-  lemma: outage
-  pos: noun
-  cefr: B1
-  topic: equality
-  ipa: /ˈaʊtɪdʒ/
-  def: A time when a service stops working.
-  vi: sự cố ngừng dịch vụ
-  examples:
-    - en: The outage lasted twelve minutes.
-      vi: Sự cố ngừng dịch vụ kéo dài mười hai phút.
-- slug: t24-reconnect-v
-  lemma: reconnect
-  pos: verb
-  cefr: B2
-  topic: equality
-  ipa: /ˌriːkəˈnekt/
-  def: To contact someone again after some time.
-  vi: kết nối lại
-  examples:
-    - en: It was great to reconnect with old classmates at the conference.
-      vi: Thật vui khi kết nối lại với bạn học cũ ở hội nghị.
-- slug: t24-resume-v
-  lemma: resume
-  pos: verb
-  cefr: B2
-  topic: equality
-  ipa: /rɪˈzjuːm/
-  def: To start again after a pause.
-  vi: tiếp tục lại
-  examples:
-    - en: Reporting resumed at 9:40 after the battery was changed.
-      vi: Việc gửi số đo tiếp tục lại lúc 9:40 sau khi thay pin.
-- lemma: data transfer
-  pos: noun
-  vi: việc truyền dữ liệu
-  def: The movement of data between devices or services.
-  examples:
-    - en: Video previews increase data transfer on mobile networks.
-  slug: t24-data-transfer-n
-  topic: equality
-  cefr: B2
-  kind: collocation
-- lemma: compression
-  pos: noun
-  vi: việc nén dữ liệu
-  def: Reducing the size of data for storage or transfer.
-  examples:
-    - en: Compression makes the page faster on mobile networks.
-  slug: t24-compression-n
-  topic: equality
-  cefr: B2
-- slug: t24-plain-language-n
-  lemma: plain language
-  pos: noun
-  kind: collocation
-  cefr: B2
-  topic: equality
-  ipa: /ˌpleɪn ˈlæŋɡwɪdʒ/
-  def: Simple, clear words that most people understand easily.
-  vi: ngôn ngữ đơn giản, dễ hiểu
-  examples:
-    - en: Explain the outage in plain language.
-      vi: Giải thích sự cố bằng ngôn ngữ dễ hiểu.
-- slug: t24-jargon-n
-  lemma: jargon
-  pos: noun
-  cefr: C1
-  topic: equality
-  ipa: /ˈdʒɑːɡən/
-  def: Special words that only experts understand.
-  vi: thuật ngữ chuyên môn khó hiểu
-  examples:
-    - en: Avoid jargon in the summary for managers.
-      vi: Tránh thuật ngữ khó hiểu trong phần tóm tắt cho quản lý.
-- slug: t24-acronym-n
-  lemma: acronym
-  pos: noun
-  cefr: B2
-  topic: equality
-  ipa: /ˈækrənɪm/
-  def: A word made from the first letters of other words, like API.
-  vi: từ viết tắt (ghép chữ đầu)
-  examples:
-    - en: Write out each acronym the first time you use it.
-      vi: Hãy viết đầy đủ mỗi từ viết tắt ở lần đầu dùng.
-- slug: t24-terminology-n
-  lemma: terminology
-  pos: noun
-  cefr: C1
-  topic: equality
-  ipa: /ˌtɜːmɪˈnɒlədʒi/
-  def: The special words used in a subject.
-  vi: thuật ngữ
-  examples:
-    - en: We keep a list of product terminology in the wiki.
-      vi: Chúng tôi có danh sách thuật ngữ sản phẩm trong wiki.
-- slug: t24-readability-n
-  lemma: readability
-  pos: noun
-  cefr: C1
-  topic: equality
-  ipa: /ˌriːdəˈbɪləti/
-  def: How easy a text is to read and understand.
-  vi: độ dễ đọc
-  examples:
-    - en: Short paragraphs improve readability.
-      vi: Đoạn văn ngắn giúp tăng độ dễ đọc.
-- lemma: translation
-  pos: noun
-  vi: bản dịch hoặc việc dịch
-  def: Expressing meaning from one language in another.
-  examples:
-    - en: Ask a native speaker to review the translation.
-  slug: t24-translation-n
-  topic: equality
-  cefr: B2
-- slug: t24-machine-translation-n
-  lemma: machine translation
-  pos: noun
-  kind: collocation
-  cefr: C1
-  topic: equality
-  ipa: /məˈʃiːn trænzˌleɪʃn/
-  def: Translation from one language to another done by a computer.
-  vi: dịch máy
-  examples:
-    - en: Machine translation is useful, but it still makes funny mistakes.
-      vi: Dịch máy rất hữu ích nhưng vẫn mắc những lỗi buồn cười.
-- slug: t24-locale-n
-  lemma: locale
-  pos: noun
-  cefr: C1
-  topic: equality
-  ipa: /ləʊˈkɑːl/
-  def: A setting that combines a language and a region, such as vi-VN.
-  vi: thiết lập vùng ngôn ngữ
-  examples:
-    - en: The server reads the user's locale from the browser.
-      vi: Server đọc thiết lập vùng ngôn ngữ của người dùng từ trình duyệt.
-- slug: t24-localisation-n
-  lemma: localisation
-  pos: noun
-  cefr: B2
-  topic: equality
-  ipa: /ˌləʊkəlaɪˈzeɪʃn/
-  def: Changing a product so it fits the language and habits of a country.
-  vi: bản địa hoá
-  examples:
-    - en: Localisation for Japan includes a new font and date style.
-      vi: Bản địa hoá cho Nhật gồm font mới và kiểu ngày tháng.
-- slug: t24-prior-knowledge-n
-  lemma: prior knowledge
-  pos: noun
-  kind: collocation
-  cefr: C1
-  topic: equality
-  ipa: /ˌpraɪə ˈnɒlɪdʒ/
-  def: What a reader already knows before reading.
-  vi: kiến thức có sẵn
-  examples:
-    - en: This guide needs no prior knowledge of SQL.
-      vi: Hướng dẫn này không cần kiến thức SQL có sẵn.
-- slug: t24-familiar-with-phr
-  lemma: familiar with
-  pos: phrase
-  kind: phrase
-  cefr: B1
-  topic: equality
-  ipa: /fəˈmɪliə wɪð/
-  def: Knowing something because you have seen or used it before.
-  vi: quen thuộc với
-  examples:
-    - en: Not every reader is familiar with Kubernetes.
-      vi: Không phải người đọc nào cũng quen với Kubernetes.
-- slug: t24-explain-v
-  lemma: explain
-  pos: verb
-  cefr: A2
-  topic: equality
-  ipa: /ɪkˈspleɪn/
-  def: To tell someone about something so they understand it.
-  vi: giải thích
-  examples:
-    - en: Can you explain why the build failed?
-      vi: Bạn giải thích được vì sao build bị lỗi không?
-- slug: t24-spell-out-pv
-  lemma: spell out
-  pos: phrasal_verb
-  kind: phrasal
-  cefr: B2
-  topic: equality
-  ipa: /spel ˈaʊt/
-  def: To explain something in clear and simple detail.
-  vi: nói rõ, giải thích cụ thể
-  examples:
-    - en: Can the guide spell out when a comment is required?
-      vi: Hướng dẫn có thể nói rõ khi nào bắt buộc phải có comment không?
-- slug: t24-wording-n
-  lemma: wording
-  pos: noun
-  cefr: B2
-  topic: equality
-  ipa: /ˈwɜːdɪŋ/
-  def: The exact words chosen to say something.
-  vi: cách dùng từ
-  examples:
-    - en: The wording of my comment was too strong.
-      vi: Cách dùng từ trong bình luận của mình quá mạnh.
-- slug: t24-ambiguous-adj
-  lemma: ambiguous
-  pos: adjective
-  cefr: B2
-  topic: equality
-  ipa: /æmˈbɪɡjuəs/
-  def: Able to be understood in more than one way.
-  vi: mơ hồ, đa nghĩa
-  examples:
-    - en: "The word 'recent' in the ticket is ambiguous: one week or one month?"
-      vi: "Chữ 'gần đây' trong ticket hơi mơ hồ: một tuần hay một tháng?"
-- slug: t24-concise-adj
-  lemma: concise
-  pos: adjective
-  cefr: C1
-  topic: equality
-  ipa: /kənˈsaɪs/
-  def: Short and clear, using no extra words.
-  vi: ngắn gọn, súc tích
-  examples:
-    - en: "Keep the note concise: what, why, how to check."
-      vi: "Giữ ghi chú súc tích: cái gì, vì sao, kiểm tra thế nào."
-- slug: t24-fairness-n
-  lemma: fairness
-  pos: noun
-  cefr: B2
-  topic: equality
-  ipa: /ˈfeənəs/
-  def: Treating people equally and in the right way.
-  vi: sự công bằng
-  examples:
-    - en: Fairness matters when we decide who works on holidays.
-      vi: Sự công bằng rất quan trọng khi quyết định ai làm ngày lễ.
-- slug: t24-bias-n
-  lemma: bias
-  pos: noun
-  cefr: C1
-  topic: equality
-  ipa: /ˈbaɪəs/
-  def: Unfair treatment of some groups of people, for example by a computer system.
-  vi: sự thiên lệch, định kiến
-  forms:
-    - biased
-    - biases
-  examples:
-    - en: The hiring tool had a bias against older applicants.
-      vi: Công cụ tuyển dụng đó có định kiến với ứng viên lớn tuổi.
-- slug: t24-discrimination-n
-  lemma: discrimination
-  pos: noun
-  cefr: C1
-  topic: equality
-  ipa: /dɪˌskrɪmɪˈneɪʃn/
-  def: Treating a person unfairly because of their gender, age, race, or similar.
-  vi: sự phân biệt đối xử
-  examples:
-    - en: There is no place for discrimination in this community.
-      vi: Không có chỗ cho sự phân biệt đối xử trong cộng đồng này.
-- slug: t24-favouritism-n
-  lemma: favouritism
-  pos: noun
-  cefr: C1
-  topic: equality
-  ipa: /ˈfeɪvərɪtɪzəm/
-  def: Unfairly treating one person better than others.
-  vi: sự thiên vị
-  examples:
-    - en: Rotating on-call duties avoids any feeling of favouritism.
-      vi: Luân phiên trực giúp tránh cảm giác thiên vị.
-- lemma: exclusion
-  pos: noun
-  vi: sự loại trừ
-  def: Preventing people from participating or accessing something.
-  examples:
-    - en: An email-only login can cause exclusion for some users.
-  slug: t24-exclusion-n
-  topic: equality
-  cefr: B2
-- lemma: eligibility
-  pos: noun
-  vi: điều kiện đủ để được hưởng quyền lợi
-  def: The conditions that determine who can receive something.
-  examples:
-    - en: Explain the eligibility rules for the discounted plan.
-  slug: t24-eligibility-n
-  topic: equality
-  cefr: B2
-- slug: t24-eligible-adj
-  lemma: eligible
-  pos: adjective
-  cefr: B2
-  topic: equality
-  ipa: /ˈelɪdʒəbl/
-  def: Allowed to have something because you meet the rules.
-  vi: đủ điều kiện
-  examples:
-    - en: Annual plans are eligible for a refund within thirty days.
-      vi: Gói năm đủ điều kiện hoàn tiền trong vòng ba mươi ngày.
-- slug: t24-rule-n
-  lemma: rule
-  pos: noun
-  cefr: A2
-  topic: equality
-  ipa: /ruːl/
-  def: An instruction that says what should happen in a certain situation.
-  vi: quy tắc
-  examples:
-    - en: Each alert rule has a condition and a list of people.
-      vi: Mỗi quy tắc cảnh báo có một điều kiện và một danh sách người nhận.
-- slug: t24-condition-n
-  lemma: condition
-  pos: noun
-  cefr: B1
-  topic: equality
-  ipa: /kənˈdɪʃn/
-  def: Something that must happen before something else can happen.
-  vi: điều kiện
-  examples:
-    - en: "We can merge on one condition: the feature flag stays off."
-      vi: "Có thể merge với một điều kiện: feature flag vẫn tắt."
-- slug: t24-exception-n
-  lemma: exception
-  pos: noun
-  cefr: B1
-  topic: equality
-  ipa: /ɪkˈsepʃn/
-  def: A case where a rule is not followed, usually with permission.
-  vi: ngoại lệ
-  examples:
-    - en: Can we get an exception to the freeze for this hotfix?
-      vi: Bản hotfix này có được ngoại lệ trong thời gian đóng băng không?
-- slug: t24-case-by-case-adj
-  lemma: case-by-case
-  pos: adjective
-  cefr: C1
-  topic: equality
-  ipa: /ˌkeɪs baɪ ˈkeɪs/
-  def: Judged separately each time, not by one general rule.
-  vi: xét từng trường hợp
-  examples:
-    - en: Late changes are approved on a case-by-case basis.
-      vi: Thay đổi muộn được duyệt theo từng trường hợp.
-- slug: t24-transparent-adj
-  lemma: transparent
-  pos: adjective
-  cefr: B2
-  topic: equality
-  ipa: /trænsˈpærənt/
-  def: Open and honest, with nothing hidden.
-  vi: minh bạch
-  examples:
-    - en: Our manager is transparent about why plans change.
-      vi: Quản lý của mình minh bạch về lý do kế hoạch thay đổi.
-- slug: t24-consistent-adj
-  lemma: consistent
-  pos: adjective
-  cefr: B1
-  topic: equality
-  ipa: /kənˈsɪstənt/
-  def: Always done in the same way.
-  vi: nhất quán
-  examples:
-    - en: Consistent error messages make the logs easier to search.
-      vi: Thông báo lỗi nhất quán giúp tìm trong log dễ hơn.
-- lemma: proportional
-  pos: adjective
-  vi: tương xứng với mức độ
-  def: Appropriate in size or severity relative to something else.
-  examples:
-    - en: An account restriction should be proportional to the violation.
-  slug: t24-proportional-adj
-  topic: equality
-  cefr: B2
-- slug: t24-equitable-adj
-  lemma: equitable
-  pos: adjective
-  cefr: C1
-  topic: equality
-  ipa: /ˈekwɪtəbl/
-  def: Fair to everyone, giving each person the same chances.
-  vi: công bằng
-  examples:
-    - en: An equitable schedule shares late meetings between regions.
-      vi: Lịch họp công bằng chia đều các cuộc họp muộn giữa các khu vực.
-- lemma: recourse
-  pos: noun
-  vi: cách yêu cầu hỗ trợ hoặc khắc phục
-  def: A way to seek help or challenge an unfair result.
-  examples:
-    - en: Users need recourse when an automated decision is wrong.
-  slug: t24-recourse-n
-  topic: equality
-  cefr: B2
-- lemma: appeal
-  pos: noun
-  vi: yêu cầu xem xét lại quyết định
-  def: A request to review or change a decision.
-  examples:
-    - en: Users need a way to submit an appeal after a ban.
-  slug: t24-appeal-n
-  topic: equality
-  cefr: B2
-- lemma: human review
-  pos: noun
-  vi: việc kiểm tra do con người thực hiện
-  def: Assessment by a person rather than only an automated system.
-  examples:
-    - en: Provide human review for disputed account restrictions.
-  slug: t24-human-review-n
-  topic: equality
-  cefr: B2
-  kind: collocation
-- slug: t24-algorithm-n
-  lemma: algorithm
-  pos: noun
-  cefr: B2
-  topic: equality
-  ipa: /ˈælɡərɪðəm/
-  def: A set of steps a computer follows to solve a problem.
-  vi: thuật toán
-  examples:
-    - en: That hashing algorithm is too old to be safe.
-      vi: Thuật toán băm đó quá cũ, không còn an toàn.
-- slug: t24-machine-learning-n
-  lemma: machine learning
-  pos: noun
-  kind: collocation
-  cefr: C1
-  topic: equality
-  ipa: /məˈʃiːn ˌlɜːnɪŋ/
-  def: A type of AI in which computers learn from lots of examples instead of
-    fixed rules.
-  vi: học máy
-  examples:
-    - en: The app uses machine learning to guess which songs you will like.
-      vi: Ứng dụng dùng học máy để đoán bạn sẽ thích bài hát nào.
-- slug: t24-artificial-intelligence-n
-  lemma: artificial intelligence
-  pos: noun
-  kind: collocation
-  cefr: B2
-  topic: equality
-  ipa: /ˌɑːtɪfɪʃl ɪnˈtelɪdʒəns/
-  def: Computer systems that can do things that usually need human thinking.
-  vi: trí tuệ nhân tạo
-  forms:
-    - AI
-  examples:
-    - en: Artificial intelligence can now write emails, draw pictures and answer
-        questions.
-      vi: Trí tuệ nhân tạo giờ có thể viết email, vẽ tranh và trả lời câu hỏi.
-- lemma: automation
-  pos: noun
-  vi: sự tự động hoá
-  def: Using software or machines to perform tasks automatically.
-  examples:
-    - en: Automation handles routine checks before each release.
-  slug: t24-automation-n
-  topic: equality
-  cefr: B2
-- lemma: training data
-  pos: noun
-  vi: dữ liệu huấn luyện
-  def: Examples used to teach a machine learning model.
-  examples:
-    - en: Check whether the training data includes all supported user groups.
-  slug: t24-training-data-n
-  topic: equality
-  cefr: B2
-  kind: collocation
-- slug: t24-sample-n
-  lemma: sample
-  pos: noun
-  cefr: B2
-  topic: equality
-  ipa: /ˈsɑːmpl/
-  def: A small part of a group that you study.
-  vi: mẫu
-  examples:
-    - en: We checked a sample of 200 failed orders.
-      vi: Bọn mình kiểm tra một mẫu gồm 200 đơn hàng lỗi.
-- lemma: representative
-  pos: adjective
-  vi: đại diện phù hợp cho nhóm lớn hơn
-  def: Reflecting the important characteristics of a larger group.
-  examples:
-    - en: Use a representative sample before drawing conclusions.
-  slug: t24-representative-adj
-  topic: equality
-  cefr: B2
-- slug: t24-cohort-n
-  lemma: cohort
-  pos: noun
-  cefr: C1
-  topic: equality
-  ipa: /ˈkəʊhɔːt/
-  def: A group of users who share something, like their join month.
-  vi: nhóm người dùng (cohort)
-  examples:
-    - en: The March cohort stayed longer than February's.
-      vi: Nhóm tháng Ba ở lại lâu hơn nhóm tháng Hai.
-- lemma: data quality
-  pos: noun
-  vi: chất lượng dữ liệu
-  def: How well data meets requirements for accuracy and usefulness.
-  examples:
-    - en: Missing timestamps reduce data quality in the report.
-  slug: t24-data-quality-n
-  topic: equality
-  cefr: B2
-  kind: collocation
-- slug: t24-missing-adj
-  lemma: missing
-  pos: adjective
-  cefr: A2
-  topic: equality
-  ipa: /ˈmɪsɪŋ/
-  def: Not there when it should be.
-  vi: bị thiếu
-  examples:
-    - en: Two steps are missing from the setup guide.
-      vi: Hướng dẫn cài đặt bị thiếu hai bước.
-- slug: t24-incomplete-adj
-  lemma: incomplete
-  pos: adjective
-  cefr: B1
-  topic: equality
-  ipa: /ˌɪnkəmˈpliːt/
-  def: Not having all the parts that it should have.
-  vi: không đầy đủ
-  examples:
-    - en: Today's total is incomplete until midnight.
-      vi: Tổng hôm nay chưa đầy đủ cho đến nửa đêm.
-- slug: t24-outlier-n
-  lemma: outlier
-  pos: noun
-  cefr: C1
-  topic: equality
-  ipa: /ˈaʊtlaɪə/
-  def: A result that is very different from the others.
-  vi: giá trị ngoại lai
-  examples:
-    - en: One outlier took ten seconds because of a GC pause.
-      vi: Một giá trị ngoại lai mất mười giây vì GC tạm dừng.
-- lemma: false positive
-  pos: noun
-  vi: kết quả báo có nhưng thực tế không có
-  def: A result that detects something which is not actually present.
-  examples:
-    - en: A false positive blocks a legitimate user from signing in.
-  slug: t24-false-positive-n
-  topic: equality
-  cefr: B2
-  kind: collocation
-- lemma: false negative
-  pos: noun
-  vi: kết quả bỏ sót trường hợp có thật
-  def: A result that fails to detect something actually present.
-  examples:
-    - en: A false negative lets a fraudulent transaction pass the check.
-  slug: t24-false-negative-n
-  topic: equality
-  cefr: B2
-  kind: collocation
-- slug: t24-accuracy-n
-  lemma: accuracy
-  pos: noun
-  cefr: B2
-  topic: equality
-  ipa: /ˈækjərəsi/
-  def: How close a measurement is to the true value.
-  vi: độ chính xác
-  examples:
-    - en: The accuracy of this probe is plus or minus 0.5 degrees.
-      vi: Độ chính xác của đầu đo này là cộng trừ 0,5 độ.
-- lemma: precision
-  pos: noun
-  vi: tỷ lệ dự đoán dương tính đúng
-  def: The share of predicted positive cases that are actually positive.
-  examples:
-    - en: Higher precision means fewer legitimate messages are flagged as spam.
-  slug: t24-precision-n
-  topic: equality
-  cefr: B2
-- lemma: recall
-  pos: noun
-  vi: tỷ lệ phát hiện trường hợp dương tính
-  def: The share of actual positive cases correctly detected.
-  examples:
-    - en: Higher recall means fewer harmful messages are missed.
-  slug: t24-recall-n
-  topic: equality
-  cefr: B2
-- slug: t24-confidence-interval-n
-  lemma: confidence interval
-  pos: noun
-  kind: collocation
-  cefr: C1
-  topic: equality
-  ipa: /ˈkɒnfɪdəns ˈɪntəvl/
-  def: A range that probably contains the true value.
-  vi: khoảng tin cậy
-  examples:
-    - en: The confidence interval still includes zero.
-      vi: Khoảng tin cậy vẫn bao gồm số không.
-- slug: t24-uncertainty-n
-  lemma: uncertainty
-  pos: noun
-  cefr: B2
-  topic: equality
-  ipa: /ʌnˈsɜːtnti/
-  def: A feeling of not knowing what will happen.
-  vi: sự bất định
-  examples:
-    - en: The reorg created a lot of uncertainty in the team.
-      vi: Đợt tái cơ cấu tạo ra nhiều bất định trong nhóm.
-- slug: t24-limitation-n
-  lemma: limitation
-  pos: noun
-  cefr: B2
-  topic: equality
-  ipa: /ˌlɪmɪˈteɪʃn/
-  def: Something that a tool cannot do, or a limit on how it can be used.
-  vi: hạn chế
-  examples:
-    - en: One limitation of the free plan is 100 calls per day.
-      vi: Một hạn chế của gói miễn phí là 100 lượt gọi mỗi ngày.
-- slug: t24-consent-n
-  lemma: consent
-  pos: noun
-  cefr: B2
-  topic: equality
-  ipa: /kənˈsent/
-  def: Permission that a person gives freely for something to happen.
-  vi: sự đồng ý
-  examples:
-    - en: We need the user's consent before we send marketing emails.
-      vi: Chúng ta cần sự đồng ý của người dùng trước khi gửi email marketing.
-- slug: t24-opt-in-v
-  lemma: opt in
-  pos: verb
-  kind: phrasal
-  cefr: C1
-  topic: equality
-  ipa: /ˌɒpt ˈɪn/
-  def: To choose to take part in something.
-  vi: chủ động tham gia
-  examples:
-    - en: You can opt in to the new API early.
-      vi: Bạn có thể chủ động dùng thử API mới sớm.
-- slug: t24-opt-out-pv
-  lemma: opt out
-  pos: phrasal_verb
-  kind: phrasal
-  cefr: B2
-  topic: equality
-  ipa: /ˌɒpt ˈaʊt/
-  def: To choose not to take part in something.
-  vi: từ chối tham gia
-  examples:
-    - en: Users can opt out of analytics in one click.
-      vi: Người dùng có thể từ chối analytics chỉ bằng một cú bấm.
-- slug: t24-permission-n
-  lemma: permission
-  pos: noun
-  cefr: A2
-  topic: equality
-  ipa: /pəˈmɪʃn/
-  def: The right to do a certain action in a system.
-  vi: quyền
-  examples:
-    - en: I don't have permission to delete this bucket.
-      vi: Mình không có quyền xoá bucket này.
-- slug: t24-privacy-n
-  lemma: privacy
-  pos: noun
-  cefr: B1
-  topic: equality
-  ipa: /ˈprɪvəsi/
-  def: The right to keep your personal life and information to yourself.
-  vi: quyền riêng tư
-  examples:
-    - en: Privacy is part of the design, not an extra step.
-      vi: Quyền riêng tư là một phần của thiết kế, không phải bước thêm.
-- slug: t24-personal-data-n
-  lemma: personal data
-  pos: noun
-  kind: collocation
-  cefr: B1
-  topic: equality
-  ipa: /ˌpɜːsənl ˈdeɪtə/
-  def: Information that can show who a real person is.
-  vi: dữ liệu cá nhân
-  examples:
-    - en: Don't paste personal data into the ticket.
-      vi: Đừng dán dữ liệu cá nhân vào ticket.
-- slug: t24-sensitive-information-n
-  lemma: sensitive information
-  pos: noun
-  kind: collocation
-  cefr: B2
-  topic: equality
-  ipa: /ˌsensətɪv ɪnfəˈmeɪʃn/
-  def: Private data, like passwords or names, that should not be shared.
-  vi: thông tin nhạy cảm
-  examples:
-    - en: Check screenshots for sensitive information before posting.
-      vi: Kiểm tra ảnh chụp có thông tin nhạy cảm không trước khi đăng.
-- slug: t24-anonymise-v
-  lemma: anonymise
-  pos: verb
-  cefr: C1
-  topic: equality
-  ipa: /əˈnɒnɪmaɪz/
-  def: To remove details that show who a person is.
-  vi: ẩn danh hoá
-  examples:
-    - en: Anonymise the export before you share it with the vendor.
-      vi: Hãy ẩn danh hoá dữ liệu xuất trước khi gửi cho nhà cung cấp.
-- slug: t24-data-protection-n
-  lemma: data protection
-  pos: noun
-  kind: collocation
-  cefr: B2
-  topic: equality
-  ipa: /ˈdeɪtə prəˌtekʃn/
-  def: Laws and practices that keep personal information safe.
-  vi: bảo vệ dữ liệu
-  examples:
-    - en: The data protection officer reviews every new form.
-      vi: Cán bộ bảo vệ dữ liệu rà soát mọi biểu mẫu mới.
-- slug: t24-retention-n
-  lemma: retention
-  pos: noun
-  cefr: C1
-  topic: equality
-  ipa: /rɪˈtenʃn/
-  def: How long data is kept before it is removed.
-  vi: thời hạn lưu giữ
-  examples:
-    - en: What is the retention period for payment records?
-      vi: Thời hạn lưu giữ hồ sơ thanh toán là bao lâu?
-- slug: t24-data-residency-n
-  lemma: data residency
-  pos: noun
-  kind: collocation
-  cefr: C1
-  topic: equality
-  ipa: /ˈdeɪtə ˈrezɪdənsi/
-  def: The rule about which country data must be physically stored in.
-  vi: yêu cầu lưu trữ dữ liệu theo quốc gia
-  examples:
-    - en: Data residency rules mean we need a region in Singapore.
-      vi: Quy định lưu trữ dữ liệu theo quốc gia khiến nhóm cần một vùng ở Singapore.
-- slug: t24-access-level-n
-  lemma: access level
-  pos: noun
-  kind: collocation
-  cefr: B2
-  topic: equality
-  ipa: /ˈækses levl/
-  def: The amount of a system that a user is allowed to see or change.
-  vi: cấp quyền truy cập
-  examples:
-    - en: Public viewers get a lower access level than operators.
-      vi: Người xem công khai có cấp quyền truy cập thấp hơn người vận hành.
-- lemma: user control
-  pos: noun
-  vi: quyền chủ động của người dùng
-  def: The ability of a person to choose and change product behaviour.
-  examples:
-    - en: An undo action gives the user control over accidental changes.
-  slug: t24-user-control-n
-  topic: equality
-  cefr: B2
-  kind: collocation
-- slug: t24-withdraw-v
-  lemma: withdraw
-  pos: verb
-  cefr: B2
-  topic: equality
-  ipa: /wɪðˈdrɔː/
-  def: To take back permission previously given.
-  vi: rút lại sự đồng ý
-  examples:
-    - en: Users can withdraw consent without deleting their account.
-  note: "Quá khứ: withdrew – withdrawn."
-- slug: t24-revoke-v
-  lemma: revoke
-  pos: verb
-  cefr: B2
-  topic: equality
-  ipa: /rɪˈvəʊk/
-  def: To officially take back a right that was given.
-  vi: thu hồi
-  examples:
-    - en: We revoke all keys on a person's last working day.
-      vi: Chúng tôi thu hồi mọi khoá vào ngày làm việc cuối của một người.
-- slug: t24-grant-v
-  lemma: grant
-  pos: verb
-  cefr: B1
-  topic: equality
-  ipa: /ɡrɑːnt/
-  def: To officially give someone a right.
-  vi: cấp (quyền)
-  examples:
-    - en: The team lead can grant write access for one week.
-      vi: Trưởng nhóm có thể cấp quyền ghi trong một tuần.
-- slug: t24-delete-v
-  lemma: delete
-  pos: verb
-  cefr: A2
-  topic: equality
-  ipa: /dɪˈliːt/
-  def: To remove data from a computer completely.
-  vi: xoá
-  examples:
-    - en: Users can delete their account from the settings page.
-      vi: Người dùng có thể xoá tài khoản từ trang cài đặt.
-- slug: t24-export-v
-  lemma: export
-  pos: verb
-  cefr: B1
-  topic: equality
-  ipa: /ɪkˈspɔːt/
-  def: To save data from one system into a file to use elsewhere.
-  vi: xuất (dữ liệu)
-  examples:
-    - en: Export the logs to a read-only folder.
-      vi: Hãy xuất log ra một thư mục chỉ đọc.
-- lemma: portability
-  pos: noun
-  vi: khả năng chuyển dữ liệu sang hệ thống khác
-  def: The ability to move data or software between systems.
-  examples:
-    - en: Data portability helps customers leave without losing their records.
-  slug: t24-portability-n
-  topic: equality
-  cefr: B2
-- slug: t24-cookie-n
-  lemma: cookie
-  pos: noun
-  cefr: B2
-  topic: equality
-  ipa: /ˈkʊki/
-  def: A small file a website saves on your device to remember you and what you do.
-  vi: cookie (tệp ghi nhớ của trang web)
-  keep_en: true
-  forms:
-    - cookies
-    - accept cookies
-  examples:
-    - en: I always reject cookies that are not necessary.
-      vi: Mình luôn từ chối những cookie không cần thiết.
-- slug: t24-privacy-policy-n
-  lemma: privacy policy
-  pos: noun
-  kind: collocation
-  cefr: B2
-  topic: equality
-  ipa: /ˈprɪvəsi ˌpɒləsi/
-  def: A document that explains how a company collects and uses your information.
-  vi: chính sách bảo mật
-  forms:
-    - privacy policies
-  examples:
-    - en: Nobody reads the privacy policy, but maybe we should.
-      vi: Chẳng ai đọc chính sách bảo mật cả, nhưng có lẽ chúng ta nên đọc.
-- slug: t24-terms-and-conditions-n
-  lemma: terms and conditions
-  pos: noun
-  kind: collocation
-  cefr: B2
-  topic: equality
-  ipa: /ˌtɜːmz ən kənˈdɪʃnz/
-  def: The rules you must agree to before you use a service.
-  vi: điều khoản sử dụng
-  forms:
-    - terms of service
-    - T&Cs
-  examples:
-    - en: Tick the box to show that you accept the terms and conditions.
-      vi: Đánh dấu vào ô để xác nhận bạn đồng ý với điều khoản sử dụng.
-- slug: t24-consequence-n
-  lemma: consequence
-  pos: noun
-  cefr: B2
-  topic: equality
-  ipa: /ˈkɒnsɪkwəns/
-  def: A result of a decision or action.
-  vi: hệ quả
-  examples:
-    - en: One consequence of this choice is a longer build time.
-      vi: Một hệ quả của lựa chọn này là thời gian build lâu hơn.
-- slug: t24-unintended-adj
-  lemma: unintended
-  pos: adjective
-  cefr: B2
-  topic: equality
-  ipa: /ˌʌnɪnˈtendɪd/
-  def: Not planned or wanted.
-  vi: ngoài ý muốn
-  examples:
-    - en: The unintended result was twice as many notifications.
-      vi: Kết quả ngoài ý muốn là số thông báo tăng gấp đôi.
-- slug: t24-knock-on-effect-n
-  lemma: knock-on effect
-  pos: noun
-  kind: collocation
-  cefr: C1
-  topic: equality
-  ipa: /ˌnɒk ɒn ɪˈfekt/
-  def: An indirect result that causes other things to happen.
-  vi: hiệu ứng dây chuyền
-  examples:
-    - en: The freeze had a knock-on effect on the mobile release.
-      vi: Đợt đóng băng gây hiệu ứng dây chuyền lên bản release mobile.
-- slug: t24-side-effect-n
-  lemma: side effect
-  pos: noun
-  kind: collocation
-  cefr: B1
-  topic: equality
-  ipa: /ˈsaɪd ɪˌfekt/
-  def: An extra, often bad, effect that a medicine has on your body.
-  vi: tác dụng phụ
-  forms:
-    - side effects
-  examples:
-    - en: One side effect of this medicine is feeling sleepy.
-      vi: Một tác dụng phụ của thuốc này là gây buồn ngủ.
-- slug: t24-user-impact-n
-  lemma: user impact
-  pos: noun
-  kind: collocation
-  cefr: B2
-  topic: equality
-  ipa: /ˈjuːzə ˈɪmpækt/
-  def: How a problem affected the people using the product.
-  vi: ảnh hưởng tới người dùng
-  examples:
-    - en: "User impact: about 2% could not log in."
-      vi: "Ảnh hưởng người dùng: khoảng 2% không đăng nhập được."
-- slug: t24-vulnerable-adj
-  lemma: vulnerable
-  pos: adjective
-  cefr: C1
-  topic: equality
-  ipa: /ˈvʌlnərəbl/
-  def: Easily harmed or affected by something bad.
-  vi: dễ bị tổn thương
-  examples:
-    - en: Highlight schools and hospitals in vulnerable areas.
-      vi: Làm nổi bật trường học và bệnh viện ở các vùng dễ bị tổn thương.
-- slug: t24-exposure-n
-  lemma: exposure
-  pos: noun
-  cefr: C1
-  topic: equality
-  ipa: /ɪkˈspəʊʒə/
-  def: Being in a situation where harm or unwanted effects are possible.
-  vi: sự phơi lộ trước rủi ro
-  examples:
-    - en: Public profile settings can increase exposure to harassment.
-- slug: t24-risk-factor-n
-  lemma: risk factor
-  pos: noun
-  kind: collocation
-  cefr: C1
-  topic: equality
-  ipa: /ˈrɪsk ˌfæktə/
-  def: Something that makes it more likely that you will get a disease.
-  vi: yếu tố nguy cơ
-  forms:
-    - risk factors
-  examples:
-    - en: Sitting for long hours is a risk factor for many diseases.
-      vi: Ngồi nhiều giờ liền là yếu tố nguy cơ của nhiều bệnh.
-- lemma: potential harm
-  pos: noun
-  vi: tác hại có thể xảy ra
-  def: Damage or negative effects that might occur.
-  examples:
-    - en: Consider potential harm before enabling automated account bans.
-  slug: t24-potential-harm-n
-  topic: equality
-  cefr: B2
-  kind: collocation
-- slug: t24-safeguard-n
-  lemma: safeguard
-  pos: noun
-  cefr: C1
-  topic: equality
-  ipa: /ˈseɪfɡɑːd/
-  def: Something that protects against harm.
-  vi: biện pháp bảo vệ
-  examples:
-    - en: We added a safeguard that blocks public buckets.
-      vi: Chúng tôi thêm một biện pháp bảo vệ chặn bucket công khai.
-- slug: t24-mitigation-n
-  lemma: mitigation
-  pos: noun
-  cefr: C1
-  topic: equality
-  ipa: /ˌmɪtɪˈɡeɪʃn/
-  def: An action that makes a risk less serious.
-  vi: biện pháp giảm thiểu
-  examples:
-    - en: As a mitigation, we will monitor the endpoint every hour.
-      vi: Để giảm thiểu rủi ro, nhóm sẽ theo dõi endpoint mỗi giờ.
-- slug: t24-risk-assessment-n
-  lemma: risk assessment
-  pos: noun
-  kind: collocation
-  cefr: B2
-  topic: equality
-  ipa: /ˈrɪsk əˌsesmənt/
-  def: A study of what could go wrong and how serious it would be.
-  vi: đánh giá rủi ro
-  examples:
-    - en: Fill in a risk assessment before using a new AI service.
-      vi: Hãy làm đánh giá rủi ro trước khi dùng một dịch vụ AI mới.
-- slug: t24-foresee-v
-  lemma: foresee
-  pos: verb
-  cefr: C1
-  topic: equality
-  ipa: /fɔːˈsiː/
-  def: To know that something will happen before it does.
-  vi: lường trước
-  examples:
-    - en: Nobody foresaw how many teams would ask for exceptions.
-      vi: Không ai lường trước được bao nhiêu nhóm sẽ xin ngoại lệ.
-- slug: t24-scenario-n
-  lemma: scenario
-  pos: noun
-  cefr: B2
-  topic: equality
-  ipa: /səˈnɑːriəʊ/
-  def: A possible situation or series of events in the future.
-  vi: kịch bản
-  examples:
-    - en: Let users compare a low and a high emissions scenario.
-      vi: Cho người dùng so sánh kịch bản phát thải thấp và cao.
-- slug: t24-worst-case-adj
-  lemma: worst-case
-  pos: adjective
-  cefr: B2
-  topic: equality
-  ipa: /ˌwɜːst ˈkeɪs/
-  def: Describing the most serious result that could possibly happen.
-  vi: xấu nhất
-  examples:
-    - en: Label the worst-case line so nobody reads it as the forecast.
-      vi: Gắn nhãn đường xấu nhất để không ai hiểu nhầm đó là dự báo.
-- slug: t24-oversight-n
-  lemma: oversight
-  pos: noun
-  cefr: C1
-  topic: equality
-  ipa: /ˈəʊvəsaɪt/
-  def: A mistake made because you did not notice something.
-  vi: sơ suất
-  examples:
-    - en: Skipping the review was an oversight.
-      vi: Bỏ qua review là một sơ suất.
-- slug: t24-blind-spot-n
-  lemma: blind spot
-  pos: noun
-  kind: collocation
-  cefr: B2
-  topic: equality
-  ipa: /ˈblaɪnd spɒt/
-  def: A weakness that you cannot see in yourself.
-  vi: điểm mù
-  examples:
-    - en: Feedback from peers helps me find my blind spots.
-      vi: Góp ý từ đồng nghiệp giúp mình tìm ra điểm mù của bản thân.
-- slug: t24-assumption-n
-  lemma: assumption
-  pos: noun
-  cefr: B2
-  topic: equality
-  ipa: /əˈsʌmpʃn/
-  def: Something you believe is true but have not proved.
-  vi: giả định
-  examples:
-    - en: List your assumptions so others can check them.
-      vi: Liệt kê các giả định để người khác kiểm tra.
-- slug: t24-misinterpret-v
-  lemma: misinterpret
-  pos: verb
-  cefr: C1
-  topic: equality
-  ipa: /ˌmɪsɪnˈtɜːprɪt/
-  def: To understand someone's words or actions in the wrong way.
-  vi: hiểu sai
-  examples:
-    - en: I misinterpreted your comment as criticism.
-      vi: Mình đã hiểu sai bình luận của bạn là chỉ trích.
-- slug: t24-stigma-n
-  lemma: stigma
-  pos: noun
-  cefr: C1
-  topic: equality
-  ipa: /ˈstɪɡmə/
-  def: Strong negative feelings in society about a thing, which make people
-    ashamed of it.
-  vi: sự kỳ thị, định kiến
-  examples:
-    - en: There is still a stigma around asking for mental health days.
-      vi: Vẫn còn định kiến về việc xin nghỉ để chăm sóc sức khoẻ tinh thần.
-- slug: t24-harassment-n
-  lemma: harassment
-  pos: noun
-  cefr: C1
-  topic: equality
-  ipa: /ˈhærəsmənt/
-  def: Repeated behaviour that upsets or threatens someone.
-  vi: sự quấy rối
-  examples:
-    - en: Report any harassment to HR, even from a client.
-      vi: Báo cho phòng nhân sự mọi hành vi quấy rối, kể cả từ khách hàng.
-- slug: t24-surveillance-n
-  lemma: surveillance
-  pos: noun
-  cefr: C1
-  topic: equality
-  ipa: /səˈveɪləns/
-  def: Watching people closely, often with cameras or by collecting their data.
-  vi: sự giám sát
-  forms:
-    - surveillance camera
-    - under surveillance
-  examples:
-    - en: Some people worry that smart cameras will lead to more surveillance.
-      vi: Một số người lo ngại camera thông minh sẽ dẫn tới giám sát nhiều hơn.
-- slug: t24-digital-divide-n
-  lemma: digital divide
-  pos: noun
-  kind: collocation
-  cefr: C1
-  topic: equality
-  ipa: /ˌdɪdʒɪtl dɪˈvaɪd/
-  def: The gap between people who have good access to technology and people who do
-    not.
-  vi: khoảng cách số
-  examples:
-    - en: Cheap phones have helped to close the digital divide in rural areas.
-      vi: Điện thoại giá rẻ đã góp phần thu hẹp khoảng cách số ở vùng nông thôn.
-- slug: t24-information-overload-n
-  lemma: information overload
-  pos: noun
-  kind: collocation
-  cefr: C1
-  topic: equality
-  ipa: /ˌɪnfəˈmeɪʃn ˌəʊvələʊd/
-  def: Having so much information that you cannot think clearly or decide.
-  vi: quá tải thông tin
-  examples:
-    - en: Fifty open tabs is a clear sign of information overload.
-      vi: Năm mươi tab đang mở là dấu hiệu rõ ràng của quá tải thông tin.
-- slug: t24-pilot-n
-  lemma: pilot
-  pos: noun
-  cefr: B2
-  topic: equality
-  ipa: /ˈpaɪlət/
-  def: A small test of a new idea before using it everywhere.
-  vi: thí điểm
-  examples:
-    - en: Let's run a pilot with one team for a month.
-      vi: Hãy chạy thí điểm với một nhóm trong một tháng.
-- slug: t24-beta-tester-n
-  lemma: beta tester
-  pos: noun
-  kind: collocation
-  cefr: B2
-  topic: equality
-  ipa: /ˈbiːtə ˌtestə/
-  def: A person who tries a product before it is finished and reports problems.
-  vi: người dùng thử bản beta
-  examples:
-    - en: I'm looking for ten beta testers from the meetup.
-      vi: Mình đang tìm mười người dùng thử bản beta từ buổi meetup.
-- slug: t24-early-adopter-n
-  lemma: early adopter
-  pos: noun
-  kind: collocation
-  cefr: C1
-  topic: equality
-  ipa: /ˌɜːli əˈdɒptə/
-  def: A person who starts using a new product or technology before most other
-    people.
-  vi: người dùng tiên phong
-  forms:
-    - early adopters
-  examples:
-    - en: As an early adopter, he had an electric car before anyone on our street.
-      vi: Là người dùng tiên phong, anh ấy có xe điện trước cả con phố.
-- slug: t24-roll-out-pv
-  lemma: roll out
-  pos: phrasal_verb
-  kind: phrasal
-  cefr: B2
-  topic: equality
-  ipa: /rəʊl ˈaʊt/
-  def: To introduce something new to people step by step.
-  vi: triển khai dần
-  examples:
-    - en: We'll roll out the new rule to all teams in March.
-      vi: Nhóm sẽ triển khai quy tắc mới cho tất cả các nhóm vào tháng Ba.
-- slug: t24-feature-flag-n
-  lemma: feature flag
-  pos: noun
-  kind: collocation
-  cefr: B2
-  topic: equality
-  ipa: /ˈfiːtʃə flæɡ/
-  def: A setting that turns a feature on or off without a new deploy.
-  vi: cờ tính năng
-  examples:
-    - en: Turn off the feature flag for half of the servers.
-      vi: Tắt cờ tính năng trên một nửa số server.
-- slug: t24-kill-switch-n
-  lemma: kill switch
-  pos: noun
-  kind: collocation
-  cefr: C1
-  topic: equality
-  ipa: /ˈkɪl swɪtʃ/
-  def: A setting that turns a feature off quickly in an emergency.
-  vi: công tắc tắt khẩn cấp
-  examples:
-    - en: We added a kill switch in case the new format fails.
-      vi: Chúng tôi thêm công tắc tắt khẩn cấp phòng khi định dạng mới bị lỗi.
-- slug: t24-rollback-n
-  lemma: rollback
-  pos: noun
-  cefr: C1
-  topic: equality
-  ipa: /ˈrəʊlbæk/
-  def: A return to an earlier version after a problem.
-  vi: khôi phục về bản trước
-  examples:
-    - en: If errors rise, we will do a rollback.
-      vi: Nếu lỗi tăng, chúng tôi sẽ khôi phục về bản trước.
-- slug: t24-incremental-adj
-  lemma: incremental
-  pos: adjective
-  cefr: C1
-  topic: equality
-  ipa: /ˌɪŋkrəˈmentl/
-  def: Happening in small steps over time.
-  vi: từng bước, tăng dần
-  examples:
-    - en: An incremental switch is safer than one big release.
-      vi: Chuyển đổi từng bước an toàn hơn một lần phát hành lớn.
-- slug: t24-traffic-split-n
-  lemma: traffic split
-  pos: noun
-  kind: collocation
-  cefr: C1
-  topic: equality
-  ipa: /ˈtræfɪk splɪt/
-  def: How users are divided between versions, such as 50/50.
-  vi: tỉ lệ chia lưu lượng
-  examples:
-    - en: We used a 90/10 traffic split to limit risk.
-      vi: Bọn mình chia lưu lượng 90/10 để hạn chế rủi ro.
-- slug: t24-holdout-n
-  lemma: holdout
-  pos: noun
-  cefr: C1
-  topic: equality
-  ipa: /ˈhəʊldaʊt/
-  def: A group of users kept on the old version for comparison.
-  vi: nhóm giữ lại để đối chứng
-  examples:
-    - en: The holdout still sees the old button.
-      vi: Nhóm đối chứng vẫn thấy nút cũ.
-- slug: t24-guardrail-metric-n
-  lemma: guardrail metric
-  pos: noun
-  kind: collocation
-  cefr: C1
-  topic: equality
-  ipa: /ˈɡɑːdreɪl ˈmetrɪk/
-  def: A metric you watch to make sure a test does not cause harm.
-  vi: chỉ số bảo vệ
-  examples:
-    - en: Error rate is our guardrail metric for this test.
-      vi: Tỉ lệ lỗi là chỉ số bảo vệ cho thử nghiệm này.
-- slug: t24-threshold-n
-  lemma: threshold
-  pos: noun
-  cefr: B2
-  topic: equality
-  ipa: /ˈθreʃhəʊld/
-  def: A level at which something starts to happen.
-  vi: ngưỡng
-  examples:
-    - en: The tile turns red above the threshold.
-      vi: Ô chuyển sang đỏ khi vượt ngưỡng.
-- slug: t24-alert-n
-  lemma: alert
-  pos: noun
-  cefr: B1
-  topic: equality
-  ipa: /əˈlɜːt/
-  def: An automatic message that warns about a problem.
-  vi: cảnh báo tự động
-  examples:
-    - en: We added an alert for logins from new countries.
-      vi: Chúng tôi thêm cảnh báo tự động cho đăng nhập từ quốc gia mới.
-- slug: t24-monitoring-n
-  lemma: monitoring
-  pos: noun
-  cefr: B2
-  topic: equality
-  ipa: /ˈmɒnɪtərɪŋ/
-  def: Watching a system all the time to notice problems.
-  vi: giám sát
-  examples:
-    - en: Better monitoring would have caught this in minutes.
-      vi: Giám sát tốt hơn đã có thể phát hiện việc này trong vài phút.
-- slug: t24-notify-v
-  lemma: notify
-  pos: verb
-  cefr: B2
-  topic: equality
-  ipa: /ˈnəʊtɪfaɪ/
-  def: To formally tell someone about something.
-  vi: thông báo
-  examples:
-    - en: We must notify affected customers within 72 hours.
-      vi: Chúng ta phải thông báo cho khách hàng bị ảnh hưởng trong vòng 72 giờ.
-- slug: t24-severity-n
-  lemma: severity
-  pos: noun
-  cefr: B2
-  topic: equality
-  ipa: /sɪˈverəti/
-  def: How serious or bad a problem is.
-  vi: mức độ nghiêm trọng
-  examples:
-    - en: We rated the severity as high because no login is needed.
-      vi: Chúng tôi đánh giá mức độ nghiêm trọng là cao vì không cần đăng nhập.
-- slug: t24-incident-n
-  lemma: incident
-  pos: noun
-  cefr: B1
-  topic: equality
-  ipa: /ˈɪnsɪdənt/
-  def: An event, especially a problem, that needs a response.
-  vi: sự cố
-  examples:
-    - en: We opened a security incident at 9:40.
-      vi: Chúng tôi đã mở một sự cố bảo mật lúc 9:40.
-- slug: t24-escalate-v
-  lemma: escalate
-  pos: verb
-  cefr: B2
-  topic: equality
-  ipa: /ˈeskəleɪt/
-  def: To pass a problem to someone with more authority.
-  vi: chuyển cấp
-  examples:
-    - en: If it isn't contained in an hour, escalate to the CISO.
-      vi: Nếu không kiểm soát được trong một giờ, hãy chuyển lên CISO.
-- slug: t24-runbook-n
-  lemma: runbook
-  pos: noun
-  cefr: C1
-  topic: equality
-  ipa: /ˈrʌnbʊk/
-  def: A written guide for doing routine or emergency tasks on a system.
-  vi: sổ tay vận hành
-  examples:
-    - en: Follow the runbook if the queue gets stuck.
-      vi: Làm theo sổ tay vận hành nếu hàng đợi bị kẹt.
-- slug: t24-owner-n
-  lemma: owner
-  pos: noun
-  cefr: A2
-  topic: equality
-  ipa: /ˈəʊnə/
-  def: The person responsible for a task or system.
-  vi: người phụ trách
-  examples:
-    - en: Who is the owner of this incident?
-      vi: Ai là người phụ trách sự cố này?
-- slug: t24-responsibility-n
-  lemma: responsibility
-  pos: noun
-  cefr: B1
-  topic: equality
-  ipa: /rɪˌspɒnsəˈbɪləti/
-  def: A task or duty that is yours to do.
-  vi: trách nhiệm
-  examples:
-    - en: Release notes are now my responsibility.
-      vi: Ghi chú phát hành giờ là trách nhiệm của mình.
-- slug: t24-on-call-adj
-  lemma: on-call
-  pos: adjective
-  cefr: B2
-  topic: equality
-  ipa: /ˌɒn ˈkɔːl/
-  def: Ready to be contacted and fix urgent problems outside normal hours.
-  vi: trực sự cố
-  examples:
-    - en: Tuan is on-call during the holiday weekend.
-      vi: Tuấn trực sự cố trong cuối tuần nghỉ lễ.
-- slug: t24-coverage-n
-  lemma: coverage
-  pos: noun
-  cefr: B2
-  topic: equality
-  ipa: /ˈkʌvərɪdʒ/
-  def: Having enough people to handle work at all needed times.
-  vi: sự bao phủ (nhân lực)
-  examples:
-    - en: We need on-call coverage during the holiday week.
-      vi: Mình cần đủ người trực trong tuần lễ.
-- slug: t24-contingency-n
-  lemma: contingency
-  pos: noun
-  cefr: C1
-  topic: equality
-  ipa: /kənˈtɪndʒənsi/
-  def: A plan for something bad that might happen.
-  vi: phương án dự phòng
-  examples:
-    - en: Our contingency is to keep Huy on call for two weeks.
-      vi: Phương án dự phòng là giữ Huy trực thêm hai tuần.
-- slug: t24-readiness-n
-  lemma: readiness
-  pos: noun
-  cefr: C1
-  topic: equality
-  ipa: /ˈredinəs/
-  def: The state of being prepared.
-  vi: mức độ sẵn sàng
-  examples:
-    - en: We'll check team readiness a week before cutover.
-      vi: Mình sẽ kiểm tra mức độ sẵn sàng của nhóm một tuần trước khi chuyển.
-- slug: t24-feedback-n
-  lemma: feedback
-  pos: noun
-  cefr: B1
-  topic: equality
-  ipa: /ˈfiːdbæk/
-  def: Comments about how well someone did something, given so they can improve.
-  vi: phản hồi, góp ý
-  examples:
-    - en: Could you give me feedback on my design doc?
-      vi: Anh cho em góp ý về tài liệu thiết kế được không?
-- slug: t24-complaint-n
-  lemma: complaint
-  pos: noun
-  cefr: B1
-  topic: equality
-  ipa: /kəmˈpleɪnt/
-  def: A statement that something is wrong or not good enough.
-  vi: khiếu nại
-  examples:
-    - en: I filed a complaint in the app with photos.
-      vi: Mình gửi khiếu nại trong app kèm ảnh.
-- slug: t24-report-v
-  lemma: report
-  pos: verb
-  cefr: A2
-  topic: equality
-  ipa: /rɪˈpɔːt/
-  def: To tell someone in charge that something has happened.
-  vi: báo cáo
-  examples:
-    - en: Report the email to the security channel and don't click the link.
-      vi: Hãy báo email đó lên kênh bảo mật và đừng bấm vào link.
-- lemma: inclusive design
-  pos: noun
-  vi: thiết kế tính đến nhiều nhóm người dùng
-  def: Design that considers a broad range of abilities and circumstances.
-  examples:
-    - en: Inclusive design starts by asking who the product excludes.
-  slug: t24-inclusive-design-n
-  topic: equality
-  cefr: B2
-  kind: collocation
-- lemma: user research
-  pos: noun
-  vi: nghiên cứu người dùng
-  def: Studying people's needs, behaviours and experiences.
-  examples:
-    - en: User research helps us identify barriers before implementation.
-  slug: t24-user-research-n
-  topic: equality
-  cefr: B2
-  kind: collocation
-- lemma: usability test
-  pos: noun
-  vi: buổi kiểm tra khả năng sử dụng
-  def: An observation of people completing tasks with a product.
-  examples:
-    - en: Run a usability test before releasing the new navigation.
-  slug: t24-usability-test-n
-  topic: equality
-  cefr: B2
-  kind: collocation
-- slug: t24-acceptance-criteria-n
-  lemma: acceptance criteria
-  pos: noun
-  kind: collocation
-  cefr: B2
-  topic: equality
-  ipa: /əkˈseptəns kraɪˌtɪəriə/
-  def: The conditions a feature must meet to be accepted as done.
-  vi: tiêu chí chấp nhận
-  examples:
-    - en: Can you share the acceptance criteria for the export feature?
-      vi: Bạn gửi giúp tiêu chí chấp nhận cho tính năng xuất file được không?
-- slug: t24-definition-of-done-n
-  lemma: definition of done
-  pos: noun
-  kind: phrase
-  cefr: C1
-  topic: equality
-  ipa: /ˌdefɪˈnɪʃn əv ˈdʌn/
-  def: A shared list of checks that work must pass before it counts as finished.
-  vi: định nghĩa hoàn thành
-  examples:
-    - en: Our definition of done includes testing with missing data.
-      vi: Định nghĩa hoàn thành của bọn mình gồm cả việc test với dữ liệu thiếu.
-- slug: t24-evidence-n
-  lemma: evidence
-  pos: noun
-  cefr: B2
-  topic: equality
-  ipa: /ˈevɪdəns/
-  def: Information used to show what really happened.
-  vi: bằng chứng
-  examples:
-    - en: Don't reboot the server; we need it as evidence.
-      vi: Đừng khởi động lại máy chủ; chúng ta cần nó làm bằng chứng.
-- slug: t24-observation-n
-  lemma: observation
-  pos: noun
-  cefr: B2
-  topic: equality
-  ipa: /ˌɒbzəˈveɪʃn/
-  def: A fact you noticed by watching carefully.
-  vi: điều quan sát được
-  examples:
-    - en: My observation is that the stand-ups often run over time.
-      vi: Mình quan sát thấy các buổi stand-up thường bị quá giờ.
-- lemma: finding
-  pos: noun
-  vi: phát hiện qua nghiên cứu
-  def: A result established through investigation or study.
-  examples:
-    - en: The main finding is that users miss the confirmation button.
-  slug: t24-finding-n
-  topic: equality
-  cefr: B2
-- slug: t24-insight-n
-  lemma: insight
-  pos: noun
-  cefr: C1
-  topic: equality
-  ipa: /ˈɪnsaɪt/
-  def: A clear, deep understanding of something.
-  vi: hiểu biết sâu sắc
-  examples:
-    - en: The post gives real insight into how the queue works.
-      vi: Bài viết mang lại hiểu biết sâu về cách hàng đợi vận hành.
-- slug: t24-compare-v
-  lemma: compare
-  pos: verb
-  cefr: A2
-  topic: equality
-  ipa: /kəmˈpeə/
-  def: To look at how two things are the same or different.
-  vi: so sánh
-  examples:
-    - en: Compare the two answers and test both.
-      vi: So sánh hai câu trả lời và thử cả hai.
-- slug: t24-alternative-n
-  lemma: alternative
-  pos: noun
-  cefr: B2
-  topic: equality
-  ipa: /ɔːlˈtɜːnətɪv/
-  def: Another possible choice.
-  vi: phương án thay thế
-  examples:
-    - en: We considered Kafka as an alternative but chose SQS.
-      vi: Nhóm đã cân nhắc Kafka làm phương án thay thế nhưng chọn SQS.
-- slug: t24-option-n
-  lemma: option
-  pos: noun
-  cefr: A2
-  topic: equality
-  ipa: /ˈɒpʃn/
-  def: One of the things you can choose.
-  vi: lựa chọn
-  examples:
-    - en: Option B is cheaper but slower to set up.
-      vi: Lựa chọn B rẻ hơn nhưng cài đặt lâu hơn.
-- slug: t24-benefit-n
-  lemma: benefit
-  pos: noun
-  cefr: B1
-  topic: equality
-  ipa: /ˈbenɪfɪt/
-  def: A good result or advantage.
-  vi: lợi ích
-  examples:
-    - en: The main benefit is that juniors can deploy alone.
-      vi: Lợi ích chính là các bạn junior tự deploy được.
-- slug: t24-drawback-n
-  lemma: drawback
-  pos: noun
-  cefr: B2
-  topic: equality
-  ipa: /ˈdrɔːbæk/
-  def: A disadvantage or problem.
-  vi: nhược điểm
-  examples:
-    - en: The main drawback is that we lose strong typing.
-      vi: Nhược điểm chính là mất kiểu dữ liệu chặt chẽ.
-- slug: t24-trade-off-n
-  lemma: trade-off
-  pos: noun
-  kind: collocation
-  cefr: C1
-  topic: equality
-  ipa: /ˈtreɪd ɒf/
-  def: Accepting something bad in order to get something good.
-  vi: sự đánh đổi
-  examples:
-    - en: The trade-off is that I'll miss the Friday demo.
-      vi: Đổi lại là mình sẽ lỡ buổi demo thứ Sáu.
-- slug: t24-priority-n
-  lemma: priority
-  pos: noun
-  cefr: B1
-  topic: equality
-  ipa: /praɪˈɒrəti/
-  def: Something that is more important than other things.
-  vi: ưu tiên
-  examples:
-    - en: Our first priority is to protect customer data.
-      vi: Ưu tiên đầu tiên của chúng ta là bảo vệ dữ liệu khách hàng.
-- lemma: effort
-  pos: noun
-  vi: công sức cần bỏ ra
-  def: The work or energy needed to complete a task.
-  examples:
-    - en: Estimate the effort before promising a release date.
-  slug: t24-effort-n
-  topic: equality
-  cefr: B2
-- slug: t24-cost-n
-  lemma: cost
-  pos: noun
-  cefr: A2
-  topic: equality
-  ipa: /kɒst/
-  def: The money, time or effort needed for something.
-  vi: chi phí
-  examples:
-    - en: The cost is about two hours of setup per team.
-      vi: Chi phí khoảng hai giờ cài đặt cho mỗi nhóm.
-- slug: t24-budget-n
-  lemma: budget
-  pos: noun
-  cefr: B1
-  topic: equality
-  ipa: /ˈbʌdʒɪt/
-  def: A planned limit on how much can be used.
-  vi: ngân sách
-  examples:
-    - en: We set a carbon budget for each team.
-      vi: Bọn mình đặt ngân sách các-bon cho mỗi nhóm.
-- slug: t24-timeline-n
-  lemma: timeline
-  pos: noun
-  cefr: B2
-  topic: equality
-  ipa: /ˈtaɪmlaɪn/
-  def: A list of events in the order they happened.
-  vi: dòng thời gian
-  examples:
-    - en: Add each action to the timeline with the exact time.
-      vi: Hãy thêm từng hành động vào dòng thời gian với thời điểm chính xác.
-- slug: t24-milestone-n
-  lemma: milestone
-  pos: noun
-  cefr: B2
-  topic: equality
-  ipa: /ˈmaɪlstəʊn/
-  def: An important point in a project's progress.
-  vi: cột mốc
-  examples:
-    - en: The first milestone is a working energy report.
-      vi: Cột mốc đầu tiên là một báo cáo năng lượng chạy được.
-- slug: t24-stakeholder-n
-  lemma: stakeholder
-  pos: noun
-  cefr: B2
-  topic: equality
-  ipa: /ˈsteɪkhəʊldə/
-  def: A person who is affected by or interested in a project.
-  vi: bên liên quan
-  examples:
-    - en: Send a short summary to stakeholders, without technical secrets.
-      vi: Gửi bản tóm tắt ngắn cho các bên liên quan, không kèm bí mật kỹ thuật.
-- slug: t24-reviewer-n
-  lemma: reviewer
-  pos: noun
-  cefr: B1
-  topic: equality
-  ipa: /rɪˈvjuːə/
-  def: A person who checks someone else's work and gives feedback.
-  vi: người review
-  examples:
-    - en: The reviewer left three comments on the migration file.
-      vi: Người review để lại ba bình luận trong file migration.
-- slug: t24-consult-v
-  lemma: consult
-  pos: verb
-  cefr: B2
-  topic: equality
-  ipa: /kənˈsʌlt/
-  def: To ask someone for their opinion before you decide.
-  vi: tham vấn, hỏi ý kiến
-  examples:
-    - en: Please consult the platform team before you change the base image.
-      vi: Hãy hỏi ý kiến nhóm platform trước khi đổi base image.
-- slug: t24-inform-v
-  lemma: inform
-  pos: verb
-  cefr: B1
-  topic: equality
-  ipa: /ɪnˈfɔːm/
-  def: To tell someone about something officially.
-  vi: thông báo
-  examples:
-    - en: We inform support whenever an API changes.
-      vi: Nhóm thông báo cho bộ phận hỗ trợ mỗi khi API thay đổi.
-- slug: t24-accountable-adj
-  lemma: accountable
-  pos: adjective
-  cefr: C1
-  topic: equality
-  ipa: /əˈkaʊntəbl/
-  def: Responsible for something and expected to explain it.
-  vi: chịu trách nhiệm
-  examples:
-    - en: Each team is accountable for its own secrets.
-      vi: Mỗi nhóm chịu trách nhiệm về secret của mình.
-- slug: t24-take-ownership-phr
-  lemma: take ownership
-  pos: phrase
-  kind: phrase
-  cefr: B2
-  topic: equality
-  ipa: /teɪk ˈəʊnəʃɪp/
-  def: To accept that a task or problem is yours to solve.
-  vi: nhận trách nhiệm
-  examples:
-    - en: I'll take ownership of the flaky tests this sprint.
-      vi: Sprint này mình sẽ nhận trách nhiệm xử lý các test chập chờn.
-- slug: t24-action-item-n
-  lemma: action item
-  pos: noun
-  kind: collocation
-  cefr: B1
-  topic: equality
-  ipa: /ˈækʃn ˌaɪtəm/
-  def: A task that someone must do after a meeting.
-  vi: việc cần làm
-  examples:
-    - en: Each action item needs an owner and a due date.
-      vi: Mỗi việc cần làm cần có người phụ trách và hạn chót.
-- slug: t24-follow-up-n
-  lemma: follow-up
-  pos: noun
-  cefr: B2
-  topic: equality
-  ipa: /ˈfɒləʊ ʌp/
-  def: An action done after something to continue or check it.
-  vi: việc theo dõi tiếp
-  examples:
-    - en: Create a follow-up ticket to remove the old flag.
-      vi: Hãy tạo ticket theo dõi tiếp để gỡ flag cũ.
-- slug: t24-review-date-n
-  lemma: review date
-  pos: noun
-  kind: collocation
-  cefr: B1
-  topic: equality
-  ipa: /rɪˈvjuː deɪt/
-  def: A planned date to check a decision again.
-  vi: ngày xem xét lại
-  examples:
-    - en: Set a review date three months from now.
-      vi: Hãy đặt ngày xem xét lại sau ba tháng nữa.
-- slug: t24-data-driven-adj
-  lemma: data-driven
-  pos: adjective
-  cefr: C1
-  topic: equality
-  ipa: /ˌdeɪtə ˈdrɪvn/
-  def: Based on facts and numbers rather than opinions.
-  vi: dựa trên dữ liệu
-  examples:
-    - en: Let's keep this review data-driven, not based on feelings.
-      vi: Hãy để buổi xem lại này dựa trên dữ liệu, không theo cảm tính.
-- slug: t24-corroborate-v
-  lemma: corroborate
-  pos: verb
-  cefr: C1
-  topic: equality
-  ipa: /kəˈrɒbəreɪt/
-  def: To support an idea with new facts.
-  vi: củng cố, xác thực thêm
-  examples:
-    - en: User interviews corroborate what the dashboard shows.
-      vi: Các buổi phỏng vấn người dùng củng cố điều dashboard cho thấy.
-- slug: t24-substantiate-v
-  lemma: substantiate
-  pos: verb
-  cefr: C1
-  topic: equality
-  ipa: /səbˈstænʃieɪt/
-  def: To show with facts that something is true.
-  vi: chứng minh, minh chứng
-  examples:
-    - en: Substantiate the claim with test results.
-      vi: Hãy chứng minh nhận định bằng kết quả kiểm thử.
-- slug: t24-inconclusive-adj
-  lemma: inconclusive
-  pos: adjective
-  cefr: C1
-  topic: equality
-  ipa: /ˌɪnkənˈkluːsɪv/
-  def: Not giving a clear answer.
-  vi: chưa đi đến kết luận
-  examples:
-    - en: The results are inconclusive, so we'll run it longer.
-      vi: Kết quả chưa rõ ràng nên ta sẽ chạy lâu hơn.
-- slug: t24-recommendation-n
-  lemma: recommendation
-  pos: noun
-  cefr: B2
-  topic: equality
-  ipa: /ˌrekəmenˈdeɪʃn/
-  def: A suggestion from an app about what you might want to watch, read or buy.
-  vi: gợi ý, đề xuất
-  forms:
-    - recommendations
-    - recommend
-    - recommended
-  examples:
-    - en: The film recommendations on this app are always spot on.
-      vi: Phim gợi ý trên ứng dụng này lúc nào cũng trúng gu.
-- slug: t24-decision-record-n
-  lemma: decision record
-  pos: noun
-  kind: collocation
-  cefr: B2
-  topic: equality
-  ipa: /dɪˈsɪʒn ˈrekɔːd/
-  def: A short document that explains a decision and why it was made.
-  vi: bản ghi quyết định
-  examples:
-    - en: Link the decision record in the README so new people find it.
-      vi: Hãy dẫn link bản ghi quyết định trong README để người mới tìm thấy.
+# Vocabulary by topic: Inclusive Products & Responsible Engineering (unit T24). Original content.
+# Set 1: Different user needs
+- {
+    slug: older-adult-n,
+    lemma: "older adult",
+    pos: noun,
+    kind: collocation,
+    cefr: A2,
+    topic: equality,
+    ipa: "/\u02cc\u0259\u028ald\u0259r \u02c8\u00e6d\u028clt/",
+    def: "A person who is no longer young, usually over sixty-five.",
+    vi: "ng\u01b0\u1eddi cao tu\u1ed5i",
+    examples:
+      [
+        {
+          en: "Many older adults use our banking app on a tablet.",
+          vi: "Nhi\u1ec1u ng\u01b0\u1eddi cao tu\u1ed5i d\u00f9ng app ng\u00e2n h\u00e0ng c\u1ee7a m\u00ecnh tr\u00ean m\u00e1y t\u00ednh b\u1ea3ng.",
+        },
+      ],
+  }
+- {
+    slug: impairment-n,
+    lemma: "impairment",
+    pos: noun,
+    cefr: B1,
+    topic: equality,
+    ipa: "/\u026am\u02c8pe\u0259m\u0259nt/",
+    def: "A condition that makes part of the body or mind work less well.",
+    vi: "s\u1ef1 suy gi\u1ea3m (ch\u1ee9c n\u0103ng)",
+    examples:
+      [
+        {
+          en: "Users with a visual impairment cannot see the small grey icons.",
+          vi: "Ng\u01b0\u1eddi d\u00f9ng suy gi\u1ea3m th\u1ecb l\u1ef1c kh\u00f4ng th\u1ea5y \u0111\u01b0\u1ee3c c\u00e1c icon x\u00e1m nh\u1ecf.",
+        },
+      ],
+  }
+- {
+    slug: caregiver-n,
+    lemma: "caregiver",
+    pos: noun,
+    cefr: B1,
+    topic: equality,
+    ipa: "/\u02c8ke\u0259\u0261\u026av\u0259/",
+    def: "A person who looks after someone who is ill, old or disabled.",
+    vi: "ng\u01b0\u1eddi ch\u0103m s\u00f3c",
+    examples:
+      [
+        {
+          en: "A caregiver often books doctor visits for a parent in our app.",
+          vi: "Ng\u01b0\u1eddi ch\u0103m s\u00f3c th\u01b0\u1eddng \u0111\u1eb7t l\u1ecbch kh\u00e1m cho b\u1ed1 m\u1eb9 trong app c\u1ee7a m\u00ecnh.",
+        },
+      ],
+  }
+- {
+    slug: left-handed-adj,
+    lemma: "left-handed",
+    pos: adjective,
+    cefr: A2,
+    topic: equality,
+    ipa: "/\u02ccleft \u02c8h\u00e6nd\u026ad/",
+    def: "Using your left hand more easily than your right hand.",
+    vi: "thu\u1eadn tay tr\u00e1i",
+    examples:
+      [
+        {
+          en: "The swipe button is hard to reach for left-handed users.",
+          vi: "N\u00fat vu\u1ed1t kh\u00f3 v\u1edbi t\u1edbi v\u1edbi ng\u01b0\u1eddi d\u00f9ng thu\u1eadn tay tr\u00e1i.",
+        },
+      ],
+  }
+- {
+    slug: eyesight-n,
+    lemma: "eyesight",
+    pos: noun,
+    cefr: A2,
+    topic: equality,
+    ipa: "/\u02c8a\u026asa\u026at/",
+    def: "Your ability to see.",
+    vi: "th\u1ecb l\u1ef1c",
+    examples:
+      [
+        {
+          en: "My dad has poor eyesight, so he makes the text bigger.",
+          vi: "B\u1ed1 m\u00ecnh th\u1ecb l\u1ef1c k\u00e9m n\u00ean \u00f4ng ph\u00f3ng to ch\u1eef.",
+        },
+      ],
+  }
+- {
+    slug: hearing-n,
+    lemma: "hearing",
+    pos: noun,
+    cefr: A2,
+    topic: equality,
+    ipa: "/\u02c8h\u026a\u0259r\u026a\u014b/",
+    def: "Your ability to hear sounds.",
+    vi: "th\u00ednh gi\u00e1c",
+    examples:
+      [
+        {
+          en: "Don't use only a sound alert; some users have weak hearing.",
+          vi: "\u0110\u1eebng ch\u1ec9 d\u00f9ng \u00e2m b\u00e1o; m\u1ed9t s\u1ed1 ng\u01b0\u1eddi d\u00f9ng th\u00ednh gi\u00e1c y\u1ebfu.",
+        },
+      ],
+  }
+- {
+    slug: countryside-n,
+    lemma: "countryside",
+    pos: noun,
+    cefr: A2,
+    topic: equality,
+    ipa: "/\u02c8k\u028cntrisa\u026ad/",
+    def: "Land outside towns and cities, with fields and villages.",
+    vi: "v\u00f9ng n\u00f4ng th\u00f4n",
+    examples:
+      [
+        {
+          en: "Users in the countryside often share one phone in a family.",
+          vi: "Ng\u01b0\u1eddi d\u00f9ng \u1edf n\u00f4ng th\u00f4n th\u01b0\u1eddng d\u00f9ng chung m\u1ed9t \u0111i\u1ec7n tho\u1ea1i trong gia \u0111\u00ecnh.",
+        },
+      ],
+  }
+- {
+    slug: shift-worker-n,
+    lemma: "shift worker",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: equality,
+    ipa: "/\u02c8\u0283\u026aft \u02ccw\u025c\u02d0k\u0259/",
+    def: "A person whose working hours change, for example nights one week and days the next.",
+    vi: "ng\u01b0\u1eddi l\u00e0m theo ca",
+    examples:
+      [
+        {
+          en: "Shift workers need reminders that are not tied to office hours.",
+          vi: "Ng\u01b0\u1eddi l\u00e0m theo ca c\u1ea7n nh\u1eafc nh\u1edf kh\u00f4ng g\u1eafn v\u1edbi gi\u1edd h\u00e0nh ch\u00ednh.",
+        },
+      ],
+  }
+- {
+    slug: first-time-user-n,
+    lemma: "first-time user",
+    pos: noun,
+    kind: collocation,
+    cefr: A2,
+    topic: equality,
+    ipa: "/\u02ccf\u025c\u02d0st ta\u026am \u02c8ju\u02d0z\u0259/",
+    def: "Someone who is using a product for the very first time.",
+    vi: "ng\u01b0\u1eddi d\u00f9ng l\u1ea7n \u0111\u1ea7u",
+    examples:
+      [
+        {
+          en: "A first-time user doesn't know what this icon means.",
+          vi: "Ng\u01b0\u1eddi d\u00f9ng l\u1ea7n \u0111\u1ea7u kh\u00f4ng bi\u1ebft icon n\u00e0y ngh\u0129a l\u00e0 g\u00ec.",
+        },
+      ],
+  }
+- {
+    slug: unmet-adj,
+    lemma: "unmet",
+    pos: adjective,
+    cefr: B2,
+    topic: equality,
+    ipa: "/\u028cn\u02c8met/",
+    def: "Not yet satisfied or dealt with.",
+    vi: "ch\u01b0a \u0111\u01b0\u1ee3c \u0111\u00e1p \u1ee9ng",
+    examples:
+      [
+        {
+          en: "The survey shows an unmet need for offline receipts.",
+          vi: "Kh\u1ea3o s\u00e1t cho th\u1ea5y nhu c\u1ea7u xem ho\u00e1 \u0111\u01a1n offline ch\u01b0a \u0111\u01b0\u1ee3c \u0111\u00e1p \u1ee9ng.",
+        },
+      ],
+  }
+# Set 2: Accessibility barriers
+- {
+    slug: accessibility-n-t24,
+    lemma: "accessibility",
+    pos: noun,
+    cefr: B1,
+    topic: equality,
+    ipa: "/\u0259k\u02ccses\u0259\u02c8b\u026al\u0259ti/",
+    def: "How easy it is for everyone, including disabled people, to use something.",
+    vi: "kh\u1ea3 n\u0103ng ti\u1ebfp c\u1eadn",
+    examples:
+      [
+        {
+          en: "We check accessibility before every release.",
+          vi: "B\u1ecdn m\u00ecnh ki\u1ec3m tra kh\u1ea3 n\u0103ng ti\u1ebfp c\u1eadn tr\u01b0\u1edbc m\u1ed7i l\u1ea7n release.",
+        },
+      ],
+  }
+- {
+    slug: screen-reader-n-t24,
+    lemma: "screen reader",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: equality,
+    ipa: "/\u02c8skri\u02d0n \u02ccri\u02d0d\u0259/",
+    def: "Software that reads the text on a screen aloud for blind users.",
+    vi: "tr\u00ecnh \u0111\u1ecdc m\u00e0n h\u00ecnh",
+    examples:
+      [
+        {
+          en: "The screen reader says 'button' but not what the button does.",
+          vi: "Tr\u00ecnh \u0111\u1ecdc m\u00e0n h\u00ecnh \u0111\u1ecdc 'n\u00fat' nh\u01b0ng kh\u00f4ng n\u00f3i n\u00fat l\u00e0m g\u00ec.",
+        },
+      ],
+  }
+- {
+    slug: contrast-n-t24,
+    lemma: "contrast",
+    pos: noun,
+    cefr: B1,
+    topic: equality,
+    ipa: "/\u02c8k\u0252ntr\u0251\u02d0st/",
+    def: "The difference in brightness between text and its background.",
+    vi: "\u0111\u1ed9 t\u01b0\u01a1ng ph\u1ea3n",
+    examples:
+      [
+        {
+          en: "Light grey on white has too little contrast.",
+          vi: "Ch\u1eef x\u00e1m nh\u1ea1t tr\u00ean n\u1ec1n tr\u1eafng c\u00f3 \u0111\u1ed9 t\u01b0\u01a1ng ph\u1ea3n qu\u00e1 th\u1ea5p.",
+        },
+      ],
+  }
+- {
+    slug: keyboard-only-adj,
+    lemma: "keyboard-only",
+    pos: adjective,
+    kind: collocation,
+    cefr: B1,
+    topic: equality,
+    ipa: "/\u02ccki\u02d0b\u0254\u02d0d \u02c8\u0259\u028anli/",
+    def: "Using a computer with the keyboard and no mouse.",
+    vi: "ch\u1ec9 d\u00f9ng b\u00e0n ph\u00edm",
+    examples:
+      [
+        {
+          en: "Keyboard-only users cannot open this menu.",
+          vi: "Ng\u01b0\u1eddi ch\u1ec9 d\u00f9ng b\u00e0n ph\u00edm kh\u00f4ng m\u1edf \u0111\u01b0\u1ee3c menu n\u00e0y.",
+        },
+      ],
+  }
+- {
+    slug: sign-language-n,
+    lemma: "sign language",
+    pos: noun,
+    kind: collocation,
+    cefr: A2,
+    topic: equality,
+    ipa: "/\u02c8sa\u026an \u02ccl\u00e6\u014b\u0261w\u026ad\u0292/",
+    def: "A language that uses hand movements instead of spoken words.",
+    vi: "ng\u00f4n ng\u1eef k\u00fd hi\u1ec7u",
+    examples:
+      [
+        {
+          en: "The help videos should offer a sign language version.",
+          vi: "Video h\u01b0\u1edbng d\u1eabn n\u00ean c\u00f3 phi\u00ean b\u1ea3n ng\u00f4n ng\u1eef k\u00fd hi\u1ec7u.",
+        },
+      ],
+  }
+- {
+    slug: image-description-n-t24,
+    lemma: "image description",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: equality,
+    ipa: "/\u02c8\u026am\u026ad\u0292 d\u026a\u02ccskr\u026ap\u0283n/",
+    def: "A short text that says what a picture shows.",
+    vi: "m\u00f4 t\u1ea3 h\u00ecnh \u1ea3nh",
+    examples:
+      [
+        {
+          en: "Every product photo needs an image description.",
+          vi: "M\u1ed7i \u1ea3nh s\u1ea3n ph\u1ea9m c\u1ea7n c\u00f3 m\u00f4 t\u1ea3 h\u00ecnh \u1ea3nh.",
+        },
+      ],
+  }
+- {
+    slug: colour-blind-adj-t24,
+    lemma: "colour-blind",
+    pos: adjective,
+    cefr: B1,
+    topic: equality,
+    ipa: "/\u02c8k\u028cl\u0259 bla\u026and/",
+    def: "Unable to see the difference between some colours, such as red and green.",
+    vi: "m\u00f9 m\u00e0u",
+    examples:
+      [
+        {
+          en: "Colour-blind users can't tell the red and green states apart.",
+          vi: "Ng\u01b0\u1eddi m\u00f9 m\u00e0u kh\u00f4ng ph\u00e2n bi\u1ec7t \u0111\u01b0\u1ee3c tr\u1ea1ng th\u00e1i \u0111\u1ecf v\u00e0 xanh.",
+        },
+      ],
+  }
+- {
+    slug: tap-target-n,
+    lemma: "tap target",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: equality,
+    ipa: "/\u02c8t\u00e6p \u02cct\u0251\u02d0\u0261\u026at/",
+    def: "The area on a touch screen that reacts when you touch it.",
+    vi: "v\u00f9ng ch\u1ea1m",
+    examples:
+      [
+        {
+          en: "The close icon has a tiny tap target.",
+          vi: "Icon \u0111\u00f3ng c\u00f3 v\u00f9ng ch\u1ea1m qu\u00e1 nh\u1ecf.",
+        },
+      ],
+  }
+- {
+    slug: barrier-n-t24,
+    lemma: "barrier",
+    pos: noun,
+    cefr: B1,
+    topic: equality,
+    ipa: "/\u02c8b\u00e6ri\u0259/",
+    def: "Something that stops people from doing or getting something.",
+    vi: "r\u00e0o c\u1ea3n",
+    examples:
+      [
+        {
+          en: "A long sign-up form is a real barrier for new users.",
+          vi: "Form \u0111\u0103ng k\u00fd d\u00e0i l\u00e0 r\u00e0o c\u1ea3n th\u1eadt s\u1ef1 v\u1edbi ng\u01b0\u1eddi d\u00f9ng m\u1edbi.",
+        },
+      ],
+  }
+- {
+    slug: assistive-adj,
+    lemma: "assistive",
+    pos: adjective,
+    cefr: B2,
+    topic: equality,
+    ipa: "/\u0259\u02c8s\u026ast\u026av/",
+    def: "Designed to help disabled people do things.",
+    vi: "h\u1ed7 tr\u1ee3 (cho ng\u01b0\u1eddi khuy\u1ebft t\u1eadt)",
+    examples:
+      [
+        {
+          en: "Test the page with assistive tools, not just your eyes.",
+          vi: "H\u00e3y test trang b\u1eb1ng c\u00f4ng c\u1ee5 h\u1ed7 tr\u1ee3, kh\u00f4ng ch\u1ec9 b\u1eb1ng m\u1eaft.",
+        },
+      ],
+  }
+- {
+    slug: magnifier-n-t24,
+    lemma: "magnifier",
+    pos: noun,
+    cefr: B1,
+    topic: equality,
+    ipa: "/\u02c8m\u00e6\u0261n\u026afa\u026a\u0259/",
+    def: "A tool that makes part of the screen look bigger.",
+    vi: "k\u00ednh l\u00fap (ph\u00f3ng to)",
+    examples:
+      [
+        {
+          en: "With the magnifier on, the popup goes off the screen.",
+          vi: "Khi b\u1eadt k\u00ednh l\u00fap, popup b\u1ecb tr\u00e0n ra ngo\u00e0i m\u00e0n h\u00ecnh.",
+        },
+      ],
+  }
+- {
+    slug: focus-order-n,
+    lemma: "focus order",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: equality,
+    ipa: "/\u02c8f\u0259\u028ak\u0259s \u02cc\u0254\u02d0d\u0259/",
+    def: "The order in which items are selected when you press Tab.",
+    vi: "th\u1ee9 t\u1ef1 focus",
+    examples:
+      [
+        {
+          en: "The focus order jumps from the header to the footer.",
+          vi: "Th\u1ee9 t\u1ef1 focus nh\u1ea3y t\u1eeb header xu\u1ed1ng footer.",
+        },
+      ],
+  }
+# Set 3: Low-bandwidth experiences
+- {
+    slug: low-bandwidth-adj,
+    lemma: "low-bandwidth",
+    pos: adjective,
+    kind: collocation,
+    cefr: B1,
+    topic: equality,
+    ipa: "/\u02ccl\u0259\u028a \u02c8b\u00e6ndw\u026ad\u03b8/",
+    def: "Having or using only a slow internet connection.",
+    vi: "b\u0103ng th\u00f4ng th\u1ea5p",
+    examples:
+      [
+        {
+          en: "We built a low-bandwidth mode with no videos.",
+          vi: "B\u1ecdn m\u00ecnh l\u00e0m ch\u1ebf \u0111\u1ed9 b\u0103ng th\u00f4ng th\u1ea5p kh\u00f4ng c\u00f3 video.",
+        },
+      ],
+  }
+- {
+    slug: pay-as-you-go-adj-t24,
+    lemma: "pay-as-you-go",
+    pos: adjective,
+    kind: phrase,
+    cefr: B1,
+    topic: equality,
+    ipa: "/\u02ccpe\u026a \u0259z ju\u02d0 \u02c8\u0261\u0259\u028a/",
+    def: "Paying only for what you use, before you use it.",
+    vi: "tr\u1ea3 tr\u01b0\u1edbc theo m\u1ee9c d\u00f9ng",
+    examples:
+      [
+        {
+          en: "Pay-as-you-go users worry about every megabyte.",
+          vi: "Ng\u01b0\u1eddi d\u00f9ng tr\u1ea3 tr\u01b0\u1edbc lo l\u1eafng t\u1eebng megabyte.",
+        },
+      ],
+  }
+- {
+    slug: low-end-device-n,
+    lemma: "low-end device",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: equality,
+    ipa: "/\u02ccl\u0259\u028a end d\u026a\u02c8va\u026as/",
+    def: "A cheap phone or computer with little memory and a slow processor.",
+    vi: "thi\u1ebft b\u1ecb c\u1ea5u h\u00ecnh th\u1ea5p",
+    examples:
+      [
+        {
+          en: "The app freezes on low-end devices.",
+          vi: "App b\u1ecb \u0111\u01a1 tr\u00ean thi\u1ebft b\u1ecb c\u1ea5u h\u00ecnh th\u1ea5p.",
+        },
+      ],
+  }
+- {
+    slug: cut-out-pv,
+    lemma: "cut out",
+    pos: phrasal_verb,
+    kind: phrasal,
+    cefr: B1,
+    topic: equality,
+    ipa: "/\u02cck\u028ct \u02c8a\u028at/",
+    def: "To stop working suddenly, especially a connection.",
+    vi: "b\u1ecb ng\u1eaft \u0111\u1ed9t ng\u1ed9t",
+    examples:
+      [
+        {
+          en: "The upload fails when the connection cuts out.",
+          vi: "Vi\u1ec7c t\u1ea3i l\u00ean th\u1ea5t b\u1ea1i khi k\u1ebft n\u1ed1i b\u1ecb ng\u1eaft.",
+        },
+      ],
+  }
+- {
+    slug: spotty-adj,
+    lemma: "spotty",
+    pos: adjective,
+    cefr: B2,
+    topic: equality,
+    ipa: "/\u02c8sp\u0252ti/",
+    def: "Not good everywhere or all the time; sometimes working and sometimes not.",
+    vi: "ch\u1eadp ch\u1eddn",
+    examples:
+      [
+        {
+          en: "Wi-Fi on the train is spotty.",
+          vi: "Wi-Fi tr\u00ean t\u00e0u ch\u1eadp ch\u1eddn.",
+        },
+      ],
+  }
+- {
+    slug: lightweight-adj,
+    lemma: "lightweight",
+    pos: adjective,
+    cefr: B1,
+    topic: equality,
+    ipa: "/\u02c8la\u026atwe\u026at/",
+    def: "Small and quick to download or run.",
+    vi: "nh\u1eb9",
+    examples:
+      [
+        {
+          en: "We need a lightweight version of the home page.",
+          vi: "B\u1ecdn m\u00ecnh c\u1ea7n m\u1ed9t phi\u00ean b\u1ea3n nh\u1eb9 c\u1ee7a trang ch\u1ee7.",
+        },
+      ],
+  }
+- {
+    slug: shrink-v,
+    lemma: "shrink",
+    pos: verb,
+    cefr: B1,
+    topic: equality,
+    ipa: "/\u0283r\u026a\u014bk/",
+    def: "To become or make something smaller.",
+    vi: "thu nh\u1ecf",
+    examples:
+      [
+        {
+          en: "We shrank the images from 2 MB to 200 KB.",
+          vi: "B\u1ecdn m\u00ecnh thu nh\u1ecf \u1ea3nh t\u1eeb 2 MB xu\u1ed1ng 200 KB.",
+        },
+      ],
+  }
+- {
+    slug: skeleton-screen-n-t24,
+    lemma: "skeleton screen",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: equality,
+    ipa: "/\u02c8skel\u026atn \u02ccskri\u02d0n/",
+    def: "A simple grey outline of a page shown while the real content loads.",
+    vi: "m\u00e0n h\u00ecnh khung (skeleton)",
+    examples:
+      [
+        {
+          en: "Show a skeleton screen instead of a blank page.",
+          vi: "Hi\u1ec7n m\u00e0n h\u00ecnh khung thay v\u00ec trang tr\u1eafng.",
+        },
+      ],
+  }
+- {
+    slug: sync-n,
+    lemma: "sync",
+    pos: noun,
+    cefr: B1,
+    topic: equality,
+    ipa: "/s\u026a\u014bk/",
+    def: "The process of making data the same on a device and a server.",
+    vi: "\u0111\u1ed3ng b\u1ed9",
+    examples:
+      [
+        {
+          en: "The sync runs when the phone is back online.",
+          vi: "Vi\u1ec7c \u0111\u1ed3ng b\u1ed9 ch\u1ea1y khi \u0111i\u1ec7n tho\u1ea1i c\u00f3 m\u1ea1ng l\u1ea1i.",
+        },
+      ],
+  }
+- {
+    slug: queue-up-pv,
+    lemma: "queue up",
+    pos: phrasal_verb,
+    kind: phrasal,
+    cefr: B2,
+    topic: equality,
+    ipa: "/\u02cckju\u02d0 \u02c8\u028cp/",
+    def: "To put things in a line to be dealt with later.",
+    vi: "x\u1ebfp h\u00e0ng ch\u1edd",
+    examples:
+      [
+        {
+          en: "The app queues up messages and sends them later.",
+          vi: "App x\u1ebfp c\u00e1c tin nh\u1eafn ch\u1edd v\u00e0 g\u1eedi sau.",
+        },
+      ],
+  }
+- {
+    slug: text-only-adj,
+    lemma: "text-only",
+    pos: adjective,
+    kind: collocation,
+    cefr: B1,
+    topic: equality,
+    ipa: "/\u02cctekst \u02c8\u0259\u028anli/",
+    def: "Showing words and no pictures or video.",
+    vi: "ch\u1ec9 c\u00f3 ch\u1eef",
+    examples:
+      [
+        {
+          en: "On slow networks the news page switches to a text-only view.",
+          vi: "Tr\u00ean m\u1ea1ng ch\u1eadm, trang tin chuy\u1ec3n sang ch\u1ebf \u0111\u1ed9 ch\u1ec9 c\u00f3 ch\u1eef.",
+        },
+      ],
+  }
+- {
+    slug: offline-mode-n,
+    lemma: "offline mode",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: equality,
+    ipa: "/\u02cc\u0252fla\u026an \u02c8m\u0259\u028ad/",
+    def: "A way of using an app without an internet connection.",
+    vi: "ch\u1ebf \u0111\u1ed9 ngo\u1ea1i tuy\u1ebfn",
+    examples:
+      [
+        {
+          en: "In offline mode, users can still read saved orders.",
+          vi: "\u1ede ch\u1ebf \u0111\u1ed9 ngo\u1ea1i tuy\u1ebfn, ng\u01b0\u1eddi d\u00f9ng v\u1eabn \u0111\u1ecdc \u0111\u01b0\u1ee3c \u0111\u01a1n \u0111\u00e3 l\u01b0u.",
+        },
+      ],
+  }
+- {
+    slug: signal-strength-n,
+    lemma: "signal strength",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: equality,
+    ipa: "/\u02c8s\u026a\u0261n\u0259l \u02ccstre\u014b\u03b8/",
+    def: "How strong a mobile or wireless connection is.",
+    vi: "c\u01b0\u1eddng \u0111\u1ed9 s\u00f3ng",
+    examples:
+      [
+        {
+          en: "Signal strength drops in the basement car park.",
+          vi: "S\u00f3ng y\u1ebfu h\u1eb3n \u1edf h\u1ea7m g\u1eedi xe.",
+        },
+      ],
+  }
+- {
+    slug: prefetch-v,
+    lemma: "prefetch",
+    pos: verb,
+    cefr: C1,
+    topic: equality,
+    ipa: "/\u02ccpri\u02d0\u02c8fet\u0283/",
+    def: "To download data before the user asks for it.",
+    vi: "t\u1ea3i tr\u01b0\u1edbc",
+    examples:
+      [
+        {
+          en: "We prefetch the next lesson while on Wi-Fi.",
+          vi: "B\u1ecdn m\u00ecnh t\u1ea3i tr\u01b0\u1edbc b\u00e0i ti\u1ebfp theo khi c\u00f3 Wi-Fi.",
+        },
+      ],
+  }
+# Set 4: Language & literacy
+- {
+    slug: literacy-n,
+    lemma: "literacy",
+    pos: noun,
+    cefr: B2,
+    topic: equality,
+    ipa: "/\u02c8l\u026at\u0259r\u0259si/",
+    def: "The ability to read and write.",
+    vi: "kh\u1ea3 n\u0103ng \u0111\u1ecdc vi\u1ebft",
+    examples:
+      [
+        {
+          en: "Low literacy users rely on icons and voice.",
+          vi: "Ng\u01b0\u1eddi d\u00f9ng \u0111\u1ecdc vi\u1ebft k\u00e9m d\u1ef1a v\u00e0o icon v\u00e0 gi\u1ecdng n\u00f3i.",
+        },
+      ],
+  }
+- {
+    slug: insider-term-n,
+    lemma: "insider term",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: equality,
+    ipa: "/\u02c8\u026ansa\u026ad\u0259 \u02cct\u025c\u02d0m/",
+    def: "A word only people inside a team or field understand.",
+    vi: "t\u1eeb n\u1ed9i b\u1ed9, thu\u1eadt ng\u1eef trong ngh\u1ec1",
+    examples:
+      [
+        {
+          en: "'Token expired' is an insider term to most customers.",
+          vi: "'Token expired' l\u00e0 thu\u1eadt ng\u1eef n\u1ed9i b\u1ed9 v\u1edbi \u0111a s\u1ed1 kh\u00e1ch h\u00e0ng.",
+        },
+      ],
+  }
+- {
+    slug: everyday-word-n,
+    lemma: "everyday word",
+    pos: noun,
+    kind: collocation,
+    cefr: A2,
+    topic: equality,
+    ipa: "/\u02ccevride\u026a \u02c8w\u025c\u02d0d/",
+    def: "A simple word that people use in normal life.",
+    vi: "t\u1eeb th\u00f4ng d\u1ee5ng",
+    examples:
+      [
+        {
+          en: "Use an everyday word like 'save', not 'persist'.",
+          vi: "D\u00f9ng t\u1eeb th\u00f4ng d\u1ee5ng nh\u01b0 'l\u01b0u', \u0111\u1eebng d\u00f9ng 'persist'.",
+        },
+      ],
+  }
+- {
+    slug: wording-n-t24,
+    lemma: "wording",
+    pos: noun,
+    cefr: B2,
+    topic: equality,
+    ipa: "/\u02c8w\u025c\u02d0d\u026a\u014b/",
+    def: "The words chosen to say something.",
+    vi: "c\u00e1ch d\u00f9ng t\u1eeb",
+    examples:
+      [
+        {
+          en: "The wording of this error makes users panic.",
+          vi: "C\u00e1ch d\u00f9ng t\u1eeb trong l\u1ed7i n\u00e0y l\u00e0m ng\u01b0\u1eddi d\u00f9ng ho\u1ea3ng.",
+        },
+      ],
+  }
+- {
+    slug: restate-v,
+    lemma: "restate",
+    pos: verb,
+    cefr: C1,
+    topic: equality,
+    ipa: "/\u02ccri\u02d0\u02c8ste\u026at/",
+    def: "To say something again, often in a clearer way.",
+    vi: "n\u00f3i l\u1ea1i (r\u00f5 h\u01a1n)",
+    examples:
+      [
+        {
+          en: "Restate the rule in one short sentence.",
+          vi: "H\u00e3y n\u00f3i l\u1ea1i quy t\u1eafc trong m\u1ed9t c\u00e2u ng\u1eafn.",
+        },
+      ],
+  }
+- {
+    slug: interpreter-n,
+    lemma: "interpreter",
+    pos: noun,
+    cefr: B1,
+    topic: equality,
+    ipa: "/\u026an\u02c8t\u025c\u02d0pr\u026at\u0259/",
+    def: "A person who changes spoken words into another language.",
+    vi: "phi\u00ean d\u1ecbch vi\u00ean",
+    examples:
+      [
+        {
+          en: "We used an interpreter for the user interviews in Khmer.",
+          vi: "B\u1ecdn m\u00ecnh d\u00f9ng phi\u00ean d\u1ecbch vi\u00ean cho c\u00e1c bu\u1ed5i ph\u1ecfng v\u1ea5n b\u1eb1ng ti\u1ebfng Khmer.",
+        },
+      ],
+  }
+- {
+    slug: localise-v,
+    lemma: "localise",
+    pos: verb,
+    cefr: B2,
+    topic: equality,
+    ipa: "/\u02c8l\u0259\u028ak\u0259la\u026az/",
+    def: "To change a product so it suits the language and customs of a country.",
+    vi: "b\u1ea3n \u0111\u1ecba ho\u00e1",
+    examples:
+      [
+        {
+          en: "We need to localise dates and prices, not just words.",
+          vi: "C\u1ea7n b\u1ea3n \u0111\u1ecba ho\u00e1 c\u1ea3 ng\u00e0y th\u00e1ng v\u00e0 gi\u00e1, kh\u00f4ng ch\u1ec9 ch\u1eef.",
+        },
+      ],
+  }
+- {
+    slug: reading-level-n-t24,
+    lemma: "reading level",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: equality,
+    ipa: "/\u02c8ri\u02d0d\u026a\u014b \u02cclevl/",
+    def: "How hard a text is to read, often given as a school grade.",
+    vi: "m\u1ee9c \u0111\u1ed9 kh\u00f3 \u0111\u1ecdc",
+    examples:
+      [
+        {
+          en: "Keep help pages at a reading level of about grade 6.",
+          vi: "Gi\u1eef trang tr\u1ee3 gi\u00fap \u1edf m\u1ee9c \u0111\u1ecdc kho\u1ea3ng l\u1edbp 6.",
+        },
+      ],
+  }
+- {
+    slug: inline-hint-n,
+    lemma: "inline hint",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: equality,
+    ipa: "/\u02cc\u026anla\u026an \u02c8h\u026ant/",
+    def: "A short help text shown next to a field.",
+    vi: "g\u1ee3i \u00fd t\u1ea1i ch\u1ed7",
+    examples:
+      [
+        {
+          en: "Add an inline hint under the password field.",
+          vi: "Th\u00eam g\u1ee3i \u00fd t\u1ea1i ch\u1ed7 d\u01b0\u1edbi \u00f4 m\u1eadt kh\u1ea9u.",
+        },
+      ],
+  }
+- {
+    slug: confusing-adj,
+    lemma: "confusing",
+    pos: adjective,
+    cefr: A2,
+    topic: equality,
+    ipa: "/k\u0259n\u02c8fju\u02d0z\u026a\u014b/",
+    def: "Difficult to understand.",
+    vi: "kh\u00f3 hi\u1ec3u",
+    examples:
+      [
+        {
+          en: "Two buttons called 'OK' and 'Done' are confusing.",
+          vi: "Hai n\u00fat t\u00ean 'OK' v\u00e0 'Done' r\u1ea5t kh\u00f3 hi\u1ec3u.",
+        },
+      ],
+  }
+- {
+    slug: misread-v,
+    lemma: "misread",
+    pos: verb,
+    cefr: B2,
+    topic: equality,
+    ipa: "/\u02ccm\u026as\u02c8ri\u02d0d/",
+    def: "To read or understand something wrongly.",
+    vi: "\u0111\u1ecdc nh\u1ea7m",
+    examples:
+      [
+        {
+          en: "Many users misread the fee as a discount.",
+          vi: "Nhi\u1ec1u ng\u01b0\u1eddi d\u00f9ng \u0111\u1ecdc nh\u1ea7m ph\u00ed th\u00e0nh gi\u1ea3m gi\u00e1.",
+        },
+      ],
+  }
+- {
+    slug: step-by-step-adj,
+    lemma: "step-by-step",
+    pos: adjective,
+    kind: phrase,
+    cefr: B1,
+    topic: equality,
+    ipa: "/\u02ccstep ba\u026a \u02c8step/",
+    def: "Done or explained one small stage at a time.",
+    vi: "t\u1eebng b\u01b0\u1edbc",
+    examples:
+      [
+        {
+          en: "Give new users a step-by-step guide.",
+          vi: "Cho ng\u01b0\u1eddi d\u00f9ng m\u1edbi m\u1ed9t h\u01b0\u1edbng d\u1eabn t\u1eebng b\u01b0\u1edbc.",
+        },
+      ],
+  }
+- {
+    slug: second-language-n,
+    lemma: "second language",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: equality,
+    ipa: "/\u02ccsek\u0259nd \u02c8l\u00e6\u014b\u0261w\u026ad\u0292/",
+    def: "A language you speak that is not your first language.",
+    vi: "ng\u00f4n ng\u1eef th\u1ee9 hai",
+    examples:
+      [
+        {
+          en: "For many users, English is a second language.",
+          vi: "V\u1edbi nhi\u1ec1u ng\u01b0\u1eddi d\u00f9ng, ti\u1ebfng Anh l\u00e0 ng\u00f4n ng\u1eef th\u1ee9 hai.",
+        },
+      ],
+  }
+- {
+    slug: sentence-length-n,
+    lemma: "sentence length",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: equality,
+    ipa: "/\u02c8sent\u0259ns \u02ccle\u014b\u03b8/",
+    def: "How many words a sentence has.",
+    vi: "\u0111\u1ed9 d\u00e0i c\u00e2u",
+    examples:
+      [
+        {
+          en: "Keep sentence length under twenty words in the onboarding.",
+          vi: "Gi\u1eef \u0111\u1ed9 d\u00e0i c\u00e2u d\u01b0\u1edbi hai m\u01b0\u01a1i t\u1eeb trong ph\u1ea7n onboarding.",
+        },
+      ],
+  }
+- {
+    slug: writing-system-n,
+    lemma: "writing system",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: equality,
+    ipa: "/\u02c8ra\u026at\u026a\u014b \u02ccs\u026ast\u0259m/",
+    def: "A set of letters or symbols used to write a language.",
+    vi: "h\u1ec7 ch\u1eef vi\u1ebft",
+    examples:
+      [
+        {
+          en: "Test the layout with every writing system we support.",
+          vi: "Test b\u1ed1 c\u1ee5c v\u1edbi m\u1ecdi h\u1ec7 ch\u1eef vi\u1ebft b\u1ecdn m\u00ecnh h\u1ed7 tr\u1ee3.",
+        },
+      ],
+  }
+- {
+    slug: break-down-pv,
+    lemma: "break down",
+    pos: phrasal_verb,
+    kind: phrasal,
+    cefr: B1,
+    topic: equality,
+    ipa: "/\u02ccbre\u026ak \u02c8da\u028an/",
+    def: "To divide information into smaller parts so it is easier to understand.",
+    vi: "chia nh\u1ecf",
+    examples:
+      [
+        {
+          en: "Break down the long form into three short screens.",
+          vi: "Chia nh\u1ecf form d\u00e0i th\u00e0nh ba m\u00e0n h\u00ecnh ng\u1eafn.",
+        },
+      ],
+  }
+# Set 5: Fairness in product rules
+- {
+    slug: fairness-n-t24,
+    lemma: "fairness",
+    pos: noun,
+    cefr: B1,
+    topic: equality,
+    ipa: "/\u02c8fe\u0259n\u0259s/",
+    def: "The quality of treating people equally and reasonably.",
+    vi: "s\u1ef1 c\u00f4ng b\u1eb1ng",
+    examples:
+      [
+        {
+          en: "We should review the fairness of the refund rule.",
+          vi: "M\u00ecnh n\u00ean xem l\u1ea1i t\u00ednh c\u00f4ng b\u1eb1ng c\u1ee7a quy t\u1eafc ho\u00e0n ti\u1ec1n.",
+        },
+      ],
+  }
+- {
+    slug: eligibility-n,
+    lemma: "eligibility",
+    pos: noun,
+    cefr: C1,
+    topic: equality,
+    ipa: "/\u02ccel\u026ad\u0292\u0259\u02c8b\u026al\u0259ti/",
+    def: "The state of being allowed to have or do something.",
+    vi: "\u0111i\u1ec1u ki\u1ec7n \u0111\u01b0\u1ee3c h\u01b0\u1edfng",
+    examples:
+      [
+        {
+          en: "Loan eligibility depends on a fixed address.",
+          vi: "\u0110i\u1ec1u ki\u1ec7n vay ph\u1ee5 thu\u1ed9c v\u00e0o \u0111\u1ecba ch\u1ec9 c\u1ed1 \u0111\u1ecbnh.",
+        },
+      ],
+  }
+- {
+    slug: disadvantage-n,
+    lemma: "disadvantage",
+    pos: noun,
+    cefr: B1,
+    topic: equality,
+    ipa: "/\u02ccd\u026as\u0259d\u02c8v\u0251\u02d0nt\u026ad\u0292/",
+    def: "Something that makes it harder for someone to succeed.",
+    vi: "b\u1ea5t l\u1ee3i",
+    examples:
+      [
+        {
+          en: "Users without a bank card are at a disadvantage.",
+          vi: "Ng\u01b0\u1eddi d\u00f9ng kh\u00f4ng c\u00f3 th\u1ebb ng\u00e2n h\u00e0ng b\u1ecb b\u1ea5t l\u1ee3i.",
+        },
+      ],
+  }
+- {
+    slug: penalise-v,
+    lemma: "penalise",
+    pos: verb,
+    cefr: B2,
+    topic: equality,
+    ipa: "/\u02c8pi\u02d0n\u0259la\u026az/",
+    def: "To treat someone badly or punish them, often unfairly.",
+    vi: "ph\u1ea1t, g\u00e2y thi\u1ec7t",
+    examples:
+      [
+        {
+          en: "The rating rule penalises drivers in rainy areas.",
+          vi: "Quy t\u1eafc ch\u1ea5m \u0111i\u1ec3m g\u00e2y thi\u1ec7t cho t\u00e0i x\u1ebf \u1edf v\u00f9ng hay m\u01b0a.",
+        },
+      ],
+  }
+- {
+    slug: exclude-v,
+    lemma: "exclude",
+    pos: verb,
+    cefr: B1,
+    topic: equality,
+    ipa: "/\u026ak\u02c8sklu\u02d0d/",
+    def: "To keep someone out of something.",
+    vi: "lo\u1ea1i tr\u1eeb",
+    examples:
+      [
+        {
+          en: "A phone-only login excludes people without a smartphone.",
+          vi: "\u0110\u0103ng nh\u1eadp ch\u1ec9 qua \u0111i\u1ec7n tho\u1ea1i lo\u1ea1i tr\u1eeb ng\u01b0\u1eddi kh\u00f4ng c\u00f3 smartphone.",
+        },
+      ],
+  }
+- {
+    slug: criteria-n,
+    lemma: "criteria",
+    pos: noun,
+    cefr: B2,
+    topic: equality,
+    ipa: "/kra\u026a\u02c8t\u026a\u0259ri\u0259/",
+    def: "The standards used to judge or decide something.",
+    vi: "ti\u00eau ch\u00ed",
+    examples:
+      [
+        {
+          en: "Who decided the criteria for a 'trusted seller'?",
+          vi: "Ai quy\u1ebft \u0111\u1ecbnh ti\u00eau ch\u00ed cho 'ng\u01b0\u1eddi b\u00e1n uy t\u00edn'?",
+        },
+      ],
+  }
+- {
+    slug: cut-off-n,
+    lemma: "cut-off",
+    pos: noun,
+    cefr: C1,
+    topic: equality,
+    ipa: "/\u02c8k\u028ct \u0252f/",
+    def: "A fixed limit where something starts or stops.",
+    vi: "ng\u01b0\u1ee1ng c\u1eaft",
+    examples:
+      [
+        {
+          en: "The fraud cut-off blocks many small shops.",
+          vi: "Ng\u01b0\u1ee1ng ch\u1ed1ng gian l\u1eadn ch\u1eb7n nhi\u1ec1u c\u1eeda h\u00e0ng nh\u1ecf.",
+        },
+      ],
+  }
+- {
+    slug: arbitrary-adj,
+    lemma: "arbitrary",
+    pos: adjective,
+    cefr: C1,
+    topic: equality,
+    ipa: "/\u02c8\u0251\u02d0b\u026atr\u0259ri/",
+    def: "Chosen without a good reason.",
+    vi: "tu\u1ef3 ti\u1ec7n",
+    examples:
+      [
+        {
+          en: "The 30-day limit seems arbitrary.",
+          vi: "Gi\u1edbi h\u1ea1n 30 ng\u00e0y c\u00f3 v\u1ebb tu\u1ef3 ti\u1ec7n.",
+        },
+      ],
+  }
+- {
+    slug: uneven-adj,
+    lemma: "uneven",
+    pos: adjective,
+    cefr: B2,
+    topic: equality,
+    ipa: "/\u028cn\u02c8i\u02d0vn/",
+    def: "Not the same for everyone or everywhere.",
+    vi: "kh\u00f4ng \u0111\u1ed3ng \u0111\u1ec1u",
+    examples:
+      [
+        {
+          en: "Delivery times are uneven across provinces.",
+          vi: "Th\u1eddi gian giao h\u00e0ng kh\u00f4ng \u0111\u1ed3ng \u0111\u1ec1u gi\u1eefa c\u00e1c t\u1ec9nh.",
+        },
+      ],
+  }
+- {
+    slug: appeal-n,
+    lemma: "appeal",
+    pos: noun,
+    cefr: B2,
+    topic: equality,
+    ipa: "/\u0259\u02c8pi\u02d0l/",
+    def: "A request to change a decision you think is wrong.",
+    vi: "khi\u1ebfu n\u1ea1i, kh\u00e1ng ngh\u1ecb",
+    examples:
+      [
+        {
+          en: "Blocked users need a simple way to make an appeal.",
+          vi: "Ng\u01b0\u1eddi b\u1ecb kho\u00e1 c\u1ea7n c\u00e1ch khi\u1ebfu n\u1ea1i \u0111\u01a1n gi\u1ea3n.",
+        },
+      ],
+  }
+- {
+    slug: exemption-n,
+    lemma: "exemption",
+    pos: noun,
+    cefr: C1,
+    topic: equality,
+    ipa: "/\u026a\u0261\u02c8zemp\u0283n/",
+    def: "Permission not to follow a rule.",
+    vi: "s\u1ef1 mi\u1ec5n tr\u1eeb",
+    examples:
+      [
+        {
+          en: "Students get an exemption from the monthly fee.",
+          vi: "Sinh vi\u00ean \u0111\u01b0\u1ee3c mi\u1ec5n ph\u00ed h\u1eb1ng th\u00e1ng.",
+        },
+      ],
+  }
+- {
+    slug: let-off-pv,
+    lemma: "let off",
+    pos: phrasal_verb,
+    kind: phrasal,
+    cefr: B2,
+    topic: equality,
+    ipa: "/\u02cclet \u02c8\u0252f/",
+    def: "To not punish or charge someone.",
+    vi: "b\u1ecf qua, mi\u1ec5n",
+    examples:
+      [
+        {
+          en: "We let users off the late fee during floods.",
+          vi: "B\u1ecdn m\u00ecnh mi\u1ec5n ph\u00ed tr\u1ec5 h\u1ea1n trong m\u00f9a l\u0169.",
+        },
+      ],
+  }
+- {
+    slug: equal-treatment-n,
+    lemma: "equal treatment",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: equality,
+    ipa: "/\u02cci\u02d0kw\u0259l \u02c8tri\u02d0tm\u0259nt/",
+    def: "Treating all people in the same way.",
+    vi: "\u0111\u1ed1i x\u1eed b\u00ecnh \u0111\u1eb3ng",
+    examples:
+      [
+        {
+          en: "Equal treatment means the same price for every region.",
+          vi: "\u0110\u1ed1i x\u1eed b\u00ecnh \u0111\u1eb3ng ngh\u0129a l\u00e0 c\u00f9ng m\u1ed9t gi\u00e1 cho m\u1ecdi v\u00f9ng.",
+        },
+      ],
+  }
+- {
+    slug: minority-n,
+    lemma: "minority",
+    pos: noun,
+    cefr: B2,
+    topic: equality,
+    ipa: "/ma\u026a\u02c8n\u0252r\u0259ti/",
+    def: "A small group that is different from the larger group.",
+    vi: "thi\u1ec3u s\u1ed1",
+    examples:
+      [
+        {
+          en: "Ethnic minority users often have names our form rejects.",
+          vi: "Ng\u01b0\u1eddi d\u00f9ng d\u00e2n t\u1ed9c thi\u1ec3u s\u1ed1 th\u01b0\u1eddng c\u00f3 t\u00ean m\u00e0 form c\u1ee7a m\u00ecnh t\u1eeb ch\u1ed1i.",
+        },
+      ],
+  }
+- {
+    slug: marginalised-adj,
+    lemma: "marginalised",
+    pos: adjective,
+    cefr: C1,
+    topic: equality,
+    ipa: "/\u02c8m\u0251\u02d0d\u0292\u026an\u0259la\u026azd/",
+    def: "Treated as unimportant and kept outside the main group.",
+    vi: "b\u1ecb g\u1ea1t ra l\u1ec1",
+    examples:
+      [
+        {
+          en: "Marginalised groups rarely join our beta tests.",
+          vi: "C\u00e1c nh\u00f3m b\u1ecb g\u1ea1t ra l\u1ec1 hi\u1ebfm khi tham gia beta test.",
+        },
+      ],
+  }
+- {
+    slug: loophole-n,
+    lemma: "loophole",
+    pos: noun,
+    cefr: C1,
+    topic: equality,
+    ipa: "/\u02c8lu\u02d0phu\u02d0l/",
+    def: "A small mistake in a rule that lets people avoid it.",
+    vi: "k\u1ebd h\u1edf",
+    examples:
+      [
+        {
+          en: "Some sellers use a loophole to get free promotion.",
+          vi: "M\u1ed9t s\u1ed1 ng\u01b0\u1eddi b\u00e1n l\u1ee3i d\u1ee5ng k\u1ebd h\u1edf \u0111\u1ec3 \u0111\u01b0\u1ee3c qu\u1ea3ng b\u00e1 mi\u1ec5n ph\u00ed.",
+        },
+      ],
+  }
+- {
+    slug: discriminate-v,
+    lemma: "discriminate",
+    pos: verb,
+    cefr: B2,
+    topic: equality,
+    ipa: "/d\u026a\u02c8skr\u026am\u026ane\u026at/",
+    def: "To treat a person or group worse than others.",
+    vi: "ph\u00e2n bi\u1ec7t \u0111\u1ed1i x\u1eed",
+    examples:
+      [
+        {
+          en: "The rule doesn't mean to discriminate, but it does.",
+          vi: "Quy t\u1eafc kh\u00f4ng c\u1ed1 \u00fd ph\u00e2n bi\u1ec7t \u0111\u1ed1i x\u1eed, nh\u01b0ng th\u1ef1c t\u1ebf l\u00e0 c\u00f3.",
+        },
+      ],
+  }
+- {
+    slug: level-playing-field-phr,
+    lemma: "a level playing field",
+    pos: phrase,
+    kind: phrase,
+    cefr: C1,
+    topic: equality,
+    ipa: "/\u0259 \u02cclevl \u02c8ple\u026a\u026a\u014b fi\u02d0ld/",
+    def: "A situation where everyone has the same chance.",
+    vi: "s\u00e2n ch\u01a1i b\u00ecnh \u0111\u1eb3ng",
+    examples:
+      [
+        {
+          en: "New sellers need a level playing field in search.",
+          vi: "Ng\u01b0\u1eddi b\u00e1n m\u1edbi c\u1ea7n s\u00e2n ch\u01a1i b\u00ecnh \u0111\u1eb3ng trong t\u00ecm ki\u1ebfm.",
+        },
+      ],
+  }
+# Set 6: Bias in data & automation
+- {
+    slug: biased-adj,
+    lemma: "biased",
+    pos: adjective,
+    cefr: B2,
+    topic: equality,
+    ipa: "/\u02c8ba\u026a\u0259st/",
+    def: "Unfairly favouring one group over another.",
+    vi: "thi\u00ean l\u1ec7ch",
+    examples:
+      [
+        {
+          en: "The model is biased against older applicants.",
+          vi: "M\u00f4 h\u00ecnh thi\u00ean l\u1ec7ch b\u1ea5t l\u1ee3i cho ng\u01b0\u1eddi n\u1ed9p h\u1ed3 s\u01a1 l\u1edbn tu\u1ed5i.",
+        },
+      ],
+  }
+- {
+    slug: confidence-score-n,
+    lemma: "confidence score",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: equality,
+    ipa: "/\u02c8k\u0252nf\u026ad\u0259ns \u02ccsk\u0254\u02d0/",
+    def: "A number that shows how sure a model is about its answer.",
+    vi: "\u0111i\u1ec3m tin c\u1eady",
+    examples:
+      [
+        {
+          en: "Send results with a low confidence score to a person.",
+          vi: "Chuy\u1ec3n k\u1ebft qu\u1ea3 c\u00f3 \u0111i\u1ec3m tin c\u1eady th\u1ea5p cho ng\u01b0\u1eddi xem.",
+        },
+      ],
+  }
+- {
+    slug: underrepresented-adj,
+    lemma: "underrepresented",
+    pos: adjective,
+    cefr: C1,
+    topic: equality,
+    ipa: "/\u02cc\u028cnd\u0259\u02ccrepr\u026a\u02c8zent\u026ad/",
+    def: "Present in smaller numbers than is fair or expected.",
+    vi: "\u00edt \u0111\u01b0\u1ee3c \u0111\u1ea1i di\u1ec7n",
+    examples:
+      [
+        {
+          en: "Southern accents are underrepresented in our voice data.",
+          vi: "Gi\u1ecdng mi\u1ec1n Nam \u00edt \u0111\u01b0\u1ee3c \u0111\u1ea1i di\u1ec7n trong d\u1eef li\u1ec7u gi\u1ecdng n\u00f3i.",
+        },
+      ],
+  }
+- {
+    slug: training-data-n,
+    lemma: "training data",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: equality,
+    ipa: "/\u02c8tre\u026an\u026a\u014b \u02ccde\u026at\u0259/",
+    def: "The examples used to teach a machine learning model.",
+    vi: "d\u1eef li\u1ec7u hu\u1ea5n luy\u1ec7n",
+    examples:
+      [
+        {
+          en: "Most of the training data came from big cities.",
+          vi: "Ph\u1ea7n l\u1edbn d\u1eef li\u1ec7u hu\u1ea5n luy\u1ec7n \u0111\u1ebfn t\u1eeb th\u00e0nh ph\u1ed1 l\u1edbn.",
+        },
+      ],
+  }
+- {
+    slug: proxy-n,
+    lemma: "proxy",
+    pos: noun,
+    cefr: C1,
+    topic: equality,
+    ipa: "/\u02c8pr\u0252ksi/",
+    def: "Something used to stand for another thing that is hard to measure.",
+    vi: "bi\u1ebfn thay th\u1ebf",
+    examples:
+      [
+        {
+          en: "Postcode works as a proxy for income here.",
+          vi: "M\u00e3 b\u01b0u ch\u00ednh \u1edf \u0111\u00e2y \u0111\u00f3ng vai bi\u1ebfn thay th\u1ebf cho thu nh\u1eadp.",
+        },
+      ],
+  }
+- {
+    slug: false-positive-n,
+    lemma: "false positive",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: equality,
+    ipa: "/\u02ccf\u0254\u02d0ls \u02c8p\u0252z\u0259t\u026av/",
+    def: "A result that wrongly says something is true.",
+    vi: "d\u01b0\u01a1ng t\u00ednh gi\u1ea3",
+    examples:
+      [
+        {
+          en: "Too many false positives block honest buyers.",
+          vi: "Qu\u00e1 nhi\u1ec1u d\u01b0\u01a1ng t\u00ednh gi\u1ea3 ch\u1eb7n ng\u01b0\u1eddi mua trung th\u1ef1c.",
+        },
+      ],
+  }
+- {
+    slug: misclassify-v,
+    lemma: "misclassify",
+    pos: verb,
+    cefr: C1,
+    topic: equality,
+    ipa: "/\u02ccm\u026as\u02c8kl\u00e6s\u026afa\u026a/",
+    def: "To put something in the wrong group.",
+    vi: "ph\u00e2n lo\u1ea1i sai",
+    examples:
+      [
+        {
+          en: "The filter misclassifies dialect words as spam.",
+          vi: "B\u1ed9 l\u1ecdc ph\u00e2n lo\u1ea1i sai t\u1eeb \u0111\u1ecba ph\u01b0\u01a1ng th\u00e0nh spam.",
+        },
+      ],
+  }
+- {
+    slug: human-in-the-loop-phr,
+    lemma: "human in the loop",
+    pos: phrase,
+    kind: phrase,
+    cefr: C1,
+    topic: equality,
+    ipa: "/\u02cchju\u02d0m\u0259n \u026an \u00f0\u0259 \u02c8lu\u02d0p/",
+    def: "A system where a person checks or approves automatic decisions.",
+    vi: "c\u00f3 con ng\u01b0\u1eddi tham gia ki\u1ec3m duy\u1ec7t",
+    examples:
+      [
+        {
+          en: "Account bans must keep a human in the loop.",
+          vi: "Vi\u1ec7c kho\u00e1 t\u00e0i kho\u1ea3n ph\u1ea3i c\u00f3 con ng\u01b0\u1eddi ki\u1ec3m duy\u1ec7t.",
+        },
+      ],
+  }
+- {
+    slug: subgroup-n,
+    lemma: "subgroup",
+    pos: noun,
+    cefr: B2,
+    topic: equality,
+    ipa: "/\u02c8s\u028cb\u0261ru\u02d0p/",
+    def: "A smaller group inside a larger group.",
+    vi: "nh\u00f3m con",
+    examples:
+      [
+        {
+          en: "Check accuracy for each subgroup, not just the average.",
+          vi: "Ki\u1ec3m tra \u0111\u1ed9 ch\u00ednh x\u00e1c theo t\u1eebng nh\u00f3m con, kh\u00f4ng ch\u1ec9 trung b\u00ecnh.",
+        },
+      ],
+  }
+- {
+    slug: demographic-n,
+    lemma: "demographic",
+    pos: noun,
+    cefr: C1,
+    topic: equality,
+    ipa: "/\u02ccdem\u0259\u02c8\u0261r\u00e6f\u026ak/",
+    def: "A group of people of a similar age, income, location, etc.",
+    vi: "nh\u00f3m nh\u00e2n kh\u1ea9u",
+    examples:
+      [
+        {
+          en: "Which demographic gets the most rejections?",
+          vi: "Nh\u00f3m nh\u00e2n kh\u1ea9u n\u00e0o b\u1ecb t\u1eeb ch\u1ed1i nhi\u1ec1u nh\u1ea5t?",
+        },
+      ],
+  }
+- {
+    slug: stereotype-n,
+    lemma: "stereotype",
+    pos: noun,
+    cefr: B2,
+    topic: equality,
+    ipa: "/\u02c8steri\u0259ta\u026ap/",
+    def: "A fixed, too simple idea about a type of person.",
+    vi: "\u0111\u1ecbnh ki\u1ebfn, khu\u00f4n m\u1eabu",
+    examples:
+      [
+        {
+          en: "The image generator repeats a stereotype about nurses.",
+          vi: "B\u1ed9 t\u1ea1o \u1ea3nh l\u1eb7p l\u1ea1i khu\u00f4n m\u1eabu v\u1ec1 y t\u00e1.",
+        },
+      ],
+  }
+- {
+    slug: overrule-v,
+    lemma: "overrule",
+    pos: verb,
+    cefr: C1,
+    topic: equality,
+    ipa: "/\u02cc\u0259\u028av\u0259\u02c8ru\u02d0l/",
+    def: "To change a decision made by someone or something else.",
+    vi: "b\u00e1c b\u1ecf (quy\u1ebft \u0111\u1ecbnh)",
+    examples:
+      [
+        {
+          en: "Support staff can overrule the automatic ban.",
+          vi: "Nh\u00e2n vi\u00ean h\u1ed7 tr\u1ee3 c\u00f3 th\u1ec3 b\u00e1c b\u1ecf l\u1ec7nh kho\u00e1 t\u1ef1 \u0111\u1ed9ng.",
+        },
+      ],
+  }
+- {
+    slug: presume-v,
+    lemma: "presume",
+    pos: verb,
+    cefr: C1,
+    topic: equality,
+    ipa: "/pr\u026a\u02c8zju\u02d0m/",
+    def: "To think something is true without proof.",
+    vi: "m\u1eb7c \u0111\u1ecbnh cho l\u00e0",
+    examples:
+      [
+        {
+          en: "The form presumes everyone has a family name.",
+          vi: "Form m\u1eb7c \u0111\u1ecbnh cho r\u1eb1ng ai c\u0169ng c\u00f3 h\u1ecd.",
+        },
+      ],
+  }
+- {
+    slug: outlier-n-t24,
+    lemma: "outlier",
+    pos: noun,
+    cefr: C1,
+    topic: equality,
+    ipa: "/\u02c8a\u028atla\u026a\u0259/",
+    def: "A value or person very different from the rest.",
+    vi: "gi\u00e1 tr\u1ecb ngo\u1ea1i lai",
+    examples:
+      [
+        {
+          en: "Don't drop the outliers; they may be real users.",
+          vi: "\u0110\u1eebng b\u1ecf gi\u00e1 tr\u1ecb ngo\u1ea1i lai; h\u1ecd c\u00f3 th\u1ec3 l\u00e0 ng\u01b0\u1eddi d\u00f9ng th\u1eadt.",
+        },
+      ],
+  }
+- {
+    slug: correlate-v,
+    lemma: "correlate",
+    pos: verb,
+    cefr: C1,
+    topic: equality,
+    ipa: "/\u02c8k\u0252r\u0259le\u026at/",
+    def: "To have a connection where one thing changes with another.",
+    vi: "t\u01b0\u01a1ng quan",
+    examples:
+      [
+        {
+          en: "Phone brand correlates with approval rate.",
+          vi: "H\u00e3ng \u0111i\u1ec7n tho\u1ea1i t\u01b0\u01a1ng quan v\u1edbi t\u1ec9 l\u1ec7 duy\u1ec7t.",
+        },
+      ],
+  }
+- {
+    slug: fairness-check-n,
+    lemma: "fairness check",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: equality,
+    ipa: "/\u02c8fe\u0259n\u0259s \u02cct\u0283ek/",
+    def: "A test of whether a system treats groups equally.",
+    vi: "ki\u1ec3m tra c\u00f4ng b\u1eb1ng",
+    examples:
+      [
+        {
+          en: "We run a fairness check before each model update.",
+          vi: "B\u1ecdn m\u00ecnh ch\u1ea1y ki\u1ec3m tra c\u00f4ng b\u1eb1ng tr\u01b0\u1edbc m\u1ed7i l\u1ea7n c\u1eadp nh\u1eadt m\u00f4 h\u00ecnh.",
+        },
+      ],
+  }
+- {
+    slug: impartial-adj,
+    lemma: "impartial",
+    pos: adjective,
+    cefr: C1,
+    topic: equality,
+    ipa: "/\u026am\u02c8p\u0251\u02d0\u0283l/",
+    def: "Not supporting any side; neutral.",
+    vi: "kh\u00e1ch quan, v\u00f4 t\u01b0",
+    examples:
+      [
+        {
+          en: "An impartial reviewer should check the disputed cases.",
+          vi: "M\u1ed9t ng\u01b0\u1eddi x\u00e9t duy\u1ec7t kh\u00e1ch quan n\u00ean ki\u1ec3m tra c\u00e1c ca tranh ch\u1ea5p.",
+        },
+      ],
+  }
+- {
+    slug: ground-truth-n,
+    lemma: "ground truth",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: equality,
+    ipa: "/\u02cc\u0261ra\u028and \u02c8tru\u02d0\u03b8/",
+    def: "The real, checked answers used to measure a model.",
+    vi: "d\u1eef li\u1ec7u chu\u1ea9n (ground truth)",
+    examples:
+      [
+        {
+          en: "Our ground truth was labelled by only two people.",
+          vi: "D\u1eef li\u1ec7u chu\u1ea9n c\u1ee7a m\u00ecnh ch\u1ec9 do hai ng\u01b0\u1eddi g\u00e1n nh\u00e3n.",
+        },
+      ],
+  }
+- {
+    slug: profiling-n,
+    lemma: "profiling",
+    pos: noun,
+    cefr: C1,
+    topic: equality,
+    ipa: "/\u02c8pr\u0259\u028afa\u026al\u026a\u014b/",
+    def: "Judging people by features such as age or race.",
+    vi: "l\u1eadp h\u1ed3 s\u01a1 (\u0111\u00e1nh gi\u00e1 theo \u0111\u1eb7c \u0111i\u1ec3m)",
+    examples:
+      [
+        {
+          en: "Using names for risk scores is a kind of profiling.",
+          vi: "D\u00f9ng t\u00ean \u0111\u1ec3 ch\u1ea5m r\u1ee7i ro l\u00e0 m\u1ed9t ki\u1ec3u l\u1eadp h\u1ed3 s\u01a1.",
+        },
+      ],
+  }
+- {
+    slug: error-rate-n,
+    lemma: "error rate",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: equality,
+    ipa: "/\u02c8er\u0259 \u02ccre\u026at/",
+    def: "How often a system gives a wrong result.",
+    vi: "t\u1ec9 l\u1ec7 l\u1ed7i",
+    examples:
+      [
+        {
+          en: "The error rate is twice as high for women's voices.",
+          vi: "T\u1ec9 l\u1ec7 l\u1ed7i cao g\u1ea5p \u0111\u00f4i v\u1edbi gi\u1ecdng n\u1eef.",
+        },
+      ],
+  }
+# Set 7: User control & consent
+- {
+    slug: data-sharing-n,
+    lemma: "data sharing",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: equality,
+    ipa: "/\u02c8de\u026at\u0259 \u02cc\u0283e\u0259r\u026a\u014b/",
+    def: "Giving your information to another company or person.",
+    vi: "chia s\u1ebb d\u1eef li\u1ec7u",
+    examples:
+      [
+        {
+          en: "Ask clearly before any data sharing with partners.",
+          vi: "H\u1ecfi r\u00f5 tr\u01b0\u1edbc khi chia s\u1ebb d\u1eef li\u1ec7u v\u1edbi \u0111\u1ed1i t\u00e1c.",
+        },
+      ],
+  }
+- {
+    slug: opt-in-n,
+    lemma: "opt-in",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: equality,
+    ipa: "/\u02c8\u0252pt \u026an/",
+    def: "A choice where nothing happens unless the user agrees.",
+    vi: "l\u1ef1a ch\u1ecdn ch\u1ee7 \u0111\u1ed9ng \u0111\u1ed3ng \u00fd",
+    examples:
+      [
+        {
+          en: "Marketing emails should be an opt-in.",
+          vi: "Email marketing n\u00ean l\u00e0 l\u1ef1a ch\u1ecdn ng\u01b0\u1eddi d\u00f9ng ch\u1ee7 \u0111\u1ed9ng \u0111\u1ed3ng \u00fd.",
+        },
+      ],
+  }
+- {
+    slug: switch-off-pv-t24,
+    lemma: "switch off",
+    pos: phrasal_verb,
+    kind: phrasal,
+    cefr: A2,
+    topic: equality,
+    ipa: "/\u02ccsw\u026at\u0283 \u02c8\u0252f/",
+    def: "To turn something off.",
+    vi: "t\u1eaft",
+    examples:
+      [
+        {
+          en: "Users can switch off data collection in settings.",
+          vi: "Ng\u01b0\u1eddi d\u00f9ng c\u00f3 th\u1ec3 t\u1eaft thu th\u1eadp d\u1eef li\u1ec7u trong c\u00e0i \u0111\u1eb7t.",
+        },
+      ],
+  }
+- {
+    slug: privacy-setting-n,
+    lemma: "privacy setting",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: equality,
+    ipa: "/\u02c8pr\u026av\u0259si \u02ccset\u026a\u014b/",
+    def: "An option that controls who can see your information.",
+    vi: "c\u00e0i \u0111\u1eb7t quy\u1ec1n ri\u00eang t\u01b0",
+    examples:
+      [
+        {
+          en: "The privacy settings are hidden three menus deep.",
+          vi: "C\u00e0i \u0111\u1eb7t quy\u1ec1n ri\u00eang t\u01b0 b\u1ecb gi\u1ea5u s\u00e2u ba t\u1ea7ng menu.",
+        },
+      ],
+  }
+- {
+    slug: take-back-pv,
+    lemma: "take back",
+    pos: phrasal_verb,
+    kind: phrasal,
+    cefr: B1,
+    topic: equality,
+    ipa: "/\u02ccte\u026ak \u02c8b\u00e6k/",
+    def: "To cancel something you gave or allowed earlier.",
+    vi: "r\u00fat l\u1ea1i",
+    examples:
+      [
+        {
+          en: "Users can take back camera access at any time.",
+          vi: "Ng\u01b0\u1eddi d\u00f9ng c\u00f3 th\u1ec3 r\u00fat l\u1ea1i quy\u1ec1n camera b\u1ea5t k\u1ef3 l\u00fac n\u00e0o.",
+        },
+      ],
+  }
+- {
+    slug: reveal-v,
+    lemma: "reveal",
+    pos: verb,
+    cefr: B2,
+    topic: equality,
+    ipa: "/r\u026a\u02c8vi\u02d0l/",
+    def: "To make something known that was secret or hidden.",
+    vi: "ti\u1ebft l\u1ed9",
+    examples:
+      [
+        {
+          en: "The app must reveal which partners receive the data.",
+          vi: "App ph\u1ea3i ti\u1ebft l\u1ed9 \u0111\u1ed1i t\u00e1c n\u00e0o nh\u1eadn d\u1eef li\u1ec7u.",
+        },
+      ],
+  }
+- {
+    slug: tracking-n,
+    lemma: "tracking",
+    pos: noun,
+    cefr: B1,
+    topic: equality,
+    ipa: "/\u02c8tr\u00e6k\u026a\u014b/",
+    def: "Recording what people do or where they go.",
+    vi: "theo d\u00f5i",
+    examples:
+      [
+        {
+          en: "Turn off tracking for users under sixteen.",
+          vi: "T\u1eaft theo d\u00f5i v\u1edbi ng\u01b0\u1eddi d\u00f9ng d\u01b0\u1edbi m\u01b0\u1eddi s\u00e1u tu\u1ed5i.",
+        },
+      ],
+  }
+- {
+    slug: sensitive-data-n,
+    lemma: "sensitive data",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: equality,
+    ipa: "/\u02ccsens\u0259t\u026av \u02c8de\u026at\u0259/",
+    def: "Private information such as health or religion that needs extra care.",
+    vi: "d\u1eef li\u1ec7u nh\u1ea1y c\u1ea3m",
+    examples:
+      [
+        {
+          en: "Health notes count as sensitive data.",
+          vi: "Ghi ch\u00fa s\u1ee9c kho\u1ebb \u0111\u01b0\u1ee3c t\u00ednh l\u00e0 d\u1eef li\u1ec7u nh\u1ea1y c\u1ea3m.",
+        },
+      ],
+  }
+- {
+    slug: on-by-default-phr,
+    lemma: "on by default",
+    pos: phrase,
+    kind: phrase,
+    cefr: B2,
+    topic: equality,
+    ipa: "/\u02cc\u0252n ba\u026a d\u026a\u02c8f\u0254\u02d0lt/",
+    def: "Switched on unless the user changes it.",
+    vi: "b\u1eadt s\u1eb5n m\u1eb7c \u0111\u1ecbnh",
+    examples:
+      [
+        {
+          en: "Location sharing should not be on by default.",
+          vi: "Chia s\u1ebb v\u1ecb tr\u00ed kh\u00f4ng n\u00ean b\u1eadt s\u1eb5n m\u1eb7c \u0111\u1ecbnh.",
+        },
+      ],
+  }
+- {
+    slug: dark-pattern-n,
+    lemma: "dark pattern",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: equality,
+    ipa: "/\u02ccd\u0251\u02d0k \u02c8p\u00e6tn/",
+    def: "A design that tricks users into doing something they didn't want.",
+    vi: "thi\u1ebft k\u1ebf l\u1eeba ng\u01b0\u1eddi d\u00f9ng",
+    examples:
+      [
+        {
+          en: "Hiding the cancel button is a dark pattern.",
+          vi: "Gi\u1ea5u n\u00fat hu\u1ef7 l\u00e0 m\u1ed9t ki\u1ec3u thi\u1ebft k\u1ebf l\u1eeba ng\u01b0\u1eddi d\u00f9ng.",
+        },
+      ],
+  }
+- {
+    slug: cookie-banner-n,
+    lemma: "cookie banner",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: equality,
+    ipa: "/\u02c8k\u028aki \u02ccb\u00e6n\u0259/",
+    def: "A message on a website asking users to accept or refuse cookies.",
+    vi: "banner cookie",
+    examples:
+      [
+        {
+          en: "The cookie banner has no 'Reject all' button.",
+          vi: "Banner cookie kh\u00f4ng c\u00f3 n\u00fat 'T\u1eeb ch\u1ed1i t\u1ea5t c\u1ea3'.",
+        },
+      ],
+  }
+- {
+    slug: export-v,
+    lemma: "export",
+    pos: verb,
+    cefr: B1,
+    topic: equality,
+    ipa: "/\u026ak\u02c8sp\u0254\u02d0t/",
+    def: "To save data from a system so you can use it elsewhere.",
+    vi: "xu\u1ea5t (d\u1eef li\u1ec7u)",
+    examples:
+      [
+        {
+          en: "Let users export their history as a file.",
+          vi: "Cho ng\u01b0\u1eddi d\u00f9ng xu\u1ea5t l\u1ecbch s\u1eed ra file.",
+        },
+      ],
+  }
+- {
+    slug: terms-of-service-n,
+    lemma: "terms of service",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: equality,
+    ipa: "/\u02cct\u025c\u02d0mz \u0259v \u02c8s\u025c\u02d0v\u026as/",
+    def: "The rules users must accept to use a service.",
+    vi: "\u0111i\u1ec1u kho\u1ea3n d\u1ecbch v\u1ee5",
+    examples:
+      [
+        {
+          en: "Nobody reads the terms of service.",
+          vi: "Kh\u00f4ng ai \u0111\u1ecdc \u0111i\u1ec1u kho\u1ea3n d\u1ecbch v\u1ee5.",
+        },
+      ],
+  }
+- {
+    slug: granular-adj-t24,
+    lemma: "granular",
+    pos: adjective,
+    cefr: C1,
+    topic: equality,
+    ipa: "/\u02c8\u0261r\u00e6nj\u0259l\u0259/",
+    def: "Divided into small, detailed parts.",
+    vi: "chi ti\u1ebft, t\u1eebng ph\u1ea7n",
+    examples:
+      [
+        {
+          en: "Give granular choices: ads, analytics, and emails.",
+          vi: "Cho l\u1ef1a ch\u1ecdn chi ti\u1ebft: qu\u1ea3ng c\u00e1o, ph\u00e2n t\u00edch v\u00e0 email.",
+        },
+      ],
+  }
+- {
+    slug: fine-print-n,
+    lemma: "the fine print",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: equality,
+    ipa: "/\u00f0\u0259 \u02ccfa\u026an \u02c8pr\u026ant/",
+    def: "Important details written in small text that people often miss.",
+    vi: "ph\u1ea7n ch\u1eef nh\u1ecf (\u0111i\u1ec1u ki\u1ec7n k\u00e8m theo)",
+    examples:
+      [
+        {
+          en: "The auto-renewal is hidden in the fine print.",
+          vi: "Vi\u1ec7c t\u1ef1 gia h\u1ea1n b\u1ecb gi\u1ea5u trong ph\u1ea7n ch\u1eef nh\u1ecf.",
+        },
+      ],
+  }
+- {
+    slug: informed-adj,
+    lemma: "informed",
+    pos: adjective,
+    cefr: B2,
+    topic: equality,
+    ipa: "/\u026an\u02c8f\u0254\u02d0md/",
+    def: "Based on a good understanding of the facts.",
+    vi: "c\u00f3 hi\u1ec3u bi\u1ebft \u0111\u1ea7y \u0111\u1ee7",
+    examples:
+      [
+        {
+          en: "Users can't make an informed choice from one vague line.",
+          vi: "Ng\u01b0\u1eddi d\u00f9ng kh\u00f4ng th\u1ec3 ch\u1ecdn c\u00f3 hi\u1ec3u bi\u1ebft t\u1eeb m\u1ed9t d\u00f2ng m\u01a1 h\u1ed3.",
+        },
+      ],
+  }
+- {
+    slug: data-retention-n,
+    lemma: "data retention",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: equality,
+    ipa: "/\u02c8de\u026at\u0259 r\u026a\u02ccten\u0283n/",
+    def: "How long a company keeps stored information.",
+    vi: "l\u01b0u gi\u1eef d\u1eef li\u1ec7u",
+    examples:
+      [
+        {
+          en: "Our data retention period is ninety days.",
+          vi: "Th\u1eddi gian l\u01b0u gi\u1eef d\u1eef li\u1ec7u l\u00e0 ch\u00edn m\u01b0\u01a1i ng\u00e0y.",
+        },
+      ],
+  }
+- {
+    slug: de-identify-v,
+    lemma: "de-identify",
+    pos: verb,
+    cefr: C1,
+    topic: equality,
+    ipa: "/\u02ccdi\u02d0 a\u026a\u02c8dent\u026afa\u026a/",
+    def: "To remove details that show who a person is.",
+    vi: "kh\u1eed \u0111\u1ecbnh danh",
+    examples:
+      [
+        {
+          en: "De-identify the logs before sharing them.",
+          vi: "Kh\u1eed \u0111\u1ecbnh danh log tr\u01b0\u1edbc khi chia s\u1ebb.",
+        },
+      ],
+  }
+- {
+    slug: erase-v,
+    lemma: "erase",
+    pos: verb,
+    cefr: B2,
+    topic: equality,
+    ipa: "/\u026a\u02c8re\u026az/",
+    def: "To remove something completely.",
+    vi: "xo\u00e1 h\u1eb3n",
+    examples:
+      [
+        {
+          en: "The delete button must erase the account, not hide it.",
+          vi: "N\u00fat xo\u00e1 ph\u1ea3i xo\u00e1 h\u1eb3n t\u00e0i kho\u1ea3n, kh\u00f4ng ch\u1ec9 \u1ea9n \u0111i.",
+        },
+      ],
+  }
+- {
+    slug: agree-to-phr,
+    lemma: "agree to",
+    pos: phrase,
+    kind: phrase,
+    cefr: A2,
+    topic: equality,
+    ipa: "/\u0259\u02c8\u0261ri\u02d0 t\u0259/",
+    def: "To say yes to a plan or request.",
+    vi: "\u0111\u1ed3ng \u00fd v\u1edbi",
+    examples:
+      [
+        {
+          en: "Users agree to one thing and get three.",
+          vi: "Ng\u01b0\u1eddi d\u00f9ng \u0111\u1ed3ng \u00fd m\u1ed9t vi\u1ec7c m\u00e0 nh\u1eadn ba vi\u1ec7c.",
+        },
+      ],
+  }
+- {
+    slug: control-over-phr,
+    lemma: "control over",
+    pos: phrase,
+    kind: phrase,
+    cefr: B1,
+    topic: equality,
+    ipa: "/k\u0259n\u02c8tr\u0259\u028al \u02cc\u0259\u028av\u0259/",
+    def: "The power to decide what happens to something.",
+    vi: "quy\u1ec1n ki\u1ec3m so\u00e1t \u0111\u1ed1i v\u1edbi",
+    examples:
+      [
+        {
+          en: "Give people control over who sees their posts.",
+          vi: "Cho m\u1ecdi ng\u01b0\u1eddi quy\u1ec1n ki\u1ec3m so\u00e1t ai th\u1ea5y b\u00e0i \u0111\u0103ng c\u1ee7a h\u1ecd.",
+        },
+      ],
+  }
+- {
+    slug: permission-prompt-n,
+    lemma: "permission prompt",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: equality,
+    ipa: "/p\u0259\u02c8m\u026a\u0283n \u02ccpr\u0252mpt/",
+    def: "A pop-up asking the user to allow access to something.",
+    vi: "h\u1ed9p tho\u1ea1i xin quy\u1ec1n",
+    examples:
+      [
+        {
+          en: "Show the permission prompt only when the feature is used.",
+          vi: "Ch\u1ec9 hi\u1ec7n h\u1ed9p tho\u1ea1i xin quy\u1ec1n khi d\u00f9ng t\u00ednh n\u0103ng.",
+        },
+      ],
+  }
+# Set 8: Unintended consequences
+- {
+    slug: unforeseen-adj-t24,
+    lemma: "unforeseen",
+    pos: adjective,
+    cefr: C1,
+    topic: equality,
+    ipa: "/\u02cc\u028cnf\u0254\u02d0\u02c8si\u02d0n/",
+    def: "Not expected or planned for.",
+    vi: "kh\u00f4ng l\u01b0\u1eddng tr\u01b0\u1edbc",
+    examples:
+      [
+        {
+          en: "The streak feature had an unforeseen effect on sleep.",
+          vi: "T\u00ednh n\u0103ng chu\u1ed7i ng\u00e0y c\u00f3 t\u00e1c \u0111\u1ed9ng kh\u00f4ng l\u01b0\u1eddng tr\u01b0\u1edbc t\u1edbi gi\u1ea5c ng\u1ee7.",
+        },
+      ],
+  }
+- {
+    slug: by-product-n,
+    lemma: "by-product",
+    pos: noun,
+    cefr: C1,
+    topic: equality,
+    ipa: "/\u02c8ba\u026a pr\u0252d\u028ckt/",
+    def: "Something that happens as an extra result of something else.",
+    vi: "s\u1ea3n ph\u1ea9m ph\u1ee5, h\u1ec7 qu\u1ea3 ph\u1ee5",
+    examples:
+      [
+        {
+          en: "Long queues were a by-product of the new lottery.",
+          vi: "H\u00e0ng ch\u1edd d\u00e0i l\u00e0 h\u1ec7 qu\u1ea3 ph\u1ee5 c\u1ee7a c\u00e1ch b\u1ed1c th\u0103m m\u1edbi.",
+        },
+      ],
+  }
+- {
+    slug: backfire-v,
+    lemma: "backfire",
+    pos: verb,
+    cefr: C1,
+    topic: equality,
+    ipa: "/\u02ccb\u00e6k\u02c8fa\u026a\u0259/",
+    def: "To have the opposite result to the one you wanted.",
+    vi: "ph\u1ea3n t\u00e1c d\u1ee5ng",
+    examples:
+      [
+        {
+          en: "The reward points backfired and caused fake reviews.",
+          vi: "\u0110i\u1ec3m th\u01b0\u1edfng ph\u1ea3n t\u00e1c d\u1ee5ng v\u00e0 g\u00e2y ra \u0111\u00e1nh gi\u00e1 gi\u1ea3.",
+        },
+      ],
+  }
+- {
+    slug: misuse-n,
+    lemma: "misuse",
+    pos: noun,
+    cefr: B2,
+    topic: equality,
+    ipa: "/\u02ccm\u026as\u02c8ju\u02d0s/",
+    def: "Using something in a wrong or harmful way.",
+    vi: "s\u1ef1 l\u1ea1m d\u1ee5ng",
+    examples:
+      [
+        {
+          en: "Plan for misuse of the share feature.",
+          vi: "T\u00ednh \u0111\u1ebfn kh\u1ea3 n\u0103ng l\u1ea1m d\u1ee5ng t\u00ednh n\u0103ng chia s\u1ebb.",
+        },
+      ],
+  }
+- {
+    slug: harassment-n-t24,
+    lemma: "harassment",
+    pos: noun,
+    cefr: C1,
+    topic: equality,
+    ipa: "/\u02c8h\u00e6r\u0259sm\u0259nt/",
+    def: "Behaviour that annoys or threatens a person again and again.",
+    vi: "qu\u1ea5y r\u1ed1i",
+    examples:
+      [
+        {
+          en: "Public profiles led to harassment of drivers.",
+          vi: "H\u1ed3 s\u01a1 c\u00f4ng khai d\u1eabn \u0111\u1ebfn vi\u1ec7c t\u00e0i x\u1ebf b\u1ecb qu\u1ea5y r\u1ed1i.",
+        },
+      ],
+  }
+- {
+    slug: compulsive-adj,
+    lemma: "compulsive",
+    pos: adjective,
+    cefr: C1,
+    topic: equality,
+    ipa: "/k\u0259m\u02c8p\u028cls\u026av/",
+    def: "Hard to stop doing.",
+    vi: "kh\u00f4ng ki\u1ec3m so\u00e1t \u0111\u01b0\u1ee3c (th\u00e0nh th\u00f3i)",
+    examples:
+      [
+        {
+          en: "Endless scroll encourages compulsive use.",
+          vi: "Cu\u1ed9n v\u00f4 t\u1eadn khuy\u1ebfn kh\u00edch s\u1eed d\u1ee5ng kh\u00f4ng ki\u1ec3m so\u00e1t.",
+        },
+      ],
+  }
+- {
+    slug: ripple-effect-n,
+    lemma: "ripple effect",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: equality,
+    ipa: "/\u02c8r\u026apl \u026a\u02ccfekt/",
+    def: "A spreading series of effects caused by one event.",
+    vi: "hi\u1ec7u \u1ee9ng lan to\u1ea3",
+    examples:
+      [
+        {
+          en: "A price change has a ripple effect on small sellers.",
+          vi: "Thay \u0111\u1ed5i gi\u00e1 c\u00f3 hi\u1ec7u \u1ee9ng lan to\u1ea3 t\u1edbi ng\u01b0\u1eddi b\u00e1n nh\u1ecf.",
+        },
+      ],
+  }
+- {
+    slug: doxxing-n,
+    lemma: "doxxing",
+    pos: noun,
+    cefr: C1,
+    topic: equality,
+    ipa: "/\u02c8d\u0252ks\u026a\u014b/",
+    def: "Publishing someone's private details online to harm them.",
+    vi: "tung th\u00f4ng tin c\u00e1 nh\u00e2n",
+    examples:
+      [
+        {
+          en: "Showing exact addresses could enable doxxing.",
+          vi: "Hi\u1ec7n \u0111\u1ecba ch\u1ec9 ch\u00ednh x\u00e1c c\u00f3 th\u1ec3 d\u1eabn t\u1edbi vi\u1ec7c tung th\u00f4ng tin c\u00e1 nh\u00e2n.",
+        },
+      ],
+  }
+- {
+    slug: vulnerable-adj-t24,
+    lemma: "vulnerable",
+    pos: adjective,
+    cefr: B2,
+    topic: equality,
+    ipa: "/\u02c8v\u028cln\u0259r\u0259bl/",
+    def: "Easily hurt or harmed.",
+    vi: "d\u1ec5 b\u1ecb t\u1ed5n th\u01b0\u01a1ng",
+    examples:
+      [
+        {
+          en: "Scammers target vulnerable users through chat.",
+          vi: "K\u1ebb l\u1eeba \u0111\u1ea3o nh\u1eafm v\u00e0o ng\u01b0\u1eddi d\u00f9ng d\u1ec5 b\u1ecb t\u1ed5n th\u01b0\u01a1ng qua chat.",
+        },
+      ],
+  }
+- {
+    slug: foreseeable-adj,
+    lemma: "foreseeable",
+    pos: adjective,
+    cefr: C1,
+    topic: equality,
+    ipa: "/f\u0254\u02d0\u02c8si\u02d0\u0259bl/",
+    def: "Possible to know about before it happens.",
+    vi: "c\u00f3 th\u1ec3 l\u01b0\u1eddng tr\u01b0\u1edbc",
+    examples:
+      [
+        {
+          en: "This abuse was foreseeable from the start.",
+          vi: "Vi\u1ec7c l\u1ea1m d\u1ee5ng n\u00e0y c\u00f3 th\u1ec3 l\u01b0\u1eddng tr\u01b0\u1edbc t\u1eeb \u0111\u1ea7u.",
+        },
+      ],
+  }
+- {
+    slug: echo-chamber-n,
+    lemma: "echo chamber",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: equality,
+    ipa: "/\u02c8ek\u0259\u028a \u02cct\u0283e\u026amb\u0259/",
+    def: "A place where people only hear opinions like their own.",
+    vi: "bu\u1ed3ng vang (ch\u1ec9 nghe \u00fd ki\u1ebfn gi\u1ed1ng m\u00ecnh)",
+    examples:
+      [
+        {
+          en: "The feed turned into an echo chamber.",
+          vi: "B\u1ea3ng tin bi\u1ebfn th\u00e0nh bu\u1ed3ng vang.",
+        },
+      ],
+  }
+- {
+    slug: displace-v,
+    lemma: "displace",
+    pos: verb,
+    cefr: C1,
+    topic: equality,
+    ipa: "/d\u026as\u02c8ple\u026as/",
+    def: "To force people out of their place, job or position.",
+    vi: "thay th\u1ebf, \u0111\u1ea9y ra",
+    examples:
+      [
+        {
+          en: "Auto-replies may displace part-time support staff.",
+          vi: "Tr\u1ea3 l\u1eddi t\u1ef1 \u0111\u1ed9ng c\u00f3 th\u1ec3 \u0111\u1ea9y nh\u00e2n vi\u00ean h\u1ed7 tr\u1ee3 b\u00e1n th\u1eddi gian ra kh\u1ecfi vi\u1ec7c.",
+        },
+      ],
+  }
+- {
+    slug: protective-measure-n,
+    lemma: "protective measure",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: equality,
+    ipa: "/pr\u0259\u02cctekt\u026av \u02c8me\u0292\u0259/",
+    def: "An action taken to stop harm.",
+    vi: "bi\u1ec7n ph\u00e1p b\u1ea3o v\u1ec7",
+    examples:
+      [
+        {
+          en: "Add a protective measure before money is sent.",
+          vi: "Th\u00eam bi\u1ec7n ph\u00e1p b\u1ea3o v\u1ec7 tr\u01b0\u1edbc khi g\u1eedi ti\u1ec1n.",
+        },
+      ],
+  }
+- {
+    slug: balancing-act-n-t24,
+    lemma: "balancing act",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: equality,
+    ipa: "/\u02c8b\u00e6l\u0259ns\u026a\u014b \u02cc\u00e6kt/",
+    def: "A situation where you must keep two needs in balance.",
+    vi: "s\u1ef1 c\u00e2n b\u1eb1ng kh\u00f3 kh\u0103n",
+    examples:
+      [
+        {
+          en: "Speed versus safety is a balancing act here.",
+          vi: "T\u1ed1c \u0111\u1ed9 v\u00e0 an to\u00e0n \u1edf \u0111\u00e2y l\u00e0 b\u00e0i to\u00e1n c\u00e2n b\u1eb1ng.",
+        },
+      ],
+  }
+- {
+    slug: over-time-phr,
+    lemma: "over time",
+    pos: phrase,
+    kind: phrase,
+    cefr: B1,
+    topic: equality,
+    ipa: "/\u02cc\u0259\u028av\u0259 \u02c8ta\u026am/",
+    def: "Slowly, during a long period.",
+    vi: "theo th\u1eddi gian",
+    examples:
+      [
+        {
+          en: "Over time, small fees add up for poor users.",
+          vi: "Theo th\u1eddi gian, ph\u00ed nh\u1ecf c\u1ed9ng d\u1ed3n v\u1edbi ng\u01b0\u1eddi d\u00f9ng ngh\u00e8o.",
+        },
+      ],
+  }
+- {
+    slug: isolation-n,
+    lemma: "isolation",
+    pos: noun,
+    cefr: B2,
+    topic: equality,
+    ipa: "/\u02cca\u026as\u0259\u02c8le\u026a\u0283n/",
+    def: "Being alone and without contact with others.",
+    vi: "s\u1ef1 c\u00f4 l\u1eadp",
+    examples:
+      [
+        {
+          en: "Remote-only events can increase isolation.",
+          vi: "S\u1ef1 ki\u1ec7n ch\u1ec9 online c\u00f3 th\u1ec3 l\u00e0m t\u0103ng s\u1ef1 c\u00f4 l\u1eadp.",
+        },
+      ],
+  }
+- {
+    slug: misinformation-n,
+    lemma: "misinformation",
+    pos: noun,
+    cefr: C1,
+    topic: equality,
+    ipa: "/\u02ccm\u026as\u026anf\u0259\u02c8me\u026a\u0283n/",
+    def: "Wrong information, often spread without meaning to.",
+    vi: "th\u00f4ng tin sai l\u1ec7ch",
+    examples:
+      [
+        {
+          en: "Forwarding without limits spreads misinformation.",
+          vi: "Chuy\u1ec3n ti\u1ebfp kh\u00f4ng gi\u1edbi h\u1ea1n l\u00e0m lan th\u00f4ng tin sai l\u1ec7ch.",
+        },
+      ],
+  }
+- {
+    slug: amplify-v,
+    lemma: "amplify",
+    pos: verb,
+    cefr: C1,
+    topic: equality,
+    ipa: "/\u02c8\u00e6mpl\u026afa\u026a/",
+    def: "To make something stronger or reach more people.",
+    vi: "khu\u1ebfch \u0111\u1ea1i",
+    examples:
+      [
+        {
+          en: "The ranking amplifies angry posts.",
+          vi: "Thu\u1eadt to\u00e1n x\u1ebfp h\u1ea1ng khu\u1ebfch \u0111\u1ea1i c\u00e1c b\u00e0i gi\u1eadn d\u1eef.",
+        },
+      ],
+  }
+- {
+    slug: polarise-v,
+    lemma: "polarise",
+    pos: verb,
+    cefr: C1,
+    topic: equality,
+    ipa: "/\u02c8p\u0259\u028al\u0259ra\u026az/",
+    def: "To divide people into two opposite groups.",
+    vi: "ph\u00e2n c\u1ef1c",
+    examples:
+      [
+        {
+          en: "Comment sorting can polarise a community.",
+          vi: "C\u00e1ch s\u1eafp x\u1ebfp b\u00ecnh lu\u1eadn c\u00f3 th\u1ec3 l\u00e0m c\u1ed9ng \u0111\u1ed3ng ph\u00e2n c\u1ef1c.",
+        },
+      ],
+  }
+- {
+    slug: gig-worker-n,
+    lemma: "gig worker",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: equality,
+    ipa: "/\u02c8\u0261\u026a\u0261 \u02ccw\u025c\u02d0k\u0259/",
+    def: "A person paid for each short job, often through an app.",
+    vi: "lao \u0111\u1ed9ng t\u1ef1 do qua n\u1ec1n t\u1ea3ng",
+    examples:
+      [
+        {
+          en: "Gig workers lose income when the algorithm changes.",
+          vi: "Lao \u0111\u1ed9ng qua n\u1ec1n t\u1ea3ng m\u1ea5t thu nh\u1eadp khi thu\u1eadt to\u00e1n thay \u0111\u1ed5i.",
+        },
+      ],
+  }
+- {
+    slug: livelihood-n,
+    lemma: "livelihood",
+    pos: noun,
+    cefr: C1,
+    topic: equality,
+    ipa: "/\u02c8la\u026avlih\u028ad/",
+    def: "The way a person earns money to live.",
+    vi: "sinh k\u1ebf",
+    examples:
+      [
+        {
+          en: "For these sellers, the app is their livelihood.",
+          vi: "V\u1edbi nh\u1eefng ng\u01b0\u1eddi b\u00e1n n\u00e0y, app l\u00e0 sinh k\u1ebf c\u1ee7a h\u1ecd.",
+        },
+      ],
+  }
+- {
+    slug: stalking-n,
+    lemma: "stalking",
+    pos: noun,
+    cefr: C1,
+    topic: equality,
+    ipa: "/\u02c8st\u0254\u02d0k\u026a\u014b/",
+    def: "Following or watching someone in a frightening way.",
+    vi: "theo d\u00f5i, r\u00ecnh r\u1eadp",
+    examples:
+      [
+        {
+          en: "Live location could be used for stalking.",
+          vi: "V\u1ecb tr\u00ed tr\u1ef1c ti\u1ebfp c\u00f3 th\u1ec3 b\u1ecb d\u00f9ng \u0111\u1ec3 r\u00ecnh r\u1eadp.",
+        },
+      ],
+  }
+- {
+    slug: downstream-adj-t24,
+    lemma: "downstream",
+    pos: adjective,
+    cefr: C1,
+    topic: equality,
+    ipa: "/\u02ccda\u028an\u02c8stri\u02d0m/",
+    def: "Happening later, as a result of an earlier step.",
+    vi: "ph\u00eda sau, h\u1ea1 ngu\u1ed3n",
+    examples:
+      [
+        {
+          en: "Think about the downstream effects on partners.",
+          vi: "H\u00e3y ngh\u0129 t\u1edbi t\u00e1c \u0111\u1ed9ng ph\u00eda sau l\u00ean \u0111\u1ed1i t\u00e1c.",
+        },
+      ],
+  }
+- {
+    slug: worst-case-adj-t24,
+    lemma: "worst-case",
+    pos: adjective,
+    kind: collocation,
+    cefr: B2,
+    topic: equality,
+    ipa: "/\u02ccw\u025c\u02d0st \u02c8ke\u026as/",
+    def: "Describing the worst thing that could happen.",
+    vi: "t\u00ecnh hu\u1ed1ng x\u1ea5u nh\u1ea5t",
+    examples:
+      [
+        {
+          en: "What is the worst-case outcome for a child user?",
+          vi: "K\u1ebft qu\u1ea3 x\u1ea5u nh\u1ea5t v\u1edbi ng\u01b0\u1eddi d\u00f9ng tr\u1ebb em l\u00e0 g\u00ec?",
+        },
+      ],
+  }
+# Set 9: Responsible rollout
+- {
+    slug: launch-plan-n,
+    lemma: "launch plan",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: equality,
+    ipa: "/\u02c8l\u0254\u02d0nt\u0283 \u02ccpl\u00e6n/",
+    def: "A plan for how and when to release a product.",
+    vi: "k\u1ebf ho\u1ea1ch ra m\u1eaft",
+    examples:
+      [
+        {
+          en: "The launch plan starts with 5% of users.",
+          vi: "K\u1ebf ho\u1ea1ch ra m\u1eaft b\u1eaft \u0111\u1ea7u v\u1edbi 5% ng\u01b0\u1eddi d\u00f9ng.",
+        },
+      ],
+  }
+- {
+    slug: test-group-n,
+    lemma: "test group",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: equality,
+    ipa: "/\u02c8test \u02cc\u0261ru\u02d0p/",
+    def: "A small set of users who get a new feature first.",
+    vi: "nh\u00f3m th\u1eed nghi\u1ec7m",
+    examples:
+      [
+        {
+          en: "Start with one school as the test group.",
+          vi: "B\u1eaft \u0111\u1ea7u v\u1edbi m\u1ed9t tr\u01b0\u1eddng l\u00e0m nh\u00f3m th\u1eed nghi\u1ec7m.",
+        },
+      ],
+  }
+- {
+    slug: phased-adj,
+    lemma: "phased",
+    pos: adjective,
+    cefr: C1,
+    topic: equality,
+    ipa: "/fe\u026azd/",
+    def: "Done in stages, one after another.",
+    vi: "theo giai \u0111o\u1ea1n",
+    examples:
+      [
+        {
+          en: "We prefer a phased launch by region.",
+          vi: "B\u1ecdn m\u00ecnh th\u00edch ra m\u1eaft theo giai \u0111o\u1ea1n t\u1eebng v\u00f9ng.",
+        },
+      ],
+  }
+- {
+    slug: cohort-n-t24,
+    lemma: "cohort",
+    pos: noun,
+    cefr: C1,
+    topic: equality,
+    ipa: "/\u02c8k\u0259\u028ah\u0254\u02d0t/",
+    def: "A group of users who share something, such as their start date.",
+    vi: "nh\u00f3m (ng\u01b0\u1eddi d\u00f9ng)",
+    examples:
+      [
+        {
+          en: "Compare the new cohort with last month's.",
+          vi: "So s\u00e1nh nh\u00f3m m\u1edbi v\u1edbi nh\u00f3m th\u00e1ng tr\u01b0\u1edbc.",
+        },
+      ],
+  }
+- {
+    slug: usage-cap-n,
+    lemma: "usage cap",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: equality,
+    ipa: "/\u02c8ju\u02d0s\u026ad\u0292 \u02cck\u00e6p/",
+    def: "A limit on how much something can be used.",
+    vi: "gi\u1edbi h\u1ea1n s\u1eed d\u1ee5ng",
+    examples:
+      [
+        {
+          en: "Add a usage cap: no more than three messages a day.",
+          vi: "Th\u00eam gi\u1edbi h\u1ea1n: kh\u00f4ng qu\u00e1 ba tin nh\u1eafn m\u1ed9t ng\u00e0y.",
+        },
+      ],
+  }
+- {
+    slug: halt-v,
+    lemma: "halt",
+    pos: verb,
+    cefr: B2,
+    topic: equality,
+    ipa: "/h\u0254\u02d0lt/",
+    def: "To stop something.",
+    vi: "d\u1eebng l\u1ea1i",
+    examples:
+      [
+        {
+          en: "We will halt the rollout if complaints double.",
+          vi: "M\u00ecnh s\u1ebd d\u1eebng tri\u1ec3n khai n\u1ebfu khi\u1ebfu n\u1ea1i t\u0103ng g\u1ea5p \u0111\u00f4i.",
+        },
+      ],
+  }
+- {
+    slug: stop-condition-n,
+    lemma: "stop condition",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: equality,
+    ipa: "/\u02c8st\u0252p k\u0259n\u02ccd\u026a\u0283n/",
+    def: "A rule that says when to stop a test or release.",
+    vi: "\u0111i\u1ec1u ki\u1ec7n d\u1eebng",
+    examples:
+      [
+        {
+          en: "Agree the stop condition before launch.",
+          vi: "Th\u1ed1ng nh\u1ea5t \u0111i\u1ec1u ki\u1ec7n d\u1eebng tr\u01b0\u1edbc khi ra m\u1eaft.",
+        },
+      ],
+  }
+- {
+    slug: watch-over-pv,
+    lemma: "watch over",
+    pos: phrasal_verb,
+    kind: phrasal,
+    cefr: B2,
+    topic: equality,
+    ipa: "/\u02ccw\u0252t\u0283 \u02c8\u0259\u028av\u0259/",
+    def: "To watch something carefully so nothing goes wrong.",
+    vi: "tr\u00f4ng ch\u1eebng, theo s\u00e1t",
+    examples:
+      [
+        {
+          en: "Someone must watch over refund requests this week.",
+          vi: "Ph\u1ea3i c\u00f3 ng\u01b0\u1eddi theo s\u00e1t y\u00eau c\u1ea7u ho\u00e0n ti\u1ec1n tu\u1ea7n n\u00e0y.",
+        },
+      ],
+  }
+- {
+    slug: retire-v,
+    lemma: "retire",
+    pos: verb,
+    cefr: B2,
+    topic: equality,
+    ipa: "/r\u026a\u02c8ta\u026a\u0259/",
+    def: "To stop using or offering something old.",
+    vi: "ng\u1eebng d\u00f9ng, khai t\u1eed",
+    examples:
+      [
+        {
+          en: "We'll retire the old flow once the new one is stable.",
+          vi: "M\u00ecnh s\u1ebd khai t\u1eed lu\u1ed3ng c\u0169 khi lu\u1ed3ng m\u1edbi \u1ed5n \u0111\u1ecbnh.",
+        },
+      ],
+  }
+- {
+    slug: impact-assessment-n,
+    lemma: "impact assessment",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: equality,
+    ipa: "/\u02c8\u026amp\u00e6kt \u0259\u02ccsesm\u0259nt/",
+    def: "A study of how a change may affect people.",
+    vi: "\u0111\u00e1nh gi\u00e1 t\u00e1c \u0111\u1ed9ng",
+    examples:
+      [
+        {
+          en: "Write an impact assessment for the pricing change.",
+          vi: "Vi\u1ebft \u0111\u00e1nh gi\u00e1 t\u00e1c \u0111\u1ed9ng cho thay \u0111\u1ed5i gi\u00e1.",
+        },
+      ],
+  }
+- {
+    slug: affected-party-n,
+    lemma: "affected party",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: equality,
+    ipa: "/\u0259\u02ccfekt\u026ad \u02c8p\u0251\u02d0ti/",
+    def: "A person or group touched by a decision.",
+    vi: "b\u00ean b\u1ecb \u1ea3nh h\u01b0\u1edfng",
+    examples:
+      [
+        {
+          en: "List every affected party, including drivers.",
+          vi: "Li\u1ec7t k\u00ea m\u1ecdi b\u00ean b\u1ecb \u1ea3nh h\u01b0\u1edfng, k\u1ec3 c\u1ea3 t\u00e0i x\u1ebf.",
+        },
+      ],
+  }
+- {
+    slug: go-ahead-n,
+    lemma: "go-ahead",
+    pos: noun,
+    cefr: B2,
+    topic: equality,
+    ipa: "/\u02c8\u0261\u0259\u028a \u0259hed/",
+    def: "Permission to start something.",
+    vi: "s\u1ef1 cho ph\u00e9p b\u1eaft \u0111\u1ea7u",
+    examples:
+      [
+        {
+          en: "Legal gave us the go-ahead on Friday.",
+          vi: "B\u1ed9 ph\u1eadn ph\u00e1p l\u00fd cho ph\u00e9p b\u1eaft \u0111\u1ea7u v\u00e0o th\u1ee9 S\u00e1u.",
+        },
+      ],
+  }
+- {
+    slug: flag-up-pv-t24,
+    lemma: "flag up",
+    pos: phrasal_verb,
+    kind: phrasal,
+    cefr: B2,
+    topic: equality,
+    ipa: "/\u02ccfl\u00e6\u0261 \u02c8\u028cp/",
+    def: "To bring a problem to someone's attention.",
+    vi: "b\u00e1o l\u00ean, n\u00eau ra",
+    examples:
+      [
+        {
+          en: "Flag up any safety report to the on-call lead.",
+          vi: "B\u00e1o m\u1ecdi ph\u1ea3n \u00e1nh an to\u00e0n l\u00ean tr\u01b0\u1edfng ca tr\u1ef1c.",
+        },
+      ],
+  }
+- {
+    slug: incident-n,
+    lemma: "incident",
+    pos: noun,
+    cefr: B2,
+    topic: equality,
+    ipa: "/\u02c8\u026ans\u026ad\u0259nt/",
+    def: "An unexpected event that causes a problem.",
+    vi: "s\u1ef1 c\u1ed1",
+    examples:
+      [
+        {
+          en: "Log every incident with the time and the users affected.",
+          vi: "Ghi l\u1ea1i m\u1ecdi s\u1ef1 c\u1ed1 k\u00e8m th\u1eddi gian v\u00e0 ng\u01b0\u1eddi b\u1ecb \u1ea3nh h\u01b0\u1edfng.",
+        },
+      ],
+  }
+- {
+    slug: lessen-v,
+    lemma: "lessen",
+    pos: verb,
+    cefr: C1,
+    topic: equality,
+    ipa: "/\u02c8lesn/",
+    def: "To make something smaller or weaker.",
+    vi: "gi\u1ea3m b\u1edbt",
+    examples:
+      [
+        {
+          en: "A clear warning will lessen the harm.",
+          vi: "M\u1ed9t c\u1ea3nh b\u00e1o r\u00f5 r\u00e0ng s\u1ebd gi\u1ea3m b\u1edbt thi\u1ec7t h\u1ea1i.",
+        },
+      ],
+  }
+- {
+    slug: legally-responsible-adj,
+    lemma: "legally responsible",
+    pos: adjective,
+    kind: collocation,
+    cefr: C1,
+    topic: equality,
+    ipa: "/\u02ccli\u02d0\u0261\u0259li r\u026a\u02c8sp\u0252ns\u0259bl/",
+    def: "Having to answer to the law for something.",
+    vi: "ch\u1ecbu tr\u00e1ch nhi\u1ec7m ph\u00e1p l\u00fd",
+    examples:
+      [
+        {
+          en: "The company is legally responsible if data leaks.",
+          vi: "C\u00f4ng ty ch\u1ecbu tr\u00e1ch nhi\u1ec7m ph\u00e1p l\u00fd n\u1ebfu l\u1ed9 d\u1eef li\u1ec7u.",
+        },
+      ],
+  }
+- {
+    slug: oversight-n-t24,
+    lemma: "oversight",
+    pos: noun,
+    cefr: C1,
+    topic: equality,
+    ipa: "/\u02c8\u0259\u028av\u0259sa\u026at/",
+    def: "The job of watching and checking that work is done properly.",
+    vi: "s\u1ef1 gi\u00e1m s\u00e1t",
+    examples:
+      [
+        {
+          en: "The AI feature needs oversight from a review board.",
+          vi: "T\u00ednh n\u0103ng AI c\u1ea7n s\u1ef1 gi\u00e1m s\u00e1t c\u1ee7a h\u1ed9i \u0111\u1ed3ng x\u00e9t duy\u1ec7t.",
+        },
+      ],
+  }
+- {
+    slug: ethics-review-n,
+    lemma: "ethics review",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: equality,
+    ipa: "/\u02c8e\u03b8\u026aks r\u026a\u02ccvju\u02d0/",
+    def: "A check that a project treats people in a right and fair way.",
+    vi: "x\u00e9t duy\u1ec7t \u0111\u1ea1o \u0111\u1ee9c",
+    examples:
+      [
+        {
+          en: "Face matching must pass an ethics review.",
+          vi: "Nh\u1eadn di\u1ec7n khu\u00f4n m\u1eb7t ph\u1ea3i qua x\u00e9t duy\u1ec7t \u0111\u1ea1o \u0111\u1ee9c.",
+        },
+      ],
+  }
+- {
+    slug: ethical-adj,
+    lemma: "ethical",
+    pos: adjective,
+    cefr: B2,
+    topic: equality,
+    ipa: "/\u02c8e\u03b8\u026akl/",
+    def: "Morally right.",
+    vi: "c\u00f3 \u0111\u1ea1o \u0111\u1ee9c",
+    examples:
+      [
+        {
+          en: "Is it ethical to test prices on poor users?",
+          vi: "Th\u1eed gi\u00e1 tr\u00ean ng\u01b0\u1eddi d\u00f9ng ngh\u00e8o c\u00f3 \u0111\u1ea1o \u0111\u1ee9c kh\u00f4ng?",
+        },
+      ],
+  }
+- {
+    slug: regulator-n,
+    lemma: "regulator",
+    pos: noun,
+    cefr: C1,
+    topic: equality,
+    ipa: "/\u02c8re\u0261jule\u026at\u0259/",
+    def: "An official organisation that makes sure rules are followed.",
+    vi: "c\u01a1 quan qu\u1ea3n l\u00fd",
+    examples:
+      [
+        {
+          en: "The regulator asked how we store ID photos.",
+          vi: "C\u01a1 quan qu\u1ea3n l\u00fd h\u1ecfi b\u1ecdn m\u00ecnh l\u01b0u \u1ea3nh CCCD th\u1ebf n\u00e0o.",
+        },
+      ],
+  }
+- {
+    slug: legal-requirement-n,
+    lemma: "legal requirement",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: equality,
+    ipa: "/\u02ccli\u02d0\u0261l r\u026a\u02c8kwa\u026a\u0259m\u0259nt/",
+    def: "Something the law says you must do.",
+    vi: "y\u00eau c\u1ea7u ph\u00e1p l\u00fd",
+    examples:
+      [
+        {
+          en: "Age checks are a legal requirement here.",
+          vi: "Ki\u1ec3m tra tu\u1ed5i l\u00e0 y\u00eau c\u1ea7u ph\u00e1p l\u00fd \u1edf \u0111\u00e2y.",
+        },
+      ],
+  }
+- {
+    slug: readiness-n,
+    lemma: "readiness",
+    pos: noun,
+    cefr: C1,
+    topic: equality,
+    ipa: "/\u02c8redin\u0259s/",
+    def: "The state of being fully prepared.",
+    vi: "s\u1ef1 s\u1eb5n s\u00e0ng",
+    examples:
+      [
+        {
+          en: "Support readiness is part of the launch checklist.",
+          vi: "S\u1ef1 s\u1eb5n s\u00e0ng c\u1ee7a \u0111\u1ed9i h\u1ed7 tr\u1ee3 n\u1eb1m trong checklist ra m\u1eaft.",
+        },
+      ],
+  }
+- {
+    slug: beta-tester-n-t24,
+    lemma: "beta tester",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: equality,
+    ipa: "/\u02c8bi\u02d0t\u0259 \u02cctest\u0259/",
+    def: "A person who tries a product before its official release.",
+    vi: "ng\u01b0\u1eddi th\u1eed nghi\u1ec7m b\u1ea3n beta",
+    examples:
+      [
+        {
+          en: "Recruit beta testers from rural provinces too.",
+          vi: "Tuy\u1ec3n c\u1ea3 ng\u01b0\u1eddi th\u1eed b\u1ea3n beta t\u1eeb c\u00e1c t\u1ec9nh n\u00f4ng th\u00f4n.",
+        },
+      ],
+  }
+- {
+    slug: canary-release-n,
+    lemma: "canary release",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: equality,
+    ipa: "/k\u0259\u02c8ne\u0259ri r\u026a\u02ccli\u02d0s/",
+    def: "Releasing a change to a tiny group first to catch problems early.",
+    vi: "ph\u00e1t h\u00e0nh canary",
+    examples:
+      [
+        {
+          en: "The canary release found the crash in an hour.",
+          vi: "B\u1ea3n ph\u00e1t h\u00e0nh canary ph\u00e1t hi\u1ec7n l\u1ed7i crash trong m\u1ed9t gi\u1edd.",
+        },
+      ],
+  }
+- {
+    slug: undo-v-t24,
+    lemma: "undo",
+    pos: verb,
+    cefr: B1,
+    topic: equality,
+    ipa: "/\u028cn\u02c8du\u02d0/",
+    def: "To reverse a change.",
+    vi: "ho\u00e0n t\u00e1c",
+    examples:
+      [
+        {
+          en: "Be ready to undo the release within ten minutes.",
+          vi: "S\u1eb5n s\u00e0ng ho\u00e0n t\u00e1c b\u1ea3n ph\u00e1t h\u00e0nh trong m\u01b0\u1eddi ph\u00fat.",
+        },
+      ],
+  }
+- {
+    slug: fallback-plan-n,
+    lemma: "fallback plan",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: equality,
+    ipa: "/\u02c8f\u0254\u02d0lb\u00e6k \u02ccpl\u00e6n/",
+    def: "A plan to use if the main one fails.",
+    vi: "ph\u01b0\u01a1ng \u00e1n d\u1ef1 ph\u00f2ng",
+    examples:
+      [
+        {
+          en: "Our fallback plan is manual approval by staff.",
+          vi: "Ph\u01b0\u01a1ng \u00e1n d\u1ef1 ph\u00f2ng l\u00e0 nh\u00e2n vi\u00ean duy\u1ec7t th\u1ee7 c\u00f4ng.",
+        },
+      ],
+  }
+- {
+    slug: success-metric-n,
+    lemma: "success metric",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: equality,
+    ipa: "/s\u0259k\u02c8ses \u02ccmetr\u026ak/",
+    def: "A number used to decide whether something worked.",
+    vi: "ch\u1ec9 s\u1ed1 th\u00e0nh c\u00f4ng",
+    examples:
+      [
+        {
+          en: "Add a success metric for users with disabilities.",
+          vi: "Th\u00eam ch\u1ec9 s\u1ed1 th\u00e0nh c\u00f4ng cho ng\u01b0\u1eddi d\u00f9ng khuy\u1ebft t\u1eadt.",
+        },
+      ],
+  }
+- {
+    slug: red-flag-n,
+    lemma: "red flag",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: equality,
+    ipa: "/\u02ccred \u02c8fl\u00e6\u0261/",
+    def: "A sign that something is wrong.",
+    vi: "d\u1ea5u hi\u1ec7u c\u1ea3nh b\u00e1o",
+    examples:
+      [
+        {
+          en: "A jump in support tickets is a red flag.",
+          vi: "Ticket h\u1ed7 tr\u1ee3 t\u0103ng v\u1ecdt l\u00e0 d\u1ea5u hi\u1ec7u c\u1ea3nh b\u00e1o.",
+        },
+      ],
+  }
+# Set 10: An inclusive product review
+- {
+    slug: inclusive-adj-t24,
+    lemma: "inclusive",
+    pos: adjective,
+    cefr: B2,
+    topic: equality,
+    ipa: "/\u026an\u02c8klu\u02d0s\u026av/",
+    def: "Including everyone and not leaving any group out.",
+    vi: "bao tr\u00f9m, ho\u00e0 nh\u1eadp",
+    examples:
+      [
+        {
+          en: "An inclusive form accepts names of any length.",
+          vi: "M\u1ed9t form bao tr\u00f9m ch\u1ea5p nh\u1eadn t\u00ean v\u1edbi m\u1ecdi \u0111\u1ed9 d\u00e0i.",
+        },
+      ],
+  }
+- {
+    slug: equity-n,
+    lemma: "equity",
+    pos: noun,
+    cefr: C1,
+    topic: equality,
+    ipa: "/\u02c8ekw\u0259ti/",
+    def: "Giving people what they need so their chances are fair.",
+    vi: "s\u1ef1 c\u00f4ng b\u1eb1ng (theo nhu c\u1ea7u)",
+    examples:
+      [
+        {
+          en: "Equity may mean extra help for slow connections.",
+          vi: "C\u00f4ng b\u1eb1ng c\u00f3 th\u1ec3 ngh\u0129a l\u00e0 h\u1ed7 tr\u1ee3 th\u00eam cho k\u1ebft n\u1ed1i ch\u1eadm.",
+        },
+      ],
+  }
+- {
+    slug: diversity-n,
+    lemma: "diversity",
+    pos: noun,
+    cefr: B2,
+    topic: equality,
+    ipa: "/da\u026a\u02c8v\u025c\u02d0s\u0259ti/",
+    def: "Having many different types of people.",
+    vi: "s\u1ef1 \u0111a d\u1ea1ng",
+    examples:
+      [
+        {
+          en: "Our test panel lacks diversity.",
+          vi: "Nh\u00f3m th\u1eed nghi\u1ec7m c\u1ee7a m\u00ecnh thi\u1ebfu \u0111a d\u1ea1ng.",
+        },
+      ],
+  }
+- {
+    slug: representation-n,
+    lemma: "representation",
+    pos: noun,
+    cefr: C1,
+    topic: equality,
+    ipa: "/\u02ccrepr\u026azen\u02c8te\u026a\u0283n/",
+    def: "How a group is shown or included.",
+    vi: "s\u1ef1 \u0111\u1ea1i di\u1ec7n",
+    examples:
+      [
+        {
+          en: "Check the representation of women in our ads.",
+          vi: "Ki\u1ec3m tra s\u1ef1 \u0111\u1ea1i di\u1ec7n c\u1ee7a ph\u1ee5 n\u1eef trong qu\u1ea3ng c\u00e1o.",
+        },
+      ],
+  }
+- {
+    slug: intersectionality-n,
+    lemma: "intersectionality",
+    pos: noun,
+    cefr: C1,
+    topic: equality,
+    ipa: "/\u02cc\u026ant\u0259\u02ccsek\u0283\u0259\u02c8n\u00e6l\u0259ti/",
+    def: "The way different parts of who you are, such as gender and income, combine to affect you.",
+    vi: "t\u00ednh giao thoa",
+    examples:
+      [
+        {
+          en: "Intersectionality matters: older rural women face both problems.",
+          vi: "T\u00ednh giao thoa quan tr\u1ecdng: ph\u1ee5 n\u1eef l\u1edbn tu\u1ed5i \u1edf n\u00f4ng th\u00f4n g\u1eb7p c\u1ea3 hai v\u1ea5n \u0111\u1ec1.",
+        },
+      ],
+  }
+- {
+    slug: empathy-n-t24,
+    lemma: "empathy",
+    pos: noun,
+    cefr: B2,
+    topic: equality,
+    ipa: "/\u02c8emp\u0259\u03b8i/",
+    def: "The ability to understand how another person feels.",
+    vi: "s\u1ef1 th\u1ea5u c\u1ea3m",
+    examples:
+      [
+        {
+          en: "Watching real sessions builds empathy in the team.",
+          vi: "Xem phi\u00ean d\u00f9ng th\u1eadt gi\u00fap nh\u00f3m th\u1ea5u c\u1ea3m h\u01a1n.",
+        },
+      ],
+  }
+- {
+    slug: lived-experience-n,
+    lemma: "lived experience",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: equality,
+    ipa: "/\u02ccl\u026avd \u026ak\u02c8sp\u026a\u0259ri\u0259ns/",
+    def: "Knowledge that comes from living through something yourself.",
+    vi: "tr\u1ea3i nghi\u1ec7m th\u1ef1c t\u1ebf b\u1ea3n th\u00e2n",
+    examples:
+      [
+        {
+          en: "Invite people with lived experience of blindness.",
+          vi: "M\u1eddi nh\u1eefng ng\u01b0\u1eddi t\u1eebng tr\u1ea3i nghi\u1ec7m th\u1ef1c t\u1ebf vi\u1ec7c khi\u1ebfm th\u1ecb.",
+        },
+      ],
+  }
+- {
+    slug: advocate-n,
+    lemma: "advocate",
+    pos: noun,
+    cefr: C1,
+    topic: equality,
+    ipa: "/\u02c8\u00e6dv\u0259k\u0259t/",
+    def: "A person who speaks up for a group or idea.",
+    vi: "ng\u01b0\u1eddi b\u00eanh v\u1ef1c, ng\u01b0\u1eddi \u1ee7ng h\u1ed9",
+    examples:
+      [
+        {
+          en: "Mai is the accessibility advocate on our team.",
+          vi: "Mai l\u00e0 ng\u01b0\u1eddi \u1ee7ng h\u1ed9 kh\u1ea3 n\u0103ng ti\u1ebfp c\u1eadn trong nh\u00f3m.",
+        },
+      ],
+  }
+- {
+    slug: underserved-adj,
+    lemma: "underserved",
+    pos: adjective,
+    cefr: C1,
+    topic: equality,
+    ipa: "/\u02cc\u028cnd\u0259\u02c8s\u025c\u02d0vd/",
+    def: "Not given enough services or help.",
+    vi: "ch\u01b0a \u0111\u01b0\u1ee3c ph\u1ee5c v\u1ee5 \u0111\u1ea7y \u0111\u1ee7",
+    examples:
+      [
+        {
+          en: "Mountain districts are underserved by delivery apps.",
+          vi: "C\u00e1c huy\u1ec7n mi\u1ec1n n\u00fai ch\u01b0a \u0111\u01b0\u1ee3c app giao h\u00e0ng ph\u1ee5c v\u1ee5 \u0111\u1ea7y \u0111\u1ee7.",
+        },
+      ],
+  }
+- {
+    slug: socioeconomic-adj,
+    lemma: "socioeconomic",
+    pos: adjective,
+    cefr: C1,
+    topic: equality,
+    ipa: "/\u02ccs\u0259\u028asi\u0259\u028a\u02cci\u02d0k\u0259\u02c8n\u0252m\u026ak/",
+    def: "Related to both social position and money.",
+    vi: "kinh t\u1ebf - x\u00e3 h\u1ed9i",
+    examples:
+      [
+        {
+          en: "Socioeconomic background affects which phone people have.",
+          vi: "Ho\u00e0n c\u1ea3nh kinh t\u1ebf - x\u00e3 h\u1ed9i \u1ea3nh h\u01b0\u1edfng t\u1edbi \u0111i\u1ec7n tho\u1ea1i m\u1ecdi ng\u01b0\u1eddi d\u00f9ng.",
+        },
+      ],
+  }
+- {
+    slug: access-gap-n,
+    lemma: "access gap",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: equality,
+    ipa: "/\u02c8\u00e6kses \u02cc\u0261\u00e6p/",
+    def: "The difference between groups who can and cannot use something.",
+    vi: "kho\u1ea3ng c\u00e1ch ti\u1ebfp c\u1eadn",
+    examples:
+      [
+        {
+          en: "The access gap is widest among people over seventy.",
+          vi: "Kho\u1ea3ng c\u00e1ch ti\u1ebfp c\u1eadn l\u1edbn nh\u1ea5t \u1edf ng\u01b0\u1eddi tr\u00ean b\u1ea3y m\u01b0\u01a1i.",
+        },
+      ],
+  }
+- {
+    slug: affordability-n,
+    lemma: "affordability",
+    pos: noun,
+    cefr: C1,
+    topic: equality,
+    ipa: "/\u0259\u02ccf\u0254\u02d0d\u0259\u02c8b\u026al\u0259ti/",
+    def: "How cheap enough something is for people to pay for.",
+    vi: "kh\u1ea3 n\u0103ng chi tr\u1ea3",
+    examples:
+      [
+        {
+          en: "Affordability is the top reason people cancel.",
+          vi: "Kh\u1ea3 n\u0103ng chi tr\u1ea3 l\u00e0 l\u00fd do h\u00e0ng \u0111\u1ea7u khi\u1ebfn ng\u01b0\u1eddi d\u00f9ng hu\u1ef7.",
+        },
+      ],
+  }
+- {
+    slug: dignity-n,
+    lemma: "dignity",
+    pos: noun,
+    cefr: C1,
+    topic: equality,
+    ipa: "/\u02c8d\u026a\u0261n\u0259ti/",
+    def: "Being treated with respect.",
+    vi: "ph\u1ea9m gi\u00e1",
+    examples:
+      [
+        {
+          en: "Error messages should protect the user's dignity.",
+          vi: "Th\u00f4ng b\u00e1o l\u1ed7i n\u00ean t\u00f4n tr\u1ecdng ph\u1ea9m gi\u00e1 ng\u01b0\u1eddi d\u00f9ng.",
+        },
+      ],
+  }
+- {
+    slug: self-determination-n,
+    lemma: "self-determination",
+    pos: noun,
+    cefr: C1,
+    topic: equality,
+    ipa: "/\u02ccself d\u026a\u02cct\u025c\u02d0m\u026a\u02c8ne\u026a\u0283n/",
+    def: "The right to make your own choices.",
+    vi: "quy\u1ec1n t\u1ef1 quy\u1ebft",
+    examples:
+      [
+        {
+          en: "Caregiver mode must respect self-determination.",
+          vi: "Ch\u1ebf \u0111\u1ed9 ng\u01b0\u1eddi ch\u0103m s\u00f3c ph\u1ea3i t\u00f4n tr\u1ecdng quy\u1ec1n t\u1ef1 quy\u1ebft.",
+        },
+      ],
+  }
+- {
+    slug: inequality-n,
+    lemma: "inequality",
+    pos: noun,
+    cefr: B2,
+    topic: equality,
+    ipa: "/\u02cc\u026an\u026a\u02c8kw\u0252l\u0259ti/",
+    def: "An unfair difference between groups.",
+    vi: "b\u1ea5t b\u00ecnh \u0111\u1eb3ng",
+    examples:
+      [
+        {
+          en: "The new fee could deepen inequality.",
+          vi: "M\u1ee9c ph\u00ed m\u1edbi c\u00f3 th\u1ec3 l\u00e0m b\u1ea5t b\u00ecnh \u0111\u1eb3ng s\u00e2u h\u01a1n.",
+        },
+      ],
+  }
+- {
+    slug: systemic-adj,
+    lemma: "systemic",
+    pos: adjective,
+    cefr: C1,
+    topic: equality,
+    ipa: "/s\u026a\u02c8stem\u026ak/",
+    def: "Affecting a whole system, not just one part.",
+    vi: "mang t\u00ednh h\u1ec7 th\u1ed1ng",
+    examples:
+      [
+        {
+          en: "This is a systemic problem, not one bad screen.",
+          vi: "\u0110\u00e2y l\u00e0 v\u1ea5n \u0111\u1ec1 h\u1ec7 th\u1ed1ng, kh\u00f4ng ph\u1ea3i m\u1ed9t m\u00e0n h\u00ecnh l\u1ed7i.",
+        },
+      ],
+  }
+- {
+    slug: societal-adj,
+    lemma: "societal",
+    pos: adjective,
+    cefr: C1,
+    topic: equality,
+    ipa: "/s\u0259\u02c8sa\u026a\u0259tl/",
+    def: "Related to society as a whole.",
+    vi: "thu\u1ed9c v\u1ec1 x\u00e3 h\u1ed9i",
+    examples:
+      [
+        {
+          en: "We should consider the societal impact of face search.",
+          vi: "M\u00ecnh n\u00ean c\u00e2n nh\u1eafc t\u00e1c \u0111\u1ed9ng x\u00e3 h\u1ed9i c\u1ee7a t\u00ecm ki\u1ebfm khu\u00f4n m\u1eb7t.",
+        },
+      ],
+  }
+- {
+    slug: suggested-change-n,
+    lemma: "suggested change",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: equality,
+    ipa: "/s\u0259\u02ccd\u0292est\u026ad \u02c8t\u0283e\u026and\u0292/",
+    def: "An idea for how to make something different or better.",
+    vi: "\u0111\u1ec1 xu\u1ea5t thay \u0111\u1ed5i",
+    examples:
+      [
+        {
+          en: "Each suggested change has an owner and a date.",
+          vi: "M\u1ed7i \u0111\u1ec1 xu\u1ea5t thay \u0111\u1ed5i c\u00f3 ng\u01b0\u1eddi ph\u1ee5 tr\u00e1ch v\u00e0 h\u1ea1n.",
+        },
+      ],
+  }
+- {
+    slug: supporting-data-n,
+    lemma: "supporting data",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: equality,
+    ipa: "/s\u0259\u02ccp\u0254\u02d0t\u026a\u014b \u02c8de\u026at\u0259/",
+    def: "Numbers or facts that show a claim is true.",
+    vi: "d\u1eef li\u1ec7u ch\u1ee9ng minh",
+    examples:
+      [
+        {
+          en: "Attach supporting data to every barrier you report.",
+          vi: "K\u00e8m d\u1eef li\u1ec7u ch\u1ee9ng minh cho m\u1ed7i r\u00e0o c\u1ea3n b\u1ea1n b\u00e1o c\u00e1o.",
+        },
+      ],
+  }
+- {
+    slug: observation-n,
+    lemma: "observation",
+    pos: noun,
+    cefr: B2,
+    topic: equality,
+    ipa: "/\u02cc\u0252bz\u0259\u02c8ve\u026a\u0283n/",
+    def: "Something you notice by watching carefully.",
+    vi: "\u0111i\u1ec1u quan s\u00e1t \u0111\u01b0\u1ee3c",
+    examples:
+      [
+        {
+          en: "One observation: users zoom in on every price.",
+          vi: "M\u1ed9t \u0111i\u1ec1u quan s\u00e1t \u0111\u01b0\u1ee3c: ng\u01b0\u1eddi d\u00f9ng ph\u00f3ng to m\u1ecdi gi\u00e1 ti\u1ec1n.",
+        },
+      ],
+  }
+- {
+    slug: rank-v-t24,
+    lemma: "rank",
+    pos: verb,
+    cefr: B2,
+    topic: equality,
+    ipa: "/r\u00e6\u014bk/",
+    def: "To put things in order of importance.",
+    vi: "x\u1ebfp h\u1ea1ng",
+    examples:
+      [
+        {
+          en: "Rank the barriers by how many users they block.",
+          vi: "X\u1ebfp h\u1ea1ng r\u00e0o c\u1ea3n theo s\u1ed1 ng\u01b0\u1eddi d\u00f9ng b\u1ecb ch\u1eb7n.",
+        },
+      ],
+  }
+- {
+    slug: low-hanging-fruit-phr,
+    lemma: "low-hanging fruit",
+    pos: phrase,
+    kind: phrase,
+    cefr: C1,
+    topic: equality,
+    ipa: "/\u02ccl\u0259\u028a \u02cch\u00e6\u014b\u026a\u014b \u02c8fru\u02d0t/",
+    def: "Easy tasks that bring results quickly.",
+    vi: "vi\u1ec7c d\u1ec5 l\u00e0m m\u00e0 hi\u1ec7u qu\u1ea3",
+    examples:
+      [
+        {
+          en: "Bigger text on buttons is low-hanging fruit.",
+          vi: "Ch\u1eef to h\u01a1n tr\u00ean n\u00fat l\u00e0 vi\u1ec7c d\u1ec5 l\u00e0m m\u00e0 hi\u1ec7u qu\u1ea3.",
+        },
+      ],
+  }
+- {
+    slug: underlying-adj-t24,
+    lemma: "underlying",
+    pos: adjective,
+    cefr: C1,
+    topic: equality,
+    ipa: "/\u02cc\u028cnd\u0259\u02c8la\u026a\u026a\u014b/",
+    def: "Real but not easy to see at first.",
+    vi: "ti\u1ec1m \u1ea9n, g\u1ed1c r\u1ec5",
+    examples:
+      [
+        {
+          en: "The underlying issue is that the form assumes one name format.",
+          vi: "V\u1ea5n \u0111\u1ec1 g\u1ed1c l\u00e0 form gi\u1ea3 \u0111\u1ecbnh m\u1ed9t ki\u1ec3u t\u00ean.",
+        },
+      ],
+  }
+- {
+    slug: recurring-adj-t24,
+    lemma: "recurring",
+    pos: adjective,
+    cefr: C1,
+    topic: equality,
+    ipa: "/r\u026a\u02c8k\u025c\u02d0r\u026a\u014b/",
+    def: "Happening again and again.",
+    vi: "l\u1eb7p l\u1ea1i",
+    examples:
+      [
+        {
+          en: "Login failures are a recurring theme in interviews.",
+          vi: "L\u1ed7i \u0111\u0103ng nh\u1eadp l\u00e0 ch\u1ee7 \u0111\u1ec1 l\u1eb7p l\u1ea1i trong c\u00e1c bu\u1ed5i ph\u1ecfng v\u1ea5n.",
+        },
+      ],
+  }
+- {
+    slug: hearsay-n,
+    lemma: "hearsay",
+    pos: noun,
+    cefr: C1,
+    topic: equality,
+    ipa: "/\u02c8h\u026a\u0259se\u026a/",
+    def: "Information you heard from others but cannot prove.",
+    vi: "tin \u0111\u1ed3n, nghe n\u00f3i",
+    examples:
+      [
+        {
+          en: "That claim is hearsay until we test it.",
+          vi: "Kh\u1eb3ng \u0111\u1ecbnh \u0111\u00f3 ch\u1ec9 l\u00e0 nghe n\u00f3i cho t\u1edbi khi m\u00ecnh test.",
+        },
+      ],
+  }
+- {
+    slug: trackable-adj,
+    lemma: "trackable",
+    pos: adjective,
+    cefr: C1,
+    topic: equality,
+    ipa: "/\u02c8tr\u00e6k\u0259bl/",
+    def: "Possible to follow and measure over time.",
+    vi: "theo d\u00f5i \u0111\u01b0\u1ee3c",
+    examples:
+      [
+        {
+          en: "Make each goal trackable on the dashboard.",
+          vi: "L\u00e0m cho m\u1ed7i m\u1ee5c ti\u00eau theo d\u00f5i \u0111\u01b0\u1ee3c tr\u00ean dashboard.",
+        },
+      ],
+  }
+- {
+    slug: reference-point-n,
+    lemma: "reference point",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: equality,
+    ipa: "/\u02c8refr\u0259ns \u02ccp\u0254\u026ant/",
+    def: "A starting measurement you compare later results with.",
+    vi: "\u0111i\u1ec3m m\u1ed1c so s\u00e1nh",
+    examples:
+      [
+        {
+          en: "Record a reference point before changing the checkout.",
+          vi: "Ghi \u0111i\u1ec3m m\u1ed1c tr\u01b0\u1edbc khi \u0111\u1ed5i trang thanh to\u00e1n.",
+        },
+      ],
+  }
+- {
+    slug: majority-view-n,
+    lemma: "majority view",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: equality,
+    ipa: "/m\u0259\u02c8d\u0292\u0252r\u0259ti \u02ccvju\u02d0/",
+    def: "The opinion held by most people in a group.",
+    vi: "\u00fd ki\u1ebfn \u0111a s\u1ed1",
+    examples:
+      [
+        {
+          en: "The majority view is to fix sign-up first.",
+          vi: "\u00dd ki\u1ebfn \u0111a s\u1ed1 l\u00e0 s\u1eeda ph\u1ea7n \u0111\u0103ng k\u00fd tr\u01b0\u1edbc.",
+        },
+      ],
+  }
+- {
+    slug: reasonable-adjustment-n,
+    lemma: "reasonable adjustment",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: equality,
+    ipa: "/\u02ccri\u02d0zn\u0259bl \u0259\u02c8d\u0292\u028cstm\u0259nt/",
+    def: "A change made so that a disabled person can take part fairly.",
+    vi: "\u0111i\u1ec1u ch\u1ec9nh h\u1ee3p l\u00fd",
+    examples:
+      [
+        {
+          en: "Offer extra time as a reasonable adjustment in the quiz.",
+          vi: "Cho th\u00eam th\u1eddi gian nh\u01b0 m\u1ed9t \u0111i\u1ec1u ch\u1ec9nh h\u1ee3p l\u00fd trong b\u00e0i ki\u1ec3m tra.",
+        },
+      ],
+  }
+- {
+    slug: co-design-v,
+    lemma: "co-design",
+    pos: verb,
+    cefr: C1,
+    topic: equality,
+    ipa: "/\u02cck\u0259\u028a d\u026a\u02c8za\u026an/",
+    def: "To design something together with the people who will use it.",
+    vi: "\u0111\u1ed3ng thi\u1ebft k\u1ebf",
+    examples:
+      [
+        {
+          en: "We co-designed the menu with deaf users.",
+          vi: "B\u1ecdn m\u00ecnh \u0111\u1ed3ng thi\u1ebft k\u1ebf menu v\u1edbi ng\u01b0\u1eddi d\u00f9ng khi\u1ebfm th\u00ednh.",
+        },
+      ],
+  }
+- {
+    slug: user-research-n,
+    lemma: "user research",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: equality,
+    ipa: "/\u02c8ju\u02d0z\u0259 r\u026a\u02ccs\u025c\u02d0t\u0283/",
+    def: "Studying how real people use a product.",
+    vi: "nghi\u00ean c\u1ee9u ng\u01b0\u1eddi d\u00f9ng",
+    examples:
+      [
+        {
+          en: "User research showed the icons were unclear.",
+          vi: "Nghi\u00ean c\u1ee9u ng\u01b0\u1eddi d\u00f9ng cho th\u1ea5y icon ch\u01b0a r\u00f5.",
+        },
+      ],
+  }
+- {
+    slug: interviewee-n,
+    lemma: "interviewee",
+    pos: noun,
+    cefr: B2,
+    topic: equality,
+    ipa: "/\u02cc\u026ant\u0259vju\u02d0\u02c8i\u02d0/",
+    def: "A person who answers questions in an interview.",
+    vi: "ng\u01b0\u1eddi \u0111\u01b0\u1ee3c ph\u1ecfng v\u1ea5n",
+    examples:
+      [
+        {
+          en: "Pay each interviewee for their time.",
+          vi: "Tr\u1ea3 ti\u1ec1n cho m\u1ed7i ng\u01b0\u1eddi \u0111\u01b0\u1ee3c ph\u1ecfng v\u1ea5n v\u00ec th\u1eddi gian c\u1ee7a h\u1ecd.",
+        },
+      ],
+  }
+- {
+    slug: persona-n,
+    lemma: "persona",
+    pos: noun,
+    cefr: C1,
+    topic: equality,
+    ipa: "/p\u0259\u02c8s\u0259\u028an\u0259/",
+    def: "An imagined user that represents a real group.",
+    vi: "ch\u00e2n dung ng\u01b0\u1eddi d\u00f9ng",
+    examples:
+      [
+        {
+          en: "Add a persona for a farmer with an old phone.",
+          vi: "Th\u00eam ch\u00e2n dung ng\u01b0\u1eddi d\u00f9ng l\u00e0 n\u00f4ng d\u00e2n d\u00f9ng \u0111i\u1ec7n tho\u1ea1i c\u0169.",
+        },
+      ],
+  }
+- {
+    slug: gist-n,
+    lemma: "gist",
+    pos: noun,
+    cefr: C1,
+    topic: equality,
+    ipa: "/d\u0292\u026ast/",
+    def: "The main idea of something.",
+    vi: "\u00fd ch\u00ednh",
+    examples:
+      [
+        {
+          en: "The gist of the review: most barriers are in sign-up.",
+          vi: "\u00dd ch\u00ednh c\u1ee7a \u0111\u00e1nh gi\u00e1: h\u1ea7u h\u1ebft r\u00e0o c\u1ea3n n\u1eb1m \u1edf \u0111\u0103ng k\u00fd.",
+        },
+      ],
+  }
+- {
+    slug: action-plan-n,
+    lemma: "action plan",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: equality,
+    ipa: "/\u02c8\u00e6k\u0283n \u02ccpl\u00e6n/",
+    def: "A list of steps to reach a goal.",
+    vi: "k\u1ebf ho\u1ea1ch h\u00e0nh \u0111\u1ed9ng",
+    examples:
+      [
+        {
+          en: "Share the action plan with design and support.",
+          vi: "Chia s\u1ebb k\u1ebf ho\u1ea1ch h\u00e0nh \u0111\u1ed9ng v\u1edbi \u0111\u1ed9i thi\u1ebft k\u1ebf v\u00e0 h\u1ed7 tr\u1ee3.",
+        },
+      ],
+  }
+- {
+    slug: re-examine-v,
+    lemma: "re-examine",
+    pos: verb,
+    cefr: C1,
+    topic: equality,
+    ipa: "/\u02ccri\u02d0 \u026a\u0261\u02c8z\u00e6m\u026an/",
+    def: "To look at something carefully again.",
+    vi: "xem x\u00e9t l\u1ea1i",
+    examples:
+      [
+        {
+          en: "Re-examine the results after three months.",
+          vi: "Xem x\u00e9t l\u1ea1i k\u1ebft qu\u1ea3 sau ba th\u00e1ng.",
+        },
+      ],
+  }

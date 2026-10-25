@@ -6,282 +6,286 @@ kind: topic
 cefr: B1
 status: published
 title:
-  en: Developer Conversations & Technical Negotiation
-  vi: Giao tiếp developer & trao đổi giải pháp
-summary_vi: Thực hành ngôn ngữ khi xin giúp đỡ, làm rõ yêu cầu, phản hồi code
-  review và thương lượng một giải pháp. Tập nói thẳng vấn đề nhưng giữ giọng
-  điệu hợp tác.
+  {
+    en: "Developer Conversations & Technical Negotiation",
+    vi: "Giao tiếp developer & trao đổi giải pháp",
+  }
+summary_vi: "Thực hành ngôn ngữ khi xin giúp đỡ, làm rõ yêu cầu, phản hồi code review và thương lượng một giải pháp. Tập nói thẳng vấn đề nhưng giữ giọng điệu hợp tác."
 can_do:
-  - Làm rõ điều chưa hiểu và xác nhận lại quyết định
-  - Phản biện giải pháp bằng lý do và đề xuất thay thế
+  - "Làm rõ điều chưa hiểu và xác nhận lại quyết định"
+  - "Phản biện giải pháp bằng lý do và đề xuất thay thế"
 lessons:
   - slug: t22-l1
     kind: vocab
-    title:
-      en: "Set 1: Clarifying & confirming"
-      vi: "Bộ 1: Làm rõ & xác nhận"
+    title: { en: "Set 1: Clarifying & confirming", vi: "Bộ 1: Làm rõ & xác nhận" }
     senses:
-      - t22-clarify-v
-      - t22-confirm-v
-      - t22-acknowledge-v
-      - t22-paraphrase-v
-      - t22-rephrase-v
-      - t22-specific-adj
-      - t22-vague-adj
-      - t22-ambiguous-adj
-      - t22-on-the-same-page-phr
-      - t22-understanding-n
+      [
+        spell-out-phr,
+        recap-v,
+        mean-v,
+        repeat-v-t22,
+        understand-v,
+        for-instance-phr,
+        so-you-mean-phr,
+        correct-adj,
+        in-other-words-phr,
+        sanity-check-n-t22,
+      ]
     questions: []
   - slug: t22-l2
     kind: vocab
-    title:
-      en: "Set 2: Asking for help"
-      vi: "Bộ 2: Xin hỗ trợ"
+    title: { en: "Set 2: Asking for help", vi: "Bộ 2: Xin hỗ trợ" }
     senses:
-      - t22-ask-for-phr
-      - t22-help-wanted-phr
-      - t22-lend-a-hand-phr
-      - t22-blocker-n
-      - t22-stuck-adj
-      - t22-troubleshoot-v
-      - t22-steps-to-reproduce-n
-      - t22-expected-result-n
-      - t22-actual-result-n
-      - t22-context-n
-      - t22-what-i-tried-phr
-      - t22-reproducible-adj
+      [
+        help-n,
+        stuck-adj,
+        try-v,
+        stack-trace-n-t22,
+        have-a-minute-phr,
+        expect-v,
+        instead-adv,
+        debugger-n,
+        figure-out-phr,
+        pair-v,
+        rubber-duck-v,
+        breakpoint-n,
+      ]
     questions: []
   - slug: t22-l3
     kind: vocab
-    title:
-      en: "Set 3: Explaining code aloud"
-      vi: "Bộ 3: Giải thích mã bằng lời"
+    title: { en: "Set 3: Explaining code aloud", vi: "Bộ 3: Giải thích mã bằng lời" }
     senses:
-      - t22-input-n
-      - t22-output-n
-      - t22-parameter-n
-      - t22-return-value-n
-      - t22-function-n
-      - t22-condition-n
-      - t22-loop-n
-      - t22-branch-n
-      - t22-variable-n
-      - t22-sequence-n
-      - t22-flowchart-n
-      - t22-code-snippet-n
-      - t22-walkthrough-n
-      - t22-explain-v
+      [
+        input-n-t22,
+        output-n,
+        first-adv,
+        then-adv,
+        finally-adv,
+        loop-through-phr,
+        return-v-t22,
+        basically-adv,
+        walk-through-phr,
+        call-v,
+        null-check-n,
+        purpose-n,
+        pseudocode-n,
+        under-the-hood-phr,
+      ]
     questions: []
   - slug: t22-l4
     kind: vocab
-    title:
-      en: "Set 4: Code review comments"
-      vi: "Bộ 4: Nhận xét code review"
+    title: { en: "Set 4: Code review comments", vi: "Bộ 4: Nhận xét code review" }
     senses:
-      - t22-pull-request-n
-      - t22-reviewer-n
-      - t22-request-changes-phr
-      - t22-nitpick-n
-      - t22-constructive-adj
-      - t22-suggestion-n
-      - t22-rationale-n
-      - t22-readable-adj
-      - t22-naming-convention-n
-      - t22-refactor-v
-      - t22-diff-n
-      - t22-line-break-n
-      - t22-indentation-n
-      - t22-linter-n
-      - t22-test-plan-n
-      - t22-address-feedback-phr
+      [
+        comment-n,
+        suggest-v,
+        nit-n,
+        readable-adj-t22,
+        dead-code-n,
+        lgtm-phr,
+        request-changes-phr,
+        inline-adj-t22,
+        blocking-adj,
+        duplicate-v,
+        nice-catch-phr,
+        address-v,
+        tl-dr-phr,
+        consistent-adj-t22,
+        magic-number-n,
+        fast-follow-n,
+      ]
     questions: []
   - slug: t22-l5
     kind: vocab
-    title:
-      en: "Set 5: Agreeing & disagreeing"
-      vi: "Bộ 5: Đồng ý & bất đồng"
+    title: { en: "Set 5: Agreeing & disagreeing", vi: "Bộ 5: Đồng ý & bất đồng" }
     senses:
-      - t22-agree-on-pv
-      - t22-disagree-v
-      - t22-concern-n
-      - t22-objection-n
-      - t22-fair-point-phr
-      - t22-perspective-n
-      - t22-respectful-adj
-      - t22-counterargument-n
-      - t22-common-ground-n
-      - t22-compromise-n
-      - t22-concede-v
-      - t22-point-taken-phr
-      - t22-agree-to-disagree-phr
-      - t22-disagree-and-commit-phr
-      - t22-tone-n
-      - t22-defensive-adj
-      - t22-take-something-personally-phr
-      - t22-clear-the-air-phr
+      [
+        agree-v,
+        disagree-v,
+        point-n,
+        concern-n,
+        i-see-what-you-mean-phr,
+        however-adv,
+        exactly-adv,
+        not-sure-about-phr,
+        stance-n,
+        fair-adj,
+        on-the-same-page-phr,
+        push-back-phr-t22,
+        valid-adj,
+        objection-n,
+        compromise-n,
+        partly-adv,
+        perspective-n,
+        devils-advocate-phr,
+      ]
     questions: []
   - slug: t22-l6
     kind: vocab
-    title:
-      en: "Set 6: Making a request"
-      vi: "Bộ 6: Đưa yêu cầu"
+    title: { en: "Set 6: Making a request", vi: "Bộ 6: Đưa yêu cầu" }
     senses:
-      - t22-request-v
-      - t22-propose-v
-      - t22-could-you-phr
-      - t22-would-you-mind-phr
-      - t22-please-adv
-      - t22-when-you-have-a-moment-phr
-      - t22-at-your-earliest-convenience-phr
-      - t22-by-the-way-phr
-      - t22-heads-up-n
-      - t22-in-advance-phr
-      - t22-urgent-adj
-      - t22-priority-n
-      - t22-deadline-n
-      - t22-available-adj
-      - t22-availability-n
-      - t22-reachable-adj
-      - t22-point-of-contact-n
-      - t22-follow-up-n
-      - t22-get-back-to-pv
-      - t22-no-pressure-phr
+      [
+        ask-v,
+        could-you-phr,
+        urgent-adj-t22,
+        deadline-n,
+        priority-n,
+        by-end-of-day-phr,
+        would-you-mind-phr,
+        ping-v-t22,
+        favour-n,
+        asap-phr,
+        availability-n-t22,
+        reminder-n,
+        grant-access-phr,
+        quick-question-phr,
+        sound-out-phr,
+        handover-n-t22,
+        when-you-get-a-chance-phr,
+        chase-up-phr,
+        turnaround-n,
+        escalate-v,
+      ]
     questions: []
   - slug: t22-l7
     kind: vocab
-    title:
-      en: "Set 7: Explaining trade-offs"
-      vi: "Bộ 7: Giải thích đánh đổi"
+    title: { en: "Set 7: Explaining trade-offs", vi: "Bộ 7: Giải thích đánh đổi" }
     senses:
-      - t22-trade-off-n
-      - t22-alternative-n
-      - t22-option-n
-      - t22-benefit-n
-      - t22-drawback-n
-      - t22-constraint-n
-      - t22-cost-n
-      - t22-effort-n
-      - t22-risk-n
-      - t22-uncertainty-n
-      - t22-likelihood-n
-      - t22-consequence-n
-      - t22-reversible-adj
-      - t22-short-term-adj
-      - t22-long-term-goal-n
-      - t22-pros-and-cons-n
-      - t22-compare-v
-      - t22-justify-v
-      - t22-substantiate-v
-      - t22-evidence-n
-      - t22-assumption-n
-      - t22-recommendation-n
+      [
+        cost-benefit-n,
+        cold-start-n-t22,
+        advantage-n,
+        maintainability-n,
+        overengineer-v,
+        diminishing-returns-phr,
+        footprint-n,
+        double-edged-adj,
+        on-the-other-hand-phr,
+        maintain-v,
+        sweet-spot-n,
+        quick-and-dirty-adj,
+        short-term-adj,
+        catch-22-n,
+        maintenance-burden-n,
+        overkill-n,
+        off-the-shelf-adj,
+        depend-on-phr,
+        pros-and-cons-phr,
+        break-even-n,
+        upfront-adv,
+        horses-for-courses-phr,
+      ]
     questions: []
   - slug: t22-l8
     kind: vocab
-    title:
-      en: "Set 8: Negotiating scope"
-      vi: "Bộ 8: Thương lượng phạm vi"
+    title: { en: "Set 8: Negotiating scope", vi: "Bộ 8: Thương lượng phạm vi" }
     senses:
-      - t22-scope-n
-      - t22-in-scope-phr
-      - t22-out-of-scope-phr
-      - t22-non-goal-n
-      - t22-must-have-n
-      - t22-nice-to-have-n
-      - t22-defer-v
-      - t22-prioritize-v
-      - t22-estimate-n
-      - t22-timeline-n
-      - t22-milestone-n
-      - t22-deliverable-n
-      - t22-dependency-n
-      - t22-negotiate-v
-      - t22-extend-a-deadline-phr
-      - t22-push-back-pv
-      - t22-capacity-n
-      - t22-workload-n
-      - t22-overlap-v
-      - t22-reassign-v
-      - t22-accommodate-v
-      - t22-arrangement-n
-      - t22-commitment-n
-      - t22-contingency-n
+      [
+        scope-n,
+        feature-n,
+        must-ship-n,
+        cut-line-n,
+        trim-down-phr,
+        deprioritise-v,
+        story-point-n,
+        punt-v,
+        propose-v-t22,
+        mvp-n,
+        gold-plating-n,
+        flexible-adj-t22,
+        in-exchange-phr,
+        walk-away-point-n,
+        deliver-v,
+        descope-v,
+        ballpark-n,
+        cut-corners-phr,
+        counteroffer-n,
+        deal-breaker-n,
+        iteration-n-t22,
+        leeway-n,
+        quick-win-n,
+        tech-debt-n,
+      ]
     questions: []
   - slug: t22-l9
     kind: vocab
-    title:
-      en: "Set 9: Summarising decisions"
-      vi: "Bộ 9: Tóm tắt quyết định"
+    title: { en: "Set 9: Summarising decisions", vi: "Bộ 9: Tóm tắt quyết định" }
     senses:
-      - t22-recap-v
-      - t22-summary-n
-      - t22-decision-record-n
-      - t22-action-item-n
-      - t22-owner-n
-      - t22-responsible-for-phr
-      - t22-approver-n
-      - t22-sign-off-n
-      - t22-next-step-n
-      - t22-due-date-n
-      - t22-status-n
-      - t22-pending-adj
-      - t22-accepted-adj
-      - t22-rejected-adj
-      - t22-supersede-v
-      - t22-document-v
-      - t22-minutes-n
-      - t22-circulate-v
-      - t22-attach-v
-      - t22-reference-n
-      - t22-link-to-phr
-      - t22-effective-from-phr
-      - t22-follow-up-email-n
-      - t22-check-in-pv
-      - t22-review-date-n
-      - t22-confirm-receipt-phr
-      - t22-keep-someone-posted-phr
-      - t22-hand-over-v
+      [
+        decide-v,
+        agenda-n-t22,
+        next-step-n-t22,
+        owner-n,
+        action-item-n,
+        agreed-adj,
+        to-sum-up-phr,
+        responsible-adj,
+        record-v,
+        huddle-n,
+        retro-n,
+        loose-end-n,
+        due-date-n-t22,
+        align-v-t22,
+        final-say-n-t22,
+        circle-back-phr-t22,
+        dri-n,
+        consensus-n,
+        ratify-v,
+        follow-through-phr,
+        on-record-phr,
+        rfc-n,
+        veto-v,
+        rationale-n,
+        parking-lot-n,
+        jot-down-phr,
+        unanimous-adj,
+        disagree-and-commit-phr,
+      ]
     questions: []
   - slug: t22-l10
     kind: vocab
     title:
-      en: "Set 10: A technical discussion from start to finish"
-      vi: "Bộ 10: Một cuộc thảo luận kỹ thuật trọn vẹn"
+      {
+        en: "Set 10: A technical discussion from start to finish",
+        vi: "Bộ 10: Một cuộc thảo luận kỹ thuật trọn vẹn",
+      }
     senses:
-      - t22-agenda-n
-      - t22-facilitate-v
-      - t22-chair-a-meeting-phr
-      - t22-attendee-n
-      - t22-introduce-v
-      - t22-icebreaker-n
-      - t22-bring-up-pv
-      - t22-make-a-point-phr
-      - t22-interrupt-v
-      - t22-take-turns-phr
-      - t22-clarification-n
-      - t22-open-question-n
-      - t22-leading-question-n
-      - t22-brainstorm-v
-      - t22-working-theory-n
-      - t22-hypothesis-n
-      - t22-experiment-n
-      - t22-success-criteria-n
-      - t22-resolve-v
-      - t22-deadlock-n
-      - t22-escalate-v
-      - t22-de-escalate-v
-      - t22-align-v
-      - t22-consensus-n
-      - t22-unanimous-adj
-      - t22-vote-v
-      - t22-timebox-v
-      - t22-parking-lot-n
-      - t22-run-over-pv
-      - t22-wrap-up-pv
-      - t22-touch-base-phr
-      - t22-loop-in-pv
-      - t22-on-behalf-of-phr
-      - t22-thank-you-note-n
-      - t22-appreciate-v
-      - t22-goodwill-n
+      [
+        framing-n,
+        goal-n,
+        proof-of-concept-n-t22,
+        whiteboarding-n,
+        straw-man-n,
+        sketch-v,
+        spike-v,
+        steelman-v,
+        a-b-test-n-t22,
+        chime-in-phr,
+        north-star-n,
+        blast-radius-n-t22,
+        go-no-go-n,
+        smoke-test-n,
+        rule-of-thumb-n,
+        first-principles-n,
+        hand-wavy-adj,
+        mitigate-v-t22,
+        canary-n,
+        stay-on-track-phr,
+        deep-dive-n,
+        go-off-topic-phr,
+        park-v,
+        take-offline-phr,
+        gotcha-n,
+        elaborate-v,
+        tone-n-t22,
+        yak-shaving-n,
+        sticking-point-n,
+        tactful-adj,
+        bikeshedding-n,
+        articulate-v,
+        ground-rule-n,
+        moderate-v,
+        bounce-ideas-phr,
+        common-ground-n-t22,
+      ]
     questions: []

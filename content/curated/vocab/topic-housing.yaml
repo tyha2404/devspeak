@@ -18,19 +18,19 @@
       ],
   }
 - {
-    slug: desk-n-housing,
-    lemma: "desk",
+    slug: bookshelf-n,
+    lemma: "bookshelf",
     pos: noun,
-    cefr: A1,
+    cefr: A2,
     topic: housing,
-    ipa: "/desk/",
-    def: "A table you use for working, often with drawers.",
-    vi: "bàn làm việc",
+    ipa: "/ˈbʊkʃelf/",
+    def: "A piece of furniture with shelves for books.",
+    vi: "giá sách",
     examples:
       [
         {
-          en: "I keep my laptop and a notebook on my desk.",
-          vi: "Mình để laptop và một cuốn sổ trên bàn làm việc.",
+          en: "There's a bookshelf behind me, so my video background looks tidy.",
+          vi: "Sau lưng mình là giá sách nên hình nền video trông gọn gàng.",
         },
       ],
   }
@@ -132,20 +132,20 @@
       ],
   }
 - {
-    slug: set-up-phr-housing,
-    lemma: "set up",
-    pos: phrasal_verb,
-    kind: phrasal,
+    slug: desk-lamp-n,
+    lemma: "desk lamp",
+    pos: noun,
+    kind: collocation,
     cefr: A2,
     topic: housing,
-    ipa: "/set ˈʌp/",
-    def: "To put things in place so they are ready to use.",
-    vi: "lắp đặt, sắp xếp",
+    ipa: "/ˈdesk læmp/",
+    def: "A small light that stands on a desk.",
+    vi: "đèn bàn",
     examples:
       [
         {
-          en: "It took me an hour to set up my second monitor.",
-          vi: "Mình mất một tiếng để lắp màn hình thứ hai.",
+          en: "I use a desk lamp for late calls with the US team.",
+          vi: "Mình dùng đèn bàn cho các cuộc gọi muộn với nhóm bên Mỹ.",
         },
       ],
   }
@@ -484,37 +484,36 @@
       ],
   }
 - {
-    slug: power-bank-n-housing,
-    lemma: "power bank",
-    pos: noun,
-    kind: collocation,
-    cefr: B1,
+    slug: wired-adj,
+    lemma: "wired",
+    pos: adjective,
+    cefr: B2,
     topic: housing,
-    ipa: "/ˈpaʊə bæŋk/",
-    def: "A small battery you carry to charge a phone or laptop.",
-    vi: "sạc dự phòng",
+    ipa: "/ˈwaɪəd/",
+    def: "Connected with a cable, not by Wi-Fi.",
+    vi: "có dây",
     examples:
       [
         {
-          en: "My power bank keeps the phone hotspot running for hours.",
-          vi: "Sạc dự phòng giúp điện thoại phát wifi được nhiều giờ.",
+          en: "A wired connection is much safer for live demos.",
+          vi: "Kết nối có dây an toàn hơn nhiều cho demo trực tiếp.",
         },
       ],
   }
 - {
-    slug: fibre-n-housing,
-    lemma: "fibre",
+    slug: megabit-n,
+    lemma: "megabit",
     pos: noun,
     cefr: B2,
     topic: housing,
-    ipa: "/ˈfaɪbə/",
-    def: "A very fast internet line made of glass threads.",
-    vi: "cáp quang",
+    ipa: "/ˈmeɡəbɪt/",
+    def: "A unit used to measure internet speed.",
+    vi: "megabit",
     examples:
       [
         {
-          en: "We're getting fibre installed in the flat next week.",
-          vi: "Tuần sau căn hộ mình được lắp cáp quang.",
+          en: "We pay for a hundred megabits, but we get about twenty.",
+          vi: "Bọn mình trả tiền gói một trăm megabit nhưng chỉ được khoảng hai mươi.",
         },
       ],
   }
@@ -572,19 +571,19 @@
       ],
   }
 - {
-    slug: reconnect-v-housing,
-    lemma: "reconnect",
+    slug: reboot-v,
+    lemma: "reboot",
     pos: verb,
-    cefr: B1,
+    cefr: B2,
     topic: housing,
-    ipa: "/ˌriːkəˈnekt/",
-    def: "To connect again after losing a connection.",
-    vi: "kết nối lại",
+    ipa: "/ˌriːˈbuːt/",
+    def: "To turn a device off and on again.",
+    vi: "khởi động lại",
     examples:
       [
         {
-          en: "Give me a moment to reconnect to the meeting.",
-          vi: "Cho mình một chút để vào lại cuộc họp.",
+          en: "Try to reboot the modem before you call support.",
+          vi: "Thử khởi động lại modem trước khi gọi hỗ trợ.",
         },
       ],
   }
@@ -672,19 +671,19 @@
       ],
   }
 - {
-    slug: distraction-n,
-    lemma: "distraction",
+    slug: barking-n,
+    lemma: "barking",
     pos: noun,
-    cefr: B1,
+    cefr: B2,
     topic: housing,
-    ipa: "/dɪˈstrækʃn/",
-    def: "Something that takes your attention away from what you are doing.",
-    vi: "điều gây xao nhãng",
+    ipa: "/ˈbɑːkɪŋ/",
+    def: "The loud short sounds that a dog makes.",
+    vi: "tiếng chó sủa",
     examples:
       [
         {
-          en: "Phone notifications are my biggest distraction.",
-          vi: "Thông báo điện thoại là thứ làm mình xao nhãng nhất.",
+          en: "Sorry for the barking. My dog hears the postman.",
+          vi: "Xin lỗi vì tiếng chó sủa. Chó nhà mình nghe thấy người đưa thư.",
         },
       ],
   }
@@ -741,38 +740,38 @@
       ],
   }
 - {
-    slug: school-run-n-housing,
-    lemma: "school run",
+    slug: leaf-blower-n,
+    lemma: "leaf blower",
     pos: noun,
     kind: collocation,
     cefr: C1,
     topic: housing,
-    ipa: "/ˈskuːl rʌn/",
-    def: "The daily trip to take children to or from school.",
-    vi: "giờ đưa đón con",
+    ipa: "/ˈliːf ˌbləʊə/",
+    def: "A loud machine that blows leaves off paths and gardens.",
+    vi: "máy thổi lá",
     examples:
       [
         {
-          en: "I'm offline for the school run from four to four thirty.",
-          vi: "Mình offline lúc đưa đón con từ bốn đến bốn rưỡi.",
+          en: "Sorry, there's a leaf blower right outside my window.",
+          vi: "Xin lỗi, có máy thổi lá ngay ngoài cửa sổ mình.",
         },
       ],
   }
 - {
-    slug: do-not-disturb-phr,
-    lemma: "do not disturb",
-    pos: phrase,
-    kind: phrase,
-    cefr: B1,
+    slug: busy-light-n,
+    lemma: "busy light",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
     topic: housing,
-    ipa: "/duː nɒt dɪˈstɜːb/",
-    def: "A setting or sign that asks people not to contact you for now.",
-    vi: "chế độ không làm phiền",
+    ipa: "/ˈbɪzi laɪt/",
+    def: "A small light that shows others you are on a call.",
+    vi: "đèn báo bận",
     examples:
       [
         {
-          en: "I turn on do not disturb when I'm debugging.",
-          vi: "Mình bật chế độ không làm phiền khi debug.",
+          en: "When my busy light is red, my family knows not to come in.",
+          vi: "Khi đèn báo bận màu đỏ, nhà mình biết không được vào.",
         },
       ],
   }
@@ -863,19 +862,20 @@
       ],
   }
 - {
-    slug: concentrate-v,
-    lemma: "concentrate",
-    pos: verb,
-    cefr: B1,
+    slug: tune-out-phr,
+    lemma: "tune out",
+    pos: phrasal_verb,
+    kind: phrasal,
+    cefr: C1,
     topic: housing,
-    ipa: "/ˈkɒnsntreɪt/",
-    def: "To give all your attention to one thing.",
-    vi: "tập trung",
+    ipa: "/ˌtjuːn ˈaʊt/",
+    def: "To stop paying attention to sounds around you.",
+    vi: "lờ đi, không để tâm",
     examples:
       [
         {
-          en: "I can't concentrate with the drilling upstairs.",
-          vi: "Mình không tập trung được vì tiếng khoan ở tầng trên.",
+          en: "With music on, I can tune out the street.",
+          vi: "Bật nhạc lên là mình lờ được tiếng ngoài đường.",
         },
       ],
   }
@@ -899,20 +899,20 @@
   }
 # Set 5: renting a coworking desk
 - {
-    slug: coworking-space-n-housing,
-    lemma: "coworking space",
+    slug: shared-office-n,
+    lemma: "shared office",
     pos: noun,
     kind: collocation,
     cefr: B1,
     topic: housing,
-    ipa: "/ˌkəʊˈwɜːkɪŋ speɪs/",
-    def: "An office where people from different companies rent desks.",
-    vi: "không gian làm việc chung",
+    ipa: "/ˌʃeəd ˈɒfɪs/",
+    def: "An office used by people from several companies.",
+    vi: "văn phòng dùng chung",
     examples:
       [
         {
-          en: "I work from a coworking space near my flat.",
-          vi: "Mình làm ở một không gian làm việc chung gần căn hộ.",
+          en: "I rent a seat in a shared office near my flat.",
+          vi: "Mình thuê một chỗ ở văn phòng dùng chung gần căn hộ.",
         },
       ],
   }
@@ -929,20 +929,20 @@
       [{ en: "We rent two desks by the month.", vi: "Bọn mình thuê hai chỗ ngồi theo tháng." }],
   }
 - {
-    slug: hot-desk-n-housing,
-    lemma: "hot desk",
+    slug: rolling-contract-n,
+    lemma: "rolling contract",
     pos: noun,
     kind: collocation,
-    cefr: B2,
+    cefr: C1,
     topic: housing,
-    ipa: "/ˈhɒt desk/",
-    def: "A desk that is not yours; anyone can use it when it is free.",
-    vi: "chỗ ngồi tự do",
+    ipa: "/ˌrəʊlɪŋ ˈkɒntrækt/",
+    def: "An agreement that continues month by month until you stop it.",
+    vi: "hợp đồng tự gia hạn",
     examples:
       [
         {
-          en: "A hot desk is cheaper, but you can't leave your things there.",
-          vi: "Chỗ ngồi tự do rẻ hơn nhưng bạn không để đồ lại được.",
+          en: "A rolling contract is good while we don't know our team size.",
+          vi: "Hợp đồng tự gia hạn phù hợp khi bọn mình chưa rõ quy mô nhóm.",
         },
       ],
   }
@@ -965,37 +965,38 @@
       ],
   }
 - {
-    slug: membership-n-housing,
-    lemma: "membership",
-    pos: noun,
-    cefr: B1,
-    topic: housing,
-    ipa: "/ˈmembəʃɪp/",
-    def: "A paid plan that lets you use a place or service.",
-    vi: "gói thành viên",
-    examples:
-      [
-        {
-          en: "A monthly membership includes coffee and printing.",
-          vi: "Gói thành viên hàng tháng bao gồm cà phê và in ấn.",
-        },
-      ],
-  }
-- {
-    slug: day-pass-n-housing,
-    lemma: "day pass",
+    slug: monthly-plan-n,
+    lemma: "monthly plan",
     pos: noun,
     kind: collocation,
     cefr: B1,
     topic: housing,
-    ipa: "/ˈdeɪ pɑːs/",
-    def: "A ticket that lets you use a place for one day.",
-    vi: "vé ngày",
+    ipa: "/ˌmʌnθli ˈplæn/",
+    def: "A service you pay for once every month.",
+    vi: "gói tháng",
     examples:
       [
         {
-          en: "I bought a day pass to try the space first.",
-          vi: "Mình mua vé ngày để thử chỗ đó trước.",
+          en: "The monthly plan includes coffee and printing.",
+          vi: "Gói tháng bao gồm cà phê và in ấn.",
+        },
+      ],
+  }
+- {
+    slug: trial-day-n,
+    lemma: "trial day",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: housing,
+    ipa: "/ˈtraɪəl deɪ/",
+    def: "A free day to test a place before you pay.",
+    vi: "ngày dùng thử",
+    examples:
+      [
+        {
+          en: "They offer one trial day, so I tried the space first.",
+          vi: "Họ cho một ngày dùng thử nên mình thử trước.",
         },
       ],
   }
@@ -1164,37 +1165,38 @@
       ],
   }
 - {
-    slug: front-desk-n-housing,
-    lemma: "front desk",
+    slug: community-manager-n,
+    lemma: "community manager",
     pos: noun,
     kind: collocation,
-    cefr: A2,
+    cefr: C1,
     topic: housing,
-    ipa: "/ˌfrʌnt ˈdesk/",
-    def: "The desk near the door where staff help visitors.",
-    vi: "quầy trước, quầy tiếp đón",
+    ipa: "/kəˈmjuːnəti ˌmænɪdʒə/",
+    def: "The person who looks after members in a shared office.",
+    vi: "quản lý cộng đồng",
     examples:
       [
         {
-          en: "Pick up your access card at the front desk.",
-          vi: "Nhận thẻ ra vào ở quầy tiếp đón nhé.",
+          en: "Ask the community manager for a locker key.",
+          vi: "Hỏi quản lý cộng đồng để lấy chìa tủ đồ.",
         },
       ],
   }
 - {
-    slug: affordable-adj,
-    lemma: "affordable",
-    pos: adjective,
+    slug: good-value-phr,
+    lemma: "good value",
+    pos: phrase,
+    kind: collocation,
     cefr: B1,
     topic: housing,
-    ipa: "/əˈfɔːdəbl/",
-    def: "Cheap enough for most people to pay.",
-    vi: "giá phải chăng",
+    ipa: "/ˌɡʊd ˈvæljuː/",
+    def: "Worth the money you pay.",
+    vi: "đáng tiền",
     examples:
       [
         {
-          en: "This place is affordable for a small startup.",
-          vi: "Chỗ này có giá phải chăng với một startup nhỏ.",
+          en: "The student plan is good value for freelancers.",
+          vi: "Gói sinh viên rất đáng tiền với người làm tự do.",
         },
       ],
   }
@@ -1356,22 +1358,17 @@
       ],
   }
 - {
-    slug: phone-booth-n-housing,
-    lemma: "phone booth",
+    slug: call-pod-n,
+    lemma: "call pod",
     pos: noun,
     kind: collocation,
-    cefr: B1,
+    cefr: B2,
     topic: housing,
-    ipa: "/ˈfəʊn buːð/",
-    def: "A very small private room for one person to make calls.",
-    vi: "buồng gọi điện",
+    ipa: "/ˈkɔːl pɒd/",
+    def: "A small closed box in an office for private calls.",
+    vi: "buồng gọi riêng",
     examples:
-      [
-        {
-          en: "I took the interview in a phone booth.",
-          vi: "Mình phỏng vấn trong buồng gọi điện.",
-        },
-      ],
+      [{ en: "I took the interview in a call pod.", vi: "Mình phỏng vấn trong buồng gọi riêng." }],
   }
 - {
     slug: common-area-n,
@@ -1479,19 +1476,20 @@
       ],
   }
 - {
-    slug: etiquette-n-housing,
-    lemma: "etiquette",
+    slug: clean-desk-policy-n,
+    lemma: "clean desk policy",
     pos: noun,
+    kind: collocation,
     cefr: C1,
     topic: housing,
-    ipa: "/ˈetɪket/",
-    def: "The polite rules for behaviour in a place or group.",
-    vi: "quy tắc ứng xử",
+    ipa: "/ˌkliːn ˈdesk ˌpɒləsi/",
+    def: "A rule that you must clear your desk when you leave.",
+    vi: "quy định dọn sạch bàn",
     examples:
       [
         {
-          en: "Office etiquette says you take calls in a booth, not at your desk.",
-          vi: "Quy tắc ở văn phòng là nghe điện thoại trong buồng, không phải tại bàn.",
+          en: "We have a clean desk policy, so take your things home.",
+          vi: "Ở đây có quy định dọn sạch bàn nên hãy mang đồ về.",
         },
       ],
   }
@@ -1737,20 +1735,19 @@
       ],
   }
 - {
-    slug: out-of-order-phr,
-    lemma: "out of order",
-    pos: phrase,
-    kind: phrase,
-    cefr: B1,
+    slug: drip-v,
+    lemma: "drip",
+    pos: verb,
+    cefr: B2,
     topic: housing,
-    ipa: "/ˌaʊt əv ˈɔːdə/",
-    def: "(of a machine) not working.",
-    vi: "không hoạt động",
+    ipa: "/drɪp/",
+    def: "(of water) to fall in small drops.",
+    vi: "nhỏ giọt",
     examples:
       [
         {
-          en: "The lift is out of order, so take the stairs.",
-          vi: "Thang máy đang hỏng, bạn đi cầu thang nhé.",
+          en: "Water is dripping from the air conditioner onto my desk.",
+          vi: "Nước đang nhỏ giọt từ máy lạnh xuống bàn mình.",
         },
       ],
   }
@@ -2149,19 +2146,19 @@
       ],
   }
 - {
-    slug: short-term-adj-housing,
-    lemma: "short-term",
+    slug: furnished-adj,
+    lemma: "furnished",
     pos: adjective,
     cefr: B2,
     topic: housing,
-    ipa: "/ˌʃɔːt ˈtɜːm/",
-    def: "Lasting for only a short time.",
-    vi: "ngắn hạn",
+    ipa: "/ˈfɜːnɪʃt/",
+    def: "(of a flat) rented with furniture already inside.",
+    vi: "có sẵn nội thất",
     examples:
       [
         {
-          en: "I've found a short-term rental near the new office.",
-          vi: "Mình đã tìm được chỗ thuê ngắn hạn gần văn phòng mới.",
+          en: "I'm looking for a furnished flat so I can move quickly.",
+          vi: "Mình đang tìm căn hộ có sẵn nội thất để chuyển vào nhanh.",
         },
       ],
   }
@@ -2183,21 +2180,16 @@
       ],
   }
 - {
-    slug: neighbourhood-n-housing,
-    lemma: "neighbourhood",
+    slug: outskirts-n,
+    lemma: "outskirts",
     pos: noun,
-    cefr: B1,
+    cefr: C1,
     topic: housing,
-    ipa: "/ˈneɪbəhʊd/",
-    def: "The area around your home.",
-    vi: "khu phố",
+    ipa: "/ˈaʊtskɜːts/",
+    def: "The parts of a town far from the centre.",
+    vi: "vùng ngoại ô",
     examples:
-      [
-        {
-          en: "My new neighbourhood has a lot of quiet cafés.",
-          vi: "Khu phố mới của mình có nhiều quán cà phê yên tĩnh.",
-        },
-      ],
+      [{ en: "Rent is cheaper on the outskirts of the city.", vi: "Tiền thuê ở ngoại ô rẻ hơn." }],
   }
 - {
     slug: removal-company-n,
@@ -2218,54 +2210,55 @@
       ],
   }
 - {
-    slug: transition-n-housing,
-    lemma: "transition",
+    slug: van-n,
+    lemma: "van",
     pos: noun,
-    cefr: C1,
+    cefr: A2,
     topic: housing,
-    ipa: "/trænˈzɪʃn/",
-    def: "The time when you change from one situation to another.",
-    vi: "giai đoạn chuyển tiếp",
+    ipa: "/væn/",
+    def: "A vehicle bigger than a car, used for carrying goods.",
+    vi: "xe tải nhỏ",
     examples:
       [
         {
-          en: "During the transition, I'll work mornings only.",
-          vi: "Trong giai đoạn chuyển tiếp, mình chỉ làm buổi sáng.",
+          en: "One van is enough for all my things.",
+          vi: "Một chiếc xe tải nhỏ là đủ chở hết đồ của mình.",
         },
       ],
   }
 - {
-    slug: keep-in-touch-phr-housing,
-    lemma: "keep in touch",
+    slug: pop-in-phr,
+    lemma: "pop in",
+    pos: phrasal_verb,
+    kind: phrasal,
+    cefr: B2,
+    topic: housing,
+    ipa: "/pɒp ˈɪn/",
+    def: "To visit a place for a short time.",
+    vi: "ghé qua",
+    examples:
+      [
+        {
+          en: "I'll pop in to the office on Wednesday to get my mail.",
+          vi: "Thứ Tư mình sẽ ghé văn phòng lấy thư.",
+        },
+      ],
+  }
+- {
+    slug: hand-over-the-keys-phr,
+    lemma: "hand over the keys",
     pos: phrase,
-    kind: phrase,
-    cefr: B1,
+    kind: collocation,
+    cefr: B2,
     topic: housing,
-    ipa: "/ˌkiːp ɪn ˈtʌtʃ/",
-    def: "To continue to contact someone.",
-    vi: "giữ liên lạc",
+    ipa: "/ˌhænd ˈəʊvə ðə ˈkiːz/",
+    def: "To give the keys of a home to the next person who will use it.",
+    vi: "bàn giao chìa khóa",
     examples:
       [
         {
-          en: "I'll keep in touch through email while I'm on the road.",
-          vi: "Mình sẽ giữ liên lạc qua email khi đang di chuyển.",
-        },
-      ],
-  }
-- {
-    slug: disruption-n-housing,
-    lemma: "disruption",
-    pos: noun,
-    cefr: C1,
-    topic: housing,
-    ipa: "/dɪsˈrʌpʃn/",
-    def: "A problem that stops something from continuing as usual.",
-    vi: "sự gián đoạn",
-    examples:
-      [
-        {
-          en: "I want to keep the disruption to the team as small as possible.",
-          vi: "Mình muốn giảm sự gián đoạn cho nhóm ít nhất có thể.",
+          en: "I hand over the keys to the landlord on Friday.",
+          vi: "Thứ Sáu mình bàn giao chìa khóa cho chủ nhà.",
         },
       ],
   }
@@ -2407,19 +2400,19 @@
       [{ en: "Visitors must sign in at reception.", vi: "Khách phải đăng ký ở quầy lễ tân." }],
   }
 - {
-    slug: badge-n-housing,
-    lemma: "badge",
+    slug: lanyard-n,
+    lemma: "lanyard",
     pos: noun,
-    cefr: B1,
+    cefr: C1,
     topic: housing,
-    ipa: "/bædʒ/",
-    def: "A small card you wear that shows your name and right to enter.",
-    vi: "thẻ đeo",
+    ipa: "/ˈlænjəd/",
+    def: "A cord you wear around your neck to hold a card.",
+    vi: "dây đeo thẻ",
     examples:
       [
         {
-          en: "Please wear your badge at all times in the building.",
-          vi: "Vui lòng đeo thẻ suốt thời gian ở trong tòa nhà.",
+          en: "Keep your card on a lanyard so you don't lose it.",
+          vi: "Đeo thẻ bằng dây để khỏi bị mất.",
         },
       ],
   }
@@ -2713,19 +2706,19 @@
       ],
   }
 - {
-    slug: compliance-n-housing,
-    lemma: "compliance",
+    slug: intercom-n,
+    lemma: "intercom",
     pos: noun,
-    cefr: C1,
+    cefr: B2,
     topic: housing,
-    ipa: "/kəmˈplaɪəns/",
-    def: "Following the rules or laws you must follow.",
-    vi: "sự tuân thủ",
+    ipa: "/ˈɪntəkɒm/",
+    def: "A speaker by a door that lets you talk to people outside.",
+    vi: "hệ thống liên lạc nội bộ ở cửa",
     examples:
       [
         {
-          en: "Badge checks are part of our security compliance.",
-          vi: "Kiểm tra thẻ là một phần của việc tuân thủ an ninh.",
+          en: "Press the intercom and reception will open the door.",
+          vi: "Bấm chuông liên lạc, lễ tân sẽ mở cửa.",
         },
       ],
   }
@@ -2801,37 +2794,38 @@
   }
 # Set 10: a practical workspace proposal
 - {
-    slug: proposal-n-housing,
-    lemma: "proposal",
+    slug: business-case-n,
+    lemma: "business case",
     pos: noun,
-    cefr: B1,
+    kind: collocation,
+    cefr: C1,
     topic: housing,
-    ipa: "/prəˈpəʊzl/",
-    def: "A plan or idea that you suggest for others to discuss.",
-    vi: "đề xuất",
+    ipa: "/ˈbɪznəs keɪs/",
+    def: "A document that explains why a plan is worth the money.",
+    vi: "luận chứng đầu tư",
     examples:
       [
         {
-          en: "I wrote a proposal for a quiet zone on our floor.",
-          vi: "Mình đã viết đề xuất về một khu yên tĩnh ở tầng mình.",
+          en: "I wrote a business case for a quiet room on our floor.",
+          vi: "Mình viết luận chứng cho một phòng yên tĩnh ở tầng mình.",
         },
       ],
   }
 - {
-    slug: standing-desk-n,
-    lemma: "standing desk",
+    slug: sit-stand-desk-n,
+    lemma: "sit-stand desk",
     pos: noun,
     kind: collocation,
-    cefr: B2,
+    cefr: C1,
     topic: housing,
-    ipa: "/ˌstændɪŋ ˈdesk/",
-    def: "A tall desk you use while standing up.",
-    vi: "bàn đứng",
+    ipa: "/ˌsɪt ˈstænd desk/",
+    def: "A desk you can raise or lower to sit or stand.",
+    vi: "bàn nâng hạ",
     examples:
       [
         {
-          en: "Two people asked for a standing desk this month.",
-          vi: "Tháng này có hai người xin bàn đứng.",
+          en: "Two people asked for a sit-stand desk this month.",
+          vi: "Tháng này có hai người xin bàn nâng hạ.",
         },
       ],
   }
@@ -2853,20 +2847,20 @@
       ],
   }
 - {
-    slug: quiet-zone-n-housing,
-    lemma: "quiet zone",
+    slug: focus-room-n,
+    lemma: "focus room",
     pos: noun,
     kind: collocation,
-    cefr: B1,
+    cefr: B2,
     topic: housing,
-    ipa: "/ˈkwaɪət zəʊn/",
-    def: "An area where people must not talk loudly or take calls.",
-    vi: "khu yên lặng",
+    ipa: "/ˈfəʊkəs ruːm/",
+    def: "A small room where people work alone without talking.",
+    vi: "phòng làm việc tập trung",
     examples:
       [
         {
-          en: "Let's turn the back corner into a quiet zone.",
-          vi: "Hãy biến góc trong thành khu yên lặng.",
+          en: "Let's turn the back corner into a focus room.",
+          vi: "Hãy biến góc trong thành phòng làm việc tập trung.",
         },
       ],
   }
@@ -2905,53 +2899,56 @@
       ],
   }
 - {
-    slug: layout-n,
-    lemma: "layout",
+    slug: seating-chart-n,
+    lemma: "seating chart",
     pos: noun,
+    kind: collocation,
     cefr: B2,
     topic: housing,
-    ipa: "/ˈleɪaʊt/",
-    def: "The way the parts of a room are arranged.",
-    vi: "cách bố trí",
+    ipa: "/ˈsiːtɪŋ tʃɑːt/",
+    def: "A plan that shows who sits where.",
+    vi: "sơ đồ chỗ ngồi",
     examples:
       [
         {
-          en: "A new layout would give each squad its own area.",
-          vi: "Một cách bố trí mới sẽ cho mỗi nhóm một khu riêng.",
+          en: "A new seating chart would put each squad together.",
+          vi: "Sơ đồ chỗ ngồi mới sẽ xếp từng nhóm ngồi cạnh nhau.",
         },
       ],
   }
 - {
-    slug: benefit-n-housing,
-    lemma: "benefit",
-    pos: noun,
-    cefr: B1,
+    slug: on-the-plus-side-phr,
+    lemma: "on the plus side",
+    pos: phrase,
+    kind: phrase,
+    cefr: B2,
     topic: housing,
-    ipa: "/ˈbenɪfɪt/",
-    def: "A good result or advantage.",
-    vi: "lợi ích",
+    ipa: "/ɒn ðə ˈplʌs saɪd/",
+    def: "Used to introduce a good point about something.",
+    vi: "về mặt tích cực",
     examples:
       [
         {
-          en: "The main benefit is fewer interruptions.",
-          vi: "Lợi ích chính là ít bị gián đoạn hơn.",
+          en: "On the plus side, each squad gets its own area.",
+          vi: "Về mặt tích cực, mỗi nhóm có khu riêng.",
         },
       ],
   }
 - {
-    slug: drawback-n-housing,
-    lemma: "drawback",
-    pos: noun,
+    slug: lose-desk-space-phr,
+    lemma: "lose desk space",
+    pos: phrase,
+    kind: collocation,
     cefr: B2,
     topic: housing,
-    ipa: "/ˈdrɔːbæk/",
-    def: "A disadvantage or problem.",
-    vi: "nhược điểm",
+    ipa: "/ˌluːz ˈdesk speɪs/",
+    def: "To have fewer places for people to sit and work.",
+    vi: "mất chỗ ngồi",
     examples:
       [
         {
-          en: "One drawback is that we lose two desks.",
-          vi: "Một nhược điểm là mình mất hai chỗ ngồi.",
+          en: "The booth means we lose desk space for two people.",
+          vi: "Buồng gọi khiến mình mất chỗ ngồi của hai người.",
         },
       ],
   }
@@ -2973,19 +2970,19 @@
       ],
   }
 - {
-    slug: wellbeing-n,
-    lemma: "wellbeing",
+    slug: houseplant-n,
+    lemma: "houseplant",
     pos: noun,
     cefr: B2,
     topic: housing,
-    ipa: "/ˌwelˈbiːɪŋ/",
-    def: "The state of being healthy and happy.",
-    vi: "sức khỏe và tinh thần",
+    ipa: "/ˈhaʊsplɑːnt/",
+    def: "A plant you grow in a pot indoors.",
+    vi: "cây cảnh trong nhà",
     examples:
       [
         {
-          en: "Plants and daylight help team wellbeing.",
-          vi: "Cây xanh và ánh sáng tự nhiên giúp nhóm khỏe và vui hơn.",
+          en: "A few houseplants would make the room feel calmer.",
+          vi: "Vài chậu cây cảnh sẽ làm căn phòng dễ chịu hơn.",
         },
       ],
   }
@@ -3131,19 +3128,20 @@
       ],
   }
 - {
-    slug: outline-v-housing,
-    lemma: "outline",
-    pos: verb,
-    cefr: B2,
+    slug: sketch-out-phr,
+    lemma: "sketch out",
+    pos: phrasal_verb,
+    kind: phrasal,
+    cefr: C1,
     topic: housing,
-    ipa: "/ˈaʊtlaɪn/",
-    def: "To describe the main points of something.",
-    vi: "trình bày khái quát",
+    ipa: "/ˌsketʃ ˈaʊt/",
+    def: "To describe or draw a plan quickly, without details.",
+    vi: "phác thảo",
     examples:
       [
         {
-          en: "This document outlines three options for the second floor.",
-          vi: "Tài liệu này trình bày khái quát ba phương án cho tầng hai.",
+          en: "I sketched out two ideas for the empty corner.",
+          vi: "Mình phác thảo hai ý tưởng cho góc trống.",
         },
       ],
   }
@@ -3234,20 +3232,19 @@
       ],
   }
 - {
-    slug: pain-point-n-housing,
-    lemma: "pain point",
+    slug: grumble-n,
+    lemma: "grumble",
     pos: noun,
-    kind: collocation,
     cefr: C1,
     topic: housing,
-    ipa: "/ˈpeɪn pɔɪnt/",
-    def: "A problem that annoys users or a team again and again.",
-    vi: "vấn đề nhức nhối",
+    ipa: "/ˈɡrʌmbl/",
+    def: "A small complaint people repeat often.",
+    vi: "lời than phiền",
     examples:
       [
         {
-          en: "The biggest pain point is the lack of meeting rooms.",
-          vi: "Vấn đề nhức nhối nhất là thiếu phòng họp.",
+          en: "The most common grumble is the lack of meeting rooms.",
+          vi: "Lời than phiền phổ biến nhất là thiếu phòng họp.",
         },
       ],
   }
@@ -3286,19 +3283,19 @@
       ],
   }
 - {
-    slug: vote-v-housing,
-    lemma: "vote",
+    slug: poll-v,
+    lemma: "poll",
     pos: verb,
-    cefr: A2,
+    cefr: C1,
     topic: housing,
-    ipa: "/vəʊt/",
-    def: "To choose one option, often by raising a hand or using a form.",
-    vi: "bỏ phiếu",
+    ipa: "/pəʊl/",
+    def: "To ask many people a question to learn their opinions.",
+    vi: "thăm dò ý kiến",
     examples:
       [
         {
-          en: "Please vote for your favourite option by Friday.",
-          vi: "Vui lòng bỏ phiếu cho phương án bạn thích trước thứ Sáu.",
+          en: "We polled the team about the best day for the move.",
+          vi: "Bọn mình thăm dò ý kiến cả nhóm về ngày chuyển tốt nhất.",
         },
       ],
   }
@@ -3321,20 +3318,20 @@
       ],
   }
 - {
-    slug: pros-and-cons-n-housing,
-    lemma: "pros and cons",
+    slug: price-tag-n,
+    lemma: "price tag",
     pos: noun,
     kind: collocation,
     cefr: B2,
     topic: housing,
-    ipa: "/ˌprəʊz ən ˈkɒnz/",
-    def: "The good and bad points of something.",
-    vi: "ưu và nhược điểm",
+    ipa: "/ˈpraɪs tæɡ/",
+    def: "The cost of something, often a large one.",
+    vi: "mức giá",
     examples:
       [
         {
-          en: "The table lists the pros and cons of each layout.",
-          vi: "Bảng liệt kê ưu nhược điểm của từng cách bố trí.",
+          en: "The price tag for new chairs is forty million dong.",
+          vi: "Ghế mới có giá bốn mươi triệu đồng.",
         },
       ],
   }
@@ -3357,19 +3354,20 @@
       ],
   }
 - {
-    slug: consult-v-housing,
-    lemma: "consult",
-    pos: verb,
+    slug: gather-feedback-phr,
+    lemma: "gather feedback",
+    pos: phrase,
+    kind: collocation,
     cefr: B2,
     topic: housing,
-    ipa: "/kənˈsʌlt/",
-    def: "To ask people for their opinion before you decide.",
-    vi: "tham khảo ý kiến",
+    ipa: "/ˌɡæðə ˈfiːdbæk/",
+    def: "To collect opinions from people.",
+    vi: "thu thập ý kiến",
     examples:
       [
         {
-          en: "We consulted the whole team before choosing the desks.",
-          vi: "Bọn mình đã hỏi ý kiến cả nhóm trước khi chọn bàn.",
+          en: "We gathered feedback from the whole team before choosing the desks.",
+          vi: "Bọn mình thu thập ý kiến cả nhóm trước khi chọn bàn.",
         },
       ],
   }

@@ -1,2116 +1,3478 @@
-# Developer vocabulary: Interface Design & Cross-Cultural UX. Original definitions and curated examples.
-- lemma: layout
-  pos: noun
-  vi: bố cục giao diện
-  def: The arrangement of elements on a screen.
-  examples:
-    - en: This layout keeps the primary action above the details.
-  slug: t15-layout-n
-  topic: culture
-  cefr: B2
-- lemma: visual hierarchy
-  pos: noun
-  vi: thứ bậc thị giác
-  def: The ordering of visual elements to communicate importance.
-  examples:
-    - en: A strong visual hierarchy draws attention to the primary action.
-  slug: t15-visual-hierarchy-n
-  topic: culture
-  cefr: B2
-  kind: collocation
-- slug: t15-wireframe-n
-  lemma: wireframe
-  pos: noun
-  cefr: C1
-  topic: culture
-  ipa: /ˈwaɪəfreɪm/
-  def: A simple drawing of a screen's layout without final design.
-  vi: wireframe (khung bố cục)
-  examples:
-    - en: Attach a wireframe of the station page to the brief.
-      vi: Đính kèm wireframe của trang trạm vào bản mô tả.
-- slug: t15-panel-n
-  lemma: panel
-  pos: noun
-  cefr: B1
-  topic: culture
-  ipa: /ˈpænl/
-  def: A section of a screen with its own border and content.
-  vi: khung, bảng
-  examples:
-    - en: The side panel shows details for the selected station.
-      vi: Khung bên hiển thị chi tiết trạm đang chọn.
-- slug: t15-heading-n
-  lemma: heading
-  pos: noun
-  cefr: B1
-  topic: culture
-  ipa: /ˈhedɪŋ/
-  def: A title at the top of a part of a text.
-  vi: đề mục
-  examples:
-    - en: Use headings so readers can jump to the code.
-      vi: Dùng đề mục để người đọc nhảy tới phần code.
-- slug: t15-label-n
-  lemma: label
-  pos: noun
-  cefr: B1
-  topic: culture
-  ipa: /ˈleɪbl/
-  def: A short tag that puts an issue into a group.
-  vi: nhãn
-  examples:
-    - en: Add the "bug" label so the team can find it.
-      vi: Gắn nhãn "bug" để cả nhóm tìm được.
-- slug: t15-button-n
-  lemma: button
-  pos: noun
-  cefr: A2
-  topic: culture
-  ipa: /ˈbʌtn/
-  def: A small area on a screen that you press to do something.
-  vi: nút
-  examples:
-    - en: The blue button sends the form.
-      vi: Nút màu xanh dùng để gửi form.
-- slug: t15-screen-n
-  lemma: screen
-  pos: noun
-  cefr: A2
-  topic: culture
-  ipa: /skriːn/
-  def: One page or view that an app shows you.
-  vi: màn hình
-  examples:
-    - en: On the next screen, choose a password.
-      vi: Ở màn hình tiếp theo, hãy chọn mật khẩu.
-- lemma: navigation
-  pos: noun
-  vi: hệ thống điều hướng
-  def: The controls and structure used to move through a product.
-  examples:
-    - en: Keep the navigation consistent across the settings pages.
-  slug: t15-navigation-n
-  topic: culture
-  cefr: B2
-- slug: t15-emphasis-n
-  lemma: emphasis
-  pos: noun
-  cefr: B2
-  topic: culture
-  ipa: /ˈemfəsɪs/
-  def: Special importance given to something.
-  vi: sự nhấn mạnh
-  examples:
-    - en: Put the emphasis on what the user must do.
-      vi: Nhấn mạnh vào việc người dùng phải làm.
-- lemma: colour
-  pos: noun
-  vi: màu sắc
-  def: The visual quality of an object such as red or blue.
-  examples:
-    - en: Do not use colour alone to show an error.
-  slug: t15-colour-n
-  topic: culture
-  cefr: B2
-- lemma: typography
-  pos: noun
-  vi: cách thiết kế và bố trí chữ
-  def: The selection and arrangement of type for readable text.
-  examples:
-    - en: Good typography makes the technical guide easier to scan.
-  slug: t15-typography-n
-  topic: culture
-  cefr: B2
-- lemma: spacing
-  pos: noun
-  vi: khoảng cách giữa các phần tử
-  def: The amount of space between items.
-  examples:
-    - en: Consistent spacing helps users scan the form.
-  slug: t15-spacing-n
-  topic: culture
-  cefr: B2
-- lemma: padding
-  pos: noun
-  vi: khoảng đệm bên trong phần tử
-  def: Space between content and its surrounding border.
-  examples:
-    - en: Add padding so the label does not touch the border.
-  slug: t15-padding-n
-  topic: culture
-  cefr: B2
-- lemma: margin
-  pos: noun
-  vi: khoảng trống ngoài phần tử
-  def: Space outside an interface element's border.
-  examples:
-    - en: Increase the margin between the card and the page edge.
-  slug: t15-margin-n
-  topic: culture
-  cefr: B2
-- lemma: font size
-  pos: noun
-  vi: cỡ chữ
-  def: The displayed size of text characters.
-  examples:
-    - en: Let users increase the font size without losing content.
-  slug: t15-font-size-n
-  topic: culture
-  cefr: B2
-  kind: collocation
-- lemma: line height
-  pos: noun
-  vi: chiều cao dòng chữ
-  def: The vertical space occupied by a line of text.
-  examples:
-    - en: Increase the line height to make long paragraphs easier to read.
-  slug: t15-line-height-n
-  topic: culture
-  cefr: B2
-  kind: collocation
-- lemma: contrast
-  pos: noun
-  vi: độ tương phản
-  def: The visible difference between colours or tones.
-  examples:
-    - en: Increase the contrast between the text and its background.
-  slug: t15-contrast-n
-  topic: culture
-  cefr: B2
-- lemma: alignment
-  pos: noun
-  vi: sự căn chỉnh
-  def: The positioning of items along a common line.
-  examples:
-    - en: Check the alignment of labels in the form.
-  slug: t15-alignment-n
-  topic: culture
-  cefr: B2
-- slug: t15-grid-n
-  lemma: grid
-  pos: noun
-  cefr: B1
-  topic: culture
-  ipa: /ɡrɪd/
-  def: A pattern of equal squares that divides an area.
-  vi: lưới ô
-  examples:
-    - en: The forecast is given for each 5 km grid cell.
-      vi: Dự báo được đưa ra cho mỗi ô lưới 5 km.
-- slug: t15-legibility-n
-  lemma: legibility
-  pos: noun
-  cefr: C1
-  topic: culture
-  ipa: /ˌledʒəˈbɪləti/
-  def: How easy text or numbers are to read.
-  vi: độ dễ đọc
-  examples:
-    - en: Check legibility on a phone screen in bright sunlight.
-      vi: Kiểm tra độ dễ đọc trên màn hình điện thoại dưới nắng gắt.
-- slug: t15-consistent-adj
-  lemma: consistent
-  pos: adjective
-  cefr: B2
-  topic: culture
-  ipa: /kənˈsɪstənt/
-  def: Always the same in style or meaning.
-  vi: nhất quán
-  examples:
-    - en: 'Be consistent: say "sign in" everywhere, not "log on".'
-      vi: 'Hãy nhất quán: dùng "sign in" ở mọi chỗ, không dùng "log on".'
-- lemma: component
-  pos: noun
-  vi: thành phần giao diện tái sử dụng
-  def: A reusable piece of a user interface.
-  examples:
-    - en: This component displays the same error format on every page.
-  slug: t15-component-n
-  topic: culture
-  cefr: B2
-- lemma: design system
-  pos: noun
-  vi: hệ thống quy chuẩn thiết kế
-  def: Shared components and rules for designing consistent interfaces.
-  examples:
-    - en: Our design system defines button sizes and spacing.
-  slug: t15-design-system-n
-  topic: culture
-  cefr: B2
-  kind: collocation
-- slug: t15-variant-n
-  lemma: variant
-  pos: noun
-  cefr: C1
-  topic: culture
-  ipa: /ˈveəriənt/
-  def: One of the different versions tested in an experiment.
-  vi: phiên bản thử, biến thể
-  examples:
-    - en: Variant B has a shorter form.
-      vi: Biến thể B có form ngắn hơn.
-- lemma: reusable
-  pos: adjective
-  vi: có thể tái sử dụng
-  def: Able to be used again in other places or situations.
-  examples:
-    - en: Make the error banner reusable across forms.
-  slug: t15-reusable-adj
-  topic: culture
-  cefr: B2
-- slug: t15-naming-convention-n
-  lemma: naming convention
-  pos: noun
-  kind: collocation
-  cefr: B1
-  topic: culture
-  ipa: /ˈneɪmɪŋ kənˈvenʃn/
-  def: An agreed way of choosing names for files, variables or functions.
-  vi: quy ước đặt tên
-  examples:
-    - en: The naming convention is camelCase for variables and PascalCase for types.
-      vi: Quy ước đặt tên là camelCase cho biến và PascalCase cho kiểu.
-- slug: t15-style-guide-n
-  lemma: style guide
-  pos: noun
-  kind: collocation
-  cefr: B2
-  topic: culture
-  ipa: /ˈstaɪl ɡaɪd/
-  def: A set of rules for how a team writes.
-  vi: hướng dẫn văn phong
-  examples:
-    - en: Our style guide says to use "you", not "the user".
-      vi: Hướng dẫn văn phong của chúng tôi bảo dùng "bạn", không dùng "người dùng".
-- lemma: default
-  pos: noun
-  vi: giá trị mặc định
-  def: A value used when no other choice is specified.
-  examples:
-    - en: The default for this setting is weekly email.
-  slug: t15-default-n
-  topic: culture
-  cefr: B2
-- lemma: override
-  pos: verb
-  vi: ghi đè thiết lập có sẵn
-  def: To replace a default or inherited value.
-  examples:
-    - en: Override the default spacing only when the layout requires it.
-  slug: t15-override-v
-  topic: culture
-  cefr: B2
-- lemma: property
-  pos: noun
-  vi: thuộc tính cấu hình
-  def: A named value controlling an object's behaviour or appearance.
-  examples:
-    - en: The size property selects the compact button variant.
-  slug: t15-property-n
-  topic: culture
-  cefr: B2
-- lemma: token
-  pos: noun
-  vi: giá trị thiết kế dùng chung
-  def: A named design value shared across components.
-  examples:
-    - en: Use a spacing token instead of a hard-coded number.
-  slug: t15-token-n
-  topic: culture
-  cefr: B2
-- slug: t15-pattern-n
-  lemma: pattern
-  pos: noun
-  cefr: B1
-  topic: culture
-  ipa: /ˈpætn/
-  def: Something that repeats in a regular way.
-  vi: quy luật, mẫu lặp lại
-  examples:
-    - en: "The errors follow a pattern: every hour on the hour."
-      vi: "Lỗi có quy luật: đúng mỗi đầu giờ."
-- slug: t15-documentation-n
-  lemma: documentation
-  pos: noun
-  cefr: B1
-  topic: culture
-  ipa: /ˌdɒkjumenˈteɪʃn/
-  def: Written text that explains how a piece of software works and how to use it.
-  vi: tài liệu (kỹ thuật)
-  note: Thường nói tắt là "docs".
-  examples:
-    - en: The documentation says this function is safe to call twice.
-      vi: Tài liệu nói hàm này gọi hai lần cũng an toàn.
-- slug: t15-prototype-n
-  lemma: prototype
-  pos: noun
-  cefr: B2
-  topic: culture
-  ipa: /ˈprəʊtətaɪp/
-  def: An early, simple version of a product, made to test an idea.
-  vi: bản mẫu
-  examples:
-    - en: I built a prototype in one weekend to test the idea.
-      vi: Mình làm một bản mẫu trong một cuối tuần để thử ý tưởng.
-- lemma: maintainable
-  pos: adjective
-  vi: dễ bảo trì
-  def: Easy to understand, repair and update.
-  examples:
-    - en: Use shared components to keep the interface maintainable.
-  slug: t15-maintainable-adj
-  topic: culture
-  cefr: B2
-- lemma: hover
-  pos: noun
-  vi: trạng thái con trỏ nằm trên phần tử
-  def: The state of a pointer resting over an interface element.
-  examples:
-    - en: Show a tooltip on hover and on keyboard focus.
-  slug: t15-hover-n
-  topic: culture
-  cefr: B2
-- lemma: focus
-  pos: noun
-  vi: trạng thái được chọn để nhận thao tác
-  def: The state of receiving keyboard or other input.
-  examples:
-    - en: Move focus to the error message after submission.
-  slug: t15-focus-n
-  topic: culture
-  cefr: B2
-- lemma: disabled
-  pos: adjective
-  vi: bị vô hiệu hoá
-  def: Unavailable for interaction in the current state.
-  examples:
-    - en: The submit button stays disabled until the form is valid.
-  slug: t15-disabled-adj
-  topic: culture
-  cefr: B2
-- lemma: selected
-  pos: adjective
-  vi: được chọn
-  def: Chosen from available options.
-  examples:
-    - en: The selected plan is highlighted before checkout.
-  slug: t15-selected-adj
-  topic: culture
-  cefr: B2
-- lemma: pressed
-  pos: adjective
-  vi: ở trạng thái đã nhấn
-  def: Showing that a toggle control is currently activated.
-  examples:
-    - en: The bold button stays pressed while bold formatting is active.
-  slug: t15-pressed-adj
-  topic: culture
-  cefr: B2
-- lemma: active
-  pos: adjective
-  vi: đang hoạt động
-  def: Currently working or being used.
-  examples:
-    - en: An active session keeps the user signed in.
-  slug: t15-active-adj
-  topic: culture
-  cefr: B2
-- lemma: interaction
-  pos: noun
-  vi: sự tương tác với hệ thống
-  def: An action and response between a person and a system.
-  examples:
-    - en: Every interaction should give clear feedback.
-  slug: t15-interaction-n
-  topic: culture
-  cefr: B2
-- slug: t15-feedback-n
-  lemma: feedback
-  pos: noun
-  cefr: B1
-  topic: culture
-  ipa: /ˈfiːdbæk/
-  def: Comments about how well someone did something, given so they can improve.
-  vi: phản hồi, góp ý
-  examples:
-    - en: Could you give me feedback on my design doc?
-      vi: Anh cho em góp ý về tài liệu thiết kế được không?
-- slug: t15-toggle-v
-  lemma: toggle
-  pos: verb
-  cefr: B2
-  topic: culture
-  ipa: /ˈtɒɡl/
-  def: To switch between two states, such as on and off.
-  vi: bật/tắt
-  examples:
-    - en: Users can toggle between satellite and street view.
-      vi: Người dùng có thể chuyển qua lại giữa ảnh vệ tinh và bản đồ đường.
-- slug: t15-dropdown-n
-  lemma: dropdown
-  pos: noun
-  cefr: B1
-  topic: culture
-  ipa: /ˈdrɒpdaʊn/
-  def: A list that opens when you click it so you can choose one item.
-  vi: danh sách thả xuống
-  examples:
-    - en: Choose your time zone from the dropdown.
-      vi: Chọn múi giờ trong danh sách thả xuống.
-- lemma: checkbox
-  pos: noun
-  vi: ô đánh dấu
-  def: A control that turns an independent option on or off.
-  examples:
-    - en: The checkbox lets users request email updates.
-  slug: t15-checkbox-n
-  topic: culture
-  cefr: B2
-- lemma: radio button
-  pos: noun
-  vi: nút chọn một trong nhiều lựa chọn
-  def: A control selecting one option from a group.
-  examples:
-    - en: Use a radio button when users must choose one plan.
-  slug: t15-radio-button-n
-  topic: culture
-  cefr: B2
-  kind: collocation
-- lemma: cursor
-  pos: noun
-  vi: con trỏ
-  def: A visual indicator of a pointer or text position.
-  examples:
-    - en: The cursor changes when it moves over a link.
-  slug: t15-cursor-n
-  topic: culture
-  cefr: B2
-- slug: t15-transition-n
-  lemma: transition
-  pos: noun
-  cefr: B2
-  topic: culture
-  ipa: /trænˈzɪʃn/
-  def: The process of changing from one state to another.
-  vi: sự chuyển tiếp
-  examples:
-    - en: The transition to the new team will take a month.
-      vi: Quá trình chuyển sang nhóm mới sẽ mất một tháng.
-- lemma: animation
-  pos: noun
-  vi: hiệu ứng chuyển động
-  def: A sequence of images or changes that creates movement.
-  examples:
-    - en: Keep the animation short when opening the menu.
-  slug: t15-animation-n
-  topic: culture
-  cefr: B2
-- lemma: responsive
-  pos: adjective
-  vi: thích ứng với kích thước màn hình
-  def: Adjusting layout to suit different screen sizes.
-  examples:
-    - en: The responsive table becomes a list on narrow screens.
-  slug: t15-responsive-adj
-  topic: culture
-  cefr: B2
-- slug: t15-loading-state-n
-  lemma: loading state
-  pos: noun
-  kind: collocation
-  cefr: B2
-  topic: culture
-  ipa: /ˈləʊdɪŋ steɪt/
-  def: What a screen shows while it is waiting for data.
-  vi: trạng thái đang tải
-  examples:
-    - en: The loading state should keep the layout from jumping.
-      vi: Trạng thái đang tải nên giữ bố cục không bị nhảy.
-- slug: t15-empty-state-n
-  lemma: empty state
-  pos: noun
-  kind: collocation
-  cefr: B2
-  topic: culture
-  ipa: /ˈempti steɪt/
-  def: What a screen shows when there is no data to display.
-  vi: trạng thái trống
-  examples:
-    - en: Write a helpful empty state for new stations with no history.
-      vi: Viết trạng thái trống hữu ích cho trạm mới chưa có lịch sử.
-- lemma: error state
-  pos: noun
-  vi: trạng thái lỗi
-  def: An interface state shown when an operation fails.
-  examples:
-    - en: The error state should explain how to retry.
-  slug: t15-error-state-n
-  topic: culture
-  cefr: B2
-  kind: collocation
-- slug: t15-placeholder-n
-  lemma: placeholder
-  pos: noun
-  cefr: B2
-  topic: culture
-  ipa: /ˈpleɪshəʊldə/
-  def: A fake value that stands in for the real one.
-  vi: giá trị giữ chỗ
-  examples:
-    - en: Use a placeholder like XXXX in the docs instead of the real token.
-      vi: Hãy dùng giá trị giữ chỗ như XXXX trong tài liệu thay vì token thật.
-- lemma: spinner
-  pos: noun
-  vi: biểu tượng xoay báo đang tải
-  def: An animated indicator that work is still in progress.
-  examples:
-    - en: Show a spinner while the server prepares the export.
-  slug: t15-spinner-n
-  topic: culture
-  cefr: B2
-- lemma: progress bar
-  pos: noun
-  vi: thanh hiển thị tiến trình
-  def: A visual indicator of how much work is complete.
-  examples:
-    - en: The progress bar updates while the export runs.
-  slug: t15-progress-bar-n
-  topic: culture
-  cefr: B2
-  kind: collocation
-- lemma: retry
-  pos: verb
-  vi: thử thực hiện lại
-  def: To attempt an operation again after failure.
-  examples:
-    - en: Retry the upload when the connection returns.
-  slug: t15-retry-v
-  topic: culture
-  cefr: B2
-- lemma: timeout
-  pos: noun
-  vi: sự hết thời gian chờ
-  def: The end of a waiting period without the expected result.
-  examples:
-    - en: A timeout should display a useful recovery action.
-  slug: t15-timeout-n
-  topic: culture
-  cefr: B2
-- lemma: validation
-  pos: noun
-  vi: việc kiểm tra tính hợp lệ
-  def: Checking that data meets required rules.
-  examples:
-    - en: Run validation on the server as well as in the form.
-  slug: t15-validation-n
-  topic: culture
-  cefr: B2
-- slug: t15-warning-n
-  lemma: warning
-  pos: noun
-  cefr: B1
-  topic: culture
-  ipa: /ˈwɔːnɪŋ/
-  def: A message telling someone that they will be punished if they do something
-    again.
-  vi: lời cảnh cáo
-  examples:
-    - en: First, we give a private warning.
-      vi: Đầu tiên, tụi mình gửi một lời cảnh cáo riêng.
-- lemma: success
-  pos: noun
-  vi: kết quả thành công
-  def: The achievement of an intended result.
-  examples:
-    - en: Show success only after the server confirms the save.
-  slug: t15-success-n
-  topic: culture
-  cefr: B2
-- lemma: failure
-  pos: noun
-  vi: sự thất bại hoặc không hoạt động
-  def: An event in which something does not work as intended.
-  examples:
-    - en: A payment failure should not erase the shopping cart.
-  slug: t15-failure-n
-  topic: culture
-  cefr: B2
-- slug: t15-pending-adj
-  lemma: pending
-  pos: adjective
-  cefr: B2
-  topic: culture
-  ipa: /ˈpendɪŋ/
-  def: Waiting for a decision or an action.
-  vi: đang chờ xử lý
-  examples:
-    - en: My GitHub invite is still pending.
-      vi: Lời mời GitHub của mình vẫn đang chờ.
-- slug: t15-no-data-phr
-  lemma: no data
-  pos: phrase
-  kind: phrase
-  cefr: A2
-  topic: culture
-  ipa: /ˌnəʊ ˈdeɪtə/
-  def: A label that tells users nothing was measured or received.
-  vi: không có dữ liệu
-  examples:
-    - en: Use a grey "no data" label, not a red error.
-      vi: Dùng nhãn "không có dữ liệu" màu xám, không phải lỗi màu đỏ.
-- slug: t15-offline-adj
-  lemma: offline
-  pos: adjective
-  cefr: B1
-  topic: culture
-  it: true
-  ipa: /ˌɒfˈlaɪn/
-  def: Not connected to the internet.
-  vi: ngoại tuyến, không có mạng
-  forms:
-    - go offline
-    - went offline
-  examples:
-    - en: You can read the maps offline, even on the plane.
-      vi: Bạn có thể xem bản đồ khi không có mạng, kể cả trên máy bay.
-- slug: t15-reconnect-v
-  lemma: reconnect
-  pos: verb
-  cefr: B1
-  topic: culture
-  ipa: /ˌriːkəˈnekt/
-  def: To join a network again after being cut off.
-  vi: kết nối lại
-  examples:
-    - en: When the station reconnects, it uploads the stored values.
-      vi: Khi trạm kết nối lại, nó tải lên các giá trị đã lưu.
-- slug: t15-recover-v
-  lemma: recover
-  pos: verb
-  cefr: B1
-  topic: culture
-  ipa: /rɪˈkʌvə/
-  def: To become healthy again after being ill or tired.
-  vi: hồi phục
-  forms:
-    - recovers
-    - recovered
-    - recovering
-    - recovery
-  examples:
-    - en: Take a few days off to recover properly.
-      vi: Nghỉ vài ngày để hồi phục hẳn nhé.
-- slug: t15-user-friendly-adj
-  lemma: user-friendly
-  pos: adjective
-  cefr: B1
-  topic: culture
-  ipa: /ˌjuːzə ˈfrendli/
-  def: Easy for people to learn and use.
-  vi: dễ sử dụng, thân thiện với người dùng
-  examples:
-    - en: My parents like this banking app because it is very user-friendly.
-      vi: Bố mẹ mình thích ứng dụng ngân hàng này vì nó rất dễ dùng.
-- lemma: UX writing
-  pos: noun
-  vi: viết nội dung giao diện
-  def: Writing text that guides people through a product.
-  examples:
-    - en: Good UX writing explains what happens after checkout.
-  slug: t15-ux-writing-n
-  topic: culture
-  cefr: B2
-  kind: collocation
-- slug: t15-plain-language-n
-  lemma: plain language
-  pos: noun
-  kind: collocation
-  cefr: B2
-  topic: culture
-  ipa: /ˌpleɪn ˈlæŋɡwɪdʒ/
-  def: Simple, clear words that most people understand easily.
-  vi: ngôn ngữ đơn giản, dễ hiểu
-  examples:
-    - en: Explain the outage in plain language.
-      vi: Giải thích sự cố bằng ngôn ngữ dễ hiểu.
-- slug: t15-call-to-action-n
-  lemma: call to action
-  pos: noun
-  kind: collocation
-  cefr: B2
-  topic: culture
-  ipa: /ˌkɔːl tə ˈækʃn/
-  def: A line that tells readers what to do next.
-  vi: lời kêu gọi hành động
-  examples:
-    - en: "End with a call to action: try the demo."
-      vi: "Kết bài bằng lời kêu gọi hành động: dùng thử bản demo."
-- slug: t15-tooltip-n
-  lemma: tooltip
-  pos: noun
-  cefr: B2
-  topic: culture
-  ipa: /ˈtuːltɪp/
-  def: A small box with extra information that appears when you point at something.
-  vi: tooltip (chú thích nổi)
-  examples:
-    - en: The tooltip shows the exact time and value.
-      vi: Tooltip hiển thị chính xác thời gian và giá trị.
-- lemma: helper text
-  pos: noun
-  vi: văn bản hướng dẫn cạnh trường nhập
-  def: Short instructions explaining how to complete an input.
-  examples:
-    - en: The helper text shows the required date format.
-  slug: t15-helper-text-n
-  topic: culture
-  cefr: B2
-  kind: collocation
-- slug: t15-confirmation-n
-  lemma: confirmation
-  pos: noun
-  cefr: B1
-  topic: culture
-  ipa: /ˌkɒnfəˈmeɪʃn/
-  def: A message that says a booking or plan is definite.
-  vi: xác nhận
-  examples:
-    - en: I got an email confirmation for the booking.
-      vi: Mình đã nhận email xác nhận đặt chỗ.
-- slug: t15-concise-adj
-  lemma: concise
-  pos: adjective
-  cefr: C1
-  topic: culture
-  ipa: /kənˈsaɪs/
-  def: Short and clear, using no extra words.
-  vi: ngắn gọn, súc tích
-  examples:
-    - en: "Keep the note concise: what, why, how to check."
-      vi: "Giữ ghi chú súc tích: cái gì, vì sao, kiểm tra thế nào."
-- slug: t15-ambiguous-adj
-  lemma: ambiguous
-  pos: adjective
-  cefr: B2
-  topic: culture
-  ipa: /æmˈbɪɡjuəs/
-  def: Able to be understood in more than one way.
-  vi: mơ hồ, đa nghĩa
-  examples:
-    - en: "The word 'recent' in the ticket is ambiguous: one week or one month?"
-      vi: "Chữ 'gần đây' trong ticket hơi mơ hồ: một tuần hay một tháng?"
-- slug: t15-jargon-n
-  lemma: jargon
-  pos: noun
-  cefr: C1
-  topic: culture
-  ipa: /ˈdʒɑːɡən/
-  def: Special words that only experts understand.
-  vi: thuật ngữ chuyên môn khó hiểu
-  examples:
-    - en: Avoid jargon in the summary for managers.
-      vi: Tránh thuật ngữ khó hiểu trong phần tóm tắt cho quản lý.
-- slug: t15-acronym-n
-  lemma: acronym
-  pos: noun
-  cefr: B2
-  topic: culture
-  ipa: /ˈækrənɪm/
-  def: A word made from the first letters of other words, like API.
-  vi: từ viết tắt (ghép chữ đầu)
-  examples:
-    - en: Write out each acronym the first time you use it.
-      vi: Hãy viết đầy đủ mỗi từ viết tắt ở lần đầu dùng.
-- slug: t15-terminology-n
-  lemma: terminology
-  pos: noun
-  cefr: C1
-  topic: culture
-  ipa: /ˌtɜːmɪˈnɒlədʒi/
-  def: The special words used in a subject.
-  vi: thuật ngữ
-  examples:
-    - en: We keep a list of product terminology in the wiki.
-      vi: Chúng tôi có danh sách thuật ngữ sản phẩm trong wiki.
-- slug: t15-readability-n
-  lemma: readability
-  pos: noun
-  cefr: C1
-  topic: culture
-  ipa: /ˌriːdəˈbɪləti/
-  def: How easy a text is to read and understand.
-  vi: độ dễ đọc
-  examples:
-    - en: Short paragraphs improve readability.
-      vi: Đoạn văn ngắn giúp tăng độ dễ đọc.
-- slug: t15-reader-n
-  lemma: reader
-  pos: noun
-  cefr: A2
-  topic: culture
-  ipa: /ˈriːdə/
-  def: A person who reads a text.
-  vi: người đọc
-  examples:
-    - en: Think about your reader before you start writing.
-      vi: Hãy nghĩ về người đọc trước khi bắt đầu viết.
-- slug: t15-end-user-n
-  lemma: end user
-  pos: noun
-  kind: collocation
-  cefr: B2
-  topic: culture
-  ipa: /ˌend ˈjuːzə/
-  def: The person who finally uses a product, not the people who build it.
-  vi: người dùng cuối
-  examples:
-    - en: End users only need to know that login is faster.
-      vi: Người dùng cuối chỉ cần biết đăng nhập đã nhanh hơn.
-- slug: t15-tone-n
-  lemma: tone
-  pos: noun
-  cefr: B2
-  topic: culture
-  ipa: /təʊn/
-  def: The feeling a piece of writing or speech gives, for example friendly or
-    angry.
-  vi: giọng điệu
-  examples:
-    - en: The tone of your reply sounded a bit harsh.
-      vi: Giọng điệu câu trả lời của bạn nghe hơi gay gắt.
-- slug: t15-friendly-adj
-  lemma: friendly
-  pos: adjective
-  cefr: A2
-  topic: culture
-  ipa: /ˈfrendli/
-  def: Kind and pleasant.
-  vi: thân thiện
-  examples:
-    - en: The error message should sound friendly, not angry.
-      vi: Thông báo lỗi nên nghe thân thiện, không gay gắt.
-- slug: t15-conversational-adj
-  lemma: conversational
-  pos: adjective
-  cefr: B2
-  topic: culture
-  ipa: /ˌkɒnvəˈseɪʃənl/
-  def: Written in a relaxed way, like people talk.
-  vi: tự nhiên như nói chuyện
-  examples:
-    - en: Our blog uses a conversational style.
-      vi: Blog của chúng tôi dùng văn phong như trò chuyện.
-- slug: t15-reword-v
-  lemma: reword
-  pos: verb
-  cefr: B2
-  topic: culture
-  ipa: /ˌriːˈwɜːd/
-  def: To write something again using different words.
-  vi: diễn đạt lại
-  examples:
-    - en: Reword this line so it doesn't sound like blame.
-      vi: Diễn đạt lại dòng này để nó không nghe như đổ lỗi.
-- slug: t15-proofread-v
-  lemma: proofread
-  pos: verb
-  cefr: C1
-  topic: culture
-  ipa: /ˈpruːfriːd/
-  def: To read a text carefully to find and correct mistakes.
-  vi: đọc soát lỗi
-  forms:
-    - proofreads
-    - proofreading
-  examples:
-    - en: Can you proofread my email before I send it to the CEO?
-      vi: Bạn đọc soát lỗi email giúp mình trước khi gửi cho CEO được không?
-- slug: t15-typo-n
-  lemma: typo
-  pos: noun
-  cefr: B1
-  topic: culture
-  ipa: /ˈtaɪpəʊ/
-  def: A small mistake in typing.
-  vi: lỗi đánh máy
-  examples:
-    - en: 'There''s a typo in the command: "isntall".'
-      vi: 'Có lỗi đánh máy trong lệnh: "isntall".'
-- slug: t15-accessible-adj
-  lemma: accessible
-  pos: adjective
-  cefr: B2
-  topic: culture
-  ipa: /əkˈsesəbl/
-  def: Easy for many different people to understand or use.
-  vi: dễ tiếp cận
-  examples:
-    - en: Short sentences make the guide more accessible.
-      vi: Câu ngắn giúp hướng dẫn dễ tiếp cận hơn.
-- slug: t15-accessibility-n
-  lemma: accessibility
-  pos: noun
-  cefr: B2
-  topic: culture
-  ipa: /əkˌsesəˈbɪləti/
-  def: How easily people with disabilities can use something.
-  vi: khả năng tiếp cận
-  examples:
-    - en: The contract requires accessibility checks on every page.
-      vi: Hợp đồng yêu cầu kiểm tra khả năng tiếp cận ở mọi trang.
-- slug: t15-alt-text-n
-  lemma: alt text
-  pos: noun
-  kind: collocation
-  cefr: B2
-  topic: culture
-  ipa: /ˈɔːlt tekst/
-  def: A short description of an image for people who cannot see it.
-  vi: văn bản thay thế cho ảnh
-  examples:
-    - en: Add alt text to every image in the docs.
-      vi: Thêm văn bản thay thế cho mọi ảnh trong tài liệu.
-- lemma: screen reader
-  pos: noun
-  vi: phần mềm đọc màn hình
-  def: Software that presents screen content through speech or braille.
-  examples:
-    - en: A screen reader needs a meaningful label for each input.
-  slug: t15-screen-reader-n
-  topic: culture
-  cefr: B2
-  kind: collocation
-- lemma: keyboard navigation
-  pos: noun
-  vi: điều hướng bằng bàn phím
-  def: Moving through an interface using keys instead of a pointer.
-  examples:
-    - en: Test keyboard navigation through the entire checkout form.
-  slug: t15-keyboard-navigation-n
-  topic: culture
-  cefr: B2
-  kind: collocation
-- lemma: tab order
-  pos: noun
-  vi: thứ tự di chuyển bằng phím Tab
-  def: The sequence in which elements receive focus using Tab.
-  examples:
-    - en: The tab order should follow the visible reading order.
-  slug: t15-tab-order-n
-  topic: culture
-  cefr: B2
-  kind: collocation
-- lemma: focus indicator
-  pos: noun
-  vi: dấu hiệu hiển thị vị trí focus
-  def: A visible mark showing which element receives keyboard input.
-  examples:
-    - en: The focus indicator must remain visible on dark backgrounds.
-  slug: t15-focus-indicator-n
-  topic: culture
-  cefr: B2
-  kind: collocation
-- lemma: colour blindness
-  pos: noun
-  vi: tình trạng khó phân biệt màu sắc
-  def: Difficulty distinguishing some colours.
-  examples:
-    - en: Check the chart for users with colour blindness.
-  slug: t15-colour-blindness-n
-  topic: culture
-  cefr: B2
-  kind: collocation
-- slug: t15-caption-n
-  lemma: caption
-  pos: noun
-  cefr: B2
-  topic: culture
-  ipa: /ˈkæpʃn/
-  def: The short text that goes with a photo or video.
-  vi: chú thích (ảnh, video), dòng trạng thái kèm ảnh
-  forms:
-    - captions
-  examples:
-    - en: I spent longer writing the caption than taking the photo.
-      vi: Mình mất nhiều thời gian viết chú thích hơn là chụp ảnh.
-- lemma: transcript
-  pos: noun
-  vi: bản ghi lời nói thành văn bản
-  def: A written version of spoken words.
-  examples:
-    - en: Share a transcript for colleagues who cannot listen to the recording.
-  slug: t15-transcript-n
-  topic: culture
-  cefr: B2
-- slug: t15-zoom-in-pv
-  lemma: zoom in
-  pos: phrasal_verb
-  kind: phrasal
-  cefr: B1
-  topic: culture
-  ipa: /ˌzuːm ˈɪn/
-  def: To make part of an image look bigger.
-  vi: phóng to
-  examples:
-    - en: Zoom in on the red warning so readers can see it.
-      vi: Phóng to cảnh báo màu đỏ để người đọc thấy rõ.
-- slug: t15-touchscreen-n
-  lemma: touchscreen
-  pos: noun
-  cefr: B1
-  topic: culture
-  ipa: /ˈtʌtʃskriːn/
-  def: A screen that you control by touching it with your finger.
-  vi: màn hình cảm ứng
-  forms:
-    - touchscreens
-    - touch screen
-  examples:
-    - en: The touchscreen doesn't work when my hands are wet.
-      vi: Màn hình cảm ứng không nhạy khi tay mình bị ướt.
-- lemma: target size
-  pos: noun
-  vi: kích thước vùng có thể thao tác
-  def: The area available for selecting an interface control.
-  examples:
-    - en: Increase the target size of the close button on mobile.
-  slug: t15-target-size-n
-  topic: culture
-  cefr: B2
-  kind: collocation
-- lemma: semantic
-  pos: adjective
-  vi: thể hiện đúng ý nghĩa
-  def: Expressing the meaning or purpose of something.
-  examples:
-    - en: Use semantic HTML so controls have the right meaning.
-  slug: t15-semantic-adj
-  topic: culture
-  cefr: B2
-- lemma: meaningful
-  pos: adjective
-  vi: có ý nghĩa rõ ràng
-  def: Providing useful information rather than being empty or arbitrary.
-  examples:
-    - en: Use a meaningful label instead of a generic action name.
-  slug: t15-meaningful-adj
-  topic: culture
-  cefr: B2
-- lemma: assistive technology
-  pos: noun
-  vi: công nghệ hỗ trợ người khuyết tật
-  def: Tools that help people perform tasks they find difficult.
-  examples:
-    - en: Test whether assistive technology can read this form.
-  slug: t15-assistive-technology-n
-  topic: culture
-  cefr: B2
-  kind: collocation
-- slug: t15-shortcut-n
-  lemma: shortcut
-  pos: noun
-  cefr: B1
-  topic: culture
-  ipa: /ˈʃɔːtkʌt/
-  def: A key or quick way to do something faster.
-  vi: phím tắt
-  examples:
-    - en: Use the shortcut Ctrl+S to save.
-      vi: Dùng phím tắt Ctrl+S để lưu.
-- lemma: form field
-  pos: noun
-  vi: trường nhập liệu
-  def: A control used to enter one piece of information.
-  examples:
-    - en: Each form field needs a clear label.
-  slug: t15-form-field-n
-  topic: culture
-  cefr: B2
-  kind: collocation
-- slug: t15-required-adj
-  lemma: required
-  pos: adjective
-  cefr: B1
-  topic: culture
-  ipa: /rɪˈkwaɪəd/
-  def: Needed; the request will not work without it.
-  vi: bắt buộc
-  examples:
-    - en: The email field is required, so the API returns 400 without it.
-      vi: Trường email là bắt buộc nên thiếu nó API trả về 400.
-- slug: t15-optional-adj
-  lemma: optional
-  pos: adjective
-  cefr: B1
-  topic: culture
-  ipa: /ˈɒpʃənl/
-  def: Not necessary; you can choose to include it or not.
-  vi: không bắt buộc, tuỳ chọn
-  examples:
-    - en: The sort field is optional; by default results are sorted by date.
-      vi: Trường sort là tuỳ chọn; mặc định kết quả sắp theo ngày.
-- lemma: visible
-  pos: adjective
-  vi: có thể nhìn thấy
-  def: Able to be seen.
-  examples:
-    - en: Keep the error message visible near the affected field.
-  slug: t15-visible-adj
-  topic: culture
-  cefr: B2
-- lemma: hidden
-  pos: adjective
-  vi: được ẩn đi
-  def: Not currently displayed or directly visible.
-  examples:
-    - en: The hidden menu should not receive keyboard focus.
-  slug: t15-hidden-adj
-  topic: culture
-  cefr: B2
-- slug: t15-localisation-n
-  lemma: localisation
-  pos: noun
-  cefr: B2
-  topic: culture
-  ipa: /ˌləʊkəlaɪˈzeɪʃn/
-  def: Changing a product so it fits the language and habits of a country.
-  vi: bản địa hoá
-  examples:
-    - en: Localisation for Japan includes a new font and date style.
-      vi: Bản địa hoá cho Nhật gồm font mới và kiểu ngày tháng.
-- lemma: translation
-  pos: noun
-  vi: bản dịch hoặc việc dịch
-  def: Expressing meaning from one language in another.
-  examples:
-    - en: Ask a native speaker to review the translation.
-  slug: t15-translation-n
-  topic: culture
-  cefr: B2
-- slug: t15-locale-n
-  lemma: locale
-  pos: noun
-  cefr: C1
-  topic: culture
-  ipa: /ləʊˈkɑːl/
-  def: A setting that combines a language and a region, such as vi-VN.
-  vi: thiết lập vùng ngôn ngữ
-  examples:
-    - en: The server reads the user's locale from the browser.
-      vi: Server đọc thiết lập vùng ngôn ngữ của người dùng từ trình duyệt.
-- slug: t15-time-zone-n
-  lemma: time zone
-  pos: noun
-  kind: collocation
-  cefr: B1
-  topic: culture
-  ipa: /ˈtaɪm zəʊn/
-  def: An area of the world that uses the same clock time.
-  vi: múi giờ
-  examples:
-    - en: We are in different time zones, so we work mostly in writing.
-      vi: Tụi mình ở khác múi giờ nên chủ yếu làm việc qua tin nhắn.
-- slug: t15-date-format-n
-  lemma: date format
-  pos: noun
-  kind: collocation
-  cefr: B1
-  topic: culture
-  ipa: /ˈdeɪt ˌfɔːmæt/
-  def: The order and style used to write a date.
-  vi: định dạng ngày
-  examples:
-    - en: The US date format puts the month before the day.
-      vi: Định dạng ngày của Mỹ đặt tháng trước ngày.
-- slug: t15-decimal-n
-  lemma: decimal
-  pos: noun
-  cefr: B1
-  topic: culture
-  ipa: /ˈdesɪml/
-  def: A number that uses a point to show parts smaller than one, like 3.75.
-  vi: số thập phân
-  examples:
-    - en: Round water levels to two decimals on the chart.
-      vi: Làm tròn mực nước đến hai chữ số thập phân trên biểu đồ.
-- slug: t15-currency-n
-  lemma: currency
-  pos: noun
-  cefr: B1
-  topic: culture
-  ipa: /ˈkʌrənsi/
-  def: The type of money a country uses.
-  vi: tiền tệ
-  examples:
-    - en: Show prices in the user's local currency.
-      vi: Hiển thị giá bằng tiền tệ địa phương của người dùng.
-- slug: t15-right-to-left-adj
-  lemma: right-to-left
-  pos: adjective
-  cefr: B2
-  topic: culture
-  ipa: /ˌraɪt tə ˈleft/
-  def: Written starting from the right side, like Arabic.
-  vi: viết từ phải sang trái
-  examples:
-    - en: The layout must flip for right-to-left languages.
-      vi: Bố cục phải lật lại cho các ngôn ngữ viết từ phải sang trái.
-- lemma: text expansion
-  pos: noun
-  vi: việc bản dịch dài hơn văn bản gốc
-  def: An increase in text length after translation or editing.
-  examples:
-    - en: Allow extra space for text expansion in translated buttons.
-  slug: t15-text-expansion-n
-  topic: culture
-  cefr: B2
-  kind: collocation
-- lemma: plural
-  pos: noun
-  vi: dạng số nhiều
-  def: A word form referring to more than one item.
-  examples:
-    - en: The translation needs a plural for counts above one.
-  slug: t15-plural-n
-  topic: culture
-  cefr: B2
-- lemma: cultural context
-  pos: noun
-  vi: bối cảnh văn hoá
-  def: The customs and shared meanings that influence interpretation.
-  examples:
-    - en: Check the cultural context before choosing an illustration.
-  slug: t15-cultural-context-n
-  topic: culture
-  cefr: B2
-  kind: collocation
-- lemma: symbol
-  pos: noun
-  vi: ký hiệu
-  def: A mark or image representing a meaning.
-  examples:
-    - en: Check whether this symbol has a different meaning in another culture.
-  slug: t15-symbol-n
-  topic: culture
-  cefr: B2
-- lemma: icon
-  pos: noun
-  vi: biểu tượng giao diện
-  def: A small image representing an object or action.
-  examples:
-    - en: The icon needs a text label for clarity.
-  slug: t15-icon-n
-  topic: culture
-  cefr: B2
-- lemma: imagery
-  pos: noun
-  vi: hệ thống hình ảnh minh hoạ
-  def: Images used to communicate meaning or create an impression.
-  examples:
-    - en: Choose imagery that makes sense across cultures.
-  slug: t15-imagery-n
-  topic: culture
-  cefr: B2
-- slug: t15-sensitive-adj
-  lemma: sensitive
-  pos: adjective
-  cefr: B2
-  topic: culture
-  ipa: /ˈsensətɪv/
-  def: Likely to upset people, so you must talk about it carefully.
-  vi: nhạy cảm
-  examples:
-    - en: Religion can be a sensitive topic in a mixed team.
-      vi: Tôn giáo có thể là chủ đề nhạy cảm trong nhóm đa dạng.
-- slug: t15-inclusive-adj
-  lemma: inclusive
-  pos: adjective
-  cefr: C1
-  topic: culture
-  ipa: /ɪnˈkluːsɪv/
-  def: Making everyone feel they are welcome and can take part.
-  vi: hòa nhập, bao trùm
-  examples:
-    - en: We use inclusive language in our docs and talks.
-      vi: Tụi mình dùng ngôn ngữ hòa nhập trong tài liệu và bài nói.
-- slug: t15-respectful-adj
-  lemma: respectful
-  pos: adjective
-  cefr: B1
-  topic: culture
-  ipa: /rɪˈspektfl/
-  def: Showing that you value other people and their opinions.
-  vi: tôn trọng
-  examples:
-    - en: Please be respectful, even when you disagree.
-      vi: Hãy tôn trọng người khác, kể cả khi bạn không đồng ý.
-- slug: t15-familiar-with-phr
-  lemma: familiar with
-  pos: phrase
-  kind: phrase
-  cefr: B1
-  topic: culture
-  ipa: /fəˈmɪliə wɪð/
-  def: Knowing something because you have seen or used it before.
-  vi: quen thuộc với
-  examples:
-    - en: Not every reader is familiar with Kubernetes.
-      vi: Không phải người đọc nào cũng quen với Kubernetes.
-- slug: t15-prior-knowledge-n
-  lemma: prior knowledge
-  pos: noun
-  kind: collocation
-  cefr: C1
-  topic: culture
-  ipa: /ˌpraɪə ˈnɒlɪdʒ/
-  def: What a reader already knows before reading.
-  vi: kiến thức có sẵn
-  examples:
-    - en: This guide needs no prior knowledge of SQL.
-      vi: Hướng dẫn này không cần kiến thức SQL có sẵn.
-- slug: t15-tailor-v
-  lemma: tailor
-  pos: verb
-  cefr: B2
-  topic: culture
-  ipa: /ˈteɪlə/
-  def: To change something so it fits a particular person or group.
-  vi: điều chỉnh cho phù hợp
-  examples:
-    - en: Tailor the message for each team.
-      vi: Điều chỉnh thông điệp cho phù hợp với từng nhóm.
-- slug: t15-audience-n
-  lemma: audience
-  pos: noun
-  cefr: B1
-  topic: culture
-  ipa: /ˈɔːdiəns/
-  def: The people who watch or listen to a talk.
-  vi: khán giả, người nghe
-  examples:
-    - en: "Know your audience: are they backend or design people?"
-      vi: "Hiểu người nghe: họ là dân backend hay thiết kế?"
-- slug: t15-avoid-v
-  lemma: avoid
-  pos: verb
-  cefr: B1
-  topic: culture
-  ipa: /əˈvɔɪd/
-  def: To try not to do something or talk about something.
-  vi: tránh
-  examples:
-    - en: I avoid talking about politics at work.
-      vi: Mình tránh nói về chính trị ở chỗ làm.
-- slug: t15-wording-n
-  lemma: wording
-  pos: noun
-  cefr: B2
-  topic: culture
-  ipa: /ˈwɜːdɪŋ/
-  def: The exact words chosen to say something.
-  vi: cách dùng từ
-  examples:
-    - en: The wording of my comment was too strong.
-      vi: Cách dùng từ trong bình luận của mình quá mạnh.
-- slug: t15-spell-out-pv
-  lemma: spell out
-  pos: phrasal_verb
-  kind: phrasal
-  cefr: B2
-  topic: culture
-  ipa: /ˌspel ˈaʊt/
-  def: To explain something clearly and in detail.
-  vi: nói rõ, giải thích cặn kẽ
-  examples:
-    - en: Spell out what happens if the payment fails.
-      vi: Nói rõ điều gì xảy ra nếu thanh toán thất bại.
-- lemma: design review
-  pos: noun
-  vi: buổi đánh giá thiết kế
-  def: An assessment of a design before implementation or release.
-  examples:
-    - en: Bring the empty-state examples to the design review.
-  slug: t15-design-review-n
-  topic: culture
-  cefr: B2
-  kind: collocation
-- lemma: handoff
-  pos: noun
-  vi: việc bàn giao công việc
-  def: The transfer of work and context to another person.
-  examples:
-    - en: Include responsive states in the design handoff.
-  slug: t15-handoff-n
-  topic: culture
-  cefr: B2
-- slug: t15-annotate-v
-  lemma: annotate
-  pos: verb
-  cefr: C1
-  topic: culture
-  ipa: /ˈænəteɪt/
-  def: To add short comments to a text or picture to explain it.
-  vi: chú thích
-  examples:
-    - en: I annotated the screenshot with arrows.
-      vi: Mình chú thích ảnh chụp màn hình bằng mũi tên.
-- lemma: specification
-  pos: noun
-  vi: bản đặc tả
-  def: A detailed description of required behaviour or design.
-  examples:
-    - en: The specification includes error and loading states.
-  slug: t15-specification-n
-  topic: culture
-  cefr: B2
-- slug: t15-acceptance-criteria-n
-  lemma: acceptance criteria
-  pos: noun
-  kind: collocation
-  cefr: B2
-  topic: culture
-  ipa: /əkˈseptəns kraɪˌtɪəriə/
-  def: The conditions a feature must meet to be accepted as done.
-  vi: tiêu chí chấp nhận
-  examples:
-    - en: Can you share the acceptance criteria for the export feature?
-      vi: Bạn gửi giúp tiêu chí chấp nhận cho tính năng xuất file được không?
-- slug: t15-expected-behaviour-n
-  lemma: expected behaviour
-  pos: noun
-  kind: collocation
-  cefr: B1
-  topic: culture
-  ipa: /ɪkˌspektɪd bɪˈheɪvjə/
-  def: What a program should do if it works correctly.
-  vi: hành vi mong đợi
-  examples:
-    - en: "Expected behaviour: the form shows an error message."
-      vi: "Hành vi mong đợi: form hiện thông báo lỗi."
-- slug: t15-actual-result-n
-  lemma: actual result
-  pos: noun
-  kind: collocation
-  cefr: B1
-  topic: culture
-  ipa: /ˈæktʃuəl rɪˈzʌlt/
-  def: What really happens when you follow the steps.
-  vi: kết quả thực tế
-  examples:
-    - en: "Actual result: the list stays empty."
-      vi: "Kết quả thực tế: danh sách vẫn trống."
-- slug: t15-screenshot-n
-  lemma: screenshot
-  pos: noun
-  cefr: A2
-  topic: culture
-  it: true
-  ipa: /ˈskriːnʃɒt/
-  def: A picture of what is on your screen at one moment.
-  vi: ảnh chụp màn hình
-  forms:
-    - screenshots
-  examples:
-    - en: Can you send me a screenshot of the error message?
-      vi: Bạn gửi mình ảnh chụp màn hình thông báo lỗi được không?
-- slug: t15-animated-gif-n
-  lemma: animated GIF
-  pos: noun
-  kind: collocation
-  cefr: B2
-  topic: culture
-  ipa: /ˌænɪmeɪtɪd ˈɡɪf/
-  def: A short moving picture that plays again and again.
-  vi: ảnh GIF động
-  examples:
-    - en: An animated GIF shows the bug better than words.
-      vi: Một ảnh GIF động thể hiện lỗi rõ hơn lời nói.
-- slug: t15-reference-n
-  lemma: reference
-  pos: noun
-  cefr: B1
-  topic: culture
-  ipa: /ˈrefrəns/
-  def: A mention of a source that gives more information.
-  vi: tài liệu tham khảo
-  examples:
-    - en: Put the references at the end of the document.
-      vi: Đặt tài liệu tham khảo ở cuối văn bản.
-- slug: t15-before-and-after-phr
-  lemma: before and after
-  pos: phrase
-  kind: phrase
-  cefr: B1
-  topic: culture
-  ipa: /bɪˌfɔːr ən ˈɑːftə/
-  def: Showing something both before and after a change.
-  vi: trước và sau
-  examples:
-    - en: Show before and after screenshots of the new layout.
-      vi: Đưa ảnh chụp trước và sau của bố cục mới.
-- slug: t15-comparison-n
-  lemma: comparison
-  pos: noun
-  cefr: B1
-  topic: culture
-  ipa: /kəmˈpærɪsn/
-  def: Looking at two or more things to see how they are different.
-  vi: sự so sánh
-  examples:
-    - en: A side-by-side comparison makes the speed-up clear.
-      vi: Một phép so sánh song song làm rõ mức tăng tốc.
-- slug: t15-outline-n
-  lemma: outline
-  pos: noun
-  cefr: B2
-  topic: culture
-  ipa: /ˈaʊtlaɪn/
-  def: A list of the main parts of something, without the details.
-  vi: dàn ý
-  examples:
-    - en: Write an outline before you write the whole page.
-      vi: Viết dàn ý trước khi viết cả trang.
-- slug: t15-detail-n
-  lemma: detail
-  pos: noun
-  cefr: A2
-  topic: culture
-  ipa: /ˈdiːteɪl/
-  def: A small fact or piece of information.
-  vi: chi tiết
-  examples:
-    - en: Leave out the database details for the sales team.
-      vi: Bỏ bớt chi tiết về database cho nhóm bán hàng.
-- slug: t15-nitpick-n
-  lemma: nitpick
-  pos: noun
-  cefr: C1
-  topic: culture
-  ipa: /ˈnɪtpɪk/
-  def: A very small comment about a detail that is not important.
-  vi: góp ý vụn vặt
-  examples:
-    - en: "Just a nitpick: add a full stop here."
-      vi: "Góp ý nhỏ thôi: thêm dấu chấm ở đây nhé."
-- slug: t15-constructive-adj
-  lemma: constructive
-  pos: adjective
-  cefr: B2
-  topic: culture
-  ipa: /kənˈstrʌktɪv/
-  def: Helpful and meant to make something better.
-  vi: mang tính xây dựng
-  examples:
-    - en: Keep your feedback constructive and specific.
-      vi: Hãy giữ góp ý mang tính xây dựng và cụ thể.
-- slug: t15-recommendation-n
-  lemma: recommendation
-  pos: noun
-  cefr: B2
-  topic: culture
-  ipa: /ˌrekəmenˈdeɪʃn/
-  def: A suggestion from an app about what you might want to watch, read or buy.
-  vi: gợi ý, đề xuất
-  forms:
-    - recommendations
-    - recommend
-    - recommended
-  examples:
-    - en: The film recommendations on this app are always spot on.
-      vi: Phim gợi ý trên ứng dụng này lúc nào cũng trúng gu.
-- slug: t15-rationale-n
-  lemma: rationale
-  pos: noun
-  cefr: C1
-  topic: culture
-  ipa: /ˌræʃəˈnɑːl/
-  def: The reasons behind a decision.
-  vi: lý do căn bản
-  examples:
-    - en: Could you share the rationale for merging the teams?
-      vi: Anh chia sẻ lý do của việc gộp nhóm được không?
-- slug: t15-constraint-n
-  lemma: constraint
-  pos: noun
-  cefr: B2
-  topic: culture
-  ipa: /kənˈstreɪnt/
-  def: Something that limits what you can do.
-  vi: ràng buộc
-  examples:
-    - en: A key constraint is that the data must stay in Vietnam.
-      vi: Một ràng buộc quan trọng là dữ liệu phải lưu ở Việt Nam.
-- slug: t15-edge-case-n
-  lemma: edge case
-  pos: noun
-  kind: collocation
-  cefr: C1
-  topic: culture
-  ipa: /ˈedʒ keɪs/
-  def: An unusual situation at the limit of what a system expects.
-  vi: trường hợp biên
-  examples:
-    - en: Explain the edge cases, not only the happy path.
-      vi: Hãy giải thích các trường hợp biên, không chỉ luồng bình thường.
-- slug: t15-corner-case-n
-  lemma: corner case
-  pos: noun
-  kind: collocation
-  cefr: C1
-  topic: culture
-  ipa: /ˈkɔːnə keɪs/
-  def: A rare situation where several unusual conditions happen together.
-  vi: tình huống hiếm gặp
-  examples:
-    - en: A station moved to a new time zone is a corner case worth testing.
-      vi: Trạm chuyển sang múi giờ mới là tình huống hiếm đáng để test.
-- slug: t15-test-plan-n
-  lemma: test plan
-  pos: noun
-  kind: collocation
-  cefr: B1
-  topic: culture
-  ipa: /ˈtest plæn/
-  def: A description of how you checked that a change works.
-  vi: kế hoạch kiểm thử
-  examples:
-    - en: My test plan lists the three cases I tried by hand.
-      vi: Kế hoạch kiểm thử của mình liệt kê ba trường hợp mình thử bằng tay.
-- slug: t15-browser-n
-  lemma: browser
-  pos: noun
-  cefr: A2
-  topic: culture
-  it: true
-  ipa: /ˈbraʊzə/
-  def: A program you use to open and look at websites.
-  vi: trình duyệt
-  forms:
-    - browsers
-    - web browser
-  examples:
-    - en: Try clearing the cache or using a different browser.
-      vi: Thử xoá bộ nhớ đệm hoặc dùng trình duyệt khác xem.
-- slug: t15-device-n
-  lemma: device
-  pos: noun
-  cefr: B1
-  topic: culture
-  ipa: /dɪˈvaɪs/
-  def: A machine or tool such as a phone, tablet or laptop.
-  vi: thiết bị
-  forms:
-    - devices
-  examples:
-    - en: "You can watch the course on any device: phone, tablet or laptop."
-      vi: "Bạn có thể xem khoá học trên bất kỳ thiết bị nào: điện thoại, máy tính bảng
-        hay laptop."
-- slug: t15-compatibility-n
-  lemma: compatibility
-  pos: noun
-  cefr: B2
-  topic: culture
-  ipa: /kəmˌpætəˈbɪləti/
-  def: The ability of things to work together without problems.
-  vi: khả năng tương thích
-  examples:
-    - en: This release improves compatibility with older phones.
-      vi: Bản này cải thiện khả năng tương thích với điện thoại cũ.
-- lemma: implementation
-  pos: noun
-  vi: phần hiện thực hoá bằng mã
-  def: The code or work that puts a design into practice.
-  examples:
-    - en: The implementation should match the agreed empty state.
-  slug: t15-implementation-n
-  topic: culture
-  cefr: B2
-- slug: t15-iteration-n
-  lemma: iteration
-  pos: noun
-  cefr: B2
-  topic: culture
-  ipa: /ˌɪtəˈreɪʃn/
-  def: One repeat of a loop or of a test.
-  vi: vòng lặp, lượt
-  examples:
-    - en: Each iteration inserts 1,000 rows.
-      vi: Mỗi lượt chèn 1.000 dòng.
-- slug: t15-sign-off-n
-  lemma: sign-off
-  pos: noun
-  cefr: C1
-  topic: culture
-  ipa: /ˈsaɪn ɒf/
-  def: Official final agreement that work is complete or can go ahead.
-  vi: sự chấp thuận cuối cùng
-  examples:
-    - en: After the change, product gives sign-off on releases.
-      vi: Sau thay đổi, bên product là người chấp thuận cuối cho release.
-- slug: t15-trade-off-n
-  lemma: trade-off
-  pos: noun
-  kind: collocation
-  cefr: C1
-  topic: culture
-  ipa: /ˈtreɪd ɒf/
-  def: A situation where you lose one good thing to get another.
-  vi: sự đánh đổi
-  examples:
-    - en: The trade-off is faster releases but less manual testing.
-      vi: Sự đánh đổi là release nhanh hơn nhưng ít test thủ công hơn.
-- slug: t15-alternative-n
-  lemma: alternative
-  pos: noun
-  cefr: B2
-  topic: culture
-  ipa: /ɔːlˈtɜːnətɪv/
-  def: Another possible choice.
-  vi: phương án thay thế
-  examples:
-    - en: We considered Kafka as an alternative but chose SQS.
-      vi: Nhóm đã cân nhắc Kafka làm phương án thay thế nhưng chọn SQS.
-- slug: t15-option-n
-  lemma: option
-  pos: noun
-  cefr: A2
-  topic: culture
-  ipa: /ˈɒpʃn/
-  def: One of the things you can choose.
-  vi: lựa chọn
-  examples:
-    - en: Option B is cheaper but slower to set up.
-      vi: Lựa chọn B rẻ hơn nhưng cài đặt lâu hơn.
-- slug: t15-benefit-n
-  lemma: benefit
-  pos: noun
-  cefr: B1
-  topic: culture
-  ipa: /ˈbenɪfɪt/
-  def: A good result or advantage.
-  vi: lợi ích
-  examples:
-    - en: The main benefit is that juniors can deploy alone.
-      vi: Lợi ích chính là các bạn junior tự deploy được.
-- slug: t15-drawback-n
-  lemma: drawback
-  pos: noun
-  cefr: B2
-  topic: culture
-  ipa: /ˈdrɔːbæk/
-  def: A disadvantage or problem.
-  vi: nhược điểm
-  examples:
-    - en: The main drawback is that we lose strong typing.
-      vi: Nhược điểm chính là mất kiểu dữ liệu chặt chẽ.
-- slug: t15-pros-and-cons-n
-  lemma: pros and cons
-  pos: noun
-  kind: collocation
-  cefr: B1
-  topic: culture
-  ipa: /ˌprəʊz ən ˈkɒnz/
-  def: The good and bad points of something.
-  vi: ưu và nhược điểm
-  examples:
-    - en: List the pros and cons of each option in a table.
-      vi: Hãy liệt kê ưu nhược điểm của từng lựa chọn trong một bảng.
-- slug: t15-user-feedback-n
-  lemma: user feedback
-  pos: noun
-  kind: collocation
-  cefr: B1
-  topic: culture
-  ipa: /ˌjuːzə ˈfiːdbæk/
-  def: Opinions and comments from the people who use a product.
-  vi: phản hồi người dùng
-  examples:
-    - en: Based on user feedback, I added a dark mode.
-      vi: Dựa trên phản hồi người dùng, mình đã thêm chế độ tối.
-- lemma: usability
-  pos: noun
-  vi: mức dễ sử dụng
-  def: How easily people can achieve goals with a product.
-  examples:
-    - en: A shorter form can improve usability on mobile.
-  slug: t15-usability-n
-  topic: culture
-  cefr: B2
-- lemma: usability test
-  pos: noun
-  vi: buổi kiểm tra khả năng sử dụng
-  def: An observation of people completing tasks with a product.
-  examples:
-    - en: Run a usability test before releasing the new navigation.
-  slug: t15-usability-test-n
-  topic: culture
-  cefr: B2
-  kind: collocation
-- lemma: task completion
-  pos: noun
-  vi: việc hoàn tất tác vụ
-  def: Successfully finishing an intended activity.
-  examples:
-    - en: Measure task completion during the usability test.
-  slug: t15-task-completion-n
-  topic: culture
-  cefr: B2
-  kind: collocation
-- lemma: discoverability
-  pos: noun
-  vi: mức dễ tìm thấy chức năng
-  def: How easily people can find a feature or action.
-  examples:
-    - en: A clear label improves the discoverability of the export action.
-  slug: t15-discoverability-n
-  topic: culture
-  cefr: B2
-- lemma: learnability
-  pos: noun
-  vi: mức dễ học cách sử dụng
-  def: How easily a new user can understand a product.
-  examples:
-    - en: A familiar layout improves learnability for new users.
-  slug: t15-learnability-n
-  topic: culture
-  cefr: B2
-- lemma: cognitive load
-  pos: noun
-  vi: mức gánh nặng nhận thức
-  def: The mental effort required to understand or complete something.
-  examples:
-    - en: Too many choices increase cognitive load during signup.
-  slug: t15-cognitive-load-n
-  topic: culture
-  cefr: B2
-  kind: collocation
-- lemma: friction
-  pos: noun
-  vi: trở ngại làm thao tác khó hơn
-  def: Extra difficulty or effort that slows a user down.
-  examples:
-    - en: An unnecessary confirmation adds friction to a simple task.
-  slug: t15-friction-n
-  topic: culture
-  cefr: B2
-- lemma: consistency
-  pos: noun
-  vi: sự nhất quán
-  def: Using the same rules or behaviour across related situations.
-  examples:
-    - en: Consistency helps users recognise actions across screens.
-  slug: t15-consistency-n
-  topic: culture
-  cefr: B2
-- lemma: affordance
-  pos: noun
-  vi: dấu hiệu gợi cách sử dụng
-  def: A feature that suggests how something can be used.
-  examples:
-    - en: A raised button provides an affordance for pressing it.
-  slug: t15-affordance-n
-  topic: culture
-  cefr: B2
-- slug: t15-feedback-loop-n
-  lemma: feedback loop
-  pos: noun
-  kind: collocation
-  cefr: B2
-  topic: culture
-  ipa: /ˈfiːdbæk luːp/
-  def: The cycle of showing work, getting comments and improving it.
-  vi: vòng phản hồi
-  examples:
-    - en: Weekly demos keep the feedback loop short.
-      vi: Demo hằng tuần giúp vòng phản hồi ngắn lại.
-- lemma: mental model
-  pos: noun
-  vi: mô hình hiểu trong suy nghĩ người dùng
-  def: A person's understanding of how something works.
-  examples:
-    - en: The folder view matches the user's mental model of file storage.
-  slug: t15-mental-model-n
-  topic: culture
-  cefr: B2
-  kind: collocation
-- lemma: progressive disclosure
-  pos: noun
-  vi: hiển thị dần thông tin khi cần
-  def: Showing advanced details only when they become relevant.
-  examples:
-    - en: Progressive disclosure keeps optional settings out of the initial form.
-  slug: t15-progressive-disclosure-n
-  topic: culture
-  cefr: B2
-  kind: collocation
-- lemma: information architecture
-  pos: noun
-  vi: cấu trúc tổ chức thông tin
-  def: The arrangement and labelling of content for navigation and understanding.
-  examples:
-    - en: The information architecture groups billing settings together.
-  slug: t15-information-architecture-n
-  topic: culture
-  cefr: B2
-  kind: collocation
-- lemma: content hierarchy
-  pos: noun
-  vi: thứ bậc nội dung
-  def: The ordering of content by importance and relationship.
-  examples:
-    - en: The content hierarchy places the main task above supporting details.
-  slug: t15-content-hierarchy-n
-  topic: culture
-  cefr: B2
-  kind: collocation
-- lemma: breakpoint
-  pos: noun
-  vi: ngưỡng đổi bố cục
-  def: A screen width at which layout rules change.
-  examples:
-    - en: Use a breakpoint to move navigation below the header.
-  slug: t15-breakpoint-n
-  topic: culture
-  cefr: B2
-- lemma: viewport
-  pos: noun
-  vi: vùng hiển thị của trình duyệt
-  def: The area of a page currently visible in a browser.
-  examples:
-    - en: Test the menu at a narrow viewport width.
-  slug: t15-viewport-n
-  topic: culture
-  cefr: B2
-- lemma: mobile-first
-  pos: adjective
-  vi: ưu tiên thiết kế cho di động
-  def: Designed for small screens before larger ones.
-  examples:
-    - en: A mobile-first layout keeps the primary action easy to reach.
-  slug: t15-mobile-first-adj
-  topic: culture
-  cefr: B2
-- lemma: adaptive
-  pos: adjective
-  vi: có thể thích ứng theo điều kiện
-  def: Changing to suit different conditions or devices.
-  examples:
-    - en: An adaptive layout can use different navigation on tablets.
-  slug: t15-adaptive-adj
-  topic: culture
-  cefr: B2
-- lemma: intuitive
-  pos: adjective
-  vi: dễ hiểu theo trực giác
-  def: Easy to understand without detailed instructions.
-  examples:
-    - en: Check whether the navigation feels intuitive to a first-time user.
-  slug: t15-intuitive-adj
-  topic: culture
-  cefr: B2
-- lemma: predictable
-  pos: adjective
-  vi: có hành vi dễ dự đoán
-  def: Behaving in a way people can reasonably expect.
-  examples:
-    - en: Consistent shortcuts make the interface predictable.
-  slug: t15-predictable-adj
-  topic: culture
-  cefr: B2
-- slug: t15-flexibility-n
-  lemma: flexibility
-  pos: noun
-  cefr: B2
-  topic: culture
-  ipa: /ˌfleksəˈbɪləti/
-  def: The ability of your body to bend and move easily.
-  vi: độ dẻo dai, sự linh hoạt (cơ thể)
-  examples:
-    - en: Yoga has improved my flexibility a lot.
-      vi: Yoga đã cải thiện độ dẻo dai của mình rất nhiều.
-- lemma: efficiency
-  pos: noun
-  vi: hiệu quả sử dụng nguồn lực
-  def: Achieving results with little wasted time or effort.
-  examples:
-    - en: Keyboard shortcuts improve efficiency for frequent users.
-  slug: t15-efficiency-n
-  topic: culture
-  cefr: B2
-- lemma: satisfaction
-  pos: noun
-  vi: mức độ hài lòng
-  def: How pleased people are with an experience or result.
-  examples:
-    - en: Measure satisfaction after the onboarding flow changes.
-  slug: t15-satisfaction-n
-  topic: culture
-  cefr: B2
-- slug: t15-evidence-based-adj
-  lemma: evidence-based
-  pos: adjective
-  cefr: C1
-  topic: culture
-  ipa: /ˈevɪdəns beɪst/
-  def: Based on facts and data, not opinion.
-  vi: dựa trên bằng chứng
-  examples:
-    - en: Every recommendation should be evidence-based.
-      vi: Mọi khuyến nghị nên dựa trên bằng chứng.
-- slug: t15-hypothesis-n
-  lemma: hypothesis
-  pos: noun
-  cefr: C1
-  topic: culture
-  ipa: /haɪˈpɒθəsɪs/
-  def: An idea that you plan to test.
-  vi: giả thuyết
-  examples:
-    - en: Our hypothesis is that smaller images won't hurt sales.
-      vi: Giả thuyết của mình là ảnh nhỏ hơn không ảnh hưởng doanh số.
-- slug: t15-validate-v
-  lemma: validate
-  pos: verb
-  cefr: B2
-  topic: culture
-  ipa: /ˈvælɪdeɪt/
-  def: To test an idea or result to prove it is correct.
-  vi: xác thực, kiểm chứng
-  examples:
-    - en: Validate the fix on staging before you write it up.
-      vi: Kiểm chứng bản sửa trên staging trước khi viết lại.
-- slug: t15-measure-v
-  lemma: measure
-  pos: verb
-  cefr: A2
-  topic: culture
-  ipa: /ˈmeʒə/
-  def: To find out the size, amount or level of something using a tool.
-  vi: đo
-  examples:
-    - en: This device measures the temperature of the water, not the air.
-      vi: Thiết bị này đo nhiệt độ của nước, không phải không khí.
-- slug: t15-iterate-v
-  lemma: iterate
-  pos: verb
-  cefr: B2
-  topic: culture
-  ipa: /ˈɪtəreɪt/
-  def: To improve something by repeating small changes.
-  vi: lặp cải tiến
-  examples:
-    - en: We'll iterate on the design after the first results.
-      vi: Bọn mình sẽ cải tiến thiết kế sau kết quả đầu tiên.
-- slug: t15-decision-record-n
-  lemma: decision record
-  pos: noun
-  kind: collocation
-  cefr: B2
-  topic: culture
-  ipa: /dɪˈsɪʒn ˈrekɔːd/
-  def: A short document that explains a decision and why it was made.
-  vi: bản ghi quyết định
-  examples:
-    - en: Link the decision record in the README so new people find it.
-      vi: Hãy dẫn link bản ghi quyết định trong README để người mới tìm thấy.
+# Vocabulary by topic: Interface Design & Cross-Cultural UX (unit T15). Original content.
+# Set 1: Layout & visual hierarchy
+- {
+    slug: "focal-point-n",
+    lemma: "focal point",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "B2",
+    topic: "culture",
+    ipa: "/ˈfəʊkl pɔɪnt/",
+    def: "The part of a design that the eye goes to first.",
+    vi: "điểm nhấn thị giác",
+    examples:
+      [
+        {
+          en: "The chart should be the focal point of this page, not the banner.",
+          vi: "Biểu đồ nên là điểm nhấn của trang này, không phải banner.",
+        },
+      ],
+  }
+- {
+    slug: "header-n",
+    lemma: "header",
+    pos: "noun",
+    cefr: "A2",
+    topic: "culture",
+    ipa: "/ˈhedə/",
+    def: "The area at the top of a page that usually holds the logo and main menu.",
+    vi: "phần đầu trang (header)",
+    examples:
+      [
+        {
+          en: "Please make the header smaller on mobile screens.",
+          vi: "Bạn làm header nhỏ lại trên màn hình điện thoại nhé.",
+        },
+      ],
+  }
+- {
+    slug: "footer-n",
+    lemma: "footer",
+    pos: "noun",
+    cefr: "A2",
+    topic: "culture",
+    ipa: "/ˈfʊtə/",
+    def: "The area at the bottom of a page, often with links and contact details.",
+    vi: "phần chân trang (footer)",
+    examples:
+      [
+        {
+          en: "The privacy link is hidden in the footer.",
+          vi: "Đường dẫn chính sách riêng tư bị giấu ở footer.",
+        },
+      ],
+  }
+- {
+    slug: "sidebar-n",
+    lemma: "sidebar",
+    pos: "noun",
+    cefr: "B1",
+    topic: "culture",
+    ipa: "/ˈsaɪdbɑː/",
+    def: "A narrow area at the side of a screen with menus or extra information.",
+    vi: "thanh bên",
+    examples:
+      [
+        {
+          en: "Users can close the sidebar to see more of the editor.",
+          vi: "Người dùng có thể đóng thanh bên để thấy rộng hơn phần soạn thảo.",
+        },
+      ],
+  }
+- {
+    slug: "column-n",
+    lemma: "column",
+    pos: "noun",
+    cefr: "A2",
+    topic: "culture",
+    ipa: "/ˈkɒləm/",
+    def: "One of the vertical sections that content is divided into.",
+    vi: "cột",
+    examples:
+      [
+        {
+          en: "On desktop the cards sit in three columns.",
+          vi: "Trên máy tính, các thẻ nằm thành ba cột.",
+        },
+      ],
+  }
+- {
+    slug: "align-v",
+    lemma: "align",
+    pos: "verb",
+    cefr: "B1",
+    topic: "culture",
+    ipa: "/əˈlaɪn/",
+    def: "To put things in a straight line or at the same edge.",
+    vi: "căn chỉnh, căn thẳng",
+    examples:
+      [
+        {
+          en: "Can you align the price with the product name?",
+          vi: "Bạn căn giá thẳng hàng với tên sản phẩm được không?",
+        },
+      ],
+  }
+- {
+    slug: "draw-attention-phr",
+    lemma: "draw attention to",
+    pos: "phrase",
+    kind: "collocation",
+    cefr: "B1",
+    topic: "culture",
+    ipa: "/drɔː əˈtenʃn tə/",
+    def: "To make people notice something.",
+    vi: "thu hút sự chú ý vào",
+    examples:
+      [
+        {
+          en: "The red badge draws attention to new messages.",
+          vi: "Huy hiệu đỏ thu hút sự chú ý vào tin nhắn mới.",
+        },
+      ],
+  }
+- {
+    slug: "visual-hierarchy-n",
+    lemma: "visual hierarchy",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "B2",
+    topic: "culture",
+    ipa: "/ˈvɪʒuəl ˈhaɪərɑːki/",
+    def: "The order in which people notice things on a screen, from most to least important.",
+    vi: "thứ bậc thị giác",
+    examples:
+      [
+        {
+          en: "The visual hierarchy is wrong: the cancel button looks more important than save.",
+          vi: "Thứ bậc thị giác đang sai: nút huỷ trông quan trọng hơn nút lưu.",
+        },
+      ],
+  }
+- {
+    slug: "above-the-fold-phr",
+    lemma: "above the fold",
+    pos: "phrase",
+    kind: "phrase",
+    cefr: "B2",
+    topic: "culture",
+    ipa: "/əˈbʌv ðə fəʊld/",
+    def: "In the part of a page you can see before you scroll.",
+    vi: "ở phần nhìn thấy ngay, chưa cần cuộn",
+    examples:
+      [
+        {
+          en: "Keep the sign-up form above the fold.",
+          vi: "Giữ form đăng ký ở phần nhìn thấy ngay khi chưa cuộn.",
+        },
+      ],
+  }
+- {
+    slug: "grid-n",
+    lemma: "grid",
+    pos: "noun",
+    cefr: "B1",
+    topic: "culture",
+    ipa: "/ɡrɪd/",
+    def: "A pattern of rows and columns used to place items on a page.",
+    vi: "lưới bố cục",
+    examples:
+      [
+        {
+          en: "All the images follow a twelve-column grid.",
+          vi: "Mọi hình ảnh đều theo lưới mười hai cột.",
+        },
+      ],
+  }
+# Set 2: Colour, type & spacing
+- {
+    slug: "colour-palette-n",
+    lemma: "colour palette",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "B1",
+    topic: "culture",
+    ipa: "/ˈkʌlə ˈpælət/",
+    def: "The fixed set of colours a product uses.",
+    vi: "bảng màu",
+    examples:
+      [
+        {
+          en: "Please choose this green from our colour palette, not a new one.",
+          vi: "Hãy chọn màu xanh này trong bảng màu của mình, đừng tạo màu mới.",
+        },
+      ],
+  }
+- {
+    slug: "contrast-n",
+    lemma: "contrast",
+    pos: "noun",
+    cefr: "B1",
+    topic: "culture",
+    ipa: "/ˈkɒntrɑːst/",
+    def: "The difference between a colour and the colour behind it.",
+    vi: "độ tương phản",
+    examples:
+      [
+        {
+          en: "Grey text on a white background has too little contrast.",
+          vi: "Chữ xám trên nền trắng có độ tương phản quá thấp.",
+        },
+      ],
+  }
+- {
+    slug: "font-n",
+    lemma: "font",
+    pos: "noun",
+    cefr: "A2",
+    topic: "culture",
+    ipa: "/fɒnt/",
+    def: "A particular style of letters used for text.",
+    vi: "phông chữ",
+    examples:
+      [
+        {
+          en: "We use one font for headings and another for body text.",
+          vi: "Mình dùng một phông cho tiêu đề và một phông khác cho nội dung.",
+        },
+      ],
+  }
+- {
+    slug: "bold-adj",
+    lemma: "bold",
+    pos: "adjective",
+    cefr: "A2",
+    topic: "culture",
+    ipa: "/bəʊld/",
+    def: "Printed in thick, dark letters.",
+    vi: "in đậm",
+    examples: [{ en: "Make only the total price bold.", vi: "Chỉ in đậm tổng giá thôi." }],
+  }
+- {
+    slug: "italic-adj",
+    lemma: "italic",
+    pos: "adjective",
+    cefr: "B1",
+    topic: "culture",
+    ipa: "/ɪˈtælɪk/",
+    def: "Printed in letters that lean to the right.",
+    vi: "in nghiêng",
+    examples:
+      [
+        {
+          en: "Field hints are shown in italic text.",
+          vi: "Gợi ý của ô nhập được hiển thị bằng chữ nghiêng.",
+        },
+      ],
+  }
+- {
+    slug: "padding-n",
+    lemma: "padding",
+    pos: "noun",
+    cefr: "B1",
+    topic: "culture",
+    ipa: "/ˈpædɪŋ/",
+    def: "The space between the content of a box and its edge.",
+    vi: "khoảng đệm bên trong (padding)",
+    examples:
+      [
+        {
+          en: "Add a little more padding inside the button.",
+          vi: "Thêm chút padding bên trong nút nhé.",
+        },
+      ],
+  }
+- {
+    slug: "margin-n",
+    lemma: "margin",
+    pos: "noun",
+    cefr: "B1",
+    topic: "culture",
+    ipa: "/ˈmɑːdʒɪn/",
+    def: "The empty space outside the edge of an element.",
+    vi: "lề, khoảng cách bên ngoài",
+    examples:
+      [{ en: "The card needs a bigger margin at the bottom.", vi: "Thẻ cần lề dưới lớn hơn." }],
+  }
+- {
+    slug: "line-height-n",
+    lemma: "line height",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "B1",
+    topic: "culture",
+    ipa: "/laɪn haɪt/",
+    def: "The vertical distance between lines of text.",
+    vi: "chiều cao dòng",
+    examples:
+      [
+        {
+          en: "Increase the line height so long paragraphs are easier to read.",
+          vi: "Tăng chiều cao dòng để đoạn dài dễ đọc hơn.",
+        },
+      ],
+  }
+- {
+    slug: "shade-n",
+    lemma: "shade",
+    pos: "noun",
+    cefr: "B1",
+    topic: "culture",
+    ipa: "/ʃeɪd/",
+    def: "A slightly lighter or darker form of a colour.",
+    vi: "sắc độ (màu)",
+    examples:
+      [
+        {
+          en: "Use a darker shade of blue for the hover colour.",
+          vi: "Dùng sắc xanh đậm hơn cho màu khi rê chuột.",
+        },
+      ],
+  }
+- {
+    slug: "brand-colour-n",
+    lemma: "brand colour",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "B1",
+    topic: "culture",
+    ipa: "/brænd ˈkʌlə/",
+    def: "The main colour that people connect with a company or product.",
+    vi: "màu thương hiệu",
+    examples:
+      [
+        {
+          en: "Our brand colour should only be used for the main action.",
+          vi: "Màu thương hiệu chỉ nên dùng cho hành động chính.",
+        },
+      ],
+  }
+- {
+    slug: "readable-adj",
+    lemma: "readable",
+    pos: "adjective",
+    cefr: "B1",
+    topic: "culture",
+    ipa: "/ˈriːdəbl/",
+    def: "Easy and comfortable to read.",
+    vi: "dễ đọc",
+    examples:
+      [
+        {
+          en: "Twelve-pixel text is not readable on most phones.",
+          vi: "Chữ mười hai pixel không dễ đọc trên đa số điện thoại.",
+        },
+      ],
+  }
+- {
+    slug: "whitespace-n",
+    lemma: "whitespace",
+    pos: "noun",
+    cefr: "B2",
+    topic: "culture",
+    ipa: "/ˈwaɪtspeɪs/",
+    def: "Empty space around things in a design that makes it feel calm and clear.",
+    vi: "khoảng trắng",
+    examples:
+      [
+        {
+          en: "More whitespace between sections would make the page feel less busy.",
+          vi: "Thêm khoảng trắng giữa các phần sẽ làm trang bớt rối.",
+        },
+      ],
+  }
+# Set 3: Components & design systems
+- {
+    slug: "component-n",
+    lemma: "component",
+    pos: "noun",
+    cefr: "B1",
+    topic: "culture",
+    ipa: "/kəmˈpəʊnənt/",
+    def: "A ready-made part of an interface, such as a card or a menu, that you can use many times.",
+    vi: "thành phần giao diện (component)",
+    examples:
+      [
+        {
+          en: "Is there already a component for this date picker?",
+          vi: "Đã có component nào cho bộ chọn ngày này chưa?",
+        },
+      ],
+  }
+- {
+    slug: "design-system-n",
+    lemma: "design system",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "B1",
+    topic: "culture",
+    ipa: "/dɪˈzaɪn ˈsɪstəm/",
+    def: "A shared set of rules, styles and components that a team uses to build products.",
+    vi: "hệ thống thiết kế",
+    examples:
+      [
+        {
+          en: "Before you create a new style, check the design system.",
+          vi: "Trước khi tạo kiểu mới, hãy xem hệ thống thiết kế.",
+        },
+      ],
+  }
+- {
+    slug: "variant-n-t15",
+    lemma: "variant",
+    pos: "noun",
+    cefr: "B2",
+    topic: "culture",
+    ipa: "/ˈveəriənt/",
+    def: "A slightly different version of the same thing.",
+    vi: "biến thể",
+    examples:
+      [
+        {
+          en: "The button has three variants: primary, secondary and link.",
+          vi: "Nút có ba biến thể: chính, phụ và dạng liên kết.",
+        },
+      ],
+  }
+- {
+    slug: "radio-button-n",
+    lemma: "radio button",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "B1",
+    topic: "culture",
+    ipa: "/ˈreɪdiəʊ ˈbʌtn/",
+    def: "A small circle you click to choose only one option from a group.",
+    vi: "nút chọn một",
+    examples:
+      [
+        {
+          en: "Use radio buttons when users can pick only one plan.",
+          vi: "Dùng nút chọn một khi người dùng chỉ được chọn một gói.",
+        },
+      ],
+  }
+- {
+    slug: "select-menu-n",
+    lemma: "select menu",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "B1",
+    topic: "culture",
+    ipa: "/sɪˈlekt ˈmenjuː/",
+    def: "A field that opens a list of choices when you click it.",
+    vi: "menu chọn",
+    examples:
+      [
+        {
+          en: "A select menu with 200 countries needs a search box.",
+          vi: "Menu chọn có 200 quốc gia cần có ô tìm kiếm.",
+        },
+      ],
+  }
+- {
+    slug: "checkbox-n",
+    lemma: "checkbox",
+    pos: "noun",
+    cefr: "B1",
+    topic: "culture",
+    ipa: "/ˈtʃekbɒks/",
+    def: "A small square you click to choose or not choose an option.",
+    vi: "ô đánh dấu",
+    examples:
+      [
+        {
+          en: "Users can tick the checkbox to remember this device.",
+          vi: "Người dùng có thể tích ô để ghi nhớ thiết bị này.",
+        },
+      ],
+  }
+- {
+    slug: "toggle-n",
+    lemma: "toggle",
+    pos: "noun",
+    cefr: "B1",
+    topic: "culture",
+    ipa: "/ˈtɒɡl/",
+    def: "A switch on a screen that turns a setting on or off.",
+    vi: "công tắc bật/tắt",
+    examples:
+      [
+        {
+          en: "Dark mode is controlled by a toggle in Settings.",
+          vi: "Chế độ tối được điều khiển bằng công tắc trong Cài đặt.",
+        },
+      ],
+  }
+- {
+    slug: "modal-n",
+    lemma: "modal",
+    pos: "noun",
+    cefr: "B2",
+    topic: "culture",
+    ipa: "/ˈməʊdl/",
+    def: "A box that appears on top of a page and must be closed before you continue.",
+    vi: "hộp thoại phủ (modal)",
+    examples:
+      [
+        {
+          en: "Don't open a modal just to show a short success message.",
+          vi: "Đừng mở modal chỉ để báo một thông điệp thành công ngắn.",
+        },
+      ],
+  }
+- {
+    slug: "popover-n",
+    lemma: "popover",
+    pos: "noun",
+    cefr: "B2",
+    topic: "culture",
+    ipa: "/ˈpɒpəʊvə/",
+    def: "A small box with extra content that opens next to an element when you click it.",
+    vi: "hộp nổi (popover)",
+    examples:
+      [
+        {
+          en: "Put the sharing options in a popover next to the button.",
+          vi: "Đặt các tuỳ chọn chia sẻ vào một popover cạnh nút.",
+        },
+      ],
+  }
+- {
+    slug: "icon-n",
+    lemma: "icon",
+    pos: "noun",
+    cefr: "A2",
+    topic: "culture",
+    ipa: "/ˈaɪkɒn/",
+    def: "A small picture on a screen that stands for an action or an app.",
+    vi: "biểu tượng",
+    examples:
+      [
+        {
+          en: "The trash icon is too close to the edit icon.",
+          vi: "Biểu tượng thùng rác quá gần biểu tượng sửa.",
+        },
+      ],
+  }
+- {
+    slug: "reusable-adj",
+    lemma: "reusable",
+    pos: "adjective",
+    cefr: "B1",
+    topic: "culture",
+    ipa: "/riːˈjuːzəbl/",
+    def: "Able to be used again in other places.",
+    vi: "tái sử dụng được",
+    examples:
+      [
+        {
+          en: "Let's make this card reusable instead of copying it.",
+          vi: "Mình làm thẻ này tái sử dụng được thay vì sao chép nó nhé.",
+        },
+      ],
+  }
+- {
+    slug: "consistent-adj",
+    lemma: "consistent",
+    pos: "adjective",
+    cefr: "B1",
+    topic: "culture",
+    ipa: "/kənˈsɪstənt/",
+    def: "Looking or working the same way every time.",
+    vi: "nhất quán",
+    examples:
+      [
+        {
+          en: "Keep the button labels consistent across all screens.",
+          vi: "Giữ nhãn nút nhất quán trên mọi màn hình.",
+        },
+      ],
+  }
+- {
+    slug: "design-token-n",
+    lemma: "design token",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "B2",
+    topic: "culture",
+    ipa: "/dɪˈzaɪn ˈtəʊkən/",
+    def: "A named value, such as a colour or a size, that the whole design system shares.",
+    vi: "biến thiết kế (design token)",
+    examples:
+      [
+        {
+          en: "Use the spacing design token instead of typing 16px.",
+          vi: "Dùng design token khoảng cách thay vì gõ 16px.",
+        },
+      ],
+  }
+- {
+    slug: "customise-v",
+    lemma: "customise",
+    pos: "verb",
+    cefr: "B1",
+    topic: "culture",
+    ipa: "/ˈkʌstəmaɪz/",
+    def: "To change something so it suits a particular need.",
+    vi: "tuỳ chỉnh",
+    examples:
+      [
+        {
+          en: "Teams can customise the colour of the header.",
+          vi: "Các nhóm có thể tuỳ chỉnh màu của header.",
+        },
+      ],
+  }
+# Set 4: Interaction states
+- {
+    slug: "hover-v",
+    lemma: "hover",
+    pos: "verb",
+    cefr: "B1",
+    topic: "culture",
+    ipa: "/ˈhɒvə/",
+    def: "To hold the mouse pointer over something without clicking.",
+    vi: "rê chuột lên",
+    examples:
+      [
+        {
+          en: "When you hover over a row, show the edit button.",
+          vi: "Khi rê chuột lên một dòng, hiện nút sửa.",
+        },
+      ],
+  }
+- {
+    slug: "focus-state-n",
+    lemma: "focus state",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "B2",
+    topic: "culture",
+    ipa: "/ˈfəʊkəs steɪt/",
+    def: "How an element looks when it is selected by the keyboard and ready to use.",
+    vi: "trạng thái focus",
+    examples:
+      [
+        {
+          en: "The link has no visible focus state, so keyboard users get lost.",
+          vi: "Liên kết không có trạng thái focus rõ ràng nên người dùng bàn phím bị lạc.",
+        },
+      ],
+  }
+- {
+    slug: "disabled-adj",
+    lemma: "disabled",
+    pos: "adjective",
+    cefr: "B1",
+    topic: "culture",
+    ipa: "/dɪsˈeɪbld/",
+    def: "Shown but not able to be used at the moment.",
+    vi: "bị vô hiệu hoá",
+    examples:
+      [
+        {
+          en: "The submit button stays disabled until all fields are filled.",
+          vi: "Nút gửi bị vô hiệu hoá cho đến khi điền đủ các ô.",
+        },
+      ],
+  }
+- {
+    slug: "pressed-adj",
+    lemma: "pressed",
+    pos: "adjective",
+    cefr: "B1",
+    topic: "culture",
+    ipa: "/prest/",
+    def: "Being pushed or clicked right now.",
+    vi: "đang được nhấn",
+    examples:
+      [
+        {
+          en: "In the pressed state the button should look slightly darker.",
+          vi: "Ở trạng thái đang nhấn, nút nên trông tối hơn một chút.",
+        },
+      ],
+  }
+- {
+    slug: "selected-adj",
+    lemma: "selected",
+    pos: "adjective",
+    cefr: "A2",
+    topic: "culture",
+    ipa: "/sɪˈlektɪd/",
+    def: "Chosen by the user from a group of options.",
+    vi: "được chọn",
+    examples:
+      [
+        {
+          en: "The selected tab needs a clear underline.",
+          vi: "Tab được chọn cần có gạch chân rõ ràng.",
+        },
+      ],
+  }
+- {
+    slug: "tap-v",
+    lemma: "tap",
+    pos: "verb",
+    cefr: "A2",
+    topic: "culture",
+    ipa: "/tæp/",
+    def: "To touch a screen quickly with your finger.",
+    vi: "chạm nhẹ",
+    examples:
+      [{ en: "Tap the photo to see it full size.", vi: "Chạm vào ảnh để xem kích thước đầy đủ." }],
+  }
+- {
+    slug: "long-press-v",
+    lemma: "long-press",
+    pos: "verb",
+    cefr: "B2",
+    topic: "culture",
+    ipa: "/ˌlɒŋ ˈpres/",
+    def: "To touch and hold a screen for a moment.",
+    vi: "nhấn giữ",
+    examples:
+      [
+        {
+          en: "Long-press a file to see more actions.",
+          vi: "Nhấn giữ một tệp để xem thêm thao tác.",
+        },
+      ],
+  }
+- {
+    slug: "swipe-v",
+    lemma: "swipe",
+    pos: "verb",
+    cefr: "B1",
+    topic: "culture",
+    ipa: "/swaɪp/",
+    def: "To move your finger quickly across a touch screen.",
+    vi: "vuốt",
+    examples:
+      [{ en: "Swipe left on a message to delete it.", vi: "Vuốt sang trái trên tin nhắn để xoá." }],
+  }
+- {
+    slug: "visual-feedback-n",
+    lemma: "visual feedback",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "B2",
+    topic: "culture",
+    ipa: "/ˈvɪʒuəl ˈfiːdbæk/",
+    def: "A change on the screen that shows the system has noticed what you did.",
+    vi: "phản hồi trực quan",
+    examples:
+      [
+        {
+          en: "Users click twice because there is no visual feedback after the first click.",
+          vi: "Người dùng bấm hai lần vì không có phản hồi trực quan sau lần bấm đầu.",
+        },
+      ],
+  }
+- {
+    slug: "transition-n",
+    lemma: "transition",
+    pos: "noun",
+    cefr: "B2",
+    topic: "culture",
+    ipa: "/trænˈzɪʃn/",
+    def: "A short change from one look or screen to another.",
+    vi: "hiệu ứng chuyển tiếp",
+    examples:
+      [
+        {
+          en: "A 200ms transition makes the menu feel smoother.",
+          vi: "Hiệu ứng chuyển tiếp 200ms làm menu mượt hơn.",
+        },
+      ],
+  }
+- {
+    slug: "animation-n",
+    lemma: "animation",
+    pos: "noun",
+    cefr: "B1",
+    topic: "culture",
+    ipa: "/ˌænɪˈmeɪʃn/",
+    def: "Moving images or effects on a screen.",
+    vi: "hoạt ảnh",
+    examples:
+      [
+        {
+          en: "The loading animation runs even after the data arrives.",
+          vi: "Hoạt ảnh tải vẫn chạy kể cả khi dữ liệu đã về.",
+        },
+      ],
+  }
+- {
+    slug: "responsive-adj",
+    lemma: "responsive",
+    pos: "adjective",
+    cefr: "B2",
+    topic: "culture",
+    ipa: "/rɪˈspɒnsɪv/",
+    def: "Changing its layout to fit different screen sizes.",
+    vi: "tương thích nhiều kích thước màn hình",
+    examples:
+      [
+        {
+          en: "Is the pricing table responsive, or does it scroll sideways on mobile?",
+          vi: "Bảng giá có responsive không hay bị cuộn ngang trên điện thoại?",
+        },
+      ],
+  }
+- {
+    slug: "trigger-v",
+    lemma: "trigger",
+    pos: "verb",
+    cefr: "B2",
+    topic: "culture",
+    ipa: "/ˈtrɪɡə/",
+    def: "To make something start to happen.",
+    vi: "kích hoạt",
+    examples:
+      [
+        {
+          en: "Pressing Escape should trigger the same action as Cancel.",
+          vi: "Nhấn Escape nên kích hoạt cùng hành động với Huỷ.",
+        },
+      ],
+  }
+- {
+    slug: "expand-v",
+    lemma: "expand",
+    pos: "verb",
+    cefr: "B1",
+    topic: "culture",
+    ipa: "/ɪkˈspænd/",
+    def: "To open something so it shows more content.",
+    vi: "mở rộng",
+    examples:
+      [
+        {
+          en: "Click the arrow to expand the section.",
+          vi: "Bấm vào mũi tên để mở rộng phần này.",
+        },
+      ],
+  }
+- {
+    slug: "collapse-v",
+    lemma: "collapse",
+    pos: "verb",
+    cefr: "B2",
+    topic: "culture",
+    ipa: "/kəˈlæps/",
+    def: "To close something so it shows less content.",
+    vi: "thu gọn",
+    examples:
+      [
+        {
+          en: "The filters collapse into one button on small screens.",
+          vi: "Bộ lọc thu gọn thành một nút trên màn hình nhỏ.",
+        },
+      ],
+  }
+- {
+    slug: "keyboard-shortcut-n",
+    lemma: "keyboard shortcut",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "B1",
+    topic: "culture",
+    ipa: "/ˈkiːbɔːd ˈʃɔːtkʌt/",
+    def: "A key or group of keys you press to do something quickly.",
+    vi: "phím tắt",
+    examples:
+      [
+        {
+          en: "Ctrl+K is the keyboard shortcut for search.",
+          vi: "Ctrl+K là phím tắt để tìm kiếm.",
+        },
+      ],
+  }
+# Set 5: Loading, empty & error states
+- {
+    slug: "loading-state-n",
+    lemma: "loading state",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "B1",
+    topic: "culture",
+    ipa: "/ˈləʊdɪŋ steɪt/",
+    def: "What the screen shows while it waits for data.",
+    vi: "trạng thái đang tải",
+    examples:
+      [
+        {
+          en: "We need a loading state for the slow report page.",
+          vi: "Mình cần trạng thái đang tải cho trang báo cáo chậm.",
+        },
+      ],
+  }
+- {
+    slug: "spinner-n",
+    lemma: "spinner",
+    pos: "noun",
+    cefr: "B1",
+    topic: "culture",
+    ipa: "/ˈspɪnə/",
+    def: "A small turning circle that shows something is loading.",
+    vi: "vòng xoay chờ tải",
+    examples:
+      [
+        {
+          en: "A spinner alone doesn't tell users how long to wait.",
+          vi: "Chỉ một vòng xoay không cho người dùng biết phải chờ bao lâu.",
+        },
+      ],
+  }
+- {
+    slug: "skeleton-screen-n",
+    lemma: "skeleton screen",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "B2",
+    topic: "culture",
+    ipa: "/ˈskelɪtn skriːn/",
+    def: "A simple grey outline of a page shown before the real content loads.",
+    vi: "khung xương giao diện (skeleton)",
+    examples:
+      [
+        {
+          en: "A skeleton screen feels faster than a blank page.",
+          vi: "Skeleton screen tạo cảm giác nhanh hơn trang trắng.",
+        },
+      ],
+  }
+- {
+    slug: "empty-state-n",
+    lemma: "empty state",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "B1",
+    topic: "culture",
+    ipa: "/ˈempti steɪt/",
+    def: "What a screen shows when there is no data yet.",
+    vi: "trạng thái trống",
+    examples:
+      [
+        {
+          en: "The empty state should explain how to create the first project.",
+          vi: "Trạng thái trống nên hướng dẫn cách tạo dự án đầu tiên.",
+        },
+      ],
+  }
+- {
+    slug: "placeholder-n",
+    lemma: "placeholder",
+    pos: "noun",
+    cefr: "B2",
+    topic: "culture",
+    ipa: "/ˈpleɪshəʊldə/",
+    def: "Light text inside an empty field that shows what to type.",
+    vi: "chữ gợi ý trong ô nhập",
+    examples:
+      [
+        {
+          en: "Don't use the placeholder as the only label.",
+          vi: "Đừng dùng chữ gợi ý làm nhãn duy nhất.",
+        },
+      ],
+  }
+- {
+    slug: "progress-bar-n",
+    lemma: "progress bar",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "B1",
+    topic: "culture",
+    ipa: "/ˈprəʊɡres bɑː/",
+    def: "A bar that fills up to show how much of a task is done.",
+    vi: "thanh tiến trình",
+    examples:
+      [
+        {
+          en: "Show a progress bar while the file uploads.",
+          vi: "Hiển thị thanh tiến trình trong khi tệp đang tải lên.",
+        },
+      ],
+  }
+- {
+    slug: "error-state-n",
+    lemma: "error state",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "B1",
+    topic: "culture",
+    ipa: "/ˈerə steɪt/",
+    def: "What a screen or field shows when something goes wrong.",
+    vi: "trạng thái lỗi",
+    examples:
+      [
+        {
+          en: "The error state turns the field border red.",
+          vi: "Trạng thái lỗi làm viền ô nhập chuyển đỏ.",
+        },
+      ],
+  }
+- {
+    slug: "resubmit-v",
+    lemma: "resubmit",
+    pos: "verb",
+    cefr: "B2",
+    topic: "culture",
+    ipa: "/ˌriːsəbˈmɪt/",
+    def: "To send a form or request again.",
+    vi: "gửi lại",
+    examples:
+      [
+        {
+          en: "Keep what users typed so they can resubmit without starting over.",
+          vi: "Giữ nội dung người dùng đã nhập để họ gửi lại mà không phải làm lại từ đầu.",
+        },
+      ],
+  }
+- {
+    slug: "slow-connection-n",
+    lemma: "slow connection",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "B1",
+    topic: "culture",
+    ipa: "/sləʊ kəˈnekʃn/",
+    def: "An internet link that sends data very slowly.",
+    vi: "kết nối chậm",
+    examples:
+      [
+        {
+          en: "Test the page on a slow connection before you ship it.",
+          vi: "Thử trang trên kết nối chậm trước khi phát hành.",
+        },
+      ],
+  }
+- {
+    slug: "graceful-degradation-n",
+    lemma: "graceful degradation",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "C1",
+    topic: "culture",
+    ipa: "/ˈɡreɪsfl ˌdeɡrəˈdeɪʃn/",
+    def: "When a product keeps its basic functions working even if some parts fail.",
+    vi: "suy giảm nhẹ nhàng (vẫn chạy phần cơ bản)",
+    examples:
+      [
+        {
+          en: "With graceful degradation, the list still loads even if the images fail.",
+          vi: "Với cách suy giảm nhẹ nhàng, danh sách vẫn tải được dù ảnh bị lỗi.",
+        },
+      ],
+  }
+- {
+    slug: "recoverable-adj",
+    lemma: "recoverable",
+    pos: "adjective",
+    cefr: "C1",
+    topic: "culture",
+    ipa: "/rɪˈkʌvərəbl/",
+    def: "Able to be fixed or brought back after a problem.",
+    vi: "có thể khắc phục",
+    examples:
+      [
+        {
+          en: "This is a recoverable error, so don't send users back to the start.",
+          vi: "Đây là lỗi khắc phục được, đừng đưa người dùng về lại từ đầu.",
+        },
+      ],
+  }
+- {
+    slug: "inline-adj",
+    lemma: "inline",
+    pos: "adjective",
+    cefr: "B2",
+    topic: "culture",
+    ipa: "/ˈɪnlaɪn/",
+    def: "Shown right next to the thing it is about, not in a separate place.",
+    vi: "hiển thị ngay tại chỗ",
+    examples:
+      [{ en: "Show inline errors under each field.", vi: "Hiển thị lỗi ngay dưới từng ô nhập." }],
+  }
+- {
+    slug: "snackbar-n",
+    lemma: "snackbar",
+    pos: "noun",
+    cefr: "C1",
+    topic: "culture",
+    ipa: "/ˈsnækbɑː/",
+    def: "A short message bar at the bottom of the screen that disappears by itself.",
+    vi: "thanh thông báo ngắn ở cuối màn hình",
+    examples:
+      [
+        {
+          en: "Show a snackbar with an Undo link after deleting.",
+          vi: "Hiện thanh thông báo ngắn có nút Hoàn tác sau khi xoá.",
+        },
+      ],
+  }
+- {
+    slug: "banner-n",
+    lemma: "banner",
+    pos: "noun",
+    cefr: "B1",
+    topic: "culture",
+    ipa: "/ˈbænə/",
+    def: "A wide strip across the top of a page with an important message.",
+    vi: "dải thông báo",
+    examples:
+      [
+        {
+          en: "Add a banner when the service is under maintenance.",
+          vi: "Thêm dải thông báo khi dịch vụ đang bảo trì.",
+        },
+      ],
+  }
+- {
+    slug: "primary-action-n",
+    lemma: "primary action",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "B2",
+    topic: "culture",
+    ipa: "/ˈpraɪməri ˈækʃn/",
+    def: "The most important thing users can do on a screen.",
+    vi: "hành động chính",
+    examples:
+      [
+        {
+          en: 'The empty page should have one primary action: "Create project".',
+          vi: 'Trang trống nên có một hành động chính: "Tạo dự án".',
+        },
+      ],
+  }
+- {
+    slug: "next-step-n",
+    lemma: "next step",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "A2",
+    topic: "culture",
+    ipa: "/nekst step/",
+    def: "The action that should come after this one.",
+    vi: "bước tiếp theo",
+    examples:
+      [
+        {
+          en: "Every error message should tell users the next step.",
+          vi: "Mỗi thông báo lỗi nên cho người dùng biết bước tiếp theo.",
+        },
+      ],
+  }
+- {
+    slug: "set-expectations-phr",
+    lemma: "set expectations",
+    pos: "phrase",
+    kind: "collocation",
+    cefr: "B2",
+    topic: "culture",
+    ipa: "/set ˌekspekˈteɪʃnz/",
+    def: "To tell people what will happen so they are not surprised.",
+    vi: "nói trước để người dùng biết điều sẽ xảy ra",
+    examples:
+      [
+        {
+          en: "Set expectations by saying the export takes about two minutes.",
+          vi: "Hãy nói trước là việc xuất dữ liệu mất khoảng hai phút.",
+        },
+      ],
+  }
+- {
+    slug: "dead-end-n",
+    lemma: "dead end",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "B2",
+    topic: "culture",
+    ipa: "/ded end/",
+    def: "A point where users cannot go any further or do anything useful.",
+    vi: "ngõ cụt",
+    examples:
+      [
+        {
+          en: "An error page without links is a dead end.",
+          vi: "Trang lỗi không có liên kết nào là một ngõ cụt.",
+        },
+      ],
+  }
+# Set 6: UX writing
+- {
+    slug: "microcopy-n",
+    lemma: "microcopy",
+    pos: "noun",
+    cefr: "C1",
+    topic: "culture",
+    ipa: "/ˈmaɪkrəʊkɒpi/",
+    def: "The short pieces of text in an interface, such as labels and hints.",
+    vi: "câu chữ ngắn trên giao diện",
+    examples:
+      [
+        {
+          en: "Good microcopy can stop many support tickets.",
+          vi: "Câu chữ giao diện tốt có thể giảm rất nhiều ticket hỗ trợ.",
+        },
+      ],
+  }
+- {
+    slug: "button-label-n",
+    lemma: "button label",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "B1",
+    topic: "culture",
+    ipa: "/ˈbʌtn ˈleɪbl/",
+    def: "The text written on a button.",
+    vi: "nhãn nút",
+    examples:
+      [
+        {
+          en: 'The button label "Submit" doesn''t say what happens next.',
+          vi: 'Nhãn nút "Gửi" không nói điều gì sẽ xảy ra tiếp theo.',
+        },
+      ],
+  }
+- {
+    slug: "capitalise-v",
+    lemma: "capitalise",
+    pos: "verb",
+    cefr: "B2",
+    topic: "culture",
+    ipa: "/ˈkæpɪtəlaɪz/",
+    def: "To write a letter as a capital, like A instead of a.",
+    vi: "viết hoa",
+    examples:
+      [
+        {
+          en: "Only capitalise the first word of each button label.",
+          vi: "Chỉ viết hoa chữ đầu tiên trong mỗi nhãn nút.",
+        },
+      ],
+  }
+- {
+    slug: "tone-of-voice-n",
+    lemma: "tone of voice",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "B2",
+    topic: "culture",
+    ipa: "/təʊn əv vɔɪs/",
+    def: "The personality a product shows through the way it writes.",
+    vi: "giọng văn",
+    examples:
+      [
+        {
+          en: "Our tone of voice is friendly but never silly.",
+          vi: "Giọng văn của mình thân thiện nhưng không bao giờ cợt nhả.",
+        },
+      ],
+  }
+- {
+    slug: "reading-level-n",
+    lemma: "reading level",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "B2",
+    topic: "culture",
+    ipa: "/ˈriːdɪŋ ˈlevl/",
+    def: "How difficult a text is to read and understand.",
+    vi: "độ khó của văn bản",
+    examples:
+      [
+        {
+          en: "Keep the reading level low so new users understand the help pages.",
+          vi: "Giữ văn bản dễ đọc để người dùng mới hiểu được trang trợ giúp.",
+        },
+      ],
+  }
+- {
+    slug: "jargon-n-t15",
+    lemma: "jargon",
+    pos: "noun",
+    cefr: "B2",
+    topic: "culture",
+    ipa: "/ˈdʒɑːɡən/",
+    def: "Special words used by a group that other people may not understand.",
+    vi: "thuật ngữ chuyên môn khó hiểu",
+    examples:
+      [
+        {
+          en: '"Invalid token" is jargon for most of our users.',
+          vi: '"Invalid token" là thuật ngữ khó hiểu với đa số người dùng mình.',
+        },
+      ],
+  }
+- {
+    slug: "action-verb-n",
+    lemma: "action verb",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "B2",
+    topic: "culture",
+    ipa: "/ˈækʃn vɜːb/",
+    def: 'A word that says exactly what will happen, such as "Delete" or "Send".',
+    vi: "động từ chỉ hành động",
+    examples:
+      [
+        {
+          en: 'Start each button with an action verb instead of "OK".',
+          vi: 'Bắt đầu mỗi nút bằng một động từ chỉ hành động thay vì "OK".',
+        },
+      ],
+  }
+- {
+    slug: "sentence-case-n",
+    lemma: "sentence case",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "C1",
+    topic: "culture",
+    ipa: "/ˈsentəns keɪs/",
+    def: "A style where only the first word and names start with a capital letter.",
+    vi: "kiểu viết hoa chữ đầu câu",
+    examples:
+      [
+        {
+          en: "All headings in the app use sentence case.",
+          vi: "Mọi tiêu đề trong ứng dụng đều chỉ viết hoa chữ đầu câu.",
+        },
+      ],
+  }
+- {
+    slug: "ellipsis-n",
+    lemma: "ellipsis",
+    pos: "noun",
+    cefr: "C1",
+    topic: "culture",
+    ipa: "/ɪˈlɪpsɪs/",
+    def: "Three dots (…) that show some text has been left out.",
+    vi: "dấu ba chấm",
+    examples:
+      [
+        {
+          en: "Long titles end with an ellipsis on small screens.",
+          vi: "Tiêu đề dài kết thúc bằng dấu ba chấm trên màn hình nhỏ.",
+        },
+      ],
+  }
+- {
+    slug: "character-limit-n",
+    lemma: "character limit",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "B2",
+    topic: "culture",
+    ipa: "/ˈkærəktə ˈlɪmɪt/",
+    def: "The largest number of letters and signs a piece of text may have.",
+    vi: "giới hạn ký tự",
+    examples:
+      [
+        {
+          en: "The push notification has a character limit of 60.",
+          vi: "Thông báo đẩy có giới hạn 60 ký tự.",
+        },
+      ],
+  }
+- {
+    slug: "confirmation-message-n",
+    lemma: "confirmation message",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "B2",
+    topic: "culture",
+    ipa: "/ˌkɒnfəˈmeɪʃn ˈmesɪdʒ/",
+    def: "A message that tells users their action worked.",
+    vi: "thông báo xác nhận",
+    examples:
+      [
+        {
+          en: "The confirmation message should repeat the order number.",
+          vi: "Thông báo xác nhận nên nhắc lại mã đơn hàng.",
+        },
+      ],
+  }
+- {
+    slug: "warning-n",
+    lemma: "warning",
+    pos: "noun",
+    cefr: "B1",
+    topic: "culture",
+    ipa: "/ˈwɔːnɪŋ/",
+    def: "A message that tells users about a possible problem before it happens.",
+    vi: "cảnh báo",
+    examples:
+      [
+        {
+          en: "Show a warning before the trial ends, not after.",
+          vi: "Hiện cảnh báo trước khi hết thời gian dùng thử, đừng đợi sau đó.",
+        },
+      ],
+  }
+- {
+    slug: "destructive-action-n",
+    lemma: "destructive action",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "C1",
+    topic: "culture",
+    ipa: "/dɪˈstrʌktɪv ˈækʃn/",
+    def: "An action that deletes or removes something and is hard to undo.",
+    vi: "hành động phá huỷ, không hoàn tác dễ",
+    examples:
+      [
+        {
+          en: "Use a red button for destructive actions such as deleting a workspace.",
+          vi: "Dùng nút đỏ cho hành động phá huỷ như xoá workspace.",
+        },
+      ],
+  }
+- {
+    slug: "undo-v",
+    lemma: "undo",
+    pos: "verb",
+    cefr: "B1",
+    topic: "culture",
+    ipa: "/ʌnˈduː/",
+    def: "To cancel the result of the last action.",
+    vi: "hoàn tác",
+    examples:
+      [
+        {
+          en: "Let users undo the archive for ten seconds.",
+          vi: "Cho người dùng hoàn tác việc lưu trữ trong mười giây.",
+        },
+      ],
+  }
+- {
+    slug: "vague-adj",
+    lemma: "vague",
+    pos: "adjective",
+    cefr: "B2",
+    topic: "culture",
+    ipa: "/veɪɡ/",
+    def: "Not clear or exact.",
+    vi: "mơ hồ, chung chung",
+    examples:
+      [
+        {
+          en: '"Something went wrong" is too vague to help anyone.',
+          vi: '"Đã xảy ra lỗi" quá chung chung, chẳng giúp được ai.',
+        },
+      ],
+  }
+- {
+    slug: "accusatory-adj",
+    lemma: "accusatory",
+    pos: "adjective",
+    cefr: "C1",
+    topic: "culture",
+    ipa: "/əˈkjuːzətəri/",
+    def: "Sounding as if you think someone did something wrong.",
+    vi: "mang tính buộc tội",
+    examples:
+      [
+        {
+          en: '"You entered the wrong code" sounds accusatory.',
+          vi: '"Bạn đã nhập sai mã" nghe như đang buộc tội.',
+        },
+      ],
+  }
+- {
+    slug: "helper-text-n",
+    lemma: "helper text",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "B2",
+    topic: "culture",
+    ipa: "/ˈhelpə tekst/",
+    def: "A short line under a field that explains what to enter.",
+    vi: "dòng hướng dẫn dưới ô nhập",
+    examples:
+      [
+        {
+          en: "Add helper text that shows the password rules.",
+          vi: "Thêm dòng hướng dẫn cho biết quy tắc mật khẩu.",
+        },
+      ],
+  }
+- {
+    slug: "page-title-n",
+    lemma: "page title",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "A2",
+    topic: "culture",
+    ipa: "/peɪdʒ ˈtaɪtl/",
+    def: "The main name shown at the top of a page.",
+    vi: "tiêu đề trang",
+    examples:
+      [
+        {
+          en: "The page title should match the menu item users clicked.",
+          vi: "Tiêu đề trang nên khớp với mục menu người dùng vừa bấm.",
+        },
+      ],
+  }
+- {
+    slug: "exclamation-mark-n",
+    lemma: "exclamation mark",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "B1",
+    topic: "culture",
+    ipa: "/ˌekskləˈmeɪʃn mɑːk/",
+    def: "The sign (!) used after a strong or excited sentence.",
+    vi: "dấu chấm than",
+    examples:
+      [
+        {
+          en: "Don't put an exclamation mark in an error message.",
+          vi: "Đừng đặt dấu chấm than trong thông báo lỗi.",
+        },
+      ],
+  }
+- {
+    slug: "dismiss-v",
+    lemma: "dismiss",
+    pos: "verb",
+    cefr: "B2",
+    topic: "culture",
+    ipa: "/dɪsˈmɪs/",
+    def: "To close a message or box so it goes away.",
+    vi: "đóng, bỏ qua (thông báo)",
+    examples:
+      [
+        {
+          en: "Users can dismiss the tip by clicking the cross.",
+          vi: "Người dùng có thể đóng gợi ý bằng cách bấm dấu x.",
+        },
+      ],
+  }
+# Set 7: Accessibility conversations
+- {
+    slug: "accessibility-n",
+    lemma: "accessibility",
+    pos: "noun",
+    cefr: "B2",
+    topic: "culture",
+    ipa: "/əkˌsesəˈbɪləti/",
+    def: "How easy a product is to use for everyone, including people with disabilities.",
+    vi: "khả năng tiếp cận",
+    examples:
+      [
+        {
+          en: "We should check accessibility before the release, not after.",
+          vi: "Mình nên kiểm tra khả năng tiếp cận trước khi phát hành, đừng đợi sau.",
+        },
+      ],
+  }
+- {
+    slug: "screen-reader-n",
+    lemma: "screen reader",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "B2",
+    topic: "culture",
+    ipa: "/skriːn ˈriːdə/",
+    def: "Software that reads the text on a screen out loud for blind users.",
+    vi: "trình đọc màn hình",
+    examples:
+      [
+        {
+          en: 'The screen reader just says "button", with no name.',
+          vi: 'Trình đọc màn hình chỉ đọc "button", không có tên gì.',
+        },
+      ],
+  }
+- {
+    slug: "image-description-n",
+    lemma: "image description",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "B2",
+    topic: "culture",
+    ipa: "/ˈɪmɪdʒ dɪˈskrɪpʃn/",
+    def: "Words that explain what a picture shows, for people who cannot see it.",
+    vi: "mô tả hình ảnh",
+    examples:
+      [
+        {
+          en: 'Write an image description for the chart, not just "chart".',
+          vi: 'Viết mô tả cho biểu đồ, đừng chỉ ghi "biểu đồ".',
+        },
+      ],
+  }
+- {
+    slug: "keyboard-navigation-n",
+    lemma: "keyboard navigation",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "B2",
+    topic: "culture",
+    ipa: "/ˈkiːbɔːd ˌnævɪˈɡeɪʃn/",
+    def: "Moving around and using an interface with only the keyboard.",
+    vi: "điều hướng bằng bàn phím",
+    examples:
+      [
+        {
+          en: "Keyboard navigation breaks inside the date picker.",
+          vi: "Điều hướng bằng bàn phím bị hỏng trong bộ chọn ngày.",
+        },
+      ],
+  }
+- {
+    slug: "tab-order-n",
+    lemma: "tab order",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "B2",
+    topic: "culture",
+    ipa: "/tæb ˈɔːdə/",
+    def: "The order in which items get focus when you press the Tab key.",
+    vi: "thứ tự phím Tab",
+    examples:
+      [
+        {
+          en: "The tab order jumps from the header to the footer.",
+          vi: "Thứ tự Tab nhảy từ header xuống footer.",
+        },
+      ],
+  }
+- {
+    slug: "focus-trap-n",
+    lemma: "focus trap",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "C1",
+    topic: "culture",
+    ipa: "/ˈfəʊkəs træp/",
+    def: "Code that keeps keyboard focus inside a box, such as a modal, until it closes.",
+    vi: "giữ focus trong vùng (focus trap)",
+    examples:
+      [
+        {
+          en: "The modal needs a focus trap so Tab doesn't move to the page behind.",
+          vi: "Modal cần focus trap để phím Tab không nhảy ra trang phía sau.",
+        },
+      ],
+  }
+- {
+    slug: "colour-blind-adj",
+    lemma: "colour-blind",
+    pos: "adjective",
+    cefr: "B2",
+    topic: "culture",
+    ipa: "/ˈkʌlə blaɪnd/",
+    def: "Unable to see the difference between some colours.",
+    vi: "mù màu",
+    examples:
+      [
+        {
+          en: "Colour-blind users can't tell red errors from green success.",
+          vi: "Người mù màu không phân biệt được lỗi màu đỏ và thành công màu xanh.",
+        },
+      ],
+  }
+- {
+    slug: "contrast-ratio-n",
+    lemma: "contrast ratio",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "C1",
+    topic: "culture",
+    ipa: "/ˈkɒntrɑːst ˈreɪʃiəʊ/",
+    def: "A number that measures how different text and background colours are.",
+    vi: "tỉ lệ tương phản",
+    examples:
+      [
+        {
+          en: "Body text needs a contrast ratio of at least 4.5 to 1.",
+          vi: "Chữ nội dung cần tỉ lệ tương phản tối thiểu 4,5:1.",
+        },
+      ],
+  }
+- {
+    slug: "assistive-technology-n",
+    lemma: "assistive technology",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "C1",
+    topic: "culture",
+    ipa: "/əˈsɪstɪv tekˈnɒlədʒi/",
+    def: "Tools that help people with disabilities use a computer or phone.",
+    vi: "công nghệ hỗ trợ",
+    examples:
+      [
+        {
+          en: "Test the form with assistive technology, not only with a mouse.",
+          vi: "Thử form bằng công nghệ hỗ trợ chứ không chỉ bằng chuột.",
+        },
+      ],
+  }
+- {
+    slug: "visually-impaired-adj",
+    lemma: "visually impaired",
+    pos: "adjective",
+    kind: "collocation",
+    cefr: "C1",
+    topic: "culture",
+    ipa: "/ˈvɪʒuəli ɪmˈpeəd/",
+    def: "Not able to see well or at all.",
+    vi: "khiếm thị",
+    examples:
+      [
+        {
+          en: "Visually impaired users rely on clear headings.",
+          vi: "Người khiếm thị dựa vào các tiêu đề rõ ràng.",
+        },
+      ],
+  }
+- {
+    slug: "subtitles-n",
+    lemma: "subtitles",
+    pos: "noun",
+    cefr: "B1",
+    topic: "culture",
+    ipa: "/ˈsʌbtaɪtlz/",
+    def: "Words at the bottom of a video that show what people are saying.",
+    vi: "phụ đề",
+    examples:
+      [
+        {
+          en: "Every tutorial video should have subtitles.",
+          vi: "Mỗi video hướng dẫn nên có phụ đề.",
+        },
+      ],
+  }
+- {
+    slug: "semantic-html-n",
+    lemma: "semantic HTML",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "C1",
+    topic: "culture",
+    ipa: "/sɪˈmæntɪk ˌeɪtʃ tiː em ˈel/",
+    def: "HTML tags that describe what content is, such as nav, main and button.",
+    vi: "HTML ngữ nghĩa",
+    examples:
+      [
+        {
+          en: "Use semantic HTML instead of clickable divs.",
+          vi: "Dùng HTML ngữ nghĩa thay vì các div bấm được.",
+        },
+      ],
+  }
+- {
+    slug: "heading-structure-n",
+    lemma: "heading structure",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "C1",
+    topic: "culture",
+    ipa: "/ˈhedɪŋ ˈstrʌktʃə/",
+    def: "The order and levels of the titles on a page, from h1 down.",
+    vi: "cấu trúc tiêu đề",
+    examples:
+      [
+        {
+          en: "The heading structure skips from h1 to h4.",
+          vi: "Cấu trúc tiêu đề nhảy từ h1 xuống h4.",
+        },
+      ],
+  }
+- {
+    slug: "skip-link-n",
+    lemma: "skip link",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "C1",
+    topic: "culture",
+    ipa: "/skɪp lɪŋk/",
+    def: "A hidden link that lets keyboard users jump straight to the main content.",
+    vi: "liên kết bỏ qua tới nội dung chính",
+    examples:
+      [
+        {
+          en: "Add a skip link so users don't tab through the whole menu.",
+          vi: "Thêm liên kết bỏ qua để người dùng không phải Tab qua cả menu.",
+        },
+      ],
+  }
+- {
+    slug: "aria-label-n",
+    lemma: "ARIA label",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "C1",
+    topic: "culture",
+    ipa: "/ˈɑːriə ˈleɪbl/",
+    def: "A hidden name in the code that tells a screen reader what an element is.",
+    vi: "nhãn ARIA",
+    examples:
+      [
+        {
+          en: 'The icon button needs an ARIA label like "Close".',
+          vi: 'Nút biểu tượng cần nhãn ARIA như "Đóng".',
+        },
+      ],
+  }
+- {
+    slug: "read-out-pv",
+    lemma: "read out",
+    pos: "phrasal_verb",
+    kind: "phrasal",
+    cefr: "B1",
+    topic: "culture",
+    ipa: "/riːd aʊt/",
+    def: "To say written words aloud.",
+    vi: "đọc to lên",
+    examples:
+      [
+        {
+          en: "The screen reader reads out the error when it appears.",
+          vi: "Trình đọc màn hình đọc to lỗi khi nó xuất hiện.",
+        },
+      ],
+  }
+- {
+    slug: "motion-sensitivity-n",
+    lemma: "motion sensitivity",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "C1",
+    topic: "culture",
+    ipa: "/ˈməʊʃn ˌsensəˈtɪvəti/",
+    def: "Feeling sick or dizzy when things move on a screen.",
+    vi: "nhạy cảm với chuyển động",
+    examples:
+      [
+        {
+          en: "Turn off large animations for users with motion sensitivity.",
+          vi: "Tắt hiệu ứng lớn cho người dùng nhạy cảm với chuyển động.",
+        },
+      ],
+  }
+- {
+    slug: "magnifier-n",
+    lemma: "magnifier",
+    pos: "noun",
+    cefr: "C1",
+    topic: "culture",
+    ipa: "/ˈmæɡnɪfaɪə/",
+    def: "A tool that makes part of the screen much bigger.",
+    vi: "kính lúp phóng màn hình",
+    examples:
+      [
+        {
+          en: "With the magnifier on, users only see a small part of the page.",
+          vi: "Khi bật kính lúp, người dùng chỉ thấy một phần nhỏ của trang.",
+        },
+      ],
+  }
+- {
+    slug: "legible-adj",
+    lemma: "legible",
+    pos: "adjective",
+    cefr: "C1",
+    topic: "culture",
+    ipa: "/ˈledʒəbl/",
+    def: "Clear enough to be read.",
+    vi: "rõ, đọc được",
+    examples:
+      [
+        {
+          en: "The white label is barely legible on the yellow button.",
+          vi: "Nhãn trắng gần như không đọc được trên nút vàng.",
+        },
+      ],
+  }
+- {
+    slug: "inclusive-adj",
+    lemma: "inclusive",
+    pos: "adjective",
+    cefr: "B2",
+    topic: "culture",
+    ipa: "/ɪnˈkluːsɪv/",
+    def: "Designed so that all kinds of people can use it.",
+    vi: "toàn diện, không loại trừ ai",
+    examples:
+      [
+        {
+          en: "Inclusive design helps everyone, not only people with disabilities.",
+          vi: "Thiết kế toàn diện giúp tất cả mọi người, không chỉ người khuyết tật.",
+        },
+      ],
+  }
+- {
+    slug: "compliance-n",
+    lemma: "compliance",
+    pos: "noun",
+    cefr: "C1",
+    topic: "culture",
+    ipa: "/kəmˈplaɪəns/",
+    def: "The fact of following a rule or standard.",
+    vi: "sự tuân thủ",
+    examples:
+      [
+        {
+          en: "The client asked for WCAG compliance in the contract.",
+          vi: "Khách hàng yêu cầu tuân thủ WCAG trong hợp đồng.",
+        },
+      ],
+  }
+- {
+    slug: "barrier-n",
+    lemma: "barrier",
+    pos: "noun",
+    cefr: "B2",
+    topic: "culture",
+    ipa: "/ˈbæriə/",
+    def: "Something that stops people from doing something.",
+    vi: "rào cản",
+    examples:
+      [
+        {
+          en: "A CAPTCHA with no audio option is a barrier for blind users.",
+          vi: "CAPTCHA không có lựa chọn âm thanh là rào cản cho người khiếm thị.",
+        },
+      ],
+  }
+# Set 8: Localisation & cultural context
+- {
+    slug: "internationalisation-n",
+    lemma: "internationalisation",
+    pos: "noun",
+    cefr: "C1",
+    topic: "culture",
+    ipa: "/ˌɪntəˌnæʃnəlaɪˈzeɪʃn/",
+    def: "Building a product so it can easily support many languages and regions later.",
+    vi: "quốc tế hoá (i18n)",
+    examples:
+      [
+        {
+          en: "Internationalisation should start before we add the second language.",
+          vi: "Quốc tế hoá nên bắt đầu trước khi mình thêm ngôn ngữ thứ hai.",
+        },
+      ],
+  }
+- {
+    slug: "translator-n",
+    lemma: "translator",
+    pos: "noun",
+    cefr: "B1",
+    topic: "culture",
+    ipa: "/trænsˈleɪtə/",
+    def: "A person whose job is changing text into another language.",
+    vi: "người dịch",
+    examples:
+      [
+        {
+          en: "Give the translator screenshots, not just a list of strings.",
+          vi: "Đưa ảnh chụp màn hình cho người dịch, đừng chỉ đưa danh sách chuỗi.",
+        },
+      ],
+  }
+- {
+    slug: "language-setting-n",
+    lemma: "language setting",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "B1",
+    topic: "culture",
+    ipa: "/ˈlæŋɡwɪdʒ ˈsetɪŋ/",
+    def: "The option where users choose which language the app uses.",
+    vi: "cài đặt ngôn ngữ",
+    examples:
+      [
+        {
+          en: "The language setting should be easy to find, even in the wrong language.",
+          vi: "Cài đặt ngôn ngữ phải dễ tìm, kể cả khi app đang ở ngôn ngữ khác.",
+        },
+      ],
+  }
+- {
+    slug: "mirror-v",
+    lemma: "mirror",
+    pos: "verb",
+    cefr: "C1",
+    topic: "culture",
+    ipa: "/ˈmɪrə/",
+    def: "To flip a layout from left to right, for example for Arabic.",
+    vi: "lật ngược (bố cục) theo chiều ngang",
+    examples:
+      [
+        {
+          en: "For Arabic, mirror the layout but not the logo.",
+          vi: "Với tiếng Ả Rập, lật ngược bố cục nhưng không lật logo.",
+        },
+      ],
+  }
+- {
+    slug: "calendar-system-n",
+    lemma: "calendar system",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "C1",
+    topic: "culture",
+    ipa: "/ˈkælɪndə ˈsɪstəm/",
+    def: "A way of counting days, months and years, such as the lunar calendar.",
+    vi: "hệ lịch",
+    examples:
+      [
+        {
+          en: "Some users plan Tết with the lunar calendar system.",
+          vi: "Một số người dùng lên kế hoạch Tết theo hệ lịch âm.",
+        },
+      ],
+  }
+- {
+    slug: "currency-symbol-n",
+    lemma: "currency symbol",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "B2",
+    topic: "culture",
+    ipa: "/ˈkʌrənsi ˈsɪmbl/",
+    def: "A sign that stands for a type of money, such as ₫ or $.",
+    vi: "ký hiệu tiền tệ",
+    examples:
+      [
+        {
+          en: "The currency symbol goes after the number for đồng.",
+          vi: "Với tiền đồng, ký hiệu tiền tệ đứng sau con số.",
+        },
+      ],
+  }
+- {
+    slug: "time-zone-n",
+    lemma: "time zone",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "B1",
+    topic: "culture",
+    ipa: "/taɪm zəʊn/",
+    def: "An area of the world that uses the same local time.",
+    vi: "múi giờ",
+    examples:
+      [
+        {
+          en: "Show the meeting time in the viewer's time zone.",
+          vi: "Hiển thị giờ họp theo múi giờ của người xem.",
+        },
+      ],
+  }
+- {
+    slug: "grammatical-gender-n",
+    lemma: "grammatical gender",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "C1",
+    topic: "culture",
+    ipa: "/ɡrəˈmætɪkl ˈdʒendə/",
+    def: "The way some languages treat nouns as masculine, feminine or neuter.",
+    vi: "giống ngữ pháp",
+    examples:
+      [
+        {
+          en: 'French has grammatical gender, so "Welcome" may need two versions.',
+          vi: 'Tiếng Pháp có giống ngữ pháp nên "Welcome" có thể cần hai bản.',
+        },
+      ],
+  }
+- {
+    slug: "translation-key-n",
+    lemma: "translation key",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "C1",
+    topic: "culture",
+    ipa: "/trænsˈleɪʃn kiː/",
+    def: "A name in the code that points to a piece of text in each language file.",
+    vi: "khoá bản dịch",
+    examples:
+      [
+        {
+          en: "Add a translation key for the new error instead of writing English.",
+          vi: "Thêm khoá bản dịch cho lỗi mới thay vì viết thẳng tiếng Anh.",
+        },
+      ],
+  }
+- {
+    slug: "cultural-norm-n",
+    lemma: "cultural norm",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "C1",
+    topic: "culture",
+    ipa: "/ˈkʌltʃərəl nɔːm/",
+    def: "A usual way of behaving that people in a culture expect.",
+    vi: "chuẩn mực văn hoá",
+    examples:
+      [
+        {
+          en: "Asking for a user's age is fine here but breaks a cultural norm in some markets.",
+          vi: "Hỏi tuổi người dùng ở đây thì bình thường nhưng lại trái chuẩn mực văn hoá ở vài thị trường.",
+        },
+      ],
+  }
+- {
+    slug: "superstition-n",
+    lemma: "superstition",
+    pos: "noun",
+    cefr: "C1",
+    topic: "culture",
+    ipa: "/ˌsuːpəˈstɪʃn/",
+    def: "A belief that certain things bring good or bad luck.",
+    vi: "sự mê tín",
+    examples:
+      [
+        {
+          en: "Because of a superstition, some hotels have no thirteenth floor.",
+          vi: "Vì mê tín, một số khách sạn không có tầng mười ba.",
+        },
+      ],
+  }
+- {
+    slug: "connotation-n",
+    lemma: "connotation",
+    pos: "noun",
+    cefr: "C1",
+    topic: "culture",
+    ipa: "/ˌkɒnəˈteɪʃn/",
+    def: "A feeling or idea that a word suggests in addition to its main meaning.",
+    vi: "hàm ý, sắc thái nghĩa",
+    examples:
+      [
+        {
+          en: 'The word "cheap" has a negative connotation, so we say "low price".',
+          vi: 'Từ "cheap" mang sắc thái tiêu cực nên mình dùng "giá thấp".',
+        },
+      ],
+  }
+- {
+    slug: "slang-n",
+    lemma: "slang",
+    pos: "noun",
+    cefr: "B2",
+    topic: "culture",
+    ipa: "/slæŋ/",
+    def: "Very informal words used by a particular group.",
+    vi: "tiếng lóng",
+    examples:
+      [
+        {
+          en: "Avoid slang in the app, because translators can't handle it.",
+          vi: "Tránh tiếng lóng trong app vì người dịch khó xử lý.",
+        },
+      ],
+  }
+- {
+    slug: "gesture-n",
+    lemma: "gesture",
+    pos: "noun",
+    cefr: "B1",
+    topic: "culture",
+    ipa: "/ˈdʒestʃə/",
+    def: "A movement of the hand or body that shows a meaning.",
+    vi: "cử chỉ",
+    examples:
+      [
+        {
+          en: "A thumbs-up icon is a rude gesture in a few countries.",
+          vi: "Biểu tượng giơ ngón cái là cử chỉ thô lỗ ở vài nước.",
+        },
+      ],
+  }
+- {
+    slug: "symbol-n",
+    lemma: "symbol",
+    pos: "noun",
+    cefr: "B1",
+    topic: "culture",
+    ipa: "/ˈsɪmbl/",
+    def: "A sign or picture that represents an idea.",
+    vi: "ký hiệu, biểu trưng",
+    examples:
+      [
+        {
+          en: 'A mailbox symbol for "inbox" may not make sense in every country.',
+          vi: 'Ký hiệu hộp thư cho "hộp thư đến" có thể không dễ hiểu ở mọi nước.',
+        },
+      ],
+  }
+- {
+    slug: "inappropriate-adj",
+    lemma: "inappropriate",
+    pos: "adjective",
+    cefr: "B2",
+    topic: "culture",
+    ipa: "/ˌɪnəˈprəʊpriət/",
+    def: "Not suitable for a particular situation.",
+    vi: "không phù hợp",
+    examples:
+      [
+        {
+          en: "A party emoji is inappropriate on a payment-failed screen.",
+          vi: "Biểu tượng tiệc tùng không phù hợp ở màn hình thanh toán thất bại.",
+        },
+      ],
+  }
+- {
+    slug: "formal-address-n",
+    lemma: "formal address",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "C1",
+    topic: "culture",
+    ipa: "/ˈfɔːml əˈdres/",
+    def: "A polite way of speaking to someone, used with strangers or older people.",
+    vi: "cách xưng hô trang trọng",
+    examples:
+      [
+        {
+          en: "Should the app use formal address with older customers?",
+          vi: "Ứng dụng có nên xưng hô trang trọng với khách hàng lớn tuổi không?",
+        },
+      ],
+  }
+- {
+    slug: "honorific-n",
+    lemma: "honorific",
+    pos: "noun",
+    cefr: "C1",
+    topic: "culture",
+    ipa: "/ˌɒnəˈrɪfɪk/",
+    def: 'A word that shows respect, such as "Mr" or "anh" and "chị".',
+    vi: "từ xưng hô kính trọng",
+    examples:
+      [
+        {
+          en: "Leave room for an honorific before the customer's name.",
+          vi: "Chừa chỗ cho từ xưng hô kính trọng trước tên khách hàng.",
+        },
+      ],
+  }
+- {
+    slug: "text-expansion-n",
+    lemma: "text expansion",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "C1",
+    topic: "culture",
+    ipa: "/tekst ɪkˈspænʃn/",
+    def: "The way text gets longer when it is translated into another language.",
+    vi: "hiện tượng chữ dài ra khi dịch",
+    examples:
+      [
+        {
+          en: "Allow for text expansion: German labels can be 30% longer.",
+          vi: "Chừa chỗ cho việc chữ dài ra: nhãn tiếng Đức có thể dài hơn 30%.",
+        },
+      ],
+  }
+- {
+    slug: "character-set-n",
+    lemma: "character set",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "C1",
+    topic: "culture",
+    ipa: "/ˈkærəktə set/",
+    def: "The group of letters and signs a system can show or store.",
+    vi: "bộ ký tự",
+    examples:
+      [
+        {
+          en: "The old database character set can't store Vietnamese letters.",
+          vi: "Bộ ký tự của cơ sở dữ liệu cũ không lưu được chữ tiếng Việt.",
+        },
+      ],
+  }
+- {
+    slug: "diacritic-n",
+    lemma: "diacritic",
+    pos: "noun",
+    cefr: "C1",
+    topic: "culture",
+    ipa: "/ˌdaɪəˈkrɪtɪk/",
+    def: "A small mark added to a letter that changes its sound, like the marks in Vietnamese.",
+    vi: "dấu phụ (dấu thanh, dấu mũ)",
+    examples:
+      [
+        {
+          en: "The font cuts off the diacritics on capital letters.",
+          vi: "Phông chữ bị cắt mất dấu trên chữ in hoa.",
+        },
+      ],
+  }
+- {
+    slug: "region-specific-adj",
+    lemma: "region-specific",
+    pos: "adjective",
+    kind: "collocation",
+    cefr: "C1",
+    topic: "culture",
+    ipa: "/ˈriːdʒən spəˈsɪfɪk/",
+    def: "Only true for or used in one area of the world.",
+    vi: "riêng cho từng khu vực",
+    examples:
+      [
+        {
+          en: "Payment methods are region-specific, so read them from the config.",
+          vi: "Phương thức thanh toán là riêng cho từng khu vực nên đọc từ config.",
+        },
+      ],
+  }
+- {
+    slug: "culturally-sensitive-adj",
+    lemma: "culturally sensitive",
+    pos: "adjective",
+    kind: "collocation",
+    cefr: "C1",
+    topic: "culture",
+    ipa: "/ˈkʌltʃərəli ˈsensətɪv/",
+    def: "Aware of and respectful towards different cultures.",
+    vi: "tôn trọng khác biệt văn hoá",
+    examples:
+      [
+        {
+          en: "Our holiday banners need to be culturally sensitive.",
+          vi: "Banner ngày lễ của mình cần tôn trọng khác biệt văn hoá.",
+        },
+      ],
+  }
+- {
+    slug: "market-n",
+    lemma: "market",
+    pos: "noun",
+    cefr: "B1",
+    topic: "culture",
+    ipa: "/ˈmɑːkɪt/",
+    def: "A country or area where a product is sold.",
+    vi: "thị trường",
+    examples:
+      [
+        {
+          en: "Which market are we launching in after Vietnam?",
+          vi: "Sau Việt Nam mình sẽ ra mắt ở thị trường nào?",
+        },
+      ],
+  }
+# Set 9: Design feedback & handoff
+- {
+    slug: "mockup-n",
+    lemma: "mockup",
+    pos: "noun",
+    cefr: "B2",
+    topic: "culture",
+    ipa: "/ˈmɒkʌp/",
+    def: "A detailed picture of how a screen will look.",
+    vi: "bản thiết kế mẫu (mockup)",
+    examples:
+      [
+        {
+          en: "The mockup shows four tabs, but the spec lists five.",
+          vi: "Mockup có bốn tab nhưng tài liệu đặc tả ghi năm.",
+        },
+      ],
+  }
+- {
+    slug: "sketch-n",
+    lemma: "sketch",
+    pos: "noun",
+    cefr: "B1",
+    topic: "culture",
+    ipa: "/sketʃ/",
+    def: "A quick, rough drawing.",
+    vi: "bản phác thảo",
+    examples:
+      [
+        {
+          en: "I made a quick sketch of the settings page on paper.",
+          vi: "Mình vẽ nhanh bản phác thảo trang cài đặt trên giấy.",
+        },
+      ],
+  }
+- {
+    slug: "clickable-prototype-n",
+    lemma: "clickable prototype",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "B2",
+    topic: "culture",
+    ipa: "/ˈklɪkəbl ˈprəʊtətaɪp/",
+    def: "An early version of a design that you can click through like a real app.",
+    vi: "bản mẫu bấm thử được",
+    examples:
+      [
+        {
+          en: "Click through the clickable prototype to see the checkout flow.",
+          vi: "Bấm qua bản mẫu để xem luồng thanh toán.",
+        },
+      ],
+  }
+- {
+    slug: "design-handoff-n",
+    lemma: "design handoff",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "C1",
+    topic: "culture",
+    ipa: "/dɪˈzaɪn ˈhændɒf/",
+    def: "The moment when designers give finished designs to developers to build.",
+    vi: "bàn giao thiết kế",
+    examples:
+      [
+        {
+          en: "In the design handoff, please include the mobile screens.",
+          vi: "Khi bàn giao thiết kế, nhớ kèm cả màn hình điện thoại nhé.",
+        },
+      ],
+  }
+- {
+    slug: "redline-n",
+    lemma: "redline",
+    pos: "noun",
+    cefr: "C1",
+    topic: "culture",
+    ipa: "/ˈredlaɪn/",
+    def: "A version of a design with marked sizes and distances for developers.",
+    vi: "bản đánh dấu kích thước",
+    examples:
+      [
+        {
+          en: "The redline says 24px, but the file shows 20px.",
+          vi: "Bản đánh dấu ghi 24px nhưng file hiển thị 20px.",
+        },
+      ],
+  }
+- {
+    slug: "spec-n",
+    lemma: "spec",
+    pos: "noun",
+    cefr: "B2",
+    topic: "culture",
+    ipa: "/spek/",
+    def: 'A short form of "specification": a document that says exactly how something must work.',
+    vi: "tài liệu đặc tả",
+    examples:
+      [
+        {
+          en: "Is the empty state in the spec?",
+          vi: "Trạng thái trống có trong tài liệu đặc tả không?",
+        },
+      ],
+  }
+- {
+    slug: "pixel-perfect-adj",
+    lemma: "pixel-perfect",
+    pos: "adjective",
+    kind: "collocation",
+    cefr: "C1",
+    topic: "culture",
+    ipa: "/ˈpɪksl ˈpɜːfɪkt/",
+    def: "Matching the design exactly, down to every pixel.",
+    vi: "chính xác tới từng pixel",
+    examples:
+      [
+        {
+          en: "It doesn't need to be pixel-perfect for the demo.",
+          vi: "Cho bản demo thì không cần chính xác tới từng pixel.",
+        },
+      ],
+  }
+- {
+    slug: "nitpick-n",
+    lemma: "nitpick",
+    pos: "noun",
+    cefr: "C1",
+    topic: "culture",
+    ipa: "/ˈnɪtpɪk/",
+    def: "A very small comment about a detail that is not important.",
+    vi: "góp ý chi li, vụn vặt",
+    examples:
+      [
+        {
+          en: "Just a nitpick: the icon is one pixel too low.",
+          vi: "Góp ý nhỏ thôi: biểu tượng thấp hơn một pixel.",
+        },
+      ],
+  }
+- {
+    slug: "actionable-adj",
+    lemma: "actionable",
+    pos: "adjective",
+    cefr: "C1",
+    topic: "culture",
+    ipa: "/ˈækʃənəbl/",
+    def: "Clear enough that someone knows exactly what to do.",
+    vi: "cụ thể, làm được ngay",
+    examples:
+      [
+        {
+          en: '"It looks off" isn''t actionable. Which part looks off?',
+          vi: '"Trông kỳ kỳ" thì chưa cụ thể. Phần nào trông kỳ?',
+        },
+      ],
+  }
+- {
+    slug: "design-decision-n",
+    lemma: "design decision",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "B2",
+    topic: "culture",
+    ipa: "/dɪˈzaɪn dɪˈsɪʒn/",
+    def: "A choice made about how something should look or work.",
+    vi: "quyết định thiết kế",
+    examples:
+      [
+        {
+          en: "Can you write down why we made this design decision?",
+          vi: "Bạn ghi lại lý do của quyết định thiết kế này được không?",
+        },
+      ],
+  }
+- {
+    slug: "feasibility-n",
+    lemma: "feasibility",
+    pos: "noun",
+    cefr: "C1",
+    topic: "culture",
+    ipa: "/ˌfiːzəˈbɪləti/",
+    def: "How possible it is to do something in practice.",
+    vi: "tính khả thi",
+    examples:
+      [
+        {
+          en: "Let's check the feasibility of this animation before we promise it.",
+          vi: "Mình kiểm tra tính khả thi của hiệu ứng này trước khi hứa nhé.",
+        },
+      ],
+  }
+- {
+    slug: "refine-v",
+    lemma: "refine",
+    pos: "verb",
+    cefr: "C1",
+    topic: "culture",
+    ipa: "/rɪˈfaɪn/",
+    def: "To improve something by making small changes.",
+    vi: "tinh chỉnh",
+    examples:
+      [
+        {
+          en: "We'll refine the icons after the first user test.",
+          vi: "Mình sẽ tinh chỉnh các biểu tượng sau lần thử đầu với người dùng.",
+        },
+      ],
+  }
+- {
+    slug: "design-approval-n",
+    lemma: "design approval",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "B2",
+    topic: "culture",
+    ipa: "/dɪˈzaɪn əˈpruːvl/",
+    def: "Official agreement that a design is ready to build.",
+    vi: "phê duyệt thiết kế",
+    examples:
+      [
+        {
+          en: "We still need design approval from the product lead.",
+          vi: "Mình vẫn cần trưởng nhóm sản phẩm phê duyệt thiết kế.",
+        },
+      ],
+  }
+- {
+    slug: "object-to-phr",
+    lemma: "object to",
+    pos: "phrase",
+    kind: "collocation",
+    cefr: "C1",
+    topic: "culture",
+    ipa: "/əbˈdʒekt tə/",
+    def: "To say that you do not agree with something.",
+    vi: "phản đối",
+    examples:
+      [
+        {
+          en: "The support team objected to removing the help link.",
+          vi: "Đội hỗ trợ phản đối việc bỏ liên kết trợ giúp.",
+        },
+      ],
+  }
+- {
+    slug: "round-of-feedback-n",
+    lemma: "round of feedback",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "B2",
+    topic: "culture",
+    ipa: "/raʊnd əv ˈfiːdbæk/",
+    def: "One complete cycle of people giving comments on work.",
+    vi: "vòng góp ý",
+    examples:
+      [
+        {
+          en: "After one more round of feedback, the design is ready.",
+          vi: "Sau một vòng góp ý nữa, thiết kế sẽ sẵn sàng.",
+        },
+      ],
+  }
+- {
+    slug: "subjective-adj",
+    lemma: "subjective",
+    pos: "adjective",
+    cefr: "C1",
+    topic: "culture",
+    ipa: "/səbˈdʒektɪv/",
+    def: "Based on personal opinion rather than facts.",
+    vi: "chủ quan",
+    examples:
+      [
+        {
+          en: '"I don''t like blue" is subjective, so let''s look at the test results.',
+          vi: '"Tôi không thích màu xanh" là chủ quan, mình xem kết quả thử nghiệm nhé.',
+        },
+      ],
+  }
+- {
+    slug: "field-study-n",
+    lemma: "field study",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "C1",
+    topic: "culture",
+    ipa: "/fiːld ˈstʌdi/",
+    def: "Research done by watching users in their real place of work or life.",
+    vi: "nghiên cứu thực địa",
+    examples:
+      [
+        {
+          en: "A field study showed that people miss the filter button.",
+          vi: "Nghiên cứu thực địa cho thấy mọi người bỏ sót nút lọc.",
+        },
+      ],
+  }
+- {
+    slug: "usability-test-n",
+    lemma: "usability test",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "C1",
+    topic: "culture",
+    ipa: "/ˌjuːzəˈbɪləti test/",
+    def: "A session where real users try a design while the team watches.",
+    vi: "buổi kiểm thử khả năng sử dụng",
+    examples:
+      [
+        {
+          en: "Four of five people failed the task in the usability test.",
+          vi: "Bốn trên năm người không hoàn thành nhiệm vụ trong buổi kiểm thử.",
+        },
+      ],
+  }
+- {
+    slug: "rage-click-n",
+    lemma: "rage click",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "C1",
+    topic: "culture",
+    ipa: "/reɪdʒ klɪk/",
+    def: "Clicking the same spot many times quickly because something is not working.",
+    vi: "bấm liên tục vì bực",
+    examples:
+      [
+        {
+          en: "Session recordings show rage clicks on the disabled save button.",
+          vi: "Bản ghi phiên cho thấy người dùng bấm liên tục vào nút lưu bị vô hiệu hoá.",
+        },
+      ],
+  }
+- {
+    slug: "user-flow-n",
+    lemma: "user flow",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "B2",
+    topic: "culture",
+    ipa: "/ˈjuːzə fləʊ/",
+    def: "The series of steps a user takes to finish a task.",
+    vi: "luồng người dùng",
+    examples:
+      [
+        {
+          en: "The user flow for resetting a password has seven steps.",
+          vi: "Luồng đặt lại mật khẩu có bảy bước.",
+        },
+      ],
+  }
+- {
+    slug: "corner-case-n",
+    lemma: "corner case",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "C1",
+    topic: "culture",
+    ipa: "/ˈkɔːnə keɪs/",
+    def: "A rare situation where two or more unusual conditions happen together.",
+    vi: "trường hợp hiếm gặp",
+    examples:
+      [
+        {
+          en: "A user with no name and no photo is a corner case we forgot.",
+          vi: "Người dùng không có tên và không có ảnh là trường hợp hiếm mà mình quên.",
+        },
+      ],
+  }
+- {
+    slug: "discrepancy-n",
+    lemma: "discrepancy",
+    pos: "noun",
+    cefr: "C1",
+    topic: "culture",
+    ipa: "/dɪˈskrepənsi/",
+    def: "A difference between two things that should be the same.",
+    vi: "sự sai lệch",
+    examples:
+      [
+        {
+          en: "There's a discrepancy between the mockup and the live site.",
+          vi: "Có sự sai lệch giữa mockup và trang đang chạy.",
+        },
+      ],
+  }
+- {
+    slug: "deviate-from-phr",
+    lemma: "deviate from",
+    pos: "phrase",
+    kind: "collocation",
+    cefr: "C1",
+    topic: "culture",
+    ipa: "/ˈdiːvieɪt frəm/",
+    def: "To be different from a plan or a normal way.",
+    vi: "đi chệch khỏi",
+    examples:
+      [
+        {
+          en: "I deviated from the design here because the API has no avatar field.",
+          vi: "Chỗ này mình làm khác thiết kế vì API không có trường ảnh đại diện.",
+        },
+      ],
+  }
+- {
+    slug: "surface-v",
+    lemma: "surface",
+    pos: "verb",
+    cefr: "C1",
+    topic: "culture",
+    ipa: "/ˈsɜːfɪs/",
+    def: "To make a hidden problem known to other people.",
+    vi: "đưa (vấn đề) ra cho mọi người thấy",
+    examples:
+      [
+        {
+          en: "Please surface any contrast problems before the handoff meeting.",
+          vi: "Hãy đưa ra mọi vấn đề về độ tương phản trước buổi bàn giao.",
+        },
+      ],
+  }
+- {
+    slug: "overlook-v",
+    lemma: "overlook",
+    pos: "verb",
+    cefr: "B2",
+    topic: "culture",
+    ipa: "/ˌəʊvəˈlʊk/",
+    def: "To fail to notice something.",
+    vi: "bỏ sót",
+    examples:
+      [
+        {
+          en: "We overlooked the tablet layout completely.",
+          vi: "Mình đã bỏ sót hoàn toàn bố cục máy tính bảng.",
+        },
+      ],
+  }
+- {
+    slug: "intentional-adj",
+    lemma: "intentional",
+    pos: "adjective",
+    cefr: "B2",
+    topic: "culture",
+    ipa: "/ɪnˈtenʃənl/",
+    def: "Done on purpose, not by mistake.",
+    vi: "có chủ đích",
+    examples:
+      [
+        {
+          en: "Is the grey title intentional, or is it a bug?",
+          vi: "Tiêu đề màu xám là có chủ đích hay là lỗi?",
+        },
+      ],
+  }
+- {
+    slug: "polish-v",
+    lemma: "polish",
+    pos: "verb",
+    cefr: "B2",
+    topic: "culture",
+    ipa: "/ˈpɒlɪʃ/",
+    def: "To make small final improvements to something.",
+    vi: "trau chuốt, hoàn thiện",
+    examples:
+      [
+        {
+          en: "We have two days to polish the onboarding screens.",
+          vi: "Mình có hai ngày để trau chuốt các màn hình giới thiệu.",
+        },
+      ],
+  }
+- {
+    slug: "align-on-phr",
+    lemma: "align on",
+    pos: "phrase",
+    kind: "collocation",
+    cefr: "C1",
+    topic: "culture",
+    ipa: "/əˈlaɪn ɒn/",
+    def: "To reach the same understanding or agreement about something.",
+    vi: "thống nhất về",
+    examples:
+      [
+        {
+          en: "Let's align on the scope before you start the new designs.",
+          vi: "Mình thống nhất phạm vi trước khi bạn bắt đầu thiết kế mới nhé.",
+        },
+      ],
+  }
+# Set 10: Explaining a UX trade-off
+- {
+    slug: "target-user-n",
+    lemma: "target user",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "B2",
+    topic: "culture",
+    ipa: "/ˈtɑːɡɪt ˈjuːzə/",
+    def: "The kind of person a product is mainly built for.",
+    vi: "người dùng mục tiêu",
+    examples:
+      [
+        {
+          en: "Our target user is a busy shop owner on a cheap phone.",
+          vi: "Người dùng mục tiêu của mình là chủ shop bận rộn dùng điện thoại giá rẻ.",
+        },
+      ],
+  }
+- {
+    slug: "user-segment-n",
+    lemma: "user segment",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "C1",
+    topic: "culture",
+    ipa: "/ˈjuːzə ˈseɡmənt/",
+    def: "A group of users who share similar needs or behaviour.",
+    vi: "phân khúc người dùng",
+    examples:
+      [
+        {
+          en: "The change helps one user segment but slows another.",
+          vi: "Thay đổi này giúp một phân khúc người dùng nhưng làm chậm phân khúc khác.",
+        },
+      ],
+  }
+- {
+    slug: "power-user-n",
+    lemma: "power user",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "B2",
+    topic: "culture",
+    ipa: "/ˈpaʊə ˈjuːzə/",
+    def: "Someone who uses a product a lot and knows its advanced features.",
+    vi: "người dùng chuyên sâu",
+    examples:
+      [
+        {
+          en: "Power users want shortcuts, not more steps.",
+          vi: "Người dùng chuyên sâu muốn phím tắt chứ không muốn thêm bước.",
+        },
+      ],
+  }
+- {
+    slug: "newcomer-n",
+    lemma: "newcomer",
+    pos: "noun",
+    cefr: "B2",
+    topic: "culture",
+    ipa: "/ˈnjuːkʌmə/",
+    def: "Someone who has only just started using something.",
+    vi: "người mới đến",
+    examples:
+      [
+        {
+          en: 'A newcomer won''t know what "workspace" means.',
+          vi: 'Người mới sẽ không biết "workspace" là gì.',
+        },
+      ],
+  }
+- {
+    slug: "cognitive-load-n",
+    lemma: "cognitive load",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "C1",
+    topic: "culture",
+    ipa: "/ˈkɒɡnətɪv ləʊd/",
+    def: "How much mental effort a task needs.",
+    vi: "tải nhận thức",
+    examples:
+      [
+        {
+          en: "Ten options on one screen add too much cognitive load.",
+          vi: "Mười lựa chọn trên một màn hình gây tải nhận thức quá lớn.",
+        },
+      ],
+  }
+- {
+    slug: "discoverability-n",
+    lemma: "discoverability",
+    pos: "noun",
+    cefr: "C1",
+    topic: "culture",
+    ipa: "/dɪˌskʌvərəˈbɪləti/",
+    def: "How easily users can find a feature by themselves.",
+    vi: "khả năng tự tìm thấy (tính năng)",
+    examples:
+      [
+        {
+          en: "Hiding export in a menu hurts discoverability.",
+          vi: "Giấu chức năng xuất trong menu làm giảm khả năng tự tìm thấy.",
+        },
+      ],
+  }
+- {
+    slug: "learnability-n",
+    lemma: "learnability",
+    pos: "noun",
+    cefr: "C1",
+    topic: "culture",
+    ipa: "/ˌlɜːnəˈbɪləti/",
+    def: "How quickly new users can learn to use something.",
+    vi: "độ dễ học",
+    examples:
+      [
+        {
+          en: "Custom gestures look cool but reduce learnability.",
+          vi: "Cử chỉ tuỳ biến trông hay nhưng làm giảm độ dễ học.",
+        },
+      ],
+  }
+- {
+    slug: "friction-n",
+    lemma: "friction",
+    pos: "noun",
+    cefr: "C1",
+    topic: "culture",
+    ipa: "/ˈfrɪkʃn/",
+    def: "Anything that makes a task slower or harder for users.",
+    vi: "ma sát, điểm cản trở",
+    examples:
+      [
+        {
+          en: "An extra confirmation step adds friction, but it prevents mistakes.",
+          vi: "Thêm bước xác nhận gây cản trở nhưng tránh được sai sót.",
+        },
+      ],
+  }
+- {
+    slug: "intuitive-adj",
+    lemma: "intuitive",
+    pos: "adjective",
+    cefr: "B2",
+    topic: "culture",
+    ipa: "/ɪnˈtjuːɪtɪv/",
+    def: "Easy to understand and use without instructions.",
+    vi: "trực quan, dễ hiểu ngay",
+    examples:
+      [
+        {
+          en: "Drag and drop is intuitive on desktop but not on phones.",
+          vi: "Kéo thả trực quan trên máy tính nhưng không như vậy trên điện thoại.",
+        },
+      ],
+  }
+- {
+    slug: "cluttered-adj",
+    lemma: "cluttered",
+    pos: "adjective",
+    cefr: "B2",
+    topic: "culture",
+    ipa: "/ˈklʌtəd/",
+    def: "Too full of things, so it is hard to focus.",
+    vi: "rối, quá nhiều thứ",
+    examples:
+      [
+        {
+          en: "The dashboard feels cluttered with twelve charts.",
+          vi: "Dashboard trông rối với mười hai biểu đồ.",
+        },
+      ],
+  }
+- {
+    slug: "minimalist-adj",
+    lemma: "minimalist",
+    pos: "adjective",
+    cefr: "C1",
+    topic: "culture",
+    ipa: "/ˈmɪnɪməlɪst/",
+    def: "Using very few elements and a simple style.",
+    vi: "tối giản",
+    examples:
+      [
+        {
+          en: "A minimalist screen is pretty but can hide important actions.",
+          vi: "Màn hình tối giản thì đẹp nhưng có thể giấu mất hành động quan trọng.",
+        },
+      ],
+  }
+- {
+    slug: "hybrid-approach-n",
+    lemma: "hybrid approach",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "C1",
+    topic: "culture",
+    ipa: "/ˈhaɪbrɪd əˈprəʊtʃ/",
+    def: "A solution that mixes parts of two different options.",
+    vi: "cách làm kết hợp",
+    examples:
+      [
+        {
+          en: "A hybrid approach keeps the table on desktop and uses cards on mobile.",
+          vi: "Cách làm kết hợp giữ bảng trên máy tính và dùng thẻ trên điện thoại.",
+        },
+      ],
+  }
+- {
+    slug: "come-at-a-cost-phr",
+    lemma: "come at a cost",
+    pos: "phrase",
+    kind: "phrase",
+    cefr: "C1",
+    topic: "culture",
+    ipa: "/kʌm ət ə kɒst/",
+    def: "To bring a benefit together with a loss or problem.",
+    vi: "phải trả giá, có cái giá",
+    examples:
+      [
+        {
+          en: "The faster page came at a cost: we removed some animations.",
+          vi: "Trang nhanh hơn phải trả giá: mình đã bỏ bớt vài hiệu ứng.",
+        },
+      ],
+  }
+- {
+    slug: "counterbalance-v",
+    lemma: "counterbalance",
+    pos: "verb",
+    cefr: "C1",
+    topic: "culture",
+    ipa: "/ˌkaʊntəˈbæləns/",
+    def: "To have an equal and opposite effect on something.",
+    vi: "bù lại, cân bằng lại",
+    examples:
+      [
+        {
+          en: "A clear progress bar can counterbalance a long form.",
+          vi: "Thanh tiến trình rõ ràng có thể bù lại việc form dài.",
+        },
+      ],
+  }
+- {
+    slug: "mitigate-v",
+    lemma: "mitigate",
+    pos: "verb",
+    cefr: "C1",
+    topic: "culture",
+    ipa: "/ˈmɪtɪɡeɪt/",
+    def: "To make a bad effect less serious.",
+    vi: "giảm thiểu",
+    examples:
+      [
+        {
+          en: "We can mitigate the longer form by saving progress automatically.",
+          vi: "Mình có thể giảm thiểu bất tiện của form dài bằng cách tự lưu tiến độ.",
+        },
+      ],
+  }
+- {
+    slug: "defend-v",
+    lemma: "defend",
+    pos: "verb",
+    cefr: "B2",
+    topic: "culture",
+    ipa: "/dɪˈfend/",
+    def: "To argue in support of a decision when others question it.",
+    vi: "bảo vệ (quan điểm)",
+    examples:
+      [
+        {
+          en: "Be ready to defend the extra step with test data.",
+          vi: "Hãy sẵn sàng bảo vệ bước thêm vào bằng dữ liệu thử nghiệm.",
+        },
+      ],
+  }
+- {
+    slug: "pitfall-n",
+    lemma: "pitfall",
+    pos: "noun",
+    cefr: "C1",
+    topic: "culture",
+    ipa: "/ˈpɪtfɔːl/",
+    def: "A likely mistake or problem that is not obvious at first.",
+    vi: "cạm bẫy, rủi ro tiềm ẩn",
+    examples:
+      [
+        {
+          en: "A common pitfall of infinite scroll is that users can't reach the footer.",
+          vi: "Một cạm bẫy thường gặp của cuộn vô hạn là người dùng không tới được footer.",
+        },
+      ],
+  }
+- {
+    slug: "upside-n",
+    lemma: "upside",
+    pos: "noun",
+    cefr: "C1",
+    topic: "culture",
+    ipa: "/ˈʌpsaɪd/",
+    def: "The good part of a situation.",
+    vi: "mặt lợi",
+    examples:
+      [
+        {
+          en: "The upside is that support teams get fewer questions.",
+          vi: "Mặt lợi là đội hỗ trợ nhận ít câu hỏi hơn.",
+        },
+      ],
+  }
+- {
+    slug: "conversion-rate-n-t15",
+    lemma: "conversion rate",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "C1",
+    topic: "culture",
+    ipa: "/kənˈvɜːʃn reɪt/",
+    def: "The percentage of users who complete a goal, such as buying or signing up.",
+    vi: "tỉ lệ chuyển đổi",
+    examples:
+      [
+        {
+          en: "The shorter form raised the conversion rate by 8%.",
+          vi: "Form ngắn hơn đã tăng tỉ lệ chuyển đổi 8%.",
+        },
+      ],
+  }
+- {
+    slug: "abandonment-n",
+    lemma: "abandonment",
+    pos: "noun",
+    cefr: "C1",
+    topic: "culture",
+    ipa: "/əˈbændənmənt/",
+    def: "When users leave a process, such as a checkout, before they finish it.",
+    vi: "việc bỏ dở giữa chừng",
+    examples:
+      [
+        {
+          en: "Cart abandonment went up after we added the phone number step.",
+          vi: "Tỉ lệ bỏ dở giỏ hàng tăng sau khi mình thêm bước nhập số điện thoại.",
+        },
+      ],
+  }
+- {
+    slug: "churn-n",
+    lemma: "churn",
+    pos: "noun",
+    cefr: "C1",
+    topic: "culture",
+    ipa: "/tʃɜːn/",
+    def: "The number of users who stop using a product in a period.",
+    vi: "tỉ lệ rời bỏ",
+    examples:
+      [
+        {
+          en: "Daily reminders lowered churn but annoyed some users.",
+          vi: "Nhắc nhở hằng ngày giảm tỉ lệ rời bỏ nhưng làm vài người khó chịu.",
+        },
+      ],
+  }
+- {
+    slug: "engagement-n-t15",
+    lemma: "engagement",
+    pos: "noun",
+    cefr: "B2",
+    topic: "culture",
+    ipa: "/ɪnˈɡeɪdʒmənt/",
+    def: "How much and how often users interact with a product.",
+    vi: "mức độ tương tác",
+    examples:
+      [
+        {
+          en: "More notifications raise engagement in the short term only.",
+          vi: "Thêm thông báo chỉ tăng mức độ tương tác trong ngắn hạn.",
+        },
+      ],
+  }
+- {
+    slug: "a-b-test-n",
+    lemma: "A/B test",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "C1",
+    topic: "culture",
+    ipa: "/ˌeɪ ˈbiː test/",
+    def: "An experiment that shows two versions to different users to see which works better.",
+    vi: "thử nghiệm A/B",
+    examples:
+      [
+        {
+          en: "Let's run an A/B test instead of arguing about the button colour.",
+          vi: "Mình chạy thử nghiệm A/B thay vì tranh cãi về màu nút nhé.",
+        },
+      ],
+  }
+- {
+    slug: "statistically-significant-adj-t15",
+    lemma: "statistically significant",
+    pos: "adjective",
+    kind: "collocation",
+    cefr: "C1",
+    topic: "culture",
+    ipa: "/stəˈtɪstɪkli sɪɡˈnɪfɪkənt/",
+    def: "(of a result) Large enough that it is probably not just luck.",
+    vi: "có ý nghĩa thống kê",
+    examples:
+      [
+        {
+          en: "A 1% change with 200 users isn't statistically significant.",
+          vi: "Mức thay đổi 1% với 200 người dùng chưa có ý nghĩa thống kê.",
+        },
+      ],
+  }
+- {
+    slug: "north-star-metric-n",
+    lemma: "north star metric",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "C1",
+    topic: "culture",
+    ipa: "/nɔːθ stɑː ˈmetrɪk/",
+    def: "The single most important number a team uses to judge if the product is succeeding.",
+    vi: "chỉ số định hướng chính",
+    examples:
+      [
+        {
+          en: "Weekly active shops is our north star metric.",
+          vi: "Số shop hoạt động hằng tuần là chỉ số định hướng chính của mình.",
+        },
+      ],
+  }
+- {
+    slug: "qualitative-adj",
+    lemma: "qualitative",
+    pos: "adjective",
+    cefr: "C1",
+    topic: "culture",
+    ipa: "/ˈkwɒlɪtətɪv/",
+    def: "Based on descriptions and opinions rather than numbers.",
+    vi: "định tính",
+    examples:
+      [
+        {
+          en: "The interviews gave us qualitative data about why people quit.",
+          vi: "Các buổi phỏng vấn cho mình dữ liệu định tính về lý do người dùng bỏ.",
+        },
+      ],
+  }
+- {
+    slug: "quantitative-adj",
+    lemma: "quantitative",
+    pos: "adjective",
+    cefr: "C1",
+    topic: "culture",
+    ipa: "/ˈkwɒntɪtətɪv/",
+    def: "Based on numbers and measurements.",
+    vi: "định lượng",
+    examples:
+      [
+        {
+          en: "We need quantitative data before we remove the old menu.",
+          vi: "Mình cần dữ liệu định lượng trước khi bỏ menu cũ.",
+        },
+      ],
+  }
+- {
+    slug: "balancing-act-n",
+    lemma: "balancing act",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "C1",
+    topic: "culture",
+    ipa: "/ˈbælənsɪŋ ækt/",
+    def: "A situation where you must give enough attention to two different needs.",
+    vi: "việc cân bằng giữa hai nhu cầu",
+    examples:
+      [
+        {
+          en: "It's a balancing act between speed for new users and control for experts.",
+          vi: "Đây là việc cân bằng giữa tốc độ cho người mới và khả năng kiểm soát cho người thành thạo.",
+        },
+      ],
+  }
+- {
+    slug: "backwards-compatible-adj",
+    lemma: "backwards compatible",
+    pos: "adjective",
+    kind: "collocation",
+    cefr: "C1",
+    topic: "culture",
+    ipa: "/ˈbækwədz kəmˈpætəbl/",
+    def: "Still working with older versions or habits.",
+    vi: "tương thích ngược",
+    examples:
+      [
+        {
+          en: "Keep the old URL so the new menu is backwards compatible with bookmarks.",
+          vi: "Giữ URL cũ để menu mới tương thích ngược với các bookmark.",
+        },
+      ],
+  }
+- {
+    slug: "convention-n",
+    lemma: "convention",
+    pos: "noun",
+    cefr: "B2",
+    topic: "culture",
+    ipa: "/kənˈvenʃn/",
+    def: "A usual way of doing something that most people expect.",
+    vi: "quy ước",
+    examples:
+      [
+        {
+          en: "Breaking the convention of a logo that links home will confuse users.",
+          vi: "Phá quy ước logo dẫn về trang chủ sẽ làm người dùng bối rối.",
+        },
+      ],
+  }
+- {
+    slug: "mental-model-n",
+    lemma: "mental model",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "C1",
+    topic: "culture",
+    ipa: "/ˈmentl ˈmɒdl/",
+    def: "A user's idea of how something works.",
+    vi: "mô hình tư duy",
+    examples:
+      [
+        {
+          en: 'Users'' mental model is a folder, so don''t call it a "collection".',
+          vi: 'Mô hình tư duy của người dùng là thư mục, nên đừng gọi nó là "collection".',
+        },
+      ],
+  }
+- {
+    slug: "progressive-disclosure-n",
+    lemma: "progressive disclosure",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "C1",
+    topic: "culture",
+    ipa: "/prəˈɡresɪv dɪsˈkləʊʒə/",
+    def: "Showing only basic options first and more advanced ones when users need them.",
+    vi: "hiển thị dần (theo nhu cầu)",
+    examples:
+      [
+        {
+          en: "Progressive disclosure keeps the form short for beginners.",
+          vi: "Hiển thị dần giúp form ngắn gọn cho người mới.",
+        },
+      ],
+  }
+- {
+    slug: "deceptive-design-n",
+    lemma: "deceptive design",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "C1",
+    topic: "culture",
+    ipa: "/dɪˈseptɪv dɪˈzaɪn/",
+    def: "Design that tricks users into doing things they did not mean to do.",
+    vi: "thiết kế đánh lừa",
+    examples:
+      [
+        {
+          en: "A hidden cancel button is deceptive design, and it hurts trust.",
+          vi: "Nút huỷ bị giấu là thiết kế đánh lừa và làm mất lòng tin.",
+        },
+      ],
+  }
+- {
+    slug: "nuanced-adj",
+    lemma: "nuanced",
+    pos: "adjective",
+    cefr: "C1",
+    topic: "culture",
+    ipa: "/ˈnjuːɑːnst/",
+    def: "Showing small but important differences.",
+    vi: "tinh tế, có nhiều sắc thái",
+    examples:
+      [
+        {
+          en: "The answer is nuanced: the change helps sellers but slows buyers.",
+          vi: "Câu trả lời không đơn giản: thay đổi này giúp người bán nhưng làm chậm người mua.",
+        },
+      ],
+  }
+- {
+    slug: "low-literacy-adj",
+    lemma: "low-literacy",
+    pos: "adjective",
+    kind: "collocation",
+    cefr: "C1",
+    topic: "culture",
+    ipa: "/ləʊ ˈlɪtərəsi/",
+    def: "Having difficulty reading and writing.",
+    vi: "khả năng đọc viết hạn chế",
+    examples:
+      [
+        {
+          en: "Icons with short labels help low-literacy users.",
+          vi: "Biểu tượng kèm nhãn ngắn giúp người dùng đọc viết hạn chế.",
+        },
+      ],
+  }
+- {
+    slug: "pros-and-cons-n",
+    lemma: "pros and cons",
+    pos: "noun",
+    kind: "phrase",
+    cefr: "B1",
+    topic: "culture",
+    ipa: "/prəʊz ən kɒnz/",
+    def: "The good and bad points of something.",
+    vi: "ưu và nhược điểm",
+    examples:
+      [
+        {
+          en: "Let's list the pros and cons of both options for the support team.",
+          vi: "Mình liệt kê ưu nhược điểm của cả hai phương án cho đội hỗ trợ nhé.",
+        },
+      ],
+  }

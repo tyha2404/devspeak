@@ -1,2117 +1,3449 @@
-- slug: t20-compute-n
-  lemma: compute
-  pos: noun
-  cefr: C1
-  topic: energy
-  ipa: /kəmˈpjuːt/
-  def: Processing power from servers, sold as a service.
-  vi: tài nguyên tính toán
-  examples:
-    - en: Training the model needs a lot of compute.
-      vi: Huấn luyện mô hình cần nhiều tài nguyên tính toán.
-- lemma: memory
-  pos: noun
-  vi: bộ nhớ
-  def: Computer space used to hold data for processing.
-  examples:
-    - en: The worker releases memory after writing the file.
-  slug: t20-memory-n
-  topic: energy
-  cefr: B2
-- lemma: CPU
-  pos: noun
-  vi: bộ xử lý trung tâm
-  def: The part of a computer that runs instructions.
-  examples:
-    - en: This worker uses one CPU during image processing.
-  slug: t20-cpu-n
-  topic: energy
-  cefr: B2
-- lemma: RAM
-  pos: noun
-  vi: bộ nhớ truy cập ngẫu nhiên
-  def: Temporary memory used by running programs.
-  examples:
-    - en: The build needs more RAM than this laptop has.
-  slug: t20-ram-n
-  topic: energy
-  cefr: B2
-- lemma: resource
-  pos: noun
-  vi: tài nguyên sử dụng cho tác vụ
-  def: Something available for carrying out work.
-  examples:
-    - en: Memory is a limited resource on this instance.
-  slug: t20-resource-n
-  topic: energy
-  cefr: B2
-- lemma: allocation
-  pos: noun
-  vi: sự phân bổ tài nguyên
-  def: The assignment of resources to a task or process.
-  examples:
-    - en: Memory allocation increases when the file grows.
-  slug: t20-allocation-n
-  topic: energy
-  cefr: B2
-- lemma: instance
-  pos: noun
-  vi: phiên bản chạy của tài nguyên
-  def: One running copy of a program or computing resource.
-  examples:
-    - en: Restart one instance while the others serve traffic.
-  slug: t20-instance-n
-  topic: energy
-  cefr: B2
-- lemma: process
-  pos: noun
-  vi: tiến trình đang chạy
-  def: A running program managed by the operating system.
-  examples:
-    - en: Each process has its own memory space.
-  slug: t20-process-n
-  topic: energy
-  cefr: B2
-- slug: t20-thread-n
-  lemma: thread
-  pos: noun
-  cefr: B1
-  topic: energy
-  ipa: /θred/
-  def: A chain of replies under one message in a chat tool.
-  vi: luồng trả lời
-  examples:
-    - en: Let's keep the discussion in this thread.
-      vi: Mình giữ cuộc thảo luận trong luồng này nhé.
-- lemma: utilisation
-  pos: noun
-  vi: mức sử dụng tài nguyên
-  def: The proportion of available capacity currently being used.
-  examples:
-    - en: High memory utilisation can slow background jobs.
-  slug: t20-utilisation-n
-  topic: energy
-  cefr: B2
-- slug: t20-storage-n
-  lemma: storage
-  pos: noun
-  cefr: B1
-  topic: energy
-  ipa: /ˈstɔːrɪdʒ/
-  def: The space on a device or online service where you keep files.
-  vi: dung lượng lưu trữ
-  note: 'Hay gặp: "run out of storage" (hết dung lượng).'
-  examples:
-    - en: My phone has run out of storage again.
-      vi: Điện thoại mình lại hết dung lượng rồi.
-- lemma: disk
-  pos: noun
-  vi: ổ lưu trữ
-  def: A device used to store data persistently.
-  examples:
-    - en: The database needs more disk space for backups.
-  slug: t20-disk-n
-  topic: energy
-  cefr: B2
-- lemma: read
-  pos: verb
-  vi: đọc dữ liệu
-  def: To retrieve information from storage or an input.
-  examples:
-    - en: Read the cached value before querying the database.
-  slug: t20-read-v
-  topic: energy
-  cefr: B2
-- lemma: write
-  pos: verb
-  vi: ghi dữ liệu
-  def: To save information to storage or an output.
-  examples:
-    - en: Write the export to a temporary file before uploading it.
-  slug: t20-write-v
-  topic: energy
-  cefr: B2
-- lemma: I/O
-  pos: noun
-  vi: hoạt động nhập xuất dữ liệu
-  def: The movement of data into or out of a system.
-  examples:
-    - en: Disk I/O becomes the bottleneck during backups.
-  slug: t20-i-o-n
-  topic: energy
-  cefr: B2
-- lemma: file system
-  pos: noun
-  vi: hệ thống quản lý tệp
-  def: The organisation used to store and retrieve files.
-  examples:
-    - en: The file system needs enough space for temporary exports.
-  slug: t20-file-system-n
-  topic: energy
-  cefr: B2
-  kind: collocation
-- slug: t20-hard-drive-n
-  lemma: hard drive
-  pos: noun
-  kind: collocation
-  cefr: B1
-  topic: energy
-  ipa: /ˈhɑːd draɪv/
-  def: The part of a computer, or a separate box, that stores files and programs.
-  vi: ổ cứng
-  forms:
-    - hard drives
-    - external hard drive
-    - hard disk
-  examples:
-    - en: I keep old photos on an external hard drive.
-      vi: Mình lưu ảnh cũ trong một ổ cứng gắn ngoài.
-- slug: t20-throughput-n
-  lemma: throughput
-  pos: noun
-  cefr: C1
-  topic: energy
-  ipa: /ˈθruːpʊt/
-  def: How much work a system can do in a period of time.
-  vi: thông lượng
-  examples:
-    - en: Throughput dropped to 500 requests per second.
-      vi: Thông lượng giảm xuống 500 request mỗi giây.
-- slug: t20-latency-n
-  lemma: latency
-  pos: noun
-  cefr: C1
-  topic: energy
-  ipa: /ˈleɪtənsi/
-  def: The delay before a response arrives.
-  vi: độ trễ
-  examples:
-    - en: Latency went up from 80 to 300 milliseconds.
-      vi: Độ trễ tăng từ 80 lên 300 mili giây.
-- slug: t20-buffer-v
-  lemma: buffer
-  pos: verb
-  cefr: B2
-  topic: energy
-  ipa: /ˈbʌfə/
-  def: When a video stops for a moment because it is still getting data.
-  vi: (video) bị đứng để tải, quay vòng vòng
-  forms:
-    - buffers
-    - buffered
-    - buffering
-  examples:
-    - en: The film kept buffering, so we gave up and read a book.
-      vi: Phim cứ đứng hình quay vòng vòng nên bọn mình bỏ cuộc và đọc sách.
-- slug: t20-cache-v
-  lemma: cache
-  pos: verb
-  cefr: B2
-  topic: energy
-  ipa: /kæʃ/
-  def: To save a copy nearby so it does not need to be fetched again.
-  vi: lưu bộ nhớ đệm
-  examples:
-    - en: We cache the fonts so they load only once.
-      vi: Bọn mình lưu font vào bộ nhớ đệm để chỉ tải một lần.
-- lemma: data transfer
-  pos: noun
-  vi: việc truyền dữ liệu
-  def: The movement of data between devices or services.
-  examples:
-    - en: Video previews increase data transfer on mobile networks.
-  slug: t20-data-transfer-n
-  topic: energy
-  cefr: B2
-  kind: collocation
-- slug: t20-percentile-n
-  lemma: percentile
-  pos: noun
-  cefr: C1
-  topic: energy
-  ipa: /pəˈsentaɪl/
-  def: A value below which a given percent of results fall, such as p95.
-  vi: phân vị
-  examples:
-    - en: The 99th percentile is still too slow.
-      vi: Phân vị thứ 99 vẫn còn quá chậm.
-- slug: t20-median-n
-  lemma: median
-  pos: noun
-  cefr: B2
-  topic: energy
-  ipa: /ˈmiːdiən/
-  def: The middle value when results are put in order.
-  vi: trung vị
-  examples:
-    - en: The median response time is 120 ms.
-      vi: Thời gian phản hồi trung vị là 120 ms.
-- slug: t20-average-n
-  lemma: average
-  pos: noun
-  cefr: A2
-  topic: energy
-  ipa: /ˈævərɪdʒ/
-  def: The number you get by adding values and dividing by how many there are.
-  vi: giá trị trung bình
-  examples:
-    - en: The average hides a few very slow requests.
-      vi: Giá trị trung bình che mất vài request rất chậm.
-- slug: t20-response-time-n
-  lemma: response time
-  pos: noun
-  kind: collocation
-  cefr: B2
-  topic: energy
-  ipa: /rɪˈspɒns taɪm/
-  def: How long it takes to answer a message or request.
-  vi: thời gian phản hồi
-  examples:
-    - en: Our agreed response time for critical bugs is four hours.
-      vi: Thời gian phản hồi đã thống nhất cho lỗi nghiêm trọng là bốn tiếng.
-- slug: t20-request-n
-  lemma: request
-  pos: noun
-  cefr: B1
-  topic: energy
-  ipa: /rɪˈkwest/
-  def: A message asking a server for data.
-  vi: yêu cầu, request
-  examples:
-    - en: The page makes eighty requests before it shows anything.
-      vi: Trang gửi tám mươi request trước khi hiển thị gì đó.
-- lemma: concurrent
-  pos: adjective
-  vi: diễn ra đồng thời
-  def: Happening during overlapping periods.
-  examples:
-    - en: The test simulates fifty concurrent requests.
-  slug: t20-concurrent-adj
-  topic: energy
-  cefr: B2
-- lemma: concurrency
-  pos: noun
-  vi: khả năng xử lý nhiều việc đồng thời
-  def: Progress on multiple tasks during overlapping periods.
-  examples:
-    - en: Limit concurrency to protect the database.
-  slug: t20-concurrency-n
-  topic: energy
-  cefr: B2
-- slug: t20-under-load-phr
-  lemma: under load
-  pos: phrase
-  kind: phrase
-  cefr: B2
-  topic: energy
-  ipa: /ˈʌndə ləʊd/
-  def: While the system is handling a lot of traffic.
-  vi: khi chịu tải
-  examples:
-    - en: The service is fine alone but fails under load.
-      vi: Service chạy tốt khi đứng riêng nhưng lỗi khi chịu tải.
-- slug: t20-peak-n
-  lemma: peak
-  pos: noun
-  cefr: B1
-  topic: energy
-  ipa: /piːk/
-  def: The highest point or value in a period.
-  vi: đỉnh, giá trị cao nhất
-  examples:
-    - en: The flood peak arrived at 3 a.m. local time.
-      vi: Đỉnh lũ đến lúc 3 giờ sáng giờ địa phương.
-- slug: t20-baseline-n
-  lemma: baseline
-  pos: noun
-  cefr: B2
-  topic: energy
-  ipa: /ˈbeɪslaɪn/
-  def: A first measurement that you compare later results with.
-  vi: đường cơ sở, mốc so sánh
-  examples:
-    - en: Measure a baseline before you optimise anything.
-      vi: Hãy đo mốc so sánh trước khi tối ưu bất cứ thứ gì.
-- slug: t20-benchmark-n
-  lemma: benchmark
-  pos: noun
-  cefr: B2
-  topic: energy
-  ipa: /ˈbentʃmɑːk/
-  def: A standard test used to compare performance.
-  vi: bài đo chuẩn
-  examples:
-    - en: We ran the benchmark before and after the change.
-      vi: Bọn mình chạy bài đo chuẩn trước và sau thay đổi.
-- slug: t20-bottleneck-n
-  lemma: bottleneck
-  pos: noun
-  cefr: B2
-  topic: energy
-  ipa: /ˈbɒtlnek/
-  def: The slowest part that limits the whole system.
-  vi: điểm nghẽn
-  examples:
-    - en: The database is the bottleneck, not the API.
-      vi: Database mới là điểm nghẽn, không phải API.
-- slug: t20-overhead-n
-  lemma: overhead
-  pos: noun
-  cefr: C1
-  topic: energy
-  ipa: /ˈəʊvəhed/
-  def: Extra time or resources needed beyond the main work.
-  vi: chi phí phụ, overhead
-  examples:
-    - en: Logging adds about 5% overhead.
-      vi: Ghi log thêm khoảng 5% chi phí phụ.
-- lemma: measurement
-  pos: noun
-  vi: kết quả hoặc quá trình đo
-  def: A value obtained by measuring a quantity.
-  examples:
-    - en: Record each measurement with the workload and hardware details.
-  slug: t20-measurement-n
-  topic: energy
-  cefr: B2
-- lemma: cache hit
-  pos: noun
-  vi: lần tìm thấy dữ liệu trong cache
-  def: A request whose data is found in the cache.
-  examples:
-    - en: A cache hit avoids another database query.
-  slug: t20-cache-hit-n
-  topic: energy
-  cefr: B2
-  kind: collocation
-- lemma: cache miss
-  pos: noun
-  vi: lần không tìm thấy dữ liệu trong cache
-  def: A request whose data is absent from the cache.
-  examples:
-    - en: A cache miss triggers a call to the origin server.
-  slug: t20-cache-miss-n
-  topic: energy
-  cefr: B2
-  kind: collocation
-- lemma: expiration
-  pos: noun
-  vi: sự hết hiệu lực
-  def: The end of a period in which something remains valid.
-  examples:
-    - en: Check token expiration before retrying the request.
-  slug: t20-expiration-n
-  topic: energy
-  cefr: B2
-- lemma: invalidation
-  pos: noun
-  vi: việc làm dữ liệu hết hiệu lực
-  def: Marking stored data as no longer valid.
-  examples:
-    - en: Cache invalidation follows a successful profile update.
-  slug: t20-invalidation-n
-  topic: energy
-  cefr: B2
-- lemma: time to live
-  pos: noun
-  vi: thời hạn dữ liệu còn hiệu lực
-  def: The time a cached item remains valid before expiration.
-  examples:
-    - en: Set a short time to live for rapidly changing prices.
-  slug: t20-time-to-live-n
-  topic: energy
-  cefr: B2
-  kind: collocation
-- lemma: reuse
-  pos: verb
-  vi: sử dụng lại
-  def: To use something again instead of recreating it.
-  examples:
-    - en: Reuse the cached response while it remains valid.
-  slug: t20-reuse-v
-  topic: energy
-  cefr: B2
-- slug: t20-stale-adj
-  lemma: stale
-  pos: adjective
-  cefr: B2
-  topic: energy
-  ipa: /steɪl/
-  def: No longer fresh; old enough that it may not be true any more.
-  vi: cũ, quá hạn
-  examples:
-    - en: Mark a value as stale if it is more than an hour old.
-      vi: Đánh dấu giá trị là cũ nếu nó đã quá một giờ.
-- lemma: fresh
-  pos: adjective
-  vi: còn mới và phù hợp hiện tại
-  def: Recent enough to be used reliably.
-  examples:
-    - en: Keep the cached pricing data fresh during the sale.
-  slug: t20-fresh-adj
-  topic: energy
-  cefr: B2
-- lemma: eviction
-  pos: noun
-  vi: việc loại dữ liệu khỏi cache
-  def: Removing an item from a cache to free space.
-  examples:
-    - en: Cache eviction becomes frequent when memory is limited.
-  slug: t20-eviction-n
-  topic: energy
-  cefr: B2
-- slug: t20-warm-up-n
-  lemma: warm-up
-  pos: noun
-  cefr: B2
-  topic: energy
-  ipa: /ˈwɔːm ʌp/
-  def: A short first period that you do not count, so caches and the runtime are
-    ready.
-  vi: giai đoạn khởi động
-  examples:
-    - en: Ignore the first minute; it's the warm-up.
-      vi: Bỏ qua phút đầu; đó là giai đoạn khởi động.
-- slug: t20-cold-start-n
-  lemma: cold start
-  pos: noun
-  kind: collocation
-  cefr: C1
-  topic: energy
-  ipa: /kəʊld stɑːt/
-  def: The slow first run when nothing is loaded or cached yet.
-  vi: khởi động nguội
-  examples:
-    - en: Cold starts make the first request take two seconds.
-      vi: Khởi động nguội khiến request đầu tiên mất hai giây.
-- lemma: preload
-  pos: verb
-  vi: tải sẵn trước khi cần
-  def: To load data before it is requested or displayed.
-  examples:
-    - en: Preload the next page only when bandwidth allows it.
-  slug: t20-preload-v
-  topic: energy
-  cefr: B2
-- lemma: fetch
-  pos: verb
-  vi: lấy dữ liệu từ nguồn
-  def: To retrieve data from another place.
-  examples:
-    - en: Fetch the profile only after the user signs in.
-  slug: t20-fetch-v
-  topic: energy
-  cefr: B2
-- lemma: lookup
-  pos: noun
-  vi: lần tra cứu dữ liệu
-  def: A search for a value using a key or reference.
-  examples:
-    - en: A cache lookup is faster than another database query.
-  slug: t20-lookup-n
-  topic: energy
-  cefr: B2
-- lemma: key
-  pos: noun
-  vi: khoá tra cứu dữ liệu
-  def: An identifier used to look up a stored value.
-  examples:
-    - en: Include the account ID in the cache key.
-  slug: t20-key-n
-  topic: energy
-  cefr: B2
-- lemma: value
-  pos: noun
-  vi: giá trị dữ liệu
-  def: A piece of data associated with a name or position.
-  examples:
-    - en: The cache stores a value under each lookup key.
-  slug: t20-value-n
-  topic: energy
-  cefr: B2
-- lemma: scaling
-  pos: noun
-  vi: việc điều chỉnh năng lực xử lý
-  def: Changing capacity to meet a different amount of work.
-  examples:
-    - en: Scaling may add instances or increase their size.
-  slug: t20-scaling-n
-  topic: energy
-  cefr: B2
-- slug: t20-autoscaling-n
-  lemma: autoscaling
-  pos: noun
-  cefr: C1
-  topic: energy
-  ipa: /ˈɔːtəʊˌskeɪlɪŋ/
-  def: A feature that adds or removes servers automatically as traffic changes.
-  vi: tự động co giãn
-  examples:
-    - en: Autoscaling keeps costs low at night.
-      vi: Tự động co giãn giúp chi phí ban đêm thấp.
-- lemma: horizontal scaling
-  pos: noun
-  vi: mở rộng bằng cách thêm máy hoặc bản sao
-  def: Increasing capacity by adding more machines or instances.
-  examples:
-    - en: Horizontal scaling spreads requests across more replicas.
-  slug: t20-horizontal-scaling-n
-  topic: energy
-  cefr: B2
-  kind: collocation
-- lemma: vertical scaling
-  pos: noun
-  vi: mở rộng bằng cách tăng tài nguyên máy
-  def: Increasing capacity by giving an instance more resources.
-  examples:
-    - en: Vertical scaling gives this database more memory.
-  slug: t20-vertical-scaling-n
-  topic: energy
-  cefr: B2
-  kind: collocation
-- lemma: load balancer
-  pos: noun
-  vi: bộ phân phối tải
-  def: A service that distributes incoming work across servers.
-  examples:
-    - en: The load balancer stops sending traffic to unhealthy replicas.
-  slug: t20-load-balancer-n
-  topic: energy
-  cefr: B2
-  kind: collocation
-- lemma: replica
-  pos: noun
-  vi: bản sao đang chạy
-  def: A copy of a service or stored data.
-  examples:
-    - en: Add a replica when sustained traffic exceeds capacity.
-  slug: t20-replica-n
-  topic: energy
-  cefr: B2
-- lemma: traffic
-  pos: noun
-  vi: lưu lượng truy cập
-  def: The requests or data moving through a service.
-  examples:
-    - en: Traffic increases after the new mobile release.
-  slug: t20-traffic-n
-  topic: energy
-  cefr: B2
-- slug: t20-capacity-n
-  lemma: capacity
-  pos: noun
-  cefr: B2
-  topic: energy
-  ipa: /kəˈpæsəti/
-  def: The largest number of people a place can hold.
-  vi: sức chứa
-  examples:
-    - en: The room has a capacity of sixty people.
-      vi: Phòng có sức chứa sáu mươi người.
-- slug: t20-headroom-n
-  lemma: headroom
-  pos: noun
-  cefr: C1
-  topic: energy
-  ipa: /ˈhedruːm/
-  def: Space left before you reach a limit.
-  vi: khoảng dư
-  examples:
-    - en: We still have some headroom in this quarter's budget.
-      vi: Ngân sách quý này vẫn còn khoảng dư.
-- slug: t20-burst-n
-  lemma: burst
-  pos: noun
-  cefr: B2
-  topic: energy
-  ipa: /bɜːst/
-  def: A short period of very high activity.
-  vi: đợt tăng đột biến
-  examples:
-    - en: A burst of sign-ups used our whole monthly quota.
-      vi: Một đợt đăng ký tăng đột biến dùng hết hạn mức của cả tháng.
-- slug: t20-surge-v
-  lemma: surge
-  pos: verb
-  cefr: C1
-  topic: energy
-  ipa: /sɜːdʒ/
-  def: To rise suddenly and strongly.
-  vi: tăng vọt
-  examples:
-    - en: API costs surged after the feature went viral.
-      vi: Chi phí API tăng vọt sau khi tính năng nổi lên.
-- slug: t20-quota-n
-  lemma: quota
-  pos: noun
-  cefr: B2
-  topic: energy
-  ipa: /ˈkwəʊtə/
-  def: The largest amount you are allowed to use in a period.
-  vi: hạn mức
-  examples:
-    - en: We hit our email quota before lunch.
-      vi: Mình dùng hết hạn mức email trước giờ trưa.
-- slug: t20-exceed-v
-  lemma: exceed
-  pos: verb
-  cefr: B2
-  topic: energy
-  ipa: /ɪkˈsiːd/
-  def: To go above a limit or amount.
-  vi: vượt quá
-  examples:
-    - en: If we exceed the limit, each extra call costs a cent.
-      vi: Nếu vượt giới hạn, mỗi lượt gọi thêm tốn một xu.
-- lemma: limit
-  pos: noun
-  vi: giới hạn
-  def: The maximum amount or boundary allowed.
-  examples:
-    - en: Set a memory limit for each worker.
-  slug: t20-limit-n
-  topic: energy
-  cefr: B2
-- lemma: saturation
-  pos: noun
-  vi: trạng thái dùng hết khả năng xử lý
-  def: A state in which a resource has reached its effective capacity.
-  examples:
-    - en: CPU saturation increases request latency.
-  slug: t20-saturation-n
-  topic: energy
-  cefr: B2
-- lemma: backpressure
-  pos: noun
-  vi: cơ chế hạn chế luồng khi quá tải
-  def: A mechanism that slows incoming work when processing cannot keep up.
-  examples:
-    - en: Backpressure prevents the queue from growing without limits.
-  slug: t20-backpressure-n
-  topic: energy
-  cefr: B2
-- lemma: elasticity
-  pos: noun
-  vi: khả năng tự co giãn tài nguyên
-  def: The ability to increase or reduce resources as demand changes.
-  examples:
-    - en: Elasticity helps the service handle short traffic spikes.
-  slug: t20-elasticity-n
-  topic: energy
-  cefr: B2
-- slug: t20-right-size-v
-  lemma: right-size
-  pos: verb
-  cefr: C1
-  topic: energy
-  ipa: /ˈraɪt saɪz/
-  def: To change resources to the size you really need.
-  vi: điều chỉnh đúng quy mô
-  examples:
-    - en: Let's right-size the servers that use only ten percent CPU.
-      vi: Hãy điều chỉnh lại các server chỉ dùng mười phần trăm CPU.
-- lemma: queue
-  pos: noun
-  vi: hàng đợi
-  def: Items or people waiting to be served in order.
-  examples:
-    - en: The queue grows when workers cannot process jobs fast enough.
-  slug: t20-queue-n
-  topic: energy
-  cefr: B2
-- lemma: background job
-  pos: noun
-  vi: tác vụ chạy nền
-  def: Work processed separately from the main user request.
-  examples:
-    - en: A background job generates the monthly report.
-  slug: t20-background-job-n
-  topic: energy
-  cefr: B2
-  kind: collocation
-- lemma: worker
-  pos: noun
-  vi: tiến trình xử lý công việc nền
-  def: A process that handles queued or background tasks.
-  examples:
-    - en: Each worker processes one export at a time.
-  slug: t20-worker-n
-  topic: energy
-  cefr: B2
-- lemma: enqueue
-  pos: verb
-  vi: đưa vào hàng đợi
-  def: To add an item to a queue.
-  examples:
-    - en: Enqueue the email after saving the order.
-  slug: t20-enqueue-v
-  topic: energy
-  cefr: B2
-- lemma: dequeue
-  pos: verb
-  vi: lấy phần tử khỏi hàng đợi
-  def: To remove an item from a queue for processing.
-  examples:
-    - en: The worker can dequeue another task after finishing this one.
-  slug: t20-dequeue-v
-  topic: energy
-  cefr: B2
-- lemma: retry
-  pos: verb
-  vi: thử thực hiện lại
-  def: To attempt an operation again after failure.
-  examples:
-    - en: Retry the upload when the connection returns.
-  slug: t20-retry-v
-  topic: energy
-  cefr: B2
-- lemma: job status
-  pos: noun
-  vi: trạng thái tác vụ
-  def: The current processing state of a task.
-  examples:
-    - en: The job status changes from pending to completed.
-  slug: t20-job-status-n
-  topic: energy
-  cefr: B2
-  kind: collocation
-- lemma: scheduled
-  pos: adjective
-  vi: được lên lịch
-  def: Arranged to happen at a specified time.
-  examples:
-    - en: The scheduled export runs after business hours.
-  slug: t20-scheduled-adj
-  topic: energy
-  cefr: B2
-- slug: t20-asynchronous-adj
-  lemma: asynchronous
-  pos: adjective
-  cefr: B1
-  topic: energy
-  ipa: /eɪˈsɪŋkrənəs/
-  def: Allowing a task to continue without waiting for another operation to finish.
-  vi: bất đồng bộ
-  examples:
-    - en: An asynchronous export lets the user continue working.
-- slug: t20-synchronous-adj
-  lemma: synchronous
-  pos: adjective
-  cefr: C1
-  topic: energy
-  ipa: /ˈsɪŋkrənəs/
-  def: Waiting for one operation to finish before continuing.
-  vi: đồng bộ
-  examples:
-    - en: A synchronous export keeps the request open until the file is ready.
-- lemma: batch
-  pos: noun
-  vi: lô xử lý
-  def: A group of items processed together.
-  examples:
-    - en: Process the images in a small batch.
-  slug: t20-batch-n
-  topic: energy
-  cefr: B2
-- slug: t20-payload-n
-  lemma: payload
-  pos: noun
-  cefr: B2
-  topic: energy
-  ipa: /ˈpeɪləʊd/
-  def: The actual data carried in a message.
-  vi: dữ liệu tải
-  examples:
-    - en: The API payload includes fields no screen uses.
-      vi: Dữ liệu tải của API có những trường không màn hình nào dùng.
-- slug: t20-priority-n
-  lemma: priority
-  pos: noun
-  cefr: B1
-  topic: energy
-  ipa: /praɪˈɒrəti/
-  def: Something that is more important than other things and should be done first.
-  vi: ưu tiên
-  examples:
-    - en: Your first priority is to learn the release process.
-      vi: Ưu tiên đầu tiên của bạn là nắm quy trình release.
-- lemma: dead-letter queue
-  pos: noun
-  vi: hàng đợi lưu thông điệp xử lý thất bại
-  def: A queue holding messages that could not be processed successfully.
-  examples:
-    - en: Inspect the dead-letter queue after repeated payment failures.
-  slug: t20-dead-letter-queue-n
-  topic: energy
-  cefr: B2
-  kind: collocation
-- lemma: timeout
-  pos: noun
-  vi: sự hết thời gian chờ
-  def: The end of a waiting period without the expected result.
-  examples:
-    - en: A timeout should display a useful recovery action.
-  slug: t20-timeout-n
-  topic: energy
-  cefr: B2
-- slug: t20-acknowledge-v
-  lemma: acknowledge
-  pos: verb
-  cefr: B2
-  topic: energy
-  ipa: /əkˈnɒlɪdʒ/
-  def: To say that you have received or noticed something.
-  vi: xác nhận đã nhận
-  examples:
-    - en: Please acknowledge the page so we know you're on it.
-      vi: Vui lòng xác nhận cảnh báo để mọi người biết bạn đang xử lý.
-- lemma: at least once
-  pos: phrase
-  vi: ít nhất một lần
-  def: A delivery guarantee that allows repeated messages.
-  examples:
-    - en: The queue delivers each message at least once.
-  slug: t20-at-least-once-phr
-  topic: energy
-  cefr: B2
-  kind: phrase
-- lemma: exactly once
-  pos: phrase
-  vi: đúng một lần
-  def: A processing guarantee in which an operation takes effect once.
-  examples:
-    - en: The payment workflow must apply each charge exactly once.
-  slug: t20-exactly-once-phr
-  topic: energy
-  cefr: B2
-  kind: phrase
-- lemma: deduplication
-  pos: noun
-  vi: việc loại bỏ bản trùng
-  def: Finding and removing repeated copies of the same item.
-  examples:
-    - en: Deduplication prevents repeated notifications for the same event.
-  slug: t20-deduplication-n
-  topic: energy
-  cefr: B2
-- lemma: idempotency
-  pos: noun
-  vi: tính lặp lại không gây tác động thêm
-  def: The property of repeated operations having the same effect as one.
-  examples:
-    - en: Idempotency prevents a retry from creating a second charge.
-  slug: t20-idempotency-n
-  topic: energy
-  cefr: B2
-- lemma: resource limit
-  pos: noun
-  vi: giới hạn tài nguyên
-  def: A maximum amount of a computing resource allowed.
-  examples:
-    - en: Set a resource limit so one job cannot crash the host.
-  slug: t20-resource-limit-n
-  topic: energy
-  cefr: B2
-  kind: collocation
-- slug: t20-rate-limit-n
-  lemma: rate limit
-  pos: noun
-  kind: collocation
-  cefr: B2
-  topic: energy
-  ipa: /ˈreɪt ˌlɪmɪt/
-  def: The largest number of requests an API allows in a period of time.
-  vi: giới hạn tần suất
-  examples:
-    - en: We hit the partner's rate limit during the import.
-      vi: Tụi mình chạm giới hạn tần suất của đối tác khi import.
-- slug: t20-throttle-v
-  lemma: throttle
-  pos: verb
-  cefr: C1
-  topic: energy
-  ipa: /ˈθrɒtl/
-  def: To limit how fast data or requests can flow.
-  vi: giới hạn tốc độ
-  examples:
-    - en: We throttle uploads on mobile data.
-      vi: Bọn mình giới hạn tốc độ tải lên khi dùng dữ liệu di động.
-- lemma: fair usage
-  pos: noun
-  vi: việc sử dụng trong giới hạn hợp lý
-  def: Use of a shared service within reasonable limits.
-  examples:
-    - en: The fair usage policy prevents one tenant from exhausting resources.
-  slug: t20-fair-usage-n
-  topic: energy
-  cefr: B2
-  kind: collocation
-- lemma: request budget
-  pos: noun
-  vi: hạn mức tài nguyên cho yêu cầu
-  def: The resources or time allowed for handling requests.
-  examples:
-    - en: A request budget prevents expensive operations from exhausting capacity.
-  slug: t20-request-budget-n
-  topic: energy
-  cefr: B2
-  kind: collocation
-- slug: t20-spending-cap-n
-  lemma: spending cap
-  pos: noun
-  kind: collocation
-  cefr: B2
-  topic: energy
-  ipa: /ˈspendɪŋ kæp/
-  def: A fixed limit on how much can be spent.
-  vi: mức trần chi tiêu
-  examples:
-    - en: Set a spending cap on the cloud account to avoid surprises.
-      vi: Đặt mức trần chi tiêu cho tài khoản cloud để tránh bất ngờ.
-- slug: t20-threshold-n
-  lemma: threshold
-  pos: noun
-  cefr: B2
-  topic: energy
-  ipa: /ˈθreʃhəʊld/
-  def: A level at which something starts to happen.
-  vi: ngưỡng
-  examples:
-    - en: The tile turns red above the threshold.
-      vi: Ô chuyển sang đỏ khi vượt ngưỡng.
-- slug: t20-alert-n
-  lemma: alert
-  pos: noun
-  cefr: B1
-  topic: energy
-  ipa: /əˈlɜːt/
-  def: A message that warns people about a problem.
-  vi: cảnh báo
-  examples:
-    - en: Send an alert when the river rises above 3 metres.
-      vi: Gửi cảnh báo khi mực sông lên quá 3 mét.
-- slug: t20-billable-adj
-  lemma: billable
-  pos: adjective
-  cefr: C1
-  topic: energy
-  ipa: /ˈbɪləbl/
-  def: Able to be charged to a customer.
-  vi: được tính tiền
-  examples:
-    - en: Failed requests are not billable.
-      vi: Request lỗi thì không bị tính tiền.
-- slug: t20-consumption-n
-  lemma: consumption
-  pos: noun
-  cefr: B2
-  topic: energy
-  ipa: /kənˈsʌmpʃn/
-  def: The amount of something that is used up.
-  vi: lượng tiêu thụ
-  examples:
-    - en: Check the dashboard to see consumption per service.
-      vi: Xem dashboard để biết lượng tiêu thụ của từng dịch vụ.
-- slug: t20-metered-adj
-  lemma: metered
-  pos: adjective
-  cefr: C1
-  topic: energy
-  ipa: /ˈmiːtəd/
-  def: Measured and charged by the exact amount used.
-  vi: tính theo đồng hồ đo, theo lượng dùng
-  examples:
-    - en: Database reads are metered, so cache what you can.
-      vi: Lượt đọc database được tính theo lượng dùng, nên cache được gì thì cache.
-- slug: t20-overage-n
-  lemma: overage
-  pos: noun
-  cefr: C1
-  topic: energy
-  ipa: /ˈəʊvərɪdʒ/
-  def: An extra charge for using more than your plan includes.
-  vi: phí vượt mức
-  examples:
-    - en: The overage on storage added fifty dollars to the bill.
-      vi: Phí vượt mức lưu trữ làm hoá đơn tăng năm mươi đô.
-- slug: t20-api-call-n
-  lemma: API call
-  pos: noun
-  kind: collocation
-  cefr: B1
-  topic: energy
-  ipa: /ˌeɪ piː ˈaɪ kɔːl/
-  def: One request that a program sends to an API.
-  vi: lượt gọi API
-  examples:
-    - en: Each API call costs a fraction of a cent.
-      vi: Mỗi lượt gọi API tốn một phần nhỏ của một xu.
-- slug: t20-egress-n
-  lemma: egress
-  pos: noun
-  cefr: C1
-  topic: energy
-  ipa: /ˈiːɡres/
-  def: Data that leaves a cloud provider's network, often charged.
-  vi: lưu lượng ra (egress)
-  examples:
-    - en: Egress fees made the backup plan more expensive.
-      vi: Phí lưu lượng ra làm phương án sao lưu đắt hơn.
-- slug: t20-unit-price-n
-  lemma: unit price
-  pos: noun
-  kind: collocation
-  cefr: B2
-  topic: energy
-  ipa: /ˈjuːnɪt praɪs/
-  def: The price of one single item or unit.
-  vi: đơn giá
-  examples:
-    - en: The unit price falls when you buy more seats.
-      vi: Đơn giá giảm khi mua nhiều chỗ hơn.
-- slug: t20-pay-as-you-go-adj
-  lemma: pay-as-you-go
-  pos: adjective
-  cefr: B2
-  topic: energy
-  ipa: /ˌpeɪ əz juː ˈɡəʊ/
-  def: Paying only for what you use, with no fixed fee.
-  vi: dùng bao nhiêu trả bấy nhiêu
-  examples:
-    - en: A pay-as-you-go plan suits our small side project.
-      vi: Gói dùng bao nhiêu trả bấy nhiêu hợp với dự án phụ nhỏ của mình.
-- slug: t20-tier-n
-  lemma: tier
-  pos: noun
-  cefr: B2
-  topic: energy
-  ipa: /tɪə/
-  def: One level in a set of prices or features.
-  vi: bậc, hạng
-  examples:
-    - en: The free tier allows a thousand requests a day.
-      vi: Bậc miễn phí cho phép một nghìn request mỗi ngày.
-- slug: t20-flat-rate-n
-  lemma: flat rate
-  pos: noun
-  kind: collocation
-  cefr: B2
-  topic: energy
-  ipa: /ˌflæt ˈreɪt/
-  def: One fixed price that does not change with usage.
-  vi: giá cố định
-  examples:
-    - en: A flat rate is easier to plan for than per-request pricing.
-      vi: Giá cố định dễ lên kế hoạch hơn tính theo từng request.
-- slug: t20-reserved-instance-n
-  lemma: reserved instance
-  pos: noun
-  kind: collocation
-  cefr: C1
-  topic: energy
-  ipa: /rɪˌzɜːvd ˈɪnstəns/
-  def: A server you promise to use for a long period in return for a lower price.
-  vi: máy chủ đặt trước
-  examples:
-    - en: Reserved instances would save us about thirty percent.
-      vi: Máy chủ đặt trước sẽ giúp tiết kiệm khoảng ba mươi phần trăm.
-- slug: t20-hosting-n
-  lemma: hosting
-  pos: noun
-  cefr: B1
-  topic: energy
-  ipa: /ˈhəʊstɪŋ/
-  def: The service of keeping a website or app running on servers.
-  vi: dịch vụ lưu trữ (hosting)
-  examples:
-    - en: Hosting will cost about forty dollars a month.
-      vi: Hosting sẽ tốn khoảng bốn mươi đô một tháng.
-- lemma: cloud provider
-  pos: noun
-  vi: nhà cung cấp dịch vụ đám mây
-  def: A company supplying computing resources over the internet.
-  examples:
-    - en: Our cloud provider bills storage separately from compute.
-  slug: t20-cloud-provider-n
-  topic: energy
-  cefr: B2
-  kind: collocation
-- lemma: service level
-  pos: noun
-  vi: mức chất lượng dịch vụ cam kết
-  def: An agreed standard for service availability or performance.
-  examples:
-    - en: The service level includes an uptime target.
-  slug: t20-service-level-n
-  topic: energy
-  cefr: B2
-  kind: collocation
-- slug: t20-monitoring-n
-  lemma: monitoring
-  pos: noun
-  cefr: B2
-  topic: energy
-  ipa: /ˈmɒnɪtərɪŋ/
-  def: Watching a system all the time to notice problems.
-  vi: giám sát
-  examples:
-    - en: Better monitoring would have caught this in minutes.
-      vi: Giám sát tốt hơn đã có thể phát hiện việc này trong vài phút.
-- slug: t20-metric-n
-  lemma: metric
-  pos: noun
-  cefr: B2
-  topic: energy
-  ipa: /ˈmetrɪk/
-  def: A number used to measure something.
-  vi: chỉ số
-  examples:
-    - en: Our main metric is completed sign-ups.
-      vi: Chỉ số chính của chúng ta là số lượt đăng ký hoàn tất.
-- slug: t20-dashboard-n
-  lemma: dashboard
-  pos: noun
-  cefr: B1
-  topic: energy
-  ipa: /ˈdæʃbɔːd/
-  def: A screen that shows key numbers and charts together.
-  vi: bảng điều khiển
-  examples:
-    - en: The dashboard updates once a day.
-      vi: Dashboard cập nhật mỗi ngày một lần.
-- slug: t20-graph-n
-  lemma: graph
-  pos: noun
-  cefr: B1
-  topic: energy
-  ipa: /ɡrɑːf/
-  def: A picture that shows how numbers change or compare.
-  vi: biểu đồ
-  examples:
-    - en: The graph shows errors dropping after the fix.
-      vi: Biểu đồ cho thấy lỗi giảm sau khi sửa.
-- slug: t20-time-series-n
-  lemma: time series
-  pos: noun
-  kind: collocation
-  cefr: B1
-  topic: energy
-  ipa: /ˈtaɪm sɪəriːz/
-  def: A list of values recorded one after another over time.
-  vi: chuỗi thời gian
-  examples:
-    - en: We store each station's data as a time series.
-      vi: Bọn mình lưu dữ liệu mỗi trạm dưới dạng chuỗi thời gian.
-- slug: t20-sample-n
-  lemma: sample
-  pos: noun
-  cefr: B2
-  topic: energy
-  ipa: /ˈsɑːmpl/
-  def: A small part of a group that you study.
-  vi: mẫu
-  examples:
-    - en: We checked a sample of 200 failed orders.
-      vi: Bọn mình kiểm tra một mẫu gồm 200 đơn hàng lỗi.
-- slug: t20-interval-n
-  lemma: interval
-  pos: noun
-  cefr: B1
-  topic: energy
-  ipa: /ˈɪntəvl/
-  def: The period of time between two events or measurements.
-  vi: khoảng thời gian (giữa hai lần)
-  examples:
-    - en: The sensor reports at a ten-minute interval.
-      vi: Cảm biến gửi số đo cách nhau mười phút.
-- slug: t20-trend-n
-  lemma: trend
-  pos: noun
-  cefr: B1
-  topic: energy
-  ipa: /trend/
-  def: A general direction in which numbers are changing.
-  vi: xu hướng
-  examples:
-    - en: The trend is going down since we moved regions.
-      vi: Xu hướng đang giảm kể từ khi bọn mình chuyển khu vực.
-- slug: t20-spike-n
-  lemma: spike
-  pos: noun
-  cefr: B2
-  topic: energy
-  ipa: /spaɪk/
-  def: A sudden short rise in a number.
-  vi: tăng vọt
-  examples:
-    - en: What caused the spike on Tuesday night?
-      vi: Điều gì gây ra đợt tăng vọt tối thứ Ba?
-- slug: t20-anomaly-n
-  lemma: anomaly
-  pos: noun
-  cefr: C1
-  topic: energy
-  ipa: /əˈnɒməli/
-  def: Something unusual that is different from what is expected.
-  vi: bất thường
-  examples:
-    - en: The billing dashboard flagged an anomaly in storage costs.
-      vi: Dashboard thanh toán đánh dấu một điểm bất thường trong chi phí lưu trữ.
-- slug: t20-warning-n
-  lemma: warning
-  pos: noun
-  cefr: A2
-  topic: energy
-  ipa: /ˈwɔːnɪŋ/
-  def: A message that says something might be wrong.
-  vi: cảnh báo
-  examples:
-    - en: There were hundreds of warnings before the first error.
-      vi: Có hàng trăm cảnh báo trước lỗi đầu tiên.
-- slug: t20-critical-adj
-  lemma: critical
-  pos: adjective
-  cefr: B2
-  topic: energy
-  ipa: /ˈkrɪtɪkl/
-  def: Extremely serious and needing action immediately.
-  vi: nghiêm trọng, nguy cấp
-  examples:
-    - en: A critical alert must reach someone within five minutes.
-      vi: Cảnh báo nguy cấp phải đến được ai đó trong vòng năm phút.
-- slug: t20-availability-n
-  lemma: availability
-  pos: noun
-  cefr: B2
-  topic: energy
-  ipa: /əˌveɪləˈbɪləti/
-  def: The times when you are free to do something.
-  vi: thời gian rảnh, khả năng tham gia
-  examples:
-    - en: What's your availability on weekday evenings?
-      vi: Bạn rảnh những tối nào trong tuần?
-- lemma: uptime
-  pos: noun
-  vi: thời gian hệ thống hoạt động
-  def: The time during which a service is available and operating.
-  examples:
-    - en: Track uptime for the customer-facing API.
-  slug: t20-uptime-n
-  topic: energy
-  cefr: B2
-- slug: t20-downtime-n
-  lemma: downtime
-  pos: noun
-  cefr: C1
-  topic: energy
-  ipa: /ˈdaʊntaɪm/
-  def: Time when you rest and do not work.
-  vi: thời gian nghỉ ngơi
-  examples:
-    - en: Everyone needs some downtime after a big launch.
-      vi: Ai cũng cần thời gian nghỉ ngơi sau một đợt ra mắt lớn.
-- slug: t20-outage-n
-  lemma: outage
-  pos: noun
-  cefr: B2
-  topic: energy
-  ipa: /ˈaʊtɪdʒ/
-  def: A period when a service or power supply stops working.
-  vi: sự cố ngừng hoạt động
-  examples:
-    - en: A power outage stopped the pumps for two hours.
-      vi: Sự cố mất điện làm máy bơm ngừng hai tiếng.
-- lemma: alert fatigue
-  pos: noun
-  vi: mệt mỏi vì quá nhiều cảnh báo
-  def: Reduced attention caused by receiving too many alerts.
-  examples:
-    - en: Repeated false alarms lead to alert fatigue.
-  slug: t20-alert-fatigue-n
-  topic: energy
-  cefr: B2
-  kind: collocation
-- slug: t20-false-alarm-n
-  lemma: false alarm
-  pos: noun
-  kind: collocation
-  cefr: B1
-  topic: energy
-  ipa: /ˌfɔːls əˈlɑːm/
-  def: A warning about a danger that is not real.
-  vi: báo động giả
-  examples:
-    - en: Too many false alarms make people ignore real ones.
-      vi: Quá nhiều báo động giả khiến mọi người bỏ qua báo động thật.
-- slug: t20-notification-channel-n
-  lemma: notification channel
-  pos: noun
-  kind: collocation
-  cefr: B2
-  topic: energy
-  ipa: /ˌnəʊtɪfɪˈkeɪʃn ˌtʃænl/
-  def: The way a message is delivered, such as SMS, email or an app.
-  vi: kênh thông báo
-  examples:
-    - en: Critical alerts need a second notification channel.
-      vi: Cảnh báo nghiêm trọng cần thêm một kênh thông báo thứ hai.
-- lemma: escalation
-  pos: noun
-  vi: việc chuyển xử lý lên cấp phù hợp
-  def: Passing an issue to someone with more authority or expertise.
-  examples:
-    - en: The runbook defines an escalation path for critical incidents.
-  slug: t20-escalation-n
-  topic: energy
-  cefr: B2
-- slug: t20-runbook-n
-  lemma: runbook
-  pos: noun
-  cefr: C1
-  topic: energy
-  ipa: /ˈrʌnbʊk/
-  def: A written guide for doing routine or emergency tasks on a system.
-  vi: sổ tay vận hành
-  examples:
-    - en: Follow the runbook if the queue gets stuck.
-      vi: Làm theo sổ tay vận hành nếu hàng đợi bị kẹt.
-- slug: t20-on-call-adj
-  lemma: on-call
-  pos: adjective
-  cefr: B2
-  topic: energy
-  ipa: /ˌɒn ˈkɔːl/
-  def: Ready to be contacted and fix urgent problems outside normal hours.
-  vi: trực sự cố
-  examples:
-    - en: Tuan is on-call during the holiday weekend.
-      vi: Tuấn trực sự cố trong cuối tuần nghỉ lễ.
-- slug: t20-sustained-adj
-  lemma: sustained
-  pos: adjective
-  cefr: C1
-  topic: energy
-  ipa: /səˈsteɪnd/
-  def: Continuing for a period of time without stopping.
-  vi: kéo dài, liên tục
-  examples:
-    - en: Only alert on a sustained rise, not a single spike.
-      vi: Chỉ cảnh báo khi tăng liên tục, không phải một đỉnh đơn lẻ.
-- slug: t20-cooldown-n
-  lemma: cooldown
-  pos: noun
-  cefr: B2
-  topic: energy
-  ipa: /ˈkuːldaʊn/
-  def: A waiting period before the same action can happen again.
-  vi: thời gian chờ
-  examples:
-    - en: Use a 30-minute cooldown between repeated alerts.
-      vi: Dùng thời gian chờ 30 phút giữa các cảnh báo lặp lại.
-- slug: t20-optimise-v
-  lemma: optimise
-  pos: verb
-  cefr: B2
-  topic: energy
-  ipa: /ˈɒptɪmaɪz/
-  def: To change something so it works better or costs less.
-  vi: tối ưu
-  examples:
-    - en: We optimised the queries and cut database costs.
-      vi: Bọn mình tối ưu truy vấn và giảm chi phí database.
-  note: Anh-Mỹ viết "optimize".
-- slug: t20-trade-off-n
-  lemma: trade-off
-  pos: noun
-  cefr: B2
-  topic: energy
-  ipa: /ˈtreɪd ɒf/
-  def: A balance between two things you cannot fully have together.
-  vi: sự đánh đổi
-  examples:
-    - en: There is a trade-off between speed and energy here.
-      vi: Ở đây có sự đánh đổi giữa tốc độ và năng lượng.
-- slug: t20-cost-v
-  lemma: cost
-  pos: verb
-  cefr: A2
-  topic: energy
-  ipa: /kɒst/
-  def: To have a price that you must pay.
-  vi: có giá, tốn
-  examples:
-    - en: A second laptop charger costs about thirty dollars.
-      vi: Một cục sạc laptop thứ hai tốn khoảng ba mươi đô.
-  note: "Quá khứ: cost – cost."
-- slug: t20-benefit-n
-  lemma: benefit
-  pos: noun
-  cefr: B1
-  topic: energy
-  ipa: /ˈbenɪfɪt/
-  def: A good result or advantage.
-  vi: lợi ích
-  examples:
-    - en: The main benefit is that juniors can deploy alone.
-      vi: Lợi ích chính là các bạn junior tự deploy được.
-- slug: t20-drawback-n
-  lemma: drawback
-  pos: noun
-  cefr: B2
-  topic: energy
-  ipa: /ˈdrɔːbæk/
-  def: A disadvantage or problem.
-  vi: nhược điểm
-  examples:
-    - en: The main drawback is that we lose strong typing.
-      vi: Nhược điểm chính là mất kiểu dữ liệu chặt chẽ.
-- lemma: performance
-  pos: noun
-  vi: hiệu năng
-  def: How well a system performs its tasks.
-  examples:
-    - en: Measure performance under the expected workload.
-  slug: t20-performance-n
-  topic: energy
-  cefr: B2
-- lemma: reliability
-  pos: noun
-  vi: độ tin cậy hoạt động
-  def: The ability to work correctly and consistently over time.
-  examples:
-    - en: Track reliability as well as response time.
-  slug: t20-reliability-n
-  topic: energy
-  cefr: B2
-- lemma: maintainability
-  pos: noun
-  vi: mức dễ bảo trì
-  def: How easily a system can be understood and changed.
-  examples:
-    - en: A simpler design often improves maintainability.
-  slug: t20-maintainability-n
-  topic: energy
-  cefr: B2
-- lemma: complexity
-  pos: noun
-  vi: độ phức tạp
-  def: The amount of interconnected detail that makes something hard to understand.
-  examples:
-    - en: A second cache layer adds complexity to debugging.
-  slug: t20-complexity-n
-  topic: energy
-  cefr: B2
-- lemma: technical debt
-  pos: noun
-  vi: nợ kỹ thuật
-  def: Future maintenance work caused by shortcuts or outdated decisions.
-  examples:
-    - en: Record the technical debt created by this temporary workaround.
-  slug: t20-technical-debt-n
-  topic: energy
-  cefr: B2
-  kind: collocation
-- slug: t20-migration-cost-n
-  lemma: migration cost
-  pos: noun
-  kind: collocation
-  cefr: C1
-  topic: energy
-  ipa: /maɪˈɡreɪʃn kɒst/
-  def: The cost of moving systems or data to a new platform.
-  vi: chi phí chuyển đổi hệ thống
-  examples:
-    - en: Don't forget the migration cost when you compare.
-      vi: Đừng quên chi phí chuyển đổi hệ thống khi so sánh.
-- slug: t20-lock-in-n
-  lemma: lock-in
-  pos: noun
-  cefr: C1
-  topic: energy
-  ipa: /ˈlɒk ɪn/
-  def: A situation where moving to another supplier is very hard or costly.
-  vi: sự phụ thuộc nhà cung cấp
-  examples:
-    - en: Proprietary formats increase vendor lock-in.
-      vi: Định dạng độc quyền làm tăng sự phụ thuộc vào nhà cung cấp.
-- slug: t20-operational-adj
-  lemma: operational
-  pos: adjective
-  cefr: C1
-  topic: energy
-  ipa: /ˌɒpəˈreɪʃənl/
-  def: Connected with running something day to day.
-  vi: vận hành
-  examples:
-    - en: Operational costs include on-call and monitoring.
-      vi: Chi phí vận hành gồm trực sự cố và giám sát.
-- slug: t20-running-cost-n
-  lemma: running cost
-  pos: noun
-  kind: collocation
-  cefr: B2
-  topic: energy
-  ipa: /ˈrʌnɪŋ kɒst/
-  def: The regular cost of keeping something working.
-  vi: chi phí vận hành thường xuyên
-  examples:
-    - en: The running cost of the GPU server is the real problem.
-      vi: Chi phí vận hành thường xuyên của server GPU mới là vấn đề.
-- slug: t20-total-cost-of-ownership-n
-  lemma: total cost of ownership
-  pos: noun
-  kind: collocation
-  cefr: C1
-  topic: energy
-  ipa: /ˌtəʊtl kɒst əv ˈəʊnəʃɪp/
-  def: Every cost of a product over its life, not just the price.
-  vi: tổng chi phí sở hữu
-  examples:
-    - en: The total cost of ownership is lower for the managed database.
-      vi: Tổng chi phí sở hữu của database được quản lý thấp hơn.
-  note: "Viết tắt: TCO."
-- slug: t20-negligible-adj
-  lemma: negligible
-  pos: adjective
-  cefr: C1
-  topic: energy
-  ipa: /ˈneɡlɪdʒəbl/
-  def: So small that it is not important.
-  vi: không đáng kể
-  examples:
-    - en: The extra cost for logging is negligible.
-      vi: Chi phí thêm cho logging không đáng kể.
-- slug: t20-substantial-adj
-  lemma: substantial
-  pos: adjective
-  cefr: C1
-  topic: energy
-  ipa: /səbˈstænʃl/
-  def: Large in amount or importance.
-  vi: đáng kể, lớn
-  examples:
-    - en: Switching gave us substantial savings on storage.
-      vi: Chuyển đổi giúp mình tiết kiệm đáng kể chi phí lưu trữ.
-- slug: t20-comparable-adj
-  lemma: comparable
-  pos: adjective
-  cefr: B2
-  topic: energy
-  ipa: /ˈkɒmpərəbl/
-  def: Similar enough to compare fairly.
-  vi: có thể so sánh, tương đương
-  examples:
-    - en: Run both versions on comparable machines.
-      vi: Chạy cả hai phiên bản trên các máy tương đương.
-- slug: t20-controlled-adj
-  lemma: controlled
-  pos: adjective
-  cefr: B2
-  topic: energy
-  ipa: /kənˈtrəʊld/
-  def: Done carefully so that conditions stay the same.
-  vi: có kiểm soát
-  examples:
-    - en: We need a controlled test on the same machine.
-      vi: Ta cần một phép thử có kiểm soát trên cùng máy.
-- slug: t20-isolate-v
-  lemma: isolate
-  pos: verb
-  cefr: B2
-  topic: energy
-  ipa: /ˈaɪsəleɪt/
-  def: To separate one thing so you can study it alone.
-  vi: cô lập, tách riêng
-  examples:
-    - en: Isolate the function in a small script.
-      vi: Tách riêng hàm đó ra một script nhỏ.
-- slug: t20-variable-n
-  lemma: variable
-  pos: noun
-  cefr: B2
-  topic: energy
-  ipa: /ˈveəriəbl/
-  def: In an experiment, a thing that can change and affect the result.
-  vi: biến số
-  examples:
-    - en: The only variable I changed was the pool size.
-      vi: Biến số duy nhất mình thay đổi là kích thước pool.
-- slug: t20-repeat-v
-  lemma: repeat
-  pos: verb
-  cefr: A2
-  topic: energy
-  ipa: /rɪˈpiːt/
-  def: To do something again.
-  vi: lặp lại
-  examples:
-    - en: Repeat the test five times to be sure.
-      vi: Lặp lại phép thử năm lần cho chắc.
-- slug: t20-variance-n
-  lemma: variance
-  pos: noun
-  cefr: C1
-  topic: energy
-  ipa: /ˈveəriəns/
-  def: How much results differ from each other.
-  vi: độ biến thiên, phương sai
-  examples:
-    - en: The variance between runs is too high to trust.
-      vi: Độ biến thiên giữa các lần chạy quá cao để tin được.
-- slug: t20-outlier-n
-  lemma: outlier
-  pos: noun
-  cefr: C1
-  topic: energy
-  ipa: /ˈaʊtlaɪə/
-  def: A result that is very different from the others.
-  vi: giá trị ngoại lai
-  examples:
-    - en: One outlier took ten seconds because of a GC pause.
-      vi: Một giá trị ngoại lai mất mười giây vì GC tạm dừng.
-- slug: t20-accuracy-n
-  lemma: accuracy
-  pos: noun
-  cefr: B2
-  topic: energy
-  ipa: /ˈækjərəsi/
-  def: How close a measurement is to the true value.
-  vi: độ chính xác
-  examples:
-    - en: The accuracy of this probe is plus or minus 0.5 degrees.
-      vi: Độ chính xác của đầu đo này là cộng trừ 0,5 độ.
-- lemma: precision
-  pos: noun
-  vi: độ chụm của phép đo
-  def: How closely repeated measurements agree with each other.
-  examples:
-    - en: Repeat the benchmark to check measurement precision.
-  slug: t20-precision-n
-  topic: energy
-  cefr: B2
-- slug: t20-granularity-n
-  lemma: granularity
-  pos: noun
-  cefr: C1
-  topic: energy
-  ipa: /ˌɡrænjəˈlærəti/
-  def: How detailed or finely divided the data is.
-  vi: độ chi tiết
-  examples:
-    - en: The provider only gives monthly granularity.
-      vi: Nhà cung cấp chỉ cho độ chi tiết theo tháng.
-- lemma: sampling
-  pos: noun
-  vi: việc lấy mẫu
-  def: Selecting part of a larger set for measurement or analysis.
-  examples:
-    - en: Sampling reduces the volume of tracing data.
-  slug: t20-sampling-n
-  topic: energy
-  cefr: B2
-- slug: t20-proposal-n
-  lemma: proposal
-  pos: noun
-  cefr: B1
-  topic: energy
-  ipa: /prəˈpəʊzl/
-  def: A written plan that asks others to agree to something.
-  vi: đề xuất
-  examples:
-    - en: I wrote a proposal to cut image sizes by half.
-      vi: Mình đã viết một đề xuất giảm một nửa kích thước ảnh.
-- slug: t20-recommendation-n
-  lemma: recommendation
-  pos: noun
-  cefr: B2
-  topic: energy
-  ipa: /ˌrekəmenˈdeɪʃn/
-  def: A suggestion from an app about what you might want to watch, read or buy.
-  vi: gợi ý, đề xuất
-  forms:
-    - recommendations
-    - recommend
-    - recommended
-  examples:
-    - en: The film recommendations on this app are always spot on.
-      vi: Phim gợi ý trên ứng dụng này lúc nào cũng trúng gu.
-- slug: t20-objective-adj
-  lemma: objective
-  pos: adjective
-  cefr: C1
-  topic: energy
-  ipa: /əbˈdʒektɪv/
-  def: Based on facts, not feelings.
-  vi: khách quan
-  examples:
-    - en: Keep the tone objective and stick to the evidence.
-      vi: Giữ giọng văn khách quan và bám vào bằng chứng.
-- slug: t20-scope-n
-  lemma: scope
-  pos: noun
-  cefr: B2
-  topic: energy
-  ipa: /skəʊp/
-  def: The range of sources a measurement includes.
-  vi: phạm vi
-  examples:
-    - en: Supplier emissions are outside the scope of this report.
-      vi: Phát thải của nhà cung cấp nằm ngoài phạm vi báo cáo này.
-- slug: t20-non-goal-n
-  lemma: non-goal
-  pos: noun
-  cefr: C1
-  topic: energy
-  ipa: /ˌnɒn ˈɡəʊl/
-  def: Something a project clearly says it will not try to do.
-  vi: điều không nằm trong mục tiêu
-  examples:
-    - en: Predicting floods is a non-goal for version one.
-      vi: Dự đoán lũ không nằm trong mục tiêu của phiên bản một.
-- slug: t20-hypothesis-n
-  lemma: hypothesis
-  pos: noun
-  cefr: C1
-  topic: energy
-  ipa: /haɪˈpɒθəsɪs/
-  def: An idea that you plan to test.
-  vi: giả thuyết
-  examples:
-    - en: Our hypothesis is that smaller images won't hurt sales.
-      vi: Giả thuyết của mình là ảnh nhỏ hơn không ảnh hưởng doanh số.
-- slug: t20-experiment-n
-  lemma: experiment
-  pos: noun
-  cefr: B1
-  topic: energy
-  ipa: /ɪkˈsperɪmənt/
-  def: A test you do to find out whether an idea is true.
-  vi: thử nghiệm, thí nghiệm
-  examples:
-    - en: Let's run a quick experiment with the old driver.
-      vi: Hãy làm một thử nghiệm nhanh với driver cũ.
-- lemma: baseline value
-  pos: noun
-  vi: giá trị ban đầu để so sánh
-  def: A starting measurement used to assess later changes.
-  examples:
-    - en: Save the baseline value before enabling the cache.
-  slug: t20-baseline-value-n
-  topic: energy
-  cefr: B2
-  kind: collocation
-- lemma: target value
-  pos: noun
-  vi: giá trị mục tiêu
-  def: A measurement that a change aims to achieve.
-  examples:
-    - en: The target value is lower than the current response time.
-  slug: t20-target-value-n
-  topic: energy
-  cefr: B2
-  kind: collocation
-- slug: t20-success-criteria-n
-  lemma: success criteria
-  pos: noun
-  kind: collocation
-  cefr: B2
-  topic: energy
-  ipa: /səkˈses kraɪˌtɪəriə/
-  def: The conditions that show a project has worked.
-  vi: tiêu chí thành công
-  examples:
-    - en: The success criteria must be agreed before we start.
-      vi: Tiêu chí thành công phải được thống nhất trước khi bắt đầu.
-- slug: t20-guardrail-metric-n
-  lemma: guardrail metric
-  pos: noun
-  kind: collocation
-  cefr: C1
-  topic: energy
-  ipa: /ˈɡɑːdreɪl ˈmetrɪk/
-  def: A metric you watch to make sure a test does not cause harm.
-  vi: chỉ số bảo vệ
-  examples:
-    - en: Error rate is our guardrail metric for this test.
-      vi: Tỉ lệ lỗi là chỉ số bảo vệ cho thử nghiệm này.
-- slug: t20-test-plan-n
-  lemma: test plan
-  pos: noun
-  kind: collocation
-  cefr: B1
-  topic: energy
-  ipa: /ˈtest plæn/
-  def: A description of how you checked that a change works.
-  vi: kế hoạch kiểm thử
-  examples:
-    - en: My test plan lists the three cases I tried by hand.
-      vi: Kế hoạch kiểm thử của mình liệt kê ba trường hợp mình thử bằng tay.
-- lemma: load test
-  pos: noun
-  vi: bài kiểm tra dưới tải dự kiến
-  def: A test measuring behaviour under an expected workload.
-  examples:
-    - en: Run a load test before increasing the traffic limit.
-  slug: t20-load-test-n
-  topic: energy
-  cefr: B2
-  kind: collocation
-- lemma: stress test
-  pos: noun
-  vi: kiểm tra vượt tải thông thường
-  def: A test exploring behaviour beyond normal operating limits.
-  examples:
-    - en: Run a stress test to find the system's failure point.
-  slug: t20-stress-test-n
-  topic: energy
-  cefr: B2
-  kind: collocation
-- lemma: soak test
-  pos: noun
-  vi: kiểm tra tải kéo dài
-  def: A test running a workload for an extended period.
-  examples:
-    - en: A soak test can reveal a slow memory leak.
-  slug: t20-soak-test-n
-  topic: energy
-  cefr: B2
-  kind: collocation
-- slug: t20-microbenchmark-n
-  lemma: microbenchmark
-  pos: noun
-  cefr: C1
-  topic: energy
-  ipa: /ˈmaɪkrəʊ ˌbentʃmɑːk/
-  def: A small test that measures the speed of one function or operation.
-  vi: benchmark vi mô
-  examples:
-    - en: The microbenchmark shows the new parser is twice as fast.
-      vi: Benchmark vi mô cho thấy parser mới nhanh gấp đôi.
-- slug: t20-profile-v
-  lemma: profile
-  pos: verb
-  cefr: C1
-  topic: energy
-  ipa: /ˈprəʊfaɪl/
-  def: To measure which parts of a program use the most time or memory.
-  vi: phân tích hiệu năng (profile)
-  examples:
-    - en: Profile the endpoint before guessing.
-      vi: Profile endpoint đó trước khi đoán.
-- lemma: trace
-  pos: noun
-  vi: dấu vết xử lý yêu cầu
-  def: A record of the operations performed for one request.
-  examples:
-    - en: The trace shows which database call caused the delay.
-  slug: t20-trace-n
-  topic: energy
-  cefr: B2
-- slug: t20-log-level-n
-  lemma: log level
-  pos: noun
-  kind: collocation
-  cefr: B2
-  topic: energy
-  ipa: /lɒɡ ˈlevl/
-  def: A label like DEBUG, INFO or ERROR that shows how important a message is.
-  vi: mức log
-  examples:
-    - en: Set the log level to DEBUG for this service.
-      vi: Đặt mức log của service này thành DEBUG.
-- slug: t20-diagnose-v
-  lemma: diagnose
-  pos: verb
-  cefr: B2
-  topic: energy
-  ipa: /ˈdaɪəɡnəʊz/
-  def: To find out what illness a person has by examining them.
-  vi: chẩn đoán
-  forms:
-    - diagnoses
-    - diagnosed
-    - diagnosing
-  examples:
-    - en: He was diagnosed with diabetes at twenty-eight.
-      vi: Anh ấy được chẩn đoán mắc tiểu đường năm hai mươi tám tuổi.
-- slug: t20-working-theory-n
-  lemma: working theory
-  pos: noun
-  kind: collocation
-  cefr: C1
-  topic: energy
-  ipa: /ˈwɜːkɪŋ ˈθɪəri/
-  def: The idea you are using for now to explain a problem, until you test it.
-  vi: giả thuyết tạm thời
-  examples:
-    - en: My working theory is that the cache returns old data.
-      vi: Giả thuyết tạm thời của mình là cache trả về dữ liệu cũ.
-- slug: t20-rule-out-pv
-  lemma: rule out
-  pos: phrasal_verb
-  kind: phrasal
-  cefr: B2
-  topic: energy
-  ipa: /ruːl aʊt/
-  def: To decide that something is not possible or not the cause.
-  vi: loại trừ
-  examples:
-    - en: We can rule out the network because local calls fail too.
-      vi: Ta có thể loại trừ mạng vì gọi local cũng lỗi.
-- slug: t20-corroborate-v
-  lemma: corroborate
-  pos: verb
-  cefr: C1
-  topic: energy
-  ipa: /kəˈrɒbəreɪt/
-  def: To support an idea with more evidence.
-  vi: chứng thực, xác nhận thêm
-  examples:
-    - en: The database metrics corroborate what the logs show.
-      vi: Chỉ số database xác nhận thêm điều log cho thấy.
-- slug: t20-inconclusive-adj
-  lemma: inconclusive
-  pos: adjective
-  cefr: C1
-  topic: energy
-  ipa: /ˌɪnkənˈkluːsɪv/
-  def: Not giving a clear answer.
-  vi: chưa đi đến kết luận
-  examples:
-    - en: The results are inconclusive, so we'll run it longer.
-      vi: Kết quả chưa rõ ràng nên ta sẽ chạy lâu hơn.
-- slug: t20-statistically-significant-adj
-  lemma: statistically significant
-  pos: adjective
-  kind: collocation
-  cefr: C1
-  topic: energy
-  ipa: /stəˈtɪstɪkli sɪɡˈnɪfɪkənt/
-  def: Unlikely to be caused only by chance.
-  vi: có ý nghĩa thống kê
-  examples:
-    - en: The difference is small but statistically significant.
-      vi: Khác biệt nhỏ nhưng có ý nghĩa thống kê.
-- slug: t20-confidence-interval-n
-  lemma: confidence interval
-  pos: noun
-  kind: collocation
-  cefr: C1
-  topic: energy
-  ipa: /ˈkɒnfɪdəns ˈɪntəvl/
-  def: A range that probably contains the true value.
-  vi: khoảng tin cậy
-  examples:
-    - en: The confidence interval still includes zero.
-      vi: Khoảng tin cậy vẫn bao gồm số không.
-- slug: t20-risk-n
-  lemma: risk
-  pos: noun
-  cefr: B1
-  topic: energy
-  ipa: /rɪsk/
-  def: The chance that something bad will happen.
-  vi: rủi ro
-  examples:
-    - en: The main risk is slower pages for some users.
-      vi: Rủi ro chính là trang chậm hơn với một số người dùng.
-- slug: t20-mitigation-n
-  lemma: mitigation
-  pos: noun
-  cefr: C1
-  topic: energy
-  ipa: /ˌmɪtɪˈɡeɪʃn/
-  def: An action that makes a problem less serious.
-  vi: biện pháp giảm thiểu
-  examples:
-    - en: For each risk, write a mitigation next to it.
-      vi: Với mỗi rủi ro, hãy ghi biện pháp giảm thiểu bên cạnh.
-- slug: t20-rollback-n
-  lemma: rollback
-  pos: noun
-  cefr: C1
-  topic: energy
-  ipa: /ˈrəʊlbæk/
-  def: A return to an earlier version after a problem.
-  vi: khôi phục về bản trước
-  examples:
-    - en: If errors rise, we will do a rollback.
-      vi: Nếu lỗi tăng, chúng tôi sẽ khôi phục về bản trước.
-- slug: t20-roll-out-pv
-  lemma: roll out
-  pos: phrasal_verb
-  kind: phrasal
-  cefr: B2
-  topic: energy
-  ipa: /rəʊl aʊt/
-  def: To make something available to more users step by step.
-  vi: triển khai dần
-  examples:
-    - en: If the pilot works, we roll it out to everyone.
-      vi: Nếu thí điểm hiệu quả, bọn mình triển khai cho mọi người.
-- slug: t20-feature-flag-n
-  lemma: feature flag
-  pos: noun
-  kind: collocation
-  cefr: B2
-  topic: energy
-  ipa: /ˈfiːtʃə flæɡ/
-  def: A setting that turns a feature on or off without a new deploy.
-  vi: cờ tính năng
-  examples:
-    - en: Turn off the feature flag for half of the servers.
-      vi: Tắt cờ tính năng trên một nửa số server.
-- lemma: canary
-  pos: noun
-  vi: bản triển khai thử cho nhóm nhỏ
-  def: A release sent to a small group before wider deployment.
-  examples:
-    - en: Watch the canary before sending traffic to all replicas.
-  slug: t20-canary-n
-  topic: energy
-  cefr: B2
-- lemma: staged rollout
-  pos: noun
-  vi: triển khai theo từng giai đoạn
-  def: A release expanded to users in controlled steps.
-  examples:
-    - en: Use a staged rollout to observe the error rate.
-  slug: t20-staged-rollout-n
-  topic: energy
-  cefr: B2
-  kind: collocation
-- slug: t20-postmortem-n
-  lemma: postmortem
-  pos: noun
-  cefr: C1
-  topic: energy
-  ipa: /ˌpəʊstˈmɔːtəm/
-  def: A meeting or document that studies an incident after it ends.
-  vi: buổi/bản phân tích sau sự cố
-  examples:
-    - en: The postmortem is on Friday.
-      vi: Buổi phân tích sau sự cố diễn ra vào thứ Sáu.
-- slug: t20-action-item-n
-  lemma: action item
-  pos: noun
-  kind: collocation
-  cefr: B2
-  topic: energy
-  ipa: /ˈækʃn ˈaɪtəm/
-  def: A task someone agrees to do after a meeting.
-  vi: việc cần làm
-  examples:
-    - en: Each action item needs an owner and a date.
-      vi: Mỗi việc cần làm cần có người phụ trách và hạn chót.
-- slug: t20-review-date-n
-  lemma: review date
-  pos: noun
-  kind: collocation
-  cefr: B1
-  topic: energy
-  ipa: /rɪˈvjuː deɪt/
-  def: A planned date to check a decision again.
-  vi: ngày xem xét lại
-  examples:
-    - en: Set a review date three months from now.
-      vi: Hãy đặt ngày xem xét lại sau ba tháng nữa.
+# Vocabulary by topic: Cloud Resources, Performance & Capacity (unit T20). Original content.
+# Set 1: Compute & memory
+- {
+    slug: processor-n-t20,
+    lemma: "processor",
+    pos: noun,
+    cefr: A2,
+    topic: energy,
+    ipa: "/ˈprəʊsesə/",
+    def: "The part of a computer that carries out instructions.",
+    vi: "bộ xử lý",
+    examples:
+      [
+        {
+          en: "This laptop has a fast processor, so the build finishes quickly.",
+          vi: "Laptop này có bộ xử lý nhanh nên build xong rất nhanh.",
+        },
+      ],
+  }
+- {
+    slug: memory-n,
+    lemma: "memory",
+    pos: noun,
+    cefr: A2,
+    topic: energy,
+    ipa: "/ˈmeməri/",
+    def: "The part of a computer that holds data while programs are running.",
+    vi: "bộ nhớ",
+    examples:
+      [
+        {
+          en: "The app crashed because it ran out of memory.",
+          vi: "Ứng dụng bị sập vì hết bộ nhớ.",
+        },
+      ],
+  }
+- {
+    slug: core-n,
+    lemma: "core",
+    pos: noun,
+    cefr: B1,
+    topic: energy,
+    ipa: "/kɔː/",
+    def: "One of the separate processing units inside a processor.",
+    vi: "nhân (CPU)",
+    examples:
+      [
+        {
+          en: "The server has eight cores, so it can run eight tasks at the same time.",
+          vi: "Máy chủ có tám nhân nên chạy được tám tác vụ cùng lúc.",
+        },
+      ],
+  }
+- {
+    slug: machine-n,
+    lemma: "machine",
+    pos: noun,
+    cefr: A2,
+    topic: energy,
+    ipa: "/məˈʃiːn/",
+    def: "A single computer, real or virtual, that runs your software.",
+    vi: "máy (máy tính)",
+    examples:
+      [
+        {
+          en: "We run the tests on a separate machine.",
+          vi: "Bọn mình chạy test trên một máy riêng.",
+        },
+      ],
+  }
+- {
+    slug: power-n,
+    lemma: "power",
+    pos: noun,
+    cefr: A2,
+    topic: energy,
+    ipa: "/ˈpaʊə/",
+    def: "How much work a computer can do in a given time.",
+    vi: "sức mạnh (xử lý)",
+    examples:
+      [
+        {
+          en: "Training the model needs a lot of computing power.",
+          vi: "Huấn luyện mô hình cần rất nhiều sức mạnh tính toán.",
+        },
+      ],
+  }
+- {
+    slug: heavy-adj,
+    lemma: "heavy",
+    pos: adjective,
+    cefr: A2,
+    topic: energy,
+    ipa: "/ˈhevi/",
+    def: "Needing a lot of resources or effort.",
+    vi: "nặng",
+    examples:
+      [
+        {
+          en: "Video encoding is a heavy job, so we run it at night.",
+          vi: "Mã hoá video là việc nặng nên bọn mình chạy vào ban đêm.",
+        },
+      ],
+  }
+- {
+    slug: light-adj,
+    lemma: "light",
+    pos: adjective,
+    cefr: A2,
+    topic: energy,
+    ipa: "/laɪt/",
+    def: "Needing only a small amount of resources.",
+    vi: "nhẹ",
+    examples:
+      [
+        {
+          en: "The health check is a light request that returns in a few milliseconds.",
+          vi: "Health check là một request nhẹ, trả về trong vài mili giây.",
+        },
+      ],
+  }
+- {
+    slug: consume-v-t20,
+    lemma: "consume",
+    pos: verb,
+    cefr: B1,
+    topic: energy,
+    ipa: "/kənˈsjuːm/",
+    def: "To use up an amount of something, such as memory or time.",
+    vi: "tiêu tốn, sử dụng",
+    examples:
+      [
+        {
+          en: "The export job consumes about 2 GB of memory.",
+          vi: "Job xuất dữ liệu tiêu tốn khoảng 2 GB bộ nhớ.",
+        },
+      ],
+  }
+- {
+    slug: provision-v,
+    lemma: "provision",
+    pos: verb,
+    cefr: B2,
+    topic: energy,
+    ipa: "/prəˈvɪʒn/",
+    def: "To set up a resource such as a server and make it ready to use.",
+    vi: "cấp phát (hạ tầng)",
+    examples:
+      [
+        {
+          en: "Terraform provisions a new server in about two minutes.",
+          vi: "Terraform cấp phát một server mới trong khoảng hai phút.",
+        },
+      ],
+  }
+- {
+    slug: busy-adj,
+    lemma: "busy",
+    pos: adjective,
+    cefr: A2,
+    topic: energy,
+    ipa: "/ˈbɪzi/",
+    def: "Working on something, so not free to take new work right now.",
+    vi: "bận",
+    examples:
+      [
+        {
+          en: "All the workers are busy, so new jobs have to wait.",
+          vi: "Tất cả worker đều bận nên job mới phải chờ.",
+        },
+      ],
+  }
+# Set 2: Storage & I/O
+- {
+    slug: disk-n,
+    lemma: "disk",
+    pos: noun,
+    cefr: A2,
+    topic: energy,
+    ipa: "/dɪsk/",
+    def: "A device that keeps data even when the computer is turned off.",
+    vi: "ổ đĩa",
+    examples:
+      [
+        {
+          en: "The disk on the database server is almost full.",
+          vi: "Ổ đĩa trên máy chủ cơ sở dữ liệu gần đầy.",
+        },
+      ],
+  }
+- {
+    slug: file-system-n,
+    lemma: "file system",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: energy,
+    ipa: "/ˈfaɪl ˌsɪstəm/",
+    def: "The way an operating system organises and stores files on a disk.",
+    vi: "hệ thống tệp",
+    examples:
+      [
+        {
+          en: "The container writes logs to a temporary file system.",
+          vi: "Container ghi log vào một hệ thống tệp tạm.",
+        },
+      ],
+  }
+- {
+    slug: read-v,
+    lemma: "read",
+    pos: verb,
+    cefr: A2,
+    topic: energy,
+    ipa: "/riːd/",
+    def: "To get data from a disk, memory or network.",
+    vi: "đọc (dữ liệu)",
+    examples:
+      [
+        {
+          en: "The service reads the config file when it starts.",
+          vi: "Service đọc file cấu hình khi khởi động.",
+        },
+      ],
+  }
+- {
+    slug: write-v,
+    lemma: "write",
+    pos: verb,
+    cefr: A2,
+    topic: energy,
+    ipa: "/raɪt/",
+    def: "To save data to a disk, memory or network.",
+    vi: "ghi (dữ liệu)",
+    examples:
+      [
+        {
+          en: "Each request writes one row to the audit table.",
+          vi: "Mỗi request ghi một dòng vào bảng audit.",
+        },
+      ],
+  }
+- {
+    slug: save-to-disk-phr,
+    lemma: "save to disk",
+    pos: phrase,
+    kind: phrase,
+    cefr: A2,
+    topic: energy,
+    ipa: "/seɪv tə dɪsk/",
+    def: "To store data permanently so it is not lost when the program stops.",
+    vi: "lưu xuống đĩa",
+    examples:
+      [
+        {
+          en: "The editor saves to disk every thirty seconds.",
+          vi: "Trình soạn thảo lưu xuống đĩa mỗi ba mươi giây.",
+        },
+      ],
+  }
+- {
+    slug: free-space-n,
+    lemma: "free space",
+    pos: noun,
+    kind: collocation,
+    cefr: A2,
+    topic: energy,
+    ipa: "/ˌfriː ˈspeɪs/",
+    def: "The part of a disk that is not being used yet.",
+    vi: "dung lượng trống",
+    examples:
+      [
+        {
+          en: "We only have 5% free space left on the log volume.",
+          vi: "Ổ log chỉ còn 5% dung lượng trống.",
+        },
+      ],
+  }
+- {
+    slug: input-output-n,
+    lemma: "input/output",
+    pos: noun,
+    cefr: B1,
+    topic: energy,
+    ipa: "/ˌɪnpʊt ˈaʊtpʊt/",
+    def: "Moving data into and out of a program, often written I/O.",
+    vi: "nhập/xuất (I/O)",
+    examples:
+      [
+        {
+          en: "The job is slow because it waits on input/output, not on the CPU.",
+          vi: "Job chậm vì phải chờ nhập/xuất chứ không phải do CPU.",
+        },
+      ],
+  }
+- {
+    slug: bottleneck-n,
+    lemma: "bottleneck",
+    pos: noun,
+    cefr: B2,
+    topic: energy,
+    ipa: "/ˈbɒtlnek/",
+    def: "The one part of a system that limits how fast the whole thing can go.",
+    vi: "điểm nghẽn",
+    examples:
+      [
+        {
+          en: "The database is the bottleneck, not the web servers.",
+          vi: "Điểm nghẽn là cơ sở dữ liệu, không phải các web server.",
+        },
+      ],
+  }
+- {
+    slug: sequential-adj,
+    lemma: "sequential",
+    pos: adjective,
+    cefr: B2,
+    topic: energy,
+    ipa: "/sɪˈkwenʃl/",
+    def: "Done in order, one item after the next.",
+    vi: "tuần tự",
+    examples:
+      [
+        {
+          en: "Sequential reads are much faster than random reads on this disk.",
+          vi: "Đọc tuần tự nhanh hơn nhiều so với đọc ngẫu nhiên trên ổ này.",
+        },
+      ],
+  }
+- {
+    slug: index-n,
+    lemma: "index",
+    pos: noun,
+    cefr: B1,
+    topic: energy,
+    ipa: "/ˈɪndeks/",
+    def: "An extra structure in a database that helps find rows quickly.",
+    vi: "chỉ mục",
+    examples:
+      [
+        {
+          en: "Adding an index cut the query time from two seconds to ten milliseconds.",
+          vi: "Thêm chỉ mục giúp thời gian truy vấn giảm từ hai giây xuống mười mili giây.",
+        },
+      ],
+  }
+- {
+    slug: volume-n,
+    lemma: "volume",
+    pos: noun,
+    cefr: B1,
+    topic: energy,
+    ipa: "/ˈvɒljuːm/",
+    def: "A unit of storage that can be attached to a server or container.",
+    vi: "ổ lưu trữ (volume)",
+    examples:
+      [
+        {
+          en: "Mount the volume before you start the database.",
+          vi: "Hãy gắn volume trước khi khởi động cơ sở dữ liệu.",
+        },
+      ],
+  }
+- {
+    slug: persist-v,
+    lemma: "persist",
+    pos: verb,
+    cefr: B2,
+    topic: energy,
+    ipa: "/pəˈsɪst/",
+    def: "To keep data so it is still there after a restart.",
+    vi: "lưu bền",
+    examples:
+      [
+        {
+          en: "Sessions are persisted in Redis, so users stay logged in after a deploy.",
+          vi: "Session được lưu bền trong Redis nên người dùng vẫn đăng nhập sau khi deploy.",
+        },
+      ],
+  }
+# Set 3: Latency & throughput
+- {
+    slug: latency-n-t20,
+    lemma: "latency",
+    pos: noun,
+    cefr: B2,
+    topic: energy,
+    ipa: "/ˈleɪtənsi/",
+    def: "The time between sending a request and getting the first response.",
+    vi: "độ trễ",
+    examples:
+      [
+        {
+          en: "Latency went up after we moved the database to another region.",
+          vi: "Độ trễ tăng lên sau khi bọn mình chuyển cơ sở dữ liệu sang vùng khác.",
+        },
+      ],
+  }
+- {
+    slug: throughput-n-t20,
+    lemma: "throughput",
+    pos: noun,
+    cefr: B2,
+    topic: energy,
+    ipa: "/ˈθruːpʊt/",
+    def: "How much work a system finishes in a period of time.",
+    vi: "thông lượng",
+    examples:
+      [
+        {
+          en: "The new worker doubled our throughput to 400 jobs per minute.",
+          vi: "Worker mới tăng gấp đôi thông lượng lên 400 job mỗi phút.",
+        },
+      ],
+  }
+- {
+    slug: response-time-n-t20,
+    lemma: "response time",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: energy,
+    ipa: "/rɪˈspɒns taɪm/",
+    def: "How long a system takes to answer a request.",
+    vi: "thời gian phản hồi",
+    examples:
+      [
+        {
+          en: "The average response time is under 200 milliseconds.",
+          vi: "Thời gian phản hồi trung bình dưới 200 mili giây.",
+        },
+      ],
+  }
+- {
+    slug: millisecond-n,
+    lemma: "millisecond",
+    pos: noun,
+    cefr: B1,
+    topic: energy,
+    ipa: "/ˈmɪlisekənd/",
+    def: "One thousandth of a second.",
+    vi: "mili giây",
+    examples:
+      [
+        {
+          en: "Each extra network call adds about thirty milliseconds.",
+          vi: "Mỗi lần gọi mạng thêm khoảng ba mươi mili giây.",
+        },
+      ],
+  }
+- {
+    slug: requests-per-second-n,
+    lemma: "requests per second",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: energy,
+    ipa: "/rɪˈkwests pə ˈsekənd/",
+    def: "The number of requests a service handles each second, often written RPS.",
+    vi: "số request mỗi giây",
+    examples:
+      [
+        {
+          en: "At peak time the API serves about 3,000 requests per second.",
+          vi: "Giờ cao điểm API phục vụ khoảng 3.000 request mỗi giây.",
+        },
+      ],
+  }
+- {
+    slug: percentile-n-t20,
+    lemma: "percentile",
+    pos: noun,
+    cefr: B2,
+    topic: energy,
+    ipa: "/pəˈsentaɪl/",
+    def: "A value that a given percentage of measurements fall below, such as p95.",
+    vi: "phân vị",
+    examples:
+      [
+        {
+          en: "The 99th percentile is 1.2 seconds, so a few users wait a long time.",
+          vi: "Phân vị 99 là 1,2 giây, nên một số ít người dùng phải chờ lâu.",
+        },
+      ],
+  }
+- {
+    slug: round-trip-n,
+    lemma: "round trip",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: energy,
+    ipa: "/ˈraʊnd trɪp/",
+    def: "A message going to another system and the answer coming back.",
+    vi: "lượt đi và về",
+    examples:
+      [
+        {
+          en: "The page makes five round trips to the server before it loads.",
+          vi: "Trang thực hiện năm lượt đi và về tới server trước khi tải xong.",
+        },
+      ],
+  }
+- {
+    slug: in-parallel-phr,
+    lemma: "in parallel",
+    pos: phrase,
+    kind: phrase,
+    cefr: B1,
+    topic: energy,
+    ipa: "/ɪn ˈpærəlel/",
+    def: "Happening at the same time instead of one after another.",
+    vi: "song song",
+    examples:
+      [
+        {
+          en: "We fetch the three APIs in parallel to save time.",
+          vi: "Bọn mình gọi ba API song song để tiết kiệm thời gian.",
+        },
+      ],
+  }
+- {
+    slug: concurrency-n,
+    lemma: "concurrency",
+    pos: noun,
+    cefr: C1,
+    topic: energy,
+    ipa: "/kənˈkʌrənsi/",
+    def: "The number of tasks a system works on at the same time.",
+    vi: "mức đồng thời",
+    examples:
+      [
+        {
+          en: "We set the concurrency to ten so the database is not overloaded.",
+          vi: "Bọn mình đặt mức đồng thời là mười để cơ sở dữ liệu không quá tải.",
+        },
+      ],
+  }
+- {
+    slug: tail-latency-n,
+    lemma: "tail latency",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: energy,
+    ipa: "/ˈteɪl ˌleɪtənsi/",
+    def: "The slowest response times, felt by a small share of users.",
+    vi: "độ trễ đuôi",
+    examples:
+      [
+        {
+          en: "Retries made the average look fine but hurt tail latency.",
+          vi: "Retry làm số trung bình trông ổn nhưng lại làm độ trễ đuôi tệ hơn.",
+        },
+      ],
+  }
+- {
+    slug: speed-up-pv,
+    lemma: "speed up",
+    pos: verb,
+    kind: phrasal,
+    cefr: A2,
+    topic: energy,
+    ipa: "/ˌspiːd ˈʌp/",
+    def: "To make something go faster.",
+    vi: "tăng tốc",
+    examples:
+      [
+        {
+          en: "Compressing the images will speed up the home page.",
+          vi: "Nén ảnh sẽ giúp tăng tốc trang chủ.",
+        },
+      ],
+  }
+- {
+    slug: slow-down-pv,
+    lemma: "slow down",
+    pos: verb,
+    kind: phrasal,
+    cefr: A2,
+    topic: energy,
+    ipa: "/ˌsləʊ ˈdaʊn/",
+    def: "To become slower, or to make something slower.",
+    vi: "chậm lại",
+    examples:
+      [
+        {
+          en: "The site slows down every evening when traffic grows.",
+          vi: "Trang web chậm lại mỗi tối khi lượng truy cập tăng.",
+        },
+      ],
+  }
+- {
+    slug: under-load-phr-t20,
+    lemma: "under load",
+    pos: phrase,
+    kind: phrase,
+    cefr: B2,
+    topic: energy,
+    ipa: "/ˌʌndə ˈləʊd/",
+    def: "While the system is handling a lot of traffic or work.",
+    vi: "khi chịu tải",
+    examples:
+      [
+        {
+          en: "The endpoint is fast in tests but times out under load.",
+          vi: "Endpoint chạy nhanh khi test nhưng bị timeout khi chịu tải.",
+        },
+      ],
+  }
+- {
+    slug: measure-v-t20,
+    lemma: "measure",
+    pos: verb,
+    cefr: B1,
+    topic: energy,
+    ipa: "/ˈmeʒə/",
+    def: "To find the exact size or amount of something using a tool.",
+    vi: "đo",
+    examples:
+      [
+        {
+          en: "Measure the response time before and after the change.",
+          vi: "Hãy đo thời gian phản hồi trước và sau khi thay đổi.",
+        },
+      ],
+  }
+# Set 4: Caching & reuse
+- {
+    slug: cache-n,
+    lemma: "cache",
+    pos: noun,
+    cefr: B1,
+    topic: energy,
+    ipa: "/kæʃ/",
+    def: "A fast store that keeps copies of data so it can be used again quickly.",
+    vi: "bộ nhớ đệm (cache)",
+    examples:
+      [
+        {
+          en: "Product pages are served from the cache most of the time.",
+          vi: "Hầu hết thời gian các trang sản phẩm được phục vụ từ cache.",
+        },
+      ],
+  }
+- {
+    slug: cache-hit-n,
+    lemma: "cache hit",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: energy,
+    ipa: "/ˈkæʃ hɪt/",
+    def: "A request where the data is found in the cache.",
+    vi: "trúng cache",
+    examples:
+      [
+        {
+          en: "A cache hit returns in under a millisecond.",
+          vi: "Một lần trúng cache trả về chưa đến một mili giây.",
+        },
+      ],
+  }
+- {
+    slug: cache-miss-n,
+    lemma: "cache miss",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: energy,
+    ipa: "/ˈkæʃ mɪs/",
+    def: "A request where the data is not in the cache and must be fetched.",
+    vi: "trượt cache",
+    examples:
+      [
+        {
+          en: "Every cache miss goes to the database.",
+          vi: "Mỗi lần trượt cache đều phải xuống cơ sở dữ liệu.",
+        },
+      ],
+  }
+- {
+    slug: hit-rate-n,
+    lemma: "hit rate",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: energy,
+    ipa: "/ˈhɪt reɪt/",
+    def: "The share of requests that are answered from the cache.",
+    vi: "tỉ lệ trúng",
+    examples:
+      [
+        {
+          en: "Our hit rate dropped to 60% after the new release.",
+          vi: "Tỉ lệ trúng cache giảm còn 60% sau bản phát hành mới.",
+        },
+      ],
+  }
+- {
+    slug: expire-v-t20,
+    lemma: "expire",
+    pos: verb,
+    cefr: B1,
+    topic: energy,
+    ipa: "/ɪkˈspaɪə/",
+    def: "To stop being valid after a set time.",
+    vi: "hết hạn",
+    examples:
+      [
+        {
+          en: "Cached prices expire after five minutes.",
+          vi: "Giá trong cache hết hạn sau năm phút.",
+        },
+      ],
+  }
+- {
+    slug: time-to-live-n,
+    lemma: "time to live",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: energy,
+    ipa: "/ˌtaɪm tə ˈlɪv/",
+    def: "How long an item may stay in a cache, often written TTL.",
+    vi: "thời gian sống (TTL)",
+    examples:
+      [
+        {
+          en: "We set the time to live to one hour for user profiles.",
+          vi: "Bọn mình đặt thời gian sống là một giờ cho hồ sơ người dùng.",
+        },
+      ],
+  }
+- {
+    slug: invalidate-v,
+    lemma: "invalidate",
+    pos: verb,
+    cefr: C1,
+    topic: energy,
+    ipa: "/ɪnˈvælɪdeɪt/",
+    def: "To mark cached data as no longer correct so it is fetched again.",
+    vi: "làm mất hiệu lực",
+    examples:
+      [
+        {
+          en: "When a user edits a post, we invalidate its cache entry.",
+          vi: "Khi người dùng sửa bài, bọn mình làm mất hiệu lực mục cache của bài đó.",
+        },
+      ],
+  }
+- {
+    slug: stale-adj,
+    lemma: "stale",
+    pos: adjective,
+    cefr: B2,
+    topic: energy,
+    ipa: "/steɪl/",
+    def: "Old and no longer matching the real, current data.",
+    vi: "cũ, lỗi thời (dữ liệu)",
+    examples:
+      [
+        {
+          en: "Users saw stale prices because the cache was not cleared.",
+          vi: "Người dùng thấy giá cũ vì cache chưa được xoá.",
+        },
+      ],
+  }
+- {
+    slug: fresh-adj,
+    lemma: "fresh",
+    pos: adjective,
+    cefr: B1,
+    topic: energy,
+    ipa: "/freʃ/",
+    def: "Up to date, just loaded from the real source.",
+    vi: "mới, cập nhật",
+    examples:
+      [
+        {
+          en: "The dashboard always shows fresh data from the API.",
+          vi: "Dashboard luôn hiển thị dữ liệu mới từ API.",
+        },
+      ],
+  }
+- {
+    slug: warm-up-pv,
+    lemma: "warm up",
+    pos: verb,
+    kind: phrasal,
+    cefr: B2,
+    topic: energy,
+    ipa: "/ˌwɔːm ˈʌp/",
+    def: "To fill a cache before real traffic arrives.",
+    vi: "làm nóng (cache)",
+    examples:
+      [
+        {
+          en: "We warm up the cache right after each deploy.",
+          vi: "Bọn mình làm nóng cache ngay sau mỗi lần deploy.",
+        },
+      ],
+  }
+- {
+    slug: reuse-v,
+    lemma: "reuse",
+    pos: verb,
+    cefr: B1,
+    topic: energy,
+    ipa: "/ˌriːˈjuːz/",
+    def: "To use something again instead of creating it a second time.",
+    vi: "tái sử dụng",
+    examples:
+      [
+        {
+          en: "The client reuses the same connection for many requests.",
+          vi: "Client tái sử dụng cùng một kết nối cho nhiều request.",
+        },
+      ],
+  }
+- {
+    slug: precompute-v,
+    lemma: "precompute",
+    pos: verb,
+    cefr: C1,
+    topic: energy,
+    ipa: "/ˌpriːkəmˈpjuːt/",
+    def: "To calculate a result in advance so it is ready when needed.",
+    vi: "tính trước",
+    examples:
+      [
+        {
+          en: "We precompute the monthly report every night.",
+          vi: "Bọn mình tính trước báo cáo tháng vào mỗi đêm.",
+        },
+      ],
+  }
+- {
+    slug: cdn-n,
+    lemma: "content delivery network",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: energy,
+    ipa: "/ˈkɒntent dɪˈlɪvəri ˈnetwɜːk/",
+    def: "A group of servers around the world that keep copies of files close to users, often called a CDN.",
+    vi: "mạng phân phối nội dung (CDN)",
+    examples:
+      [
+        {
+          en: "Images load faster since we moved them to a content delivery network.",
+          vi: "Ảnh tải nhanh hơn từ khi bọn mình đưa chúng lên mạng phân phối nội dung.",
+        },
+      ],
+  }
+- {
+    slug: cache-key-n,
+    lemma: "cache key",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: energy,
+    ipa: "/ˈkæʃ kiː/",
+    def: "The value used to find a stored item in a cache.",
+    vi: "khoá cache",
+    examples:
+      [
+        {
+          en: "Include the language in the cache key, or users will get the wrong page.",
+          vi: "Hãy đưa ngôn ngữ vào khoá cache, nếu không người dùng sẽ nhận sai trang.",
+        },
+      ],
+  }
+- {
+    slug: evict-v,
+    lemma: "evict",
+    pos: verb,
+    cefr: C1,
+    topic: energy,
+    ipa: "/ɪˈvɪkt/",
+    def: "To remove an item from a cache to make room for new ones.",
+    vi: "loại bỏ (khỏi cache)",
+    examples:
+      [
+        {
+          en: "When memory is full, Redis evicts the least used keys.",
+          vi: "Khi bộ nhớ đầy, Redis loại bỏ các key ít dùng nhất.",
+        },
+      ],
+  }
+- {
+    slug: on-demand-adj-t20,
+    lemma: "on-demand",
+    pos: adjective,
+    cefr: B2,
+    topic: energy,
+    ipa: "/ˌɒn dɪˈmɑːnd/",
+    def: "Created or loaded only at the moment someone asks for it.",
+    vi: "theo yêu cầu",
+    examples:
+      [
+        {
+          en: "Thumbnails are generated on-demand and then cached.",
+          vi: "Ảnh thu nhỏ được tạo theo yêu cầu rồi lưu vào cache.",
+        },
+      ],
+  }
+# Set 5: Scaling & load
+- {
+    slug: load-n,
+    lemma: "load",
+    pos: noun,
+    cefr: B1,
+    topic: energy,
+    ipa: "/ləʊd/",
+    def: "The amount of work or traffic a system is handling.",
+    vi: "tải",
+    examples:
+      [
+        {
+          en: "The load on the API doubles during the lunch break.",
+          vi: "Tải trên API tăng gấp đôi vào giờ nghỉ trưa.",
+        },
+      ],
+  }
+- {
+    slug: traffic-n,
+    lemma: "traffic",
+    pos: noun,
+    cefr: A2,
+    topic: energy,
+    ipa: "/ˈtræfɪk/",
+    def: "The number of users or requests coming to a system.",
+    vi: "lưu lượng truy cập",
+    examples:
+      [
+        {
+          en: "We expect a lot of traffic during the sale.",
+          vi: "Bọn mình dự kiến lưu lượng truy cập rất lớn trong đợt giảm giá.",
+        },
+      ],
+  }
+- {
+    slug: spike-n-t20,
+    lemma: "spike",
+    pos: noun,
+    cefr: B2,
+    topic: energy,
+    ipa: "/spaɪk/",
+    def: "A sudden, short increase in a value.",
+    vi: "đột biến",
+    examples:
+      [
+        {
+          en: "A marketing email caused a spike in sign-ups.",
+          vi: "Một email marketing gây ra đột biến lượt đăng ký.",
+        },
+      ],
+  }
+- {
+    slug: peak-n,
+    lemma: "peak",
+    pos: noun,
+    cefr: B1,
+    topic: energy,
+    ipa: "/piːk/",
+    def: "The time when something is at its highest level.",
+    vi: "cao điểm",
+    examples:
+      [
+        {
+          en: "Our peak is around 8 p.m. on weekdays.",
+          vi: "Giờ cao điểm của bọn mình là khoảng 8 giờ tối các ngày trong tuần.",
+        },
+      ],
+  }
+- {
+    slug: scale-out-pv,
+    lemma: "scale out",
+    pos: verb,
+    kind: phrasal,
+    cefr: B2,
+    topic: energy,
+    ipa: "/ˌskeɪl ˈaʊt/",
+    def: "To add more machines so the work is shared between them.",
+    vi: "mở rộng theo chiều ngang",
+    examples:
+      [
+        {
+          en: "We scale out to twenty pods before big events.",
+          vi: "Bọn mình mở rộng lên hai mươi pod trước các sự kiện lớn.",
+        },
+      ],
+  }
+- {
+    slug: scale-up-pv,
+    lemma: "scale up",
+    pos: verb,
+    kind: phrasal,
+    cefr: B2,
+    topic: energy,
+    ipa: "/ˌskeɪl ˈʌp/",
+    def: "To give one machine more CPU or memory.",
+    vi: "nâng cấp máy (theo chiều dọc)",
+    examples:
+      [
+        {
+          en: "Scaling up the database is quicker than splitting it.",
+          vi: "Nâng cấp máy cơ sở dữ liệu nhanh hơn là tách nó ra.",
+        },
+      ],
+  }
+- {
+    slug: autoscaling-n-t20,
+    lemma: "autoscaling",
+    pos: noun,
+    cefr: B2,
+    topic: energy,
+    ipa: "/ˈɔːtəʊˌskeɪlɪŋ/",
+    def: "Adding or removing servers automatically based on load.",
+    vi: "tự động co giãn",
+    examples:
+      [
+        {
+          en: "Autoscaling added six instances when the traffic arrived.",
+          vi: "Tự động co giãn đã thêm sáu instance khi lượng truy cập đến.",
+        },
+      ],
+  }
+- {
+    slug: instance-n,
+    lemma: "instance",
+    pos: noun,
+    cefr: B1,
+    topic: energy,
+    ipa: "/ˈɪnstəns/",
+    def: "One running copy of a server or service.",
+    vi: "bản chạy (instance)",
+    examples:
+      [
+        {
+          en: "Each instance handles about 500 requests per second.",
+          vi: "Mỗi instance xử lý khoảng 500 request mỗi giây.",
+        },
+      ],
+  }
+- {
+    slug: load-balancer-n,
+    lemma: "load balancer",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: energy,
+    ipa: "/ˈləʊd ˌbælənsə/",
+    def: "A component that shares incoming requests between several servers.",
+    vi: "bộ cân bằng tải",
+    examples:
+      [
+        {
+          en: "The load balancer stops sending traffic to unhealthy servers.",
+          vi: "Bộ cân bằng tải ngừng gửi lưu lượng tới các server không khoẻ.",
+        },
+      ],
+  }
+- {
+    slug: horizontal-adj,
+    lemma: "horizontal",
+    pos: adjective,
+    cefr: B2,
+    topic: energy,
+    ipa: "/ˌhɒrɪˈzɒntl/",
+    def: "Of scaling: done by adding more machines rather than bigger ones.",
+    vi: "theo chiều ngang",
+    examples:
+      [
+        {
+          en: "Stateless services are easy to grow in a horizontal way.",
+          vi: "Các service không trạng thái dễ mở rộng theo chiều ngang.",
+        },
+      ],
+  }
+- {
+    slug: stateless-adj,
+    lemma: "stateless",
+    pos: adjective,
+    cefr: C1,
+    topic: energy,
+    ipa: "/ˈsteɪtləs/",
+    def: "Not keeping any user data between requests on the server itself.",
+    vi: "không trạng thái",
+    examples:
+      [
+        {
+          en: "Because the API is stateless, any instance can answer any request.",
+          vi: "Vì API không trạng thái nên instance nào cũng trả lời được mọi request.",
+        },
+      ],
+  }
+- {
+    slug: overload-v,
+    lemma: "overload",
+    pos: verb,
+    cefr: B2,
+    topic: energy,
+    ipa: "/ˌəʊvəˈləʊd/",
+    def: "To give a system more work than it can handle.",
+    vi: "làm quá tải",
+    examples:
+      [
+        {
+          en: "Too many retries can overload the payment service.",
+          vi: "Quá nhiều lần retry có thể làm quá tải dịch vụ thanh toán.",
+        },
+      ],
+  }
+- {
+    slug: handle-v,
+    lemma: "handle",
+    pos: verb,
+    cefr: B1,
+    topic: energy,
+    ipa: "/ˈhændl/",
+    def: "To deal with a request or an amount of work successfully.",
+    vi: "xử lý, đáp ứng",
+    examples:
+      [
+        {
+          en: "Can the current setup handle ten times more users?",
+          vi: "Hệ thống hiện tại có đáp ứng được gấp mười lần người dùng không?",
+        },
+      ],
+  }
+- {
+    slug: load-test-n,
+    lemma: "load test",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: energy,
+    ipa: "/ˈləʊd test/",
+    def: "A test that sends heavy traffic to see how a system behaves.",
+    vi: "kiểm thử tải",
+    examples:
+      [
+        {
+          en: "The load test showed errors starting at 2,000 users.",
+          vi: "Kiểm thử tải cho thấy lỗi bắt đầu xuất hiện ở mức 2.000 người dùng.",
+        },
+      ],
+  }
+- {
+    slug: ceiling-n,
+    lemma: "ceiling",
+    pos: noun,
+    cefr: B2,
+    topic: energy,
+    ipa: "/ˈsiːlɪŋ/",
+    def: "The highest level that something can reach.",
+    vi: "mức trần",
+    examples:
+      [
+        {
+          en: "Right now our ceiling is about 5,000 requests per second.",
+          vi: "Hiện tại mức trần của bọn mình là khoảng 5.000 request mỗi giây.",
+        },
+      ],
+  }
+- {
+    slug: headroom-n-t20,
+    lemma: "headroom",
+    pos: noun,
+    cefr: C1,
+    topic: energy,
+    ipa: "/ˈhedruːm/",
+    def: "Spare capacity left before a system reaches its limit.",
+    vi: "khoảng dư",
+    examples:
+      [
+        {
+          en: "We keep 30% headroom for unexpected traffic.",
+          vi: "Bọn mình giữ 30% khoảng dư cho lưu lượng bất ngờ.",
+        },
+      ],
+  }
+- {
+    slug: shard-v,
+    lemma: "shard",
+    pos: verb,
+    cefr: C1,
+    topic: energy,
+    ipa: "/ʃɑːd/",
+    def: "To split a database into parts stored on different servers.",
+    vi: "phân mảnh (sharding)",
+    examples:
+      [
+        {
+          en: "We plan to shard the orders table by country.",
+          vi: "Bọn mình định phân mảnh bảng orders theo quốc gia.",
+        },
+      ],
+  }
+- {
+    slug: replica-n,
+    lemma: "replica",
+    pos: noun,
+    cefr: C1,
+    topic: energy,
+    ipa: "/ˈreplɪkə/",
+    def: "A copy of a database that stays in sync with the main one.",
+    vi: "bản sao",
+    examples:
+      [
+        {
+          en: "Reports read from a replica so they don't slow down the main database.",
+          vi: "Báo cáo đọc từ bản sao để không làm chậm cơ sở dữ liệu chính.",
+        },
+      ],
+  }
+# Set 6: Queues & background jobs
+- {
+    slug: queue-n,
+    lemma: "queue",
+    pos: noun,
+    cefr: B1,
+    topic: energy,
+    ipa: "/kjuː/",
+    def: "A list of jobs or messages waiting to be processed in order.",
+    vi: "hàng đợi",
+    examples:
+      [
+        {
+          en: "New emails go into a queue and are sent one by one.",
+          vi: "Email mới được đưa vào hàng đợi và gửi lần lượt.",
+        },
+      ],
+  }
+- {
+    slug: background-job-n,
+    lemma: "background job",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: energy,
+    ipa: "/ˈbækɡraʊnd dʒɒb/",
+    def: "Work that runs separately so the user does not have to wait for it.",
+    vi: "tác vụ nền",
+    examples:
+      [
+        {
+          en: "Resizing the photo is a background job.",
+          vi: "Đổi kích thước ảnh là một tác vụ nền.",
+        },
+      ],
+  }
+- {
+    slug: worker-n,
+    lemma: "worker",
+    pos: noun,
+    cefr: B1,
+    topic: energy,
+    ipa: "/ˈwɜːkə/",
+    def: "A process that takes jobs from a queue and runs them.",
+    vi: "worker (tiến trình xử lý)",
+    examples:
+      [
+        {
+          en: "We added two more workers to clear the queue faster.",
+          vi: "Bọn mình thêm hai worker nữa để xử lý hết hàng đợi nhanh hơn.",
+        },
+      ],
+  }
+- {
+    slug: pending-adj,
+    lemma: "pending",
+    pos: adjective,
+    cefr: B1,
+    topic: energy,
+    ipa: "/ˈpendɪŋ/",
+    def: "Waiting to be done or decided.",
+    vi: "đang chờ",
+    examples:
+      [
+        {
+          en: "The order status stays pending until the payment is confirmed.",
+          vi: "Trạng thái đơn hàng vẫn là đang chờ cho đến khi thanh toán được xác nhận.",
+        },
+      ],
+  }
+- {
+    slug: in-progress-phr,
+    lemma: "in progress",
+    pos: phrase,
+    kind: phrase,
+    cefr: A2,
+    topic: energy,
+    ipa: "/ɪn ˈprəʊɡres/",
+    def: "Started but not finished yet.",
+    vi: "đang xử lý",
+    examples:
+      [
+        {
+          en: "Your export is in progress; we'll email you the file.",
+          vi: "Bản xuất của bạn đang được xử lý; bọn mình sẽ gửi file qua email.",
+        },
+      ],
+  }
+- {
+    slug: enqueue-v,
+    lemma: "enqueue",
+    pos: verb,
+    cefr: C1,
+    topic: energy,
+    ipa: "/ɪnˈkjuː/",
+    def: "To add a job or message to the end of a queue.",
+    vi: "đưa vào hàng đợi",
+    examples:
+      [
+        {
+          en: "The API enqueues the job and returns at once.",
+          vi: "API đưa job vào hàng đợi rồi trả về ngay.",
+        },
+      ],
+  }
+- {
+    slug: backlog-n,
+    lemma: "backlog",
+    pos: noun,
+    cefr: B2,
+    topic: energy,
+    ipa: "/ˈbæklɒɡ/",
+    def: "Work that has built up and is still waiting to be done.",
+    vi: "việc tồn đọng",
+    examples:
+      [
+        {
+          en: "After the outage we had a backlog of 50,000 messages.",
+          vi: "Sau sự cố bọn mình có 50.000 tin nhắn tồn đọng.",
+        },
+      ],
+  }
+- {
+    slug: retry-v,
+    lemma: "retry",
+    pos: verb,
+    cefr: B1,
+    topic: energy,
+    ipa: "/ˌriːˈtraɪ/",
+    def: "To try an action again after it has failed.",
+    vi: "thử lại",
+    examples:
+      [
+        {
+          en: "The worker retries a failed job three times.",
+          vi: "Worker thử lại một job thất bại ba lần.",
+        },
+      ],
+  }
+- {
+    slug: schedule-v-t20,
+    lemma: "schedule",
+    pos: verb,
+    cefr: B1,
+    topic: energy,
+    ipa: "/ˈʃedjuːl/",
+    def: "To plan a task to run at a certain time.",
+    vi: "lên lịch",
+    examples:
+      [
+        {
+          en: "The clean-up script is scheduled for 2 a.m.",
+          vi: "Script dọn dẹp được lên lịch chạy lúc 2 giờ sáng.",
+        },
+      ],
+  }
+- {
+    slug: cron-job-n,
+    lemma: "cron job",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: energy,
+    ipa: "/ˈkrɒn dʒɒb/",
+    def: "A task that a server runs automatically at fixed times.",
+    vi: "tác vụ định kỳ (cron)",
+    examples:
+      [
+        {
+          en: "A cron job deletes old logs every Sunday.",
+          vi: "Một cron job xoá log cũ vào mỗi Chủ nhật.",
+        },
+      ],
+  }
+- {
+    slug: asynchronous-adj-t20,
+    lemma: "asynchronous",
+    pos: adjective,
+    cefr: C1,
+    topic: energy,
+    ipa: "/eɪˈsɪŋkrənəs/",
+    def: "Not waiting for a task to finish before moving on.",
+    vi: "bất đồng bộ",
+    examples:
+      [
+        {
+          en: "Sending the invoice is asynchronous, so checkout stays fast.",
+          vi: "Việc gửi hoá đơn là bất đồng bộ nên thanh toán vẫn nhanh.",
+        },
+      ],
+  }
+- {
+    slug: dead-letter-queue-n,
+    lemma: "dead-letter queue",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: energy,
+    ipa: "/ˌded ˈletə kjuː/",
+    def: "A separate queue for messages that failed too many times.",
+    vi: "hàng đợi thư chết",
+    examples:
+      [
+        {
+          en: "Check the dead-letter queue to see why those jobs failed.",
+          vi: "Hãy kiểm tra hàng đợi thư chết để xem vì sao các job đó thất bại.",
+        },
+      ],
+  }
+- {
+    slug: notify-v,
+    lemma: "notify",
+    pos: verb,
+    cefr: B1,
+    topic: energy,
+    ipa: "/ˈnəʊtɪfaɪ/",
+    def: "To tell someone officially that something has happened.",
+    vi: "thông báo",
+    examples:
+      [
+        {
+          en: "We notify the user when the report is ready.",
+          vi: "Bọn mình thông báo cho người dùng khi báo cáo đã sẵn sàng.",
+        },
+      ],
+  }
+- {
+    slug: eventually-adv,
+    lemma: "eventually",
+    pos: adverb,
+    cefr: B1,
+    topic: energy,
+    ipa: "/ɪˈventʃuəli/",
+    def: "At a later time, after a delay.",
+    vi: "rốt cuộc, sau cùng",
+    examples:
+      [
+        {
+          en: "The change eventually shows up in the search results.",
+          vi: "Thay đổi rốt cuộc cũng hiện ra trong kết quả tìm kiếm.",
+        },
+      ],
+  }
+- {
+    slug: drain-v,
+    lemma: "drain",
+    pos: verb,
+    cefr: C1,
+    topic: energy,
+    ipa: "/dreɪn/",
+    def: "To finish all waiting work so a queue becomes empty.",
+    vi: "xử lý cạn (hàng đợi)",
+    examples:
+      [
+        {
+          en: "Let the workers drain the queue before you stop them.",
+          vi: "Hãy để các worker xử lý cạn hàng đợi trước khi dừng chúng.",
+        },
+      ],
+  }
+- {
+    slug: job-status-n,
+    lemma: "job status",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: energy,
+    ipa: "/ˈdʒɒb ˌsteɪtəs/",
+    def: "Information about whether a job is waiting, running, done or failed.",
+    vi: "trạng thái tác vụ",
+    examples:
+      [
+        {
+          en: "The page polls the job status every few seconds.",
+          vi: "Trang kiểm tra trạng thái tác vụ vài giây một lần.",
+        },
+      ],
+  }
+- {
+    slug: idempotent-adj,
+    lemma: "idempotent",
+    pos: adjective,
+    cefr: C1,
+    topic: energy,
+    ipa: "/ˌaɪdemˈpəʊtənt/",
+    def: "Giving the same result even if it runs more than once.",
+    vi: "lũy đẳng",
+    examples:
+      [
+        {
+          en: "The handler must be idempotent because messages can arrive twice.",
+          vi: "Handler phải lũy đẳng vì tin nhắn có thể đến hai lần.",
+        },
+      ],
+  }
+- {
+    slug: time-out-pv,
+    lemma: "time out",
+    pos: verb,
+    kind: phrasal,
+    cefr: B2,
+    topic: energy,
+    ipa: "/ˌtaɪm ˈaʊt/",
+    def: "To stop because something took longer than the allowed time.",
+    vi: "quá thời gian chờ",
+    examples:
+      [
+        {
+          en: "The job timed out after ten minutes.",
+          vi: "Job bị quá thời gian chờ sau mười phút.",
+        },
+      ],
+  }
+- {
+    slug: delay-n-t20,
+    lemma: "delay",
+    pos: noun,
+    cefr: A2,
+    topic: energy,
+    ipa: "/dɪˈleɪ/",
+    def: "A period of extra waiting before something happens.",
+    vi: "sự chậm trễ",
+    examples:
+      [
+        {
+          en: "There may be a short delay before your points appear.",
+          vi: "Có thể có chút chậm trễ trước khi điểm của bạn hiện ra.",
+        },
+      ],
+  }
+- {
+    slug: batch-n,
+    lemma: "batch",
+    pos: noun,
+    cefr: B2,
+    topic: energy,
+    ipa: "/bætʃ/",
+    def: "A group of items processed together at one time.",
+    vi: "lô",
+    examples:
+      [
+        {
+          en: "We send notifications in batches of 1,000.",
+          vi: "Bọn mình gửi thông báo theo lô 1.000 cái.",
+        },
+      ],
+  }
+# Set 7: Resource limits & quotas
+- {
+    slug: limit-n,
+    lemma: "limit",
+    pos: noun,
+    cefr: A2,
+    topic: energy,
+    ipa: "/ˈlɪmɪt/",
+    def: "The largest amount that is allowed or possible.",
+    vi: "giới hạn",
+    examples:
+      [
+        {
+          en: "Each container has a memory limit of 512 MB.",
+          vi: "Mỗi container có giới hạn bộ nhớ 512 MB.",
+        },
+      ],
+  }
+- {
+    slug: quota-n-t20,
+    lemma: "quota",
+    pos: noun,
+    cefr: B2,
+    topic: energy,
+    ipa: "/ˈkwəʊtə/",
+    def: "A fixed amount of a resource that one user or project may use.",
+    vi: "hạn mức",
+    examples:
+      [
+        {
+          en: "We used our whole API quota by noon.",
+          vi: "Bọn mình đã dùng hết hạn mức API trước buổi trưa.",
+        },
+      ],
+  }
+- {
+    slug: rate-limit-n-t20,
+    lemma: "rate limit",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: energy,
+    ipa: "/ˈreɪt ˌlɪmɪt/",
+    def: "A rule about how many requests a client may send in a period of time.",
+    vi: "giới hạn tần suất",
+    examples:
+      [
+        {
+          en: "The partner API has a rate limit of 100 calls per minute.",
+          vi: "API của đối tác có giới hạn tần suất 100 lần gọi mỗi phút.",
+        },
+      ],
+  }
+- {
+    slug: exceed-v-t20,
+    lemma: "exceed",
+    pos: verb,
+    cefr: B2,
+    topic: energy,
+    ipa: "/ɪkˈsiːd/",
+    def: "To go above a limit or amount.",
+    vi: "vượt quá",
+    examples:
+      [
+        {
+          en: "Requests that exceed the size limit are rejected.",
+          vi: "Các request vượt quá giới hạn kích thước sẽ bị từ chối.",
+        },
+      ],
+  }
+- {
+    slug: hit-the-limit-phr,
+    lemma: "hit the limit",
+    pos: phrase,
+    kind: phrase,
+    cefr: B1,
+    topic: energy,
+    ipa: "/hɪt ðə ˈlɪmɪt/",
+    def: "To reach the highest amount allowed.",
+    vi: "chạm giới hạn",
+    examples:
+      [
+        {
+          en: "We hit the limit on open connections during the sale.",
+          vi: "Bọn mình chạm giới hạn số kết nối mở trong đợt giảm giá.",
+        },
+      ],
+  }
+- {
+    slug: run-out-of-phr,
+    lemma: "run out of",
+    pos: verb,
+    kind: phrasal,
+    cefr: A2,
+    topic: energy,
+    ipa: "/ˌrʌn ˈaʊt əv/",
+    def: "To use all of something so none is left.",
+    vi: "hết, cạn",
+    examples:
+      [{ en: "The build server ran out of disk space.", vi: "Máy build bị hết dung lượng đĩa." }],
+  }
+- {
+    slug: throttle-v-t20,
+    lemma: "throttle",
+    pos: verb,
+    cefr: C1,
+    topic: energy,
+    ipa: "/ˈθrɒtl/",
+    def: "To slow down or block requests on purpose to protect a system.",
+    vi: "bóp băng thông, hạn chế tốc độ",
+    examples:
+      [
+        {
+          en: "The provider throttles us when we send too many emails.",
+          vi: "Nhà cung cấp hạn chế tốc độ khi bọn mình gửi quá nhiều email.",
+        },
+      ],
+  }
+- {
+    slug: reject-v,
+    lemma: "reject",
+    pos: verb,
+    cefr: B1,
+    topic: energy,
+    ipa: "/rɪˈdʒekt/",
+    def: "To refuse to accept something.",
+    vi: "từ chối",
+    examples:
+      [
+        {
+          en: "The server rejects files larger than 10 MB.",
+          vi: "Server từ chối các file lớn hơn 10 MB.",
+        },
+      ],
+  }
+- {
+    slug: connection-pool-n,
+    lemma: "connection pool",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: energy,
+    ipa: "/kəˈnekʃn puːl/",
+    def: "A set of open database connections that requests share.",
+    vi: "nhóm kết nối",
+    examples:
+      [
+        {
+          en: "The connection pool was full, so new requests had to wait.",
+          vi: "Nhóm kết nối đã đầy nên các request mới phải chờ.",
+        },
+      ],
+  }
+- {
+    slug: out-of-memory-phr,
+    lemma: "out of memory",
+    pos: phrase,
+    kind: phrase,
+    cefr: B1,
+    topic: energy,
+    ipa: "/ˌaʊt əv ˈmeməri/",
+    def: "Having no memory left, which often stops a program.",
+    vi: "hết bộ nhớ",
+    examples:
+      [{ en: "The pod was killed because it was out of memory.", vi: "Pod bị tắt vì hết bộ nhớ." }],
+  }
+- {
+    slug: raise-v,
+    lemma: "raise",
+    pos: verb,
+    cefr: B1,
+    topic: energy,
+    ipa: "/reɪz/",
+    def: "To make a level or amount higher.",
+    vi: "nâng, tăng",
+    examples:
+      [
+        {
+          en: "Can we raise the timeout to sixty seconds?",
+          vi: "Mình tăng timeout lên sáu mươi giây được không?",
+        },
+      ],
+  }
+- {
+    slug: cap-n,
+    lemma: "cap",
+    pos: noun,
+    cefr: B2,
+    topic: energy,
+    ipa: "/kæp/",
+    def: "An upper limit placed on an amount, such as spending.",
+    vi: "mức giới hạn trên",
+    examples:
+      [
+        {
+          en: "We put a monthly cap on cloud spending.",
+          vi: "Bọn mình đặt mức giới hạn trên cho chi phí cloud hằng tháng.",
+        },
+      ],
+  }
+- {
+    slug: degrade-v,
+    lemma: "degrade",
+    pos: verb,
+    cefr: C1,
+    topic: energy,
+    ipa: "/dɪˈɡreɪd/",
+    def: "To keep working but with lower quality or fewer features.",
+    vi: "suy giảm, hạ cấp",
+    examples:
+      [
+        {
+          en: "When search is down, the site degrades to a simple list.",
+          vi: "Khi tìm kiếm bị lỗi, trang web hạ cấp xuống một danh sách đơn giản.",
+        },
+      ],
+  }
+- {
+    slug: fair-use-n,
+    lemma: "fair use",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: energy,
+    ipa: "/ˌfeə ˈjuːs/",
+    def: "A rule that stops one customer from taking too large a share of a shared resource.",
+    vi: "sử dụng hợp lý",
+    examples:
+      [
+        {
+          en: "The free plan has a fair use policy for storage.",
+          vi: "Gói miễn phí có chính sách sử dụng hợp lý cho dung lượng.",
+        },
+      ],
+  }
+- {
+    slug: usage-n-t20,
+    lemma: "usage",
+    pos: noun,
+    cefr: B2,
+    topic: energy,
+    ipa: "/ˈjuːsɪdʒ/",
+    def: "How much of something is being used.",
+    vi: "mức sử dụng",
+    examples:
+      [
+        {
+          en: "CPU usage stays at 90% for hours.",
+          vi: "Mức sử dụng CPU duy trì ở 90% trong nhiều giờ.",
+        },
+      ],
+  }
+- {
+    slug: restrict-v,
+    lemma: "restrict",
+    pos: verb,
+    cefr: B2,
+    topic: energy,
+    ipa: "/rɪˈstrɪkt/",
+    def: "To control something so it stays within a limit.",
+    vi: "hạn chế",
+    examples:
+      [
+        {
+          en: "We restrict each user to five exports per day.",
+          vi: "Bọn mình hạn chế mỗi người dùng năm lần xuất mỗi ngày.",
+        },
+      ],
+  }
+- {
+    slug: burst-n-t20,
+    lemma: "burst",
+    pos: noun,
+    cefr: C1,
+    topic: energy,
+    ipa: "/bɜːst/",
+    def: "A short period of much more activity than usual.",
+    vi: "đợt tăng vọt",
+    examples:
+      [
+        {
+          en: "The rate limit allows a short burst of twenty requests.",
+          vi: "Giới hạn tần suất cho phép một đợt tăng vọt ngắn hai mươi request.",
+        },
+      ],
+  }
+- {
+    slug: soft-limit-n,
+    lemma: "soft limit",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: energy,
+    ipa: "/ˌsɒft ˈlɪmɪt/",
+    def: "A limit that triggers a warning but can be passed for a while.",
+    vi: "giới hạn mềm",
+    examples:
+      [
+        {
+          en: "At the soft limit we warn the user; at the hard limit we block uploads.",
+          vi: "Tới giới hạn mềm thì cảnh báo người dùng; tới giới hạn cứng thì chặn upload.",
+        },
+      ],
+  }
+- {
+    slug: lower-v,
+    lemma: "lower",
+    pos: verb,
+    cefr: B1,
+    topic: energy,
+    ipa: "/ˈləʊə/",
+    def: "To make something smaller or less.",
+    vi: "giảm, hạ",
+    examples:
+      [
+        {
+          en: "Lowering the image quality saved a lot of data transfer.",
+          vi: "Hạ chất lượng ảnh giúp tiết kiệm nhiều lưu lượng truyền dữ liệu.",
+        },
+      ],
+  }
+- {
+    slug: data-transfer-n,
+    lemma: "data transfer",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: energy,
+    ipa: "/ˈdeɪtə ˌtrænsfɜː/",
+    def: "The amount of data sent over a network, often something you pay for.",
+    vi: "lưu lượng truyền dữ liệu",
+    examples:
+      [
+        {
+          en: "Video calls use far more data transfer than chat.",
+          vi: "Gọi video tốn lưu lượng truyền dữ liệu hơn chat nhiều.",
+        },
+      ],
+  }
+- {
+    slug: increase-n,
+    lemma: "increase",
+    pos: noun,
+    cefr: B1,
+    topic: energy,
+    ipa: "/ˈɪŋkriːs/",
+    def: "A rise in the number or amount of something.",
+    vi: "sự gia tăng",
+    examples:
+      [
+        {
+          en: "We asked the provider for a quota increase.",
+          vi: "Bọn mình đã xin nhà cung cấp tăng hạn mức.",
+        },
+      ],
+  }
+- {
+    slug: hard-cap-n,
+    lemma: "hard cap",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: energy,
+    ipa: "/ˌhɑːd ˈkæp/",
+    def: "A strict limit that the system never lets anyone pass.",
+    vi: "giới hạn cứng",
+    examples:
+      [
+        {
+          en: "There is a hard cap of 100 members per workspace.",
+          vi: "Mỗi workspace có giới hạn cứng là 100 thành viên.",
+        },
+      ],
+  }
+# Set 8: Monitoring capacity
+- {
+    slug: capacity-n-t20,
+    lemma: "capacity",
+    pos: noun,
+    cefr: B2,
+    topic: energy,
+    ipa: "/kəˈpæsəti/",
+    def: "The largest amount of work a system can handle.",
+    vi: "năng lực, công suất",
+    examples:
+      [
+        {
+          en: "We are at 80% of our database capacity.",
+          vi: "Bọn mình đang dùng 80% năng lực của cơ sở dữ liệu.",
+        },
+      ],
+  }
+- {
+    slug: metric-n,
+    lemma: "metric",
+    pos: noun,
+    cefr: B2,
+    topic: energy,
+    ipa: "/ˈmetrɪk/",
+    def: "A number that is measured regularly to track a system.",
+    vi: "chỉ số",
+    examples:
+      [
+        {
+          en: "Error rate is the first metric we check after a deploy.",
+          vi: "Tỉ lệ lỗi là chỉ số đầu tiên bọn mình kiểm tra sau khi deploy.",
+        },
+      ],
+  }
+- {
+    slug: dashboard-n-t20,
+    lemma: "dashboard",
+    pos: noun,
+    cefr: B1,
+    topic: energy,
+    ipa: "/ˈdæʃbɔːd/",
+    def: "A screen that shows important numbers and charts together.",
+    vi: "bảng điều khiển",
+    examples:
+      [
+        {
+          en: "Open the dashboard and look at the memory graph.",
+          vi: "Mở dashboard và xem biểu đồ bộ nhớ.",
+        },
+      ],
+  }
+- {
+    slug: alert-n,
+    lemma: "alert",
+    pos: noun,
+    cefr: B1,
+    topic: energy,
+    ipa: "/əˈlɜːt/",
+    def: "An automatic message that warns the team about a problem.",
+    vi: "cảnh báo",
+    examples:
+      [
+        {
+          en: "We got an alert when disk usage passed 85%.",
+          vi: "Bọn mình nhận cảnh báo khi mức dùng đĩa vượt 85%.",
+        },
+      ],
+  }
+- {
+    slug: threshold-n-t20,
+    lemma: "threshold",
+    pos: noun,
+    cefr: C1,
+    topic: energy,
+    ipa: "/ˈθreʃhəʊld/",
+    def: "The value at which something starts to happen, such as an alert.",
+    vi: "ngưỡng",
+    examples:
+      [
+        {
+          en: "The alert threshold for CPU is 75% for ten minutes.",
+          vi: "Ngưỡng cảnh báo CPU là 75% trong mười phút.",
+        },
+      ],
+  }
+- {
+    slug: trend-n-t20,
+    lemma: "trend",
+    pos: noun,
+    cefr: B1,
+    topic: energy,
+    ipa: "/trend/",
+    def: "A general direction in which numbers are changing over time.",
+    vi: "xu hướng",
+    examples:
+      [
+        {
+          en: "The trend shows storage growing by 5% every month.",
+          vi: "Xu hướng cho thấy dung lượng tăng 5% mỗi tháng.",
+        },
+      ],
+  }
+- {
+    slug: utilisation-n,
+    lemma: "utilisation",
+    pos: noun,
+    cefr: C1,
+    topic: energy,
+    ipa: "/ˌjuːtəlaɪˈzeɪʃn/",
+    def: "How much of the available capacity is actually being used.",
+    vi: "mức sử dụng (công suất)",
+    examples:
+      [
+        {
+          en: "Average utilisation is only 20%, so we are paying for idle servers.",
+          vi: "Mức sử dụng trung bình chỉ 20%, nên bọn mình đang trả tiền cho server rảnh.",
+        },
+      ],
+  }
+- {
+    slug: graph-n-t20,
+    lemma: "graph",
+    pos: noun,
+    cefr: A2,
+    topic: energy,
+    ipa: "/ɡrɑːf/",
+    def: "A picture that shows how a value changes.",
+    vi: "biểu đồ",
+    examples:
+      [
+        {
+          en: "The latency graph jumps every hour on the hour.",
+          vi: "Biểu đồ độ trễ nhảy vọt vào mỗi đầu giờ.",
+        },
+      ],
+  }
+- {
+    slug: baseline-n,
+    lemma: "baseline",
+    pos: noun,
+    cefr: C1,
+    topic: energy,
+    ipa: "/ˈbeɪslaɪn/",
+    def: "A normal level used to compare later measurements with.",
+    vi: "mức nền",
+    examples:
+      [
+        {
+          en: "Normal traffic is our baseline for spotting unusual load.",
+          vi: "Lưu lượng bình thường là mức nền để phát hiện tải bất thường.",
+        },
+      ],
+  }
+- {
+    slug: saturation-n,
+    lemma: "saturation",
+    pos: noun,
+    cefr: C1,
+    topic: energy,
+    ipa: "/ˌsætʃəˈreɪʃn/",
+    def: "How close a resource is to being completely full or busy.",
+    vi: "mức bão hoà",
+    examples:
+      [
+        {
+          en: "Disk saturation is why writes are so slow.",
+          vi: "Mức bão hoà đĩa là lý do khiến việc ghi chậm như vậy.",
+        },
+      ],
+  }
+- {
+    slug: forecast-v,
+    lemma: "forecast",
+    pos: verb,
+    cefr: B2,
+    topic: energy,
+    ipa: "/ˈfɔːkɑːst/",
+    def: "To say what is likely to happen in the future, based on data.",
+    vi: "dự báo",
+    examples:
+      [
+        {
+          en: "We forecast that we will need two more nodes by March.",
+          vi: "Bọn mình dự báo sẽ cần thêm hai node trước tháng Ba.",
+        },
+      ],
+  }
+- {
+    slug: on-call-adj,
+    lemma: "on-call",
+    pos: adjective,
+    cefr: B2,
+    topic: energy,
+    ipa: "/ˌɒn ˈkɔːl/",
+    def: "Responsible for answering alerts outside normal hours.",
+    vi: "trực sự cố",
+    examples:
+      [
+        {
+          en: "The on-call engineer restarted the worker at 3 a.m.",
+          vi: "Kỹ sư trực sự cố đã khởi động lại worker lúc 3 giờ sáng.",
+        },
+      ],
+  }
+- {
+    slug: steady-adj,
+    lemma: "steady",
+    pos: adjective,
+    cefr: B1,
+    topic: energy,
+    ipa: "/ˈstedi/",
+    def: "Staying at about the same level over time.",
+    vi: "ổn định",
+    examples:
+      [{ en: "Memory stays steady at around 1 GB.", vi: "Bộ nhớ ổn định ở mức khoảng 1 GB." }],
+  }
+- {
+    slug: anomaly-n-t20,
+    lemma: "anomaly",
+    pos: noun,
+    cefr: C1,
+    topic: energy,
+    ipa: "/əˈnɒməli/",
+    def: "Something that is very different from what is normal or expected.",
+    vi: "điểm bất thường",
+    examples:
+      [
+        {
+          en: "The anomaly at 4 p.m. was caused by a bot.",
+          vi: "Điểm bất thường lúc 4 giờ chiều là do một con bot gây ra.",
+        },
+      ],
+  }
+- {
+    slug: health-check-n,
+    lemma: "health check",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: energy,
+    ipa: "/ˈhelθ tʃek/",
+    def: "A small automatic test that shows whether a service is working.",
+    vi: "kiểm tra sức khoẻ (dịch vụ)",
+    examples:
+      [
+        {
+          en: "The health check fails when the database is unreachable.",
+          vi: "Health check thất bại khi không kết nối được cơ sở dữ liệu.",
+        },
+      ],
+  }
+- {
+    slug: observe-v,
+    lemma: "observe",
+    pos: verb,
+    cefr: B2,
+    topic: energy,
+    ipa: "/əbˈzɜːv/",
+    def: "To watch something carefully to learn how it behaves.",
+    vi: "quan sát",
+    examples:
+      [
+        {
+          en: "We observed higher memory use after the upgrade.",
+          vi: "Bọn mình quan sát thấy dùng bộ nhớ nhiều hơn sau khi nâng cấp.",
+        },
+      ],
+  }
+- {
+    slug: grow-steadily-phr,
+    lemma: "grow steadily",
+    pos: phrase,
+    kind: collocation,
+    cefr: B2,
+    topic: energy,
+    ipa: "/ɡrəʊ ˈstedəli/",
+    def: "To increase slowly but without stopping.",
+    vi: "tăng đều",
+    examples:
+      [
+        {
+          en: "Our user base has grown steadily all year.",
+          vi: "Lượng người dùng của bọn mình tăng đều suốt cả năm.",
+        },
+      ],
+  }
+- {
+    slug: capacity-planning-n,
+    lemma: "capacity planning",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: energy,
+    ipa: "/kəˈpæsəti ˌplænɪŋ/",
+    def: "Working out what resources a system will need in the future.",
+    vi: "hoạch định năng lực",
+    examples:
+      [
+        {
+          en: "Capacity planning for the holiday season starts in October.",
+          vi: "Việc hoạch định năng lực cho mùa lễ bắt đầu từ tháng Mười.",
+        },
+      ],
+  }
+- {
+    slug: spot-v,
+    lemma: "spot",
+    pos: verb,
+    cefr: B1,
+    topic: energy,
+    ipa: "/spɒt/",
+    def: "To notice something that is hard to see.",
+    vi: "phát hiện",
+    examples:
+      [
+        {
+          en: "I spotted a memory leak in the graph.",
+          vi: "Mình phát hiện một chỗ rò rỉ bộ nhớ trong biểu đồ.",
+        },
+      ],
+  }
+- {
+    slug: memory-leak-n,
+    lemma: "memory leak",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: energy,
+    ipa: "/ˈmeməri liːk/",
+    def: "A bug where a program keeps using more memory and never frees it.",
+    vi: "rò rỉ bộ nhớ",
+    examples:
+      [
+        {
+          en: "The memory leak made the service restart every six hours.",
+          vi: "Lỗi rò rỉ bộ nhớ khiến service khởi động lại sáu tiếng một lần.",
+        },
+      ],
+  }
+- {
+    slug: early-warning-n,
+    lemma: "early warning",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: energy,
+    ipa: "/ˌɜːli ˈwɔːnɪŋ/",
+    def: "A sign that a problem is coming, seen before it becomes serious.",
+    vi: "cảnh báo sớm",
+    examples:
+      [
+        {
+          en: "Long queue times are an early warning that we need more workers.",
+          vi: "Thời gian chờ trong hàng đợi dài là cảnh báo sớm rằng cần thêm worker.",
+        },
+      ],
+  }
+- {
+    slug: time-series-n,
+    lemma: "time series",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: energy,
+    ipa: "/ˈtaɪm ˌsɪəriːz/",
+    def: "A set of measurements recorded at regular points in time.",
+    vi: "chuỗi thời gian",
+    examples:
+      [
+        {
+          en: "Prometheus stores each metric as a time series.",
+          vi: "Prometheus lưu mỗi chỉ số dưới dạng một chuỗi thời gian.",
+        },
+      ],
+  }
+- {
+    slug: retention-n,
+    lemma: "retention",
+    pos: noun,
+    cefr: C1,
+    topic: energy,
+    ipa: "/rɪˈtenʃn/",
+    def: "How long data is kept before it is deleted.",
+    vi: "thời gian lưu giữ",
+    examples:
+      [
+        {
+          en: "Metrics retention is thirty days.",
+          vi: "Thời gian lưu giữ chỉ số là ba mươi ngày.",
+        },
+      ],
+  }
+- {
+    slug: keep-an-eye-on-phr,
+    lemma: "keep an eye on",
+    pos: phrase,
+    kind: phrase,
+    cefr: B1,
+    topic: energy,
+    ipa: "/kiːp ən ˈaɪ ɒn/",
+    def: "To watch something so you notice if it changes.",
+    vi: "để mắt tới",
+    examples:
+      [
+        {
+          en: "Please keep an eye on the error rate after the release.",
+          vi: "Hãy để mắt tới tỉ lệ lỗi sau khi phát hành.",
+        },
+      ],
+  }
+# Set 9: Optimisation trade-offs
+- {
+    slug: optimise-v-t20,
+    lemma: "optimise",
+    pos: verb,
+    cefr: B2,
+    topic: energy,
+    ipa: "/ˈɒptɪmaɪz/",
+    def: "To make something work as fast or as well as possible.",
+    vi: "tối ưu",
+    examples:
+      [
+        {
+          en: "We optimised the query by adding an index.",
+          vi: "Bọn mình tối ưu truy vấn bằng cách thêm chỉ mục.",
+        },
+      ],
+  }
+- {
+    slug: trade-off-n,
+    lemma: "trade-off",
+    pos: noun,
+    cefr: C1,
+    topic: energy,
+    ipa: "/ˈtreɪd ɒf/",
+    def: "A balance between two good things where you can't have all of both.",
+    vi: "sự đánh đổi",
+    examples:
+      [
+        {
+          en: "Caching gives speed but the trade-off is stale data.",
+          vi: "Cache giúp nhanh hơn nhưng phải đánh đổi bằng dữ liệu cũ.",
+        },
+      ],
+  }
+- {
+    slug: cost-n,
+    lemma: "cost",
+    pos: noun,
+    cefr: A2,
+    topic: energy,
+    ipa: "/kɒst/",
+    def: "The money needed to run or buy something.",
+    vi: "chi phí",
+    examples:
+      [
+        {
+          en: "The cost of the GPU servers is too high for a side feature.",
+          vi: "Chi phí máy chủ GPU quá cao cho một tính năng phụ.",
+        },
+      ],
+  }
+- {
+    slug: efficient-adj-t20,
+    lemma: "efficient",
+    pos: adjective,
+    cefr: B1,
+    topic: energy,
+    ipa: "/ɪˈfɪʃnt/",
+    def: "Doing a job well without wasting time or resources.",
+    vi: "hiệu quả",
+    examples:
+      [
+        {
+          en: "The new algorithm is more efficient with memory.",
+          vi: "Thuật toán mới dùng bộ nhớ hiệu quả hơn.",
+        },
+      ],
+  }
+- {
+    slug: complexity-n,
+    lemma: "complexity",
+    pos: noun,
+    cefr: B2,
+    topic: energy,
+    ipa: "/kəmˈpleksəti/",
+    def: "How difficult something is to understand or change.",
+    vi: "độ phức tạp",
+    examples:
+      [
+        {
+          en: "The extra cache layer adds complexity to the code.",
+          vi: "Lớp cache thêm vào làm tăng độ phức tạp cho code.",
+        },
+      ],
+  }
+- {
+    slug: maintainable-adj,
+    lemma: "maintainable",
+    pos: adjective,
+    cefr: C1,
+    topic: energy,
+    ipa: "/meɪnˈteɪnəbl/",
+    def: "Easy to keep working, fix and change over time.",
+    vi: "dễ bảo trì",
+    examples:
+      [
+        {
+          en: "The simple version is slower but more maintainable.",
+          vi: "Phiên bản đơn giản chậm hơn nhưng dễ bảo trì hơn.",
+        },
+      ],
+  }
+- {
+    slug: premature-adj,
+    lemma: "premature",
+    pos: adjective,
+    cefr: C1,
+    topic: energy,
+    ipa: "/ˈpremətʃə/",
+    def: "Done too early, before it is needed.",
+    vi: "quá sớm",
+    examples:
+      [
+        {
+          en: "Rewriting it in Rust now would be premature optimisation.",
+          vi: "Viết lại bằng Rust lúc này là tối ưu quá sớm.",
+        },
+      ],
+  }
+- {
+    slug: worth-it-phr,
+    lemma: "worth it",
+    pos: phrase,
+    kind: phrase,
+    cefr: B1,
+    topic: energy,
+    ipa: "/ˈwɜːθ ɪt/",
+    def: "Giving enough benefit to justify the effort or cost.",
+    vi: "đáng công",
+    examples:
+      [
+        {
+          en: "Saving 5 ms is not worth it if it doubles the code.",
+          vi: "Tiết kiệm 5 ms không đáng công nếu phải tăng gấp đôi code.",
+        },
+      ],
+  }
+- {
+    slug: downside-n-t20,
+    lemma: "downside",
+    pos: noun,
+    cefr: B2,
+    topic: energy,
+    ipa: "/ˈdaʊnsaɪd/",
+    def: "The bad part of something that is otherwise good.",
+    vi: "mặt hạn chế",
+    examples:
+      [
+        {
+          en: "The downside of this approach is a bigger bill.",
+          vi: "Mặt hạn chế của cách này là hoá đơn lớn hơn.",
+        },
+      ],
+  }
+- {
+    slug: gain-n,
+    lemma: "gain",
+    pos: noun,
+    cefr: B2,
+    topic: energy,
+    ipa: "/ɡeɪn/",
+    def: "An improvement or increase that you get from a change.",
+    vi: "mức cải thiện",
+    examples:
+      [{ en: "The performance gain was about 30%.", vi: "Mức cải thiện hiệu năng khoảng 30%." }],
+  }
+- {
+    slug: overhead-n,
+    lemma: "overhead",
+    pos: noun,
+    cefr: C1,
+    topic: energy,
+    ipa: "/ˈəʊvəhed/",
+    def: "Extra time or resources needed just to run something, not to do the main work.",
+    vi: "chi phí phụ trội",
+    examples:
+      [
+        {
+          en: "Logging every request adds a small overhead.",
+          vi: "Ghi log mọi request làm tăng một chút chi phí phụ trội.",
+        },
+      ],
+  }
+- {
+    slug: profile-v-t20,
+    lemma: "profile",
+    pos: verb,
+    cefr: C1,
+    topic: energy,
+    ipa: "/ˈprəʊfaɪl/",
+    def: "To measure which parts of a program use the most time or memory.",
+    vi: "đo hiệu năng (profile)",
+    examples:
+      [
+        {
+          en: "Profile the function before you try to make it faster.",
+          vi: "Hãy profile hàm trước khi cố làm nó nhanh hơn.",
+        },
+      ],
+  }
+- {
+    slug: hot-path-n,
+    lemma: "hot path",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: energy,
+    ipa: "/ˈhɒt pɑːθ/",
+    def: "The part of the code that runs most often, so its speed matters most.",
+    vi: "đường nóng",
+    examples:
+      [
+        {
+          en: "JSON parsing is on the hot path, so we use a faster library.",
+          vi: "Phân tích JSON nằm trên đường nóng nên bọn mình dùng thư viện nhanh hơn.",
+        },
+      ],
+  }
+- {
+    slug: readability-n-t20,
+    lemma: "readability",
+    pos: noun,
+    cefr: B2,
+    topic: energy,
+    ipa: "/ˌriːdəˈbɪləti/",
+    def: "How easy code is to read and understand.",
+    vi: "tính dễ đọc",
+    examples:
+      [
+        {
+          en: "Don't sacrifice readability for a tiny speed improvement.",
+          vi: "Đừng hy sinh tính dễ đọc chỉ vì một chút cải thiện tốc độ.",
+        },
+      ],
+  }
+- {
+    slug: diminishing-returns-n-t20,
+    lemma: "diminishing returns",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: energy,
+    ipa: "/dɪˌmɪnɪʃɪŋ rɪˈtɜːnz/",
+    def: "A point where more effort gives less and less extra benefit.",
+    vi: "lợi ích giảm dần",
+    examples:
+      [
+        {
+          en: "After the third optimisation we hit diminishing returns.",
+          vi: "Sau lần tối ưu thứ ba bọn mình gặp tình trạng lợi ích giảm dần.",
+        },
+      ],
+  }
+- {
+    slug: reduce-v-t20,
+    lemma: "reduce",
+    pos: verb,
+    cefr: B1,
+    topic: energy,
+    ipa: "/rɪˈdjuːs/",
+    def: "To make something smaller in size or amount.",
+    vi: "giảm",
+    examples:
+      [
+        {
+          en: "Lazy loading reduced the page size by half.",
+          vi: "Lazy loading giảm kích thước trang đi một nửa.",
+        },
+      ],
+  }
+- {
+    slug: compress-v-t20,
+    lemma: "compress",
+    pos: verb,
+    cefr: B2,
+    topic: energy,
+    ipa: "/kəmˈpres/",
+    def: "To make a file smaller so it takes less space or time to send.",
+    vi: "nén",
+    examples:
+      [
+        {
+          en: "We compress the logs before uploading them.",
+          vi: "Bọn mình nén log trước khi tải lên.",
+        },
+      ],
+  }
+- {
+    slug: weigh-up-pv,
+    lemma: "weigh up",
+    pos: verb,
+    kind: phrasal,
+    cefr: C1,
+    topic: energy,
+    ipa: "/ˌweɪ ˈʌp/",
+    def: "To think carefully about the good and bad sides before deciding.",
+    vi: "cân nhắc",
+    examples:
+      [
+        {
+          en: "Let's weigh up the speed gain against the extra cost.",
+          vi: "Hãy cân nhắc mức tăng tốc so với chi phí phát sinh.",
+        },
+      ],
+  }
+- {
+    slug: bill-n-t20,
+    lemma: "bill",
+    pos: noun,
+    cefr: A2,
+    topic: energy,
+    ipa: "/bɪl/",
+    def: "A document showing how much money you must pay.",
+    vi: "hoá đơn",
+    examples:
+      [{ en: "Our cloud bill went up 40% last month.", vi: "Hoá đơn cloud tháng trước tăng 40%." }],
+  }
+- {
+    slug: operational-adj-t20,
+    lemma: "operational",
+    pos: adjective,
+    cefr: C1,
+    topic: energy,
+    ipa: "/ˌɒpəˈreɪʃənl/",
+    def: "Connected with running a system day to day.",
+    vi: "vận hành",
+    examples:
+      [
+        {
+          en: "A second database adds operational work for the team.",
+          vi: "Một cơ sở dữ liệu thứ hai làm tăng công việc vận hành cho đội.",
+        },
+      ],
+  }
+- {
+    slug: at-the-expense-of-phr,
+    lemma: "at the expense of",
+    pos: phrase,
+    kind: phrase,
+    cefr: C1,
+    topic: energy,
+    ipa: "/ət ði ɪkˈspens əv/",
+    def: "While causing harm or loss to something else.",
+    vi: "đổi lại bằng việc hy sinh",
+    examples:
+      [
+        {
+          en: "We got faster writes at the expense of consistency.",
+          vi: "Bọn mình ghi nhanh hơn nhưng phải hy sinh tính nhất quán.",
+        },
+      ],
+  }
+- {
+    slug: marginal-adj-t20,
+    lemma: "marginal",
+    pos: adjective,
+    cefr: C1,
+    topic: energy,
+    ipa: "/ˈmɑːdʒɪnl/",
+    def: "Very small and not important.",
+    vi: "không đáng kể",
+    examples:
+      [
+        {
+          en: "The change gave only a marginal improvement.",
+          vi: "Thay đổi chỉ mang lại cải thiện không đáng kể.",
+        },
+      ],
+  }
+- {
+    slug: lazy-loading-n,
+    lemma: "lazy loading",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: energy,
+    ipa: "/ˈleɪzi ˌləʊdɪŋ/",
+    def: "Loading something only when it is actually needed.",
+    vi: "tải lười",
+    examples:
+      [
+        {
+          en: "Lazy loading the images made the first screen appear sooner.",
+          vi: "Tải lười hình ảnh giúp màn hình đầu tiên hiện ra sớm hơn.",
+        },
+      ],
+  }
+- {
+    slug: precision-n,
+    lemma: "precision",
+    pos: noun,
+    cefr: C1,
+    topic: energy,
+    ipa: "/prɪˈsɪʒn/",
+    def: "How exact a value or result is.",
+    vi: "độ chính xác",
+    examples:
+      [
+        {
+          en: "We lowered the precision of the map to save memory.",
+          vi: "Bọn mình giảm độ chính xác của bản đồ để tiết kiệm bộ nhớ.",
+        },
+      ],
+  }
+- {
+    slug: simplicity-n,
+    lemma: "simplicity",
+    pos: noun,
+    cefr: B2,
+    topic: energy,
+    ipa: "/sɪmˈplɪsəti/",
+    def: "The quality of being easy to understand and use.",
+    vi: "sự đơn giản",
+    examples:
+      [
+        {
+          en: "We chose simplicity over a small speed gain.",
+          vi: "Bọn mình chọn sự đơn giản thay vì một chút tăng tốc.",
+        },
+      ],
+  }
+- {
+    slug: denormalise-v,
+    lemma: "denormalise",
+    pos: verb,
+    cefr: C1,
+    topic: energy,
+    ipa: "/diːˈnɔːməlaɪz/",
+    def: "To copy data into extra columns or tables so reads need fewer joins.",
+    vi: "phi chuẩn hoá",
+    examples:
+      [
+        {
+          en: "We denormalised the order total to avoid a join on every page.",
+          vi: "Bọn mình phi chuẩn hoá tổng tiền đơn hàng để khỏi phải join mỗi trang.",
+        },
+      ],
+  }
+- {
+    slug: vendor-lock-in-n,
+    lemma: "vendor lock-in",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: energy,
+    ipa: "/ˈvendə ˈlɒk ɪn/",
+    def: "Depending so much on one provider that moving away becomes hard.",
+    vi: "phụ thuộc nhà cung cấp",
+    examples:
+      [
+        {
+          en: "The managed queue is fast, but it means vendor lock-in.",
+          vi: "Hàng đợi được quản lý chạy nhanh nhưng khiến mình phụ thuộc nhà cung cấp.",
+        },
+      ],
+  }
+- {
+    slug: scalability-n,
+    lemma: "scalability",
+    pos: noun,
+    cefr: C1,
+    topic: energy,
+    ipa: "/ˌskeɪləˈbɪləti/",
+    def: "How well a system can grow to handle more work.",
+    vi: "khả năng mở rộng",
+    examples:
+      [
+        {
+          en: "The single database limits our scalability.",
+          vi: "Một cơ sở dữ liệu duy nhất hạn chế khả năng mở rộng của bọn mình.",
+        },
+      ],
+  }
+# Set 10: A performance recommendation
+- {
+    slug: recommend-v,
+    lemma: "recommend",
+    pos: verb,
+    cefr: B1,
+    topic: energy,
+    ipa: "/ˌrekəˈmend/",
+    def: "To say that something is a good idea and should be done.",
+    vi: "đề xuất, khuyến nghị",
+    examples:
+      [
+        {
+          en: "I recommend moving the report to a background job.",
+          vi: "Mình đề xuất chuyển báo cáo sang tác vụ nền.",
+        },
+      ],
+  }
+- {
+    slug: proposal-n,
+    lemma: "proposal",
+    pos: noun,
+    cefr: B2,
+    topic: energy,
+    ipa: "/prəˈpəʊzl/",
+    def: "A written plan that you ask others to agree to.",
+    vi: "bản đề xuất",
+    examples:
+      [
+        {
+          en: "Please review my proposal before Friday's meeting.",
+          vi: "Hãy xem bản đề xuất của mình trước cuộc họp thứ Sáu.",
+        },
+      ],
+  }
+- {
+    slug: problem-statement-n-t20,
+    lemma: "problem statement",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: energy,
+    ipa: "/ˈprɒbləm ˌsteɪtmənt/",
+    def: "A short, clear description of the problem you want to solve.",
+    vi: "mô tả vấn đề",
+    examples:
+      [
+        {
+          en: "The problem statement says checkout takes eight seconds on mobile.",
+          vi: "Phần mô tả vấn đề nói rằng thanh toán mất tám giây trên di động.",
+        },
+      ],
+  }
+- {
+    slug: current-state-n,
+    lemma: "current state",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: energy,
+    ipa: "/ˌkʌrənt ˈsteɪt/",
+    def: "How things are now, before any change.",
+    vi: "hiện trạng",
+    examples:
+      [
+        {
+          en: "In the current state, each page load runs 40 queries.",
+          vi: "Ở hiện trạng, mỗi lần tải trang chạy 40 truy vấn.",
+        },
+      ],
+  }
+- {
+    slug: data-point-n-t20,
+    lemma: "data point",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: energy,
+    ipa: "/ˈdeɪtə pɔɪnt/",
+    def: "A single measured fact or number.",
+    vi: "điểm dữ liệu",
+    examples:
+      [
+        {
+          en: "Each data point in the chart is one day of traffic.",
+          vi: "Mỗi điểm dữ liệu trong biểu đồ là lưu lượng của một ngày.",
+        },
+      ],
+  }
+- {
+    slug: before-and-after-adj,
+    lemma: "before-and-after",
+    pos: adjective,
+    cefr: B1,
+    topic: energy,
+    ipa: "/bɪˌfɔːr ənd ˈɑːftə/",
+    def: "Comparing how something was with how it is after a change.",
+    vi: "trước và sau",
+    examples:
+      [
+        {
+          en: "Add before-and-after numbers to the pull request.",
+          vi: "Hãy thêm số liệu trước và sau vào pull request.",
+        },
+      ],
+  }
+- {
+    slug: hypothesis-n-t20,
+    lemma: "hypothesis",
+    pos: noun,
+    cefr: C1,
+    topic: energy,
+    ipa: "/haɪˈpɒθəsɪs/",
+    def: "An idea that you test to see if it is true.",
+    vi: "giả thuyết",
+    examples:
+      [
+        {
+          en: "My hypothesis is that the slow part is image resizing.",
+          vi: "Giả thuyết của mình là phần chậm nằm ở việc đổi kích thước ảnh.",
+        },
+      ],
+  }
+- {
+    slug: experiment-n-t20,
+    lemma: "experiment",
+    pos: noun,
+    cefr: B1,
+    topic: energy,
+    ipa: "/ɪkˈsperɪmənt/",
+    def: "A test done to find out if an idea works.",
+    vi: "thử nghiệm",
+    examples:
+      [
+        {
+          en: "We ran an experiment with 10% of users.",
+          vi: "Bọn mình chạy thử nghiệm với 10% người dùng.",
+        },
+      ],
+  }
+- {
+    slug: success-criteria-n-t20,
+    lemma: "success criteria",
+    pos: noun,
+    kind: collocation,
+    cefr: C1,
+    topic: energy,
+    ipa: "/səkˈses kraɪˌtɪəriə/",
+    def: "The conditions that show a change has worked.",
+    vi: "tiêu chí thành công",
+    examples:
+      [
+        {
+          en: "Our success criteria: p95 under 300 ms and no new errors.",
+          vi: "Tiêu chí thành công: p95 dưới 300 ms và không có lỗi mới.",
+        },
+      ],
+  }
+- {
+    slug: target-n,
+    lemma: "target",
+    pos: noun,
+    cefr: B1,
+    topic: energy,
+    ipa: "/ˈtɑːɡɪt/",
+    def: "A result that you are trying to reach.",
+    vi: "mục tiêu (số)",
+    examples:
+      [
+        {
+          en: "The target is a page load time of two seconds.",
+          vi: "Mục tiêu là thời gian tải trang hai giây.",
+        },
+      ],
+  }
+- {
+    slug: estimate-v-t20,
+    lemma: "estimate",
+    pos: verb,
+    cefr: B1,
+    topic: energy,
+    ipa: "/ˈestɪmeɪt/",
+    def: "To guess an amount using the information you have.",
+    vi: "ước tính",
+    examples:
+      [
+        {
+          en: "I estimate the change will save about $300 a month.",
+          vi: "Mình ước tính thay đổi này sẽ tiết kiệm khoảng 300 đô mỗi tháng.",
+        },
+      ],
+  }
+- {
+    slug: impact-n,
+    lemma: "impact",
+    pos: noun,
+    cefr: B2,
+    topic: energy,
+    ipa: "/ˈɪmpækt/",
+    def: "The effect that a change has on something.",
+    vi: "tác động",
+    examples:
+      [
+        {
+          en: "The impact on users should be a faster search page.",
+          vi: "Tác động tới người dùng là trang tìm kiếm sẽ nhanh hơn.",
+        },
+      ],
+  }
+- {
+    slug: constraint-n,
+    lemma: "constraint",
+    pos: noun,
+    cefr: C1,
+    topic: energy,
+    ipa: "/kənˈstreɪnt/",
+    def: "Something that limits what you can do in a plan or solution.",
+    vi: "ràng buộc",
+    examples:
+      [
+        {
+          en: "The main constraint is that we cannot change the database schema.",
+          vi: "Ràng buộc chính là bọn mình không được thay đổi schema cơ sở dữ liệu.",
+        },
+      ],
+  }
+- {
+    slug: roll-out-pv-t20,
+    lemma: "roll out",
+    pos: verb,
+    kind: phrasal,
+    cefr: B2,
+    topic: energy,
+    ipa: "/ˌrəʊl ˈaʊt/",
+    def: "To make a change available to users, often step by step.",
+    vi: "triển khai dần",
+    examples:
+      [
+        {
+          en: "We will roll out the new query to 5% of traffic first.",
+          vi: "Bọn mình sẽ triển khai truy vấn mới cho 5% lưu lượng trước.",
+        },
+      ],
+  }
+- {
+    slug: roll-back-pv,
+    lemma: "roll back",
+    pos: verb,
+    kind: phrasal,
+    cefr: B2,
+    topic: energy,
+    ipa: "/ˌrəʊl ˈbæk/",
+    def: "To return to the earlier version after a problem.",
+    vi: "quay lại bản cũ",
+    examples:
+      [
+        {
+          en: "If errors go up, we roll back within five minutes.",
+          vi: "Nếu lỗi tăng, bọn mình quay lại bản cũ trong vòng năm phút.",
+        },
+      ],
+  }
+- {
+    slug: feature-flag-n-t20,
+    lemma: "feature flag",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: energy,
+    ipa: "/ˈfiːtʃə flæɡ/",
+    def: "A switch in the code that turns a feature on or off without a deploy.",
+    vi: "cờ tính năng",
+    examples:
+      [
+        {
+          en: "The new cache is behind a feature flag.",
+          vi: "Cache mới được đặt sau một cờ tính năng.",
+        },
+      ],
+  }
+- {
+    slug: reproducible-adj-t20,
+    lemma: "reproducible",
+    pos: adjective,
+    cefr: C1,
+    topic: energy,
+    ipa: "/ˌriːprəˈdjuːsəbl/",
+    def: "Able to be done again with the same result.",
+    vi: "tái lập được",
+    examples:
+      [
+        {
+          en: "Make the test reproducible by using the same data set.",
+          vi: "Hãy làm cho bài test tái lập được bằng cách dùng cùng bộ dữ liệu.",
+        },
+      ],
+  }
+- {
+    slug: test-conditions-n,
+    lemma: "test conditions",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: energy,
+    ipa: "/ˈtest kənˌdɪʃnz/",
+    def: "The setup under which a measurement was taken.",
+    vi: "điều kiện đo",
+    examples:
+      [
+        {
+          en: "State the test conditions: 100 users, a warm cache, one region.",
+          vi: "Hãy nêu điều kiện đo: 100 người dùng, cache đã làm nóng, một vùng.",
+        },
+      ],
+  }
+- {
+    slug: root-cause-n,
+    lemma: "root cause",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: energy,
+    ipa: "/ˌruːt ˈkɔːz/",
+    def: "The main reason a problem happens, not just its visible effects.",
+    vi: "nguyên nhân gốc",
+    examples:
+      [
+        {
+          en: "The root cause of the slowness is a missing index.",
+          vi: "Nguyên nhân gốc của tình trạng chậm là thiếu chỉ mục.",
+        },
+      ],
+  }
+- {
+    slug: next-steps-n-t20,
+    lemma: "next steps",
+    pos: noun,
+    kind: collocation,
+    cefr: B1,
+    topic: energy,
+    ipa: "/ˌnekst ˈsteps/",
+    def: "The actions planned after the current discussion.",
+    vi: "bước tiếp theo",
+    examples:
+      [
+        {
+          en: "Next steps: add the index, then measure again.",
+          vi: "Bước tiếp theo: thêm chỉ mục, rồi đo lại.",
+        },
+      ],
+  }
+- {
+    slug: approve-v,
+    lemma: "approve",
+    pos: verb,
+    cefr: B1,
+    topic: energy,
+    ipa: "/əˈpruːv/",
+    def: "To officially agree to a plan or change.",
+    vi: "phê duyệt",
+    examples:
+      [
+        {
+          en: "The tech lead approved the plan to add a replica.",
+          vi: "Tech lead đã phê duyệt kế hoạch thêm bản sao.",
+        },
+      ],
+  }
+- {
+    slug: justify-v,
+    lemma: "justify",
+    pos: verb,
+    cefr: C1,
+    topic: energy,
+    ipa: "/ˈdʒʌstɪfaɪ/",
+    def: "To give good reasons for a decision.",
+    vi: "biện minh, chứng minh hợp lý",
+    examples:
+      [
+        {
+          en: "Can we justify the extra cost with faster sign-ups?",
+          vi: "Liệu mình có chứng minh được chi phí thêm là hợp lý nhờ đăng ký nhanh hơn không?",
+        },
+      ],
+  }
+- {
+    slug: regression-n,
+    lemma: "regression",
+    pos: noun,
+    cefr: C1,
+    topic: energy,
+    ipa: "/rɪˈɡreʃn/",
+    def: "A change that makes something worse than before.",
+    vi: "sự thoái lui (hiệu năng)",
+    examples:
+      [
+        {
+          en: "The new release caused a performance regression on login.",
+          vi: "Bản phát hành mới gây thoái lui hiệu năng ở phần đăng nhập.",
+        },
+      ],
+  }
+- {
+    slug: significant-adj,
+    lemma: "significant",
+    pos: adjective,
+    cefr: B2,
+    topic: energy,
+    ipa: "/sɪɡˈnɪfɪkənt/",
+    def: "Large or important enough to matter.",
+    vi: "đáng kể",
+    examples:
+      [
+        {
+          en: "We saw a significant drop in load time.",
+          vi: "Bọn mình thấy thời gian tải giảm đáng kể.",
+        },
+      ],
+  }
+- {
+    slug: approach-n-t20,
+    lemma: "approach",
+    pos: noun,
+    cefr: B2,
+    topic: energy,
+    ipa: "/əˈprəʊtʃ/",
+    def: "A way of dealing with a problem.",
+    vi: "cách tiếp cận",
+    examples:
+      [
+        {
+          en: "Option B is a simpler approach with similar results.",
+          vi: "Phương án B là cách tiếp cận đơn giản hơn với kết quả tương tự.",
+        },
+      ],
+  }
+- {
+    slug: alternative-n,
+    lemma: "alternative",
+    pos: noun,
+    cefr: B2,
+    topic: energy,
+    ipa: "/ɔːlˈtɜːnətɪv/",
+    def: "Another possible choice.",
+    vi: "phương án khác",
+    examples:
+      [
+        {
+          en: "An alternative is to paginate the results.",
+          vi: "Một phương án khác là phân trang kết quả.",
+        },
+      ],
+  }
+- {
+    slug: in-summary-phr,
+    lemma: "in summary",
+    pos: phrase,
+    kind: phrase,
+    cefr: B1,
+    topic: energy,
+    ipa: "/ɪn ˈsʌməri/",
+    def: "Used to introduce a short version of the main points.",
+    vi: "tóm lại",
+    examples:
+      [
+        {
+          en: "In summary, the index fixes 80% of the slowness.",
+          vi: "Tóm lại, chỉ mục giải quyết được 80% tình trạng chậm.",
+        },
+      ],
+  }
+- {
+    slug: evaluate-v-t20,
+    lemma: "evaluate",
+    pos: verb,
+    cefr: B2,
+    topic: energy,
+    ipa: "/ɪˈvæljueɪt/",
+    def: "To judge how good or useful something is.",
+    vi: "đánh giá",
+    examples:
+      [
+        {
+          en: "We will evaluate the results after one week.",
+          vi: "Bọn mình sẽ đánh giá kết quả sau một tuần.",
+        },
+      ],
+  }
+- {
+    slug: prototype-n-t20,
+    lemma: "prototype",
+    pos: noun,
+    cefr: B2,
+    topic: energy,
+    ipa: "/ˈprəʊtətaɪp/",
+    def: "An early, simple version made to test an idea.",
+    vi: "bản mẫu",
+    examples:
+      [
+        {
+          en: "The prototype cut the query time by half.",
+          vi: "Bản mẫu đã giảm thời gian truy vấn đi một nửa.",
+        },
+      ],
+  }
+- {
+    slug: decision-maker-n,
+    lemma: "decision-maker",
+    pos: noun,
+    cefr: C1,
+    topic: energy,
+    ipa: "/dɪˈsɪʒn ˌmeɪkə/",
+    def: "A person who has the power to choose what the team will do.",
+    vi: "người ra quyết định",
+    examples:
+      [
+        {
+          en: "Share the proposal with the decision-makers on the product team.",
+          vi: "Hãy chia sẻ bản đề xuất với những người ra quyết định bên đội sản phẩm.",
+        },
+      ],
+  }
+- {
+    slug: rollout-plan-n,
+    lemma: "rollout plan",
+    pos: noun,
+    kind: collocation,
+    cefr: B2,
+    topic: energy,
+    ipa: "/ˈrəʊlaʊt plæn/",
+    def: "The steps and timing for releasing a change to users.",
+    vi: "kế hoạch triển khai",
+    examples:
+      [
+        {
+          en: "The rollout plan starts with internal users, then 10% of traffic.",
+          vi: "Kế hoạch triển khai bắt đầu với người dùng nội bộ, sau đó là 10% lưu lượng.",
+        },
+      ],
+  }
+- {
+    slug: monitor-v,
+    lemma: "monitor",
+    pos: verb,
+    cefr: B2,
+    topic: energy,
+    ipa: "/ˈmɒnɪtə/",
+    def: "To keep checking something over a period of time.",
+    vi: "giám sát",
+    examples:
+      [
+        {
+          en: "We will monitor error rates closely during the rollout.",
+          vi: "Bọn mình sẽ giám sát chặt tỉ lệ lỗi trong quá trình triển khai.",
+        },
+      ],
+  }
+- {
+    slug: sign-off-n,
+    lemma: "sign-off",
+    pos: noun,
+    cefr: C1,
+    topic: energy,
+    ipa: "/ˈsaɪn ɒf/",
+    def: "Official approval that allows work to go ahead.",
+    vi: "sự chấp thuận",
+    examples:
+      [
+        {
+          en: "We need sign-off from the security team first.",
+          vi: "Bọn mình cần sự chấp thuận từ đội bảo mật trước.",
+        },
+      ],
+  }
+- {
+    slug: quantify-v-t20,
+    lemma: "quantify",
+    pos: verb,
+    cefr: C1,
+    topic: energy,
+    ipa: "/ˈkwɒntɪfaɪ/",
+    def: "To describe something using numbers.",
+    vi: "định lượng",
+    examples:
+      [
+        {
+          en: "Try to quantify the gain in seconds, not just say faster.",
+          vi: "Hãy cố định lượng mức cải thiện bằng giây, đừng chỉ nói là nhanh hơn.",
+        },
+      ],
+  }
+- {
+    slug: confident-adj,
+    lemma: "confident",
+    pos: adjective,
+    cefr: B1,
+    topic: energy,
+    ipa: "/ˈkɒnfɪdənt/",
+    def: "Feeling sure that something will happen or is true.",
+    vi: "tự tin, chắc chắn",
+    examples:
+      [
+        {
+          en: "I'm confident the change will not affect other services.",
+          vi: "Mình chắc chắn thay đổi sẽ không ảnh hưởng các service khác.",
+        },
+      ],
+  }
+- {
+    slug: follow-up-n-t20,
+    lemma: "follow-up",
+    pos: noun,
+    cefr: B2,
+    topic: energy,
+    ipa: "/ˈfɒləʊ ʌp/",
+    def: "An action done later to continue or check earlier work.",
+    vi: "việc theo dõi tiếp",
+    examples:
+      [
+        {
+          en: "As a follow-up, I'll measure the effect after one month.",
+          vi: "Để theo dõi tiếp, mình sẽ đo tác động sau một tháng.",
+        },
+      ],
+  }

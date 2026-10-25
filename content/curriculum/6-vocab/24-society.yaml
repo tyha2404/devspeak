@@ -6,281 +6,282 @@ kind: topic
 cefr: B2
 status: published
 title:
-  en: Inclusive Products & Responsible Engineering
-  vi: Sản phẩm bao trùm & kỹ thuật có trách nhiệm
-summary_vi: Trao đổi ảnh hưởng của phần mềm tới những nhóm người dùng khác nhau.
-  Luyện làm rõ rào cản tiếp cận, độ công bằng và tác động ngoài ý muốn.
+  {
+    en: "Inclusive Products & Responsible Engineering",
+    vi: "Sản phẩm bao trùm & kỹ thuật có trách nhiệm",
+  }
+summary_vi: "Trao đổi ảnh hưởng của phần mềm tới những nhóm người dùng khác nhau. Luyện làm rõ rào cản tiếp cận, độ công bằng và tác động ngoài ý muốn."
 can_do:
-  - Chỉ ra một rào cản sử dụng bằng tình huống cụ thể
-  - Đề xuất cách đánh giá tác động của quyết định sản phẩm
+  - "Chỉ ra một rào cản sử dụng bằng tình huống cụ thể"
+  - "Đề xuất cách đánh giá tác động của quyết định sản phẩm"
 lessons:
   - slug: t24-l1
     kind: vocab
-    title:
-      en: "Set 1: Different user needs"
-      vi: "Bộ 1: Nhu cầu người dùng khác nhau"
+    title: { en: "Set 1: Different user needs", vi: "Bộ 1: Nhu cầu người dùng khác nhau" }
     senses:
-      - t24-end-user-n
-      - t24-target-user-n
-      - t24-need-n
-      - t24-context-n
-      - t24-background-n
-      - t24-digital-literacy-n
-      - t24-disability-n
-      - t24-accessibility-n
-      - t24-inclusive-adj
-      - t24-empathy-n
+      [
+        older-adult-n,
+        impairment-n,
+        caregiver-n,
+        left-handed-adj,
+        eyesight-n,
+        hearing-n,
+        countryside-n,
+        shift-worker-n,
+        first-time-user-n,
+        unmet-adj,
+      ]
     questions: []
   - slug: t24-l2
     kind: vocab
-    title:
-      en: "Set 2: Accessibility barriers"
-      vi: "Bộ 2: Rào cản tiếp cận"
+    title: { en: "Set 2: Accessibility barriers", vi: "Bộ 2: Rào cản tiếp cận" }
     senses:
-      - t24-barrier-n
-      - t24-accessible-adj
-      - t24-screen-reader-n
-      - t24-keyboard-navigation-n
-      - t24-alt-text-n
-      - t24-caption-n
-      - t24-touchscreen-n
-      - t24-contrast-n
-      - t24-legibility-n
-      - t24-font-size-n
-      - t24-focus-indicator-n
-      - t24-assistive-technology-n
+      [
+        accessibility-n-t24,
+        screen-reader-n-t24,
+        contrast-n-t24,
+        keyboard-only-adj,
+        sign-language-n,
+        image-description-n-t24,
+        colour-blind-adj-t24,
+        tap-target-n,
+        barrier-n-t24,
+        assistive-adj,
+        magnifier-n-t24,
+        focus-order-n,
+      ]
     questions: []
   - slug: t24-l3
     kind: vocab
-    title:
-      en: "Set 3: Low-bandwidth experiences"
-      vi: "Bộ 3: Trải nghiệm mạng yếu"
+    title: { en: "Set 3: Low-bandwidth experiences", vi: "Bộ 3: Trải nghiệm mạng yếu" }
     senses:
-      - t24-bandwidth-n
-      - t24-mobile-data-n
-      - t24-connection-n
-      - t24-offline-adj
-      - t24-lag-n
-      - t24-load-v
-      - t24-buffer-v
-      - t24-retry-v
-      - t24-disconnected-adj
-      - t24-outage-n
-      - t24-reconnect-v
-      - t24-resume-v
-      - t24-data-transfer-n
-      - t24-compression-n
+      [
+        low-bandwidth-adj,
+        pay-as-you-go-adj-t24,
+        low-end-device-n,
+        cut-out-pv,
+        spotty-adj,
+        lightweight-adj,
+        shrink-v,
+        skeleton-screen-n-t24,
+        sync-n,
+        queue-up-pv,
+        text-only-adj,
+        offline-mode-n,
+        signal-strength-n,
+        prefetch-v,
+      ]
     questions: []
   - slug: t24-l4
     kind: vocab
-    title:
-      en: "Set 4: Language & literacy"
-      vi: "Bộ 4: Ngôn ngữ & mức dễ hiểu"
+    title: { en: "Set 4: Language & literacy", vi: "Bộ 4: Ngôn ngữ & mức dễ hiểu" }
     senses:
-      - t24-plain-language-n
-      - t24-jargon-n
-      - t24-acronym-n
-      - t24-terminology-n
-      - t24-readability-n
-      - t24-translation-n
-      - t24-machine-translation-n
-      - t24-locale-n
-      - t24-localisation-n
-      - t24-prior-knowledge-n
-      - t24-familiar-with-phr
-      - t24-explain-v
-      - t24-spell-out-pv
-      - t24-wording-n
-      - t24-ambiguous-adj
-      - t24-concise-adj
+      [
+        literacy-n,
+        insider-term-n,
+        everyday-word-n,
+        wording-n-t24,
+        restate-v,
+        interpreter-n,
+        localise-v,
+        reading-level-n-t24,
+        inline-hint-n,
+        confusing-adj,
+        misread-v,
+        step-by-step-adj,
+        second-language-n,
+        sentence-length-n,
+        writing-system-n,
+        break-down-pv,
+      ]
     questions: []
   - slug: t24-l5
     kind: vocab
-    title:
-      en: "Set 5: Fairness in product rules"
-      vi: "Bộ 5: Công bằng trong quy tắc sản phẩm"
+    title: { en: "Set 5: Fairness in product rules", vi: "Bộ 5: Công bằng trong quy tắc sản phẩm" }
     senses:
-      - t24-fairness-n
-      - t24-bias-n
-      - t24-discrimination-n
-      - t24-favouritism-n
-      - t24-exclusion-n
-      - t24-eligibility-n
-      - t24-eligible-adj
-      - t24-rule-n
-      - t24-condition-n
-      - t24-exception-n
-      - t24-case-by-case-adj
-      - t24-transparent-adj
-      - t24-consistent-adj
-      - t24-proportional-adj
-      - t24-equitable-adj
-      - t24-recourse-n
-      - t24-appeal-n
-      - t24-human-review-n
+      [
+        fairness-n-t24,
+        eligibility-n,
+        disadvantage-n,
+        penalise-v,
+        exclude-v,
+        criteria-n,
+        cut-off-n,
+        arbitrary-adj,
+        uneven-adj,
+        appeal-n,
+        exemption-n,
+        let-off-pv,
+        equal-treatment-n,
+        minority-n,
+        marginalised-adj,
+        loophole-n,
+        discriminate-v,
+        level-playing-field-phr,
+      ]
     questions: []
   - slug: t24-l6
     kind: vocab
-    title:
-      en: "Set 6: Bias in data & automation"
-      vi: "Bộ 6: Thiên lệch dữ liệu & tự động hoá"
+    title: { en: "Set 6: Bias in data & automation", vi: "Bộ 6: Thiên lệch dữ liệu & tự động hoá" }
     senses:
-      - t24-algorithm-n
-      - t24-machine-learning-n
-      - t24-artificial-intelligence-n
-      - t24-automation-n
-      - t24-training-data-n
-      - t24-sample-n
-      - t24-representative-adj
-      - t24-cohort-n
-      - t24-data-quality-n
-      - t24-missing-adj
-      - t24-incomplete-adj
-      - t24-outlier-n
-      - t24-false-positive-n
-      - t24-false-negative-n
-      - t24-accuracy-n
-      - t24-precision-n
-      - t24-recall-n
-      - t24-confidence-interval-n
-      - t24-uncertainty-n
-      - t24-limitation-n
+      [
+        biased-adj,
+        confidence-score-n,
+        underrepresented-adj,
+        training-data-n,
+        proxy-n,
+        false-positive-n,
+        misclassify-v,
+        human-in-the-loop-phr,
+        subgroup-n,
+        demographic-n,
+        stereotype-n,
+        overrule-v,
+        presume-v,
+        outlier-n-t24,
+        correlate-v,
+        fairness-check-n,
+        impartial-adj,
+        ground-truth-n,
+        profiling-n,
+        error-rate-n,
+      ]
     questions: []
   - slug: t24-l7
     kind: vocab
-    title:
-      en: "Set 7: User control & consent"
-      vi: "Bộ 7: Quyền kiểm soát & đồng ý"
+    title: { en: "Set 7: User control & consent", vi: "Bộ 7: Quyền kiểm soát & đồng ý" }
     senses:
-      - t24-consent-n
-      - t24-opt-in-v
-      - t24-opt-out-pv
-      - t24-permission-n
-      - t24-privacy-n
-      - t24-personal-data-n
-      - t24-sensitive-information-n
-      - t24-anonymise-v
-      - t24-data-protection-n
-      - t24-retention-n
-      - t24-data-residency-n
-      - t24-access-level-n
-      - t24-user-control-n
-      - t24-withdraw-v
-      - t24-revoke-v
-      - t24-grant-v
-      - t24-delete-v
-      - t24-export-v
-      - t24-portability-n
-      - t24-cookie-n
-      - t24-privacy-policy-n
-      - t24-terms-and-conditions-n
+      [
+        data-sharing-n,
+        opt-in-n,
+        switch-off-pv-t24,
+        privacy-setting-n,
+        take-back-pv,
+        reveal-v,
+        tracking-n,
+        sensitive-data-n,
+        on-by-default-phr,
+        dark-pattern-n,
+        cookie-banner-n,
+        export-v,
+        terms-of-service-n,
+        granular-adj-t24,
+        fine-print-n,
+        informed-adj,
+        data-retention-n,
+        de-identify-v,
+        erase-v,
+        agree-to-phr,
+        control-over-phr,
+        permission-prompt-n,
+      ]
     questions: []
   - slug: t24-l8
     kind: vocab
-    title:
-      en: "Set 8: Unintended consequences"
-      vi: "Bộ 8: Hệ quả ngoài ý muốn"
+    title: { en: "Set 8: Unintended consequences", vi: "Bộ 8: Hệ quả ngoài ý muốn" }
     senses:
-      - t24-consequence-n
-      - t24-unintended-adj
-      - t24-knock-on-effect-n
-      - t24-side-effect-n
-      - t24-user-impact-n
-      - t24-vulnerable-adj
-      - t24-exposure-n
-      - t24-risk-factor-n
-      - t24-potential-harm-n
-      - t24-safeguard-n
-      - t24-mitigation-n
-      - t24-risk-assessment-n
-      - t24-foresee-v
-      - t24-scenario-n
-      - t24-worst-case-adj
-      - t24-oversight-n
-      - t24-blind-spot-n
-      - t24-assumption-n
-      - t24-misinterpret-v
-      - t24-stigma-n
-      - t24-harassment-n
-      - t24-surveillance-n
-      - t24-digital-divide-n
-      - t24-information-overload-n
+      [
+        unforeseen-adj-t24,
+        by-product-n,
+        backfire-v,
+        misuse-n,
+        harassment-n-t24,
+        compulsive-adj,
+        ripple-effect-n,
+        doxxing-n,
+        vulnerable-adj-t24,
+        foreseeable-adj,
+        echo-chamber-n,
+        displace-v,
+        protective-measure-n,
+        balancing-act-n-t24,
+        over-time-phr,
+        isolation-n,
+        misinformation-n,
+        amplify-v,
+        polarise-v,
+        gig-worker-n,
+        livelihood-n,
+        stalking-n,
+        downstream-adj-t24,
+        worst-case-adj-t24,
+      ]
     questions: []
   - slug: t24-l9
     kind: vocab
-    title:
-      en: "Set 9: Responsible rollout"
-      vi: "Bộ 9: Triển khai có trách nhiệm"
+    title: { en: "Set 9: Responsible rollout", vi: "Bộ 9: Triển khai có trách nhiệm" }
     senses:
-      - t24-pilot-n
-      - t24-beta-tester-n
-      - t24-early-adopter-n
-      - t24-roll-out-pv
-      - t24-feature-flag-n
-      - t24-kill-switch-n
-      - t24-rollback-n
-      - t24-incremental-adj
-      - t24-traffic-split-n
-      - t24-holdout-n
-      - t24-guardrail-metric-n
-      - t24-threshold-n
-      - t24-alert-n
-      - t24-monitoring-n
-      - t24-notify-v
-      - t24-severity-n
-      - t24-incident-n
-      - t24-escalate-v
-      - t24-runbook-n
-      - t24-owner-n
-      - t24-responsibility-n
-      - t24-on-call-adj
-      - t24-coverage-n
-      - t24-contingency-n
-      - t24-readiness-n
-      - t24-feedback-n
-      - t24-complaint-n
-      - t24-report-v
+      [
+        launch-plan-n,
+        test-group-n,
+        phased-adj,
+        cohort-n-t24,
+        usage-cap-n,
+        halt-v,
+        stop-condition-n,
+        watch-over-pv,
+        retire-v,
+        impact-assessment-n,
+        affected-party-n,
+        go-ahead-n,
+        flag-up-pv-t24,
+        incident-n,
+        lessen-v,
+        legally-responsible-adj,
+        oversight-n-t24,
+        ethics-review-n,
+        ethical-adj,
+        regulator-n,
+        legal-requirement-n,
+        readiness-n,
+        beta-tester-n-t24,
+        canary-release-n,
+        undo-v-t24,
+        fallback-plan-n,
+        success-metric-n,
+        red-flag-n,
+      ]
     questions: []
   - slug: t24-l10
     kind: vocab
-    title:
-      en: "Set 10: An inclusive product review"
-      vi: "Bộ 10: Đánh giá sản phẩm bao trùm"
+    title: { en: "Set 10: An inclusive product review", vi: "Bộ 10: Đánh giá sản phẩm bao trùm" }
     senses:
-      - t24-inclusive-design-n
-      - t24-user-research-n
-      - t24-usability-test-n
-      - t24-acceptance-criteria-n
-      - t24-definition-of-done-n
-      - t24-evidence-n
-      - t24-observation-n
-      - t24-finding-n
-      - t24-insight-n
-      - t24-compare-v
-      - t24-alternative-n
-      - t24-option-n
-      - t24-benefit-n
-      - t24-drawback-n
-      - t24-trade-off-n
-      - t24-priority-n
-      - t24-effort-n
-      - t24-cost-n
-      - t24-budget-n
-      - t24-timeline-n
-      - t24-milestone-n
-      - t24-stakeholder-n
-      - t24-reviewer-n
-      - t24-consult-v
-      - t24-inform-v
-      - t24-accountable-adj
-      - t24-take-ownership-phr
-      - t24-action-item-n
-      - t24-follow-up-n
-      - t24-review-date-n
-      - t24-data-driven-adj
-      - t24-corroborate-v
-      - t24-substantiate-v
-      - t24-inconclusive-adj
-      - t24-recommendation-n
-      - t24-decision-record-n
+      [
+        inclusive-adj-t24,
+        equity-n,
+        diversity-n,
+        representation-n,
+        intersectionality-n,
+        empathy-n-t24,
+        lived-experience-n,
+        advocate-n,
+        underserved-adj,
+        socioeconomic-adj,
+        access-gap-n,
+        affordability-n,
+        dignity-n,
+        self-determination-n,
+        inequality-n,
+        systemic-adj,
+        societal-adj,
+        suggested-change-n,
+        supporting-data-n,
+        observation-n,
+        rank-v-t24,
+        low-hanging-fruit-phr,
+        underlying-adj-t24,
+        recurring-adj-t24,
+        hearsay-n,
+        trackable-adj,
+        reference-point-n,
+        majority-view-n,
+        reasonable-adjustment-n,
+        co-design-v,
+        user-research-n,
+        interviewee-n,
+        persona-n,
+        gist-n,
+        action-plan-n,
+        re-examine-v,
+      ]
     questions: []

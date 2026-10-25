@@ -1,2438 +1,3458 @@
-# Developer vocabulary: Focus, Movement & Sustainable Routines. Original definitions and curated examples.
-- slug: t14-warm-up-pv
-  lemma: warm up
-  pos: phrasal_verb
-  kind: phrasal
-  cefr: B1
-  topic: active-life
-  ipa: /ˌwɔːm ˈʌp/
-  def: To do gentle exercise to prepare your body before harder exercise.
-  vi: khởi động (trước khi tập)
-  forms:
-    - warms up
-    - warmed up
-    - warming up
-    - warm-up
-  examples:
-    - en: Always warm up for five minutes before you run.
-      vi: Luôn khởi động năm phút trước khi chạy.
-- slug: t14-stretch-v
-  lemma: stretch
-  pos: verb
-  cefr: B1
-  topic: active-life
-  ipa: /stretʃ/
-  def: To make your arms, legs or body as long as possible to loosen your muscles.
-  vi: giãn cơ, vươn người
-  forms:
-    - stretches
-    - stretched
-    - stretching
-  examples:
-    - en: I stand up and stretch every time my build is running.
-      vi: Mỗi lần chờ build chạy là mình đứng dậy giãn cơ.
-- slug: t14-jog-v
-  lemma: jog
-  pos: verb
-  cefr: A2
-  topic: active-life
-  ipa: /dʒɒɡ/
-  def: To run slowly and steadily for exercise.
-  vi: chạy bộ chậm
-  forms:
-    - jogs
-    - jogged
-    - jogging
-  examples:
-    - en: We go jogging around the lake before work.
-      vi: Tụi mình chạy bộ quanh hồ trước giờ làm.
-- slug: t14-take-the-stairs-phr
-  lemma: take the stairs
-  pos: phrase
-  kind: phrase
-  cefr: A2
-  topic: active-life
-  ipa: /ˌteɪk ðə ˈsteəz/
-  def: To walk up or down the stairs instead of using the lift.
-  vi: đi thang bộ
-  forms:
-    - takes the stairs
-    - took the stairs
-    - taking the stairs
-  examples:
-    - en: I take the stairs to the eighth floor every morning.
-      vi: Sáng nào mình cũng đi thang bộ lên tầng tám.
-- slug: t14-sedentary-adj
-  lemma: sedentary
-  pos: adjective
-  cefr: C1
-  topic: active-life
-  ipa: /ˈsedntri/
-  def: Involving a lot of sitting and very little physical activity.
-  vi: ít vận động
-  examples:
-    - en: Developers often have a sedentary lifestyle, so short walks matter.
-      vi: Lập trình viên thường có lối sống ít vận động nên những lần đi bộ ngắn rất
-        quan trọng.
-- slug: t14-posture-n
-  lemma: posture
-  pos: noun
-  cefr: B1
-  topic: active-life
-  ipa: /ˈpɒstʃə/
-  def: The way you hold your body when you sit or stand.
-  vi: tư thế (ngồi, đứng)
-  examples:
-    - en: Raise your monitor to improve your posture.
-      vi: Kê màn hình cao lên để cải thiện tư thế ngồi.
-- slug: t14-muscle-n
-  lemma: muscle
-  pos: noun
-  cefr: B1
-  topic: active-life
-  ipa: /ˈmʌsl/
-  def: One of the parts inside your body that tighten and relax to make you move.
-  vi: cơ bắp
-  forms:
-    - muscles
-  examples:
-    - en: Sitting all day makes the muscles in your back weak.
-      vi: Ngồi cả ngày làm cơ lưng yếu đi.
-- slug: t14-in-shape-phr
-  lemma: in shape
-  pos: phrase
-  kind: phrase
-  cefr: B1
-  topic: active-life
-  ipa: /ɪn ˈʃeɪp/
-  def: Physically fit and healthy. The opposite is 'out of shape'.
-  vi: có thể lực tốt, cân đối
-  forms:
-    - in good shape
-    - get in shape
-    - stay in shape
-  examples:
-    - en: I want to get in shape before the company trip to Sa Pa.
-      vi: Mình muốn lấy lại thể lực trước chuyến đi Sa Pa của công ty.
-- slug: t14-work-out-pv
-  lemma: work out
-  pos: phrasal_verb
-  kind: phrasal
-  cefr: A2
-  topic: active-life
-  ipa: /wɜːk ˈaʊt/
-  def: To do physical exercise to stay fit and strong.
-  vi: tập thể dục, tập gym
-  forms:
-    - works out
-    - worked out
-    - working out
-    - workout
-  examples:
-    - en: I work out at the gym three times a week after work.
-      vi: Mình tập gym ba buổi một tuần sau giờ làm.
-- slug: t14-fitness-tracker-n
-  lemma: fitness tracker
-  pos: noun
-  kind: collocation
-  cefr: B1
-  topic: active-life
-  ipa: /ˈfɪtnəs ˌtrækə/
-  def: A small device, often worn on the wrist, that counts your steps, heart rate
-    and sleep.
-  vi: vòng đeo theo dõi sức khoẻ
-  forms:
-    - fitness trackers
-  examples:
-    - en: My fitness tracker says I only walked 900 steps today.
-      vi: Vòng theo dõi sức khoẻ báo hôm nay mình chỉ đi được 900 bước.
-- slug: t14-take-a-break-phr
-  lemma: take a break
-  pos: phrase
-  kind: phrase
-  cefr: A2
-  topic: active-life
-  ipa: /teɪk ə ˈbreɪk/
-  def: To stop working or doing something for a short time to rest.
-  vi: nghỉ giải lao
-  forms:
-    - takes a break
-    - took a break
-    - taking a break
-  examples:
-    - en: Let's take a break and come back to this bug in ten minutes.
-      vi: Nghỉ giải lao chút rồi mười phút nữa quay lại con bug này nhé.
-- slug: t14-lunch-break-n
-  lemma: lunch break
-  pos: noun
-  kind: collocation
-  cefr: A2
-  topic: active-life
-  ipa: /ˈlʌntʃ ˌbreɪk/
-  def: The time in the middle of the day when you stop work to eat.
-  vi: giờ nghỉ trưa
-  forms:
-    - lunch breaks
-    - lunchtime
-  examples:
-    - en: Many people take a short nap during the lunch break.
-      vi: Nhiều người chợp mắt một chút trong giờ nghỉ trưa.
-- slug: t14-screen-time-n
-  lemma: screen time
-  pos: noun
-  kind: collocation
-  cefr: B1
-  topic: active-life
-  ipa: /ˈskriːn taɪm/
-  def: The amount of time you spend looking at a phone, computer or TV.
-  vi: thời gian dùng màn hình
-  examples:
-    - en: My screen time was nine hours yesterday, not counting work.
-      vi: Hôm qua thời gian dùng màn hình của mình là chín tiếng, chưa tính giờ làm.
-- slug: t14-eye-strain-n
-  lemma: eye strain
-  pos: noun
-  kind: collocation
-  cefr: B1
-  topic: active-life
-  ipa: /ˈaɪ streɪn/
-  def: Tired, sore eyes, for example after looking at a screen for too long.
-  vi: mỏi mắt
-  forms:
-    - eyestrain
-  examples:
-    - en: Dark mode helps a little with eye strain at night.
-      vi: Chế độ tối giúp đỡ mỏi mắt một chút vào ban đêm.
-- slug: t14-headache-n
-  lemma: headache
-  pos: noun
-  cefr: A2
-  topic: active-life
-  ipa: /ˈhedeɪk/
-  def: A pain in your head.
-  vi: cơn đau đầu
-  forms:
-    - headaches
-  note: Nói "I have a headache", không nói "I am headache".
-  examples:
-    - en: I have a headache after staring at logs all morning.
-      vi: Mình bị đau đầu sau cả buổi sáng nhìn log.
-- slug: t14-stay-hydrated-phr
-  lemma: stay hydrated
-  pos: phrase
-  kind: phrase
-  cefr: B1
-  topic: active-life
-  ipa: /steɪ haɪˈdreɪtɪd/
-  def: To drink enough water during the day.
-  vi: uống đủ nước
-  forms:
-    - stays hydrated
-    - stayed hydrated
-    - staying hydrated
-  examples:
-    - en: Keep a bottle on your desk to stay hydrated.
-      vi: Để một chai nước trên bàn để uống đủ nước nhé.
-- slug: t14-notification-n
-  lemma: notification
-  pos: noun
-  cefr: B1
-  topic: active-life
-  ipa: /ˌnəʊtɪfɪˈkeɪʃn/
-  def: A short message from an app that tells you something new has happened.
-  vi: thông báo
-  forms:
-    - notifications
-    - notify
-  examples:
-    - en: I turn off notifications when I need to focus.
-      vi: Mình tắt thông báo khi cần tập trung.
-- slug: t14-mute-v
-  lemma: mute
-  pos: verb
-  cefr: B1
-  topic: active-life
-  ipa: /mjuːt/
-  def: To stop sounds or alerts from a chat, app or microphone.
-  vi: tắt tiếng
-  examples:
-    - en: I mute the team channel at weekends.
-      vi: Cuối tuần mình tắt tiếng channel của nhóm.
-- slug: t14-wind-down-pv
-  lemma: wind down
-  pos: phrasal_verb
-  kind: phrasal
-  cefr: B2
-  topic: active-life
-  ipa: /waɪnd ˈdaʊn/
-  def: To relax slowly after a busy or stressful time.
-  vi: thư giãn dần, xả hơi
-  forms:
-    - winds down
-    - wound down
-    - winding down
-  note: Ở đây "wind" đọc là /waɪnd/, không phải /wɪnd/ (gió).
-  examples:
-    - en: I read a book to wind down before bed.
-      vi: Mình đọc sách để thư giãn trước khi ngủ.
-- slug: t14-disconnect-v
-  lemma: disconnect
-  pos: verb
-  cefr: B2
-  topic: active-life
-  ipa: /ˌdɪskəˈnekt/
-  def: To stop being connected to the internet, or to take a break from work and
-    screens.
-  vi: ngắt kết nối
-  forms:
-    - disconnects
-    - disconnected
-    - disconnecting
-  examples:
-    - en: On holiday, I try to disconnect completely from work chats.
-      vi: Khi đi nghỉ, mình cố ngắt kết nối hoàn toàn khỏi các nhóm chat công việc.
-- lemma: short break
-  pos: noun
-  vi: khoảng nghỉ ngắn
-  def: A brief pause in work or another activity.
-  examples:
-    - en: Let's take a short break before the next review.
-  slug: t14-short-break-n
-  topic: active-life
-  cefr: B1
-  kind: collocation
-- lemma: rest
-  pos: noun
-  vi: sự nghỉ ngơi
-  def: Time spent recovering without demanding work.
-  examples:
-    - en: Plan enough rest after an overnight incident.
-  slug: t14-rest-n
-  topic: active-life
-  cefr: B1
-- lemma: focus time
-  pos: noun
-  vi: khoảng thời gian tập trung
-  def: Time reserved for working without interruptions.
-  examples:
-    - en: I have focus time until ten, but you can call for an incident.
-  slug: t14-focus-time-n
-  topic: active-life
-  cefr: B1
-  kind: collocation
-- slug: t14-do-not-disturb-n
-  lemma: do not disturb
-  pos: noun
-  kind: collocation
-  cefr: B1
-  topic: active-life
-  ipa: /ˌduː nɒt dɪˈstɜːb/
-  def: A setting that stops calls and alerts for a time.
-  vi: chế độ không làm phiền
-  examples:
-    - en: My chat is on do not disturb after 8 pm.
-      vi: Sau 8 giờ tối chat của mình bật chế độ không làm phiền.
-- slug: t14-attention-span-n
-  lemma: attention span
-  pos: noun
-  kind: collocation
-  cefr: C1
-  topic: active-life
-  ipa: /əˈtenʃn spæn/
-  def: How long you can focus on one thing before you lose interest.
-  vi: khả năng tập trung (trong một khoảng thời gian)
-  forms:
-    - attention spans
-  examples:
-    - en: My attention span is so short that I can't finish a long article.
-      vi: Khả năng tập trung của mình kém đến mức không đọc hết nổi một bài báo dài.
-- slug: t14-distraction-n
-  lemma: distraction
-  pos: noun
-  cefr: B1
-  topic: active-life
-  ipa: /dɪˈstrækʃn/
-  def: Something that takes your attention away from what you are doing.
-  vi: điều gây xao nhãng
-  examples:
-    - en: Phone notifications are my biggest distraction.
-      vi: Thông báo điện thoại là thứ làm mình xao nhãng nhất.
-- slug: t14-interrupt-v
-  lemma: interrupt
-  pos: verb
-  cefr: B1
-  topic: active-life
-  ipa: /ˌɪntəˈrʌpt/
-  def: To stop someone while they are speaking or working.
-  vi: ngắt lời, làm gián đoạn
-  forms:
-    - interrupts
-    - interrupted
-    - interrupting
-    - interruption
-  examples:
-    - en: Sorry to interrupt, but the client is on the line.
-      vi: Xin lỗi vì ngắt lời, nhưng khách hàng đang chờ máy.
-- slug: t14-urgent-adj
-  lemma: urgent
-  pos: adjective
-  cefr: B1
-  topic: active-life
-  ipa: /ˈɜːdʒənt/
-  def: Needing attention or action immediately.
-  vi: khẩn cấp
-  examples:
-    - en: If it's urgent, call me; otherwise it can wait until Monday.
-      vi: Nếu gấp thì gọi mình, còn không thì để đến thứ Hai.
-- slug: t14-core-hours-n
-  lemma: core hours
-  pos: noun
-  kind: collocation
-  cefr: B2
-  topic: active-life
-  ipa: /ˈkɔː(r) ˌaʊəz/
-  def: The part of the day when everyone on a team must be available.
-  vi: giờ làm việc bắt buộc chung
-  examples:
-    - en: Our core hours are 10 to 3; the rest is up to you.
-      vi: Giờ chung bắt buộc là 10 đến 3 giờ; thời gian còn lại tùy bạn.
-- slug: t14-availability-n
-  lemma: availability
-  pos: noun
-  cefr: B1
-  topic: active-life
-  ipa: /əˌveɪləˈbɪləti/
-  def: The times when you are free to work, meet or answer.
-  vi: thời gian rảnh/có thể làm việc
-  examples:
-    - en: Please add your availability to the shared calendar.
-      vi: Bạn thêm thời gian có thể làm việc vào lịch chung nhé.
-- slug: t14-reachable-adj
-  lemma: reachable
-  pos: adjective
-  cefr: B1
-  topic: active-life
-  ipa: /ˈriːtʃəbl/
-  def: Possible to contact, for example by phone or message.
-  vi: có thể liên lạc được
-  examples:
-    - en: I'm reachable by phone if production goes down.
-      vi: Nếu production sập thì có thể gọi điện cho mình.
-- slug: t14-ping-v
-  lemma: ping
-  pos: verb
-  cefr: B1
-  topic: active-life
-  ipa: /pɪŋ/
-  def: To send someone a short message on chat.
-  vi: nhắn (ai đó)
-  examples:
-    - en: Ping me before six if you need a review today.
-      vi: Nếu cần review trong hôm nay thì nhắn mình trước sáu giờ.
-- slug: t14-time-management-n
-  lemma: time management
-  pos: noun
-  kind: collocation
-  cefr: B2
-  topic: active-life
-  ipa: /ˈtaɪm ˌmænɪdʒmənt/
-  def: The ability to plan and use your time well.
-  vi: quản lý thời gian
-  forms:
-    - manage your time
-  examples:
-    - en: Time management is hard when you have meetings all day.
-      vi: Quản lý thời gian rất khó khi bạn phải họp cả ngày.
-- slug: t14-prioritize-v
-  lemma: prioritize
-  pos: verb
-  cefr: B1
-  topic: active-life
-  ipa: /praɪˈɒrətaɪz/
-  def: To decide which things are most important and do them first.
-  vi: ưu tiên, sắp xếp thứ tự ưu tiên
-  forms:
-    - prioritizes
-    - prioritized
-    - prioritizing
-    - prioritise
-  examples:
-    - en: We need to prioritize the payment bug over the new design.
-      vi: Mình cần ưu tiên lỗi thanh toán trước thiết kế mới.
-- slug: t14-to-do-list-n
-  lemma: to-do list
-  pos: noun
-  kind: collocation
-  cefr: A2
-  topic: active-life
-  ipa: /təˈduː ˌlɪst/
-  def: A list of the things you need to do.
-  vi: danh sách việc cần làm
-  forms:
-    - to-do lists
-  examples:
-    - en: I write a to-do list every morning before I open Slack.
-      vi: Sáng nào mình cũng viết danh sách việc cần làm trước khi mở Slack.
-- slug: t14-productive-adj
-  lemma: productive
-  pos: adjective
-  cefr: B1
-  topic: active-life
-  ipa: /prəˈdʌktɪv/
-  def: Getting a lot of useful work done.
-  vi: làm việc hiệu quả, năng suất
-  forms:
-    - productivity
-    - more productive
-  examples:
-    - en: I am more productive in the morning than after lunch.
-      vi: Buổi sáng mình làm việc năng suất hơn sau bữa trưa.
-- slug: t14-exhausted-adj
-  lemma: exhausted
-  pos: adjective
-  cefr: B1
-  topic: active-life
-  ipa: /ɪɡˈzɔːstɪd/
-  def: Extremely tired.
-  vi: kiệt sức, mệt rã rời
-  forms:
-    - exhausting
-    - exhaustion
-  examples:
-    - en: I was exhausted after the all-night incident call.
-      vi: Mình mệt rã rời sau cuộc gọi xử lý sự cố suốt đêm.
-- slug: t14-recover-v
-  lemma: recover
-  pos: verb
-  cefr: B1
-  topic: active-life
-  ipa: /rɪˈkʌvə/
-  def: To become healthy again after being ill or tired.
-  vi: hồi phục
-  forms:
-    - recovers
-    - recovered
-    - recovering
-    - recovery
-  examples:
-    - en: Take a few days off to recover properly.
-      vi: Nghỉ vài ngày để hồi phục hẳn nhé.
-- slug: t14-recovery-n
-  lemma: recovery
-  pos: noun
-  cefr: B2
-  topic: active-life
-  ipa: /rɪˈkʌvəri/
-  def: The process of becoming healthy again after an illness or injury.
-  vi: quá trình hồi phục
-  forms:
-    - recoveries
-  examples:
-    - en: We all wish you a quick recovery, and don't worry about the sprint.
-      vi: Cả nhóm chúc bạn mau hồi phục, đừng lo chuyện sprint nhé.
-- slug: t14-sleep-deprived-adj
-  lemma: sleep-deprived
-  pos: adjective
-  cefr: C1
-  topic: active-life
-  ipa: /ˈsliːp dɪˌpraɪvd/
-  def: Very tired because you have not had enough sleep for some time.
-  vi: thiếu ngủ trầm trọng
-  forms:
-    - sleep deprived
-  examples:
-    - en: Sleep-deprived engineers ship more bugs.
-      vi: Kỹ sư thiếu ngủ thì đẩy lên nhiều bug hơn.
-- slug: t14-burnout-n
-  lemma: burnout
-  pos: noun
-  cefr: B2
-  topic: active-life
-  ipa: /ˈbɜːnaʊt/
-  def: Feeling completely tired and unable to work because of too much stress for
-    a long time.
-  vi: tình trạng kiệt sức (vì công việc)
-  keep_en: true
-  forms:
-    - burned out
-    - burnt out
-  examples:
-    - en: After three months of overtime, half the team had burnout.
-      vi: Sau ba tháng tăng ca, nửa team bị burnout.
-- slug: t14-overwork-v
-  lemma: overwork
-  pos: verb
-  cefr: B2
-  topic: active-life
-  ipa: /ˌəʊvəˈwɜːk/
-  def: To work too much, or make someone work too much.
-  vi: làm việc quá sức
-  examples:
-    - en: Please don't overwork to hit this deadline.
-      vi: Đừng làm quá sức để kịp deadline này nhé.
-- slug: t14-downtime-n
-  lemma: downtime
-  pos: noun
-  cefr: C1
-  topic: active-life
-  ipa: /ˈdaʊntaɪm/
-  def: Time when you rest and do not work.
-  vi: thời gian nghỉ ngơi
-  examples:
-    - en: Everyone needs some downtime after a big launch.
-      vi: Ai cũng cần thời gian nghỉ ngơi sau một đợt ra mắt lớn.
-- slug: t14-well-being-n
-  lemma: well-being
-  pos: noun
-  cefr: B2
-  topic: active-life
-  ipa: /ˈwel biːɪŋ/
-  def: The state of being healthy, comfortable and happy.
-  vi: sự khoẻ mạnh, an vui (thể chất và tinh thần)
-  forms:
-    - wellbeing
-  examples:
-    - en: The new policy puts employee well-being before overtime.
-      vi: Chính sách mới đặt sức khoẻ và hạnh phúc của nhân viên lên trên việc làm
-        thêm giờ.
-- slug: t14-work-life-balance-n
-  lemma: work-life balance
-  pos: noun
-  kind: collocation
-  cefr: B1
-  topic: active-life
-  ipa: /ˌwɜːk ˈlaɪf ˌbæləns/
-  def: A healthy mix of time for your job and time for your family, rest and
-    hobbies.
-  vi: cân bằng giữa công việc và cuộc sống
-  examples:
-    - en: Good work-life balance means not reading Slack at midnight.
-      vi: Cân bằng công việc và cuộc sống là không đọc Slack lúc nửa đêm.
-- slug: t14-pressure-n
-  lemma: pressure
-  pos: noun
-  cefr: B1
-  topic: active-life
-  ipa: /ˈpreʃə(r)/
-  def: A feeling that you must do something, which can make you worried.
-  vi: áp lực
-  examples:
-    - en: There's no pressure to talk about it.
-      vi: Không có áp lực phải kể đâu.
-- slug: t14-cope-with-pv
-  lemma: cope with
-  pos: phrasal_verb
-  kind: phrasal
-  cefr: B2
-  topic: active-life
-  ipa: /ˈkəʊp wɪð/
-  def: To deal successfully with a difficult situation or feeling.
-  vi: đương đầu với, đối phó với
-  forms:
-    - copes with
-    - coped with
-    - coping with
-  examples:
-    - en: Everyone copes with stress differently; I go for a long walk.
-      vi: Mỗi người đối phó với căng thẳng một kiểu; mình thì đi bộ thật lâu.
-- slug: t14-self-care-n
-  lemma: self-care
-  pos: noun
-  cefr: B2
-  topic: active-life
-  ipa: /ˌself ˈkeə/
-  def: Things you do to keep your body and mind healthy and calm.
-  vi: việc tự chăm sóc bản thân
-  examples:
-    - en: For me, self-care means a long walk and no phone on Sundays.
-      vi: Với mình, tự chăm sóc bản thân là đi bộ thật lâu và không dùng điện thoại
-        vào Chủ nhật.
-- slug: t14-support-network-n
-  lemma: support network
-  pos: noun
-  kind: collocation
-  cefr: C1
-  topic: active-life
-  ipa: /səˈpɔːt ˌnetwɜːk/
-  def: The family, friends and others you can depend on for help.
-  vi: mạng lưới người hỗ trợ (gia đình, bạn bè)
-  forms:
-    - support networks
-  examples:
-    - en: Moving to a new city, I had to build a support network from zero.
-      vi: Chuyển đến thành phố mới, mình phải gây dựng chỗ dựa từ con số không.
-- slug: t14-stamina-n
-  lemma: stamina
-  pos: noun
-  cefr: B2
-  topic: active-life
-  ipa: /ˈstæmɪnə/
-  def: The physical or mental strength to keep doing something for a long time.
-  vi: sức bền
-  examples:
-    - en: Swimming three times a week has really built up my stamina.
-      vi: Bơi ba buổi một tuần thật sự đã tăng sức bền cho mình.
-- slug: t14-bounce-back-pv
-  lemma: bounce back
-  pos: phrasal_verb
-  kind: phrasal
-  cefr: B2
-  topic: active-life
-  ipa: /ˌbaʊns ˈbæk/
-  def: To become healthy, happy or successful again after a difficult time.
-  vi: lấy lại phong độ, vực dậy
-  forms:
-    - bounces back
-    - bounced back
-    - bouncing back
-  examples:
-    - en: After a quiet holiday, she bounced back full of energy.
-      vi: Sau một kỳ nghỉ yên tĩnh, cô ấy đã vực dậy, tràn đầy năng lượng.
-- slug: t14-on-call-adj
-  lemma: on-call
-  pos: adjective
-  cefr: B2
-  topic: active-life
-  ipa: /ˌɒn ˈkɔːl/
-  def: Ready to be contacted and fix urgent problems outside normal hours.
-  vi: trực sự cố
-  examples:
-    - en: Tuan is on-call during the holiday weekend.
-      vi: Tuấn trực sự cố trong cuối tuần nghỉ lễ.
-- slug: t14-set-a-goal-phr
-  lemma: set a goal
-  pos: phrase
-  kind: phrase
-  cefr: B1
-  topic: active-life
-  ipa: /ˌset ə ˈɡəʊl/
-  def: To decide on something you want to achieve.
-  vi: đặt mục tiêu
-  forms:
-    - set goals
-    - sets a goal
-    - setting goals
-    - set clear goals
-  examples:
-    - en: This quarter we set a goal of cutting page load time in half.
-      vi: Quý này bọn mình đặt mục tiêu giảm một nửa thời gian tải trang.
-- slug: t14-realistic-adj
-  lemma: realistic
-  pos: adjective
-  cefr: B1
-  topic: active-life
-  ipa: /ˌriːəˈlɪstɪk/
-  def: Possible to do, given your time and situation.
-  vi: thực tế, khả thi
-  examples:
-    - en: Two hours a week is a realistic target for me.
-      vi: Hai tiếng mỗi tuần là mục tiêu khả thi với mình.
-- slug: t14-achievable-adj
-  lemma: achievable
-  pos: adjective
-  cefr: B2
-  topic: active-life
-  ipa: /əˈtʃiːvəbl/
-  def: Possible to reach with the time and people you have.
-  vi: có thể đạt được
-  examples:
-    - en: Is a 20% cut achievable by June?
-      vi: Cắt giảm 20% trước tháng Sáu có đạt được không?
-- slug: t14-milestone-n
-  lemma: milestone
-  pos: noun
-  cefr: B2
-  topic: active-life
-  ipa: /ˈmaɪlstəʊn/
-  def: An important point or stage in a project.
-  vi: cột mốc (của dự án)
-  forms:
-    - milestones
-  examples:
-    - en: The first milestone is a working login page by the end of May.
-      vi: Cột mốc đầu tiên là trang đăng nhập chạy được vào cuối tháng Năm.
-- slug: t14-timeline-n
-  lemma: timeline
-  pos: noun
-  cefr: B2
-  topic: active-life
-  ipa: /ˈtaɪmlaɪn/
-  def: A plan that shows when each part of a project will happen.
-  vi: mốc thời gian, lịch trình dự án
-  forms:
-    - timelines
-  examples:
-    - en: The timeline looks tight, but we can do it if nobody is sick.
-      vi: Lịch trình khá gấp, nhưng nếu không ai ốm thì bọn mình làm kịp.
-- slug: t14-commitment-n
-  lemma: commitment
-  pos: noun
-  cefr: B1
-  topic: active-life
-  ipa: /kəˈmɪtmənt/
-  def: Something you have promised to do that takes your time.
-  vi: việc đã cam kết, trách nhiệm
-  examples:
-    - en: I have a family commitment on Thursday evening.
-      vi: Tối thứ Năm mình có việc gia đình.
-- lemma: small step
-  pos: noun
-  vi: bước tiến nhỏ
-  def: A modest action that helps reach a larger goal.
-  examples:
-    - en: A daily walk is a small step toward a healthier routine.
-  slug: t14-small-step-n
-  topic: active-life
-  cefr: B1
-  kind: collocation
-- lemma: starting point
-  pos: noun
-  vi: điểm khởi đầu
-  def: The initial position or condition for further progress.
-  examples:
-    - en: Record your current routine as a starting point.
-  slug: t14-starting-point-n
-  topic: active-life
-  cefr: B1
-  kind: collocation
-- lemma: target
-  pos: noun
-  vi: mức hoặc kết quả đặt ra
-  def: A result or level someone aims to reach.
-  examples:
-    - en: Set a realistic target for the next iteration.
-  slug: t14-target-n
-  topic: active-life
-  cefr: B1
-- slug: t14-consistent-adj
-  lemma: consistent
-  pos: adjective
-  cefr: B1
-  topic: active-life
-  ipa: /kənˈsɪstənt/
-  def: Always done in the same way.
-  vi: nhất quán
-  examples:
-    - en: Consistent error messages make the logs easier to search.
-      vi: Thông báo lỗi nhất quán giúp tìm trong log dễ hơn.
-- slug: t14-in-moderation-phr
-  lemma: in moderation
-  pos: phrase
-  kind: phrase
-  cefr: C1
-  topic: active-life
-  ipa: /ɪn ˌmɒdəˈreɪʃn/
-  def: In reasonable amounts, not too much.
-  vi: có chừng mực, điều độ
-  examples:
-    - en: Coffee is fine in moderation, but six cups a day is too many.
-      vi: Cà phê uống điều độ thì không sao, nhưng sáu cốc một ngày là quá nhiều.
-- slug: t14-keep-track-of-phr
-  lemma: keep track of
-  pos: phrase
-  kind: phrase
-  cefr: B2
-  topic: active-life
-  ipa: /ˌkiːp ˈtræk əv/
-  def: To keep checking and recording what is happening with something.
-  vi: theo dõi (sát)
-  forms:
-    - keeps track of
-    - kept track of
-    - keeping track of
-  examples:
-    - en: We use a Kanban board to keep track of every task.
-      vi: Bọn mình dùng bảng Kanban để theo dõi từng đầu việc.
-- slug: t14-motivation-n
-  lemma: motivation
-  pos: noun
-  cefr: B2
-  topic: active-life
-  ipa: /ˌməʊtɪˈveɪʃn/
-  def: The reason why someone wants to do something.
-  vi: động lực, lý do
-  examples:
-    - en: The motivation for this change is a recent security incident.
-      vi: Lý do của thay đổi này là một sự cố bảo mật gần đây.
-- slug: t14-trial-period-n
-  lemma: trial period
-  pos: noun
-  kind: collocation
-  cefr: B2
-  topic: active-life
-  ipa: /ˈtraɪəl ˌpɪəriəd/
-  def: A short time when you test a new idea to see if it works.
-  vi: thời gian thử
-  examples:
-    - en: We'll try the four-day week for a trial period of six weeks.
-      vi: Mình sẽ thử tuần làm bốn ngày trong sáu tuần.
-- slug: t14-flexible-adj
-  lemma: flexible
-  pos: adjective
-  cefr: B1
-  topic: active-life
-  ipa: /ˈfleksəbl/
-  def: Able to change easily to suit different needs.
-  vi: linh hoạt
-  examples:
-    - en: The team is flexible about start times as long as we join stand-up.
-      vi: Nhóm linh hoạt về giờ bắt đầu, miễn là vào stand-up.
-- slug: t14-adjust-v
-  lemma: adjust
-  pos: verb
-  cefr: B1
-  topic: active-life
-  ipa: /əˈdʒʌst/
-  def: To change something a little so that it works better.
-  vi: điều chỉnh
-  examples:
-    - en: We adjusted the plan after the team changed.
-      vi: Bọn mình điều chỉnh kế hoạch sau khi nhóm thay đổi.
-- slug: t14-short-term-adj
-  lemma: short-term
-  pos: adjective
-  cefr: B1
-  topic: active-life
-  ipa: /ˌʃɔːt ˈtɜːm/
-  def: Lasting or planned for only a short time.
-  vi: ngắn hạn
-  examples:
-    - en: Let's set three short-term goals for this sprint.
-      vi: Mình đặt ba mục tiêu ngắn hạn cho sprint này nhé.
-- slug: t14-long-term-goal-n
-  lemma: long-term goal
-  pos: noun
-  kind: collocation
-  cefr: B2
-  topic: active-life
-  ipa: /ˌlɒŋ tɜːm ˈɡəʊl/
-  def: Something you want to achieve far in the future.
-  vi: mục tiêu dài hạn
-  forms:
-    - long-term goals
-    - short-term goal
-  examples:
-    - en: My long-term goal is to become a solution architect.
-      vi: Mục tiêu dài hạn của mình là trở thành kiến trúc sư giải pháp.
-- slug: t14-invite-v
-  lemma: invite
-  pos: verb
-  cefr: A2
-  topic: active-life
-  ipa: /ɪnˈvaɪt/
-  def: To ask someone to come to an event.
-  vi: mời
-  examples:
-    - en: We'd like to invite you to our team lunch on Friday.
-      vi: Tụi mình muốn mời bạn ăn trưa cùng nhóm vào thứ Sáu.
-- slug: t14-invitation-n
-  lemma: invitation
-  pos: noun
-  cefr: B1
-  topic: active-life
-  ipa: /ˌɪnvɪˈteɪʃn/
-  def: A request to come to an event.
-  vi: lời mời
-  examples:
-    - en: Thanks for the invitation, I'd love to come.
-      vi: Cảm ơn lời mời, mình rất muốn đến.
-- slug: t14-join-v
-  lemma: join
-  pos: verb
-  cefr: A2
-  topic: active-life
-  ipa: /dʒɔɪn/
-  def: To go somewhere with other people or take part in something.
-  vi: tham gia
-  examples:
-    - en: Would you like to join us for coffee?
-      vi: Bạn đi cà phê với tụi mình không?
-- slug: t14-decline-v
-  lemma: decline
-  pos: verb
-  cefr: B2
-  topic: active-life
-  ipa: /dɪˈklaɪn/
-  def: To politely say no to an offer or invitation.
-  vi: từ chối (lịch sự)
-  examples:
-    - en: I'll have to decline tonight, but thanks for asking.
-      vi: Tối nay mình xin phép không đi, nhưng cảm ơn đã rủ.
-- slug: t14-accept-v
-  lemma: accept
-  pos: verb
-  cefr: B1
-  topic: active-life
-  ipa: /əkˈsept/
-  def: To say yes to an offer or invitation.
-  vi: nhận lời
-  examples:
-    - en: I've accepted the calendar invite for the party.
-      vi: Mình đã nhận lời mời trên lịch cho buổi tiệc.
-- slug: t14-voluntary-adj
-  lemma: voluntary
-  pos: adjective
-  cefr: B2
-  topic: active-life
-  ipa: /ˈvɒləntri/
-  def: Done because you want to, not because you must.
-  vi: tự nguyện
-  examples:
-    - en: The karaoke night is voluntary, so don't feel bad about skipping.
-      vi: Buổi karaoke là tự nguyện, không đi cũng đừng ngại.
-- slug: t14-team-building-n
-  lemma: team building
-  pos: noun
-  kind: collocation
-  cefr: B2
-  topic: active-life
-  ipa: /ˈtiːm ˌbɪldɪŋ/
-  def: Activities that help people in a team know and trust each other.
-  vi: hoạt động gắn kết đội nhóm
-  forms:
-    - team-building
-    - team-building trip
-  examples:
-    - en: Our team building trip to Vung Tau is next month.
-      vi: Chuyến team building đi Vũng Tàu của bọn mình vào tháng sau.
-- slug: t14-team-spirit-n
-  lemma: team spirit
-  pos: noun
-  kind: collocation
-  cefr: B2
-  topic: active-life
-  ipa: /ˌtiːm ˈspɪrɪt/
-  def: A feeling of loyalty and support among members of a group.
-  vi: tinh thần đồng đội
-  examples:
-    - en: The hackathon was great for team spirit.
-      vi: Hackathon rất tốt cho tinh thần đồng đội.
-- lemma: group activity
-  pos: noun
-  vi: hoạt động chung của nhóm
-  def: An activity that people take part in together.
-  examples:
-    - en: Keep the group activity optional for remote teammates.
-  slug: t14-group-activity-n
-  topic: active-life
-  cefr: B1
-  kind: collocation
-- lemma: participate
-  pos: verb
-  vi: tham gia
-  def: To take part in an activity.
-  examples:
-    - en: Remote colleagues can participate in the step challenge.
-  slug: t14-participate-v
-  topic: active-life
-  cefr: B1
-- lemma: at your own pace
-  pos: phrase
-  vi: theo nhịp phù hợp với bản thân
-  def: At a speed that suits your needs.
-  examples:
-    - en: Join the group walk at your own pace.
-  slug: t14-at-your-own-pace-phr
-  topic: active-life
-  cefr: B1
-  kind: phrase
-- slug: t14-no-pressure-phr
-  lemma: no pressure
-  pos: phrase
-  kind: phrase
-  cefr: B1
-  topic: active-life
-  ipa: /ˌnəʊ ˈpreʃə(r)/
-  def: Said to show that someone does not have to do something.
-  vi: không sao đâu, không ép
-  examples:
-    - en: No pressure, but I'm free if you want to talk.
-      vi: Không ép đâu, nhưng nếu muốn tâm sự thì mình rảnh.
-- slug: t14-considerate-adj
-  lemma: considerate
-  pos: adjective
-  cefr: B2
-  topic: active-life
-  ipa: /kənˈsɪdərət/
-  def: Thinking about other people's feelings and needs.
-  vi: chu đáo, biết nghĩ cho người khác
-  examples:
-    - en: It was considerate of you to move the meeting for her.
-      vi: Bạn dời cuộc họp vì chị ấy là rất chu đáo.
-- slug: t14-encourage-v
-  lemma: encourage
-  pos: verb
-  cefr: B1
-  topic: active-life
-  ipa: /ɪnˈkʌrɪdʒ/
-  def: To give someone confidence to keep doing something.
-  vi: khích lệ, động viên
-  examples:
-    - en: Encourage juniors to ask questions in reviews.
-      vi: Hãy khích lệ các bạn junior đặt câu hỏi khi review.
-- slug: t14-supportive-adj
-  lemma: supportive
-  pos: adjective
-  cefr: B2
-  topic: active-life
-  ipa: /səˈpɔːtɪv/
-  def: Giving help and kindness to someone.
-  vi: biết hỗ trợ
-  examples:
-    - en: Our lead was very supportive when I was ill.
-      vi: Trưởng nhóm rất hỗ trợ khi mình bị ốm.
-- slug: t14-team-up-pv
-  lemma: team up
-  pos: phrasal_verb
-  kind: phrasal
-  cefr: B2
-  topic: active-life
-  ipa: /tiːm ˈʌp/
-  def: To join with another person or group to work on something.
-  vi: hợp tác, bắt tay cùng
-  examples:
-    - en: Let's team up with the design club for the hackathon.
-      vi: Mình hợp tác với câu lạc bộ thiết kế cho cuộc thi hackathon nhé.
-- slug: t14-calendar-n
-  lemma: calendar
-  pos: noun
-  cefr: A2
-  topic: active-life
-  ipa: /ˈkælɪndə(r)/
-  def: A digital or paper plan showing dates and events.
-  vi: lịch
-  examples:
-    - en: I've blocked those days in my calendar.
-      vi: Mình đã chặn những ngày đó trên lịch.
-- slug: t14-book-a-room-phr
-  lemma: book a room
-  pos: phrase
-  kind: phrase
-  cefr: A2
-  topic: active-life
-  ipa: /ˌbʊk ə ˈruːm/
-  def: To reserve a room for a meeting at a certain time.
-  vi: đặt phòng (họp)
-  forms:
-    - booked a room
-    - booking a room
-    - book the room
-    - booked the room
-  examples:
-    - en: I booked a room for the retro from two to three.
-      vi: Mình đã đặt phòng cho buổi retro từ hai đến ba giờ.
-- slug: t14-reschedule-v
-  lemma: reschedule
-  pos: verb
-  cefr: B1
-  topic: active-life
-  ipa: /ˌriːˈʃedjuːl/
-  def: To change the time or date of a planned event.
-  vi: dời lịch, đổi giờ (sang thời điểm khác)
-  forms:
-    - reschedules
-    - rescheduled
-    - rescheduling
-  examples:
-    - en: Can we reschedule our call to Wednesday afternoon?
-      vi: Mình dời cuộc gọi sang chiều thứ Tư được không?
-- slug: t14-rsvp-v
-  lemma: RSVP
-  pos: verb
-  cefr: B2
-  topic: active-life
-  ipa: /ˌɑːr es viː ˈpiː/
-  def: To tell the organiser whether you will come to an event.
-  vi: xác nhận tham dự
-  examples:
-    - en: Please RSVP by Wednesday so we can book the table.
-      vi: Vui lòng xác nhận tham dự trước thứ Tư để đặt bàn.
-- lemma: habit
-  pos: noun
-  vi: thói quen
-  def: An action regularly repeated, often without much thought.
-  examples:
-    - en: A short walk after lunch is a useful habit.
-  slug: t14-habit-n
-  topic: active-life
-  cefr: B1
-- slug: t14-healthy-lifestyle-n
-  lemma: healthy lifestyle
-  pos: noun
-  kind: collocation
-  cefr: B1
-  topic: active-life
-  ipa: /ˌhelθi ˈlaɪfstaɪl/
-  def: A way of living with good food, enough exercise and sleep, and no harmful
-    habits.
-  vi: lối sống lành mạnh
-  forms:
-    - healthy lifestyles
-  examples:
-    - en: A healthy lifestyle is hard when you work night shifts.
-      vi: Giữ lối sống lành mạnh thật khó khi bạn làm ca đêm.
-- slug: t14-quit-smoking-phr
-  lemma: quit smoking
-  pos: phrase
-  kind: phrase
-  cefr: B1
-  topic: active-life
-  ipa: /ˌkwɪt ˈsməʊkɪŋ/
-  def: To stop smoking cigarettes for good.
-  vi: bỏ thuốc lá
-  forms:
-    - quits smoking
-    - quitting smoking
-  examples:
-    - en: He quit smoking when his daughter was born.
-      vi: Anh ấy bỏ thuốc lá khi con gái chào đời.
-- slug: t14-cut-down-on-pv
-  lemma: cut down on
-  pos: phrasal_verb
-  kind: phrasal
-  cefr: B1
-  topic: active-life
-  ipa: /kʌt ˈdaʊn ɒn/
-  def: To eat, drink or use less of something.
-  vi: cắt giảm, bớt (dùng)
-  forms:
-    - cuts down on
-    - cutting down on
-  examples:
-    - en: I'm trying to cut down on coffee after 3 p.m.
-      vi: Mình đang cố bớt uống cà phê sau 3 giờ chiều.
-- slug: t14-balanced-diet-n
-  lemma: balanced diet
-  pos: noun
-  kind: collocation
-  cefr: B1
-  topic: active-life
-  ipa: /ˌbælənst ˈdaɪət/
-  def: Eating the right amounts of different kinds of healthy food.
-  vi: chế độ ăn cân bằng
-  examples:
-    - en: Instant noodles every night is not a balanced diet.
-      vi: Tối nào cũng ăn mì gói thì không phải chế độ ăn cân bằng.
-- slug: t14-nutrition-n
-  lemma: nutrition
-  pos: noun
-  cefr: B2
-  topic: active-life
-  ipa: /njuˈtrɪʃn/
-  def: The food that you eat and how it affects your health and growth.
-  vi: dinh dưỡng
-  examples:
-    - en: Good nutrition helps you focus during long coding sessions.
-      vi: Dinh dưỡng tốt giúp bạn tập trung trong những buổi code dài.
-- slug: t14-skip-a-meal-phr
-  lemma: skip a meal
-  pos: phrase
-  kind: phrase
-  cefr: B1
-  topic: active-life
-  ipa: /ˌskɪp ə ˈmiːl/
-  def: To not eat a meal that you would usually eat.
-  vi: bỏ bữa
-  forms:
-    - skips a meal
-    - skipped a meal
-    - skipping a meal
-    - skip meals
-    - skip breakfast
-    - skipped lunch
-  examples:
-    - en: Don't skip meals during release week; you'll make more mistakes.
-      vi: Đừng bỏ bữa trong tuần release, bạn sẽ mắc lỗi nhiều hơn.
-- slug: t14-portion-size-n
-  lemma: portion size
-  pos: noun
-  kind: collocation
-  cefr: B2
-  topic: active-life
-  ipa: /ˈpɔːʃn saɪz/
-  def: How much food is served to one person at one time.
-  vi: khẩu phần, lượng thức ăn mỗi suất
-  forms:
-    - portion sizes
-    - portion
-    - portions
-  examples:
-    - en: The canteen reduced the portion size of rice and added more vegetables.
-      vi: Căng tin giảm khẩu phần cơm và thêm nhiều rau hơn.
-- slug: t14-self-motivated-adj
-  lemma: self-motivated
-  pos: adjective
-  cefr: C1
-  topic: active-life
-  ipa: /ˌself ˈməʊtɪveɪtɪd/
-  def: Able to work hard without other people pushing you.
-  vi: tự giác, có động lực tự thân
-  forms:
-    - self-motivation
-  examples:
-    - en: Remote jobs need self-motivated people.
-      vi: Công việc từ xa cần những người tự giác.
-- lemma: routine
-  pos: noun
-  vi: nếp hoạt động thường xuyên
-  def: A regular sequence of actions.
-  examples:
-    - en: Build a routine that includes breaks between meetings.
-  slug: t14-routine-n
-  topic: active-life
-  cefr: B1
-- lemma: consistency
-  pos: noun
-  vi: sự nhất quán
-  def: Using the same rules or behaviour across related situations.
-  examples:
-    - en: Consistency helps users recognise actions across screens.
-  slug: t14-consistency-n
-  topic: active-life
-  cefr: B1
-- lemma: maintain
-  pos: verb
-  vi: duy trì
-  def: To keep something working or continuing over time.
-  examples:
-    - en: Maintain a regular break schedule during busy weeks.
-  slug: t14-maintain-v
-  topic: active-life
-  cefr: B1
-- lemma: reminder
-  pos: noun
-  vi: lời nhắc
-  def: A message that helps someone remember an action.
-  examples:
-    - en: Set a reminder to step away from the screen.
-  slug: t14-reminder-n
-  topic: active-life
-  cefr: B1
-- lemma: follow through
-  pos: phrase
-  vi: thực hiện đến cùng điều đã hứa
-  def: To complete an action that was promised or started.
-  examples:
-    - en: We need to follow through on the agreed improvements.
-  slug: t14-follow-through-phr
-  topic: active-life
-  cefr: B1
-  kind: phrase
-- lemma: regularly
-  pos: adverb
-  vi: đều đặn
-  def: At repeated intervals or as a usual practice.
-  examples:
-    - en: Stand up regularly during long coding sessions.
-  slug: t14-regularly-adv
-  topic: active-life
-  cefr: B1
-- lemma: gradually
-  pos: adverb
-  vi: dần dần
-  def: Slowly through a series of small changes.
-  examples:
-    - en: Increase the workload gradually after returning from leave.
-  slug: t14-gradually-adv
-  topic: active-life
-  cefr: B1
-- lemma: obstacle
-  pos: noun
-  vi: trở ngại
-  def: Something that makes progress more difficult.
-  examples:
-    - en: An overloaded calendar is an obstacle to regular breaks.
-  slug: t14-obstacle-n
-  topic: active-life
-  cefr: B1
-- slug: t14-fallback-n
-  lemma: fallback
-  pos: noun
-  cefr: C1
-  topic: active-life
-  ipa: /ˈfɔːlbæk/
-  def: Something used when the first choice is not available.
-  vi: phương án dự phòng
-  examples:
-    - en: English is the fallback when a translation is missing.
-      vi: Tiếng Anh là phương án dự phòng khi thiếu bản dịch.
-- lemma: temptation
-  pos: noun
-  vi: sự thôi thúc làm điều dễ gây lệch kế hoạch
-  def: A desire to do something that may conflict with a goal.
-  examples:
-    - en: Mute notifications to reduce the temptation to check chat.
-  slug: t14-temptation-n
-  topic: active-life
-  cefr: B1
-- slug: t14-momentum-n
-  lemma: momentum
-  pos: noun
-  cefr: C1
-  topic: active-life
-  ipa: /məˈmentəm/
-  def: The energy that keeps progress going once it has started.
-  vi: đà (tiến triển)
-  examples:
-    - en: Don't lose momentum; finish one small chapter today.
-      vi: Đừng để mất đà; hôm nay xong một chương nhỏ.
-- lemma: make time for
-  pos: phrase
-  vi: dành thời gian cho
-  def: To arrange your schedule so an activity can happen.
-  examples:
-    - en: Make time for a short walk between meetings.
-  slug: t14-make-time-for-phr
-  topic: active-life
-  cefr: B1
-  kind: phrase
-- lemma: stick to
-  pos: phrase
-  vi: kiên trì làm theo
-  def: To continue following a plan or decision.
-  examples:
-    - en: Try to stick to the agreed finishing time.
-  slug: t14-stick-to-phr
-  topic: active-life
-  cefr: B1
-  kind: phrase
-- slug: t14-get-enough-sleep-phr
-  lemma: get enough sleep
-  pos: phrase
-  kind: phrase
-  cefr: A2
-  topic: active-life
-  ipa: /ɡet ɪˈnʌf sliːp/
-  def: To sleep as many hours as your body needs.
-  vi: ngủ đủ giấc
-  forms:
-    - gets enough sleep
-    - got enough sleep
-    - getting enough sleep
-  examples:
-    - en: I make fewer bugs when I get enough sleep.
-      vi: Mình ít tạo bug hơn khi ngủ đủ giấc.
-- slug: t14-insomnia-n
-  lemma: insomnia
-  pos: noun
-  cefr: B2
-  topic: active-life
-  ipa: /ɪnˈsɒmniə/
-  def: A problem in which you cannot sleep well for a long time.
-  vi: chứng mất ngủ
-  examples:
-    - en: Checking Slack in bed made my insomnia worse.
-      vi: Xem Slack trên giường khiến chứng mất ngủ của mình tệ hơn.
-- slug: t14-irritable-adj
-  lemma: irritable
-  pos: adjective
-  cefr: B2
-  topic: active-life
-  ipa: /ˈɪrɪtəbl/
-  def: Getting annoyed easily.
-  vi: dễ cáu gắt
-  examples:
-    - en: I get irritable when I skip lunch, so please don't book meetings at noon.
-      vi: Mình dễ cáu khi bỏ bữa trưa nên đừng đặt lịch họp lúc 12 giờ nhé.
-- slug: t14-mental-health-n
-  lemma: mental health
-  pos: noun
-  kind: collocation
-  cefr: B1
-  topic: active-life
-  ipa: /ˌmentl ˈhelθ/
-  def: The health of your mind and feelings.
-  vi: sức khoẻ tinh thần
-  examples:
-    - en: Our company gives one extra day off a quarter for mental health.
-      vi: Công ty mình cho thêm một ngày nghỉ mỗi quý để chăm sóc sức khoẻ tinh thần.
-- slug: t14-anxious-adj
-  lemma: anxious
-  pos: adjective
-  cefr: B1
-  topic: active-life
-  ipa: /ˈæŋkʃəs/
-  def: Worried and nervous about something that might happen.
-  vi: lo âu, bồn chồn
-  forms:
-    - anxiety
-    - anxiously
-  examples:
-    - en: I always feel anxious the night before a big release.
-      vi: Mình lúc nào cũng thấy bồn chồn vào đêm trước một đợt phát hành lớn.
-- slug: t14-overwhelmed-adj
-  lemma: overwhelmed
-  pos: adjective
-  cefr: B2
-  topic: active-life
-  ipa: /ˌəʊvəˈwelmd/
-  def: Feeling that there is too much to deal with and you cannot manage.
-  vi: quá tải, choáng ngợp
-  examples:
-    - en: I felt overwhelmed with three projects and a newborn baby.
-      vi: Mình thấy quá tải với ba dự án và một em bé mới sinh.
-- slug: t14-mindfulness-n
-  lemma: mindfulness
-  pos: noun
-  cefr: C1
-  topic: active-life
-  ipa: /ˈmaɪndflnəs/
-  def: The practice of paying calm attention to what you feel and think right now.
-  vi: chánh niệm
-  examples:
-    - en: Ten minutes of mindfulness before work keeps me calmer.
-      vi: Mười phút chánh niệm trước giờ làm giúp mình bình tĩnh hơn.
-- slug: t14-meditate-v
-  lemma: meditate
-  pos: verb
-  cefr: B2
-  topic: active-life
-  ipa: /ˈmedɪteɪt/
-  def: To sit quietly and focus your mind, often on your breathing, to relax.
-  vi: thiền
-  forms:
-    - meditates
-    - meditated
-    - meditating
-  examples:
-    - en: I meditate for five minutes after lunch instead of scrolling.
-      vi: Mình ngồi thiền năm phút sau bữa trưa thay vì lướt điện thoại.
-- lemma: sleep schedule
-  pos: noun
-  vi: lịch ngủ
-  def: The usual times when a person sleeps and wakes.
-  examples:
-    - en: Discuss your sleep schedule before changing the on-call rota.
-  slug: t14-sleep-schedule-n
-  topic: active-life
-  cefr: B1
-  kind: collocation
-- lemma: night shift
-  pos: noun
-  vi: ca làm việc ban đêm
-  def: A scheduled period of work during the night.
-  examples:
-    - en: Allow recovery time after a night shift.
-  slug: t14-night-shift-n
-  topic: active-life
-  cefr: B1
-  kind: collocation
-- slug: t14-rota-n
-  lemma: rota
-  pos: noun
-  cefr: B2
-  topic: active-life
-  ipa: /ˈrəʊtə/
-  def: A list showing who works at which times, taking turns.
-  vi: lịch trực luân phiên
-  examples:
-    - en: Night alerts go to whoever is on the rota that week.
-      vi: Cảnh báo ban đêm gửi cho người có tên trong lịch trực tuần đó.
-- slug: t14-handover-n
-  lemma: handover
-  pos: noun
-  cefr: B2
-  topic: active-life
-  ipa: /ˈhændəʊvə(r)/
-  def: Passing your work and information to someone else.
-  vi: sự bàn giao
-  examples:
-    - en: I wrote a handover doc with all open tickets.
-      vi: Mình đã viết tài liệu bàn giao kèm mọi ticket đang mở.
-- slug: t14-coverage-n
-  lemma: coverage
-  pos: noun
-  cefr: B2
-  topic: active-life
-  ipa: /ˈkʌvərɪdʒ/
-  def: Having enough people to handle work at all needed times.
-  vi: sự bao phủ (nhân lực)
-  examples:
-    - en: We need on-call coverage during the holiday week.
-      vi: Mình cần đủ người trực trong tuần lễ.
-- slug: t14-backup-n
-  lemma: backup
-  pos: noun
-  cefr: B1
-  topic: active-life
-  ipa: /ˈbækʌp/
-  def: A person who can do your work if you are not there.
-  vi: người dự phòng
-  examples:
-    - en: Long is my backup for payment issues next week.
-      vi: Tuần sau Long là người dự phòng cho các vấn đề thanh toán.
-- slug: t14-emergency-contact-n
-  lemma: emergency contact
-  pos: noun
-  kind: collocation
-  cefr: B1
-  topic: active-life
-  ipa: /ɪˈmɜːdʒənsi ˌkɒntækt/
-  def: A person the company should call if something bad happens to you.
-  vi: người liên hệ khẩn cấp
-  examples:
-    - en: Please update your emergency contact in the HR system.
-      vi: Vui lòng cập nhật người liên hệ khẩn cấp trên hệ thống nhân sự.
-- slug: t14-sick-leave-n
-  lemma: sick leave
-  pos: noun
-  kind: collocation
-  cefr: B1
-  topic: active-life
-  ipa: /ˈsɪk liːv/
-  def: Time away from work, usually still paid, because you are ill.
-  vi: nghỉ ốm
-  forms:
-    - on sick leave
-    - sick day
-  examples:
-    - en: Minh is on sick leave today, so his standup update is in Slack.
-      vi: Hôm nay Minh nghỉ ốm nên cập nhật standup của bạn ấy ở trên Slack.
-- slug: t14-day-off-n
-  lemma: day off
-  pos: noun
-  kind: collocation
-  cefr: A2
-  topic: active-life
-  ipa: /ˌdeɪ ˈɒf/
-  def: A day when you do not go to work.
-  vi: ngày nghỉ
-  examples:
-    - en: Tomorrow is my day off, so ask Hoa about the deploy.
-      vi: Mai mình nghỉ, có gì về deploy hỏi Hoa nhé.
-- slug: t14-annual-leave-n
-  lemma: annual leave
-  pos: noun
-  kind: collocation
-  cefr: B2
-  topic: active-life
-  ipa: /ˌænjuəl ˈliːv/
-  def: The number of paid days off you can take each year.
-  vi: phép năm
-  forms:
-    - paid leave
-    - leave
-  examples:
-    - en: I have twelve days of annual leave, and I want to use five at Tet.
-      vi: Mình có mười hai ngày phép năm và muốn dùng năm ngày vào dịp Tết.
-- slug: t14-return-v
-  lemma: return
-  pos: verb
-  cefr: A2
-  topic: active-life
-  ipa: /rɪˈtɜːn/
-  def: To come back to work or a place.
-  vi: quay lại
-  examples:
-    - en: I return to the office on the 15th.
-      vi: Ngày 15 mình quay lại văn phòng.
-- slug: t14-in-my-absence-phr
-  lemma: in my absence
-  pos: phrase
-  kind: phrase
-  cefr: B2
-  topic: active-life
-  ipa: /ɪn maɪ ˈæbsəns/
-  def: While I am away and not working.
-  vi: khi tôi vắng mặt
-  examples:
-    - en: In my absence, Thao will approve the hotfixes.
-      vi: Khi mình vắng, Thảo sẽ duyệt các hotfix.
-- slug: t14-unplug-v
-  lemma: unplug
-  pos: verb
-  cefr: B1
-  topic: active-life
-  ipa: /ʌnˈplʌɡ/
-  def: To remove a plug or cable from the electricity or from a device.
-  vi: rút phích cắm, rút dây
-  forms:
-    - unplugs
-    - unplugged
-    - unplugging
-  examples:
-    - en: Unplug the charger when you are not using it.
-      vi: Rút cục sạc ra khi bạn không dùng.
-- lemma: sleep quality
-  pos: noun
-  vi: chất lượng giấc ngủ
-  def: How well and continuously a person sleeps.
-  examples:
-    - en: Repeated overnight alerts affect sleep quality.
-  slug: t14-sleep-quality-n
-  topic: active-life
-  cefr: B1
-  kind: collocation
-- lemma: rested
-  pos: adjective
-  vi: đã được nghỉ ngơi đầy đủ
-  def: Recovered and refreshed after sufficient rest.
-  examples:
-    - en: A rested reviewer is less likely to miss important details.
-  slug: t14-rested-adj
-  topic: active-life
-  cefr: B1
-- lemma: fatigue
-  pos: noun
-  vi: sự mệt mỏi kéo dài
-  def: Physical or mental tiredness that reduces effectiveness.
-  examples:
-    - en: Tell your lead if fatigue affects your on-call work.
-  slug: t14-fatigue-n
-  topic: active-life
-  cefr: B1
-- slug: t14-observe-v
-  lemma: observe
-  pos: verb
-  cefr: B2
-  topic: active-life
-  ipa: /əbˈzɜːv/
-  def: To notice or see something, especially by watching carefully.
-  vi: quan sát
-  examples:
-    - en: I observed the requests between 2 and 3 a.m.
-      vi: Mình quan sát thấy các request từ 2 đến 3 giờ sáng.
-- slug: t14-record-v
-  lemma: record
-  pos: verb
-  cefr: B1
-  topic: active-life
-  ipa: /rɪˈkɔːd/
-  def: To save sound or video so people can watch it later.
-  vi: ghi lại, quay lại
-  examples:
-    - en: Let's record the session for people in other time zones.
-      vi: Mình quay lại buổi này cho các bạn ở múi giờ khác nhé.
-- slug: t14-measure-v
-  lemma: measure
-  pos: verb
-  cefr: A2
-  topic: active-life
-  ipa: /ˈmeʒə/
-  def: To find the size, amount or level of something.
-  vi: đo
-  examples:
-    - en: First we need to decide what the app should measure.
-      vi: Trước hết mình cần quyết định ứng dụng nên đo cái gì.
-- slug: t14-baseline-n
-  lemma: baseline
-  pos: noun
-  cefr: B2
-  topic: active-life
-  ipa: /ˈbeɪslaɪn/
-  def: A starting value used to compare later changes.
-  vi: mức cơ sở
-  examples:
-    - en: Last year's usage is our baseline.
-      vi: Mức sử dụng năm ngoái là mức cơ sở của mình.
-- slug: t14-improvement-n
-  lemma: improvement
-  pos: noun
-  cefr: B1
-  topic: active-life
-  ipa: /ɪmˈpruːvmənt/
-  def: A change that makes something better.
-  vi: sự cải thiện
-  examples:
-    - en: Is there one improvement I should focus on first?
-      vi: Có điểm cải thiện nào em nên tập trung trước không?
-- slug: t14-progress-n
-  lemma: progress
-  pos: noun
-  cefr: A2
-  topic: active-life
-  ipa: /ˈprəʊɡres/
-  def: The way you move forward and get closer to what you want.
-  vi: sự tiến bộ, tiến độ
-  note: 'Danh từ không đếm được: không nói "a progress".'
-  examples:
-    - en: I write down my progress at the end of each week.
-      vi: Cuối mỗi tuần mình ghi lại tiến độ của mình.
-- lemma: frequency
-  pos: noun
-  vi: tần suất
-  def: How often an event happens.
-  examples:
-    - en: Track the frequency of breaks during the workday.
-  slug: t14-frequency-n
-  topic: active-life
-  cefr: B1
-- slug: t14-duration-n
-  lemma: duration
-  pos: noun
-  cefr: B2
-  topic: active-life
-  ipa: /djuˈreɪʃn/
-  def: How long something lasts.
-  vi: thời lượng
-  examples:
-    - en: Decide the test duration before you start.
-      vi: Quyết định thời lượng thử nghiệm trước khi bắt đầu.
-- lemma: weekly
-  pos: adjective
-  vi: hằng tuần
-  def: Happening or measured every week.
-  examples:
-    - en: Use the weekly review to adjust your workload.
-  slug: t14-weekly-adj
-  topic: active-life
-  cefr: B1
-- lemma: daily
-  pos: adjective
-  vi: hằng ngày
-  def: Happening or measured every day.
-  examples:
-    - en: The daily summary includes completed tasks and blockers.
-  slug: t14-daily-adj
-  topic: active-life
-  cefr: B1
-- slug: t14-pattern-n
-  lemma: pattern
-  pos: noun
-  cefr: B1
-  topic: active-life
-  ipa: /ˈpætn/
-  def: Something that repeats in a regular way.
-  vi: quy luật, mẫu lặp lại
-  examples:
-    - en: "The errors follow a pattern: every hour on the hour."
-      vi: "Lỗi có quy luật: đúng mỗi đầu giờ."
-- slug: t14-trend-n
-  lemma: trend
-  pos: noun
-  cefr: B1
-  topic: active-life
-  ipa: /trend/
-  def: A general direction in which numbers are changing.
-  vi: xu hướng
-  examples:
-    - en: The trend is going down since we moved regions.
-      vi: Xu hướng đang giảm kể từ khi bọn mình chuyển khu vực.
-- slug: t14-average-n
-  lemma: average
-  pos: noun
-  cefr: A2
-  topic: active-life
-  ipa: /ˈævərɪdʒ/
-  def: The number you get by adding values together and dividing by how many there
-    are.
-  vi: giá trị trung bình
-  examples:
-    - en: The daily average hides short spikes in the data.
-      vi: Giá trị trung bình ngày che mất các đỉnh ngắn trong dữ liệu.
-- lemma: reflection
-  pos: noun
-  vi: việc nhìn lại để rút kinh nghiệm
-  def: Careful thought about an experience and its lessons.
-  examples:
-    - en: Set aside time for reflection at the end of the week.
-  slug: t14-reflection-n
-  topic: active-life
-  cefr: B1
-- slug: t14-feedback-n
-  lemma: feedback
-  pos: noun
-  cefr: B1
-  topic: active-life
-  ipa: /ˈfiːdbæk/
-  def: Comments about how well someone did something, given so they can improve.
-  vi: phản hồi, góp ý
-  examples:
-    - en: Could you give me feedback on my design doc?
-      vi: Anh cho em góp ý về tài liệu thiết kế được không?
-- slug: t14-check-in-n
-  lemma: check-in
-  pos: noun
-  cefr: B2
-  topic: active-life
-  ipa: /ˈtʃek ɪn/
-  def: A short meeting to see how someone is doing.
-  vi: buổi trao đổi nhanh
-  examples:
-    - en: We have a 15-minute check-in every Friday.
-      vi: Thứ Sáu nào bọn mình cũng có buổi trao đổi nhanh 15 phút.
-- slug: t14-checklist-n
-  lemma: checklist
-  pos: noun
-  cefr: A2
-  topic: active-life
-  ipa: /ˈtʃeklɪst/
-  def: A list of tasks that you mark one by one when they are done.
-  vi: danh sách kiểm tra
-  examples:
-    - en: The checklist has twelve items for your first week.
-      vi: Danh sách kiểm tra có mười hai mục cho tuần đầu của bạn.
-- slug: t14-evidence-n
-  lemma: evidence
-  pos: noun
-  cefr: B2
-  topic: active-life
-  ipa: /ˈevɪdəns/
-  def: Facts or results that show something is true.
-  vi: bằng chứng
-  note: 'Không đếm được: "a piece of evidence".'
-  examples:
-    - en: Is there any evidence that this library is faster?
-      vi: Có bằng chứng nào cho thấy thư viện này nhanh hơn không?
-- slug: t14-compare-v
-  lemma: compare
-  pos: verb
-  cefr: A2
-  topic: active-life
-  ipa: /kəmˈpeə/
-  def: To look at how two things are the same or different.
-  vi: so sánh
-  examples:
-    - en: Compare the two answers and test both.
-      vi: So sánh hai câu trả lời và thử cả hai.
-- slug: t14-review-date-n
-  lemma: review date
-  pos: noun
-  kind: collocation
-  cefr: B1
-  topic: active-life
-  ipa: /rɪˈvjuː deɪt/
-  def: A planned date to check a decision again.
-  vi: ngày xem xét lại
-  examples:
-    - en: Set a review date three months from now.
-      vi: Hãy đặt ngày xem xét lại sau ba tháng nữa.
-- slug: t14-fine-tune-v
-  lemma: fine-tune
-  pos: verb
-  cefr: B2
-  topic: active-life
-  ipa: /ˌfaɪn ˈtjuːn/
-  def: To make small changes to get the best result.
-  vi: tinh chỉnh
-  examples:
-    - en: We fine-tuned the rule so small fixes need only one approval.
-      vi: Nhóm tinh chỉnh quy tắc để sửa nhỏ chỉ cần một lượt duyệt.
-- slug: t14-setback-n
-  lemma: setback
-  pos: noun
-  cefr: B2
-  topic: active-life
-  ipa: /ˈsetbæk/
-  def: A problem that stops progress or makes it slower.
-  vi: trở ngại, bước lùi
-  examples:
-    - en: Failing the exam was a setback, not the end.
-      vi: Thi trượt là một trở ngại, không phải dấu chấm hết.
-- slug: t14-recognise-v
-  lemma: recognise
-  pos: verb
-  cefr: B2
-  topic: active-life
-  ipa: /ˈrekəɡnaɪz/
-  def: To publicly show that you value someone's work.
-  vi: ghi nhận
-  examples:
-    - en: The CTO recognised Hanh's work on the outage report.
-      vi: CTO đã ghi nhận công sức của Hạnh trong báo cáo sự cố.
-- slug: t14-achievement-n
-  lemma: achievement
-  pos: noun
-  cefr: B1
-  topic: active-life
-  ipa: /əˈtʃiːvmənt/
-  def: Something good that you did after a lot of effort.
-  vi: thành tích, thành tựu
-  forms:
-    - achievements
-    - achieve
-    - achieved
-  examples:
-    - en: List your achievements on your CV, not just your duties.
-      vi: Hãy liệt kê thành tích trong CV chứ không chỉ nhiệm vụ.
-- slug: t14-strengths-n
-  lemma: strengths
-  pos: noun
-  cefr: B1
-  topic: active-life
-  ipa: /streŋθs/
-  def: The things that you are good at.
-  vi: điểm mạnh
-  forms:
-    - strength
-  examples:
-    - en: In the interview, they asked about my strengths.
-      vi: Trong buổi phỏng vấn, họ hỏi về điểm mạnh của mình.
-- slug: t14-weaknesses-n
-  lemma: weaknesses
-  pos: noun
-  cefr: B1
-  topic: active-life
-  ipa: /ˈwiːknəsɪz/
-  def: The things that you are not good at and need to improve.
-  vi: điểm yếu
-  forms:
-    - weakness
-  examples:
-    - en: One of my weaknesses is public speaking, so I'm practising.
-      vi: Một điểm yếu của mình là nói trước đám đông nên mình đang luyện tập.
-- slug: t14-self-assessment-n
-  lemma: self-assessment
-  pos: noun
-  cefr: C1
-  topic: active-life
-  ipa: /ˌself əˈsesmənt/
-  def: Judging your own work and skills honestly.
-  vi: tự đánh giá
-  examples:
-    - en: Fill in the self-assessment before your review meeting.
-      vi: Điền bản tự đánh giá trước buổi review.
-- slug: t14-celebrate-v
-  lemma: celebrate
-  pos: verb
-  cefr: B1
-  topic: active-life
-  ipa: /ˈselɪbreɪt/
-  def: To do something enjoyable because of a special event.
-  vi: ăn mừng
-  examples:
-    - en: Let's celebrate the launch with pizza.
-      vi: Mình ăn mừng ra mắt sản phẩm bằng pizza nhé.
-- slug: t14-working-hours-n
-  lemma: working hours
-  pos: noun
-  kind: collocation
-  cefr: A2
-  topic: active-life
-  ipa: /ˈwɜːkɪŋ ˌaʊəz/
-  def: The hours of the day when you normally do your job.
-  vi: giờ làm việc
-  examples:
-    - en: My working hours are 9 to 6, Vietnam time.
-      vi: Giờ làm của mình là 9 đến 6 giờ, giờ Việt Nam.
-- slug: t14-flexible-hours-n
-  lemma: flexible hours
-  pos: noun
-  kind: collocation
-  cefr: B1
-  topic: active-life
-  ipa: /ˌfleksəbl ˈaʊəz/
-  def: A system where you can choose when you start and finish work.
-  vi: giờ làm linh hoạt
-  forms:
-    - flexible working hours
-    - flexitime
-  examples:
-    - en: Our company offers flexible hours, so I start at ten.
-      vi: Công ty mình có giờ làm linh hoạt nên mình bắt đầu lúc mười giờ.
-- slug: t14-work-remotely-phr
-  lemma: work remotely
-  pos: phrase
-  kind: phrase
-  cefr: B1
-  topic: active-life
-  ipa: /wɜːk rɪˈməʊtli/
-  def: To do your job from home or another place, not from the office.
-  vi: làm việc từ xa
-  forms:
-    - works remotely
-    - worked remotely
-    - working remotely
-    - remote work
-  examples:
-    - en: I work remotely on Mondays and Fridays.
-      vi: Mình làm việc từ xa vào thứ Hai và thứ Sáu.
-- slug: t14-commute-v
-  lemma: commute
-  pos: verb
-  cefr: B1
-  topic: active-life
-  ipa: /kəˈmjuːt/
-  def: To travel regularly between your home and your workplace.
-  vi: đi lại (giữa nhà và chỗ làm)
-  forms:
-    - commutes
-    - commuted
-    - commuting
-    - commute
-  examples:
-    - en: She commutes by motorbike for forty minutes every day.
-      vi: Cô ấy đi xe máy bốn mươi phút mỗi ngày để đến chỗ làm.
-- slug: t14-workload-n
-  lemma: workload
-  pos: noun
-  cefr: B1
-  topic: active-life
-  ipa: /ˈwɜːkləʊd/
-  def: The amount of work a person or team has to do.
-  vi: khối lượng công việc
-  forms:
-    - workloads
-  examples:
-    - en: My workload is heavy this sprint, so I can't take new tickets.
-      vi: Sprint này khối lượng việc của mình nặng nên mình không nhận thêm ticket
-        được.
-- slug: t14-overtime-n
-  lemma: overtime
-  pos: noun
-  cefr: B1
-  topic: active-life
-  ipa: /ˈəʊvətaɪm/
-  def: Time you work after your normal working hours.
-  vi: giờ làm thêm, tăng ca
-  note: Thường đi với "work overtime", "do overtime".
-  examples:
-    - en: Nobody wants to work overtime before the holiday.
-      vi: Không ai muốn tăng ca trước kỳ nghỉ.
-- slug: t14-boundary-n
-  lemma: boundary
-  pos: noun
-  cefr: B2
-  topic: active-life
-  ipa: /ˈbaʊndri/
-  def: A limit you set about what you will and will not do.
-  vi: ranh giới, giới hạn
-  examples:
-    - en: Not checking Slack at night is a boundary I keep.
-      vi: Không xem Slack buổi tối là giới hạn mình giữ.
-- slug: t14-after-hours-adv
-  lemma: after hours
-  pos: adverb
-  kind: collocation
-  cefr: B2
-  topic: active-life
-  ipa: /ˌɑːftər ˈaʊəz/
-  def: After the normal working time has finished.
-  vi: ngoài giờ làm
-  examples:
-    - en: Please don't expect replies after hours unless you're on call.
-      vi: Đừng chờ phản hồi ngoài giờ làm trừ khi bạn đang trực.
-- slug: t14-log-off-pv
-  lemma: log off
-  pos: phrasal_verb
-  kind: phrasal
-  cefr: B1
-  topic: active-life
-  ipa: /ˌlɒɡ ˈɒf/
-  def: To stop using a work system or chat at the end of the day.
-  vi: đăng xuất, kết thúc ca làm
-  examples:
-    - en: I log off at 5:30 to pick up my kids.
-      vi: Mình nghỉ máy lúc 5 giờ 30 để đón con.
-- slug: t14-switch-off-pv
-  lemma: switch off
-  pos: phrasal_verb
-  kind: phrasal
-  cefr: B1
-  topic: active-life
-  ipa: /ˌswɪtʃ ˈɒf/
-  def: To stop thinking about work and relax.
-  vi: nghỉ ngơi, thôi nghĩ về công việc
-  examples:
-    - en: I go for a walk after work to help me switch off.
-      vi: Mình đi bộ sau giờ làm để đầu óc nghỉ ngơi.
-- slug: t14-healthy-adj
-  lemma: healthy
-  pos: adjective
-  cefr: B1
-  topic: active-life
-  ipa: /ˈhelθi/
-  def: Good and working well, not harmful.
-  vi: lành mạnh
-  examples:
-    - en: A bit of disagreement is healthy in design reviews.
-      vi: Một chút bất đồng là lành mạnh trong buổi review thiết kế.
-- slug: t14-resilient-adj
-  lemma: resilient
-  pos: adjective
-  cefr: C1
-  topic: active-life
-  ipa: /rɪˈzɪliənt/
-  def: Able to feel better and keep going quickly after something bad happens.
-  vi: kiên cường, mau phục hồi tinh thần
-  forms:
-    - resilience
-  examples:
-    - en: You need to be resilient when your startup idea fails.
-      vi: Bạn cần kiên cường khi ý tưởng startup thất bại.
-- slug: t14-adaptable-adj
-  lemma: adaptable
-  pos: adjective
-  cefr: B2
-  topic: active-life
-  ipa: /əˈdæptəbl/
-  def: Able to change easily when the situation changes.
-  vi: dễ thích nghi
-  forms:
-    - adapt
-    - adapted
-    - adaptability
-  examples:
-    - en: Startups need adaptable people because plans change every week.
-      vi: Startup cần người dễ thích nghi vì kế hoạch thay đổi hằng tuần.
-- slug: t14-proactive-adj
-  lemma: proactive
-  pos: adjective
-  cefr: C1
-  topic: active-life
-  ipa: /ˌprəʊˈæktɪv/
-  def: Acting early to prevent problems instead of waiting for them to happen.
-  vi: chủ động (phòng trước vấn đề)
-  forms:
-    - proactively
-  examples:
-    - en: Be proactive and tell the client about the risk before it becomes a problem.
-      vi: Hãy chủ động báo khách về rủi ro trước khi nó thành vấn đề.
-- slug: t14-reliable-adj
-  lemma: reliable
-  pos: adjective
-  cefr: B1
-  topic: active-life
-  ipa: /rɪˈlaɪəbl/
-  def: Able to be trusted to do what is expected.
-  vi: đáng tin cậy
-  forms:
-    - reliability
-    - reliably
-  examples:
-    - en: Phuong is very reliable; if she says Friday, it's done by Friday.
-      vi: Phương rất đáng tin cậy, đã hứa thứ Sáu là thứ Sáu xong.
-- lemma: self-discipline
-  pos: noun
-  vi: khả năng tự giữ kỷ luật
-  def: The ability to follow intentions despite competing impulses.
-  examples:
-    - en: Self-discipline helps me stop working at the agreed time.
-  slug: t14-self-discipline-n
-  topic: active-life
-  cefr: B1
-- slug: t14-sustainable-adj
-  lemma: sustainable
-  pos: adjective
-  cefr: C1
-  topic: active-life
-  ipa: /səˈsteɪnəbl/
-  def: Able to continue for a long time without causing problems.
-  vi: bền vững, duy trì được
-  examples:
-    - en: Thirty minutes a day is more sustainable than ten hours on Sunday.
-      vi: Ba mươi phút mỗi ngày bền vững hơn mười tiếng ngày Chủ nhật.
-- lemma: balance
-  pos: noun
-  vi: sự cân bằng
-  def: A workable distribution between different needs.
-  examples:
-    - en: We need a balance between focused work and recovery.
-  slug: t14-balance-n
-  topic: active-life
-  cefr: B1
-- slug: t14-energy-n
-  lemma: energy
-  pos: noun
-  cefr: A2
-  topic: active-life
-  ipa: /ˈenədʒi/
-  def: Power from electricity, fuel and so on that makes machines work.
-  vi: năng lượng
-  examples:
-    - en: Video calls use more energy than you might think.
-      vi: Gọi video tốn năng lượng hơn bạn nghĩ.
-- lemma: personal time
-  pos: noun
-  vi: thời gian riêng ngoài công việc
-  def: Time available for private life and personal activities.
-  examples:
-    - en: Please respect personal time after working hours.
-  slug: t14-personal-time-n
-  topic: active-life
-  cefr: B1
-  kind: collocation
-- lemma: protected time
-  pos: noun
-  vi: thời gian được giữ khỏi yêu cầu khác
-  def: Time deliberately kept free from competing demands.
-  examples:
-    - en: Agree on protected time for focused work.
-  slug: t14-protected-time-n
-  topic: active-life
-  cefr: B1
-  kind: collocation
-- lemma: meeting-free
-  pos: adjective
-  vi: không có cuộc họp
-  def: Reserved for work without scheduled meetings.
-  examples:
-    - en: We keep Wednesday morning meeting-free for focused work.
-  slug: t14-meeting-free-adj
-  topic: active-life
-  cefr: B1
-- lemma: time block
-  pos: noun
-  vi: khoảng thời gian dành riêng cho việc cụ thể
-  def: A period reserved for one activity.
-  examples:
-    - en: Reserve a time block for reviewing the architecture proposal.
-  slug: t14-time-block-n
-  topic: active-life
-  cefr: B1
-  kind: collocation
-- slug: t14-buffer-n
-  lemma: buffer
-  pos: noun
-  cefr: C1
-  topic: active-life
-  ipa: /ˈbʌfə/
-  def: Extra time added to a plan in case of delays.
-  vi: thời gian dự trữ
-  examples:
-    - en: Add a one-week buffer before the old team leaves.
-      vi: Hãy thêm một tuần dự trữ trước khi nhóm cũ rời đi.
-- slug: t14-contingency-n
-  lemma: contingency
-  pos: noun
-  cefr: C1
-  topic: active-life
-  ipa: /kənˈtɪndʒənsi/
-  def: A plan for something bad that might happen.
-  vi: phương án dự phòng
-  examples:
-    - en: Our contingency is to keep Huy on call for two weeks.
-      vi: Phương án dự phòng là giữ Huy trực thêm hai tuần.
-- slug: t14-break-up-pv
-  lemma: break up
-  pos: phrasal_verb
-  kind: phrasal
-  cefr: B1
-  topic: active-life
-  ipa: /ˌbreɪk ˈʌp/
-  def: To divide something into smaller parts.
-  vi: chia nhỏ
-  examples:
-    - en: Break up the long section into short steps.
-      vi: Chia nhỏ phần dài thành các bước ngắn.
-- slug: t14-allocate-v
-  lemma: allocate
-  pos: verb
-  cefr: C1
-  topic: active-life
-  ipa: /ˈæləkeɪt/
-  def: To give an amount of time, money or people for a particular purpose.
-  vi: phân bổ
-  forms:
-    - allocates
-    - allocated
-    - allocating
-    - allocation
-  examples:
-    - en: We allocated two developers to the payment project.
-      vi: Bọn mình đã phân bổ hai developer cho dự án thanh toán.
-- lemma: plan ahead
-  pos: phrase
-  vi: lên kế hoạch trước
-  def: To prepare for future tasks or situations.
-  examples:
-    - en: Plan ahead so the release does not remove every break.
-  slug: t14-plan-ahead-phr
-  topic: active-life
-  cefr: B1
-  kind: phrase
-- slug: t14-review-n
-  lemma: review
-  pos: noun
-  cefr: B1
-  topic: active-life
-  ipa: /rɪˈvjuː/
-  def: A careful look at something to judge it.
-  vi: buổi rà soát
-  examples:
-    - en: The quarterly access review starts on Monday.
-      vi: Buổi rà soát quyền hàng quý bắt đầu vào thứ Hai.
-- slug: t14-revise-v
-  lemma: revise
-  pos: verb
-  cefr: B1
-  topic: active-life
-  ipa: /rɪˈvaɪz/
-  def: To study again what you have learned, before a test.
-  vi: ôn lại
-  note: Nghĩa "ôn bài" là Anh-Anh; Anh-Mỹ dùng "review".
-  examples:
-    - en: I'm revising networking basics for the exam.
-      vi: Mình đang ôn lại kiến thức mạng cơ bản cho kỳ thi.
-- slug: t14-prevent-v
-  lemma: prevent
-  pos: verb
-  cefr: B1
-  topic: active-life
-  ipa: /prɪˈvent/
-  def: To stop something from happening.
-  vi: ngăn chặn, ngăn ngừa
-  forms:
-    - prevents
-    - prevented
-    - preventing
-  examples:
-    - en: A good chair and screen height can prevent back problems.
-      vi: Ghế tốt và màn hình đúng độ cao có thể ngăn ngừa các vấn đề về lưng.
-- slug: t14-risk-factor-n
-  lemma: risk factor
-  pos: noun
-  kind: collocation
-  cefr: C1
-  topic: active-life
-  ipa: /ˈrɪsk ˌfæktə/
-  def: Something that makes it more likely that you will get a disease.
-  vi: yếu tố nguy cơ
-  forms:
-    - risk factors
-  examples:
-    - en: Sitting for long hours is a risk factor for many diseases.
-      vi: Ngồi nhiều giờ liền là yếu tố nguy cơ của nhiều bệnh.
-- slug: t14-team-agreement-n
-  lemma: team agreement
-  pos: noun
-  kind: collocation
-  cefr: A2
-  topic: active-life
-  ipa: /tiːm əˈɡriːmənt/
-  def: A short list of rules that a team writes together about how they work.
-  vi: thoả thuận nhóm
-  examples:
-    - en: Our team agreement says we reply to messages within one working day.
-      vi: Thoả thuận nhóm của mình ghi là trả lời tin nhắn trong vòng một ngày làm
-        việc.
-- slug: t14-on-time-phr
-  lemma: on time
-  pos: phrase
-  kind: phrase
-  cefr: A2
-  topic: active-life
-  ipa: /ɒn ˈtaɪm/
-  def: At the planned time, not late.
-  vi: đúng giờ
-  examples:
-    - en: The demo started on time even though it was raining.
-      vi: Buổi demo bắt đầu đúng giờ dù trời mưa.
-- slug: t14-accountable-adj
-  lemma: accountable
-  pos: adjective
-  cefr: C1
-  topic: active-life
-  ipa: /əˈkaʊntəbl/
-  def: Expected to explain your actions and accept the results.
-  vi: chịu trách nhiệm giải trình
-  forms:
-    - accountability
-    - hold someone accountable
-  examples:
-    - en: Each team is accountable for the uptime of its own services.
-      vi: Mỗi team phải chịu trách nhiệm về thời gian hoạt động của dịch vụ mình.
-- slug: t14-work-ethic-n
-  lemma: work ethic
-  pos: noun
-  kind: collocation
-  cefr: C1
-  topic: active-life
-  ipa: /ˈwɜːk ˌeθɪk/
-  def: A belief that working hard and doing your job well is important.
-  vi: đạo đức nghề nghiệp, tinh thần làm việc
-  forms:
-    - strong work ethic
-  examples:
-    - en: She has a strong work ethic and never leaves a task half done.
-      vi: Cô ấy có tinh thần làm việc nghiêm túc, chẳng bao giờ bỏ dở việc.
+# Vocabulary by topic: Focus, Movement & Sustainable Routines (unit T14). Original content.
+# Set 1: Daily movement
+- {
+    slug: "dance-v",
+    lemma: "dance",
+    pos: "verb",
+    cefr: "A2",
+    topic: "active-life",
+    ipa: "/dɑːns/",
+    def: "To move your body to music.",
+    vi: "nhảy, khiêu vũ",
+    examples:
+      [
+        {
+          en: "I dance for twenty minutes after work to clear my head.",
+          vi: "Mình nhảy hai mươi phút sau giờ làm để đầu óc thoáng hơn.",
+        },
+      ],
+  }
+- {
+    slug: "stairs-n",
+    lemma: "stairs",
+    pos: "noun",
+    cefr: "A2",
+    topic: "active-life",
+    ipa: "/steəz/",
+    def: "A set of steps that go from one floor of a building to another.",
+    vi: "cầu thang",
+    examples:
+      [
+        {
+          en: "I take the stairs to the fourth floor instead of the lift.",
+          vi: "Mình đi cầu thang lên tầng bốn thay vì đi thang máy.",
+        },
+      ],
+  }
+- {
+    slug: "treadmill-n",
+    lemma: "treadmill",
+    pos: "noun",
+    cefr: "B1",
+    topic: "active-life",
+    ipa: "/ˈtredmɪl/",
+    def: "An exercise machine with a moving belt that you walk or run on.",
+    vi: "máy chạy bộ",
+    examples:
+      [
+        {
+          en: "I walk on the treadmill while I listen to the all-hands call.",
+          vi: "Mình đi bộ trên máy chạy trong lúc nghe cuộc họp toàn công ty.",
+        },
+      ],
+  }
+- {
+    slug: "step-count-n",
+    lemma: "step count",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "B1",
+    topic: "active-life",
+    ipa: "/step kaʊnt/",
+    def: "The number of steps you walk in a day, often measured by a phone or watch.",
+    vi: "số bước chân",
+    examples:
+      [
+        {
+          en: "My step count is very low on days with back-to-back calls.",
+          vi: "Số bước chân của mình rất thấp vào những ngày họp liên tục.",
+        },
+      ],
+  }
+- {
+    slug: "cycle-v",
+    lemma: "cycle",
+    pos: "verb",
+    cefr: "A2",
+    topic: "active-life",
+    ipa: "/ˈsaɪkl/",
+    def: "To ride a bicycle.",
+    vi: "đạp xe",
+    examples:
+      [
+        {
+          en: "I cycle to the office when it isn't raining.",
+          vi: "Mình đạp xe đến văn phòng khi trời không mưa.",
+        },
+      ],
+  }
+- {
+    slug: "lunchtime-walk-n",
+    lemma: "lunchtime walk",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "A2",
+    topic: "active-life",
+    ipa: "/ˈlʌntʃtaɪm wɔːk/",
+    def: "A short walk you take during your lunch break.",
+    vi: "đi bộ giờ trưa",
+    examples:
+      [
+        {
+          en: "A lunchtime walk helps me think about a hard bug.",
+          vi: "Đi bộ giờ trưa giúp mình nghĩ về một con bug khó.",
+        },
+      ],
+  }
+- {
+    slug: "swim-v",
+    lemma: "swim",
+    pos: "verb",
+    cefr: "A1",
+    topic: "active-life",
+    ipa: "/swɪm/",
+    def: "To move through water using your arms and legs.",
+    vi: "bơi",
+    examples:
+      [
+        {
+          en: "I swim twice a week before I start work.",
+          vi: "Mình bơi hai lần một tuần trước khi bắt đầu làm việc.",
+        },
+      ],
+  }
+- {
+    slug: "sit-still-phr",
+    lemma: "sit still",
+    pos: "phrase",
+    kind: "phrase",
+    cefr: "A2",
+    topic: "active-life",
+    ipa: "/sɪt stɪl/",
+    def: "To stay in one place without moving for a long time.",
+    vi: "ngồi yên một chỗ",
+    examples:
+      [
+        {
+          en: "I sit still for hours when I'm deep in a refactor.",
+          vi: "Mình ngồi yên hàng giờ khi đang mải refactor.",
+        },
+      ],
+  }
+- {
+    slug: "gym-n",
+    lemma: "gym",
+    pos: "noun",
+    cefr: "A1",
+    topic: "active-life",
+    ipa: "/dʒɪm/",
+    def: "A room or building with equipment for doing physical exercise.",
+    vi: "phòng tập thể dục",
+    examples:
+      [
+        {
+          en: "There's a small gym on the ground floor of our office.",
+          vi: "Có một phòng tập nhỏ ở tầng trệt văn phòng tụi mình.",
+        },
+      ],
+  }
+- {
+    slug: "active-adj",
+    lemma: "active",
+    pos: "adjective",
+    cefr: "A2",
+    topic: "active-life",
+    ipa: "/ˈæktɪv/",
+    def: "Moving around and doing physical things a lot.",
+    vi: "năng động, hay vận động",
+    examples:
+      [
+        {
+          en: "I try to stay active even on remote days.",
+          vi: "Mình cố gắng vận động cả vào những ngày làm từ xa.",
+        },
+      ],
+  }
+# Set 2: Short breaks
+- {
+    slug: "coffee-run-n",
+    lemma: "coffee run",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "B1",
+    topic: "active-life",
+    ipa: "/ˈkɒfi rʌn/",
+    def: "A quick trip to buy coffee, often for yourself and others.",
+    vi: "đi mua cà phê",
+    examples:
+      [
+        {
+          en: "I'm doing a coffee run — does anyone want something?",
+          vi: "Mình đi mua cà phê đây — có ai muốn gì không?",
+        },
+      ],
+  }
+- {
+    slug: "step-away-phr",
+    lemma: "step away",
+    pos: "phrasal_verb",
+    kind: "phrasal",
+    cefr: "B1",
+    topic: "active-life",
+    ipa: "/step əˈweɪ/",
+    def: "To leave your desk or a task for a short time.",
+    vi: "tạm rời đi",
+    examples:
+      [
+        {
+          en: "I'll step away from the screen for five minutes.",
+          vi: "Mình sẽ rời màn hình năm phút.",
+        },
+      ],
+  }
+- {
+    slug: "be-right-back-phr",
+    lemma: "be right back",
+    pos: "phrase",
+    kind: "phrase",
+    cefr: "A2",
+    topic: "active-life",
+    ipa: "/bi raɪt bæk/",
+    def: "A way to say you will return very soon.",
+    vi: "quay lại ngay",
+    examples:
+      [
+        {
+          en: "Be right back, I need to grab some water.",
+          vi: "Quay lại ngay nhé, mình đi lấy chút nước.",
+        },
+      ],
+  }
+- {
+    slug: "refill-v",
+    lemma: "refill",
+    pos: "verb",
+    cefr: "B1",
+    topic: "active-life",
+    ipa: "/ˌriːˈfɪl/",
+    def: "To fill a container again after it has become empty.",
+    vi: "rót đầy lại",
+    examples:
+      [
+        {
+          en: "I refill my water bottle every time I finish a ticket.",
+          vi: "Mình rót đầy bình nước mỗi khi xong một ticket.",
+        },
+      ],
+  }
+- {
+    slug: "snack-n",
+    lemma: "snack",
+    pos: "noun",
+    cefr: "A2",
+    topic: "active-life",
+    ipa: "/snæk/",
+    def: "A small amount of food eaten between meals.",
+    vi: "đồ ăn vặt",
+    examples:
+      [
+        {
+          en: "I keep a healthy snack in my bag for long afternoons.",
+          vi: "Mình để sẵn đồ ăn vặt lành mạnh trong túi cho những buổi chiều dài.",
+        },
+      ],
+  }
+- {
+    slug: "fresh-air-n",
+    lemma: "fresh air",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "A2",
+    topic: "active-life",
+    ipa: "/freʃ eə/",
+    def: "Clean air outside, not inside a room.",
+    vi: "không khí trong lành",
+    examples:
+      [
+        {
+          en: "Let's get some fresh air before the retro.",
+          vi: "Ra ngoài hít thở không khí trong lành trước buổi retro nhé.",
+        },
+      ],
+  }
+- {
+    slug: "timer-n",
+    lemma: "timer",
+    pos: "noun",
+    cefr: "A2",
+    topic: "active-life",
+    ipa: "/ˈtaɪmə/",
+    def: "A device or app that tells you when a period of time has ended.",
+    vi: "đồng hồ hẹn giờ",
+    examples:
+      [
+        {
+          en: "I set a timer so I remember to stand up every hour.",
+          vi: "Mình đặt hẹn giờ để nhớ đứng dậy mỗi tiếng.",
+        },
+      ],
+  }
+- {
+    slug: "stiff-adj",
+    lemma: "stiff",
+    pos: "adjective",
+    cefr: "B1",
+    topic: "active-life",
+    ipa: "/stɪf/",
+    def: "Painful and hard to move, usually after sitting or exercising.",
+    vi: "cứng, mỏi",
+    examples:
+      [
+        {
+          en: "My neck gets stiff after a long day of coding.",
+          vi: "Cổ mình bị cứng sau một ngày dài viết code.",
+        },
+      ],
+  }
+- {
+    slug: "recharge-v",
+    lemma: "recharge",
+    pos: "verb",
+    cefr: "B1",
+    topic: "active-life",
+    ipa: "/ˌriːˈtʃɑːdʒ/",
+    def: "To rest so that you have energy again.",
+    vi: "nạp lại năng lượng",
+    examples:
+      [
+        {
+          en: "A ten-minute break helps me recharge before the next call.",
+          vi: "Nghỉ mười phút giúp mình nạp lại năng lượng trước cuộc gọi tiếp theo.",
+        },
+      ],
+  }
+- {
+    slug: "yawn-v",
+    lemma: "yawn",
+    pos: "verb",
+    cefr: "B1",
+    topic: "active-life",
+    ipa: "/jɔːn/",
+    def: "To open your mouth wide and breathe in because you are tired.",
+    vi: "ngáp",
+    examples:
+      [
+        {
+          en: "When I start to yawn, I know it's time for a break.",
+          vi: "Khi bắt đầu ngáp là mình biết đến lúc nghỉ rồi.",
+        },
+      ],
+  }
+- {
+    slug: "pop-out-phr",
+    lemma: "pop out",
+    pos: "phrasal_verb",
+    kind: "phrasal",
+    cefr: "B2",
+    topic: "active-life",
+    ipa: "/pɒp aʊt/",
+    def: "To leave a place for a short time.",
+    vi: "ra ngoài một lát",
+    examples:
+      [
+        {
+          en: "I'm just popping out for some fruit — back at two.",
+          vi: "Mình ra ngoài mua chút trái cây — hai giờ quay lại.",
+        },
+      ],
+  }
+- {
+    slug: "kettle-n",
+    lemma: "kettle",
+    pos: "noun",
+    cefr: "A2",
+    topic: "active-life",
+    ipa: "/ˈketl/",
+    def: "A container used for boiling water.",
+    vi: "ấm đun nước",
+    examples:
+      [
+        {
+          en: "I'll put the kettle on while the build runs.",
+          vi: "Mình sẽ đun nước trong lúc chờ build chạy.",
+        },
+      ],
+  }
+# Set 3: Focus time
+- {
+    slug: "focus-time-n",
+    lemma: "focus time",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "B1",
+    topic: "active-life",
+    ipa: "/ˈfəʊkəs taɪm/",
+    def: "A period you keep free from meetings so you can concentrate.",
+    vi: "thời gian tập trung",
+    examples:
+      [
+        {
+          en: "I've blocked focus time from nine to eleven every morning.",
+          vi: "Mình đã chặn lịch tập trung từ chín đến mười một giờ mỗi sáng.",
+        },
+      ],
+  }
+- {
+    slug: "flow-state-n",
+    lemma: "flow state",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "C1",
+    topic: "active-life",
+    ipa: "/fləʊ steɪt/",
+    def: "A mental state in which you are completely involved in an activity.",
+    vi: "trạng thái nhập tâm",
+    examples:
+      [
+        {
+          en: "In a flow state, an hour feels like ten minutes.",
+          vi: "Khi nhập tâm, một tiếng trôi như mười phút.",
+        },
+      ],
+  }
+- {
+    slug: "rabbit-hole-n",
+    lemma: "rabbit hole",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "C1",
+    topic: "active-life",
+    ipa: "/ˈræbɪt həʊl/",
+    def: "A long, interesting search that takes you away from your real task.",
+    vi: "sa đà, lạc đề",
+    examples:
+      [
+        {
+          en: "I went down a rabbit hole reading about fonts instead of fixing the bug.",
+          vi: "Mình sa đà đọc về font chữ thay vì sửa bug.",
+        },
+      ],
+  }
+- {
+    slug: "focus-block-n",
+    lemma: "focus block",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "B2",
+    topic: "active-life",
+    ipa: "/ˈfəʊkəs blɒk/",
+    def: "A fixed period in your day when you only work on one task.",
+    vi: "khung giờ tập trung",
+    examples:
+      [
+        {
+          en: "I have two focus blocks a day, each ninety minutes.",
+          vi: "Mỗi ngày mình có hai khung giờ tập trung, mỗi khung chín mươi phút.",
+        },
+      ],
+  }
+- {
+    slug: "lo-fi-music-n",
+    lemma: "lo-fi music",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "B2",
+    topic: "active-life",
+    ipa: "/ˈləʊ faɪ ˈmjuːzɪk/",
+    def: "Calm, simple background music that many people play while they work.",
+    vi: "nhạc lo-fi",
+    examples:
+      [{ en: "I play lo-fi music to help me focus.", vi: "Mình bật nhạc lo-fi để dễ tập trung." }],
+  }
+- {
+    slug: "heads-down-adj",
+    lemma: "heads-down",
+    pos: "adjective",
+    cefr: "C1",
+    topic: "active-life",
+    ipa: "/ˌhedz ˈdaʊn/",
+    def: "Working with full attention and not talking to others.",
+    vi: "cắm cúi làm, dồn sức tập trung",
+    examples:
+      [
+        {
+          en: "I'll be heads-down on the release notes until lunch.",
+          vi: "Mình sẽ cắm cúi viết release notes đến trưa.",
+        },
+      ],
+  }
+- {
+    slug: "drop-everything-phr",
+    lemma: "drop everything",
+    pos: "phrase",
+    kind: "phrase",
+    cefr: "B2",
+    topic: "active-life",
+    ipa: "/drɒp ˈevriθɪŋ/",
+    def: "To stop all you are doing to deal with something else.",
+    vi: "bỏ hết việc đang làm",
+    examples:
+      [
+        {
+          en: "Only production outages should make you drop everything.",
+          vi: "Chỉ sự cố production mới đáng để bạn bỏ hết việc đang làm.",
+        },
+      ],
+  }
+- {
+    slug: "disturb-v",
+    lemma: "disturb",
+    pos: "verb",
+    cefr: "B1",
+    topic: "active-life",
+    ipa: "/dɪˈstɜːb/",
+    def: "To stop someone working or resting by making noise or asking for attention.",
+    vi: "làm phiền",
+    examples:
+      [
+        {
+          en: "Sorry to disturb you, but the deploy is failing.",
+          vi: "Xin lỗi làm phiền bạn, nhưng bản deploy đang lỗi.",
+        },
+      ],
+  }
+- {
+    slug: "block-out-phr",
+    lemma: "block out",
+    pos: "phrasal_verb",
+    kind: "phrasal",
+    cefr: "B2",
+    topic: "active-life",
+    ipa: "/blɒk aʊt/",
+    def: "To reserve a period in your calendar so nothing else is booked.",
+    vi: "chặn lịch",
+    examples:
+      [
+        {
+          en: "Can you block out Friday afternoon for the migration?",
+          vi: "Bạn chặn lịch chiều thứ Sáu cho việc migration được không?",
+        },
+      ],
+  }
+- {
+    slug: "zone-in-phr",
+    lemma: "zone in",
+    pos: "phrasal_verb",
+    kind: "phrasal",
+    cefr: "C1",
+    topic: "active-life",
+    ipa: "/zəʊn ɪn/",
+    def: "To start giving complete attention to something.",
+    vi: "dồn hết sự chú ý",
+    examples:
+      [
+        {
+          en: "It takes me ten minutes to zone in on a new codebase.",
+          vi: "Mình mất mười phút để dồn hết chú ý vào một codebase mới.",
+        },
+      ],
+  }
+- {
+    slug: "uninterrupted-adj",
+    lemma: "uninterrupted",
+    pos: "adjective",
+    cefr: "B2",
+    topic: "active-life",
+    ipa: "/ˌʌnɪntəˈrʌptɪd/",
+    def: "Continuing without being stopped.",
+    vi: "không bị gián đoạn",
+    examples:
+      [
+        {
+          en: "I need two uninterrupted hours to finish this review.",
+          vi: "Mình cần hai tiếng không bị gián đoạn để xong bản review này.",
+        },
+      ],
+  }
+- {
+    slug: "tap-on-the-shoulder-phr",
+    lemma: "tap on the shoulder",
+    pos: "phrase",
+    kind: "phrase",
+    cefr: "B2",
+    topic: "active-life",
+    ipa: "/tæp ɒn ðə ˈʃəʊldə/",
+    def: "A small interruption when someone asks you for something.",
+    vi: "gọi nhờ (làm gián đoạn)",
+    examples:
+      [
+        {
+          en: "Each tap on the shoulder breaks my focus.",
+          vi: "Mỗi lần bị gọi nhờ là mình mất tập trung.",
+        },
+      ],
+  }
+- {
+    slug: "hotline-n",
+    lemma: "hotline",
+    pos: "noun",
+    cefr: "B2",
+    topic: "active-life",
+    ipa: "/ˈhɒtlaɪn/",
+    def: "A direct phone line or number for urgent help.",
+    vi: "đường dây nóng",
+    examples:
+      [
+        {
+          en: "Use the support hotline if a customer is blocked.",
+          vi: "Dùng đường dây nóng hỗ trợ nếu khách hàng bị chặn.",
+        },
+      ],
+  }
+- {
+    slug: "context-switch-n",
+    lemma: "context switch",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "C1",
+    topic: "active-life",
+    ipa: "/ˈkɒntekst swɪtʃ/",
+    def: "The act of moving your attention from one task to a different one.",
+    vi: "chuyển ngữ cảnh",
+    examples:
+      [
+        {
+          en: "Every context switch costs me about fifteen minutes.",
+          vi: "Mỗi lần chuyển ngữ cảnh mình mất khoảng mười lăm phút.",
+        },
+      ],
+  }
+# Set 4: Energy & recovery
+- {
+    slug: "energy-level-n",
+    lemma: "energy level",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "B1",
+    topic: "active-life",
+    ipa: "/ˈenədʒi ˈlevl/",
+    def: "How much physical or mental energy you have at a certain time.",
+    vi: "mức năng lượng",
+    examples:
+      [
+        {
+          en: "My energy level drops after lunch, so I do easy tasks then.",
+          vi: "Mức năng lượng của mình giảm sau bữa trưa nên mình làm việc nhẹ lúc đó.",
+        },
+      ],
+  }
+- {
+    slug: "worn-out-adj",
+    lemma: "worn out",
+    pos: "adjective",
+    cefr: "B1",
+    topic: "active-life",
+    ipa: "/wɔːn aʊt/",
+    def: "Extremely tired after a lot of work or effort.",
+    vi: "kiệt sức, mệt rã rời",
+    examples:
+      [
+        {
+          en: "I was worn out after the weekend release.",
+          vi: "Mình mệt rã rời sau đợt release cuối tuần.",
+        },
+      ],
+  }
+- {
+    slug: "perk-up-phr",
+    lemma: "perk up",
+    pos: "phrasal_verb",
+    kind: "phrasal",
+    cefr: "B2",
+    topic: "active-life",
+    ipa: "/pɜːk ʌp/",
+    def: "To start to feel more awake and lively.",
+    vi: "tỉnh táo lại, phấn chấn lên",
+    examples:
+      [
+        {
+          en: "A short walk always helps me perk up.",
+          vi: "Đi bộ một chút luôn giúp mình tỉnh táo lại.",
+        },
+      ],
+  }
+- {
+    slug: "nap-n",
+    lemma: "nap",
+    pos: "noun",
+    cefr: "B1",
+    topic: "active-life",
+    ipa: "/næp/",
+    def: "A short sleep during the day.",
+    vi: "giấc ngủ ngắn",
+    examples:
+      [
+        {
+          en: "I took a short nap after my night on call.",
+          vi: "Mình ngủ một giấc ngắn sau đêm trực.",
+        },
+      ],
+  }
+- {
+    slug: "energy-dip-n",
+    lemma: "energy dip",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "B2",
+    topic: "active-life",
+    ipa: "/ˈenədʒi dɪp/",
+    def: "A time when you suddenly feel less energy than usual.",
+    vi: "lúc tụt năng lượng",
+    examples:
+      [
+        {
+          en: "I schedule code reviews for my afternoon energy dip.",
+          vi: "Mình xếp review code vào lúc tụt năng lượng buổi chiều.",
+        },
+      ],
+  }
+- {
+    slug: "hydrated-adj",
+    lemma: "hydrated",
+    pos: "adjective",
+    cefr: "B1",
+    topic: "active-life",
+    ipa: "/haɪˈdreɪtɪd/",
+    def: "Having drunk enough water.",
+    vi: "đủ nước",
+    examples:
+      [{ en: "Stay hydrated during the hackathon.", vi: "Nhớ uống đủ nước trong suốt hackathon." }],
+  }
+- {
+    slug: "second-wind-n",
+    lemma: "second wind",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "C1",
+    topic: "active-life",
+    ipa: "/ˌsekənd ˈwɪnd/",
+    def: "New energy that lets you continue after you felt tired.",
+    vi: "lấy lại sức",
+    examples:
+      [
+        {
+          en: "After a snack I got my second wind and finished the tests.",
+          vi: "Sau khi ăn nhẹ, mình lấy lại sức và viết xong test.",
+        },
+      ],
+  }
+- {
+    slug: "catch-up-phr",
+    lemma: "catch up on",
+    pos: "phrasal_verb",
+    kind: "phrasal",
+    cefr: "B1",
+    topic: "active-life",
+    ipa: "/kætʃ ʌp ɒn/",
+    def: "To do something you did not have time to do earlier.",
+    vi: "bù lại",
+    examples:
+      [
+        {
+          en: "I need to catch up on sleep after this sprint.",
+          vi: "Mình cần ngủ bù sau sprint này.",
+        },
+      ],
+  }
+- {
+    slug: "time-off-n",
+    lemma: "time off",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "B1",
+    topic: "active-life",
+    ipa: "/taɪm ɒf/",
+    def: "A period when you do not have to work.",
+    vi: "thời gian nghỉ",
+    examples:
+      [
+        {
+          en: "I'm taking time off on Monday to recover.",
+          vi: "Mình xin nghỉ thứ Hai để hồi sức.",
+        },
+      ],
+  }
+- {
+    slug: "rested-adj",
+    lemma: "rested",
+    pos: "adjective",
+    cefr: "B1",
+    topic: "active-life",
+    ipa: "/ˈrestɪd/",
+    def: "Feeling relaxed and full of energy after resting or sleeping.",
+    vi: "được nghỉ ngơi đầy đủ",
+    examples:
+      [
+        {
+          en: "I feel rested, so I'll take the hard ticket today.",
+          vi: "Mình thấy đã nghỉ ngơi đầy đủ nên hôm nay mình nhận ticket khó.",
+        },
+      ],
+  }
+- {
+    slug: "sluggish-adj",
+    lemma: "sluggish",
+    pos: "adjective",
+    cefr: "C1",
+    topic: "active-life",
+    ipa: "/ˈslʌɡɪʃ/",
+    def: "Moving or thinking more slowly than normal.",
+    vi: "uể oải, chậm chạp",
+    examples:
+      [{ en: "I feel sluggish if I skip breakfast.", vi: "Mình thấy uể oải nếu bỏ bữa sáng." }],
+  }
+- {
+    slug: "lie-in-n",
+    lemma: "lie-in",
+    pos: "noun",
+    cefr: "B2",
+    topic: "active-life",
+    ipa: "/ˈlaɪ ɪn/",
+    def: "An occasion when you stay in bed later than usual in the morning.",
+    vi: "ngủ nướng",
+    examples:
+      [
+        {
+          en: "I'm having a lie-in tomorrow after tonight's deploy.",
+          vi: "Mai mình ngủ nướng sau đợt deploy tối nay.",
+        },
+      ],
+  }
+- {
+    slug: "rest-up-phr",
+    lemma: "rest up",
+    pos: "phrasal_verb",
+    kind: "phrasal",
+    cefr: "B2",
+    topic: "active-life",
+    ipa: "/rest ʌp/",
+    def: "To rest for a while so you get your strength back.",
+    vi: "nghỉ cho lại sức",
+    examples:
+      [
+        {
+          en: "Rest up tomorrow — Linh will cover your tickets.",
+          vi: "Mai nghỉ cho lại sức nhé — Linh sẽ lo ticket của bạn.",
+        },
+      ],
+  }
+- {
+    slug: "take-it-easy-phr",
+    lemma: "take it easy",
+    pos: "phrase",
+    kind: "phrase",
+    cefr: "B1",
+    topic: "active-life",
+    ipa: "/teɪk ɪt ˈiːzi/",
+    def: "To relax and not work too hard.",
+    vi: "thong thả, đừng làm quá sức",
+    examples:
+      [
+        {
+          en: "Take it easy this morning; there are no urgent bugs.",
+          vi: "Sáng nay cứ thong thả nhé, không có bug gấp nào.",
+        },
+      ],
+  }
+- {
+    slug: "pace-oneself-phr",
+    lemma: "pace yourself",
+    pos: "phrase",
+    kind: "phrase",
+    cefr: "C1",
+    topic: "active-life",
+    ipa: "/peɪs jɔːˈself/",
+    def: "To do something at a speed you can keep up without getting too tired.",
+    vi: "giữ sức, làm vừa phải",
+    examples:
+      [{ en: "It's a long project, so pace yourself.", vi: "Dự án còn dài nên hãy giữ sức." }],
+  }
+- {
+    slug: "refuel-v",
+    lemma: "refuel",
+    pos: "verb",
+    cefr: "B2",
+    topic: "active-life",
+    ipa: "/ˌriːˈfjuːəl/",
+    def: "To eat or drink to get energy again.",
+    vi: "nạp năng lượng (ăn uống)",
+    examples:
+      [
+        {
+          en: "Let's refuel with some noodles before the next debug session.",
+          vi: "Ăn chút mì nạp năng lượng trước phiên debug tiếp theo nhé.",
+        },
+      ],
+  }
+# Set 5: Setting realistic goals
+- {
+    slug: "doable-adj",
+    lemma: "doable",
+    pos: "adjective",
+    cefr: "B2",
+    topic: "active-life",
+    ipa: "/ˈduːəbl/",
+    def: "Possible to do with the time and effort you have.",
+    vi: "làm được, khả thi",
+    examples:
+      [
+        {
+          en: "Ten minutes of exercise a day feels doable.",
+          vi: "Tập mười phút mỗi ngày có vẻ làm được.",
+        },
+      ],
+  }
+- {
+    slug: "step-goal-n",
+    lemma: "step goal",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "B1",
+    topic: "active-life",
+    ipa: "/step ɡəʊl/",
+    def: "The number of steps you plan to walk in a day.",
+    vi: "mục tiêu số bước",
+    examples:
+      [
+        {
+          en: "My step goal is 6,000 on office days.",
+          vi: "Mục tiêu số bước của mình là 6.000 vào ngày lên văn phòng.",
+        },
+      ],
+  }
+- {
+    slug: "mini-goal-n",
+    lemma: "mini goal",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "B1",
+    topic: "active-life",
+    ipa: "/ˈmɪni ɡəʊl/",
+    def: "A small goal that is part of a bigger one.",
+    vi: "mục tiêu nhỏ",
+    examples:
+      [
+        {
+          en: "My first mini goal is to stand up once an hour.",
+          vi: "Mục tiêu nhỏ đầu tiên của mình là đứng dậy mỗi tiếng một lần.",
+        },
+      ],
+  }
+- {
+    slug: "couch-to-5k-n",
+    lemma: "couch to 5K",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "B2",
+    topic: "active-life",
+    ipa: "/kaʊtʃ tə faɪv keɪ/",
+    def: "A beginner plan that slowly takes you from no exercise to running five kilometres.",
+    vi: "lộ trình từ con số 0 đến chạy 5K",
+    examples:
+      [
+        {
+          en: "I'm in week three of a couch to 5K plan.",
+          vi: "Mình đang ở tuần thứ ba của lộ trình từ con số 0 đến chạy 5K.",
+        },
+      ],
+  }
+- {
+    slug: "bite-sized-adj",
+    lemma: "bite-sized",
+    pos: "adjective",
+    cefr: "B2",
+    topic: "active-life",
+    ipa: "/ˈbaɪt saɪzd/",
+    def: "Small and easy to deal with.",
+    vi: "nhỏ gọn, chia nhỏ",
+    examples:
+      [
+        {
+          en: "I break big goals into bite-sized tasks.",
+          vi: "Mình chia mục tiêu lớn thành việc nhỏ dễ làm.",
+        },
+      ],
+  }
+- {
+    slug: "ambitious-adj",
+    lemma: "ambitious",
+    pos: "adjective",
+    cefr: "B2",
+    topic: "active-life",
+    ipa: "/æmˈbɪʃəs/",
+    def: "Needing a lot of effort or skill to achieve.",
+    vi: "tham vọng",
+    examples:
+      [
+        {
+          en: "Running every day was too ambitious for my schedule.",
+          vi: "Chạy mỗi ngày là quá tham vọng với lịch của mình.",
+        },
+      ],
+  }
+- {
+    slug: "promise-yourself-phr",
+    lemma: "promise yourself",
+    pos: "phrase",
+    kind: "phrase",
+    cefr: "B1",
+    topic: "active-life",
+    ipa: "/ˈprɒmɪs jɔːˈself/",
+    def: "To decide firmly that you will do something.",
+    vi: "tự hứa với bản thân",
+    examples:
+      [
+        {
+          en: "I promised myself to close the laptop by seven.",
+          vi: "Mình tự hứa sẽ đóng laptop trước bảy giờ.",
+        },
+      ],
+  }
+- {
+    slug: "keep-tabs-on-phr",
+    lemma: "keep tabs on",
+    pos: "phrase",
+    kind: "phrase",
+    cefr: "C1",
+    topic: "active-life",
+    ipa: "/kiːp tæbz ɒn/",
+    def: "To watch something carefully so you know what is happening.",
+    vi: "để mắt tới",
+    examples:
+      [
+        {
+          en: "I keep tabs on my sleep with a simple app.",
+          vi: "Mình để mắt tới giấc ngủ bằng một ứng dụng đơn giản.",
+        },
+      ],
+  }
+- {
+    slug: "tweak-v",
+    lemma: "tweak",
+    pos: "verb",
+    cefr: "B2",
+    topic: "active-life",
+    ipa: "/twiːk/",
+    def: "To make a small change to improve something.",
+    vi: "chỉnh nhẹ",
+    examples:
+      [
+        {
+          en: "I tweaked my plan to walk in the evening instead.",
+          vi: "Mình chỉnh nhẹ kế hoạch để đi bộ vào buổi tối.",
+        },
+      ],
+  }
+- {
+    slug: "overcommit-v",
+    lemma: "overcommit",
+    pos: "verb",
+    cefr: "C1",
+    topic: "active-life",
+    ipa: "/ˌəʊvəkəˈmɪt/",
+    def: "To promise to do more than you can manage.",
+    vi: "nhận quá sức",
+    examples:
+      [
+        {
+          en: "I overcommitted in January and gave up by February.",
+          vi: "Tháng Một mình nhận quá sức và tới tháng Hai thì bỏ cuộc.",
+        },
+      ],
+  }
+- {
+    slug: "thirty-day-challenge-n",
+    lemma: "thirty-day challenge",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "B2",
+    topic: "active-life",
+    ipa: "/ˈθɜːti deɪ ˈtʃælɪndʒ/",
+    def: "A goal to do something every day for a month.",
+    vi: "thử thách ba mươi ngày",
+    examples:
+      [
+        {
+          en: "The team started a thirty-day challenge of daily stretches.",
+          vi: "Cả nhóm bắt đầu thử thách ba mươi ngày giãn cơ mỗi ngày.",
+        },
+      ],
+  }
+- {
+    slug: "hiccup-n",
+    lemma: "hiccup",
+    pos: "noun",
+    cefr: "B2",
+    topic: "active-life",
+    ipa: "/ˈhɪkʌp/",
+    def: "A small problem that delays you for a short time.",
+    vi: "trục trặc nhỏ",
+    examples:
+      [
+        {
+          en: "Missing one day is a hiccup, not a failure.",
+          vi: "Lỡ một ngày chỉ là trục trặc nhỏ, không phải thất bại.",
+        },
+      ],
+  }
+- {
+    slug: "kickstart-v",
+    lemma: "kickstart",
+    pos: "verb",
+    cefr: "C1",
+    topic: "active-life",
+    ipa: "/ˈkɪkstɑːt/",
+    def: "To help something start or start again quickly.",
+    vi: "khởi động, tạo cú hích",
+    examples:
+      [
+        {
+          en: "A step challenge kickstarted my new routine.",
+          vi: "Một thử thách bước chân đã tạo cú hích cho thói quen mới của mình.",
+        },
+      ],
+  }
+- {
+    slug: "scale-back-phr",
+    lemma: "scale back",
+    pos: "phrasal_verb",
+    kind: "phrasal",
+    cefr: "C1",
+    topic: "active-life",
+    ipa: "/skeɪl bæk/",
+    def: "To make a plan smaller than before.",
+    vi: "thu nhỏ quy mô",
+    examples:
+      [
+        {
+          en: "I scaled back to three workouts a week during the launch.",
+          vi: "Mình giảm xuống ba buổi tập một tuần trong đợt ra mắt.",
+        },
+      ],
+  }
+- {
+    slug: "habit-tracker-n",
+    lemma: "habit tracker",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "B1",
+    topic: "active-life",
+    ipa: "/ˈhæbɪt ˈtrækə/",
+    def: "An app or chart where you mark each day you do a habit.",
+    vi: "ứng dụng theo dõi thói quen",
+    examples:
+      [
+        {
+          en: "I tick a box in my habit tracker after each walk.",
+          vi: "Mình đánh dấu vào ứng dụng theo dõi thói quen sau mỗi lần đi bộ.",
+        },
+      ],
+  }
+- {
+    slug: "sense-of-achievement-n",
+    lemma: "sense of achievement",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "B2",
+    topic: "active-life",
+    ipa: "/sens əv əˈtʃiːvmənt/",
+    def: "A good feeling you get when you succeed at something.",
+    vi: "cảm giác thành tựu",
+    examples:
+      [
+        {
+          en: "Ticking off a small goal gives me a sense of achievement.",
+          vi: "Đánh dấu xong một mục tiêu nhỏ cho mình cảm giác thành tựu.",
+        },
+      ],
+  }
+- {
+    slug: "step-by-step-phr",
+    lemma: "step by step",
+    pos: "phrase",
+    kind: "phrase",
+    cefr: "B1",
+    topic: "active-life",
+    ipa: "/step baɪ step/",
+    def: "Slowly, doing one small part at a time.",
+    vi: "từng bước một",
+    examples:
+      [
+        {
+          en: "I'm building the habit step by step.",
+          vi: "Mình đang xây thói quen từng bước một.",
+        },
+      ],
+  }
+- {
+    slug: "gradual-adj",
+    lemma: "gradual",
+    pos: "adjective",
+    cefr: "B2",
+    topic: "active-life",
+    ipa: "/ˈɡrædʒuəl/",
+    def: "Happening slowly over a long period.",
+    vi: "dần dần",
+    examples:
+      [
+        {
+          en: "A gradual change is easier to keep than a big one.",
+          vi: "Một thay đổi dần dần dễ duy trì hơn một thay đổi lớn.",
+        },
+      ],
+  }
+# Set 6: Group activities
+- {
+    slug: "team-sport-n",
+    lemma: "team sport",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "A2",
+    topic: "active-life",
+    ipa: "/tiːm spɔːt/",
+    def: "A sport played by two groups of people against each other.",
+    vi: "môn thể thao đồng đội",
+    examples:
+      [
+        {
+          en: "Football is the most popular team sport in our office.",
+          vi: "Bóng đá là môn đồng đội được ưa chuộng nhất ở văn phòng mình.",
+        },
+      ],
+  }
+- {
+    slug: "join-in-phr",
+    lemma: "join in",
+    pos: "phrasal_verb",
+    kind: "phrasal",
+    cefr: "B1",
+    topic: "active-life",
+    ipa: "/dʒɔɪn ɪn/",
+    def: "To take part in an activity with other people.",
+    vi: "tham gia cùng",
+    examples:
+      [
+        {
+          en: "Anyone can join in, even if you've never played.",
+          vi: "Ai cũng có thể tham gia, kể cả khi chưa từng chơi.",
+        },
+      ],
+  }
+- {
+    slug: "put-your-name-down-phr",
+    lemma: "put your name down",
+    pos: "phrase",
+    kind: "phrase",
+    cefr: "B2",
+    topic: "active-life",
+    ipa: "/pʊt jɔː neɪm daʊn/",
+    def: "To add your name to a list for an activity.",
+    vi: "ghi tên đăng ký",
+    examples:
+      [
+        {
+          en: "Put your name down by Wednesday if you want a T-shirt.",
+          vi: "Ghi tên trước thứ Tư nếu bạn muốn có áo.",
+        },
+      ],
+  }
+- {
+    slug: "sit-out-phr",
+    lemma: "sit out",
+    pos: "phrasal_verb",
+    kind: "phrasal",
+    cefr: "B2",
+    topic: "active-life",
+    ipa: "/sɪt aʊt/",
+    def: "To not take part in an activity, or part of it.",
+    vi: "ngồi ngoài, không tham gia",
+    examples:
+      [
+        {
+          en: "It's fine to sit out the second game if you're tired.",
+          vi: "Mệt thì ngồi ngoài trận thứ hai cũng không sao.",
+        },
+      ],
+  }
+- {
+    slug: "badminton-n",
+    lemma: "badminton",
+    pos: "noun",
+    cefr: "A2",
+    topic: "active-life",
+    ipa: "/ˈbædmɪntən/",
+    def: "A game where players hit a light object over a high net with rackets.",
+    vi: "cầu lông",
+    examples:
+      [
+        {
+          en: "We play badminton every Thursday after work.",
+          vi: "Tụi mình đánh cầu lông mỗi thứ Năm sau giờ làm.",
+        },
+      ],
+  }
+- {
+    slug: "goalkeeper-n",
+    lemma: "goalkeeper",
+    pos: "noun",
+    cefr: "B1",
+    topic: "active-life",
+    ipa: "/ˈɡəʊlkiːpə/",
+    def: "The player who stands in the goal and tries to stop the ball.",
+    vi: "thủ môn",
+    examples:
+      [
+        {
+          en: "Our CTO plays as goalkeeper on Fridays.",
+          vi: "CTO của tụi mình làm thủ môn vào thứ Sáu.",
+        },
+      ],
+  }
+- {
+    slug: "cool-down-n",
+    lemma: "cool-down",
+    pos: "noun",
+    cefr: "B2",
+    topic: "active-life",
+    ipa: "/ˈkuːl daʊn/",
+    def: "Gentle exercise after sport to help your body relax.",
+    vi: "thả lỏng sau tập",
+    examples:
+      [
+        {
+          en: "Don't skip the cool-down after the match.",
+          vi: "Đừng bỏ phần thả lỏng sau trận đấu.",
+        },
+      ],
+  }
+- {
+    slug: "match-n",
+    lemma: "match",
+    pos: "noun",
+    cefr: "A2",
+    topic: "active-life",
+    ipa: "/mætʃ/",
+    def: "A sports event where two players or teams play against each other.",
+    vi: "trận đấu",
+    examples:
+      [
+        {
+          en: "We lost the match, but everyone had fun.",
+          vi: "Tụi mình thua trận nhưng ai cũng vui.",
+        },
+      ],
+  }
+- {
+    slug: "tournament-n",
+    lemma: "tournament",
+    pos: "noun",
+    cefr: "B1",
+    topic: "active-life",
+    ipa: "/ˈtʊənəmənt/",
+    def: "A competition with many matches between several teams.",
+    vi: "giải đấu",
+    examples:
+      [
+        {
+          en: "The company futsal tournament starts next month.",
+          vi: "Giải futsal của công ty bắt đầu tháng sau.",
+        },
+      ],
+  }
+- {
+    slug: "league-n",
+    lemma: "league",
+    pos: "noun",
+    cefr: "B1",
+    topic: "active-life",
+    ipa: "/liːɡ/",
+    def: "A group of teams that play each other regularly during a season.",
+    vi: "giải liên đoàn, giải vòng tròn",
+    examples:
+      [
+        {
+          en: "Our team plays in a small tech league on Sundays.",
+          vi: "Đội mình chơi trong một giải nhỏ dân công nghệ vào Chủ nhật.",
+        },
+      ],
+  }
+- {
+    slug: "referee-n",
+    lemma: "referee",
+    pos: "noun",
+    cefr: "B1",
+    topic: "active-life",
+    ipa: "/ˌrefəˈriː/",
+    def: "The official who makes sure players follow the rules in a game.",
+    vi: "trọng tài",
+    examples:
+      [
+        {
+          en: "Our product manager was the referee this week.",
+          vi: "Tuần này PM của tụi mình làm trọng tài.",
+        },
+      ],
+  }
+- {
+    slug: "score-v",
+    lemma: "score",
+    pos: "verb",
+    cefr: "A2",
+    topic: "active-life",
+    ipa: "/skɔː/",
+    def: "To win a point or goal in a game.",
+    vi: "ghi điểm, ghi bàn",
+    examples:
+      [
+        {
+          en: "The new intern scored two goals in his first game.",
+          vi: "Bạn thực tập mới ghi hai bàn ngay trận đầu.",
+        },
+      ],
+  }
+- {
+    slug: "cheer-on-phr",
+    lemma: "cheer on",
+    pos: "phrasal_verb",
+    kind: "phrasal",
+    cefr: "B2",
+    topic: "active-life",
+    ipa: "/tʃɪə ɒn/",
+    def: "To shout to support someone who is competing.",
+    vi: "cổ vũ",
+    examples:
+      [
+        {
+          en: "We went to cheer on the design team at the fun run.",
+          vi: "Tụi mình đi cổ vũ nhóm design ở buổi chạy vui.",
+        },
+      ],
+  }
+- {
+    slug: "low-impact-adj",
+    lemma: "low-impact",
+    pos: "adjective",
+    cefr: "C1",
+    topic: "active-life",
+    ipa: "/ˌləʊ ˈɪmpækt/",
+    def: "Gentle on your body and joints.",
+    vi: "nhẹ nhàng, ít tác động",
+    examples:
+      [
+        {
+          en: "Walking football is low-impact, so anyone can play.",
+          vi: "Bóng đá đi bộ ít tác động nên ai cũng chơi được.",
+        },
+      ],
+  }
+- {
+    slug: "fitness-level-n",
+    lemma: "fitness level",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "B1",
+    topic: "active-life",
+    ipa: "/ˈfɪtnəs ˈlevl/",
+    def: "How strong and healthy your body is for exercise.",
+    vi: "thể lực",
+    examples:
+      [
+        {
+          en: "Choose the route that matches your fitness level.",
+          vi: "Chọn cung đường phù hợp với thể lực của bạn.",
+        },
+      ],
+  }
+- {
+    slug: "beginner-friendly-adj",
+    lemma: "beginner-friendly",
+    pos: "adjective",
+    cefr: "B2",
+    topic: "active-life",
+    ipa: "/bɪˈɡɪnə ˈfrendli/",
+    def: "Easy enough for people who are new to something.",
+    vi: "dễ cho người mới",
+    examples:
+      [
+        {
+          en: "The Tuesday yoga class is beginner-friendly.",
+          vi: "Lớp yoga thứ Ba rất dễ cho người mới.",
+        },
+      ],
+  }
+- {
+    slug: "captain-n",
+    lemma: "captain",
+    pos: "noun",
+    cefr: "B1",
+    topic: "active-life",
+    ipa: "/ˈkæptɪn/",
+    def: "The leader of a sports team.",
+    vi: "đội trưởng",
+    examples:
+      [
+        {
+          en: "Huy is the captain of our futsal team.",
+          vi: "Huy là đội trưởng đội futsal của tụi mình.",
+        },
+      ],
+  }
+- {
+    slug: "court-n",
+    lemma: "court",
+    pos: "noun",
+    cefr: "B1",
+    topic: "active-life",
+    ipa: "/kɔːt/",
+    def: "An area marked out for games such as tennis or basketball.",
+    vi: "sân (cầu lông, tennis)",
+    examples:
+      [
+        {
+          en: "We booked a court near the office for 6 p.m.",
+          vi: "Tụi mình đặt sân gần văn phòng lúc 6 giờ chiều.",
+        },
+      ],
+  }
+- {
+    slug: "starting-whistle-n",
+    lemma: "starting whistle",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "B2",
+    topic: "active-life",
+    ipa: "/ˈstɑːtɪŋ ˈwɪsl/",
+    def: "The sound that tells players a game has begun.",
+    vi: "tiếng còi khai cuộc",
+    examples:
+      [
+        {
+          en: "Be at the pitch before the starting whistle at six.",
+          vi: "Có mặt ở sân trước tiếng còi khai cuộc lúc sáu giờ.",
+        },
+      ],
+  }
+- {
+    slug: "futsal-n",
+    lemma: "futsal",
+    pos: "noun",
+    cefr: "B1",
+    topic: "active-life",
+    ipa: "/ˈfʊtsæl/",
+    def: "A type of football played indoors with five players per team.",
+    vi: "bóng đá trong nhà",
+    examples:
+      [
+        {
+          en: "Futsal is popular with our backend team.",
+          vi: "Futsal được nhóm backend tụi mình rất thích.",
+        },
+      ],
+  }
+# Set 7: Habits & consistency
+- {
+    slug: "habit-n",
+    lemma: "habit",
+    pos: "noun",
+    cefr: "B1",
+    topic: "active-life",
+    ipa: "/ˈhæbɪt/",
+    def: "Something you do often, almost without thinking.",
+    vi: "thói quen",
+    examples:
+      [
+        {
+          en: "Stretching after stand-up is now a habit.",
+          vi: "Giãn cơ sau stand-up giờ đã thành thói quen.",
+        },
+      ],
+  }
+- {
+    slug: "routine-n",
+    lemma: "routine",
+    pos: "noun",
+    cefr: "B1",
+    topic: "active-life",
+    ipa: "/ruːˈtiːn/",
+    def: "The usual order in which you do things every day.",
+    vi: "lịch sinh hoạt thường ngày",
+    examples:
+      [
+        {
+          en: "My morning routine starts with a walk, then email.",
+          vi: "Lịch buổi sáng của mình bắt đầu bằng đi bộ, rồi mới đến email.",
+        },
+      ],
+  }
+- {
+    slug: "day-in-day-out-phr",
+    lemma: "day in, day out",
+    pos: "phrase",
+    kind: "phrase",
+    cefr: "C1",
+    topic: "active-life",
+    ipa: "/deɪ ɪn deɪ aʊt/",
+    def: "Every day for a long time.",
+    vi: "ngày qua ngày",
+    examples:
+      [
+        {
+          en: "She walks to work day in, day out, even in the rain.",
+          vi: "Ngày qua ngày chị ấy đi bộ đi làm, kể cả khi mưa.",
+        },
+      ],
+  }
+- {
+    slug: "stick-to-phr",
+    lemma: "stick to",
+    pos: "phrasal_verb",
+    kind: "phrasal",
+    cefr: "B1",
+    topic: "active-life",
+    ipa: "/stɪk tuː/",
+    def: "To keep doing what you planned and not change.",
+    vi: "bám theo, giữ đúng",
+    examples:
+      [
+        {
+          en: "I stick to my plan even when the sprint is busy.",
+          vi: "Mình giữ đúng kế hoạch kể cả khi sprint bận.",
+        },
+      ],
+  }
+- {
+    slug: "miss-a-day-phr",
+    lemma: "miss a day",
+    pos: "phrase",
+    kind: "phrase",
+    cefr: "A2",
+    topic: "active-life",
+    ipa: "/mɪs ə deɪ/",
+    def: "To not do your usual activity on one day.",
+    vi: "lỡ một ngày",
+    examples:
+      [
+        {
+          en: "If I miss a day, I just start again the next morning.",
+          vi: "Nếu lỡ một ngày, sáng hôm sau mình chỉ việc làm lại.",
+        },
+      ],
+  }
+- {
+    slug: "streak-n",
+    lemma: "streak",
+    pos: "noun",
+    cefr: "B2",
+    topic: "active-life",
+    ipa: "/striːk/",
+    def: "A series of days in a row when you do something.",
+    vi: "chuỗi ngày liên tiếp",
+    examples:
+      [
+        {
+          en: "I'm on a thirty-day streak of lunchtime walks.",
+          vi: "Mình đang có chuỗi ba mươi ngày đi bộ giờ trưa liên tiếp.",
+        },
+      ],
+  }
+- {
+    slug: "sticky-note-n",
+    lemma: "sticky note",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "A2",
+    topic: "active-life",
+    ipa: "/ˈstɪki nəʊt/",
+    def: "A small piece of paper that sticks to surfaces, used for short notes.",
+    vi: "giấy nhớ",
+    examples:
+      [
+        {
+          en: 'A sticky note on my monitor says "stand up".',
+          vi: 'Tờ giấy nhớ trên màn hình ghi "đứng dậy".',
+        },
+      ],
+  }
+- {
+    slug: "habit-stack-n",
+    lemma: "habit stack",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "C1",
+    topic: "active-life",
+    ipa: "/ˈhæbɪt stæk/",
+    def: "A way to build a new habit by linking it to one you already have.",
+    vi: "ghép chuỗi thói quen",
+    examples:
+      [
+        {
+          en: "My habit stack is: make coffee, then do ten squats.",
+          vi: "Chuỗi thói quen của mình là: pha cà phê, rồi squat mười cái.",
+        },
+      ],
+  }
+- {
+    slug: "reward-n",
+    lemma: "reward",
+    pos: "noun",
+    cefr: "B1",
+    topic: "active-life",
+    ipa: "/rɪˈwɔːd/",
+    def: "Something nice you get for doing something well.",
+    vi: "phần thưởng",
+    examples:
+      [
+        {
+          en: "My reward for a full week is a new podcast episode.",
+          vi: "Phần thưởng của mình cho một tuần trọn vẹn là một tập podcast mới.",
+        },
+      ],
+  }
+- {
+    slug: "willpower-n",
+    lemma: "willpower",
+    pos: "noun",
+    cefr: "B2",
+    topic: "active-life",
+    ipa: "/ˈwɪlpaʊə/",
+    def: "The ability to control yourself and do hard things.",
+    vi: "ý chí",
+    examples:
+      [
+        {
+          en: "Don't rely on willpower; make the habit easy.",
+          vi: "Đừng dựa vào ý chí; hãy làm cho thói quen thật dễ.",
+        },
+      ],
+  }
+- {
+    slug: "lose-track-phr",
+    lemma: "lose track of",
+    pos: "phrase",
+    kind: "phrase",
+    cefr: "B2",
+    topic: "active-life",
+    ipa: "/luːz træk əv/",
+    def: "To stop knowing about something because you are not paying attention.",
+    vi: "mất dấu, không để ý",
+    examples:
+      [
+        {
+          en: "I lose track of time when I'm pair programming.",
+          vi: "Mình quên mất thời gian khi lập trình đôi.",
+        },
+      ],
+  }
+- {
+    slug: "obstacle-n",
+    lemma: "obstacle",
+    pos: "noun",
+    cefr: "B2",
+    topic: "active-life",
+    ipa: "/ˈɒbstəkl/",
+    def: "Something that makes it hard to do what you want.",
+    vi: "trở ngại",
+    examples:
+      [
+        {
+          en: "Late meetings are the main obstacle to my gym plan.",
+          vi: "Các cuộc họp muộn là trở ngại chính cho kế hoạch đi tập của mình.",
+        },
+      ],
+  }
+- {
+    slug: "discipline-n",
+    lemma: "discipline",
+    pos: "noun",
+    cefr: "B2",
+    topic: "active-life",
+    ipa: "/ˈdɪsəplɪn/",
+    def: "The ability to make yourself do things you should do.",
+    vi: "kỷ luật",
+    examples:
+      [
+        {
+          en: "It takes discipline to stop working at six.",
+          vi: "Cần có kỷ luật để dừng làm lúc sáu giờ.",
+        },
+      ],
+  }
+- {
+    slug: "build-up-phr",
+    lemma: "build up",
+    pos: "phrasal_verb",
+    kind: "phrasal",
+    cefr: "B2",
+    topic: "active-life",
+    ipa: "/bɪld ʌp/",
+    def: "To increase something slowly over time.",
+    vi: "tăng dần",
+    examples:
+      [
+        {
+          en: "I built up from five to twenty minutes of running.",
+          vi: "Mình tăng dần từ năm lên hai mươi phút chạy.",
+        },
+      ],
+  }
+- {
+    slug: "repetition-n",
+    lemma: "repetition",
+    pos: "noun",
+    cefr: "B2",
+    topic: "active-life",
+    ipa: "/ˌrepəˈtɪʃn/",
+    def: "Doing the same thing many times.",
+    vi: "sự lặp lại",
+    examples:
+      [
+        {
+          en: "New habits form through repetition.",
+          vi: "Thói quen mới hình thành nhờ lặp đi lặp lại.",
+        },
+      ],
+  }
+- {
+    slug: "automatic-adj",
+    lemma: "automatic",
+    pos: "adjective",
+    cefr: "B1",
+    topic: "active-life",
+    ipa: "/ˌɔːtəˈmætɪk/",
+    def: "Done without thinking about it.",
+    vi: "tự động, theo phản xạ",
+    examples:
+      [
+        {
+          en: "After a month, filling my bottle felt automatic.",
+          vi: "Sau một tháng, việc rót đầy bình nước đã thành phản xạ.",
+        },
+      ],
+  }
+- {
+    slug: "break-a-habit-phr",
+    lemma: "break a habit",
+    pos: "phrase",
+    kind: "phrase",
+    cefr: "B2",
+    topic: "active-life",
+    ipa: "/breɪk ə ˈhæbɪt/",
+    def: "To stop doing something you have done often.",
+    vi: "bỏ một thói quen",
+    examples:
+      [
+        {
+          en: "I'm trying to break the habit of checking chat in bed.",
+          vi: "Mình đang cố bỏ thói quen xem chat trên giường.",
+        },
+      ],
+  }
+- {
+    slug: "excuse-n",
+    lemma: "excuse",
+    pos: "noun",
+    cefr: "B1",
+    topic: "active-life",
+    ipa: "/ɪkˈskjuːs/",
+    def: "A reason you give for not doing something.",
+    vi: "lý do, cái cớ",
+    examples:
+      [
+        {
+          en: '"Too busy" is my favourite excuse for skipping exercise.',
+          vi: '"Bận quá" là cái cớ quen thuộc nhất để mình bỏ tập.',
+        },
+      ],
+  }
+- {
+    slug: "workout-buddy-n",
+    lemma: "workout buddy",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "B1",
+    topic: "active-life",
+    ipa: "/ˈwɜːkaʊt ˈbʌdi/",
+    def: "A friend you exercise with so you both keep going.",
+    vi: "bạn tập cùng",
+    examples:
+      [
+        {
+          en: "My workout buddy messages me if I don't show up.",
+          vi: "Bạn tập cùng sẽ nhắn mình nếu mình không đến.",
+        },
+      ],
+  }
+- {
+    slug: "persevere-v",
+    lemma: "persevere",
+    pos: "verb",
+    cefr: "C1",
+    topic: "active-life",
+    ipa: "/ˌpɜːsɪˈvɪə/",
+    def: "To keep trying even when something is difficult.",
+    vi: "kiên trì",
+    examples:
+      [
+        {
+          en: "Persevere for two weeks and it gets easier.",
+          vi: "Kiên trì hai tuần là sẽ dễ hơn.",
+        },
+      ],
+  }
+- {
+    slug: "keep-going-phr",
+    lemma: "keep going",
+    pos: "phrase",
+    kind: "phrase",
+    cefr: "A2",
+    topic: "active-life",
+    ipa: "/kiːp ˈɡəʊɪŋ/",
+    def: "To continue doing something and not stop.",
+    vi: "tiếp tục, đừng dừng lại",
+    examples:
+      [
+        {
+          en: "It was raining, but I decided to keep going.",
+          vi: "Trời mưa nhưng mình quyết định tiếp tục.",
+        },
+      ],
+  }
+- {
+    slug: "twice-weekly-adj",
+    lemma: "twice-weekly",
+    pos: "adjective",
+    cefr: "B2",
+    topic: "active-life",
+    ipa: "/ˌtwaɪs ˈwiːkli/",
+    def: "Happening two times every week.",
+    vi: "hai lần mỗi tuần",
+    examples:
+      [
+        {
+          en: "My twice-weekly runs are easier to keep than daily ones.",
+          vi: "Chạy hai lần mỗi tuần dễ duy trì hơn chạy hằng ngày.",
+        },
+      ],
+  }
+# Set 8: Sleep & on-call work
+- {
+    slug: "on-duty-adj",
+    lemma: "on duty",
+    pos: "adjective",
+    cefr: "B1",
+    topic: "active-life",
+    ipa: "/ɒn ˈdjuːti/",
+    def: "Working or responsible for something at a particular time.",
+    vi: "đang làm nhiệm vụ, đang trực",
+    examples:
+      [
+        {
+          en: "Who's on duty tonight if the payment service fails?",
+          vi: "Tối nay ai trực nếu dịch vụ thanh toán lỗi?",
+        },
+      ],
+  }
+- {
+    slug: "backup-person-n",
+    lemma: "backup person",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "B2",
+    topic: "active-life",
+    ipa: "/ˈbækʌp ˈpɜːsn/",
+    def: "The person who helps or takes over if the main person cannot respond.",
+    vi: "người hỗ trợ dự phòng",
+    examples:
+      [
+        {
+          en: "If I don't answer in ten minutes, page my backup person.",
+          vi: "Nếu mười phút mình không trả lời, hãy gọi người dự phòng.",
+        },
+      ],
+  }
+- {
+    slug: "pager-n",
+    lemma: "pager",
+    pos: "noun",
+    cefr: "B2",
+    topic: "active-life",
+    ipa: "/ˈpeɪdʒə/",
+    def: "A device or app that alerts you when you are needed urgently.",
+    vi: "máy nhắn tin báo động",
+    examples:
+      [
+        {
+          en: "The pager went off at 3 a.m. because the database was full.",
+          vi: "Máy báo động kêu lúc 3 giờ sáng vì database đầy.",
+        },
+      ],
+  }
+- {
+    slug: "buzz-v",
+    lemma: "buzz",
+    pos: "verb",
+    cefr: "B2",
+    topic: "active-life",
+    ipa: "/bʌz/",
+    def: "To make a short vibrating sound, like a phone with a message.",
+    vi: "rung, kêu",
+    examples:
+      [
+        {
+          en: "My phone buzzed all night with warnings.",
+          vi: "Điện thoại mình rung cả đêm vì cảnh báo.",
+        },
+      ],
+  }
+- {
+    slug: "short-on-sleep-phr",
+    lemma: "short on sleep",
+    pos: "phrase",
+    kind: "phrase",
+    cefr: "B2",
+    topic: "active-life",
+    ipa: "/ʃɔːt ɒn sliːp/",
+    def: "Not having slept as much as you need.",
+    vi: "thiếu ngủ",
+    examples:
+      [
+        {
+          en: "I'm short on sleep, so please double-check my PR.",
+          vi: "Mình đang thiếu ngủ nên nhờ bạn kiểm tra kỹ PR của mình.",
+        },
+      ],
+  }
+- {
+    slug: "sleepless-adj",
+    lemma: "sleepless",
+    pos: "adjective",
+    cefr: "B2",
+    topic: "active-life",
+    ipa: "/ˈsliːpləs/",
+    def: "Without any sleep.",
+    vi: "mất ngủ, không ngủ",
+    examples:
+      [
+        {
+          en: "After a sleepless night, I asked to swap my shift.",
+          vi: "Sau một đêm không ngủ, mình xin đổi ca.",
+        },
+      ],
+  }
+- {
+    slug: "bedtime-n",
+    lemma: "bedtime",
+    pos: "noun",
+    cefr: "A2",
+    topic: "active-life",
+    ipa: "/ˈbedtaɪm/",
+    def: "The time when you usually go to bed.",
+    vi: "giờ đi ngủ",
+    examples:
+      [
+        {
+          en: "My bedtime is eleven, even during releases.",
+          vi: "Giờ đi ngủ của mình là mười một giờ, kể cả mùa release.",
+        },
+      ],
+  }
+- {
+    slug: "wake-up-phr",
+    lemma: "wake up",
+    pos: "phrasal_verb",
+    kind: "phrasal",
+    cefr: "A1",
+    topic: "active-life",
+    ipa: "/weɪk ʌp/",
+    def: "To stop sleeping.",
+    vi: "thức dậy",
+    examples:
+      [
+        {
+          en: "I woke up twice last night because of alerts.",
+          vi: "Đêm qua mình thức dậy hai lần vì cảnh báo.",
+        },
+      ],
+  }
+- {
+    slug: "night-shift-n",
+    lemma: "night shift",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "B1",
+    topic: "active-life",
+    ipa: "/naɪt ʃɪft/",
+    def: "A period of work that happens during the night.",
+    vi: "ca đêm",
+    examples:
+      [
+        {
+          en: "The support team covers the night shift from Da Nang.",
+          vi: "Nhóm hỗ trợ ở Đà Nẵng phụ trách ca đêm.",
+        },
+      ],
+  }
+- {
+    slug: "graveyard-shift-n",
+    lemma: "graveyard shift",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "C1",
+    topic: "active-life",
+    ipa: "/ˈɡreɪvjɑːd ʃɪft/",
+    def: "Work that happens in the middle of the night.",
+    vi: "ca khuya",
+    examples:
+      [
+        {
+          en: "Nobody likes the graveyard shift, so we rotate it.",
+          vi: "Không ai thích ca khuya nên tụi mình xoay vòng.",
+        },
+      ],
+  }
+- {
+    slug: "trade-shifts-phr",
+    lemma: "trade shifts",
+    pos: "phrase",
+    kind: "phrase",
+    cefr: "B2",
+    topic: "active-life",
+    ipa: "/treɪd ʃɪfts/",
+    def: "To exchange working times with a colleague.",
+    vi: "đổi ca",
+    examples:
+      [
+        {
+          en: "Can we trade shifts? My sister is getting married.",
+          vi: "Mình đổi ca được không? Chị mình cưới.",
+        },
+      ],
+  }
+- {
+    slug: "cover-for-phr",
+    lemma: "cover for",
+    pos: "phrasal_verb",
+    kind: "phrasal",
+    cefr: "B2",
+    topic: "active-life",
+    ipa: "/ˈkʌvə fɔː/",
+    def: "To do someone's work while they are away.",
+    vi: "làm thay, trực thay",
+    examples:
+      [
+        {
+          en: "Minh will cover for me while I sleep this afternoon.",
+          vi: "Minh sẽ trực thay mình trong lúc mình ngủ chiều nay.",
+        },
+      ],
+  }
+- {
+    slug: "firefight-v",
+    lemma: "firefight",
+    pos: "verb",
+    cefr: "C1",
+    topic: "active-life",
+    ipa: "/ˈfaɪəfaɪt/",
+    def: "To deal with sudden urgent problems instead of planned work.",
+    vi: "chữa cháy (xử lý gấp)",
+    examples:
+      [
+        {
+          en: "We spent all week firefighting instead of building features.",
+          vi: "Cả tuần tụi mình chữa cháy thay vì làm tính năng.",
+        },
+      ],
+  }
+- {
+    slug: "crash-out-phr",
+    lemma: "crash out",
+    pos: "phrasal_verb",
+    kind: "phrasal",
+    cefr: "C1",
+    topic: "active-life",
+    ipa: "/kræʃ aʊt/",
+    def: "To fall asleep quickly because you are very tired.",
+    vi: "lăn ra ngủ",
+    examples:
+      [
+        {
+          en: "I crashed out on the sofa after my shift.",
+          vi: "Mình lăn ra ngủ trên sofa sau ca trực.",
+        },
+      ],
+  }
+- {
+    slug: "groggy-adj",
+    lemma: "groggy",
+    pos: "adjective",
+    cefr: "C1",
+    topic: "active-life",
+    ipa: "/ˈɡrɒɡi/",
+    def: "Weak and unable to think clearly, often after waking up.",
+    vi: "lơ mơ, choáng váng",
+    examples:
+      [
+        {
+          en: "I was too groggy to read the logs properly.",
+          vi: "Mình lơ mơ quá nên không đọc log kỹ được.",
+        },
+      ],
+  }
+- {
+    slug: "jet-lag-n",
+    lemma: "jet lag",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "B2",
+    topic: "active-life",
+    ipa: "/ˈdʒet læɡ/",
+    def: "Tiredness after flying to a place with a different time.",
+    vi: "lệch múi giờ",
+    examples:
+      [
+        {
+          en: "I have jet lag, so I'll skip the early stand-up.",
+          vi: "Mình đang bị lệch múi giờ nên sẽ bỏ buổi stand-up sớm.",
+        },
+      ],
+  }
+- {
+    slug: "doze-off-phr",
+    lemma: "doze off",
+    pos: "phrasal_verb",
+    kind: "phrasal",
+    cefr: "B2",
+    topic: "active-life",
+    ipa: "/dəʊz ɒf/",
+    def: "To start sleeping lightly, often when you do not want to.",
+    vi: "ngủ gật",
+    examples:
+      [{ en: "I dozed off during the long webinar.", vi: "Mình ngủ gật trong buổi webinar dài." }],
+  }
+- {
+    slug: "restorative-adj",
+    lemma: "restorative",
+    pos: "adjective",
+    cefr: "C1",
+    topic: "active-life",
+    ipa: "/rɪˈstɔːrətɪv/",
+    def: "Making you feel healthy and strong again.",
+    vi: "phục hồi sức khỏe",
+    examples:
+      [
+        {
+          en: "A full night's sleep after on call is very restorative.",
+          vi: "Một giấc ngủ trọn đêm sau ca trực giúp hồi phục rất tốt.",
+        },
+      ],
+  }
+- {
+    slug: "blackout-curtains-n",
+    lemma: "blackout curtains",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "C1",
+    topic: "active-life",
+    ipa: "/ˈblækaʊt ˈkɜːtnz/",
+    def: "Thick curtains that stop all light coming into a room.",
+    vi: "rèm cản sáng",
+    examples:
+      [
+        {
+          en: "Blackout curtains help me sleep after a night shift.",
+          vi: "Rèm cản sáng giúp mình ngủ sau ca đêm.",
+        },
+      ],
+  }
+- {
+    slug: "rest-day-n",
+    lemma: "rest day",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "B1",
+    topic: "active-life",
+    ipa: "/rest deɪ/",
+    def: "A day when you do not work or exercise so your body can recover.",
+    vi: "ngày nghỉ (hồi phục)",
+    examples:
+      [
+        {
+          en: "After a night on call, the next day is a rest day.",
+          vi: "Sau một đêm trực, ngày hôm sau là ngày nghỉ.",
+        },
+      ],
+  }
+- {
+    slug: "fatigue-n",
+    lemma: "fatigue",
+    pos: "noun",
+    cefr: "C1",
+    topic: "active-life",
+    ipa: "/fəˈtiːɡ/",
+    def: "A feeling of being very tired for a long time.",
+    vi: "sự mệt mỏi kéo dài",
+    examples:
+      [
+        {
+          en: "Fatigue causes more mistakes than difficult code.",
+          vi: "Mệt mỏi gây ra nhiều lỗi hơn cả code khó.",
+        },
+      ],
+  }
+- {
+    slug: "circadian-rhythm-n",
+    lemma: "circadian rhythm",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "C1",
+    topic: "active-life",
+    ipa: "/sɜːˈkeɪdiən ˈrɪðəm/",
+    def: "The natural cycle that tells your body when to sleep and wake.",
+    vi: "nhịp sinh học",
+    examples:
+      [
+        {
+          en: "Night shifts confuse my circadian rhythm.",
+          vi: "Ca đêm làm rối nhịp sinh học của mình.",
+        },
+      ],
+  }
+- {
+    slug: "through-the-night-phr",
+    lemma: "through the night",
+    pos: "phrase",
+    kind: "phrase",
+    cefr: "B1",
+    topic: "active-life",
+    ipa: "/θruː ðə naɪt/",
+    def: "From evening until morning without stopping.",
+    vi: "suốt đêm",
+    examples:
+      [{ en: "The backup job runs through the night.", vi: "Tác vụ sao lưu chạy suốt đêm." }],
+  }
+- {
+    slug: "melatonin-n",
+    lemma: "melatonin",
+    pos: "noun",
+    cefr: "C1",
+    topic: "active-life",
+    ipa: "/ˌmeləˈtəʊnɪn/",
+    def: "A natural chemical in the body that helps control sleep.",
+    vi: "melatonin (hormone giấc ngủ)",
+    examples:
+      [
+        {
+          en: "Bright screens at night can lower your melatonin.",
+          vi: "Màn hình sáng ban đêm có thể làm giảm melatonin.",
+        },
+      ],
+  }
+# Set 9: Tracking progress
+- {
+    slug: "clock-v",
+    lemma: "clock",
+    pos: "verb",
+    cefr: "B2",
+    topic: "active-life",
+    ipa: "/klɒk/",
+    def: "To record a time or speed.",
+    vi: "đạt (thời gian), bấm giờ",
+    examples:
+      [
+        {
+          en: "I clocked twenty-eight minutes for my 5K today.",
+          vi: "Hôm nay mình chạy 5K mất hai mươi tám phút.",
+        },
+      ],
+  }
+- {
+    slug: "scribble-v",
+    lemma: "scribble",
+    pos: "verb",
+    cefr: "B2",
+    topic: "active-life",
+    ipa: "/ˈskrɪbl/",
+    def: "To write something quickly and carelessly.",
+    vi: "viết nguệch ngoạc, ghi vội",
+    examples:
+      [
+        {
+          en: "I scribble my run time on a sticky note.",
+          vi: "Mình ghi vội thời gian chạy lên một tờ giấy nhớ.",
+        },
+      ],
+  }
+- {
+    slug: "log-n",
+    lemma: "log",
+    pos: "noun",
+    cefr: "B2",
+    topic: "active-life",
+    ipa: "/lɒɡ/",
+    def: "A written record of things that happen over time.",
+    vi: "nhật ký ghi chép",
+    examples:
+      [
+        {
+          en: "My exercise log shows I'm more active on Fridays.",
+          vi: "Nhật ký tập luyện cho thấy mình vận động nhiều hơn vào thứ Sáu.",
+        },
+      ],
+  }
+- {
+    slug: "upswing-n",
+    lemma: "upswing",
+    pos: "noun",
+    cefr: "C1",
+    topic: "active-life",
+    ipa: "/ˈʌpswɪŋ/",
+    def: "An increase or improvement.",
+    vi: "đà đi lên",
+    examples:
+      [
+        {
+          en: "My energy is on an upswing since I started cycling.",
+          vi: "Năng lượng của mình đang lên từ khi bắt đầu đạp xe.",
+        },
+      ],
+  }
+- {
+    slug: "lap-n",
+    lemma: "lap",
+    pos: "noun",
+    cefr: "B1",
+    topic: "active-life",
+    ipa: "/læp/",
+    def: "One complete trip around a track or pool.",
+    vi: "vòng (chạy, bơi)",
+    examples:
+      [{ en: "I swam twenty laps before work.", vi: "Mình bơi hai mươi vòng trước giờ làm." }],
+  }
+- {
+    slug: "side-by-side-adv",
+    lemma: "side by side",
+    pos: "adverb",
+    cefr: "B1",
+    topic: "active-life",
+    ipa: "/saɪd baɪ saɪd/",
+    def: "Next to each other, often so you can compare them.",
+    vi: "đặt cạnh nhau",
+    examples:
+      [
+        {
+          en: "Put March and April side by side to see the change.",
+          vi: "Đặt tháng Ba và tháng Tư cạnh nhau để thấy sự thay đổi.",
+        },
+      ],
+  }
+- {
+    slug: "achy-adj",
+    lemma: "achy",
+    pos: "adjective",
+    cefr: "B2",
+    topic: "active-life",
+    ipa: "/ˈeɪki/",
+    def: "Having a slight, continuous pain.",
+    vi: "ê ẩm",
+    examples:
+      [
+        {
+          en: "My legs were achy after the first week of running.",
+          vi: "Chân mình ê ẩm sau tuần đầu chạy bộ.",
+        },
+      ],
+  }
+- {
+    slug: "plateau-n",
+    lemma: "plateau",
+    pos: "noun",
+    cefr: "C1",
+    topic: "active-life",
+    ipa: "/ˈplætəʊ/",
+    def: "A period when something stops improving after it has grown.",
+    vi: "giai đoạn chững lại",
+    examples:
+      [
+        {
+          en: "I hit a plateau after two months of training.",
+          vi: "Mình bị chững lại sau hai tháng tập luyện.",
+        },
+      ],
+  }
+- {
+    slug: "personal-best-n",
+    lemma: "personal best",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "B2",
+    topic: "active-life",
+    ipa: "/ˈpɜːsənl best/",
+    def: "The best result you have ever achieved yourself.",
+    vi: "thành tích tốt nhất cá nhân",
+    examples:
+      [
+        {
+          en: "I set a personal best in the company 5K.",
+          vi: "Mình lập thành tích cá nhân tốt nhất ở giải 5K của công ty.",
+        },
+      ],
+  }
+- {
+    slug: "heart-rate-n",
+    lemma: "heart rate",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "B1",
+    topic: "active-life",
+    ipa: "/hɑːt reɪt/",
+    def: "The number of times your heart beats in one minute.",
+    vi: "nhịp tim",
+    examples:
+      [
+        {
+          en: "My watch shows my heart rate during long meetings.",
+          vi: "Đồng hồ hiển thị nhịp tim của mình trong các cuộc họp dài.",
+        },
+      ],
+  }
+- {
+    slug: "endurance-n",
+    lemma: "endurance",
+    pos: "noun",
+    cefr: "C1",
+    topic: "active-life",
+    ipa: "/ɪnˈdjʊərəns/",
+    def: "The ability to keep doing something hard for a long time.",
+    vi: "sức bền",
+    examples:
+      [
+        {
+          en: "Cycling to work has improved my endurance.",
+          vi: "Đạp xe đi làm đã cải thiện sức bền của mình.",
+        },
+      ],
+  }
+- {
+    slug: "mobility-n",
+    lemma: "mobility",
+    pos: "noun",
+    cefr: "C1",
+    topic: "active-life",
+    ipa: "/məʊˈbɪləti/",
+    def: "How easily you can move your body and joints.",
+    vi: "khả năng vận động linh hoạt",
+    examples:
+      [
+        {
+          en: "Daily stretches improved the mobility in my shoulders.",
+          vi: "Giãn cơ hằng ngày cải thiện độ linh hoạt của vai mình.",
+        },
+      ],
+  }
+- {
+    slug: "upper-body-n",
+    lemma: "upper body",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "B2",
+    topic: "active-life",
+    ipa: "/ˈʌpə ˈbɒdi/",
+    def: "The top half of your body: arms, shoulders, chest and back.",
+    vi: "phần thân trên",
+    examples:
+      [
+        {
+          en: "Push-ups help my upper body after hours at the keyboard.",
+          vi: "Hít đất giúp phần thân trên sau nhiều giờ ngồi gõ phím.",
+        },
+      ],
+  }
+- {
+    slug: "weekly-review-n",
+    lemma: "weekly review",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "B1",
+    topic: "active-life",
+    ipa: "/ˈwiːkli rɪˈvjuː/",
+    def: "A short check every week of what went well and what did not.",
+    vi: "đánh giá hằng tuần",
+    examples:
+      [
+        {
+          en: "In my weekly review, I noticed I never walk on Mondays.",
+          vi: "Khi tự đánh giá hằng tuần, mình nhận ra thứ Hai mình không bao giờ đi bộ.",
+        },
+      ],
+  }
+- {
+    slug: "kilometre-n",
+    lemma: "kilometre",
+    pos: "noun",
+    cefr: "A2",
+    topic: "active-life",
+    ipa: "/ˈkɪləmiːtə/",
+    def: "A unit for measuring distance, equal to 1,000 metres.",
+    vi: "ki-lô-mét",
+    examples:
+      [{ en: "I ran five kilometres this weekend.", vi: "Cuối tuần này mình chạy năm ki-lô-mét." }],
+  }
+- {
+    slug: "exact-adj",
+    lemma: "exact",
+    pos: "adjective",
+    cefr: "B1",
+    topic: "active-life",
+    ipa: "/ɪɡˈzækt/",
+    def: "Completely correct in every detail.",
+    vi: "chính xác",
+    examples:
+      [
+        {
+          en: 'Write the exact number of minutes, not "about an hour".',
+          vi: 'Ghi chính xác số phút, đừng ghi "khoảng một tiếng".',
+        },
+      ],
+  }
+- {
+    slug: "woolly-adj",
+    lemma: "woolly",
+    pos: "adjective",
+    cefr: "C1",
+    topic: "active-life",
+    ipa: "/ˈwʊli/",
+    def: "Not clear or exact in thinking or expression.",
+    vi: "lờ mờ, không rõ ràng",
+    examples:
+      [
+        {
+          en: '"Get fitter" is a woolly goal; set a number.',
+          vi: '"Khỏe hơn" là mục tiêu lờ mờ; hãy đặt con số.',
+        },
+      ],
+  }
+- {
+    slug: "guesswork-n",
+    lemma: "guesswork",
+    pos: "noun",
+    cefr: "C1",
+    topic: "active-life",
+    ipa: "/ˈɡeswɜːk/",
+    def: "Trying to find an answer without having the facts.",
+    vi: "sự phỏng đoán",
+    examples:
+      [
+        {
+          en: "Without data, my progress report is just guesswork.",
+          vi: "Không có dữ liệu thì báo cáo tiến triển của mình chỉ là phỏng đoán.",
+        },
+      ],
+  }
+- {
+    slug: "plank-n",
+    lemma: "plank",
+    pos: "noun",
+    cefr: "B2",
+    topic: "active-life",
+    ipa: "/plæŋk/",
+    def: "An exercise where you hold your body straight, resting on your arms and toes.",
+    vi: "tư thế plank",
+    examples:
+      [
+        {
+          en: "I can hold a plank for ninety seconds now.",
+          vi: "Giờ mình giữ plank được chín mươi giây.",
+        },
+      ],
+  }
+- {
+    slug: "observable-adj",
+    lemma: "observable",
+    pos: "adjective",
+    cefr: "C1",
+    topic: "active-life",
+    ipa: "/əbˈzɜːvəbl/",
+    def: "Able to be seen or noticed.",
+    vi: "quan sát được",
+    examples:
+      [
+        {
+          en: "Describe observable changes, like taking the stairs without stopping.",
+          vi: "Hãy mô tả thay đổi quan sát được, như leo cầu thang không cần dừng.",
+        },
+      ],
+  }
+- {
+    slug: "yardstick-n",
+    lemma: "yardstick",
+    pos: "noun",
+    cefr: "C1",
+    topic: "active-life",
+    ipa: "/ˈjɑːdstɪk/",
+    def: "A standard you use to judge how good or successful something is.",
+    vi: "thước đo, chuẩn so sánh",
+    examples:
+      [
+        {
+          en: "Last year's 5K time is my yardstick.",
+          vi: "Thành tích 5K năm ngoái là thước đo của mình.",
+        },
+      ],
+  }
+- {
+    slug: "yo-yo-v",
+    lemma: "yo-yo",
+    pos: "verb",
+    cefr: "C1",
+    topic: "active-life",
+    ipa: "/ˈjəʊjəʊ/",
+    def: "To go up and down again and again.",
+    vi: "lên xuống thất thường",
+    examples:
+      [
+        {
+          en: "My weight yo-yoed during the busy quarter.",
+          vi: "Cân nặng của mình lên xuống thất thường trong quý bận rộn.",
+        },
+      ],
+  }
+- {
+    slug: "off-day-n",
+    lemma: "off day",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "B2",
+    topic: "active-life",
+    ipa: "/ˈɒf deɪ/",
+    def: "A day when you do not perform as well as usual.",
+    vi: "ngày phong độ kém",
+    examples:
+      [
+        {
+          en: "Everyone has an off day; look at the whole month.",
+          vi: "Ai cũng có ngày phong độ kém; hãy nhìn cả tháng.",
+        },
+      ],
+  }
+- {
+    slug: "progressive-overload-n",
+    lemma: "progressive overload",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "C1",
+    topic: "active-life",
+    ipa: "/prəˈɡresɪv ˈəʊvələʊd/",
+    def: "Making exercise a little harder over time so you keep getting stronger.",
+    vi: "tăng tải dần",
+    examples:
+      [
+        {
+          en: "Progressive overload means adding one more set each week.",
+          vi: "Tăng tải dần nghĩa là thêm một hiệp mỗi tuần.",
+        },
+      ],
+  }
+- {
+    slug: "tally-v",
+    lemma: "tally",
+    pos: "verb",
+    cefr: "C1",
+    topic: "active-life",
+    ipa: "/ˈtæli/",
+    def: "To count or add up a total.",
+    vi: "đếm, cộng dồn",
+    examples:
+      [
+        {
+          en: "I tally my active minutes every Sunday.",
+          vi: "Chủ nhật nào mình cũng cộng dồn số phút vận động.",
+        },
+      ],
+  }
+- {
+    slug: "perceived-effort-n",
+    lemma: "perceived effort",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "C1",
+    topic: "active-life",
+    ipa: "/pəˈsiːvd ˈefət/",
+    def: "How hard an activity feels to you, often rated from one to ten.",
+    vi: "mức gắng sức cảm nhận",
+    examples:
+      [
+        {
+          en: "My perceived effort was a six, even though I ran faster.",
+          vi: "Mức gắng sức mình cảm nhận là sáu dù mình chạy nhanh hơn.",
+        },
+      ],
+  }
+- {
+    slug: "leaderboard-n",
+    lemma: "leaderboard",
+    pos: "noun",
+    cefr: "B2",
+    topic: "active-life",
+    ipa: "/ˈliːdəbɔːd/",
+    def: "A list that shows the scores of the people at the top of a competition.",
+    vi: "bảng xếp hạng",
+    examples:
+      [
+        {
+          en: "The QA team is top of the step leaderboard this month.",
+          vi: "Nhóm QA đứng đầu bảng xếp hạng bước chân tháng này.",
+        },
+      ],
+  }
+- {
+    slug: "spot-a-pattern-phr",
+    lemma: "spot a pattern",
+    pos: "phrase",
+    kind: "phrase",
+    cefr: "B2",
+    topic: "active-life",
+    ipa: "/spɒt ə ˈpætn/",
+    def: "To notice that something happens in a regular way.",
+    vi: "nhận ra quy luật",
+    examples:
+      [
+        {
+          en: "I spotted a pattern: I skip workouts after late deploys.",
+          vi: "Mình nhận ra quy luật: mình bỏ tập sau những lần deploy muộn.",
+        },
+      ],
+  }
+# Set 10: A sustainable weekly routine
+- {
+    slug: "steady-pace-n",
+    lemma: "steady pace",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "B2",
+    topic: "active-life",
+    ipa: "/ˈstedi peɪs/",
+    def: "A speed of work you can keep for a long time.",
+    vi: "nhịp độ đều",
+    examples:
+      [
+        {
+          en: "We aim for a steady pace, not heroic sprints.",
+          vi: "Tụi mình hướng tới nhịp độ đều, không phải những sprint cày cuốc.",
+        },
+      ],
+  }
+- {
+    slug: "elbow-room-n",
+    lemma: "elbow room",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "C1",
+    topic: "active-life",
+    ipa: "/ˈelbəʊ ruːm/",
+    def: "Enough space or freedom to do what you need.",
+    vi: "khoảng trống, dư địa",
+    examples:
+      [
+        {
+          en: "Leave some elbow room in the sprint for surprises.",
+          vi: "Chừa chút dư địa trong sprint cho việc phát sinh.",
+        },
+      ],
+  }
+- {
+    slug: "me-time-n",
+    lemma: "me time",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "B2",
+    topic: "active-life",
+    ipa: "/ˈmiː taɪm/",
+    def: "Time you spend doing things for yourself.",
+    vi: "thời gian cho bản thân",
+    examples:
+      [
+        {
+          en: "Saturday morning is my me time.",
+          vi: "Sáng thứ Bảy là thời gian dành cho bản thân mình.",
+        },
+      ],
+  }
+- {
+    slug: "hard-stop-n",
+    lemma: "hard stop",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "B2",
+    topic: "active-life",
+    ipa: "/hɑːd stɒp/",
+    def: "A fixed time when you must end, with no extra minutes.",
+    vi: "giờ kết thúc cố định",
+    examples:
+      [
+        {
+          en: "I have a hard stop at six for football.",
+          vi: "Mình phải dừng đúng sáu giờ để đi đá bóng.",
+        },
+      ],
+  }
+- {
+    slug: "extra-hours-n",
+    lemma: "extra hours",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "B1",
+    topic: "active-life",
+    ipa: "/ˈekstrə ˈaʊəz/",
+    def: "Time you work beyond your normal working day.",
+    vi: "giờ làm thêm",
+    examples:
+      [
+        {
+          en: "I worked extra hours before the launch, so I'm leaving early today.",
+          vi: "Mình làm thêm giờ trước đợt ra mắt nên hôm nay về sớm.",
+        },
+      ],
+  }
+- {
+    slug: "rhythm-n",
+    lemma: "rhythm",
+    pos: "noun",
+    cefr: "B2",
+    topic: "active-life",
+    ipa: "/ˈrɪðəm/",
+    def: "A regular pattern of activity.",
+    vi: "nhịp",
+    examples:
+      [
+        {
+          en: "Our week has a good rhythm: meetings Monday, focus Tuesday to Thursday.",
+          vi: "Tuần của tụi mình có nhịp tốt: họp thứ Hai, tập trung từ thứ Ba đến thứ Năm.",
+        },
+      ],
+  }
+- {
+    slug: "fortnightly-adj",
+    lemma: "fortnightly",
+    pos: "adjective",
+    cefr: "C1",
+    topic: "active-life",
+    ipa: "/ˈfɔːtnaɪtli/",
+    def: "Happening every two weeks.",
+    vi: "hai tuần một lần",
+    examples:
+      [
+        {
+          en: "We have a fortnightly team walk by the river.",
+          vi: "Cả nhóm đi bộ ven sông hai tuần một lần.",
+        },
+      ],
+  }
+- {
+    slug: "planner-n",
+    lemma: "planner",
+    pos: "noun",
+    cefr: "B1",
+    topic: "active-life",
+    ipa: "/ˈplænə/",
+    def: "A notebook or app where you plan your days and weeks.",
+    vi: "sổ kế hoạch",
+    examples:
+      [
+        {
+          en: "I write my workouts in my planner on Sunday night.",
+          vi: "Mình ghi lịch tập vào sổ kế hoạch tối Chủ nhật.",
+        },
+      ],
+  }
+- {
+    slug: "pencil-in-phr",
+    lemma: "pencil in",
+    pos: "phrasal_verb",
+    kind: "phrasal",
+    cefr: "C1",
+    topic: "active-life",
+    ipa: "/ˈpensl ɪn/",
+    def: "To plan something for a time that may change later.",
+    vi: "ghi tạm lịch",
+    examples:
+      [
+        {
+          en: "Let's pencil in a run for Thursday morning.",
+          vi: "Ghi tạm lịch chạy bộ sáng thứ Năm nhé.",
+        },
+      ],
+  }
+- {
+    slug: "breathing-space-n",
+    lemma: "breathing space",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "C1",
+    topic: "active-life",
+    ipa: "/ˈbriːðɪŋ speɪs/",
+    def: "A short time to rest or think before continuing.",
+    vi: "thời gian thở, khoảng nghỉ",
+    examples:
+      [
+        {
+          en: "I need some breathing space between planning and demos.",
+          vi: "Mình cần chút thời gian thở giữa buổi lên kế hoạch và demo.",
+        },
+      ],
+  }
+- {
+    slug: "movable-adj",
+    lemma: "movable",
+    pos: "adjective",
+    cefr: "B2",
+    topic: "active-life",
+    ipa: "/ˈmuːvəbl/",
+    def: "Able to be moved to another time or place.",
+    vi: "có thể dời",
+    examples:
+      [
+        {
+          en: "My gym slot is movable, but stand-up isn't.",
+          vi: "Giờ tập của mình dời được, còn stand-up thì không.",
+        },
+      ],
+  }
+- {
+    slug: "unwind-v",
+    lemma: "unwind",
+    pos: "verb",
+    cefr: "B2",
+    topic: "active-life",
+    ipa: "/ˌʌnˈwaɪnd/",
+    def: "To relax after a period of work or stress.",
+    vi: "thư giãn",
+    examples:
+      [
+        {
+          en: "I unwind with a swim after a long week.",
+          vi: "Mình thư giãn bằng một buổi bơi sau tuần dài.",
+        },
+      ],
+  }
+- {
+    slug: "desk-bound-adj",
+    lemma: "desk-bound",
+    pos: "adjective",
+    cefr: "C1",
+    topic: "active-life",
+    ipa: "/ˈdesk baʊnd/",
+    def: "Having to sit at a desk for most of the day.",
+    vi: "phải ngồi bàn giấy cả ngày",
+    examples:
+      [
+        {
+          en: "Most of our jobs are desk-bound, so movement breaks matter.",
+          vi: "Phần lớn công việc tụi mình là ngồi bàn cả ngày nên giờ nghỉ vận động rất quan trọng.",
+        },
+      ],
+  }
+- {
+    slug: "moderate-adj",
+    lemma: "moderate",
+    pos: "adjective",
+    cefr: "B2",
+    topic: "active-life",
+    ipa: "/ˈmɒdərət/",
+    def: "Neither too much nor too little.",
+    vi: "vừa phải",
+    examples:
+      [
+        {
+          en: "Thirty minutes of moderate exercise is enough for me.",
+          vi: "Ba mươi phút tập vừa phải là đủ với mình.",
+        },
+      ],
+  }
+- {
+    slug: "intense-adj",
+    lemma: "intense",
+    pos: "adjective",
+    cefr: "B2",
+    topic: "active-life",
+    ipa: "/ɪnˈtens/",
+    def: "Very strong or extreme.",
+    vi: "cường độ cao",
+    examples:
+      [
+        {
+          en: "After an intense sprint, we plan a lighter week.",
+          vi: "Sau một sprint căng thẳng, tụi mình lên kế hoạch cho một tuần nhẹ hơn.",
+        },
+      ],
+  }
+- {
+    slug: "marathon-not-a-sprint-phr",
+    lemma: "a marathon, not a sprint",
+    pos: "phrase",
+    kind: "phrase",
+    cefr: "C1",
+    topic: "active-life",
+    ipa: "/ə ˈmærəθən nɒt ə sprɪnt/",
+    def: "Used to say that something takes a long time, so you should not rush.",
+    vi: "đường dài, không phải chạy nước rút",
+    examples:
+      [
+        {
+          en: "This project is a marathon, not a sprint.",
+          vi: "Dự án này là đường dài, không phải chạy nước rút.",
+        },
+      ],
+  }
+- {
+    slug: "put-first-phr",
+    lemma: "put first",
+    pos: "phrase",
+    kind: "phrase",
+    cefr: "B1",
+    topic: "active-life",
+    ipa: "/pʊt fɜːst/",
+    def: "To treat something as the most important thing.",
+    vi: "đặt lên hàng đầu",
+    examples:
+      [
+        {
+          en: "I put my health first this quarter.",
+          vi: "Quý này mình đặt sức khỏe lên hàng đầu.",
+        },
+      ],
+  }
+- {
+    slug: "share-the-load-phr",
+    lemma: "share the load",
+    pos: "phrase",
+    kind: "phrase",
+    cefr: "B2",
+    topic: "active-life",
+    ipa: "/ʃeə ðə ləʊd/",
+    def: "To divide work so one person does not do too much.",
+    vi: "chia sẻ khối lượng việc",
+    examples:
+      [
+        {
+          en: "Let's share the load so nobody is on call twice.",
+          vi: "Hãy chia việc để không ai phải trực hai lần.",
+        },
+      ],
+  }
+- {
+    slug: "say-no-phr",
+    lemma: "say no",
+    pos: "phrase",
+    kind: "phrase",
+    cefr: "A2",
+    topic: "active-life",
+    ipa: "/seɪ nəʊ/",
+    def: "To refuse a request.",
+    vi: "từ chối",
+    examples:
+      [
+        {
+          en: "It's OK to say no to a meeting without an agenda.",
+          vi: "Từ chối một cuộc họp không có chương trình là chuyện bình thường.",
+        },
+      ],
+  }
+- {
+    slug: "screen-free-adj",
+    lemma: "screen-free",
+    pos: "adjective",
+    cefr: "B2",
+    topic: "active-life",
+    ipa: "/ˌskriːn ˈfriː/",
+    def: "Without using phones, computers or TVs.",
+    vi: "không dùng màn hình",
+    examples:
+      [{ en: "Sunday is my screen-free day.", vi: "Chủ nhật là ngày không màn hình của mình." }],
+  }
+- {
+    slug: "log-off-phr",
+    lemma: "log off",
+    pos: "phrasal_verb",
+    kind: "phrasal",
+    cefr: "B1",
+    topic: "active-life",
+    ipa: "/lɒɡ ɒf/",
+    def: "To finish using a computer system or end your workday online.",
+    vi: "đăng xuất, nghỉ làm",
+    examples:
+      [{ en: "I log off at six and go for a walk.", vi: "Mình nghỉ làm lúc sáu giờ rồi đi bộ." }],
+  }
+- {
+    slug: "sabbatical-n",
+    lemma: "sabbatical",
+    pos: "noun",
+    cefr: "C1",
+    topic: "active-life",
+    ipa: "/səˈbætɪkl/",
+    def: "A long period of paid or unpaid time away from your job.",
+    vi: "kỳ nghỉ dài hạn",
+    examples:
+      [
+        {
+          en: "After five years, she took a three-month sabbatical.",
+          vi: "Sau năm năm, chị ấy nghỉ dài hạn ba tháng.",
+        },
+      ],
+  }
+- {
+    slug: "weekly-sync-n",
+    lemma: "weekly sync",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "B2",
+    topic: "active-life",
+    ipa: "/ˈwiːkli sɪŋk/",
+    def: "A regular meeting each week to share updates.",
+    vi: "buổi họp cập nhật hằng tuần",
+    examples:
+      [
+        {
+          en: "We moved the weekly sync to Monday mornings.",
+          vi: "Tụi mình dời buổi họp cập nhật hằng tuần sang sáng thứ Hai.",
+        },
+      ],
+  }
+- {
+    slug: "take-stock-phr",
+    lemma: "take stock",
+    pos: "phrase",
+    kind: "phrase",
+    cefr: "C1",
+    topic: "active-life",
+    ipa: "/teɪk stɒk/",
+    def: "To stop and think carefully about a situation.",
+    vi: "nhìn nhận lại",
+    examples:
+      [
+        {
+          en: "On Fridays I take stock of my energy and plans.",
+          vi: "Thứ Sáu mình nhìn nhận lại năng lượng và kế hoạch của mình.",
+        },
+      ],
+  }
+- {
+    slug: "fitness-n",
+    lemma: "fitness",
+    pos: "noun",
+    cefr: "B1",
+    topic: "active-life",
+    ipa: "/ˈfɪtnəs/",
+    def: "The condition of being physically strong and healthy.",
+    vi: "sự khỏe mạnh, thể lực",
+    examples:
+      [
+        {
+          en: "Good fitness makes long workdays easier.",
+          vi: "Thể lực tốt giúp những ngày làm việc dài dễ chịu hơn.",
+        },
+      ],
+  }
+- {
+    slug: "longevity-n",
+    lemma: "longevity",
+    pos: "noun",
+    cefr: "C1",
+    topic: "active-life",
+    ipa: "/lɒnˈdʒevəti/",
+    def: "Living or lasting for a long time.",
+    vi: "sự lâu dài, tuổi thọ",
+    examples:
+      [
+        {
+          en: "Career longevity depends on not burning out.",
+          vi: "Sự nghiệp lâu dài phụ thuộc vào việc không bị kiệt sức.",
+        },
+      ],
+  }
+- {
+    slug: "well-rounded-adj",
+    lemma: "well-rounded",
+    pos: "adjective",
+    cefr: "C1",
+    topic: "active-life",
+    ipa: "/ˌwel ˈraʊndɪd/",
+    def: "Having a good mix of different parts.",
+    vi: "toàn diện, cân đối",
+    examples:
+      [
+        {
+          en: "A well-rounded week has work, sport and rest.",
+          vi: "Một tuần cân đối có công việc, thể thao và nghỉ ngơi.",
+        },
+      ],
+  }
+- {
+    slug: "fair-share-n",
+    lemma: "fair share",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "B2",
+    topic: "active-life",
+    ipa: "/feə ʃeə/",
+    def: "The amount of something that it is right for one person to have or do.",
+    vi: "phần công bằng",
+    examples:
+      [
+        {
+          en: "Everyone does their fair share of weekend on call.",
+          vi: "Ai cũng nhận phần trực cuối tuần công bằng.",
+        },
+      ],
+  }
+- {
+    slug: "burn-the-candle-phr",
+    lemma: "burn the candle at both ends",
+    pos: "phrase",
+    kind: "phrase",
+    cefr: "C1",
+    topic: "active-life",
+    ipa: "/bɜːn ðə ˈkændl ət bəʊθ endz/",
+    def: "To work very hard from early morning until late at night and get too tired.",
+    vi: "làm việc quá sức, thức khuya dậy sớm",
+    examples:
+      [
+        {
+          en: "You've been burning the candle at both ends — take Friday off.",
+          vi: "Bạn đã làm việc quá sức rồi — nghỉ thứ Sáu đi.",
+        },
+      ],
+  }
+- {
+    slug: "spread-too-thin-phr",
+    lemma: "spread yourself too thin",
+    pos: "phrase",
+    kind: "phrase",
+    cefr: "C1",
+    topic: "active-life",
+    ipa: "/spred jɔːˈself tuː θɪn/",
+    def: "To try to do too many things at once.",
+    vi: "ôm đồm quá nhiều việc",
+    examples:
+      [
+        {
+          en: "Don't spread yourself too thin with three side projects.",
+          vi: "Đừng ôm đồm với ba dự án phụ.",
+        },
+      ],
+  }
+- {
+    slug: "carve-out-phr",
+    lemma: "carve out",
+    pos: "phrasal_verb",
+    kind: "phrasal",
+    cefr: "C1",
+    topic: "active-life",
+    ipa: "/kɑːv aʊt/",
+    def: "To make time for something with effort.",
+    vi: "dành ra (thời gian)",
+    examples:
+      [
+        {
+          en: "I carve out thirty minutes for exercise every day.",
+          vi: "Mình dành ra ba mươi phút tập mỗi ngày.",
+        },
+      ],
+  }
+- {
+    slug: "leisure-n",
+    lemma: "leisure",
+    pos: "noun",
+    cefr: "B2",
+    topic: "active-life",
+    ipa: "/ˈleʒə/",
+    def: "Time when you are not working and can do what you enjoy.",
+    vi: "thời gian rảnh, giải trí",
+    examples:
+      [
+        {
+          en: "I use my leisure time for hiking, not side projects.",
+          vi: "Mình dùng thời gian rảnh để leo núi, không phải làm dự án phụ.",
+        },
+      ],
+  }
+- {
+    slug: "rock-climbing-n",
+    lemma: "rock climbing",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "B1",
+    topic: "active-life",
+    ipa: "/rɒk ˈklaɪmɪŋ/",
+    def: "The sport of climbing rock walls, indoors or outside.",
+    vi: "leo núi đá",
+    examples:
+      [
+        {
+          en: "Rock climbing became my hobby after a team event.",
+          vi: "Leo núi đá thành sở thích của mình sau một buổi team building.",
+        },
+      ],
+  }
+- {
+    slug: "prior-engagement-n",
+    lemma: "prior engagement",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "C1",
+    topic: "active-life",
+    ipa: "/ˈpraɪər ɪnˈɡeɪdʒmənt/",
+    def: "An arrangement you made earlier that stops you doing something else.",
+    vi: "việc đã hẹn trước",
+    examples:
+      [
+        {
+          en: "I can't join the late call — I have a prior engagement.",
+          vi: "Mình không tham gia cuộc gọi muộn được — mình có hẹn trước.",
+        },
+      ],
+  }
+- {
+    slug: "protect-v",
+    lemma: "protect",
+    pos: "verb",
+    cefr: "B1",
+    topic: "active-life",
+    ipa: "/prəˈtekt/",
+    def: "To keep something safe from harm or loss.",
+    vi: "bảo vệ, giữ gìn",
+    examples:
+      [
+        {
+          en: "Protect your lunch break — don't book calls over it.",
+          vi: "Hãy giữ giờ nghỉ trưa — đừng đặt cuộc gọi vào đó.",
+        },
+      ],
+  }
+- {
+    slug: "rest-week-n",
+    lemma: "rest week",
+    pos: "noun",
+    kind: "collocation",
+    cefr: "B2",
+    topic: "active-life",
+    ipa: "/rest wiːk/",
+    def: "A planned week with lighter work or exercise so you can recover.",
+    vi: "tuần nghỉ nhẹ",
+    examples:
+      [
+        {
+          en: "After every three sprints, we plan a rest week.",
+          vi: "Cứ sau ba sprint, tụi mình lên kế hoạch một tuần nhẹ.",
+        },
+      ],
+  }
