@@ -23,7 +23,7 @@ for (const s of SOURCES) {
     }
     fs.mkdirSync(path.dirname(dest), { recursive: true });
     const res = await fetch(f.url, {
-      headers: { "User-Agent": "DevQuestEnglish/1.0 (dataset import)" },
+      headers: { "User-Agent": "DevSpeak/1.0 (dataset import)" },
     });
     if (!res.ok) throw new Error(`${f.url}: HTTP ${res.status}`);
     const buf = Buffer.from(await res.arrayBuffer());

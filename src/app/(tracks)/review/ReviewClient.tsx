@@ -77,7 +77,7 @@ export function ReviewClient() {
   if (!queue) return <LoadingState />;
   if (!queue.cards.length || index >= queue.cards.length) {
     return (
-      <div className="border-line bg-surface rounded-2xl border p-6">
+      <div className="border-line bg-surface rounded-2xl border p-4 sm:p-6">
         <p className="text-xl font-bold">
           {done ? `Xong ${done} từ${xp ? ` · +${xp} XP` : ""}` : "Không có từ nào cần ôn lúc này"}
         </p>
@@ -93,7 +93,7 @@ export function ReviewClient() {
 
   const showVerify = phase === "verify" && card!.hasVerification && queue.sessionId;
   return (
-    <div className="space-y-4">
+    <div className="dq-page-enter space-y-4">
       <p className="text-muted text-sm">
         Từ {index + 1}/{queue.cards.length}
       </p>
@@ -106,7 +106,7 @@ export function ReviewClient() {
           onDone={() => setPhase("rate")}
         />
       ) : (
-        <div className="border-line bg-surface rounded-2xl border p-5">
+        <div className="border-line bg-surface rounded-2xl border p-4 sm:p-5">
           <div className="flex items-start justify-between gap-3">
             <p className="text-2xl font-bold">
               {card!.word?.lemma}{" "}

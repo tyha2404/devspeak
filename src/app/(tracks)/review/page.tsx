@@ -2,14 +2,17 @@ import type { Metadata } from "next";
 import Link from "next/link";
 import { ReviewClient } from "./ReviewClient";
 
-export const metadata: Metadata = { title: "Ôn tập · DevQuest English" };
+export const metadata: Metadata = { title: "Ôn tập · DevSpeak" };
 
 export default function ReviewPage() {
   return (
     <div>
       <div className="flex flex-wrap items-baseline justify-between gap-2">
         <h1 className="text-[1.75rem] font-bold">Ôn tập</h1>
-        <Link href="/words" className="text-muted text-sm underline">
+        <Link
+          href="/words"
+          className="text-muted inline-flex min-h-11 items-center text-sm underline"
+        >
           Sổ tay từ vựng
         </Link>
       </div>

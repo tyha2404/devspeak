@@ -39,7 +39,7 @@ export function LessonPlayer({ lessonId }: { lessonId: number }) {
 
   if (error)
     return (
-      <main className="mx-auto max-w-2xl px-4 py-16">
+      <main className="mx-auto max-w-2xl px-4 py-10 sm:py-16">
         <p className="text-bad">{error}</p>
         <Link href="/" className={`${btn.secondary} mt-4`}>
           Về trang chủ

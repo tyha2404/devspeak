@@ -1,4 +1,4 @@
-# Deploying DevQuest English
+# Deploying DevSpeak
 
 Everything below needs accounts this repo can't create for you. Order matters.
 
@@ -10,7 +10,7 @@ Everything below needs accounts this repo can't create for you. Order matters.
    Guest progress is merged into the registered account after authentication.
 4. Auth → URL configuration: Site URL = production URL; redirect URLs = `https://<domain>/auth/callback`.
 5. Auth → SMTP: custom SMTP (e.g. Resend). The built-in mailer is rate-limited and not for production.
-   Use Vietnamese email templates (subject "Đăng nhập DevQuest English").
+   Use Vietnamese email templates (subject "Đăng nhập DevSpeak").
    Keep the default confirmation URL for the PKCE `/auth/callback` flow. Custom templates using
    `token_hash` must target `/auth/confirm?token_hash={{ .TokenHash }}&type=signup` (or `recovery`).
    Recovery links without `next` open `/account/password`; other types open `/`.

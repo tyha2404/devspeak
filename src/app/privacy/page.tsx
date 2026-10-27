@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 
-export const metadata: Metadata = { title: "Chính sách quyền riêng tư · DevQuest English" };
+export const metadata: Metadata = { title: "Chính sách quyền riêng tư · DevSpeak" };
 
 // Draft aligned with Vietnam's PDPD (Decree 13/2023/NĐ-CP) and the 2025 Personal Data Protection Law.
 // Have counsel review before launch.
@@ -48,7 +48,7 @@ export default function Privacy() {
         . Bạn có thể rút lại sự đồng ý bằng cách xóa tài khoản.
       </p>
       <h2 className="text-xl font-semibold">5. Liên hệ</h2>
-      <p>privacy@devquest.example (thay bằng địa chỉ thật trước khi ra mắt).</p>
+      <p>privacy@devspeak.example (thay bằng địa chỉ thật trước khi ra mắt).</p>
     </main>
   );
 }

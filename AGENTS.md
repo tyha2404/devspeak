@@ -2,7 +2,7 @@
 
 ## Project Structure & Module Organization
 
-DevQuest English is a Next.js App Router application for Vietnamese developers learning English.
+DevSpeak is a Next.js App Router application for Vietnamese developers learning English.
 
 - `src/app/`: pages, layouts, and API routes; route groups organize the main app, focused lessons, and study tracks.
 - `src/components/`: React UI; `src/features/`: domain logic; `src/lib/contracts/`: shared API types; `src/stores/`: Zustand state.

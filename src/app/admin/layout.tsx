@@ -2,7 +2,7 @@ import Link from "next/link";
 import type { ReactNode } from "react";
 import { requireEditor } from "@/features/admin/auth";
 
-export const metadata = { title: "Admin · DevQuest English", robots: { index: false } };
+export const metadata = { title: "Admin · DevSpeak", robots: { index: false } };
 export const dynamic = "force-dynamic";
 
 export default async function AdminLayout({ children }: { children: ReactNode }) {

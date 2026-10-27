@@ -18,7 +18,7 @@ export function TrackStepper({
     const active = phase === n - 1;
     return (
       <span
-        className={`grid h-8 w-8 place-items-center rounded-full font-mono text-xs font-bold ${
+        className={`grid h-7 w-7 shrink-0 place-items-center rounded-full font-mono text-xs font-bold sm:h-8 sm:w-8 ${
           done ? "bg-merged-soft text-merged" : active ? "bg-ink text-paper" : "bg-line text-muted"
         }`}
       >
@@ -28,20 +28,24 @@ export function TrackStepper({
   };
   return (
     <div className="border-line bg-surface border-b shadow-sm">
-      <div className="mx-auto flex max-w-3xl items-center gap-4 px-4 py-3">
+      <div className="mx-auto flex max-w-3xl items-center gap-3 px-4 py-2 sm:gap-4 sm:py-3">
         <Link
           href={exitHref}
           aria-label="Thoát bài học"
-          className="border-line text-muted hover:text-ink flex flex-col items-center rounded-xl border px-3 py-1.5 text-[0.65rem] font-semibold uppercase"
+          className="border-line text-muted hover:text-ink flex min-h-11 min-w-11 flex-col items-center justify-center rounded-xl border px-2.5 text-[0.7rem] font-semibold uppercase"
         >
           <X size={16} aria-hidden />
           Thoát
         </Link>
-        <ol className="flex flex-1 items-center gap-3 text-sm font-semibold">
-          <li className="flex items-center gap-2">{dot(1)} Phần học</li>
+        <ol className="flex min-w-0 flex-1 items-center gap-2 text-xs font-semibold sm:gap-3 sm:text-sm">
+          <li className="flex min-w-0 items-center gap-1.5 sm:gap-2">
+            {dot(1)} <span>Phần học</span>
+          </li>
           <li aria-hidden className={`h-0.5 flex-1 ${phase >= 1 ? "bg-merged" : "bg-line"}`} />
-          <li className={`flex items-center gap-2 ${phase === 0 ? "text-muted" : ""}`}>
-            {dot(2)} Bài kiểm tra
+          <li
+            className={`flex min-w-0 items-center gap-1.5 sm:gap-2 ${phase === 0 ? "text-muted" : ""}`}
+          >
+            {dot(2)} <span>Bài kiểm tra</span>
           </li>
         </ol>
       </div>
@@ -66,8 +70,8 @@ export function TestIntro({
   children?: ReactNode;
 }) {
   return (
-    <div className="border-line bg-surface rounded-2xl border p-6 sm:p-8">
-      <div className="grid gap-6 sm:grid-cols-[1fr_11rem]">
+    <div className="border-line bg-surface rounded-2xl border p-4 sm:p-8">
+      <div className="grid gap-4 sm:grid-cols-[1fr_11rem] sm:gap-6">
         <div>
           <p className="text-merged text-sm font-semibold tracking-wide uppercase">{eyebrow}</p>
           <h2 className="mt-1 text-[1.75rem] leading-tight font-bold">{title}</h2>
@@ -171,7 +175,7 @@ export function TrackResult({
           </div>
         ))}
       </dl>
-      <div className="mt-8 flex flex-wrap justify-center gap-3">{actions}</div>
+      <div className="mt-5 flex flex-wrap justify-center gap-3 sm:mt-8">{actions}</div>
     </div>
   );
 }

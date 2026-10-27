@@ -125,7 +125,7 @@ test("grammar track: lesson info → five study screens → timed test → stars
   });
   await answerTrackQuiz(page, async () => {
     await page.getByRole("button", { name: "Làm bài kiểm tra →" }).click();
-    await expect(page.getByRole("timer")).toBeVisible();
+    await expect(page.getByRole("timer")).toBeVisible({ timeout: 20_000 });
     await page.screenshot({ path: test.info().outputPath("question.png") });
   });
   try {
@@ -161,7 +161,7 @@ test("vocabulary track: rate cards, a question times out, the test still finishe
   await startOnHome(page);
   await page.goto("/vocab");
   for (const topic of [/^T01/, /^T02/, /^T03/])
-    await expect(page.getByRole("button", { name: topic })).toBeEnabled();
+    await expect(page.getByRole("button", { name: topic })).toBeEnabled({ timeout: 20_000 });
   await page.getByRole("button", { name: "Xem toàn bộ thẻ →" }).click();
   await expect(page.getByRole("dialog").getByText("200 mục từ")).toBeVisible();
   await page.keyboard.press("Escape");

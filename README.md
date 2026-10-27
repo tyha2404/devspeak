@@ -1,4 +1,4 @@
-# DevQuest English
+# DevSpeak
 
 Tiếng Anh cho developer Việt Nam: đọc tài liệu, viết ticket, code review và làm việc cùng nhóm quốc tế.
 Hai lộ trình gồm ngữ pháp theo bậc CEFR (A1 → C2) và từ vựng theo 25 chủ đề. Mỗi bài đã phát hành gồm phần học

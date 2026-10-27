@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 
-export const metadata: Metadata = { title: "Điều khoản sử dụng · DevQuest English" };
+export const metadata: Metadata = { title: "Điều khoản sử dụng · DevSpeak" };
 
 export default function Terms() {
   return (
@@ -11,8 +11,8 @@ export default function Terms() {
       </p>
       <ol className="list-decimal space-y-2 pl-6">
         <li>
-          DevQuest English là công cụ học tập; nội dung do AI tạo đã qua kiểm duyệt nhưng có thể còn
-          sai sót — hãy dùng nút “Báo câu hỏi sai”.
+          DevSpeak là công cụ học tập; nội dung do AI tạo đã qua kiểm duyệt nhưng có thể còn sai sót
+          — hãy dùng nút “Báo câu hỏi sai”.
         </li>
         <li>
           Không gian lận điểm số (bot, script tự động). Tài khoản vi phạm có thể bị đặt lại tiến

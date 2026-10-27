@@ -16,9 +16,9 @@ export function TracksHome() {
   const grammarHref = next?.lesson ? `/lesson/${next.lesson.id}` : "/grammar";
 
   return (
-    <div className="space-y-8">
-      <section className="border-line bg-surface grid gap-8 rounded-3xl border p-6 sm:p-10 lg:grid-cols-[1fr_20rem]">
-        <div>
+    <div className="dq-page-enter space-y-4 sm:space-y-8">
+      <section className="border-line bg-surface grid min-w-0 gap-4 rounded-3xl border p-4 sm:gap-8 sm:p-10 lg:grid-cols-[minmax(0,1fr)_20rem]">
+        <div className="min-w-0">
           <h1 className="text-[2.2rem] leading-[1.05] font-bold sm:text-[2.8rem]">
             Học theo từng chặng, <em className="text-merged not-italic">nhớ theo từng bài.</em>
           </h1>
@@ -40,7 +40,7 @@ export function TracksHome() {
           <Link
             href={grammarHref}
             aria-label={`Mở bài ngữ pháp tiếp theo: ${next.lesson.title.en}`}
-            className="bg-ink text-paper flex flex-col rounded-2xl p-5 hover:brightness-110"
+            className="bg-ink text-paper flex min-w-0 flex-col rounded-2xl p-4 hover:brightness-110 sm:p-5"
           >
             <span className="flex items-center gap-3">
               <span className="bg-merged grid h-10 w-10 place-items-center rounded-lg font-mono font-bold">
@@ -83,7 +83,7 @@ export function TracksHome() {
         <h2 id="choose-title" className="text-[1.4rem] font-bold">
           Chọn nội dung học
         </h2>
-        <div className="mt-4 grid gap-3 sm:grid-cols-2">
+        <div className="mt-4 grid gap-4 sm:grid-cols-2">
           {grammar && <TrackCard t={grammar} />}
           {vocab && <TrackCard t={vocab} />}
         </div>

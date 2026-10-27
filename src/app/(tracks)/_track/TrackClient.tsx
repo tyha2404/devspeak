@@ -55,7 +55,7 @@ export function TrackClient({ track }: { track: StudyTrack }) {
   const totalWords = published.reduce((n, u) => n + u.lessons.reduce((m, l) => m + l.words, 0), 0);
 
   return (
-    <div>
+    <div className="dq-page-enter">
       <div className="flex flex-wrap items-end justify-between gap-4">
         <div className="min-w-0">
           <p className="text-muted flex items-center gap-2 text-sm font-semibold tracking-[0.14em] uppercase">
@@ -77,7 +77,7 @@ export function TrackClient({ track }: { track: StudyTrack }) {
               key={t}
               href={`/${t}`}
               aria-current={t === track ? "page" : undefined}
-              className={`rounded-lg px-4 py-2 text-sm font-semibold ${
+              className={`inline-flex min-h-11 items-center rounded-lg px-4 text-sm font-semibold ${
                 t === track ? "bg-amber text-on-amber" : "text-ink hover:bg-paper"
               }`}
             >
@@ -87,12 +87,12 @@ export function TrackClient({ track }: { track: StudyTrack }) {
         </div>
       </div>
 
-      <div className="mt-8 md:grid md:grid-cols-[17rem_1fr] md:items-start md:gap-6">
+      <div className="mt-4 sm:mt-8 md:grid md:grid-cols-[17rem_minmax(0,1fr)] md:items-start md:gap-6">
         <aside
           aria-label={copy.aside}
-          className="border-line bg-surface overflow-hidden rounded-3xl border md:sticky md:top-24"
+          className="border-line bg-surface min-w-0 overflow-hidden rounded-3xl border md:sticky md:top-24"
         >
-          <div className="bg-amber text-on-amber px-5 py-5">
+          <div className="bg-amber text-on-amber px-4 py-5 sm:px-5">
             <p className="text-xs font-semibold tracking-[0.14em] uppercase opacity-80">
               {track === "grammar" ? "Lộ trình CEFR" : "Thư viện chủ đề"}
             </p>
@@ -103,17 +103,17 @@ export function TrackClient({ track }: { track: StudyTrack }) {
                 : `${stage.units.length} chủ đề · ${totalWords} mục từ đã mở`}
             </p>
           </div>
-          <ul className="flex gap-2 overflow-x-auto p-3 md:max-h-[70vh] md:flex-col md:overflow-y-auto">
+          <ul className="flex snap-x snap-mandatory gap-3 overflow-x-auto overscroll-x-contain p-4 md:max-h-[70vh] md:flex-col md:overflow-y-auto">
             {stage.units.map((u) => {
               const done = lessonsDone(u);
               const selected = u.id === unit?.id;
               return (
-                <li key={u.id} className="shrink-0">
+                <li key={u.id} className="max-w-full shrink-0 snap-start">
                   <button
                     onClick={() => setUnitId(u.id)}
                     disabled={!open(u)}
                     aria-pressed={selected}
-                    className={`flex w-56 items-center gap-3 rounded-2xl border p-3 text-left md:w-full ${
+                    className={`flex w-56 max-w-full items-center gap-3 rounded-2xl border p-3 text-left md:w-full ${
                       selected
                         ? "border-merged bg-merged-soft"
                         : "border-line bg-surface hover:border-merged/60"
@@ -139,13 +139,13 @@ export function TrackClient({ track }: { track: StudyTrack }) {
                       </span>
                       <span className="bg-line mt-1.5 block h-1 overflow-hidden rounded-full">
                         <span
-                          className="bg-merged block h-full"
+                          className="dq-progress bg-merged block h-full"
                           style={{ width: `${(100 * done) / Math.max(1, u.lessons.length)}%` }}
                         />
                       </span>
                     </span>
                     {(u.state === "locked" || u.state === "coming_soon") && (
-                      <span className="bg-paper text-muted rounded-md px-1.5 py-0.5 text-[0.65rem] font-bold uppercase">
+                      <span className="bg-paper text-muted rounded-md px-1.5 py-0.5 text-xs font-bold uppercase">
                         Khoá
                       </span>
                     )}
@@ -158,14 +158,15 @@ export function TrackClient({ track }: { track: StudyTrack }) {
 
         {unit && (
           <section
+            key={unit.id}
             aria-label={unit.title.vi}
-            className="border-line bg-surface mt-6 rounded-3xl border p-5 sm:p-8 md:mt-0"
+            className="dq-enter border-line bg-surface mt-4 min-w-0 rounded-3xl border p-4 sm:mt-6 sm:p-8 md:mt-0"
           >
             <div className="flex flex-wrap items-center gap-4">
-              <span className="bg-merged text-on-amber grid h-14 w-14 place-items-center rounded-2xl font-mono text-lg font-bold">
+              <span className="bg-merged text-on-amber grid h-14 w-14 shrink-0 place-items-center rounded-2xl font-mono text-lg font-bold">
                 {unit.code}
               </span>
-              <div>
+              <div className="min-w-0 flex-1">
                 <p className="font-display text-[1.4rem] leading-tight">{unit.title.en}</p>
                 <p className="text-muted text-sm">
                   {track === "grammar"
@@ -176,7 +177,7 @@ export function TrackClient({ track }: { track: StudyTrack }) {
             </div>
 
             {track === "grammar" && open(unit) && unit.lessons.length > 0 && (
-              <div className="bg-amber text-on-amber mt-6 flex flex-wrap items-center justify-between gap-4 rounded-2xl p-5">
+              <div className="bg-amber text-on-amber mt-6 flex flex-wrap items-center justify-between gap-4 rounded-2xl p-4 sm:p-5">
                 <div>
                   <p className="text-xs font-semibold tracking-[0.14em] uppercase opacity-80">
                     Bài kiểm tra vượt cấp · mốc đạt 80%
@@ -204,7 +205,7 @@ export function TrackClient({ track }: { track: StudyTrack }) {
             {unit.lessons.length === 0 ? (
               <p className="text-muted mt-6">{copy.empty}</p>
             ) : (
-              <ol className="mt-8">
+              <ol className="mt-5 sm:mt-8">
                 {unit.lessons.map((l, i) => (
                   <li key={l.id} className="relative">
                     {i > 0 && (
@@ -214,7 +215,7 @@ export function TrackClient({ track }: { track: StudyTrack }) {
                       />
                     )}
                     <div
-                      className={`mb-6 flex items-center gap-4 ${i % 2 ? "md:flex-row-reverse" : ""}`}
+                      className={`mb-6 flex items-center gap-3 sm:gap-4 ${i % 2 ? "md:flex-row-reverse" : ""}`}
                     >
                       <button
                         onClick={() => setInfo(l)}
@@ -222,7 +223,7 @@ export function TrackClient({ track }: { track: StudyTrack }) {
                         aria-label={`${String(i + 1).padStart(2, "0")} ${
                           l.state === "completed" ? "Xong" : l.state === "locked" ? "Khoá" : "Học"
                         }`}
-                        className={`grid h-20 w-20 shrink-0 place-items-center rounded-full border-4 text-center ${
+                        className={`grid h-16 w-16 shrink-0 place-items-center rounded-full border-4 text-center sm:h-20 sm:w-20 ${
                           l.state === "completed"
                             ? "border-merged bg-merged-soft"
                             : l.state === "locked"
@@ -231,10 +232,10 @@ export function TrackClient({ track }: { track: StudyTrack }) {
                         }`}
                       >
                         <span>
-                          <span className="block font-mono text-xl font-bold">
+                          <span className="block font-mono text-lg font-bold sm:text-xl">
                             {String(i + 1).padStart(2, "0")}
                           </span>
-                          <span className="flex items-center justify-center gap-0.5 text-[0.6rem] font-bold uppercase">
+                          <span className="flex items-center justify-center gap-0.5 text-xs font-bold uppercase">
                             {l.state === "completed" ? (
                               <>
                                 <Check size={10} aria-hidden /> Xong
@@ -252,20 +253,20 @@ export function TrackClient({ track }: { track: StudyTrack }) {
                       <button
                         onClick={() => setInfo(l)}
                         disabled={l.state === "locked"}
-                        className="border-line bg-surface hover:border-merged/60 flex min-w-0 flex-1 items-center gap-3 rounded-2xl border p-4 text-left disabled:opacity-55 md:max-w-[26rem]"
+                        className="border-line bg-surface hover:border-merged/60 flex h-28 min-w-0 flex-1 items-center gap-3 rounded-2xl border p-3 text-left disabled:opacity-55 sm:p-4 md:max-w-[26rem]"
                       >
                         <span className="min-w-0 flex-1">
-                          <span className="text-bad block text-[0.7rem] font-bold tracking-wide uppercase">
+                          <span className="text-bad block truncate text-xs font-bold tracking-wide uppercase">
                             {track === "grammar"
                               ? (l.group ?? "Ngữ pháp")
                               : `${l.words} mục từ · ${l.questionCount} câu`}
                           </span>
-                          <span className="font-display block text-[1.2rem] leading-tight">
+                          <span className="font-display line-clamp-2 text-[1.2rem] leading-tight [overflow-wrap:anywhere]">
                             {track === "grammar"
                               ? l.title.en
                               : `Bài từ vựng ${String(i + 1).padStart(2, "0")}`}
                           </span>
-                          <span className="text-muted block text-sm">
+                          <span className="text-muted block truncate text-sm">
                             {l.state === "locked"
                               ? "Hoàn thành bài trước để mở"
                               : l.history
@@ -323,7 +324,7 @@ function TopicHeader({ unit }: { unit: PathUnit }) {
   };
   const count = unit.lessons.reduce((n, l) => n + l.questionCount, 0);
   return (
-    <div className="border-line bg-surface mb-4 flex flex-wrap items-center justify-between gap-3 rounded-2xl border p-5">
+    <div className="border-line bg-surface mb-4 flex flex-wrap items-center justify-between gap-3 rounded-2xl border p-4 sm:p-5">
       <div>
         <p className="text-muted text-xs font-semibold uppercase">Chủ đề {unit.code.slice(1)}</p>
         <p className="font-semibold">
@@ -339,9 +340,9 @@ function TopicHeader({ unit }: { unit: PathUnit }) {
       <dialog
         ref={ref}
         aria-label={`Toàn bộ từ của chủ đề ${unit.title.vi}`}
-        className="bg-surface text-ink backdrop:bg-ink/50 m-auto max-h-[85dvh] w-[min(40rem,calc(100vw-2rem))] rounded-2xl p-0 shadow-xl"
+        className="bg-surface text-ink backdrop:bg-ink/50 m-auto max-h-[85dvh] w-[min(40rem,calc(100vw-2rem))] rounded-2xl p-0 [overflow-wrap:anywhere] shadow-xl"
       >
-        <div className="border-line bg-surface sticky top-0 flex items-center justify-between border-b px-5 py-3">
+        <div className="border-line bg-surface sticky top-0 flex items-center justify-between border-b px-4 py-3 sm:px-5">
           <p className="font-semibold">
             {unit.title.vi}
             {words && <span className="text-muted"> · {words.length} mục từ</span>}
@@ -351,13 +352,13 @@ function TopicHeader({ unit }: { unit: PathUnit }) {
           </button>
         </div>
         {!words ? (
-          <div className="p-5">
+          <div className="p-4 sm:p-5">
             <LoadingState compact />
           </div>
         ) : (
           <ol className="divide-line divide-y">
             {words.map((w, i) => (
-              <li key={w.slug} className="flex gap-3 px-5 py-3">
+              <li key={w.slug} className="flex gap-3 px-4 py-3 sm:px-5">
                 <span className="text-muted w-6 shrink-0 font-mono text-sm">{i + 1}</span>
                 <span className="min-w-0">
                   <span className="block font-semibold">
@@ -412,10 +413,10 @@ function LessonInfo({
       ref={ref}
       onClose={onClose}
       aria-labelledby="lesson-info-title"
-      className="bg-surface text-ink backdrop:bg-ink/50 m-auto w-[min(36rem,calc(100vw-2rem))] rounded-2xl p-0 shadow-xl"
+      className="bg-surface text-ink backdrop:bg-ink/50 m-auto w-[min(36rem,calc(100vw-2rem))] rounded-2xl p-0 [overflow-wrap:anywhere] shadow-xl"
     >
       {lesson && unit && (
-        <div className="p-6">
+        <div className="p-4 sm:p-6">
           <div className="flex items-start gap-4">
             <span className="bg-ink text-paper grid h-12 w-12 shrink-0 place-items-center rounded-xl font-mono font-bold">
               {String(index).padStart(2, "0")}
@@ -429,7 +430,11 @@ function LessonInfo({
               </h2>
               <p className="text-muted text-sm">{lesson.title.vi}</p>
             </div>
-            <button onClick={onClose} aria-label="Đóng thông tin bài học" className={btn.ghost}>
+            <button
+              onClick={onClose}
+              aria-label="Đóng thông tin bài học"
+              className={`${btn.ghost} min-h-11 min-w-11`}
+            >
               <X size={18} aria-hidden />
             </button>
           </div>

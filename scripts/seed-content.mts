@@ -47,9 +47,9 @@ const source = must(
     .upsert(
       {
         slug: "devquest-original",
-        name: "DevQuest English original content",
+        name: "DevSpeak original content",
         license_spdx: "proprietary-own",
-        attribution_text: "Written by the DevQuest English team.",
+        attribution_text: "Written by the DevSpeak team.",
         share_alike: false,
         commercial_ok: true,
       },

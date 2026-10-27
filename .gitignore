@@ -41,7 +41,7 @@ yarn-error.log*
 *.tsbuildinfo
 next-env.d.ts
 
-# devquest
+# devspeak
 /content/raw/
 /supabase/.temp/
 /supabase/.branches/

@@ -3,11 +3,11 @@ import { createClient } from "@/lib/supabase/server";
 
 export const dynamic = "force-dynamic";
 
-export const metadata: Metadata = { title: "Credits · DevQuest English" };
+export const metadata: Metadata = { title: "Credits · DevSpeak" };
 
 // Every third-party asset or dataset must be listed here with its license.
 const ART = [
-  { name: "DevQuest character portraits", license: "CC0 1.0", url: null },
+  { name: "DevSpeak character portraits", license: "CC0 1.0", url: null },
   { name: "Lucide icons", license: "ISC", url: "https://lucide.dev" },
   {
     name: "Be Vietnam Pro (font)",
@@ -31,9 +31,7 @@ export default async function CreditsPage() {
   return (
     <main className="mx-auto max-w-2xl px-4 py-16">
       <h1 className="text-3xl font-bold">Credits</h1>
-      <p className="text-muted mt-2">
-        Cảm ơn các tác giả nội dung mở đã giúp DevQuest English ra đời.
-      </p>
+      <p className="text-muted mt-2">Cảm ơn các tác giả nội dung mở đã giúp DevSpeak ra đời.</p>
       <h2 className="mt-8 text-xl font-semibold">Dữ liệu từ vựng &amp; câu ví dụ</h2>
       <ul className="mt-3 space-y-3">
         {(sources ?? []).map((s) => (

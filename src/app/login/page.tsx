@@ -4,7 +4,7 @@ import { safeAuthNext } from "@/lib/auth/redirect";
 import { LoginForm } from "./LoginForm";
 
 export const metadata: Metadata = {
-  title: "Đăng nhập · DevQuest English",
+  title: "Đăng nhập · DevSpeak",
   robots: { index: false },
 };
 
@@ -18,7 +18,7 @@ export default async function LoginPage({
   return (
     <div className="min-h-dvh">
       <TracksHeader />
-      <main className="mx-auto max-w-md px-4 py-10">
+      <main className="mx-auto max-w-md px-4 py-6 sm:py-10">
         {error && (
           <p role="alert" className="bg-bad-soft text-bad mb-4 rounded-xl px-4 py-3 text-sm">
             Link đã hết hạn hoặc không hợp lệ. Hãy thử lại.

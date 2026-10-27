@@ -107,7 +107,7 @@ export function LoginForm({ next, initialMode }: { next: string; initialMode: Mo
   }[mode];
 
   return (
-    <div className="dq-enter border-line bg-surface rounded-3xl border p-6 shadow-sm sm:p-8">
+    <div className="dq-enter border-line bg-surface rounded-3xl border p-4 shadow-sm sm:p-8">
       <p className="text-merged text-xs font-semibold tracking-[0.14em] uppercase">
         Tài khoản học tập
       </p>
@@ -131,7 +131,7 @@ export function LoginForm({ next, initialMode }: { next: string; initialMode: Mo
               aria-selected={mode === m}
               disabled={pending}
               onClick={() => changeMode(m)}
-              className={`rounded-lg py-2 text-sm font-semibold ${
+              className={`min-h-11 rounded-lg text-sm font-semibold ${
                 mode === m ? "bg-surface shadow-sm" : "text-muted"
               }`}
             >
@@ -187,7 +187,7 @@ export function LoginForm({ next, initialMode }: { next: string; initialMode: Mo
             type="button"
             disabled={pending}
             onClick={() => changeMode("forgot")}
-            className="text-muted text-sm underline"
+            className="text-muted min-h-11 text-sm underline"
           >
             Quên mật khẩu?
           </button>
@@ -233,7 +233,10 @@ export function LoginForm({ next, initialMode }: { next: string; initialMode: Mo
         </button>
       )}
 
-      <Link href="/" className="text-muted mt-6 block text-center text-sm underline">
+      <Link
+        href="/"
+        className="text-muted mt-4 flex min-h-11 items-center justify-center text-sm underline"
+      >
         Học tiếp với tư cách khách
       </Link>
     </div>

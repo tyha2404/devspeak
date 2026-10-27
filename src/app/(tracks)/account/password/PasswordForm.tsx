@@ -50,7 +50,7 @@ export function PasswordForm() {
   };
 
   return (
-    <div className="border-line bg-surface mx-auto max-w-md rounded-3xl border p-6 sm:p-8">
+    <div className="border-line bg-surface mx-auto max-w-md rounded-3xl border p-4 sm:p-8">
       <h1 className="text-[2rem] leading-tight">Đặt mật khẩu mới</h1>
       {me?.email && <p className="text-muted mt-1 text-sm">Tài khoản: {me.email}</p>}
       {state === "saved" ? (
@@ -58,8 +58,8 @@ export function PasswordForm() {
           <p role="status" className="bg-ok-soft mt-5 rounded-xl px-4 py-3 text-sm">
             Đã lưu mật khẩu mới.
           </p>
-          <Link href="/profile" className={`${btn.primary} mt-5`}>
-            Về trang cá nhân
+          <Link href="/settings" className={`${btn.primary} mt-5`}>
+            Về cài đặt
           </Link>
         </>
       ) : (

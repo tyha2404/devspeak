@@ -99,7 +99,7 @@ export function TrackCards({
         </p>
         <div className="bg-line h-1.5 min-w-24 flex-1 overflow-hidden rounded-full">
           <div
-            className="bg-merged h-full rounded-full"
+            className="dq-progress bg-merged h-full rounded-full"
             style={{ width: `${(100 * left) / STUDY_MS}%` }}
           />
         </div>
@@ -120,10 +120,10 @@ export function TrackCards({
           onClick={() => setFlipped((f) => !f)}
           aria-pressed={flipped}
           aria-label={flipped ? "Lật về mặt từ" : "Lật sang mặt nghĩa"}
-          className="block min-h-64 w-full p-6 text-center sm:p-8"
+          className="block min-h-64 w-full p-4 text-center [overflow-wrap:anywhere] sm:p-8"
         >
           {flipped ? (
-            <span className="block">
+            <span key={`${w.slug}:meaning`} className="dq-enter block">
               <span className="text-bad text-xs font-semibold tracking-wide uppercase">
                 Nghĩa · cách dùng · ví dụ
               </span>
@@ -143,7 +143,7 @@ export function TrackCards({
               )}
             </span>
           ) : (
-            <span className="block">
+            <span key={`${w.slug}:word`} className="dq-enter block">
               <span className="text-muted text-xs font-semibold tracking-wide uppercase">
                 {w.pos}
               </span>
@@ -152,12 +152,12 @@ export function TrackCards({
             </span>
           )}
         </button>
-        <div className="border-line bg-paper flex items-center justify-end gap-3 border-t px-4 py-2">
+        <div className="border-line bg-paper flex flex-wrap items-center justify-end gap-3 border-t px-4 py-2">
           {w.ipa && <span className="text-muted font-mono text-sm">{w.ipa}</span>}
           <button
             onClick={say}
             aria-label={`Nghe phát âm: ${w.lemma}`}
-            className="border-line bg-surface inline-flex items-center gap-1.5 rounded-lg border px-3 py-1.5 text-sm font-semibold"
+            className="border-line bg-surface inline-flex min-h-11 items-center gap-1.5 rounded-lg border px-3 text-sm font-semibold"
           >
             <Volume2 size={16} aria-hidden /> Nghe
           </button>

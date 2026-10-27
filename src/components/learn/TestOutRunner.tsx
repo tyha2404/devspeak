@@ -43,9 +43,9 @@ export function TestOutRunner({ unitId, backHref }: { unitId: number; backHref: 
 
   return (
     <div className="min-h-dvh">
-      <TracksHeader />
+      <TracksHeader focus />
       <TrackStepper exitHref={backHref} phase={result ? 2 : started ? 1 : 0} />
-      <main className="mx-auto max-w-3xl px-4 py-6 sm:py-10">
+      <main className="mx-auto max-w-3xl px-4 py-4 sm:py-10">
         {error && <p className="text-bad mb-4">{error}</p>}
         {!started && !result && (
           <TestIntro

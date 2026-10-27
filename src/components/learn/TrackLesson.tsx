@@ -46,12 +46,15 @@ export function TrackLesson({ view, run }: { view: LessonView; run: LessonStart 
   const next = result?.next;
   return (
     <div className="min-h-dvh">
-      <TracksHeader />
+      <TracksHeader focus />
       <TrackStepper
         exitHref={trackHref}
         phase={phase === "study" ? 0 : phase === "result" ? 2 : 1}
       />
-      <main className="mx-auto max-w-3xl px-4 py-6 sm:py-10">
+      <main
+        key={phase}
+        className="dq-page-enter mx-auto max-w-3xl min-w-0 px-4 py-4 [overflow-wrap:anywhere] sm:py-10"
+      >
         {error && <p className="text-bad mb-4">{error}</p>}
         {phase === "study" && (
           <>

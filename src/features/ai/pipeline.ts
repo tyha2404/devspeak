@@ -49,10 +49,9 @@ async function aiSourceId(db: SupabaseClient) {
       .upsert(
         {
           slug: "claude-generated",
-          name: "Generated with Claude, reviewed by DevQuest editors",
+          name: "Generated with Claude, reviewed by DevSpeak editors",
           license_spdx: "proprietary-own",
-          attribution_text:
-            "Exercises generated with Claude and reviewed by the DevQuest English team.",
+          attribution_text: "Exercises generated with Claude and reviewed by the DevSpeak team.",
           share_alike: false,
           commercial_ok: true,
         },

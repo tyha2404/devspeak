@@ -37,7 +37,7 @@ export function PracticeRunner({ lessonId }: { lessonId: number }) {
   return (
     <div className="min-h-dvh">
       <TracksHeader />
-      <main className="mx-auto max-w-3xl px-4 py-6 sm:py-10">
+      <main className="mx-auto max-w-3xl px-4 py-4 sm:py-10">
         {error && <p className="text-bad mb-4">{error}</p>}
         {sessionId && !done && (
           <TrackQuiz

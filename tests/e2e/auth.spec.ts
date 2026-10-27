@@ -78,7 +78,12 @@ test("a guest signs up, keeps their progress, signs out and back in", async ({ p
     .single();
   expect(profile!.xp_total).toBe(80);
 
-  await page.getByRole("button", { name: "Đăng xuất" }).click();
+  // Account actions live on the settings page, reached from the account menu.
+  await page.locator("summary").click();
+  await page.getByRole("link", { name: "Cài đặt →" }).click();
+  await expect(page.getByRole("heading", { level: 1, name: "Cài đặt" })).toBeVisible();
+  await expect(page.getByLabel("Tên hiển thị")).toHaveValue("Minh");
+  await page.getByRole("main").getByRole("button", { name: "Đăng xuất" }).click();
   await page.waitForURL((u) => u.pathname === "/");
   await page.goto("/login?next=/profile");
   await page.getByLabel("Email").fill(email);
@@ -114,8 +119,8 @@ test("a recovery link opens the password form and the new password works", async
     await page.getByLabel("Nhập lại mật khẩu").fill("new-secret-123");
     await page.getByRole("button", { name: "Lưu mật khẩu" }).click();
     await expect(page.getByText("Đã lưu mật khẩu mới.")).toBeVisible();
-    await page.getByRole("link", { name: "Về trang cá nhân" }).click();
-    await page.getByRole("button", { name: "Đăng xuất" }).click();
+    await page.getByRole("link", { name: "Về cài đặt" }).click();
+    await page.getByRole("main").getByRole("button", { name: "Đăng xuất" }).click();
     await page.waitForURL((url) => url.pathname === "/");
     await page.goto("/login?next=/profile");
     await page.getByLabel("Email").fill(email);

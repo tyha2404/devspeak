@@ -8,7 +8,7 @@ export const GET = withUser(
   async ({ userId }) =>
     NextResponse.json(await exportAccount(createAdminClient(), userId), {
       headers: {
-        "Content-Disposition": `attachment; filename="devquest-export.json"`,
+        "Content-Disposition": `attachment; filename="devspeak-export.json"`,
         "Cache-Control": "no-store",
       },
     }),

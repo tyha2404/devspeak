@@ -2,8 +2,8 @@ import type { MetadataRoute } from "next";
 
 export default function manifest(): MetadataRoute.Manifest {
   return {
-    name: "DevQuest English",
-    short_name: "DevQuest",
+    name: "DevSpeak",
+    short_name: "DevSpeak",
     description: "Ngữ pháp theo bậc CEFR A1 → C2 và từ vựng theo chủ đề.",
     start_url: "/",
     display: "standalone",

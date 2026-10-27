@@ -4,8 +4,8 @@ import { TracksHeader } from "@/components/app/TracksHeader";
 export function LessonLoading() {
   return (
     <div className="min-h-dvh">
-      <TracksHeader />
-      <main className="mx-auto max-w-3xl px-4 py-10 sm:py-16" aria-busy="true">
+      <TracksHeader focus />
+      <main className="mx-auto max-w-3xl px-4 py-6 sm:py-16" aria-busy="true">
         <LessonPendingState />
       </main>
     </div>
@@ -18,7 +18,7 @@ export function LessonPendingState({ saving = false }: { saving?: boolean }) {
   return (
     <section
       aria-busy="true"
-      className="flex min-h-[45svh] flex-col items-center justify-center px-4 py-10 text-center"
+      className="flex min-h-[45svh] flex-col items-center justify-center px-4 py-6 text-center sm:py-10"
     >
       <div className="relative mb-6 flex size-20 items-center justify-center" aria-hidden="true">
         <LoaderCircle className="dq-spin text-merged/60 absolute inset-0 size-20" strokeWidth={1} />

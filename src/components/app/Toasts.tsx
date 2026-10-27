@@ -12,7 +12,7 @@ export function Toasts() {
       {toasts.map((t) => (
         <div
           key={t.id}
-          className="bg-ink text-paper rounded-lg px-4 py-2 text-sm font-medium shadow-lg"
+          className="dq-arrive bg-ink text-paper rounded-lg px-4 py-2 text-sm font-medium shadow-lg"
         >
           {t.text}
         </div>

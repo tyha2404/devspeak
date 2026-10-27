@@ -46,7 +46,7 @@ export function WordsClient() {
   if (!cards) return <LoadingState />;
 
   return (
-    <div>
+    <div className="dq-page-enter">
       <h1 className="text-[1.75rem] font-bold">Sổ tay từ vựng</h1>
       <p className="text-muted mt-1">{`${cards.length} từ · ${due} từ cần ôn hôm nay`}</p>
       <input

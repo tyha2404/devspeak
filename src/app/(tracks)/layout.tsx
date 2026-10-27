@@ -41,11 +41,11 @@ export default function TracksLayout({ children }: { children: ReactNode }) {
   return (
     <div className="min-h-dvh">
       <TracksHeader />
-      <main className="mx-auto max-w-6xl px-4 py-6 sm:px-6 md:py-10">
+      <main className="mx-auto max-w-6xl min-w-0 px-4 py-4 [overflow-wrap:anywhere] sm:px-6 sm:py-6 md:py-10">
         {!ready ? (
           <LoadingState />
         ) : startupError || !home ? (
-          <div className="border-line bg-surface mx-auto max-w-md rounded-2xl border p-6">
+          <div className="border-line bg-surface mx-auto max-w-md rounded-2xl border p-4 sm:p-6">
             <h1 className="text-xl">Chưa tải được dữ liệu học tập</h1>
             <p role="alert" className="text-muted mt-2 text-sm">
               Kiểm tra kết nối mạng rồi thử lại. Tiến độ đã lưu của bạn vẫn được giữ.

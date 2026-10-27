@@ -50,7 +50,7 @@ function present(d: DeliveryView) {
 function Sentence({ text }: { text: string }) {
   const parts = text.split("___");
   return (
-    <p className="border-merged bg-paper rounded-r-xl border-l-4 px-5 py-4 text-[1.35rem] leading-snug font-semibold">
+    <p className="border-merged bg-paper rounded-r-xl border-l-4 px-4 py-4 text-[1.35rem] leading-snug font-semibold sm:px-5">
       {parts.map((part, i) => (
         <span key={i}>
           {part}
@@ -327,7 +327,7 @@ export function TrackQuiz({
       {result && (
         <div
           role="status"
-          className={`mt-6 flex flex-wrap items-center gap-4 rounded-2xl border p-5 ${
+          className={`dq-enter mt-6 flex flex-wrap items-center gap-4 rounded-2xl border p-4 sm:p-5 ${
             result.correct ? "border-ok bg-ok-soft" : "border-bad bg-bad-soft"
           }`}
         >

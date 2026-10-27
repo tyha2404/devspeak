@@ -1,4 +1,4 @@
-# DevQuest English
+# DevSpeak
 
 English-learning app for Vietnamese learners, modelled on ForumFlash: two study tracks — grammar by CEFR
 level (A1 → C2) and vocabulary by topic (25 topics) — where every lesson is a study phase plus a timed

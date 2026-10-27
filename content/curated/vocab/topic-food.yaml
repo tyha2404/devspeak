@@ -1429,8 +1429,8 @@
     examples:
       [
         {
-          en: "I have a reservation under DevQuest for seven.",
-          vi: "Mình có đặt chỗ tên DevQuest lúc bảy giờ.",
+          en: "I have a reservation under DevSpeak for seven.",
+          vi: "Mình có đặt chỗ tên DevSpeak lúc bảy giờ.",
         },
       ],
   }

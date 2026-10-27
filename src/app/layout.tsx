@@ -27,7 +27,7 @@ const site = process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
 
 export const metadata: Metadata = {
   metadataBase: new URL(site),
-  title: { default: "DevQuest English · Ngữ pháp và từ vựng theo lộ trình", template: "%s" },
+  title: { default: "DevSpeak · Ngữ pháp và từ vựng theo lộ trình", template: "%s" },
   description:
     "Ngữ pháp theo bậc CEFR A1 → C2, từ vựng theo chủ đề và lộ trình tiếng Anh công việc cho lập trình viên Việt Nam. Mỗi bài gồm phần học và bài kiểm tra.",
   keywords: [
@@ -40,14 +40,20 @@ export const metadata: Metadata = {
   ],
   openGraph: {
     type: "website",
-    siteName: "DevQuest English",
+    siteName: "DevSpeak",
     locale: "vi_VN",
-    title: "DevQuest English · Ngữ pháp và từ vựng theo lộ trình",
+    title: "DevSpeak · Ngữ pháp và từ vựng theo lộ trình",
     description:
       "Học theo từng chặng, nhớ theo từng bài: ngữ pháp A1 → C2, từ vựng theo chủ đề, tiếng Anh công việc.",
   },
   manifest: "/manifest.webmanifest",
-  icons: { icon: "/icon.png", apple: "/apple-icon.png" },
+  icons: {
+    icon: [
+      { url: "/brand/mark.svg", type: "image/svg+xml" },
+      { url: "/icon.png", sizes: "32x32", type: "image/png" },
+    ],
+    apple: "/apple-icon.png",
+  },
 };
 
 export const viewport: Viewport = { themeColor: "#f7f4ed", width: "device-width", initialScale: 1 };
