@@ -10,9 +10,16 @@ const profanity = new RegExpMatcher({
 });
 const VI_BANNED = ["địt", "đụ", "lồn", "cặc", "đéo", "đm", "vcl", "vkl"];
 
-const MAX_WORDS: Record<string, number> = { A1: 10, A2: 12, B1: 18, B2: 25, C1: 30 };
+const MAX_WORDS: Record<string, number> = { A1: 10, A2: 12, B1: 18, B2: 25, C1: 30, C2: 30 };
 /** Share of tokens that must be "known" (common list + target forms) per level. */
-const COVERAGE: Record<string, number> = { A1: 0.95, A2: 0.95, B1: 0.93, B2: 0.92, C1: 0.9 };
+const COVERAGE: Record<string, number> = {
+  A1: 0.95,
+  A2: 0.95,
+  B1: 0.93,
+  B2: 0.92,
+  C1: 0.9,
+  C2: 0.88,
+};
 
 export interface ValidationContext {
   senseSlug: string;

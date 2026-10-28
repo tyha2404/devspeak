@@ -27,29 +27,36 @@ export const PERSONAS: Record<string, string> = {
 };
 
 // Stable authoring rules: identical bytes on every request so the prefix caches.
-const GENERATION_RULES = `You write English-learning exercises for Vietnamese software developers (CEFR A2–B2) inside a
-pixel-art office game. Every item practises ONE target word sense in a realistic IT workplace situation.
+const GENERATION_RULES = `You write English-learning exercises for DevSpeak, an app for Vietnamese adults learning
+everyday and work English by topic (food, travel, health, money, the office, …) at CEFR levels A1–C2.
+Every item practises ONE target word sense in a realistic situation from the sense's topic.
 
 Rules
-- Sentence length: A2 ≤ 12 words, B1 ≤ 18, B2 ≤ 25. Use common words; the target may be harder.
+- Sentence length: A1 ≤ 10 words, A2 ≤ 12, B1 ≤ 18, B2 ≤ 25, C1/C2 ≤ 30. Keep the other words at or
+  below the target's level; the target itself may be harder.
+- Situations, names and speakers must vary: use the scenario variation number to pick a different
+  setting, speaker and sentence pattern each time (home, street, shop, school, office, phone, message…).
+  Use common Vietnamese or international first names; never the same sentence twice across items.
 - Mark the target in mcq stems as [[surface form|SENSE_SLUG]] using the slug you are given.
 - Exactly one correct option. Distractors: same part of speech, similar length, plausible but clearly wrong,
-  never a synonym or another form of the answer.
+  never a synonym or another form of the answer, and no swap that also makes a correct sentence.
 - mcq_meaning options are short Vietnamese meanings; other option lists are English.
-- fill_blank: exactly one "___"; the answer must be a form of the target word.
+- fill_blank: exactly one "___"; the answer must be a form of the target word. Pick the skin that fits
+  the situation: "slack" = chat message, "email" = email, "jira"/"vscode" only for software-team topics.
 - sentence_order: one natural sentence, 4–10 words, using the target.
 - error_correction: exactly one error; "wrong" is the 0-based index when splitting the sentence on spaces.
-- reply_choice: 1–2 context lines from the NPC; the correct reply is polite and professional.
-- listening: what the NPC says aloud; the question tests understanding, not word matching.
+- reply_choice: 1–2 context lines from a named speaker; the correct reply is natural and polite for the
+  situation (casual with friends, more formal with strangers or at work).
+- listening: what the speaker says aloud; the question tests understanding, not word matching.
 - hint_vi helps without revealing the answer. explanation_vi: ≤ 2 sentences, friendly, in Vietnamese.
 - No real company or product names, politics, religion, stereotypes, profanity or personal data.
 - Produce 6 items: one of each type, in this order: mcq_meaning, fill_blank, sentence_order,
   error_correction, reply_choice, listening.
 
 Example of a good mcq_meaning item:
-{"type":"mcq_meaning","stem":"Any [[blockers|blocker-n]] today?","question":"A blocker is…",
- "options":["Vấn đề khiến bạn không làm tiếp được","Một loại bàn phím","Người quản lý dự án","Một ngày nghỉ"],
- "answer":0,"hint_vi":"Nghĩ về thứ chặn công việc của bạn.","explanation_vi":"Blocker là vướng mắc chặn công việc."}`;
+{"type":"mcq_meaning","stem":"I'm [[starving|starving-adj]] — let's eat now.","question":"Starving means…",
+ "options":["Rất đói","Rất mệt","Rất vui","Rất no"],
+ "answer":0,"hint_vi":"Người nói muốn đi ăn ngay.","explanation_vi":"Starving là đói cồn cào, mạnh hơn hungry."}`;
 
 export interface GenerationTarget {
   senseId: number;
@@ -72,14 +79,7 @@ export function generationRequest(
   return {
     model,
     max_tokens: 16000,
-    system: [
-      { type: "text", text: GENERATION_RULES, cache_control: { type: "ephemeral" } },
-      {
-        type: "text",
-        text: `NPC voice for these items: ${PERSONAS[t.npcId] ?? PERSONAS.tuan}`,
-        cache_control: { type: "ephemeral" },
-      },
-    ],
+    system: [{ type: "text", text: GENERATION_RULES, cache_control: { type: "ephemeral" } }],
     messages: [
       {
         role: "user",
@@ -101,7 +101,7 @@ export function generationRequest(
   };
 }
 
-const QA_RULES = `You are checking an English-learning exercise for Vietnamese developers (CEFR A2–B2).`;
+const QA_RULES = `You are checking an English-learning exercise for Vietnamese adult learners (CEFR A1–C2).`;
 
 /** The item as the learner sees it: no answer key. */
 export function blindSolveRequest(

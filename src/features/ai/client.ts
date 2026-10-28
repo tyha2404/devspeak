@@ -1,5 +1,6 @@
 import "server-only";
 import type Anthropic from "@anthropic-ai/sdk";
+import { GeminiLlm } from "./gemini";
 import { AnthropicLlm, FakeLlm, type LlmClient } from "./llm";
 import { targetFromRequest } from "./prompts";
 import type { ItemPack } from "./schema";
@@ -103,19 +104,32 @@ function fakeChat(params: Anthropic.MessageCreateParamsNonStreaming) {
 let cached: LlmClient | undefined;
 
 /**
- * Real Claude only when explicitly enabled (LLM_FAKE=0) and a key is present: shells often carry an
- * unrelated ANTHROPIC_API_KEY, and local dev/CI must never spend money by accident.
+ * A real model only when explicitly enabled (LLM_FAKE=0) and the provider's key is present: shells often
+ * carry an unrelated API key, and local dev/CI must never spend money by accident.
+ * `LLM_PROVIDER=gemini` switches to Google AI Studio (GEMINI_API_KEY); default is Claude.
  */
 export function getLlm(): LlmClient {
   if (cached) return cached;
   if (llmIsFake()) {
     cached = new FakeLlm(fakeGenerate);
   } else {
-    cached = new AnthropicLlm(process.env.ANTHROPIC_API_KEY);
+    cached =
+      llmProvider() === "gemini"
+        ? new GeminiLlm(process.env.GEMINI_API_KEY, {
+            free: process.env.GEMINI_FREE_TIER === "1",
+            rpm: Number(process.env.GEMINI_RPM) || undefined,
+          })
+        : new AnthropicLlm(process.env.ANTHROPIC_API_KEY);
   }
   return cached;
 }
 
 export function llmIsFake() {
-  return process.env.LLM_FAKE !== "0" || !process.env.ANTHROPIC_API_KEY;
+  const key =
+    llmProvider() === "gemini" ? process.env.GEMINI_API_KEY : process.env.ANTHROPIC_API_KEY;
+  return process.env.LLM_FAKE !== "0" || !key;
+}
+
+export function llmProvider(): "anthropic" | "gemini" {
+  return process.env.LLM_PROVIDER === "gemini" ? "gemini" : "anthropic";
 }

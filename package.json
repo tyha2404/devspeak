@@ -26,10 +26,12 @@
     "seed:tatoeba": "node --env-file-if-exists=.env.local --import tsx scripts/seed/20-tatoeba.mts",
     "seed:kaikki": "node --env-file-if-exists=.env.local --import tsx scripts/seed/30-kaikki-vi.mts",
     "seed:all": "node --env-file-if-exists=.env.local --import tsx scripts/seed/run-all.mts",
+    "ai:draft": "node --env-file-if-exists=.env.local --conditions=react-server --import tsx scripts/ai-draft.mts",
     "tts": "node --import tsx scripts/build-tts.mts"
   },
   "dependencies": {
     "@anthropic-ai/sdk": "^1.2.0",
+    "@google/genai": "^2.31.0",
     "@sentry/nextjs": "^11.9.0",
     "@supabase/ssr": "^0.12.7",
     "@supabase/supabase-js": "^2.118.0",

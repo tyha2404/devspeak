@@ -14,10 +14,17 @@ import {
 import { BlindSolve, ItemPack, Rubric } from "./schema";
 import { toRow, validateGenerated } from "./validators";
 
+const GEMINI = process.env.LLM_PROVIDER === "gemini";
+const GEN = GEMINI
+  ? (process.env.GEMINI_MODEL_GEN ?? "gemini-2.5-pro")
+  : (process.env.ANTHROPIC_MODEL_GEN ?? "claude-sonnet-5-5");
+
 export const MODELS = {
-  gen: process.env.ANTHROPIC_MODEL_GEN ?? "claude-sonnet-5-5",
-  qa: process.env.ANTHROPIC_MODEL_QA ?? "claude-haiku-5-5",
-  rubric: process.env.ANTHROPIC_MODEL_GEN ?? "claude-sonnet-5-5",
+  gen: GEN,
+  qa: GEMINI
+    ? (process.env.GEMINI_MODEL_QA ?? "gemini-2.5-flash")
+    : (process.env.ANTHROPIC_MODEL_QA ?? "claude-haiku-5-5"),
+  rubric: GEN,
 };
 
 const TOPIC_NPC: Record<string, string> = {
